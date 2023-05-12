@@ -12,7 +12,7 @@ version=2
 	@player.move(1)
 	@text.show(<system.token(Gravel_Mart_Clerk_TimsPizza)>)
 	@item.give(69,1)
-	@sound.play(success_small,1)
+	@sound.play(Success,1)
 	@text.show(<system.token(Gravel_Mart_ReceivePizza)>)
 	@text.show(<system.token(Gravel_Mart_PizzaInPocket)>)
 	@register.register(pizza)
