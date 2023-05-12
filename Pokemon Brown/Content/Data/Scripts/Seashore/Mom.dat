@@ -1,0 +1,15 @@
+version=2
+
+:if:<register.registered(gotpokemon)>=False
+	@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_LookForTim)>)
+:else
+	@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_TakeARest)>)  
+	@Screen.FadeOut
+	@Pokemon.Heal
+	@Sound.Play(Heal_Party)
+	@Level.Wait(50)
+	@Screen.Fadein
+	@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_AfterRest)>)
+:endif
+@NPC.Turn(0,1)
+:end

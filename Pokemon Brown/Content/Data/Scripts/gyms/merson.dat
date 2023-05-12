@@ -1,0 +1,10 @@
+version=2
+
+:if:<register.registered(marinebadge_obtain)>=true
+:then
+	@text.show(Merson City Pokémon gym~Leader: Karpman*Winning Trainers:~Mura~<player.name>)
+
+:else
+	@text.show(Merson City Pokémon gym~Leader: Karpman*Winning Trainers:~Mura)
+:endif
+:end

@@ -1,0 +1,29 @@
+version=2
+
+:if:<register.registered(superrod)>=false
+:then
+	@text.show(Hi! Remember me?*I'm Prof. Tim's Aide!*If you caught 70 kinds of~Pokémon, I'm supposed to give~you an Super Rod!*So <player.name>! Have you~caught at least 70 kinds~of Pokémon?)
+	@options.show(Yes,No)
+
+:when:Yes
+:if:<pokedex.caught>>69
+:then
+	@text.show(Let's see...*Great!~Here you have the Super Rod!)
+	@item.give(61,1)
+	@item.messagegive(61,1)
+	@register.register(superrod)
+:end:
+:else
+	@text.show(Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 70 kinds if~you want the Super Rod.)
+:end:
+
+:when:No
+@text.show(Oh, I see.~When you get 70 kinds,~come back for Super Rod.)
+:end:
+
+:endwhen:
+
+:else
+	@text.show(Have fun with it!)
+:endif:
+:end

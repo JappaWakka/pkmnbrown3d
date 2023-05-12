@@ -1,0 +1,10 @@
+version=2
+
+:if:<inventory.countitem(127)>=True
+	@text.show(Bingo!~The Card Key opened the door!)
+	@entity.remove(8)
+	@level.update
+:else
+	@text.show(Darn! It needs a Card~Key!)
+:endif
+:end

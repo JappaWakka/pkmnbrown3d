@@ -1,0 +1,28 @@
+version=2
+
+:if:<register.registered(mansionlock)>=false
+    @text.show(A secret switch!*Press it?)
+    @options.show(Yes,No)
+		:when:No
+			 @text.show(Not quite yet!)
+			 :end
+		:when:Yes
+			 @text.show(Who wouldn't?)
+			 @register.register(mansionlock)
+			 @level.reload
+			 :end
+		:endwhen
+:else:
+    @text.show(A secret switch!*Press it?)
+    @options.show(Yes,No)
+		:when:No
+			 @text.show(Not quite yet!)
+			 :end
+		:when:Yes
+			 @text.show(Who wouldn't?)
+			 @register.unregister(mansionlock)
+			 @level.reload
+			 :end
+		:endwhen
+:endif
+:end

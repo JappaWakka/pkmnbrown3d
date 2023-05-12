@@ -1,0 +1,36 @@
+version=2
+
+:select:<level.filename>
+	:when:cave2
+		@player.warp(finaldungeon\warproom.dat,1,0.1,1)
+	:when:smallroom4
+		@player.warp(finaldungeon\warproom.dat,1,0.1,3)
+	:when:smallroom5
+		@player.warp(finaldungeon\warproom.dat,5,0.1,5)
+	:when:smallcave2
+		@player.warp(finaldungeon\warproom.dat,5,0.1,1)
+	:when:smallroom6
+		@player.warp(finaldungeon\warproom.dat,5,0.1,3)
+	:when:lobby
+		@player.warp(finaldungeon\warproom.dat,3,0.1,5)
+	:when:warproom
+		:select:<player.position>
+			:when:1,0,1
+				@player.warp(finaldungeon\cave2.dat,17,0.1,21)
+			:when:1,0,3
+				@player.warp(finaldungeon\smallroom4.dat,1,0.1,1)
+			:when:1,0,5
+				@player.warp(finaldungeon\warproom.dat,3,0.1,1)
+			:when:3,0,1
+				@player.warp(finaldungeon\warproom.dat,1,0.1,5)
+			:when:3,0,5
+				@player.warp(finaldungeon\lobby.dat,5,0.1,0)
+			:when:5,0,1
+				@player.warp(finaldungeon\smallcave2.dat,3,0.1,7)
+			:when:5,0,3
+				@player.warp(finaldungeon\smallroom6.dat,2,0.1,2)
+			:when:5,0,5
+				@player.warp(finaldungeon\smallroom5.dat,2,0.1,4)
+		:endwhen
+:endwhen
+:end

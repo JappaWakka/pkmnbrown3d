@@ -1,0 +1,23 @@
+version=2
+
+:select:<player.position>
+	:when:16,0,14
+		@screen.fadeout
+		@player.warp(Castro\mansion\main.dat,16,0.1,14)
+		@level.update
+		@screen.fadein
+		:end
+	:when:17,0,14
+		@screen.fadeout
+		@player.warp(Castro\mansion\main.dat,16,0.1,14)
+		@level.update
+		@screen.fadein
+		:end
+	:when:19,0,14
+		@screen.fadeout
+		@player.warp(Castro\mansion\1.dat,19,0.1,14)
+		@level.update
+		@screen.fadein
+		:end
+:endwhen
+:end

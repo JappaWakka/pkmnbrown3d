@@ -1,0 +1,6 @@
+version=2
+
+:if:<register.registered(bossbeaten)>=True
+	@npc.remove(3)
+:endif
+:end

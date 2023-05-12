@@ -1,0 +1,14 @@
+version=2
+@text.show(It's a bed.~Would you like to sleep?)
+@options.show(Yes,No)
+:when:Yes
+	@screen.fadeout
+	@pokemon.heal
+	@level.wait(50)
+	@screen.fadein
+	@text.show(You wake up feeling refreshed.)
+	:end
+:when:No
+	:end
+:endwhen
+:end

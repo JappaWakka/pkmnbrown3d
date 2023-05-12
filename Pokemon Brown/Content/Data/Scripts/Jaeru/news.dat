@@ -1,0 +1,12 @@
+version=2
+
+@text.show(Did you hear the news?)
+@options.show(Yes,No)
+
+:When:Yes
+@text.show(Oh, I wish I could of told!)
+
+:when:No
+@text.show(Team Rocket took over the~Warehouse nearby!)
+:endwhen
+:end

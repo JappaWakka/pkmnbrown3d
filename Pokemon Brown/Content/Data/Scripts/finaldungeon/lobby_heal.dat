@@ -1,0 +1,10 @@
+version=2
+
+@text.show(Wow! You made it this far.~You should rest.)
+@screen.fadeout
+@pokemon.heal
+@sound.play(healing,true)
+@screen.fadein
+@text.show(Keep it up!)
+
+:end

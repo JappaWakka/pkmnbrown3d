@@ -1,0 +1,12 @@
+version=2
+
+:if:<register.registered(rumiko1)>=false
+	@text.show(Mr.Rumiko: <player.name>!*You will need this item to~continue in your quest.*It's a very popular item...~[POKE]FLUTE!)
+	@item.give(1008,1)
+	@item.messagegive(1008,1)
+	@register.register(rumiko1)
+	@text.show(Upon hearing [POKE]FLUTE,~sleeping Pokémon~will spring awake.*It works on all sleeping~Pokémon.)
+   :else
+	@text.show(Good luck on your quest!)
+:endif
+:end

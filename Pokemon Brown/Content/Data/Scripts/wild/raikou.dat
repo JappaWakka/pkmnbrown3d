@@ -1,0 +1,12 @@
+version=2
+
+:if:<system.random(0,4096)>=4096
+@text.show(Rrroar!)
+@battle.wildshiny(243,50)
+:else
+@text.show(Rrroar!)
+@battle.wild(243,50)
+:endif
+@register.unregister(Raikou)
+@level.reload
+:end

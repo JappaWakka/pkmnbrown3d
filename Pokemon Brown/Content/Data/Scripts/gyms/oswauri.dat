@@ -1,0 +1,10 @@
+version=2
+
+:if:<register.registered(hailbadge_obtain)>=true
+:then
+	@text.show(Owsauri City Pokémon gym~Leader: Lily*Winning Trainers:~Mura~<player.name>)
+
+:else
+	@text.show(Owsauri City Pokémon gym~Leader: Lily*Winning Trainers:~Mura)
+:endif
+:end

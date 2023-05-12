@@ -1,0 +1,22 @@
+version=2
+
+:if:<register.registered(whitebadge_obtain)>=False
+@text.show(Joe: Hah!*I am Joe, the Leader of this~Gym!*My Normal Pokémon have~never lost a match!*<player.name>: Well I'll do anything~for the White Badge!)
+@battle.starttrainer(gyms\57\leader)
+@register.register(whitebadge_obtain)
+@register.register(trainer_gyms\57\000)
+@register.register(trainer_gyms\57\001)
+@register.register(trainer_gyms\57\002)
+@register.register(trainer_gyms\57\003)
+@register.register(trainer_gyms\57\004)
+@register.register(trainer_gyms\57\005)
+@register.register(trainer_gyms\57\006)
+@player.GetBadge(7)
+@Text.show(Hah!*Since you're special, I'll give~you something else!)
+@item.give(205,1)
+@item.messagegive(205,1)
+@Text.show(TM15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!)
+:else
+@text.show(Hyper Beam is the best normal~attack you can get!*Don't waste it!)
+:endif
+:end

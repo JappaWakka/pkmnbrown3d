@@ -1,0 +1,9 @@
+version=2
+
+:if:<register.registered(beatdaboss)>=False
+:then
+	@text.show(The Rockets came and took over!)
+:else
+	@text.show(Id better get back to~work!)
+:endif
+:end

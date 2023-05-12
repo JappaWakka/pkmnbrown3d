@@ -1,0 +1,7 @@
+version=2
+
+:if:<register.registered(porygon)>=true
+:then
+	@npc.remove(1)
+:endif:
+:end

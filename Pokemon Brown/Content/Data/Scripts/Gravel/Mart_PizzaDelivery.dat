@@ -1,0 +1,21 @@
+version=2
+
+:if:<register.registered(pizza)>=false
+	@player.stopmovement
+	@player.move(1)
+	@player.turnto(0,1)
+	@npc.turn(0,2)
+	@text.show(Yo dude!)
+	@player.move(2)
+	@npc.turn(0,3)
+	@player.turn(1)
+	@player.move(1)
+	@text.show(<system.token(Gravel_Mart_Clerk_TimsPizza)>)
+	@item.give(69,1)
+	@text.show(<system.token(Gravel_Mart_ReceivePizza)>)
+	@text.show(<system.token(Gravel_Mart_PizzaInPocket)>)
+	@register.register(pizza)
+	@register.unregister(tim3)
+:endif
+
+:end

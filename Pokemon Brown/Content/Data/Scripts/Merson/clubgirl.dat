@@ -1,0 +1,10 @@
+version=2
+
+:if:<register.registered(clubgirl)>=True
+    @text.show(Oh dear.*My Seel is far more~attractive.)
+    @register.unregister(clubgirl)
+:else
+    @text.show(That man's Clefable is really~cute!)
+    @register.register(clubguy)
+:endif
+:end

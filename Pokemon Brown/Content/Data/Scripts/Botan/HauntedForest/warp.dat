@@ -1,0 +1,85 @@
+version=2
+
+@screen.fadeout
+:select:<level.filename>
+	:when:0
+		:select:<player.position>
+			:when:18,0,7
+				@player.warp(Botan\HauntedForest\1.dat,14,0.1,8)
+			:when:10,0,15
+				@player.warp(Botan\main.dat,13,0.1,4)
+		:endwhen
+	:when:1
+		:select:<player.position>
+			:when:14,0,8
+				@player.warp(Botan\HauntedForest\0.dat,18,0.1,7)
+			:when:-1,1,8
+				:if:<inventory.countitem(1004)>=false
+					@player.warp(Botan\HauntedForest\2.dat,2,0.1,9)
+				:else
+					@player.warp(Botan\HauntedForest\missing2.dat,2,0.1,9)
+				:endif
+		:endwhen
+	:when:2
+		:select:<player.position>
+			:when:2,0,9
+				@player.warp(Botan\HauntedForest\1.dat,-1,1.1,8)
+			:when:17,0,9
+				@player.warp(Botan\HauntedForest\3.dat,18,0.1,9)
+		:endwhen
+	:when:missing2
+		:select:<player.position>
+			:when:2,0,9
+				@player.warp(Botan\HauntedForest\1.dat,-1,1.1,8)
+			:when:17,0,9
+				@player.warp(Botan\HauntedForest\missing3.dat,18,0.1,9)
+		:endwhen
+	:when:3
+		:select:<player.position>
+			:when:18,0,9
+				@player.warp(Botan\HauntedForest\2.dat,17,0.1,9)
+			:when:3,0,9
+				@player.warp(Botan\HauntedForest\4.dat,-1,0.1,9)
+		:endwhen
+	:when:missing3
+		:select:<player.position>
+			:when:18,0,9
+				@player.warp(Botan\HauntedForest\missing2.dat,17,0.1,9)
+			:when:3,0,9
+				@player.warp(Botan\HauntedForest\missing4.dat,-1,0.1,9)
+		:endwhen
+	:when:4
+		:select:<player.position>
+			:when:-1,0,9
+				@player.warp(Botan\HauntedForest\3.dat,3,0.1,9)
+			:when:14,0,9
+				@player.warp(Botan\HauntedForest\5.dat,18,0.1,5)
+		:endwhen
+	:when:missing4
+		:select:<player.position>
+			:when:-1,0,9
+				@player.warp(Botan\HauntedForest\missing3.dat,3,0.1,9)
+			:when:14,0,9
+				@player.warp(Botan\HauntedForest\missing5.dat,18,0.1,5)
+		:endwhen
+	:when:5
+		:select:<player.position>
+			:when:18,0,5
+				@player.warp(Botan\HauntedForest\4.dat,14,0.1,9)
+			:when:9,0,12
+				@player.warp(Botan\HauntedForest\6.dat,1,0.1,14)
+		:endwhen
+	:when:missing5
+		:select:<player.position>
+			:when:18,0,5
+				@player.warp(Botan\HauntedForest\missing4.dat,14,0.1,9)
+			:when:9,0,12
+				@player.turnto(3)
+				@player.move(1)
+		:endwhen
+	:when:6
+		@player.warp(Botan\HauntedForest\5.dat,9,0.1,12)
+:endwhen
+@level.update
+@screen.fadein
+:end

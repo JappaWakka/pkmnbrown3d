@@ -1,0 +1,124 @@
+Cities:
+{"PlaceType"[City]}{"Name"[Seashore City]}{"MapFiles"[Seashore\Main.dat,Seashore\RivalHouse.dat,Seashore\PlayerHouse2F.dat,Seashore\PlayerHouse1F.dat,Gyms\Seashore.dat]}{"Position"[2,12]}{"Size"[Small]}{"FlyTo"[Seashore\Main.dat,21,12,24]}
+{"PlaceType"[City]}{"Name"[Gravel Town]}{"MapFiles"[Gravel\Main.dat,Gravel\Mart.dat,Gravel\TimsLab.dat]}{"Position"[2,15]}{"Size"[Small]}{"FlyTo"[Gravel\Main.dat,11,12,10]}
+{"PlaceType"[City]}{"Name"[Merson City]}{"MapFiles"[Merson\Main.dat,Merson\Center.dat,Merson\Mart.dat,Merson\fanclub.dat,Merson\house.dat,Gyms\Merson.dat]}{"Position"[6,15]}{"Size"[Small]}{"FlyTo"[Merson\Main.dat,15,12,32]}
+{"PlaceType"[City]}{"Name"[Hayward City]}{"MapFiles"[Hayward\Main.dat,Hayward\Center.dat,Hayward\Mart.dat,Hayward\fossillab.dat,Hayward\Martroof.dat,Hayward\house.dat,Hayward\elevator.dat]}{"Position"[2,7]}{"Size"[Small]}{"FlyTo"[Hayward\Main.dat,27,12,24]}
+{"PlaceType"[City]}{"Name"[Owsauri City]}{"MapFiles"[Oswauri\Main.dat,Oswauri\Center.dat,Oswauri\Mart.dat,Oswauri\daycare.dat,Oswauri\house1.dat,Oswauri\house2.dat,Gyms\Oswauri.dat]}{"Position"[6,2]}{"Size"[Small]}{"FlyTo"[Oswauri\Main.dat,33,12,24]}
+{"PlaceType"[City]}{"Name"[Eagulou City]}{"MapFiles"[Eagulou\Main.dat,Eagulou\Center.dat,Eagulou\Mart.dat]}{"Position"[8,12]}{"Size"[Small]}{"FlyTo"[Eagulou\Main.dat,15,12,12]}
+{"PlaceType"[City]}{"Name"[Moraga Town]}{"MapFiles"[Moraga\Main.dat,Moraga\Center.dat,Moraga\Mart.dat,Moraga\bar.dat,Gyms\Moraga.dat]}{"Position"[10,7]}{"Size"[Small]}{"FlyTo"[Moraga\Main.dat,39,12,8]}
+{"PlaceType"[City]}{"Name"[Jaeru City]}{"MapFiles"[Jaeru\Main.dat,Jaeru\Center.dat,Jaeru\Mart.dat,Jaeru\rideshop.dat]}{"Position"[12,7]}{"Size"[Small]}{"FlyTo"[Jaeru\Main.dat,15,12,28]}
+{"PlaceType"[City]}{"Name"[Botan City]}{"MapFiles"[Botan\Main.dat,Botan\Mart.dat,Botan\house.dat]}{"Position"[15,7]}{"Size"[Small]}{"FlyTo"[Botan\Main.dat,17,12,20]}
+{"PlaceType"[City]}{"Name"[Castro Valley]}{"MapFiles"[Castro\Main.dat,Castro\Mart.dat,Castro\forest.dat]}{"Position"[15,10]}{"Size"[Small]}{"FlyTo"[Castro\Main.dat,21,12,16]}
+{"PlaceType"[City]}{"Name"[Azalea Town]}{"MapFiles"[]}{"Position"[17,15]}{"Size"[Small]}{"FlyTo"[Azalea\Main.dat,0,12,0]}
+
+Routes:
+
+{"PlaceType"[Route]}{"Name"[Route 34]}{"MapFiles"[]}{"Position"[15,14]}{"Direction"[Vertical]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 47-B]}{"MapFiles"[]}{"Position"[14,15]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 47-B]}{"MapFiles"[]}{"Position"[15,15]}{"Direction"[TUp]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 47-B]}{"MapFiles"[]}{"Position"[14,15]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 47-B]}{"MapFiles"[]}{"Position"[14,16]}{"Direction"[Vertical]}{"RouteType"[Land]}
+
+
+{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[]}{"Position"[16,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 48-B]}{"MapFiles"[]}{"Position"[3,1]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 48-B]}{"MapFiles"[]}{"Position"[3,0]}{"Direction"[Vertical]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[3,2]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[4,2]}{"Direction"[TDown]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[5,2]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[3,2]}{"Direction"[CurveUpRight]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[3,4]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[4,4]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[4,3]}{"Direction"[Vertical]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,4]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,5]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,6]}{"Direction"[Vertical]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat,Routes\52\house.dat,Routes\52\tunnel.dat]}{"Position"[2,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat,Routes\52\house.dat,Routes\52\tunnel.dat]}{"Position"[2,9]}{"Direction"[Vertical]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat,Routes\52\house.dat,Routes\52\tunnel.dat]}{"Position"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat,Routes\52\house.dat,Routes\52\tunnel.dat]}{"Position"[2,11]}{"Direction"[Vertical]}{"RouteType"[Water]}
+
+{"PlaceType"[Route]}{"Name"[Route 53]}{"MapFiles"[Routes\53\Main.dat]}{"Position"[2,13]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 53]}{"MapFiles"[Routes\53\Main.dat]}{"Position"[2,14]}{"Direction"[Vertical]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[3,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[4,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[5,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,14]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,13]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,12]}{"Direction"[TRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,11]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,10]}{"Direction"[VerticalEndUp]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[7,12]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[9,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[10,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[11,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[12,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[13,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+
+{"PlaceType"[Route]}{"Name"[Route 57]}{"MapFiles"[Routes\57\Main.dat]}{"Position"[14,11]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 57]}{"MapFiles"[Routes\57\Main.dat]}{"Position"[14,12]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Routes\58\Main.dat]}{"Position"[15,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Routes\58\Main.dat]}{"Position"[15,9]}{"Direction"[Vertical]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 59]}{"MapFiles"[Routes\59\Main.dat]}{"Position"[13,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 59]}{"MapFiles"[Routes\59\Main.dat]}{"Position"[14,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat]}{"Position"[11,7]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat]}{"Position"[10,7]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat]}{"Position"[11,7]}{"Direction"[TDown]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 61]}{"MapFiles"[Routes\61\Main.dat]}{"Position"[11,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 61]}{"MapFiles"[Routes\61\Main.dat]}{"Position"[11,9]}{"Direction"[Vertical]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[11,10]}{"Direction"[CurveUpRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[12,10]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[13,10]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[14,10]}{"Direction"[TDown]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[14,10]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[3,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[4,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[5,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[6,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[7,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[8,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[9,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 64]}{"MapFiles"[Routes\67\Main.dat]}{"Position"[1,7]}{"Direction"[HorizontalEndLeft]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 64]}{"MapFiles"[Routes\67\Main.dat]}{"Position"[1,7]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[]}{"Position"[12,6]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[]}{"Position"[12,5]}{"Direction"[TRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[]}{"Position"[12,4]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[]}{"Position"[12,3]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[]}{"Position"[12,2]}{"Direction"[Vertical]}{"RouteType"[Land]}
+
+{"PlaceType"[Route]}{"Name"[Route 66]}{"MapFiles"[]}{"Position"[6,3]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 66]}{"MapFiles"[]}{"Position"[6,4]}{"Direction"[Vertical]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 66]}{"MapFiles"[]}{"Position"[6,5]}{"Direction"[VerticalEndDown]}{"RouteType"[Water]}
+
+{"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[]}{"Position"[13,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[]}{"Position"[14,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+
+
+
+Places:
+{"PlaceType"[Place]}{"Name"[Merson Cave]}{"Mapfiles"[Caves\Merson\1F.dat,Caves\Merson\B1F.dat,]}{"Position"[3,15]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Mt. Boulder]}{"Mapfiles"[Caves\MtBoulder\Main.dat]}{"Position"[7,12]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Silk Tunnel]}{"Mapfiles"[Caves\Silk\Main.dat]}{"Position"[7,7]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Castro Forest]}{"Mapfiles"[CastroValley\Main.dat]}{"Position"[14,10]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Seneca Caverns]}{"Mapfiles"[]}{"Position"[15,5]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Rijon League]}{"MapFiles"[]}{"Position"[12,1]}{"Size"[Small]}{"FlyTo"[League\route0.dat,9,12,-10]}
+{"PlaceType"[Place]}{"Name"[Blood Moon Island]}{"MapFiles"[bmisland\Main.dat]}{"Position"[14,19]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Ilex Forest]}{"MapFiles"[]}{"Position"[16,15]}{"Size"[Small]}
+

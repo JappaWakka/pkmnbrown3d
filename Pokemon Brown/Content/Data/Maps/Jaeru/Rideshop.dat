@@ -1,0 +1,35 @@
+{"Level"{LEV[{"Name"{str[Jaeru City]}}{"MusicLoop"{str[alph]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
+
+Floor:
+{"Floor"{ENT[{"Size"{intArr[8,8]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[House2]}}{"Texture"{rec[48,16,16,16]}}]}}
+
+Walls:
+{"EntityField"{ENT[{"Size"{intArr[10,10]}}{"Fill"{bool[0]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-1,0,-1]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[32,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"Fill"{bool[0]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0,7]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[32,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"Fill"{bool[0]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,0,7]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[32,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+{"EntityField"{ENT[{"Size"{intArr[10,9]}}{"Fill"{bool[0]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-1,1,-1]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[32,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
+Ceiling:
+{"EntityField"{ENT[{"Size"{intArr[8,7]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[0,2,0]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
+Bar:
+{"EntityField"{ENT[{"Scale"{sngArr[1,0.75,1]}}{"Size"{intArr[1,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,-0.5,0]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[112,0,16,16][114,0,12,16]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+{"EntityField"{ENT[{"Scale"{sngArr[1,0.75,1]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,-0.5,3]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[112,0,16,16][114,0,12,16]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+{"Entity"{ENT[{"Scale"{sngArr[1,0.4,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,-0.3,1]}}{"Visible"{bool[0]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[Jaeru\rideshop]}}{"Rotation"{int[0]}}]}}
+
+Pokemon:
+{"NPC"{NPC[{"Position"{sngArr[2,0,0]}}{"TextureID"{str[[POKEMON|N]135]}}{"ID"{int[0]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[6,0,2]}}{"TextureID"{str[[POKEMON|N]133]}}{"ID"{int[1]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[1,0,1]}}{"TextureID"{str[[POKEMON|N]134]}}{"ID"{int[2]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[3,0,2]}}{"TextureID"{str[[POKEMON|N]136]}}{"ID"{int[3]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[0,0,4]}}{"TextureID"{str[[POKEMON|N]196]}}{"ID"{int[4]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[1,0,3]}}{"TextureID"{str[[POKEMON|N]197]}}{"ID"{int[5]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+
+NPC:
+{"NPC"{NPC[{"Position"{sngArr[6,0,1]}}{"TextureID"{str[11]}}{"ID"{int[8]}}{"Name"{str[Man]}}{"Action"{int[0]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[2,0,4]}}{"TextureID"{str[8]}}{"ID"{int[6]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[Wow, riding a Pokémon is~so much fun!]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,4,3,1]]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[5,0,4]}}{"TextureID"{str[Lass_Blue]}}{"ID"{int[7]}}{"Name"{str[Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[I can't afford a Ride HM.~I really would like to~ride my Dragonite.]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[5,4,2,2]]}}]}}
+
+Warps:
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[64,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Jaeru\Main.dat,31,0.1,25,0]}}{"Rotation"{int[0]}}]}}

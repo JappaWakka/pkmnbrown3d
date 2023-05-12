@@ -1,0 +1,12 @@
+version=2
+
+:if:<register.registered(ShinyStone)>=false
+:then
+	@text.show(<player.name>: Is everyone ok?*Manager: Yes, thanks to you.*You're a brave kid.*<player.name>: It was nothing really.*Manager: I need to repay you~somehow. Oh here, have this~expensive gift!*<player.name>: It means a lot to me!)
+	@item.give(135,1)
+	@item.messagegive(135,1)
+	@register.register(ShinyStone)
+:else
+	@text.show(Make sure to visit our~main building, located in~Saffron City, Kanto when you~have the time.)
+:endif
+:end

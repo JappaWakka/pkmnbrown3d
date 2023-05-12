@@ -1,0 +1,8 @@
+version=2
+
+:if:<register.registered(rumiko0)>=true
+    @text.show(I'm Mr.Rumiko's grandson!)
+:else
+    @text.show(That's odd.*Mr.Rumiko is gone.)
+:endif
+:end

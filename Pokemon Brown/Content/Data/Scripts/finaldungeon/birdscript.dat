@@ -1,0 +1,11 @@
+version=2
+
+@text.show(New here? We found one~of the birds.*Now we must find this one.)
+
+:if:<register.registered(Lugia)>=True
+	@screen.showpokemon(249,0,1)
+:else
+	@screen.showpokemon(250,0,1)
+:endif
+:end
+

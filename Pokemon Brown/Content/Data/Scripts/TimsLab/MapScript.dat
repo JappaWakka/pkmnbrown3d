@@ -1,0 +1,60 @@
+version=2
+
+:if:<register.registered(gotpokemon)>=false
+	@player.StopMovement
+	@npc.warp(0,5,0,10)
+	@npc.turn(0,0)
+	@npc.move(0,10)
+	@npc.turn(0,2)
+	@player.move(7)
+	@npc.turn(4,0)
+	
+	@text.show(<system.token(Gravel_TimsLab_ChoosePokemon1)>)
+	@text.show(<system.token(Gravel_TimsLab_ChoosePokemon2)>)
+	@text.show(<system.token(Gravel_TimsLab_ChoosePokemon3)>)
+	@register.register(gotpokemon)
+	@register.register(tim1)
+	@register.register(mura1)
+:endif
+
+:if:<register.registered(tim1)>=true
+	@NPC.Turn(4,3)
+:endif
+
+:if:<register.registered(muragone)>=true
+	@NPC.remove(4)
+:endif
+
+:if:<register.registered(pokedex)>=true
+	@entity.remove(8)
+	@entity.remove(9)
+	@entity.remove(10)
+:endif
+
+:if:<register.registered(starter1)>=true
+	@NPC.remove(1)
+	@NPC.remove(2)
+	:if:<register.registered(muralabbattle)>=false
+		@NPC.Warp(4,7,0,3)
+		@NPC.Turn(4,0)
+	:endif
+:endif
+
+:if:<register.registered(starter2)>=true
+	@NPC.remove(2)
+	@NPC.remove(3)
+	:if:<register.registered(muralabbattle)>=false
+		@NPC.Warp(4,8,0,3)
+		@NPC.Turn(4,0)
+	:endif
+:endif
+
+:if:<register.registered(starter3)>=true
+	@NPC.remove(3)
+	@NPC.remove(1)
+	:if:<register.registered(muralabbattle)>=false
+		@NPC.Warp(4,6,0,3)
+		@NPC.Turn(4,0)
+	:endif
+:endif
+:end

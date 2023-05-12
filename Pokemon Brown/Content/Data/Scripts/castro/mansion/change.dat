@@ -1,0 +1,10 @@
+version=2
+
+:if:<register.registered(mansionlock)>=True
+	@entity.remove(0)
+:endif
+
+:if:<register.registered(mansionlock)>=False
+	@entity.remove(1)
+:endif
+:end

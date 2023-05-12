@@ -1,0 +1,9 @@
+version=2
+
+:if:<register.registered(psibadge_obtain)>=False
+:then
+@Text.show(GymGuy: Yo! Champ in making!*Sheral is a Psychic master,~and likes to confuse people who~want to face her, like you!*Can't you tell?*It's similiar, but different...)
+:else
+@Text.show(Psychic power, huh?*If I had that, I'd make a bundle~at the slots!)
+:endif
+:end

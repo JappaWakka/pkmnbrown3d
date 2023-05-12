@@ -1,0 +1,9 @@
+version=2
+
+:if:<register.registered(fistbadge_obtain)>=False
+:then
+@Text.show(GymGuy: Yo! Champ in making!*Castro Valley's gym has the~Gym Leader Koji!*Koji only uses fighting Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!)
+:else
+@Text.show(It's amazing how ninja can~terrify even now!)
+:endif
+:end

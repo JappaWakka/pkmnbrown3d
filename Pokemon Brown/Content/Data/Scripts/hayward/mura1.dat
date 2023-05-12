@@ -1,0 +1,29 @@
+version=2
+
+:if:<register.registered(murahaywardbattle)>=false
+:then
+	@NPC.spawn(20,0,2,3,0,Blue,0,2,Mura,20,Still)
+	@NPC.move(20,4)
+	@text.show(Mura: Yo! <player.name>!*I just got a cool HM from that~city back there.*My Pokémon have been~getting stronger too!*<player.name>: Alright, lets see~how good you really are,~Mura!)
+
+	:if:<register.registered(starter1)>=true
+	@battle.trainer(mura\1charmander)
+	:endif
+
+	:if:<register.registered(starter2)>=true
+	@battle.trainer(mura\1squirtle)
+	:endif
+
+	:if:<register.registered(starter3)>=true
+	@battle.trainer(mura\1bulbasaur)
+	:endif
+
+	@text.show(Mura: You may have won~this time, but im going~to compete in the Rijon League~and become the champion!*<player.name>: Not before I do!*Mura: Well see about that~man, I'll see you later.)
+	@npc.turn(20,3)
+	@npc.move(20,1)
+	@npc.turn(20,2)
+	@npc.move(20,10)
+	@npc.remove(20)
+	@register.register(murahaywardbattle)
+:endif
+:end

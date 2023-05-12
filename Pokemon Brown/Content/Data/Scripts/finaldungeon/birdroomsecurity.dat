@@ -1,0 +1,7 @@
+version=2
+
+:if:<register.registered(birdroom)>=True
+:else
+	@text.show(It's an impassable security door.)
+:endif
+:end

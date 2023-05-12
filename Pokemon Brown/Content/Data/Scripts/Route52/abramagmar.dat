@@ -1,0 +1,18 @@
+version=2
+
+:if:<register.registered(magmartrade)>=false
+:then
+	@text.show(Hi! Want to trade an~Abra for a Magmar?)
+	@options.show(Yes,No)
+	:when:Yes
+	@pokemon.npctrade(63|126||-1||0|49396|Frank|5||Unknown|Caught with [POKE]BALL|Master|Okay, connect the cable like so!|What? That's not Abra!*If you get one, come back~here!|magmartrade)
+	:end
+	
+	:when:No
+	@text.show(Awww! Oh well...)
+	:end
+	:endwhen
+:else
+	@text.show(Isn't my old Magmar great?)
+:endif	
+:end

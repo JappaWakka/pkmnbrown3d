@@ -1,0 +1,10 @@
+version=2
+
+:if:<register.registered(sparkybadge_obtain)>=true
+:then
+	@text.show(Jaeru City Pokémon gym~Leader: Sparky*Winning Trainers:~Mura~<player.name>)
+
+:else
+	@text.show(Jaeru City Pokémon gym~Leader: Sparky*Winning Trainers:~Mura)
+:endif
+:end

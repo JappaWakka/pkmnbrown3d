@@ -1,0 +1,7 @@
+version=2
+:if:<register.registered(mettim)>=true
+	@NPC.Remove(3)
+:endif
+
+:end
+

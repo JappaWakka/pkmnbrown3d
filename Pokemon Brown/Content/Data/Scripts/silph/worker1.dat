@@ -1,0 +1,9 @@
+version=2
+
+:if:<register.registered(beatdaboss)>=False
+:then
+	@text.show(They must have targeted~Silph for our Pokémon~products.)
+:else
+	@text.show(Thanks again!)
+:endif
+:end

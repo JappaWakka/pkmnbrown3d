@@ -1,0 +1,22 @@
+version=2
+
+:if:<register.registered(beerkeg)>=false <and> <register.registered(drunksleep)>=false
+	@text.show(Wait!)
+	@player.turnto(0)
+	@text.show(Sorry you can't go though.*I'm guarding the area!)
+	@player.turnto(1)
+	@player.move(1)
+:endif
+
+:if:<register.registered(beerkeg)>=true <and> <register.registered(drunksleep)>=false
+@text.show(Whoa, kid!~I smell hard beer!*Give it to me I need it~so bad!!!!!!)
+@item.clearitem(1005,1)
+@text.show(<player.name> gave the beer.*...Glug glug...~...Gulp...~This stuff hits you...)
+@npc.turn(0,0)
+@register.register(drunksleep)
+@text.show(Zzzzz...*<player.name>: Looks like I can get~past this guy now, and~complete my quest!)
+
+:end
+:endif
+
+:end

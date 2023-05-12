@@ -1,0 +1,121 @@
+version=2
+	@daycare.clean(0)
+
+	:select:<daycare.countpokemon(0)>
+	:when:1
+		@options.show(<daycare.pokemonname(0,0)> Lv. <daycare.currentlevel(0,0)>,Cancel)
+		:when:<daycare.pokemonname(0,0)> Lv. <daycare.currentlevel(0,0)>
+
+			:if:<daycare.grownlevels(0,0)>=0
+			:then
+				@text.show(If you want your~<daycare.pokemonname(0,0)> back,~it will cost $<system.calcint(<daycare.grownlevels(0,0)>+1*100)>.~Would you like it back?)
+			:else
+				@text.show(By level, your~<daycare.pokemonname(0,0)> has~grown about <daycare.grownlevels(0,0)>.*If you want your~<daycare.pokemonname(0,0)> back,~it will cost $<system.calcint(<daycare.grownlevels(0,0)>+1*100)>.~Would you like it back?)
+			:endif
+
+			@options.show(Yes,No)
+			:when:Yes
+				:if:<pokemon.count><6
+				:then
+					:if:<player.money>><system.calcint(<daycare.grownlevels(0,0)>+1*100-1)>
+					:then
+						@player.money(-<system.calcint(<daycare.grownlevels(0,0)>+1*100)>)
+						@pokemon.cry(<daycare.pokemonid(0,0)>)
+						@text.show(<player.name> got~<daycare.pokemonname(0,0)> back~from the Day-Care Man.*Very well.~Please come again.)
+						@daycare.takepokemon(0,0)
+					:else
+						@text.show(You don't have enough~money to get~<daycare.pokemonname(0,0)> back.)
+					:endif
+				:else
+					@text.show(You have no room~right now.*Come back when you've~made room.)
+				:endif
+			:when:No
+				@text.show(Very well.~Please come again.)
+			:endwhen
+
+		:when:Cancel
+			@text.show(Very well.~Please come again.)
+		:endwhen
+
+	:when:2
+		@options.show(<daycare.pokemonname(0,0)> Lv. <daycare.currentlevel(0,0)>,<daycare.pokemonname(0,1)> Lv. <daycare.currentlevel(0,1)>,Cancel)
+		:when:<daycare.pokemonname(0,0)> Lv. <daycare.currentlevel(0,0)>
+		
+			:if:<daycare.grownlevels(0,0)>=0
+			:then
+				@text.show(If you want your~<daycare.pokemonname(0,0)> back,~it will cost $<system.calcint(<daycare.grownlevels(0,0)>+1*100)>.~Would you like it back?)
+			:else
+				@text.show(By level, your~<daycare.pokemonname(0,0)> has~grown about <daycare.grownlevels(0,0)>.*If you want your~<daycare.pokemonname(0,0)> back,~it will cost $<system.calcint(<daycare.grownlevels(0,0)>+1*100)>.~Would you like it back?)
+			:endif
+
+			@options.show(Yes,No)
+			:when:Yes
+				:if:<pokemon.count><6
+				:then
+					:if:<player.money>><system.calcint(<daycare.grownlevels(0,0)>+1*100-1)>
+					:then
+						@player.money(-<system.calcint(<daycare.grownlevels(0,0)>+1*100)>)
+						@pokemon.cry(<daycare.pokemonid(0,0)>)
+						@text.show(<player.name> got~<daycare.pokemonname(0,0)> back~from the Day-Care Man.*Very well.~Please come again.)
+						@daycare.takepokemon(0,0)
+
+						@text.show(Would you like to have~the other one back, too?)
+						@options.show(Yes,No)
+						:when:Yes
+							@script.start(route34\daycare\take_back)
+						:when:No
+							@text.show(Very well.~Please come again.)
+						:endwhen
+					:else
+						@text.show(You don't have enough~money to get~<daycare.pokemonname(0,0)> back.)
+					:endif
+				:else
+					@text.show(You have no room~right now.*Come back when you've~made room.)
+				:endif
+			:when:No
+				@text.show(Very well.~Please come again.)
+			:endwhen
+		:when:<daycare.pokemonname(0,1)> Lv. <daycare.currentlevel(0,1)>
+		
+			:if:<daycare.grownlevels(0,1)>=0
+			:then
+				@text.show(If you want your~<daycare.pokemonname(0,1)> back,~it will cost $<system.calcint(<daycare.grownlevels(0,1)>+1*100)>.~Would you like it back?)
+			:else
+				@text.show(By level, your~<daycare.pokemonname(0,1)> has~grown about <daycare.grownlevels(0,1)>.*If you want your~<daycare.pokemonname(0,1)> back,~it will cost $<system.calcint(<daycare.grownlevels(0,1)>+1*100)>.~Would you like it back?)
+			:endif
+
+			@options.show(Yes,No)
+			:when:Yes
+				:if:<pokemon.count><6
+				:then
+					:if:<player.money>><system.calcint(<daycare.grownlevels(0,1)>+1*100-1)>
+					:then
+						@player.money(-<system.calcint(<daycare.grownlevels(0,1)>+1*100)>)
+						@pokemon.cry(<daycare.pokemonid(0,1)>)
+						@text.show(<player.name> got~<daycare.pokemonname(0,1)> back~from the Day-Care Man.*Very well.~Please come again.)
+						@daycare.takepokemon(0,1)
+
+						@text.show(Would you like to have~the other one back, too?)
+						@options.show(Yes,No)
+						:when:Yes
+							@script.start(route34\daycare\take_back)
+						:when:No
+							@text.show(Very well.~Please come again.)
+						:endwhen
+					:else
+						@text.show(You don't have enough~money to get~<daycare.pokemonname(0,1)> back.)
+					:endif
+				:else
+					@text.show(You have no room~right now.*Come back when you've~made room.)
+				:endif
+			:when:No
+				@text.show(Very well.~Please come again.)
+			:endwhen
+
+		:when:Cancel
+			@text.show(Very well.~Please come again.)
+		:endwhen
+
+	:endwhen
+
+:end

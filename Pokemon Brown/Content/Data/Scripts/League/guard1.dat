@@ -1,0 +1,14 @@
+version=2
+
+:if:<register.registered(marinebadge_obtain)>=True <and> <register.registered(guard1)>=False
+    @text.show(You can pass here only if~you have the Marine Badge!*Oh! That is the Marine Badge!~OK then! Please, go right~ahead!)
+    @register.register(guard1)
+:endif
+
+:if:<register.registered(marinebadge_obtain)>=False <and> <register.registered(guard1)>=False
+    @text.show(You can pass here only if~you have the Marine Badge!*You don't have the Marine~Badge yet!*You have to have it to get~to Pokémon League!)
+    @player.turnto(0)
+    @player.move(1)
+:endif
+
+:end

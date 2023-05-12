@@ -1,0 +1,10 @@
+version=2
+
+:if:<Player.Facing>=0
+	@Player.Warp(Seashore\PlayerHouse1F.dat,7,0.1,0,1)
+:else
+	@Player.Warp(Seashore\PlayerHouse1F.dat,7,0.1,0,2)
+:endif
+@Level.Update
+@Player.Move(1)
+:end

@@ -1,0 +1,12 @@
+version=2
+
+ :select:<system.random(0,2)>
+ :when:0
+   @text.show(Slowbro is loafing around...) 
+ :when:1
+   @text.show(Slowbro ignored orders...) 
+ :when:2
+   @text.show(Slowbro turned away...)
+   @npc.turn(1,2)
+ :endwhen
+:end

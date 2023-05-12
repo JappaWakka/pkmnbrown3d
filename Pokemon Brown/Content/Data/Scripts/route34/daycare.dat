@@ -1,0 +1,55 @@
+version=2
+
+:if:<register.registered(oddegg_got)>=false
+:then
+
+@text.show(Hey trainer!~Do you want to leave your~Pokémon here for~us to raise them?*Wait, are you the trainer~who helped with the~MYSTERY EGG?*<player.name> right?~I found another egg here,~I want you to have it~since you seem to~be very dependable.*But there's something odd~with this egg.~In fact, I called~it the ODD EGG.*Here, I want you~to take it!)
+
+@Options.Show(Yes,No)
+:when:No
+@text.show(Oh, that's sad...*But you can always come~back if you want to~get the ODD EGG.)
+:end
+:endwhen
+
+:if:<pokemon.count><6
+:then
+:select:<system.random(1,7)>
+:when:1
+@pokemon.add(172,1,hatched,5,Daycare,1,<player.name>)
+:when:2
+@pokemon.add(173,1,hatched,5,Daycare,1,<player.name>)
+:when:3
+@pokemon.add(174,1,hatched,5,Daycare,1,<player.name>)
+:when:4
+@pokemon.add(236,1,hatched,5,Daycare,1,<player.name>)
+:when:5
+@pokemon.add(238,1,hatched,5,Daycare,1,<player.name>)
+:when:6
+@pokemon.add(239,1,hatched,5,Daycare,1,<player.name>)
+:when:7
+@pokemon.add(240,1,hatched,5,Daycare,1,<player.name>)
+:endwhen
+
+:if:<system.random(0,100)><14
+:then
+@pokemon.setshiny(<pokemon.count>-1,1)
+:endif
+
+@text.show(<player.name> received~the ODD EGG.)
+
+@register.register(oddegg_got)
+
+@text.show(OLD MAN: Please take good~care of the egg.)
+
+:else
+@text.show(Oh, your team is full?~Please deposit one of~your Pokémon in the PC~and come back.)
+:end
+:endif
+
+:else
+
+@screen.daycare(0,2)
+
+:endif
+
+:end

@@ -1,0 +1,11 @@
+version=2
+
+:if:<register.registered(wongold)>=false
+@text.show(Hey dude!*You are the champion of~this region?*A great opportunity for~me to see how good the~~trainers are in this place.*Lets battle!)
+@battle.starttrainer(bmisland\gold)
+@text.show(Woah!*Great fight, you truly~dominated me.*You should challenge the~Kanto Champion!)
+@register.register(wongold)
+:else
+@text.show(Woah!*Great fight, you truly~dominated me.*You should challenge the~Kanto Champion!)
+:endif
+:end

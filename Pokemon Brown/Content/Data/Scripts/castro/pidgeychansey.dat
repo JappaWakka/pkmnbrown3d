@@ -1,0 +1,18 @@
+version=2
+
+:if:<register.registered(chanseytrade)>=false
+:then
+	@text.show(Hi! Do you have a~Pidgey?*Want to trade it for Chansey?)
+	@options.show(Yes,No)
+	:when:Yes
+	@pokemon.npctrade(16|113||-1||0|48614|Trainer|5||Unknown|Caught with [POKE]BALL|Lara|Okay, connect the cable like so!|What? That's not Pidgey!*If you get one, come back~here!|chanseytrade)
+	:end
+	
+	:when:No
+	@text.show(Awww! Oh well...)
+	:end
+	:endwhen
+:else
+	@text.show(Isn't my old Chansey great?)
+:endif	
+:end

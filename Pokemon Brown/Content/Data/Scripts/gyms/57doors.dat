@@ -1,0 +1,23 @@
+version=2
+
+:if:<register.registered(quiz0)>=True
+	@entity.remove(0)
+:endif
+
+:if:<register.registered(quiz1a)>=True <and> <register.registered(quiz1b)>=True <and> <register.registered(quiz1c)>=True
+	@entity.remove(1)
+:endif
+
+:if:<register.registered(quiz2)>=True
+	@entity.remove(2)
+:endif
+
+:if:<register.registered(quiz3)>=True
+	@entity.remove(3)
+:endif
+
+:if:<register.registered(quiz4)>=True
+	@entity.remove(4)
+:endif
+
+:end

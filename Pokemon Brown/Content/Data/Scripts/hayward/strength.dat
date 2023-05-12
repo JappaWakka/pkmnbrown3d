@@ -1,0 +1,25 @@
+version=2
+
+:if:<inventory.countitem(1007)>=False <and> <register.registered(strengthobtained)>=False
+    @text.show(Hey, have you seen my~special amulet?*I need it!)
+    @options.show(Yes,No)
+    :when:No
+    @text.show(Darn, well try to look for it.)
+    :when:Yes
+    @text.show(Bring it to me for a big reward!)
+:endwhen
+:endif
+
+:if:<inventory.countitem(1007)>=True <and> <register.registered(strengthobtained)>=False
+    @item.clearitem(1007)
+    @text.show(<player.name> gave the Red Amulet to~the man!*The man put it in his pocket.*Thank you so much kid!*<player.name>: Erm, no problem,~now what's that reward?*Man: Oh yeah, its an HM that~can push boulders around!)
+    @item.give(246,1)
+    @item.messagegive(246,1)
+    @register.register(strengthobtained)
+:endif
+
+:if:<inventory.countitem(1007)>=False <and> <register.registered(strengthobtained)>=True
+    @text.show(The HM04 teaches Strength!*It lets Pokémon move~boulders when you're outside~of battle.)
+:endif
+
+:end

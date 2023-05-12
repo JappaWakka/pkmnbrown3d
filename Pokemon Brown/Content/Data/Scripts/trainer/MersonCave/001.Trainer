@@ -1,0 +1,23 @@
+[TRAINER FORMAT]
+Name|Clara
+TrainerClass|Lass
+Money|75
+IntroMessage|<system.token(MersonCave_LassClara_IntroMessage)>
+OutroMessage|<system.token(MersonCave_LassClara_OutroMessage)>
+DefeatMessage|<system.token(MersonCave_LassClara_DefeatMessage)>
+TextureID|Lass_Red
+Region|Rijon
+InSightMusic|Encounter_Trainer_Female
+IniMusic|Rijon_Trainer_Intro
+DefeatMusic|Rijon_Trainer_Defeat
+BattleMusic|Rijon_Trainer
+Pokemon1|25,5
+Pokemon2|35,5
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|
+Gender|0
+AI|2
+IntroSequence|10,10

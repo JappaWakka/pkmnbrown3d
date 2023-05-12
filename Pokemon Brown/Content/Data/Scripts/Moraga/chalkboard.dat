@@ -1,0 +1,25 @@
+version=2
+
+@text.show(The blackboard describes~Pokémon Status changes~during battles.*Which heading do you want~to read?)
+@options.show(SLP,BRN,PSN,FRZ,PAR,Quit)
+
+:when:SLP
+@text.show(A Pokémon can't attack if~it's asleep!*Pokémon will stay asleep even~after battles!*Use Awakening to wake them~up!)
+
+:when:BRN
+@text.show(A burn reduces power and~speed. It also causes~ongoing damage.*Burns remain after battles.*Use Burn Heal to cure a~burn!)
+
+:when:PSN
+@text.show(When poisoned, a Pokémon's~health steadily drops.*Poison lingers after battles.*Use an Antidote to cure~poison!)
+
+:when:FRZ
+@text.show(If frozen, a Pokémon becomes~totally immobile!*It stays frozen even~after the battle ends.*Use Ice Heal to thaw~out Pokémon!)
+
+:when:PAR
+@text.show(Paralysis could make~Pokémon moves misfire!*Paralysis remains after battles.*Use Paralyz Heal for~treatment!)
+
+:when:Quit
+:end
+
+:endwhen
+:end

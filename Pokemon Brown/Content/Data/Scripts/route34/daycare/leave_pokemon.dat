@@ -1,0 +1,31 @@
+version=2
+	:if:<pokemon.count><1
+	:then
+		@text.show(Looks like you don't~have any Pokémon...)
+		:end
+	:endif
+
+	@text.show(Which Pokémon should~we raise for you?)
+	@pokemon.select(true,false,false)
+
+	:if:<pokemon.selected>>-1
+	:then
+		@pokemon.cry(<pokemon.id(<pokemon.selected>)>)
+		@daycare.leavepokemon(0,<daycare.countpokemon(0)>,<pokemon.selected>)
+		@text.show(Fine. We'll raise your~<daycare.pokemonname(0,<daycare.countpokemon(0)>-1)> for~a while.)
+
+		:if:<daycare.countpokemon(0)>=1
+		:then
+			@text.show(We can raise two of~your Pokémon.*Would you like us to~raise another?)
+			@options.show(Yes,No)
+			:when:Yes
+				@script.start(route34\daycare\leave_pokemon)
+			:when:No
+				@text.show(Please come back~for it later.)
+			:endwhen
+		:endif
+	:else
+		@text.show(Very well.~Please come again.)
+	:endif
+
+:end

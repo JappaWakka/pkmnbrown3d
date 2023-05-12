@@ -1,0 +1,20 @@
+version=2
+
+:if:<register.registered(birdroom)>=False
+	@text.show(What have I done?*I trapped such a graceful Pokémon!*Please take this far far away~and let it live in peace.)
+	:if:<pokemon.count><6
+		:if:<register.registered(Lugia)>=True
+			@pokemon.add(249,40)
+		:else
+			@pokemon.add(250,40)
+		@text.show(Now just look at that, this~doesn't deserve to be trapped~here!*It's a shame those Master Balls can~be abused this much...)
+		@register.register(birdroom)
+		:endif
+	:else
+		@text.show(Unfortunately, you don't have room.~Please come get it later!)
+	:endif
+:else
+	@text.show(Saved at last! Thank you!)
+:endif
+@level.update
+:end

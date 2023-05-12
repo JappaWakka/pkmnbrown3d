@@ -1,0 +1,9 @@
+version=2
+
+:if:<register.registered(champtitle_obtain)>=False
+:then
+@Text.show(GymGuy: Yo! Champ in making!*At Rijon League, you have to~face four trainers, and the~current champion in order~to receive that title.*Go for it.)
+:else
+@Text.show(Whew! That match was electric!)
+:endif
+:end

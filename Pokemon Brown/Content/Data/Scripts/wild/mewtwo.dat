@@ -1,0 +1,12 @@
+version=2
+
+:if:<system.random(0,4096)>=4096
+@text.show(!)
+@battle.wildshiny(150,50)
+:else
+@text.show(!)
+@battle.wild(150,50)
+:endif
+@register.unregister(MewTwo)
+@level.reload
+:end

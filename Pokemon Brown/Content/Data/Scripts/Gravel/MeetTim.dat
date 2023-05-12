@@ -1,0 +1,71 @@
+version=2
+:if:<register.registered(mettim)>=False
+
+	@player.stopmovement(0)
+	@player.setspeed(1)
+	@music.play(Encounter_Tim)
+	@player.turnto(2,1)
+	@storage.set(integer,position,0)
+	
+	:if:<player.position>=10,0,-1
+		@storage.set(integer,position,1)
+	:endif
+
+	@text.show(<system.token(Gravel_Main_Tim_Late)>)
+	
+	@npc.spawn(9,0,10,1,,Tim,0,2,Tim,3,Still)
+	@npc.turn(3,1)
+	@npc.move(3,1)
+	@npc.turn(3,0)
+	@npc.move(3,6)
+	@npc.turn(3,3)
+	@npc.move(3,1+<storage.get(integer,position)>)
+	@npc.turn(3,0)
+	@npc.move(3,4)
+	
+	@text.show(<system.token(Gravel_Main_Tim_NeedPokemon)>)
+	
+	@npc.turn(3,2)
+	@npc.moveasync(3,2)
+	@player.move(2)
+	@npc.turn(3,1)
+	@npc.moveasync(3,1)
+	@player.move(1)
+	@npc.turn(3,2)
+	@player.turnto(1)
+	:if:<storage.get(integer,position)>=1
+		@npc.moveasync(3,1)
+		@npc.turn(3,1)
+		@npc.moveasync(3,1)
+		@player.move(1)
+		@npc.turn(3,2)
+		@player.turnto(1)
+	:endif
+	
+	@npc.moveasync(3,8)
+	@player.move(1)
+	@player.turnto(2)
+	@player.move(7)
+	@npc.turn(3,3)
+	@npc.moveasync(3,1)
+	@player.move(1)
+	@player.turnto(3)
+	@npc.moveasync(3,2)
+	@player.move(2)
+	@npc.turn(3,0)
+	@npc.moveasync(3,1)
+	@player.move(1)
+	@player.turnto(0)
+	@npc.remove(3)
+	@player.move(1)
+	@player.warp(Gravel\TimsLab.dat,4,0.1,10,0)
+	@level.update
+	@camera.settoplayerfacing
+	@camera.update
+	@register.register(mettim)
+:else
+	@npc.remove(3)
+:endif
+
+:end
+

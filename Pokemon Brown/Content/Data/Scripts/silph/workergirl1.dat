@@ -1,0 +1,9 @@
+version=2
+
+:if:<register.registered(beatdaboss)>=False
+:then
+	@text.show(The Team Rocket leader~is upstairs.*Defeat him!)
+:else
+	@text.show(Thanks for everything!)
+:endif
+:end

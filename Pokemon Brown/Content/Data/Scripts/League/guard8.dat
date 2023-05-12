@@ -1,0 +1,14 @@
+version=2
+
+:if:<register.registered(starbadge_obtain)>=True <and> <register.registered(guard8)>=False
+    @text.show(You can pass here only if~you have the Star Badge!*Oh! That is the Star Badge!~OK then! Please, go right~ahead!)
+    @register.register(guard8)
+:endif
+
+:if:<register.registered(starbadge_obtain)>=False <and> <register.registered(guard8)>=False
+    @text.show(You can pass here only if~you have the Star Badge!*You don't have the Star~Badge yet!*You have to have it to get~to Pokémon League!)
+    @player.turnto(2)
+    @player.move(1)
+:endif
+
+:end

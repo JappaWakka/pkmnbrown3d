@@ -1,0 +1,14 @@
+{"Level"{LEV[{"Name"{str[Pokemon Mart]}}{"MusicLoop"{str[mart]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
+
+{"Structure"{STR[{"Map"{str[Structures\PokeMart_Interior]}}{"AddNPC"{bool[1]}}{"Offset"{sngArr[0,0,0]}}]}}
+
+Warps:
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\Main.dat,15,0.1,11,0]}}{"Rotation"{int[2]}}]}}
+
+Counter ScriptBlock:
+	{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,128,16,8]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Merson]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
+NPCs:
+	{"NPC"{NPC[{"Position"{sngArr[3,0,2]}}{"TextureID"{str[PokeFan_Male_Red]}}{"ID"{int[0]}}{"Name"{str[Potions Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[You can never have enough~Potions! Buy lots to keep your~Pokémon alive and well!]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[7,0,0]}}{"TextureID"{str[RegularGuy_Green]}}{"ID"{int[0]}}{"Name"{str[Nugget Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[I found a Nugget in the mountains.*I thought it was useless, but~it sold for 5000!]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

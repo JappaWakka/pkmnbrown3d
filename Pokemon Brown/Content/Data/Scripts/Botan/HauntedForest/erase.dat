@@ -1,0 +1,15 @@
+version=2
+
+:if:<inventory.countitem(1004)>=false
+	@text.show(Your game was erased!)
+	@battle.wild(999,30)
+	@player.turnto(0)
+	@player.move(1)
+:else
+	@text.show(Your game was erased!)
+	@battle.wild(115,30)
+	@text.show(The Missingno was really just a~Kangaskhan!*She learned her lesson.*The Missingno's vanished!)
+	@register.register(virusscan)
+	:end
+:endif
+:end

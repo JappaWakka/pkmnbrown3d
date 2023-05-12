@@ -1,0 +1,12 @@
+version=2
+
+:if:<system.random(0,4096)>=4096
+@text.show(Gyaao!)
+@battle.wildshiny(145,50)
+:else
+@text.show(Gyaao!)
+@battle.wild(145,50)
+:endif
+@register.unregister(Zapdos)
+@level.reload
+:end

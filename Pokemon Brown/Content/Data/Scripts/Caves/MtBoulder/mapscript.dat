@@ -1,0 +1,10 @@
+version=2
+
+:if:<register.registered(Articuno)>=True
+@npc.spawn(6,1,1,1,wild\articuno,[POKEMON|N]144,0,2,Moltres,10,Still)
+:endif
+
+:if:<register.registered(Suicune)>=True
+@npc.spawn(6,1,1,1,wild\suicune,[POKEMON|N]245,0,2,Entei,10,Still)
+:endif
+:end

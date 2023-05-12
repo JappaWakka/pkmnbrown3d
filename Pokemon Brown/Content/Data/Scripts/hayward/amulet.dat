@@ -1,0 +1,8 @@
+version=2
+
+:if:<register.registered(strengthobtained)>=True
+    @entity.remove(0)
+:else
+    @entity.remove(1)
+:endif
+:end

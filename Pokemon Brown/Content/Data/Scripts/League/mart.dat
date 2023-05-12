@@ -1,0 +1,9 @@
+version=2
+@text.show(<system.token(Generic_Mart_Clerk)>)
+@options.show(<system.token(Generic_Mart_Buy)>,<system.token(Generic_Mart_Quit)>)
+:when:<system.token(Generic_Mart_Buy)>
+@screen.Trade({2|-1|-1}{15|-1|-1}{16|-1|-1}{14|-1|-1}{38|-1|-1}{39|-1|-1}{63|-1|-1}{65|-1|-1},True,True)
+:when:<system.token(Generic_Mart_Quit)>
+@text.show(Thank you!)
+:endwhen
+:end

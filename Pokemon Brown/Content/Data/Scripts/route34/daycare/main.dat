@@ -1,0 +1,49 @@
+version=2
+	@daycare.clean(0)
+
+		:if:<daycare.hasegg(0)>=true
+		:then
+			@script.start(route34\daycare\take_egg)
+			:end
+		:endif
+
+		@text.show(I'm the Day-Care Man.*We can raise Pokémon~for you.~What do you want to~do today?)
+
+		:select:<daycare.countpokemon(0)>
+		
+		:when:0
+			@options.show(Leave Pokémon,Cancel)
+			:when:Leave Pokémon
+				@script.start(route34\daycare\leave_pokemon)
+			:when:Cancel
+				@text.show(Very well.~Please come again.)
+			:endwhen
+			:end
+			
+		:when:1
+			@options.show(Leave Pokémon,Take back,Cancel)
+			:when:Leave Pokémon
+				@script.start(route34\daycare\leave_pokemon)
+			:when:Take back
+				@text.show(You have energetic Pokémon!~Would you like your~Pokémon back?)
+
+				@script.start(route34\daycare\take_back)
+			:when:Cancel
+				@text.show(Very well.~Please come again.)
+			:endwhen
+			:end
+			
+		:when:2
+			@options.show(Take back,Cancel)
+			:when:Take back
+				@text.show(You have energetic Pokémon!~Would you like your~Pokémon back?)
+	
+				@script.start(route34\daycare\take_back)
+			:when:Cancel
+				@text.show(Very well.~Please come again.)
+			:endwhen
+			:end
+			
+		:endwhen
+
+:end

@@ -1,0 +1,16 @@
+version=2
+
+:if:<register.registered(mura1)>=true
+	@text.show(<system.token(Gravel_TimsLab_Mura_HurryUp)>)
+	:end
+:endif
+
+:if:<register.registered(mura2)>=true
+	@text.show(<system.token(Gravel_TimsLab_Mura_BetterChoice)>)
+	:end
+:endif
+
+:if:<register.registered(mura0)>=true
+	@text.show(<system.token(Gravel_TimsLab_Mura_Chump)>)
+	:end
+:endif

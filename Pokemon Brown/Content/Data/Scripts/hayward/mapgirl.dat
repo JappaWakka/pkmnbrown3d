@@ -1,0 +1,12 @@
+version=2
+
+:if:<register.registered(pokegear)>=false
+:then
+	@text.show(I'm handing out free [POKE]GEAR~today, go ahead and take one!)
+	@register.register(pokegear)
+	@player.receivepokegear   
+	@text.show(<player.name> got [POKE]GEAR!)
+:else
+	@text.show(Use the map in the~[POKE]GEAR if you get lost!)
+:endif
+:end

@@ -1,0 +1,12 @@
+version=2
+
+:if:<register.registered(hmfly)>=false
+:then
+	@text.show(How do you people keep~finding me?*Ok, take this HM just like~the others and scram!)
+	@item.give(244,1)
+	@item.messagegive(244,1)
+	@register.register(hmfly)
+:else
+	@text.show(HM02 is Fly. It will take~you back to any town.*Put it to good use!)
+:endif
+:end

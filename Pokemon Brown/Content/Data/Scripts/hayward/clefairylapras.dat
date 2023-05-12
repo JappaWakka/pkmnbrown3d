@@ -1,0 +1,18 @@
+version=2
+
+:if:<register.registered(laprastrade)>=false
+:then
+	@text.show(I'm looking for a Clefairy!~Wanna trade one for Lapras?)
+	@options.show(Yes,No)
+	:when:Yes
+	@pokemon.npctrade(35|131||-1||0|62003|Trainer|5||Unknown|Caught with [POKE]BALL|Kathy|Okay, connect the cable like so!|What? That's not Clefairy!*If you get one, come back~here!|laprastrade)
+	:end
+	
+	:when:No
+	@text.show(Awww! Oh well...)
+	:end
+	:endwhen
+:else
+	@text.show(Isn't my old Lapras great?)
+:endif	
+:end

@@ -1,0 +1,8 @@
+version=2
+
+:if:<register.registered(switch1)>=True
+	:end
+:else
+	@text.show(This door is locked.)
+:endif
+:end

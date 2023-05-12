@@ -1,0 +1,60 @@
+﻿Version=2
+@camera.set(9,0.5,9,0,0-0.1)
+@camera.update
+
+@npc.spawn(13,0,5,1,,Tim,0,1,Tim,0,Still)
+@npc.move(0,4)
+@npc.turn(0,2)
+@text.show(<system.token(GameIntro_1)>)
+
+@screen.fadeout(20)
+@camera.update
+
+@npc.remove(0)
+@npc.spawn(9,0,5,1,,[POKEMON|N]207,1,2,Gligar,1,Still)
+@level.update
+
+@screen.fadein(20)
+@camera.update
+
+@text.show(<system.token(GameIntro_2)>)
+
+@screen.fadeout(20)
+@camera.update
+
+@npc.remove(1)
+@player.setskin(Player)
+@npc.spawn(9,0,5,1,,Player,0,2,Player,2,Still)
+@level.update
+
+@screen.fadein(20)
+@camera.update
+
+@text.show(<system.token(GameIntro_3)>)
+@screen.input(<screen.selectedskin>,name,<screen.selectedskin>,14)
+@player.setname(<system.lastinput>)
+
+@text.show(<system.token(GameIntro_4)>)
+
+@text.show(<system.token(GameIntro_5)>)
+
+@storage.set(integer,screenFade,0)
+
+:while:<storage.get(integer,screenFade)><255
+    @camera.setz(~-0.01)
+    @camera.sety(~-0.001)
+    @camera.setpitch(~-0.0012)
+    @camera.update
+    @storage.set(integer,screenFade,<storage.get(integer,screenFade)>+1)
+    @screen.setfade(<storage.get(integer,screenFade)>)
+:endwhile
+
+@player.setot(<system.random(0,65255)>)
+@player.addmoney(3000)
+@player.setrivalskin(Rival)
+@player.setrivalname(Mura)
+@item.give(78)
+
+@system.endnewgame(Seashore\PlayerHouse2F.dat,6,0.1,5,3)
+
+:end

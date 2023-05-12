@@ -1,0 +1,18 @@
+version=2
+
+:if:<register.registered(goodrod)>=False
+@text.show(I'm the Fishing Guru's~second cousin's uncle twice~removed.*Like fishing?)
+@options.show(Yes,No)
+:when:Yes
+@text.show(Grand! I like your stlye!*Take this and fish,~young one!)
+@item.give(59,1)
+@item.messagegive(59,1)
+@register.register(goodrod)
+@text.show(Fishing is a way of life!*From the seas to rivers,~go out and land the big one!)
+:when:No
+@text.show(Oh...That's so disappointing...)
+:endwhen
+:else
+@text.show(Hello there, <player.name>!*The Good Rod is actually~good, unlike that Old Rod!*Catch different Pokémon~with it!)
+:endif
+:end

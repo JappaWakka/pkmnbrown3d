@@ -1,0 +1,15 @@
+version=2
+
+:if:<register.registered(haywardtrouble)>=false
+:then
+	@battle.starttrainer(hayward\grunt)
+	@text.show(Take this and don't kill me!)
+	@item.give(218,1)
+	@item.messagegive(218,1)
+	@text.show(I better get moving! Bye!)
+	@register.register(haywardtrouble)
+	@screen.fadeout
+	@npc.remove(7)
+	@screen.fadein
+:endif
+:end

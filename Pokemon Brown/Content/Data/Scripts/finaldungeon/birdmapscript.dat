@@ -1,0 +1,6 @@
+version=2
+
+:if:<register.registered(birdroom)>=True
+	@entity.remove(1)
+:endif
+:end

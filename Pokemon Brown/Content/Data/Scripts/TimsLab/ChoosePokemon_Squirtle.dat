@@ -1,0 +1,37 @@
+version=2
+:if:<register.registered(pokemongot)>=false
+	@screen.showpokemon(7,0,1)
+	@Text.show(Tim: Do you want~Squirtle, the water~Pokémon?)
+	@Options.show(Yes,No)
+		:when:Yes
+			@NPC.remove(2)
+			@NPC.register(TimsLab.dat|2|remove|1)
+			@Register.register(pokemongot)
+			@Register.register(starter2)
+			@register.unregister(tim1)
+			@register.unregister(mura1)
+			@register.register(tim2)
+			@register.register(mura2)
+			@Text.show(Tim: I think that's a~great Pokémon too!)
+			@pokemon.add(7,5,As a gift from Prof. Tim,5,at Gravel Town)
+			@Text.show(<player.name> received~a Squirtle!)
+			@pokemon.rename(0)
+			:if:<player.position>=7,0,3
+				@NPC.turn(4,2)
+				@NPC.move(4,2)
+				@NPC.turn(4,3)
+				@NPC.move(4,4)
+				@NPC.turn(4,0)
+				@NPC.move(4,1)
+				@text.show(Mura: I'll take this one, then!)
+				@NPC.remove(3)
+				@text.show(Mura received a Bulbasaur!)
+			:endif
+		:when:No
+			@Text.show(Tim: Think it over~carefully.*Your partner is~important.)
+		
+		:endwhen
+:else
+	@Text.show(It contains a~Pokémon caught by~Prof. Tim.)
+:endif
+:end

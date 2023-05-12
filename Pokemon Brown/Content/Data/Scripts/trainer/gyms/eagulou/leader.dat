@@ -1,0 +1,25 @@
+version=2
+
+:if:<register.registered(starbadge_obtain)>=False
+@text.show(<player.name>: What?!*You're the Gym Leader here?*Giovanni: Yes, I was once the~Gym Leader of Viridian City,~Kanto.*I left once Red defeated me~again.*Like last time, we fight for~the league.)
+@battle.starttrainer(gyms\eagulou\leader)
+@Register.register(starbadge_obtain)
+@register.register(trainer_gyms\eagulou\002)
+@register.register(trainer_gyms\eagulou\003)
+@register.register(trainer_gyms\eagulou\004)
+@register.register(trainer_gyms\eagulou\005)
+@register.register(trainer_gyms\eagulou\006)
+@register.register(trainer_gyms\eagulou\007)
+@register.register(trainer_gyms\eagulou\008)
+@register.register(trainer_gyms\eagulou\009)
+@player.GetBadge(8)
+@Text.show(The Star Badge is the hardest~badge to get in the Rijon~League, you should take good~care of it!*Take this little gift aswell.*It will do you good.)
+@item.give(217,1)
+@item.messagegive(217,1)
+@Text.show(TM27 is Return!*The higher your friendship with~the user the more power will~Return have!)
+:else
+@text.show(Oh by the way, that guy~in black he was rejected from the~Rockets before you defeated~us, and he's not quite over it.*I don't accept Emos.*Farewell champion.)
+@register.register(giovannigone)
+@level.reload
+:endif
+:end

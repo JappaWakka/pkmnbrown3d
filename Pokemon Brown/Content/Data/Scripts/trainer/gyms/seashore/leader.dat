@@ -1,0 +1,22 @@
+version=2
+
+:if:<register.registered(psibadge_obtain)>=False
+@text.show(Sheral: I knew you were coming.*Hello, I'm Sheral, and I use my~Pokémons Psychic Powers to~maximum extent.*<player.name>: Really? Well I want that~Psi badge!)
+@battle.starttrainer(gyms\seashore\leader)
+@Register.register(psibadge_obtain)
+@register.register(trainer_gyms\seashore\000)
+@register.register(trainer_gyms\seashore\001)
+@register.register(trainer_gyms\seashore\002)
+@register.register(trainer_gyms\seashore\003)
+@register.register(trainer_gyms\seashore\004)
+@register.register(trainer_gyms\seashore\005)
+@register.register(trainer_gyms\seashore\006)
+@player.GetBadge(6)
+@Text.show(The Psi Badge makes Pokémon~up to Lv 70 obey you!*I predicted that you wanted a TM~to go along with this.*Well, I have the perfect one for~you!)
+@item.give(219,1)
+@item.messagegive(219,1)
+@Text.show(It's the strongest psychic attack~there is!)
+:else
+@text.show(Everyone has psychic power!~People just don't realize it!)
+:endif
+:end

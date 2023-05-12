@@ -1,0 +1,8 @@
+version=2
+
+@text.show(This Route isn't finished yet,~but you can battle me~for honor.)
+:if:<register.registered(temporary\001)>=false
+:then
+@battle.trainer(temporary\001)
+:endif
+:end

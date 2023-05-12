@@ -1,0 +1,23 @@
+version=2
+
+:if:<register.registered(oldrod)>=false
+@text.show(I'm the Fishing Guru's~cousin!*I love to fish!*How about you?)
+@options.show(Yes,No)
+
+:when:Yes
+@text.show(Grand! I like your style!*Take this and fish,~young one!)
+@item.give(58,1)
+@item.messagegive(58,1)
+@register.register(oldrod)
+@text.show(Not the best Rod, but it's~better than nothing!)
+:end
+
+:when:No
+@text.show(Oh... That's so disappointing...)
+:end
+:endwhen
+
+:else
+@text.show(Hello there, <player.name>!*How are the fish biting?)
+:endif
+:end

@@ -1,0 +1,53 @@
+version=2
+
+:if:<register.registered(tim1)>=true
+	@text.show(<system.token(Gravel_TimsLab_Tim_ChooseCarefully)>)
+:end
+:endif
+
+:if:<register.registered(tim2)>=true
+	@text.show(<system.token(Gravel_TimsLab_Tim_GoodLuck)>)
+:end
+:endif
+
+:if:<register.registered(tim3)>=true
+	@text.show(<system.token(Gravel_TimsLab_Tim_TakeGoodCare)>)
+:end
+:endif
+
+:if:<register.registered(pizza)>=true <and> <register.registered(pokedex)>=false
+	@text.show(<system.token(Gravel_TimsLab_Pokedex1)>)
+	@item.clearitem(69)
+	@text.show(<system.token(Gravel_TimsLab_Pokedex2)>)
+	@music.play(Encounter_Rival)
+	@text.show(<system.token(Gravel_TimsLab_Pokedex3)>)
+	@NPC.spawn(4,0,11,0,0,Rival,0,0,Mura,4,Still)
+	@player.turnto(2,1)
+	@NPC.move(4,9)
+	@music.play(TimsLab)
+	@player.turnto(0,1)
+	@text.show(<system.token(Gravel_TimsLab_Pokedex4)>)
+	@player.receivepokedex
+	@sound.play(Receive_Item,1)
+	@text.show(<system.token(Gravel_TimsLab_Pokedex5)>)
+	@entity.remove(8)
+	@entity.remove(9)
+	@level.update
+	@text.show(<system.token(Gravel_TimsLab_Pokedex6)>)
+	@player.turnto(2,1)
+	@text.show(<system.token(Gravel_TimsLab_Pokedex7)>)
+	@music.play(Encounter_Rival)
+	@npc.turn(4,2)
+	@npc.move(4,9)
+	@npc.remove(4)
+	@music.play(Timslab)
+	@register.register(pokedex)
+	@register.unregister(tim3)
+	@register.register(tim4)
+:end
+:endif
+
+:if:<register.registered(tim4)>=true
+	@text.show(<system.token(Gravel_TimsLab_Tim_CatchPokemon)>)
+:end
+:endif

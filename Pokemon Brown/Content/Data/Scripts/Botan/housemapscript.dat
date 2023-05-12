@@ -1,0 +1,8 @@
+version=2
+
+@screen.fadein
+
+:if:<register.registered(rumiko0)>=true
+    @npc.spawn(4,0,0,1,botan\hauntedforest\rumiko1,Sage,0,0,Rumiko,5,Looking)
+:endif
+:end

@@ -1,0 +1,11 @@
+version=2
+
+@npc.turn(4,1)
+@player.turnto(3)
+@text.show(Welcome to S.S. Anne!*Excuse me, do you have~a ticket?)
+:if:<register.registered(anneticket)>=false
+@text.show(<player.name> doesn't have the~needed S.S. Ticket.*Sorry!*You need a ticket to get~aboard.)
+@player.turnto(0)
+@player.move(1)
+:endif
+:end

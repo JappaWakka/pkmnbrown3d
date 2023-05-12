@@ -1,0 +1,13 @@
+version=2
+:if:<register.registered(friendlygrunt)>=false	
+	@text.show(Congratulations! You~whooped us harder than Red!*Hey!*Take this,you deserve it!)
+	@item.give(36,1)
+	@item.messagegive(36,1)
+	@text.show(Lets have one more battle~for the heck of it!*Good thing im not in Team~Rocket anymore...*That was a big mistake~for me to make!)
+	@battle.starttrainer(route51\grunt)
+	@text.show(When you reach the fork on~the road, go right to~get to a city.)
+	@register.register(friendlygrunt)
+:else:
+	@text.show(When you reach the fork on~the road, go right to~get to a city.)
+:endif:
+:end

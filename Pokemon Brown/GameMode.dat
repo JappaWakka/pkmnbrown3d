@@ -1,0 +1,24 @@
+Name|Pokemon Brown 3D
+Description|An adaptation of Pokemon Brown
+Version|0.8
+Author|Leahkim,Miragics
+MapPath|$Mode\Content\Data\Maps\
+ScriptPath|$Mode\Content\Data\Scripts\
+PokeFilePath|$Mode\Content\Data\Maps\poke\
+PokemonDataPath|$Mode\Content\Pokemon\Data\
+ContentPath|$Mode\Content\
+LocalizationsPath|$Mode\Content\Localization\
+Gamerules|(MaxLevel|100)(OnlyCaptureFirst|0)(ForceRename|0)(DeathInsteadOfFaint|0)(CanUseHealItems|1)(Difficulty|0)(GameOverAt0Pokemon|0)
+StartMap|NewGame\Intro.dat
+StartPosition|9,0.1,5
+StartRotation|0
+StartLocationName|Seashore City
+StartDialogue|H-hello!? You must be new here.*Welcome to this land called Rijon.*My name is Timothy but you~can call me Tim.*I am the island's Pokémon Tutor.|This is a Pokémon.~There are a lot of these in the~Rijon area.*I've done a fair extent of~research on these and it seems~that they have special~capabilities for fighting~as well as being tame~house-hold pets.*Oh um, whats your name young~man?|!~Now that you have met some~people, all you need now is to~journey the town.*I think your mother has~settled in and done unpacking.*Your adventure starts here so~come see me some time~tomorrow after you awake.*See you later!
+StartColor|130,60,10
+PokemonAppear|207
+IntroMusic|NewGameIntro
+SkinColors|90;140;50,50;90;140,140;50;90
+SkinFiles|Player
+SkinNames|Brown
+SkinGenders|Male
+IntroType|1

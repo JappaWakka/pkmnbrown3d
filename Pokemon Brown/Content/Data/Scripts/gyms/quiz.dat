@@ -1,0 +1,77 @@
+version=2
+
+:select:<player.position>
+	:when:14,0,7
+		@text.show(Pokémon QUIZ!*Mankey is a fighting type.)
+		@options.show(True,False)
+			:when:True
+				@text.show(You're absolutely correct!*Go on through.)
+				@register.register(quiz0)
+				@entity.remove(0)
+			:when:False
+				@text.show(Sorry, bad call.)
+						 @player.turnto(3)
+						 @npc.turn(0,1)
+						 @npc.move(0,1)
+						 @battle.starttrainer(gyms\57\000)
+			:endwhen
+	:when:8,0,7
+		@text.show(Pokémon QUIZ!*Pewter City is in Johto.)
+		@options.show(True,False)
+			:when:True
+				@text.show(Sorry, bad call.)
+						 @player.turnto(3)
+						 @npc.turn(3,1)
+						 @npc.move(3,1)
+						 @battle.starttrainer(gyms\57\003)
+			:when:False
+				@text.show(You're absolutely correct!*Go on through.)
+				@register.register(quiz1a)
+				@register.register(quiz1b)
+				@register.register(quiz1ac)
+				@entity.remove(1)
+			:endwhen
+	:when:8,0,13
+		@text.show(Pokémon QUIZ!*Marrill is catchable in Rijon.)
+		@options.show(True,False)
+			:when:True
+				@text.show(You're absolutely correct!*Go on through.)
+				@register.register(quiz2)
+				@entity.remove(2)
+			:when:False
+				@text.show(Sorry, bad call.)
+						 @player.turnto(3)
+						 @npc.turn(4,1)
+						 @npc.move(4,1)
+						 @battle.starttrainer(gyms\57\004)
+			:endwhen
+	:when:0,0,13
+		@text.show(Pokémon QUIZ!*Pokémon Brown is made by KBM.)
+		@options.show(True,False)
+			:when:True
+				@text.show(You're absolutely correct!*Go on through.)
+				@register.register(quiz3)
+				@entity.remove(3)
+			:when:False
+				@text.show(Sorry, bad call.)
+						 @player.turnto(3)
+						 @npc.turn(5,1)
+						 @npc.move(5,1)
+						 @battle.starttrainer(gyms\57\005)
+			:endwhen
+	:when:0,0,7
+		@text.show(Pokémon QUIZ!*Johto is south of Rijon.)
+		@options.show(True,False)
+			:when:True
+				@text.show(Sorry, bad call.)
+						 @player.turnto(3)
+						 @npc.turn(6,1)
+						 @npc.move(6,1)
+						 @battle.starttrainer(gyms\57\006)
+			:when:False
+				@text.show(You're absolutely correct!*Go on through.)
+				@register.register(quiz4)
+				@entity.remove(4)
+			:endwhen
+:endwhen
+:end

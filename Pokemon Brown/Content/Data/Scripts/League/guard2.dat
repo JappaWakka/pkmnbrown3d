@@ -1,0 +1,14 @@
+version=2
+
+:if:<register.registered(hailbadge_obtain)>=True <and> <register.registered(guard2)>=False
+    @text.show(You can pass here only if~you have the Hail Badge!*Oh! That is the Hail Badge!~OK then! Please, go right~ahead!)
+    @register.register(guard2)
+:endif
+
+:if:<register.registered(hailbadge_obtain)>=False <and> <register.registered(guard2)>=False
+    @text.show(You can pass here only if~you have the Hail Badge!*You don't have the Hail~Badge yet!*You have to have it to get~to Pokémon League!)
+    @player.turnto(2)
+    @player.move(1)
+:endif
+
+:end

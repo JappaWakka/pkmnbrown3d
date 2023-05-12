@@ -1,0 +1,9 @@
+version=2
+
+:if:<register.registered(beatdaboss)>=False
+:then
+	@text.show(Silph can't afford this!)
+:else
+	@text.show(Thanks again kid!)
+:endif
+:end

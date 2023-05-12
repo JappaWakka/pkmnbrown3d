@@ -1,0 +1,18 @@
+version=2
+
+:select:<player.position>
+	:when:11,0,16
+		@register.register(cp1)
+	:when:10,0,6
+		@register.register(cp2)
+	:when:19,0,8
+		@register.register(cp3)
+	:when:17,0,3
+		:if:<register.registered(cp1)>=True <and> <register.registered(cp2)>=True <and> <register.registered(cp3)>=True
+			@text.show(Congratulations! This is the end!*Please take the elevator~to the next level.)
+			@register.register(cp4)
+		:else
+			:end
+		:endif
+	:endwhen
+:end

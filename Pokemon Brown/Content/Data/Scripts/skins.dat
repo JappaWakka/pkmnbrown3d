@@ -1,0 +1,27 @@
+version=2
+@text.show(Would you like to change~your character's skin?)
+@options.show(Yes,No)
+:when:Yes
+	@text.show(Which skin would~you like to use?)
+	@options.show(Kastania,Brown,Adam)
+	:when:Kastania
+		@screen.fadeout
+		@player.wearskin(BrownF1)
+		@level.wait(50)
+		@screen.fadein
+	:when:Brown
+		@screen.fadeout
+		@player.wearskin(BrownM1)
+		@level.wait(50)
+		@screen.fadein
+	:when:Adam
+		@screen.fadeout
+		@player.wearskin(BrownM2)
+		@level.wait(50)
+		@screen.fadein
+	:endwhen
+:when:No
+	@text.show(Okay...)
+:endwhen
+@text.show(Thank you!*Come again!)
+:end

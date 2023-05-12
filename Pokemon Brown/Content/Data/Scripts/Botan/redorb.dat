@@ -1,0 +1,11 @@
+version=2
+
+:if:<register.registered(redorb)>=False
+@text.show(This shiny Red Orb I found~while blowing rocks up is mine!*MINE!*Oh wait, that's bad karma.*I have to be a nice person~right?*Fine, I'll be a good Buddhist~and give this to you to gain~good karma.)
+@item.give(1001,1)
+@item.messagegive(1001,1)
+@register.register(redorb)
+:else
+@text.show(Come on karma, help me out!)
+:endif
+:end

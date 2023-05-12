@@ -1,0 +1,12 @@
+version=2
+
+:if:<register.registered(tm31)>=false
+:then
+	@text.show(You want to talk?*To me?*Thanks, I'm very lonely,~so take this thing I found earlier...)
+	@item.give(221,1)
+	@item.messagegive(221,1)
+	@register.register(tm31)
+:else
+	@text.show(TM31 teaches Mud-Slap!*It lets your Pokémon lower the~opponent's accuracy and does~a little amount of damage.)
+:endif
+:end

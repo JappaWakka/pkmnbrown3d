@@ -1,0 +1,11 @@
+version=2
+
+@text.show(Are you a good trainer?)
+@options.show(Yes,No)
+:when:Yes
+@text.show(Really? That's so cool!*I'm not...)
+:end
+
+:when:No
+@text.show(Hahaha, I guess not.*Can you give me your Pokémon~then?*Please?)
+:end

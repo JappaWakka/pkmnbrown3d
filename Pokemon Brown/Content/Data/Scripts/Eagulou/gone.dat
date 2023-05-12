@@ -1,0 +1,6 @@
+version=2
+
+:if:<register.registered(giovannigone)>=True
+    @npc.remove(8)
+:endif
+:end

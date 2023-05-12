@@ -1,0 +1,6 @@
+version=2
+
+:if:<register.registered(murabotanbattle)>=true
+@npc.remove(1)
+:endif
+:end

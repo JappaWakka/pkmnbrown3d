@@ -1,0 +1,9 @@
+version=2
+@register.unregister(timer)
+@register.unregister(cp1)
+@register.unregister(cp2)
+@register.unregister(cp3)
+
+@text.show(You have 40 seconds.*. . .*GO!!)
+@register.registertime(timer,40,seconds)
+:end

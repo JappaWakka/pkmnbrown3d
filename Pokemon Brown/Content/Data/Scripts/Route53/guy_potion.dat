@@ -1,0 +1,10 @@
+version=2
+:if:<register.registered(guy_potion)>=False
+	@Text.show(<system.token(Route53_PotionGuy_FreeSamples)>)
+	@item.give(18,1)
+	@item.messagegive(18,1)
+	@Register.register(guy_potion)
+:else
+	@Text.show(<system.token(Route53_PotionGuy_OutOfSamples)>)
+:endif
+:end
