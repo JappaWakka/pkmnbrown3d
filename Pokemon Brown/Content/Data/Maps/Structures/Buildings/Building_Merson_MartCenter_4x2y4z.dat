@@ -1,8 +1,11 @@
 Floors
-	{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,16,16,16]}}{"HasSnow"{bool[0]}}]}}
-	{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[1,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,0,16,16]}}{"HasSnow"{bool[0]}}]}}
-	{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[3,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,16,16,16]}}{"HasSnow"{bool[0]}}]}}
-
+	House
+		{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,16,16,16]}}{"HasSnow"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[1,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[3,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,16,16,16]}}{"HasSnow"{bool[0]}}]}}
+	Doormat
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[1,0,3]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
+	
 Walls
 	North
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0.16,0,0]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[64,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
