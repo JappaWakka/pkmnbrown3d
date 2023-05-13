@@ -1,8 +1,7 @@
 version=2
 
 :if:<register.registered(whitebadge_obtain)>=true
-:then
-	@text.show(Out of City Pokémon gym~Leader: Joe*Winning Trainers:~Mura~<player.name>)
+@text.show(Out of City Pokémon gym~Leader: Joe*Winning Trainers:~Mura~<player.name>)
 
 :else
 	@text.show(Out of City Pokémon gym~Leader: Joe*Winning Trainers:~Mura)

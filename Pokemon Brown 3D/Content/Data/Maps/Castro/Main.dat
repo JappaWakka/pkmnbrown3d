@@ -140,7 +140,7 @@ PokeCenter:
 
 {"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[21,2,13]}}{"TexturePath"{str[custom3]}}{"Textures"{recArr[[16,0,12,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[22,0,15.6]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[80,32,16,16][32,32,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[Pokemon-Center~We heal YOUR~Pokemon.]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,15]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\center.dat,2,0.1,8,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,15]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\PokeCenter.dat,2,0.1,8,0]}}{"Rotation"{int[0]}}]}}
 
 PokeMart:
 {"EntityField"{ENT[{"Size"{intArr[4,3]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[28,0,2]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[48,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -158,7 +158,7 @@ PokeMart:
 {"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[31,2,2]}}{"TexturePath"{str[custom3]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 {"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[29,2,3]}}{"TexturePath"{str[custom3]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[29,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\mart.dat,3,0.1,8,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[29,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\PokeMart.dat,3,0.1,8,0]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[30,0,5.6]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[96,32,16,16][32,32,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[Pokemon Mart~Buy your balls here!]}}{"Rotation"{int[0]}}]}}
 
 Mansion:

@@ -72,7 +72,7 @@ version=2
 :endif
 
 @pokemon.heal
-@sound.play(healing,true)
+@sound.play(Heal_Party,1)
 @level.wait(180)
 
 @npc.warp(10,4.8,-0.3,4.05)

@@ -19,8 +19,7 @@ version=2
 		@text.show(Glad you came!*Your <daycare.pokemonname(0,0)> and~your <daycare.pokemonname(0,1)> are~doing just fine.*<storage.get(string,breed_text)>)
 		
 		:if:<daycare.canbreed(0)>=70 <and> <register.registered(daycare_lavacookies)>=false
-		:then
-			@text.show(Your Pokémon really like~each other.*I am pleased to see~this level of happyness.*Here, take these,~sweetie.)
+				@text.show(Your Pokémon really like~each other.*I am pleased to see~this level of happyness.*Here, take these,~sweetie.)
 			@item.give(7,10)
 			@item.messagegive(7,10)
 		:endif

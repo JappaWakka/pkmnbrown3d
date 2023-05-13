@@ -1,9 +1,9 @@
 version=2
-@text.show(<system.token(Generic_Mart_Clerk)>)
-@options.show(<system.token(Generic_Mart_Buy)>,<system.token(Generic_Mart_Quit)>)
-:when:<system.token(Generic_Mart_Buy)>
+@text.show(<system.token(Generic_PokeMart_Clerk)>)
+@options.show(<system.token(Generic_PokeMart_Buy)>,<system.token(Generic_PokeMart_Quit)>)
+:when:<system.token(Generic_PokeMart_Buy)>
 @screen.Trade({33|-1|-1}{49|-1|-1}{51|-1|-1}{52|-1|-1}{53|-1|-1}{11|-1|-1}{50|-1|-1},True,True)
-:when:<system.token(Generic_Mart_Quit)>
+:when:<system.token(Generic_PokeMart_Quit)>
 @text.show(Thank you!)
 :endwhen
 :end

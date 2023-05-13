@@ -451,5 +451,12 @@ OffsetMaps:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[9,76]}}{"Map"{str[Gravel\Main.dat]}}]}}
 
 Backdrops:
-	{"Backdrop"{BAC[{"Position"{sngArr[-80.5,-0.75,-68.5]}}{"Size"{intArr[80,185]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	{"Backdrop"{BAC[{"Position"{sngArr[38.5,-0.75,-68.5]}}{"Size"{intArr[80,170]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Seashore
+		{"Backdrop"{BAC[{"Position"{sngArr[-80.5,-0.75,-1.5]}}{"Size"{intArr[80,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Position"{sngArr[38.5,-0.75,-1.5]}}{"Size"{intArr[80,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Route53
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-80.5,-0.75,36.5]}}{"Size"{intArr[80,37]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[38.5,-0.75,36.5]}}{"Size"{intArr[80,37]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Gravel
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-80.5,-0.75,73.5]}}{"Size"{intArr[80,48]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[38.5,-0.75,73.5]}}{"Size"{intArr[80,48]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}

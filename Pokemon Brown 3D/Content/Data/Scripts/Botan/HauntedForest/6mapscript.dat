@@ -1,22 +1,18 @@
 version=2
 
 :if:<register.registered(grunt0forest)>=True
-:then
-	@npc.remove(0)
+@npc.remove(0)
 :endif
 
 :if:<register.registered(grunt1forest)>=True
-:then
-	@npc.remove(1)
+@npc.remove(1)
 :endif
 
 :if:<register.registered(grunt2forest)>=True
-:then
-	@npc.remove(2)
+@npc.remove(2)
 :endif
 
 :if:<register.registered(rumiko0)>=True
-:then
-	@npc.remove(3)
+@npc.remove(3)
 :endif
 :end

@@ -1,0 +1,16 @@
+{"Level"{LEV[{"Name"{str[Pokémon Center]}}{"MusicLoop"{str[PokeCenter]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
+
+{"Structure"{STR[{"Map"{str[Structures\PokeCenter_Interior]}}{"Offset"{sngArr[0,0,0]}}{"AddNPC"{bool[1]}}]}}
+	
+NPCs:
+	BenchGuy
+		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[RegularGuy_Red]}}{"ID"{int[2]}}{"Name"{str[BenchGuy]}}{"Action"{int[0]}}{"AdditionalValue"{str[I wonder.*Is Pokémon training~possibly entrepreneurial?]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	Other
+		{"NPC"{NPC[{"Position"{sngArr[5,0,2]}}{"TextureID"{str[Gentleman_Brown]}}{"ID"{int[3]}}{"Name"{str[Gentleman]}}{"Action"{int[0]}}{"AdditionalValue"{str[Service is quick and speedy~here!]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[2,0,5]}}{"TextureID"{str[LittleGirl_Pigtails]}}{"ID"{int[4]}}{"Name"{str[Pigtail Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[Pokémon love it here!]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,4,1,3]]}}]}}
+	
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.375,0.375,0.375]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[2.75,0.1825,1.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,128,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[-0.25]}}{"ModelID"{int[3]}}{"Action"{int[21]}}{"AdditionalValue"{str[Outside]}}{"Rotation"{int[0]}}]}}
+	
+Doors
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\Main.dat,15,0.1,31,0]}}{"Rotation"{int[2]}}]}}

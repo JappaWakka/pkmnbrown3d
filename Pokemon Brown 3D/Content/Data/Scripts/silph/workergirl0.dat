@@ -1,8 +1,7 @@
 version=2
 
 :if:<register.registered(beatdaboss)>=False
-:then
-	@text.show(Oh now, what will we do?)
+@text.show(Oh now, what will we do?)
 :else
 	@text.show(You are a true hero!)
 :endif

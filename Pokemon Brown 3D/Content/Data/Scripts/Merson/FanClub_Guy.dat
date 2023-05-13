@@ -1,10 +1,10 @@
 version=2
 
-:if:<register.registered(clubguy)>=True
+:if:<register.registered(FanClubGuy)>=False
     @text.show(My Clefable can get annoying~sometimes.)
-    @register.unregister(clubguy)
+    @register.register(FanClubGuy)
 :else
     @text.show(I love my Clefable more than~anything!)
-    @register.register(clubgirl)
+    @register.register(FanClubGirl)
 :endif
 :end

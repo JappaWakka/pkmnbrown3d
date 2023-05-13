@@ -198,7 +198,7 @@ PokeCenter:
 
 {"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[27,2,16]}}{"TexturePath"{str[custom3]}}{"Textures"{recArr[[16,0,12,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[28,0,18.6]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[80,32,16,16][32,32,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[Pokemon-Center~We heal YOUR~Pokemon.]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[32,16,16,16]]}}{"Position"{sngArr[27,0,18]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\center.dat,2,0.1,8,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[32,16,16,16]]}}{"Position"{sngArr[27,0,18]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\PokeCenter.dat,2,0.1,8,0]}}{"Rotation"{int[0]}}]}}
 
 Fossil Lab:
 {"EntityField"{ENT[{"Fill"{bool[0]}}{"Size"{intArr[6,3]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[30.05,0,15]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -239,8 +239,8 @@ PokeMart:
 
 {"EntityField"{ENT[{"Scale"{sngArr[1,0.2,1]}}{"Size"{intArr[8,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,7.6,5]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[20,24,12,3][96,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[18,0,10.6]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[96,32,16,16][32,32,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[Pokemon Mart~Buy your balls here!]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\mart.dat,2,0.1,6,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[13,0,10]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\mart.dat,16,0.1,6,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[16,0,10]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\PokeMart.dat,2,0.1,6,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[13,0,10]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\PokeMart.dat,16,0.1,6,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[16,0,10]}}]}}
 
 Flowerbeds:
 {"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[Cube]}}{"Scale"{sngArr[1,0.3,1]}}{"Position"{sngArr[12.125,-0.35,20.3]}}{"TexturePath"{str[Park]}}{"Textures"{recArr[[16,16,16,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

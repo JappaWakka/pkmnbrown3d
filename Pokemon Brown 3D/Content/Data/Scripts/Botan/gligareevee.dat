@@ -1,8 +1,7 @@
 version=2
 
 :if:<register.registered(eeveetrade)>=false
-:then
-	@text.show(Hi! Do you have a~Gligar?*Want to trade it for Eevee?)
+@text.show(Hi! Do you have a~Gligar?*Want to trade it for Eevee?)
 	@options.show(Yes,No)
 	:when:Yes
 	@pokemon.npctrade(207|133||-1||0|62003|Trainer|5||Unknown|Caught with [POKE]BALL|Ryan|Okay, connect the cable like so!|What? That's not Gligar!*If you get one, come back~here!|eeveetrade)

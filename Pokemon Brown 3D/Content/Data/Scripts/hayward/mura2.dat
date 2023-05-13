@@ -1,8 +1,7 @@
 version=2
 
 :if:<register.registered(murahaywardbattle)>=false
-:then
-	@NPC.spawn(21,0,2,0,0,Blue,0,2,Mura,20,Still)
+@NPC.spawn(21,0,2,0,0,Blue,0,2,Mura,20,Still)
 	@NPC.move(20,4)
 	@text.show(Mura: Yo! <player.name>!*I just got a cool HM from that~city back there.*My Pokémon have been~getting stronger too!*<player.name>: Alright, lets see~how good you really are,~Mura!)
 

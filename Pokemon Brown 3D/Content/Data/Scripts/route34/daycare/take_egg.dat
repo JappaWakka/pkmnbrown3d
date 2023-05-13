@@ -3,8 +3,7 @@ version=2
 	@options.show(Yes,No)
 	:when:Yes
 		:if:<pokemon.count><6
-		:then
-			@text.show(<player.name> received~the Egg from the~Day-Care Man.)
+				@text.show(<player.name> received~the Egg from the~Day-Care Man.)
 			@daycare.takeegg(0)
 			@text.show(Please take good~care of it!)
 		:else
@@ -15,8 +14,7 @@ version=2
 		@options.show(Yes,No)
 		:when:Yes
 			:if:<pokemon.count><6
-			:then
-				@text.show(<player.name> received~the Egg from the~Day-Care Man.)
+						@text.show(<player.name> received~the Egg from the~Day-Care Man.)
 				@daycare.takeegg(0)
 				@text.show(Please take good~care of it!)
 			:else

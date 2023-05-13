@@ -8,7 +8,6 @@ version=2
 	:endwhen
 
 	:if:<pokemon.count><6
-	:then
 		:select:<system.random(1,7)>
 		:when:1
 			@pokemon.add(172,1,hatched,5,Daycare,1,<player.name>)
@@ -27,8 +26,7 @@ version=2
 		:endwhen
 
 		:if:<system.random(0,100)><14
-		:then
-			@pokemon.setshiny(<pokemon.count>-1,1)
+				@pokemon.setshiny(<pokemon.count>-1,1)
 		:endif
 
 		@text.show(<player.name> received~the ODD EGG.)

@@ -1,8 +1,7 @@
 version=2
 
 :if:<register.registered(hmfly)>=false
-:then
-	@text.show(How do you people keep~finding me?*Ok, take this HM just like~the others and scram!)
+@text.show(How do you people keep~finding me?*Ok, take this HM just like~the others and scram!)
 	@item.give(244,1)
 	@item.messagegive(244,1)
 	@register.register(hmfly)

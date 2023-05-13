@@ -2152,9 +2152,10 @@ Generic_PC_NoInteract,You can't interact with~the PC at the moment.
 Generic_PC_BootUp,Booting up the PC...*Choose a host to~connect to.
 Generic_PC_ChooseHost,Choose a host to~connect to.
 Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon~books!
-Generic_Mart_Clerk,Hi there!~May I help you?
-Generic_Mart_Buy,Buy
-Generic_Mart_Quit,Quit
+Generic_PokeMart_Clerk,Hi there!~May I help you?
+Generic_PokeMart_Buy,Buy
+Generic_PokeMart_Quit,Quit
+Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
 Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
 Generic_Sign_PokeCenter,Heal Your Pokémon!~Pokémon Center
 
@@ -2168,6 +2169,7 @@ Seashore_PlayerHouse2F_SNES,<player.name> is playing the SNES!~...Okay!~It's tim
 Seashore_RivalHouse_Father_SonLeaving,My son's leaving today like~you are.*He always calls~himself Mura!
 Seashore_RivalHouse_Sister_BrotherGone,My brother is gone!
 Seashore_RivalHouse_Note_Speary,Spearow~Name: Speary
+Seashore_RivalHouse_Speary_Cry,Speary: Tetweet!
 
 Seashore_Main_YoungGirl_Green_RunningShoes,Are those new shoes?*Try running with them~by pressing [<System.Button(Run)>]!
 Seashore_Main_YoungBoy_Blue_Dreams,You should never be afraid to~attempt to accomplish~your dreams.
@@ -2221,13 +2223,12 @@ Gravel_TimsLab_Mura_FirstBattle1,Wait, <player.name>!
 Gravel_TimsLab_Mura_FirstBattle2,Let's check out our Pokémon!~I'll probably beat you.
 Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Okay. Now I understand~the difficulty of training.*<player.name>, we will meet again!
 
-Gravel_Mart_Shelves,Wow! Tons of Pokémon stuff!
-Gravel_Mart_Youngster,Ya!~Potions are available!
-Gravel_Mart_Bugcatcher,This shop sells lots of~Pokéballs.
-Gravel_Mart_Clerk_TimsPizza,Prof. Tim forgot to pick up~his Pizza!*Will you deliver it for me?
-Gravel_Main_Clerk_NoDelivery,We don't deliver you know...
-Gravel_Mart_ReceivePizza,<player.name> received Tim's Pizza!
-Gravel_Mart_PizzaInPocket,<player.name> stored it in the~№ KeyItems pocket.
+Gravel_PokeMart_Youngster,Ya!~Potions are available!
+Gravel_PokeMart_Bugcatcher,This shop sells lots of~Pokéballs.
+Gravel_PokeMart_Clerk_TimsPizza,Prof. Tim forgot to pick up~his Pizza!*Will you deliver it for me?
+Gravel_PokeMain_Clerk_NoDelivery,We don't deliver you know...
+Gravel_PokeMart_ReceivePizza,<player.name> received Tim's Pizza!
+Gravel_PokeMart_PizzaInPocket,<player.name> stored it in the~№ KeyItems pocket.
 
 [Merson Cave]
 MersonCave_Sign,Merson Cave*Route 54 up ahead.
@@ -2252,3 +2253,18 @@ MersonCave_LassVanessa_DefeatMessage,You just don't get it, do you?
 MersonCave_BugcatcherBill_IntroMessage,Hey, want to play?
 MersonCave_BugcatcherBill_OutroMessage,You got me!
 MersonCave_BugcatcherBill_DefeatMessage,Blah! You don't play nice!
+
+[Merson City]
+Merson_Main_WeakBoy,I tried facing the Pokémon~Gym leader, but I'm way too~weak to fight him.
+Merson_Main_FreeHealGuy,You can go and heal your~Pokémon for free of charge!~Convenient isn't it? I love~it!
+Merson_Main_QuestionKid_AskQuestion,Are you a good trainer?
+Merson_Main_QuestionKid_AnswerYes,Really? That's so cool!*I'm not...
+Merson_Main_QuestionKid_AnswerNo,Hahaha, I guess not.*Can you give me your Pokémon~then?*Please?
+
+Merson_PokeMart_PotionsGuy,You can never have enough~Potions! Buy lots to keep your~Pokémon alive and well!
+Merson_PokeMart_NuggetGuy,I found a Nugget in the mountains.*I thought it was useless, but~it sold for 5000!
+
+Merson_FanClub_Seel_Cry,Seel: Seel?
+Merson_FanClub_Clefable_Cry,Clefable: Fable!
+
+Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!

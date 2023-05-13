@@ -1,8 +1,7 @@
 version=2
 
 :if:<register.registered(tyroguetrade)>=false
-:then
-	@text.show(Hello there!*Do you want to trade your~Butterfree for Tyrogue?)
+@text.show(Hello there!*Do you want to trade your~Butterfree for Tyrogue?)
 	@options.show(Yes,No)
 	:when:Yes
 	@pokemon.npctrade(12|236||-1||0|47893|Trainer|5||Unknown|Caught with [POKE]BALL|Punch|Okay, connect the cable like so!|What? That's not Butterfree!*If you get one, come back~here!|tyroguetrade)

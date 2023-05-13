@@ -1,8 +1,7 @@
 version=2
 
 :if:<register.registered(coincase)>=false
-:then
-	@text.show(Hey kid, like the slots?*Well there's a casino in~Owsauri City*I'm stinkin rich so I can~just buy coins, so here.)
+@text.show(Hey kid, like the slots?*Well there's a casino in~Owsauri City*I'm stinkin rich so I can~just buy coins, so here.)
 	@item.give(54,1)
 	@item.messagegive(54,1)
 	@register.register(coincase)
