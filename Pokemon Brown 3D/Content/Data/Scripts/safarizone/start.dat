@@ -4,11 +4,11 @@ version=2
 
 :when:1,0,3
 	@text.show(Hi!~Is it your first time here?)
-	@options.show(Yes,No)
-		:when:Yes
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		:when:<system.token(global_yes)>
 			@text.show(Well this is similar to~the Safari Zone is Kanto but~contains different Pokémon.*Don't run out of balls or time!~Best luck to you!)
 			:end
-		:when:No
+		:when:<system.token(global_no)>
 			@text.show(Sorry, you're a regular here!)
 			:end
 		:endwhen
@@ -17,8 +17,8 @@ version=2
 	@player.move(1)
 	:if:<register.registered(safaritimer)>=True
 		@text.show(Are you sure you want~to exit the Park?)
-		@options.show(Yes,No)
-			:when:Yes
+		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+			:when:<system.token(global_yes)>
 				:if:<inventory.countitem(181)>>0
 					@text.show(You must now return your~Safari balls.)
 					@item.remove(181,<inventory.countitem(181)>)
@@ -27,7 +27,7 @@ version=2
 				@player.turnto(1)
 				@player.move(1)
 				:end
-			:when:No
+			:when:<system.token(global_no)>
 				@text.show(Then get back in there!!)
 				@player.turnto(3)
 				@player.move(2)
@@ -36,8 +36,8 @@ version=2
 			:endwhen
 	:else
 		@text.show(Welcome to the Park!*For just 500 poke, you can~catch all the Pokémon you want.*Would you like to join the hunt?)
-		@options.show(Yes,No)
-			:when:Yes
+		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+			:when:<system.token(global_yes)>
 				@text.show(That'll be 500 poke please!)
 				:if:<player.money>>500
 					@player.money(-500)
@@ -55,7 +55,7 @@ version=2
 				@player.move(2)
 				@player.warp(Eagulou\safari\0.dat,3,0.1,25,1)
 				@register.registertime(safaritimer,15,minutes)
-			:when:No
+			:when:<system.token(global_no)>
 				@text.show(OK. Please come again!)
 				@player.turnto(1)
 				@player.move(1)
@@ -66,8 +66,8 @@ version=2
 	@player.turnto(2)
 	:if:<register.registered(safaritimer)>=True
 		@text.show(Are you sure you want~to exit the Park?)
-		@options.show(Yes,No)
-			:when:Yes
+		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+			:when:<system.token(global_yes)>
 				:if:<inventory.countitem(181)>>0
 					@text.show(You must now return your~Safari balls.)
 					@item.remove(181,<inventory.countitem(181)>)
@@ -76,7 +76,7 @@ version=2
 					@player.turnto(1)
 					@player.move(1)
 					:end
-			:when:No
+			:when:<system.token(global_no)>
 				@text.show(Then get back in there!!)
 				@player.turnto(3)
 				@player.move(2)
@@ -85,8 +85,8 @@ version=2
 			:endwhen
 	:else
 		@text.show(Welcome to the Park!*For just 500 poke, you can~catch all the Pokémon you want.*Would you like to join the hunt?)
-		@options.show(Yes,No)
-			:when:Yes
+		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+			:when:<system.token(global_yes)>
 				@text.show(That'll be 500 poke please!)
 				:if:<player.money>>500
 					@player.money(-500)
@@ -104,7 +104,7 @@ version=2
 				@player.move(2)
 				@player.warp(Eagulou\safari\0.dat,3,0.1,25,1)
 				@register.registertime(safaritimer,15,minutes)
-			:when:No
+			:when:<system.token(global_no)>
 				@text.show(OK. Please come again!)
 				@player.turnto(1)
 				@player.move(1)

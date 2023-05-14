@@ -2,7 +2,7 @@ version=2
 
 :if:<register.registered(starbadge_obtain)>=False
 :then
-@Text.show(GymGuy: Yo! Champ in making!*This is the hardest GYM yet.*I heard the leader uses ground~Pokémon, so water and grass~would do best against him.)
+@Text.show(Gym Guy: Yo! Champ in making!*This is the hardest Gym yet.*I heard the leader uses ground~Pokémon, so water and grass~would do best against him.)
 :else
 @Text.show(Was it surprising?*No?*Arrogant Prick!)
 :endif

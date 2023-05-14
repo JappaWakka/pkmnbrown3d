@@ -2,12 +2,12 @@ version=2
 
 :if:<register.registered(laprastrade)>=false
 @text.show(I'm looking for a Clefairy!~Wanna trade one for Lapras?)
-	@options.show(Yes,No)
-	:when:Yes
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
 	@pokemon.npctrade(35|131||-1||0|62003|Trainer|5||Unknown|Caught with [POKE]BALL|Kathy|Okay, connect the cable like so!|What? That's not Clefairy!*If you get one, come back~here!|laprastrade)
 	:end
 	
-	:when:No
+	:when:<system.token(global_no)>
 	@text.show(Awww! Oh well...)
 	:end
 	:endwhen

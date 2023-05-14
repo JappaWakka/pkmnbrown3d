@@ -2,11 +2,11 @@ version=2
 
 :if:<register.registered(rhyhorntrade)>=false
 	@text.show(Hello there! Do you want~to trade your Rhyhorn for a ~Crobat?)
-	@options.show(Yes,No)
-	:when:Yes
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
 		@pokemon.npctrade(111|169||-1|||47092|Slick|5||Unknown|Caught with [POKE]BALL|Batty|Yes! A Pokémon I always wanted!|Whoa! That's not a Rhyhorn!|rhyhorntrade)
 		:end
-	:when:No
+	:when:<system.token(global_no)>
 		@text.show(Well, if you don't want to...)
 	:endwhen
 :else

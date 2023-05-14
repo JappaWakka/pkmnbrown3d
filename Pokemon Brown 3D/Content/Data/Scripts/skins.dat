@@ -1,7 +1,7 @@
 version=2
 @text.show(Would you like to change~your character's skin?)
-@options.show(Yes,No)
-:when:Yes
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+:when:<system.token(global_yes)>
 	@text.show(Which skin would~you like to use?)
 	@options.show(Kastania,Brown,Adam)
 	:when:Kastania
@@ -20,7 +20,7 @@ version=2
 		@level.wait(50)
 		@screen.fadein
 	:endwhen
-:when:No
+:when:<system.token(global_no)>
 	@text.show(Okay...)
 :endwhen
 @text.show(Thank you!*Come again!)

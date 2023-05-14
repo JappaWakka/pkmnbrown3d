@@ -1,17 +1,18 @@
 [TRAINER FORMAT]
 Name|Jess
-TrainerClass|Campergirl
+TrainerClass|Jr. Trainer ♀
 Money|220
-IntroMessage|I'm never hiking again...
-OutroMessage|I'm not up to it!
-DefeatMessage|Cute over tough anyday!
-TextureID|Lass_Blue6
+IntroMessage|<system.token(Route55_JrTrainerFemaleJess_IntroMessage)>
+OutroMessage|<system.token(Route55_JrTrainerFemaleJess_OutroMessage)>
+DefeatMessage|<system.token(Route55_JrTrainerFemaleJess_DefeatMessage)>
+TextureID|JrTrainer_Female
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
 Pokemon1|96,11
-Pokemon2|88,12
+Pokemon2|88,11
 Pokemon3|
 Pokemon4|
 Pokemon5|
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|1
 AI|2
-IntroSequence|Blue,Blue
+IntroSequence|2,2

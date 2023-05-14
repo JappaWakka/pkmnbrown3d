@@ -11,12 +11,12 @@ version=2
 @text.show(Good evening! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
 :endwhen
 
-@options.show(Yes,No)
-:when:No
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+:when:<system.token(global_no)>
 @text.show(We hope to see you~again!)
 :end
 
-:when:Yes
+:when:<system.token(global_yes)>
 @text.show(OK, I'll take your~Pokémon for a few~seconds.)
 @pokemon.hide
 @level.update

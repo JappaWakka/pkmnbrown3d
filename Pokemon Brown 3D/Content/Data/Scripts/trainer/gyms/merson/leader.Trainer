@@ -1,15 +1,15 @@
 [TRAINER FORMAT]
 Name|Karpman
 TrainerClass|Leader
-Money|600
+Money|1188
 IntroMessage|
-OutroMessage|Damn!*You beat my Pokémon.~As proof of your~victory, here's the~Marine-Badge!
-DefeatMessage|Damn!*You beat my Pokémon.~As proof of your~victory, here's the~Marine-Badge!
+OutroMessage|<system.token(Merson_Gym_Karpman_DefeatMessage)>
+DefeatMessage|<system.token(Merson_Gym_Karpman_DefeatMessage)>
 TextureID|Karpman
 Region|Rijon
-IniMusic|Johto_leader_intro
-DefeatMusic|leader_defeat
-BattleMusic|johto_leader
+IniMusic|Rijon_Leader_Intro
+DefeatMusic|Rijon_Leader_Defeat
+BattleMusic|Rijon_Leader
 Pokemon1|116,10
 Pokemon2|134,12
 Pokemon3|
@@ -19,5 +19,5 @@ Pokemon6|
 Items|17,17,17
 Gender|0
 AI|2
-IntroSequence|Orange,Brown
+IntroSequence|0,0
 IntroType|11

@@ -13,7 +13,7 @@ version=2
 						 @player.turnto(3)
 						 @npc.turn(0,1)
 						 @npc.move(0,1)
-						 @battle.starttrainer(gyms\57\000)
+						 @battle.starttrainer(Gyms\57\000)
 			:endwhen
 	:when:8,0,7
 		@text.show(Pokémon QUIZ!*Pewter City is in Johto.)
@@ -23,7 +23,7 @@ version=2
 						 @player.turnto(3)
 						 @npc.turn(3,1)
 						 @npc.move(3,1)
-						 @battle.starttrainer(gyms\57\003)
+						 @battle.starttrainer(Gyms\57\003)
 			:when:False
 				@text.show(You're absolutely correct!*Go on through.)
 				@register.register(quiz1a)
@@ -43,7 +43,7 @@ version=2
 						 @player.turnto(3)
 						 @npc.turn(4,1)
 						 @npc.move(4,1)
-						 @battle.starttrainer(gyms\57\004)
+						 @battle.starttrainer(Gyms\57\004)
 			:endwhen
 	:when:0,0,13
 		@text.show(Pokémon QUIZ!*Pokémon Brown is made by KBM.)
@@ -57,7 +57,7 @@ version=2
 						 @player.turnto(3)
 						 @npc.turn(5,1)
 						 @npc.move(5,1)
-						 @battle.starttrainer(gyms\57\005)
+						 @battle.starttrainer(Gyms\57\005)
 			:endwhen
 	:when:0,0,7
 		@text.show(Pokémon QUIZ!*Johto is south of Rijon.)
@@ -67,7 +67,7 @@ version=2
 						 @player.turnto(3)
 						 @npc.turn(6,1)
 						 @npc.move(6,1)
-						 @battle.starttrainer(gyms\57\006)
+						 @battle.starttrainer(Gyms\57\006)
 			:when:False
 				@text.show(You're absolutely correct!*Go on through.)
 				@register.register(quiz4)

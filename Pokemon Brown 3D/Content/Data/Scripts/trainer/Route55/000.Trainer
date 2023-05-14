@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Roger
-TrainerClass|Pokémaniac
+TrainerClass|PokéManiac
 Money|550
-IntroMessage|Hi kid,~want to see my Pokémon?
-OutroMessage|Oh no!~My Pokémon!
-DefeatMessage|I don't like you for beating me!
+IntroMessage|<system.token(Route55_PokeManiacRoger_IntroMessage)>
+OutroMessage|<system.token(Route55_PokeManiacRoger_OutroMessage)>
+DefeatMessage|<system.token(Route55_PokeManiacRoger_DefeatMessage)>
 TextureID|PokeManiac
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|Blue,Blue
+IntroSequence|9,9

@@ -4,13 +4,13 @@ version=2
 
 @pokemon.select
 @text.show(Pretty good, but I guess~you can have a better name.*Want me to change it?)
-@options.show(Yes,No)
-:when:Yes
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+:when:<system.token(global_yes)>
 @pokemon.rename(<pokemon.selected>)
 @text.show(That's a cool name!~Come again sometime.)
 :end
 
-:when:No
+:when:<system.token(global_no)>
 @text.show(Fine! Come any time you~like!)
 :end
 

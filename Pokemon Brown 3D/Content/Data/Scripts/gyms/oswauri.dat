@@ -1,9 +1,9 @@
 version=2
 
 :if:<register.registered(hailbadge_obtain)>=true
-@text.show(Owsauri City Pokémon gym~Leader: Lily*Winning Trainers:~Mura~<player.name>)
+@text.show(Owsauri City Pokémon Gym~Leader: Lily*Winning Trainers:~Mura~<player.name>)
 
 :else
-	@text.show(Owsauri City Pokémon gym~Leader: Lily*Winning Trainers:~Mura)
+	@text.show(Owsauri City Pokémon Gym~Leader: Lily*Winning Trainers:~Mura)
 :endif
 :end

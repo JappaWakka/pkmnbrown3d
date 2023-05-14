@@ -2,11 +2,11 @@ version=2
 
 :if:<register.registered(sparkybadge_obtain)>=False
 @text.show(<player.name>: Are you the Gym~Leader?*Sparky: Yes I am! What~do you want to do,~face me or something?*<player.name>: Uh... yeah!*Sparky: Why do you even~bother?*My Electric Pokémon are~way to powerful for~anyone.*Especially you!*<player.name>: Well I'll see about~that.*Lets fight!)
-@battle.starttrainer(gyms\jaeru\leader)
+@battle.starttrainer(Gyms\jaeru\leader)
 @Register.register(sparkybadge_obtain)
-@register.register(trainer_gyms\jaeru\000)
-@register.register(trainer_gyms\jaeru\001)
-@register.register(trainer_gyms\jaeru\002)
+@register.register(trainer_Gyms\jaeru\000)
+@register.register(trainer_Gyms\jaeru\001)
+@register.register(trainer_Gyms\jaeru\002)
 @player.GetBadge(4)
 @Text.show(The Sparky Badge, named after~yours truly, increases your~Pokémon's speed, and lets~you use Fly anytime!*Take this too!)
 @item.give(215,1)

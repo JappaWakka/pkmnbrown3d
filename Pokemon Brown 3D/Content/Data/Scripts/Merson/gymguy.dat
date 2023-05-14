@@ -1,9 +1,9 @@
 version=2
 
 :if:<register.registered(marinebadge_obtain)>=False
-:then
-@Text.show(GymGuy: Hiya!~I can tell you have what~it takes to become a~Pokémon champ!~I'm no trainer,but I~can tell you how to win!~Let me take you~to the top!~Use Electric or Plant~moves to beat Karpman's~Water Pokémon! )
-:else
-@Text.show(Just as I thought!~You're Pokémon champ material!)
+	:then
+		@Text.show(<system.token(Merson_Gym_GymGuy_BeforeBadge)>)
+	:else
+		@Text.show(<system.token(Merson_Gym_GymGuy_AfterBadge)>!)
 :endif
 :end

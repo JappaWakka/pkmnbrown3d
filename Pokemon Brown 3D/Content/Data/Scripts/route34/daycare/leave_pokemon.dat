@@ -14,10 +14,10 @@ version=2
 
 		:if:<daycare.countpokemon(0)>=1
 				@text.show(We can raise two of~your Pokémon.*Would you like us to~raise another?)
-			@options.show(Yes,No)
-			:when:Yes
+			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+			:when:<system.token(global_yes)>
 				@script.start(route34\daycare\leave_pokemon)
-			:when:No
+			:when:<system.token(global_no)>
 				@text.show(Please come back~for it later.)
 			:endwhen
 		:endif

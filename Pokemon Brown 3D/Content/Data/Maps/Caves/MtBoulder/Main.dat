@@ -289,7 +289,7 @@ Ladders:
 {"Entity"{ENT[{"EntityID"{str[Cube]}}{"Scale"{sngArr[1,1,0.25]}}{"Position"{sngArr[25,1,4]}}{"TexturePath"{str[WoodTower]}}{"Textures"{recArr[[16,96,16,16][16,96,4,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[25,2.99,4]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[240,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"Visible"{bool[1]}}]}}
 
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,0,6]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[240,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\Mt.Boulder\B1.dat,11,1.1,7,2,0]}}{"Rotation"{int[2]}}{"Visible"{bool[1]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,0,6]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[240,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\MtBoulder\B1.dat,11,1.1,7,2,0]}}{"Rotation"{int[2]}}{"Visible"{bool[1]}}]}}
 {"Entity"{ENT[{"EntityID"{str[Cube]}}{"Scale"{sngArr[1,1,0.25]}}{"Position"{sngArr[8,0,6]}}{"TexturePath"{str[WoodTower]}}{"Textures"{recArr[[16,80,16,16][16,80,4,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"Floor"{ENT[{"Size"{intArr[1,1]}}{"Visible"{bool[0]}}{"Position"{intArr[8,0,6]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[64,48,16,16]}}]}}
 

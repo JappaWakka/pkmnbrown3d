@@ -1,8 +1,8 @@
 version=2
 	@text.show(Hey trainer!~Do you want to leave your~Pokémon here for~us to raise them?*Wait, are you the trainer~who helped with the~MYSTERY EGG?*<player.name> right?~I found another egg here,~I want you to have it~since you seem to~be very dependable.*But there's something odd~with this egg.~In fact, I called~it the ODD EGG.*Here, I want you~to take it!)
 
-	@Options.Show(Yes,No)
-	:when:No
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_no)>
 		@text.show(Oh, that's sad...*But you can always come~back if you want to~get the ODD EGG.)
 		:end
 	:endwhen

@@ -2,12 +2,12 @@ version=2
 
 :if:<register.registered(magmartrade)>=false
 @text.show(Hi! Want to trade an~Abra for a Magmar?)
-	@options.show(Yes,No)
-	:when:Yes
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
 	@pokemon.npctrade(63|126||-1||0|49396|Frank|5||Unknown|Caught with [POKE]BALL|Master|Okay, connect the cable like so!|What? That's not Abra!*If you get one, come back~here!|magmartrade)
 	:end
 	
-	:when:No
+	:when:<system.token(global_no)>
 	@text.show(Awww! Oh well...)
 	:end
 	:endwhen

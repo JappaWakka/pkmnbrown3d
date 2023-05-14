@@ -2,12 +2,12 @@ version=2
 
 :if:<register.registered(tyroguetrade)>=false
 @text.show(Hello there!*Do you want to trade your~Butterfree for Tyrogue?)
-	@options.show(Yes,No)
-	:when:Yes
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
 	@pokemon.npctrade(12|236||-1||0|47893|Trainer|5||Unknown|Caught with [POKE]BALL|Punch|Okay, connect the cable like so!|What? That's not Butterfree!*If you get one, come back~here!|tyroguetrade)
 	:end
 	
-	:when:No
+	:when:<system.token(global_no)>
 	@text.show(Awww! Oh well...)
 	:end
 	:endwhen

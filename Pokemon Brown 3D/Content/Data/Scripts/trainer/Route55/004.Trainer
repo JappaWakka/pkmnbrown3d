@@ -1,16 +1,17 @@
 [TRAINER FORMAT]
 Name|Glenn
-TrainerClass|Pokémaniac
+TrainerClass|PokéManiac
 Money|700
-IntroMessage|Wow, are you a~[POKE]Maniac too?*No?~I'll still fight you!
-OutroMessage|Humph. I'm not angry.
-DefeatMessage|How could I lose to you!?
+IntroMessage|<system.token(Route55_PokeManiacGlenn_IntroMessage)>
+OutroMessage|<system.token(Route55_PokeManiacGlenn_OutroMessage)>
+DefeatMessage|<system.token(Route55_PokeManiacGlenn_DefeatMessage)>
 TextureID|PokeManiac
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
-Pokemon1|29,13
+Pokemon1|29,14
 Pokemon2|32,14
 Pokemon3|
 Pokemon4|
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|Blue,Blue
+IntroSequence|9,9

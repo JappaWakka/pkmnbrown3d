@@ -222,14 +222,14 @@ Cave Walls:
 				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-3,2,-3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,0,-1,0]}}{"Collision"{bool[1]}}{"ModelID"{int[6]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 			
 Stairs:
-	{"Entity"{ENT[{"EntityID"{str[SlideBlock]}}{"Position"{sngArr[4,0,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,48,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[SlideBlock]}}{"Position"{sngArr[5,0,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,32,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Left]}}{"Offset"{sngArr[4,0,3]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Right]}}{"Offset"{sngArr[5,0,3]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[SlideBlock]}}{"Position"{sngArr[22,0,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,48,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[SlideBlock]}}{"Position"{sngArr[23,0,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,32,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Left]}}{"Offset"{sngArr[22,0,27]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Right]}}{"Offset"{sngArr[23,0,27]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[SlideBlock]}}{"Position"{sngArr[20,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,48,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[SlideBlock]}}{"Position"{sngArr[21,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,32,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Left]}}{"Offset"{sngArr[20,0,11]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Right]}}{"Offset"{sngArr[21,0,11]}}]}}
 	
 Large Rocks:
 	Gemstone 2x2

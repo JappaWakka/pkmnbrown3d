@@ -1,16 +1,16 @@
 version=2
 
 :if:<register.registered(marinebadge_obtain)>=False
-@text.show(Karpman: I'm Karpman.*I only train water~type Pokémon!~Fire is useless against~my mighty water attacks!*<player.name>: Alright, lets see how~good you really are!*Karpman: Ok, but don't say I~didn't warn you!*Let's fight!)
-@battle.starttrainer(gyms\merson\leader)
-@Register.register(marinebadge_obtain)
-@register.register(trainer_gyms\merson\000)
-@player.GetBadge(1)
-@Text.show(That's an official~Pokémon League badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!)
-@item.give(224,1)
-@item.messagegive(224,1)
-@Text.show(A TM contains a technique~that can be taught to Pokémon!~I was used to a TM~only being usable ones, but~that has changed.~TM34 contains Swagger!~It will raise your target's~attack, but it will confuse~it as well!)
+	@text.show(<system.token(Merson_Gym_Karpman_BeforeBattle)>)
+	@battle.starttrainer(Gyms\Merson\Leader)
+	@Register.register(marinebadge_obtain)
+	@register.register(trainer_Gyms\merson\000)
+	@player.GetBadge(1)
+	@Text.show(<system.token(Merson_Gym_Karpman_AfterBattle1)>)
+	@item.give(224,1)
+	@item.messagegive(224,1)
+	@Text.show(<system.token(Merson_Gym_Karpman_AfterBattle2)>)
 :else
-@text.show(That was an epic~battle! Travel around~Rijon to fight the other~GYM leaders.*You might stand a chance~against them!)
+	@text.show(<system.token(Merson_Gym_Karpman_TalkAgain)>)
 :endif
 :end

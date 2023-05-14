@@ -1,12 +1,12 @@
 version=2
 
 @text.show(Did you hear the news?)
-@options.show(Yes,No)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 
-:When:Yes
+:when:<system.token(global_yes)>
 @text.show(Oh, I wish I could of told!)
 
-:when:No
+:when:<system.token(global_no)>
 @text.show(Team Rocket took over the~Warehouse nearby!)
 :endwhen
 :end

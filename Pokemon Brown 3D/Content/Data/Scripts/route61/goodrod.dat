@@ -2,14 +2,14 @@ version=2
 
 :if:<register.registered(goodrod)>=False
 @text.show(I'm the Fishing Guru's~second cousin's uncle twice~removed.*Like fishing?)
-@options.show(Yes,No)
-:when:Yes
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+:when:<system.token(global_yes)>
 @text.show(Grand! I like your stlye!*Take this and fish,~young one!)
 @item.give(59,1)
 @item.messagegive(59,1)
 @register.register(goodrod)
 @text.show(Fishing is a way of life!*From the seas to rivers,~go out and land the big one!)
-:when:No
+:when:<system.token(global_no)>
 @text.show(Oh...That's so disappointing...)
 :endwhen
 :else

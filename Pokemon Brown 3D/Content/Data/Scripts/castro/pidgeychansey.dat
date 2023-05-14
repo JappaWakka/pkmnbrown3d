@@ -2,12 +2,12 @@ version=2
 
 :if:<register.registered(chanseytrade)>=false
 @text.show(Hi! Do you have a~Pidgey?*Want to trade it for Chansey?)
-	@options.show(Yes,No)
-	:when:Yes
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
 	@pokemon.npctrade(16|113||-1||0|48614|Trainer|5||Unknown|Caught with [POKE]BALL|Lara|Okay, connect the cable like so!|What? That's not Pidgey!*If you get one, come back~here!|chanseytrade)
 	:end
 	
-	:when:No
+	:when:<system.token(global_no)>
 	@text.show(Awww! Oh well...)
 	:end
 	:endwhen

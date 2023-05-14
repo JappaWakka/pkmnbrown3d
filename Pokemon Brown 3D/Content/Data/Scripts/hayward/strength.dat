@@ -2,10 +2,10 @@ version=2
 
 :if:<inventory.countitem(1007)>=False <and> <register.registered(strengthobtained)>=False
     @text.show(Hey, have you seen my~special amulet?*I need it!)
-    @options.show(Yes,No)
-    :when:No
+    @options.show(<system.token(global_yes)>,<system.token(global_no)>)
+    :when:<system.token(global_no)>
     @text.show(Darn, well try to look for it.)
-    :when:Yes
+    :when:<system.token(global_yes)>
     @text.show(Bring it to me for a big reward!)
 :endwhen
 :endif

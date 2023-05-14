@@ -2,27 +2,27 @@ version=2
 
 :select:<environment.daytimeid>
 	:when:0
-		@text.show(Hello, and welcome to~the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
+		@text.show(<system.token(Generic_PokeCenter_NurseJoy_Question_NightDay)>)
 	:when:1
-		@text.show(Good morning! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
+		@text.show(<system.token(Generic_PokeCenter_NurseJoy_Question_Morning)>)
 	:when:2
-		@text.show(Hello, and welcome to~the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
+		@text.show(<system.token(Generic_PokeCenter_NurseJoy_Question_NightDay)>)
 	:when:3
-		@text.show(Good evening! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
+		@text.show(<system.token(Generic_PokeCenter_NurseJoy_Question_Evening)>)
 	:endwhen
 	
 @options.setcancelindex(1)
-@options.show(Yes,No)
-	:when:No
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_no)>
 		@npc.wearskin(0,NurseJoy_Bow)
 		@level.wait(45)
 		@npc.wearskin(0,NurseJoy)
 			
-		@text.show(We hope to see you~again!)
+		@text.show(<system.token(Generic_PokeCenter_NurseJoy_AnswerNo)>)
 		:end
 
-	:when:Yes
-		@text.show(OK, I'll take your~Pokémon for a few~seconds.)
+	:when:<system.token(global_yes)>
+		@text.show(<system.token(Generic_PokeCenter_NurseJoy_AnswerYes)>)
 		@OverworldPokemon.hide
 		@level.update
 		@npc.turn(0,1)
@@ -91,7 +91,7 @@ version=2
 		@level.wait(45)
 		@npc.wearskin(0,NurseJoy)
 		
-		@text.show(Thank you for waiting.*We've restored your~Pokémon to full health.*We hope to see you~again!)
+		@text.show(<system.token(Generic_PokeCenter_NurseJoy_HealedParty)>)
 		@player.turnto(2)
 	:end
 	:endwhen

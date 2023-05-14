@@ -1,11 +1,11 @@
 version=2
 
 @text.show(It's a telescope. Would~you like to look through?)
-@options.show(Yes,No)
-:when:No
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+:when:<system.token(global_no)>
 :end
 
-:when:Yes
+:when:<system.token(global_yes)>
 @screen.fadeout
 @player.warp(Gates\clearing.dat,18,3,10)
 @camera.deactivatethirdperson

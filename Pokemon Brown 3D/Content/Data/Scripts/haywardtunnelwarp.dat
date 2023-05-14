@@ -11,7 +11,7 @@ version=2
 
 		:when:34,0,28
 			@screen.fadeout
-			@player.warp(Caves\Mt.Boulder\main.dat,25,1.1,14)
+			@player.warp(Caves\MtBoulder\main.dat,25,1.1,14)
 			@level.update
 			@screen.fadein
 			:end

@@ -2,9 +2,9 @@ version=2
 
 :if:<register.registered(oldrod)>=false
 @text.show(I'm the Fishing Guru's~cousin!*I love to fish!*How about you?)
-@options.show(Yes,No)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 
-:when:Yes
+:when:<system.token(global_yes)>
 @text.show(Grand! I like your style!*Take this and fish,~young one!)
 @item.give(58,1)
 @item.messagegive(58,1)
@@ -12,7 +12,7 @@ version=2
 @text.show(Not the best Rod, but it's~better than nothing!)
 :end
 
-:when:No
+:when:<system.token(global_no)>
 @text.show(Oh... That's so disappointing...)
 :end
 :endwhen
