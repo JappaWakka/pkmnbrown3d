@@ -1,20 +1,20 @@
 version=2
 
-:if:<register.registered(ridecoupon)>=false
-@text.show(I chair the Pokémon Fan Club!*I have collected over 100~Pokémon!*I'm very fussy when it comes~to Pokémon!*So...*Hey kid, did you bring in a~cool Pokémon?)
-	@options.show(Yes,No)
-	:when:Yes
-		@text.show(Good! There's a special deal~I'm offering.*If you bring Pokémon, you~get a free Ride HM coupon!*And it looks like you have one~so here you go!)
+:if:<register.registered(RideCoupon)>=false
+@text.show(<system.token(Merson_FanClub_Chairman_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		@text.show(<system.token(Merson_FanClub_Chairman_AnswerYes)>)
 		@sound.play(Success_Small,1)
-		@text.show(<player.name> received a Ride HM~Voucher!*Exchange that for a Ride HM!)
-		@register.register(ridecoupon)
-	:when:No
-		@text.show(Are you sure? Because~there's a special deal~I'm offering.*If you bring Pokémon, you~get a free Ride HM coupon!*And it looks like you have one~so here you go!)
+		@text.show(<system.token(Merson_FanClub_ReceiveVoucher)>)
+		@register.register(RideCoupon)
+	:when:<system.token(global_no)>
+		@text.show(<system.token(Merson_FanClub_Chairman_AnswerNo)>)
 		@sound.play(Success_Small,1)
-		@text.show(<player.name> received a Ride HM~Voucher!*Exchange that for a Ride HM!)
-		@register.register(ridecoupon)
+		@text.show(<system.token(Merson_FanClub_ReceiveVoucher)>)
+		@register.register(RideCoupon)
 	:endwhen:
 :else:
-	@text.show(Hello, <player.name>!*I hope you have fun with~riding your Pokémon!)
+	@text.show(<system.token(Merson_FanClub_Chairman_AfterVoucher)>)
 :endif:
 :end

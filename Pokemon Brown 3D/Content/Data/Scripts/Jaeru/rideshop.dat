@@ -1,10 +1,10 @@
 version=2
 
-:if:<register.registered(ridecoupon)>=false
+:if:<register.registered(RideCoupon)>=false
 	@text.show(Hello. You thought I sell~bikes?*Nope, it's way better to~travel along with your Pokémon!*If you have a Ride Voucher~I can make that happen.*...*Seems like you don't have one.)
 	:endif
 
-:if:<register.registered(ridecoupon)>=true <and> <register.registered(gotride)>=false
+:if:<register.registered(RideCoupon)>=true <and> <register.registered(gotride)>=false
 	@text.show(Hello. You thought I sell~bikes?*Nope, it's way better to~travel along with your Pokémon!*If you have a Ride Voucher~I can make that happen.*...*Oh, you got one!~Here, take this HM to~ride a Pokémon.)
 	@item.give(251,1)	
 	@item.messagegive(251,1)

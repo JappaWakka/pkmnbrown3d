@@ -1,10 +1,10 @@
 version=2
 
-:if:<register.registered(FanClubGirl)>=True
-    @text.show(Oh dear.*My Seel is far more~attractive.)
-    @register.unregister(FanClubGirl)
-:else
-    @text.show(That man's Clefable is really~cute!)
+:if:<register.registered(FanClubGirl)>=False
+    @text.show(<system.token(Merson_FanClub_Girl_1)>)
     @register.unregister(FanClubGuy)
+:else
+	@text.show(<system.token(Merson_FanClub_Girl_2)>)
+    @register.unregister(FanClubGirl)
 :endif
 :end

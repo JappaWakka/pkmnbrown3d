@@ -1,10 +1,10 @@
 version=2
 
 :if:<register.registered(FanClubGuy)>=False
-    @text.show(My Clefable can get annoying~sometimes.)
+    @text.show(<system.token(Merson_FanClub_Guy_1)>)
     @register.register(FanClubGuy)
 :else
-    @text.show(I love my Clefable more than~anything!)
+    @text.show(<system.token(Merson_FanClub_Guy_2)>)
     @register.register(FanClubGirl)
 :endif
 :end

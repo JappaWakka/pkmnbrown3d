@@ -58,7 +58,7 @@ TownMap:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[2,0.18,3]}}{"TextureID"{str[PonytailGirl_Green]}}{"ID"{int[0]}}{"Name"{str[Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[Say hi to my cute CUBONE!]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[2,0.18,3]}}{"TextureID"{str[PonytailGirl_Green]}}{"ID"{int[0]}}{"Name"{str[Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Merson_CuboneHouse_Girl)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[3,0,4]}}{"TextureID"{str[[POKEMON|N]104]}}{"ID"{int[1]}}{"Name"{str[Cubone]}}{"Action"{int[1]}}{"AdditionalValue"{str[cry\cubone]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 
