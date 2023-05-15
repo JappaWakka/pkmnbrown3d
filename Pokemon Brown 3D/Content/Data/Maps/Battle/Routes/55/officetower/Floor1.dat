@@ -71,7 +71,7 @@ Door:
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,9]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\55\Main.dat,8,0.1,21,4]}}{"Rotation"{int[2]}}]}}
 
 Stairs:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[7,0,-2]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,96,16,16][16,96,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\55\officetower\floor2.dat,7,-0.9,-3,2,0]}}{"Rotation"{int[2]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[7,0,-2]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,96,16,16][16,96,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\55\KBMGamesBuilding\floor2.dat,7,-0.9,-3,2,0]}}{"Rotation"{int[2]}}]}}
 
 NPCs:
 {"NPC"{NPC[{"Position"{sngArr[0,0,2]}}{"TextureID"{str[[POKEMON|N]112]}}{"ID"{int[0]}}{"Name"{str[Trainer]}}{"Action"{int[1]}}{"AdditionalValue"{str[cry\rhydon]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

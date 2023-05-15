@@ -58,7 +58,7 @@ TownMap:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Note:
-{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0.25,-0.995]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,96,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[seashore\speary]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
+	{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0.25,-0.995]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,96,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[seashore\speary]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[5,0.18,2]}}{"TextureID"{str[PokeFan_Male_Green]}}{"ID"{int[0]}}{"Name"{str[Father]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Seashore_RivalHouse_Father_SonLeaving)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
