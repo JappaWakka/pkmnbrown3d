@@ -2267,7 +2267,8 @@ Merson_Main_FreeHealGuy,You can go and heal your~Pokémon for free of charge!~Co
 Merson_Main_QuestionKid_AskQuestion,Are you a good trainer?
 Merson_Main_QuestionKid_AnswerYes,Really? That's so cool!*I'm not...
 Merson_Main_QuestionKid_AnswerNo,Hahaha, I guess not.*Can you give me your Pokémon~then?*Please?
-Merson_Main_Sign_Gym,Merson City Gym -~Karpman
+Merson_Main_Sign_Gym_BeforeDefeat,Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura
+Merson_Main_Sign_Gym_AfterDefeat,Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<player.name>
 Merson_Main_Sign_City,Merson City*The noble little town
 Merson_Main_Sign_Challenge,Think you're tough?*Go face Karpman!
 
@@ -2298,10 +2299,10 @@ Merson_Gym_GymGuy_AfterBadge,Gym Guy: Just as I thought!~You're Pokémon champ m
 Merson_Gym_JrTrainerMaleButch_IntroMessage,Stop right there, kid!
 Merson_Gym_JrTrainerMaleButch_OutroMessage,Darn! I thought I had~a chance against you...
 Merson_Gym_JrTrainerMaleButch_DefeatMessage,You're pretty good~but you won't beat him!!!
-Merson_Gym_Karpman_BeforeBattle,Karpman: I'm Karpman.*I only train Water type~Pokémon!~Fire is useless against~my mighty water attacks!*<player.name>: Alright, lets see how~good you really are!*Karpman: Okay, but don't say I~didn't warn you!*Let's fight!
+Merson_Gym_Karpman_BeforeBattle,Karpman: I'm Karpman.*I only train Water type~Pokémon!~Fire is useless against~my mighty water attacks!*Do you think you can defeat me?~Okay, but don't say I~didn't warn you!*Let's fight!
 Merson_Gym_Karpman_AfterBattle1,Karpman: That's an official~Pokémon League badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!
 Merson_Gym_Karpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!~I was used to a TM only being~single-use, but that seems~to have changed.~TM34 contains Swagger!~It will raise your target's~attack, but it will confuse~it as well!
-Merson_Gym_Karpman_DefeatMessage,Karpman: Damn!*You beat my Pokémon.~As proof of your~victory, here's the~Marine-Badge!
+Merson_Gym_Karpman_DefeatMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine-Badge!
 Merson_Gym_Karpman_TalkAgain,That was an epic battle!~Travel around Rijon to fight~the other Gym leaders.*You might stand a chance~against them!
 
 [Route 55]

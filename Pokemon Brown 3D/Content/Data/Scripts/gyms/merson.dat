@@ -1,9 +1,8 @@
 version=2
 
 :if:<register.registered(marinebadge_obtain)>=true
-@text.show(Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<player.name>)
-
+	@text.show(<system.token(Merson_Main_Sign_Gym_AfterDefeat)>)
 :else
-	@text.show(Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura)
+	@text.show(<system.token(Merson_Main_Sign_Gym_BeforeDefeat)>)
 :endif
 :end
