@@ -4,7 +4,7 @@ version=2
 	@Player.Warp(Routes\55\DockUnderpass_Entrance.dat,4,0.1,3,3)
 :else
 	:if:<Player.Facing>=1
-		@Player.Warp(Routes\55\DockUnderpass_Entrance.dat,4,0.1,3,0)
+		@Player.Warp(Routes\55\DockUnderpass_Entrance.dat,4,0.1,3,2)
 		:else
 			:if:<Player.Facing>=2
 				@Player.Warp(Routes\55\DockUnderpass_Entrance.dat,4,0.1,3,1)

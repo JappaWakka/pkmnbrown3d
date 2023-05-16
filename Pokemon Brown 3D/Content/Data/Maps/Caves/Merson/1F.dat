@@ -31,7 +31,6 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[23,0,13]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,48,16,16]}}]}}
 		
 	Gemstone Floors
-		Gray
 			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[13,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[15,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[19,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
@@ -44,13 +43,12 @@ Floors:
 			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,19]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[10,0,19]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,19]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
-		Green
-			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[12,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[128,0,16,16]}}]}}
-			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[128,0,16,16]}}]}}
-			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[18,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[128,0,16,16]}}]}}
-			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[128,0,16,16]}}]}}
-			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[10,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[128,0,16,16]}}]}}
-			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[128,0,16,16]}}]}}
+			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[12,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
+			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
+			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[18,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
+			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
+			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[10,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
+			{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 			
 	Removal
 		{"Floor"{ENT[{"Size"{intArr[10,4]}}{"Position"{intArr[2,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}{"Remove"{bool[1]}}]}}
@@ -301,7 +299,7 @@ Boulders:
 	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[12,-0.1,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Gemstones:
-	Gray
+	Rough
 		{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"Position"{sngArr[8,-0.1,19]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"Position"{sngArr[9,-0.1,18]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"Position"{sngArr[10,-0.1,19]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -315,7 +313,7 @@ Gemstones:
 		{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"Position"{sngArr[19,-0.1,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"Position"{sngArr[18,-0.1,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		
-	Green
+	Smooth
 		{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"Position"{sngArr[12,-0.1,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"Position"{sngArr[14,-0.1,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"Position"{sngArr[18,-0.1,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

@@ -432,13 +432,18 @@ Gym:
 			
 		
 Warps:
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Seashore.dat,30,0.1,11,2]}}{"Rotation"{int[0]}}{"Position"{sngArr[30,0,11]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\PlayerHouse1F.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[23,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\RivalHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[18,0,37]}}{"TexturePath"{str[Village]}}{"Textures"{recArr[[128,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\53\Main.dat,10,0.1,-1,0]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[19,0,37]}}{"TexturePath"{str[Village]}}{"Textures"{recArr[[128,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\53\Main.dat,11,0.1,-1,0]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[16,-0.25,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\Main.dat,8,0,67,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[17,-0.25,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\Main.dat,9,0,67,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	Gym
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Seashore.dat,30,0.1,11,2]}}{"Rotation"{int[0]}}{"Position"{sngArr[30,0,11]}}]}}
+	Player's House
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\PlayerHouse1F.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+	Rival's House
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[23,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\RivalHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+	Route 53
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[18,0,37]}}{"TexturePath"{str[Village]}}{"Textures"{recArr[[128,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\53\Main.dat,10,0.1,-1,0]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[19,0,37]}}{"TexturePath"{str[Village]}}{"Textures"{recArr[[128,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\53\Main.dat,11,0.1,-1,0]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
+	Route 52
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[16,-0.25,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\Main.dat,8,0,66,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[17,-0.25,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\Main.dat,9,0,66,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[24,0,16]}}{"TextureID"{str[YoungGirl_Green]}}{"ID"{int[0]}}{"Name"{str[Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Seashore_Main_YoungGirl_Green_RunningShoes)>]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
@@ -447,7 +452,7 @@ NPCs:
 
 OffsetMaps:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[8,37]}}{"Map"{str[Routes\53\Main.dat]}}]}}
-	{"OffsetMap"{MAP[{"Offset"{sngArr[8,-68]}}{"Map"{str[Routes\52\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[8,-67]}}{"Map"{str[Routes\52\Main.dat]}}]}}
 	{"OffsetMap"{MAP[{"Offset"{sngArr[9,76]}}{"Map"{str[Gravel\Main.dat]}}]}}
 
 Backdrops:
