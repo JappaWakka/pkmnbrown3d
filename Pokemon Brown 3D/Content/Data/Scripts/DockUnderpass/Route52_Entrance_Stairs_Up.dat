@@ -1,0 +1,18 @@
+version=2
+
+:if:<Player.Facing>=0
+	@Player.Warp(Routes\52\DockUnderpass_Entrance.dat,4,0.1,3,3)
+:else
+	:if:<Player.Facing>=1
+		@Player.Warp(Routes\52\DockUnderpass_Entrance.dat,4,0.1,3,0)
+		:else
+			:if:<Player.Facing>=2
+				@Player.Warp(Routes\52\DockUnderpass_Entrance.dat,4,0.1,3,1)
+				:else
+					@Player.Warp(Routes\52\DockUnderpass_Entrance.dat,4,0.1,3,0)
+			:endif
+	:endif
+:endif
+@Level.Update
+@Player.Move(1)
+:end
