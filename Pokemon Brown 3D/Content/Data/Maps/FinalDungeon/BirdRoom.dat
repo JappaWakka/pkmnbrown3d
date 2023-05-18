@@ -66,4 +66,4 @@ Security Door:
 {"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.2,0.8,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,0,3]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[16,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"Visible"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[finaldungeon\birdroomsecurity]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[1,0,4]}}{"TextureID"{str[GruntM]}}{"ID"{int[0]}}{"Name"{str[RocketGrunt]}}{"Action"{int[1]}}{"AdditionalValue"{str[finaldungeon\birdroom]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[1,0,4]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[RocketGrunt]}}{"Action"{int[1]}}{"AdditionalValue"{str[finaldungeon\birdroom]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

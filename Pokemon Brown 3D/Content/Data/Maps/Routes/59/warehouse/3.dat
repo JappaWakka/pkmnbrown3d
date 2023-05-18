@@ -120,7 +120,7 @@ Scriptblocks:
 {"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,10]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[264,16,16,16]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[4]}}{"AdditionalValue"{str[trainer\silph\giovanni2]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[2,0,13]}}{"TextureID"{str[GruntM]}}{"ID"{int[0]}}{"Name"{str[Grunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\silph\grunt4]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[2,0,13]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[Grunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\silph\grunt4]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[4,0,6]}}{"TextureID"{str[Giovanni]}}{"ID"{int[1]}}{"Name"{str[Giovanni]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[6,0,2]}}{"TextureID"{str[Elder]}}{"ID"{int[2]}}{"Name"{str[Manager]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\manager]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[9,0,2]}}{"TextureID"{str[10]}}{"ID"{int[3]}}{"Name"{str[Assisstant]}}{"Action"{int[0]}}{"AdditionalValue"{str[You are my hero!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

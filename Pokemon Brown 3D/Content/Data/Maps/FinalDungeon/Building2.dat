@@ -191,4 +191,4 @@ Items:
 {"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[13,0.625,4]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[3,64]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[5,0,9]}}{"TextureID"{str[GruntM]}}{"ID"{int[0]}}{"Name"{str[RocketGrunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[4|trainer\finaldungeon\building2\000]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[5,0,9]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[RocketGrunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[4|trainer\finaldungeon\building2\000]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

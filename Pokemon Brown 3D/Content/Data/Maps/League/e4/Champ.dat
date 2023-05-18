@@ -56,5 +56,5 @@ Statues:
 {"Entity"{ENT[{"EntityID"{str[wallBlock]}}{"Position"{sngArr[5,0,10]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[32,16,16,16][48,16,16,16][48,0,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[gyms\oswauri]}}{"Rotation"{int[2]}}]}}
 
 NPC:
-{"NPC"{NPC[{"Position"{sngArr[6,0,8]}}{"TextureID"{str[Blue]}}{"ID"{int[2]}}{"Name"{str[NurseJoy]}}{"Action"{int[1]}}{"AdditionalValue"{str[trainer\league\mura]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[6,0,8]}}{"TextureID"{str[Rival]}}{"ID"{int[2]}}{"Name"{str[NurseJoy]}}{"Action"{int[1]}}{"AdditionalValue"{str[trainer\league\mura]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[16,0,18]}}{"TextureID"{str[Tim]}}{"ID"{int[1]}}{"Name"{str[NurseJoy]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
