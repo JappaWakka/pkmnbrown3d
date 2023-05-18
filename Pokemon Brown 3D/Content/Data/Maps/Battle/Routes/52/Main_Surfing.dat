@@ -1,0 +1,38 @@
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
+
+BattleMapStructure:
+	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\Routes\52\Main.dat]}}{"Offset"{sngArr[0,0,-38]}}]}}
+
+Buildings:
+	Magmar Trade House
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Hayward_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[14,0,-26]}}]}}
+		
+	Dock Underpass Entrance
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Hayward_FlatRoof_4x2y4z_Entrance]}}{"Offset"{sngArr[2,0,-4]}}]}}
+	
+Large Rocks:
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[2,-0.25,-38]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[14,-0.25,-38]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[18,-0.25,-34]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[12,0,-28]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[18,-0.25,-18]}}]}}
+	
+Offsets:
+	{"OffsetMap"{MAP[{"Offset"{sngArr[-8,-76]}}{"Map"{str[Hayward\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[-8,29]}}{"Map"{str[Seashore\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[0,66]}}{"Map"{str[Routes\53\Main.dat]}}]}}
+	
+
+Backdrops:
+	Seashore
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-88.5,-0.75,27.5]}}{"Size"{intArr[80,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,27.5]}}{"Size"{intArr[80,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Route52
+		{"Backdrop"{BAC[{"Position"{sngArr[-88.5,-0.75,-38.5]}}{"Size"{intArr[79,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Position"{sngArr[-9.5,-0.75,-37.5]}}{"Size"{intArr[1,65]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Position"{sngArr[32.5,-0.75,-38.5]}}{"Size"{intArr[79,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Position"{sngArr[30.5,-0.75,-37.5]}}{"Size"{intArr[2,65]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Route53
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-88.5,-0.75,60.5]}}{"Size"{intArr[80,37]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,60.5]}}{"Size"{intArr[80,37]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	

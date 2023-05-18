@@ -194,9 +194,6 @@ Water:
 		NorthEast
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[27,-0.25,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 
-NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[13,0,33]}}{"TextureID"{str[Clerk]}}{"ID"{int[0]}}{"Name"{str[Clerk]}}{"Action"{int[1]}}{"AdditionalValue"{str[route53\guy_potion]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[8,30,2,4]]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[16,0,20]}}{"TextureID"{str[RegularGuy_Blue]}}{"ID"{int[1]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route53_OtherGuy_StraightForward)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 
 OffsetMaps:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[-3,-34]}}{"Map"{str[Seashore\Main.dat]}}]}}

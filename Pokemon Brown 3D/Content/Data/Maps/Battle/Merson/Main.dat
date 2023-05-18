@@ -26,8 +26,3 @@ Buildings:
 			{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[11,0,6]}}]}}
 		Pokémon Fan Club
 			{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[17,0,10]}}]}}
-
-NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[13,0,-11]}}{"TextureID"{str[SchoolKid_Male_Blue]}}{"ID"{int[0]}}{"Name"{str[Weak Boy]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[13,-11,7,5]]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[11,0,10]}}{"TextureID"{str[Hiker]}}{"ID"{int[1]}}{"Name"{str[Hiker]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[18,0,0]}}{"TextureID"{str[LongHairKid]}}{"ID"{int[2]}}{"Name"{str[Question Kid]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[18,0,5,7]]}}]}}
