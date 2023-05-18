@@ -20,9 +20,6 @@ Routes:
 {"PlaceType"[Route]}{"Name"[Route 47-B]}{"MapFiles"[]}{"Position"[14,15]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 47-B]}{"MapFiles"[]}{"Position"[14,16]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-
-{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[]}{"Position"[16,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-
 {"PlaceType"[Route]}{"Name"[Route 48-B]}{"MapFiles"[]}{"Position"[3,1]}{"Direction"[Vertical]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 48-B]}{"MapFiles"[]}{"Position"[3,0]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
@@ -110,7 +107,7 @@ Routes:
 {"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[]}{"Position"[13,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[]}{"Position"[14,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
-
+{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[]}{"Position"[16,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
 Places:
 {"PlaceType"[Place]}{"Name"[Merson Cave]}{"Mapfiles"[Caves\Merson\1F.dat,Caves\Merson\B1F.dat,Caves\Merson\B2F.dat,Caves\Merson\Outside.dat]}{"Position"[3,15]}{"Size"[Small]}
@@ -121,4 +118,3 @@ Places:
 {"PlaceType"[Place]}{"Name"[Rijon League]}{"MapFiles"[]}{"Position"[12,1]}{"Size"[Small]}{"FlyTo"[League\route0.dat,9,12,-10]}
 {"PlaceType"[Place]}{"Name"[Blood Moon Island]}{"MapFiles"[bmisland\Main.dat]}{"Position"[14,19]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Ilex Forest]}{"MapFiles"[]}{"Position"[16,15]}{"Size"[Small]}
-

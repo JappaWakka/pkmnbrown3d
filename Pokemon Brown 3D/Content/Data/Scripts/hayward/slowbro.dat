@@ -1,6 +1,6 @@
 version=2
 
- :select:<system.random(0,2)>
+ :select:<system.random(0,3)>
  :when:0
    @text.show(Slowbro is loafing around...) 
  :when:1
@@ -8,5 +8,7 @@ version=2
  :when:2
    @text.show(Slowbro turned away...)
    @npc.turn(1,2)
+ :when:3
+   @text.show(Slowbro took a snooze...) 
  :endwhen
 :end
