@@ -1,7 +1,7 @@
 {"Level"{LEV[{"Name"{str[Hayward City]}}{"MusicLoop"{str[Goldenrod]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"MapScript"{str[hayward\mapscript]}}]}}
 
-Grasss:
+Grass:
 {"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[40,36]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
 
 Fences:
@@ -176,8 +176,7 @@ Gate:
 {"EntityField"{ENT[{"Scale"{sngArr[1,0.2,1]}}{"Size"{intArr[6,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,2.6,34]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[20,24,12,3][96,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 {"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,1,34]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[80,16,16,16][64,0,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 {"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,1,34]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[80,16,16,16][64,0,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[16,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\route52hayward.dat,4,0.1,-1,4]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[17,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\route52hayward.dat,5,0.1,-1,4]}}{"Rotation"{int[0]}}]}}
+{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[16,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route52_Hayward.dat,5,0.1,-1,0]}}{"Rotation"{int[0]}}]}}
 
 PokeCenter:
 {"EntityField"{ENT[{"Size"{intArr[4,3]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[26,0,20]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[48,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

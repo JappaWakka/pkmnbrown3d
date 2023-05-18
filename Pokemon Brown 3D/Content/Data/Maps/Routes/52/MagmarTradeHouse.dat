@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[Merson City]}}{"MusicLoop"{str[lavender]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[Route 52]}}{"MusicLoop"{str[RouteMusic1]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
 
 Floors:
@@ -33,7 +33,7 @@ Walls (Direction = Facing):
 		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,1,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[16,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 
 Door:
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\Main.dat,5,0.1,23,0]}}{"Rotation"{int[2]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\Main.dat,15,0.1,13,0]}}{"Rotation"{int[2]}}]}}
 
 Furniture:
 	Bookshelves
@@ -58,8 +58,8 @@ TownMap:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[2,0.18,3]}}{"TextureID"{str[PonytailGirl_Green]}}{"ID"{int[0]}}{"Name"{str[Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Merson_CuboneHouse_Girl)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[3,0,4]}}{"TextureID"{str[[POKEMON|N]104]}}{"ID"{int[1]}}{"Name"{str[Cubone]}}{"Action"{int[1]}}{"AdditionalValue"{str[cry\cubone]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0.18,3]}}{"TextureID"{str[Scientist]}}{"ID"{int[0]}}{"Name"{str[Scientist Dad]}}{"Action"{int[0]}}{"AdditionalValue"{str[Live in the city?*Why, I love it here.*No darn annoying hoodrats.]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[GameBoyKid_Green]}}{"ID"{int[1]}}{"Name"{str[GameBoy Kid Frank]}}{"Action"{int[1]}}{"AdditionalValue"{str[Route52\AbraMagmarTrade]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 
 

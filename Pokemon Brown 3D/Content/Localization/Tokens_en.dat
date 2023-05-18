@@ -483,6 +483,7 @@ Places_Botan City,Botan City
 Special Places:
 Places_Dock Underpass,Dock Underpass
 Places_Castro Valley,Castro Valley
+Places_Merson Cave Entrance,Merson Cave Entrance
 Places_Merson Cave,Merson Cave
 Places_Mt. Boulder,Mt. Boulder
 Places_Silk Tunnel,Silk Tunnel
@@ -2239,6 +2240,7 @@ Gravel_PokeMart_ReceivePizza,<player.name> received Tim's Pizza!
 Gravel_PokeMart_PizzaInPocket,<player.name> stored it in the~№ KeyItems pocket.
 
 [Merson Cave]
+MersonCave_Outside_NoPokedexNoAccessGuy,Go in without a Pokédex?*Are you crazy?
 MersonCave_Sign,Merson Cave*Route 54 up ahead.
 MersonCave_YoungsterTom_IntroMessage,Becoming a Pokémon master?
 MersonCave_YoungsterTom_OutroMessage,Aw man...
@@ -2350,3 +2352,11 @@ Route55_KBMGamesBuilding_Floor4_Room_Karl,Karl: I don't need this Pokémon,~so y
 [Dock Underpass]
 DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52~a.k.a. the Hayward Docks.
 DockUnderpass_Entrance_Route52_HomelessGuy,This is where I live because I~have no money...
+
+[Hayward City]
+Route52_Hayward_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 70 kinds of~Pokémon, I'm supposed to give~you a Super Rod!*So <player.name>! Have you~caught at least 70 kinds~of Pokémon?
+Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_70OrMorePokemon,Let's see...*Great!~Here you have the Super Rod!
+Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_LessThan70Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 70 kinds if~you want the Super Rod.
+Route52_Hayward_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 70 kinds,~come back for the Super Rod.
+Route52_Hayward_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
+Route52_Hayward_Gate_BugCatcher,This gate leads straight~to Hayward City.~I love the city!

@@ -1,27 +1,27 @@
 version=2
 
 :if:<register.registered(superrod)>=false
-@text.show(Hi! Remember me?*I'm Prof. Tim's Aide!*If you caught 70 kinds of~Pokémon, I'm supposed to give~you an Super Rod!*So <player.name>! Have you~caught at least 70 kinds~of Pokémon?)
-	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
-
-:when:<system.token(global_yes)>
-:if:<pokedex.caught>>69
-@text.show(Let's see...*Great!~Here you have the Super Rod!)
-	@item.give(61,1)
-	@item.messagegive(61,1)
-	@register.register(superrod)
-:end:
+	@text.show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_Question)>)
+		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	
+	:when:<system.token(global_yes)>
+	:if:<pokedex.caught>>69
+		@text.show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_70OrMorePokemon)>)
+		@item.give(61,1)
+		@item.messagegive(61,1)
+		@register.register(superrod)
+		:end:
+	:else
+		@text.show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_LessThan70Pokemon)>)
+	:end:
+	
+	:when:<system.token(global_no)>
+	@text.show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AnswerNo)>)
+	:end:
+	
+	:endwhen:
+	
 :else
-	@text.show(Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 70 kinds if~you want the Super Rod.)
-:end:
-
-:when:<system.token(global_no)>
-@text.show(Oh, I see.~When you get 70 kinds,~come back for Super Rod.)
-:end:
-
-:endwhen:
-
-:else
-	@text.show(Have fun with it!)
+	@text.show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AfterReceiveSuperRod)>)
 :endif:
 :end

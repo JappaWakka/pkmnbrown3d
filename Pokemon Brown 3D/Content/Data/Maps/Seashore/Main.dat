@@ -456,6 +456,11 @@ OffsetMaps:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[9,76]}}{"Map"{str[Gravel\Main.dat]}}]}}
 
 Backdrops:
+	Route52
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-80.5,-0.75,-67.5]}}{"Size"{intArr[80,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[39.5,-0.75,-67.5]}}{"Size"{intArr[80,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[38.5,-0.75,-66.5]}}{"Size"{intArr[1,65]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	
 	Seashore
 		{"Backdrop"{BAC[{"Position"{sngArr[-80.5,-0.75,-1.5]}}{"Size"{intArr[80,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Position"{sngArr[38.5,-0.75,-1.5]}}{"Size"{intArr[80,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}

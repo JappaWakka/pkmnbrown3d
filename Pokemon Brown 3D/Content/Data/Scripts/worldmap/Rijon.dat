@@ -39,24 +39,24 @@ Routes:
 {"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,5]}{"Direction"[Vertical]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,6]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat,Routes\52\house.dat,Routes\52\tunnel.dat]}{"Position"[2,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat,Routes\52\house.dat,Routes\52\tunnel.dat]}{"Position"[2,9]}{"Direction"[Vertical]}{"RouteType"[Water]}
-{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat,Routes\52\house.dat,Routes\52\tunnel.dat]}{"Position"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}
-{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat,Routes\52\house.dat,Routes\52\tunnel.dat]}{"Position"[2,11]}{"Direction"[Vertical]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\MagmarTradeHouse.dat,Routes\52\DockTunnel_Entrance.dat]}{"Position"[2,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat]}{"Position"[2,9]}{"PlayerPosition"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\DockTunnel_Entrance.dat]}{"Position"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat]}{"Position"[2,11]}{"PlayerPosition"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}
 
 {"PlaceType"[Route]}{"Name"[Route 53]}{"MapFiles"[Routes\53\Main.dat]}{"Position"[2,13]}{"Direction"[Vertical]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 53]}{"MapFiles"[Routes\53\Main.dat]}{"Position"[2,14]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[3,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[4,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[5,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[3,15]}{"PlayerPosition"[5,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[4,15]}{"PlayerPosition"[5,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[5,15]}{"PlayerPosition"[5,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat,Routes\55\KBMGamesBuilding\Floor1.dat,Routes\55\KBMGamesBuilding\Floor2.dat,Routes\55\KBMGamesBuilding\Floor3.dat,Routes\55\KBMGamesBuilding\Floor4.dat,Routes\55\KBMGamesBuilding\Floor4_Room.dat,Routes\55\DockTunnel_Entrance]}{"Position"[6,14]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat,Routes\55\KBMGamesBuilding\Floor1.dat,Routes\55\KBMGamesBuilding\Floor2.dat,Routes\55\KBMGamesBuilding\Floor3.dat,Routes\55\KBMGamesBuilding\Floor4.dat,Routes\55\KBMGamesBuilding\Floor4_Room.dat,Routes\55\DockTunnel_Entrance]}{"Position"[6,13]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat,Routes\55\KBMGamesBuilding\Floor1.dat,Routes\55\KBMGamesBuilding\Floor2.dat,Routes\55\KBMGamesBuilding\Floor3.dat,Routes\55\KBMGamesBuilding\Floor4.dat,Routes\55\KBMGamesBuilding\Floor4_Room.dat,Routes\55\DockTunnel_Entrance]}{"Position"[6,12]}{"Direction"[TRight]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat,Routes\55\KBMGamesBuilding\Floor1.dat,Routes\55\KBMGamesBuilding\Floor2.dat,Routes\55\KBMGamesBuilding\Floor3.dat,Routes\55\KBMGamesBuilding\Floor4.dat,Routes\55\KBMGamesBuilding\Floor4_Room.dat,Routes\55\DockTunnel_Entrance]}{"Position"[6,11]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat,Routes\55\KBMGamesBuilding\Floor1.dat,Routes\55\KBMGamesBuilding\Floor2.dat,Routes\55\KBMGamesBuilding\Floor3.dat,Routes\55\KBMGamesBuilding\Floor4.dat,Routes\55\KBMGamesBuilding\Floor4_Room.dat,Routes\55\DockTunnel_Entrance]}{"Position"[6,10]}{"Direction"[VerticalEndUp]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat,Routes\55\KBMGamesBuilding\Floor1.dat,Routes\55\KBMGamesBuilding\Floor2.dat,Routes\55\KBMGamesBuilding\Floor3.dat,Routes\55\KBMGamesBuilding\Floor4.dat,Routes\55\KBMGamesBuilding\Floor4_Room.dat,Routes\55\DockTunnel_Entrance]}{"Position"[7,12]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,14]}{"Direction"[Vertical]}{"PlayerPosition"[6,12]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,13]}{"Direction"[Vertical]}{"PlayerPosition"[6,12]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,12]}{"Direction"[TRight]}{"PlayerPosition"[6,12]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\KBMGamesBuilding\Floor1.dat,Routes\55\KBMGamesBuilding\Floor2.dat,Routes\55\KBMGamesBuilding\Floor3.dat,Routes\55\KBMGamesBuilding\Floor4.dat,Routes\55\KBMGamesBuilding\Floor4_Room.dat]}{"Position"[6,11]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\DockTunnel_Entrance.dat]}{"Position"[6,10]}{"Direction"[VerticalEndUp]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[7,12]}{"Direction"[Horizontal]}{"PlayerPosition"[6,12]}{"RouteType"[Land]}
 
 {"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[9,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
 {"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[10,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
@@ -113,7 +113,7 @@ Routes:
 
 
 Places:
-{"PlaceType"[Place]}{"Name"[Merson Cave]}{"Mapfiles"[Caves\Merson\1F.dat,Caves\Merson\B1F.dat,Caves\Merson\B2F.dat]}{"Position"[3,15]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Merson Cave]}{"Mapfiles"[Caves\Merson\1F.dat,Caves\Merson\B1F.dat,Caves\Merson\B2F.dat,Caves\Merson\Outside.dat]}{"Position"[3,15]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Mt. Boulder]}{"Mapfiles"[Caves\MtBoulder\Main.dat]}{"Position"[7,12]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Silk Tunnel]}{"Mapfiles"[Caves\Silk\Main.dat]}{"Position"[7,7]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Castro Forest]}{"Mapfiles"[CastroValley\Main.dat]}{"Position"[14,10]}{"Size"[Small]}
