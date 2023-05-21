@@ -56,7 +56,7 @@ Statues:
 {"Entity"{ENT[{"EntityID"{str[wallBlock]}}{"Position"{sngArr[13,0,13]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[32,16,16,16][48,16,16,16][48,0,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[gyms\oswauri]}}{"Rotation"{int[3]}}]}}
 
 NPC:
-{"NPC"{NPC[{"Position"{sngArr[6,0,8]}}{"TextureID"{str[RedE4]}}{"ID"{int[0]}}{"Name"{str[NurseJoy]}}{"Action"{int[1]}}{"AdditionalValue"{str[league\e4]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[6,0,8]}}{"TextureID"{str[Red]}}{"ID"{int[0]}}{"Name"{str[NurseJoy]}}{"Action"{int[1]}}{"AdditionalValue"{str[league\e4]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Rocks:
 {"EntityField"{ENT[{"ID"{int[2]}}{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[6,-0.15,13]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

@@ -1,9 +1,7 @@
 version=2
 
-@npc.remove(20)
-
 :if:<register.registered(haywardtrouble)>=true
-@npc.warp(5,23,0,11)
+	@npc.warp(5,23,0,11)
 	@npc.remove(7)
 :endif
 
