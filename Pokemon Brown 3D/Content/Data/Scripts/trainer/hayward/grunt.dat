@@ -2,10 +2,10 @@ version=2
 
 :if:<register.registered(haywardtrouble)>=false
 @battle.starttrainer(hayward\grunt)
-	@text.show(Take this and don't kill me!)
+	@text.show(<system.token(Hayward_Main_RocketGrunt_TakeThis)>)
 	@item.give(218,1)
 	@item.messagegive(218,1)
-	@text.show(I better get moving! Bye!)
+	@text.show(<system.token(Hayward_Main_RocketGrunt_GetMoving)>)
 	@register.register(haywardtrouble)
 	@screen.fadeout
 	@npc.remove(7)

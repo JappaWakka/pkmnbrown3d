@@ -2,13 +2,13 @@ version=2
 
  :select:<system.random(0,3)>
  :when:0
-   @text.show(Slowbro is loafing around...) 
+   @text.show(<system.token(Hayward_Main_Slowbro_1)>) 
  :when:1
-   @text.show(Slowbro ignored orders...) 
+   @text.show(<system.token(Hayward_Main_Slowbro_2)>) 
  :when:2
-   @text.show(Slowbro turned away...)
+   @text.show(<system.token(Hayward_Main_Slowbro_3)>)
    @npc.turn(1,2)
  :when:3
-   @text.show(Slowbro took a snooze...) 
+   @text.show(<system.token(Hayward_Main_Slowbro_4)>) 
  :endwhen
 :end

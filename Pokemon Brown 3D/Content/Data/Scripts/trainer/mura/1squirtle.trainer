@@ -3,8 +3,8 @@ Name|Mura
 TrainerClass|Rival
 Money|595
 IntroMessage|
-OutroMessage|Hey!~Take it easy!~You won already!
-DefeatMessage|Hey!~Take it easy!~You won already!
+OutroMessage|<system.token(Hayward_Main_Mura_OutroMessage)>
+DefeatMessage|<system.token(Hayward_Main_Mura_OutroMessage)>
 TextureID|Rival
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro

@@ -67,7 +67,7 @@ Chairs:
 
 Map:
 {"Entity"{ENT[{"Scale"{sngArr[0.7,0.7,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0.2,-0.49]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[48,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{="Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Lab]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Lab]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPC:
 {"NPC"{NPC[{"Position"{sngArr[2,0.2,3]}}{"TextureID"{str[19]}}{"ID"{int[0]}}{"Name"{str[Fisher]}}{"Action"{int[1]}}{"AdditionalValue"{str[route61\goodrod]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

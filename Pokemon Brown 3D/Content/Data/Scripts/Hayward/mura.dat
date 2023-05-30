@@ -1,0 +1,38 @@
+version=2
+
+:if:<register.registered(murahaywardbattle)>=false
+	:if:<player.position>=21,0,7
+		@NPC.Turn(20,3)
+		@NPC.Move(20,1)
+		@NPC.Turn(20,2)
+	:endif
+	@NPC.move(20,4)
+	@text.show(<system.token(Hayward_Main_Mura_BeforeBattle)>)
+
+	:if:<register.registered(starter1)>=true
+		@battle.trainer(mura\1charmander)
+	:endif
+
+	:if:<register.registered(starter2)>=true
+		@battle.trainer(mura\1squirtle)
+	:endif
+
+	:if:<register.registered(starter3)>=true
+		@battle.trainer(mura\1bulbasaur)
+	:endif
+
+	@text.show(<system.token(Hayward_Main_Mura_AfterBattle)>)
+	:if:<player.position>=20,0,7
+		@npc.turn(20,3)
+	:else
+		@npc.turn(20,1)
+	:endif
+	@npc.move(20,1)
+	@npc.turn(20,2)
+	@npc.move(20,10)
+	@npc.turn(20,1)
+	@npc.move(20,4)
+	@npc.remove(20)
+	@register.register(murahaywardbattle)
+:endif
+:end

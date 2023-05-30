@@ -61,6 +61,9 @@ PC:
 	ScriptBlock
 		{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Computer]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
+Bell:
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.375,0.375,0.375]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[2.75,0.1825,1.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,128,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[-0.25]}}{"ModelID"{int[3]}}{"Action"{int[21]}}{"AdditionalValue"{str[Outside]}}{"Rotation"{int[0]}}]}}
+	
 Couch:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,160,16,16][48,168,16,16][32,160,16,16][16,160,16,16][0,160,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,0,0,1,1,2,2,-1,-1,-1,-1,4,4,4,4]}}{"Collision"{bool[1]}}{"ModelID"{int[16]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,152,16,16][48,160,16,16][0,176,16,16][16,160,16,16][0,160,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,0,0,1,1,2,2,3,3,3,3,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[16]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}

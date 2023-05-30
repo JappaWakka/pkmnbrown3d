@@ -2,10 +2,10 @@ version=2
 
  :select:<system.random(0,2)>
  :when:0
-   @text.show(Hey kid?!?!!~Seen my Slowbro? He ran away~and is lost...!) 
+   @text.show(<system.token(Hayward_Main_SlowbroGirl_1)>) 
  :when:1
-   @text.show(SLOWBRO? WHERE ARE YOU?!~It's hopeless...he is~gone forever...~I loved my Slowbro...boo hoo!~I wish he didn't leave me!) 
+   @text.show(<system.token(Hayward_Main_SlowbroGirl_2)>) 
  :when:2
-   @text.show(Please try to find Slowbro~for me!)
+   @text.show(<system.token(Hayward_Main_SlowbroGirl_3)>)
  :endwhen
 :end

@@ -83,7 +83,7 @@ NPCs:
 
 townmap:
 {"Entity"{ENT[{"Scale"{sngArr[0.6,0.6,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6.5,0.2,3.51]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[48,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{="Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6.5,0,3]}}{"TexturePath"{str[Lab]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6.5,0,3]}}{"TexturePath"{str[Lab]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Pokeballs
 {"NPC"{NPC[{"Scale"{sngArr[0.2,0.2,0.2]}}{"Position"{sngArr[4.8,-0.3,4.05]}}{"TextureID"{str[Pokeball]}}{"ID"{int[10]}}{"Name"{str[Pokeball]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}]}}

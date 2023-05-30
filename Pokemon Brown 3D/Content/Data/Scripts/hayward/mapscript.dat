@@ -4,8 +4,10 @@ version=2
 	@npc.warp(5,23,0,11)
 	@npc.remove(7)
 :endif
-
+:if:<register.registered(murahaywardbattle)>=false
+	@NPC.spawn(20,0,2,3,0,Rival,0,2,Mura,20,Still)
+:endif
 :if:<register.registered(rijonleague)>=true
-@npc.remove(8)
+	@npc.remove(8)
 :endif
 :end
