@@ -818,7 +818,7 @@ item_category_KeyItems,Key Items
 item_category_BattleItems,Battle Items
 item_category_Mail,Mail
 ---
-Item names:
+Item Names and Descriptions:
 Balls:
 item_name_1,Master Ball
 item_name_2,Ultra Ball
@@ -846,6 +846,13 @@ item_name_186,Heal Ball
 item_name_188,Nest Ball
 
 Key Items:
+item_name_gm0,Tim's Pizza
+item_desc_gm0,The pizza that Tim ordered. Better give it to him before it gets cold!
+
+item_name_gm1,Trade Machine
+item_pluralname_gm1,Trade Machines
+item_desc_gm1,A peculiar device that can make certain species of Pokémon evolve without having to trade them.
+
 item_name_6,Bicycle
 item_name_41,S.S. Ticket
 item_name_54,Coin Case
@@ -856,7 +863,7 @@ item_name_59,Good Rod
 item_name_61,Super Rod
 item_name_66,Red Scale
 item_name_67,Secret Potion
-item_name_69,Tim's Pizza
+item_name_69,Mystery Egg
 item_name_71,Silver Wing
 item_name_78,Running Shoes
 item_name_115,GS Ball

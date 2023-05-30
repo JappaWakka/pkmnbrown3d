@@ -11,7 +11,7 @@ version=2
 	@player.turn(1)
 	@player.move(1)
 	@text.show(<system.token(Gravel_PokeMart_Clerk_TimsPizza)>)
-	@item.give(69,1)
+	@item.give(gm0,1)
 	@sound.play(Success,1)
 	@text.show(<system.token(Gravel_PokeMart_ReceivePizza)>)
 	@text.show(<system.token(Gravel_PokeMart_PizzaInPocket)>)
