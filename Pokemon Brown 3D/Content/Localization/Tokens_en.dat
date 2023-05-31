@@ -512,8 +512,9 @@ Places_Route 60,Route 60
 Places_Route 61,Route 61
 Places_Route 62,Route 62
 Places_Route 63,Route 63
+Places_Route 64,Route 64
 Places_Route 65,Route 65
-Places_Route 67,Route 66
+Places_Route 66,Route 66
 Places_Route 67,Route 67
 Places_Route -,Route -
 
@@ -851,7 +852,8 @@ item_desc_gm0,The pizza that Tim ordered. Better give it to him before it gets c
 
 item_name_gm1,Trade Machine
 item_pluralname_gm1,Trade Machines
-item_desc_gm1,A peculiar device that can make certain species of Pokémon evolve without having to trade them.
+item_desc_gm1,A peculiar single-use device that can make certain species of Pokémon evolve without having to trade them.
+
 
 item_name_6,Bicycle
 item_name_41,S.S. Ticket
@@ -2161,6 +2163,7 @@ Generic_PC_NoInteract,You can't interact with~the PC at the moment.
 Generic_PC_BootUp,Booting up the PC...*Choose a host to~connect to.
 Generic_PC_ChooseHost,Choose a host to~connect to.
 Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon~books!
+Generic_TownMap,It's the Town Map.
 
 Generic_PokeCenter_NurseJoy_Question_NightDay,Hello, and welcome to~the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?
 Generic_PokeCenter_NurseJoy_Question_Morning,Good morning! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?
@@ -2176,6 +2179,10 @@ Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
 
 Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
 Generic_Sign_PokeCenter,Heal Your Pokémon!~Pokémon Center
+
+[Item Use]
+Item_Use_TownMap_Use,<player.name> checked the~Town Map.
+Item_Use_PokeFlute,<player.name> played the~PokéFlute.
 
 [Seashore City]
 Seashore_PlayerHouse1F_Mom_LookForTim,Good luck on following your~dad's footsteps, sweetie!!!*Go south to Gravel Town~and look for the Professor.
@@ -2313,7 +2320,7 @@ Merson_Gym_JrTrainerMaleButch_OutroMessage,Darn! I thought I had~a chance agains
 Merson_Gym_JrTrainerMaleButch_DefeatMessage,You're pretty good~but you won't beat him!!!
 Merson_Gym_Karpman_BeforeBattle,Karpman: I'm Karpman.*I only train Water type~Pokémon!~Fire is useless against~my mighty water attacks!*<player.name>: Alright, let's see how~good you are!*Karpman: Ok, but don't say I~didn't warn you!*Let's fight!
 Merson_Gym_Karpman_AfterBattle1,Karpman: That's an official~Pokémon League badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!
-Merson_Gym_Karpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!~I was used to a TM only being~single-use, but that seems~to have changed.~TM34 contains Swagger!~It will raise your target's~attack, but it will confuse~it as well!
+Merson_Gym_Karpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!~I was used to a TM only being~single-use, but that seems~to have changed.~TM 12 contains Octazooka!~It's a water move that~can lower the accuracy~of your foe!
 Merson_Gym_Karpman_DefeatMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine-Badge!
 Merson_Gym_Karpman_TalkAgain,That was an epic battle!~Travel around Rijon to fight~the other Gym leaders.*You might stand a chance~against them!
 
@@ -2388,8 +2395,11 @@ Hayward_Main_Slowbro_1,Slowbro is loafing around...
 Hayward_Main_Slowbro_2,Slowbro ignored orders...
 Hayward_Main_Slowbro_3,Slowbro turned away...
 Hayward_Main_Slowbro_4,Slowbro took a snooze...
-Hayward_Main_AnnoyedGuy,That girl over there is~annoying and a pain!*Why doesn't she get an orb~herself?
-Hayward_Main_OrbGirl,I collect orbs!*Have any?
+Hayward_Main_AnnoyedGuy_NoOrbs,That girl over there is~annoying and a pain!*Why doesn't she get an orb~herself?
+Hayward_Main_AnnoyedGuy_HaveOrbs,I think she wants orbs to~awaken rare Pokémon in Naljo.*Just a theory.
+Hayward_Main_OrbGirl_HaveAnyOrbs,I collect orbs!~Have any?
+Hayward_Main_OrbGirl_Question_GiveOrbs,Give her one of your orbs?
+
 Hayward_Main_Mura_BeforeBattle,Mura: Yo! <player.name>!*I just got a cool HM from~that city back there.*My Pokémon have been~getting stronger too!*<player.name>: Alright, let's see~if that's true, Mura!
 Hayward_Main_Mura_OutroMessage,Mura: Hey!~Take it easy!~You won already!
 Hayward_Main_Mura_AfterBattle,Mura: You may have won~this time, but I'm going to~compete in the Rijon League~and become the champion!*<player.name>: Not before I do!*Mura: Well see about that~man, I'll see you later.

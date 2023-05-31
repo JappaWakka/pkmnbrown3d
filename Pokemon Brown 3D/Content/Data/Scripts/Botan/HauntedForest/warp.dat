@@ -14,7 +14,7 @@ version=2
 			:when:14,0,8
 				@player.warp(Botan\HauntedForest\0.dat,18,0.1,7)
 			:when:-1,1,8
-				:if:<inventory.countitem(1004)>=false
+				:if:<inventory.countitem(gm6)>=false
 					@player.warp(Botan\HauntedForest\2.dat,2,0.1,9)
 				:else
 					@player.warp(Botan\HauntedForest\missing2.dat,2,0.1,9)

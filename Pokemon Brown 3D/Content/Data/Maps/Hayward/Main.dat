@@ -498,8 +498,8 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[30,0,9]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[7]}}{"Name"{str[Rocket Grunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\hayward\grunt]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[9,0,12]}}{"TextureID"{str[SunglassesGuy]}}{"ID"{int[8]}}{"Name"{str[Bouncer]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_Main_Bouncer)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	
-	{"NPC"{NPC[{"Position"{sngArr[18,5.18,14]}}{"TextureID"{str[Fatguy_Purple]}}{"ID"{int[0]}}{"Name"{str[Annoyed Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_Main_AnnoyedGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[15,5,13]}}{"TextureID"{str[LittleGirl_Ponytail]}}{"ID"{int[1]}}{"Name"{str[Orb Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_Main_OrbGirl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[14,12,3,2]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[18,5.18,14]}}{"TextureID"{str[Fatguy_Purple]}}{"ID"{int[0]}}{"Name"{str[Annoyed Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\AnnoyedGuy]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[15,5,13]}}{"TextureID"{str[LittleGirl_Ponytail]}}{"ID"{int[1]}}{"Name"{str[Orb Girl]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\OrbGirl]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[14,12,3,2]]}}]}}
 
 
 ScriptBlocks:

@@ -7,8 +7,8 @@ version=2
 	@register.register(trainer_Gyms\merson\000)
 	@player.GetBadge(1)
 	@Text.show(<system.token(Merson_Gym_Karpman_AfterBattle1)>)
-	@item.give(224,1)
-	@item.messagegive(224,1)
+	@item.give(gm12,1)
+	@item.messagegive(gm12,1)
 	@Text.show(<system.token(Merson_Gym_Karpman_AfterBattle2)>)
 :else
 	@text.show(<system.token(Merson_Gym_Karpman_TalkAgain)>)

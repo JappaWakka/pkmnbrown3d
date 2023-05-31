@@ -1,4 +1,4 @@
 version=2
-@text.show(It's the TOWN MAP.)
+@text.show(<system.token(Generic_TownMap)>)
 @screen.townmap(Rijon)
 :end

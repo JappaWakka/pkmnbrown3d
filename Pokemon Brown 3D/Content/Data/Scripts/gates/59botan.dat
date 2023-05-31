@@ -10,7 +10,7 @@ version=2
 
 :if:<register.registered(beerkeg)>=true <and> <register.registered(drunksleep)>=false
 @text.show(Whoa, kid!~I smell hard beer!*Give it to me I need it~so bad!!!!!!)
-@item.clearitem(1005,1)
+@item.clearitem(gm7,1)
 @text.show(<player.name> gave the beer.*...Glug glug...~...Gulp...~This stuff hits you...)
 @npc.turn(0,0)
 @register.register(drunksleep)

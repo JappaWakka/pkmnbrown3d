@@ -1,0 +1,4 @@
+version=2
+@text.show(<system.token(Item_Use_PokeFlute)>)
+@sound.play(PokeFlute,1)
+:end
