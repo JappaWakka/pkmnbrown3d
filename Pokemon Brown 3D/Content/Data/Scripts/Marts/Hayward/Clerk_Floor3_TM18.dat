@@ -2,10 +2,10 @@ version=2
 
 :if:<register.registered(tm18)>=false
 @text.show(Oh, hi! I finally finished~Pokémon!*Not done yet? This might~be useful!)
-	@item.give(208,1)
-	@item.messagegive(208)
+	@item.give(gm36,1)
+	@item.messagegive(gm36)
 	@register.register(tm18)
 :else
-	@text.show(TM18 is Rain Dance!*It will make water type~moves even stronger!)
+	@text.show(TM 18 is Counter!~Not like the one I'm~leaning on, mind you!)
 :endif:
 :end

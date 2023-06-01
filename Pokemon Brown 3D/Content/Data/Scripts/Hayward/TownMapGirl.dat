@@ -1,0 +1,13 @@
+version=2
+
+:if:<register.registered(TownMap)>=false
+	@text.show(I'm handing out free~Rijon Maps today,~go ahead and take one!)
+	@NPC.register(Hayward\TownMapHouse.dat|1|remove|1)
+	@NPC.remove(1)
+	@item.give(gm8,1)
+	@item.messagegive(gm8,1)
+	@register.register(TownMap)
+:else
+	@text.show(Use the map if you get lost!)
+:endif
+:end

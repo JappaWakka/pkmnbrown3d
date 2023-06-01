@@ -13,8 +13,8 @@ version=2
 @register.register(trainer_Gyms\seashore\006)
 @player.GetBadge(6)
 @Text.show(The Psi Badge makes Pokémon~up to Lv 70 obey you!*I predicted that you wanted a TM~to go along with this.*Well, I have the perfect one for~you!)
-@item.give(219,1)
-@item.messagegive(219,1)
+@item.give(gm47,1)
+@item.messagegive(gm47,1)
 @Text.show(It's the strongest psychic attack~there is!)
 :else
 @text.show(Everyone has psychic power!~People just don't realize it!)

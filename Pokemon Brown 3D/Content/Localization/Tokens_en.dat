@@ -854,6 +854,43 @@ item_name_gm1,Trade Machine
 item_pluralname_gm1,Trade Machines
 item_desc_gm1,A peculiar single-use device that can make certain species of Pokémon evolve without having to trade them.
 
+item_name_gm2,Red Amulet
+item_desc_gm2,It seems someone has lost this amulet. The owner probably wants it back.
+
+item_name_gm3,Red Orb
+item_pluralname_gm3,Red Orbs
+item_desc_gm3,A shiny red orb. Someone might give you something in exchange for it.
+
+item_name_gm4,Blue Orb
+item_pluralname_gm4,Blue Orbs
+item_desc_gm4,A shiny blue orb. Someone might give you something in exchange for it.
+
+item_name_gm5,Green Orb
+item_pluralname_gm5,Green Orbs
+item_desc_gm5,A shiny green orb. Someone might give you something in exchange for it.
+
+item_name_gm6,Virus Scan
+item_desc_gm6,Strange artifact used to ban MissingNo.
+
+item_name_gm7,Beer Keg
+item_pluralname_gm7,Beer Kegs
+item_desc_gm7,An alcoholic beverage with a strong smell. When consumed by a Pokémon, it restores 30 HP.
+
+item_name_gm8,Town Map
+item_desc_gm8,A very convenient map that can be viewed anytime. It even shows your present location.
+
+item_name_gm9,PokéFlute
+item_desc_gm9,A flute that is said to instantly awaken any Pokémon. It has a lovely tone.
+
+item_name_gm10,Mist Stone
+item_desc_gm10,A very special stone. It emits a yellow glow somehow.
+
+item_name_gm11,Gold Egg
+item_desc_gm11,One of seven hidden treasures!
+
+item_name_gm13,
+item_desc_gm13,
+
 
 item_name_6,Bicycle
 item_name_41,S.S. Ticket
@@ -2181,8 +2218,9 @@ Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
 Generic_Sign_PokeCenter,Heal Your Pokémon!~Pokémon Center
 
 [Item Use]
-Item_Use_TownMap_Use,<player.name> checked the~Town Map.
+Item_Use_TownMap,<player.name> checked the~Town Map.
 Item_Use_PokeFlute,<player.name> played the~PokéFlute.
+Item_Use_HiddenEggs,Wow!*This item may be useful~in Pokémon Prism!*<player.name>: Ugh!~Not this again!
 
 [Seashore City]
 Seashore_PlayerHouse1F_Mom_LookForTim,Good luck on following your~dad's footsteps, sweetie!!!*Go south to Gravel Town~and look for the Professor.
@@ -2407,3 +2445,10 @@ Hayward_Main_Mura_AfterBattle,Mura: You may have won~this time, but I'm going to
 Hayward_PokeCenter_BenchGuy,I wish I had HM02.
 Hayward_PokeCenter_Gentleman,If you can find a fossil, that~lab next door will revive it!
 Hayward_PokeCenter_PokeFan,I came from Eagulou City.
+
+Hayward_FossilLab_FossilReviver_Question,Hey there!*I love to study fossils.*Do you have one I can revive~with this machine?
+Hayward_FossilLab_FossilReviver_NoFossil,No?*GET OUT!
+Hayward_FossilLab_FossilReviver_Answer_No,Aiyah! You come again!
+
+Hayward_TownMapHouse_TownMap,YO!
+Hayward_TownMapHouse_TownMapGirl,I'm hand

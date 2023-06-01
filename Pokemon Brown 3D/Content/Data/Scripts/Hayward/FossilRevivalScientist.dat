@@ -1,0 +1,110 @@
+version=2
+@storage.set(boolean,HaveFossil,0)
+
+:if:<register.registered(FossilRevive_Helix)>=true <or> <register.registered(FossilRevive_Dome)>=true <or> <register.registered(FossilRevive_Skull)>=true
+	:if:<register.registered(EagulouSand_Found)>=true
+		@text.show(Thanks for the Eagulou sand!*...*Done!~Enjoy your new Pokemon!)
+		:if:<register.registered(FossilRevive_Helix)>=true
+			@Text.show(<player.name> got Omanyte!)
+			
+			@Pokemon.Add(138,30,Revived by a scientist,1,in the Hayward Fossil Lab)
+		:endif
+		:if:<register.registered(FossilRevive_Dome)>=true
+			@Text.show(<player.name> got Kabuto!)
+			
+			@Pokemon.Add(140,30,Revived by a scientist,1,in the Hayward Fossil Lab)
+		:endif
+		:if:<register.registered(FossilRevive_Skull)>=true
+			@Text.show(<player.name> got Cranidos!)
+			
+			@Pokemon.Add(408,30,Revived by a scientist,1,in the Hayward Fossil Lab)
+		:endif
+		
+		:if:<pokemon.count>=7
+			@Pokemon.Rename(6)
+			@Text.show(It was transfered to the PC.)
+			@Pokemon.SendToStorage(6)
+			:end
+		:else
+			:select:<pokemon.count>
+				:when:1
+					@Pokemon.Rename(0)
+					:end
+				:when:2
+					@Pokemon.Rename(1)
+					:end
+				:when:3
+					@Pokemon.Rename(2)
+					:end
+				:when:4
+					@Pokemon.Rename(3)
+					:end
+				:when:5
+					@Pokemon.Rename(4)
+					:end
+				:when:6
+					@Pokemon.Rename(5)
+					:end
+			:endwhen
+		:endif
+		
+	:else
+		@text.show(Don't put sand in your bag!~Just walk around Eagulou!*What gets stuck in your~clothes will be enough!)
+	:endif
+:else
+	:if:<inventory.countitem(601)>>1 <or> <inventory.countitem(602)>>1 <or> <inventory.countitem(606)>=1
+		@storage.set(boolean,HaveFossil,1)
+	:endif
+		
+	:if:<storage.get(boolean,HaveFossil)>=true
+		@text.show(<system.token(Hayward_FossilLab_FossilReviver_Question)>)
+		
+		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		:when:<system.token(global_yes)>
+			@item.select(standard,601;602;606)
+			:if:<inventory.selected>=601
+				@text.show(Oh! That is a Helix Fossil! It is a fossil of Omanyte, a Pokemon that is already extinct! I’ll revive it for you, you up for it?)
+				@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@text.show(So! You hurry and give~me that!*<player.name> handed~over the Helix Fossil!*Walk around Eagulou and come~back, then I can finish!)
+					@register.register(FossilRevive_Helix)
+					:end
+				:when:<system.token(global_no)>
+					@text.show(<system.token(Hayward_FossilLab_FossilReviver_Answer_No)>)
+					:end
+				:endwhen
+							
+			:endif
+			:if:<inventory.selected>=602
+				@text.show(Oh! That is a Dome Fossil! It is a fossil of Kabuto, a Pokemon that is already extinct! I’ll revive it for you, you up for it?)
+				:when:<system.token(global_yes)>
+					@text.show(So! You hurry and give~me that!*<player.name> handed~over the Dome Fossil!*Walk around Eagulou and come~back, then I can finish!)
+					@register.register(FossilRevive_Dome)
+					:end
+				:when:<system.token(global_no)>
+					@text.show(<system.token(Hayward_FossilLab_FossilReviver_Answer_No)>)
+					:end
+				:endwhen
+				
+			:endif
+			:if:<inventory.selected>=606
+				@text.show(Oh! That is a Skull Fossil! It is a fossil of Cranidos, a Pokemon that is already extinct! I’ll revive it for you, you up for it?)
+				:when:<system.token(global_yes)>
+					@text.show(So! You hurry and give~me that!*<player.name> handed~over the Skull Fossil!*Walk around Eagulou and come~back, then I can finish!)
+					@register.register(FossilRevive_Skull)
+					:end
+				:when:<system.token(global_no)>
+					@text.show(<system.token(Hayward_FossilLab_FossilReviver_Answer_No)>)
+					:end
+				:endwhen
+			:endif
+		:when:<system.token(global_no)>
+			@text.show(<system.token(Hayward_FossilLab_FossilReviver_NoFossil)>)
+			:end
+		:endwhen
+	:else
+		@text.show(<system.token(Hayward_FossilLab_FossilReviver_Question)>*<system.token(Hayward_FossilLab_FossilReviver_NoFossil)>)
+		:end
+	:endif
+:endif
+:end

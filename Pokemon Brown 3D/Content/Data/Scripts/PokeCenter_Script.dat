@@ -72,7 +72,12 @@ version=2
 		
 		@pokemon.heal
 		@sound.play(Heal_Party,1)
-		@level.wait(180)
+		@npc.danceasync(10,6)
+		@npc.danceasync(11,6)
+		@npc.danceasync(12,6)
+		@npc.danceasync(13,6)
+		@npc.danceasync(14,6)
+		@npc.dance(15,6)
 		
 		@npc.warp(10,~,-0.8,~)
 		@npc.warp(11,~,-0.8,~)

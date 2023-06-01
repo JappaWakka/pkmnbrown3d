@@ -14,9 +14,8 @@ version=2
 		:if:<inventory.selected>=gm3
 			:if:<register.registered(OrbGirl_Red)>=false
 				@text.show(Red Orb?*Nice!*Take this rare TM!)
-				@sound.play(Success_Small,1)
-				@item.give(220,1)
-				@item.messagegive(220,1)
+				@item.give(gm48,1)
+				@item.messagegive(gm48,1)
 				@text.show(TM 30 contains Shadow Ball!*It's a great~Ghost move!)
 				@register.register(OrbGirl_Red)
 				:end
@@ -28,10 +27,9 @@ version=2
 		:if:<inventory.selected>=gm4
 			:if:<register.registered(OrbGirl_Blue)>=false
 				@text.show(Great, a Blue Orb!*Take this as a reward!)
-				@sound.play(Success_Small,1)
-				@item.give(481,1)
-				@item.messagegive(481,1)
-				@text.show(TM 181 contains Megahorn!*Great for any Pokémon~with horns!)
+				@item.give(gm55,1)
+				@item.messagegive(gm55,1)
+				@text.show(TM 37 contains Megahorn!*Great for any Pokémon~with horns!)
 				@register.register(OrbGirl_Blue)
 				:end
 			:else
@@ -42,9 +40,8 @@ version=2
 		:if:<inventory.selected>=gm5
 			:if:<register.registered(OrbGirl_Green)>=false
 				@text.show(Excellent, a Green Orb!*You deserve this!)
-				@sound.play(Success_Small,1)
-				@item.give(216,1)
-				@item.messagegive(216,1)
+				@item.give(gm44,1)
+				@item.messagegive(gm44,1)
 				@text.show(TM 26 contains Earthquake!*It's great for shaking~things up a bit!)
 				@register.register(OrbGirl_Green)
 				:end

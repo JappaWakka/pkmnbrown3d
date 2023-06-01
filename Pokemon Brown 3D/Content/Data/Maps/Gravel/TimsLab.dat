@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Tim's lab]}}{"MusicLoop"{str[TimsLab]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[TimsLab\MapScript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[Gravel\TimsLab\MapScript]}}]}}
 
 Floors:
 	Regular
@@ -58,9 +58,9 @@ Furniture:
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[9,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 PokéBalls:
-	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[6,0.3075,2]}}{"TextureID"{str[PokeBall]}}{"ID"{int[1]}}{"Name"{str[Charmander]}}{"Action"{int[1]}}{"AdditionalValue"{str[TimsLab\ChoosePokemon_Charmander]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
-	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[7,0.3075,2]}}{"TextureID"{str[PokeBall]}}{"ID"{int[2]}}{"Name"{str[Squirtle]}}{"Action"{int[1]}}{"AdditionalValue"{str[TimsLab\ChoosePokemon_Squirtle]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
-	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[8,0.3075,2]}}{"TextureID"{str[PokeBall]}}{"ID"{int[3]}}{"Name"{str[Bulbasaur]}}{"Action"{int[1]}}{"AdditionalValue"{str[TimsLab\ChoosePokemon_Bulbasaur]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
+	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[6,0.3075,2]}}{"TextureID"{str[PokeBall]}}{"ID"{int[1]}}{"Name"{str[Charmander]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\ChoosePokemon_Charmander]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
+	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[7,0.3075,2]}}{"TextureID"{str[PokeBall]}}{"ID"{int[2]}}{"Name"{str[Squirtle]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\ChoosePokemon_Squirtle]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
+	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[8,0.3075,2]}}{"TextureID"{str[PokeBall]}}{"ID"{int[3]}}{"Name"{str[Bulbasaur]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\ChoosePokemon_Bulbasaur]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
 
 Pokédexes:
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"ID"{int[8]}}{"Position"{sngArr[2,0.135,0]}}{"Scale"{sngArr[0.65,0.65,0.65]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"RotationXYZ"{sngArr[-0.9,0,0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
@@ -78,12 +78,11 @@ PC:
 
 ScriptBlocks:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Gravel_TimsLab_Note_OpenMenu)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[TimsLab\FirstBattle]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[TimsLab\FirstBattle]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gravel\TimsLab\FirstBattle]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[5,0,0]}}{"TextureID"{str[Tim]}}{"ID"{int[0]}}{"Name"{str[Tim]}}{"Action"{int[1]}}{"AdditionalValue"{str[TimsLab\tim]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[4,0,2]}}{"TextureID"{str[<rival.skin>]}}{"ID"{int[4]}}{"Name"{str[Mura]}}{"Action"{int[1]}}{"AdditionalValue"{str[TimsLab\Mura]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[5,0,0]}}{"TextureID"{str[Tim]}}{"ID"{int[0]}}{"Name"{str[Tim]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\Tim]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[4,0,2]}}{"TextureID"{str[<rival.skin>]}}{"ID"{int[4]}}{"Name"{str[Mura]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\Mura]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[2,0,9]}}{"TextureID"{str[Scientist]}}{"ID"{int[5]}}{"Name"{str[Aide]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_Timslab_Aide)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[1,0,9]}}{"TextureID"{str[YoungGirl_Blue]}}{"ID"{int[6]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_TimsLab_Girl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[0,7,2,4]]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[8,0,9]}}{"TextureID"{str[Scientist]}}{"ID"{int[7]}}{"Name"{str[Aide]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_Timslab_Aide)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
