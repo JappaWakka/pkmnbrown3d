@@ -7,9 +7,9 @@ version=2
 	@Text.show(<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_Receive)>)
 	:if:<pokemon.count>=6
 		@Text.show(<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_ToPC)>)
-		@Pokemon.AddToStorage(137,5,As a gift from Karl,1,in the KGM Games Building,0,Karl)
+		@Pokemon.AddToStorage(137,5,<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_CatchMethod)>,1,<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_CatchLocation)>,0,Karl)
 	:else
-		@Pokemon.Add(137,5,As a gift from a Karl,1,in the KGM Games Building,0,Karl)
+		@Pokemon.Add(137,5,<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_CatchMethod)>,1,<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_CatchLocation)>,0,Karl)
 	:endif
 	@register.register(porygon)
 :endif:

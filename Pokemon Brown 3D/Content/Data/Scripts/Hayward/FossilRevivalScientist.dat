@@ -3,26 +3,26 @@ version=2
 
 :if:<register.registered(FossilRevive_Helix)>=true <or> <register.registered(FossilRevive_Dome)>=true <or> <register.registered(FossilRevive_Skull)>=true
 	:if:<register.registered(EagulouSand_Found)>=true
-		@text.show(Thanks for the Eagulou sand!*...*Done!~Enjoy your new Pokemon!)
+		@text.show(<system.token(Hayward_FossilLab_FossilReviver_HaveSand)>)
 		:if:<register.registered(FossilRevive_Helix)>=true
-			@Text.show(<player.name> got Omanyte!)
+			@Text.show(<system.token(Hayward_FossilLab_GotOmanyte)>)
 			
-			@Pokemon.Add(138,30,Revived by a scientist,1,in the Hayward Fossil Lab)
+			@Pokemon.Add(138,30,<system.token(Hayward_FossilLab_FossilPokemon_CatchMethod)>,5,<system.token(Hayward_FossilLab_FossilPokemon_CatchLocation)>)
 		:endif
 		:if:<register.registered(FossilRevive_Dome)>=true
-			@Text.show(<player.name> got Kabuto!)
+			@Text.show(<system.token(Hayward_FossilLab_GotKabuto)>)
 			
-			@Pokemon.Add(140,30,Revived by a scientist,1,in the Hayward Fossil Lab)
+			@Pokemon.Add(140,30,<system.token(Hayward_FossilLab_FossilPokemon_CatchMethod)>,5,<system.token(Hayward_FossilLab_FossilPokemon_CatchLocation)>)
 		:endif
 		:if:<register.registered(FossilRevive_Skull)>=true
-			@Text.show(<player.name> got Cranidos!)
+			@Text.show(<system.token(Hayward_FossilLab_GotCranidos)>)
 			
-			@Pokemon.Add(408,30,Revived by a scientist,1,in the Hayward Fossil Lab)
+			@Pokemon.Add(408,30,<system.token(Hayward_FossilLab_FossilPokemon_CatchMethod)>,5,<system.token(Hayward_FossilLab_FossilPokemon_CatchLocation)>)
 		:endif
 		
 		:if:<pokemon.count>=7
 			@Pokemon.Rename(6)
-			@Text.show(It was transfered to the PC.)
+			@Text.show(<system.token(Hayward_FossilLab_FossilPokemon_ToPC)>)
 			@Pokemon.SendToStorage(6)
 			:end
 		:else
@@ -49,7 +49,7 @@ version=2
 		:endif
 		
 	:else
-		@text.show(Don't put sand in your bag!~Just walk around Eagulou!*What gets stuck in your~clothes will be enough!)
+		@text.show(<system.token(Hayward_FossilLab_FossilReviver_NoSand)>)
 	:endif
 :else
 	:if:<inventory.countitem(601)>>1 <or> <inventory.countitem(602)>>1 <or> <inventory.countitem(606)>=1
@@ -63,10 +63,11 @@ version=2
 		:when:<system.token(global_yes)>
 			@item.select(standard,601;602;606)
 			:if:<inventory.selected>=601
-				@text.show(Oh! That is a Helix Fossil! It is a fossil of Omanyte, a Pokemon that is already extinct! I’ll revive it for you, you up for it?)
+				@text.show(<system.token(Hayward_FossilLab_FossilReviver_Question_HelixFossil)>)
 				@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 				:when:<system.token(global_yes)>
-					@text.show(So! You hurry and give~me that!*<player.name> handed~over the Helix Fossil!*Walk around Eagulou and come~back, then I can finish!)
+					@text.show(<system.token(Hayward_FossilLab_FossilReviver_Answer_HelixFossil)>)
+					@item.clearitem(601,1)
 					@register.register(FossilRevive_Helix)
 					:end
 				:when:<system.token(global_no)>
@@ -76,9 +77,10 @@ version=2
 							
 			:endif
 			:if:<inventory.selected>=602
-				@text.show(Oh! That is a Dome Fossil! It is a fossil of Kabuto, a Pokemon that is already extinct! I’ll revive it for you, you up for it?)
+				@text.show(<system.token(Hayward_FossilLab_FossilReviver_Question_DomeFossil)>)
 				:when:<system.token(global_yes)>
-					@text.show(So! You hurry and give~me that!*<player.name> handed~over the Dome Fossil!*Walk around Eagulou and come~back, then I can finish!)
+					@text.show(<system.token(Hayward_FossilLab_FossilReviver_Answer_DomeFossil)>)
+					@item.clearitem(602,1)
 					@register.register(FossilRevive_Dome)
 					:end
 				:when:<system.token(global_no)>
@@ -88,9 +90,10 @@ version=2
 				
 			:endif
 			:if:<inventory.selected>=606
-				@text.show(Oh! That is a Skull Fossil! It is a fossil of Cranidos, a Pokemon that is already extinct! I’ll revive it for you, you up for it?)
+				@text.show()
 				:when:<system.token(global_yes)>
-					@text.show(So! You hurry and give~me that!*<player.name> handed~over the Skull Fossil!*Walk around Eagulou and come~back, then I can finish!)
+					@text.show(<system.token(Hayward_FossilLab_FossilReviver_Answer_SkullFossil)>)
+					@item.clearitem(606,1)
 					@register.register(FossilRevive_Skull)
 					:end
 				:when:<system.token(global_no)>

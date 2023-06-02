@@ -888,6 +888,24 @@ item_desc_gm10,A very special stone. It emits a yellow glow somehow.
 item_name_gm11,Gold Egg
 item_desc_gm11,One of seven hidden treasures!
 
+item_name_gm12,Silver Egg
+item_desc_gm12,One of seven hidden treasures!
+
+item_name_gm13,Crystal Egg
+item_desc_gm13,One of seven hidden treasures!
+
+item_name_gm14,Ruby Egg
+item_desc_gm14,One of seven hidden treasures!
+
+item_name_gm15,Sapphire Egg
+item_desc_gm15,One of seven hidden treasures!
+
+item_name_gm16,Emerald Egg
+item_desc_gm16,One of seven hidden treasures!
+
+item_name_gm17,Prism Key
+item_desc_gm17,One of seven hidden treasures!
+
 item_name_gm18,Magic Wand
 item_pluralname_gm18,Magic Wands
 item_desc_gm18,A special wand that can make certain species of Pokémon evolve.
@@ -2402,6 +2420,8 @@ Route55_KBMGamesBuilding_Floor4_Room_Chalkboard,I shall not waste Master Balls~I
 Route55_KBMGamesBuilding_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 181 TMs and 10 HMs~have been produced by Silph Co.*HMs can also be used outside~of battle, but Pokémon~have trouble forgetting them.
 Route55_KBMGamesBuilding_Floor4_Room_Porygon_Receive,<player.name> got Porygon!
 Route55_KBMGamesBuilding_Floor4_Room_Porygon_ToPC,It was transfered to the PC.
+Route55_KBMGamesBuilding_Floor4_Room_Porygon_CatchMethod,As a gift from Karl
+Route55_KBMGamesBuilding_Floor4_Room_Porygon_CatchLocation,in the KGM Games Building
 Route55_KBMGamesBuilding_Floor4_Room_Karl,Karl: I don't need this Pokémon,~so you can have it for free...*No sir, I am not crazy, just~an idiot...
 
 [Dock Underpass]
@@ -2450,6 +2470,21 @@ Hayward_PokeCenter_PokeFan,I came from Eagulou City.
 Hayward_FossilLab_FossilReviver_Question,Hey there!*I love to study fossils.*Do you have one I can revive~with this machine?
 Hayward_FossilLab_FossilReviver_NoFossil,No?*GET OUT!
 Hayward_FossilLab_FossilReviver_Answer_No,Aiyah! You come again!
+Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! That is a Helix Fossil! It is a fossil of Omanyte, a Pokemon that is already extinct! I’ll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! That is a Dome Fossil! It is a fossil of Kabuto, a Pokemon that is already extinct! I’ll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! That is a Skull Fossil! It is a fossil of Cranidos, a Pokemon that is already extinct! I’ll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Answer_HelixFossil,So! You hurry and give~me that!*<player.name> handed~over the Helix Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_DomeFossil,So! You hurry and give~me that!*<player.name> handed~over the Dome Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_SkullFossil,So! You hurry and give~me that!*<player.name> handed~over the Skull Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_NoSand,Don't put sand in your bag!~Just walk around Eagulou!*What gets stuck in your~clothes will be enough!
+Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~Enjoy your new Pokemon!
+Hayward_FossilLab_GotOmanyte,<player.name> got Omanyte!
+Hayward_FossilLab_GotKabuto,<player.name> got Kabuto!
+Hayward_FossilLab_GotCranidos,<player.name> got Cranidos!
+Hayward_FossilLab_FossilPokemon_ToPC,It was transfered to the PC.
+Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist
+Hayward_FossilLab_FossilPokemon_CatchLocation,in the Hayward Fossil Lab
 
 Hayward_TownMapHouse_TownMap,YO!
-Hayward_TownMapHouse_TownMapGirl,I'm hand
+Hayward_TownMapHouse_TownMapGirl_BeforeGive,I'm handing out free~Rijon Maps today,~go ahead and take one!
+Hayward_TownMapHouse_TownMapGirl_AfterGive,Use the map if you get lost!
