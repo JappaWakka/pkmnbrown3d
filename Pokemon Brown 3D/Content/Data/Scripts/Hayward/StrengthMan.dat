@@ -3,23 +3,23 @@ version=2
 :if:<inventory.countitem(gm2)>=0 <and> <register.registered(strengthobtained)>=False
     @text.show(Hey, have you seen my~special amulet?*I need it!)
     @options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		@text.show(<system.token(Hayward_StrengthHouse_StrengthMan_Answer_Yes)>)
     :when:<system.token(global_no)>
-    @text.show(Darn, well try to look for it.)
-    :when:<system.token(global_yes)>
-    @text.show(Bring it to me for a big reward!)
-:endwhen
+		@text.show(<system.token(Hayward_StrengthHouse_StrengthMan_Answer_No)>)
+	:endwhen
 :endif
 
 :if:<inventory.countitem(gm2)>=1 <and> <register.registered(strengthobtained)>=False
     @item.clearitem(gm2)
-    @text.show(<player.name> gave the Red Amulet to~the man!*The man put it in his pocket.*Thank you so much kid!*<player.name>: Erm, no problem,~now what's that reward?*Man: Oh yeah, its an HM that~can push boulders around!)
+    @text.show(<system.token(Hayward_StrengthHouse_StrengthMan_GiveAmulet)>)
     @item.give(246,1)
     @item.messagegive(246,1)
     @register.register(strengthobtained)
 :endif
 
 :if:<inventory.countitem(gm2)>=0 <and> <register.registered(strengthobtained)>=True
-    @text.show(The HM04 teaches Strength!*It lets Pokémon move~boulders when you're outside~of battle.)
+    @text.show(<system.token(Hayward_StrengthHouse_StrengthMan_AfterGivenAmulet)>)
 :endif
 
 :end
