@@ -58,7 +58,7 @@ TownMap:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[2,0.19,2]}}{"TextureID"{str[CoolTrainer_Female]}}{"ID"{int[0]}}{"Name"{str[Town Map Girl]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\TownMapGirl]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0.155,2]}}{"TextureID"{str[CoolTrainer_Female]}}{"ID"{int[0]}}{"Name"{str[Town Map Girl]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\TownMapGirl]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Scale"{sngArr[0.5,0.5,0.5]}}{"Position"{sngArr[3,0.15,2]}}{"TextureID"{str[TownMap]}}{"ID"{int[1]}}{"Name"{str[Town Map]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_TownMapHouse_TownMap)>]}}{"Rotation"{int[0]}}{"Movement"{str[PokeBall]}}{"MoveRectangles"{recArr[]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
 	
 

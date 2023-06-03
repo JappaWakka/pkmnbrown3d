@@ -58,7 +58,7 @@ TownMap:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[2,0.19,3]}}{"TextureID"{str[Scientist]}}{"ID"{int[0]}}{"Name"{str[Scientist Dad]}}{"Action"{int[0]}}{"AdditionalValue"{str[Live in the city?*Why, I love it here.*No darn annoying hoodrats.]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0.155,3]}}{"TextureID"{str[Scientist]}}{"ID"{int[0]}}{"Name"{str[Scientist Dad]}}{"Action"{int[0]}}{"AdditionalValue"{str[Live in the city?*Why, I love it here.*No darn annoying hoodrats.]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[GameBoyKid_Green]}}{"ID"{int[1]}}{"Name"{str[GameBoy Kid Frank]}}{"Action"{int[1]}}{"AdditionalValue"{str[Route52\AbraMagmarTrade]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 

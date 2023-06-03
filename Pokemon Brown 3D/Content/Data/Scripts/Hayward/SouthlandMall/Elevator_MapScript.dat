@@ -1,0 +1,29 @@
+version=2
+:select:<register.value(SouthlandMall_Elevator)>
+	:when:1
+		@entity.warp(1,~,1,~)
+		@entity.warp(2,~,1,~)
+		@entity.warp(3,~,1,~)
+		@entity.warp(4,~,1,~)
+	:when:2
+		@entity.warp(0,~,1,~)
+		@entity.warp(2,~,1,~)
+		@entity.warp(3,~,1,~)
+		@entity.warp(4,~,1,~)
+	:when:3
+		@entity.warp(0,~,1,~)
+		@entity.warp(1,~,1,~)
+		@entity.warp(3,~,1,~)
+		@entity.warp(4,~,1,~)
+	:when:4
+		@entity.warp(0,~,1,~)
+		@entity.warp(1,~,1,~)
+		@entity.warp(2,~,1,~)
+		@entity.warp(4,~,1,~)
+	:when:5
+		@entity.warp(0,~,1,~)
+		@entity.warp(1,~,1,~)
+		@entity.warp(2,~,1,~)
+		@entity.warp(3,~,1,~)
+:endwhen
+:end

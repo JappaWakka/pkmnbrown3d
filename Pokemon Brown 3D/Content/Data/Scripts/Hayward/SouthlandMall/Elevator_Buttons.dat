@@ -1,0 +1,68 @@
+version=2
+@text.show(Which floor do you want?)
+@options.setcancelindex(5)
+@options.show(1F,2F,3F,4F,5F,Cancel)
+	:when:1F
+		@level.wait(50)
+		@sound.play(ElevatorEnd,1)
+		@register.change(SouthlandMall_Elevator,1)
+		
+		@entity.warp(0,~,0,~)
+		@entity.warp(1,~,1,~)
+		@entity.warp(2,~,1,~)
+		@entity.warp(3,~,1,~)
+		@entity.warp(4,~,1,~)
+		@level.update
+		:end
+	:when:2F
+		@level.wait(50)
+		@sound.play(ElevatorEnd,1)
+		@register.change(SouthlandMall_Elevator,2)
+		
+		@entity.warp(0,~,1,~)
+		@entity.warp(1,~,0,~)
+		@entity.warp(2,~,1,~)
+		@entity.warp(3,~,1,~)
+		@entity.warp(4,~,1,~)
+		@level.update
+		:end
+	:when:3F
+		@level.wait(50)
+		@sound.play(ElevatorEnd,1)
+		@register.change(SouthlandMall_Elevator,3)
+		
+		@entity.warp(0,~,1,~)
+		@entity.warp(1,~,1,~)
+		@entity.warp(2,~,0,~)
+		@entity.warp(3,~,1,~)
+		@entity.warp(4,~,1,~)
+		@level.update
+		:end
+	:when:4F
+		@level.wait(50)
+		@sound.play(ElevatorEnd,1)
+		@register.change(SouthlandMall_Elevator,4)
+		
+		@entity.warp(0,~,1,~)
+		@entity.warp(1,~,1,~)
+		@entity.warp(2,~,1,~)
+		@entity.warp(3,~,0,~)
+		@entity.warp(4,~,1,~)
+		@level.update
+		:end
+	:when:5F
+		@level.wait(50)
+		@sound.play(ElevatorEnd,1)
+		@register.change(SouthlandMall_Elevator,5)
+		
+		@entity.warp(0,~,1,~)
+		@entity.warp(1,~,1,~)
+		@entity.warp(2,~,1,~)
+		@entity.warp(3,~,1,~)
+		@entity.warp(4,~,0,~)
+		@level.update
+		:end
+	:when:Cancel
+		:end
+:endwhen
+:end

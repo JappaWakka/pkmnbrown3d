@@ -61,7 +61,7 @@ Note:
 	{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0.25,-0.995]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,96,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[seashore\speary]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[5,0.19,2]}}{"TextureID"{str[PokeFan_Male_Green]}}{"ID"{int[0]}}{"Name"{str[Father]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Seashore_RivalHouse_Father_SonLeaving)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[5,0.155,2]}}{"TextureID"{str[PokeFan_Male_Green]}}{"ID"{int[0]}}{"Name"{str[Father]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Seashore_RivalHouse_Father_SonLeaving)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[4,0,4]}}{"TextureID"{str[[POKEMON|N]21]}}{"ID"{int[1]}}{"Name"{str[Spearow]}}{"Action"{int[1]}}{"AdditionalValue"{str[cry\speary]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,4,4,2]]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[1,0,3]}}{"TextureID"{str[LittleGirl_BunTies]}}{"ID"{int[2]}}{"Name"{str[Kid]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Seashore_RivalHouse_Sister_BrotherGone)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[0,1,2,4]]}}]}}
 

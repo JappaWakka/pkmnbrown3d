@@ -1,0 +1,23 @@
+version=2
+@camera.update
+@storage.set(integer,ElevatorLevel,1)
+:select:<level.filename>
+	:when:floor1
+		@storage.set(integer,ElevatorLevel,1)
+	:when:floor2
+		@storage.set(integer,ElevatorLevel,2)
+	:when:floor3
+		@storage.set(integer,ElevatorLevel,3)
+	:when:floor4
+		@storage.set(integer,ElevatorLevel,4)
+	:when:floor5
+		@storage.set(integer,ElevatorLevel,5)
+:endwhen
+
+:if:<register.registered(SouthlandMall_Elevator)>=false
+	@register.register(SouthlandMall_Elevator,int,<storage.get(integer,ElevatorLevel)>)
+:else
+	@register.change(SouthlandMall_Elevator,<storage.get(integer,ElevatorLevel)>)
+:endif
+
+:end

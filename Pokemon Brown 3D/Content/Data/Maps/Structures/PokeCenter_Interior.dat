@@ -61,8 +61,6 @@ PC:
 	ScriptBlock
 		{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Computer]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
-Bell:
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.375,0.375,0.375]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[2.75,0.1825,1.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,128,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[-0.25]}}{"ModelID"{int[3]}}{"Action"{int[21]}}{"AdditionalValue"{str[Outside]}}{"Rotation"{int[0]}}]}}
 	
 Couch:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,160,16,16][48,168,16,16][32,160,16,16][16,160,16,16][0,160,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,0,0,1,1,2,2,-1,-1,-1,-1,4,4,4,4]}}{"Collision"{bool[1]}}{"ModelID"{int[16]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
@@ -81,15 +79,18 @@ Counter:
 	Chairs
 		{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.36,0.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[28,127,12,12][28,139,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.36,0.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[28,127,12,12][28,139,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
+	Bell
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.375,0.375,0.375]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[2.75,0.1825,1.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,128,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[-0.25]}}{"ModelID"{int[3]}}{"Action"{int[21]}}{"AdditionalValue"{str[Outside]}}{"Rotation"{int[0]}}]}}
 		
 	Scriptblock
 		{"EntityField"{ENT[{"Scale"{sngArr[1,1,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[PokeCenter_Script]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
 	NurseJoy
-		{"NPC"{NPC[{"Position"{sngArr[3,0.19,0.25]}}{"TextureID"{str[NurseJoy]}}{"ID"{int[0]}}{"Name"{str[Nurse Joy]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[3,0.155,0.25]}}{"TextureID"{str[NurseJoy]}}{"ID"{int[0]}}{"Name"{str[Nurse Joy]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Chansey
-		{"NPC"{NPC[{"Position"{sngArr[4,0.19,0.25]}}{"TextureID"{str[[POKEMON|N]113]}}{"ID"{int[1]}}{"Name"{str[Chansey]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[4,0.155,0.25]}}{"TextureID"{str[[POKEMON|N]113]}}{"ID"{int[1]}}{"Name"{str[Chansey]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 		
 
 HealingMachine:
