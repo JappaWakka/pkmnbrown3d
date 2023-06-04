@@ -16,7 +16,7 @@ version=2
 				@text.show(Red Orb?*Nice!*Take this rare TM!)
 				@item.give(gm48,1)
 				@item.messagegive(gm48,1)
-				@text.show(TM 30 contains Shadow Ball!*It's a great~Ghost move!)
+				@text.show(TM 30 contains Shadow Ball!*It's a great Ghost move!)
 				@register.register(OrbGirl_Red)
 				:end
 			:else
