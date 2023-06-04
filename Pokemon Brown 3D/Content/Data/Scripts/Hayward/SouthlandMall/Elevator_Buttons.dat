@@ -1,7 +1,7 @@
 version=2
-@text.show(Which floor do you want?)
+@text.show(<system.token(Hayward_SouthlandMall_ElevatorButtons)>)
 @options.setcancelindex(5)
-@options.show(1F,2F,3F,4F,5F,Cancel)
+@options.show(1F,2F,3F,4F,5F,<system.token(global_cancel)>)
 	:when:1F
 		@level.wait(50)
 		@sound.play(ElevatorEnd,1)
@@ -62,7 +62,7 @@ version=2
 		@entity.warp(4,~,0,~)
 		@level.update
 		:end
-	:when:Cancel
+	:when:<system.token(global_cancel)>
 		:end
 :endwhen
 :end

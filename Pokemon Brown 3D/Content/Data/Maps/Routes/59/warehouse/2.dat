@@ -242,7 +242,7 @@ NPCs:
 {"NPC"{NPC[{"Position"{sngArr[6,0,14]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[4]}}{"Name"{str[Grunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\silph\grunt3]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[1,0,10]}}{"TextureID"{str[83]}}{"ID"{int[5]}}{"Name"{str[Workergirl]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\workergirl1]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[4,0,4]}}{"TextureID"{str[82]}}{"ID"{int[6]}}{"Name"{str[Worker]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\worker2]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[-2,0,7]}}{"TextureID"{str[61]}}{"ID"{int[7]}}{"Name"{str[Scientist]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\silph\scientist2]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[-2,0,7]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[7]}}{"Name"{str[Scientist]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\silph\scientist2]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Doors:
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[14,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\warehouse\1.dat,6,0.1,16,0]}}{"Rotation"{int[0]}}]}}

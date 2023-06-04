@@ -2228,7 +2228,8 @@ Generic_PokeCenter_NurseJoy_AnswerNo,We hope to see you~again!
 Generic_PokeCenter_NurseJoy_AnswerYes,Okay, I'll take your~Pokémon for a few~seconds.
 Generic_PokeCenter_NurseJoy_HealedParty,Thank you for waiting.*We've restored your~Pokémon to full health.*We hope to see you~again!
 
-Generic_PokeMart_Clerk,Hi there!~May I help you?
+Generic_PokeMart_Clerk_Question,Hi there!~May I help you?
+Generic_PokeMart_Clerk_AfterQuit,Thank you! Come again!
 Generic_PokeMart_Buy,Buy
 Generic_PokeMart_Quit,Quit
 Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
@@ -2428,7 +2429,17 @@ Route55_KBMGamesBuilding_Floor4_Room_Karl,Karl: I don't need this Pokémon,~so y
 DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52~a.k.a. the Hayward Docks.
 DockUnderpass_Entrance_Route52_HomelessGuy,This is where I live because I~have no money...
 
-[Hayward City]
+[Route 52]
+Route52_MagmarTraderHouse_Father,Live in the city?*Why, I love it here.*No darn annoying hoodrats.
+Route52_MagmarTraderHouse_Frank_MagmarTrade_Question,Frank: Hi! Want to trade~an Abra for a Magmar?
+Route52_MagmarTraderHouse_Frank_MagmarTrade_Answer_No,Frank: Awww! Oh well...
+Route52_MagmarTraderHouse_Frank_MagmarTrade_AfterTrade,Frank: Isn't my old Magmar great?
+Route52_MagmarTraderHouse_Frank_MagmarTrade_TradeSuccess,Frank: Okay, connect the cable~like so!
+Route52_MagmarTraderHouse_Frank_MagmarTrade_TradeFail,Frank: What? That's not Abra!*If you get one, come back~here!
+Route52_MagmarTraderHouse_Frank_MagmarTrade_CatchMethod,Received in a trade
+Route52_MagmarTraderHouse_Frank_MagmarTrade_CatchLocation,in a house at Route 52
+
+[Route 52 - Hayward City Gate]
 Route52_Hayward_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 70 kinds of~Pokémon, I'm supposed to give~you a Super Rod!*So <player.name>! Have you~caught at least 70 kinds~of Pokémon?
 Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_70OrMorePokemon,Let's see...*Great!~Here you have the Super Rod!
 Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_LessThan70Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 70 kinds if~you want the Super Rod.
@@ -2436,6 +2447,7 @@ Route52_Hayward_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 70 kinds,~co
 Route52_Hayward_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
 Route52_Hayward_Gate_BugCatcher,This gate leads straight~to Hayward City.~I love the city!
 
+[Hayward City]
 Hayward_Main_Sign_SouthlandMall,The largest shopping center~in Rijon!~Southland Mall
 Hayward_Main_Sign_City,Hayward City*A calm, peaceful city to live at!
 Hayward_Main_Sign_TrainerTips,Trainer Tips*Pressing [<system.button(back1)>] during evolution~cancels the whole process.
@@ -2461,6 +2473,13 @@ Hayward_Main_AnnoyedGuy_NoOrbs,That girl over there is~annoying and a pain!*Why 
 Hayward_Main_AnnoyedGuy_HaveOrbs,I think she wants orbs to~awaken rare Pokémon in Naljo.*Just a theory.
 Hayward_Main_OrbGirl_HaveAnyOrbs,I collect orbs!~Have any?
 Hayward_Main_OrbGirl_Question_GiveOrbs,Give her one of your orbs?
+Hayward_Main_OrbGirl_DontNeedThatOrb,I don't need that Orb.
+Hayward_Main_OrbGirl_Red_Orb_1,Red Orb?*Nice!*Take this rare TM!
+Hayward_Main_OrbGirl_Red_Orb_2,TM 30 contains Shadow Ball!*It's a great Ghost move!
+Hayward_Main_OrbGirl_Blue_Orb_1,Great, a Blue Orb!*Take this as a reward!
+Hayward_Main_OrbGirl_Blue_Orb_2,TM 37 contains Megahorn!*Great for any Pokémon~with horns!
+Hayward_Main_OrbGirl_Green_Orb_1,Excellent, a Green Orb!*You deserve this!
+Hayward_Main_OrbGirl_Green_Orb_2,TM 26 contains Earthquake!*It's great for shaking~things up a bit!
 
 Hayward_Main_Mura_BeforeBattle,Mura: Yo! <player.name>!*I just got a cool HM from~that city back there.*My Pokémon have been~getting stronger too!*<player.name>: Alright, let's see~if that's true, Mura!
 Hayward_Main_Mura_OutroMessage,Mura: Hey!~Take it easy!~You won already!
@@ -2470,15 +2489,23 @@ Hayward_PokeCenter_BenchGuy,I wish I had HM02.
 Hayward_PokeCenter_Gentleman,If you can find a fossil, that~lab next door will revive it!
 Hayward_PokeCenter_PokeFan,I came from Eagulou City.
 
+Hayward_FossilLab_Kathy_LaprasTrade_Question,I'm looking for a Clefairy!~Wanna trade one for Lapras?
+Hayward_FossilLab_Kathy_LaprasTrade_Answer_No,Awww! Oh well...
+Hayward_FossilLab_Kathy_LaprasTrade_AfterTrade,Isn't my old Lapras great?
+Hayward_FossilLab_Kathy_LaprasTrade_TradeSuccess,Kathy: Okay, connect the cable~like so!
+Hayward_FossilLab_Kathy_LaprasTrade_TradeFail,Kathy: What? That's not~Clefairy!*If you get one, come back~here!
+
+Hayward_FossilLab_Kathy_LaprasTrade_CatchMethod,Received in a trade with Kathy
+Hayward_FossilLab_Kathy_LaprasTrade_CatchLocation,in the Hayward Fossil Lab
 Hayward_FossilLab_FossilReviver_Question,Hey there!*I love to study fossils.*Do you have one I can revive~with this machine?
 Hayward_FossilLab_FossilReviver_NoFossil,No?*GET OUT!
-Hayward_FossilLab_FossilReviver_Answer_No,Aiyah! You come again!
-Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! That is a Helix Fossil! It is a fossil of Omanyte, a Pokemon that is already extinct! I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! That is a Dome Fossil! It is a fossil of Kabuto, a Pokemon that is already extinct! I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! That is a Skull Fossil! It is a fossil of Cranidos, a Pokemon that is already extinct! I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Answer_HelixFossil,So! You hurry and give~me that!*<player.name> handed~over the Helix Fossil!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_Answer_DomeFossil,So! You hurry and give~me that!*<player.name> handed~over the Dome Fossil!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_Answer_SkullFossil,So! You hurry and give~me that!*<player.name> handed~over the Skull Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_No,Don't waste my time then!~Come back when you do!
+Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! That is a Helix Fossil!~It's a fossil of Omanyte,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! That is a Dome Fossil!~It's a fossil of Kabuto,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! That is a Skull Fossil!~It's a fossil of Cranidos,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Well? Hurry up and give~me that!*<player.name> handed~over the Helix Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Well? Hurry up and give~me that!*<player.name> handed~over the Dome Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me that!*<player.name> handed~over the Skull Fossil!*Walk around Eagulou and come~back, then I can finish!
 Hayward_FossilLab_FossilReviver_NoSand,Don't put sand in your bag!~Just walk around Eagulou!*What gets stuck in your~clothes will be enough!
 Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~Enjoy your new Pokemon!
 Hayward_FossilLab_GotOmanyte,<player.name> got Omanyte!
@@ -2498,3 +2525,31 @@ Hayward_StrengthHouse_StrengthMan_AfterGivenAmulet,The HM 04 teaches Strength!*I
 Hayward_TownMapHouse_TownMap,YO!
 Hayward_TownMapHouse_TownMapGirl_BeforeGive,I'm handing out free~Rijon Maps today,~go ahead and take one!
 Hayward_TownMapHouse_TownMapGirl_AfterGive,Use the map if you get lost!
+
+Hayward_SouthlandMall_ElevatorButtons,Which floor do you want?
+Hayward_SouthlandMall_InfoSign_AllFloors,1F: Service Counter*2F: Trainer's Market*3F: TV Game Shop*4F: Deity TM's*5F: Drug Store*Rooftop Square:~Vending Machines
+Hayward_SouthlandMall_InfoSign_Floor1,1F: Service Counter
+Hayward_SouthlandMall_InfoSign_Floor2,Top Grade Items for Trainers!~2F: Trainer's Market
+Hayward_SouthlandMall_InfoSign_Floor3,3F: TV Game Shop
+Hayward_SouthlandMall_InfoSign_Floor4,4F: Deity TM's~Great for any Pokémon Team!
+Hayward_SouthlandMall_InfoSign_Floor5,5F: Drug Store
+Hayward_SouthlandMall_InfoSign_FloorRooftop,Rooftop Square:~Vending Machines
+Hayward_SouthlandMall_Floor1_Receptionist,Hello! Welcome to the~Southland Mall!*The board on the right~describes the store layout.
+Hayward_SouthlandMall_Floor2_ParasGirl,My Paras loves Super Potions!*Yum!
+Hayward_SouthlandMall_Floor2_RepelMan,Wild Pokémon annoying you?*Use some Repels, you won't~regret it!
+Hayward_SouthlandMall_Floor3_Poster,Pokémon Prism is now on sale!
+Hayward_SouthlandMall_Floor3_TM18Clerk_BeforeGive,Oh, hi! I'm finally finished~with Pokémon!*Not done yet? This might~be useful!
+Hayward_SouthlandMall_Floor3_TM18Clerk_AfterGive,TM 18 is Counter!*Not like the one I'm leaning on,~mind you!
+Hayward_SouthlandMall_Floor3_TV1,Donkey Kong Country!~Amazing soundtrack!
+Hayward_SouthlandMall_Floor3_TV2,Starfox!~Look at those 3D graphics!
+Hayward_SouthlandMall_Floor3_TV3,Super Mario Kart!~Great fun!
+Hayward_SouthlandMall_Floor3_TV4,Zombies Ate My Neighbors!~Spooky!
+Hayward_SouthlandMall_Floor3_SNES,It's a SNES!~Just like the one at home!
+Hayward_SouthlandMall_Floor3_GameboyKid_Green,My buddy got a cool Pokémon~in Brown, and is trading it to~my Pokémon Prism!
+Hayward_SouthlandMall_Floor3_GameboyKid_Red,I can't wait to fight with~Raikou in my Brown version!*He's trading from Pokémon~Prism.
+Hayward_SouthlandMall_Floor3_GameboyKid_Blue,Captured Pokémon are~registered with an ID No.~and OT, the name of the~Original Trainer that caught it!
+Hayward_SouthlandMall_Floor3_LittleBoy,Too bad Flash Carts aren't~sold here...
+Hayward_SouthlandMall_Floor4_Youngster,In Naljo, there's a man who~teaches how to make rings~out of evolution stones!
+Hayward_SouthlandMall_Floor4_PokeDollGuy,No PokéDolls here anymore?*I'm gonna cry!
+Hayward_SouthlandMall_Floor5_Gentleman,Pokémon ability enhancers~can only be bought here.*Use Calcium to increase~Special abilities.*Use Carbos to increase~Speed.
+Hayward_SouthlandMall_Floor5_Sailor,I'm here for Pokémon ability~enhancers.*Protein increases Attack~power.*Iron increases Defense!

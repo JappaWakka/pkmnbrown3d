@@ -123,6 +123,6 @@ Scriptblocks:
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[5,0.155,1.25]}}{"TextureID"{str[Clerk]}}{"ID"{int[3]}}{"Name"{str[Clerk]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[6,0.155,1.25]}}{"TextureID"{str[Clerk]}}{"ID"{int[4]}}{"Name"{str[Clerk]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[14,0,2]}}{"TextureID"{str[YoungGirl_Blue]}}{"ID"{int[2]}}{"Name"{str[Paras Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[My Paras loves Super Potion!*Yum!]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[14,0,1,6]]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[19,0,3]}}{"TextureID"{str[Hiker]}}{"ID"{int[1]}}{"Name"{str[Repel Man]}}{"Action"{int[0]}}{"AdditionalValue"{str[Wild Pokémon annoying you?*Use some Repels, you won't~regret it!]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[14,0,2]}}{"TextureID"{str[YoungGirl_Blue]}}{"ID"{int[2]}}{"Name"{str[Paras Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_SouthlandMall_Floor2_ParasGirl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[14,0,1,6]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[19,0,3]}}{"TextureID"{str[Hiker]}}{"ID"{int[1]}}{"Name"{str[Repel Man]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_SouthlandMall_Floor2_RepelMan)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	

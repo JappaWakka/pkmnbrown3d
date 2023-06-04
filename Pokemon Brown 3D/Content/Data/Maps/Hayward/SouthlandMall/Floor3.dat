@@ -135,7 +135,7 @@ Scriptblocks:
 		{"EntityField"{ENT[{"Size"{intArr[7,1]}}{"Steps"{sngArr[2,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\Poster]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		
 	TM 18 Clerk
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,0,2]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Hayward\Clerk_Floor3_TM18]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,0,2]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\TM18Clerk]}}{"Rotation"{int[0]}}]}}
 	
 	SNES's
 		{"EntityField"{ENT[{"Size"{intArr[4,3]}}{"Steps"{sngArr[3,1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\SNES]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
@@ -149,8 +149,8 @@ Scriptblocks:
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[16,0.155,2.75]}}{"TextureID"{str[Clerk]}}{"ID"{int[5]}}{"Name"{str[Clerk]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	
-	{"NPC"{NPC[{"Position"{sngArr[7,0,0]}}{"TextureID"{str[GameBoyKid_Green]}}{"ID"{int[8]}}{"Name"{str[Trader]}}{"Action"{int[0]}}{"AdditionalValue"{str[My buddy got a cool Pokémon~in Brown, and is trading it to~my Pokémon Prism!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[8,0,0]}}{"TextureID"{str[GameBoyKid_Red]}}{"ID"{int[17]}}{"Name"{str[Trader]}}{"Action"{int[0]}}{"AdditionalValue"{str[I can't wait to fight with~Raikou in my Brown version!*He's trading from Pokémon~Prism.]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[1,0,3]}}{"TextureID"{str[LittleBoy]}}{"ID"{int[9]}}{"Name"{str[Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[Too bad Flash Carts aren't~sold here...]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[11,0,4]}}{"TextureID"{str[GameBoyKid_Blue]}}{"ID"{int[6]}}{"Name"{str[Trader]}}{"Action"{int[0]}}{"AdditionalValue"{str[Captured Pokémon are~registered with an ID No.~and OT, the name of the~Original Trainer that caught it!]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[7,0,0]}}{"TextureID"{str[GameBoyKid_Green]}}{"ID"{int[8]}}{"Name"{str[Trader]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_SouthlandMall_Floor3_GameboyKid_Green)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[8,0,0]}}{"TextureID"{str[GameBoyKid_Red]}}{"ID"{int[17]}}{"Name"{str[Trader]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_SouthlandMall_Floor3_GameboyKid_Red)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[1,0,3]}}{"TextureID"{str[LittleBoy]}}{"ID"{int[9]}}{"Name"{str[Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_SouthlandMall_Floor3_LittleBoy)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[11,0,4]}}{"TextureID"{str[GameBoyKid_Blue]}}{"ID"{int[6]}}{"Name"{str[Trader]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_SouthlandMall_Floor3_GameboyKid_Blue)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	

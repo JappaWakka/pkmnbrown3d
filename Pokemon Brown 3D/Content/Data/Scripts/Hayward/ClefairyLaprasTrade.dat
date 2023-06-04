@@ -1,17 +1,17 @@
 version=2
 
 :if:<register.registered(laprastrade)>=false
-@text.show(I'm looking for a Clefairy!~Wanna trade one for Lapras?)
+@text.show(<system.token(Hayward_FossilLab_Kathy_LaprasTrade_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-	@pokemon.npctrade(35|131||-1||0|62003|Trainer|5||Unknown|Caught with [POKE]BALL|Kathy|Okay, connect the cable like so!|What? That's not Clefairy!*If you get one, come back~here!|laprastrade)
-	:end
+		@pokemon.npctrade(35|131||-1||0|62003|Trainer|5||<system.token(Hayward_FossilLab_Kathy_LaprasTrade_CatchLocation)>|<system.token(Hayward_FossilLab_Kathy_LaprasTrade_CatchMethod)>|Kathy|<system.token(Hayward_FossilLab_Kathy_LaprasTrade_TradeSuccess)>|<system.token(Hayward_FossilLab_Kathy_LaprasTrade_TradeFail)>|laprastrade)
+		:end
 	
 	:when:<system.token(global_no)>
-	@text.show(Awww! Oh well...)
-	:end
+		@text.show(<system.token(Hayward_FossilLab_Kathy_LaprasTrade_Answer_No)>)
+		:end
 	:endwhen
 :else
-	@text.show(Isn't my old Lapras great?)
+	@text.show(<system.token(Hayward_FossilLab_Kathy_LaprasTrade_AfterTrade)>)
 :endif	
 :end

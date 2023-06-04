@@ -13,40 +13,40 @@ version=2
 		@item.select(standard,gm3-gm5)
 		:if:<inventory.selected>=gm3
 			:if:<register.registered(OrbGirl_Red)>=false
-				@text.show(Red Orb?*Nice!*Take this rare TM!)
+				@text.show(<system.token(Hayward_Main_OrbGirl_Red_Orb_1)>)
 				@item.give(gm48,1)
 				@item.messagegive(gm48,1)
-				@text.show(TM 30 contains Shadow Ball!*It's a great Ghost move!)
+				@text.show(<system.token(Hayward_Main_OrbGirl_Red_Orb_2)>)
 				@register.register(OrbGirl_Red)
 				:end
 			:else
-				@text.show(I don't need that Orb.)
+				@text.show(<system.token(Hayward_Main_OrbGirl_DontNeedThatOrb)>)
 				:end
 			:endif
 		:endif
 		:if:<inventory.selected>=gm4
 			:if:<register.registered(OrbGirl_Blue)>=false
-				@text.show(Great, a Blue Orb!*Take this as a reward!)
+				@text.show(<system.token(Hayward_Main_OrbGirl_Blue_Orb_1)>)
 				@item.give(gm55,1)
 				@item.messagegive(gm55,1)
-				@text.show(TM 37 contains Megahorn!*Great for any Pokémon~with horns!)
+				@text.show(<system.token(Hayward_Main_OrbGirl_Blue_Orb_2)>)
 				@register.register(OrbGirl_Blue)
 				:end
 			:else
-				@text.show(I don't need that Orb.)
+				@text.show(<system.token(Hayward_Main_OrbGirl_DontNeedThatOrb)>)
 				:end
 			:endif
 		:endif
 		:if:<inventory.selected>=gm5
 			:if:<register.registered(OrbGirl_Green)>=false
-				@text.show(Excellent, a Green Orb!*You deserve this!)
+				@text.show(<system.token(Hayward_Main_OrbGirl_Green_Orb_1)>)
 				@item.give(gm44,1)
 				@item.messagegive(gm44,1)
-				@text.show(TM 26 contains Earthquake!*It's great for shaking~things up a bit!)
+				@text.show(<system.token(Hayward_Main_OrbGirl_Green_Orb_2)>)
 				@register.register(OrbGirl_Green)
 				:end
 			:else
-				@text.show(I don't need that Orb.)
+				@text.show(<system.token(Hayward_Main_OrbGirl_DontNeedThatOrb)>)
 				:end
 			:endif
 		:endif
