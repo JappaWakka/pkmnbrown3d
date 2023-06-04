@@ -55,7 +55,7 @@ Furniture:
 		{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"Steps"{sngArr[3,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[3,1,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[32,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"Steps"{sngArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,48,16,16][16,48,16,16][48,48,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	Trash Can
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[9,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[9,-0.125,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 PokéBalls:
 	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[6,0.3075,2]}}{"TextureID"{str[PokeBall]}}{"ID"{int[1]}}{"Name"{str[Charmander]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\ChoosePokemon_Charmander]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
@@ -84,6 +84,6 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[5,0,0]}}{"TextureID"{str[Tim]}}{"ID"{int[0]}}{"Name"{str[Tim]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\Tim]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[4,0,2]}}{"TextureID"{str[<rival.skin>]}}{"ID"{int[4]}}{"Name"{str[Mura]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\Mura]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[2,0,9]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[5]}}{"Name"{str[Aide]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_Timslab_Aide)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[1,0,9]}}{"TextureID"{str[YoungGirl_Blue]}}{"ID"{int[6]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_TimsLab_Girl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[0,7,2,4]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[1,0,8]}}{"TextureID"{str[Scientist_Female]}}{"ID"{int[6]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_TimsLab_Girl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[0,7,2,4]]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[8,0,9]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[7]}}{"Name"{str[Aide]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_Timslab_Aide)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 
