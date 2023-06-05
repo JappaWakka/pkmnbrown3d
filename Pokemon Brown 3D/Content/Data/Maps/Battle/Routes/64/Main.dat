@@ -1,0 +1,18 @@
+{"Actions"{LEV[{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
+
+BattleMapStructure:
+	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\Routes\64\Main.dat]}}{"Offset"{sngArr[-8,0,10]}}]}}
+	
+Offsets:
+	{"OffsetMap"{MAP[{"Offset"{sngArr[36,2]}}{"Map"{str[Hayward\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[44,40]}}{"Map"{str[Routes\52\Main.dat]}}]}}
+
+Backdrops:
+	Route52
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-44.5,-0.75,39.5]}}{"Size"{intArr[79,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[34.5,-0.75,40.5]}}{"Size"{intArr[1,65]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[76.5,-0.75,39.5]}}{"Size"{intArr[79,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[74.5,-0.75,40.5]}}{"Size"{intArr[2,65]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Route64
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-44.5,-0.75,2.5]}}{"Size"{intArr[36,27]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-44.5,-0.75,28.5]}}{"Size"{intArr[79,11]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}

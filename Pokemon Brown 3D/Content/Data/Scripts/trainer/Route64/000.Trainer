@@ -5,8 +5,9 @@ Money|180
 IntroMessage|This is a nice resting place.
 OutroMessage|Oh! Now I'm stressed out!
 DefeatMessage|I might set up a picnic here~later......*Nah, I'll just relax...
-TextureID|Lass_Blue
+TextureID|Lass_Red
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|1
 AI|1
-IntroSequence|Blue,Blue
+IntroSequence|0,0
