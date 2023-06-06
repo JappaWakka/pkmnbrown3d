@@ -12,15 +12,15 @@ Grass:
 {"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[16,6]}}{"Position"{intArr[13,0,40]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
 
 Path:
-{"Floor"{ENT[{"Size"{intArr[14,6]}}{"Position"{intArr[2,0,10]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
-{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[0,0,12]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
-{"Floor"{ENT[{"Size"{intArr[10,4]}}{"Position"{intArr[16,0,10]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
-{"Floor"{ENT[{"Size"{intArr[4,8]}}{"Position"{intArr[12,0,16]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
-{"Floor"{ENT[{"Size"{intArr[30,4]}}{"Position"{intArr[4,0,24]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
-{"Floor"{ENT[{"Size"{intArr[6,8]}}{"Position"{intArr[18,0,28]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
-{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[10,0,2]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
-{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[18,0,0]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
-{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[21,0,44]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[14,6]}}{"Position"{intArr[2,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[0,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[10,4]}}{"Position"{intArr[16,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[4,8]}}{"Position"{intArr[12,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[30,4]}}{"Position"{intArr[4,0,24]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[6,8]}}{"Position"{intArr[18,0,28]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[10,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[18,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[21,0,44]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 
 Trees:
 {"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[2,12]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[0,0.3,0]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[112,64,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

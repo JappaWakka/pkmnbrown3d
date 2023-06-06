@@ -13,8 +13,8 @@ Grass:
 {"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[1,1]}}{"Position"{intArr[16,0,113]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
 
 Paths:
-{"Floor"{ENT[{"Size"{intArr[10,2]}}{"Position"{intArr[16,0,114]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
-{"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[62,0,108]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[10,2]}}{"Position"{intArr[16,0,114]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+{"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[62,0,108]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 
 Water:
 {"EntityField"{ENT[{"Size"{intArr[14,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[17,-0.25,107]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[0,16,16,16][144,16,16,16]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

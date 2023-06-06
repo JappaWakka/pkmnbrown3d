@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Lars
-TrainerClass|Camper
+TrainerClass|Jr. Trainer ♂
 Money|360
-IntroMessage|OK! I'm No. 5!~I'll stomp you!
+IntroMessage|Okay! I'm No. 5!~I'll stomp you!
 OutroMessage|Too much!
 DefeatMessage|I did my best, I have~no regrets!
-TextureID|Lass_Blue7
+TextureID|JrTrainer_Male
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|Blue,Blue
+IntroSequence|0,0

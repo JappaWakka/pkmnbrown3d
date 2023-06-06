@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Klara
+Name|Julie
 TrainerClass|Lass
 Money|210
 IntroMessage|I'm second! Now it's serious!
 OutroMessage|How could I lose?
 DefeatMessage|I did my best, I have~no regrets!
-TextureID|Lass_Blue0
+TextureID|Lass_Blue
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|Blue,Blue
+IntroSequence|8,8

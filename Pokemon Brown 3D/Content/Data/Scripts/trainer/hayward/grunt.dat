@@ -3,12 +3,14 @@ version=2
 :if:<register.registered(haywardtrouble)>=false
 @battle.starttrainer(hayward\grunt)
 	@text.show(<system.token(Hayward_Main_RocketGrunt_TakeThis)>)
-	@item.give(218,1)
-	@item.messagegive(218,1)
+	@item.give(gm46,1)
+	@item.messagegive(gm46,1)
 	@text.show(<system.token(Hayward_Main_RocketGrunt_GetMoving)>)
 	@register.register(haywardtrouble)
 	@screen.fadeout
+	@npc.warp(5,23,0,11)
 	@npc.remove(7)
+	@level.update
 	@screen.fadein
 :endif
 :end
