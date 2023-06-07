@@ -1,13 +1,13 @@
 version=2
 :if:<register.registered(friendlygrunt)>=false	
-	@text.show(Congratulations! You~whooped us harder than Red!*Hey!*Take this,you deserve it!)
+	@text.show(<system.token(Route51_ExGruntGreg_BeforeBattle_1)>)
 	@item.give(36,1)
 	@item.messagegive(36,1)
-	@text.show(Let's have one more battle~for the heck of it!*Good thing im not in Team~Rocket anymore...*That was a big mistake~for me to make!)
+	@text.show(<system.token(Route51_ExGruntGreg_BeforeBattle_2)>)
 	@battle.starttrainer(route51\grunt)
-	@text.show(When you reach the fork on~the road, go right to~get to a city.)
+	@text.show(<system.token(Route51_ExGruntGreg_DefeatMessage)>)
 	@register.register(friendlygrunt)
 :else:
-	@text.show(When you reach the fork on~the road, go right to~get to a city.)
+	@text.show(<system.token(Route51_ExGruntGreg_DefeatMessage)>)
 :endif:
 :end

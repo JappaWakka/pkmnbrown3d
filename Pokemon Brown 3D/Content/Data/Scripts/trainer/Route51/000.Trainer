@@ -2,9 +2,9 @@
 Name|Phillip
 TextureID|Bug Catcher
 Money|140
-IntroMessage|This is the Nugget Crew!~We give out nuggets to~people who can beat us all!*Give it a try!
-OutroMessage|Whoo! Good stuff!
-DefeatMessage|I did my best, I have~no regrets!
+IntroMessage|<system.token(Route51_BugCatcherPhillip_IntroMessage)>
+OutroMessage|<system.token(Route51_BugCatcherPhillip_OutroMessage)>
+DefeatMessage|<system.token(Route51_BugCatcherPhillip_DefeatMessage)>
 TextureID|BugCatcher
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male

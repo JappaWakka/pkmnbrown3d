@@ -2,9 +2,9 @@
 Name|Lennard
 TrainerClass|Youngster
 Money|210
-IntroMessage|Here's No. 3!~I won't be easy!
-OutroMessage|Ow! Stomped flat!
-DefeatMessage|I did my best, I have~no regrets!
+IntroMessage|<system.token(Route51_YoungsterLennard_IntroMessage)>
+OutroMessage|<system.token(Route51_YoungsterLennard_OutroMessage)>
+DefeatMessage|<system.token(Route51_YoungsterLennard_DefeatMessage)>
 TextureID|Youngster_Purple
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male

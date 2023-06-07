@@ -3,8 +3,8 @@ Name|Greg
 TrainerClass|Ex-Grunt
 Money|450
 IntroMessage|
-OutroMessage|Yep, you are good!
-DefeatMessage|When you reach the fork on~the road, go right to~get to a city.
+OutroMessage|<system.token(Route51_ExGruntGreg_OutroMessage)>
+DefeatMessage|<system.token(Route51_ExGruntGreg_DefeatMessage)>
 TextureID|ExGrunt
 Region|Rijon
 InSightMusic|Encounter_Rocket
@@ -20,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

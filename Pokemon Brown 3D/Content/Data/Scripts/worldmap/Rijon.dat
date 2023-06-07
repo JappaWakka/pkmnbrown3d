@@ -25,18 +25,18 @@ Routes:
 
 {"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[3,2]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[4,2]}{"Direction"[TDown]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[5,2]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat,Gates\Route49_1F.dat]}{"Position"[5,2]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[3,2]}{"Direction"[CurveUpRight]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[3,4]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[4,4]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[4,3]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[3,4]}{"PlayerPosition"[3,4]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[4,4]}{"PlayerPosition"[3,4]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Gates\Route49-Route50_1F.dat,Gates\Route49-Route50_2F.dat]}{"Position"[4,3]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,4]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,5]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,6]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,4]}{"PlayerPosition"[2,5]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,5]}{"PlayerPosition"[2,5]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,6]}{"PlayerPosition"[2,5]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\MagmarTradeHouse.dat,Routes\52\DockTunnel_Entrance.dat]}{"Position"[2,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\MagmarTradeHouse.dat,Gates\Route52_Hayward.dat]}{"Position"[2,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat]}{"Position"[2,9]}{"PlayerPosition"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}
 {"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\DockTunnel_Entrance.dat]}{"Position"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}
 {"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat]}{"Position"[2,11]}{"PlayerPosition"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}

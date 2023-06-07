@@ -2,7 +2,7 @@
 {"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
 
 Grassssssssssss:
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[54,40]}}{"Position"{intArr[-4,0,0]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[54,40]}}{"Position"{intArr[-4,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
 
 Tilesssssssssss:
 {"Floor"{ENT[{"Size"{intArr[4,14]}}{"Position"{intArr[4,0,10]}}{"TexturePath"{str[Kanto0]}}{"Texture"{rec[64,48,16,16]}}]}}

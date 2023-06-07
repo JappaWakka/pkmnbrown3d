@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Brandon
-TrainerClass|Camper
+TrainerClass|Jr. Trainer ♂
 Money|280
-IntroMessage|I'm a nice guy!
-OutroMessage|Aww, darn...
-DefeatMessage|See, I'm still nice after~your win!
+IntroMessage|<system.token(Route50_JrTrainerMaleBrandon_IntroMessage)>
+OutroMessage|<system.token(Route50_JrTrainerMaleBrandon_OutroMessage)>
+DefeatMessage|<system.token(Route50_JrTrainerMaleBrandon_DefeatMessage)>
 TextureID|JrTrainer_Male
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer

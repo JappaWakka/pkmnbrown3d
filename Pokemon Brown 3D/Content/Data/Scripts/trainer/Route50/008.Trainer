@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Viola
+Name|Violet
 TrainerClass|Lass
 Money|195
-IntroMessage|Everyone loves Route 50!
-OutroMessage|I'm not jealous!
-DefeatMessage|I come here to train~every day!
-TextureID|Lass_Blue
+IntroMessage|<system.token(Route50_LassViolet_IntroMessage)>
+OutroMessage|<system.token(Route50_LassViolet_OutroMessage)>
+DefeatMessage|<system.token(Route50_LassViolet_DefeatMessage)>
+TextureID|Lass_Purple
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|4,4

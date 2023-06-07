@@ -2,11 +2,12 @@
 Name|Kevin
 TrainerClass|Youngster
 Money|255
-IntroMessage|I live in Owsauri City,~and we know lots about Pokémon!
-OutroMessage|I'm not mad!
-DefeatMessage|I guess I need to train a~bit more, eh?
-TextureID|Youngster_Blue
+IntroMessage|<system.token(Route50_YoungsterKevin_IntroMessage)>
+OutroMessage|<system.token(Route50_YoungsterKevin_OutroMessage)>
+DefeatMessage|<system.token(Route50_YoungsterKevin_DefeatMessage)>
+TextureID|Youngster_Purple
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|4,4

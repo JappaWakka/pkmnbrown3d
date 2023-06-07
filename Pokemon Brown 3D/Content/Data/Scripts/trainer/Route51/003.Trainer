@@ -2,9 +2,9 @@
 Name|Mandy
 TrainerClass|Lass
 Money|240
-IntroMessage|I'm No. 4!~Getting tired?
-OutroMessage|I lost too!
-DefeatMessage|I did my best, so I've~no regrets!
+IntroMessage|<system.token(Route51_LassMandy_IntroMessage)>
+OutroMessage|<system.token(Route51_LassMandy_OutroMessage)>
+DefeatMessage|<system.token(Route51_LassMandy_DefeatMessage)>
 TextureID|Lass_Red
 Region|Rijon
 InSightMusic|Encounter_Trainer_Female

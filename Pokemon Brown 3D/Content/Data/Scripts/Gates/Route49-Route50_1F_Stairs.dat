@@ -1,0 +1,11 @@
+version=2
+
+:if:<Player.Facing>=2
+	@Player.Warp(Gates\Route49-Route50_2F.dat,7,0.1,7,2)
+:else
+	@Player.Warp(Gates\Route49-Route50_2F.dat,7,0.1,7,1)
+:endif
+@Level.Update
+@Player.Move(1)
+
+:end

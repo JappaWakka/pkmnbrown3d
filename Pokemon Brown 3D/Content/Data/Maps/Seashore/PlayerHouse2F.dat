@@ -31,7 +31,7 @@ Walls (Direction = Facing):
 		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,1,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[16,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 		
 Stairs:
-	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_House]}}{"Offset"{sngArr[7,-1,0]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_House_Down]}}{"Offset"{sngArr[7,-1,0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\PlayerHouse2F_Stairs]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 

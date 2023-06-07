@@ -2,11 +2,12 @@
 Name|Tim
 TrainerClass|Youngster
 Money|225
-IntroMessage|Local trainers come here to~practice!
-OutroMessage|You're decent.
-DefeatMessage|All Pokémon have weaknesses.~It's best to raise different~kinds.
+IntroMessage|<system.token(Route50_YoungsterTim_IntroMessage)>
+OutroMessage|<system.token(Route50_YoungsterTim_OutroMessage)>
+DefeatMessage|<system.token(Route50_YoungsterTim_DefeatMessage)>
 TextureID|Youngster_Blue
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer

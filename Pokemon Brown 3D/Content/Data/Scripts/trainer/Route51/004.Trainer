@@ -2,9 +2,9 @@
 Name|Lars
 TrainerClass|Jr. Trainer ♂
 Money|360
-IntroMessage|Okay! I'm No. 5!~I'll stomp you!
-OutroMessage|Too much!
-DefeatMessage|I did my best, I have~no regrets!
+IntroMessage|<system.token(Route51_JrTrainerMaleLars_IntroMessage)>
+OutroMessage|<system.token(Route51_JrTrainerMaleLars_OutroMessage)>
+DefeatMessage|<system.token(Route51_JrTrainerMaleLars_DefeatMessage)>
 TextureID|JrTrainer_Male
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male

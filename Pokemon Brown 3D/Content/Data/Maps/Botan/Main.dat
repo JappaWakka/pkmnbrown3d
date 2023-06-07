@@ -2,19 +2,19 @@
 {"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
 
 Walk on this stuff:
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[40,18]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[8,8]}}{"Position"{intArr[32,0,18]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[12,4]}}{"Position"{intArr[20,0,22]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,2]}}{"Position"{intArr[10,0,28]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[4,2]}}{"Position"{intArr[6,0,32]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[10,14]}}{"Position"{intArr[0,0,26]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[6,9]}}{"Position"{intArr[10,0,34]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[8,13]}}{"Position"{intArr[22,0,30]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[10,8]}}{"Position"{intArr[30,0,32]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,6]}}{"Position"{intArr[38,0,26]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,4]}}{"Position"{intArr[32,0,26]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,6]}}{"Position"{intArr[20,0,34]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[4,2]}}{"Position"{intArr[26,0,28]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[96,16,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[40,18]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[8,8]}}{"Position"{intArr[32,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[12,4]}}{"Position"{intArr[20,0,22]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,2]}}{"Position"{intArr[10,0,28]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[4,2]}}{"Position"{intArr[6,0,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[10,14]}}{"Position"{intArr[0,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[6,9]}}{"Position"{intArr[10,0,34]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[8,13]}}{"Position"{intArr[22,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[10,8]}}{"Position"{intArr[30,0,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,6]}}{"Position"{intArr[38,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,4]}}{"Position"{intArr[32,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,6]}}{"Position"{intArr[20,0,34]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[4,2]}}{"Position"{intArr[26,0,28]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
 
 Trees:
 {"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[2,6]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[0,0.3,12]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[112,64,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

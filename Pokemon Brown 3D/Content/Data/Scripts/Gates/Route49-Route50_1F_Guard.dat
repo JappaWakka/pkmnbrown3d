@@ -8,6 +8,6 @@ version=2
   :when:2
   @text.show(I'm waiting for the~layer exchange.*Feeling so tired...)
   :when:3
-  @text.show(Zzzz..*Huh?* *I DIDN'T SLEEP! I was~awake the whole time!)
+  @text.show(Zzzz..*Huh?*I DIDN'T SLEEP! I was~awake the whole time!)
 :endwhen
 :end

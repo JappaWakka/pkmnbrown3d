@@ -2,15 +2,16 @@
 Name|Mura
 TrainerClass|Rival
 Money|175
-IntroMessage|Let's test our Pokémon,<player.name>!
-OutroMessage|I need to train more.
-DefeatMessage|...
+IntroMessage|
+OutroMessage|<system.token(Gravel_TimsLab_Mura_OutroMessage)>
+DefeatMessage|<system.token(Gravel_TimsLab_Mura_OutroMessage)>
 TextureID|Rival
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
 Pokemon1|4,5
+Pokemon2|
 Pokemon3|
 Pokemon4|
 Pokemon5|
