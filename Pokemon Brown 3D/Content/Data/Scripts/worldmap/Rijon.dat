@@ -25,7 +25,7 @@ Routes:
 
 {"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[3,2]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[4,2]}{"Direction"[TDown]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat,Gates\Route49_1F.dat]}{"Position"[5,2]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Gates\Route49_1F.dat,Gates\Route49_2F.dat]}{"Position"[5,2]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[3,2]}{"Direction"[CurveUpRight]}{"RouteType"[Land]}
 
 {"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[3,4]}{"PlayerPosition"[3,4]}{"Direction"[Horizontal]}{"RouteType"[Land]}

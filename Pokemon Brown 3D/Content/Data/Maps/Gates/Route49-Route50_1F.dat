@@ -90,7 +90,9 @@ Signs:
 
 Warps:
 	Route 49
-		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,47,0.1,20,0]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,47,0.1,20,0]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,48,0.1,20,0]}}{"Rotation"{int[0]}}]}}
+		
 	Route 50
 		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\50\Main.dat,45,0.1,5,0]}}{"Rotation"{int[2]}}]}}
 
