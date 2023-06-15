@@ -1,0 +1,12 @@
+{"Level"{LEV[{"Name"{str[Route 66]}}{"MusicLoop"{str[RouteMusic2]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
+
+Signs:
+{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[22,0,45]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[0,16,16,16][120,32,4,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[Rijon Beach]}}{"Rotation"{int[2]}}]}}
+
+NPCs:
+{"NPC"{NPC[{"Position"{sngArr[19,0,43]}}{"TextureID"{str[8]}}{"ID"{int[4]}}{"Name"{str[Boy]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\beach\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[24,0,43]}}{"TextureID"{str[8]}}{"ID"{int[5]}}{"Name"{str[Sage]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\beach\001]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[15,0,58]}}{"TextureID"{str[34]}}{"ID"{int[6]}}{"Name"{str[Bugcatcher]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\beach\002]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[26,0,56]}}{"TextureID"{str[34]}}{"ID"{int[7]}}{"Name"{str[Fatboy]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\beach\003]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[27,0,61]}}{"TextureID"{str[34]}}{"ID"{int[8]}}{"Name"{str[Boy]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\beach\004]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

@@ -2,10 +2,10 @@ version=2
 
 :if:<register.registered(hailbadge_obtain)>=False
 @text.show(Lily: Hi, you here to face me?*<player.name>: Yeah, I'm on a quest~to get all eight Rijon~Badges and compete in the~league!*Lily: Well if you beat me~you get the Hail Badge,~give it your best shot!)
-@battle.starttrainer(Gyms\oswauri\leader)
+@battle.starttrainer(Gyms\Owsauri\leader)
 @Register.register(hailbadge_obtain)
-@register.register(trainer_Gyms\oswauri\000)
-@register.register(trainer_Gyms\oswauri\001)
+@register.register(trainer_Gyms\Owsauri\000)
+@register.register(trainer_Gyms\Owsauri\001)
 @player.GetBadge(2)
 @Text.show(All right!*You can have the Hail Badge~that will help you!*The Hail Badge lets~you use Cut any time if~you have the HM!*Also go and take this TM~I found earlier, it should~help you.)
 @item.give(203,1)

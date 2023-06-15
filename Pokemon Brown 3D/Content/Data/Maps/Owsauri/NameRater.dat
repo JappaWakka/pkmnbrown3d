@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[DayCare]}}{"MusicLoop"{str[alph]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[Owsauri City]}}{"MusicLoop"{str[Owsauri]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
 
 Floor:
@@ -22,7 +22,7 @@ Walls:
 {"EntityField"{ENT[{"Size"{intArr[1,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,1,0]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Door:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[64,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Oswauri\Main.dat,12,0.1,9,0]}}{"Rotation"{int[2]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[64,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,3,0.1,23,0]}}{"Rotation"{int[2]}}]}}
 
 Bookshelves:
 {"Entity"{ENT[{"Scale"{sngArr[1,1,0.8]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0,0]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[48,58,16,16][64,58,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -66,8 +66,10 @@ Chairs:
 {"Entity"{ENT[{"Scale"{sngArr[0.3,0.2,0.3]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,-0.4,2]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[16,41,16,7]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[2,0.1,2]}}{"TextureID"{str[5]}}{"ID"{int[0]}}{"Name"{str[DaycareMan]}}{"Action"{int[1]}}{"AdditionalValue"{str[route34\daycare\main]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[5,0.2,2]}}{"TextureID"{str[OldHatMan]}}{"ID"{int[0]}}{"Name"{str[NameRater]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\namerater]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 
 Map:
 {"Entity"{ENT[{"Scale"{sngArr[0.7,0.7,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0.2,-0.49]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[48,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
+
 

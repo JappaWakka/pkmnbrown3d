@@ -2,12 +2,12 @@ version=2
 
 :select:<system.random(0,3)>
   :when:0
-  @text.show(There's a lookout spot~up there!)
+  @text.show(<system.token(Route49_Route50_Gate_Guard_1)>)
   :when:1
-  @text.show(Happy Holidays!)
+  @text.show(<system.token(Route49_Route50_Gate_Guard_2)>)
   :when:2
-  @text.show(I'm waiting for the~layer exchange.*Feeling so tired...)
+  @text.show(<system.token(Route49_Route50_Gate_Guard_3)>)
   :when:3
-  @text.show(Zzzz..*Huh?*I DIDN'T SLEEP! I was~awake the whole time!)
+  @text.show(<system.token(Route49_Route50_Gate_Guard_4)>)
 :endwhen
 :end

@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Kyle
-TrainerClass|Birdcatcher
+TrainerClass|Bird Catcher
 Money|425
-IntroMessage|Fearow,*kill.
-OutroMessage|Tch!
-DefeatMessage|I'm sane, really!
-TextureID|9
+IntroMessage|<system.token(Route49_BirdCatcherKyle_IntroMessage)>
+OutroMessage|<system.token(Route49_BirdCatcherKyle_OutroMessage)>
+DefeatMessage|<system.token(Route49_BirdCatcherKyle_DefeatMessage)>
+TextureID|BirdCatcher
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|0,0
+IntroSequence|6,6

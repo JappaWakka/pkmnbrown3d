@@ -8,6 +8,7 @@ version=2
 	@npc.turn(0,2)
 	@player.move(7)
 	@npc.turn(4,0)
+	@Player.Move(0)
 	
 	@text.show(<system.token(Gravel_TimsLab_ChoosePokemon1)>)
 	@text.show(<system.token(Gravel_TimsLab_ChoosePokemon2)>)

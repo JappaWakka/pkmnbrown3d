@@ -19,8 +19,8 @@ Ceiling:
 {"EntityField"{ENT[{"Size"{intArr[10,12]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[0,3,0]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[80,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Door:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[32,16,16,14]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Oswauri\Main.dat,32,0.1,31,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[4,0,12]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[32,16,16,14]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Oswauri\Main.dat,32,0.1,31,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[5,0,12]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[32,16,16,14]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,32,0.1,31,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[4,0,12]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[32,16,16,14]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,32,0.1,31,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[5,0,12]}}]}}
 {"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[4,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
 {"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.625,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
@@ -60,16 +60,16 @@ Rocks:
 
 Statues:
 {"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Position"{sngArr[3,0.9,9]}}{"TexturePath"{str[Ecruteak]}}{"Textures"{recArr[[112,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,9]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[32,16,16,16][48,16,16,16][48,0,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[gyms\oswauri]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,9]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[32,16,16,16][48,16,16,16][48,0,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[gyms\Owsauri]}}{"Rotation"{int[0]}}]}}
 
 {"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Position"{sngArr[6,0.9,9]}}{"TexturePath"{str[Ecruteak]}}{"Textures"{recArr[[112,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,9]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[32,16,16,16][48,16,16,16][48,0,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[gyms\oswauri]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,9]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[32,16,16,16][48,16,16,16][48,0,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[gyms\Owsauri]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[7,0,8]}}{"TextureID"{str[GymGuy]}}{"ID"{int[0]}}{"Name"{str[Gymguy]}}{"Action"{int[1]}}{"AdditionalValue"{str[oswauri\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[8,-0.2,5]}}{"TextureID"{str[36]}}{"ID"{int[1]}}{"Name"{str[Trainer]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\oswauri\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[2,0,1]}}{"TextureID"{str[16]}}{"ID"{int[2]}}{"Name"{str[Trainer]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\oswauri\001]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[Lily]}}{"ID"{int[3]}}{"Name"{str[Lily]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\oswauri\leader]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[7,0,8]}}{"TextureID"{str[GymGuy]}}{"ID"{int[0]}}{"Name"{str[Gymguy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[8,-0.2,5]}}{"TextureID"{str[36]}}{"ID"{int[1]}}{"Name"{str[Trainer]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\Owsauri\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[2,0,1]}}{"TextureID"{str[16]}}{"ID"{int[2]}}{"Name"{str[Trainer]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\Owsauri\001]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[Lily]}}{"ID"{int[3]}}{"Name"{str[Lily]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\Owsauri\leader]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 
 

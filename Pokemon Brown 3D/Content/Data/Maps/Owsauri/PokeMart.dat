@@ -23,7 +23,7 @@ Walls:
 {"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,1,8]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[16,64,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,1,8]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[16,64,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,8]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Oswauri\Main.dat,17,0.1,23,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,8]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,17,0.1,23,0]}}{"Rotation"{int[0]}}]}}
 
 GlassTable:
 {"Entity"{ENT[{"Scale"{sngArr[1,0.4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-0.3,6]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[0,29,16,9][0,16,16,13][16,38,16,9]]}}{"TextureIndex"{intArr[0,0,2,2,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -31,7 +31,7 @@ GlassTable:
 Clerk's Table:
 {"Entity"{ENT[{"Scale"{sngArr[1,0.4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,-0.3,6]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][48,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"Scale"{sngArr[1,0.4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,-0.3,4]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][80,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"Scale"{sngArr[1,0.4,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,-0.3,5]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[marts\oswauri]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"Scale"{sngArr[1,0.4,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,-0.3,5]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[marts\Owsauri]}}{"Rotation"{int[0]}}]}}
 
 Freezers:
 {"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,1,0.75]}}{"Position"{sngArr[2,0.01,0]}}{"TexturePath"{str[House3]}}{"Textures"{recArr[[96,96,16,16][48,96,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

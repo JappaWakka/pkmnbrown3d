@@ -6,5 +6,8 @@ version=2
 	@Player.Warp(Seashore\PlayerHouse1F.dat,7,0.1,0,2)
 :endif
 @Level.Update
+:if:<player.isrunning>=true
+	@Player.SetSpeed(1.5)
+:endif
 @Player.Move(1)
 :end

@@ -1,9 +1,9 @@
 version=2
 
 :if:<Player.Facing>=2
-	@Player.Warp(Gates\Route49-Route50_1F.dat,8,0.1,8,3)
+	@Player.Warp(Gates\Route49_1F.dat,8,0.1,6,3)
 :else
-	@Player.Warp(Gates\Route49-Route50_1F.dat,8,0.1,8,2)
+	@Player.Warp(Gates\Route49_1F.dat,8,0.1,6,0)
 :endif
 @Level.Update
 :if:<player.isrunning>=true

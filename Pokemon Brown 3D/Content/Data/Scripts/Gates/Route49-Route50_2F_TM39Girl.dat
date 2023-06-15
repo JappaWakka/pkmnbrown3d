@@ -1,12 +1,12 @@
 version=2
 
 :if:<register.registered(tm39)>=false
-@text.show(I don't need this so you~can take it!)
-@item.give(gm57,1)
-@item.messagegive(gm57,1)
-@register.register(tm39)
+	@text.show(<system.token(Route49_Route50_Gate_TM39Girl_BeforeGive)>)
+	@item.give(gm57,1)
+	@item.messagegive(gm57,1)
+	@register.register(tm39)
 
 :else
-@text.show(TM 39 is a move called Swift.*It's very accurate, so use~it during battles you can't~afford to lose.)
+	@text.show(<system.token(Route49_Route50_Gate_TM39Girl_AfterGive)>)
 :endif
 :end
