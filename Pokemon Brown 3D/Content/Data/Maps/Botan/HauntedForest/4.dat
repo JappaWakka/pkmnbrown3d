@@ -5,15 +5,15 @@ Grass:
 {"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[28,28]}}{"Position"{intArr[-6,0,-6]}}{"TexturePath"{str[Kanto0]}}{"Texture"{rec[0,0,16,16]}}]}}
 
 Healpad:
-{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,8]}}{"TexturePath"{str[healplatform]}}{"Texture"{rec[0,0,32,32]}}]}}
-{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,8]}}{"TexturePath"{str[healplatform]}}{"Texture"{rec[32,0,32,32]}}]}}
-{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,9]}}{"TexturePath"{str[healplatform]}}{"Texture"{rec[0,32,32,32]}}]}}
-{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,9]}}{"TexturePath"{str[healplatform]}}{"Texture"{rec[32,32,32,32]}}]}}
+{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,8]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Texture"{rec[0,0,32,32]}}]}}
+{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,8]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Texture"{rec[32,0,32,32]}}]}}
+{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,9]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Texture"{rec[0,32,32,32]}}]}}
+{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,9]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Texture"{rec[32,32,32,32]}}]}}
 
-{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,8]}}{"TexturePath"{str[healplatform]}}{"Textures"{recArr[[0,0,64,64]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\heal]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,8]}}{"TexturePath"{str[healplatform]}}{"Textures"{recArr[[0,0,64,64]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\heal]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,9]}}{"TexturePath"{str[healplatform]}}{"Textures"{recArr[[0,0,64,64]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\heal]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,9]}}{"TexturePath"{str[healplatform]}}{"Textures"{recArr[[0,0,64,64]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\heal]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,8]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Textures"{recArr[[0,0,64,64]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\heal]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,8]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Textures"{recArr[[0,0,64,64]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\heal]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,9]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Textures"{recArr[[0,0,64,64]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\heal]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,9]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Textures"{recArr[[0,0,64,64]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\heal]}}{"Rotation"{int[0]}}]}}
 
 Bushes:
 {"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[6,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,-0.05,0]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[112,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

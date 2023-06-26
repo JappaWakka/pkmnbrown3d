@@ -3,7 +3,7 @@ version=2
 
 	@player.stopmovement(0)
 	@player.setspeed(1)
-	@music.play(Encounter_Tim)
+	@music.forceplay(Encounter_Tim)
 	@player.turnto(2,1)
 	@storage.set(integer,position,0)
 	
