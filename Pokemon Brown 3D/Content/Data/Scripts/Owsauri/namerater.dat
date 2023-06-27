@@ -1,18 +1,34 @@
 version=2
 
-@text.show(Hello, Hello! I'm~the NAME RATER.*I rate the names~of Pokémon.*Which Pokémon's name~should I rate?)
-
-@pokemon.select
-@text.show(Pretty good, but I guess~you can have a better name.*Want me to change it?)
+@text.show(<system.token(Owsauri_NameRater_Intro)>)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_yes)>
-@pokemon.rename(<pokemon.selected>)
-@text.show(That's a cool name!~Come again sometime.)
-:end
-
+	@text.show(<system.token(Owsauri_NameRater_RenamePokemon_WhichPokemon)>)
+	@pokemon.select
+	:if:<not><pokemon.selected>=-1
+		@storage.set(string,PokeName,<pokemon.nickname(<pokemon.selected>)>)
+		@text.show(<system.token(Owsauri_NameRater_RenamePokemon_BetterNickname)>)
+		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		:when:<system.token(global_yes)>
+			@text.show(<system.token(Owsauri_NameRater_RenamePokemon_WhatName)>)
+			@pokemon.rename(<pokemon.selected>)
+			:if:<not><pokemon.nickname(<pokemon.selected>)>=<storage.get(string,PokeName)>
+				@text.show(<system.token(Owsauri_NameRater_RenamePokemon_NewName)>)
+			:else
+				@text.show(<system.token(Owsauri_NameRater_NoOrCancel)>)
+				:end
+			:endif
+		:when:<system.token(global_no)>
+			@text.show(<system.token(Owsauri_NameRater_NoOrCancel)>)
+			:end
+		:endwhen
+	:else
+		@text.show(<system.token(Owsauri_NameRater_NoOrCancel)>)
+		:end
+	:endif
 :when:<system.token(global_no)>
-@text.show(Fine! Come any time you~like!)
-:end
+	@text.show(<system.token(Owsauri_NameRater_NoOrCancel)>)
+	:end
+:endwhen
 
-:endwhen:
 :end

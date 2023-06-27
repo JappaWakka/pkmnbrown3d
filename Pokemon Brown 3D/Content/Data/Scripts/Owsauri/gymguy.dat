@@ -1,9 +1,8 @@
 version=2
 
 :if:<register.registered(hailbadge_obtain)>=False
-:then
-@Text.show(Hey!~I have an advice for you!*Lily uses Ice Pokémon,~so you should use Fire~or Rock type ones!)
+	@Text.show(<system.token(Owsauri_Gym_GymGuy_BeforeBadge)>)
 :else
-@Text.show(You beat Lily!! What'd I~tell ya?*You and me kid, we make~a pretty darn good team!)
+	@Text.show(<system.token(Owsauri_Gym_GymGuy_AfterBadge)>)
 :endif
 :end

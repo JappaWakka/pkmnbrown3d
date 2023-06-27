@@ -1,17 +1,17 @@
 version=2
 
 :if:<register.registered(hailbadge_obtain)>=False
-@text.show(Lily: Hi, you here to face me?*<player.name>: Yeah, I'm on a quest~to get all eight Rijon~Badges and compete in the~league!*Lily: Well if you beat me~you get the Hail Badge,~give it your best shot!)
-@battle.starttrainer(Gyms\Owsauri\leader)
-@Register.register(hailbadge_obtain)
-@register.register(trainer_Gyms\Owsauri\000)
-@register.register(trainer_Gyms\Owsauri\001)
-@player.GetBadge(2)
-@Text.show(All right!*You can have the Hail Badge~that will help you!*The Hail Badge lets~you use Cut any time if~you have the HM!*Also go and take this TM~I found earlier, it should~help you.)
-@item.give(203,1)
-@item.messagegive(203,1)
-@Text.show(TM13 teaches Ice Beam!*Use it on an ice Pokémon!)
+	@Text.Show(<system.token(Owsauri_Gym_LeaderLily_BeforeBattle)>)
+	@Battle.StartTrainer(Gyms\Owsauri\leader)
+	@Register.Register(hailbadge_obtain)
+	@Register.Register(trainer_Gyms\Owsauri\000)
+	@Register.Register(trainer_Gyms\Owsauri\001)
+	@Player.GetBadge(2)
+	@Text.Show(<system.token(Owsauri_Gym_LeaderLily_AfterBattle1)>)
+	@Item.Give(gm31,1)
+	@Item.MessageGive(gm31,1)
+	@Text.Show(<system.token(Owsauri_Gym_LeaderLily_AfterBattle2)>)
 :else
-@text.show(Good luck on the other~Gyms!)
+	@Text.Show(<system.token(Owsauri_Gym_LeaderLily_TalkAgain)>)
 :endif
 :end

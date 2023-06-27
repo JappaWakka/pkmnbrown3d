@@ -3,7 +3,7 @@ Name|Lily
 TrainerClass|Leader
 Money|2908
 IntroMessage|
-OutroMessage|Wow! You're too much!
+OutroMessage|<system.token(Owsauri_Gym_LeaderLily_DefeatMessage)>
 DefeatMessage|
 TextureID|Lily
 Region|Rijon
@@ -19,5 +19,5 @@ Pokemon6|
 Items|17,17,17
 Gender|0
 AI|0
-IntroSequence|Orange,Brown
+IntroSequence|8,8
 IntroType|11

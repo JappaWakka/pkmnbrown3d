@@ -1,16 +1,16 @@
 version=2
 
 :if:<register.registered(marinebadge_obtain)>=False
-	@text.show(<system.token(Merson_Gym_Karpman_BeforeBattle)>)
+	@text.show(<system.token(Merson_Gym_LeaderKarpman_BeforeBattle)>)
 	@battle.starttrainer(Gyms\Merson\Leader)
 	@Register.register(marinebadge_obtain)
 	@register.register(trainer_Gyms\merson\000)
 	@player.GetBadge(1)
-	@Text.show(<system.token(Merson_Gym_Karpman_AfterBattle1)>)
+	@Text.show(<system.token(Merson_Gym_LeaderKarpman_AfterBattle1)>)
 	@item.give(gm30,1)
 	@item.messagegive(gm30,1)
-	@Text.show(<system.token(Merson_Gym_Karpman_AfterBattle2)>)
+	@Text.show(<system.token(Merson_Gym_LeaderKarpman_AfterBattle2)>)
 :else
-	@text.show(<system.token(Merson_Gym_Karpman_TalkAgain)>)
+	@text.show(<system.token(Merson_Gym_LeaderKarpman_TalkAgain)>)
 :endif
 :end

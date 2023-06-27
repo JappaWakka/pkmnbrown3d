@@ -444,22 +444,14 @@ battle_attack_no_PP_left, has~no PP left!*
 battle_attack_used, used 
 ---
 Badges:
-badge_Boulder,Boulder
-badge_Cascade,Cascade
-badge_Thunder,Thunder
-badge_Rainbow,Rainbow
-badge_Soul,Soul
-badge_Marsh,Marsh
-badge_Volcano,Volcano
-badge_Earth,Earth
-badge_Zephyr,Zephyr
-badge_Hive,Hive
-badge_Plain,Plain
-badge_Fog,Fog
-badge_Storm,Storm
-badge_Mineral,Mineral
-badge_Glacier,Glacier
-badge_Rising,Rising
+badge_1,Marine
+badge_2,Hail
+badge_3,Sprout
+badge_4,Sparky
+badge_5,Fist
+badge_6,Psi
+badge_7,White
+badge_8,Star
 ---
 Regions:
 Johto,Johto
@@ -3031,11 +3023,11 @@ Merson_Gym_GymGuy_AfterBadge,Gym Guy: Just as I thought!~You're Pokémon champ m
 Merson_Gym_JrTrainerMaleButch_IntroMessage,Stop right there, kid!
 Merson_Gym_JrTrainerMaleButch_OutroMessage,Darn! I thought I had~a chance against you...
 Merson_Gym_JrTrainerMaleButch_DefeatMessage,You're pretty good~but you won't beat him!!!
-Merson_Gym_Karpman_BeforeBattle,Karpman: I'm Karpman.*I only train Water type~Pokémon!~Fire is useless against~my mighty water attacks!*<player.name>: Alright, let's see how~good you are!*Karpman: Ok, but don't say I~didn't warn you!*Let's fight!
-Merson_Gym_Karpman_AfterBattle1,Karpman: That's an official~Pokémon League badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!
-Merson_Gym_Karpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*A TM can only be used once!~So when you use one to~teach a new technique,~pick the Pokémon carefully!*TM 12 contains Octazooka!~It's a water move that~can lower the accuracy~of your foe!
-Merson_Gym_Karpman_DefeatMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine-Badge!
-Merson_Gym_Karpman_TalkAgain,That was an epic battle!~Travel around Rijon to fight~the other Gym leaders.*You might stand a chance~against them!
+Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: I'm Karpman.*I only train Water type~Pokémon!~Fire is useless against~my mighty water attacks!*<player.name>: Alright, let's see how~good you are!*Karpman: Ok, but don't say I~didn't warn you!*Let's fight!
+Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!
+Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*A TM can only be used once!~So when you use one to~teach a new technique,~pick the Pokémon carefully!*TM 12 contains Octazooka!~It's a water move that~can lower the accuracy~of your foe!
+Merson_Gym_LeaderKarpman_DefeatMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine-Badge!
+Merson_Gym_LeaderKarpman_TalkAgain,That was an epic battle!~Travel around Rijon to fight~the other Gym leaders.*You might stand a chance~against them!
 
 [Route 55]
 Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my Pokémon?
@@ -3303,4 +3295,28 @@ Owsauri_Main_Sign_NameRater,Name Rater
 
 Owsauri_Daycare_DaycareMan_Intro_NoPokemon,I run a Daycare.*Would you like me to raise one~of your Pokémon?
 Owsauri_Daycare_DaycareMan_Answer_LeavePokemon,Leave Pokémon
-Owsauri_Daycare_DaycareMan_Answer_TakeBack,Take Back
+Owsauri_Daycare_DaycareMan_Answer_TakeBack,Take BackOwsauri_Daycare_DaycareMan_Answer_TakeBack,Take Back
+Owsauri_NameRater_Intro,Hello, Hello!~I am the official Name Rater.*Want me to rate the nicknames~of your Pokémon?
+Owsauri_NameRater_RenamePokemon_WhichPokemon,Which Pokémon should I look~at?
+Owsauri_NameRater_RenamePokemon_BetterNickname,<storage.get(string,PokeName)>, is it?~That is a decent nickname!*But, would you like me to~give it a nicer name?*How about it?
+Owsauri_NameRater_RenamePokemon_WhatName,Fine! What should we name it?
+Owsauri_NameRater_RenamePokemon_NewName,OK! This Pokémon has been~renamed <pokemon.nickname(<pokemon.selected>)>!*That's a better name than~before!
+Owsauri_NameRater_NoOrCancel,Fine! Come any time you like!
+
+Owsauri_GamblerHouse_Son,I hope the Day Care Man is~taking good care of my~Pokémon.
+Owsauri_GamblerHouse_Mother,My husband is addicted~to the slots...
+Owsauri_GamblerHouse_Father,Hmm... which book should I~pick out of this shelf...?
+
+Owsauri_Gym_GymGuy_BeforeBadge,Yo! Champ in making!~Here’s my advice!*The Leader, Lily loves to use~Ice Pokémon.*If you have Fire or Rock~Pokémon, her Pokémon won’t~stand a chance!
+Owsauri_Gym_GymGuy_AfterBadge,You beat Lily!! What'd I~tell ya?*You and me kid, we make~a pretty darn good team!
+Owsauri_Gym_SwimmerEd_IntroMessage,Splash!*Ready for an ice fight?
+Owsauri_Gym_SwimmerEd_OutroMessage,That can't be!
+Owsauri_Gym_SwimmerEd_DefeatMessage,Lily is always training~her Pokémon!
+Owsauri_Gym_JrTrainerFemaleBethy_IntroMessage,Lily shouldn't waste her~time with you!
+Owsauri_Gym_JrTrainerFemaleBethy_OutroMessage,You overwhelmed me!
+Owsauri_Gym_JrTrainerFemaleBethy_DefeatMessage,You have to face other~trainers to find out how~good you really are.
+Owsauri_Gym_LeaderLily_BeforeBattle,Lily: Hi, you here to face me?*<player.name>: Yeah, I'm on a quest~to get all eight Rijon Badges~and compete in the league!*Lily: Well if you beat me,~you get the Hail Badge,~so give it your best shot!
+Owsauri_Gym_LeaderLily_AfterBattle1,All right!*You can have the Hail Badge~that will help you!*The Hail Badge lets you~use Cut any time if you~have the HM!*Also go and take this TM~I found earlier, it should~help you.
+Owsauri_Gym_LeaderLily_AfterBattle2,TM 13 teaches Ice Beam!*Use it on an Ice Pokémon!
+Owsauri_Gym_LeaderLily_DefeatMessage,Lily: Wow! You're too much!
+Owsauri_Gym_LeaderLily_TalkAgain,Good luck on your quest!
