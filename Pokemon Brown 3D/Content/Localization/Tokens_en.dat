@@ -3292,6 +3292,15 @@ Route49_Gate_Binoculars_Right,Looked into the binoculars.*There's Hayward City!
 [Owsauri City]
 Owsauri_Main_Sign_City,Owsauri City
 Owsauri_Main_Sign_NameRater,Name Rater
+Owsauri_Main_Sign_Gym_BeforeDefeat,Merson City Pokémon Gym~Leader: Lily*Winning Trainers:~Mura
+Owsauri_Main_Sign_Gym_AfterDefeat,Merson City Pokémon Gym~Leader: Lily*Winning Trainers:~Mura~<player.name>
+
+Owsauri_PokeCenter_BenchGirl,My daddy is still in the casino.*He told me to wait here...
+Owsauri_PokeCenter_BirdKeeper,You can't win with just one~strong Pokémon.*It's tough, but you have~to raise them evenly.
+Owsauri_PokeCenter_Lass,North of Jaeru City lies~the Rijon League.
+
+Owsauri_PokeMart_Lass,Did you try X Speed?~It speeds up a Pokémon~in battle!
+Owsauri_PokeMart_Hiker,They sell Repel here, which~repel wild Pokémon away~from you!
 
 Owsauri_Daycare_DaycareMan_Intro_NoPokemon,I run a Daycare.*Would you like me to raise one~of your Pokémon?
 Owsauri_Daycare_DaycareMan_Intro_1Pokemon_NoLevelUp,Back already?~Your <daycare.pokemonname(0,0)> needs~some more time with me.*Do you want to take your~Pokémon back?
@@ -3300,14 +3309,32 @@ Owsauri_Daycare_DaycareMan_Intro_2Pokemon_NoLevelUp,Back already?~Your Pokémon 
 Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_0Yes1No,Your <daycare.pokemonname(0,0)> has grown~a lot!*By level, it's grown about <daycare.grownlevels(0,0)>!~Aren't I great?*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_0No1Yes,Your Pokémon have grown~a lot!*By level, <daycare.pokemonname(0,1)>~has grown about <daycare.grownlevels(0,1)>!*Aren't I great?*<daycare.pokemonname(0,0)> needs~some more time with me.*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_BothYes,Your Pokémon have grown~a lot!*By level, <daycare.pokemonname(0,0)>~has grown about <daycare.grownlevels(0,0)>!*<daycare.pokemonname(0,1)> has grown~about <daycare.grownlevels(0,1)>!~Aren't I great?*Do you want to take your~Pokémon back?
-Owsauri_Daycare_DaycareMan_Question_TakeBack,Do you want to take your~Pokémon back?
+Owsauri_Daycare_DaycareMan_Question_TakeBack,Which Pokémon do you want to~take back?
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_NoLevelUp,If you want your~<daycare.pokemonname(0,0)> back,~you owe me $<math.int(<daycare.grownlevels(0,0)>*100+100)>.*Would you like it back?
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_HigherLevel,By level, your~<daycare.pokemonname(0,0)> has~grown about <daycare.grownlevels(0,0)>.*If you want your~<daycare.pokemonname(0,0)> back,~you owe me $<math.int(<daycare.grownlevels(0,0)>*100+100)>.~Would you like it back?
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_GotBack,Thank you! Here's your~Pokémon!*<player.name> got~<daycare.pokemonname(0,0)> back!
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_NotEnoughMoney,You don't have enough~money to get~<daycare.pokemonname(0,0)> back.
+Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_NoLevelUp,If you want your~<daycare.pokemonname(0,1)> back,~you owe me $<math.int(<daycare.grownlevels(0,1)>*100+100)>.*Would you like it back?
+Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_HigherLevel,By level, your~<daycare.pokemonname(0,1)> has~grown about <daycare.grownlevels(0,1)>.*If you want your~<daycare.pokemonname(0,1)> back,~you owe me $<math.int(<daycare.grownlevels(0,1)>*100+100)>.~Would you like it back?
+Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_GotBack,Thank you! Here's your~Pokémon!*<player.name> got~<daycare.pokemonname(0,1)> back!
+Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_NotEnoughMoney,You don't have enough~money to get~<daycare.pokemonname(0,1)> back.
 Owsauri_Daycare_DaycareMan_TakeBack_OtherOneToo,Would you like to have~the other one back, too?
 Owsauri_Daycare_DaycareMan_TakeBack_NoRoom,You have no room for this~Pokémon!
-Owsauri_Daycare_DaycareMan_Answer_No,Alright then, come again.
+Owsauri_Daycare_DaycareMan_LeavePokemon_NoPokemon,Looks like you don't have~any Pokémon...
+Owsauri_Daycare_DaycareMan_LeavePokemon_NotEnoughPokemon,Looks like you don't have~enough Pokémon...
+Owsauri_Daycare_DaycareMan_LeavePokemon_RaiseAnother,You want me to raise another?*Alright, which Pokémon~should I raise?
+Owsauri_Daycare_DaycareMan_LeavePokemon_WhichPokemon,Which Pokémon should I raise?
+Owsauri_Daycare_DaycareMan_LeavePokemon_SelectedPokemon,Fine. I'll look after~<daycare.pokemonname(0,<daycare.countpokemon(0)>-1)> for a while.
+Owsauri_Daycare_DaycareMan_LeavePokemon_ComeBackLater,Come see me in a while.
+Owsauri_Daycare_DaycareMan_TakeEgg_WantEgg,Ah, it's you!*I was raising your~Pokémon, and I was surprised!*Your Pokémon was holding~an Egg!*I don't know how it got there,~but your Pokémon had it.*You do want it, don't you?
+Owsauri_Daycare_DaycareMan_TakeEgg_ReceivedEgg,<player.name> received~the Egg from the Day-Care Man.
+Owsauri_Daycare_DaycareMan_TakeEgg_TakeCare,Take good care of it!
+Owsauri_Daycare_DaycareMan_TakeEgg_NoRoom,You have no room for~that right now.*Come back when you've~made room.
+Owsauri_Daycare_DaycareMan_TakeEgg_YouSure,I can just take it and~never give it back.*Are you really sure you~don't want the egg?
+Owsauri_Daycare_DaycareMan_TakeEgg_DoNotWantEgg,Well then, I'll hang onto it.~Thank you!
+Owsauri_Daycare_PlayerPokemon0,<daycare.pokemonname(0,0)> seems pleased~to stay in the Daycare.*It would like to travel~with you again soon though.
+Owsauri_Daycare_PlayerPokemon1,<daycare.pokemonname(0,1)> seems pleased~to stay in the Daycare.*It would like to travel~with you again soon though.
+Owsauri_Daycare_DaycareMan_NoOrCancel,Alright then, come again.
 Owsauri_Daycare_DaycareMan_Answer_LeavePokemon,Leave Pokémon
 Owsauri_Daycare_DaycareMan_Answer_TakeBack,Take Back
 

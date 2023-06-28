@@ -112,6 +112,14 @@ Signs:
 	{"Structure"{STR[{"Map"{str[Structures\PokeCenter_Sign]}}{"Offset"{sngArr[28,0,23]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[28,0,33]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Generic_Sign_PokeCenter)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
+Turning Sign:
+	PokeCenter
+		Pole
+			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.625,0,23.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.625,1,23.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.625,2,23.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		Sign
+			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[25.625,3,23.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[32,60,16,12][60,48,4,12][48,64,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
 	
 
 Ledges:

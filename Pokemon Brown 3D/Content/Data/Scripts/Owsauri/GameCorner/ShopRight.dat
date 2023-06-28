@@ -1,0 +1,5 @@
+version=2
+	
+@text.show(We exchange your coins~for prizes!)
+@screen.trade({32|-1|300}{gm24|-1|2000}{gm59|-1|3000},1,0,c)
+:end

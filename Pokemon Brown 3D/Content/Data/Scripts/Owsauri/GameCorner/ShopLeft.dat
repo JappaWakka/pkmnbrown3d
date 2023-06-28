@@ -1,0 +1,44 @@
+version=2
+	
+@text.show(We exchange your coins~for prizes!)
+@options.setcancelindex(3)
+@options.show(Chikorita     2500C,Cyndaquil     2500C,Totodile      2500C,No Thanks)
+	:when:Chikorita     2500C
+		@storage.set(int,PokeNumber,152)
+		@storage.set(int,Cost,2500)
+	:when:Cyndaquil     2500C
+		@storage.set(int,PokeNumber,155)
+		@storage.set(int,Cost,2500)
+	:when:Totodile      2500C
+		@storage.set(int,PokeNumber,158)
+		@storage.set(int,Cost,2500)
+	:when:No Thanks
+		@storage.clear
+		:end
+:endwhen
+
+:if:<storage.get(int,Cost)>><player.coins>
+	@text.show(Sorry, you need more coins.)
+:else
+	@text.show(So, you want <pokedex.getname(<storage.get(int,PokeNumber)>)>?)
+	@options.show(Yes,No)
+	:when:Yes
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+			@storage.set(int,PokeShiny,1)
+		:else
+			@storage.set(int,PokeShiny,0)
+		:endif
+		
+		@text.show(<player.name> got~<pokedex.getname(<storage.get(int,PokeNumber)>)>!)
+		@player.addcoins(-<storage.get(int,Cost)>)
+		@sound.play(buy)
+		@pokemon.add(<storage.get(int,PokeNumber)>,10,Purchased from,5,Owsauri Game Corner,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		@pokemon.rename(<system.math(<pokemon.count>-1)>)
+		:if:<pokemon.count>>6
+			@text.show(There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.)
+			@pokemon.sendtostorage(<system.math(<pokemon.count>-1)>)
+		:endif
+	:endwhen
+:endif
+@storage.clear
+:end
