@@ -135,7 +135,7 @@ Scriptblocks:
 		{"EntityField"{ENT[{"Size"{intArr[7,1]}}{"Steps"{sngArr[2,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\Poster]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		
 	TM 18 Clerk
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,0,2]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\TM18Clerk]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\TM18Clerk]}}{"Rotation"{int[0]}}]}}
 	
 	SNES's
 		{"EntityField"{ENT[{"Size"{intArr[4,3]}}{"Steps"{sngArr[3,1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\SNES]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}

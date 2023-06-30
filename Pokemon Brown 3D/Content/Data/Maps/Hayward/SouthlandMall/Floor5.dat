@@ -109,8 +109,8 @@ Scriptblocks:
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[14,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\Sign_Info_Floor5]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	Shops
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,2]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Hayward\Clerk_Floor5_Left]}}{"Rotation"{int[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,2]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Hayward\Clerk_Floor5_Right]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Hayward\Clerk_Floor5_Left]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Hayward\Clerk_Floor5_Right]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[5,0.155,1.25]}}{"TextureID"{str[Clerk]}}{"ID"{int[14]}}{"Name"{str[Clerk]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

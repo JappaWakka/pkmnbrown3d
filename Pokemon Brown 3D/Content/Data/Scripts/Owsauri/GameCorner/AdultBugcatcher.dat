@@ -1,0 +1,28 @@
+version=2
+:if:<register.registered(GameCorner1F_BugcatcherAdult)>=false
+	@text.show(<system.token(Owsauri_GameCorner1F_BugcatcherAdult_1)>)
+	:if:<inventory.countitem(54)>=1
+		:if:<math.int(<player.coins>+10)><50000
+			@sound.play(success_small)
+			@text.show(<system.token(Owsauri_GameCorner1F_BugcatcherAdult_2)>)
+			@player.addcoins(10)
+			@register.register(GameCorner1F_BugcatcherAdult)
+			@npc.turn(6,1)
+			:end
+		:else
+			@text.show(<system.token(Owsauri_GameCorner1F_BugcatcherAdult_4)>)
+			@npc.turn(6,1)
+			:end
+		:endif
+	:else
+		@text.show(<system.token(Owsauri_GameCorner1F_ForgotCoinCase)>)
+		@npc.turn(6,1)
+		:end
+	:endif
+:else
+	@text.show(<system.token(Owsauri_GameCorner1F_BugcatcherAdult_3)>)
+	@npc.turn(6,1)
+	:end
+:endif
+
+:end

@@ -129,11 +129,6 @@ main_menu_options_controls,Controls
 main_menu_options_contentpacks_line1,Content
 main_menu_options_contentpacks_line2,Packs
 
-DeleteScreen:
-delete_menu_delete_confirm,Do you really want to delete the save
-delete_menu_delete,Delete
-delete_menu_cancel,Cancel
-
 GameModeMenu:
 gamemode_menu_select1,Select a GameMode
 gamemode_menu_select2,to start the new game with.
@@ -165,19 +160,15 @@ option_screen_game_viewbobbing_description,Turns camera shaking on or off.
 
 option_screen_graphics,Graphics
 option_screen_graphics_fov,Field of View
-option_screen_graphics_fov_description,The field of view. The higher the value is,~the more you can see.~Warning: Too large value can cause lags in larger maps.
 option_screen_graphics_renderdistance,Render Distance
-option_screen_graphics_renderdistance_description,The render distance determines,~how far you can see.~By turning this down, you can improve your FPS.
 option_screen_graphics_renderdistance_tiny,Tiny
 option_screen_graphics_renderdistance_short,Short
 option_screen_graphics_renderdistance_normal,Normal
 option_screen_graphics_renderdistance_far,Far
 option_screen_graphics_renderdistance_extreme,Extreme
 option_screen_graphics_offset_mapquality,Offset Map Quality
-option_screen_graphics_offset_mapquality_description,Sets the quality of the offset maps.~The details and update frequency of offset maps increase with this value.~Set this value to 0 to prevent the game from loading offset maps.
 option_screen_graphics_offset_mapquality_off,Off
 option_screen_graphics_graphics,Graphics
-option_screen_graphics_graphics_description,Affects if some objects are rendered~or not. By turning this down, you can improve your FPS.~This settings is for all save states.
 option_screen_graphics_graphics_fancy,Fancy
 option_screen_graphics_graphics_fast,Fast
 option_screen_graphics_multisampling,Multi Sampling
@@ -185,17 +176,14 @@ option_screen_graphics_multisampling,Multi Sampling
 option_screen_battle,Battle
 option_screen_battle_3dmodels,3D Models
 option_screen_battle_animations,Animations
-option_screen_battle_animations_description,Determines if the game shows battle animations.
 option_screen_battle_battlestyle,Battle Style
 option_screen_battle_battlestyle_shift,Shift
 option_screen_battle_battlestyle_set,Set
-option_screen_battle_style_description,Battle Style~Set: You are not asked to switch out your Pokémon~Shift: You can switch out your Pokémon after defeating an opponent.
 
 option_screen_controls,Controls
 option_screen_controls_xboxgamepad,Xbox Gamepad
 option_screen_controls_resetkeybindings,Reset Key Bindings
 option_screen_controls_cameraspeed,Camera Speed
-option_screen_controls_cameraspeed_description,The camera speed sets the speed on which the~mouse can rotate the view.
 option_screen_controls_cameraspeed_slow,...Slow...
 option_screen_controls_cameraspeed_medium,Standard
 option_screen_controls_cameraspeed_fast,Super fast!
@@ -203,9 +191,7 @@ option_screen_controls_cameraspeed_fastest,SPEED OF LIGHT!
 
 option_screen_audio,Audio
 option_screen_audio_volume_music,Music Volume
-option_screen_audio_volume_music_description,The volume of the background music.
 option_screen_audio_volume_sfx,SoundFX Volume
-option_screen_audio_volume_music_description,The volume of the sound effects and jingles.
 option_screen_audio_muted,Muted
 
 option_screen_contentpacks_up,Move Up
@@ -221,11 +207,8 @@ option_screen_contentpacks_content,Content
 option_screen_contentpacks_description,Description
 
 option_screen_resetoptions,Reset options
-option_screen_resetoptions_description,Resets all options.
 option_screen_save_options,Save options
-option_screen_save_options_description,Save the options and close the menu.
 option_screen_close,Close.
-option_screen_close_menu_description,Close the menu and do not save~the changes.
 ---
 Pausescreen:
 pause_menu_title,Game menu
@@ -241,16 +224,10 @@ IngameMenu:
 game_menu_pokedex,Pokédex
 game_menu_party,Pokémon
 game_menu_bag,Bag
-game_menu_trainer_card,<playername>
+game_menu_trainer_card,<player.name>
 game_menu_save,Save
 game_menu_options,Options
 game_menu_exit,Exit Menu
----
-InventoryScreen:
-inventory_menu_bag,Bag
-inventory_menu_backadvice,PRESS E TO GO BACK
-inventory_menu_items,Items
-inventory_menu_description,Description
 ---
 NewGameScreen:
 new_game_intro_1,Hello!~Sorry to keep~you waiting!*Welcome to the world~of Pokémon!*My name is Oak.~People call me~Pokémon Prof.*This world is inhabited~by creatures that~we call
@@ -264,9 +241,7 @@ new_game_intro_same_name_1,Hey we got the~same names.*My name is also~
 new_game_intro_same_name_2,!
 new_game_intro_name_1,Right! So your name is~
 new_game_intro_name_2,!
-new_game_your_name,What's your name?
 new_game_select_skin,Select your appearance
-new_game_name_too_short,This name is too short
 ---
 MapScreen:
 map_screen_cities,Cities
@@ -274,83 +249,18 @@ map_screen_routes,Routes
 map_screen_places,Places
 map_screen_roaming,Roaming Pokes
 ---
-PokedexScreen:
-pokedex_screen_seen,Seen
-pokedex_screen_obtained,Obtained
-pokedex_screen_rare,Rare
-pokedex_screen_backadvice,PRESS E TO GO BACK
----
-PokemonScreen:
-pokemon_screen_choose_a_pokemon,Choose a Pokémon
-pokemon_screen_backadvice,Press the E key to go back.
-pokemon_screen_item_give,Give
-pokemon_screen_item_take,Take
-pokemon_screen_item_back,Back
-pokemon_screen_doesnt_hold_item,~doesn't hold an item.
-pokemon_screen_take_item_1,Took 
-pokemon_screen_take_item_2, from~
-pokemon_screen_take_item_3,~and put it into the~
-pokemon_screen_take_item_4, pocket!
-pokemon_screen_give_item_1,Gave 
-pokemon_screen_give_item_2, to~
-pokemon_screen_give_item_3,
-pokemon_screen_give_item_4,~and put 
-pokemon_screen_give_item_5,~back to the inventory.
-pokemon_screen_summary,Summary
-pokemon_screen_switch,Switch
-pokemon_screen_item,Item
-pokemon_screen_back,Back
-pokemon_screen_EMPTY,EMPTY
----
-Pokemon Status Screen:
-All pages:
-poke_status_screen_nature,Nature
-poke_status_screen_backadvice,PRESS E TO GO BACK
-poke_status_screen_closeadvice,PRESS E TO CLOSE
-poke_status_screen_number,# 
-Page 1:
-poke_status_screen_all_exp,All Exp
-poke_status_screen_nxt_lv,Nxt Lv.
-poke_status_screen_stats_page,Stats page
-Page 2:
-poke_status_screen_OT,OT
-poke_status_screen_Item,Item
-poke_status_screen_no_item,no item
-poke_status_screen_ability,Ability
-poke_status_screen_details_page,Details page
-Page 3:
-poke_status_screen_power,Power
-poke_status_screen_accuracy,Accuracy
-poke_status_screen_moves_page,Moves page
----
 Trainer Card Screen:
-trainer_screen_trainer_card,Trainer Card
-trainer_screen_name,Name
-trainer_screen_points,Points
-trainer_screen_money,Money
-trainer_screen_pokedex,Pokédex
-trainer_screen_time,Time
 trainer_screen_collected_badges,Collected badges
 trainer_screen_badge, Badge
-trainer_screen_backadvice,PRESS E TO GO BACK
 trainer_screen_empty_badge,???
 ---
 Save Screen:
-save_screen_title,Do you want to save the game?
 save_screen_name,Name
 save_screen_badges,Badges
 save_screen_money,Money
 save_screen_time,Time
 save_screen_yes,Yes
 save_screen_no,No
-save_screen_success,Saved the game.
----
-Item Detail Screen:
-item_detail_screen_use,Use
-item_detail_screen_give,Give
-item_detail_screen_trash,Trash
-item_detail_screen_back,Back
-item_detail_screen_give_item,Give 
 ---
 Apricorn Screen:
 apricorn_screen_apricorns,Apricorns
@@ -363,36 +273,9 @@ apricorn_screen_take,Take
 apricorn_screen_ready,I am ready producing Pokéballs. Here's the result of my work:
 apricorn_screen_obtain, obtained
 ---
-Daycare Screen:
-daycare_screen_daycare,Daycare
-daycare_screen_money, / Money: 
-daycare_screen_deposit,Deposit
-daycare_screen_grown,Grown: 
-daycare_screen_lv, / Lv. 
-daycare_screen_costs, / Costs:
-daycare_screen_pokedollar, PokéDollar
-daycare_screen_withdraw,Withdraw
-daycare_screen_backadvice,PRESS E TO GO BACK
-daycare_screen_pokemon_choose_header,Deposit Pokémon
-Egg,Egg
----
-Network Screen:
-network_screen_isonline,You are in a co-op game already! Please close the connection~to open a new game or connect again!~~~Press E to go back!
-network_screen_header,Co-Op Gameplay
-network_screen_main_header,You can either join a game or host a~new one to play together with a friend.
-network_screen_main_join,Join
-network_screen_main_host,Host
-network_screen_main_close,Close
-network_screen_join_header,Join a game:~Enter the IP address of the hosted game.
-network_screen_join_cancel,Cancel
-network_screen_join_join,Join
-network_screen_host_header,Host a game:~You are about to open your~game for other players in your network.
-network_screen_host_cancel,Cancel
-network_screen_host_host,Host
----
 Donation screen:
 donation_screen_donators,Donators
-donation_screen_backadvice,Press E to close
+donation_screen_backadvice,Press [<system.button(OpenMenu)>] to close
 ---
 Blackout Screen:
 black_out_screen_line1,You have run out of Pokémon!
@@ -401,47 +284,76 @@ black_out_screen_line3,to the nearest PokéCenter
 black_out_screen_line4,to prevent further injury
 black_out_screen_line5,to your Pokémon.
 ---
+Voltorb Flip:
+VoltorbFlip_LV.,LV.
+VoltorbFlip_CurrentCoins_Line1,Coins found
+VoltorbFlip_CurrentCoins_Line2,in this LV.
+VoltorbFlip_TotalCoins_Line1,<player.name>'s
+VoltorbFlip_TotalCoins_Line2,earned Coins
+
+VoltorbFlip_MemoButton_Open_Line1,Open
+VoltorbFlip_MemoButton_Open_Line2,Memos
+VoltorbFlip_MemoButton_Close_Line1,Close
+VoltorbFlip_MemoButton_Close_Line2,Memos
+
+VoltorbFlip_QuitButton,Quit
+
+VoltorbFlip_QuitQuestion_Question_1,If you quit now, you will~receive
+VoltorbFlip_QuitQuestion_Question_2,Coin(s).*Will you quit?
+VoltorbFlip_QuitQuestion_AnswerYes,Yes
+VoltorbFlip_QuitQuestion_AnswerNo,No
+
+VoltorbFlip_BeforeNewLevel_Main_Question_1,Play Voltorb Flip Lv.
+VoltorbFlip_BeforeNewLevel_Main_Question_2,?
+VoltorbFlip_BeforeNewLevel_Main_Answer_Play,Play
+VoltorbFlip_BeforeNewLevel_Main_Answer_GameInfo,Game Info
+VoltorbFlip_BeforeNewLevel_Main_Answer_Quit,Quit
+VoltorbFlip_BeforeNewLevel_GameInfo_Question,Which set of info?
+VoltorbFlip_BeforeNewLevel_GameInfo_Answer_HowToPlay,How to Play
+VoltorbFlip_BeforeNewLevel_GameInfo_Answer_Hint,Hint!
+VoltorbFlip_BeforeNewLevel_GameInfo_Answer_AboutMemos,About Memos
+VoltorbFlip_BeforeNewLevel_GameInfo_Back
+
+VoltorbFlip_GameWon_1,Game clear!~You've found all of the~hidden x2 and x3 cards.*<player.name> received~
+VoltorbFlip_GameWon_2,Coin(s)!
+
+VoltorbFlip_GameLost,Oh no! You get 0 Coins!
+
+VoltorbFlip_MaxCoins,Your Coin Case can't fit~any more Coin(s)!
+
+VoltorbFlip_NewLevel_Lower1,Dropped to Game Lv.
+VoltorbFlip_NewLevel_Lower2,!
+VoltorbFlip_NewLevel_Higher1,Advanced to Game Lv.
+VoltorbFlip_NewLevel_Higher2,!
+VoltorbFlip_NewLevel_Ready1,Ready to play Game Lv.
+VoltorbFlip_NewLevel_Ready2,!
+
+VoltorbFlip_QuitGame_1,<player.name> received~
+VoltorbFlip_QuitGame_2,Coin(s)!
+
+VoltorbFlip_AfterGame_Won1,You've won
+VoltorbFlip_AfterGame_Won2,Coin(s)!
+VoltorbFlip_AfterGame_Lost,Too bad, you didn't win~any Coins!*Better luck next time!
+
+VoltorbFlip_BeforeGame_FullCoinCase,Your Coin Case is already full!
+VoltorbFlip_BeforeGame_NoCoinCase,You don't have a Coin Case!~Come back when you have one!
+
+VoltorbFlip_Tutorial_HowToPlay_Message,Voltorb Flip is a game in which~you flip over cards to find~numbers hidden beneath them.*The cards are hiding the~numbers 1 through 3...~and Voltorb as well.*The first number you flip over~will give you that many Coins.*From then on, the next number~you find will multiply the~total amount of Coins you've~collected by that number.*If it's a 2, your total will~be multiplied by "x2".*If it's a 3, your total will~be multiplied by "x3".*But if you flip over a~Voltorb, it's game over.*When that happens, you'll lose~all the Coins you've collected~in the current level.*If you select "Quit", you'll~withdraw from the level.*If you get to a difficult~spot, you might want to end~the game early.*Once you've found all the~hidden 2 and 3 cards,~you've cleared the game.*Once you've flipped over~all these cards, then you'll~advance to the next level.*As you move up in levels,~you will be able to receive~more Coins. Do your best!
+VoltorbFlip_Tutorial_Hint_Message,The numbers at the side~of the board give you a clue~about the numbers hidden on~the backs of the cards.*The larger the number, the~more likely it is that there~are many large numbers hidden~in that row or column.*In the same way, you can tell~how many Voltorb are hidden~in the row or column.*Consider the hidden number~totals and the Voltorb~totals carefully as you~flip over cards.
+VoltorbFlip_Tutorial_AboutMemos_Message,Select "Open Memo" or press~[<system.button(run)>] to open the~Memo Window.*You can mark the cards with~the numbers 1 through 3,~but also with a Voltorb mark.*When you have an idea of the~numbers hidden on the back~of the cards, open the Memo~Window, choose the type of~mark you want to use with~the Mouse Wheel or the~Gamepad's Shoulder Buttons~and then press [<system.button(enter1)>]~while highlighting the card~you want to mark.*If you want to remove a mark,~choose the type of mark you~want to remove with the~Mouse Wheel or the Gamepad's~Shoulder Buttons and then~press [<system.button(back1)>] while~highlighting the card you~want to remove the mark from.*You can also use the~mouse to select a~mark type or a card.
+VoltorbFlip_Tutorial_HowToPlay_Image1,If you flip the cards in this order, you'll collect: 3 x 1 x 2 x 1 x 3... A total of 18 Coins! And then...
+VoltorbFlip_Tutorial_HowToPlay_Image2,If you select "Quit", you'll keep those 18 Coins.
+VoltorbFlip_Tutorial_HowToPlay_Image3,But if you find Voltorb, you'll lose all your Coins!
+VoltorbFlip_Tutorial_Hint_Image,By looking at the numbers on the sides of the cards, you can see the hidden number and Voltorb totals.
+VoltorbFlip_Tutorial_AboutMemos_Image,Select "Open Memo" to open the Memo Window. Select the cards and press [<system.button(enter1)>] to add and [<system.button(back1)>] to remove marks.
 Battle:
 ---
 main:
-battle_main_trainer_sent_out_1, sent out~
-battle_main_trainer_sent_out_2,.
-battle_main_trainer_sent_out_3,is about to send out
-battle_main_trainer_sent_out_4,! Do you want to switch your Pokémon?
-battle_main_trainer_sent_out_5,Yes
-battle_main_trainer_sent_out_6,No
+battle_main_trainer_about_to_send_out_1,is about to send out
+battle_main_trainer_about_to_send_out_2,! Do you want to switch your Pokémon?
 battle_main_choose_pokemon,Choose Pokémon
-battle_main_wild_appear_1,A wild 
-battle_main_wild_appear_2,~appeared!
-battle_main_trainer_intro_1, and~
-battle_main_trainer_intro_2, want~to battle!
-battle_main_trainer_intro_3, wants~to battle!
-battle_main_intro_1,GO! 
-battle_main_intro_2,!
-battle_main_trainer_defeat_1,~was defeated!
-battle_main_trainer_defeat_2, and~
-battle_main_trainer_defeat_3,~were defeated!
-battle_main_trainer_defeat_4, got 
-battle_main_trainer_defeat_5,~PokéDollars for winning!
 battle_main_cannot_switch,Cannot switch out.
 ---
-attackTurn:
-battle_attack_poison_damage,~was hurt by poison!
-battle_attack_curse_damage,~is afflicted by the curse!
-battle_attack_fire_damage,~was hurt by its burn!
-battle_attack_trainer_item_1, used a~
-battle_attack_trainer_item_2,!
-battle_attack_asleep, is fast~asleep.
-battle_attack_woke_up, woke up!
-battle_attack_paralyzed, is paralyzed!~It can't move!
-battle_attack_frozen_free, is no~longer frozen!
-battle_attack_frozen, is frozen~solid!
-battle_attack_flinched, flinched!
-battle_attack_no_longer_confused, is no~longer confused!
-battle_attack_confused, is~confused.
-battle_attack_hit_self_confusion, hits itself~in confusion!
-battle_attack_no_PP_left, has~no PP left!*
-battle_attack_used, used 
 ---
 Badges:
 badge_1,Marine
@@ -3348,6 +3260,54 @@ Owsauri_NameRater_NoOrCancel,Fine! Come any time you like!
 Owsauri_GamblerHouse_Son,I hope the Day Care Man is~taking good care of my~Pokémon.
 Owsauri_GamblerHouse_Mother,My husband is addicted~to the slots...
 Owsauri_GamblerHouse_Father,Hmm... which book should I~pick out of this shelf...?
+
+Owsauri_GameCorner1F_BugcatcherAdult_1,Gambling is healthy!
+Owsauri_GameCorner1F_BugcatcherAdult_2,<player.name> received~10 coins!
+Owsauri_GameCorner1F_BugcatcherAdult_3,Wins and losses balance.
+Owsauri_GameCorner1F_BugcatcherAdult_4,You don't need my coins!
+Owsauri_GameCorner1F_PokeFanMale_Green,These slots never let~me win...*I don't know how I'll~earn it back.
+Owsauri_GameCorner1F_PokeFanFemale_Red,I make a living with this!
+Owsauri_GameCorner1F_PokeManiac,Hey!*Leave me alone, I'm on a roll!
+Owsauri_GameCorner1F_AdultWoman_Green,I love this!*More money!
+Owsauri_GameCorner1F_Gentleman_Purple_1,Want to get addicted to~gambling? Let me help you!
+Owsauri_GameCorner1F_Gentleman_Purple_2,<player.name> received~20 coins!
+Owsauri_GameCorner1F_Gentleman_Purple_3,You can start with the~Voltorb Flip game over there!
+Owsauri_GameCorner1F_Gentleman_Purple_4,Looks like you're already~addicted!
+Owsauri_GameCorner1F_Gambler_Blue,I might as well live here.
+Owsauri_GameCorner1F_GamblingClerk_1,What's up? Want some coins?
+Owsauri_GameCorner1F_GamblingClerk_2,<player.name> received~20 coins!
+Owsauri_GameCorner1F_GamblingClerk_3,Darn! I need more coins for~the Pokémon I want!
+Owsauri_GameCorner1F_GamblingClerk_4,You have lots of coins!
+Owsauri_GameCorner1F_ForgotCoinCase,Oops! Forgot the Coin Case!
+Owsauri_GameCorner1F_SlotMachine,Only adults are allowed to use~the Slot Machines!
+Owsauri_GameCorner1F_VoltorbFlipGame_Question,Hello there, young man!~Ready to play Voltorb Flip?
+Owsauri_GameCorner1F_VoltorbFlipGame_Answer_Yes,I'll set up the game for you!
+Owsauri_GameCorner1F_VoltorbFlipGame_Answer_No,Very well.~Come play again later!
+Owsauri_GameCorner1F_Clerk_VoltorbFlip_BeforeTalking,Hello there, young man!~You look like quite a challenger!*Why don't you try our new~coin game, Voltorb Flip?*You can get some great prizes~if you collect enough coins!*Just take a seat and I'll set~up the game for you.*Be sure to have your~Coin Case ready!
+Owsauri_GameCorner1F_Clerk_VoltorbFlip_AfterTalking,Just take a seat and I'll set~up the game for you.*Be sure to have your~Coin Case ready!
+Owsauri_GameCorner1F_Clerk_CoinBuy_Question,Welcome to Owsauri~Game Corner!*Are you in need of game coins?*It's only $1000 for 50 coins.~Would you like some?
+Owsauri_GameCorner1F_Clerk_CoinBuy_Answer_No,No? Please come play sometime!
+Owsauri_GameCorner1F_Clerk_CoinBuy_Answer_Yes,Thanks! Here are your~50 coins!
+Owsauri_GameCorner1F_Clerk_CoinBuy_NotEnoughMoney,You can't afford the coins!
+Owsauri_GameCorner1F_Clerk_CoinBuy_CoinCaseFull,Oops! Your Coin Case can't~hold that many coins.
+Owsauri_GameCorner1F_Clerk_CoinBuy_NoCoinCase,You don't have a Coin Case!
+Owsauri_GameCorner1F_Clerk_Directions,Welcome to Owsauri~Game Corner!*You can exchange your coins~for prizes in the basement.*Our Slot Machines are for~adults only, but feel free to~give our Voltorb Flip coin game~a try!
+Owsauri_GameCornerB1F_FatGuy_Blue,I really need some Rare Candy~for my Pokémon!
+Owsauri_GameCornerB1F_Gambler_Purple,I had a major haul today!
+Owsauri_GameCornerB1F_Shop_Intro,We exchange your coins~for prizes!
+Owsauri_GameCornerB1F_Shop_NoThanks,No Thanks
+Owsauri_GameCornerB1F_Shop_NotEnoughCoins,Sorry, you need more coins.
+Owsauri_GameCornerB1F_Shop_ChoosePokemon,So, you want <pokedex.getname(<storage.get(int,PokeNumber)>)>?
+Owsauri_GameCornerB1F_Shop_ReceivedPokemon,<player.name> got~<pokedex.getname(<storage.get(int,PokeNumber)>)>!
+Owsauri_GameCornerB1F_Shop_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+Owsauri_GameCornerB1F_Shop_PokemonCatchMethod,Purchased from
+Owsauri_GameCornerB1F_Shop_PokemonCatchLocation,Owsauri Game Corner
+Owsauri_GameCornerB1F_Shop_Left_Chikorita,Chikorita         2500C
+Owsauri_GameCornerB1F_Shop_Left_Cyndaquil,Cyndaquil         3500C
+Owsauri_GameCornerB1F_Shop_Left_Totodile,Totodile           3500C
+Owsauri_GameCornerB1F_Shop_Center_Eevee_Espeon,Eevee #1      3500C
+Owsauri_GameCornerB1F_Shop_Center_Eevee_Glaceon,Eevee #2      3500C
+Owsauri_GameCornerB1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
 Owsauri_Gym_GymGuy_BeforeBadge,Yo! Champ in making!~Here’s my advice!*The Leader, Lily loves to use~Ice Pokémon.*If you have Fire or Rock~Pokémon, her Pokémon won’t~stand a chance!
 Owsauri_Gym_GymGuy_AfterBadge,You beat Lily!! What'd I~tell ya?*You and me kid, we make~a pretty darn good team!

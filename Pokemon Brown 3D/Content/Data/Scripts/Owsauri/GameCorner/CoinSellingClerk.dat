@@ -1,0 +1,29 @@
+version=2
+	
+@text.show(<system.token(Owsauri_GameCorner1F_Clerk_CoinBuy_Question)>)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+:when:<system.token(global_yes)>
+	:if:<inventory.countitem(54)>=1
+		:if:<player.money>>1000
+			:if:<math.int(<player.coins>+50)><50000
+				@sound.play(buy)
+				@text.show(<system.token(Owsauri_GameCorner1F_Clerk_CoinBuy_Answer_Yes)>)
+				@player.addcoins(50)
+				@player.money(-1000)
+				:end
+			:else
+				@text.show(<system.token(Owsauri_GameCorner1F_Clerk_CoinBuy_CoinCaseFull)>)
+				:end
+			:endif
+		:else
+			@text.show(<system.token(Owsauri_GameCorner1F_Clerk_CoinBuy_NotEnoughMoney)>)
+			:end
+		:endif
+	:else
+		@text.show(<system.token(Owsauri_GameCorner1F_Clerk_CoinBuy_NoCoinCase)>)
+		:end
+	:endif
+:when:<system.token(global_no)>
+	@text.show(<system.token(Owsauri_GameCorner1F_Clerk_CoinBuy_Answer_No)>)
+:endwhen
+:end

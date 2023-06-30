@@ -1,39 +1,48 @@
 version=2
 	
-@text.show(We exchange your coins~for prizes!)
-@options.setcancelindex(2)
-@options.show(Eevee         3500C,Tyrogue       5000C,No Thanks)
-	:when:Eevee         3500C
+@text.show(<system.token(Owsauri_GameCornerB1F_Shop_Intro)>)
+@options.setcancelindex(3)
+@options.show(<system.token(Owsauri_GameCornerB1F_Shop_Center_Eevee_Espeon)>,<system.token(Owsauri_GameCornerB1F_Shop_Center_Eevee_Glaceon)>,<system.token(Owsauri_GameCornerB1F_Shop_Center_Tyrogue)>,<system.token(Owsauri_GameCornerB1F_Shop_NoThanks)>)
+	:when:<system.token(Owsauri_GameCornerB1F_Shop_Center_Eevee_Espeon)>
 		@storage.set(int,PokeNumber,133)
 		@storage.set(int,Cost,3500)
-	:when:Tyrogue       5000C
+		@storage.set(int,PokeLevel,10)
+		@storage.set(str,PokeForm,espeon)
+	:when:<system.token(Owsauri_GameCornerB1F_Shop_Center_Eevee_Glaceon)>
+		@storage.set(int,PokeNumber,133)
+		@storage.set(int,Cost,3500)
+		@storage.set(int,PokeLevel,10)
+		@storage.set(str,PokeForm,glaceon)
+	:when:<system.token(Owsauri_GameCornerB1F_Shop_Center_Tyrogue)>
 		@storage.set(int,PokeNumber,236)
 		@storage.set(int,Cost,5000)
-	:when:No Thanks
+		@storage.set(int,PokeLevel,20)
+	:when:<system.token(Owsauri_GameCornerB1F_Shop_NoThanks)>
 		@storage.clear
 		:end
 :endwhen
 
 :if:<storage.get(int,Cost)>><player.coins>
-	@text.show(Sorry, you need more coins.)
+	@text.show(<system.token(Owsauri_GameCornerB1F_Shop_NotEnoughCoins)>)
 :else
-	@text.show(So, you want <pokedex.getname(<storage.get(int,PokeNumber)>)>?)
-	@options.show(Yes,No)
-	:when:Yes
+	@text.show(<system.token(Owsauri_GameCornerB1F_Shop_ChoosePokemon)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
 		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
 			@storage.set(int,PokeShiny,1)
 		:else
 			@storage.set(int,PokeShiny,0)
 		:endif
 		
-		@text.show(<player.name> got~<pokedex.getname(<storage.get(int,PokeNumber)>)>!)
+		@text.show(<system.token(Owsauri_GameCornerB1F_Shop_ReceivedPokemon)>)
 		@player.addcoins(-<storage.get(int,Cost)>)
 		@sound.play(buy)
-		@pokemon.add(<storage.get(int,PokeNumber)>,10,Purchased from,5,Owsauri Game Corner,0,<player.name>,0,<storage.get(int,PokeShiny)>)
-		@pokemon.rename(<system.math(<pokemon.count>-1)>)
+		@pokemon.add(<storage.get(int,PokeNumber)>,<storage.get(int,PokeLevel)>,<system.token(Owsauri_GameCornerB1F_Shop_PokemonCatchMethod)>,5,<system.token(Owsauri_GameCornerB1F_Shop_PokemonCatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		@pokemon.setadditionalvalue(<math.int(<pokemon.count>-1)>,<storage.get(str,PokeForm)>)
+		@pokemon.rename(<math.int(<pokemon.count>-1)>)
 		:if:<pokemon.count>>6
-			@text.show(There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.)
-			@pokemon.sendtostorage(<system.math(<pokemon.count>-1)>)
+			@text.show(<system.token(Owsauri_GameCornerB1F_Shop_PokemonToPC)>)
+			@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 		:endif
 	:endwhen
 :endif

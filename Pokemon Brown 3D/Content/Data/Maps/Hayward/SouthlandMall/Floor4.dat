@@ -158,7 +158,7 @@ Scriptblocks:
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[14,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\Sign_Info_Floor4]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	Shop
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,4]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Hayward\Clerk_Floor4]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Hayward\Clerk_Floor4]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
 {"NPC"{NPC[{"Position"{sngArr[5,0,0]}}{"TextureID"{str[Youngster_Purple]}}{"ID"{int[12]}}{"Name"{str[Youngster]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_SouthlandMall_Floor4_Youngster)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[0,0,10,1]]}}]}}

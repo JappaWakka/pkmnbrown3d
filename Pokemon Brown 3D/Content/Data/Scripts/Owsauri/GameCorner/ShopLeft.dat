@@ -1,42 +1,42 @@
 version=2
 	
-@text.show(We exchange your coins~for prizes!)
+@text.show(<system.token(Owsauri_GameCornerB1F_Shop_Intro)>)
 @options.setcancelindex(3)
-@options.show(Chikorita     2500C,Cyndaquil     2500C,Totodile      2500C,No Thanks)
-	:when:Chikorita     2500C
+@options.show(<system.token(Owsauri_GameCornerB1F_Shop_Left_Chikorita)>,<system.token(Owsauri_GameCornerB1F_Shop_Left_Cyndaquil)>,<system.token(Owsauri_GameCornerB1F_Shop_Left_Totodile)>,<system.token(Owsauri_GameCornerB1F_Shop_NoThanks)>)
+	:when:<system.token(Owsauri_GameCornerB1F_Shop_Left_Chikorita)>
 		@storage.set(int,PokeNumber,152)
 		@storage.set(int,Cost,2500)
-	:when:Cyndaquil     2500C
+	:when:<system.token(Owsauri_GameCornerB1F_Shop_Left_Cyndaquil)>
 		@storage.set(int,PokeNumber,155)
 		@storage.set(int,Cost,2500)
-	:when:Totodile      2500C
+	:when:<system.token(Owsauri_GameCornerB1F_Shop_Left_Totodile)>
 		@storage.set(int,PokeNumber,158)
 		@storage.set(int,Cost,2500)
-	:when:No Thanks
+	:when:<system.token(Owsauri_GameCornerB1F_Shop_NoThanks)>
 		@storage.clear
 		:end
 :endwhen
 
 :if:<storage.get(int,Cost)>><player.coins>
-	@text.show(Sorry, you need more coins.)
+	@text.show(<system.token(Owsauri_GameCornerB1F_Shop_NotEnoughCoins)>)
 :else
-	@text.show(So, you want <pokedex.getname(<storage.get(int,PokeNumber)>)>?)
-	@options.show(Yes,No)
-	:when:Yes
+	@text.show(<system.token(Owsauri_GameCornerB1F_Shop_ChoosePokemon)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
 		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
 			@storage.set(int,PokeShiny,1)
 		:else
 			@storage.set(int,PokeShiny,0)
 		:endif
 		
-		@text.show(<player.name> got~<pokedex.getname(<storage.get(int,PokeNumber)>)>!)
+		@text.show(<system.token(Owsauri_GameCornerB1F_Shop_ReceivedPokemon)>)
 		@player.addcoins(-<storage.get(int,Cost)>)
 		@sound.play(buy)
-		@pokemon.add(<storage.get(int,PokeNumber)>,10,Purchased from,5,Owsauri Game Corner,0,<player.name>,0,<storage.get(int,PokeShiny)>)
-		@pokemon.rename(<system.math(<pokemon.count>-1)>)
+		@pokemon.add(<storage.get(int,PokeNumber)>,10,<system.token(Owsauri_GameCornerB1F_Shop_PokemonCatchMethod)>,5,<system.token(Owsauri_GameCornerB1F_Shop_PokemonCatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		@pokemon.rename(<math.int(<pokemon.count>-1)>)
 		:if:<pokemon.count>>6
-			@text.show(There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.)
-			@pokemon.sendtostorage(<system.math(<pokemon.count>-1)>)
+			@text.show(<system.token(Owsauri_GameCornerB1F_Shop_PokemonToPC)>)
+			@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 		:endif
 	:endwhen
 :endif
