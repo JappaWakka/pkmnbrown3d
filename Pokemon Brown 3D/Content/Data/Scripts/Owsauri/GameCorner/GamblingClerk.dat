@@ -2,18 +2,12 @@ version=2
 :if:<register.registered(GameCorner1F_GamblingClerk)>=false
 	@text.show(<system.token(Owsauri_GameCorner1F_GamblingClerk_1)>)
 	:if:<inventory.countitem(54)>=1
-		:if:<math.int(<player.coins>+20)><50000
-			@sound.play(success_small)
-			@text.show(<system.token(Owsauri_GameCorner1F_GamblingClerk_2)>)
-			@player.addcoins(20)
-			@register.register(GameCorner1F_GamblingClerk)
-			@npc.turn(10,1)
-			:end
-		:else
-			@text.show(<system.token(Owsauri_GameCorner1F_GamblingClerk_4)>)
-			@npc.turn(10,1)
-			:end
-		:endif
+		@sound.play(success_small)
+		@text.show(<system.token(Owsauri_GameCorner1F_GamblingClerk_2)>)
+		@player.addcoins(20)
+		@register.register(GameCorner1F_GamblingClerk)
+		@npc.turn(10,1)
+		:end
 	:else
 		@text.show(<system.token(Owsauri_GameCorner1F_ForgotCoinCase)>)
 		@npc.turn(10,1)
