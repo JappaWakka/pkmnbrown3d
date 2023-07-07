@@ -5,8 +5,9 @@ Money|575
 IntroMessage|How many degrees is it?
 OutroMessage|Ooh! That's chilly!
 DefeatMessage|Oh, you meant celsius!
-TextureID|8
+TextureID|Swimmer_Land
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|8,8

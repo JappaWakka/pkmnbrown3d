@@ -4,7 +4,7 @@ Version|1.0
 Author|Leahkim,Miragics,JappaWakka
 MapPath|$Mode\Content\Data\Maps\
 ScriptPath|$Mode\Content\Data\Scripts\
-PokeFilePath|$Mode\Content\Data\Maps\poke\
+PokeFilePath|$Mode\Content\Data\WildEncounters\
 PokemonDataPath|$Mode\Content\Pokemon\Data\
 ContentPath|$Mode\Content\
 LocalizationsPath|$Mode\Content\Localization\
@@ -15,6 +15,7 @@ StartRotation|0
 StartLocationName|Seashore City
 StartDialogue|
 StartColor|130,60,10
+StartScript|DevScripts\StartScript
 PokemonAppear|207
 IntroMusic|NewGameIntro
 SkinColors|90;140;50,50;90;140,140;50;90

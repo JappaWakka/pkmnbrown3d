@@ -1,12 +1,66 @@
-{"Level"{LEV[{"Name"{str[Route 66]}}{"MusicLoop"{str[RouteMusic2]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[Route 66]}}{"MusicLoop"{str[RouteMusic1]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
 
+Floors:
+	Grass
+		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+
+	Path
+		{"Floor"{ENT[{"Size"{intArr[6,1]}}{"Position"{intArr[8,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+	
+	Invisible
+		{"Floor"{ENT[{"Size"{intArr[7,1]}}{"Position"{intArr[7,0,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
+	
+	Docks
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[8,0,1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
+		
+Water:
+	Regular Water
+		{"EntityField"{ENT[{"Size"{intArr[3,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+	
+	Waterside Sides (Direction = Where the water is)
+		North
+			{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[7,-0.25,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+			
+		South
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[7,-0.25,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
+			
+		West
+			{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
+		
+			
+Docks:
+	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,-0.625,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,-0.625,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,-0.625,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
+Rocks:
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[6,-0.25,1]}}]}}
+
 Signs:
-{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[22,0,45]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[0,16,16,16][120,32,4,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[Rijon Beach]}}{"Rotation"{int[2]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[11,0,9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Route66_Sign_Beach)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[11,-0.15,9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[19,0,43]}}{"TextureID"{str[8]}}{"ID"{int[4]}}{"Name"{str[Boy]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\beach\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[24,0,43]}}{"TextureID"{str[8]}}{"ID"{int[5]}}{"Name"{str[Sage]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\beach\001]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[15,0,58]}}{"TextureID"{str[34]}}{"ID"{int[6]}}{"Name"{str[Bugcatcher]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\beach\002]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[26,0,56]}}{"TextureID"{str[34]}}{"ID"{int[7]}}{"Name"{str[Fatboy]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\beach\003]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[27,0,61]}}{"TextureID"{str[34]}}{"ID"{int[8]}}{"Name"{str[Boy]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\beach\004]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[8,0,7]}}{"TextureID"{str[Swimmer_Land]}}{"ID"{int[4]}}{"Name"{str[Swimmer Ericsson]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\Route66\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[13,0,7]}}{"TextureID"{str[Swimmer_Land]}}{"ID"{int[5]}}{"Name"{str[Swimmer Jake]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\001]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[15,0,58]}}{"TextureID"{str[Swimmer]}}{"ID"{int[6]}}{"Name"{str[Swimmer]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\002]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[26,0,56]}}{"TextureID"{str[Swimmer]}}{"ID"{int[7]}}{"Name"{str[Swimmer]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\003]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[27,0,61]}}{"TextureID"{str[Swimmer]}}{"ID"{int[8]}}{"Name"{str[Swimmer]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\004]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[27,0,61]}}{"TextureID"{str[Swimmer]}}{"ID"{int[8]}}{"Name"{str[Swimmer]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\005]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+
+Warps:
+	Owsauri City
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[7,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,17,0.1,37,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,18,0.1,37,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[9,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,19,0.1,37,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[10,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,20,0.1,37,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[11,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,21,0.1,37,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,22,0.1,37,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[13,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,23,0.1,37,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		
+Offsets:
+	Owsauri City
+		{"OffsetMap"{MAP[{"Offset"{sngArr[-10,-37]}}{"Map"{str[Owsauri\Main.dat]}}]}}
