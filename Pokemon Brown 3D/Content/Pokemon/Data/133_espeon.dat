@@ -9,7 +9,7 @@ BaseFriendship|70
 EggGroup1|Field
 EggGroup2|None
 BaseEggSteps|9180
-EggPokemon|133
+EggPokemon|133_espeon
 IsGenderLess|0
 CanBreed|1
 Devolution|0
@@ -33,7 +33,7 @@ FPSpDefense|1
 FPSpeed|0
 CanFly|0
 CanSwim|0
-Pokedex|It has the ability to alter the composition of its body to suit its surrounding environment. Thrives in bright environments.\Evolution Pokémon\6.5\0.3\0,148,0
+Pokedex|It has the ability to alter the composition of its body to suit its surrounding environment.\Evolution Pokémon\6.5\0.3\0,148,0
 Scale|0.7
 Move|1,270
 Move|1,45
@@ -54,3 +54,11 @@ Move|41,387
 Move|45,376
 TradeValue|25
 EvolutionCondition|196,Level,20,Level
+EvolutionLine|133\0\-4,134\2\-7
+EvolutionLine|133\0\-4,135\2\-5
+EvolutionLine|133\0\-4,136\2\-3
+EvolutionLine|133\0\-4,700\2\-1
+EvolutionLine|133_espeon\0\1,196\2\1
+EvolutionLine|133_umbreon\0\3,197\2\3
+EvolutionLine|133_leafeon\0\5,470\2\5
+EvolutionLine|133_glaceon\0\7,471\2\7

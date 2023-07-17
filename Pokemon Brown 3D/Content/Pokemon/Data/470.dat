@@ -9,10 +9,10 @@ BaseFriendship|35
 EggGroup1|Field
 EggGroup2|None
 BaseEggSteps|9180
-EggPokemon|133
+EggPokemon|133_leafeon
 IsGenderLess|0
 CanBreed|1
-Devolution|133
+Devolution|133_leafeon
 IsMale|87.5
 Ability1|102
 Ability2|Nothing
@@ -50,3 +50,11 @@ Move|37,241
 Move|41,387
 Move|45,348
 TradeValue|50
+EvolutionLine|133\0\-4,134\2\-7
+EvolutionLine|133\0\-4,135\2\-5
+EvolutionLine|133\0\-4,136\2\-3
+EvolutionLine|133\0\-4,700\2\-1
+EvolutionLine|133_espeon\0\1,196\2\1
+EvolutionLine|133_umbreon\0\3,197\2\3
+EvolutionLine|133_leafeon\0\5,470\2\5
+EvolutionLine|133_glaceon\0\7,471\2\7

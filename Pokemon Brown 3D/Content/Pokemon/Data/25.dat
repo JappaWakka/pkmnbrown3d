@@ -9,8 +9,7 @@ BaseFriendship|70
 EggGroup1|Field
 EggGroup2|Fairy
 BaseEggSteps|2805
-EggPokemon|172
-Devolution|172
+EggPokemon|25
 IsGenderLess|0
 IsMale|50
 Ability1|9
@@ -50,10 +49,8 @@ Move|37,97
 Move|42,435
 Move|45,113
 Move|50,87
-EvolutionCondition|26,region,-sevii islands,item
 EvolutionCondition|26,item,23,item
-EvolutionCondition|26_alola,region,sevii islands,item
-EvolutionCondition|26_alola,item,23,item
 Item|5,163
 Item|50,2006
 TradeValue|20
+EvolutionLine|25\0\0,26\2\0
