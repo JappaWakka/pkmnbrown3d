@@ -12,6 +12,7 @@ Floors:
 		
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[20,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[10,0,36]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
 
 Jump Ledges:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Step]}}{"Position"{sngArr[4,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,16,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,-1,1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[7]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -64,4 +65,7 @@ Offsets:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[-10,36]}}{"Map"{str[Hayward\Main.dat]}}]}}
 	{"OffsetMap"{MAP[{"Offset"{sngArr[22,0]}}{"Map"{str[Routes\50\Main.dat]}}]}}
 	{"OffsetMap"{MAP[{"Offset"{sngArr[20,-24]}}{"Map"{str[Routes\49\Main.dat]}}]}}
+	
+Backdrops:
+	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,22.5]}}{"Size"{intArr[42,13]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	
