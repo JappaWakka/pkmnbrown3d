@@ -2990,13 +2990,13 @@ DockUnderpass_Entrance_Route52_HomelessGuy,This is where I live because I~have n
 
 [Route 52]
 Route52_MagmarTraderHouse_Father,Live in the city?*Why, I love it here.*No darn annoying hoodrats.
-Route52_MagmarTraderHouse_Frank_MagmarTrade_Question,Frank: Hi! Want to trade~an Abra for a Magmar?
-Route52_MagmarTraderHouse_Frank_MagmarTrade_Answer_No,Frank: Awww! Oh well...
-Route52_MagmarTraderHouse_Frank_MagmarTrade_AfterTrade,Frank: Isn't my old~Magmar great?
-Route52_MagmarTraderHouse_Frank_MagmarTrade_TradeSuccess,Frank: Okay, connect the cable~like so!
-Route52_MagmarTraderHouse_Frank_MagmarTrade_TradeFail,Frank: What? That's not Abra!*If you get one, come back~here!
-Route52_MagmarTraderHouse_Frank_MagmarTrade_CatchMethod,Received in a trade with Frank
-Route52_MagmarTraderHouse_Frank_MagmarTrade_CatchLocation,in a house at Route 52
+Route52_MagmarTraderHouse_MagmarTrade_Question,Hi! Want to trade an Abra~for a Magmar?
+Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Oh well...
+Route52_MagmarTraderHouse_MagmarTrade_AfterTrade,Isn't my old Magmar great?
+Route52_MagmarTraderHouse_MagmarTrade_TradeSuccess,Okay, connect the cable~like so!
+Route52_MagmarTraderHouse_MagmarTrade_TradeFail,What? That's not Abra!*If you get one, come back~here!
+Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade
+Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,at a house at Route 52
 
 [Route 52 - Hayward City Gate]
 Route52_Hayward_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 70 kinds of~Pokémon, I'm supposed to give~you a Super Rod!*So <player.name>! Have you~caught at least 70 kinds~of Pokémon?
@@ -3048,14 +3048,13 @@ Hayward_PokeCenter_BenchGuy,I wish I had HM02.
 Hayward_PokeCenter_Gentleman,If you can find a fossil, that~lab next door will revive it!
 Hayward_PokeCenter_PokeFan,I came from Eagulou City.
 
-Hayward_FossilLab_Kathy_LaprasTrade_Question,Kathy: I'm looking for~a Clefairy!~Wanna trade one for Lapras?
-Hayward_FossilLab_Kathy_LaprasTrade_Answer_No,Kathy: Awww! Oh well...
-Hayward_FossilLab_Kathy_LaprasTrade_AfterTrade,Kathy: Isn't my old~Lapras great?
-Hayward_FossilLab_Kathy_LaprasTrade_TradeSuccess,Kathy: Okay, connect the cable~like so!
-Hayward_FossilLab_Kathy_LaprasTrade_TradeFail,Kathy: What? That's not~Clefairy!*If you get one, come back~here!
-
-Hayward_FossilLab_Kathy_LaprasTrade_CatchMethod,Received in a trade
-Hayward_FossilLab_Kathy_LaprasTrade_CatchLocation,in the Hayward Fossil Lab
+Hayward_FossilLab_LaprasTrade_Question,I'm looking for a Clefairy!~Wanna trade one for Lapras?
+Hayward_FossilLab_LaprasTrade_Answer_No,Awww! Oh well...
+Hayward_FossilLab_LaprasTrade_AfterTrade,Isn't my old Lapras great?
+Hayward_FossilLab_LaprasTrade_TradeSuccess,Okay, connect the cable~like so!
+Hayward_FossilLab_LaprasTrade_TradeFail,What? That's not Clefairy!*If you get one, come back~here!
+Hayward_FossilLab_LaprasTrade_CatchMethod,Received in a trade
+Hayward_FossilLab_LaprasTrade_CatchLocation,in the Hayward Fossil Lab
 Hayward_FossilLab_FossilReviver_Question,Hey there!*I love to study fossils.*Do you have one I can revive~with this machine?
 Hayward_FossilLab_FossilReviver_NoFossil,No?*GET OUT!
 Hayward_FossilLab_FossilReviver_Answer_No,Don't waste my time then!~Come back when you do!

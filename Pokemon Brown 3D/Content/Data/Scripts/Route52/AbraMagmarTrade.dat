@@ -1,17 +1,17 @@
 version=2
 
 :if:<register.registered(magmartrade)>=false
-@text.show(<system.token(Route52_MagmarTraderHouse_Frank_MagmarTrade_Question)>)
+@text.show(<system.token(Route52_MagmarTraderHouse_MagmarTrade_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-		@pokemon.npctrade(63|126||-1||0|49396|Frank|5||<system.token(Route52_MagmarTraderHouse_Frank_MagmarTrade_CatchLocation)>|<system.token(Route52_MagmarTraderHouse_Frank_MagmarTrade_CatchMethod)>|Master|<system.token(Route52_MagmarTraderHouse_Frank_MagmarTrade_TradeSuccess)>|<system.token(Route52_MagmarTraderHouse_Frank_MagmarTrade_TradeFail)>|magmartrade)
+		@pokemon.npctrade(63|126||-1||0|49396|Trainer|5||<system.token(Route52_MagmarTraderHouse_MagmarTrade_CatchLocation)>|<system.token(Route52_MagmarTraderHouse_MagmarTrade_CatchMethod)>|Master|<system.token(Route52_MagmarTraderHouse_MagmarTrade_TradeSuccess)>|<system.token(Route52_MagmarTraderHouse_MagmarTrade_TradeFail)>|magmartrade)
 	:end
 	
 	:when:<system.token(global_no)>
-	@text.show(<system.token(Route52_MagmarTraderHouse_Frank_MagmarTrade_Answer_No)>)
+	@text.show(<system.token(Route52_MagmarTraderHouse_MagmarTrade_Answer_No)>)
 	:end
 	:endwhen
 :else
-	@text.show(<system.token(Route52_MagmarTraderHouse_Frank_MagmarTrade_AfterTrade)>)
+	@text.show(<system.token(Route52_MagmarTraderHouse_MagmarTrade_AfterTrade)>)
 :endif	
 :end

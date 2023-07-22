@@ -17,6 +17,7 @@ version=2
 		@storage.set(int,PokeNumber,236)
 		@storage.set(int,Cost,5000)
 		@storage.set(int,PokeLevel,20)
+		@storage.set(str,PokeForm,hitmontop)
 	:when:<system.token(Owsauri_GameCornerB1F_Shop_NoThanks)>
 		@storage.clear
 		:end
