@@ -298,6 +298,7 @@ Buildings:
 					{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[18,4,10]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,16,16,16]}}{"HasSnow"{bool[0]}}]}}
 				
 				Invisible
+					{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[18,5,10]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,16,16,16]}}{"Remove"{bool[1]}}{"HasSnow"{bool[0]}}]}}
 					{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[18,5,10]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,16,16,16]}}{"Visible"{bool[0]}}{"HasSnow"{bool[0]}}]}}
 								
 			Chairs
@@ -523,12 +524,22 @@ ScriptBlocks:
 
 Water:
 	Waterside Sides (Direction = Where the water is)
-		South
-			{"EntityField"{ENT[{"Size"{intArr[1,11]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-1,-0.25,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
-	
+		West
+			{"EntityField"{ENT[{"Size"{intArr[1,9]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-1,-0.25,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
+		
+		East
+			{"EntityField"{ENT[{"Size"{intArr[1,5]}}{"EntityID"{str[Water]}}{"Position"{sngArr[40,-0.25,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,7]}}{"EntityID"{str[Water]}}{"Position"{sngArr[40,-0.25,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			
 	Waterside Clockwise Corners (Direction = Where the water is)
+		NorthEast
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[40,-0.25,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		
 		SouthWest
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-1,-0.25,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
+		
+		SouthEast
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[40,-0.25,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			
 Warps:
 	PokeCenter
@@ -570,19 +581,30 @@ Warps:
 	
 	Route 64
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-1,0,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\64\Main.dat,44,0.1,12,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		
 Offsets:
-	{"OffsetMap"{MAP[{"Offset"{sngArr[8,38]}}{"Map"{str[Routes\52\Main.dat]}}]}}
 	{"OffsetMap"{MAP[{"Offset"{sngArr[10,-36]}}{"Map"{str[Routes\51\Main.dat]}}]}}
 	{"OffsetMap"{MAP[{"Offset"{sngArr[42,8]}}{"Map"{str[Routes\63\Main.dat]}}]}}
 	{"OffsetMap"{MAP[{"Offset"{sngArr[-44,8]}}{"Map"{str[Routes\64\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[8,38]}}{"Map"{str[Routes\52\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[32,-36]}}{"Map"{str[Routes\50\Main.dat]}}]}}
+	
 
 Backdrops:
-	Route52
+	Hayward City
+		{"Backdrop"{BAC[{"Position"{sngArr[39.5,-0.75,4.5]}}{"Size"{intArr[1,1]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Route 52
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-80.5,-0.75,37.5]}}{"Size"{intArr[79,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-1.5,-0.75,38.5]}}{"Size"{intArr[1,65]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[40.5,-0.75,37.5]}}{"Size"{intArr[79,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[40.5,-0.75,37.5]}}{"Size"{intArr[71,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[38.5,-0.75,38.5]}}{"Size"{intArr[2,65]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	Route64
+	Route 64
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-80.5,-0.75,-0.5]}}{"Size"{intArr[35,27]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-80.5,-0.75,26.5]}}{"Size"{intArr[79,11]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Route 50/51
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[39.5,-0.75,-14.5]}}{"Size"{intArr[1,1]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[40.5,-0.75,-13.5]}}{"Size"{intArr[71,18]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Route 63
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[40.5,-0.75,28.5]}}{"Size"{intArr[71,9]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		
 	
