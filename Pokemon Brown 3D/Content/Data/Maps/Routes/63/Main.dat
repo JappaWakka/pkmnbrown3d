@@ -159,11 +159,11 @@ Ledges:
 {"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Step]}}{"Position"{sngArr[22,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,16,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[7]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[15,0,10]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[0]}}{"Name"{str[Jr. Trainer ♀ Annette]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[15,0,10]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[0]}}{"Name"{str[Jr. Trainer ♀ Annette]}}{"Action"{int[2]}}{"AdditionalValue"{str[5|trainer\route63\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[16,0,15]}}{"TextureID"{str[Hiker]}}{"ID"{int[1]}}{"Name"{str[Hiker Archibald]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\001]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[24,0,7]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[2]}}{"Name"{str[Jr. Trainer ♂ Blake]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\002]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[22,0,2]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[3]}}{"Name"{str[Bug Catcher Leo]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\003]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[31,0,7]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[4]}}{"Name"{str[Jr. Trainer ♂ Michael]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\004]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[31,0,7]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[4]}}{"Name"{str[Jr. Trainer ♂ Michael]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\route63\004]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[39,0,8]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[5]}}{"Name"{str[Bug Catcher Christian]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\005]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[49,0,8]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[6]}}{"Name"{str[Jr. Trainer ♀ Samantha]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\006]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 
@@ -197,7 +197,7 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-3,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,40,0.1,14,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	Silk Tunnel
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[60,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16][96,32,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\SilkTunnel\Main.dat,4,0.1,18,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[60,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16][96,32,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\SilkTunnel\1F.dat,4,0.1,18,0]}}{"Rotation"{int[0]}}]}}
 Offsets:
 	Hayward City
 		{"OffsetMap"{MAP[{"Offset"{sngArr[-42,-8]}}{"Map"{str[Hayward\Main.dat]}}]}}

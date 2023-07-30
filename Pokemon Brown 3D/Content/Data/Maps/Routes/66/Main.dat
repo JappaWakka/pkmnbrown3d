@@ -112,8 +112,8 @@ Signs:
 	
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[8,0,7]}}{"TextureID"{str[Swimmer_Land]}}{"ID"{int[4]}}{"Name"{str[Swimmer Ericsson]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\Route66\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[13,0,7]}}{"TextureID"{str[Swimmer_Land]}}{"ID"{int[5]}}{"Name"{str[Swimmer Jake]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\001]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[8,0,7]}}{"TextureID"{str[Swimmer_Land]}}{"ID"{int[4]}}{"Name"{str[Swimmer Ericsson]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\Route66\000]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[13,0,7]}}{"TextureID"{str[Swimmer_Land]}}{"ID"{int[5]}}{"Name"{str[Swimmer Jake]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\001]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[9,-0.2,12]}}{"TextureID"{str[Swimmer]}}{"ID"{int[6]}}{"Name"{str[Swimmer Kyle]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\002]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[4,-0.2,29]}}{"TextureID"{str[Swimmer]}}{"ID"{int[7]}}{"Name"{str[Swimmer Chris]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\003]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[16,-0.2,33]}}{"TextureID"{str[Swimmer]}}{"ID"{int[8]}}{"Name"{str[Swimmer Logan]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\004]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

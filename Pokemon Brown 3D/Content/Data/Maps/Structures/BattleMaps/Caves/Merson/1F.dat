@@ -26,9 +26,9 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[20,2]}}{"Position"{intArr[17,2,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}]}}
 	
 	LadderHoles
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[3,0,5]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,48,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,48,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[23,0,13]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,48,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[3,0,5]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,80,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,80,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[23,0,13]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,80,16,16]}}]}}
 		
 	Gemstone Floors
 		Gray
