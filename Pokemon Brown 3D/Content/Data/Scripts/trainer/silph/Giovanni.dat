@@ -1,14 +1,14 @@
 version=2
 
-:if:<register.registered(beatdaboss)>=false
-@text.show(What?!*Another kid trying to stop~me from Team Rockets goals?*I think that you need to~be taught a lesson about~behaving kid!*<player.name>: Bring it on.)
+:if:<Register.Registered(beatdaboss)>=false
+@Text.Show(What?!*Another kid trying to stop~me from Team Rockets goals?*I think that you need to~be taught a lesson about~behaving kid!*<player.name>: Bring it on.)
 @npc.move(1,3)
 @npc.turn(1,3)
 @npc.move(1,1)
 @npc.turn(1,2)
-@battle.starttrainer(Silph\Giovanni)
-@text.show(You stopped us from taking~over the Silph Warehouse.*I guess I should just~give up.*Theres no way we can succeed~with kids like you!*Goodbye forever!)
-@register.register(beatdaboss)
+@Battle.StartTrainer(Silph\Giovanni)
+@Text.Show(You stopped us from taking~over the Silph Warehouse.*I guess I should just~give up.*Theres no way we can succeed~with kids like you!*Goodbye forever!)
+@Register.Register(beatdaboss)
 @screen.fadeout
 @npc.remove(1)
 @npc.remove(0)

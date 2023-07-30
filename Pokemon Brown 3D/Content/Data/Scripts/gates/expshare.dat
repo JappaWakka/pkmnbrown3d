@@ -1,27 +1,27 @@
 version=2
 
-:if:<register.registered(expshare)>=false
-@text.show(Hi! Remember me?*I'm Prof. Tim's Aide!*If you caught 50 kinds of~Pokémon, I'm supposed to give~you an Exp Share!*So <player.name>! Have you~caught at least 50 kinds~of Pokémon?)
+:if:<Register.Registered(expshare)>=false
+@Text.Show(Hi! Remember me?*I'm Prof. Tim's Aide!*If you caught 50 kinds of~Pokémon, I'm supposed to give~you an Exp Share!*So <player.name>! Have you~caught at least 50 kinds~of Pokémon?)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 
 :when:<system.token(global_yes)>
 :if:<pokedex.caught>>49
-@text.show(Let's see...*Great!~Here you have the Exp.All!)
-	@item.give(57,1)
-	@item.messagegive(57,1)
-	@register.register(expshare)
+@Text.Show(Let's see...*Great!~Here you have the Exp.All!)
+	@Item.Give(57,1)
+	@Item.MessageGive(57,1)
+	@Register.Register(expshare)
 :end:
 :else
-	@text.show(Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 50 kinds if~you want the Exp Share.)
+	@Text.Show(Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 50 kinds if~you want the Exp Share.)
 :end:
 
 :when:<system.token(global_no)>
-@text.show(Oh, I see.~When you get 50 kinds,~come back for Exp Share.)
+@Text.Show(Oh, I see.~When you get 50 kinds,~come back for Exp Share.)
 :end:
 
 :endwhen:
 
 :else
-	@text.show(Have fun with it!)
+	@Text.Show(Have fun with it!)
 :endif:
 :end

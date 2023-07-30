@@ -1,10 +1,10 @@
 version=2
 
-@text.show(Hi there! I'm selling supplies.~Want something?)
+@Text.Show(Hi there! I'm selling supplies.~Want something?)
 @options.show(Buy,Leave)
 :when:Buy
 	@screen.trade({2|-1|-1}{43|-1|-1}{16|-1|-1}{19|-1|-1}{39|-1|-1}{38|-1|-1}{37|-1|-1},True,True)
 :when:Leave
-	@text.show(See ya!)
+	@Text.Show(See ya!)
 :endwhen
 :end

@@ -1,17 +1,17 @@
 version=2
 
-:if:<register.registered(laprastrade)>=false
-@text.show(<system.token(Hayward_FossilLab_LaprasTrade_Question)>)
+:if:<Register.Registered(laprastrade)>=false
+@Text.Show(<system.token(Hayward_FossilLab_LaprasTrade_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 		@pokemon.npctrade(35|131||-1||0|62003|Trainer|5||<system.token(Hayward_FossilLab_LaprasTrade_CatchLocation)>|<system.token(Hayward_FossilLab_LaprasTrade_CatchMethod)>|Kathy|<system.token(Hayward_FossilLab_LaprasTrade_TradeSuccess)>|<system.token(Hayward_FossilLab_LaprasTrade_TradeFail)>|laprastrade)
 		:end
 	
 	:when:<system.token(global_no)>
-		@text.show(<system.token(Hayward_FossilLab_LaprasTrade_Answer_No)>)
+		@Text.Show(<system.token(Hayward_FossilLab_LaprasTrade_Answer_No)>)
 		:end
 	:endwhen
 :else
-	@text.show(<system.token(Hayward_FossilLab_LaprasTrade_AfterTrade)>)
+	@Text.Show(<system.token(Hayward_FossilLab_LaprasTrade_AfterTrade)>)
 :endif	
 :end

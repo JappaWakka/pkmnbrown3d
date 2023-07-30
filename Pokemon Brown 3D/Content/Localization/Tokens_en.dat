@@ -2821,6 +2821,33 @@ Seashore_Main_YoungBoy_Red_AnswerNo,Why not?
 Seashore_Main_Sign_City,Seashore City*Where waves of new journeys~begin their long travels.
 Seashore_Main_Sign_Gym,Seashore Gym
 
+Seashore_Gym_ChannelerHelen_IntroMessage,Do your best!
+Seashore_Gym_ChannelerHelen_OutroMessage,I knew it!
+Seashore_Gym_ChannelerHelen_DefeatMessage,I need to do better next time!
+Seashore_Gym_TelekineticSebastian_IntroMessage,Psychic Pokémon is what~we use!
+Seashore_Gym_TelekineticSebastian_OutroMessage,I don't believe this!
+Seashore_Gym_TelekineticSebastian_DefeatMessage,Psychic has no weakness~but Dark!
+Seashore_Gym_TelekineticJimbo_IntroMessage,We always cream Fighting types!
+Seashore_Gym_TelekineticJimbo_OutroMessage,I never foresaw this!
+Seashore_Gym_TelekineticJimbo_DefeatMessage,Too bad I lost.
+Seashore_Gym_TelekineticJack_IntroMessage,My ability is too much~for you!
+Seashore_Gym_TelekineticJack_OutroMessage,I lost my concentration!
+Seashore_Gym_TelekineticJack_DefeatMessage,?
+Seashore_Gym_TelekineticRaoul_IntroMessage,Psychic all the way!
+Seashore_Gym_TelekineticRaoul_OutroMessage,Arrrgh!
+Seashore_Gym_TelekineticRaoul_DefeatMessage,I know what you're thinking!*You scare me.
+Seashore_Gym_ChannelerSophie_IntroMessage,Gasp!*Not you!
+Seashore_Gym_ChannelerSophie_OutroMessage,I lost after all!
+Seashore_Gym_ChannelerSophie_DefeatMessage,Be gone!
+Seashore_Gym_ChannelerAgnes_IntroMessage,Pray.
+Seashore_Gym_ChannelerAgnes_OutroMessage,Not good enough!
+Seashore_Gym_ChannelerAgnes_DefeatMessage,Good battle.*Pray.
+Seashore_Gym_LeaderSheral_BeforeBattle,Sheral: I knew you were coming.*Hello, I'm Sheral, and I use~my Pokémon's Psychic Powers~to maximum extent.*<player.name>: Really?~Well, I want that Psi Badge!
+Seashore_Gym_LeaderSheral_AfterBattle1,Sheral: The Psi Badge makes~Pokémon up to Lv 70 obey you!*I predicted that you wanted~a TM to go along with this.*Well, I have the perfect one~for you!
+Seashore_Gym_LeaderSheral_AfterBattle2,It's the strongest Psychic~attack there is!
+Seashore_Gym_LeaderSheral_DefeatMessage,Sheral: I'm shocked!*Alright. I can tell that you~earned this.*Take the Psi Badge!
+Seashore_Gym_LeaderSheral_TalkAgain,Sheral: Everyone has psychic~power!*People just don't realize it!
+
 [Route 53]
 Route53_PotionGuy_FreeSamples,Hi! The Gravel Town Mart is~giving away free samples~today, so go ahead and~take a free potion!
 Route53_PotionGuy_OutOfSamples,Sorry, but I'm all out of free~samples.
@@ -2936,7 +2963,7 @@ Merson_Gym_JrTrainerMaleButch_IntroMessage,Stop right there, kid!
 Merson_Gym_JrTrainerMaleButch_OutroMessage,Darn! I thought I had~a chance against you...
 Merson_Gym_JrTrainerMaleButch_DefeatMessage,You're pretty good~but you won't beat him!!!
 Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: I'm Karpman.*I only train Water type~Pokémon!~Fire is useless against~my mighty water attacks!*<player.name>: Alright, let's see how~good you are!*Karpman: Ok, but don't say I~didn't warn you!*Let's fight!
-Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!
+Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!
 Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*A TM can only be used once!~So when you use one to~teach a new technique,~pick the Pokémon carefully!*TM 12 contains Octazooka!~It's a water move that~can lower the accuracy~of your foe!
 Merson_Gym_LeaderKarpman_DefeatMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine-Badge!
 Merson_Gym_LeaderKarpman_TalkAgain,That was an epic battle!~Travel around Rijon to fight~the other Gym leaders.*You might stand a chance~against them!
@@ -3330,3 +3357,26 @@ Route66_SwimmerEricsson_DefeatMessage,Do I have skin cancer?*Be honest.
 Route66_SwimmerEricsson_IntroMessage,Time to work on my tan!
 Route66_SwimmerEricsson_OutroMessage,All warmed up!
 Route66_SwimmerEricsson_DefeatMessage,Do I have skin cancer?*Be honest.
+
+[Route 63]
+Route63_JrTrainerFemaleAnnette_IntroMessage,On your way to Silk Tunnel~are you?
+Route63_JrTrainerFemaleAnnette_OutroMessage,You little brat!
+Route63_JrTrainerFemaleAnnette_DefeatMessage,The cave is way too scary~and dark for me!
+Route63_HikerArchibald_IntroMessage,Bwahaha! Great!~I was bored, eh!
+Route63_HikerArchibald_OutroMessage,Keep it coming, eh!*Oh wait. I'm out of Pokémon!
+Route63_HikerArchibald_DefeatMessage,You sure had guts standing~up to me there, eh?
+Route63_JrTrainerMaleBlake_IntroMessage,Hey you!*Yeah you!*Battle now!
+Route63_JrTrainerMaleBlake_OutroMessage,Out like a light!
+Route63_JrTrainerMaleBlake_DefeatMessage,What is it?
+Route63_BugCatcherLeo_IntroMessage,Insects for the win!
+Route63_BugCatcherLeo_OutroMessage,Beyond lame.
+Route63_BugCatcherLeo_DefeatMessage,I'll never give up on~my bugs!
+Route63_JrTrainerMaleMichael_IntroMessage,The tunnel ahead leads~to Moraga Town.
+Route63_JrTrainerMaleMichael_OutroMessage,Can't measure up!
+Route63_JrTrainerMaleMichael_DefeatMessage,Are you going to Moraga too?
+Route63_JrTrainerFemaleSamantha_IntroMessage,What is it, pervert?
+Route63_JrTrainerFemaleSamantha_OutroMessage,Nasty!
+Route63_JrTrainerFemaleSamantha_DefeatMessage,Maybe one day, but don't~count on it.
+Route63_BugCatcherChristian_IntroMessage,Bug Pokémon never lose!
+Route63_BugCatcherChristian_OutroMessage,My bugs...
+Route63_BugCatcherChristian_DefeatMessage,Bugs are so underrated~these days.

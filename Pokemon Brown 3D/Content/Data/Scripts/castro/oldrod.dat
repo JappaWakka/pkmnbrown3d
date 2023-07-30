@@ -1,23 +1,23 @@
 version=2
 
-:if:<register.registered(oldrod)>=false
-@text.show(I'm the Fishing Guru's~cousin!*I love to fish!*How about you?)
+:if:<Register.Registered(oldrod)>=false
+@Text.Show(I'm the Fishing Guru's~cousin!*I love to fish!*How about you?)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 
 :when:<system.token(global_yes)>
-@text.show(Grand! I like your style!*Take this and fish,~young one!)
-@item.give(58,1)
-@item.messagegive(58,1)
-@register.register(oldrod)
-@text.show(Not the best Rod, but it's~better than nothing!)
+@Text.Show(Grand! I like your style!*Take this and fish,~young one!)
+@Item.Give(58,1)
+@Item.MessageGive(58,1)
+@Register.Register(oldrod)
+@Text.Show(Not the best Rod, but it's~better than nothing!)
 :end
 
 :when:<system.token(global_no)>
-@text.show(Oh... That's so disappointing...)
+@Text.Show(Oh... That's so disappointing...)
 :end
 :endwhen
 
 :else
-@text.show(Hello there, <player.name>!*How are the fish biting?)
+@Text.Show(Hello there, <player.name>!*How are the fish biting?)
 :endif
 :end

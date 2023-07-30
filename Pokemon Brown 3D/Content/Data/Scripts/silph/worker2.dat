@@ -1,8 +1,8 @@
 version=2
 
-:if:<register.registered(beatdaboss)>=False
-@text.show(The Rockets came and took over!)
+:if:<Register.Registered(beatdaboss)>=False
+@Text.Show(The Rockets came and took over!)
 :else
-	@text.show(Id better get back to~work!)
+	@Text.Show(Id better get back to~work!)
 :endif
 :end

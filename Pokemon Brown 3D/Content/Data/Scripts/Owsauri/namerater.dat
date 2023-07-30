@@ -1,33 +1,33 @@
 version=2
 
-@text.show(<system.token(Owsauri_NameRater_Intro)>)
+@Text.Show(<system.token(Owsauri_NameRater_Intro)>)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_yes)>
-	@text.show(<system.token(Owsauri_NameRater_RenamePokemon_WhichPokemon)>)
+	@Text.Show(<system.token(Owsauri_NameRater_RenamePokemon_WhichPokemon)>)
 	@pokemon.select
 	:if:<not><pokemon.selected>=-1
 		@storage.set(string,PokeName,<pokemon.nickname(<pokemon.selected>)>)
-		@text.show(<system.token(Owsauri_NameRater_RenamePokemon_BetterNickname)>)
+		@Text.Show(<system.token(Owsauri_NameRater_RenamePokemon_BetterNickname)>)
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
-			@text.show(<system.token(Owsauri_NameRater_RenamePokemon_WhatName)>)
+			@Text.Show(<system.token(Owsauri_NameRater_RenamePokemon_WhatName)>)
 			@pokemon.rename(<pokemon.selected>)
 			:if:<not><pokemon.nickname(<pokemon.selected>)>=<storage.get(string,PokeName)>
-				@text.show(<system.token(Owsauri_NameRater_RenamePokemon_NewName)>)
+				@Text.Show(<system.token(Owsauri_NameRater_RenamePokemon_NewName)>)
 			:else
-				@text.show(<system.token(Owsauri_NameRater_NoOrCancel)>)
+				@Text.Show(<system.token(Owsauri_NameRater_NoOrCancel)>)
 				:end
 			:endif
 		:when:<system.token(global_no)>
-			@text.show(<system.token(Owsauri_NameRater_NoOrCancel)>)
+			@Text.Show(<system.token(Owsauri_NameRater_NoOrCancel)>)
 			:end
 		:endwhen
 	:else
-		@text.show(<system.token(Owsauri_NameRater_NoOrCancel)>)
+		@Text.Show(<system.token(Owsauri_NameRater_NoOrCancel)>)
 		:end
 	:endif
 :when:<system.token(global_no)>
-	@text.show(<system.token(Owsauri_NameRater_NoOrCancel)>)
+	@Text.Show(<system.token(Owsauri_NameRater_NoOrCancel)>)
 	:end
 :endwhen
 

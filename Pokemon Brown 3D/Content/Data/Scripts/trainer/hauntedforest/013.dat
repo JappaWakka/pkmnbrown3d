@@ -1,7 +1,7 @@
 version=2
 
-@battle.starttrainer(hauntedforest\013)
-@text.show(I'm not going to forget this!)
+@Battle.StartTrainer(hauntedforest\013)
+@Text.Show(I'm not going to forget this!)
 @npc.turn(0,2)
 @npc.move(0,1)
 @npc.turn(0,3)
@@ -9,5 +9,5 @@ version=2
 @npc.turn(0,2)
 @npc.move(0,4)
 @npc.remove(0)
-@register.register(grunt0forest)
+@Register.Register(grunt0forest)
 :end

@@ -1,6 +1,6 @@
 version=2
 
-@text.show(Bzzzzt!)
+@Text.Show(Bzzzzt!)
 @battle.wild(101,43)
-@register.register(electrode1)
+@Register.Register(electrode1)
 @level.reload

@@ -1,6 +1,6 @@
 version=2
 
-:if:<register.registered(beatdaboss)>=True
+:if:<Register.Registered(beatdaboss)>=True
 @npc.spawn(3,0.2,0,0,0,83,0,2,Assistant,0,Still)
 	@npc.spawn(9,0,11,1,botanaccess,Barry,0,2,Barry,0,Looking)
 :endif

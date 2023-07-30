@@ -1,11 +1,11 @@
 version=2
 
-:if:<register.registered(rumiko0)>=false
-@text.show(Mr.Rumiko: Hey kid, you beat them~all by yourself?*<player.name>: Why does everyone~call me kid?*But yes me and my Pokémon did~it, even with that Kangashkhan~nearby.*Mr.Rumiko: Well for saving me I~have a special gift to give you!*Let's get out of this dark forest~first of all!)
+:if:<Register.Registered(rumiko0)>=false
+@Text.Show(Mr.Rumiko: Hey kid, you beat them~all by yourself?*<player.name>: Why does everyone~call me kid?*But yes me and my Pokémon did~it, even with that Kangashkhan~nearby.*Mr.Rumiko: Well for saving me I~have a special gift to give you!*Let's get out of this dark forest~first of all!)
 @npc.remove(3)
 @screen.fadeout
 @level.wait(70)
 @player.warp(botan\house.dat)
-@register.register(rumiko0)
+@Register.Register(rumiko0)
 :endif
 :end

@@ -1,17 +1,17 @@
 version=2
 
-:if:<register.registered(eeveetrade)>=false
-@text.show(Hi! Do you have a~Gligar?*Want to trade it for Eevee?)
+:if:<Register.Registered(eeveetrade)>=false
+@Text.Show(Hi! Do you have a~Gligar?*Want to trade it for Eevee?)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 	@pokemon.npctrade(207|133||-1||0|62003|Trainer|5||Unknown|Caught with [POKE]BALL|Ryan|Okay, connect the cable like so!|What? That's not Gligar!*If you get one, come back~here!|eeveetrade)
 	:end
 	
 	:when:<system.token(global_no)>
-	@text.show(Awww! Oh well...)
+	@Text.Show(Awww! Oh well...)
 	:end
 	:endwhen
 :else
-	@text.show(Isn't my old Eevee great?)
+	@Text.Show(Isn't my old Eevee great?)
 :endif	
 :end

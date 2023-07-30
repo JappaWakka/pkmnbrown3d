@@ -2,13 +2,13 @@ version=2
 
  :select:<system.random(0,3)>
  :when:0
-   @text.show(<system.token(Hayward_Main_Slowbro_1)>) 
+   @Text.Show(<system.token(Hayward_Main_Slowbro_1)>) 
  :when:1
-   @text.show(<system.token(Hayward_Main_Slowbro_2)>) 
+   @Text.Show(<system.token(Hayward_Main_Slowbro_2)>) 
  :when:2
-   @text.show(<system.token(Hayward_Main_Slowbro_3)>)
+   @Text.Show(<system.token(Hayward_Main_Slowbro_3)>)
    @npc.turn(1,2)
  :when:3
-   @text.show(<system.token(Hayward_Main_Slowbro_4)>) 
+   @Text.Show(<system.token(Hayward_Main_Slowbro_4)>) 
  :endwhen
 :end

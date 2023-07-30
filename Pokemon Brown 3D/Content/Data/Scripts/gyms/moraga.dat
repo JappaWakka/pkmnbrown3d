@@ -1,9 +1,9 @@
 version=2
 
-:if:<register.registered(sproutbadge_obtain)>=true
-@text.show(Moraga Town Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<player.name>)
+:if:<Register.Registered(sproutbadge_obtain)>=true
+@Text.Show(Moraga Town Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<player.name>)
 
 :else
-	@text.show(Moraga Town Pokémon Gym~Leader: Lois*Winning Trainers:~Mura)
+	@Text.Show(Moraga Town Pokémon Gym~Leader: Lois*Winning Trainers:~Mura)
 :endif
 :end

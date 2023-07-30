@@ -1,19 +1,19 @@
 version=2
-:if:<register.registered(GameCorner1F_Gentleman_Purple)>=false
-	@text.show(<system.token(Owsauri_GameCorner1F_Gentleman_Purple_1)>)
+:if:<Register.Registered(GameCorner1F_Gentleman_Purple)>=false
+	@Text.Show(<system.token(Owsauri_GameCorner1F_Gentleman_Purple_1)>)
 	:if:<inventory.countitem(54)>=1
 		@sound.play(success_small)
-		@text.show(<system.token(Owsauri_GameCorner1F_Gentleman_Purple_2)>)
+		@Text.Show(<system.token(Owsauri_GameCorner1F_Gentleman_Purple_2)>)
 		@player.addcoins(20)
-		@register.register(GameCorner1F_Gentleman_Purple)
+		@Register.Register(GameCorner1F_Gentleman_Purple)
 		@npc.turn(8,3)
 		:end
 	:else
-		@text.show(<system.token(Owsauri_GameCorner1F_ForgotCoinCase)>)
+		@Text.Show(<system.token(Owsauri_GameCorner1F_ForgotCoinCase)>)
 		@npc.turn(8,3)
 		:end
 	:endif
 :else
-	@text.show(<system.token(Owsauri_GameCorner1F_Gentleman_Purple_3)>)
+	@Text.Show(<system.token(Owsauri_GameCorner1F_Gentleman_Purple_3)>)
 	@npc.turn(8,3)
 :endif

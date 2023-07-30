@@ -1,6 +1,6 @@
 version=2
 
-:if:<register.registered(porygon)>=true
+:if:<Register.Registered(porygon)>=true
 @npc.remove(1)
 :endif:
 :end

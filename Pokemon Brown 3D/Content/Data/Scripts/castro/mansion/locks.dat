@@ -1,8 +1,8 @@
 version=2
 
-:if:<register.registered(switch1)>=True
+:if:<Register.Registered(switch1)>=True
 	:end
 :else
-	@text.show(This door is locked.)
+	@Text.Show(This door is locked.)
 :endif
 :end

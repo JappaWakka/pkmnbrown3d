@@ -2,13 +2,13 @@ version=2
 
 :select:<environment.daytimeid>
 	:when:0
-		@text.show(<system.token(Generic_PokeCenter_NurseJoy_Question_NightDay)>)
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_Question_NightDay)>)
 	:when:1
-		@text.show(<system.token(Generic_PokeCenter_NurseJoy_Question_Morning)>)
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_Question_Morning)>)
 	:when:2
-		@text.show(<system.token(Generic_PokeCenter_NurseJoy_Question_NightDay)>)
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_Question_NightDay)>)
 	:when:3
-		@text.show(<system.token(Generic_PokeCenter_NurseJoy_Question_Evening)>)
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_Question_Evening)>)
 	:endwhen
 	
 @options.setcancelindex(1)
@@ -18,11 +18,11 @@ version=2
 		@level.wait(45)
 		@npc.wearskin(0,NurseJoy)
 			
-		@text.show(<system.token(Generic_PokeCenter_NurseJoy_AnswerNo)>)
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_AnswerNo)>)
 		:end
 
 	:when:<system.token(global_yes)>
-		@text.show(<system.token(Generic_PokeCenter_NurseJoy_AnswerYes)>)
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_AnswerYes)>)
 		@OverworldPokemon.hide
 		@level.update
 		@npc.turn(0,1)
@@ -96,7 +96,7 @@ version=2
 		@level.wait(45)
 		@npc.wearskin(0,NurseJoy)
 		
-		@text.show(<system.token(Generic_PokeCenter_NurseJoy_HealedParty)>)
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_HealedParty)>)
 		@player.turnto(2)
 	:end
 	:endwhen

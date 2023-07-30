@@ -1,10 +1,10 @@
 version=2
 
-:if:<register.registered(FanClubGirl)>=False
-    @text.show(<system.token(Merson_FanClub_Girl_1)>)
+:if:<Register.Registered(FanClubGirl)>=False
+    @Text.Show(<system.token(Merson_FanClub_Girl_1)>)
     @register.unregister(FanClubGuy)
 :else
-	@text.show(<system.token(Merson_FanClub_Girl_2)>)
+	@Text.Show(<system.token(Merson_FanClub_Girl_2)>)
     @register.unregister(FanClubGirl)
 :endif
 :end

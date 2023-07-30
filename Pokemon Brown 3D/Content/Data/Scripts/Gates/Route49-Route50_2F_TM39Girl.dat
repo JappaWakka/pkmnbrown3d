@@ -1,12 +1,12 @@
 version=2
 
-:if:<register.registered(tm39)>=false
-	@text.show(<system.token(Route49_Route50_Gate_TM39Girl_BeforeGive)>)
-	@item.give(gm57,1)
-	@item.messagegive(gm57,1)
-	@register.register(tm39)
+:if:<Register.Registered(tm39)>=false
+	@Text.Show(<system.token(Route49_Route50_Gate_TM39Girl_BeforeGive)>)
+	@Item.Give(gm57,1)
+	@Item.MessageGive(gm57,1)
+	@Register.Register(tm39)
 
 :else
-	@text.show(<system.token(Route49_Route50_Gate_TM39Girl_AfterGive)>)
+	@Text.Show(<system.token(Route49_Route50_Gate_TM39Girl_AfterGive)>)
 :endif
 :end

@@ -1,22 +1,22 @@
 version=2
 
-:if:<register.registered(whitebadge_obtain)>=False
-@text.show(Joe: Hah!*I am Joe, the Leader of this~Gym!*My Normal Pokémon have~never lost a match!*<player.name>: Well I'll do anything~for the White Badge!)
-@battle.starttrainer(Gyms\57\leader)
-@register.register(whitebadge_obtain)
-@register.register(trainer_Gyms\57\000)
-@register.register(trainer_Gyms\57\001)
-@register.register(trainer_Gyms\57\002)
-@register.register(trainer_Gyms\57\003)
-@register.register(trainer_Gyms\57\004)
-@register.register(trainer_Gyms\57\005)
-@register.register(trainer_Gyms\57\006)
-@player.GetBadge(7)
-@Text.show(Hah!*Since you're special, I'll give~you something else!)
-@item.give(205,1)
-@item.messagegive(205,1)
-@Text.show(TM15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!)
+:if:<Register.Registered(whitebadge_obtain)>=False
+@Text.Show(Joe: Hah!*I am Joe, the Leader of this~Gym!*My Normal Pokémon have~never lost a match!*<player.name>: Well I'll do anything~for the White Badge!)
+@Battle.StartTrainer(Gyms\57\leader)
+@Register.Register(whitebadge_obtain)
+@Register.Register(trainer_Gyms\57\000)
+@Register.Register(trainer_Gyms\57\001)
+@Register.Register(trainer_Gyms\57\002)
+@Register.Register(trainer_Gyms\57\003)
+@Register.Register(trainer_Gyms\57\004)
+@Register.Register(trainer_Gyms\57\005)
+@Register.Register(trainer_Gyms\57\006)
+@Player.GetBadge(7)
+@Text.Show(Hah!*Since you're special, I'll give~you something else!)
+@Item.Give(205,1)
+@Item.MessageGive(205,1)
+@Text.Show(TM15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!)
 :else
-@text.show(Hyper Beam is the best normal~attack you can get!*Don't waste it!)
+@Text.Show(Hyper Beam is the best normal~attack you can get!*Don't waste it!)
 :endif
 :end

@@ -1,7 +1,7 @@
 version=2
 
-@battle.starttrainer(hauntedforest\014)
-@text.show(Why did the candies fail me?*Forget this!)
+@Battle.StartTrainer(hauntedforest\014)
+@Text.Show(Why did the candies fail me?*Forget this!)
 @npc.turn(1,2)
 @npc.move(1,1)
 @npc.turn(1,1)
@@ -9,5 +9,5 @@ version=2
 @npc.turn(1,2)
 @npc.move(1,6)
 @npc.remove(1)
-@register.register(grunt1forest)
+@Register.Register(grunt1forest)
 :end

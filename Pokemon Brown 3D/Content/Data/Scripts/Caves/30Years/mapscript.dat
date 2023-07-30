@@ -1,10 +1,10 @@
 version=2
 
-:if:<register.registered(Moltres)>=True
+:if:<Register.Registered(Moltres)>=True
 @npc.spawn(11,0,5,1,wild\moltres,[POKEMON|N]146,0,0,Moltres,10,Still)
 :endif
 
-:if:<register.registered(Entei)>=True
+:if:<Register.Registered(Entei)>=True
 @npc.spawn(11,0,5,1,wild\entei,[POKEMON|N]244,0,0,Entei,10,Still)
 :endif
 :end

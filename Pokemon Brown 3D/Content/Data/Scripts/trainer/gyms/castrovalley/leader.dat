@@ -1,21 +1,21 @@
 version=2
 
-:if:<register.registered(fistbadge_obtain)>=False
-@text.show(Koji: Who is this?!*A trainer trespassing in my Gym?*You want to face me and win~a Fist Badge, don't you? *Well my fighting Pokémon~are unbeatable, so forget it!)
-@battle.starttrainer(Gyms\castrovalley\leader)
-@Register.register(fistbadge_obtain)
-@register.register(trainer_Gyms\castrovalley\000)
-@register.register(trainer_Gyms\castrovalley\001)
-@register.register(trainer_Gyms\castrovalley\002)
-@register.register(trainer_Gyms\castrovalley\003)
-@register.register(trainer_Gyms\castrovalley\004)
-@register.register(trainer_Gyms\castrovalley\005)
-@player.GetBadge(5)
-@Text.show(Now that you have the Fist~Badge, you can use Surf~outside of battle.*Take this TM I found as a gift~too!*It contains TM1.~It can miss but it confuses~the foe!)
-@item.give(191,1)
-@item.messagegive(191,1)
-@Text.show(Dynamic Punch often misses.*If it works it'll deal a great~amount of damage and confuse~your foe.)
+:if:<Register.Registered(fistbadge_obtain)>=False
+@Text.Show(Koji: Who is this?!*A trainer trespassing in my Gym?*You want to face me and win~a Fist Badge, don't you? *Well my fighting Pokémon~are unbeatable, so forget it!)
+@Battle.StartTrainer(Gyms\castrovalley\leader)
+@Register.Register(fistbadge_obtain)
+@Register.Register(trainer_Gyms\castrovalley\000)
+@Register.Register(trainer_Gyms\castrovalley\001)
+@Register.Register(trainer_Gyms\castrovalley\002)
+@Register.Register(trainer_Gyms\castrovalley\003)
+@Register.Register(trainer_Gyms\castrovalley\004)
+@Register.Register(trainer_Gyms\castrovalley\005)
+@Player.GetBadge(5)
+@Text.Show(Now that you have the Fist~Badge, you can use Surf~outside of battle.*Take this TM I found as a gift~too!*It contains TM1.~It can miss but it confuses~the foe!)
+@Item.Give(191,1)
+@Item.MessageGive(191,1)
+@Text.Show(Dynamic Punch often misses.*If it works it'll deal a great~amount of damage and confuse~your foe.)
 :else
-@text.show(I will train and someday~challenge you again!)
+@Text.Show(I will train and someday~challenge you again!)
 :endif
 :end

@@ -1,11 +1,11 @@
 version=2
 
-@text.show(<system.token(Merson_Main_QuestionKid_AskQuestion)>)
+@Text.Show(<system.token(Merson_Main_QuestionKid_AskQuestion)>)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_yes)>
-@text.show(<system.token(Merson_Main_QuestionKid_AnswerYes)>)
+@Text.Show(<system.token(Merson_Main_QuestionKid_AnswerYes)>)
 :end
 
 :when:<system.token(global_no)>
-@text.show(<system.token(Merson_Main_QuestionKid_AnswerNo)>)
+@Text.Show(<system.token(Merson_Main_QuestionKid_AnswerNo)>)
 :end

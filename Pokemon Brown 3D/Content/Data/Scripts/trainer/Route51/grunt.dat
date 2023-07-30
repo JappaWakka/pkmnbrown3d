@@ -1,13 +1,13 @@
 version=2
-:if:<register.registered(friendlygrunt)>=false	
-	@text.show(<system.token(Route51_ExGruntGreg_BeforeBattle_1)>)
-	@item.give(36,1)
-	@item.messagegive(36,1)
-	@text.show(<system.token(Route51_ExGruntGreg_BeforeBattle_2)>)
-	@battle.starttrainer(route51\grunt)
-	@text.show(<system.token(Route51_ExGruntGreg_DefeatMessage)>)
-	@register.register(friendlygrunt)
+:if:<Register.Registered(friendlygrunt)>=false	
+	@Text.Show(<system.token(Route51_ExGruntGreg_BeforeBattle_1)>)
+	@Item.Give(36,1)
+	@Item.MessageGive(36,1)
+	@Text.Show(<system.token(Route51_ExGruntGreg_BeforeBattle_2)>)
+	@Battle.StartTrainer(route51\grunt)
+	@Text.Show(<system.token(Route51_ExGruntGreg_DefeatMessage)>)
+	@Register.Register(friendlygrunt)
 :else:
-	@text.show(<system.token(Route51_ExGruntGreg_DefeatMessage)>)
+	@Text.Show(<system.token(Route51_ExGruntGreg_DefeatMessage)>)
 :endif:
 :end

@@ -1,8 +1,8 @@
 version=2
 
-@register.register(temporary\002)
-@text.show(This Route isn't finished yet,~but you can battle me~for honor.)
-:if:<register.registered(temporary\002)>=true
+@Register.Register(temporary\002)
+@Text.Show(This Route isn't finished yet,~but you can battle me~for honor.)
+:if:<Register.Registered(temporary\002)>=true
 :then
 @battle.trainer(temporary\002)
 :endif

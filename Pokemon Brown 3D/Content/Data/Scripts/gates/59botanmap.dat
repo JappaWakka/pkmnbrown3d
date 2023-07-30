@@ -1,6 +1,6 @@
 version=2
 
-:if:<register.registered(drunksleep)>=true
+:if:<Register.Registered(drunksleep)>=true
 @npc.turn(0,0)
 :endif
 :end

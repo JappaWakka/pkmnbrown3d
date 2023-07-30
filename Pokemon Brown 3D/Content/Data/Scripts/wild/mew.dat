@@ -1,10 +1,10 @@
 version=2
 
-:if:<system.random(0,4096)>=4096
-@text.show(!)
+:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
+@Text.Show(!)
 @battle.wildshiny(151,50)
 :else
-@text.show(!)
+@Text.Show(!)
 @battle.wild(151,50)
 :endif
 @register.unregister(Mew)

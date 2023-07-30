@@ -6,7 +6,7 @@ version=2
 			:end
 		:endif
 
-		@text.show(I'm the Day-Care Man.*We can raise Pokémon~for you.~What do you want to~do today?)
+		@Text.Show(I'm the Day-Care Man.*We can raise Pokémon~for you.~What do you want to~do today?)
 
 		:select:<daycare.countpokemon(0)>
 		
@@ -15,7 +15,7 @@ version=2
 			:when:Leave Pokémon
 				@script.start(route34\daycare\leave_pokemon)
 			:when:Cancel
-				@text.show(Very well.~Please come again.)
+				@Text.Show(Very well.~Please come again.)
 			:endwhen
 			:end
 			
@@ -24,22 +24,22 @@ version=2
 			:when:Leave Pokémon
 				@script.start(route34\daycare\leave_pokemon)
 			:when:Take back
-				@text.show(You have energetic Pokémon!~Would you like your~Pokémon back?)
+				@Text.Show(You have energetic Pokémon!~Would you like your~Pokémon back?)
 
 				@script.start(route34\daycare\take_back)
 			:when:Cancel
-				@text.show(Very well.~Please come again.)
+				@Text.Show(Very well.~Please come again.)
 			:endwhen
 			:end
 			
 		:when:2
 			@options.show(Take back,Cancel)
 			:when:Take back
-				@text.show(You have energetic Pokémon!~Would you like your~Pokémon back?)
+				@Text.Show(You have energetic Pokémon!~Would you like your~Pokémon back?)
 	
 				@script.start(route34\daycare\take_back)
 			:when:Cancel
-				@text.show(Very well.~Please come again.)
+				@Text.Show(Very well.~Please come again.)
 			:endwhen
 			:end
 			

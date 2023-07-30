@@ -1,13 +1,13 @@
 version=2
 
-:if:<register.registered(wongold)>=True
-@text.show(Oh hey!*You've beaten the Johto Champ?!*You seem to be a good trainer.~Let me check it myself!)
-@battle.starttrainer(bmisland\red)
-@text.show(That was tough!~I still have some things~to learn.*That's the great thing about~being a Pokémon Trainer,~you're never done learning new~lessons!*We will battle some time~again.*Take this prize.)
-@item.give(32,1)
-@item.messagegive(32,1)
+:if:<Register.Registered(wongold)>=True
+@Text.Show(Oh hey!*You've beaten the Johto Champ?!*You seem to be a good trainer.~Let me check it myself!)
+@Battle.StartTrainer(bmisland\red)
+@Text.Show(That was tough!~I still have some things~to learn.*That's the great thing about~being a Pokémon Trainer,~you're never done learning new~lessons!*We will battle some time~again.*Take this prize.)
+@Item.Give(32,1)
+@Item.MessageGive(32,1)
 @register.unregister(wongold)
 :else
-@text.show(I won't battle a Trainer~who hasn't proven himself)
+@Text.Show(I won't battle a Trainer~who hasn't proven himself)
 :endif
 :end

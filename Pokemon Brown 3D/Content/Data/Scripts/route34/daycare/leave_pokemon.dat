@@ -1,28 +1,28 @@
 version=2
 	:if:<pokemon.count><1
-		@text.show(Looks like you don't~have any Pokémon...)
+		@Text.Show(Looks like you don't~have any Pokémon...)
 		:end
 	:endif
 
-	@text.show(Which Pokémon should~we raise for you?)
+	@Text.Show(Which Pokémon should~we raise for you?)
 	@pokemon.select(true,false,false)
 
 	:if:<pokemon.selected>>-1
 		@pokemon.cry(<pokemon.id(<pokemon.selected>)>)
 		@daycare.leavepokemon(0,<daycare.countpokemon(0)>,<pokemon.selected>)
-		@text.show(Fine. We'll raise your~<daycare.pokemonname(0,<daycare.countpokemon(0)>-1)> for~a while.)
+		@Text.Show(Fine. We'll raise your~<daycare.pokemonname(0,<daycare.countpokemon(0)>-1)> for~a while.)
 
 		:if:<daycare.countpokemon(0)>=1
-				@text.show(We can raise two of~your Pokémon.*Would you like us to~raise another?)
+				@Text.Show(We can raise two of~your Pokémon.*Would you like us to~raise another?)
 			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 			:when:<system.token(global_yes)>
 				@script.start(route34\daycare\leave_pokemon)
 			:when:<system.token(global_no)>
-				@text.show(Please come back~for it later.)
+				@Text.Show(Please come back~for it later.)
 			:endwhen
 		:endif
 	:else
-		@text.show(Very well.~Please come again.)
+		@Text.Show(Very well.~Please come again.)
 	:endif
 
 :end

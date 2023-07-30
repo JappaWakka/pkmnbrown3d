@@ -1,13 +1,13 @@
 version=2
 
 :if:<pokemon.count>=0
-	@text.show(<system.token(Gravel_TimsLab_LeaveBeforeChoose)>)
+	@Text.Show(<system.token(Gravel_TimsLab_LeaveBeforeChoose)>)
 	@player.turn(2)
 	@player.move(2)
 	:end
 :endif
 
-:if:<register.registered(muralabbattle)>=false
+:if:<Register.Registered(muralabbattle)>=false
 	@storage.set(integer,position,0)
 	
 	:if:<player.position>=4,0,6
@@ -15,14 +15,14 @@ version=2
 	:endif
 	@NPC.Turn(4,2)
 	@music.play(Encounter_Rival)
-	@text.show(<system.token(Gravel_TimsLab_Mura_FirstBattle1)>)
+	@Text.Show(<system.token(Gravel_TimsLab_Mura_FirstBattle1)>)
 
 	@battle.setvar(canblackout,false)
 	@player.turnto(0)
-	@text.show(<system.token(Gravel_TimsLab_Mura_FirstBattle2)>)
+	@Text.Show(<system.token(Gravel_TimsLab_Mura_FirstBattle2)>)
 	
 	
-	:if:<register.registered(starter1)>=true
+	:if:<Register.Registered(starter1)>=true
 		@npc.turn(4,1)
 	@npc.move(4,2+<storage.get(integer,position)>)
 	@npc.turn(4,2)
@@ -31,7 +31,7 @@ version=2
 		@battle.trainer(mura\0squirtle)
 	:endif
 
-	:if:<register.registered(starter2)>=true
+	:if:<Register.Registered(starter2)>=true
 		@npc.turn(4,1)
 	@npc.move(4,3+<storage.get(integer,position)>)
 	@npc.turn(4,2)
@@ -40,7 +40,7 @@ version=2
 		@battle.trainer(mura\0bulbasaur)
 	:endif
 
-	:if:<register.registered(starter3)>=true
+	:if:<Register.Registered(starter3)>=true
 		@npc.turn(4,1)
 	@npc.move(4,4+<storage.get(integer,position)>)
 	@npc.turn(4,2)
@@ -50,7 +50,7 @@ version=2
 	:endif
 	
 	@pokemon.heal
-	@text.show(<system.token(Gravel_TimsLab_Mura_FirstBattle3)>)
+	@Text.Show(<system.token(Gravel_TimsLab_Mura_FirstBattle3)>)
 	@music.play(Encounter_Rival)
 	:if:<storage.get(integer,position)>=0
 		@npc.turn(4,1)
@@ -63,10 +63,10 @@ version=2
 	@npc.move(4,6)
 	@npc.remove(4)
 	@npc.register(TimsLab.dat|4|remove|1)
-	@register.register(muralabbattle)
+	@Register.Register(muralabbattle)
 	@register.unregister(tim2)
-	@register.register(tim3)
-	@register.register(muragone)
+	@Register.Register(tim3)
+	@Register.Register(muragone)
 	@music.play(TimsLab)
 	:end
 :endif

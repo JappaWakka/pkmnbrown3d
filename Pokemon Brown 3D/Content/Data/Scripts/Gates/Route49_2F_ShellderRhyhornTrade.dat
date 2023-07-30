@@ -1,17 +1,17 @@
 version=2
 
-:if:<register.registered(rhyhorntrade)>=false
-@text.show(<system.token(Route49_Gate_Bjorn_RhyhornTrade_Question)>)
+:if:<Register.Registered(rhyhorntrade)>=false
+@Text.Show(<system.token(Route49_Gate_Bjorn_RhyhornTrade_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 		@pokemon.npctrade(35|131||-1||0|62003|Trainer|5||<system.token(Route49_Gate_Bjorn_RhyhornTrade_CatchLocation)>|<system.token(Route49_Gate_Bjorn_RhyhornTrade_CatchMethod)>|Bjorn|<system.token(Route49_Gate_Bjorn_RhyhornTrade_TradeSuccess)>|<system.token(Route49_Gate_Bjorn_RhyhornTrade_TradeFail)>|rhyhorntrade)
 		:end
 	
 	:when:<system.token(global_no)>
-		@text.show(<system.token(Route49_Gate_Bjorn_RhyhornTrade_Answer_No)>)
+		@Text.Show(<system.token(Route49_Gate_Bjorn_RhyhornTrade_Answer_No)>)
 		:end
 	:endwhen
 :else
-	@text.show(<system.token(Route49_Gate_Bjorn_RhyhornTrade_AfterTrade)>)
+	@Text.Show(<system.token(Route49_Gate_Bjorn_RhyhornTrade_AfterTrade)>)
 :endif	
 :end

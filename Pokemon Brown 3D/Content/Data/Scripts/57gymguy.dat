@@ -1,9 +1,9 @@
 version=2
 
-:if:<register.registered(sparkybadge_obtain)>=False
+:if:<Register.Registered(sparkybadge_obtain)>=False
 :then
-@Text.show(Gym Guy: Yo! Champ in making!*Joe uses only Normal Pokémon!*I would recommend using Fighting~against those opponents!)
+@Text.Show(Gym Guy: Yo! Champ in making!*Joe uses only Normal Pokémon!*I would recommend using Fighting~against those opponents!)
 :else
-@Text.show(<player.name>! Good job once again!)
+@Text.Show(<player.name>! Good job once again!)
 :endif
 :end

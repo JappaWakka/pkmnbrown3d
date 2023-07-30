@@ -1,5 +1,5 @@
 version=2
 
-:if:<register.registered(beatdaboss)>=True
-@text.show(Oh, it's you!*Thanks again for saving us!)
+:if:<Register.Registered(beatdaboss)>=True
+@Text.Show(Oh, it's you!*Thanks again for saving us!)
 :end

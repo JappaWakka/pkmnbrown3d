@@ -1,10 +1,10 @@
 version=2
 
-:if:<register.registered(mansionlock)>=True
+:if:<Register.Registered(mansionlock)>=True
 	@entity.remove(0)
 :endif
 
-:if:<register.registered(mansionlock)>=False
+:if:<Register.Registered(mansionlock)>=False
 	@entity.remove(1)
 :endif
 :end

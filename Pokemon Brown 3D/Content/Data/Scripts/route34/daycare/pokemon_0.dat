@@ -1,6 +1,6 @@
 version=2
 
 @pokemon.cry(<daycare.pokemonid(0,0)>)
-@text.show(<daycare.pokemonname(0,0)>~seems pleased to~stay in the Daycare.*It would like to~travel with you again~soon though.)
+@Text.Show(<daycare.pokemonname(0,0)>~seems pleased to~stay in the Daycare.*It would like to~travel with you again~soon though.)
 
 :end

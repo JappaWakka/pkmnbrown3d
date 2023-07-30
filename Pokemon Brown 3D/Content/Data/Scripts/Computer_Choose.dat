@@ -1,11 +1,11 @@
 version=2
 
 	@storage.set(str,billspcname,Someone's PC)
-	:if:<register.registered(bill_encounter)>=true
+	:if:<Register.Registered(bill_encounter)>=true
 		@storage.set(str,billspcname,Bill's PC)
 	:endif
 	
-	:if:<register.registered(pokemongot)>=true
+	:if:<Register.Registered(pokemongot)>=true
 		@storage.set(int,canind,2)
 		@storage.set(str,computer_options,<storage.get(str,billspcname)>,Inbox)
 	:else
@@ -50,7 +50,7 @@ version=2
 		:when:Prof. Tim's PC
 			@sound.play(PC\LogOn)
 			@script.start(pallet\evaldist)
-			@text.show(<system.token(Generic_PC_ChooseHost)>)
+			@Text.Show(<system.token(Generic_PC_ChooseHost)>)
 			@script.start(computer_choose)
 		:when:Hall of Fame
 			@sound.play(PC\LogOn)

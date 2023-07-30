@@ -1,8 +1,8 @@
 version=2
 
-:if:<register.registered(hailbadge_obtain)>=False
-	@Text.show(<system.token(Owsauri_Gym_GymGuy_BeforeBadge)>)
+:if:<Register.Registered(hailbadge_obtain)>=False
+	@Text.Show(<system.token(Owsauri_Gym_GymGuy_BeforeBadge)>)
 :else
-	@Text.show(<system.token(Owsauri_Gym_GymGuy_AfterBadge)>)
+	@Text.Show(<system.token(Owsauri_Gym_GymGuy_AfterBadge)>)
 :endif
 :end

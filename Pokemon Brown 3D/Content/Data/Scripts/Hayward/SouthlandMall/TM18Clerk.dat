@@ -1,11 +1,11 @@
 version=2
 
-:if:<register.registered(tm18)>=false
-@text.show(<system.token(Hayward_SouthlandMall_Floor3_TM18Clerk_BeforeGive)>)
-	@item.give(gm36,1)
-	@item.messagegive(gm36,1)
-	@register.register(tm18)
+:if:<Register.Registered(tm18)>=false
+@Text.Show(<system.token(Hayward_SouthlandMall_Floor3_TM18Clerk_BeforeGive)>)
+	@Item.Give(gm36,1)
+	@Item.MessageGive(gm36,1)
+	@Register.Register(tm18)
 :else
-	@text.show(<system.token(Hayward_SouthlandMall_Floor3_TM18Clerk_AfterGive)>)
+	@Text.Show(<system.token(Hayward_SouthlandMall_Floor3_TM18Clerk_AfterGive)>)
 :endif:
 :end

@@ -2,12 +2,12 @@ version=2
 
 :select:<system.random(0,3)>
   :when:0
-  @text.show(<system.token(Route49_Route50_Gate_Guard_1)>)
+  @Text.Show(<system.token(Route49_Route50_Gate_Guard_1)>)
   :when:1
-  @text.show(<system.token(Route49_Route50_Gate_Guard_2)>)
+  @Text.Show(<system.token(Route49_Route50_Gate_Guard_2)>)
   :when:2
-  @text.show(<system.token(Route49_Route50_Gate_Guard_3)>)
+  @Text.Show(<system.token(Route49_Route50_Gate_Guard_3)>)
   :when:3
-  @text.show(<system.token(Route49_Route50_Gate_Guard_4)>)
+  @Text.Show(<system.token(Route49_Route50_Gate_Guard_4)>)
 :endwhen
 :end

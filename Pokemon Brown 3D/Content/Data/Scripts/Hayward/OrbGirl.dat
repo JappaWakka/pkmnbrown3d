@@ -1,5 +1,5 @@
 version=2
-@text.show(<system.token(Hayward_Main_OrbGirl_HaveAnyOrbs)>)
+@Text.Show(<system.token(Hayward_Main_OrbGirl_HaveAnyOrbs)>)
 @storage.set(boolean,HaveOrb,0)
 
 :if:<inventory.countitem(gm3)>=1 <or> <inventory.countitem(gm4)>=1 <or> <inventory.countitem(gm5)>=1
@@ -7,46 +7,46 @@ version=2
 :endif
 
 :if:<storage.get(boolean,HaveOrb)>=true
-	@text.show(<system.token(Hayward_Main_OrbGirl_Question_GiveOrbs)>)
+	@Text.Show(<system.token(Hayward_Main_OrbGirl_Question_GiveOrbs)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 		@item.select(standard,gm3-gm5)
 		:if:<inventory.selected>=gm3
-			:if:<register.registered(OrbGirl_Red)>=false
-				@text.show(<system.token(Hayward_Main_OrbGirl_Red_Orb_1)>)
-				@item.give(gm48,1)
-				@item.messagegive(gm48,1)
-				@text.show(<system.token(Hayward_Main_OrbGirl_Red_Orb_2)>)
-				@register.register(OrbGirl_Red)
+			:if:<Register.Registered(OrbGirl_Red)>=false
+				@Text.Show(<system.token(Hayward_Main_OrbGirl_Red_Orb_1)>)
+				@Item.Give(gm48,1)
+				@Item.MessageGive(gm48,1)
+				@Text.Show(<system.token(Hayward_Main_OrbGirl_Red_Orb_2)>)
+				@Register.Register(OrbGirl_Red)
 				:end
 			:else
-				@text.show(<system.token(Hayward_Main_OrbGirl_DontNeedThatOrb)>)
+				@Text.Show(<system.token(Hayward_Main_OrbGirl_DontNeedThatOrb)>)
 				:end
 			:endif
 		:endif
 		:if:<inventory.selected>=gm4
-			:if:<register.registered(OrbGirl_Blue)>=false
-				@text.show(<system.token(Hayward_Main_OrbGirl_Blue_Orb_1)>)
-				@item.give(gm55,1)
-				@item.messagegive(gm55,1)
-				@text.show(<system.token(Hayward_Main_OrbGirl_Blue_Orb_2)>)
-				@register.register(OrbGirl_Blue)
+			:if:<Register.Registered(OrbGirl_Blue)>=false
+				@Text.Show(<system.token(Hayward_Main_OrbGirl_Blue_Orb_1)>)
+				@Item.Give(gm55,1)
+				@Item.MessageGive(gm55,1)
+				@Text.Show(<system.token(Hayward_Main_OrbGirl_Blue_Orb_2)>)
+				@Register.Register(OrbGirl_Blue)
 				:end
 			:else
-				@text.show(<system.token(Hayward_Main_OrbGirl_DontNeedThatOrb)>)
+				@Text.Show(<system.token(Hayward_Main_OrbGirl_DontNeedThatOrb)>)
 				:end
 			:endif
 		:endif
 		:if:<inventory.selected>=gm5
-			:if:<register.registered(OrbGirl_Green)>=false
-				@text.show(<system.token(Hayward_Main_OrbGirl_Green_Orb_1)>)
-				@item.give(gm44,1)
-				@item.messagegive(gm44,1)
-				@text.show(<system.token(Hayward_Main_OrbGirl_Green_Orb_2)>)
-				@register.register(OrbGirl_Green)
+			:if:<Register.Registered(OrbGirl_Green)>=false
+				@Text.Show(<system.token(Hayward_Main_OrbGirl_Green_Orb_1)>)
+				@Item.Give(gm44,1)
+				@Item.MessageGive(gm44,1)
+				@Text.Show(<system.token(Hayward_Main_OrbGirl_Green_Orb_2)>)
+				@Register.Register(OrbGirl_Green)
 				:end
 			:else
-				@text.show(<system.token(Hayward_Main_OrbGirl_DontNeedThatOrb)>)
+				@Text.Show(<system.token(Hayward_Main_OrbGirl_DontNeedThatOrb)>)
 				:end
 			:endif
 		:endif

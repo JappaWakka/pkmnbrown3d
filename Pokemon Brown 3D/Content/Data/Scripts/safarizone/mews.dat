@@ -1,10 +1,10 @@
 version=2
 
-:if:<register.registered(MewTwo)>=True
+:if:<Register.Registered(MewTwo)>=True
 @npc.spawn(27,1,13,1,wild\mewtwo,[POKEMON|N]150,0,2,MewTwo,10,Still)
 :endif
 
-:if:<register.registered(Mew)>=True
+:if:<Register.Registered(Mew)>=True
 @npc.spawn(27,1,13,1,wild\mew,[POKEMON|N]151,0,2,Mew,10,Still)
 :endif
 :end

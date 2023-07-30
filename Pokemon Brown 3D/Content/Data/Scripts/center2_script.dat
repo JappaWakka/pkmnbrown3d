@@ -2,22 +2,22 @@ version=2
 
 :select:<environment.daytimeid>
 :when:0
-@text.show(Hello, and welcome to~the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
+@Text.Show(Hello, and welcome to~the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
 :when:1
-@text.show(Good morning! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
+@Text.Show(Good morning! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
 :when:2
-@text.show(Hello, and welcome to~the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
+@Text.Show(Hello, and welcome to~the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
 :when:3
-@text.show(Good evening! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
+@Text.Show(Good evening! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?)
 :endwhen
 
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_no)>
-@text.show(We hope to see you~again!)
+@Text.Show(We hope to see you~again!)
 :end
 
 :when:<system.token(global_yes)>
-@text.show(OK, I'll take your~Pokémon for a few~seconds.)
+@Text.Show(OK, I'll take your~Pokémon for a few~seconds.)
 @pokemon.hide
 @level.update
 @npc.turn(0,1)
@@ -88,7 +88,7 @@ version=2
 
 @npc.turn(0,2)
 
-@text.show(Thank you for waiting.*We've restored your~Pokémon to full health.*We hope to see you~again!)
+@Text.Show(Thank you for waiting.*We've restored your~Pokémon to full health.*We hope to see you~again!)
 :end
 
 :endwhen

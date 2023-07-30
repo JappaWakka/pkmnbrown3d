@@ -2,9 +2,9 @@
 Name|Laura
 TrainerClass|Lass
 Money|180
-IntroMessage|This is a nice resting place.
-OutroMessage|Oh! Now I'm stressed out!
-DefeatMessage|I might set up a picnic here~later......*Nah, I'll just relax...
+IntroMessage|<system.token(Route64_LassLaura_IntroMessage)>
+OutroMessage|<system.token(Route64_LassLaura_OutroMessage)>
+DefeatMessage|<system.token(Route64_LassLaura_DefeatMessage)>
 TextureID|Lass_Red
 Region|Rijon
 InSightMusic|Encounter_Trainer_Female

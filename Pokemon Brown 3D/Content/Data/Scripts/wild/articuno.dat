@@ -1,10 +1,10 @@
 version=2
 
-:if:<system.random(0,4096)>=4096
-@text.show(Gyaao!)
+:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
+@Text.Show(Gyaao!)
 @battle.wildshiny(144,50)
 :else
-@text.show(Gyaao!)
+@Text.Show(Gyaao!)
 @battle.wild(144,50)
 :endif
 @register.unregister(Articuno)

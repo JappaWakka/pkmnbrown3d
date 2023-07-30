@@ -1,27 +1,27 @@
 version=2
-	@text.show(Ah, it's you!*We were raising your~Pokémon, and my goodness,~we were surprised!*Your Pokémon was holding~an Egg!*We don't know how it~got there, but your~Pokémon had it.*You do want it,~don't you?)
+	@Text.Show(Ah, it's you!*We were raising your~Pokémon, and my goodness,~we were surprised!*Your Pokémon was holding~an Egg!*We don't know how it~got there, but your~Pokémon had it.*You do want it,~don't you?)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 		:if:<pokemon.count><6
-				@text.show(<player.name> received~the Egg from the~Day-Care Man.)
+				@Text.Show(<player.name> received~the Egg from the~Day-Care Man.)
 			@daycare.takeegg(0)
-			@text.show(Please take good~care of it!)
+			@Text.Show(Please take good~care of it!)
 		:else
-			@text.show(You have no room~right now.*Come back when you've~made room.)
+			@Text.Show(You have no room~right now.*Come back when you've~made room.)
 		:endif
 	:when:<system.token(global_no)>
-		@text.show(I will take it and~never give it back.~You do want this Egg,~don't you?)
+		@Text.Show(I will take it and~never give it back.~You do want this Egg,~don't you?)
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
 			:if:<pokemon.count><6
-						@text.show(<player.name> received~the Egg from the~Day-Care Man.)
+						@Text.Show(<player.name> received~the Egg from the~Day-Care Man.)
 				@daycare.takeegg(0)
-				@text.show(Please take good~care of it!)
+				@Text.Show(Please take good~care of it!)
 			:else
-				@text.show(You have no room~right now.*Come back when you've~made room.)
+				@Text.Show(You have no room~right now.*Come back when you've~made room.)
 			:endif
 		:when:<system.token(global_no)>
-			@text.show(Well then, I'll hang~on it. Thank you!)
+			@Text.Show(Well then, I'll hang~on it. Thank you!)
 			@daycare.removeegg(0)
 		:endwhen
 	:endwhen

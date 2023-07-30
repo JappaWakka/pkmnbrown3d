@@ -1,5 +1,5 @@
 version=2
-:if:<register.registered(HealPlatform)>=false
+:if:<Register.Registered(HealPlatform)>=false
 	@Screen.FadeOutColor(255,255,255)
 	@Screen.FadeOut(8)
 	@Camera.Update

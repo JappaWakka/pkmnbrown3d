@@ -1,7 +1,7 @@
 version=2
 
-:if:<register.registered(timer)>=false
-	@text.show(DING! Time's up!)
+:if:<Register.Registered(timer)>=false
+	@Text.Show(DING! Time's up!)
 	@screen.fadeout
 	@player.warp(15,0.1,27)
 	@level.update

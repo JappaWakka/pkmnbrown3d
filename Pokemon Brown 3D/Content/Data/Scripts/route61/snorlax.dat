@@ -1,15 +1,15 @@
 version=2
 
 :if:<inventory.countitem(1008)>=True
-	@text.show(<player.name> played the [POKE]FLUTE.)
+	@Text.Show(<player.name> played the [POKE]FLUTE.)
 	@sound.play(success)
-	@text.show(Snorlax woke up!*It attacked in a grumpy rage!)
+	@Text.Show(Snorlax woke up!*It attacked in a grumpy rage!)
 	@battle.wild(143,30)
-	@text.show(Snorlax calmed down! With a big~yawn, it returned to the~mountains!)
+	@Text.Show(Snorlax calmed down! With a big~yawn, it returned to the~mountains!)
 	@npc.remove(10)
-	@register.register(snorlax61)
+	@Register.Register(snorlax61)
 :else
-	@text.show(A sleeping Pokémon blocks~the way!)
+	@Text.Show(A sleeping Pokémon blocks~the way!)
 :endif
 
 :end

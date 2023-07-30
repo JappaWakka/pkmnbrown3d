@@ -6,8 +6,8 @@ version=2
 :endif
 
 :if:<storage.get(boolean,HaveOrb)>=true
-	@text.show(<system.token(Hayward_Main_AnnoyedGuy_HaveOrbs)>)
+	@Text.Show(<system.token(Hayward_Main_AnnoyedGuy_HaveOrbs)>)
 :else
-	@text.show(<system.token(Hayward_Main_AnnoyedGuy_NoOrbs)>)
+	@Text.Show(<system.token(Hayward_Main_AnnoyedGuy_NoOrbs)>)
 :endif
 :end

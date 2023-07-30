@@ -2,11 +2,12 @@
 Name|Michael
 TrainerClass|Jr. Trainer ♂
 Money|340
-IntroMessage|The tunnel ahead leads~to Moraga Town.
-OutroMessage|Can't measure up!
-DefeatMessage|Are you going to Moraga~too?
+IntroMessage|<system.token(Route63_JrTrainerMaleMichael_IntroMessage)>
+OutroMessage|<system.token(Route63_JrTrainerMaleMichael_OutroMessage)>
+DefeatMessage|<system.token(Route63_JrTrainerMaleMichael_DefeatMessage)>
 TextureID|JrTrainer_Male
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|7,7

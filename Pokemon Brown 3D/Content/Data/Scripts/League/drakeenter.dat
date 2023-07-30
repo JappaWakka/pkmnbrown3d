@@ -1,6 +1,6 @@
 version=2
 
-:if:<register.registered(drakeenter)>=True
+:if:<Register.Registered(drakeenter)>=True
 @entity.warp(3,5,-0.15,13)
 @entity.warp(4,6,-0.15,13)
 :end
@@ -15,5 +15,5 @@ version=2
 
 @entity.warp(3,5,-0.15,13)
 @entity.warp(4,6,-0.15,13)
-@register.register(drakeenter)
+@Register.Register(drakeenter)
 :end

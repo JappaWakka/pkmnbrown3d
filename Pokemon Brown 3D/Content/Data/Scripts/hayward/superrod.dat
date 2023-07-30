@@ -1,27 +1,27 @@
 version=2
 
-:if:<register.registered(superrod)>=false
-	@text.show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_Question)>)
+:if:<Register.Registered(superrod)>=false
+	@Text.Show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_Question)>)
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	
 	:when:<system.token(global_yes)>
 	:if:<pokedex.caught>>69
-		@text.show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_70OrMorePokemon)>)
-		@item.give(61,1)
-		@item.messagegive(61,1)
-		@register.register(superrod)
+		@Text.Show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_70OrMorePokemon)>)
+		@Item.Give(61,1)
+		@Item.MessageGive(61,1)
+		@Register.Register(superrod)
 		:end:
 	:else
-		@text.show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_LessThan70Pokemon)>)
+		@Text.Show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_LessThan70Pokemon)>)
 	:end:
 	
 	:when:<system.token(global_no)>
-	@text.show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AnswerNo)>)
+	@Text.Show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AnswerNo)>)
 	:end:
 	
 	:endwhen:
 	
 :else
-	@text.show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AfterReceiveSuperRod)>)
+	@Text.Show(<system.token(Route52_Hayward_Gate_Aide_SuperRod_AfterReceiveSuperRod)>)
 :endif:
 :end

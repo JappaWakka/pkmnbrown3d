@@ -1,6 +1,6 @@
 version=2
 
-:if:<register.registered(giovannigone)>=True
+:if:<Register.Registered(giovannigone)>=True
     @npc.remove(8)
 :endif
 :end

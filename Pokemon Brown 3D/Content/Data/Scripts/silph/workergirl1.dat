@@ -1,8 +1,8 @@
 version=2
 
-:if:<register.registered(beatdaboss)>=False
-@text.show(The Team Rocket leader~is upstairs.*Defeat him!)
+:if:<Register.Registered(beatdaboss)>=False
+@Text.Show(The Team Rocket leader~is upstairs.*Defeat him!)
 :else
-	@text.show(Thanks for everything!)
+	@Text.Show(Thanks for everything!)
 :endif
 :end

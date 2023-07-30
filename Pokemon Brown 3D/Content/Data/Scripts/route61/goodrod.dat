@@ -1,18 +1,18 @@
 version=2
 
-:if:<register.registered(goodrod)>=False
-@text.show(I'm the Fishing Guru's~second cousin's uncle twice~removed.*Like fishing?)
+:if:<Register.Registered(goodrod)>=False
+@Text.Show(I'm the Fishing Guru's~second cousin's uncle twice~removed.*Like fishing?)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_yes)>
-@text.show(Grand! I like your stlye!*Take this and fish,~young one!)
-@item.give(59,1)
-@item.messagegive(59,1)
-@register.register(goodrod)
-@text.show(Fishing is a way of life!*From the seas to rivers,~go out and land the big one!)
+@Text.Show(Grand! I like your stlye!*Take this and fish,~young one!)
+@Item.Give(59,1)
+@Item.MessageGive(59,1)
+@Register.Register(goodrod)
+@Text.Show(Fishing is a way of life!*From the seas to rivers,~go out and land the big one!)
 :when:<system.token(global_no)>
-@text.show(Oh...That's so disappointing...)
+@Text.Show(Oh...That's so disappointing...)
 :endwhen
 :else
-@text.show(Hello there, <player.name>!*The Good Rod is actually~good, unlike that Old Rod!*Catch different Pokémon~with it!)
+@Text.Show(Hello there, <player.name>!*The Good Rod is actually~good, unlike that Old Rod!*Catch different Pokémon~with it!)
 :endif
 :end

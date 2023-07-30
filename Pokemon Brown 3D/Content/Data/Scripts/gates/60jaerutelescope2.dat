@@ -1,6 +1,6 @@
 version=2
 
-@text.show(It's a telescope. Would~you like to look through?)
+@Text.Show(It's a telescope. Would~you like to look through?)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_no)>
 :end

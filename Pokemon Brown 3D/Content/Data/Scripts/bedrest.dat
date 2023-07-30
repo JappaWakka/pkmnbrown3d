@@ -1,12 +1,12 @@
 version=2
-@text.show(It's a bed.~Would you like to sleep?)
+@Text.Show(It's a bed.~Would you like to sleep?)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_yes)>
 	@screen.fadeout
 	@pokemon.heal
 	@level.wait(50)
 	@screen.fadein
-	@text.show(You wake up feeling refreshed.)
+	@Text.Show(You wake up feeling refreshed.)
 	:end
 :when:<system.token(global_no)>
 	:end

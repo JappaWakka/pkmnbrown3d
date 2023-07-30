@@ -1,11 +1,11 @@
 version=2
 
-:if:<register.registered(tm46)>=false
-@text.show(Wow, that event was sure a~nightmare!*Those thieves lost something~here!*Take this!)
-@item.give(236,1)
+:if:<Register.Registered(tm46)>=false
+@Text.Show(Wow, that event was sure a~nightmare!*Those thieves lost something~here!*Take this!)
+@Item.Give(236,1)
 @item.messsagegive(236,1)
-@register.register(tm46)
+@Register.Register(tm46)
 :else
-@text.show(Tm46 is Thief.*I don't want to be~associated with that.)
+@Text.Show(Tm46 is Thief.*I don't want to be~associated with that.)
 :endif
 :end

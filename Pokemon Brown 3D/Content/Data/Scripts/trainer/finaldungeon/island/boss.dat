@@ -1,5 +1,5 @@
 version=2
-@battle.starttrainer(finaldungeon\island\boss)
-@text.show(I have faith that my loyal~Rockets will stay by my side.~In the meantime, I have my eye~on some young kid from a region~west of Naljo. His uncle's a miner~and he loves to ride in minecarts...*Oh darn, why am I telling you all~this? It won't affect you at all,~so bye!)
-@register.register(bossbeaten)
+@Battle.StartTrainer(finaldungeon\island\boss)
+@Text.Show(I have faith that my loyal~Rockets will stay by my side.~In the meantime, I have my eye~on some young kid from a region~west of Naljo. His uncle's a miner~and he loves to ride in minecarts...*Oh darn, why am I telling you all~this? It won't affect you at all,~so bye!)
+@Register.Register(bossbeaten)
 :end

@@ -1,13 +1,13 @@
 version=2
 
-:if:<register.registered(TownMap)>=false
-	@text.show(<system.token(Hayward_TownMapHouse_TownMapGirl_BeforeGive)>)
+:if:<Register.Registered(TownMap)>=false
+	@Text.Show(<system.token(Hayward_TownMapHouse_TownMapGirl_BeforeGive)>)
 	@NPC.register(Hayward\TownMapHouse.dat|1|remove|1)
 	@NPC.remove(1)
-	@item.give(gm8,1)
-	@item.messagegive(gm8,1)
-	@register.register(TownMap)
+	@Item.Give(gm8,1)
+	@Item.MessageGive(gm8,1)
+	@Register.Register(TownMap)
 :else
-	@text.show(<system.token(Hayward_TownMapHouse_TownMapGirl_AfterGive)>)
+	@Text.Show(<system.token(Hayward_TownMapHouse_TownMapGirl_AfterGive)>)
 :endif
 :end

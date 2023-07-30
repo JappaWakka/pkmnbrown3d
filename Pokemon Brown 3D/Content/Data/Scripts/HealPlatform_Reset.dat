@@ -1,6 +1,6 @@
 version=2
 
-:if:<register.registered(HealPlatform)>=true
+:if:<Register.Registered(HealPlatform)>=true
 	@Register.UnRegister(HealPlatform)
 	:end
 :endif

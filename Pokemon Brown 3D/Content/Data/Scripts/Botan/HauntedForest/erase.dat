@@ -1,16 +1,16 @@
 version=2
 
 :if:<inventory.countitem(gm6)>=false
-	@text.show(Your game was erased!)
+	@Text.Show(Your game was erased!)
 	@battle.wild(1000,30)
 	@player.turnto(0)
 	@player.move(1)
 :else
-	@text.show(Your game was erased!)
+	@Text.Show(Your game was erased!)
 	@battle.wild(115,30)
 	@pokemon.cry(115)
-	@text.show(The MissingNo. was really just a~Kangaskhan!*She learned her lesson.*The MissingNo. vanished!)
-	@register.register(virusscan)
+	@Text.Show(The MissingNo. was really just a~Kangaskhan!*She learned her lesson.*The MissingNo. vanished!)
+	@Register.Register(virusscan)
 	:end
 :endif
 :end

@@ -1,10 +1,10 @@
 version=2
 
-:if:<system.random(0,4096)>=4096
-@text.show(Rrroar!)
+:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
+@Text.Show(Rrroar!)
 @battle.wildshiny(243,50)
 :else
-@text.show(Rrroar!)
+@Text.Show(Rrroar!)
 @battle.wild(243,50)
 :endif
 @register.unregister(Raikou)

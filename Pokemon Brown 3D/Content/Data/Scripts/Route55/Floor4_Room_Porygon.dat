@@ -1,16 +1,16 @@
 version=2
-:if:<register.registered(porygon)>=false
+:if:<Register.Registered(porygon)>=false
 	@screen.showpokemon(137,0,1)
 	@NPC.remove(1)
 	@NPC.register(routes\55\KBMGamesBuilding\Floor4_Room.dat|1|remove|1)
 	@Sound.Play(Success,1)
-	@Text.show(<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_Receive)>)
+	@Text.Show(<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_Receive)>)
 	:if:<pokemon.count>=6
-		@Text.show(<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_ToPC)>)
+		@Text.Show(<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_ToPC)>)
 		@Pokemon.AddToStorage(137,5,<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_CatchMethod)>,1,<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_CatchLocation)>,0,Karl)
 	:else
 		@Pokemon.Add(137,5,<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_CatchMethod)>,1,<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_CatchLocation)>,0,Karl)
 	:endif
-	@register.register(porygon)
+	@Register.Register(porygon)
 :endif:
 :end

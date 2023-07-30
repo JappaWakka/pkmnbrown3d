@@ -1,7 +1,7 @@
 version=2
 
 :if:<inventory.countitem(gm10)>=false
-    @text.show(Something pushes you.)
+    @Text.Show(Something pushes you.)
     @player.turnto(2)
     @player.move(1)
 :endif

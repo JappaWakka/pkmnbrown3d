@@ -1,21 +1,21 @@
 version=2
 
-:if:<register.registered(pizza)>=false
+:if:<Register.Registered(pizza)>=false
 	@player.stopmovement
 	@player.move(1)
 	@player.turnto(0,1)
 	@npc.turn(0,2)
-	@text.show(Yo dude!)
+	@Text.Show(Yo dude!)
 	@player.move(2)
 	@npc.turn(0,3)
 	@player.turn(1)
 	@player.move(1)
-	@text.show(<system.token(Gravel_PokeMart_Clerk_TimsPizza)>)
-	@item.give(gm0,1)
+	@Text.Show(<system.token(Gravel_PokeMart_Clerk_TimsPizza)>)
+	@Item.Give(gm0,1)
 	@sound.play(Success,1)
-	@text.show(<system.token(Gravel_PokeMart_ReceivePizza)>)
-	@text.show(<system.token(Gravel_PokeMart_PizzaInPocket)>)
-	@register.register(pizza)
+	@Text.Show(<system.token(Gravel_PokeMart_ReceivePizza)>)
+	@Text.Show(<system.token(Gravel_PokeMart_PizzaInPocket)>)
+	@Register.Register(pizza)
 	@register.unregister(tim3)
 :endif
 

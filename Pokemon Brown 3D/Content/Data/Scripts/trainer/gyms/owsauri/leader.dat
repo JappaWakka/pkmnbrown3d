@@ -1,6 +1,6 @@
 version=2
 
-:if:<register.registered(hailbadge_obtain)>=False
+:if:<Register.Registered(hailbadge_obtain)>=False
 	@Text.Show(<system.token(Owsauri_Gym_LeaderLily_BeforeBattle)>)
 	@Battle.StartTrainer(Gyms\Owsauri\leader)
 	@Register.Register(hailbadge_obtain)

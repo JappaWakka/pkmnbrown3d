@@ -1,9 +1,9 @@
 version=2
 
-:if:<register.registered(fistbadge_obtain)>=true
-@text.show(Castro Valley Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<player.name>)
+:if:<Register.Registered(fistbadge_obtain)>=true
+@Text.Show(Castro Valley Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<player.name>)
 
 :else
-	@text.show(Castro Valley Pokémon Gym~Leader: Koji*Winning Trainers:~Mura)
+	@Text.Show(Castro Valley Pokémon Gym~Leader: Koji*Winning Trainers:~Mura)
 :endif
 :end

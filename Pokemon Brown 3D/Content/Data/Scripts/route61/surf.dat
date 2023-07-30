@@ -1,11 +1,11 @@
 version=2
 
-:if:<register.registered(surfobtained)>=False
-    @text.show(Hi there kid!*I just bought a bunch of~HM03s to add to my~HM03s collection.*Although I think you will need~one to go to Eagulou~city, so here you go kid!)
-    @item.give(245,1)
-    @item.messagegive(245,1)
-    @register.register(surfobtained)
+:if:<Register.Registered(surfobtained)>=False
+    @Text.Show(Hi there kid!*I just bought a bunch of~HM03s to add to my~HM03s collection.*Although I think you will need~one to go to Eagulou~city, so here you go kid!)
+    @Item.Give(245,1)
+    @Item.MessageGive(245,1)
+    @Register.Register(surfobtained)
 :else
-    @text.show(HM03 is Surf!*Pokémon will be able to~ferry you across water!*And, this HM isn't~disposable! You can use it~over and over!)
+    @Text.Show(HM03 is Surf!*Pokémon will be able to~ferry you across water!*And, this HM isn't~disposable! You can use it~over and over!)
 :endif
 :end

@@ -1,9 +1,9 @@
 version=2
 
 :if:<pokemon.count>=0
-@text.show(This is a~machine for healing~injured Pokémon.)
+@Text.Show(This is a~machine for healing~injured Pokémon.)
 :else
-@text.show(Do you want to~heal your Pokémon?)
+@Text.Show(Do you want to~heal your Pokémon?)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_yes)>
 @screen.fadeout
@@ -11,7 +11,7 @@ version=2
 @sound.play(healing,1)
 @level.wait(150)
 @screen.fadein
-@text.show(Your Pokémon are~fully restored.)
+@Text.Show(Your Pokémon are~fully restored.)
 :when:<system.token(global_no)>
 :endwhen
 :endif

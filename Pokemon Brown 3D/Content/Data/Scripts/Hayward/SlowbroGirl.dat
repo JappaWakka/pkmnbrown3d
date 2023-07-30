@@ -2,10 +2,10 @@ version=2
 
  :select:<system.random(0,2)>
  :when:0
-   @text.show(<system.token(Hayward_Main_SlowbroGirl_1)>) 
+   @Text.Show(<system.token(Hayward_Main_SlowbroGirl_1)>) 
  :when:1
-   @text.show(<system.token(Hayward_Main_SlowbroGirl_2)>) 
+   @Text.Show(<system.token(Hayward_Main_SlowbroGirl_2)>) 
  :when:2
-   @text.show(<system.token(Hayward_Main_SlowbroGirl_3)>)
+   @Text.Show(<system.token(Hayward_Main_SlowbroGirl_3)>)
  :endwhen
 :end

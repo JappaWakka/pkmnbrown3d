@@ -1,6 +1,6 @@
 version=2
 
-:if:<register.registered(beatdaboss)>=True
+:if:<Register.Registered(beatdaboss)>=True
 @npc.remove(0)
 	@npc.remove(1)
 	@npc.remove(2)

@@ -1,6 +1,6 @@
 version=2
 
-@text.show(Bzzzzt!)
+@Text.Show(Bzzzzt!)
 @battle.wild(100,40)
-@register.register(voltorb2)
+@Register.Register(voltorb2)
 @level.reload

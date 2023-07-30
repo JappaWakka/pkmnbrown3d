@@ -1,6 +1,6 @@
 version=2
 	
-@text.show(<system.token(Owsauri_GameCornerB1F_Shop_Intro)>)
+@Text.Show(<system.token(Owsauri_GameCornerB1F_Shop_Intro)>)
 @options.setcancelindex(3)
 @options.show(<system.token(Owsauri_GameCornerB1F_Shop_Center_Eevee_Espeon)>,<system.token(Owsauri_GameCornerB1F_Shop_Center_Eevee_Glaceon)>,<system.token(Owsauri_GameCornerB1F_Shop_Center_Tyrogue)>,<system.token(Owsauri_GameCornerB1F_Shop_NoThanks)>)
 	:when:<system.token(Owsauri_GameCornerB1F_Shop_Center_Eevee_Espeon)>
@@ -24,9 +24,9 @@ version=2
 :endwhen
 
 :if:<storage.get(int,Cost)>><player.coins>
-	@text.show(<system.token(Owsauri_GameCornerB1F_Shop_NotEnoughCoins)>)
+	@Text.Show(<system.token(Owsauri_GameCornerB1F_Shop_NotEnoughCoins)>)
 :else
-	@text.show(<system.token(Owsauri_GameCornerB1F_Shop_ChoosePokemon)>)
+	@Text.Show(<system.token(Owsauri_GameCornerB1F_Shop_ChoosePokemon)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
@@ -35,14 +35,14 @@ version=2
 			@storage.set(int,PokeShiny,0)
 		:endif
 		
-		@text.show(<system.token(Owsauri_GameCornerB1F_Shop_ReceivedPokemon)>)
+		@Text.Show(<system.token(Owsauri_GameCornerB1F_Shop_ReceivedPokemon)>)
 		@player.addcoins(-<storage.get(int,Cost)>)
 		@sound.play(buy)
 		@pokemon.add(<storage.get(int,PokeNumber)>,<storage.get(int,PokeLevel)>,<system.token(Owsauri_GameCornerB1F_Shop_PokemonCatchMethod)>,5,<system.token(Owsauri_GameCornerB1F_Shop_PokemonCatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
 		@pokemon.setadditionalvalue(<math.int(<pokemon.count>-1)>,<storage.get(str,PokeForm)>)
 		@pokemon.rename(<math.int(<pokemon.count>-1)>)
 		:if:<pokemon.count>>6
-			@text.show(<system.token(Owsauri_GameCornerB1F_Shop_PokemonToPC)>)
+			@Text.Show(<system.token(Owsauri_GameCornerB1F_Shop_PokemonToPC)>)
 			@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 		:endif
 	:endwhen

@@ -1,8 +1,8 @@
 version=2
 
-:if:<register.registered(beatdaboss)>=False
-@text.show(They must have targeted~Silph for our Pokémon~products.)
+:if:<Register.Registered(beatdaboss)>=False
+@Text.Show(They must have targeted~Silph for our Pokémon~products.)
 :else
-	@text.show(Thanks again!)
+	@Text.Show(Thanks again!)
 :endif
 :end

@@ -1,13 +1,13 @@
 version=2
 
-:if:<register.registered(haywardtrouble)>=true
+:if:<Register.Registered(haywardtrouble)>=true
 	@npc.warp(5,23,0,11)
 	@npc.remove(7)
 :endif
-:if:<register.registered(murahaywardbattle)>=false
+:if:<Register.Registered(murahaywardbattle)>=false
 	@NPC.spawn(20,0,2,3,0,<rival.skin>,0,2,Mura,20,Still)
 :endif
-:if:<register.registered(rijonleague)>=true
+:if:<Register.Registered(rijonleague)>=true
 	@npc.remove(8)
 :endif
 :end

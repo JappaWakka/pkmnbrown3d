@@ -1,6 +1,6 @@
 version=2
 
-:if:<register.registered(snorlax61)>=True
+:if:<Register.Registered(snorlax61)>=True
 	@npc.remove(10)
 :endif
 :end

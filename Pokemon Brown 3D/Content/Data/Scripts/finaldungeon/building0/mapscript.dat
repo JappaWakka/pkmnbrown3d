@@ -1,6 +1,6 @@
 version=2
 
-:if:<register.registered(building0security)>=True
+:if:<Register.Registered(building0security)>=True
 	@entity.remove(5)
 :endif
 :end

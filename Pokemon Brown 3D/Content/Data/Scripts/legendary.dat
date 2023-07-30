@@ -1,43 +1,43 @@
 version=2
 
-:if:<register.registered(legendary)>=false
+:if:<Register.Registered(legendary)>=false
 :then
 :select:<system.random(0,1)>
   :when:0
-  @register.register(Mew)
+  @Register.Register(Mew)
   :when:1
-  @register.register(MewTwo)
+  @Register.Register(MewTwo)
 :endwhen
 
 :select:<system.random(2,3)>
   :when:2
-  @register.register(Hooh)
+  @Register.Register(Hooh)
   :when:3
-  @register.register(Lugia)
+  @Register.Register(Lugia)
 :endwhen
 
 :select:<system.random(4,5)>
   :when:4
-  @register.register(Moltres)
+  @Register.Register(Moltres)
   :when:5
-  @register.register(Entei)
+  @Register.Register(Entei)
 :endwhen
 
 :select:<system.random(6,7)>
   :when:6
-  @register.register(Zapdos)
+  @Register.Register(Zapdos)
   :when:7
-  @register.register(Raikou)
+  @Register.Register(Raikou)
 :endwhen
 
 :select:<system.random(8,9)>
   :when:8
-  @register.register(Articuno)
+  @Register.Register(Articuno)
   :when:9
-  @register.register(Suicune)
+  @Register.Register(Suicune)
 :endwhen
 
-@register.register(legendary)
+@Register.Register(legendary)
 
 :endif
 :end

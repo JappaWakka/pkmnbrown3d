@@ -1,12 +1,12 @@
 version=2
 
-:if:<register.registered(beerkeg)>=false
-@text.show(Hey dude!~I can't remember how I get~here. Can you tell me?*No?*...*And I have no clue why,~but I'm happy today!*So go and grab one of~these things!)
-@item.give(gm7,1)
-@item.messagegive(gm7,1)
-@register.register(beerkeg)
-@text.show(<player.name> received a beer!*<player.name>: I should offer~that to the guard!)
+:if:<Register.Registered(beerkeg)>=false
+@Text.Show(Hey dude!~I can't remember how I get~here. Can you tell me?*No?*...*And I have no clue why,~but I'm happy today!*So go and grab one of~these things!)
+@Item.Give(gm7,1)
+@Item.MessageGive(gm7,1)
+@Register.Register(beerkeg)
+@Text.Show(<player.name> received a beer!*<player.name>: I should offer~that to the guard!)
 :else
-@text.show(Stop asking me for more,~I'm not a millionaire.*I guess I lost my happiness,~because I gave my last~beer away...)
+@Text.Show(Stop asking me for more,~I'm not a millionaire.*I guess I lost my happiness,~because I gave my last~beer away...)
 :endif
 :end

@@ -14,8 +14,8 @@ version=2
 		@storage.set(integer,ElevatorLevel,5)
 :endwhen
 
-:if:<register.registered(SouthlandMall_Elevator)>=false
-	@register.register(SouthlandMall_Elevator,int,<storage.get(integer,ElevatorLevel)>)
+:if:<Register.Registered(SouthlandMall_Elevator)>=false
+	@Register.Register(SouthlandMall_Elevator,int,<storage.get(integer,ElevatorLevel)>)
 :else
 	@register.change(SouthlandMall_Elevator,<storage.get(integer,ElevatorLevel)>)
 :endif

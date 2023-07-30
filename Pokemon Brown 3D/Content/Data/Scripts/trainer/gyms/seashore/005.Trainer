@@ -2,11 +2,12 @@
 Name|Sophie
 TrainerClass|Channeler
 Money|1110
-IntroMessage|Gasp!*Not you!
-OutroMessage|I lost after all!
-DefeatMessage|Be gone!
+IntroMessage|<system.token(Seashore_Gym_ChannelerSophie_IntroMessage)>
+OutroMessage|<system.token(Seashore_Gym_ChannelerSophie_OutroMessage)>
+DefeatMessage|<system.token(Seashore_Gym_ChannelerSophie_DefeatMessage)>
 TextureID|Channeler
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|Black,Black
+IntroSequence|3,3

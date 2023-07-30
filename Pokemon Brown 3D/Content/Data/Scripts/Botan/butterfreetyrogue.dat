@@ -1,7 +1,7 @@
 version=2
 
-:if:<register.registered(tyroguetrade)>=false
-@text.show(Hello there!*Do you want to trade your~Butterfree for Tyrogue?)
+:if:<Register.Registered(tyroguetrade)>=false
+@Text.Show(Hello there!*Do you want to trade your~Butterfree for Tyrogue?)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 	@pokemon.npctrade(12|236||-1||0|47893|Trainer|5||Received in a trade|in Botan City|Bruno|Okay, connect the cable~like so!|What? That's not Butterfree!*If you get one, come back~here!|tyroguetrade)
@@ -9,10 +9,10 @@ version=2
 	:end
 	
 	:when:<system.token(global_no)>
-	@text.show(Awww! Oh well...)
+	@Text.Show(Awww! Oh well...)
 	:end
 	:endwhen
 :else
-	@text.show(Isn't my old Tyrogue great?)
+	@Text.Show(Isn't my old Tyrogue great?)
 :endif	
 :end

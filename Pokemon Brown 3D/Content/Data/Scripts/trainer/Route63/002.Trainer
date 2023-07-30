@@ -2,11 +2,12 @@
 Name|Blake
 TrainerClass|Jr. Trainer ♂
 Money|360
-IntroMessage|Hey you!*Yeah you!*Battle now!
-OutroMessage|Out like a light!
-DefeatMessage|What is it?
+IntroMessage|<system.token(Route63_JrTrainerMaleBlake_IntroMessage)>
+OutroMessage|<system.token(Route63_JrTrainerMaleBlake_OutroMessage)>
+DefeatMessage|<system.token(Route63_JrTrainerMaleBlake_DefeatMessage)>
 TextureID|JrTrainer_Male
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|7,7

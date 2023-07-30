@@ -1,9 +1,9 @@
 version=2
 
-:if:<register.registered(fistbadge_obtain)>=False
+:if:<Register.Registered(fistbadge_obtain)>=False
 :then
-@Text.show(Gym Guy: Yo! Champ in making!*Castro Valley's Gym has the~Gym Leader Koji!*Koji only uses fighting Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!)
+@Text.Show(Gym Guy: Yo! Champ in making!*Castro Valley's Gym has the~Gym Leader Koji!*Koji only uses fighting Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!)
 :else
-@Text.show(It's amazing how ninja can~terrify even now!)
+@Text.Show(It's amazing how ninja can~terrify even now!)
 :endif
 :end

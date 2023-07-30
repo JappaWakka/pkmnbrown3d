@@ -3,7 +3,7 @@ Name|Sheral
 TrainerClass|Leader
 Money|4752
 IntroMessage|
-OutroMessage|I'm shocked!*Alright.*I can tell that you earned this.*Take the Psy Badge!
+OutroMessage|<system.token(Seashore_Gym_LeaderSheral_DefeatMessage)>
 DefeatMessage|
 TextureID|Sheral
 Region|Rijon
@@ -19,5 +19,5 @@ Pokemon6|
 Items|16,17,17
 Gender|0
 AI|0
-IntroSequence|Orange,Brown
+IntroSequence|9,9
 IntroType|11

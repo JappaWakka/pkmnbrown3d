@@ -1,8 +1,8 @@
 version=2
 
-:if:<register.registered(beatdaboss)>=False
-@text.show(Silph can't afford this!)
+:if:<Register.Registered(beatdaboss)>=False
+@Text.Show(Silph can't afford this!)
 :else
-	@text.show(Thanks again kid!)
+	@Text.Show(Thanks again kid!)
 :endif
 :end

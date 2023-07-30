@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Richard
-TrainerClass|Bird Catcher
+TrainerClass|Bird Keeper
 Money|400
-IntroMessage|<system.token(Route49_BirdCatcherRichard_IntroMessage)>
-OutroMessage|<system.token(Route49_BirdCatcherRichard_OutroMessage)>
-DefeatMessage|<system.token(Route49_BirdCatcherRichard_DefeatMessage)>
-TextureID|BirdCatcher
+IntroMessage|<system.token(Route49_BirdKeeperRichard_IntroMessage)>
+OutroMessage|<system.token(Route49_BirdKeeperRichard_OutroMessage)>
+DefeatMessage|<system.token(Route49_BirdKeeperRichard_DefeatMessage)>
+TextureID|BirdKeeper
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro

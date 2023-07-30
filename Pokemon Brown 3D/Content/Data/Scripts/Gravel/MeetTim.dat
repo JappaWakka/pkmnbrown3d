@@ -1,5 +1,5 @@
 version=2
-:if:<register.registered(mettim)>=False
+:if:<Register.Registered(mettim)>=False
 
 	@player.stopmovement(0)
 	@player.setspeed(1)
@@ -11,7 +11,7 @@ version=2
 		@storage.set(integer,position,1)
 	:endif
 
-	@text.show(<system.token(Gravel_Main_Tim_Late)>)
+	@Text.Show(<system.token(Gravel_Main_Tim_Late)>)
 	
 	@npc.spawn(9,0,10,1,,Tim,0,2,Tim,3,Still)
 	@npc.turn(3,1)
@@ -23,7 +23,7 @@ version=2
 	@npc.turn(3,0)
 	@npc.move(3,4)
 	
-	@text.show(<system.token(Gravel_Main_Tim_NeedPokemon)>)
+	@Text.Show(<system.token(Gravel_Main_Tim_NeedPokemon)>)
 	
 	@npc.turn(3,2)
 	@npc.moveasync(3,2)
@@ -62,7 +62,7 @@ version=2
 	@level.update
 	@camera.settoplayerfacing
 	@camera.update
-	@register.register(mettim)
+	@Register.Register(mettim)
 :else
 	@npc.remove(3)
 :endif

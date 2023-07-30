@@ -1,20 +1,20 @@
 version=2
-:if:<register.registered(pokemongot)>=False
+:if:<Register.Registered(pokemongot)>=False
 	@screen.showpokemon(4,0,1)
-	@Text.show(Tim: You'll take~Charmander, the fire~Pokémon?)
+	@Text.Show(Tim: You'll take~Charmander, the fire~Pokémon?)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
 			@NPC.remove(1)
 			@NPC.register(TimsLab.dat|1|remove|1)
-			@Register.register(pokemongot)
-			@Register.register(starter1)
+			@Register.Register(pokemongot)
+			@Register.Register(starter1)
 			@register.unregister(tim1)
 			@register.unregister(mura1)
-			@register.register(tim2)
-			@register.register(mura2)
-			@Text.show(Tim: I think that's a~great Pokémon too!)
+			@Register.Register(tim2)
+			@Register.Register(mura2)
+			@Text.Show(Tim: I think that's a~great Pokémon too!)
 			@pokemon.add(4,5,As a gift from Prof. Tim,5,at Gravel Town)
-			@Text.show(<player.name> received~a Charmander!)
+			@Text.Show(<player.name> received~a Charmander!)
 			@pokemon.rename(0)
 			:if:<player.position>=6,0,3
 				@NPC.turn(4,2)
@@ -23,14 +23,14 @@ version=2
 				@NPC.move(4,3)
 				@NPC.turn(4,0)
 				@NPC.move(4,1)
-				@text.show(Mura: I'll take this one, then!)
+				@Text.Show(Mura: I'll take this one, then!)
 				@NPC.remove(2)
-				@text.show(Mura received a Squirtle!)
+				@Text.Show(Mura received a Squirtle!)
 			:endif
 		:when:<system.token(global_no)>
-			@Text.show(Tim: Think it over~carefully.*Your partner is~important.)
+			@Text.Show(Tim: Think it over~carefully.*Your partner is~important.)
 		:endwhen
 :else
-	@Text.show(It contains a Pokémon~caught by Prof. Tim.)
+	@Text.Show(It contains a Pokémon~caught by Prof. Tim.)
 :endif
 :end

@@ -1,12 +1,12 @@
 version=2
 
-:if:<register.registered(fistbadge_obtain)>=True <and> <register.registered(guard5)>=False
-    @text.show(You can pass here only if~you have the Fist Badge!*Oh! That is the Fist Badge!~OK then! Please, go right~ahead!)
-    @register.register(guard5)
+:if:<Register.Registered(fistbadge_obtain)>=True <and> <Register.Registered(guard5)>=False
+    @Text.Show(You can pass here only if~you have the Fist Badge!*Oh! That is the Fist Badge!~OK then! Please, go right~ahead!)
+    @Register.Register(guard5)
 :endif
 
-:if:<register.registered(fistbadge_obtain)>=False <and> <register.registered(guard5)>=False
-    @text.show(You can pass here only if~you have the Fist Badge!*You don't have the Fist~Badge yet!*You have to have it to get~to Pokémon League!)
+:if:<Register.Registered(fistbadge_obtain)>=False <and> <Register.Registered(guard5)>=False
+    @Text.Show(You can pass here only if~you have the Fist Badge!*You don't have the Fist~Badge yet!*You have to have it to get~to Pokémon League!)
     @player.turnto(2)
     @player.move(1)
 :endif

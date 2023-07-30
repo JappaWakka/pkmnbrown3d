@@ -1,12 +1,12 @@
 version=2
 
-@text.show(<System.Token(Seashore_Main_YoungBoy_Red_Question)>)
+@Text.Show(<System.Token(Seashore_Main_YoungBoy_Red_Question)>)
 @options.show(<System.Token(global_yes)>,<System.Token(global_no)>)
 :when:<System.Token(global_yes)>
-	@text.show(<System.Token(Seashore_Main_YoungBoy_Red_AnswerYes)>)
+	@Text.Show(<System.Token(Seashore_Main_YoungBoy_Red_AnswerYes)>)
 	:end
 :when:<System.Token(global_no)>
-	@text.show(<System.Token(Seashore_Main_YoungBoy_Red_AnswerNo)>)
+	@Text.Show(<System.Token(Seashore_Main_YoungBoy_Red_AnswerNo)>)
 	:end
 :endwhen
 :end

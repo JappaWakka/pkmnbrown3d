@@ -1,22 +1,22 @@
 version=2
 
-:if:<register.registered(murabotanbattle)>=false
+:if:<Register.Registered(murabotanbattle)>=false
 	@npc.turn(1,2)
-	@text.show(Mura: Hey, <player.name>!~I just caught a ghost Pokémon,~along with training my other~Pokémon.*Care to try them out?)
+	@Text.Show(Mura: Hey, <player.name>!~I just caught a ghost Pokémon,~along with training my other~Pokémon.*Care to try them out?)
 
-	:if:<register.registered(starter1)>=true
+	:if:<Register.Registered(starter1)>=true
 		@battle.trainer(mura\2charmander)
 	:endif
 
-	:if:<register.registered(starter2)>=true
+	:if:<Register.Registered(starter2)>=true
 		@battle.trainer(mura\2squirtle)
 	:endif
 
-	:if:<register.registered(starter3)>=true
+	:if:<Register.Registered(starter3)>=true
 		@battle.trainer(mura\2bulbasaur)
 	:endif
 
-	@text.show(Well that stinks, I lost.~But don't think I'll go~easy on you next time.*<player.name>:Alright, see you~later man!)
+	@Text.Show(Well that stinks, I lost.~But don't think I'll go~easy on you next time.*<player.name>:Alright, see you~later man!)
 	@npc.turn(1,3)
 	@npc.move(1,1)
 	@npc.turn(1,2)
@@ -24,6 +24,6 @@ version=2
 	@npc.turn(1,3)
 	@npc.move(1,4)
 	@npc.remove(1)
-@register.register(murabotanbattle)
+@Register.Register(murabotanbattle)
 :endif
 :end

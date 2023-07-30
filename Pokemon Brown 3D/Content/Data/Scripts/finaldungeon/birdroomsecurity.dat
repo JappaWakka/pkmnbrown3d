@@ -1,7 +1,7 @@
 version=2
 
-:if:<register.registered(birdroom)>=True
+:if:<Register.Registered(birdroom)>=True
 :else
-	@text.show(It's an impassable security door.)
+	@Text.Show(It's an impassable security door.)
 :endif
 :end
