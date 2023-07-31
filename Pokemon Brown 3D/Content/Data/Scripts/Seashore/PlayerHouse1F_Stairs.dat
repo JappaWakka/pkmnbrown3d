@@ -6,8 +6,12 @@ version=2
 	@Player.Warp(Seashore\PlayerHouse2F.dat,7,0.1,0,2)
 :endif
 @Level.Update
-:if:<player.isrunning>=true
-	@Player.SetSpeed(1.5)
+:if:<Level.Riding>=true
+	@Player.SetSpeed(2)
+:else
+	:if:<Player.IsRunning>=true
+		@Player.SetSpeed(1.5)
+	:endif
 :endif
 @Player.Move(1)
 

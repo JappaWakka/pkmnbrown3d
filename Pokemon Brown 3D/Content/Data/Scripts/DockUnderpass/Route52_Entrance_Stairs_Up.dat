@@ -14,5 +14,12 @@ version=2
 	:endif
 :endif
 @Level.Update
+:if:<Level.Riding>=true
+	@Player.SetSpeed(2)
+:else
+	:if:<Player.IsRunning>=true
+		@Player.SetSpeed(1.5)
+	:endif
+:endif
 @Player.Move(1)
 :end

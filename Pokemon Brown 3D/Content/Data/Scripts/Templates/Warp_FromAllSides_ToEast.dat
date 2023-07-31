@@ -1,15 +1,15 @@
 version=2
 
 :if:<Player.Facing>=0
-	@Player.Warp(Routes\DockUnderpass.dat,0,0.1,4,3)
+	@Player.Warp(map.dat,0,0.1,0,3)
 :else
 	:if:<Player.Facing>=1
-		@Player.Warp(Routes\DockUnderpass.dat,0,0.1,4,2)
+		@Player.Warp(map.dat,0,0.1,0,2)
 		:else
 			:if:<Player.Facing>=2
-				@Player.Warp(Routes\DockUnderpass.dat,0,0.1,4,1)
+				@Player.Warp(map.dat,0,0.1,0,1)
 				:else
-					@Player.Warp(Routes\DockUnderpass.dat,0,0.1,4,0)
+					@Player.Warp(map.dat,0,0.1,0,0)
 			:endif
 	:endif
 :endif
