@@ -2,12 +2,17 @@
 {"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
 
 Floors:
+	Under Mountains
+		{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[-1,0,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+		
+	Merson Cave Entrance
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[2,0,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+	
 	Dirt
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
-	Invisible
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Visible"{bool[0]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[2,0,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Visible"{bool[0]}}]}}
-		
+	
+	
 Mountains:
 	Top
 		{"EntityField"{ENT[{"Size"{intArr[3,12]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-5,3,-5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

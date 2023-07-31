@@ -85,11 +85,15 @@ Floors:
 			
 Ceiling:
 	Regular
-		{"EntityField"{ENT[{"Size"{intArr[42,34]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-3,5,-3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[12,34]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-3,5,-3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,14]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,5,-3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[37,34]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,5,-3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,19]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,5,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[16,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-3,5,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[25,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,5,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[42,3]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-3,5,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	LadderHole
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,5,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,5,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		
 Cave Walls:
@@ -332,24 +336,28 @@ Ladders:
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[13,2,31]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[13,3,31]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[13,4,31]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[13,0,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\54\Main.dat,1,0.1,0,0,2]}}{"Rotation"{int[2]}}{"Visible"{bool[0]}}]}}
-
-	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[9,0,11]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[9,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\Merson\Outside.dat,2,0.1,-1,2,0]}}{"Rotation"{int[2]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[13,0,31]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\Merson\1F_Ladder_Up_Route54]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Bottom]}}{"Offset"{sngArr[9,0,11]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[9,1,11]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[9,2,11]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[9,3,11]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[9,4,11]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,11]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\Merson\1F_Ladder_Up_Outside]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[23,0,13]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[23,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\Merson\B1F.dat,24,0.1,14,2,0]}}{"Rotation"{int[2]}}{"Visible"{bool[0]}}]}}
-
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[23,0,13]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\Merson\1F_Ladder_Down_B1F_East]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[3,0,5]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\Merson\B1F.dat,12,0.1,24,2,0]}}{"Rotation"{int[2]}}{"Visible"{bool[0]}}]}}
-
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\Merson\1F_Ladder_Down_B1F_West]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[5,0,20]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[6]}}{"Name"{str[Bugcatcher Bill]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\mersoncave\006]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[14,0,21]}}{"TextureID"{str[Lass_Blue]}}{"ID"{int[5]}}{"Name"{str[Lass Vanessa]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\mersoncave\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[22,0,29]}}{"TextureID"{str[SuperNerd]}}{"ID"{int[4]}}{"Name"{str[Super Nerd Louis]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\mersoncave\004]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[28,0,25]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[2]}}{"Name"{str[BugCatcher Rick]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\mersoncave\002]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[28,0,2]}}{"TextureID"{str[Lass_Red]}}{"ID"{int[1]}}{"Name"{str[Lass Clara]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\mersoncave\001]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[3,0,4]}}{"TextureID"{str[Hiker]}}{"ID"{int[3]}}{"Name"{str[Hiker Ralph]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\mersoncave\003]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0,6]}}{"TextureID"{str[Hiker]}}{"ID"{int[3]}}{"Name"{str[Hiker Ralph]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\mersoncave\003]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[10,0,14]}}{"TextureID"{str[Youngster_Blue]}}{"ID"{int[0]}}{"Name"{str[Youngster Tom]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\mersoncave\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Items:
