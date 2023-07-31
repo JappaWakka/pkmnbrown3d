@@ -269,3 +269,76 @@ Sign:
 	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[13,0,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(MersonCave_Sign)>]}}{"Visible"{bool[0]}}{"Rotation"{int[2]}}]}}
 
 
+Large Rocks:
+	Gemstone 2x2
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_2x2]}}{"Offset"{sngArr[6,-1,12]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_2x2]}}{"Offset"{sngArr[14,-1,18]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_2x2]}}{"Offset"{sngArr[22,-1,18]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_2x2]}}{"Offset"{sngArr[-2,-1,28]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_2x2]}}{"Offset"{sngArr[0,-1,32]}}]}}
+		
+	Gemstone 2x1
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_2x1]}}{"Offset"{sngArr[14,-1,20]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_2x1]}}{"Offset"{sngArr[4,-1,22]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_2x1]}}{"Offset"{sngArr[8,-1,24]}}]}}
+		
+	Gemstone 1x2
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_1x2]}}{"Offset"{sngArr[7,-1,22]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_1x2]}}{"Offset"{sngArr[15,-1,24]}}]}}
+				
+	Rough 2x2
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[6,-1,10]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[26,-1,14]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[22,-1,16]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[22,-1,20]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[-2,-1,20]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[16,-1,22]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[-2,-1,24]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[16,-1,28]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[-2,-1,30]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[26,-1,32]}}]}}
+		
+	Rough 4x2
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_4x2]}}{"Offset"{sngArr[20,-1,12]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_4x2]}}{"Offset"{sngArr[24,-1,12]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_4x2]}}{"Offset"{sngArr[-4,-1,14]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_4x2]}}{"Offset"{sngArr[0,-1,14]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_4x2]}}{"Offset"{sngArr[4,-1,14]}}]}}
+	
+	Rough 2x4
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x4]}}{"Offset"{sngArr[6,-1,16]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x4]}}{"Offset"{sngArr[26,-1,16]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x4]}}{"Offset"{sngArr[26,-1,20]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x4]}}{"Offset"{sngArr[12,-1,22]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x4]}}{"Offset"{sngArr[22,-1,22]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x4]}}{"Offset"{sngArr[26,-1,24]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x4]}}{"Offset"{sngArr[16,-1,24]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x4]}}{"Offset"{sngArr[22,-1,26]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x4]}}{"Offset"{sngArr[26,-1,28]}}]}}
+		
+	Rough 2x12
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x12]}}{"Offset"{sngArr[2,-1,16]}}]}}
+
+Ladders:
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Bottom]}}{"Offset"{sngArr[9,-1,37]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[9,0,37]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[9,1,37]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[9,2,37]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[9,3,37]}}]}}
+	
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[5,-1,17]}}]}}
+	
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[19,-1,19]}}]}}
+	
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[-1,-1,11]}}]}}
+
+Stairs:
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Left]}}{"Offset"{sngArr[0,-1,9]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Right]}}{"Offset"{sngArr[1,-1,9]}}]}}
+	
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Left]}}{"Offset"{sngArr[18,-1,33]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Right]}}{"Offset"{sngArr[19,-1,33]}}]}}
+	
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Left]}}{"Offset"{sngArr[16,-1,17]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Cave_Right]}}{"Offset"{sngArr[17,-1,17]}}]}}
+	
