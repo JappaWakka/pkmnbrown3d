@@ -2,7 +2,7 @@ version=2
 @Text.Show(<system.token(Generic_PokeMart_Clerk_Question)>)
 @options.show(<system.token(Generic_PokeMart_Buy)>,<system.token(Generic_PokeMart_Quit)>)
 :when:<system.token(Generic_PokeMart_Buy)>
-@screen.Trade({5|-1|-1}{18|-1|-1}{19|-1|-1}{20|-1|-1}{11|-1|-1},True,True)
+@screen.Trade({5|-1|-1}{18|-1|-1}{19|-1|-1}{20|-1|-1}{11|-1|-1}{gm82|-1|-1},True,True)
 :when:<system.token(Generic_PokeMart_Quit)>
 @Text.Show(<system.token(Generic_PokeMart_Clerk_AfterQuit)>)
 :endwhen
