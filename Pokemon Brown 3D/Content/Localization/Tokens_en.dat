@@ -83,6 +83,7 @@ global_eggs_cannot_hold,Eggs cannot hold items.
 General:
 HP,HP
 PP,PP
+No.,No.
 Lv.,Lv.
 Level,Level
 MaxHP,Max HP
@@ -257,8 +258,10 @@ game_menu_party,Pokémon
 game_menu_bag,Bag
 game_menu_trainer_card,<player.name>
 game_menu_save,Save
+game_menu_save_notpossible,Saving is not possible right now.
 game_menu_options,Options
 game_menu_exit,Exit Menu
+game_menu_end_contest,End Contest
 ---
 NewGameScreen:
 new_game_intro_1,Hello!~Sorry to keep~you waiting!*Welcome to the world~of Pokémon!*My name is Oak.~People call me~Pokémon Prof.*This world is inhabited~by creatures that~we call
@@ -343,7 +346,7 @@ VoltorbFlip_BeforeNewLevel_GameInfo_Question,Which set of info?
 VoltorbFlip_BeforeNewLevel_GameInfo_Answer_HowToPlay,How to Play
 VoltorbFlip_BeforeNewLevel_GameInfo_Answer_Hint,Hint!
 VoltorbFlip_BeforeNewLevel_GameInfo_Answer_AboutMemos,About Memos
-VoltorbFlip_BeforeNewLevel_GameInfo_Back
+VoltorbFlip_BeforeNewLevel_GameInfo_Back,Back
 
 VoltorbFlip_GameWon_1,Game clear!~You've found all of the~hidden x2 and x3 cards.*<player.name> received~
 VoltorbFlip_GameWon_2,Coin(s)!
@@ -366,7 +369,6 @@ VoltorbFlip_AfterGame_Won1,You've won
 VoltorbFlip_AfterGame_Won2,Coin(s)!
 VoltorbFlip_AfterGame_Lost,Too bad, you didn't win~any Coins!*Better luck next time!
 
-VoltorbFlip_BeforeGame_FullCoinCase,Your Coin Case is already full!
 VoltorbFlip_BeforeGame_NoCoinCase,You don't have a Coin Case!~Come back when you have one!
 
 VoltorbFlip_Tutorial_HowToPlay_Message,Voltorb Flip is a game in which~you flip over cards to find~numbers hidden beneath them.*The cards are hiding the~numbers 1 through 3...~and Voltorb as well.*The first number you flip over~will give you that many Coins.*From then on, the next number~you find will multiply the~total amount of Coins you've~collected by that number.*If it's a 2, your total will~be multiplied by "x2".*If it's a 3, your total will~be multiplied by "x3".*But if you flip over a~Voltorb, it's game over.*When that happens, you'll lose~all the Coins you've collected~in the current level.*If you select "Quit", you'll~withdraw from the level.*If you get to a difficult~spot, you might want to end~the game early.*Once you've found all the~hidden 2 and 3 cards,~you've cleared the game.*Once you've flipped over~all these cards, then you'll~advance to the next level.*As you move up in levels,~you will be able to receive~more Coins. Do your best!
@@ -377,6 +379,37 @@ VoltorbFlip_Tutorial_HowToPlay_Image2,If you select "Quit", you'll keep those 18
 VoltorbFlip_Tutorial_HowToPlay_Image3,But if you find Voltorb, you'll lose all your Coins!
 VoltorbFlip_Tutorial_Hint_Image,By looking at the numbers on the sides of the cards, you can see the hidden number and Voltorb totals.
 VoltorbFlip_Tutorial_AboutMemos_Image,Select "Open Memo" to open the Memo Window. Select the cards and press [<system.button(enter1)>] to add and [<system.button(back1)>] to remove marks.
+----
+PokedexScreen
+pokedex_seen,Seen:
+pokedex_obtained,Obtained:
+pokedex_available,Available:
+pokedex_select,Select a Pokédex
+pokedex_habitat_dex_name,Habitat-Dex
+pokedex_habitat_select,Select a Habitat
+pokedex_order,Order:
+pokedex_order_numeric,Numeric
+pokedex_order_alphabetically,A-Z
+pokedex_order_height,Height
+pokedex_order_weight,Weight
+pokedex_filter,Filter:
+pokedex_filter_none,None
+pokedex_filter_name,Name
+pokedex_filter_type1,Type 1
+pokedex_filter_type2,Type 2
+pokedex_search_hint_1,Press
+pokedex_search_hint_2,on the keyboard to search.
+pokedex_search_no_results,No search results.
+pokedex_data_species,SPECIES
+pokedex_data_type,TYPE
+pokedex_data_height,HEIGHT
+pokedex_data_weight,WEIGHT
+pokedex_data_form_switch_hint,Press [Shift] to switch forms
+pokedex_data_page_details,Details
+pokedex_data_page_habitat,Habitat
+pokedex_data_page_evolution,Evolution
+pokedex_habitat_area_unknown,Area Unknown.
+pokedex_evolution_no_evolutions,doesn't evolve.
 ----
 Battle:
 battle_trainer_about_to_send_out_1,is about to send out
@@ -476,21 +509,6 @@ game_message_free_camera_off,Free camera mode off
 game_message_audio_on,Audio on
 game_message_audio_off,Audio off
 game_message_continue_autosave,Continued save state:
----
-Online:
-game_message_close_connection,You closed the co-op game.
-game_message_disconncet,You disconnected from the host.
-game_message_cannot_connect_client_1,Cannot connect to host (
-game_message_cannot_connect_client_2,)!
-game_message_client_connect_1,You joined the game (
-game_message_client_connect_2,)!
-game_message_client_host_closed_1,The host (
-game_message_client_host_closed_2,) closed the connection.
-game_message_client_outdated_newer_version,You have an outdated or newer version of the game.
-game_message_host_session_started,You (host) started a Co-Op session.
-game_message_host_outdated_newer_version,The client has an outdated or newer version of the game!
-game_message_host_client_accept,A client joined the game!
-game_message_host_client_disconnect,The client disconnected! The Co-Op session has been closed.
 ---
 Pokemon:
 pokemon_name_Bulbasaur,Bulbasaur
@@ -1409,7 +1427,7 @@ item_category_KeyItems,Key Items
 item_category_BattleItems,Battle Items
 item_category_Mail,Mail
 ---
-Item Names and Descriptions:
+Item names:
 Balls:
 item_name_1,Master Ball
 item_name_2,Ultra Ball
@@ -1437,70 +1455,6 @@ item_name_186,Heal Ball
 item_name_188,Nest Ball
 
 Key Items:
-item_name_gm0,Tim's Pizza
-item_desc_gm0,The pizza that Tim ordered. Better give it to him before it gets cold!
-
-item_name_gm1,Trade Machine
-item_pluralname_gm1,Trade Machines
-item_desc_gm1,A peculiar single-use device that can make certain species of Pokémon evolve without having to trade them.
-
-item_name_gm2,Red Amulet
-item_desc_gm2,It seems someone has lost this amulet. The owner probably wants it back.
-
-item_name_gm3,Red Orb
-item_pluralname_gm3,Red Orbs
-item_desc_gm3,A shiny red orb. Someone might give you something in exchange for it.
-
-item_name_gm4,Blue Orb
-item_pluralname_gm4,Blue Orbs
-item_desc_gm4,A shiny blue orb. Someone might give you something in exchange for it.
-
-item_name_gm5,Green Orb
-item_pluralname_gm5,Green Orbs
-item_desc_gm5,A shiny green orb. Someone might give you something in exchange for it.
-
-item_name_gm6,Virus Scan
-item_desc_gm6,Strange artifact used to ban MissingNo.
-
-item_name_gm7,Beer Keg
-item_pluralname_gm7,Beer Kegs
-item_desc_gm7,An alcoholic beverage with a strong smell. When consumed by a Pokémon, it restores 30 HP.
-
-item_name_gm8,Town Map
-item_desc_gm8,A very convenient map that can be viewed anytime. It even shows your present location.
-
-item_name_gm9,PokéFlute
-item_desc_gm9,A flute that is said to instantly awaken any Pokémon. It has a lovely tone.
-
-item_name_gm10,Mist Stone
-item_desc_gm10,A very special stone. It emits a yellow glow somehow.
-
-item_name_gm11,Gold Egg
-item_desc_gm11,One of seven hidden treasures!
-
-item_name_gm12,Silver Egg
-item_desc_gm12,One of seven hidden treasures!
-
-item_name_gm13,Crystal Egg
-item_desc_gm13,One of seven hidden treasures!
-
-item_name_gm14,Ruby Egg
-item_desc_gm14,One of seven hidden treasures!
-
-item_name_gm15,Sapphire Egg
-item_desc_gm15,One of seven hidden treasures!
-
-item_name_gm16,Emerald Egg
-item_desc_gm16,One of seven hidden treasures!
-
-item_name_gm17,Prism Key
-item_desc_gm17,One of seven hidden treasures!
-
-item_name_gm18,Magic Wand
-item_pluralname_gm18,Magic Wands
-item_desc_gm18,A special wand that can make certain species of Pokémon evolve.
-
-
 item_name_6,Bicycle
 item_name_41,S.S. Ticket
 item_name_54,Coin Case
@@ -1845,6 +1799,10 @@ item_name_34,Leaf Stone
 item_name_112,Everstone
 item_name_169,Sun Stone
 item_name_262,Sticky Rock
+item_name_593,Ice Stone
+item_name_135,Shiny Stone
+item_name_136,Dusk Stone
+item_name_137,Dawn Stone
 
 Standard:
 item_name_19,Escape Rope
@@ -1891,9 +1849,6 @@ item_name_125,Hard Stone
 item_name_126,Lucky Egg
 item_name_131,Stardust
 item_name_132,Star Piece
-item_name_135,Shiny Stone
-item_name_136,Dusk Stone
-item_name_137,Dawn Stone
 item_name_138,Charcoal
 item_name_140,Scope Lens
 item_name_141,Protector
@@ -1914,7 +1869,7 @@ item_name_163,Light Ball
 item_name_167,Deep Sea Tooth
 item_name_170,Berserk Gene
 item_name_171,Wide Lens
-item_name_172,Up Grade
+item_name_172,Up-Grade
 item_name_173,Pearl String
 item_name_176,Grip Claw
 item_name_179,Oval Stone
@@ -1932,7 +1887,7 @@ item_name_287,Rose Incence
 item_name_288,Full Incense
 item_name_289,Lax Incense
 item_name_290,Luck Incense
-item_name_291,Luck Incense
+item_name_291,Pure Incense
 item_name_293,Damp Rock
 item_name_294,Heat Rock
 item_name_295,Smooth Rock
@@ -1956,7 +1911,6 @@ item_name_585,Power Lens
 item_name_586,Power Band
 item_name_587,Power Anklet
 item_name_591,Expert Belt
-item_name_593,Ice Stone
 item_name_594,Snowball
 item_name_595,Cell Battery
 item_name_596,Electric Seed
@@ -1964,7 +1918,7 @@ item_name_597,Grassy Seed
 item_name_598,Misty Seed
 item_name_599,Psychic Seed
 item_name_600,Terrain Extender
-item_name_648,Poke Toy
+item_name_648,Poké Toy
 item_name_649,Fluffy Tail
 item_name_650,Bright Powder
 item_name_654,Peat Block
@@ -2003,10 +1957,10 @@ XItems:
 item_name_33,XAccuracy
 item_name_44,Dire Hit
 item_name_49,XAttack
-item_name_50,XSp Def
+item_name_50,XSp. Def.
 item_name_51,XDefend
 item_name_52,XSpeed
-item_name_53,XSpecial
+item_name_53,XSp. Atk.
 item_name_68,Guard Spec
 
 Apricorns:
@@ -2178,6 +2132,20 @@ item_name_673,Psychic Memory
 item_name_674,Rock Memory
 item_name_675,Steel Memory
 item_name_676,Water Memory
+
+Item Use Text:
+item_cannot_use,Now is not the time~to use that.
+item_6_missingskin,You can't use this item~without a bicycle skin.*Its name should be the~same as your current one,~but with "_bike" at the end.
+item_6_only_custom_gamemodes,This item can't be used~on this GameMode.
+
+[Official Items]
+item_use_6,<player.name> stepped~off the Bicycle.
+item_use_54,Your Coins:~
+
+[GameMode Items]
+Item_Use_TownMap,<player.name> checked the~Town Map.
+Item_Use_PokeFlute,<player.name> played the~PokéFlute.
+Item_Use_HiddenEggs,Wow!*This item may be useful~in Pokémon Prism!*<player.name>: Ugh!~Not this again!
 -------------------
 Move Names:
 move_name_1,Pound
@@ -2826,11 +2794,6 @@ Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
 
 Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
 Generic_Sign_PokeCenter,Heal Your Pokémon!~Pokémon Center
-
-[Item Use]
-Item_Use_TownMap,<player.name> checked the~Town Map.
-Item_Use_PokeFlute,<player.name> played the~PokéFlute.
-Item_Use_HiddenEggs,Wow!*This item may be useful~in Pokémon Prism!*<player.name>: Ugh!~Not this again!
 
 [Seashore City]
 Seashore_PlayerHouse1F_Mom_LookForTim,Good luck on following your~dad's footsteps, sweetie!!!*Go south to Gravel Town~and look for the Professor.

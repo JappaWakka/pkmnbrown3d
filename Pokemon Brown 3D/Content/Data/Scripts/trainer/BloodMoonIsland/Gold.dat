@@ -2,7 +2,7 @@ version=2
 
 :if:<Register.Registered(wongold)>=false
 @Text.Show(Hey dude!*You are the champion of~this region?*A great opportunity for~me to see how good the~~trainers are in this place.*Lets battle!)
-@Battle.StartTrainer(bmisland\gold)
+@Battle.StartTrainer(BloodMoonIsland\gold)
 @Text.Show(Woah!*Great fight, you truly~dominated me.*You should challenge the~Kanto Champion!)
 @Register.Register(wongold)
 :else
