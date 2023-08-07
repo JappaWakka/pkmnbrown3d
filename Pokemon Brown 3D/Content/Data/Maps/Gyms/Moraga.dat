@@ -54,9 +54,9 @@ Statues:
 {"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,15]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[32,16,16,16][48,16,16,16][48,0,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[gyms\moraga]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[2,0,11]}}{"TextureID"{str[16]}}{"ID"{int[0]}}{"Name"{str[Campergirl]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\moraga\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[2,0,11]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[0]}}{"Name"{str[Jr. Trainer ♀]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\moraga\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[6,0,10]}}{"TextureID"{str[15]}}{"ID"{int[1]}}{"Name"{str[Beauty]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\moraga\001]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[4,0,6]}}{"TextureID"{str[16]}}{"ID"{int[2]}}{"Name"{str[Campergirl]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\moraga\002]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[4,0,6]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[2]}}{"Name"{str[Jr. Trainer ♀]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\moraga\002]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[5,0,2]}}{"TextureID"{str[23]}}{"ID"{int[3]}}{"Name"{str[CoolGirl]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\moraga\003]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[4,0,3]}}{"TextureID"{str[Lois]}}{"ID"{int[4]}}{"Name"{str[Lois]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\moraga\leader]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 

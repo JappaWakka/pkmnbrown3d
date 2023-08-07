@@ -1,15 +1,15 @@
 version=2
 
 :if:<Player.Facing>=0
-	@Player.Warp(Caves\SilkTunnel\B2F.dat,13,0.1,5,0)
+	@Player.Warp(Caves\SilkTunnel\B3F.dat,27,0.1,3,0)
 :else
 	:if:<Player.Facing>=1
-		@Player.Warp(Caves\SilkTunnel\B2F.dat,13,0.1,5,0)
+		@Player.Warp(Caves\SilkTunnel\B3F.dat,27,0.1,3,0)
 		:else
 			:if:<Player.Facing>=2
-				@Player.Warp(Caves\SilkTunnel\B2F.dat,13,0.1,5,0)
+				@Player.Warp(Caves\SilkTunnel\B3F.dat,27,0.1,3,0)
 				:else
-					@Player.Warp(Caves\SilkTunnel\B2F.dat,13,0.1,5,0)
+					@Player.Warp(Caves\SilkTunnel\B3F.dat,27,0.1,3,0)
 			:endif
 	:endif
 :endif
