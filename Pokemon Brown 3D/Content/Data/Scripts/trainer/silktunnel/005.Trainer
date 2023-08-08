@@ -2,11 +2,12 @@
 Name|Alexander
 TrainerClass|Hiker
 Money|735
-IntroMessage|Us Hikers always meet here!
-OutroMessage|Oops! Out-muscled!
-DefeatMessage|Too bad I lost,~oh well.
+IntroMessage|<system.token(SilkTunnel_HikerAlexander_IntroMessage)>
+OutroMessage|<system.token(SilkTunnel_HikerAlexander_OutroMessage)>
+DefeatMessage|<system.token(SilkTunnel_HikerAlexander_DefeatMessage)>
 TextureID|Hiker
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|7,7

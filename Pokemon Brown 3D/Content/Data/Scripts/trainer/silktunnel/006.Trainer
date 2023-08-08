@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Frederic
-TrainerClass|Maniac
+TrainerClass|PokéManiac
 Money|1100
-IntroMessage|Cosplaying will make me~so cool!
-OutroMessage|Well, that's that.
-DefeatMessage|Cosplaying will get me all the girls.
+IntroMessage|<system.token(SilkTunnel_PokeManiacFrederic_IntroMessage)>
+OutroMessage|<system.token(SilkTunnel_PokeManiacFrederic_OutroMessage)>
+DefeatMessage|<system.token(SilkTunnel_PokeManiacFrederic_DefeatMessage)>
 TextureID|PokeManiac
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|9,9
