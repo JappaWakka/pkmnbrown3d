@@ -1,9 +1,8 @@
 version=2
 
 :if:<Register.Registered(sproutbadge_obtain)>=true
-@Text.Show(Moraga Town Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<player.name>)
-
+	@Text.Show(<system.token(Moraga_Main_Sign_Gym_AfterDefeat)>)
 :else
-	@Text.Show(Moraga Town Pokémon Gym~Leader: Lois*Winning Trainers:~Mura)
+	@Text.Show(<system.token(Moraga_Main_Sign_Gym_BeforeDefeat)>)
 :endif
 :end

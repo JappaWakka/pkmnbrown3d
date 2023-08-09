@@ -79,6 +79,7 @@ global_pokemon_move_teleport,Teleport
 global_pokemon_move_dig,Dig
 global_used,Used
 global_eggs_cannot_hold,Eggs cannot hold items.
+
 ---
 General:
 HP,HP
@@ -410,6 +411,20 @@ pokedex_data_page_habitat,Habitat
 pokedex_data_page_evolution,Evolution
 pokedex_habitat_area_unknown,Area Unknown.
 pokedex_evolution_no_evolutions,doesn't evolve.
+----
+Receiving Items:
+item_received_single,Received the~
+item_received_multiple,Received
+item_stored_in_pocket_single_start,<player.name> stored it in the~
+item_stored_in_pocket_single_end,pocket.
+item_stored_in_pocket_multiple_start,<player.name> stored them~in the
+item_stored_in_pocket_multiple_end,pocket.
+
+Berries:
+berry_picked_single_start,<player.name> picked the~
+berry_picked_single_end,Berry.
+berry_picked_multiple_start,<player.name> picked the~
+berry_picked_multiple_end,Berries.
 ----
 Battle:
 battle_trainer_about_to_send_out_1,is about to send out
@@ -2814,7 +2829,8 @@ Seashore_Main_YoungBoy_Red_AnswerYes,Cool!*I'm going to be one soon as well!*It'
 Seashore_Main_YoungBoy_Red_AnswerNo,Why not?
 
 Seashore_Main_Sign_City,Seashore City*Where waves of new journeys~begin their long travels.
-Seashore_Main_Sign_Gym,Seashore Gym
+Seashore_Main_Sign_Gym_BeforeDefeat,Seashore City Pokémon Gym~Leader: Sheral*Winning Trainers:~Mura
+Seashore_Main_Sign_Gym_AfterDefeat,Seashore City Pokémon Gym~Leader: Sheral*Winning Trainers:~Mura~<player.name>
 
 Seashore_Gym_ChannelerHelen_IntroMessage,Do your best!
 Seashore_Gym_ChannelerHelen_OutroMessage,I knew it!
@@ -3376,6 +3392,7 @@ Route63_BugCatcherChristian_IntroMessage,Bug Pokémon never lose!
 Route63_BugCatcherChristian_OutroMessage,My bugs...
 Route63_BugCatcherChristian_DefeatMessage,Bugs are so underrated~these days.
 
+[Silk Tunnel]
 SilkTunnel_HikerGwendolin_IntroMessage,Such a big tunnel...
 SilkTunnel_HikerGwendolin_OutroMessage,Lost? No!
 SilkTunnel_HikerGwendolin_DefeatMessage,Which way is it to Hayward City?
@@ -3397,3 +3414,18 @@ SilkTunnel_HikerAlexander_DefeatMessage,Too bad I lost, oh well.
 SilkTunnel_PokeManiacFrederic_IntroMessage,Cosplaying will make me~so cool!
 SilkTunnel_PokeManiacFrederic_OutroMessage,Well, that's that.
 SilkTunnel_PokeManiacFrederic_DefeatMessage,Cosplaying will get me~all the girls.
+
+[Moraga Town]
+Moraga_Main_Sign_Pickpocketers,Look out for rabid~pick-pocketers!
+Moraga_Main_Sign_Gym_BeforeDefeat,Moraga Town Pokémon Gym~Leader: Lois*Winning Trainers:~Mura
+Moraga_Main_Sign_Gym_AfterDefeat,Moraga Town Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<player.name>
+Moraga_Main_Sign_TrainerTips,Trainer Tips*Keep an eye where you're going~and if needed, backtrack to~cities you've been to already.
+Moraga_Main_Sign_OrionAcademy,Orion Academy~The school for the gifted...
+Moraga_Main_ShortcutMan,There's a shortcut to~Eagulou City nearby.
+Moraga_Main_AlleyWoman,Being in the alley can~be scary sometimes.
+Moraga_Main_LittleGirl,This is one unusual town...
+Moraga_Main_Psyduck_Cry,Psyduck: Psy-yiy?
+Moraga_Main_TM31Man_BeforeTalking,You want to talk?*To me?*Thanks, I'm very lonely,~so take this thing I found~earlier...
+Moraga_Main_TM31Man_AfterTalking,TM31 teaches Mimic!*It lets your Pokémon copy one~of the opponent's moves!
+Moraga_Main_GymLeaderFather,My daughter may appear cute,~but deep inside she is a~warrior!
+Moraga_Main_FatGuy,That gym leader is hard...*No one can beat her!

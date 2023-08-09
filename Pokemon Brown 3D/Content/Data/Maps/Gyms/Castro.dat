@@ -20,8 +20,8 @@ Ceiling:
 {"EntityField"{ENT[{"Size"{intArr[10,18]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[0,3,0]}}{"TexturePath"{str[House3]}}{"Textures"{recArr[[16,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Door:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Main.dat,22,0.1,27,0]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Main.dat,22,0.1,27,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Main.dat,22,0.1,27,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Main.dat,22,0.1,27,0]}}{"Rotation"{int[0]}}]}}
 
 Statues:
 {"Entity"{ENT[{"EntityID"{str[WallBill]}}{"TexturePath"{str[Ecruteak]}}{"Textures"{recArr[[112,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"Position"{sngArr[3,0.9,14]}}]}}

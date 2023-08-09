@@ -1,0 +1,11 @@
+version=2
+
+:if:<Register.Registered(tm31)>=false
+	@Text.Show(<System.Token(Moraga_Main_TM31Man_BeforeTalking)>)
+	@Item.Give(gm49,1)
+	@Item.MessageGive(gm49,1)
+	@Register.Register(tm31)
+:else
+	@Text.Show(<System.Token(Moraga_Main_TM31Man_AfterTalking)>)
+:endif
+:end
