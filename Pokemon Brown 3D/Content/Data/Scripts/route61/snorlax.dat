@@ -1,12 +1,21 @@
 version=2
 
-:if:<inventory.countitem(1008)>=True
-	@Text.Show(<player.name> played the [POKE]FLUTE.)
-	@sound.play(success)
+:if:<inventory.countitem(gm9)>>0
+	@Text.Show(<system.token(Item_Use_PokeFlute)>)
+	@sound.play(PokeFlute,1)
+	@level.wait(450)
 	@Text.Show(Snorlax woke up!*It attacked in a grumpy rage!)
-	@battle.wild(143,30)
-	@Text.Show(Snorlax calmed down! With a big~yawn, it returned to the~mountains!)
-	@npc.remove(10)
+	:if:<Register.Value(snorlaxshiny)>=true
+		@battle.wild(143,30,1)
+	:else
+		@battle.wild(143,30,0)
+	:endif
+	:if:<battle.caught>=false
+		@Text.Show(Snorlax calmed down! With a~big yawn, it returned to~the mountains!)
+	:else
+		@Text.Show(Snorlax calmed down! It no longer blocks the way!)
+	:endif
+	@entity.remove(10)
 	@Register.Register(snorlax61)
 :else
 	@Text.Show(A sleeping Pokémon blocks~the way!)

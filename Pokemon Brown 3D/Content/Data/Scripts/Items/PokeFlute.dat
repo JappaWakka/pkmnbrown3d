@@ -1,4 +1,5 @@
 version=2
 @Text.Show(<system.token(Item_Use_PokeFlute)>)
 @sound.play(PokeFlute,1)
+@level.wait(450)
 :end
