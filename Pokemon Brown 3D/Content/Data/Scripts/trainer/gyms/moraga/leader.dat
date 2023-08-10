@@ -1,19 +1,19 @@
 version=2
 
 :if:<Register.Registered(sproutbadge_obtain)>=False
-@Text.Show(Lois: It's a beautiful day.*Look at the flowers blooming~everywhere... ah...*Hello, my name is Lois,~I train grass Pokémon.*<player.name>: Well I'm after your~Sprout Badge!*Lois: Well, if you want it,~you obviousally have to fight~me for it.*<player.name>: Of course, now~lets fight!)
-@Battle.StartTrainer(Gyms\moraga\leader)
-@Register.Register(sproutbadge_obtain)
-@Register.Register(trainer_Gyms\moraga\000)
-@Register.Register(trainer_Gyms\moraga\001)
-@Register.Register(trainer_Gyms\moraga\002)
-@Register.Register(trainer_Gyms\moraga\003)
-@Player.GetBadge(3)
-@Text.Show(The Sprout Badge will make~Pokémon able to use strength in~and out of battle.*Also take this.)
-@Item.Give(211,1)
-@Item.MessageGive(211,1)
-@Text.Show(TM21 contains Giga Drain.*Half the damage it inflicts is~drained to heal your~Pokémon!)
+	@Text.Show(<system.token(Moraga_Gym_LeaderLois_BeforeBattle)>)
+	@Battle.StartTrainer(Gyms\moraga\leader)
+	@Register.Register(sproutbadge_obtain)
+	@Register.Register(trainer_Gyms\moraga\000)
+	@Register.Register(trainer_Gyms\moraga\001)
+	@Register.Register(trainer_Gyms\moraga\002)
+	@Register.Register(trainer_Gyms\moraga\003)
+	@Player.GetBadge(3)
+	@Text.Show(<system.token(Moraga_Gym_LeaderLois_AfterBattle1)>)
+	@Item.Give(gm39,1)
+	@Item.MessageGive(gm39,1)
+	@Text.Show(<system.token(Moraga_Gym_LeaderLois_AfterBattle2)>)
 :else
-@Text.Show(Good luck in collecting all~of the Rijon League badges.)
+	@Text.Show(<system.token(Moraga_Gym_LeaderLois_TalkAgain)>)
 :endif
 :end

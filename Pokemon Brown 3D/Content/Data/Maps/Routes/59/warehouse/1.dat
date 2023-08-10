@@ -236,7 +236,7 @@ NPCs:
 {"NPC"{NPC[{"Position"{sngArr[20,0,12]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[2]}}{"Name"{str[Scientist]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\silph\scientist0]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[1,0,10]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[3]}}{"Name"{str[Scientist]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\silph\scientist1]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
-{"NPC"{NPC[{"Position"{sngArr[11,0,0]}}{"TextureID"{str[15]}}{"ID"{int[10]}}{"Name"{str[Lady]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\tm46]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[11,0,0]}}{"TextureID"{str[Beauty]}}{"ID"{int[10]}}{"Name"{str[Lady]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\tm46]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Doors:
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\warehouse\0.dat,25,0.1,-1,2]}}{"Rotation"{int[0]}}]}}

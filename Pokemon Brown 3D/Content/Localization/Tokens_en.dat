@@ -1,13 +1,6 @@
 language_name,English
 =====
 Global:
-global_join,Join
-global_play,Play
-global_refresh,Refresh
-global_new,New
-global_add,Add
-global_edit,Edit
-global_remove,Remove
 global_please_wait,Please wait
 global_loading,Loading
 global_game,Game
@@ -80,6 +73,12 @@ global_pokemon_move_dig,Dig
 global_used,Used
 global_eggs_cannot_hold,Eggs cannot hold items.
 
+global_SLP,SLP
+global_BRN,BRN
+global_PSN,PSN
+global_FRZ,FRZ
+global_PAR,PAR
+global_quit,Quit
 ---
 General:
 HP,HP
@@ -172,6 +171,27 @@ gamemode_menu_author,Author
 gamemode_menu_contentpath,ContentPath
 gamemode_menu_create,Create
 gamemode_menu_back,Back
+---
+JoinServerScreen:
+join_server_screen_title,Join a server:
+join_server_screen_local_server_title,Local
+join_server_screen_local_server_description,Single-player: Play on your local computer.
+join_server_screen_button_join,Join
+join_server_screen_button_play,Play
+join_server_screen_button_refresh,Refresh
+join_server_screen_button_new,New
+join_server_screen_button_add,Add
+join_server_screen_button_edit,Edit
+join_server_screen_button_remove,Remove
+join_server_screen_tooltip_no_players,No players on the server.
+join_server_screen_tooltip_player_list,Player List
+join_server_screen_ping,Ping:
+join_server_screen_server_unavailable,Cannot reach server.
+join_server_screen_server_online,Server online.
+join_server_screen_server_polling,Polling
+join_server_screen_server_full,The server is full.
+join_server_screen_version_mismatch,Version doesn't match the server's version.
+join_server_screen_no_connection,(no connection)
 ---
 
 Options Screen:
@@ -381,6 +401,21 @@ VoltorbFlip_Tutorial_HowToPlay_Image3,But if you find Voltorb, you'll lose all y
 VoltorbFlip_Tutorial_Hint_Image,By looking at the numbers on the sides of the cards, you can see the hidden number and Voltorb totals.
 VoltorbFlip_Tutorial_AboutMemos_Image,Select "Open Memo" to open the Memo Window. Select the cards and press [<system.button(enter1)>] to add and [<system.button(back1)>] to remove marks.
 ----
+Receiving Items:
+item_received_single,Received the~
+item_received_multiple,Received
+item_found,<player.name> found~
+item_stored_in_pocket_single_start,<player.name> stored it in the~
+item_stored_in_pocket_single_end,pocket.
+item_stored_in_pocket_multiple_start,<player.name> stored them~in the
+item_stored_in_pocket_multiple_end,pocket.
+
+Berries:
+berry_picked_single_start,<player.name> picked the~
+berry_picked_single_end,Berry.
+berry_picked_multiple_start,<player.name> picked the~
+berry_picked_multiple_end,Berries.
+----
 PokedexScreen
 pokedex_seen,Seen:
 pokedex_obtained,Obtained:
@@ -499,7 +534,7 @@ Places_Route 63,Route 63
 Places_Route 64,Route 64
 Places_Route 65,Route 65
 Places_Route 66,Route 66
-Places_Route -,Route -
+Places_Route 67,Route 67
 
 ---
 Item categories:
@@ -3014,7 +3049,7 @@ Route55_KBMGamesBuilding_Floor3_PC_SamuelLow,Someone's playing a game~instead of
 Route55_KBMGamesBuilding_Floor3_PC_Fan,This guy is looking up~weird stuff!
 Route55_KBMGamesBuilding_Floor3_Note,KBM Games~Development Room
 Route55_KBMGamesBuilding_Floor4_Note,DON'T GO IN HERE!!!
-Route55_KBMGamesBuilding_Floor4_Room_Chalkboard,I shall not waste Master Balls~I shall not waste Master Balls*I shall not waste Master Balls~I shall not waste Master Balls*...I think someone wasted~a Master Ball.
+Route55_KBMGamesBuilding_Floor4_Room_Blackboard,I shall not waste Master Balls~I shall not waste Master Balls*I shall not waste Master Balls~I shall not waste Master Balls*...I think someone wasted~a Master Ball.
 Route55_KBMGamesBuilding_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 50 TMs and 4 HMs~have been produced by Silph Co.*HMs can also be used outside~of battle, but Pokémon~have trouble forgetting them.
 Route55_KBMGamesBuilding_Floor4_Room_Porygon_Receive,<player.name> got Porygon!
 Route55_KBMGamesBuilding_Floor4_Room_Porygon_ToPC,It was transfered to the PC.
@@ -3429,3 +3464,58 @@ Moraga_Main_TM31Man_BeforeTalking,You want to talk?*To me?*Thanks, I'm very lone
 Moraga_Main_TM31Man_AfterTalking,TM31 teaches Mimic!*It lets your Pokémon copy one~of the opponent's moves!
 Moraga_Main_GymLeaderFather,My daughter may appear cute,~but deep inside she is a~warrior!
 Moraga_Main_FatGuy,That gym leader is hard...*No one can beat her!
+
+Moraga_PokeCenter_BenchGuy,I wish I had HM02 Surf.
+Moraga_PokeCenter_Gentleman,Where can I revive this fossil?*...In Hayward City?~Oof! That's going to be~a long walk!
+Moraga_PokeCenter_OldWoman,I came from Eagulou City.
+
+Moraga_PokeMart_LeafStoneGuy,Why is that Leaf Stone so~expensive?
+Moraga_PokeMart_EscapeRopeGirl,Escape Ropes let you escape~from caves.
+
+Moraga_FlyHouse_Fearow_Cry,Fearow: Kyueen!
+Moraga_FlyHouse_FlyGirl_BeforeTalking,How do you people keep~finding me?*Ok, take this HM just like~the others and scram!
+Moraga_FlyHouse_FlyGirl_AfterTalking,HM02 is Fly. It will take~you back to any town.*Put it to good use!
+
+Moraga_SandshrewKidHouse_Father,My son just can't stop~paying attention to his~new pet!*At least it's better than~video games and TV...
+Moraga_SandshrewKidHouse_Kid,Fun fun!
+Moraga_SandshrewKidHouse_Sandshrew_Cry,Sandshrew: Grr!
+
+Moraga_NationsBurgers_Chef,Welcome to Nation's Burgers!
+Moraga_NationsBurgers_Waitress,We have the best hamburgers~in town!*We're on break though.
+Moraga_NationsBurgers_FatGuy,Munch...*What is with that Orion Academy?
+Moraga_NationsBurgers_Hiker,A similar restaurant in~Kanto serves way better!
+Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking,Hey kid, like to gamble?*Well, there's a casino in~Owsauri City!*I'm stinkin' rich, so I can~just buy coins.*Here, take this.
+Moraga_NationsBurgers_CoinCaseGuy_AfterTalking,Ha ha!*Win rare Pokémon with that!
+
+Moraga_OrionAcademy_Blackboard_Intro,The blackboard describes~Pokémon Status changes~during battles.
+Moraga_OrionAcademy_Blackboard_Question,Which heading do you want~to read?
+Moraga_OrionAcademy_Blackboard_Sleep,A Pokémon can't attack if~it's asleep!*Pokémon will stay asleep even~after battles!*Use Awakening to wake them~up!
+Moraga_OrionAcademy_Blackboard_Burn,A burn reduces power and~speed. It also causes~ongoing damage.*Burns remain after battles.*Use Burn Heal to cure a~burn!
+Moraga_OrionAcademy_Blackboard_Poison,When poisoned, a Pokémon's~health steadily drops.*Poison lingers after battles.*Use an Antidote to cure~poison!
+Moraga_OrionAcademy_Blackboard_Freeze,If frozen, a Pokémon becomes~totally immobile!*It stays frozen even~after the battle ends.*Use Ice Heal to thaw~out Pokémon!
+Moraga_OrionAcademy_Blackboard_Paralysis,Paralysis could make~Pokémon moves misfire!*Paralysis remains after battles.*Use Paralyze Heal for~treatment!
+Moraga_OrionAcademy_Teacher,Detention!*For... uh...*Breathing!
+Moraga_OrionAcademy_Student,I am a material girl!*Yeah!
+Moraga_OrionAcademy_Notebook_Page1,Looked at the notebook!*First page...*Pokéballs are used to~catch Pokémon. Up to 6~Pokémon can be carried.~People who raise and make~Pokémon fight are called~Pokémon Trainers.*Turn the page?
+Moraga_OrionAcademy_Notebook_Page2,Second page...*A healthy Pokémon may be hard~to catch, so weaken it first!*Poison, burns, and other~damage are effective!*Turn the page?
+Moraga_OrionAcademy_Notebook_Page3,Third page...*Pokémon Trainers seek others~to engage in Pokémon fights.~Battles are constantly fought~at Pokémon Gyms.*Turn the page?
+Moraga_OrionAcademy_Notebook_Page4,Fourth page...*There are more than 151~Pokémon available in Rijon!~Ones that are 152 and above~are hidden in special areas,~so keep an eye out for them.
+Moraga_OrionAcademy_Notebook_End,Guy: I plagiarized. So what?!
+
+Moraga_Gym_LassKatrin_IntroMessage,A boy?!*Get out of here!
+Moraga_Gym_LassKatrin_OutroMessage,You're too rough!
+Moraga_Gym_LassKatrin_DefeatMessage,Bleaah!
+Moraga_Gym_BeautyRonda_IntroMessage,I was getting bored.
+Moraga_Gym_BeautyRonda_OutroMessage,My makeup!
+Moraga_Gym_BeautyRonda_DefeatMessage,Grass-type Pokémon are tough~against the Water type!*They also have an edge~on Rock and Ground Pokémon!
+Moraga_Gym_JrTrainerFemaleJacqueline_IntroMessage,I hate boys!
+Moraga_Gym_JrTrainerFemaleJacqueline_OutroMessage,I'm in shock!
+Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We don't need men,~except to fight against!
+Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage,Don't underestemate the power~of grass!
+Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage,Oh! Beaten!
+Moraga_Gym_CoolTrainerFemaleHeather_DefeatMessage,I didn't bring my best~Pokémon!*Wait 'til next time!
+Moraga_Gym_LeaderLois_BeforeBattle,Lois: It's a beautiful day.*Look at the flowers blooming~everywhere... ah...*Hello, my name is Lois,~I train Grass Pokémon.*<player.name>: And I'm~after your Sprout Badge!*Lois: Well, if you want it,~you obviously have to fight~me for it.*<player.name>: Of course,~now let's fight!
+Moraga_Gym_LeaderLois_AfterBattle1,Lois: The Sprout Badge will~make Pokémon able to use~HM04 Strength in and out~of battle.*Also take this.
+Moraga_Gym_LeaderLois_AfterBattle2,TM21 contains Giga Drain.*Half the damage it inflicts is~drained to heal your Pokémon!
+Moraga_Gym_LeaderLois_DefeatMessage,Well that's it, you showed~me how good you are!*You earned the Sprout Badge!
+Moraga_Gym_LeaderLois_TalkAgain,Good luck in collecting all~of the Rijon League Badges.

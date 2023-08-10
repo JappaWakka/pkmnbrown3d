@@ -3,7 +3,7 @@ Name|Lois
 TrainerClass|Leader
 Money|2574
 IntroMessage|
-OutroMessage|Well that's it, you showed~me how good you are!*You earned the Sprout Badge!
+OutroMessage|<system.token(Moraga_Gym_LeaderLois_DefeatMessage)>
 DefeatMessage|
 TextureID|Lois
 Region|Rijon
@@ -17,7 +17,7 @@ Pokemon4|
 Pokemon5|
 Pokemon6|
 Items|18,18
-Gender|0
+Gender|1
 AI|0
-IntroSequence|Orange,Brown
+IntroSequence|5,5
 IntroType|11

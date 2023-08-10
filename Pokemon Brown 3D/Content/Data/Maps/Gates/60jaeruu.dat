@@ -69,7 +69,7 @@ Window:
 {"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.1,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5.01,1,5.5]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[32,36,4,12]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 
 NPC:
-{"NPC"{NPC[{"Position"{sngArr[4,0,4]}}{"TextureID"{str[15]}}{"ID"{int[0]}}{"Name"{str[Girl]}}{"Action"{int[1]}}{"AdditionalValue"{str[gates\tm39]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[4,0,4]}}{"TextureID"{str[Beauty]}}{"ID"{int[0]}}{"Name"{str[Girl]}}{"Action"{int[1]}}{"AdditionalValue"{str[gates\tm39]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Stairs:
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[0,0,7]}}{"TexturePath"{str[House3]}}{"Textures"{recArr[[64,48,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[Gates\60jaeru.dat,6,0.1,8,3,2]}}{"Rotation"{int[0]}}]}}

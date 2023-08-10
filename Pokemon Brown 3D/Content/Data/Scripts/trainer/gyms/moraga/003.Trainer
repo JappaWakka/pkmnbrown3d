@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Heather
-TrainerClass|Cool Trainer
+TrainerClass|Cool Trainer ♀
 Money|700
-IntroMessage|Don't underestemate the power~of grass!
-OutroMessage|Oh! Beaten!
-DefeatMessage|I didn't bring my best~Pokémon!*Wait 'til next time!
+IntroMessage|<system.token(Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage)>
+OutroMessage|<system.token(Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage)>
+DefeatMessage|<system.token(Moraga_Gym_CoolTrainerFemaleHeather_DefeatMessage)>
 TextureID|CoolTrainer_Female
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -17,6 +18,6 @@ Pokemon4|
 Pokemon5|
 Pokemon6|
 Items|
-Gender|0
+Gender|1
 AI|0
-IntroSequence|Black,Black
+IntroSequence|0,0

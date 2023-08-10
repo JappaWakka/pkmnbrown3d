@@ -1,0 +1,11 @@
+version=2
+
+:if:<Register.Registered(hmfly)>=false
+	@Text.Show(<System.Token(Moraga_FlyHouse_FlyGirl_BeforeTalking)>)
+	@Item.Give(gm70,1)
+	@Item.MessageGive(gm70,1)
+	@Register.Register(hmfly)
+:else
+	@Text.Show(<System.Token(Moraga_FlyHouse_FlyGirl_AfterTalking)>)
+:endif
+:end

@@ -9,14 +9,13 @@ Cities:
 {"PlaceType"[City]}{"Name"[Jaeru City]}{"MapFiles"[Jaeru\Main.dat,Jaeru\PokeCenter.dat,Jaeru\PokeMart.dat,Jaeru\rideshop.dat]}{"Position"[12,7]}{"Size"[Small]}{"FlyTo"[Jaeru\Main.dat,15,12,28]}
 {"PlaceType"[City]}{"Name"[Botan City]}{"MapFiles"[Botan\Main.dat,Botan\PokeMart.dat,Botan\house.dat]}{"Position"[15,7]}{"Size"[Small]}{"FlyTo"[Botan\Main.dat,17,12,20]}
 {"PlaceType"[City]}{"Name"[Castro Valley]}{"MapFiles"[Castro\Main.dat,Castro\PokeMart.dat,Castro\forest.dat]}{"Position"[15,10]}{"Size"[Small]}{"FlyTo"[Castro\Main.dat,21,12,16]}
-{"PlaceType"[City]}{"Name"[Azalea Town]}{"MapFiles"[]}{"Position"[17,15]}{"Size"[Small]}{"FlyTo"[Azalea\Main.dat,0,12,0]}
+{"PlaceType"[City]}{"Name"[Azalea Town]}{"MapFiles"[]}{"Position"[17,15]}{"Size"[Horizontal]}{"FlyTo"[Azalea\Main.dat,0,12,0]}
 
 Routes:
 
 {"PlaceType"[Route]}{"Name"[Route 34]}{"MapFiles"[]}{"Position"[15,14]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
 {"PlaceType"[Route]}{"Name"[Route 47-B]}{"MapFiles"[]}{"Position"[14,15]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 47-B]}{"MapFiles"[]}{"Position"[15,15]}{"Direction"[TUp]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 47-B]}{"MapFiles"[]}{"Position"[14,15]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 47-B]}{"MapFiles"[]}{"Position"[14,16]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
@@ -112,9 +111,11 @@ Routes:
 Places:
 {"PlaceType"[Place]}{"Name"[Merson Cave]}{"Mapfiles"[Caves\Merson\1F.dat,Caves\Merson\B1F.dat,Caves\Merson\B2F.dat,Caves\Merson\Outside.dat]}{"Position"[3,15]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Mt. Boulder]}{"Mapfiles"[Caves\MtBoulder\Main.dat]}{"Position"[7,12]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Silk Tunnel]}{"Mapfiles"[Caves\Silk\Main.dat]}{"Position"[7,7]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Silk Tunnel]}{"Mapfiles"[Caves\SilkTunnel\Main.dat]}{"Position"[8,7]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Castro Forest]}{"Mapfiles"[CastroValley\Main.dat]}{"Position"[14,10]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Seneca Caverns]}{"Mapfiles"[]}{"Position"[15,5]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Rijon League]}{"MapFiles"[]}{"Position"[12,1]}{"Size"[Small]}{"FlyTo"[League\route0.dat,9,12,-10]}
 {"PlaceType"[Place]}{"Name"[Blood Moon Island]}{"MapFiles"[bmisland\Main.dat]}{"Position"[14,19]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Ilex Forest]}{"MapFiles"[]}{"Position"[16,15]}{"Size"[Small]}
+{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[]}{"Position"[15,15]}{"Direction"[TUp]}{"RouteType"[Land]}
+{"PlaceType"[Place]}{"Name"[Slowpoke Well]}{"MapFiles"[]}{"Position"[19,15]}{"Size"[Small]}

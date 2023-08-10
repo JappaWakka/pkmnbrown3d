@@ -79,7 +79,7 @@ NPCs:
 {"NPC"{NPC[{"Position"{sngArr[13,0,6]}}{"TextureID"{str[83]}}{"ID"{int[1]}}{"Name"{str[Assistant]}}{"Action"{int[0]}}{"AdditionalValue"{str[Welcome to the Cable Club.*This area is reserved for 2~friends who are linked by cable.]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[0,0.2,5]}}{"TextureID"{str[12]}}{"ID"{int[2]}}{"Name"{str[Shop]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[4,0,9]}}{"TextureID"{str[GymGuy]}}{"ID"{int[5]}}{"Name"{str[Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[league\gymguy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[6,0,0]}}{"TextureID"{str[15]}}{"ID"{int[3]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[Do you think you're ready?*Good, go in!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[[2,2,3,1]]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[6,0,0]}}{"TextureID"{str[Beauty]}}{"ID"{int[3]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[Do you think you're ready?*Good, go in!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[[2,2,3,1]]}}]}}
 
 townmap:
 {"Entity"{ENT[{"Scale"{sngArr[0.6,0.6,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6.5,0.2,3.51]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[48,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

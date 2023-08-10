@@ -102,7 +102,7 @@ Strength Trigger:
 {"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"ID"{int[3]}}{"Position"{sngArr[9,0.95,12]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[9,1,6]}}{"TextureID"{str[23]}}{"ID"{int[0]}}{"Name"{str[AceF]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\eagulou\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[9,1,6]}}{"TextureID"{str[CoolTrainer_Female]}}{"ID"{int[0]}}{"Name"{str[AceF]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\eagulou\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[6,0,7]}}{"TextureID"{str[13]}}{"ID"{int[1]}}{"Name"{str[AceM]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\eagulou\001]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Items:

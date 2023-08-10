@@ -151,7 +151,7 @@ NPCs:
 {"NPC"{NPC[{"Position"{sngArr[24,0,19]}}{"TextureID"{str[14]}}{"ID"{int[6]}}{"Name"{str[Youngster]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\006]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[44,0,21]}}{"TextureID"{str[Lass_Blue]}}{"ID"{int[7]}}{"Name"{str[Lass]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\007]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[57,0,19]}}{"TextureID"{str[PokeManiac]}}{"ID"{int[8]}}{"Name"{str[PokéManiac]}}{"Action"{int[0]}}{"AdditionalValue"{str[That stupid guard won't let~me get to the next city!*What is his problem?!]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[58,0,2]}}{"TextureID"{str[15]}}{"ID"{int[9]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[A little beer makes the~guard go to sleep!*(Not implemented yet!)]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[58,0,2]}}{"TextureID"{str[Beauty]}}{"ID"{int[9]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[A little beer makes the~guard go to sleep!*(Not implemented yet!)]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Warps:
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[0,0,20]}}{"SeasonTexture"{str[Grass]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[96,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Jaeru\Main.dat,39,0.1,20,0]}}{"Rotation"{int[0]}}]}}

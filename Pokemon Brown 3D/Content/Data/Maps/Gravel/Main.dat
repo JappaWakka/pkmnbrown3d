@@ -53,7 +53,7 @@ Floors:
 	
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[9,0,-3]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Visible"{bool[0]}}]}}
-	
+		
 	Removal
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[5,0,24]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"Remove"{bool[1]}}]}}
 	

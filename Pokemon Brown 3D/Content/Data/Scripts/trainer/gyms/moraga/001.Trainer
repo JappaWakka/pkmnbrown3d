@@ -2,11 +2,12 @@
 Name|Ronda
 TrainerClass|Beauty
 Money|1330
-IntroMessage|I was getting bored.
-OutroMessage|My makeup!
-DefeatMessage|Grass-type Pokémon are tough~against the water type!*They also have an edge~on rock and ground Pokémon!
-TextureID|Lass_Blue5
+IntroMessage|<system.token(Moraga_Gym_BeautyRonda_IntroMessage)>
+OutroMessage|<system.token(Moraga_Gym_BeautyRonda_OutroMessage)>
+DefeatMessage|<system.token(Moraga_Gym_BeautyRonda_DefeatMessage)>
+TextureID|Beauty
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -17,6 +18,6 @@ Pokemon4|69,19
 Pokemon5|
 Pokemon6|
 Items|
-Gender|0
+Gender|1
 AI|0
-IntroSequence|Black,Black
+IntroSequence|10,10

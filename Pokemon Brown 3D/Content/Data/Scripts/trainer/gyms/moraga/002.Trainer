@@ -2,11 +2,12 @@
 Name|Jacqueline
 TrainerClass|Jr. Trainer ♀
 Money|400
-IntroMessage|I hate boys!
-OutroMessage|I'm in shock!
-DefeatMessage|We don't need men,~except to fight against!
+IntroMessage|<system.token(Moraga_Gym_JrTrainerFemaleJacqueline_IntroMessage)>
+OutroMessage|<system.token(Moraga_Gym_JrTrainerFemaleJacqueline_OutroMessage)>
+DefeatMessage|<system.token(Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage)>
 TextureID|JrTrainer_Female
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -17,6 +18,6 @@ Pokemon4|
 Pokemon5|
 Pokemon6|
 Items|
-Gender|0
+Gender|1
 AI|0
-IntroSequence|Black,Black
+IntroSequence|7,7

@@ -1,0 +1,11 @@
+version=2
+
+:if:<Register.Registered(coincase)>=false
+	@Text.Show(<system.token(Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking)>)
+	@Item.Give(54,1)
+	@Item.MessageGive(54,1)
+	@Register.Register(coincase)
+:else
+	@Text.Show(<system.token(Moraga_NationsBurgers_CoinCaseGuy_AfterTalking)>)
+:endif
+:end
