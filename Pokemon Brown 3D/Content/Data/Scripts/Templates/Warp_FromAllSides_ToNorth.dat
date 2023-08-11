@@ -5,12 +5,12 @@ version=2
 :else
 	:if:<Player.Facing>=1
 		@Player.Warp(map.dat,0,0.1,0,3)
+	:else
+		:if:<Player.Facing>=2
+			@Player.Warp(map.dat,0,0.1,0,2)
 		:else
-			:if:<Player.Facing>=2
-				@Player.Warp(map.dat,0,0.1,0,2)
-				:else
-					@Player.Warp(map.dat,0,0.1,0,1)
-			:endif
+			@Player.Warp(map.dat,0,0.1,0,1)
+		:endif
 	:endif
 :endif
 @Level.Update

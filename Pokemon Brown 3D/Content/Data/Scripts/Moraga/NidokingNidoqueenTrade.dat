@@ -1,0 +1,17 @@
+version=2
+
+:if:<Register.Registered(nidoqueentrade)>=false
+@Text.Show(<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		@pokemon.npctrade(31|34||-1||0|33254|Trainer|5||<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation)>|<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod)>|Adam|<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeSuccess)>|<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeFail)>|nidoqueentrade)
+	:end
+	
+	:when:<system.token(global_no)>
+	@Text.Show(<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_Answer_No)>)
+	:end
+	:endwhen
+:else
+	@Text.Show(<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_AfterTrade)>)
+:endif	
+:end

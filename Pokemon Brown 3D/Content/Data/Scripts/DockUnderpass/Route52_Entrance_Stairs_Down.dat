@@ -5,12 +5,12 @@ version=2
 :else
 	:if:<Player.Facing>=1
 		@Player.Warp(Routes\DockUnderpass.dat,0,0.1,4,2)
+	:else
+		:if:<Player.Facing>=2
+			@Player.Warp(Routes\DockUnderpass.dat,0,0.1,4,1)
 		:else
-			:if:<Player.Facing>=2
-				@Player.Warp(Routes\DockUnderpass.dat,0,0.1,4,1)
-				:else
-					@Player.Warp(Routes\DockUnderpass.dat,0,0.1,4,0)
-			:endif
+			@Player.Warp(Routes\DockUnderpass.dat,0,0.1,4,0)
+		:endif
 	:endif
 :endif
 @Level.Update
