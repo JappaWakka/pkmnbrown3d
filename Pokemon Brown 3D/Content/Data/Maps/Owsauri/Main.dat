@@ -202,6 +202,16 @@ Buildings:
 				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[24.9375,3.5925,22]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[32,16,14,3][16,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,0,0,-1,-1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[24.9375,3.5925,23]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[34,16,14,3][0,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,0,0,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[24.9375,3.5925,25]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[32,16,14,3][16,16,14,16]]}}{"TextureIndex"{intArr[0,0,0,0,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			Bottom
+				West
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20.0625,3.5925,22]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20.0625,3.5925,23]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[2,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20.0625,3.5925,25]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				
+				East
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[24.9375,3.5925,22]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[16,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[24.9375,3.5925,23]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[24.9375,3.5925,25]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[16,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			
 	DayCare
 		Floors
@@ -261,7 +271,18 @@ Buildings:
 				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.9375,1.5925,8]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[32,16,14,3][16,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,0,0,-1,-1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.9375,1.5925,9]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[34,16,14,3][0,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,0,0,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.9375,1.5925,11]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[32,16,14,3][16,16,14,16]]}}{"TextureIndex"{intArr[0,0,0,0,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	
+			
+			Bottom
+				West
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.0625,1.5925,8]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.0625,1.5925,9]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[2,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.0625,1.5925,11]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				
+				East
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.9375,1.5925,8]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[16,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.9375,1.5925,9]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.9375,1.5925,11]}}{"TexturePath"{str[Cities\Owsauri]}}{"Textures"{recArr[[16,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				
 	Gym
 		Floors
 			Building

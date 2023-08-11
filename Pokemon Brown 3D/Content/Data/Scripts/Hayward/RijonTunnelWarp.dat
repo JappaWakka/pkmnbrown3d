@@ -1,10 +1,10 @@
 version=2
 
-:if:<level.filename>=tunnel3
+:if:<level.filename>=RijonTunnel
 	:select:<player.position>
 		:when:1,0,2
 			@screen.fadeout
-			@player.warp(Hayward\tunnel.dat,3,0.1,3)
+			@player.warp(Hayward\RijonTunnel_Entrance.dat,3,0.1,3)
 			@level.update
 			@screen.fadein
 			:end
@@ -18,17 +18,17 @@ version=2
 	:endwhen
 :endif
 
-:if:<level.filename>=tunnel
-			@screen.fadeout
-			@player.warp(Routes\tunnel3.dat,1,0.1,2)
-			@level.update
-			@screen.fadein
-			:end
+:if:<level.filename>=RijonTunnel_Entrance
+	@screen.fadeout
+	@player.warp(Routes\RijonTunnel.dat,1,0.1,2)
+	@level.update
+	@screen.fadein
+	:end
 :endif
 
-:if:<level.filename>=main
+:if:<level.filename>=Main
 	@screen.fadeout
-	@player.warp(Routes\tunnel3.dat,34,0.1,28)
+	@player.warp(Routes\RijonTunnel.dat,34,0.1,28)
 	@level.update
 	@screen.fadein
 	:end

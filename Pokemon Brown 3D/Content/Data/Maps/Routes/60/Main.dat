@@ -6,22 +6,30 @@ Floors:
 		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[20,25]}}{"Position"{intArr[0,0,-11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
 	
 	Dirt
+		{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[2,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[3,2]}}{"Position"{intArr[10,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[0,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
-	
+		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[12,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+		
 	Doormat
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[13,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[12,0,9]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[12,0,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[13,0,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
 		
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[-1,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Visible"{bool[0]}}]}}
+	
+	Removal
+		{"Floor"{ENT[{"Size"{intArr[4,8]}}{"Position"{intArr[4,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
 			
 Trees:
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[20,9]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,0,-11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[14,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,0,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[2,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[13,0,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[2,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[2,0,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[4,8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[4,4]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[16,0,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[6,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[4,0,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Tall Grass:
@@ -29,7 +37,196 @@ Tall Grass:
 	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,2]}}{"EntityID"{str[Grass]}}{"Position"{sngArr[8,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[4,2]}}{"EntityID"{str[Grass]}}{"Position"{sngArr[8,0,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
+Buildings:
+	Jaeru City Gate
+		BuildingFloors
+			{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[14,0,-2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,16,16,16]}}{"HasSnow"{bool[0]}}]}}
+			{"Floor"{ENT[{"Size"{intArr[5,4]}}{"Position"{intArr[15,0,-2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+			
+		Walls
+			South
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.16,0,1]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[53,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,0,1]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.16,1,1]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[85,32,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,1,1]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+							
+			North
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.16,0,-2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[64,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,0,-2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.16,1,-2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[64,32,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,1,-2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				
+			West
+				{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.3175,0,-2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.3175,0,1]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+				
+				{"EntityField"{ENT[{"Size"{intArr[1,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.3175,1,-2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+				
+			East
+				{"EntityField"{ENT[{"Size"{intArr[1,1,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[39.6825,0,10]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[39.6825,0,15]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,2,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[39.6825,1,10]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+		
+		Roof
+			West
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.0625,1.5925,-2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[34,16,14,3][18,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.0625,1.5925,-1]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[34,16,14,3][2,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.0625,1.5925,1]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[34,16,14,3][18,16,14,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			Center
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,1.5925,-2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][16,16,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[5,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,1.5925,-1]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,1.5925,1]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][16,16,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	Route 61 Gate
+		Floors
+			House
+				{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[10,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,16,16,16]}}{"HasSnow"{bool[0]}}]}}
+				{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[11,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+				{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[15,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,16,16,16]}}{"HasSnow"{bool[0]}}]}}
+			
+		Walls
+			North
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.16,0,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[64,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[11,0,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,0,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,0,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.84,0,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[53,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.16,1,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[64,32,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[11,1,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,1,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,1,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[16,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,1,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.84,1,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[53,32,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				
+			West
+				{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.3175,0,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.3175,1,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+				
+			East
+				{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.6825,0,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.6825,1,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+		
+		Roof
+			West
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.0625,1.5925,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[34,16,14,3][18,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.0625,1.5925,13]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[34,16,14,3][2,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				
+			Center
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[11,1.5925,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][16,16,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[11,1.5925,13]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				
+			East
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.9375,1.5925,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][16,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,0,0,-1,-1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.9375,1.5925,13]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[34,16,14,3][0,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,0,0,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			Bottom
+				West
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.0625,1.5925,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.0625,1.5925,13]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[2,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					
+				East
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.9375,1.5925,12]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[16,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14.9375,1.5925,13]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					
+	Power Plant
+		BuildingFloors
+			{"Floor"{ENT[{"Size"{intArr[1,8]}}{"Position"{intArr[8,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,16,16,16]}}{"HasSnow"{bool[0]}}]}}
+			{"Floor"{ENT[{"Size"{intArr[10,8]}}{"Position"{intArr[9,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+			{"Floor"{ENT[{"Size"{intArr[1,8]}}{"Position"{intArr[19,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,16,16,16]}}{"HasSnow"{bool[0]}}]}}
+			
+		Walls
+			North
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.16,0,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[64,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[10,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,0,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.84,0,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[53,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				
+				{"EntityField"{ENT[{"Size"{intArr[1,5,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.16,1,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[80,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[10,5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,1,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,5,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.84,1,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[85,32,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+				
+				
+			South
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.16,0,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[53,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,0,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,0,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,0,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.84,0,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[64,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.16,1,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[53,32,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,1,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,1,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[16,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,1,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,1,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.84,1,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[64,32,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				
+				{"EntityField"{ENT[{"Size"{intArr[1,4,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.16,2,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[53,32,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[10,4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,2,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,4,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.84,2,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[64,32,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				
+			West
+				{"EntityField"{ENT[{"Size"{intArr[1,8]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.3175,0,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,5,8]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.3175,1,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+				
+			East
+				{"EntityField"{ENT[{"Size"{intArr[1,8]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.6825,0,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+				{"EntityField"{ENT[{"Size"{intArr[1,5,8]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.6825,1,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+		
+		Roof
+			West
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.0625,5.5925,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[34,16,14,3][18,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.0625,5.5925,3]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[34,16,14,3][2,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.0625,5.5925,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[34,16,14,3][18,16,14,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			Center
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[10,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,5.5925,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][16,16,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[10,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,5.5925,3]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[10,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,5.5925,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][16,16,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			East
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.9375,5.5925,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][16,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,0,0,-1,-1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.9375,5.5925,3]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[34,16,14,3][0,16,14,16]]}}{"TextureIndex"{intArr[-1,-1,0,0,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.9375,5.5925,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[32,16,14,3][16,16,14,16]]}}{"TextureIndex"{intArr[0,0,0,0,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			Bottom
+				West
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.0625,5.5925,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.0625,5.5925,3]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[2,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8.0625,5.5925,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				
+				East
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.9375,5.5925,2]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[16,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.9375,5.5925,3]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.9375,5.5925,9]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[16,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
+Water:
+	Regular Water
+		{"EntityField"{ENT[{"Size"{intArr[2,6]}}{"EntityID"{str[Water]}}{"Position"{sngArr[5,-0.25,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		
+	Waterside Sides (Direction = Where the water is)
+		North
+			{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[5,-0.25,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+			
+		South
+			{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[5,-0.25,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
+			
+		West
+			{"EntityField"{ENT[{"Size"{intArr[1,6]}}{"EntityID"{str[Water]}}{"Position"{sngArr[7,-0.25,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
+			
+		East
+			{"EntityField"{ENT[{"Size"{intArr[1,6]}}{"EntityID"{str[Water]}}{"Position"{sngArr[4,-0.25,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			
+	Waterside Clockwise Corners (Direction = Where the water is)
+		NorthWest
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[7,-0.25,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
+			
+		NorthEast
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[4,-0.25,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		
+		SouthWest
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[7,-0.25,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
+			
+		SouthEast
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[4,-0.25,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			
 Warps:
 	Moraga Town
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-1,0,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Moraga\Main.dat,50,0.1,12,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
@@ -37,11 +234,10 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-1,0,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Moraga\Main.dat,50,0.1,14,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-1,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Moraga\Main.dat,50,0.1,15,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
-	Route60-Jaeru Gate
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[11,0,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\60jaeru.dat,-1,0.1,5,0]}}{"Rotation"{int[1]}}]}}
+	Jaeru City Gate
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[14.3175,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\60jaeru.dat,-1,0.1,5,0]}}{"Rotation"{int[3]}}]}}
 	
-	Route60-Route61 Gate
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\6061.dat,4,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
+	Route61 Gate
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[13,0,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\6061.dat,5,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
 	
 	Power Plant
