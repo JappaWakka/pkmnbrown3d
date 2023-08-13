@@ -3,4 +3,4 @@ version=2
 @Text.Show(Bzzzzt!)
 @battle.wild(100,40)
 @Register.Register(voltorb6)
-@level.reload
+@npc.remove(5)

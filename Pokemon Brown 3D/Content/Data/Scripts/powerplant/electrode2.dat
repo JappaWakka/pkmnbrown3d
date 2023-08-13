@@ -3,4 +3,4 @@ version=2
 @Text.Show(Bzzzzt!)
 @battle.wild(101,43)
 @Register.Register(electrode2)
-@level.reload
+@npc.remove(7)

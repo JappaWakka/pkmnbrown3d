@@ -315,6 +315,7 @@ Warps:
 Items:
 	Great Ball
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[13,-0.375,42]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,4]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+	Evolution Tool
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[5,-0.375,55]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[1,gm1]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 
 Offsets:
@@ -327,7 +328,7 @@ Offsets:
 Backdrops:
 	Seashore
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-88.5,-0.75,65.5]}}{"Size"{intArr[80,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,65.5]}}{"Size"{intArr[80,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,65.5]}}{"Size"{intArr[73,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	Route52
 		{"Backdrop"{BAC[{"Position"{sngArr[32.5,-0.75,-2.5]}}{"Size"{intArr[71,68]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Position"{sngArr[-88.5,-0.75,-2.5]}}{"Size"{intArr[79,2]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
