@@ -1,0 +1,41 @@
+version=2
+:if:<Register.Registered(legendary)>=false
+	:select:<system.random(0,1)>
+	:when:0
+	@Register.Register(Mew)
+	:when:1
+	@Register.Register(MewTwo)
+	:endwhen
+	
+	:select:<system.random(2,3)>
+	:when:2
+	@Register.Register(Hooh)
+	:when:3
+	@Register.Register(Lugia)
+	:endwhen
+	
+	:select:<system.random(4,5)>
+	:when:4
+	@Register.Register(Moltres)
+	:when:5
+	@Register.Register(Entei)
+	:endwhen
+	
+	:select:<system.random(6,7)>
+	:when:6
+	@Register.Register(Zapdos)
+	:when:7
+	@Register.Register(Raikou)
+	:endwhen
+	
+	:select:<system.random(8,9)>
+	:when:8
+	@Register.Register(Articuno)
+	:when:9
+	@Register.Register(Suicune)
+	:endwhen
+	
+	@Register.Register(legendary)
+:endif
+
+:end

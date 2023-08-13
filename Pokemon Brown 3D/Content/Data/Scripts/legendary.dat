@@ -1,6 +1,75 @@
 version=2
-
-:if:<Register.Registered(legendary)>=false
+@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Question)>)
+@options.show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Fighter)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Wizard)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Random)>)
+:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Fighter)>
+	@Register.Register(Mew)
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Fighter_Question)>)
+	@Options.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Fighter_Answer_Melee)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Fighter_Answer_Ranged)>)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Fighter_Answer_Melee)>
+		@Register.Register(Hooh)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Fighter_Answer_Ranged)>
+		@Register.Register(Lugia)
+	:endwhen
+	
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step3_Fighter_Question)>)
+	@Options.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step3_Fighter_Answer_Money)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step3_Fighter_Answer_Items)>)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step3_Fighter_Answer_Money)>
+		@Register.Register(Moltres)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step3_Fighter_Answer_Items)>
+		@Register.Register(Entei)
+	:endwhen
+	
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step4_Fighter_Question)>)
+	@Options.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step4_Fighter_Answer_Speed)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step4_Fighter_Answer_Power)>)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step4_Fighter_Answer_Speed)>
+		@Register.Register(Raikou)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step4_Fighter_Answer_Power)>
+		@Register.Register(Zapdos)
+	:endwhen
+	
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Fighter_Question)>)
+	@Options.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Fighter_Answer_Shy)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Fighter_Answer_Tough)>)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Fighter_Answer_Shy)>
+		@Register.Register(Articuno)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Fighter_Answer_Tough)>
+		@Register.Register(Suicune)
+	:endwhen
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Finished_Answer)>)
+:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Wizard)>
+	@Register.Register(MewTwo)
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Wizard_Question)>)
+	@Options.Show(Fire,Water)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Wizard_Answer_Fire)>
+		@Register.Register(Hooh)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Wizard_Answer_Water)>
+		@Register.Register(Lugia)
+	:endwhen
+	
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step3_Wizard_Question)>)
+	@Options.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step3_Wizard_Answer_Secrets)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step3_Wizard_Answer_Battles)>)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step3_Wizard_Answer_Secrets)>
+		@Register.Register(Moltres)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step3_Wizard_Answer_Battles)>
+		@Register.Register(Entei)
+	:endwhen
+	
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step4_Wizard_Question)>)
+	@Options.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step4_Wizard_Answer_Stealth)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step4_Wizard_Answer_Force)>)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step4_Wizard_Answer_Stealth)>
+		@Register.Register(Raikou)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step4_Wizard_Answer_Force)>
+		@Register.Register(Zapdos)
+	:endwhen
+	
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Question)>)
+	@Options.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Answer_Direct)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Answer_Vague)>)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Answer_Direct)>
+		@Register.Register(Articuno)
+	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Answer_Vague)>
+		@Register.Register(Suicune)
+	:endwhen
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Finished_Answer)>)
+:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Random)>
 	:select:<system.random(0,1)>
 	:when:0
 	@Register.Register(Mew)
@@ -35,8 +104,8 @@ version=2
 	:when:9
 	@Register.Register(Suicune)
 	:endwhen
-	
-	@Register.Register(legendary)
-	
-:endif
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Finished_Random)>)
+:endwhen
+
+@Register.Register(legendary)
 :end

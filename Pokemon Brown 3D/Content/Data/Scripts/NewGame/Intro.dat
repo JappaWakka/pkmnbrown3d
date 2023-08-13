@@ -31,7 +31,7 @@
 @camera.update
 
 @Text.Show(<system.token(GameIntro_3)>)
-@screen.input(<screen.selectedskin>,name,<screen.selectedskin>,14)
+@screen.input(Brown,name,Brown,14)
 @player.setname(<system.lastinput>)
 
 @Text.Show(<system.token(GameIntro_4)>)

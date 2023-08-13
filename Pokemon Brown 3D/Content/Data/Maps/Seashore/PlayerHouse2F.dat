@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Seashore City]}}{"MusicLoop"{str[Seashore]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[legendary]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
 
 Floors:
 	{"Floor"{ENT[{"Size"{intArr[8,7]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,0,16,16]}}]}}
@@ -33,7 +33,10 @@ Walls (Direction = Facing):
 Stairs:
 	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_House_Down]}}{"Offset"{sngArr[7,-1,0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\PlayerHouse2F_Stairs]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-
+	
+Legendary setting checks:
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\AlmostForgotNewGame]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\AlmostForgotNewGame]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Furniture:
 	Bed
@@ -52,7 +55,7 @@ Furniture:
 	
 	TV
 		{"Structure"{STR[{"Map"{str[Structures\Furniture\TV]}}{"Offset"{sngArr[3,0,3]}}]}}
-	Snes
+	SNES
 		ScriptBlock
 			{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Seashore\SNES]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		Console
