@@ -237,7 +237,7 @@ Cut Tree:
 			
 
 Buildings:
-	Gate
+	Hayward Gate
 		Floors
 			House
 				{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[6,0,-2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,16,16,16]}}{"HasSnow"{bool[0]}}]}}
@@ -297,7 +297,7 @@ Buildings:
 		
 Warps:
 	Hayward City Gate
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route52_Hayward.dat,4,0.1,7,4]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route52-Hayward.dat,4,0.1,7,4]}}{"Rotation"{int[0]}}]}}
 
 	Seashore City
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,-0.25,66]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\Main.dat,16,0,-2,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
