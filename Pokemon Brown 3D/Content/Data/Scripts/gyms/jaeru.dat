@@ -1,9 +1,8 @@
 version=2
 
 :if:<Register.Registered(sparkybadge_obtain)>=true
-@Text.Show(Jaeru City Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<player.name>)
-
+	@Text.Show(<system.token(Jaeru_Main_Sign_Gym_AfterDefeat)>)
 :else
-	@Text.Show(Jaeru City Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura)
+	@Text.Show(<system.token(Jaeru_Main_Sign_Gym_BeforeDefeat)>)
 :endif
 :end

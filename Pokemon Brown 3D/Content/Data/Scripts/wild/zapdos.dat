@@ -1,11 +1,11 @@
 version=2
 
-:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
-@Text.Show(Gyaao!)
-@battle.wildshiny(145,50)
+:if:<Register.Value(ZapdosRaikouShiny)>=true
+	@Text.Show(<system.token(Route60_PowerPlant_Zapdos)>)
+	@battle.wild(145,50,1)
 :else
-@Text.Show(Gyaao!)
-@battle.wild(145,50)
+	@Text.Show(<system.token(Route60_PowerPlant_Zapdos)>)
+	@battle.wild(145,50,0)
 :endif
 @register.unregister(Zapdos)
 @level.reload

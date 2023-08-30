@@ -1,11 +1,27 @@
 version=2
 
+:if:<Register.Registered(ZapdosRaikouShiny)>=false
+	:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
+		@Register.Register(ZapdosRaikouShiny,bool,true)
+	:else
+		@Register.Register(ZapdosRaikouShiny,bool,false)
+	:endif
+:endif
+
 :if:<Register.Registered(Zapdos)>=True
-	@npc.spawn(28,0,35,1,wild\zapdos,[POKEMON|N]145,1,1,Zapdos,10,Still)
+	:if:<Register.Value(ZapdosRaikouShiny)>=true
+		@npc.spawn(28,0,35,1,wild\zapdos,[POKEMON|S]145,1,1,Zapdos,10,Still)
+	:else
+		@npc.spawn(28,0,35,1,wild\zapdos,[POKEMON|N]145,1,1,Zapdos,10,Still)
+	:endif
 :endif
 
 :if:<Register.Registered(Raikou)>=True
-	@npc.spawn(28,0,35,1,wild\raikou,[POKEMON|N]243,0,1,Raikou,10,Still)
+	:if:<Register.Value(ZapdosRaikouShiny)>=true
+		@npc.spawn(28,0,35,1,wild\raikou,[POKEMON|S]243,0,1,Raikou,10,Still)
+	:else
+		@npc.spawn(28,0,35,1,wild\raikou,[POKEMON|N]243,0,1,Raikou,10,Still)
+	:endif
 :endif
 
 :if:<Register.Registered(voltorb1)>=True

@@ -1,0 +1,17 @@
+version=2
+
+:if:<Player.Facing>=0
+	@Player.Warp(Gates\Route60-Jaeru_2F.dat,0,0.1,7,0)
+:else
+	@Player.Warp(Gates\Route60-Jaeru_2F.dat,0,0.1,7,1)
+:endif
+@Level.Update
+:if:<player.isrunning>=true
+	@Player.SetSpeed(1.5)
+:endif
+:if:<level.riding>=true
+	@Player.SetSpeed(2)
+:endif
+@Player.Move(1)
+
+:end

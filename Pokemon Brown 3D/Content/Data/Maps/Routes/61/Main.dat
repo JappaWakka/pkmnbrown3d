@@ -246,13 +246,15 @@ Water:
 			
 		NorthEast
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[16,-0.25,76]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
-		
+			
 		SouthWest
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-1,-0.25,75]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[19,-0.25,75]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,79]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			
 		SouthEast
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,75]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[28,-0.25,75]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[16,-0.25,79]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			
 	Waterside Clockwise Corners (Direction = Where the water is)
@@ -297,16 +299,15 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[15,0,41]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route61-Route62.dat,5,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
 
 Snorlax:
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"ID"{int[10]}}{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,-0.5,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[Models\SleepingSnorlax\Snorlax_Normal]}}{"RotationXYZ"{sngArr[0,0,0]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"ID"{int[10]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,0,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[Route61\snorlax]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"ID"{int[10]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,-0.5,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"Visible"{bool[1]}}{"ModelPath"{str[Models\SleepingSnorlax\Snorlax_Normal]}}{"AdditionalValue"{str[Route61\snorlax]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[15,2.35,27]}}{"TextureID"{str[Fisherman]}}{"ID"{int[0]}}{"Name"{str[Fisher]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\route61\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[11,2.35,14]}}{"TextureID"{str[Fisherman]}}{"ID"{int[1]}}{"Name"{str[Fisher]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\001]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[21,2.35,17]}}{"TextureID"{str[Fisherman]}}{"ID"{int[2]}}{"Name"{str[Fisher]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\002]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[20,2.35,6]}}{"TextureID"{str[Fisherman]}}{"ID"{int[3]}}{"Name"{str[Fisher]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\003]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[17,2.35,67]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[4]}}{"Name"{str[Jr. Trainer ♂]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\004]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[12,2.35,72]}}{"TextureID"{str[Fisherman]}}{"ID"{int[5]}}{"Name"{str[Fisher]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[15,0,27]}}{"TextureID"{str[Fisherman]}}{"ID"{int[0]}}{"Name"{str[Fisherman Hildegard]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\route61\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[11,0,14]}}{"TextureID"{str[Fisherman]}}{"ID"{int[1]}}{"Name"{str[Fisherman Izmaehl]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\001]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[21,0,17]}}{"TextureID"{str[Fisherman]}}{"ID"{int[2]}}{"Name"{str[Fisherman Terry]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\002]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[20,0,6]}}{"TextureID"{str[Fisherman]}}{"ID"{int[3]}}{"Name"{str[Fisherman Connor]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\003]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[17,0,67]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[4]}}{"Name"{str[Jr. Trainer ♂ Darwin]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\004]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[12,0,72]}}{"TextureID"{str[Fisherman]}}{"ID"{int[5]}}{"Name"{str[Fisherman Marrec]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Items:
 	Evolution Tool
@@ -317,4 +318,8 @@ Items:
 Offsets:
 {"OffsetMap"{MAP[{"Offset"{sngArr[-50,-24]}}{"Map"{str[Moraga\Main.dat]}}]}}
 {"OffsetMap"{MAP[{"Offset"{sngArr[0,-14]}}{"Map"{str[Routes\60\Main.dat]}}]}}
-"OffsetMap"{MAP[{"Offset"{sngArr[18,-39]}}{"Map"{str[Jaeru\Main.dat]}}]}}
+{"OffsetMap"{MAP[{"Offset"{sngArr[20,-38]}}{"Map"{str[Jaeru\Main.dat]}}]}}
+
+Backdrops:
+	{"Backdrop"{BAC[{"Position"{sngArr[-1.5,-0.75,87.5]}}{"Size"{intArr[30,40]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		

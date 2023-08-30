@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Connor
-TrainerClass|Fisher
+TrainerClass|Fisherman
 Money|1190
-IntroMessage|Yeah!
-OutroMessage|Tch!
-DefeatMessage|Hang on!
-TextureID|Lass_Blue9
+IntroMessage|<system.token(Route61_Main_FishermanConnor_IntroMessage)>
+OutroMessage|<system.token(Route61_Main_FishermanConnor_OutroMessage)>
+DefeatMessage|<system.token(Route61_Main_FishermanConnor_DefeatMessage)>
+TextureID|Fisherman
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|2,2

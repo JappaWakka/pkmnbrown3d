@@ -1,5 +1,10 @@
 version=2
-@Text.Show(<system.token(Item_Use_PokeFlute)>)
-@sound.play(PokeFlute,1)
-@level.wait(450)
+:if:<level.mapfile>=Routes\61\Main.dat <and> <player.position>=17,0,37
+	@script.start(Route61\Snorlax)
+	:end
+:else
+	@Text.Show(<system.token(Item_Use_PokeFlute)>)
+	@sound.play(PokeFlute,1)
+	@level.wait(450)
+:endif
 :end

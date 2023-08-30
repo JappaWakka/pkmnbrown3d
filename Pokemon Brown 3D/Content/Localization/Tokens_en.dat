@@ -3104,7 +3104,7 @@ Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade
 Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,at a house at Route 52
 
 [Route 52 - Hayward City Gate]
-Route52_Hayward_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 70 kinds of~Pokémon, I'm supposed to give~you a Super Rod!*So <player.name>! Have you~caught at least 70 kinds~of Pokémon?
+Route52_Hayward_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 70 kinds of~Pokémon, I'm supposed to~give you a Super Rod!*So <player.name>! Have you~caught at least 70 kinds~of Pokémon?
 Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_70OrMorePokemon,Let's see...*Great!~Here you have the Super Rod!
 Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_LessThan70Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 70 kinds if~you want the Super Rod.
 Route52_Hayward_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 70 kinds,~come back for the Super Rod.
@@ -3291,8 +3291,8 @@ Route49_Route50_Gate_Guard_1,There's a lookout spot~up there!
 Route49_Route50_Gate_Guard_2,Happy Holidays!
 Route49_Route50_Gate_Guard_3,I'm waiting for the~layer exchange.*Feeling so tired...
 Route49_Route50_Gate_Guard_4,Zzzz..*Huh?*I DIDN'T SLEEP! I was~awake the whole time!
-Route49_Route50_Gate_Binoculars_Left,Looked into the binoculars.*A man biking!
-Route49_Route50_Gate_Binoculars_Right,Looked into the binoculars.*Azalea Town!
+Route49_Route50_Gate_Binoculars_Left,Looked into the binoculars...*A man biking!
+Route49_Route50_Gate_Binoculars_Right,Looked into the binoculars...*Azalea Town!
 
 [Route 49 Gate]
 Route49_Gate_Bjorn_RhyhornTrade_Question,Bjorn: I'm looking for~a Shellder!~Wanna trade one for Rhyhorn?
@@ -3302,8 +3302,8 @@ Route49_Gate_Bjorn_RhyhornTrade_TradeSuccess,Bjorn: Okay, connect the cable~like
 Route49_Gate_Bjorn_RhyhornTrade_TradeFail,Bjorn: What? That's not~Rhyhorn!*If you get one, come back~here!
 Route49_Gate_Bjorn_RhyhornTrade_CatchMethod,Received in a trade with Bjorn
 Route49_Gate_Bjorn_RhyhornTrade_CatchLocation,in the Gate on Route 49
-Route49_Gate_Binoculars_Left,Looked into the binoculars.*There are people swimming!
-Route49_Gate_Binoculars_Right,Looked into the binoculars.*There's Hayward City!
+Route49_Gate_Binoculars_Left,Looked into the binoculars...*There are people swimming!
+Route49_Gate_Binoculars_Right,Looked into the binoculars...*There's Hayward City!
 
 [Owsauri City]
 Owsauri_Main_Sign_City,Owsauri City
@@ -3562,3 +3562,58 @@ CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeFail,This is no Nidoqueen.*If 
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod,Received in a trade
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,at the City Underpass
 CityUnderpass_Entrance_Route56_Girl,People often lose things in~that underground path.
+
+[Route 60]
+Route60_PowerPlant_Zapdos,Gyaao!
+Route60_PowerPlant_Raikou,Rrroar!
+
+[Route 60 - Jaeru City Gate]
+Route60_Jaeru_Gate_Guard,Are you working on a Pokédex?*Prof. Tim's Aide came by here.
+
+Route60_Jaeru_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 50 kinds~of Pokémon, I'm supposed to~give you an Exp. Share!*So <player.name>! Have you~caught at least 50 kinds~of Pokémon?
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_50OrMorePokemon,Let's see...*Great!~Here you have the Exp. Share!
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_LessThan50Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 50 kinds if~you want the Exp. Share.
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 50 kinds,~come back for the Exp. Share.
+Route60_Jaeru_Gate_Aide_SuperRod_AfterReceiveExpShare,Have fun with it!
+Route60_Jaeru_Gate_Binoculars_Left_Intro,Looked into the binoculars...
+Route60_Jaeru_Gate_Binoculars_Left_Flying,A strange Pokémon is flying~to Mt. Boulder!
+Route60_Jaeru_Gate_Binoculars_Left_Running,A strange Pokémon is running~towards Mt. Boulder!
+Route60_Jaeru_Gate_Binoculars_Left_None,Mt. Boulder!
+Route60_Jaeru_Gate_Binoculars_Right,Looked into the binoculars...*It looks like part of Johto!
+
+[Jaeru City]
+Jaeru_Main_Sign_Gym_BeforeDefeat,Jaeru City Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura
+Jaeru_Main_Sign_Gym_AfterDefeat,Jaeru City Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<player.name>
+
+[Route 61]
+Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!
+Route61_Main_FishermanHildegard_OutroMessage,It's not easy...
+Route61_Main_FishermanHildegard_DefeatMessage,I guess I better~fish some more.
+Route61_Main_FishermanIzmaehl_IntroMessage,Be patient!
+Route61_Main_FishermanIzmaehl_OutroMessage,I can't believe it!
+Route61_Main_FishermanIzmaehl_DefeatMessage,My rod sucks, I need a~better one!
+Route61_Main_FishermanTerry_IntroMessage,Check out my catch!
+Route61_Main_FishermanTerry_OutroMessage,Too much!
+Route61_Main_FishermanTerry_DefeatMessage,You beat me at Pokémon,~oh well!
+Route61_Main_FishermanConnor_IntroMessage,Yeah!
+Route61_Main_FishermanConnor_OutroMessage,Tch!
+Route61_Main_FishermanConnor_DefeatMessage,Hang on!
+Route61_Main_JrTrainerMaleDarwin_IntroMessage,Have you found a Moon Stone?
+Route61_Main_JrTrainerMaleDarwin_OutroMessage,Oww!
+Route61_Main_JrTrainerMaleDarwin_DefeatMessage,My Pokémon evolved with my~Moon Stone!
+Route61_Main_FishermanMarrec_IntroMessage,You never know what you~could catch!
+Route61_Main_FishermanMarrec_OutroMessage,Lost it!
+Route61_Main_FishermanMarrec_DefeatMessage,Well, back to fishing then.
+Route61_Main_Snorlax_NoPokeFlute,A sleeping Pokémon blocks~the way!
+Route61_Main_Snorlax_UsedPokeFlute,Snorlax woke up!*It attacked in a grumpy rage!
+Route61_Main_Snorlax_Caught,Snorlax calmed down! With a~big yawn, it returned to~the mountains!
+Route61_Main_Snorlax_Defeated,Snorlax calmed down! It no longer blocks the way!
+
+Route61_GoodRodHouse_GoodRodGuy_Question,I'm the Fishing Guru's~second cousin's uncle~twice removed.*Like fishing?
+Route61_GoodRodHouse_GoodRodGuy_Answer_No,Oh...That's so disappointing...
+Route61_GoodRodHouse_GoodRodGuy_Answer_Yes1,Grand! I like your style!*Take this and fish, young one!
+Route61_GoodRodHouse_GoodRodGuy_Answer_Yes2,Fishing is a way of life!*From the seas to rivers,~go out and land the big one!
+Route61_GoodRodHouse_GoodRodGuy_Answer_AfterReceiveGoodRod,Hello there, <player.name>!*The Good Rod is actually good,~unlike that Old Rod!*Catch different Pokémon~with it!
+
+Route61_SurfHouse_SurfMan_BeforeTalking,Hi there kid!*I just bought a bunch of HM03s~to add to my HM03s collection.*Although I think you will need~one to go to Eagulou City,~so here you go kid!
+Route61_SurfHouse_SurfMan_AfterTalking,HM03 is Surf!*Pokémon will be able to~ferry you across water!*And, this HM isn't disposable!~You can use it over and over!

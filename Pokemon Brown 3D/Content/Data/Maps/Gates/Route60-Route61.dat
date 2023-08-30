@@ -10,6 +10,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,10]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[224,0,16,16]}}]}}
 		
 	Invisible
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,-1]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,16,16,16]}}{"Visible"{bool[0]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,11]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,16,16,16]}}{"Visible"{bool[0]}}]}}
 
 Ceiling:

@@ -1,0 +1,18 @@
+version=2
+
+:if:<Register.Registered(goodrod)>=False
+	@Text.Show(<system.token(Route61_GoodRodHouse_GoodRodGuy_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		@Text.Show(<system.token(Route61_GoodRodHouse_GoodRodGuy_Answer_Yes1)>)
+		@Item.Give(59,1)
+		@Item.MessageGive(59,1)
+		@Register.Register(goodrod)
+		@Text.Show(<system.token(Route61_GoodRodHouse_GoodRodGuy_Answer_Yes2)>)
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Route61_GoodRodHouse_GoodRodGuy_Answer_No)>)
+	:endwhen
+:else
+	@Text.Show(<system.token(Route61_GoodRodHouse_GoodRodGuy_Answer_AfterReceiveGoodRod)>)
+:endif
+:end
