@@ -1,6 +1,6 @@
 [TRAINER FORMAT]
-Name|Grunt
-TrainerClass|Rocket
+Name|<system.token(TrainerSubClass_Rocket_Grunt)>
+TrainerClass|<system.token(TrainerClass_Rocket)>
 Money|780
 IntroMessage|Kid, why are you in~here?!
 OutroMessage|Tough!

@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Daniel
-TrainerClass|Biker
+TrainerClass|<system.token(TrainerClass_Biker)>
 Money|1540
 IntroMessage|C'mon, c'mon.~Let's go, let's go, let's go!
 OutroMessage|Arggh! Get lost!
 DefeatMessage|What, what, what?*What do you want?
-TextureID|72
+TextureID|Biker
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

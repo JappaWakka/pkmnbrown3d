@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Benson
-TrainerClass|Bird Keeper
+TrainerClass|<system.token(TrainerClass_BirdKeeper)>
 Money|1925
 IntroMessage|Guess how high my bird can fly!
 OutroMessage|Shot down in flames!
 DefeatMessage|Guess not high enough..
-TextureID|9
+TextureID|BirdKeeper
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

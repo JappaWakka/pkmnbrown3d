@@ -1,6 +1,6 @@
 [TRAINER FORMAT]
 Name|Irwin
-TrainerClass|Hiker
+TrainerClass|<system.token(TrainerClass_Hiker)>
 Money|595
 IntroMessage|<system.token(Route50_HikerIrwin_IntroMessage)>
 OutroMessage|<system.token(Route50_HikerIrwin_OutroMessage)>

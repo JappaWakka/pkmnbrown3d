@@ -1,18 +1,18 @@
 version=2
 
 :if:<Register.Registered(sparkybadge_obtain)>=False
-@Text.Show(<player.name>: Are you the Gym~Leader?*Sparky: Yes I am! What~do you want to do,~face me or something?*<player.name>: Uh... yeah!*Sparky: Why do you even~bother?*My Electric Pokémon are~way to powerful for~anyone.*Especially you!*<player.name>: Well I'll see about~that.*Lets fight!)
-@Battle.StartTrainer(Gyms\jaeru\leader)
-@Register.Register(sparkybadge_obtain)
-@Register.Register(trainer_Gyms\jaeru\000)
-@Register.Register(trainer_Gyms\jaeru\001)
-@Register.Register(trainer_Gyms\jaeru\002)
-@Player.GetBadge(4)
-@Text.Show(The Sparky Badge, named after~yours truly, increases your~Pokémon's speed, and lets~you use Fly anytime!*Take this too!)
-@Item.Give(215,1)
-@Item.MessageGive(215,1)
-@Text.Show(TM25 contains Thunder!*Teach it to an electric~Pokémon!)
+	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_BeforeBattle)>)
+	@Battle.StartTrainer(Gyms\jaeru\leader)
+	@Register.Register(sparkybadge_obtain)
+	@Register.Register(trainer_Gyms\jaeru\000)
+	@Register.Register(trainer_Gyms\jaeru\001)
+	@Register.Register(trainer_Gyms\jaeru\002)
+	@Player.GetBadge(4)
+	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_AfterBattle1)>)
+	@Item.Give(gm42,1)
+	@Item.MessageGive(gm42,1)
+	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_AfterBattle2)>)
 :else
-@Text.Show(Go on kid and enjoy the~rest of your quest!)
+	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_TalkAgain)>)
 :endif
 :end

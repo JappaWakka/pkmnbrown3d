@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Jannet
-TrainerClass|Lass
+TrainerClass|<system.token(TrainerClass_Lass)>
 Money|1290
 IntroMessage|Second time is the charm!
 OutroMessage|Oh no!
 DefeatMessage|That disk has to be worth more~than they're paying me.
-TextureID|45
+TextureID|JrTrainer_Female
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

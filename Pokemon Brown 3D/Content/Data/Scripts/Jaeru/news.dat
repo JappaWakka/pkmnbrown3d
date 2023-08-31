@@ -1,12 +1,10 @@
 version=2
 
-@Text.Show(Did you hear the news?)
+@Text.Show(<system.token(Jaeru_Main_NewsGuy_Question)>)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
-
 :when:<system.token(global_yes)>
-@Text.Show(Oh, I wish I could of told!)
-
+	@Text.Show(<system.token(Jaeru_Main_NewsGuy_Answer_Yes)>)
 :when:<system.token(global_no)>
-@Text.Show(Team Rocket took over the~Warehouse nearby!)
+	Text.Show(<system.token(Jaeru_Main_NewsGuy_Answer_No)>)
 :endwhen
 :end

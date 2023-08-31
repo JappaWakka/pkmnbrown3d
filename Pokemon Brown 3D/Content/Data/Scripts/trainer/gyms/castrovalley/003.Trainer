@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
-Name|Bruce
-TrainerClass|Fighter
+Name|Boris
+TrainerClass|<system.token(TrainerClass_Tamer)>
 Money|1280
 IntroMessage|No one can beat us!
 OutroMessage|Awoo!
 DefeatMessage|I still have much to learn!
-TextureID|BlackBelt
+TextureID|Tamer
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

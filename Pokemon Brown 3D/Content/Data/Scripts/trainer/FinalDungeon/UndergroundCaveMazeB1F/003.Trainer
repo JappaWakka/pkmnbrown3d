@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Morgan
-TrainerClass|Hiker
+TrainerClass|<system.token(TrainerClass_Hiker)>
 Money|3080
 IntroMessage|Wrong way!
 OutroMessage|I give!
 DefeatMessage|Leave!
-TextureID|50
+TextureID|Hiker
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

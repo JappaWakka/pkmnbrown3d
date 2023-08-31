@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Anne
-TrainerClass|Jr. Trainer ♀
+TrainerClass|<system.token(TrainerClass_JrTrainer_Female)>
 Money|1780
 IntroMessage|Watch where you're going!
 OutroMessage|It was too dark..
 DefeatMessage|I'm scared!
-TextureID|45
+TextureID|JrTrainer_Female
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

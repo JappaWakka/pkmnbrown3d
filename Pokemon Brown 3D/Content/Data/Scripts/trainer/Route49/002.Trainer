@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|David
-TrainerClass|Bird Keeper
+TrainerClass|<system.token(TrainerClass_BirdKeeper)>
 Money|450
 IntroMessage|<system.token(Route49_BirdKeeperDavid_IntroMessage)>
 OutroMessage|<system.token(Route49_BirdKeeperDavid_OutroMessage)>
 DefeatMessage|<system.token(Route49_BirdKeeperDavid_DefeatMessage)>
-TextureID|9
+TextureID|BirdKeeper
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro

@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Sal
-TrainerClass|Sailor
+TrainerClass|<system.token(TrainerClass_Sailor)>
 Money|2550
 IntroMessage|Team Rocket hired me!
 OutroMessage|Wow!
 DefeatMessage|We transfer goods across the sea.
-TextureID|32
+TextureID|Sailor
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

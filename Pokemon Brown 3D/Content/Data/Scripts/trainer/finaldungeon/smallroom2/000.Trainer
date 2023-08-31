@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Jones
-TrainerClass|Gentleman
+TrainerClass|<system.token(TrainerClass_Gentleman)>
 Money|6090
 IntroMessage|I don't have time for~your garbage.
 OutroMessage|I must salute you.
 DefeatMessage|Thanks for the lesson.
-TextureID|68
+TextureID|Gentleman_Brown
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

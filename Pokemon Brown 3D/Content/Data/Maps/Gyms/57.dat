@@ -96,7 +96,7 @@ Statue:
 {"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,0,12]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[32,16,16,16][48,16,16,16][48,0,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[gyms\57]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[15,0,12]}}{"TextureID"{str[GymGuy]}}{"ID"{int[10]}}{"Name"{str[GymGuy]}}{"Action"{int[1]}}{"AdditionalValue"{str[57gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[15,0,12]}}{"TextureID"{str[GymGuy]}}{"ID"{int[10]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[57gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 {"NPC"{NPC[{"Position"{sngArr[16,0,7]}}{"TextureID"{str[NormalTrainer]}}{"ID"{int[0]}}{"Name"{str[Rocker]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\57\000]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[16,0,1]}}{"TextureID"{str[NormalTrainer]}}{"ID"{int[1]}}{"Name"{str[Rocker]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\57\001]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

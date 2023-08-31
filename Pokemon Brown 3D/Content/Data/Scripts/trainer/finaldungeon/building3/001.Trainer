@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Kenneth
-TrainerClass|Sailor
+TrainerClass|<system.token(TrainerClass_Sailor)>
 Money|2580
 IntroMessage|I need a better hourly rate!
 OutroMessage|I was just careless..
 DefeatMessage|I heard the Rockets have a new leader.
-TextureID|32
+TextureID|Sailor
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

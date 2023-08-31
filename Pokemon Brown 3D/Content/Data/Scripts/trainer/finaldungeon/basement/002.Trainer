@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Timothy
-TrainerClass|Bird Keeper
+TrainerClass|<system.token(TrainerClass_BirdKeeper)>
 Money|1900
 IntroMessage|Wrong way! You suck!
 OutroMessage|Out of power!
 DefeatMessage|You still suck for coming this way.
-TextureID|9
+TextureID|BirdKeeper
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

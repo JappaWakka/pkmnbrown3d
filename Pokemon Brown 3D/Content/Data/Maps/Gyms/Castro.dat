@@ -39,4 +39,4 @@ NPCs:
 {"NPC"{NPC[{"Position"{sngArr[4,0,3]}}{"TextureID"{str[22]}}{"ID"{int[6]}}{"Name"{str[Fighter]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\castrovalley\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[3,0,4]}}{"TextureID"{str[22]}}{"ID"{int[7]}}{"Name"{str[Koji]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\castrovalley\leader]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
-{"NPC"{NPC[{"Position"{sngArr[1,0,0]}}{"TextureID"{str[gymguy]}}{"ID"{int[0]}}{"Name"{str[Gymguy]}}{"Action"{int[1]}}{"AdditionalValue"{str[castro\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[1,0,0]}}{"TextureID"{str[GymGuy]}}{"ID"{int[0]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[castro\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

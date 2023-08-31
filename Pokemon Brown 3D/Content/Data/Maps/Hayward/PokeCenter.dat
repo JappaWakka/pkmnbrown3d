@@ -5,11 +5,11 @@
 	
 NPCs:
 	BenchGuy
-		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[RegularGuy_Red]}}{"ID"{int[2]}}{"Name"{str[BenchGuy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_PokeCenter_BenchGuy)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[RegularGuy_Red]}}{"ID"{int[2]}}{"Name"{str[BenchGuy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\PokeCenter_BenchGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Other
 		{"NPC"{NPC[{"Position"{sngArr[5,0,2]}}{"TextureID"{str[Gentleman_Brown]}}{"ID"{int[3]}}{"Name"{str[Gentleman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_PokeCenter_Gentleman)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[5,2,2,1]]}}]}}
 		{"NPC"{NPC[{"Position"{sngArr[5,0,5]}}{"TextureID"{str[PokeFan_Female_Green]}}{"ID"{int[4]}}{"Name"{str[PokéFan]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_PokeCenter_PokeFan)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[5,5,3,2]]}}]}}
 	
-Doors
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,27,0.1,23,0]}}{"Rotation"{int[2]}}]}}
+Doors:
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,27,0.1,23,0]}}{"Rotation"{int[2]}}]}}
 

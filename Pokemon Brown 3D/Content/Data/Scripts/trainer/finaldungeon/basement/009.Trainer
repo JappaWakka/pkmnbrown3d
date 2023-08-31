@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Joshua
-TrainerClass|Bird Keeper
+TrainerClass|<system.token(TrainerClass_BirdKeeper)>
 Money|1900
 IntroMessage|Spread your wings, comrades!
 OutroMessage|Failure...
 DefeatMessage|I'll fly higher next time!
-TextureID|9
+TextureID|BirdKeeper
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

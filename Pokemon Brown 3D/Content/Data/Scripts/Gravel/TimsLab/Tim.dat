@@ -28,7 +28,7 @@ version=2
 	@player.turnto(0,1)
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex4)>)
 	@player.receivepokedex
-	@sound.play(Receive_PokeDex,1)
+	@sound.play(Receive_KeyItem,1)
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex5)>)
 	@entity.remove(8)
 	@entity.remove(9)

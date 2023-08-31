@@ -1,16 +1,16 @@
 [TRAINER FORMAT]
 Name|Sparky
-TrainerClass|Leader
+TrainerClass|<system.token(TrainerClass_Leader)>
 Money|2871
 IntroMessage|
-OutroMessage|You weren't kidding!*Alright, here. Take the~Sparky Badge!
+OutroMessage|<system.token(Jaeru_Gym_LeaderSparky_DefeatMessage)>
 DefeatMessage|
 TextureID|Sparky
 Region|Rijon
 IniMusic|Rijon_Leader_Intro
 DefeatMusic|Rijon_Leader_Defeat
 BattleMusic|Rijon_Leader
-Pokemon1|26,26
+Pokemon1|26,27
 Pokemon2|125,27
 Pokemon3|135,29
 Pokemon4|
@@ -19,5 +19,5 @@ Pokemon6|
 Items|52,52,52
 Gender|0
 AI|0
-IntroSequence|Orange,Brown
+IntroSequence|6,6
 IntroType|11

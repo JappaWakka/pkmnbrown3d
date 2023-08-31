@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Tina
-TrainerClass|Jr. Trainer ♀
+TrainerClass|<system.token(TrainerClass_JrTrainer_Female)>
 Money|1460
 IntroMessage|Watch out!
 OutroMessage|Ohh, I lost!
 DefeatMessage|Don't come any closer!
-TextureID|7
+TextureID|JrTrainer_Female
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

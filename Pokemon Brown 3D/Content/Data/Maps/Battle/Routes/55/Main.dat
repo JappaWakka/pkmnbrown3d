@@ -3,19 +3,6 @@
 BattleMapStructure:
 	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\Routes\55\Main.dat]}}{"Offset"{sngArr[6,0,-32]}}]}}
 
-Buildings:
-	Dock Underpass Entrance (4x1y2z)
-	{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[20,0,-28]}}]}}
-		
-	Slope Roof Building (2x1y2z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_2x1y2z]}}{"Offset"{sngArr[20,0,-6]}}]}}
-	
-	Slope Roof Building (4x1y2z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z]}}{"Offset"{sngArr[18,0,-22]}}]}}
-		
-	Slope Roof Building (6x1y2z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_6x1y2z]}}{"Offset"{sngArr[18,0,-12]}}]}}
-
 Offsets:
 {"OffsetMap"{MAP[{"Offset"{sngArr[7,42]}}{"Map"{str[Merson\Main.dat]}}]}}
 {"OffsetMap"{MAP[{"Offset"{sngArr[-14,42]}}{"Map"{str[Routes\54\Main.dat]}}]}}

@@ -1,6 +1,6 @@
 [TRAINER FORMAT]
 Name|Marrec
-TrainerClass|Fisherman
+TrainerClass|<system.token(TrainerClass_Fisherman)>
 Money|1365
 IntroMessage|<system.token(Route61_Main_FishermanMarrec_IntroMessage)>
 OutroMessage|<system.token(Route61_Main_FishermanMarrec_OutroMessage)>

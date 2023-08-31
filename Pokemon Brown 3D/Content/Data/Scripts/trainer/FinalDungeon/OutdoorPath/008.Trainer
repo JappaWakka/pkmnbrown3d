@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Joel
-TrainerClass|Biker
+TrainerClass|<system.token(TrainerClass_Biker)>
 Money|1560
 IntroMessage|Hahaha, I stopped you!
 OutroMessage|Blown away..!
 DefeatMessage|Enter at your own risk!
-TextureID|72
+TextureID|Biker
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

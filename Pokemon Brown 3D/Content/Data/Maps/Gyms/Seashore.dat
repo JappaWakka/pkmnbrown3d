@@ -526,7 +526,7 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[20,0,7]}}{"TextureID"{str[Channeler]}}{"ID"{int[7]}}{"Name"{str[Channeler]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\seashore\006]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[3,0,4]}}{"TextureID"{str[Sheral]}}{"ID"{int[8]}}{"Name"{str[Sheral]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\seashore\leader]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	
-	{"NPC"{NPC[{"Position"{sngArr[29,0,12]}}{"TextureID"{str[gymguy]}}{"ID"{int[0]}}{"Name"{str[Gymguy]}}{"Action"{int[1]}}{"AdditionalValue"{str[seashore\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[29,0,12]}}{"TextureID"{str[GymGuy]}}{"ID"{int[0]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[seashore\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Shaders:
 	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[32,0,19]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}

@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Joey
-TrainerClass|Fighter
+TrainerClass|<system.token(TrainerClass_Juggler)>
 Money|1120
 IntroMessage|Master Koji only uses~fighting Pokémon!
 OutroMessage|My balls!
 DefeatMessage|How could my Primeape fail me..?
-TextureID|BlackBelt
+TextureID|Juggler
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

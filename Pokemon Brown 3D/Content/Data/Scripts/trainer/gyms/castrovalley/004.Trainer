@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Kay
-TrainerClass|Fighter
+TrainerClass|<system.token(TrainerClass_Juggler)>
 Money|1120
 IntroMessage|I'm the gym leader!*Haha! Tricked you!
 OutroMessage|You had me fooled!
 DefeatMessage|Stay and train with us!
-TextureID|BlackBelt
+TextureID|Juggler
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

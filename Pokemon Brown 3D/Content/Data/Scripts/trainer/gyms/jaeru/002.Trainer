@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|William
-TrainerClass|Gentleman
+TrainerClass|<system.token(TrainerClass_Gentleman)>
 Money|1820
-IntroMessage|Having trouble getting to~Sparky?
-OutroMessage|Stop! You're very good!
-DefeatMessage|Electricity is my~specialty!
-TextureID|OldHatman
+IntroMessage|<system.token(Jaeru_Gym_GentlemanWilliam_IntroMessage)>
+OutroMessage|<system.token(Jaeru_Gym_GentlemanWilliam_OutroMessage)>
+DefeatMessage|<system.token(Jaeru_Gym_GentlemanWilliam_DefeatMessage)>
+TextureID|Gentleman_Brown
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|Black,Black
+IntroSequence|7,7

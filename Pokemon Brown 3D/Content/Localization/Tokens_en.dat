@@ -2812,6 +2812,40 @@ move_name_717,Natures Madness
 move_name_749,Tar Shot
 move_name_796,Steel Beam
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Trainer (Sub-)Classes:
+TrainerClass_Beauty,Beauty
+TrainerClass_Biker,Biker
+TrainerClass_BirdKeeper,Bird Keeper
+TrainerClass_Blackbelt,Blackbelt
+TrainerClass_BugCatcher,Bug Catcher
+TrainerClass_Champion,Champion
+TrainerClass_Channeler,Channeler
+TrainerClass_CoolTrainer_Female,Cool Trainer ♀
+TrainerClass_CoolTrainer_Male,Cool Trainer ♂
+TrainerClass_EliteFour,Elite Four
+TrainerClass_ExGrunt,Ex-Grunt
+TrainerClass_Fisherman,Fisherman
+TrainerClass_Gentleman,Gentleman
+TrainerClass_Hiker,Hiker
+TrainerClass_JrTrainer_Female,Jr. Trainer ♀
+TrainerClass_JrTrainer_Male,Jr. Trainer ♂
+TrainerClass_Juggler,Juggler
+TrainerClass_Lass,Lass
+TrainerClass_Leader,Leader
+TrainerClass_PalletPatrol,Pallet Patrol
+TrainerClass_PokeManiac,PokéManiac
+TrainerClass_Rival,Rival
+TrainerClass_Rocker,Rocker
+TrainerClass_RocketElite,Rocket Elite
+TrainerClass_RocketGrunt,Rocket Grunt
+TrainerClass_Sailor,Sailor
+TrainerClass_SuperNerd,Super Nerd
+TrainerClass_Swimmer,Swimmer
+TrainerClass_Tamer,Tamer
+TrainerClass_Telekinetic,Telekinetic
+TrainerClass_Youngster,Youngster
+
+-----
 Story Localization:
 
 [Game Intro]
@@ -2972,6 +3006,7 @@ Gravel_TimsLab_Mura_OutroMessage,I need to train more.
 
 Gravel_PokeMart_Youngster,Ya!~Potions are available!
 Gravel_PokeMart_Bugcatcher,This shop sells lots of~Pokéballs.
+Gravel_PokeMart_Clerk_YoDude,Yo dude!
 Gravel_PokeMart_Clerk_TimsPizza,Prof. Tim forgot to pick up~his Pizza!*Will you deliver it for me?
 Gravel_PokeMain_Clerk_NoDelivery,We don't deliver you know...
 Gravel_PokeMart_ReceivePizza,<player.name> received Tim's Pizza!
@@ -3003,7 +3038,7 @@ MersonCave_BugcatcherBill_OutroMessage,You got me!
 MersonCave_BugcatcherBill_DefeatMessage,Blah! You don't play nice!
 
 [Merson City]
-Merson_Main_WeakBoy,I tried facing the Pokémon~Gym leader, but I'm way too~weak to fight him.
+Merson_Main_WeakBoy,I tried facing the Pokémon~Gym Leader, but I'm way too~weak to fight him.
 Merson_Main_FreeHealGuy,You can go and heal your~Pokémon for free of charge!~Convenient isn't it? I love~it!
 Merson_Main_QuestionKid_AskQuestion,Are you a good trainer?
 Merson_Main_QuestionKid_AnswerYes,Really? That's so cool!*I'm not...
@@ -3044,7 +3079,7 @@ Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: I'm Karpman.*I only train Water t
 Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!
 Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*A TM can only be used once!~So when you use one to~teach a new technique,~pick the Pokémon carefully!*TM 12 contains Octazooka!~It's a water move that~can lower the accuracy~of your foe!
 Merson_Gym_LeaderKarpman_DefeatMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine-Badge!
-Merson_Gym_LeaderKarpman_TalkAgain,That was an epic battle!~Travel around Rijon to fight~the other Gym leaders.*You might stand a chance~against them!
+Merson_Gym_LeaderKarpman_TalkAgain,That was an epic battle!~Travel around Rijon to fight~the other Gym Leaders.*You might stand a chance~against them!
 
 [Route 55]
 Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my Pokémon?
@@ -3144,6 +3179,17 @@ Hayward_Main_OrbGirl_Blue_Orb_1,Great, a Blue Orb!*Take this as a reward!
 Hayward_Main_OrbGirl_Blue_Orb_2,TM 37 contains Megahorn!*Great for any Pokémon~with horns!
 Hayward_Main_OrbGirl_Green_Orb_1,Excellent, a Green Orb!*You deserve this!
 Hayward_Main_OrbGirl_Green_Orb_2,TM 26 contains Earthquake!*It's great for shaking~things up a bit!
+Hayward_Main_VendingMachine_Menu,A vending machine!~Here's the menu.
+Hayward_Main_VendingMachine_Option_BeerKeg,Beer Keg    $200
+Hayward_Main_VendingMachine_Option_SodaPop,Soda Pop        $300
+Hayward_Main_VendingMachine_Option_Lemonade,Lemonade       $350
+Hayward_Main_VendingMachine_Buy_BeerKeg,BZZT!*Beer Keg popped out.
+Hayward_Main_VendingMachine_Buy_SodaPop,CLANG!*Soda Pop dropped down.
+Hayward_Main_VendingMachine_Buy_Lemonade,CLANG!*Lemonade dropped down.
+Hayward_Main_VendingMachine_Extra_BeerKeg,Score!*An extra Beer Keg~popped out!
+Hayward_Main_VendingMachine_Extra_SodaPop,Score!*An extra bottle of Soda Pop~dropped down!
+Hayward_Main_VendingMachine_Extra_Lemonade,Score!*An extra can of Lemonade~dropped down!
+Hayward_Main_VendingMachine_NotEnoughMoney,You don't have enough money!
 
 Hayward_Main_Mura_BeforeBattle,Mura: Yo! <player.name>!*I just got a cool HM from~that city back there.*My Pokémon have been~getting stronger too!*<player.name>: Alright, let's see~if that's true, Mura!
 Hayward_Main_Mura_OutroMessage,Mura: Hey!~Take it easy!~You won already!
@@ -3495,7 +3541,7 @@ Moraga_Main_Psyduck_Cry,Psyduck: Psy-yiy?
 Moraga_Main_TM31Man_BeforeTalking,You want to talk?*To me?*Thanks, I'm very lonely,~so take this thing I found~earlier...
 Moraga_Main_TM31Man_AfterTalking,TM31 teaches Mimic!*It lets your Pokémon copy one~of the opponent's moves!
 Moraga_Main_GymLeaderFather,My daughter may appear cute,~but deep inside she is a~warrior!
-Moraga_Main_FatGuy,That gym leader is hard...*No one can beat her!
+Moraga_Main_FatGuy,That Gym Leader is hard...*No one can beat her!
 
 Moraga_PokeCenter_BenchGuy,I wish I had HM02 Surf.
 Moraga_PokeCenter_Gentleman,Where can I revive this fossil?*...In Hayward City?~Oof! That's going to be~a long walk!
@@ -3582,8 +3628,50 @@ Route60_Jaeru_Gate_Binoculars_Left_None,Mt. Boulder!
 Route60_Jaeru_Gate_Binoculars_Right,Looked into the binoculars...*It looks like part of Johto!
 
 [Jaeru City]
+Jaeru_Main_Sign_RijonLeagueEntrance,Path to Rijon League Entrance
+Jaeru_Main_Sign_City,Jaeru City~The hoppy town!
+Jaeru_Main_Sign_TownMap,Notice!~If you are lost, refer to~your Town Map!
 Jaeru_Main_Sign_Gym_BeforeDefeat,Jaeru City Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura
 Jaeru_Main_Sign_Gym_AfterDefeat,Jaeru City Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<player.name>
+Jaeru_Main_NewsGuy_Question,Did you hear the news?
+Jaeru_Main_NewsGuy_Answer_Yes,Oh, I wish I could of told!
+Jaeru_Main_NewsGuy_Answer_No,Team Rocket took over the~Warehouse nearby!
+Jaeru_Main_DirectionsGuy,If you go up north, you will~end up at the Rijon League!
+Jaeru_Main_SilkTunnelGirl,I got a Ground Pokémon from~Silk Tunnel, but it still~wasn't good enough to beat~Sparky!
+
+Jaeru_BikeShop_Youngster,These Bikes are cool, but they're way expensive!
+Jaeru_BikeShop_Woman,I knew modes of transportation~were getting more expensive,~but come on!
+Jaeru_BikeShop_BikeSalesMan_NoVoucher,Hi! Welcome to our Bike Shop.~Have we got just the Bike~for you!*It's a cool Bike!~Do you want it?
+Jaeru_BikeShop_BikeSalesMan_Option_Bicycle,Bicycle    $1000000
+Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle,Sorry! You can't afford it!*Come back again some time!
+Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Come back again some time!
+Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that’s... A Bike Voucher!~OK! Here you go!
+Jaeru_BikeShop_ExchangeVoucherForBike,<player.name> exchanged~the Bike Voucher for a Bicycle.
+Jaeru_BikeShop_BikeInPocket,<player.name> stored it in the~№ KeyItems pocket.
+Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new~Bicycle?*You can take it on Cycling Road~and in caves!
+
+Jearu_PokeMart_BugCatcher,Good things can happen if you~raise Pokémon dilligently,~even the weak ones!
+Jearu_PokeMart_LittleBoy,My dad is up north trying to~go to the League.
+
+Jaeru_PokeCenter_Gentleman,Go away, I'm on my cellphone!
+Jaeru_PokeCenter_BenchGuy,Sparky was mean to me!~He called me a stupid little~kid.
+
+Jaeru_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Sparky uses Electric Pokémon,~so you need to make sure and~pick the right kinds against~him.*Grass and Ground Pokémon are~good choices to win!
+Jaeru_Gym_GymGuy_AfterBadge,Whew! That match was electric!
+Jaeru_Gym_RockerBryan_IntroMessage,ARE YOU READY TO ROCK?!
+Jaeru_Gym_RockerBryan_OutroMessage,Fried!
+Jaeru_Gym_RockerBryan_DefeatMessage,I doubt you will beat Sparky!
+Jaeru_Gym_SailorWilfried_IntroMessage,Leave now!
+Jaeru_Gym_SailorWilfried_OutroMessage,Wow! Surprised me!
+Jaeru_Gym_SailorWilfried_DefeatMessage,I'll never look down upon~a kid again.
+Jaeru_Gym_GentlemanWilliam_IntroMessage,Having trouble getting to~Sparky?
+Jaeru_Gym_GentlemanWilliam_OutroMessage,Stop! You're very good!
+Jaeru_Gym_GentlemanWilliam_DefeatMessage,Electricity is my specialty!
+Jaeru_Gym_LeaderSparky_BeforeBattle,<player.name>: Are you~the Gym Leader?*Sparky: Yes I am!~What do you want to do,~face me or something?*<player.name>: Uh... yeah!*Sparky: Why do you even~bother?*My Electric Pokémon are way~too powerful for anyone.*Especially you!*<player.name>: Well I'll~see about that.*Let's fight!
+Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: The Sparky Badge,~named after yours truly,~lets you use Fly anytime!*Take this too!
+Jaeru_Gym_LeaderSparky_AfterBattle2,TM24 contains Thunderbolt!*Teach it to an Electric~Pokémon!
+Jaeru_Gym_LeaderSparky_DefeatMessage,You weren't kidding!*Alright, here. Take the~Sparky Badge!
+Jaeru_Gym_LeaderSparky_TalkAgain,Sparky: Go on kid and enjoy~the rest of your quest!
 
 [Route 61]
 Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!

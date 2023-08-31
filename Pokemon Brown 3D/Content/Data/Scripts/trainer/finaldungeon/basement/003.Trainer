@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Sarah
-TrainerClass|Beauty
+TrainerClass|<system.token(TrainerClass_Beauty)>
 Money|5320
 IntroMessage|Getting tired?
 OutroMessage|Oh, you little brute!
 DefeatMessage|That battle put my Pokémon to sleep...
-TextureID|77
+TextureID|Beauty
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

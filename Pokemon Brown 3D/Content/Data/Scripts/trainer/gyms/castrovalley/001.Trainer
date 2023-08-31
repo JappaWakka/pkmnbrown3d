@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Aaron
-TrainerClass|Fighter
+TrainerClass|<system.token(TrainerClass_Juggler)>
 Money|1050
 IntroMessage|Fighting Pokémon are the best!
 OutroMessage|I'm done for!
 DefeatMessage|I will keep on training!
-TextureID|BlackBelt
+TextureID|Juggler
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Quinn
-TrainerClass|Jr. Trainer ♀
+TrainerClass|<system.token(TrainerClass_JrTrainer_Female)>
 Money|1740
 IntroMessage|I like to help!
 OutroMessage|I'm out of Pokémon!
 DefeatMessage|I love helping, OK?
-TextureID|45
+TextureID|JrTrainer_Female
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

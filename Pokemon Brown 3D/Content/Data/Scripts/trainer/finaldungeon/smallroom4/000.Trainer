@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Bill
-TrainerClass|Gentleman
+TrainerClass|<system.token(TrainerClass_Gentleman)>
 Money|6510
 IntroMessage|12,981...*12,982...*You made me lose count!
 OutroMessage|Wow!
 DefeatMessage|Please, leave me alone.
-TextureID|68
+TextureID|Gentleman_Brown
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

@@ -3,7 +3,7 @@ version=2
 
 	:select:<daycare.countpokemon(0)>
 	:when:1
-		@options.show(<daycare.pokemonname(0,0)> Lv. <daycare.currentlevel(0,0)>,Cancel)
+		@options.show(<daycare.pokemonname(0,0)> Lv. <daycare.currentlevel(0,0)>,<system.token(global_cancel)>)
 		:when:<daycare.pokemonname(0,0)> Lv. <daycare.currentlevel(0,0)>
 
 			:if:<daycare.grownlevels(0,0)>=0
@@ -30,12 +30,12 @@ version=2
 				@Text.Show(Very well.~Please come again.)
 			:endwhen
 
-		:when:Cancel
+		:when:<system.token(global_cancel)>
 			@Text.Show(Very well.~Please come again.)
 		:endwhen
 
 	:when:2
-		@options.show(<daycare.pokemonname(0,0)> Lv. <daycare.currentlevel(0,0)>,<daycare.pokemonname(0,1)> Lv. <daycare.currentlevel(0,1)>,Cancel)
+		@options.show(<daycare.pokemonname(0,0)> Lv. <daycare.currentlevel(0,0)>,<daycare.pokemonname(0,1)> Lv. <daycare.currentlevel(0,1)>,<system.token(global_cancel)>)
 		:when:<daycare.pokemonname(0,0)> Lv. <daycare.currentlevel(0,0)>
 		
 			:if:<daycare.grownlevels(0,0)>=0
@@ -103,7 +103,7 @@ version=2
 				@Text.Show(Very well.~Please come again.)
 			:endwhen
 
-		:when:Cancel
+		:when:<system.token(global_cancel)>
 			@Text.Show(Very well.~Please come again.)
 		:endwhen
 

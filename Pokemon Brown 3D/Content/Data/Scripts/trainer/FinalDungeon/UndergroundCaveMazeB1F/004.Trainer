@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Caitlyn
-TrainerClass|Jr. Trainer ♀
+TrainerClass|<system.token(TrainerClass_JrTrainer_Female)>
 Money|1780
 IntroMessage|And the family attacks!
 OutroMessage|You play hard!
 DefeatMessage|That was just too much.
-TextureID|45
+TextureID|JrTrainer_Female
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

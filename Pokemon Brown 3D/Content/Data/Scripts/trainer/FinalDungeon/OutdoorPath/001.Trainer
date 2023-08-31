@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Talon
-TrainerClass|Bird Keeper
+TrainerClass|<system.token(TrainerClass_BirdKeeper)>
 Money|1900
 IntroMessage|We don't kid around here, kid.
 OutroMessage|Not ready yet!
 DefeatMessage|You proved your worth.
-TextureID|9
+TextureID|BirdKeeper
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

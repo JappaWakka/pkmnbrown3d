@@ -102,7 +102,7 @@ Rocks:
 {"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[19,-0.05,1]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[16,0,14]}}{"TextureID"{str[GymGuy]}}{"ID"{int[10]}}{"Name"{str[gymguy]}}{"Action"{int[1]}}{"AdditionalValue"{str[eagulou\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[16,0,14]}}{"TextureID"{str[GymGuy]}}{"ID"{int[10]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[eagulou\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 {"NPC"{NPC[{"Position"{sngArr[10,0,1]}}{"TextureID"{str[22]}}{"ID"{int[0]}}{"Name"{str[BlackBelt]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\eagulou\002]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[13]}}{"ID"{int[1]}}{"Name"{str[AceM]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\eagulou\003]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

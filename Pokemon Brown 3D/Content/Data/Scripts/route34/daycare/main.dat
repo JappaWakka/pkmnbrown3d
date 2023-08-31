@@ -11,34 +11,34 @@ version=2
 		:select:<daycare.countpokemon(0)>
 		
 		:when:0
-			@options.show(Leave Pokémon,Cancel)
+			@options.show(Leave Pokémon,<system.token(global_cancel)>)
 			:when:Leave Pokémon
 				@script.start(route34\daycare\leave_pokemon)
-			:when:Cancel
+			:when:<system.token(global_cancel)>
 				@Text.Show(Very well.~Please come again.)
 			:endwhen
 			:end
 			
 		:when:1
-			@options.show(Leave Pokémon,Take back,Cancel)
+			@options.show(Leave Pokémon,Take back,<system.token(global_cancel)>)
 			:when:Leave Pokémon
 				@script.start(route34\daycare\leave_pokemon)
 			:when:Take back
 				@Text.Show(You have energetic Pokémon!~Would you like your~Pokémon back?)
 
 				@script.start(route34\daycare\take_back)
-			:when:Cancel
+			:when:<system.token(global_cancel)>
 				@Text.Show(Very well.~Please come again.)
 			:endwhen
 			:end
 			
 		:when:2
-			@options.show(Take back,Cancel)
+			@options.show(Take back,<system.token(global_cancel)>)
 			:when:Take back
 				@Text.Show(You have energetic Pokémon!~Would you like your~Pokémon back?)
 	
 				@script.start(route34\daycare\take_back)
-			:when:Cancel
+			:when:<system.token(global_cancel)>
 				@Text.Show(Very well.~Please come again.)
 			:endwhen
 			:end

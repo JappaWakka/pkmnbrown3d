@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Howard
-TrainerClass|Fighter
+TrainerClass|<system.token(TrainerClass_Juggler)>
 Money|1225
 IntroMessage|Strength is our number one~strategy!
 OutroMessage|What? Extraordinary!
 DefeatMessage|I guess it's best to have~multiple strategies!
-TextureID|BlackBelt
+TextureID|Juggler
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

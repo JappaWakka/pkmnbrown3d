@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Talon
-TrainerClass|Bird Keeper
+TrainerClass|<system.token(TrainerClass_BirdKeeper)>
 Money|1925
 IntroMessage|My pokemon are filled with~barbaric rage.
 OutroMessage|Not good enough!
 DefeatMessage|How could we lose?~We're all super tough.
-TextureID|9
+TextureID|BirdKeeper
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

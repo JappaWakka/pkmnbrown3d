@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Jacob
-TrainerClass|Bird Keeper
+TrainerClass|<system.token(TrainerClass_BirdKeeper)>
 Money|1850
 IntroMessage|I wish I had wings...
 OutroMessage|The wind turned!
 DefeatMessage|I wish to explore the sky.
-TextureID|9
+TextureID|BirdKeeper
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

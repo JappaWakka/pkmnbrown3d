@@ -1,9 +1,8 @@
 version=2
 
 :if:<Register.Registered(sparkybadge_obtain)>=False
-:then
-@Text.Show(Gym Guy: Yo! Champ in making!*Sparky uses Electric Pokémon,~so you need to make sure~and pick the right kinds against~him.*Grass and ground Pokémon~are good choices against him!)
+	@Text.Show(<system.token(Jaeru_Gym_GymGuy_BeforeBadge)>)
 :else
-@Text.Show(Whew! That match was electric!)
+	@Text.Show(<system.token(Jaeru_Gym_GymGuy_AfterBadge)>)
 :endif
 :end

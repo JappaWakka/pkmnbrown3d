@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Lucas
-TrainerClass|Bird Keeper
+TrainerClass|<system.token(TrainerClass_BirdKeeper)>
 Money|1950
 IntroMessage|Seeing a pattern here?
 OutroMessage|I knew it!
 DefeatMessage|You're a winner!*Get it?*Ha...?
-TextureID|9
+TextureID|BirdKeeper
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat

@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Marie
-TrainerClass|Jr. Trainer ♀
+TrainerClass|<system.token(TrainerClass_JrTrainer_Female)>
 Money|1520
 IntroMessage|Yeah, yeah, yeah.
 OutroMessage|Just messed up!
 DefeatMessage|You're still here?*But you won already!
-TextureID|7
+TextureID|JrTrainer_Female
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
