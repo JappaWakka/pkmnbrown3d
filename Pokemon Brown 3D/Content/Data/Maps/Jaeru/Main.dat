@@ -10,7 +10,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[6,14]}}{"Position"{intArr[28,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[34,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,14]}}{"Position"{intArr[26,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[12,2]}}{"Position"{intArr[28,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[11,2]}}{"Position"{intArr[28,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,6]}}{"Position"{intArr[18,0,22]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[9,2]}}{"Position"{intArr[5,0,24]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[10,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
@@ -18,6 +18,14 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[14,2]}}{"Position"{intArr[12,0,28]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[10,2]}}{"Position"{intArr[6,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[28,0,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+	
+	Under Mountains
+		{"Floor"{ENT[{"Size"{intArr[9,21]}}{"Position"{intArr[-3,0,-8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[24,12]}}{"Position"{intArr[6,0,-8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[6,5]}}{"Position"{intArr[30,0,-8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[4,12]}}{"Position"{intArr[36,0,-8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,16]}}{"Position"{intArr[38,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[6,5]}}{"Position"{intArr[0,0,13]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}]}}
 		
 	Under Buildings
 		Route 61 Gate
@@ -27,8 +35,11 @@ Floors:
 	Doormats
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,24]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
 		
+	Removal
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[39,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
+		
 	Invisible
-		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[40,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Visible"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[39,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Visible"{bool[0]}}]}}
 	
 Jump Ledges:
 	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[1,1]}}{"EntityID"{str[Step]}}{"Position"{sngArr[8,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,1,1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[7]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -161,8 +172,8 @@ Mountains:
 		
 		{"EntityField"{ENT[{"Size"{intArr[2,5]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,3,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		
-		{"EntityField"{ENT[{"Size"{intArr[3,13]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,5,-3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[37,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,5,-3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[3,18]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,5,-8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[37,9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,5,-8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 	Ceiling
 		{"EntityField"{ENT[{"Size"{intArr[6,5]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[30,3,-3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -441,8 +452,8 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[32,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\gate0.dat,5,0.1,-1,2]}}{"Rotation"{int[0]}}]}}
 	
 	Route 59
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[40,0,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\Main.dat,-1,0.1,20,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[40,0,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\Main.dat,-1,0.1,21,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[39,0,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\Main.dat,-2,0.1,20,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[39,0,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\Main.dat,-2,0.1,21,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	Bike Shop
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[31,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Jaeru\BikeShop.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
@@ -469,7 +480,7 @@ NPCs:
 Offsets:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[-20,38]}}{"Map"{str[Routes\61\Main.dat]}}]}}
 	{"OffsetMap"{MAP[{"Offset"{sngArr[-20,24]}}{"Map"{str[Routes\60\Main.dat]}}]}}
-"OffsetMap"{MAP[{"Offset"{sngArr[40,0]}}{"Map"{str[Routes\59\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[40,0]}}{"Map"{str[Routes\59\Main.dat]}}]}}
 
 
 
