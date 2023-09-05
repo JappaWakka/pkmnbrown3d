@@ -2,11 +2,12 @@
 Name|Fiona
 TrainerClass|<system.token(TrainerClass_Lass)>
 Money|345
-IntroMessage|Watch out!
-OutroMessage|That's it?
-DefeatMessage|Botan City is not that~far away!
-TextureID|Lass_Blue
+IntroMessage|<system.token(Route59_Main_LassFiona_IntroMessage)>
+OutroMessage|<system.token(Route59_Main_LassFiona_OutroMessage)>
+DefeatMessage|<system.token(Route59_Main_LassFiona_DefeatMessage)>
+TextureID|Lass_Green
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|5,5

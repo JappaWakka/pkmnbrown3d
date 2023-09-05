@@ -23,7 +23,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[60,0,1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
 		
 	Under Mountains
-		{"Floor"{ENT[{"Size"{intArr[6,28]}}{"Position"{intArr[0,0,-8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[6,23]}}{"Position"{intArr[0,0,-3]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}]}}
 		
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[-2,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Visible"{bool[0]}}]}}
@@ -121,16 +121,15 @@ Jump Ledges:
 	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[1,1]}}{"EntityID"{str[Step]}}{"Position"{sngArr[60,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,1,1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[7]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Signs:
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[54,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Silph Co. Warehouse]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[54,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route59_Main_Sign_SilphCo)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[54,-0.15,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[59,0,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Route 59*Jaeru City - Botan City]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[59,0,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route59_Main_Sign_Route)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[59,-0.15,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Flowers:
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[26.25,-0.25,12.25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,8,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[-0.25]}}{"ModelID"{int[3]}}{"Action"{int[21]}}{"AdditionalValue"{str[Outside]}}{"AnimationData"{intArr2D[[64,8,8,8,1,3,5,0,0]]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[25.7375,-0.25,12.75]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,8,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[-0.25]}}{"ModelID"{int[3]}}{"Action"{int[21]}}{"AdditionalValue"{str[Outside]}}{"AnimationData"{intArr2D[[64,8,8,8,1,3,5,0,0]]}}{"Rotation"{int[0]}}]}}
-
 
 Mountains:
 	Top
@@ -225,19 +224,19 @@ Buildings:
 					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[61.0625,2.5925,2]}}{"TexturePath"{str[Cities\Botan]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			
 	Silph Co. Warehouse
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Botan_SlopeRoof_6x2y4z_Entrance]}}{"Offset"{sngArr[55,0,-3]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Botan_SlopeRoof_6x4y4z_Warehouse]}}{"Offset"{sngArr[55,0,-3]}}]}}
 	
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[16,0,21]}}{"TextureID"{str[Lass_Blue]}}{"ID"{int[0]}}{"Name"{str[Lass]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\route59\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[10,0,18]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[1]}}{"Name"{str[Bugcatcher]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\001]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[14,0,12]}}{"TextureID"{str[Youngster_Blue]}}{"ID"{int[2]}}{"Name"{str[Youngster]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\002]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[17,0,12]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[3]}}{"Name"{str[Bugcatcher]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\003]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[23,0,12]}}{"TextureID"{str[Lass_Blue]}}{"ID"{int[4]}}{"Name"{str[Lass]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\004]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[27,0,12]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[5]}}{"Name"{str[BugCatcher]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\005]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[24,0,19]}}{"TextureID"{str[Youngster_Purple]}}{"ID"{int[6]}}{"Name"{str[Youngster]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\006]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[44,0,21]}}{"TextureID"{str[Lass_Blue]}}{"ID"{int[7]}}{"Name"{str[Lass]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\007]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[57,0,19]}}{"TextureID"{str[PokeManiac]}}{"ID"{int[8]}}{"Name"{str[PokéManiac]}}{"Action"{int[0]}}{"AdditionalValue"{str[That stupid guard won't let~me get to the next city!*What is his problem?!]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[54,0,-3]}}{"TextureID"{str[Beauty]}}{"ID"{int[9]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[A little beer makes the guard~go to sleep!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[16,0,21]}}{"TextureID"{str[Lass_Blue]}}{"ID"{int[0]}}{"Name"{str[Lass Daisy]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\route59\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[10,0,18]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[1]}}{"Name"{str[Bug Catcher Yannik]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\001]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[14,0,12]}}{"TextureID"{str[Youngster_Blue]}}{"ID"{int[2]}}{"Name"{str[Youngster Kane]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\002]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[17,0,12]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[3]}}{"Name"{str[Bug Catcher Carsten]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\003]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[23,0,12]}}{"TextureID"{str[Lass_Red]}}{"ID"{int[4]}}{"Name"{str[Lass Aileen]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\004]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[27,0,12]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[5]}}{"Name"{str[Bug Catcher Cavan]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\005]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[24,0,19]}}{"TextureID"{str[Youngster_Purple]}}{"ID"{int[6]}}{"Name"{str[Youngster Milo]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\006]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[44,0,21]}}{"TextureID"{str[Lass_Green]}}{"ID"{int[7]}}{"Name"{str[Lass Fiona]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route59\007]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[57,0,19]}}{"TextureID"{str[PokeManiac]}}{"ID"{int[8]}}{"Name"{str[PokéManiac]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route59_Main_PokeManiac)>]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[54,0,-3]}}{"TextureID"{str[Beauty]}}{"ID"{int[9]}}{"Name"{str[Beauty]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route59_Main_Beauty)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Warps:
 	Jaeru City
@@ -245,7 +244,7 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-2,0,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Jaeru\Main.dat,39,0.1,21,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	Silph Co. Warehouse
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[57,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\warehouse\0.dat,9,0.1,16,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[57,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\warehouse\1F.dat,9,0.1,16,0]}}{"Rotation"{int[0]}}]}}
 	
 	Botan City Gate
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[61.3175,0,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\59botan.dat,-1,0.1,4,0]}}{"Rotation"{int[3]}}]}}

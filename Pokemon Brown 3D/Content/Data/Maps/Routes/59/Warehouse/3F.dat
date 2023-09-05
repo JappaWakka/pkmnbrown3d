@@ -1,5 +1,5 @@
-{"Level"{LEV[{"Name"{str[Silph Co. Warehouse]}}{"MusicLoop"{str[rHideout]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[silph\floor2script]}}]}}
+{"Level"{LEV[{"Name"{str[Silph Co. Warehouse]}}{"MusicLoop"{str[SilphCoWarehouse]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[SilphCoWarehouse\3F_MapScript]}}]}}
 
 Floor:
 {"Floor"{ENT[{"Size"{intArr[7,4]}}{"Position"{intArr[0,0,-1]}}{"TexturePath"{str[rocketbase]}}{"Texture"{rec[0,16,16,16]}}]}}
@@ -226,8 +226,8 @@ Tables:
 
 Security Doors:
 {"EntityField"{ENT[{"ID"{int[8]}}{"Size"{intArr[1,2]}}{"Scale"{sngArr[0.2,0.8,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-4,0,11]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[16,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.2,0.8,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[-4,0,11]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[16,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"Visible"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\security]}}{"Rotation"{int[0]}}]}}
-{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.2,0.8,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[-4,0,12]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[16,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"Visible"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\security]}}{"Rotation"{int[0]}}]}}
+{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.2,0.8,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[-4,0,11]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[16,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"Visible"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\security]}}{"Rotation"{int[0]}}]}}
+{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.2,0.8,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[-4,0,12]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[16,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"Visible"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\security]}}{"Rotation"{int[0]}}]}}
 
 Items:
 {"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[-7,-0.375,11]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm2]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
@@ -235,18 +235,18 @@ Items:
 
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[8,0,2]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[Grunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\silph\grunt2]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[82]}}{"ID"{int[1]}}{"Name"{str[worker]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\worker0]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[7,0,5]}}{"TextureID"{str[83]}}{"ID"{int[2]}}{"Name"{str[Workergirl]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\workergirl0]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[12,0,11]}}{"TextureID"{str[82]}}{"ID"{int[3]}}{"Name"{str[Worker]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\worker1]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[6,0,14]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[4]}}{"Name"{str[Grunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\silph\grunt3]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[1,0,10]}}{"TextureID"{str[83]}}{"ID"{int[5]}}{"Name"{str[Workergirl]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\workergirl1]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[4,0,4]}}{"TextureID"{str[82]}}{"ID"{int[6]}}{"Name"{str[Worker]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\worker2]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[-2,0,7]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[7]}}{"Name"{str[Scientist]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\silph\scientist2]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[8,0,2]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[Grunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\SilphCoWarehouse\grunt2]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[82]}}{"ID"{int[1]}}{"Name"{str[worker]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\worker0]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[7,0,5]}}{"TextureID"{str[83]}}{"ID"{int[2]}}{"Name"{str[Workergirl]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\workergirl0]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[12,0,11]}}{"TextureID"{str[82]}}{"ID"{int[3]}}{"Name"{str[Worker]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\worker1]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[6,0,14]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[4]}}{"Name"{str[Grunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\SilphCoWarehouse\grunt3]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[1,0,10]}}{"TextureID"{str[83]}}{"ID"{int[5]}}{"Name"{str[Workergirl]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\workergirl1]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[4,0,4]}}{"TextureID"{str[82]}}{"ID"{int[6]}}{"Name"{str[Worker]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\worker2]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[-2,0,7]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[7]}}{"Name"{str[Scientist]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\SilphCoWarehouse\scientist2]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Doors:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[14,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\warehouse\1.dat,6,0.1,16,0]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\warehouse\3.dat,2,0.1,-1,2]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[14,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\Warehouse\2F.dat,6,0.1,16,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\Warehouse\4F.dat,2,0.1,-1,2]}}{"Rotation"{int[0]}}]}}
 
 
 

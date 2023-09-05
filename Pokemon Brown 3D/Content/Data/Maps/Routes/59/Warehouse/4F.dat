@@ -1,5 +1,5 @@
-{"Level"{LEV[{"Name"{str[Silph Co. Warehouse]}}{"MusicLoop"{str[rHideout]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[silph\floor3script]}}]}}
+{"Level"{LEV[{"Name"{str[Silph Co. Warehouse]}}{"MusicLoop"{str[SilphCoWarehouse]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[SilphCoWarehouse\4F_MapScript]}}]}}
 
 Floor:
 {"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[0,0,-1]}}{"TexturePath"{str[Gate]}}{"Texture"{rec[0,0,16,16]}}]}}
@@ -116,17 +116,17 @@ Desk:
 {"Entity"{ENT[{"Scale"{sngArr[0.2,0.5,0.5]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9.4,0.15,10]}}{"TexturePath"{str[Lab]}}{"Textures"{recArr[[64,16,5,11][69,16,11,11][69,27,11,5]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Scriptblocks:
-{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,10]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[264,16,16,16]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[4]}}{"AdditionalValue"{str[trainer\silph\giovanni]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,10]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[264,16,16,16]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[4]}}{"AdditionalValue"{str[trainer\silph\giovanni2]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,10]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[264,16,16,16]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[4]}}{"AdditionalValue"{str[trainer\SilphCoWarehouse\giovanni]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,10]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[264,16,16,16]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[4]}}{"AdditionalValue"{str[trainer\SilphCoWarehouse\giovanni2]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[2,0,13]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[Grunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\silph\grunt4]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[2,0,13]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[Grunt]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\SilphCoWarehouse\grunt4]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[4,0,6]}}{"TextureID"{str[Giovanni]}}{"ID"{int[1]}}{"Name"{str[Giovanni]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[6,0,2]}}{"TextureID"{str[Elder]}}{"ID"{int[2]}}{"Name"{str[Manager]}}{"Action"{int[1]}}{"AdditionalValue"{str[silph\manager]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[6,0,2]}}{"TextureID"{str[Elder]}}{"ID"{int[2]}}{"Name"{str[Manager]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\manager]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[9,0,2]}}{"TextureID"{str[10]}}{"ID"{int[3]}}{"Name"{str[Assisstant]}}{"Action"{int[0]}}{"AdditionalValue"{str[You are my hero!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Doors:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[2,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\warehouse\2.dat,5,0.1,-1,2]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[2,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\Warehouse\3F.dat,5,0.1,-1,2]}}{"Rotation"{int[0]}}]}}
 
 
 

@@ -2,11 +2,12 @@
 Name|Aileen
 TrainerClass|<system.token(TrainerClass_Lass)>
 Money|315
-IntroMessage|Why do you look at~me weird?!
-OutroMessage|Be nice!
-DefeatMessage|Your eyes confuse me.
-TextureID|Lass_Blue
+IntroMessage|<system.token(Route59_Main_LassAileen_IntroMessage)>
+OutroMessage|<system.token(Route59_Main_LassAileen_OutroMessage)>
+DefeatMessage|<system.token(Route59_Main_LassAileen_DefeatMessage)>
+TextureID|Lass_Red
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|10,10

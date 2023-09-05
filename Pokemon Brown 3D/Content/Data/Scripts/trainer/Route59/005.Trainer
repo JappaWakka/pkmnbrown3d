@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Greg
+Name|Cavan
 TrainerClass|<system.token(TrainerClass_BugCatcher)>
 Money|220
-IntroMessage|Let's see how it goes.
-OutroMessage|Too quick for me.
-DefeatMessage|Trained Pokémon are stronger~than the wild ones!
+IntroMessage|<system.token(Route59_Main_BugCatcherCavan_IntroMessage)>
+OutroMessage|<system.token(Route59_Main_BugCatcherCavan_OutroMessage)>
+DefeatMessage|<system.token(Route59_Main_BugCatcherCavan_DefeatMessage)>
 TextureID|BugCatcher
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|2,2

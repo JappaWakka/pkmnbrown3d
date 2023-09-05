@@ -1,6 +1,6 @@
 version=2
 
-:if:<Register.Registered(beatdaboss)>=False
+:if:<Register.Registered(BeatGiovanni)>=False
 @Text.Show(The Rockets came and took over!)
 :else
 	@Text.Show(Id better get back to~work!)

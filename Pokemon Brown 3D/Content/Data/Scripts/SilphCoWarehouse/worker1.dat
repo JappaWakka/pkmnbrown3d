@@ -1,6 +1,6 @@
 version=2
 
-:if:<Register.Registered(beatdaboss)>=False
+:if:<Register.Registered(BeatGiovanni)>=False
 @Text.Show(They must have targeted~Silph for our Pokémon~products.)
 :else
 	@Text.Show(Thanks again!)

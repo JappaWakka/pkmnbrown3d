@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|David
+Name|Kane
 TrainerClass|<system.token(TrainerClass_Youngster)>
 Money|300
-IntroMessage|Hi!*Take a look at my cool~Pokémon!
-OutroMessage|I don't believe it!
-DefeatMessage|You have cooler Pokémon~than I do!
+IntroMessage|<system.token(Route59_Main_YoungsterKane_IntroMessage)>
+OutroMessage|<system.token(Route59_Main_YoungsterKane_OutroMessage)>
+DefeatMessage|<system.token(Route59_Main_YoungsterKane_DefeatMessage)>
 TextureID|Youngster_Blue
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer

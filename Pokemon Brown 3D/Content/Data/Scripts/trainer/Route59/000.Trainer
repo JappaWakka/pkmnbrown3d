@@ -2,11 +2,12 @@
 Name|Daisy
 TrainerClass|<system.token(TrainerClass_Lass)>
 Money|315
-IntroMessage|You are pretty strange.
-OutroMessage|You're mean!
-DefeatMessage|What are you looking at?
+IntroMessage|<system.token(Route59_Main_LassDaisy_IntroMessage)>
+OutroMessage|<system.token(Route59_Main_LassDaisy_OutroMessage)>
+DefeatMessage|<system.token(Route59_Main_LassDaisy_DefeatMessage)>
 TextureID|Lass_Blue
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -17,6 +18,6 @@ Pokemon4|
 Pokemon5|
 Pokemon6|
 Items|
-Gender|0
+Gender|1
 AI|2
-IntroSequence|0,0
+IntroSequence|8,8
