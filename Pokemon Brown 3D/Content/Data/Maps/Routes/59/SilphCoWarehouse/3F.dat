@@ -245,8 +245,8 @@ NPCs:
 {"NPC"{NPC[{"Position"{sngArr[-2,0,7]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[7]}}{"Name"{str[Scientist]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\SilphCoWarehouse\scientist2]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Doors:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[14,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\Warehouse\2F.dat,6,0.1,16,0]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\Warehouse\4F.dat,2,0.1,-1,2]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[14,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\SilphCoWarehouse\2F.dat,6,0.1,16,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,-1]}}{"TexturePath"{str[bt]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\59\SilphCoWarehouse\4F.dat,2,0.1,-1,2]}}{"Rotation"{int[0]}}]}}
 
 
 

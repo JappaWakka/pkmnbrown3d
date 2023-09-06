@@ -29,11 +29,15 @@ Walls:
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,1,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[176,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 	
 	West
+		{"EntityField"{ENT[{"Size"{intArr[1,9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,-1,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+		
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,-1,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[176,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 		
 		{"EntityField"{ENT[{"Size"{intArr[1,2,11]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,0,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[176,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 		
 	East
+		{"EntityField"{ENT[{"Size"{intArr[1,9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,-1,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+		
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,-1,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[176,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 		
 		{"EntityField"{ENT[{"Size"{intArr[1,2,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,0,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[176,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
@@ -74,8 +78,8 @@ Plant:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.75,1.5,0.75]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[6,0.25,8]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[40,112,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Stairs:
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor4_Stairs_Down]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Office_Down]}}{"Offset"{sngArr[6,-1,-2]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[6,0,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\55\KBMGamesBuilding\Floor3.dat,7,0.1,-2,2]}}{"Rotation"{int[2]}}{"Visible"{bool[0]}}]}}
 	
 
 Small Room:
@@ -102,7 +106,7 @@ Door:
 	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[2,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[128,224,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\55\KBMGamesBuilding\Floor4_Room.dat,2,0.1,7,0]}}{"Rotation"{int[0]}}]}}
 
 Note:
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Route55\Floor4_Note]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor4_Note]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 
 

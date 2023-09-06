@@ -1,0 +1,25 @@
+version=2
+
+:if:<Player.Facing>=0
+	@Player.Warp(Routes\59\SilphCoWarehouse\B1F.dat,13,0.1,17,0)
+:else
+	:if:<Player.Facing>=1
+		@Player.Warp(Routes\59\SilphCoWarehouse\B1F.dat,13,0.1,17,3)
+	:else
+		:if:<Player.Facing>=2
+			@Player.Warp(Routes\59\SilphCoWarehouse\B1F.dat,13,0.1,17,2)
+		:else
+			@Player.Warp(Routes\59\SilphCoWarehouse\B1F.dat,13,0.1,17,1)
+		:endif
+	:endif
+:endif
+@Level.Update
+:if:<Level.Riding>=true
+	@Player.SetSpeed(2)
+:else
+	:if:<Player.IsRunning>=true
+		@Player.SetSpeed(1.5)
+	:endif
+:endif
+@Player.Move(1)
+:end
