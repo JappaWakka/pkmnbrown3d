@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Scientist
-TrainerClass|<system.token(TrainerClass_Rocket)>
+Name|Nathan
+TrainerClass|<system.token(TrainerClass_RocketScientist)>
 Money|1300
-IntroMessage|Can't open the doors?
-OutroMessage|Drat! How could I lose?
-DefeatMessage|The doors only open with~the Card Key!
+IntroMessage|<system.token(Route59_SilphCoWarehouse_RocketScientistNathan_IntroMessage)>
+OutroMessage|<system.token(Route59_SilphCoWarehouse_RocketScientistNathan_OutroMessage)>
+DefeatMessage|<system.token(Route59_SilphCoWarehouse_RocketScientistNathan_DefeatMessage)>
 TextureID|Scientist_Male
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

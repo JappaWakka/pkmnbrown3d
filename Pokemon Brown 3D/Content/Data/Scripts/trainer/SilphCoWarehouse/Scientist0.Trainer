@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Scientist
-TrainerClass|<system.token(TrainerClass_Rocket)>
+Name|Percy
+TrainerClass|<system.token(TrainerClass_RocketScientist)>
 Money|1250
-IntroMessage|Ha! You thought I would~HELP?
-OutroMessage|You're good.
-DefeatMessage|Go away kid!
+IntroMessage|<system.token(Route59_SilphCoWarehouse_RocketScientistPercy_IntroMessage)>
+OutroMessage|<system.token(Route59_SilphCoWarehouse_RocketScientistPercy_OutroMessage)>
+DefeatMessage|<system.token(Route59_SilphCoWarehouse_RocketScientistPercy_DefeatMessage)>
 TextureID|Scientist_Male
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

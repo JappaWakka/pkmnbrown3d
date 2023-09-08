@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|<system.token(TrainerSubClass_Rocket_Grunt)>
-TrainerClass|<system.token(TrainerClass_Rocket)>
+Name|Neil
+TrainerClass|<system.token(TrainerClass_RocketGrunt)>
 Money|780
-IntroMessage|Kid, why are you in~here?!
-OutroMessage|Tough!
-DefeatMessage|You will never successfully~defeat Team Rocket!
+IntroMessage|<system.token(Route59_SilphCoWarehouse_RocketGruntNeil_IntroMessage)>
+OutroMessage|<system.token(Route59_SilphCoWarehouse_RocketGruntNeil_OutroMessage)>
+DefeatMessage|<system.token(Route59_SilphCoWarehouse_RocketGruntNeil_DefeatMessage)>
 TextureID|RocketGrunt_Male
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

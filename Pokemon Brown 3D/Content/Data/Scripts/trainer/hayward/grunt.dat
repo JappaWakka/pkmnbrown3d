@@ -2,10 +2,10 @@ version=2
 
 :if:<Register.Registered(haywardtrouble)>=false
 @Battle.StartTrainer(hayward\grunt)
-	@Text.Show(<system.token(Hayward_Main_RocketGrunt_TakeThis)>)
+	@Text.Show(<system.token(Hayward_Main_RocketGruntHorace_TakeThis)>)
 	@Item.Give(gm46,1)
 	@Item.MessageGive(gm46,1)
-	@Text.Show(<system.token(Hayward_Main_RocketGrunt_GetMoving)>)
+	@Text.Show(<system.token(Hayward_Main_RocketGruntHorace_GetMoving)>)
 	@Register.Register(haywardtrouble)
 	@screen.fadeout
 	@npc.warp(5,23,0,11)

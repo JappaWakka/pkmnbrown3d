@@ -2183,6 +2183,11 @@ item_name_674,Rock Memory
 item_name_675,Steel Memory
 item_name_676,Water Memory
 
+----
+Item Descriptions:
+item_desc_127,A card key that opens a door in the Silph Co. Warehouse.
+
+----
 Item Use Text:
 item_cannot_use,Now is not the time~to use that.
 item_6_missingskin,You can't use this item~without a bicycle skin.*Its name should be the~same as your current one,~but with "_bike" at the end.
@@ -2838,6 +2843,7 @@ TrainerClass_Rival,Rival
 TrainerClass_Rocker,Rocker
 TrainerClass_RocketElite,Rocket Elite
 TrainerClass_RocketGrunt,Rocket Grunt
+TrainerClass_RocketScientist,Rocket Scientist
 TrainerClass_Sailor,Sailor
 TrainerClass_SuperNerd,Super Nerd
 TrainerClass_Swimmer,Swimmer
@@ -3157,10 +3163,10 @@ Hayward_Main_Hiker,I want to go east, but that bush~is blocking my path.
 Hayward_Main_Officer,Team Rocket came from Kanto~to terrorize our nice town.~You seen any suspicious~mean lately?*If so, report it to me and~I'll deal with them!
 Hayward_Main_SchoolKid,You're a trainer too? Collecting,~fighting, it's a tough life.
 Hayward_Main_Bouncer,You can't go over here until~you beat the Rijon League,~sorry!
-Hayward_Main_RocketGrunt_IntroMessage,Hey kid! Get out of here~right now! Huh?*What I'm doing here isn't~really your business.
-Hayward_Main_RocketGrunt_OutroMessage,Fine, you can have this~place!
-Hayward_Main_RocketGrunt_TakeThis,Take this and don't kill me!
-Hayward_Main_RocketGrunt_GetMoving,I better get moving! Bye!
+Hayward_Main_RocketGruntHorace_IntroMessage,Hey kid! Get out of here~right now! Huh?*What I'm doing here isn't~really your business.
+Hayward_Main_RocketGruntHorace_OutroMessage,Fine, you can have this~place!
+Hayward_Main_RocketGruntHorace_TakeThis,Take this and don't kill me!
+Hayward_Main_RocketGruntHorace_GetMoving,I better get moving! Bye!
 Hayward_Main_SlowbroGirl_1,Hey kid?!?!!~Seen my Slowbro? He ran away~and is lost...!
 Hayward_Main_SlowbroGirl_2,SLOWBRO? WHERE ARE YOU?!~It's hopeless...~He is gone forever...~I loved my Slowbro...boo hoo!~I wish he didn't leave me!
 Hayward_Main_SlowbroGirl_3,Please try to find Slowbro~for me!
@@ -3707,6 +3713,21 @@ Route59_Main_LassFiona_OutroMessage,That's it?
 Route59_Main_LassFiona_DefeatMessage,Botan City is not that~far away!
 Route59_Main_PokeManiac,That stupid guard won't let~me get to the next city!*What is his problem?!
 Route59_Main_Beauty,A little beer makes the guard~go to sleep!
+
+Route59_SilphCoWarehouse_2F_TM42Lady_BeforeTalking,Wow, that event was sure~a nightmare!*You want to get rid of yours?~Take this!
+Route59_SilphCoWarehouse_2F_TM42Lady_AfterTalking,TM42 is Dream Eater! It only~works on sleeping Pokemon,~but it swallows their dream!
+Route59_SilphCoWarehouse_RocketGruntLawrence_IntroMessage,This time we we will succeed!
+Route59_SilphCoWarehouse_RocketGruntLawrence_OutroMessage,I goofed!
+Route59_SilphCoWarehouse_RocketGruntLawrence_DefeatMessage,Our boss will not fail us!
+Route59_SilphCoWarehouse_RocketGruntNeil_IntroMessage,Kid, why are you in here?!
+Route59_SilphCoWarehouse_RocketGruntNeil_OutroMessage,Tough!
+Route59_SilphCoWarehouse_RocketGruntNeil_DefeatMessage,You will never successfully~defeat Team Rocket!
+Route59_SilphCoWarehouse_RocketScientistPercy_IntroMessage,Ha! You thought I would help?
+Route59_SilphCoWarehouse_RocketScientistPercy_OutroMessage,You're good.
+Route59_SilphCoWarehouse_RocketScientistPercy_DefeatMessage,Go away kid!
+Route59_SilphCoWarehouse_RocketScientistNathan_IntroMessage,Can't open the doors?
+Route59_SilphCoWarehouse_RocketScientistNathan_OutroMessage,Drat! How could I lose?
+Route59_SilphCoWarehouse_RocketScientistNathan_DefeatMessage,The doors only open with~the Card Key!
 
 [Route 61]
 Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!
