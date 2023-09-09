@@ -25,6 +25,10 @@ Floors:
 	Under Mountains
 		{"Floor"{ENT[{"Size"{intArr[6,23]}}{"Position"{intArr[0,0,-3]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}]}}
 		
+	Under Building
+		{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[61,0,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,16,16,16]}}{"HasSnow"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[62,0,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+		
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[-2,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Visible"{bool[0]}}]}}
 
