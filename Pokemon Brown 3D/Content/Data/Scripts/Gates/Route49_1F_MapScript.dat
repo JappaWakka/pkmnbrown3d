@@ -1,0 +1,5 @@
+version=2
+:if:<Inventory.CountItem(6)>=1
+	@entity.remove(1)
+:endif
+:end

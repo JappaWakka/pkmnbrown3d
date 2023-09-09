@@ -204,7 +204,8 @@ PC
 		{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,-0.36,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[28,127,12,12][28,139,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		
 Scriptblocks:
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"ID"{int[4]}}{"Position"{sngArr[5,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[4]}}{"AdditionalValue"{str[trainer\SilphCoWarehouse\giovanni]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"ID"{int[4]}}{"Position"{sngArr[6,0,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[4]}}{"AdditionalValue"{str[trainer\SilphCoWarehouse\giovanni]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"ID"{int[4]}}{"Position"{sngArr[5,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[4]}}{"AdditionalValue"{str[trainer\SilphCoWarehouse\giovanni]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[2,0,13]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[Rocket Grunt Hector]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\SilphCoWarehouse\grunt4]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

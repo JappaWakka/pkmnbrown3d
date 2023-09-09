@@ -1,0 +1,21 @@
+version=2
+
+:if:<inventory.countitem(gm7)>=0
+	@Text.Show(Wait!)
+	@player.turnto(0)
+	@Text.Show(Sorry you can't go though.*I'm guarding the area!)
+	@player.turnto(1)
+	@player.move(1)
+:else
+	:if:<Register.Registered(drunksleep)>=false
+		@Text.Show(Whoa, kid!~I smell hard beer!*Give it to me I need it~so bad!!!!!!)
+		@item.clearitem(gm7,1)
+		@Text.Show(<player.name> handed over the~Beer Keg.*...Glug glug...~...Gulp...~This stuff hits you...)
+		@npc.turn(0,0)
+		@Register.Register(drunksleep)
+		@Text.Show(Zzzzz...*<player.name>: Looks like I can~get past this guy now, and~complete my quest!)
+		:end
+	:endif
+:endif
+
+:end

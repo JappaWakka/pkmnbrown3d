@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Gate]}}{"MusicLoop"{str[Seashore]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"RideType"{int[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"RideType"{int[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[Gates\Route49_1F_MapScript]}}]}}
 
 Floors:
 	Regular
@@ -82,7 +82,7 @@ Signs:
 	{"Entity"{ENT[{"Scale"{sngArr[0.96875,0.4375,0.125]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[4.5,1.28,7.4375]}}{"TexturePath"{str[GateSigns]}}{"Textures"{recArr[[0,84,31,14][32,0,4,14][0,0,31,14][64,0,31,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,2,2,3,3,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 
 ScriptBlocks:
-	{"EntityField"{ENT[{"EntityID"{str[ScriptBlock]}}{"Size"{intArr[4,1]}}{"Position"{sngArr[3,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route49_1F_BikeCheck]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"EntityField"{ENT[{"EntityID"{str[ScriptBlock]}}{"Size"{intArr[4,1]}}{"ID"{int[1]}}{"Position"{sngArr[3,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route49_1F_BikeCheck]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Warps:
 	Route 49 East
@@ -100,5 +100,5 @@ Chairs:
 
 NPC:
 	{"NPC"{NPC[{"Position"{sngArr[1,0.2,4]}}{"TextureID"{str[Officer]}}{"ID"{int[0]}}{"Name"{str[Guard]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"Entity"{ENT[{"Scale"{sngArr[0.1,0.1,0.1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,-0.3,4]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[gates\4950]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"Scale"{sngArr[0.1,0.1,0.1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,-0.3,4]}}{"TexturePath"{str[Mart]}}{"Textures"{recArr[[48,32,16,9][64,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[gates\Route49-Route50_1F_Guard]}}{"Rotation"{int[0]}}]}}
 
