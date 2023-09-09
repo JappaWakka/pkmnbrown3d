@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Giovanni
-TrainerClass|
+TrainerClass|<system.token(TrainerClass_RocketLeader)>
 Money|3069
 IntroMessage|
-OutroMessage|Arrgh!! I lost again!?
+OutroMessage|<system.token(Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage)>
 DefeatMessage|
 TextureID|Giovanni
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Leader_Defeat
 BattleMusic|Rijon_Leader
@@ -19,4 +20,4 @@ Pokemon6|
 Items|17,17,17
 Gender|0
 AI|2
-IntroSequence|Red,Red
+IntroSequence|3,3

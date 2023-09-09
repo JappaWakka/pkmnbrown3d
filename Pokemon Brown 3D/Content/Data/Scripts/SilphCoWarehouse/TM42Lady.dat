@@ -1,11 +1,11 @@
 version=2
 
 :if:<Register.Registered(tm42)>=false
-@Text.Show(<system.token(Route59_SilphCoWarehouse_2F_TM42Lady_BeforeTalking)>)
-@Item.Give(gm60,1)
-@item.messsagegive(gm60,1)
-@Register.Register(tm42)
+	@Text.Show(<system.token(Route59_SilphCoWarehouse_2F_TM42Lady_BeforeTalking)>)
+	@Item.Give(gm60,1)
+	@item.messsagegive(gm60,1)
+	@Register.Register(tm42)
 :else
-@Text.Show(<system.token(Route59_SilphCoWarehouse_2F_TM42Lady_AfterTalking)>)
+	@Text.Show(<system.token(Route59_SilphCoWarehouse_2F_TM42Lady_AfterTalking)>)
 :endif
 :end

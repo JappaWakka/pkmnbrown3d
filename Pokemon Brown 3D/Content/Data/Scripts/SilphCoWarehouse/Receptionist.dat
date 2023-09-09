@@ -1,0 +1,5 @@
+version=2
+
+:if:<Register.Registered(BeatGiovanni)>=True
+	@Text.Show(<system.token(Route59_SilphCoWarehouse_1F_Receptionist)>)
+:end

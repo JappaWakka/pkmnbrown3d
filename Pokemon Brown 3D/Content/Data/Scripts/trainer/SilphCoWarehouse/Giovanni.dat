@@ -1,17 +1,31 @@
 version=2
 
 :if:<Register.Registered(BeatGiovanni)>=false
-@Text.Show(What?!*Another kid trying to stop~me from Team Rockets goals?*I think that you need to~be taught a lesson about~behaving kid!*<player.name>: Bring it on.)
-@npc.move(1,3)
-@npc.turn(1,3)
-@npc.move(1,1)
-@npc.turn(1,2)
-@Battle.StartTrainer(SilphCoWarehouse\Giovanni)
-@Text.Show(You stopped us from taking~over the Silph Warehouse.*I guess I should just~give up.*Theres no way we can succeed~with kids like you!*Goodbye forever!)
-@Register.Register(BeatGiovanni)
-@screen.fadeout
-@npc.remove(1)
-@npc.remove(0)
-@screen.fadein
+	@Text.Show(<system.token(Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle)>)
+	@music.play(Encounter_Rocket)
+	:if:<player.position(x)>=6
+		@npc.turn(1,3)
+		@npc.move(1,1)
+		@npc.turn(1,2)
+	:endif
+	@npc.move(1,2)	
+	@Battle.StartTrainer(SilphCoWarehouse\Giovanni)
+	@Text.Show(<system.token(Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle)>)
+	@Register.Register(BeatGiovanni)
+	@Screen.FadeOut(15)
+	@camera.update
+	@npc.remove(0)
+	@npc.remove(1)
+	@npc.register(Routes\59\SilphCoWarehouse\2F.dat|0|remove)
+	@npc.register(Routes\59\SilphCoWarehouse\2F.dat|1|remove)
+	@npc.register(Routes\59\SilphCoWarehouse\2F.dat|2|remove)
+	@npc.register(Routes\59\SilphCoWarehouse\2F.dat|3|remove)
+	@npc.register(Routes\59\SilphCoWarehouse\3F.dat|0|remove)
+	@npc.register(Routes\59\SilphCoWarehouse\3F.dat|4|remove)
+	@npc.register(Routes\59\SilphCoWarehouse\3F.dat|7|remove)
+	@npc.register(Routes\59\SilphCoWarehouse\4F.dat|0|remove)
+	@npc.register(Routes\59\SilphCoWarehouse\4F.dat|1|remove)
+	@screen.fadein(15)
+	@camera.update
 :endif
 :end

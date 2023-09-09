@@ -2,7 +2,7 @@
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[SilphCoWarehouse\1F_MapScript]}}]}}
 
 Floors:
-	Regular
+	Blue Tiles
 		{"Floor"{ENT[{"Size"{intArr[28,4]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[272,80,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[0,0,4]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[272,80,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[12,2]}}{"Position"{intArr[0,0,8]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[272,80,16,16]}}]}}
@@ -134,7 +134,10 @@ Boxes:
 	{"EntityField"{ENT[{"Scale"{sngArr[0.9,0.45,0.9]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[22,1.075,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[256,256,16,8][256,240,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Clerk Scriptblock:
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"ID"{int[2]}}{"Position"{sngArr[3,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\welcome]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"ID"{int[1]}}{"Position"{sngArr[3,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\Receptionist]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
+Chair:
+	{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.36,1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[322,296,12,12][322,308,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Warps:
 	Route 59
@@ -147,6 +150,4 @@ Warps:
 		Warehouse 2F
 			{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[25,1,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[SilphCoWarehouse\1F_Stairs_Up]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 			{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Warehouse_Up_South]}}{"Offset"{sngArr[25,0,-1]}}]}}
-		
-	
 		

@@ -5,7 +5,7 @@ version=2
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
 			@NPC.remove(2)
-			@NPC.register(TimsLab.dat|2|remove|1)
+			@NPC.register(TimsLab.dat|2|remove)
 			@Register.Register(pokemongot)
 			@Register.Register(starter2)
 			@register.unregister(tim1)

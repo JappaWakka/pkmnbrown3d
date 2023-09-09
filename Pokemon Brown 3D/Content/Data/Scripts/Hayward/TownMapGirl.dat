@@ -2,7 +2,7 @@ version=2
 
 :if:<Register.Registered(TownMap)>=false
 	@Text.Show(<system.token(Hayward_TownMapHouse_TownMapGirl_BeforeGive)>)
-	@NPC.register(Hayward\TownMapHouse.dat|1|remove|1)
+	@NPC.register(Hayward\TownMapHouse.dat|1|remove)
 	@NPC.remove(1)
 	@Item.Give(gm8,1)
 	@Item.MessageGive(gm8,1)

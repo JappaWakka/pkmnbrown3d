@@ -7,10 +7,10 @@ version=2
 	@Item.MessageGive(gm46,1)
 	@Text.Show(<system.token(Hayward_Main_RocketGruntHorace_GetMoving)>)
 	@Register.Register(haywardtrouble)
-	@screen.fadeout
+	@screen.fadeout(15)
 	@npc.warp(5,23,0,11)
 	@npc.remove(7)
 	@level.update
-	@screen.fadein
+	@screen.fadein(15)
 :endif
 :end

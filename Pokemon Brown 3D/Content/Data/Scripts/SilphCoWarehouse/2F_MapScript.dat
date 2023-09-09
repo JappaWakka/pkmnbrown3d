@@ -1,9 +1,0 @@
-version=2
-
-:if:<Register.Registered(BeatGiovanni)>=True
-@npc.remove(0)
-	@npc.remove(1)
-	@npc.remove(2)
-	@npc.remove(3)
-:endif
-:end

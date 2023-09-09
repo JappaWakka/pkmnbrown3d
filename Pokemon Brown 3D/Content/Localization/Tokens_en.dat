@@ -2844,6 +2844,7 @@ TrainerClass_Rocker,Rocker
 TrainerClass_RocketElite,Rocket Elite
 TrainerClass_RocketGrunt,Rocket Grunt
 TrainerClass_RocketScientist,Rocket Scientist
+TrainerClass_RocketLeader,Rocket Leader
 TrainerClass_Sailor,Sailor
 TrainerClass_SuperNerd,Super Nerd
 TrainerClass_Swimmer,Swimmer
@@ -3676,9 +3677,9 @@ Jaeru_Gym_GentlemanWilliam_IntroMessage,Having trouble getting to~Sparky?
 Jaeru_Gym_GentlemanWilliam_OutroMessage,Stop! You're very good!
 Jaeru_Gym_GentlemanWilliam_DefeatMessage,Electricity is my specialty!
 Jaeru_Gym_LeaderSparky_BeforeBattle,<player.name>: Are you~the Gym Leader?*Sparky: Yes I am!~What do you want to do,~battle me or something?*<player.name>: Uh... yeah!*Sparky: Why do you even~bother?*My Electric Pokémon are way~too powerful for anyone.*Especially you!*<player.name>: Well I'll~see about that.*Let's fight!
+Jaeru_Gym_LeaderSparky_DefeatMessage,You weren't kidding!*Alright, here. Take the~Sparky Badge!
 Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: The Sparky Badge,~named after yours truly,~lets you use Fly anytime!*Take this too!
 Jaeru_Gym_LeaderSparky_AfterBattle2,TM24 contains Thunderbolt!*Teach it to an Electric~Pokémon!
-Jaeru_Gym_LeaderSparky_DefeatMessage,You weren't kidding!*Alright, here. Take the~Sparky Badge!
 Jaeru_Gym_LeaderSparky_TalkAgain,Sparky: Go on kid and enjoy~the rest of your quest!
 
 Jaeru_OtherHouse_SittingGuy,Pokémon trainers pass by here~often on their way to the~Rijon League.
@@ -3714,20 +3715,50 @@ Route59_Main_LassFiona_DefeatMessage,Botan City is not that~far away!
 Route59_Main_PokeManiac,That stupid guard won't let~me get to the next city!*What is his problem?!
 Route59_Main_Beauty,A little beer makes the guard~go to sleep!
 
+Route59_SilphCoWarehouse_SecurityDoors_WithCardKey,Bingo!~The Card Key opened the door!
+Route59_SilphCoWarehouse_SecurityDoors_NoCardKey,Darn! It needs a Card Key!
+Route59_SilphCoWarehouse_1F_Receptionist,Oh, it's you!*Thanks again for saving us!
 Route59_SilphCoWarehouse_2F_TM42Lady_BeforeTalking,Wow, that event was sure~a nightmare!*You want to get rid of yours?~Take this!
 Route59_SilphCoWarehouse_2F_TM42Lady_AfterTalking,TM42 is Dream Eater! It only~works on sleeping Pokemon,~but it swallows their dream!
-Route59_SilphCoWarehouse_RocketGruntLawrence_IntroMessage,This time we we will succeed!
-Route59_SilphCoWarehouse_RocketGruntLawrence_OutroMessage,I goofed!
-Route59_SilphCoWarehouse_RocketGruntLawrence_DefeatMessage,Our boss will not fail us!
-Route59_SilphCoWarehouse_RocketGruntNeil_IntroMessage,Kid, why are you in here?!
-Route59_SilphCoWarehouse_RocketGruntNeil_OutroMessage,Tough!
-Route59_SilphCoWarehouse_RocketGruntNeil_DefeatMessage,You will never successfully~defeat Team Rocket!
-Route59_SilphCoWarehouse_RocketScientistPercy_IntroMessage,Ha! You thought I would help?
-Route59_SilphCoWarehouse_RocketScientistPercy_OutroMessage,You're good.
-Route59_SilphCoWarehouse_RocketScientistPercy_DefeatMessage,Go away kid!
-Route59_SilphCoWarehouse_RocketScientistNathan_IntroMessage,Can't open the doors?
-Route59_SilphCoWarehouse_RocketScientistNathan_OutroMessage,Drat! How could I lose?
-Route59_SilphCoWarehouse_RocketScientistNathan_DefeatMessage,The doors only open with~the Card Key!
+Route59_SilphCoWarehouse_2F_RocketGruntLawrence_IntroMessage,This time we we will succeed!
+Route59_SilphCoWarehouse_2F_RocketGruntLawrence_OutroMessage,I goofed!
+Route59_SilphCoWarehouse_2F_RocketGruntLawrence_DefeatMessage,Our boss will not fail us!
+Route59_SilphCoWarehouse_2F_RocketGruntNeil_IntroMessage,Kid, why are you in here?!
+Route59_SilphCoWarehouse_2F_RocketGruntNeil_OutroMessage,Tough!
+Route59_SilphCoWarehouse_2F_RocketGruntNeil_DefeatMessage,You will never successfully~defeat Team Rocket!
+Route59_SilphCoWarehouse_2F_RocketScientistPercy_IntroMessage,Ha! You thought I would help?
+Route59_SilphCoWarehouse_2F_RocketScientistPercy_OutroMessage,You're good.
+Route59_SilphCoWarehouse_2F_RocketScientistPercy_DefeatMessage,Go away kid!
+Route59_SilphCoWarehouse_2F_RocketScientistNathan_IntroMessage,Can't open the doors?
+Route59_SilphCoWarehouse_2F_RocketScientistNathan_OutroMessage,Drat! How could I lose?
+Route59_SilphCoWarehouse_2F_RocketScientistNathan_DefeatMessage,The doors only open with~the Card Key!
+Route59_SilphCoWarehouse_3F_RocketGruntScott_IntroMessage,Feeling lucky punk?
+Route59_SilphCoWarehouse_3F_RocketGruntScott_OutroMessage,Flame out!
+Route59_SilphCoWarehouse_3F_RocketGruntScott_DefeatMessage,This didn't work in Saffron~City either!
+Route59_SilphCoWarehouse_3F_RocketGruntSean_IntroMessage,Oh not this again!
+Route59_SilphCoWarehouse_3F_RocketGruntSean_OutroMessage,You traitor!
+Route59_SilphCoWarehouse_3F_RocketGruntSean_DefeatMessage,I think it's time for me~to retire.
+Route59_SilphCoWarehouse_3F_RocketScientistJulius_IntroMessage,There's nothing down there~kid, turn back!
+Route59_SilphCoWarehouse_3F_RocketScientistJulius_OutroMessage,Shoot!
+Route59_SilphCoWarehouse_3F_RocketScientistJulius_DefeatMessage,Great, there's nothing I~can do.
+Route59_SilphCoWarehouse_3F_OfficerWorker_Female0_BeforeDefeatGiovanni,Oh now, what will we do?
+Route59_SilphCoWarehouse_3F_OfficerWorker_Female0_AfterDefeatGiovanni,You are a true hero!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Female1_BeforeDefeatGiovanni,The Team Rocket leader~is upstairs.*Defeat him!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Female1_AfterDefeatGiovanni,Thanks for everything!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male0_BeforeDefeatGiovanni,Silph can't afford this!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male0_AfterDefeatGiovanni,Thanks again kid!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male1_BeforeDefeatGiovanni,They must have targeted Silph~for our Pokémon products.
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male1_AfterDefeatGiovanni,Thanks again!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male2_BeforeDefeatGiovanni,The Rockets came and took~over!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male2_AfterDefeatGiovanni,I'd better get back to work!
+Route59_SilphCoWarehouse_4F_RocketGruntHector_IntroMessage,Get out of here right now!
+Route59_SilphCoWarehouse_4F_RocketGruntHector_OutroMessage,Don't... Please!
+Route59_SilphCoWarehouse_4F_RocketGruntHector_DefeatMessage,You will never beat 'da Boss!
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle,Giovanni: What?!*Another child trying to stop~me from fulfilling Team~Rocket's goals?*If you don't stay out of~my business yourself kid,~I will make sure you do!*<player.name>: Bring it on, old man.
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage,Arrgh!! I lost again!?
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: How can I run a~criminal organization if my~plans keep getting thwarted~by children?!*I guess I should just give up.*There's no way we can succeed~with kids like you!*Goodbye forever!
+Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<player.name>: Is everyone~okay?*Manager: Yes, thanks to you.*You're a brave kid.*<player.name>: It was~nothing really.*Manager: I need to repay you~somehow. Oh here, have this~expensive gift!*<player.name>: Thanks you so much!
+Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Make sure to visit our~main building, located in~Saffron City, Kanto when you~have the time.
 
 [Route 61]
 Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!

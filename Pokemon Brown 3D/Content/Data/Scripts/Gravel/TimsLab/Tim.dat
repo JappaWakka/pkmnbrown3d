@@ -44,7 +44,7 @@ version=2
 	@Register.Register(pokedex)
 	@register.unregister(tim3)
 	@Register.Register(tim4)
-	@NPC.register(Caves\Merson\Outside.dat|0|remove|1)
+	@NPC.register(Caves\Merson\Outside.dat|0|remove)
 :end
 :endif
 

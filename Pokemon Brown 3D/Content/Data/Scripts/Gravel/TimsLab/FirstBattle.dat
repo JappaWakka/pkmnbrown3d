@@ -62,7 +62,7 @@ version=2
 	@npc.turn(4,2)
 	@npc.move(4,6)
 	@npc.remove(4)
-	@npc.register(TimsLab.dat|4|remove|1)
+	@npc.register(TimsLab.dat|4|remove)
 	@Register.Register(muralabbattle)
 	@register.unregister(tim2)
 	@Register.Register(tim3)

@@ -1,8 +1,0 @@
-version=2
-
-:if:<Register.Registered(BeatGiovanni)>=False
-@Text.Show(The Team Rocket leader~is upstairs.*Defeat him!)
-:else
-	@Text.Show(Thanks for everything!)
-:endif
-:end

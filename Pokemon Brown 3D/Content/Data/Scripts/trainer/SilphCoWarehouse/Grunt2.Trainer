@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|<system.token(TrainerSubClass_Rocket_Grunt)>
+Name|Scott
 TrainerClass|<system.token(TrainerClass_RocketGrunt)>
 Money|870
-IntroMessage|Feeling lucky punk?
-OutroMessage|Flame out!
-DefeatMessage|This didn't work in Saffron~City either!
+IntroMessage|<system.token(Route59_SilphCoWarehouse_3F_RocketGruntScott_IntroMessage)>
+OutroMessage|<system.token(Route59_SilphCoWarehouse_3F_RocketGruntScott_OutroMessage)>
+DefeatMessage|<system.token(Route59_SilphCoWarehouse_3F_RocketGruntScott_DefeatMessage)>
 TextureID|RocketGrunt_Male
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer

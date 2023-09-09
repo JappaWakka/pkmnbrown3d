@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Scientist
-TrainerClass|<system.token(TrainerClass_RocketGrunt)>
+Name|Julius
+TrainerClass|<system.token(TrainerClass_RocketScientist)>
 Money|1250
-IntroMessage|Theres nothing down~there kid, turn back!
-OutroMessage|Shoot!
-DefeatMessage|Great, there's nothing I~can do.
+IntroMessage|<system.token(Route59_SilphCoWarehouse_3F_RocketScientistJulius_IntroMessage)>
+OutroMessage|<system.token(Route59_SilphCoWarehouse_3F_RocketScientistJulius_OutroMessage)>
+DefeatMessage|<system.token(Route59_SilphCoWarehouse_3F_RocketScientistJulius_DefeatMessage)>
 TextureID|Scientist_Male
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

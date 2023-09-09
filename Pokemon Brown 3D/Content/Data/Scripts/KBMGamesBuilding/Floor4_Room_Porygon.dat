@@ -2,7 +2,7 @@ version=2
 :if:<Register.Registered(porygon)>=false
 	@screen.showpokemon(137,0,1)
 	@NPC.remove(1)
-	@NPC.register(routes\55\KBMGamesBuilding\Floor4_Room.dat|1|remove|1)
+	@NPC.register(routes\55\KBMGamesBuilding\Floor4_Room.dat|1|remove)
 	@Sound.Play(Success,1)
 	@Text.Show(<system.token(Route55_KBMGamesBuilding_Floor4_Room_Porygon_Receive)>)
 	:if:<pokemon.count>=6

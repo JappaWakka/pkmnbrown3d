@@ -1,8 +1,0 @@
-version=2
-
-:if:<Register.Registered(BeatGiovanni)>=False
-@Text.Show(Silph can't afford this!)
-:else
-	@Text.Show(Thanks again kid!)
-:endif
-:end

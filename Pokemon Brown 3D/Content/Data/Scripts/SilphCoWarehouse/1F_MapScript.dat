@@ -1,9 +1,8 @@
 version=2
 
 :if:<Register.Registered(BeatGiovanni)>=True
-	@npc.spawn(3,0.155,1,0,...,83,0,2,Assistant,0,Still)
-	@npc.spawn(9,0,11,1,botanaccess,Barry,0,2,Barry,1,Looking)
+	@npc.spawn(3,0.155,1,0,...,OfficeWorker_Female,0,2,Receptionist,0,Still)
 :else
-	@entity.remove(2)
+	@entity.remove(1)
 :endif
 :end
