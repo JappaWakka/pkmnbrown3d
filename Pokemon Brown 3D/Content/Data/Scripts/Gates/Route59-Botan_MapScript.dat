@@ -1,6 +1,6 @@
 version=2
-:if:<Inventory.CountItem(6)>=1
+:if:<Register.Registered(drunksleep)>=true
+	@npc.turn(0,3)
 	@entity.remove(1)
-	@npc.turn(0,0)
 :endif
 :end

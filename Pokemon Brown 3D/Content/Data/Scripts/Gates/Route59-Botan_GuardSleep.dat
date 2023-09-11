@@ -1,6 +1,6 @@
 version=2
 
-:if:<Register.Registered(beerkeg)>=true <and> <Register.Registered(drunksleep)>=true
+:if:<Register.Registered(drunksleep)>=true
 @Text.Show(<player.name>: He's still asleep...)
 :endif
 :end

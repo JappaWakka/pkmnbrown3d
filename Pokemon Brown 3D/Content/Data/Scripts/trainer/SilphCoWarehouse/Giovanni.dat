@@ -24,6 +24,17 @@ version=2
 	@npc.register(Routes\59\SilphCoWarehouse\3F.dat|7|remove)
 	@npc.register(Routes\59\SilphCoWarehouse\4F.dat|0|remove)
 	@npc.register(Routes\59\SilphCoWarehouse\4F.dat|1|remove)
+	
+	@npc.unregister(Botan\Main.dat|0|remove)
+	@npc.unregister(Botan\Main.dat|1|remove)
+	@npc.unregister(Botan\Main.dat|2|remove)
+	@npc.unregister(Botan\Main.dat|3|remove)
+	@npc.unregister(Botan\Main.dat|4|remove)
+	@npc.register(Botan\Main.dat|5|remove)
+	@npc.register(Botan\Main.dat|6|remove)
+	@npc.register(Botan\Main.dat|7|remove)
+	@npc.register(Botan\Main.dat|8|remove)
+	
 	@screen.fadein(15)
 	@camera.update
 :endif

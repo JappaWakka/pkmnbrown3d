@@ -1,0 +1,11 @@
+version=2
+
+:if:<Register.Registered(RemoveBotanCitizens)>=False
+	@npc.register(Botan\Main.dat|0|remove)
+	@npc.register(Botan\Main.dat|1|remove)
+	@npc.register(Botan\Main.dat|2|remove)
+	@npc.register(Botan\Main.dat|3|remove)
+	@npc.register(Botan\Main.dat|4|remove)
+	@Register.Register(RemoveBotanCitizens)
+:endif
+:end
