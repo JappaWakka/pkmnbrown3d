@@ -17,7 +17,7 @@ version=2
 				:if:<inventory.countitem(gm6)>=false
 					@player.warp(Botan\HauntedForest\2.dat,2,0.1,9)
 				:else
-					@player.warp(Botan\HauntedForest\missing2.dat,2,0.1,9)
+					@player.warp(Botan\HauntedForest\MissingNo2.dat,2,0.1,9)
 				:endif
 		:endwhen
 	:when:2
@@ -27,12 +27,12 @@ version=2
 			:when:17,0,9
 				@player.warp(Botan\HauntedForest\3.dat,18,0.1,9)
 		:endwhen
-	:when:missing2
+	:when:MissingNo2
 		:select:<player.position>
 			:when:2,0,9
 				@player.warp(Botan\HauntedForest\1.dat,-1,1.1,8)
 			:when:17,0,9
-				@player.warp(Botan\HauntedForest\missing3.dat,18,0.1,9)
+				@player.warp(Botan\HauntedForest\MissingNo3.dat,18,0.1,9)
 		:endwhen
 	:when:3
 		:select:<player.position>
@@ -41,12 +41,12 @@ version=2
 			:when:3,0,9
 				@player.warp(Botan\HauntedForest\4.dat,-1,0.1,9)
 		:endwhen
-	:when:missing3
+	:when:MissingNo3
 		:select:<player.position>
 			:when:18,0,9
-				@player.warp(Botan\HauntedForest\missing2.dat,17,0.1,9)
+				@player.warp(Botan\HauntedForest\MissingNo2.dat,17,0.1,9)
 			:when:3,0,9
-				@player.warp(Botan\HauntedForest\missing4.dat,-1,0.1,9)
+				@player.warp(Botan\HauntedForest\MissingNo4.dat,-1,0.1,9)
 		:endwhen
 	:when:4
 		:select:<player.position>
@@ -55,12 +55,12 @@ version=2
 			:when:14,0,9
 				@player.warp(Botan\HauntedForest\5.dat,18,0.1,5)
 		:endwhen
-	:when:missing4
+	:when:MissingNo4
 		:select:<player.position>
 			:when:-1,0,9
-				@player.warp(Botan\HauntedForest\missing3.dat,3,0.1,9)
+				@player.warp(Botan\HauntedForest\MissingNo3.dat,3,0.1,9)
 			:when:14,0,9
-				@player.warp(Botan\HauntedForest\missing5.dat,18,0.1,5)
+				@player.warp(Botan\HauntedForest\MissingNo5.dat,18,0.1,5)
 		:endwhen
 	:when:5
 		:select:<player.position>
@@ -69,10 +69,10 @@ version=2
 			:when:9,0,12
 				@player.warp(Botan\HauntedForest\6.dat,1,0.1,14)
 		:endwhen
-	:when:missing5
+	:when:MissingNo5
 		:select:<player.position>
 			:when:18,0,5
-				@player.warp(Botan\HauntedForest\missing4.dat,14,0.1,9)
+				@player.warp(Botan\HauntedForest\MissingNo4.dat,14,0.1,9)
 			:when:9,0,12
 				@player.turnto(3)
 				@player.move(1)

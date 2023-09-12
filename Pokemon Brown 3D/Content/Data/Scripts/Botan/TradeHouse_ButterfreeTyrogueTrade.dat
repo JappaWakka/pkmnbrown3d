@@ -1,0 +1,17 @@
+version=2
+
+:if:<Register.Registered(tyroguetrade)>=false
+@Text.Show(<system.token(Botan_TradeHouse_TyrogueTrade_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		@pokemon.npctrade(12|236||-1||0|11790|Trainer|5||<system.token(Botan_TradeHouse_TyrogueTrade_CatchLocation)>|<system.token(Botan_TradeHouse_TyrogueTrade_CatchMethod)>|Bruno|<system.token(Botan_TradeHouse_TyrogueTrade_TradeSuccess)>|<system.token(Botan_TradeHouse_TyrogueTrade_TradeFail)>|tyroguetrade)
+		:end
+	
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Botan_TradeHouse_TyrogueTrade_Answer_No)>)
+		:end
+	:endwhen
+:else
+	@Text.Show(<system.token(Botan_TradeHouse_TyrogueTrade_AfterTrade)>)
+:endif	
+:end

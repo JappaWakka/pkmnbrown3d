@@ -1,0 +1,8 @@
+version=2
+
+@screen.fadein
+
+:if:<Register.Registered(MrRumikoRescued)>=true
+    @npc.spawn(4,0,0,1,Botan\MrRumikoHouse_MrRumiko,MrRumiko,0,0,Rumiko,4,Looking)
+:endif
+:end

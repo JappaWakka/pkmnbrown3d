@@ -12,7 +12,7 @@ version=2
 @npc.remove(2)
 :endif
 
-:if:<Register.Registered(rumiko0)>=True
+:if:<Register.Registered(MrRumikoRescued)>=True
 @npc.remove(3)
 :endif
 :end

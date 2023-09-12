@@ -242,6 +242,15 @@ Signs:
 	{"Structure"{STR[{"Map"{str[Structures\PokeMart_Sign]}}{"Offset"{sngArr[21,0,20]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[21,0,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Generic_Sign_PokeMart)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
+Turning Signs:
+	PokeMart
+		Pole
+			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.625,0,20.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.625,1,20.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.625,2,20.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		Sign
+			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[18.625,3,20.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[32,48,16,12][56,48,4,12][48,68,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
+			
 Docks:
 	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[4,8]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[19,-0.625,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[4,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,-0.625,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -452,13 +461,13 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[7,0,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16][96,32,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\Botan\Main.dat,13,0.1,27,0]}}{"Rotation"{int[0]}}]}}
 	
 	PokeMart
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[20,0,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\PokeMart.dat,3,0.1,8,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[20,0,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\PokeMart.dat,3,0.1,6,0]}}{"Rotation"{int[0]}}]}}
 	
 	Haunted Forest Entrance
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[16,0,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\0.dat,10,0.1,15,0]}}{"Rotation"{int[0]}}]}}
 	
 	Hidden House
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[38,0,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\hidden.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[38,0,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HiddenHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
 	
 	Small House
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[20,0,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\MrRumikoHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}

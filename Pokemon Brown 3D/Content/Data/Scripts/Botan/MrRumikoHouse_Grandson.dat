@@ -1,0 +1,8 @@
+version=2
+
+:if:<Register.Registered(MrRumikoRescued)>=true
+    @Text.Show(<system.token(Botan_MrRumikoHouse_Grandson_AfterRescue)>)
+:else
+    @Text.Show(<system.token(Botan_MrRumikoHouse_Grandson_BeforeRescue)>)
+:endif
+:end

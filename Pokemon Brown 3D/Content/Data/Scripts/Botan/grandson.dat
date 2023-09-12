@@ -1,8 +1,0 @@
-version=2
-
-:if:<Register.Registered(rumiko0)>=true
-    @Text.Show(I'm Mr.Rumiko's grandson!)
-:else
-    @Text.Show(That's odd.*Mr.Rumiko is gone.)
-:endif
-:end

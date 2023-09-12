@@ -1,13 +1,13 @@
 version=2
 
 :if:<Register.Registered(redorb)>=False
-@Text.Show(This shiny Red Orb I found~while blowing rocks up is mine!*MINE!*Oh wait, that's bad karma.*I have to be a nice person~right?*Fine, I'll be a good Buddhist~and give this to you to gain~good karma.)
-@npc.register(Caves\Botan\Main.dat|3|remove)
-@npc.remove(3)
-@Item.Give(gm3,1)
-@Item.MessageGive(gm3,1)
-@Register.Register(redorb)
+	@Text.Show(<system.token(Botan_Cave_KarmaMiner_BeforeTalking)>)
+	@npc.register(Caves\Botan\Main.dat|3|remove)
+	@npc.remove(3)
+	@Item.Give(gm3,1)
+	@Item.MessageGive(gm3,1)
+	@Register.Register(redorb)
 :else
-@Text.Show(Come on karma, help me out!)
+	@Text.Show(<system.token(Botan_Cave_KarmaMiner_AfterTalking)>)
 :endif
 :end
