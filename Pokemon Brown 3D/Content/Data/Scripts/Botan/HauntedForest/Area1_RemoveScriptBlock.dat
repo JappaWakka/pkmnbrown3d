@@ -1,0 +1,6 @@
+version=2
+
+:if:<Register.Registered(MuraBotanBattle)>=true
+	@entity.remove(2)
+:endif
+:end

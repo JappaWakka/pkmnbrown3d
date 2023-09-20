@@ -1,85 +1,67 @@
 version=2
 
-@screen.fadeout
+@screen.fadeout(15)
 :select:<level.filename>
-	:when:0
-		:select:<player.position>
-			:when:18,0,7
-				@player.warp(Botan\HauntedForest\1.dat,14,0.1,8)
-			:when:10,0,15
-				@player.warp(Botan\main.dat,13,0.1,4)
-		:endwhen
-	:when:1
-		:select:<player.position>
-			:when:14,0,8
-				@player.warp(Botan\HauntedForest\0.dat,18,0.1,7)
-			:when:-1,1,8
-				:if:<inventory.countitem(gm6)>=false
-					@player.warp(Botan\HauntedForest\2.dat,2,0.1,9)
-				:else
-					@player.warp(Botan\HauntedForest\MissingNo2.dat,2,0.1,9)
-				:endif
-		:endwhen
-	:when:2
+	:when:Area2
 		:select:<player.position>
 			:when:2,0,9
-				@player.warp(Botan\HauntedForest\1.dat,-1,1.1,8)
+				@player.warp(Botan\HauntedForest\Area1.dat,-1,1.1,8)
 			:when:17,0,9
-				@player.warp(Botan\HauntedForest\3.dat,18,0.1,9)
+				@player.warp(Botan\HauntedForest\Area3.dat,18,0.1,9)
 		:endwhen
-	:when:MissingNo2
+	:when:Area2_MissingNo
 		:select:<player.position>
 			:when:2,0,9
-				@player.warp(Botan\HauntedForest\1.dat,-1,1.1,8)
+				@player.warp(Botan\HauntedForest\Area1.dat,-1,1.1,8)
 			:when:17,0,9
-				@player.warp(Botan\HauntedForest\MissingNo3.dat,18,0.1,9)
+				@player.warp(Botan\HauntedForest\Area3_MissingNo.dat,18,0.1,9)
 		:endwhen
-	:when:3
+	:when:Area3
 		:select:<player.position>
 			:when:18,0,9
-				@player.warp(Botan\HauntedForest\2.dat,17,0.1,9)
+				@player.warp(Botan\HauntedForest\Area2.dat,17,0.1,9)
 			:when:3,0,9
-				@player.warp(Botan\HauntedForest\4.dat,-1,0.1,9)
+				@player.warp(Botan\HauntedForest\Area4.dat,-1,0.1,9)
 		:endwhen
-	:when:MissingNo3
+	:when:Area3_MissingNo
 		:select:<player.position>
 			:when:18,0,9
-				@player.warp(Botan\HauntedForest\MissingNo2.dat,17,0.1,9)
+				@player.warp(Botan\HauntedForest\Area2_MissingNo.dat,17,0.1,9)
 			:when:3,0,9
-				@player.warp(Botan\HauntedForest\MissingNo4.dat,-1,0.1,9)
+				@player.warp(Botan\HauntedForest\Area4_MissingNo.dat,-1,0.1,9)
 		:endwhen
-	:when:4
+	:when:Area4
 		:select:<player.position>
 			:when:-1,0,9
-				@player.warp(Botan\HauntedForest\3.dat,3,0.1,9)
+				@player.warp(Botan\HauntedForest\Area3.dat,3,0.1,9)
 			:when:14,0,9
-				@player.warp(Botan\HauntedForest\5.dat,18,0.1,5)
+				@player.warp(Botan\HauntedForest\Area5.dat,18,0.1,5)
 		:endwhen
-	:when:MissingNo4
+	:when:Area4_MissingNo
 		:select:<player.position>
 			:when:-1,0,9
-				@player.warp(Botan\HauntedForest\MissingNo3.dat,3,0.1,9)
+				@player.warp(Botan\HauntedForest\Area3_MissingNo.dat,3,0.1,9)
 			:when:14,0,9
-				@player.warp(Botan\HauntedForest\MissingNo5.dat,18,0.1,5)
+				@player.warp(Botan\HauntedForest\Area5_MissingNo.dat,18,0.1,5)
 		:endwhen
-	:when:5
+	:when:Area5
 		:select:<player.position>
 			:when:18,0,5
-				@player.warp(Botan\HauntedForest\4.dat,14,0.1,9)
+				@player.warp(Botan\HauntedForest\Area4.dat,14,0.1,9)
 			:when:9,0,12
-				@player.warp(Botan\HauntedForest\6.dat,1,0.1,14)
+				@player.warp(Botan\HauntedForest\Area6.dat,1,0.1,14)
 		:endwhen
-	:when:MissingNo5
+	:when:Area5_MissingNo
 		:select:<player.position>
 			:when:18,0,5
-				@player.warp(Botan\HauntedForest\MissingNo4.dat,14,0.1,9)
+				@player.warp(Botan\HauntedForest\Area4_MissingNo.dat,14,0.1,9)
 			:when:9,0,12
 				@player.turnto(3)
 				@player.move(1)
 		:endwhen
-	:when:6
-		@player.warp(Botan\HauntedForest\5.dat,9,0.1,12)
+	:when:Area6
+		@player.warp(Botan\HauntedForest\Area5.dat,9,0.1,12)
 :endwhen
 @level.update
-@screen.fadein
+@screen.fadein(15)
 :end

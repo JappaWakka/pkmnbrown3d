@@ -1,29 +1,50 @@
 version=2
 
-:if:<Register.Registered(murabotanbattle)>=false
+@music.play(Encounter_Rival)
+:if:<player.position(x)>=11
+	@npc.turn(1,3)
+	@player.turnto(1)
+:else
 	@npc.turn(1,2)
-	@Text.Show(Mura: Hey, <player.name>!~I just caught a ghost Pokémon,~along with training my other~Pokémon.*Care to try them out?)
+	@player.turnto(0)
+:endif
+@Text.Show(<system.token(Botan_HauntedForest_Area1_Mura_BeforeBattle)>)
 
-	:if:<Register.Registered(starter1)>=true
-		@battle.trainer(mura\2charmander)
-	:endif
-
+@music.setmusicloop(HauntedForest)
+:if:<Register.Registered(starter1)>=true
+	@battle.trainer(mura\2charmander)
+:else
 	:if:<Register.Registered(starter2)>=true
 		@battle.trainer(mura\2squirtle)
+	:else
+		:if:<Register.Registered(starter3)>=true
+			@battle.trainer(mura\2bulbasaur)
+		:endif
 	:endif
-
-	:if:<Register.Registered(starter3)>=true
-		@battle.trainer(mura\2bulbasaur)
-	:endif
-
-	@Text.Show(Well that stinks, I lost.~But don't think I'll go~easy on you next time.*<player.name>:Alright, see you~later man!)
+:endif
+@Text.Show(<system.token(Botan_HauntedForest_Area1_Mura_AfterBattle)>)
+@music.play(Encounter_Rival)
+:if:<player.position(x)>=11
+	@npc.turn(1,2)
+	@npc.move(1,2)
+	@npc.turn(1,3)
+	@npc.move(1,4)
+	@npc.turn(1,2)
+	@npc.move(1,2)
+:else
 	@npc.turn(1,3)
 	@npc.move(1,1)
 	@npc.turn(1,2)
-	@npc.move(1,5)
+	@npc.move(1,2)
 	@npc.turn(1,3)
-	@npc.move(1,4)
-	@npc.remove(1)
-@Register.Register(murabotanbattle)
+	@npc.move(1,1)
+	@npc.turn(1,2)
+	@npc.move(1,2)
+	@npc.turn(1,3)
+	@npc.move(1,2)
 :endif
+@npc.remove(1)
+@npc.register(Botan\HauntedForest\Area1.dat|1|remove)
+@register.register(MuraBotanBattle)
+@music.play(HauntedForest)
 :end

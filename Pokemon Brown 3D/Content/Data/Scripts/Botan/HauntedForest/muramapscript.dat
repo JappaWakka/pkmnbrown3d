@@ -1,6 +1,0 @@
-version=2
-
-:if:<Register.Registered(murabotanbattle)>=true
-@npc.remove(1)
-:endif
-:end

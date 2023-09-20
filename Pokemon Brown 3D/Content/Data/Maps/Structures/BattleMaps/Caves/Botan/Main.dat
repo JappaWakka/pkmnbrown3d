@@ -373,20 +373,10 @@ Gemstones:
 		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[12,-0.1,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			
 
-NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[26,0,14]}}{"TextureID"{str[Miner]}}{"ID"{int[0]}}{"Name"{str[Dynamite Miner]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Cave_DynamiteMiner)>]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[14,0,2]}}{"TextureID"{str[Miner]}}{"ID"{int[1]}}{"Name"{str[Explanation Miner]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Cave_ExplanationMiner)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[0,0,1]}}{"TextureID"{str[Miner]}}{"ID"{int[2]}}{"Name"{str[Karma Miner]}}{"Action"{int[1]}}{"AdditionalValue"{str[Caves\Botan\RedOrb]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-
-Items:
-	Red Orb
-		{"NPC"{NPC[{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[0,-0.375,0]}}{"TextureID"{str[RedOrb]}}{"ID"{int[3]}}{"Name"{str[Red Orb]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"Movement"{str[PokeBall]}}{"MoveRectangles"{recArr[]}}]}}
-
-
 Ladder:
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Bottom]}}{"Offset"{sngArr[13,0,27]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[13,1,27]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[13,2,27]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Center]}}{"Offset"{sngArr[13,3,27]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[13,4,27]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[13,0,27]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\Botan\Ladder_Up_BotanCity]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
