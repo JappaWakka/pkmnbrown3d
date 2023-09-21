@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Haunted Forest]}}{"MusicLoop"{str[HauntedForest]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[5]}}{"Weather"{int[1]}}{"Lighting"{int[2]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[5]}}{"Weather"{int[1]}}{"Lighting"{int[3]}}]}}
 
 Floors:
 	Grass
@@ -49,6 +49,6 @@ Warps:
 	Botan City
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[10,0,16]}}{"TexturePath"{str[Cities\Botan]}}{"Textures"{recArr[[16,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\Main.dat,16,0.1,4,0]}}{"Rotation"{int[2]}}]}}
 	
-	HauntedForest Area 1
+	Haunted Forest Area 1
 		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[18,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\Area0_Ladder_Area1]}}{"Rotation"{int[0]}}]}}
 		{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Forest_WestEast]}}{"Offset"{sngArr[18,0,7]}}]}}

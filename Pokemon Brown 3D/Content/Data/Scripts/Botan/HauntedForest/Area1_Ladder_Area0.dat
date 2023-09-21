@@ -9,7 +9,7 @@ version=2
 		:if:<Player.Facing>=2
 			@Player.Warp(Botan\HauntedForest\Area0.dat,18,0.1,7,3)
 		:else
-			@Player.Warp(Botan\HauntedForest\Area0.dat,18,0.1,7,2)
+			@Player.Warp(Botan\HauntedForest\Area0.dat,18,0.1,7,1)
 		:endif
 	:endif
 :endif
