@@ -2,7 +2,7 @@ version=2
 
 :if:<inventory.countitem(gm6)>=false
 	@Text.Show(Your game was erased!)
-	@battle.wild(1000,30)
+	@battle.wild(1001,30)
 	@player.turnto(0)
 	@player.move(1)
 :else
