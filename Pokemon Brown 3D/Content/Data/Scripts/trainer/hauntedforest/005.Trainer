@@ -2,11 +2,12 @@
 Name|Heidi
 TrainerClass|<system.token(TrainerClass_Channeler)>
 Money|900
-IntroMessage|I need moons!
-OutroMessage|Live longer!
-DefeatMessage|Chompers!*Load State 1!
+IntroMessage|<system.token(Botan_HauntedForest_Area3_ChannelerHeidi_IntroMessage)>
+OutroMessage|<system.token(Botan_HauntedForest_Area3_ChannelerHeidi_OutroMessage)>
+DefeatMessage|<system.token(Botan_HauntedForest_Area3_ChannelerHeidi_DefeatMessage)>
 TextureID|Channeler
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3
