@@ -60,10 +60,10 @@ Gemstones:
 	
 Purified Zone:
 	Floors
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Texture"{rec[32,0,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[1,0,0]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Texture"{rec[48,0,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,1]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Texture"{rec[32,16,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[1,0,1]}}{"TexturePath"{str[HealPlatform_Dark]}}{"Texture"{rec[48,16,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[HealPlatform]}}{"Texture"{rec[32,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[1,0,0]}}{"TexturePath"{str[HealPlatform]}}{"Texture"{rec[48,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,1]}}{"TexturePath"{str[HealPlatform]}}{"Texture"{rec[32,16,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[1,0,1]}}{"TexturePath"{str[HealPlatform]}}{"Texture"{rec[48,16,16,16]}}]}}
 	Activate
 		{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[HealPlatform_Activate]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	Reset
