@@ -1,21 +1,25 @@
 version=2
 
+@storage.set(bool,VirusScan,false)
+:if:<inventory.countitem(gm6)>>0
+	@storage.set(bool,VirusScan,true)
+:endif
 :if:<Player.Facing>=0
-	:if:<Register.Registered(VirusScan)>=true
+	:if:<inventory.countitem(gm6)>=0
 		@player.warp(Botan\HauntedForest\Area2.dat,2,0.1,9,0)
 	:else
 		@player.warp(Botan\HauntedForest\Area2_MissingNo.dat,2,0.1,9,0)
 	:endif
 :else
 	:if:<Player.Facing>=1
-		:if:<Register.Registered(VirusScan)>=true
+		:if:<inventory.countitem(gm6)>=0
 			@player.warp(Botan\HauntedForest\Area2.dat,2,0.1,9,1)
 		:else
 			@player.warp(Botan\HauntedForest\Area2_MissingNo.dat,2,0.1,9,1)
 		:endif
 	:else
 		:if:<Player.Facing>=2
-			:if:<Register.Registered(VirusScan)>=true
+			:if:<inventory.countitem(gm6)>=0
 				@player.warp(Botan\HauntedForest\Area2.dat,2,0.1,9,0)
 			:else
 				@player.warp(Botan\HauntedForest\Area2_MissingNo.dat,2,0.1,9,0)
@@ -38,4 +42,7 @@ version=2
 	:endif
 :endif
 @Player.Move(1)
+:if:<storage.get(bool,VirusScan)=true
+	@Text.Show(<player.name> used Virus Scan!)
+:endif
 :end
