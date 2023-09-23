@@ -42,7 +42,7 @@ version=2
 	:endif
 :endif
 @Player.Move(1)
-:if:<storage.get(bool,VirusScan)=true
-	@Text.Show(<player.name> used Virus Scan!)
+:if:<storage.get(bool,VirusScan)=true <and> <register.registered(VirusScan)>=false
+	@Text.Show(<system.token(Botan_HauntedForest_Area2_VirusScan)>)
 :endif
 :end
