@@ -1,0 +1,23 @@
+version=2
+
+:if:<Register.Registered(MrRumikoRescued)>=false
+	@Text.Show(<system.token(Botan_HauntedForest_Area6_MrRumiko)>)
+	@screen.fadeout(15)
+	@npc.remove(3)
+	@npc.register(Botan\HauntedForest\Area6.dat|3|remove)
+	@Register.Register(MrRumikoRescued)
+	:if:<player.position(z)>=2
+		@player.warp(Botan\MrRumikoHouse.dat,4,0.1,1,0)
+	:else
+		:if:<player.position(z)>=1
+			@player.warp(Botan\MrRumikoHouse.dat,5,0.1,0,0)
+		:else
+			@player.warp(Botan\MrRumikoHouse.dat,4,0.1,1,2)
+		:endif
+	:endif
+	@level.update
+	@npc.spawn(4,0,0,1,Botan\MrRumikoHouse_MrRumiko,MrRumiko,0,0,Rumiko,4,Looking)
+	@level.update
+	@screen.fadein(15)
+:endif
+:end

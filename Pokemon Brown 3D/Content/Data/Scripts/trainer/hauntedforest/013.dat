@@ -1,13 +1,39 @@
 version=2
 
+@OverworldPokemon.Hide
 @Battle.StartTrainer(hauntedforest\013)
-@Text.Show(I'm not going to forget this!)
-@npc.turn(0,2)
-@npc.move(0,1)
-@npc.turn(0,3)
-@npc.move(0,1)
-@npc.turn(0,2)
-@npc.move(0,4)
+@Text.Show(<system.token(Botan_HauntedForest_Area6_RocketGruntKlay_DefeatMessage)>)
+:if:<player.position(z)>=9
+	:if:<npc.position(0,x)>=1
+		@npc.turn(0,2)
+		@npc.move(0,1)
+		@npc.turn(0,3)
+		@npc.move(0,1)
+		@npc.turn(0,2)
+		@npc.move(0,4)
+		@npc.turn(0,1)
+		@npc.move(0,1)
+	:else
+		:if:<npc.position(0,x)>=2
+			@npc.turn(0,2)
+			@npc.move(0,5)
+			@npc.turn(0,1)
+			@npc.move(0,1)
+		:else		
+			@npc.turn(0,2)
+			@npc.move(0,5)
+			@npc.turn(0,1)
+			@npc.move(0,2)
+		:endif
+	:endif
+:else
+	@npc.turn(0,3)	
+	@npc.move(0,1)
+	@npc.turn(0,2)
+	@npc.move(0,5)
+	@npc.turn(0,1)
+	@npc.move(0,1)
+:endif
 @npc.remove(0)
-@Register.Register(grunt0forest)
+@npc.register(Botan\HauntedForest\Area6.dat|0|remove)
 :end

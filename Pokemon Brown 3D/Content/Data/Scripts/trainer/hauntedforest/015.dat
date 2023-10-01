@@ -1,13 +1,39 @@
 version=2
 
+@OverworldPokemon.Hide
 @Battle.StartTrainer(hauntedforest\015)
-@Text.Show(Gah, not again!)
-@npc.turn(2,2)
-@npc.move(2,1)
-@npc.turn(2,3)
-@npc.move(2,1)
-@npc.turn(2,2)
-@npc.move(2,8)
+@Text.Show(<system.token(Botan_HauntedForest_Area6_RocketGruntIzzy_DefeatMessage)>)
+:if:<player.position(z)>=5
+	:if:<npc.position(2,x)>=1
+		@npc.turn(2,2)
+		@npc.move(2,1)
+		@npc.turn(2,3)
+		@npc.move(2,1)
+		@npc.turn(2,2)
+		@npc.move(2,8)
+		@npc.turn(2,1)
+		@npc.move(2,1)
+	:else
+		:if:<npc.position(2,x)>=2
+			@npc.turn(2,2)
+			@npc.move(2,9)
+			@npc.turn(2,1)
+			@npc.move(2,1)
+		:else		
+			@npc.turn(2,2)
+			@npc.move(2,9)
+			@npc.turn(2,1)
+			@npc.move(2,2)
+		:endif
+	:endif
+:else
+	@npc.turn(2,3)	
+	@npc.move(2,1)
+	@npc.turn(2,2)
+	@npc.move(2,9)
+	@npc.turn(2,1)
+	@npc.move(2,1)
+:endif
 @npc.remove(2)
-@Register.Register(grunt2forest)
+@npc.register(Botan\HauntedForest\Area6.dat|2|remove)
 :end

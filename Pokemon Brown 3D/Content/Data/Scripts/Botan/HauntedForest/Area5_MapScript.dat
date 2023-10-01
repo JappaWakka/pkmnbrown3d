@@ -1,0 +1,7 @@
+version=2
+
+:if:<Register.Registered(VirusScan)>=True
+	@entity.remove(3)
+:endif
+
+:end

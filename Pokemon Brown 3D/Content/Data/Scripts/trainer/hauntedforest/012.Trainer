@@ -2,11 +2,12 @@
 Name|Shaundi
 TrainerClass|<system.token(TrainerClass_Channeler)>
 Money|930
-IntroMessage|Stuff.
-OutroMessage|Other stuff.
-DefeatMessage|Even more stuff!
+IntroMessage|<system.token(Botan_HauntedForest_Area5_ChannelerShaundi_IntroMessage)>
+OutroMessage|<system.token(Botan_HauntedForest_Area5_ChannelerShaundi_OutroMessage)>
+DefeatMessage|<system.token(Botan_HauntedForest_Area5_ChannelerShaundi_DefeatMessage)>
 TextureID|Channeler
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

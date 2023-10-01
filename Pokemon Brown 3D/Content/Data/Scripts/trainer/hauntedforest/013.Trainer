@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Grunt
+Name|Klay
 TrainerClass|<system.token(TrainerClass_RocketGrunt)>
 Money|990
-IntroMessage|What do you want?~Why are you here?
-OutroMessage|I give up!
+IntroMessage|<system.token(Botan_HauntedForest_Area6_RocketGruntKlay_IntroMessage)>
+OutroMessage|<system.token(Botan_HauntedForest_Area6_RocketGruntKlay_OutroMessage)>
 DefeatMessage|
 TextureID|RocketGrunt_Male
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

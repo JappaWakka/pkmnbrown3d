@@ -1,9 +1,9 @@
 [TRAINER FORMAT]
-Name|Grunt
+Name|Izzy
 TrainerClass|<system.token(TrainerClass_RocketGrunt)>
 Money|900
-IntroMessage|Deja Vu, huh?
-OutroMessage|Don't fight us Rockets!
+IntroMessage|<system.token(Botan_HauntedForest_Area6_RocketGruntIzzy_IntroMessage)>
+OutroMessage|<system.token(Botan_HauntedForest_Area6_RocketGruntIzzy_OutroMessage)>
 DefeatMessage|
 TextureID|RocketGrunt_Male
 Region|Rijon

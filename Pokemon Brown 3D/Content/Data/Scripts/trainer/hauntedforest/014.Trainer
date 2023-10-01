@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Grunt
+Name|Rolf
 TrainerClass|<system.token(TrainerClass_RocketGrunt)>
 Money|990
-IntroMessage|No need to raise my Pokémon!*I magically had 99 Rare Candies~in my bag!
-OutroMessage|Please! No more!
+IntroMessage|<system.token(Botan_HauntedForest_Area6_RocketGruntRolf_IntroMessage)>
+OutroMessage|<system.token(Botan_HauntedForest_Area6_RocketGruntRolf_OutroMessage)>
 DefeatMessage|
 TextureID|RocketGrunt_Male
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

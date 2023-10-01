@@ -1,12 +1,12 @@
 version=2
 
 :if:<Register.Registered(ReceivedPokeFlute)>=false
-	@Text.Show(Mr.Rumiko: <player.name>!*You will need this item to~continue in your quest.*It's a very popular item...~PokéFlute!)
+	@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_BeforeTalking_BeforeReceivePokeFlute)>)
 	@Item.Give(gm9,1)
 	@Item.MessageGive(gm9,1)
-	@Text.Show(Upon hearing PokéFlute,~sleeping Pokémon~will spring awake.*It works on all sleeping~Pokémon.)
+	@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_BeforeTalking_AfterReceivePokeFlute)>)
 	@Register.Register(ReceivedPokeFlute)
 :else
-	@Text.Show(Good luck on your quest!)
+	@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_AfterTalking)>)
 :endif
 :end

@@ -1,13 +1,35 @@
 version=2
 
+@OverworldPokemon.Hide
 @Battle.StartTrainer(hauntedforest\014)
-@Text.Show(Why did the candies fail me?*Forget this!)
-@npc.turn(1,2)
-@npc.move(1,1)
-@npc.turn(1,1)
-@npc.move(1,1)
-@npc.turn(1,2)
-@npc.move(1,6)
+@Text.Show(<system.token(Botan_HauntedForest_Area6_RocketGruntRolf_DefeatMessage)>)
+:if:<player.position(z)>=7
+	:if:<npc.position(1,x)>=4
+		@npc.turn(1,2)
+		@npc.move(1,1)
+		@npc.turn(1,1)
+		@npc.move(1,1)
+		@npc.turn(1,2)
+		@npc.move(1,6)
+	:else
+		:if:<npc.position(1,x)>=3
+			@npc.turn(1,2)
+			@npc.move(1,7)
+			@npc.turn(1,1)
+			@npc.move(1,2)
+		:else
+			@npc.turn(1,2)
+			@npc.move(1,7)
+			@npc.turn(1,1)
+			@npc.move(1,1)
+		:endif
+	:endif
+:else
+	@npc.turn(1,1)
+	@npc.move(1,1)
+	@npc.turn(1,2)
+	@npc.move(1,7)
+:endif
 @npc.remove(1)
-@Register.Register(grunt1forest)
+@npc.register(Botan\HauntedForest\Area6.dat|1|remove)
 :end

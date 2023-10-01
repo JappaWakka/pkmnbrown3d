@@ -2,11 +2,12 @@
 Name|Paula
 TrainerClass|<system.token(TrainerClass_Channeler)>
 Money|840
-IntroMessage|Getting tired?
-OutroMessage|Groan!
-DefeatMessage|I like stopping people.
+IntroMessage|<system.token(Botan_HauntedForest_Area5_ChannelerPaula_IntroMessage)>
+OutroMessage|<system.token(Botan_HauntedForest_Area5_ChannelerPaula_OutroMessage)>
+DefeatMessage|<system.token(Botan_HauntedForest_Area5_ChannelerPaula_DefeatMessage)>
 TextureID|Channeler
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3
