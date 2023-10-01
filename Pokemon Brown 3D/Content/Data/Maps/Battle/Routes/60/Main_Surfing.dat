@@ -56,7 +56,7 @@ Tall Grass:
 
 Water:
 	Regular Water
-		{"EntityField"{ENT[{"Size"{intArr[8,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[8,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 		
 	Waterside Sides (Direction = Where the water is)
 		North

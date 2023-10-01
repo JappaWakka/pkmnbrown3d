@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Route 58]}}{"MusicLoop"{str[RouteMusic1]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"SurfingBattleMap"{str[Routes\58\Main_Surfing.dat]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
 
 Floors:
 	Grass
@@ -209,14 +209,6 @@ Water:
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[4,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			
 
-
-NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[15,0,14]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[0]}}{"Name"{str[Jr. Trainer ♀ Aleah]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route58\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[10,0,19]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[1]}}{"Name"{str[Jr. Trainer ♂ Gib]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\route58\001]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[2,0,10]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[2]}}{"Name"{str[Bug Catcher Jarrod]}}{"Action"{int[2]}}{"AdditionalValue"{str[4|trainer\route58\002]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[13,0,25]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[3]}}{"Name"{str[Jr. Trainer ♀ Delia]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route58\003]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[12,0,27]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[4]}}{"Name"{str[Jr. Trainer ♂ Carlos]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\route58\004]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-
 Warps:
 	International Tunnel Entrance
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[6,0,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16][96,32,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves/InternationalTunnel/1F.dat,20,0.1,2,0]}}{"Rotation"{int[0]}}]}}
@@ -228,8 +220,3 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[10,0,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Main.dat,18,0.1,-2,0]}}{"Rotation"{int[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[11,0,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Main.dat,19,0.1,-2,0]}}{"Rotation"{int[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Main.dat,20,0.1,-2,0]}}{"Rotation"{int[0]}}]}}
-
-Offsets:
-	{"OffsetMap"{MAP[{"Offset"{sngArr[-9,-44]}}{"Map"{str[Botan\Main.dat]}}]}}
-	{"OffsetMap"{MAP[{"Offset"{sngArr[-8,31]}}{"Map"{str[Castro\Main.dat]}}]}}
-	{"OffsetMap"{MAP[{"Offset"{sngArr[-77,-34]}}{"Map"{str[Routes\59\Main.dat]}}]}}

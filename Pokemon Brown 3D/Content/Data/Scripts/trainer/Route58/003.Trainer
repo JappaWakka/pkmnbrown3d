@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Jessica
+Name|Delia
 TrainerClass|<system.token(TrainerClass_JrTrainer_Female)>
 Money|520
-IntroMessage|Stop and battle me!
-OutroMessage|Just didn't work!
-DefeatMessage|I've given up on battling,~thanks a lot!
+IntroMessage|<system.token(Route58_Main_JrTrainerFemaleDelia_IntroMessage)>
+OutroMessage|<system.token(Route58_Main_JrTrainerFemaleDelia_OutroMessage)>
+DefeatMessage|<system.token(Route58_Main_JrTrainerFemaleDelia_DefeatMessage)>
 TextureID|JrTrainer_Female
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -17,6 +18,6 @@ Pokemon4|
 Pokemon5|
 Pokemon6|
 Items|
-Gender|0
+Gender|1
 AI|2
-IntroSequence|0,0
+IntroSequence|7,7
