@@ -113,7 +113,7 @@ Switch:
 {"EntityField"{ENT[{"Size"{intArr[3,1]}}{"Scale"{sngArr[0.9,0.9,0.9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,-0.05,4]}}{"TexturePath"{str[specialblocks]}}{"Textures"{recArr[[0,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 
 Stairs:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[11,0,10]}}{"TexturePath"{str[House3]}}{"Textures"{recArr[[64,48,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[Castro\mansion\1.dat,8,0.1,10,0,3]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[11,0,10]}}{"TexturePath"{str[House3]}}{"Textures"{recArr[[64,48,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[Castro\mansion\2F.dat,8,0.1,10,0,3]}}{"Rotation"{int[0]}}]}}
 {"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[11,0,10]}}{"TexturePath"{str[House2]}}{"Visible"{bool[0]}}{"Texture"{rec[112,16,16,16]}}]}}
 {"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[11,-1,10]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,96,16,16][16,96,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 {"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"TexturePath"{str[rocketbase]}}{"Textures"{recArr[[32,64,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"Position"{sngArr[11,-1.001,11]}}]}}
