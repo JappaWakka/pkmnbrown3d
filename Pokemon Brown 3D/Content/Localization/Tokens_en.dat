@@ -494,10 +494,11 @@ Places_Gravel Town,Gravel Town
 Places_Merson City,Merson City
 Places_Hayward City,Hayward City
 Places_Owsauri City,Owsauri City
-Places_Eagulou City,Eagulou City
 Places_Moraga Town,Moraga Town
 Places_Jaeru City,Jaeru City
 Places_Botan City,Botan City
+Places_Castro Valley,Castro Valley
+Places_Eagulou City,Eagulou City
 
 Special Places:
 Places_Dock Underpass,Dock Underpass
@@ -3355,13 +3356,13 @@ Route49_Route50_Gate_Binoculars_Left,Looked into the binoculars...*A man biking!
 Route49_Route50_Gate_Binoculars_Right,Looked into the binoculars...*Azalea Town!
 
 [Route 49 Gate]
-Route49_Gate_Bjorn_RhyhornTrade_Question,Bjorn: I'm looking for~a Shellder!~Wanna trade one for Rhyhorn?
-Route49_Gate_Bjorn_RhyhornTrade_Answer_No,Bjorn: Awww! Oh well...
-Route49_Gate_Bjorn_RhyhornTrade_AfterTrade,Bjorn: Isn't my old~Rhyhorn great?
-Route49_Gate_Bjorn_RhyhornTrade_TradeSuccess,Bjorn: Okay, connect the cable~like so!
-Route49_Gate_Bjorn_RhyhornTrade_TradeFail,Bjorn: What? That's not~Rhyhorn!*If you get one, come back~here!
-Route49_Gate_Bjorn_RhyhornTrade_CatchMethod,Received in a trade with Bjorn
-Route49_Gate_Bjorn_RhyhornTrade_CatchLocation,in the Gate on Route 49
+Route49_Gate_RhyhornTrade_Question,I'm looking for a Shellder!~Wanna trade one for Rhyhorn?
+Route49_Gate_RhyhornTrade_Answer_No,Awww! Oh well...
+Route49_Gate_RhyhornTrade_AfterTrade,Isn't my old Rhyhorn great?
+Route49_Gate_RhyhornTrade_TradeSuccess,Okay, connect the cable~like so!
+Route49_Gate_RhyhornTrade_TradeFail,What? That's not Rhyhorn!*If you get one, come back~here!
+Route49_Gate_RhyhornTrade_CatchMethod,Received in a trade
+Route49_Gate_RhyhornTrade_CatchLocation,in the Gate on Route 49
 Route49_Gate_Binoculars_Left,Looked into the binoculars...*There are people swimming!
 Route49_Gate_Binoculars_Right,Looked into the binoculars...*There's Hayward City!
 
@@ -3897,9 +3898,32 @@ Route58_Main_JrTrainerMaleCarlos_OutroMessage,I didn't start it!
 Route58_Main_JrTrainerMaleCarlos_DefeatMessage,Stop bugging me for no reason!
 
 [Castro Valley]
+Castro_Main_OldLady,The S.S. Anne just came for its~final stop!
+Castro_Main_Gambler_Purple,Did you see S.S. Anne moored~in the harbor?
+Castro_Main_Gambler_Red,S.S. Anne won't leave for other~regions for 3 months, so~it rests here.
+Castro_Main_Sailor_Harbor,Welcome to S.S. Anne!
+Castro_Main_Sailor_Other,S.S. Anne is a famous luxury~cruise ship.
+Castro_Main_Marill_Cry,Marill: Marill Marill!*It looks lost...
+Castro_Main_Sign_City,Castro Valley*The courtly little port town
+Castro_Main_Sign_Forest,Castro Forest Entrance
+
 Castro_PokeCenter_BenchGuy,Pokémon can still learn~techniques after canceling~evolution.*Evolution can wait until~new moves have been learned.
 Castro_PokeCenter_Gentleman,What is with that cave?~And I don't mean Mt. Boulder...
 Castro_PokeCenter_Beauty,My boyfriend is busy catching~Pokémon from the Eagulou Park.
+
+Castro_TradeHouse_ChanseyTrade_Question,Hi! Do you have a~Pidgey?*Want to trade it for Chansey?
+Castro_TradeHouse_ChanseyTrade_Answer_No,That's too bad.
+Castro_TradeHouse_ChanseyTrade_AfterTrade,How is my old Chansey?
+Castro_TradeHouse_ChanseyTrade_TradeSuccess,Okay, connect the cable~like so!
+Castro_TradeHouse_ChanseyTrade_TradeFail,...This is no Pidgey.*If you get one, trade it with~me!
+Castro_TradeHouse_ChanseyTrade_CatchMethod,Received in a trade
+Castro_TradeHouse_ChanseyTrade_CatchLocation,in Castro Valley
+
+Castro_OldRodHouse_OldRodGuy_Question,I'm the Fishing Guru's cousin!*I love to fish!*How about you?
+Castro_OldRodHouse_OldRodGuy_Answer_No,Oh...That's so disappointing...
+Castro_OldRodHouse_OldRodGuy_Answer_Yes1,Grand! I like your style!*Take this and fish, young one!
+Castro_OldRodHouse_OldRodGuy_Answer_Yes2,Not the best Rod, but it's~better than nothing!
+Castro_OldRodHouse_OldRodGuy_AfterReceiveOldRod,Hello there, <player.name>!*How are the fish biting?
 
 [Route 61]
 Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!
@@ -3929,7 +3953,7 @@ Route61_GoodRodHouse_GoodRodGuy_Question,I'm the Fishing Guru's~second cousin's 
 Route61_GoodRodHouse_GoodRodGuy_Answer_No,Oh...That's so disappointing...
 Route61_GoodRodHouse_GoodRodGuy_Answer_Yes1,Grand! I like your style!*Take this and fish, young one!
 Route61_GoodRodHouse_GoodRodGuy_Answer_Yes2,Fishing is a way of life!*From the seas to rivers,~go out and land the big one!
-Route61_GoodRodHouse_GoodRodGuy_Answer_AfterReceiveGoodRod,Hello there, <player.name>!*The Good Rod is actually good,~unlike that Old Rod!*Catch different Pokémon~with it!
+Route61_GoodRodHouse_GoodRodGuy_AfterReceiveGoodRod,Hello there, <player.name>!*The Good Rod is actually good,~unlike the Old Rod!*Catch different Pokémon~with it!
 
 Route61_SurfHouse_SurfMan_BeforeTalking,Hi there kid!*I just bought a bunch of HM03s~to add to my HM03s collection.*Although I think you will need~one to go to Eagulou City,~so here you go kid!
 Route61_SurfHouse_SurfMan_AfterTalking,HM03 is Surf!*Pokémon will be able to~ferry you across water!*And, this HM isn't disposable!~You can use it over and over!

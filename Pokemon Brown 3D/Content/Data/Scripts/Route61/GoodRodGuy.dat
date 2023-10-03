@@ -13,6 +13,6 @@ version=2
 		@Text.Show(<system.token(Route61_GoodRodHouse_GoodRodGuy_Answer_No)>)
 	:endwhen
 :else
-	@Text.Show(<system.token(Route61_GoodRodHouse_GoodRodGuy_Answer_AfterReceiveGoodRod)>)
+	@Text.Show(<system.token(Route61_GoodRodHouse_GoodRodGuy_AfterReceiveGoodRod)>)
 :endif
 :end

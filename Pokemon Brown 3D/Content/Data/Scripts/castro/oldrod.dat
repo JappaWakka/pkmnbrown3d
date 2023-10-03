@@ -1,23 +1,23 @@
 version=2
 
 :if:<Register.Registered(oldrod)>=false
-@Text.Show(I'm the Fishing Guru's~cousin!*I love to fish!*How about you?)
-@options.show(<system.token(global_yes)>,<system.token(global_no)>)
-
-:when:<system.token(global_yes)>
-@Text.Show(Grand! I like your style!*Take this and fish,~young one!)
-@Item.Give(58,1)
-@Item.MessageGive(58,1)
-@Register.Register(oldrod)
-@Text.Show(Not the best Rod, but it's~better than nothing!)
-:end
-
-:when:<system.token(global_no)>
-@Text.Show(Oh... That's so disappointing...)
-:end
-:endwhen
-
+	@Text.Show(<system.token(Castro_OldRodHouse_OldRodGuy_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	
+	:when:<system.token(global_yes)>
+		@Text.Show(<system.token(Castro_OldRodHouse_OldRodGuy_Answer_Yes1)>)
+		@Item.Give(58,1)
+		@Item.MessageGive(58,1)
+		@Register.Register(oldrod)
+		@Text.Show(<system.token(Castro_OldRodHouse_OldRodGuy_Answer_Yes2)>)
+		:end
+	
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Castro_OldRodHouse_OldRodGuy_Answer_No)>)
+		:end
+	:endwhen
+	
 :else
-@Text.Show(Hello there, <player.name>!*How are the fish biting?)
+	@Text.Show(<system.token(Castro_OldRodHouse_OldRodGuy_AfterReceiveOldRod)>)
 :endif
 :end

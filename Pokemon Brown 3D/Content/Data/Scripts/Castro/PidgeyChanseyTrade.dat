@@ -1,0 +1,17 @@
+version=2
+
+:if:<Register.Registered(chanseytrade)>=false
+	@Text.Show(<system.token(Castro_TradeHouse_ChanseyTrade_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		@pokemon.npctrade(16|113||-1||0|38610|Trainer|5||<system.token(Castro_TradeHouse_ChanseyTrade_CatchLocation)>|<system.token(Castro_TradeHouse_ChanseyTrade_CatchMethod)>|Lara|<system.token(Castro_TradeHouse_ChanseyTrade_TradeSuccess)>|<system.token(Castro_TradeHouse_ChanseyTrade_TradeFail)>|chanseytrade)
+		:end
+	
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Castro_TradeHouse_ChanseyTrade_Answer_No)>)
+		:end
+	:endwhen
+:else
+	@Text.Show(<system.token(Castro_TradeHouse_ChanseyTrade_AfterTrade)>)
+:endif	
+:end
