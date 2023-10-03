@@ -1,9 +1,0 @@
-version=2
-
-:if:<Register.Registered(fistbadge_obtain)>=true
-@Text.Show(Castro Valley Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<player.name>)
-
-:else
-	@Text.Show(Castro Valley Pokémon Gym~Leader: Koji*Winning Trainers:~Mura)
-:endif
-:end

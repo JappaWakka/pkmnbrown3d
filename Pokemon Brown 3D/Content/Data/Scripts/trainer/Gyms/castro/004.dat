@@ -1,0 +1,87 @@
+version=2
+:if:<register.registered(trainer_Gyms\castro\004)>=false
+
+	:if:<player.facing>=0
+		@level.wait(5)
+		@npc.turn(5,3)
+		@level.wait(5)
+		@npc.turn(5,0)
+		@level.wait(5)
+		@npc.turn(5,1)
+		@level.wait(5)
+		@npc.turn(5,2)
+		@level.wait(5)
+		@npc.turn(5,3)
+		@level.wait(5)
+		@npc.turn(5,0)
+		@level.wait(5)
+		@npc.turn(5,1)
+		@level.wait(5)
+		@npc.turn(5,2)
+		@level.wait(5)
+	:endif
+	
+	:if:<player.facing>=1
+		@level.wait(5)
+		@npc.turn(5,0)
+		@level.wait(5)
+		@npc.turn(5,1)
+		@level.wait(5)
+		@npc.turn(5,2)
+		@level.wait(5)
+		@npc.turn(5,3)
+		@level.wait(5)
+		@npc.turn(5,0)
+		@level.wait(5)
+		@npc.turn(5,1)
+		@level.wait(5)
+		@npc.turn(5,2)
+		@level.wait(5)
+		@npc.turn(5,3)
+		@level.wait(5)
+	:endif
+	
+	:if:<player.facing>=2
+		@level.wait(5)
+		@npc.turn(5,1)
+		@level.wait(5)
+		@npc.turn(5,2)
+		@level.wait(5)
+		@npc.turn(5,3)
+		@level.wait(5)
+		@npc.turn(5,0)
+		@level.wait(5)
+		@npc.turn(5,1)
+		@level.wait(5)
+		@npc.turn(5,2)
+		@level.wait(5)
+		@npc.turn(5,3)
+		@level.wait(5)
+		@npc.turn(5,0)
+		@level.wait(5)
+	:endif
+	
+	:if:<player.facing>=3
+		@level.wait(5)
+		@npc.turn(5,2)
+		@level.wait(5)
+		@npc.turn(5,3)
+		@level.wait(5)
+		@npc.turn(5,0)
+		@level.wait(5)
+		@npc.turn(5,1)
+		@level.wait(5)
+		@npc.turn(5,2)
+		@level.wait(5)
+		@npc.turn(5,3)
+		@level.wait(5)
+		@npc.turn(5,0)
+		@level.wait(5)
+		@npc.turn(5,1)
+		@level.wait(5)
+	:endif
+	
+	@npc.wearskin(5,Juggler)
+:endif
+@Battle.StartTrainer(Gyms\castro\004)
+:end

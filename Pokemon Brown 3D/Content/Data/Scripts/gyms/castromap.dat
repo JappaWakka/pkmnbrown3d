@@ -1,6 +1,0 @@
-version=2
-
-:if:<Register.Registered(fistbadge_obtain)>=true
-@npc.wearskin(7,koji)
-:endif
-:end

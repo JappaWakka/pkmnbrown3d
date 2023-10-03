@@ -1,0 +1,23 @@
+version=2
+:if:<register.registered(trainer_Gyms\castro\000)>=true
+	@npc.wearskin(1,Juggler)
+:endif
+:if:<register.registered(trainer_Gyms\castro\001)>=true
+	@npc.wearskin(2,Juggler)
+:endif
+:if:<register.registered(trainer_Gyms\castro\002)>=true
+	@npc.wearskin(3,Tamer)
+:endif
+:if:<register.registered(trainer_Gyms\castro\003)>=true
+	@npc.wearskin(4,Tamer)
+:endif
+:if:<register.registered(trainer_Gyms\castro\004)>=true
+	@npc.wearskin(5,Juggler)
+:endif
+:if:<register.registered(trainer_Gyms\castro\005)>=true
+	@npc.wearskin(6,Juggler)
+:endif
+:if:<Register.Registered(fistbadge_obtain)>=true
+	@npc.wearskin(7,Koji)
+:endif
+:end
