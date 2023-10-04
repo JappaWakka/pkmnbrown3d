@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Edgar
+Name|Allan
 TrainerClass|<system.token(TrainerClass_Tamer)>
 Money|1320
-IntroMessage|Stop right there!
-OutroMessage|Whoa! He's got it!
-DefeatMessage|Can't tell who's who?*You have no eye for detail!
+IntroMessage|<system.token(Castro_Gym_TamerAllan_IntroMessage)>
+OutroMessage|<system.token(Castro_Gym_TamerAllan_OutroMessage)>
+DefeatMessage|<system.token(Castro_Gym_TamerAllan_DefeatMessage)>
 TextureID|Tamer
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|Black,Black
+IntroSequence|4,4

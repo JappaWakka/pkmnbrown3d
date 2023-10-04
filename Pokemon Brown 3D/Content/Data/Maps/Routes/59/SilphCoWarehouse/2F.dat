@@ -289,6 +289,6 @@ Warps:
 		{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Warehouse_Up_North]}}{"Offset"{sngArr[6,0,16]}}]}}
 
 Security Doors:
-	{"EntityField"{ENT[{"ID"{int[8]}}{"Size"{intArr[2,1]}}{"Scale"{sngArr[1,0.75,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,-0.125,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[288,284,16,12][272,224,4,12][288,280,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\SecurityDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"EntityField"{ENT[{"ID"{int[8]}}{"Size"{intArr[2,1]}}{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,0,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,224,16,16][336,224,4,16][320,260,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"ID"{int[8]}}{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\SecurityDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 

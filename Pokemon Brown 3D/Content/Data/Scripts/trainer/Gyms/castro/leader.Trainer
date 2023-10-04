@@ -3,7 +3,7 @@ Name|Koji
 TrainerClass|<system.token(TrainerClass_Leader)>
 Money|4059
 IntroMessage|
-OutroMessage|Humph! You have proven your~worth!*Here! You deserve the Fist Badge!
+OutroMessage|<system.token(Castro_Gym_LeaderKoji_DefeatMessage)>
 DefeatMessage|
 TextureID|Koji
 Region|Rijon
@@ -19,5 +19,5 @@ Pokemon6|
 Items|17,17
 Gender|0
 AI|0
-IntroSequence|Orange,Brown
+IntroSequence|6,6
 IntroType|11

@@ -1,8 +1,0 @@
-version=2
-
-:if:<Register.Registered(switch1)>=True
-	:end
-:else
-	@Text.Show(This door is locked.)
-:endif
-:end

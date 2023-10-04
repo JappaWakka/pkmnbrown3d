@@ -15,7 +15,7 @@ version=2
 @Text.Show(Hah!*Since you're special, I'll give~you something else!)
 @Item.Give(205,1)
 @Item.MessageGive(205,1)
-@Text.Show(TM15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!)
+@Text.Show(TM 15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!)
 :else
 @Text.Show(Hyper Beam is the best normal~attack you can get!*Don't waste it!)
 :endif

@@ -2,11 +2,12 @@
 Name|Boris
 TrainerClass|<system.token(TrainerClass_Tamer)>
 Money|1280
-IntroMessage|No one can beat us!
-OutroMessage|Awoo!
-DefeatMessage|I still have much to learn!
+IntroMessage|<system.token(Castro_Gym_TamerBoris_IntroMessage)>
+OutroMessage|<system.token(Castro_Gym_TamerBoris_OutroMessage)>
+DefeatMessage|<system.token(Castro_Gym_TamerBoris_DefeatMessage)>
 TextureID|Tamer
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|Black,Black
+IntroSequence|4,4

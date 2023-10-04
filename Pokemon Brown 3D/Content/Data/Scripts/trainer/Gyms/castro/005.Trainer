@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Howard
+Name|Calvin
 TrainerClass|<system.token(TrainerClass_Juggler)>
 Money|1225
-IntroMessage|Strength is our number one~strategy!
-OutroMessage|What? Extraordinary!
-DefeatMessage|I guess it's best to have~multiple strategies!
+IntroMessage|<system.token(Castro_Gym_JugglerCalvin_IntroMessage)>
+OutroMessage|<system.token(Castro_Gym_JugglerCalvin_OutroMessage)>
+DefeatMessage|<system.token(Castro_Gym_JugglerCalvin_DefeatMessage)>
 TextureID|Juggler
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|Black,Black
+IntroSequence|6,6
