@@ -1,0 +1,25 @@
+version=2
+
+:if:<Player.Facing>=0
+	@Player.Warp(Castro\Mansion\3F.dat,11,0.1,10,1)
+:else
+	:if:<Player.Facing>=1
+		@Player.Warp(Castro\Mansion\3F.dat,11,0.1,10,0)
+	:else
+		:if:<Player.Facing>=2
+			@Player.Warp(Castro\Mansion\3F.dat,11,0.1,10,3)
+		:else
+			@Player.Warp(Castro\Mansion\3F.dat,11,0.1,10,2)
+		:endif
+	:endif
+:endif
+@Level.Update
+:if:<Level.Riding>=true
+	@Player.SetSpeed(2)
+:else
+	:if:<Player.IsRunning>=true
+		@Player.SetSpeed(1.5)
+	:endif
+:endif
+@Player.Move(1)
+:end
