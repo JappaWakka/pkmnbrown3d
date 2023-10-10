@@ -43,6 +43,6 @@ version=2
 :endif
 @Player.Move(1)
 :if:<storage.get(bool,VirusScan)=true
-	@Text.Show(<system.token(Botan_HauntedForest_Area2_VirusScan)>)
+	@Text.Show(<system.token(Botan_HauntedForest_Area2_VirusScanner)>)
 :endif
 :end

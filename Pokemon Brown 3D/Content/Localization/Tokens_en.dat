@@ -2831,6 +2831,7 @@ TrainerClass_Biker,Biker
 TrainerClass_BirdKeeper,Bird Keeper
 TrainerClass_Blackbelt,Blackbelt
 TrainerClass_BugCatcher,Bug Catcher
+TrainerClass_Burglar,Burglar
 TrainerClass_Champion,Champion
 TrainerClass_Channeler,Channeler
 TrainerClass_CoolTrainer_Female,Cool Trainer ♀
@@ -2854,6 +2855,7 @@ TrainerClass_RocketGrunt,Rocket Grunt
 TrainerClass_RocketScientist,Rocket Scientist
 TrainerClass_RocketLeader,Rocket Leader
 TrainerClass_Sailor,Sailor
+TrainerClass_Scientist,Scientist
 TrainerClass_SuperNerd,Super Nerd
 TrainerClass_Swimmer,Swimmer
 TrainerClass_Tamer,Tamer
@@ -3824,7 +3826,7 @@ Botan_HauntedForest_Area1_Mura_BeforeBattle,Mura: Hey, <player.name>!~I just cau
 Botan_HauntedForest_Area1_Mura_OutroMessage,What? You stinker! I took it easy on you too!
 Botan_HauntedForest_Area1_Mura_AfterBattle,Mura: Well that stinks, I lost.~But don't think I'll go~easy on you next time.*<player.name>: Alright, see you~later man!
 Botan_HauntedForest_Area1_Channeler,MissingNo. are really messing~up the place!
-Botan_HauntedForest_Area2_VirusScan,<player.name> used Virus Scan!
+Botan_HauntedForest_Area2_VirusScanner,<player.name> used Virus Scanner!
 Botan_HauntedForest_Area2_ChannelerCarmen_IntroMessage,I will eat your soul!
 Botan_HauntedForest_Area2_ChannelerCarmen_OutroMessage,Huh?
 Botan_HauntedForest_Area2_ChannelerCarmen_DefeatMessage,Why do I have 99 Town Maps?
@@ -3865,9 +3867,9 @@ Botan_HauntedForest_Area5_ChannelerAshanti_DefeatMessage,What's going on here?
 Botan_HauntedForest_Area5_ChannelerShaundi_IntroMessage,Stuff.
 Botan_HauntedForest_Area5_ChannelerShaundi_OutroMessage,Other stuff.
 Botan_HauntedForest_Area5_ChannelerShaundi_DefeatMessage,Even more stuff!
-Botan_HauntedForest_Area5_MissingNo_NoVirusScan_StartBattle,Your game was erased!
-Botan_HauntedForest_Area5_MissingNo_WithVirusScan_StartBattle,Your game was erased!*<player.name> used Virus Scan!
-Botan_HauntedForest_Area5_MissingNo_WithVirusScan_AfterBattle,The MissingNo. was really just a~Kangaskhan!*Luckily the virus is~now removed!*The MissingNo. vanished!
+Botan_HauntedForest_Area5_MissingNo_NoVirusScanner_StartBattle,Your game was erased!
+Botan_HauntedForest_Area5_MissingNo_WithVirusScanner_StartBattle,Your game was erased!*<player.name> used Virus Scanner!
+Botan_HauntedForest_Area5_MissingNo_WithVirusScanner_AfterBattle,The MissingNo. was really just a~Kangaskhan!*Luckily the virus is~now removed!*The MissingNo. vanished!
 Botan_HauntedForest_Area6_RocketGruntKlay_IntroMessage,What do you want?~Why are you here?
 Botan_HauntedForest_Area6_RocketGruntKlay_OutroMessage,I give up!
 Botan_HauntedForest_Area6_RocketGruntKlay_DefeatMessage,I'm not going to forget this!
@@ -3952,6 +3954,18 @@ Castro_Gym_LeaderKoji_AfterBattle1,Koji: Now that you have the~Fist Badge, you c
 Castro_Gym_LeaderKoji_AfterBattle2,TM 01 contains Dynamic Punch!~It can miss, but it confuses~the foe!
 Castro_Gym_LeaderKoji_DefeatMessage,Koji: Humph! You have proven~your worth!*Here! You deserve the Fist~Badge!
 Castro_Gym_LeaderKoji_TalkAgain,Koji: Dynamic Punch can often~miss but if it works it'll~deal a great amount of damage~and confuse your foe!
+
+Castro_Mansion_SecretSwitch_Question,A secret switch!*Press it?
+Castro_Mansion_SecretSwitch_Answer_Yes,Who wouldn't?
+Castro_Mansion_SecretSwitch_Answer_No,Not quite yet!
+Castro_Mansion_1F_ScientistJin_IntroMessage,Where did you come from?
+Castro_Mansion_1F_ScientistJin_OutroMessage,Ouch!
+Castro_Mansion_1F_ScientistJin_DefeatMessage,A Virus Scanner?*Don't be silly!
+Castro_Mansion_2F_RegionMap,It's a map of another region.*What could it be?
+Castro_Mansion_2F_Diary,Dear Diary, some people really~take things out of context!*...Better leave this be.
+Castro_Mansion_2F_BurglarKazuya_IntroMessage,This mansion has nothing to loot!
+Castro_Mansion_2F_BurglarKazuya_OutroMessage,Ugh!
+Castro_Mansion_2F_BurglarKazuya_DefeatMessage,Switches open and close doors!
 
 [Route 61]
 Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!

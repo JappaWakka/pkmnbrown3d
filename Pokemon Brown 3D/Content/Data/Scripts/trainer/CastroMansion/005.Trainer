@@ -1,17 +1,17 @@
 [TRAINER FORMAT]
-Name|Jin
-TrainerClass|Scientist
+Name|Zac
+TrainerClass|<system.token(TrainerClass_Scientist)>
 Money|1600
-IntroMessage|Where did you come from?
-OutroMessage|Ouch!
-DefeatMessage|Virus Scanner?*Dont be silly!
+IntroMessage|This place is really big!
+OutroMessage|What was that for?
+DefeatMessage|Darn!
 TextureID|Scientist_Male
 Region|Rijon
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
-Pokemon1|101,32
-Pokemon2|110,32
+Pokemon1|64,32
+Pokemon2|178,32
 Pokemon3|
 Pokemon4|
 Pokemon5|
