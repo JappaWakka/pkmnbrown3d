@@ -134,7 +134,7 @@ Rocks:
 {"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[11,-0.15,10]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[208,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Items:
-{RareBone="Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[18,-0.375,16]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+{RareBone="Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[18,-0.375,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 
 Ladders:
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[22,0.01,0]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[64,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\SenecaCaverns\2.dat,14,0.1,4,2,0]}}{"Rotation"{int[0]}}{"Visible"{bool[1]}}]}}

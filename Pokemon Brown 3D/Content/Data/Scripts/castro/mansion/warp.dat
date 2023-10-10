@@ -2,22 +2,22 @@ version=2
 
 :select:<player.position>
 	:when:16,0,14
-		@screen.fadeout
-		@player.warp(Castro\mansion\main.dat,16,0.1,14)
+		@screen.fadeout(15)
+		@player.warp(Castro\Mansion\1F.dat,16,0.1,14)
 		@level.update
-		@screen.fadein
+		@screen.fadein(15)
 		:end
 	:when:17,0,14
-		@screen.fadeout
-		@player.warp(Castro\mansion\main.dat,16,0.1,14)
+		@screen.fadeout(15)
+		@player.warp(Castro\Mansion\1F.dat,16,0.1,14)
 		@level.update
-		@screen.fadein
+		@screen.fadein(15)
 		:end
 	:when:19,0,14
-		@screen.fadeout
-		@player.warp(Castro\mansion\1.dat,19,0.1,14)
+		@screen.fadeout(15)
+		@player.warp(Castro\Mansion\2F.dat,19,0.1,14)
 		@level.update
-		@screen.fadein
+		@screen.fadein(15)
 		:end
 :endwhen
 :end
