@@ -386,9 +386,9 @@ Statue:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[5,1,10.5]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[32,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,0,10.5]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[0,176,16,16][16,176,16,16][48,176,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
-Book:
+30 Years Cave Book:
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,0.45,12]}}{"Scale"{sngArr[0.65,1,0.65]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"CameraDistanceDelta"{sng[-0.25]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,12]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\Mansion\Diary]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,12]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\Mansion\30YearsCaveBook]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		
 Stairs:
 	2F
@@ -400,8 +400,8 @@ Warps:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[19,0,14]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Mansion\Warp]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[7,0,15]}}{"TextureID"{str[Burglar]}}{"ID"{int[0]}}{"Name"{str[Burglar Todd]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\CastroMansion\002]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[7,15,5,1]]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[21,0,12]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[1]}}{"Name"{str[Scientist Nils]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\CastroMansion\003]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[7,0,15]}}{"TextureID"{str[Burglar]}}{"ID"{int[0]}}{"Name"{str[Burglar Todd]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\CastroMansion\002]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[1,15,12,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[21,0,12]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[1]}}{"Name"{str[Scientist Nils]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\CastroMansion\003]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Items:
 	Elixir
