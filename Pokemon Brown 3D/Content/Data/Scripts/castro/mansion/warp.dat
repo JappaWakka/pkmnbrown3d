@@ -5,13 +5,67 @@ version=2
 		@screen.fadeout(15)
 		@player.warp(Castro\Mansion\1F.dat,16,0.1,14)
 		@level.update
+		:if:<Register.Registered(mansionlock)>=True
+			@entity.remove(0)
+		:endif
+		
+		:if:<Register.Registered(mansionlock)>=False
+			@entity.remove(1)
+		:endif
 		@screen.fadein(15)
+		@camera.update
+		@level.wait(10)
+		:if:<Register.Registered(trainer_CastroMansion\001)>=false
+			@Music.Play(Encounter_Trainer_Male)
+			@player.turnto(3)
+			:if:<camera.thirdperson>=true
+				@camera.setfocus(npc,0)
+				@sound.play(Emote_Exclamation)	
+				@entity.showmessagebulb(1|17.99|0.7|14)
+				@npc.move(0,1)
+				@script.start(trainer\CastroMansion\001)
+				@camera.resetfocus
+			:else
+				@sound.play(Emote_Exclamation)	
+				@entity.showmessagebulb(1|17.99|0.7|14)
+				@npc.move(0,1)
+				@script.start(trainer\CastroMansion\001)
+			:endif
+			@Music.Play(SilphCoWarehouse)
+		:endif
 		:end
 	:when:17,0,14
 		@screen.fadeout(15)
 		@player.warp(Castro\Mansion\1F.dat,16,0.1,14)
 		@level.update
+		:if:<Register.Registered(mansionlock)>=True
+			@entity.remove(0)
+		:endif
+		
+		:if:<Register.Registered(mansionlock)>=False
+			@entity.remove(1)
+		:endif
 		@screen.fadein(15)
+		@camera.update
+		@level.wait(10)
+		:if:<Register.Registered(trainer_CastroMansion\001)>=false
+			@Music.Play(Encounter_Trainer_Male)
+			@player.turnto(3)
+			:if:<camera.thirdperson>=true
+				@camera.setfocus(npc,0)
+				@sound.play(Emote_Exclamation)	
+				@entity.showmessagebulb(1|17.99|0.7|14)
+				@npc.move(0,1)
+				@script.start(trainer\CastroMansion\001)
+				@camera.resetfocus
+			:else
+				@sound.play(Emote_Exclamation)	
+				@entity.showmessagebulb(1|17.99|0.7|14)
+				@npc.move(0,1)
+				@script.start(trainer\CastroMansion\001)
+			:endif
+			@Music.Play(SilphCoWarehouse)
+		:endif
 		:end
 	:when:19,0,14
 		@screen.fadeout(15)
