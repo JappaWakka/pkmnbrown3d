@@ -43,6 +43,7 @@ Floors:
 	
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[4,1]}}{"Position"{intArr[4,0,28]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,16,16,16]}}{"Visible"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[26,0,28]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,16,16,16]}}{"Visible"{bool[0]}}]}}
 	
 Ceiling:
 	{"EntityField"{ENT[{"Size"{intArr[18,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,2,3]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
