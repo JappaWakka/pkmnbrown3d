@@ -384,8 +384,8 @@ Switches:
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,0,23]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\Mansion\SecretSwitch]}}{"Rotation"{int[0]}}]}}
 	
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[14,0,21]}}{"TextureID"{str[Burglar]}}{"ID"{int[0]}}{"Name"{str[Burglar Jacey]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\CastroMansion\004]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[14,0,8]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[1]}}{"Name"{str[Scientist Zac]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\CastroMansion\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[14,0,21]}}{"TextureID"{str[Burglar]}}{"ID"{int[0]}}{"Name"{str[Burglar Jacey]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\CastroMansion\004]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[14,0,8]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[1]}}{"Name"{str[Scientist Zac]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\CastroMansion\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Items:
 	Rare Candy
