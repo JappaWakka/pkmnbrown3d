@@ -457,7 +457,7 @@ Stairs:
 		{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Mansion_Up_East]}}{"Offset"{sngArr[8,0,10]}}]}}
 		
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[4,0,17]}}{"TextureID"{str[Burglar]}}{"ID"{int[0]}}{"Name"{str[Burglar Kazuya]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\CastroMansion\000]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[1,17,6,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[4,0,17]}}{"TextureID"{str[Burglar]}}{"ID"{int[0]}}{"Name"{str[Burglar Kazuya]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\CastroMansion\000]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[1,17,6,1]]}}]}}
 
 Item:
 	Iron
