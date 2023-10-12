@@ -1,3 +1,3 @@
 version=2
-	@Text.Show(This door is locked.)
+	@Text.Show(<system.token(Castro_Mansion_LockedDoor)>)
 :end
