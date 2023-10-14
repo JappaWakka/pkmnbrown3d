@@ -68,10 +68,10 @@ Signs:
 	{"Entity"{ENT[{"Scale"{sngArr[0.96875,0.4375,0.125]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[4.5,1.28,6.4375]}}{"TexturePath"{str[GateSigns]}}{"Textures"{recArr[[32,98,31,14][32,0,4,14][0,0,31,14][64,0,31,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,2,2,3,3,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 
 Doors:
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Forest.dat,28,0.1,50,0]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Forest.dat,32,0.1,52,0]}}{"Rotation"{int[0]}}]}}
 	
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Main.dat,4,0.1,29,0]}}{"Rotation"{int[2]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[2,0,4]}}{"TextureID"{str[LittleGirl_Ponytail]}}{"ID"{int[0]}}{"Name"{str[Little Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(CastroValley_CastroForest_Gate_LittleGirl)>]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,0,1,7]]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[8,0,3]}}{"TextureID"{str[YoungGirl_Red]}}{"ID"{int[1]}}{"Name"{str[Woman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(CastroValley_CastroForest_Gate_YoungGirl)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0,4]}}{"TextureID"{str[LittleGirl_Ponytail]}}{"ID"{int[0]}}{"Name"{str[Little Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(CastroValley_CastroForest_Gate_LittleGirl)>]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,0,1,7]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[8,0,3]}}{"TextureID"{str[YoungGirl_Red]}}{"ID"{int[1]}}{"Name"{str[Woman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(CastroValley_CastroForest_Gate_YoungGirl)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
