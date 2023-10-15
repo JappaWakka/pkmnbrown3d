@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Claude
-TrainerClass|Gambler
+TrainerClass|<system.token(TrainerClass_Gambler)>
 Money|2240
-IntroMessage|I just won big playing craps!
-OutroMessage|I had a chance!
-DefeatMessage|Guess its back to the craps~table...
-TextureID|Sage
+IntroMessage|<system.token(Route62_Main_GamblerClaude_IntroMessage)>
+OutroMessage|<system.token(Route62_Main_GamblerClaude_OutroMessage)>
+DefeatMessage|<system.token(Route62_Main_GamblerClaude_DefeatMessage)>
+TextureID|Gambler_Green
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|5,5

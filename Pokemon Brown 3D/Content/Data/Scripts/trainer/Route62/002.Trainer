@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Repairman
-TrainerClass|Engineer
+Name|Repair-Man
+TrainerClass|<system.token(TrainerClass_Engineer)>
 Money|1600
-IntroMessage|I'M...*REPAIR MAN MAN MAN MAN MAN MAN!*I can repair ANYTHING, such~as your pathetic training~ability!*Let's begin, shall we?
-OutroMessage|See?*REPAIRED!
-DefeatMessage|REPAIR MAN MAN MAN MAN!
-TextureID|82
+IntroMessage|<system.token(Route62_Main_EngineerRepairMan_IntroMessage)>
+OutroMessage|<system.token(Route62_Main_EngineerRepairMan_OutroMessage)>
+DefeatMessage|<system.token(Route62_Main_EngineerRepairMan_DefeatMessage)>
+TextureID|Engineer
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|6,6

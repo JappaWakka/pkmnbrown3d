@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Jerome
-TrainerClass|Gambler
+TrainerClass|<system.token(TrainerClass_Gambler)>
 Money|2240
-IntroMessage|I want your money!
-OutroMessage|My first loss!
-DefeatMessage|You just got lucky!
-TextureID|Sage
+IntroMessage|<system.token(Route62_Main_GamblerJerome_IntroMessage)>
+OutroMessage|<system.token(Route62_Main_GamblerJerome_OutroMessage)>
+DefeatMessage|<system.token(Route62_Main_GamblerJerome_DefeatMessage)>
+TextureID|Gambler_Purple
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|4,4

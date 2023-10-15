@@ -2,11 +2,12 @@
 Name|Barry
 TrainerClass|<system.token(TrainerClass_Youngster)>
 Money|480
-IntroMessage|Caught ya by surprise!
-OutroMessage|Darn! I need to make my~Pokémon stronger!
-DefeatMessage|There's a fat Pokémon that~comes down from the mountains.*It's strong if you can get it.
+IntroMessage|<system.token(Route62_Main_YoungsterBarry_IntroMessage)>
+OutroMessage|<system.token(Route62_Main_YoungsterBarry_OutroMessage)>
+DefeatMessage|<system.token(Route62_Main_YoungsterBarry_DefeatMessage)>
 TextureID|Youngster_Blue
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer

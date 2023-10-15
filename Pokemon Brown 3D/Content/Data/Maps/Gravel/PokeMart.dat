@@ -11,5 +11,5 @@ Counter ScriptBlock:
 	
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[3,0,1]}}{"TextureID"{str[Youngster_Red]}}{"ID"{int[1]}}{"Name"{str[Youngster]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Gravel_PokeMart_Youngster)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[5,0,3]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[2]}}{"Name"{str[BugCatcher]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Gravel_PokeMart_Bugcatcher)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[4,3,4,2]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[5,0,3]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[2]}}{"Name"{str[BugCatcher]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Gravel_PokeMart_BugCatcher)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[4,3,4,2]]}}]}}
 	

@@ -2,11 +2,12 @@
 Name|Douglas
 TrainerClass|<system.token(TrainerClass_Youngster)>
 Money|480
-IntroMessage|My Pokémon should be ready by~now!
-OutroMessage|Too much, too young!
-DefeatMessage|I better go find stronger ones!
+IntroMessage|<system.token(Route62_Main_YoungsterDouglas_IntroMessage)>
+OutroMessage|<system.token(Route62_Main_YoungsterDouglas_OutroMessage)>
+DefeatMessage|<system.token(Route62_Main_YoungsterDouglas_DefeatMessage)>
 TextureID|Youngster_Blue
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer

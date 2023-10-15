@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[Gate]}}{"MusicLoop"{str[RouteMusic2]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[Gate]}}{"MusicLoop"{str[RouteMusic3]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"RideType"{int[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
 
 Floor:
@@ -56,10 +56,9 @@ Pillows:
 {"Entity"{ENT[{"Scale"{sngArr[0.8,0.2,0.8]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,-0.4,6]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[112,48,16,16][96,48,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Doors:
-{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,-1]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\61\Main.dat,15,0.1,41,0]}}{"Rotation"{int[0]}}]}}
+{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,-1]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\61\Main.dat,15,0.1,41,0]}}{"Rotation"{int[0]}}]}}
 
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,9]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\62\Main.dat,2,0.1,1,0]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,9]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\62\Main.dat,3,0.1,1,0]}}{"Rotation"{int[0]}}]}}
+{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,9]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\62\Main.dat,6,0.1,7,0]}}{"Rotation"{int[2]}}]}}
 
 Signs:
 {"Entity"{ENT[{"Scale"{sngArr[0.2,0.5,1]}}{"EntityID"{str[Cube]}}{"Position"{sngArr[4.5,1.25,-0.25]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[32,74,30,14][112,16,4,14]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,1,1,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}

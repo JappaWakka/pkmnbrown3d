@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Till
+Name|Caden
 TrainerClass|<system.token(TrainerClass_BugCatcher)>
 Money|340
-IntroMessage|Hey, wait up! What's the~hurry?
-OutroMessage|I give up! You're good at this!
-DefeatMessage|Sometimes, you can find stuff~on the ground!*I'm looking for the stuff~I dropped!
+IntroMessage|<system.token(Castro_Forest_BugCatcherCaden_IntroMessage)>
+OutroMessage|<system.token(Castro_Forest_BugCatcherCaden_OutroMessage)>
+DefeatMessage|<system.token(Castro_Forest_BugCatcherCaden_DefeatMessage)>
 TextureID|BugCatcher
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|0,0
+IntroSequence|2,2

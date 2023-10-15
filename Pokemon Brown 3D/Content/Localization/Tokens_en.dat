@@ -2839,6 +2839,7 @@ TrainerClass_CoolTrainer_Male,Cool Trainer ♂
 TrainerClass_EliteFour,Elite Four
 TrainerClass_ExGrunt,Ex-Grunt
 TrainerClass_Fisherman,Fisherman
+TrainerClass_Gambler,Gambler
 TrainerClass_Gentleman,Gentleman
 TrainerClass_Hiker,Hiker
 TrainerClass_JrTrainer_Female,Jr. Trainer ♀
@@ -3022,7 +3023,7 @@ Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Okay. Now I understand~the difficulty 
 Gravel_TimsLab_Mura_OutroMessage,I need to train more.
 
 Gravel_PokeMart_Youngster,Ya!~Potions are available!
-Gravel_PokeMart_Bugcatcher,This shop sells lots of~Pokéballs.
+Gravel_PokeMart_BugCatcher,This shop sells lots of~Pokéballs.
 Gravel_PokeMart_Clerk_YoDude,Yo dude!
 Gravel_PokeMart_Clerk_TimsPizza,Prof. Tim forgot to pick up~his Pizza!*Will you deliver it for me?
 Gravel_PokeMain_Clerk_NoDelivery,We don't deliver you know...
@@ -3038,9 +3039,9 @@ MersonCave_YoungsterTom_DefeatMessage,The guys ahead of me are~much harder.
 MersonCave_LassClara_IntroMessage,Do you want to battle?~Okay then, let's go!
 MersonCave_LassClara_OutroMessage,Oh! I lost...!
 MersonCave_LassClara_DefeatMessage,We will meet again.
-MersonCave_BugcatcherRick_IntroMessage,I'm lost. Can you tell~me the way out of here?
-MersonCave_BugcatcherRick_OutroMessage,I lost.
-MersonCave_BugcatcherRick_DefeatMessage,Great..~I guess you won't help me.
+MersonCave_BugCatcherRick_IntroMessage,I'm lost. Can you tell~me the way out of here?
+MersonCave_BugCatcherRick_OutroMessage,I lost.
+MersonCave_BugCatcherRick_DefeatMessage,Great..~I guess you won't help me.
 MersonCave_HikerRalph_IntroMessage,I like meeting people here!~Heheh...
 MersonCave_HikerRalph_OutroMessage,But I hate losing!
 MersonCave_HikerRalph_DefeatMessage,You don't belong here, kid.
@@ -3050,9 +3051,9 @@ MersonCave_SuperNerdLouis_DefeatMessage,I have to find stronger Pokémon.
 MersonCave_LassVanessa_IntroMessage,Oh no, I'm all alone with you.~What will we do?
 MersonCave_LassVanessa_OutroMessage,I lost?
 MersonCave_LassVanessa_DefeatMessage,You just don't get it, do you?
-MersonCave_BugcatcherBill_IntroMessage,Hey, want to play?
-MersonCave_BugcatcherBill_OutroMessage,You got me!
-MersonCave_BugcatcherBill_DefeatMessage,Blah! You don't play nice!
+MersonCave_BugCatcherBill_IntroMessage,Hey, want to play?
+MersonCave_BugCatcherBill_OutroMessage,You got me!
+MersonCave_BugCatcherBill_DefeatMessage,Blah! You don't play nice!
 
 [Merson City]
 Merson_Main_WeakBoy,I tried facing the Pokémon~Gym Leader, but I'm way too~weak to fight him.
@@ -3428,9 +3429,9 @@ Owsauri_GamblerHouse_Son,I hope the Day Care Man is~taking good care of my~Poké
 Owsauri_GamblerHouse_Mother,My husband is addicted~to the slots...
 Owsauri_GamblerHouse_Father,Hmm... which book should I~pick out of this shelf...?
 
-Owsauri_GameCorner1F_BugcatcherAdult_1,Gambling is healthy!
-Owsauri_GameCorner1F_BugcatcherAdult_2,<player.name> received~10 coins!
-Owsauri_GameCorner1F_BugcatcherAdult_3,Wins and losses balance.
+Owsauri_GameCorner1F_BugCatcherAdult_1,Gambling is healthy!
+Owsauri_GameCorner1F_BugCatcherAdult_2,<player.name> received~10 coins!
+Owsauri_GameCorner1F_BugCatcherAdult_3,Wins and losses balance.
 Owsauri_GameCorner1F_PokeFanMale_Green,These slots never let~me win...*I don't know how I'll~earn it back.
 Owsauri_GameCorner1F_PokeFanFemale_Red,I make a living with this!
 Owsauri_GameCorner1F_PokeManiac,Hey!*Leave me alone, I'm on a roll!
@@ -3982,8 +3983,41 @@ Castro_Mansion_B1F_BurglarJacey_OutroMessage,Awooh!
 Castro_Mansion_B1F_BurglarJacey_DefeatMessage,I want a basement like this!
 
 [Castro Valley - Castro Forest Gate]
-CastroValley_CastroForest_Gate_LittleGirl,Those bugcatchers don't mess~around!
+CastroValley_CastroForest_Gate_LittleGirl,Those Bug Catchers don't mess~around!
 CastroValley_CastroForest_Gate_YoungGirl,Are you going to Castro~Forest?
+
+[Castro Forest]
+Castro_Forest_DangerousBugsGuy,Bugs in this forest can be~dangerous!
+Castro_Forest_InsufficientWeedleGuy,My Weedle isn't good enough~here!
+Castro_Forest_BugCatcherLoyd_IntroMessage,Hey! You dare challenge me?
+Castro_Forest_BugCatcherLoyd_OutroMessage,How could bugs fail?
+Castro_Forest_BugCatcherLoyd_DefeatMessage,Hehehe!
+Castro_Forest_BugCatcherTill_IntroMessage,Yo yo yo yo yo!
+Castro_Forest_BugCatcherTill_OutroMessage,I'm no rapper...
+Castro_Forest_BugCatcherTill_DefeatMessage,Gotta think of different words~than yo...
+Castro_Forest_BugCatcherCaden_IntroMessage,Hey, wait up! What's the~hurry?
+Castro_Forest_BugCatcherCaden_OutroMessage,I give up! You're good at this!
+Castro_Forest_BugCatcherCaden_DefeatMessage,Sometimes you can find stuff~on the ground!*I'm looking for the stuff~I dropped!
+
+[Route 62]
+Route62_Main_YoungsterBarry_IntroMessage,Caught ya by surprise!
+Route62_Main_YoungsterBarry_OutroMessage,Darn! I need to make my~Pokémon stronger!
+Route62_Main_YoungsterBarry_DefeatMessage,There's a fat Pokémon that~came down from the mountains.*It's really strong...~When it's awake, of course!
+Route62_Main_GamblerJerome_IntroMessage,I want your money!
+Route62_Main_GamblerJerome_OutroMessage,My first loss!
+Route62_Main_GamblerJerome_DefeatMessage,You just got lucky!
+Route62_Main_EngineerRepairMan_IntroMessage,I'M...*REPAIR MAN MAN MAN MAN~MAN MAN!*I can repair ANYTHING, such~as your pathetic training~ability!*Let's begin, shall we?
+Route62_Main_EngineerRepairMan_OutroMessage,See?*REPAIRED!
+Route62_Main_EngineerRepairMan_DefeatMessage,REPAIR MAN MAN MAN MAN!
+Route62_Main_EngineerNeverDoneMan_IntroMessage,I'm...*NEVER DONE MANNNNNN!*There's always room for~improvement, so I'll never~be done!*Time to improve!
+Route62_Main_EngineerNeverDoneMan_OutroMessage,Impossible! You're already~perfect!
+Route62_Main_EngineerNeverDoneMan_DefeatMessage,NEVER DONE MANNNNNN!
+Route62_Main_GamblerClaude_IntroMessage,I just won big playing poker!
+Route62_Main_GamblerClaude_OutroMessage,I had a chance!
+Route62_Main_GamblerClaude_DefeatMessage,Guess it's back to the poker~table...
+Route62_Main_YoungsterDouglas_IntroMessage,My Pokémon should be ready by~now!
+Route62_Main_YoungsterDouglas_OutroMessage,Nope, I'm just impatient!
+Route62_Main_YoungsterDouglas_DefeatMessage,I better go find stronger ones!
 
 [Route 61]
 Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!

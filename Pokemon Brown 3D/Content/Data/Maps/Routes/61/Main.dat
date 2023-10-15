@@ -72,8 +72,7 @@ Buildings:
 				{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[18,0,41]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,16,16,16]}}{"HasSnow"{bool[0]}}]}}
 			Doormat
 				{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[15,0,40]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
-				{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[15,0,44]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
-			
+				
 		Walls
 			South
 				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.6875,1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13.16,0,44]}}{"TexturePath"{str[Cities\Jaeru]}}{"Textures"{recArr[[53,48,11,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
