@@ -1,9 +1,0 @@
-version=2
-
-:if:<Register.Registered(whitebadge_obtain)>=true
-@Text.Show(Out of City Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<player.name>)
-
-:else
-	@Text.Show(Out of City Pokémon Gym~Leader: Joe*Winning Trainers:~Mura)
-:endif
-:end

@@ -2,7 +2,7 @@ version=2
 
 :if:<Register.Registered(whitebadge_obtain)>=False
 @Text.Show(Joe: Hah!*I am Joe, the Leader of this~Gym!*My Normal Pokémon have~never lost a match!*<player.name>: Well I'll do anything~for the White Badge!)
-@Battle.StartTrainer(Gyms\57\leader)
+@Battle.StartTrainer(Gyms\Route57\leader)
 @Register.Register(whitebadge_obtain)
 @Register.Register(trainer_Gyms\57\000)
 @Register.Register(trainer_Gyms\57\001)
