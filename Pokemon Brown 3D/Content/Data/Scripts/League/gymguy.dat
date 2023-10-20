@@ -1,7 +1,6 @@
 version=2
 
 :if:<Register.Registered(champtitle_obtain)>=False
-:then
 @Text.Show(Gym Guy: Yo! Champ in making!*At Rijon League, you have to~face four trainers, and the~current champion in order~to receive that title.*Go for it.)
 :else
 @Text.Show(Whew! That match was electric!)

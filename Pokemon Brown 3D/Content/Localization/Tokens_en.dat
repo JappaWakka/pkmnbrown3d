@@ -2880,6 +2880,8 @@ Generic_PC_BootUp,Booting up the PC...*Choose a host to~connect to.
 Generic_PC_ChooseHost,Choose a host to~connect to.
 Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon~books!
 Generic_TownMap,It's the Town Map.
+Generic_Bed_Question,It's a bed.~Would you like to sleep?
+Generic_Bed_Refreshed,You wake up feeling refreshed.
 
 Generic_PokeCenter_NurseJoy_Question_NightDay,Hello, and welcome to~the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?
 Generic_PokeCenter_NurseJoy_Question_Morning,Good morning! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?
@@ -4059,3 +4061,6 @@ CastroForest_Route57_Gate_OldMan,Can you tell me the way~to Castro Valley?
 [Route 57]
 Route57_Main_Sign_Gym_BeforeDefeat,Out of City Pokémon Gym~Leader: Joe*Winning Trainers:~Mura
 Route57_Main_Sign_Gym_AfterDefeat,Out of City Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<player.name>
+
+Route57_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Joe uses only Normal Pokémon!*I would recommend using~Fighting type Pokémon against~those opponents!
+Route57_Gym_GymGuy_AfterBadge,Gym Guy: <player.name>!~Good job once again!

@@ -1,7 +1,6 @@
 version=2
 
 :if:<Register.Registered(starbadge_obtain)>=False
-:then
 @Text.Show(Gym Guy: Yo! Champ in making!*This is the hardest Gym yet.*I heard the leader uses ground~Pokémon, so water and grass~would do best against him.)
 :else
 @Text.Show(Was it surprising?*No?*Arrogant Prick!)
