@@ -1,0 +1,10 @@
+version=2
+:if:<player.position(x)>=1
+	@npc.turn(0,2)
+	@text.show(<System.Token(Botan_SlumberwoodInn_Hostess)>)
+	:end
+:else
+	@npc.turn(0,3)
+	@text.show(<System.Token(Botan_SlumberwoodInn_Hostess)>)
+:endif
+:end

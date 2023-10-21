@@ -1,7 +1,3 @@
 version=2
-
-:if:<Register.Registered(marinebadge_obtain)>=False
-	@Battle.StartTrainer(Gyms\merson\000)
-:else
-	@Text.Show(<system.token(Merson_Gym_JrTrainerMaleButch_DefeatMessage)>)
+@Battle.StartTrainer(Gyms\merson\000)
 :end

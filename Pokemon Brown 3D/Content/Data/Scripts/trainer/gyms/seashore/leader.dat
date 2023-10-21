@@ -11,6 +11,7 @@ version=2
 	@Register.Register(trainer_gyms\seashore\004)
 	@Register.Register(trainer_gyms\seashore\005)
 	@Register.Register(trainer_gyms\seashore\006)
+	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(6)
 	@Text.Show(<system.token(Seashore_Gym_LeaderSheral_AfterBattle1)>)
 	@Item.Give(gm47,1)

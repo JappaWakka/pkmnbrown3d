@@ -6,6 +6,7 @@ version=2
 	@Register.Register(hailbadge_obtain)
 	@Register.Register(trainer_Gyms\Owsauri\000)
 	@Register.Register(trainer_Gyms\Owsauri\001)
+	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(2)
 	@Text.Show(<system.token(Owsauri_Gym_LeaderLily_AfterBattle1)>)
 	@Item.Give(gm31,1)

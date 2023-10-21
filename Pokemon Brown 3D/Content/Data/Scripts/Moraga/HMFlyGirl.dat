@@ -2,6 +2,7 @@ version=2
 
 :if:<Register.Registered(hmfly)>=false
 	@Text.Show(<System.Token(Moraga_FlyHouse_FlyGirl_BeforeTalking)>)
+	@Sound.Play(Receive_HM,1)
 	@Item.Give(gm70,1)
 	@Item.MessageGive(gm70,1)
 	@Register.Register(hmfly)

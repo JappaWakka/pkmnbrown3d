@@ -12,6 +12,7 @@ version=2
 @Register.Register(trainer_Gyms\eagulou\007)
 @Register.Register(trainer_Gyms\eagulou\008)
 @Register.Register(trainer_Gyms\eagulou\009)
+@Sound.Play(Receive_Badge,1)
 @Player.GetBadge(8)
 @Text.Show(The Star Badge is the hardest~badge to get in the Rijon~League, you should take good~care of it!*Take this little gift aswell.*It will do you good.)
 @Item.Give(217,1)

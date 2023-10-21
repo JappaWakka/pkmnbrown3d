@@ -3,7 +3,7 @@ Name|Joe
 TrainerClass|<system.token(TrainerClass_Leader)>
 Money|5247
 IntroMessage|
-OutroMessage|I have burnt out!*You have earned the White Badge!
+OutroMessage|<system.token(Route57_Gym_LeaderJoe_DefeatMessage)>
 DefeatMessage|
 TextureID|Joe
 Region|Rijon
@@ -19,5 +19,5 @@ Pokemon6|
 Items|16,16,16
 Gender|0
 AI|0
-IntroSequence|Orange,Brown
+IntroSequence|6,6
 IntroType|11

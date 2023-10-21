@@ -3,6 +3,7 @@ version=2
 :if:<inventory.countitem(127)>=1
 	@Text.Show(<system.token(Route59_SilphCoWarehouse_SecurityDoors_WithCardKey)>)
 	@entity.remove(8)
+	@sound.play(SwitchDoor)
 	@level.update
 :else
 	@Text.Show(<system.token(Route59_SilphCoWarehouse_SecurityDoors_NoCardKey)>)

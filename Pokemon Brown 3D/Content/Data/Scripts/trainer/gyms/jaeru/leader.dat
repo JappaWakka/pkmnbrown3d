@@ -7,6 +7,7 @@ version=2
 	@Register.Register(trainer_Gyms\jaeru\000)
 	@Register.Register(trainer_Gyms\jaeru\001)
 	@Register.Register(trainer_Gyms\jaeru\002)
+	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(4)
 	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_AfterBattle1)>)
 	@Item.Give(gm42,1)

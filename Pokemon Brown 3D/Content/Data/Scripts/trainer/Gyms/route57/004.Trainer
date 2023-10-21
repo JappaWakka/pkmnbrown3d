@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Joshua
-TrainerClass|Normal Trainer
+Name|Macaulay
+TrainerClass|<system.token(TrainerClass_NormalTrainer)>
 Money|1100
-IntroMessage|I'm really Normal!
-OutroMessage|Ow!
-DefeatMessage|It would be more Normal if~you didn't win that battle!
+IntroMessage|<system.token(Route57_Gym_NormalTrainerMacaulay_IntroMessage)>
+OutroMessage|<system.token(Route57_Gym_NormalTrainerMacaulay_OutroMessage)>
+DefeatMessage|<system.token(Route57_Gym_NormalTrainerMacaulay_DefeatMessage)>
 TextureID|NormalTrainer
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|Black,Black
+IntroSequence|6,6

@@ -5,6 +5,7 @@ version=2
 	@Battle.StartTrainer(Gyms\Merson\Leader)
 	@Register.Register(marinebadge_obtain)
 	@Register.Register(trainer_Gyms\merson\000)
+	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(1)
 	@Text.Show(<system.token(Merson_Gym_LeaderKarpman_AfterBattle1)>)
 	@Item.Give(gm30,1)

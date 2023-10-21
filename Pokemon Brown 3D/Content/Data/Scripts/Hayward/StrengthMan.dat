@@ -8,14 +8,16 @@ version=2
     :when:<system.token(global_no)>
 		@Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_Answer_No)>)
 	:endwhen
+	:end
 :endif
 
 :if:<inventory.countitem(gm2)>=1 <and> <Register.Registered(strengthobtained)>=False
     @item.clearitem(gm2)
     @Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_GiveAmulet)>)
-    @Item.Give(246,1)
-    @Item.MessageGive(246,1)
+    @Item.Give(gm72,1)
+    @Item.MessageGive(gm72,1)
     @Register.Register(strengthobtained)
+	:end
 :endif
 
 :if:<inventory.countitem(gm2)>=0 <and> <Register.Registered(strengthobtained)>=True

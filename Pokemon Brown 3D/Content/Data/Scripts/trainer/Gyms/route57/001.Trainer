@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Stewie
-TrainerClass|Normal Trainer
+TrainerClass|<system.token(TrainerClass_NormalTrainer)>
 Money|1100
-IntroMessage|Well, ready?
-OutroMessage|Dang!
-DefeatMessage|Darn, I lost.
+IntroMessage|<system.token(Route57_Gym_NormalTrainerStewie_IntroMessage)>
+OutroMessage|<system.token(Route57_Gym_NormalTrainerStewie_OutroMessage)>
+DefeatMessage|<system.token(Route57_Gym_NormalTrainerStewie_DefeatMessage)>
 TextureID|NormalTrainer
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|Black,Black
+IntroSequence|6,6

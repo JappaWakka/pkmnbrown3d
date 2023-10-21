@@ -4,7 +4,7 @@ version=2
 	@entity.remove(0)
 :endif
 
-:if:<Register.Registered(quiz1a)>=True <and> <Register.Registered(quiz1b)>=True <and> <Register.Registered(quiz1c)>=True
+:if:<Register.Registered(quiz1)>=True
 	@entity.remove(1)
 :endif
 

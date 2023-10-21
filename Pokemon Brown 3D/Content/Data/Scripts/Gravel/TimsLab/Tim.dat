@@ -2,22 +2,22 @@ version=2
 
 :if:<Register.Registered(tim1)>=true
 	@Text.Show(<system.token(Gravel_TimsLab_Tim_ChooseCarefully)>)
-:end
+	:end
 :endif
 
 :if:<Register.Registered(tim2)>=true
 	@Text.Show(<system.token(Gravel_TimsLab_Tim_GoodLuck)>)
-:end
+	:end
 :endif
 
 :if:<Register.Registered(tim3)>=true
 	@Text.Show(<system.token(Gravel_TimsLab_Tim_TakeGoodCare)>)
-:end
+	:end
 :endif
 
 :if:<Register.Registered(pizza)>=true <and> <Register.Registered(pokedex)>=false
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex1)>)
-	@item.clearitem(69)
+	@item.clearitem(gm0)
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex2)>)
 	@music.play(Encounter_Rival)
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex3)>)

@@ -8,6 +8,7 @@ version=2
 	@Register.Register(trainer_Gyms\moraga\001)
 	@Register.Register(trainer_Gyms\moraga\002)
 	@Register.Register(trainer_Gyms\moraga\003)
+	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(3)
 	@Text.Show(<system.token(Moraga_Gym_LeaderLois_AfterBattle1)>)
 	@Item.Give(gm39,1)

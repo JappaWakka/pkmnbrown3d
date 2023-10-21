@@ -2,6 +2,7 @@ version=2
 
 :if:<Register.Registered(surfobtained)>=False
     @Text.Show(<system.token(Route61_SurfHouse_SurfMan_BeforeTalking)>)
+	@Sound.Play(Receive_HM,1)
     @Item.Give(gm71,1)
     @Item.MessageGive(gm71,1)
     @Register.Register(surfobtained)
