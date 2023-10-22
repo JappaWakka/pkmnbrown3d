@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Katy
-TrainerClass|<system.token(TrainerClass_Swimmer)>
+TrainerClass|<system.token(TrainerClass_Swimmer_Female)>
 Money|1900
-IntroMessage|Can't swim yourself wimp?
-OutroMessage|I'm so disappointed!
-DefeatMessage|I guess I can swim, and you~can battle Pokémon.
-TextureID|35
+IntroMessage|<system.token(Route56_Main_SwimmerFemaleKaty_IntroMessage)>
+OutroMessage|<system.token(Route56_Main_SwimmerFemaleKaty_OutroMessage)>
+DefeatMessage|<system.token(Route56_Main_SwimmerFemaleKaty_DefeatMessage)>
+TextureID|Swimmer_Female
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|8,8

@@ -1,0 +1,8 @@
+version=2
+
+:if:<inventory.countitem(gm10)>=0
+    @Text.Show(<system.token(Eagulou_Main_MistStoneBarrier)>)
+    @player.turnto(2)
+    @player.move(1)
+:endif
+:end

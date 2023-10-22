@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Rick
-TrainerClass|<system.token(TrainerClass_Swimmer)>
+Name|Kurt
+TrainerClass|<system.token(TrainerClass_Swimmer_Male)>
 Money|2005
-IntroMessage|Oh no!
-OutroMessage|Ouch! Torpedoed!
-DefeatMessage|I lost!
-TextureID|34
+IntroMessage|<system.token(Route56_SwimmerMaleKurt_IntroMessage)>
+OutroMessage|<system.token(Route56_SwimmerMaleKurt_OutroMessage)>
+DefeatMessage|<system.token(Route56_SwimmerMaleKurt_DefeatMessage)>
+TextureID|Swimmer_Male
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|8,8

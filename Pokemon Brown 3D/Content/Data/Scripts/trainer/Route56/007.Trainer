@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Sybilla
-TrainerClass|<system.token(TrainerClass_Swimmer)>
+TrainerClass|<system.token(TrainerClass_Swimmer_Female)>
 Money|3080
-IntroMessage|I love to swim!
-OutroMessage|Drat!
-DefeatMessage|Great, I lost...
-TextureID|35
+IntroMessage|<system.token(Route56_Main_SwimmerFemaleSybilla_IntroMessage)>
+OutroMessage|<system.token(Route56_Main_SwimmerFemaleSybilla_OutroMessage)>
+DefeatMessage|<system.token(Route56_Main_SwimmerFemaleSybilla_DefeatMessage)>
+TextureID|Swimmer_Female
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -17,6 +18,6 @@ Pokemon4|
 Pokemon5|
 Pokemon6|
 Items|
-Gender|0
+Gender|1
 AI|2
-IntroSequence|0,0
+IntroSequence|8,8

@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Jake
-TrainerClass|<system.token(TrainerClass_Swimmer)>
+TrainerClass|<system.token(TrainerClass_Swimmer_Male)>
 Money|575
-IntroMessage|How many degrees is it?
-OutroMessage|Ooh! That's chilly!
-DefeatMessage|Oh, you meant celsius!
-TextureID|Swimmer_Land
+IntroMessage|<system.token(Route66_SwimmerMaleJake_IntroMessage)>
+OutroMessage|<system.token(Route66_SwimmerMaleJake_OutroMessage)>
+DefeatMessage|<system.token(Route66_SwimmerMaleJake_DefeatMessage)>
+TextureID|Swimmer_Male_Land
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro

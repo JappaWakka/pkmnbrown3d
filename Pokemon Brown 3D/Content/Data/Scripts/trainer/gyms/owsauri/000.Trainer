@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Ed
-TrainerClass|<system.token(TrainerClass_Swimmer)>
+TrainerClass|<system.token(TrainerClass_Swimmer_Male)>
 Money|380
-IntroMessage|<system.token(Owsauri_Gym_SwimmerEd_IntroMessage)>
-OutroMessage|<system.token(Owsauri_Gym_SwimmerEd_OutroMessage)>
-DefeatMessage|<system.token(Owsauri_Gym_SwimmerEd_DefeatMessage)>
-TextureID|Swimmer
+IntroMessage|<system.token(Owsauri_Gym_SwimmerMaleEd_IntroMessage)>
+OutroMessage|<system.token(Owsauri_Gym_SwimmerMaleEd_OutroMessage)>
+DefeatMessage|<system.token(Owsauri_Gym_SwimmerMaleEd_DefeatMessage)>
+TextureID|Swimmer_Male
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro

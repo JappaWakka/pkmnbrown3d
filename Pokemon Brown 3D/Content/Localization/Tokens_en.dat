@@ -2859,7 +2859,8 @@ TrainerClass_RocketLeader,Rocket Leader
 TrainerClass_Sailor,Sailor
 TrainerClass_Scientist,Scientist
 TrainerClass_SuperNerd,Super Nerd
-TrainerClass_Swimmer,Swimmer
+TrainerClass_Swimmer_Male,Swimmer ♂
+TrainerClass_Swimmer_Female,Swimmer ♀
 TrainerClass_Tamer,Tamer
 TrainerClass_Telekinetic,Telekinetic
 TrainerClass_Youngster,Youngster
@@ -3482,9 +3483,9 @@ Owsauri_GameCornerB1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
 Owsauri_Gym_GymGuy_BeforeBadge,Yo! Champ in making!~Here’s my advice!*The Leader, Lily loves to use~Ice Pokémon.*If you have Fire or Rock~Pokémon, her Pokémon won’t~stand a chance!
 Owsauri_Gym_GymGuy_AfterBadge,You beat Lily!! What'd I~tell ya?*You and me kid, we make~a pretty darn good team!
-Owsauri_Gym_SwimmerEd_IntroMessage,Splash!*Ready for an ice fight?
-Owsauri_Gym_SwimmerEd_OutroMessage,That can't be!
-Owsauri_Gym_SwimmerEd_DefeatMessage,Lily is always training~her Pokémon!
+Owsauri_Gym_SwimmerMaleEd_IntroMessage,Splash!*Ready for an ice fight?
+Owsauri_Gym_SwimmerMaleEd_OutroMessage,That can't be!
+Owsauri_Gym_SwimmerMaleEd_DefeatMessage,Lily is always training~her Pokémon!
 Owsauri_Gym_JrTrainerFemaleBethy_IntroMessage,Lily shouldn't waste her~time with you!
 Owsauri_Gym_JrTrainerFemaleBethy_OutroMessage,You overwhelmed me!
 Owsauri_Gym_JrTrainerFemaleBethy_DefeatMessage,You have to face other~trainers to find out how~good you really are.
@@ -3496,12 +3497,24 @@ Owsauri_Gym_LeaderLily_TalkAgain,Lily: Good luck on your quest!
 
 [Route 66]
 Route66_Sign_Beach,Rijon Beach
-Route66_SwimmerEricsson_IntroMessage,Time to work on my tan!
-Route66_SwimmerEricsson_OutroMessage,All warmed up!
-Route66_SwimmerEricsson_DefeatMessage,Do I have skin cancer?*Be honest.
-Route66_SwimmerEricsson_IntroMessage,Time to work on my tan!
-Route66_SwimmerEricsson_OutroMessage,All warmed up!
-Route66_SwimmerEricsson_DefeatMessage,Do I have skin cancer?*Be honest.
+Route66_SwimmerMaleEricsson_IntroMessage,Time to work on my tan!
+Route66_SwimmerMaleEricsson_OutroMessage,All warmed up!
+Route66_SwimmerMaleEricsson_DefeatMessage,Do I have skin cancer?*Be honest.
+Route66_SwimmerMaleJake_IntroMessage,How many degrees is it?
+Route66_SwimmerMaleJake_OutroMessage,Ooh! That's chilly!
+Route66_SwimmerMaleJake_DefeatMessage,Oh, you meant celsius!
+Route66_SwimmerMaleLucky_IntroMessage,I lost my board!
+Route66_SwimmerMaleLucky_OutroMessage,Ooh! Traumatic!
+Route66_SwimmerMaleLucky_DefeatMessage,The wave can come in any~second!
+Route66_SwimmerMaleEmile_IntroMessage,I can hold my breath!
+Route66_SwimmerMaleEmile_OutroMessage,Glub!
+Route66_SwimmerMaleEmile_DefeatMessage,Call a doctor...
+Route66_SwimmerMaleLogan_IntroMessage,Why aren't you swimming?
+Route66_SwimmerMaleLogan_OutroMessage,Belly flop!
+Route66_SwimmerMaleLogan_DefeatMessage,I can beat Pokémon at~swimming!
+Route66_SwimmerMaleIvan_IntroMessage,I tried diving for Pokémon,~but it was a no go!
+Route66_SwimmerMaleIvan_OutroMessage,Help!
+Route66_SwimmerMaleIvan_DefeatMessage,You have to fish for sea~Pokémon!
 
 [Route 63]
 Route63_JrTrainerFemaleAnnette_IntroMessage,On your way to Silk Tunnel~are you?
@@ -4100,3 +4113,45 @@ Route57_Gym_LeaderJoe_AfterBattle1,Joe: Hah!*Since you're so special, I'll~give 
 Route57_Gym_LeaderJoe_AfterBattle2,TM 15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!
 Route57_Gym_LeaderJoe_DefeatMessage,Joe: Well, that was~unexpected!*Congrats, stranger! You have~earned the White Badge!
 Route57_Gym_LeaderJoe_TalkAgain,Joe: Hyper Beam is the best~Normal attack you can get!*Don't waste it on just any~plain Pokémon!
+
+[Route 56]
+Route56_Main_SwimmerMaleKurt_IntroMessage,Oh no!
+Route56_Main_SwimmerMaleKurt_OutroMessage,Ouch! Torpedoed!
+Route56_Main_SwimmerMaleKurt_DefeatMessage,I lost!
+Route56_Main_SwimmerMaleJose_IntroMessage,The water is shallow here.
+Route56_Main_SwimmerMaleJose_OutroMessage,Splash!
+Route56_Main_SwimmerMaleJose_DefeatMessage,I wish I could ride my~Pokémon.
+Route56_Main_SwimmerFemaleVivian_IntroMessage,I've been swimming all day!
+Route56_Main_SwimmerFemaleVivian_OutroMessage,Quit it!
+Route56_Main_SwimmerFemaleVivian_DefeatMessage,Darn!
+Route56_Main_SwimmerFemaleCaroline_IntroMessage,I'm on vacation!
+Route56_Main_SwimmerFemaleCaroline_OutroMessage,No mercy at all!
+Route56_Main_SwimmerFemaleCaroline_DefeatMessage,West is Eagulou City.
+Route56_Main_SwimmerFemaleTanisha_IntroMessage,I love floating with the~fishes!
+Route56_Main_SwimmerFemaleTanisha_OutroMessage,Yowch!
+Route56_Main_SwimmerFemaleTanisha_DefeatMessage,I like anime better.
+Route56_Main_SwimmerMaleEstevan_IntroMessage,I will win, hahaha!
+Route56_Main_SwimmerMaleEstevan_OutroMessage,Wimpy!
+Route56_Main_SwimmerMaleEstevan_DefeatMessage,I lost, whaa whaa whaa...
+Route56_Main_BirdKeeperChucky_IntroMessage,I came from Moraga Town!
+Route56_Main_BirdKeeperChucky_OutroMessage,Oh no!
+Route56_Main_BirdKeeperChucky_DefeatMessage,I just like the view here.
+Route56_Main_SwimmerFemaleSybilla_IntroMessage,I love to swim!
+Route56_Main_SwimmerFemaleSybilla_OutroMessage,Drat!
+Route56_Main_SwimmerFemaleSybilla_DefeatMessage,Great, I lost...
+Route56_Main_SwimmerFemaleKaty_IntroMessage,I love to swim!
+Route56_Main_SwimmerFemaleKaty_OutroMessage,Drat!
+Route56_Main_SwimmerFemaleKaty_DefeatMessage,Great, I lost...
+Route56_Main_SwimmerFemaleKaty_IntroMessage,Can't swim yourself, wimp?
+Route56_Main_SwimmerFemaleKaty_OutroMessage,I'm so disappointed!
+Route56_Main_SwimmerFemaleKaty_DefeatMessage,I guess I can swim, and you~can battle with Pokémon.
+Route56_Main_SwimmerFemaleNicole_IntroMessage,Rub a dub dub!
+Route56_Main_SwimmerFemaleNicole_OutroMessage,Wait!
+Route56_Main_SwimmerFemaleNicole_DefeatMessage,I lost in this big tub...
+
+[Eagulou City]
+Eagulou_Main_ParkGirl,The Eagulou Park is a great~place to catch Pokémon!
+Eagulou_Main_MistStoneGuy,Rumor is that the Mist Stone~can break the barrier.
+Eagulou_Main_Sign_City,Eagulou City*The totally underrated city.
+Eagulou_Main_Sign_Park,Eagulou Park
+Eagulou_Main_MistStoneBarrier,Something pushes you.

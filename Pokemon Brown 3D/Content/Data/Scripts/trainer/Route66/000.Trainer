@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Ericsson
-TrainerClass|<system.token(TrainerClass_Swimmer)>
+TrainerClass|<system.token(TrainerClass_Swimmer_Male)>
 Money|580
-IntroMessage|<system.token(Route66_SwimmerEricsson_IntroMessage)>
-OutroMessage|<system.token(Route66_SwimmerEricsson_OutroMessage)>
-DefeatMessage|<system.token(Route66_SwimmerEricsson_DefeatMessage)>
-TextureID|Swimmer_Land
+IntroMessage|<system.token(Route66_SwimmerMaleEricsson_IntroMessage)>
+OutroMessage|<system.token(Route66_SwimmerMaleEricsson_OutroMessage)>
+DefeatMessage|<system.token(Route66_SwimmerMaleEricsson_DefeatMessage)>
+TextureID|Swimmer_Male_Land
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
