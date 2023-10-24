@@ -1,0 +1,25 @@
+version=2
+
+:if:<Player.Facing>=0
+	@Player.Warp(Gyms\Eagulou.dat,16,0.1,18,0)
+:else
+	:if:<Player.Facing>=1
+		@Player.Warp(Gyms\Eagulou.dat,16,0.1,18,3)
+	:else
+		:if:<Player.Facing>=2
+			@Player.Warp(Gyms\Eagulou.dat,16,0.1,18,2)
+		:else
+			@Player.Warp(Gyms\Eagulou.dat,16,0.1,18,1)
+		:endif
+	:endif
+:endif
+@Level.Update
+:if:<Level.Riding>=true
+	@Player.SetSpeed(2)
+:else
+	:if:<Player.IsRunning>=true
+		@Player.SetSpeed(1.5)
+	:endif
+:endif
+@Player.Move(1)
+:end

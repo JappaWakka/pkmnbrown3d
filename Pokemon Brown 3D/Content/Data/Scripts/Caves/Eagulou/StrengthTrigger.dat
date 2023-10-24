@@ -1,0 +1,8 @@
+version=2
+
+:if:<Register.Register(EagulouGym1F_StrengthPuzzle)>=false
+	@Sound.Play(SwitchDoor)
+	@entity.remove(0)
+	@Register.Register(EagulouGym1F_StrengthPuzzle)
+:endif
+:end

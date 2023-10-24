@@ -219,7 +219,7 @@ Gym (6x2y4z):
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[17,0,35]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Route57.dat,15,0.1,17,0]}}{"Rotation"{int[0]}}]}}
 
 	Sign
-		{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[18,0,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gyms\route57]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[18,0,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[GymSigns\Route57]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[18,-0.15,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Offsets:

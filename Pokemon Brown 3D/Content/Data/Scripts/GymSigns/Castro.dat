@@ -2,7 +2,6 @@ version=2
 
 :if:<Register.Registered(fistbadge_obtain)>=true
 	@Text.Show(<system.token(Castro_Main_Sign_Gym_AfterDefeat)>)
-
 :else
 	@Text.Show(<system.token(Castro_Main_Sign_Gym_BeforeDefeat)>)
 :endif
