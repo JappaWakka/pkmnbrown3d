@@ -2,11 +2,12 @@
 Name|Kenji
 TrainerClass|<system.token(TrainerClass_Blackbelt)>
 Money|1250
-IntroMessage|Rrrroar!*Try to defeat my fury!
-OutroMessage|Wargh!
-DefeatMessage|Piss off maggot!
-TextureID|BlackBelt
+IntroMessage|<system.token(Eagulou_Gym_BlackbeltKenji_IntroMessage)>
+OutroMessage|<system.token(Eagulou_Gym_BlackbeltKenji_OutroMessage)>
+DefeatMessage|<system.token(Eagulou_Gym_BlackbeltKenji_DefeatMessage)>
+TextureID|Blackbelt
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|Black,Black
+IntroSequence|3,3

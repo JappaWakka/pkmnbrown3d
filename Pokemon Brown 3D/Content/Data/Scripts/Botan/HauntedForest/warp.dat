@@ -1,5 +1,6 @@
 version=2
 
+@sound.play(Teleport)
 @screen.fadeout(15)
 :select:<level.filename>
 	:when:Area2

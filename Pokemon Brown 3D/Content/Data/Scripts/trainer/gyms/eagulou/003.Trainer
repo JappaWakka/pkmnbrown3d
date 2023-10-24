@@ -2,11 +2,12 @@
 Name|Enrique
 TrainerClass|<system.token(TrainerClass_CoolTrainer_Male)>
 Money|1785
-IntroMessage|Heh! Still have the strength~to fight?
-OutroMessage|I ran out of gas!
-DefeatMessage|Our Gym Leader doesn't mess~around!
-TextureID|Lass_Blue3
+IntroMessage|<system.token(Eagulou_Gym_CoolTrainerMaleEnrique_IntroMessage)>
+OutroMessage|<system.token(Eagulou_Gym_CoolTrainerMaleEnrique_OutroMessage)>
+DefeatMessage|<system.token(Eagulou_Gym_CoolTrainerMaleEnrique_DefeatMessage)>
+TextureID|CoolTrainer_Male
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|Black,Black
+IntroSequence|3,3

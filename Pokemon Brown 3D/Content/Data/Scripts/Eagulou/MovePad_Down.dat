@@ -1,0 +1,11 @@
+version=2
+
+@player.stopmovement
+@player.preventmovement
+@player.turnto(2)
+@sound.play(MovePad)
+@player.setmovement(0,0,1)
+@player.setspeed(2)
+@player.move(3)
+@player.allowmovement
+:end

@@ -4,8 +4,15 @@ Ground:
 	Regular
 		{"Floor"{ENT[{"Size"{intArr[14,7]}}{"Position"{intArr[7,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}]}}
 	
-	LadderHole
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[20,0,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,80,16,16]}}]}}
+	MovePad Floors
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,128,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[20,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,128,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[11,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[96,128,16,16]}}]}}
+				
+	Gemstone Floors
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[10,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[19,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
+		
 Ceiling:
 	{"EntityField"{ENT[{"Size"{intArr[16,9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,3,9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
@@ -61,11 +68,13 @@ Slope Sides
 Boulders:
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[7,-0.1,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[7,-0.1,15]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[19,-0.1,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[17,-0.1,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
-Gemstone 2x2:
-	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_2x2]}}{"Offset"{sngArr[7,0,10]}}]}}
+Gemstones:
+	Rough
+		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[19,-0.1,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-Ladder:
-	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_BattleMap]}}{"Offset"{sngArr[20,0,14]}}]}}
+Large Rocks:
+	Gemstone 2x1
+		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_2x1]}}{"Offset"{sngArr[10,0,10]}}]}}
+		

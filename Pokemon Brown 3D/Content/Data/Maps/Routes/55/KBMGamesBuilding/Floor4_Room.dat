@@ -64,7 +64,7 @@ Furniture:
 		{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.36,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[28,127,12,12][28,139,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[BlackBelt]}}{"ID"{int[0]}}{"Name"{str[BlackBelt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_KBMGamesBuilding_Floor4_Room_Karl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[0]}}{"Name"{str[BlackBelt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_KBMGamesBuilding_Floor4_Room_Karl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Pokeball:
 	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[4,0.3075,2]}}{"TextureID"{str[MasterBall]}}{"ID"{int[1]}}{"Name"{str[Porygon in a MasterBall]}}{"Action"{int[1]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor4_Room_Porygon]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}]}}

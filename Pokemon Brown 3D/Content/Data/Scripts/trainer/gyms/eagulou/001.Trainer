@@ -2,11 +2,12 @@
 Name|Rendell
 TrainerClass|<system.token(TrainerClass_CoolTrainer_Male)>
 Money|1645
-IntroMessage|You broke the entrance's~spell.*So what?
-OutroMessage|I had a chance...
-DefeatMessage|Guess you are good!
-TextureID|Lass_Blue3
+IntroMessage|<system.token(Eagulou_Cave_CoolTrainerMaleRendell_IntroMessage)>
+OutroMessage|<system.token(Eagulou_Cave_CoolTrainerMaleRendell_OutroMessage)>
+DefeatMessage|<system.token(Eagulou_Cave_CoolTrainerMaleRendell_DefeatMessage)>
+TextureID|CoolTrainer_Male
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|0
-IntroSequence|Black,Black
+IntroSequence|0,0

@@ -9,7 +9,7 @@ Door:
 	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\Main.dat,38,0.1,22,0]}}{"Rotation"{int[2]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[2,0.2,2]}}{"TextureID"{str[BlackBelt]}}{"ID"{int[0]}}{"Name"{str[Black Belt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_TradeHouse_BlackBelt)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[2,0.2,2]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[0]}}{"Name"{str[Black Belt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_TradeHouse_Blackbelt)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[2,0.2,3]}}{"TextureID"{str[PokeManiac]}}{"ID"{int[1]}}{"Name"{str[Male Trader]}}{"Action"{int[1]}}{"AdditionalValue"{str[Botan\TradeHouse_ButterfreeTyrogueTrade]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[5,0.2,3]}}{"TextureID"{str[Beauty]}}{"ID"{int[2]}}{"Name"{str[Female Trader]}}{"Action"{int[1]}}{"AdditionalValue"{str[Botan\TradeHouse_GligarEeveeTrade]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
