@@ -1,5 +1,6 @@
 version=2
 
+@Pokemon.Cry(145)
 :if:<Register.Value(ZapdosRaikouShiny)>=true
 	@Text.Show(<system.token(Route60_PowerPlant_Zapdos)>)
 	@battle.wild(145,50,1)

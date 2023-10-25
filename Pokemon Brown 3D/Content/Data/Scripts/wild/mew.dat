@@ -1,11 +1,12 @@
 version=2
 
-:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
-@Text.Show(!)
-@battle.wildshiny(151,50)
+@Pokemon.Cry(151)
+:if:<Register.Value(MewMewtwoShiny)>=true
+	@Text.Show(<system.token(Eagulou_Park_SecretCave_Mew)>)
+	@battle.wild(151,50,1)
 :else
-@Text.Show(!)
-@battle.wild(151,50)
+	@Text.Show(<system.token(Eagulou_Park_SecretCave_Mew)>)
+	@battle.wild(151,50,0)
 :endif
 @register.unregister(Mew)
 @level.reload

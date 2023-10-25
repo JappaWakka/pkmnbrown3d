@@ -1,0 +1,70 @@
+version=2
+
+:if:<player.position(z)>=4
+	@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		:when:<system.token(global_yes)>
+			@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Answer_Yes)>)
+			:end
+		:when:<system.token(global_no)>
+			@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Answer_No)>)
+			:end
+		:endwhen
+	:end
+:else
+	@player.turnto(3)
+	:if:<player.position(x)>=3
+		@player.move(1)
+	:endif
+	:if:<Register.Registered(parktimer)>=True
+		@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Question)>)
+		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+			:when:<system.token(global_yes)>
+				:if:<inventory.countitem(181)>>0
+					@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Answer_Yes)>)
+					@item.remove(181,<inventory.countitem(181)>)
+				:endif
+				@text.show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_ComeAgain)>)
+				@register.unregister(parktimer,TIME)
+				@player.turnto(2)
+				@player.move(1)
+				:end
+			:when:<system.token(global_no)>
+				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Answer_No)>)
+				@player.turnto(0)
+				@player.move(2)
+				@player.warp(Eagulou\Park\0.dat,3,0.1,25,1)
+				:end
+			:endwhen
+	:else
+		@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Question)>)
+		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+			:when:<system.token(global_yes)>
+				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney1)>)
+				:if:<player.money>>499
+					@player.money(-500)
+					@sound.play(buy)
+				:else
+					@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_NotEnoughMoney)>)
+					@player.turnto(1)
+					@player.move(1)
+					:end
+				:endif
+				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney2)>)
+				@Item.Give(181,30)
+				@Item.MessageGive(181,30)
+				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney3)>)
+				@player.turnto(0)
+				@player.move(2)
+				@player.warp(Eagulou\Park\Area1.dat,3,0.1,25,1)
+				@Register.RegisterTime(parktimer,15,minutes)
+			:when:<system.token(global_no)>
+				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_No)>)
+				@player.turnto(2)
+				@player.move(1)
+				:end
+			:endwhen
+	:endif
+:endif
+
+:end

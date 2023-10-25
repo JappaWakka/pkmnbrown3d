@@ -539,16 +539,6 @@ Places_Route 66,Route 66
 Places_Route 67,Route 67
 
 ---
-Item categories:
-item_category_Standard,Standard
-item_category_Medicine,Medicine
-item_category_Machines,Machines
-item_category_Pokéballs,Poké Balls
-item_category_Plants,Plants
-item_category_KeyItems,Key Items
-item_category_BattleItems,Battle Items
-item_category_Mail,Mail
----
 GameMessages:
 game_message_screenshot,Screenshot saved as 
 game_message_screenshot_failed,Cannot create screenshot
@@ -1474,13 +1464,14 @@ Item categories:
 item_category_Standard,Standard
 item_category_Medicine,Medicine
 item_category_Machines,TM/HM
-item_category_Pokeballs,Pokéballs
+item_category_Pokéballs,Pokéballs
 item_category_Plants,Plants
 item_category_KeyItems,Key Items
 item_category_BattleItems,Battle Items
 item_category_Mail,Mail
 ---
 Item names:
+[Official Items]
 Balls:
 item_name_1,Master Ball
 item_name_2,Ultra Ball
@@ -2186,10 +2177,91 @@ item_name_674,Rock Memory
 item_name_675,Steel Memory
 item_name_676,Water Memory
 
+[GameMode Items]
+item_name_gm0,Tim's Pizza
+item_name_gm1,Evolution Tool
+item_name_gm2,Red Amulet
+item_name_gm3,Red Orb
+item_name_gm4,Blue Orb
+item_name_gm5,Green Orb
+item_name_gm6,Virus Scanner
+item_name_gm7,Beer Keg
+item_name_gm8,Town Map
+item_name_gm9,PokéFlute
+item_name_gm10,Mist Stone
+item_name_gm11,Gold Egg
+item_name_gm12,Silver Egg
+item_name_gm13,Crystal Egg
+item_name_gm14,Ruby Egg
+item_name_gm15,Sapphire Egg
+item_name_gm16,Emerald Egg
+item_name_gm17,Prism Key
+item_name_gm18,Magic Wand
+item_name_gm73,Bluesky Mail
+item_name_gm74,Eon Mail
+item_name_gm75,Flower Mail
+item_name_gm76,Liteblue Mail
+item_name_gm77,Lovely Mail
+item_name_gm78,Mirage Mail
+item_name_gm79,Morph Mail
+item_name_gm80,Music Mail
+item_name_gm81,Portrait Mail
+item_name_gm82,Surf Mail
+
+[GameMode Item Plural Names]
+item_pluralname_gm1,Evolution Tools
+item_pluralname_gm3,Red Orbs
+item_pluralname_gm4,Blue Orbs
+item_pluralname_gm5,Green Orbs
+item_pluralname_gm7,Beer Kegs
+item_pluralname_gm18,Magic Wands
+item_pluralname_gm73,Bluesky Mails
+item_pluralname_gm74,Eon Mails
+item_pluralname_gm75,Flower Mails
+item_pluralname_gm76,Liteblue Mails
+item_pluralname_gm77,Lovely Mails
+item_pluralname_gm78,Mirage Mails
+item_pluralname_gm79,Morph Mails
+item_pluralname_gm80,Music Mails
+item_pluralname_gm81,Portrait Mails
+item_pluralname_gm82,Surf Mails
 ----
 Item Descriptions:
+[Official Items]
+item_desc_54,A case for holding coins obtained at the Owsauri Game Corner.
 item_desc_127,A card key that opens a door in the Silph Co. Warehouse.
+item_desc_181,A special Pokéball that is used only in the Eagulou Park. It is decorated in a camouflage pattern.
 
+[GameMode Items]
+item_desc_gm0,The pizza that Tim ordered. Better give it to him before it gets cold!
+item_desc_gm1,A peculiar device that can make certain species of Pokémon evolve that would normally need to hold items or be traded.
+item_desc_gm2,It seems someone has lost this amulet. The owner probably wants it back.
+item_desc_gm3,A shiny red orb. Someone might give you something in exchange for it.
+item_desc_gm4,A shiny blue orb. Someone might give you something in exchange for it.
+item_desc_gm5,A shiny green orb. Someone might give you something in exchange for it.
+item_desc_gm6,Strange artifact used to ban MissingNo.
+item_desc_gm7,An alcoholic beverage with a strong smell. When consumed by a Pokémon, it restores 30 HP.
+item_desc_gm8,A very convenient map that can be viewed anytime. It even shows your present location.
+item_desc_gm9,A flute that is said to instantly awaken any Pokémon. It has a lovely tone.
+item_desc_gm10,A special stone that is said to break spells. It emits a yellow glow somehow.
+item_desc_gm11,One of seven hidden treasures!
+item_desc_gm12,One of seven hidden treasures!
+item_desc_gm13,One of seven hidden treasures!
+item_desc_gm14,One of seven hidden treasures!
+item_desc_gm15,One of seven hidden treasures!
+item_desc_gm16,One of seven hidden treasures!
+item_desc_gm17,One of seven hidden treasures!
+item_desc_gm18,A special wand that can make certain species of Pokémon evolve.
+item_desc_gm73,Sky-print Mail. Write a message on it and let a Pokémon hold it.
+item_desc_gm74,Eevee-print Mail. Write a message on it and let a Pokémon hold it.
+item_desc_gm75,Flower-print Mail. Write a message on it and let a Pokémon hold it.
+item_desc_gm76,Dratini-print Mail. Write a message on it and let a Pokémon hold it.
+item_desc_gm77,Heart-print Mail. Write a message on it and let a Pokémon hold it.
+item_desc_gm78,Mew-print Mail. Write a message on it and let a Pokémon hold it.
+item_desc_gm79,Ditto-print Mail. Write a message on it and let a Pokémon hold it.
+item_desc_gm80,Natu-print Mail. Write a message on it and let a Pokémon hold it.
+item_desc_gm81,Mail featuring the holder's likeness. Write a message on it and let a Pokémon hold it.
+item_desc_gm82,Lapras-print Mail. Write a message on it and let a Pokémon hold it.
 ----
 Item Use Text:
 item_cannot_use,Now is not the time~to use that.
@@ -4195,3 +4267,23 @@ Eagulou_Gym_LeaderGiovanni_BeforeBattle,<player.name>: Giovanni?!*What are you d
 Eagulou_Gym_LeaderGiovanni_AfterBattle1,Giovanni: Take good care of~that badge, it's worth quite~a lot!*<Player.Name>: I'm not gonna sell~my Badges!*Giovanni: You'll never know~when desperation strikes!*Now, take this final gift as~well.
 Eagulou_Gym_LeaderGiovanni_AfterBattle2,TM 27 is Fissure!*It will take out Pokémon with~just one hit!*...Oh by the way, I rejected~that guy in black over there~from joining the Rockets.*He seemed... quite a bit too~greedy for power.*I hope he won't become a~problem in the future.*Farewell, kid.
 Eagulou_Gym_LeaderGiovanni_DefeatMessage,Giovanni: Defeated once~again... *Well, take that Star Badge~then!
+
+Eagulou_Park_Gate_InfoClerk_Question,Hi!~Is it your first time here?
+Eagulou_Park_Gate_InfoClerk_Answer_Yes,Well this is similar to the~Safari Zone in Kanto but~contains different Pokémon.*Don't run out of balls or time!~Best luck to you!
+Eagulou_Park_Gate_InfoClerk_Answer_No,Sorry, you're a regular here!
+Eagulou_Park_Gate_EntranceClerk_EndOfRun,You must now return your~Safari Balls.
+Eagulou_Park_Gate_EntranceClerk_Exit_Question,Are you sure you want~to exit the Park?
+Eagulou_Park_Gate_EntranceClerk_Exit_Answer_Yes,Then you must now return your~Safari Balls.
+Eagulou_Park_Gate_EntranceClerk_Exit_Answer_No,Then you should head back in~there!
+Eagulou_Park_Gate_EntranceClerk_Exit_ComeAgain,Thank you. Come again!
+Eagulou_Park_Gate_EntranceClerk_Enter_Question,Welcome to the Eagulou Park!*For just $500, you can try to~catch all the Pokémon you can~find within 15 minutes.*Would you like to join the hunt?
+Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney1,That'll be $500 please!
+Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney2,We only use a special type of~Pokéball here.
+Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney3,We'll call you over the~speakers when you run out of~time or Safari Balls.
+Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_NotEnoughMoney,Sorry! You don't have enough~money.
+Eagulou_Park_Gate_EntranceClerk_Enter_Answer_No,OK. Please come again!
+
+Eagulou_Park_TimeIsUp,Ding! Your time's up!
+
+Eagulou_Park_SecretCave_Mewtwo,!
+Eagulou_Park_SecretCave_Mew,!
