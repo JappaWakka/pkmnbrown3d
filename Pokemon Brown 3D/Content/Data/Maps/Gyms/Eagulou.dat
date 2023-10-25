@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Eagulou Gym]}}{"MusicLoop"{str[gym]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[1]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[eagulou\gone]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[1]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}]}}
 
 Floors:
 	Dark Rock
@@ -177,15 +177,15 @@ Large Rocks:
 NPCs:
 {"NPC"{NPC[{"Position"{sngArr[16,0,14]}}{"TextureID"{str[GymGuy]}}{"ID"{int[10]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[eagulou\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
-{"NPC"{NPC[{"Position"{sngArr[10,0,1]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[0]}}{"Name"{str[Black Belt]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\002]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[CoolTrainer_Male]}}{"ID"{int[1]}}{"Name"{str[Cool Trainer♂]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\eagulou\003]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[13,0,6]}}{"TextureID"{str[Rocker]}}{"ID"{int[2]}}{"Name"{str[Rocker]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\004]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[9,0,8]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[3]}}{"Name"{str[Black Belt]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[8,0,8]}}{"TextureID"{str[CoolTrainer_Male]}}{"ID"{int[4]}}{"Name"{str[Cool Trainer♂]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\006]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[11,0,15]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[5]}}{"Name"{str[Black Belt]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\gyms\eagulou\007]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[3,0,15]}}{"TextureID"{str[Rocker]}}{"ID"{int[6]}}{"Name"{str[Rocker]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\gyms\eagulou\008]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[10,0,1]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[0]}}{"Name"{str[Black Belt Kenji]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\002]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[CoolTrainer_Male]}}{"ID"{int[1]}}{"Name"{str[Cool Trainer♂ Enrique]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\eagulou\003]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[13,0,6]}}{"TextureID"{str[Tamer]}}{"ID"{int[2]}}{"Name"{str[Tamer Cyrus]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\004]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[9,0,8]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[3]}}{"Name"{str[Black Belt Ryu]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[8,0,8]}}{"TextureID"{str[CoolTrainer_Male]}}{"ID"{int[4]}}{"Name"{str[Cool Trainer♂ Tyron]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\006]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[11,0,15]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[5]}}{"Name"{str[Black Belt Lei]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\gyms\eagulou\007]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[3,0,15]}}{"TextureID"{str[Tamer]}}{"ID"{int[6]}}{"Name"{str[Tamer Ulric]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\gyms\eagulou\008]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[3,0,10]}}{"TextureID"{str[PalettePatrol]}}{"ID"{int[7]}}{"Name"{str[Palette Black]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\009]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[2,0,1]}}{"TextureID"{str[Giovanni]}}{"ID"{int[8]}}{"Name"{str[Leader]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\eagulou\leader]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[2,0,1]}}{"TextureID"{str[Giovanni]}}{"ID"{int[8]}}{"Name"{str[Leader Giovanni]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\eagulou\leader]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Item:
 	Evolution Tool

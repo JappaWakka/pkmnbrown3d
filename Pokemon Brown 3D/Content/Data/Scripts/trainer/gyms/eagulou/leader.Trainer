@@ -3,7 +3,7 @@ Name|Giovanni
 TrainerClass|<system.token(TrainerClass_Leader)>
 Money|5940
 IntroMessage|
-OutroMessage|Ha! That was epic!*you have earned my Star Badge,~and the league's acceptance!
+OutroMessage|<system.token(Eagulou_Gym_LeaderGiovanni_DefeatMessage)>
 DefeatMessage|
 TextureID|Giovanni
 Region|Rijon
@@ -19,5 +19,5 @@ Pokemon6|
 Items|16,16
 Gender|0
 AI|0
-IntroSequence|Orange,Brown
+IntroSequence|3,3
 IntroType|11

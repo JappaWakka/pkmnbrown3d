@@ -1,6 +1,0 @@
-version=2
-
-:if:<Register.Registered(giovannigone)>=True
-    @npc.remove(8)
-:endif
-:end
