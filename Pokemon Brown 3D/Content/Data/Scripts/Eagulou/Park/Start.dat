@@ -33,7 +33,7 @@ version=2
 				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Answer_No)>)
 				@player.turnto(0)
 				@player.move(2)
-				@player.warp(Eagulou\Park\0.dat,3,0.1,25,1)
+				@player.warp(Eagulou\Park\Area1.dat,3,0.1,25,1)
 				:end
 			:endwhen
 	:else
