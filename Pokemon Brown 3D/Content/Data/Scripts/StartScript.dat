@@ -1,0 +1,10 @@
+version=2
+@storage.set(bool,ReloadMap,false)
+:if:<environment.weather>=Snow <and> <level.environmenttype>=0
+	@storage.set(bool,ReloadMap,true)
+:endif
+@environment.setregionweather(0)
+:if:<storage.get(bool,ReloadMap)>=true
+	@level.reload
+:endif
+:end

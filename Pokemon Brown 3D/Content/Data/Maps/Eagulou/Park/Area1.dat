@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[Eagulou Park]}}{"MusicLoop"{str[safari]}}{"OverWorldPokemon"{bool[0]}}]}}
+{"Level"{LEV[{"Name"{str[Eagulou Park]}}{"MusicLoop"{str[EagulouPark_Main]}}{"OverWorldPokemon"{bool[0]}}]}}
 {"Actions"{LEV[{"RideType"{int[1]}}{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"IsSafariZone"{bool[1]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}]}}
 
 Floors:
@@ -12,6 +12,7 @@ Floors:
 	Warpmats
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[14,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[29,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
+		
 	Dirt
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[6,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[8,0,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
@@ -137,7 +138,7 @@ Water:
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[11,-0.25,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
 
 Buildings:
-	Eagulou Park Entrance (6x4y6z)
+	Park Entrance (6x4y6z)
 		Floors
 			House
 				{"Floor"{ENT[{"Size"{intArr[1,6]}}{"Position"{intArr[0,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,16,16,16]}}{"HasSnow"{bool[0]}}]}}
@@ -219,20 +220,20 @@ Buildings:
 	
 
 Warps:
-	Eagulou Park Entrance
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[2,0,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\gate.dat,3,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\gate.dat,4,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
+	Park Entrance
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[2,0,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Gate.dat,3,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Gate.dat,4,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
 
 	Small House
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[27,0,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\house0.dat,2,0.1,7,0]}}{"Rotation"{int[0]}}]}}
-
-			
-Warps:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[29,0,10]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[96,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Area3.dat,0,0.1,22,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[29,0,11]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[96,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Area3.dat,0,0.1,23,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[14,0,0]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[96,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Area2.dat,20,0.1,35,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[15,0,0]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[96,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Area2.dat,21,0.1,35,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[27,0,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\House1.dat,2,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		
+	Area 2
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[14,0,0]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[96,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Area2.dat,20,0.1,35,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[15,0,0]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[96,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Area2.dat,21,0.1,35,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
+	Area 3
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[29,0,10]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[96,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Area3.dat,0,0.1,22,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[29,0,11]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[96,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Area3.dat,0,0.1,23,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Scriptblocks:
 {"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,12]}}{"TexturePath"{str[House3]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\check]}}{"Rotation"{int[0]}}]}}

@@ -2,10 +2,10 @@ version=2
 
 @Pokemon.Cry(151)
 :if:<Register.Value(MewMewtwoShiny)>=true
-	@Text.Show(<system.token(Eagulou_Park_SecretCave_Mew)>)
+	@Text.Show(<system.token(Eagulou_Park_SecretCave_B2F_Mew)>)
 	@battle.wild(151,50,1)
 :else
-	@Text.Show(<system.token(Eagulou_Park_SecretCave_Mew)>)
+	@Text.Show(<system.token(Eagulou_Park_SecretCave_B2F_Mew)>)
 	@battle.wild(151,50,0)
 :endif
 @register.unregister(Mew)
