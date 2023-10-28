@@ -60,4 +60,4 @@ Door:
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[3,0,1]}}{"TextureID"{str[Beauty]}}{"ID"{int[0]}}{"Name"{str[Girlfriend Sara]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Eagulou_Park_Area1_House_GirlfriendSara)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[1,0,3]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Gift Scientist]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Eagulou_Park_Area1_House_GiftScientist)>]}}{"Rotation"{int[0]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[1,0,1,7]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[1,0,3]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[1]}}{"Name"{str[Gift Scientist]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Eagulou_Park_Area1_House_GiftScientist)>]}}{"Rotation"{int[0]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[1,0,1,7]]}}]}}
