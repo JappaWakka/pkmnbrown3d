@@ -54,6 +54,7 @@
 @player.setrivalskin(Rival)
 @player.setrivalname(Mura)
 @Item.Give(78)
+@Player.ReceivePokegear
 
 @system.endnewgame(Seashore\PlayerHouse2F.dat,6,0.1,5,3)
 

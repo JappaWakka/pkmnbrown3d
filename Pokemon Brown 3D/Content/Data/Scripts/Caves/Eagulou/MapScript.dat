@@ -1,6 +1,6 @@
 version=2
 
-:if:<Register.Registered(EagulouGym1F_StrengthPuzzle)>=true
+:if:<Register.Registered(EagulouCave_StrengthPuzzle)>=true
 	@entity.remove(0)
 	@entity.warp(1,6,-0.1,1)
 :endif

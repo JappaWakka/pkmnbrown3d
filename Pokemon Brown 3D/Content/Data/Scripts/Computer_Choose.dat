@@ -23,14 +23,6 @@ version=2
 		@storage.set(int,canind,<storage.get(int,canind)>+1)
 	:endif
 	
-	@storage.set(str,computer_options,<storage.get(str,computer_options)>,Mystery Events)
-	@storage.set(int,canind,<storage.get(int,canind)>+1)
-	
-	:if:<player.isgamejolt(1)>=true
-		@storage.set(str,computer_options,<storage.get(str,computer_options)>,Daily Rewards)
-		@storage.set(int,canind,<storage.get(int,canind)>+1)
-	:endif
-
 	@storage.set(str,computer_options,<storage.get(str,computer_options)>,Log Off)
 	@options.setcancelindex(<storage.get(int,canind)>)
 	
@@ -39,26 +31,18 @@ version=2
 			@sound.play(PC\LogOn)
 			@screen.storagesystem
 			@script.start(computer_choose)
-		:when:Mystery Events
-			@sound.play(PC\LogOn)
-			@screen.mysteryevent
-			@script.start(computer_choose)
 		:when:Inbox
 			@sound.play(PC\LogOn)
 			@screen.mailsystem
 			@script.start(computer_choose)
 		:when:Prof. Tim's PC
 			@sound.play(PC\LogOn)
-			@script.start(pallet\evaldist)
+			@script.start(Computer_DexEvaluation)
 			@Text.Show(<system.token(Generic_PC_ChooseHost)>)
 			@script.start(computer_choose)
 		:when:Hall of Fame
 			@sound.play(PC\LogOn)
 			@screen.halloffame
-			@script.start(computer_choose)
-		:when:Daily Rewards
-			@sound.play(PC\LogOn)
-			@script.start(startscript\pcreward)
 			@script.start(computer_choose)
 		:when:Log Off
 			@sound.play(PC\TurnOff)

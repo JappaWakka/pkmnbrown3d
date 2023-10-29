@@ -1,6 +1,7 @@
 version=2
 
 :if:<Register.Registered(parktimer)>=False
+	@sound.play(EagulouParkBell)
 	@Text.Show(<system.token(Eagulou_Park_TimeIsUp)>)
 	@screen.fadeout(15)
 	@player.warp(Eagulou\Park\gate.dat,4,0.1,0)

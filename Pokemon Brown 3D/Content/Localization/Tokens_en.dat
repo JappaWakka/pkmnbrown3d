@@ -2942,18 +2942,15 @@ TrainerClass_Youngster,Youngster
 Story Localization:
 
 [Game Intro]
-GameIntro_1,H-hello!? You must be~new here.*Welcome to this land~called Rijon.*My name is Timothy but you~can call me Tim.*I am the island's~Pokémon Tutor.
-GameIntro_2,This is a Pokémon.~There are a lot of these in the~Rijon area.*I've done a fair extent of~research on these and it seems~that they have special~capabilities for fighting~as well as being tame~house-hold pets.
-GameIntro_3,Oh um, whats your name~young man?
-GameIntro_4,Oh <player.name>!*I've never heard that~name before.
-GameIntro_5,<player.name>!~Now that you have met some~people, all you need now is to~journey the town.*I think your mother has~settled in and done unpacking.*Your adventure starts here~so come see me some time~tomorrow after you awake.*See you later!
+GameIntro_1,H-hello!? You must be new~here.*Welcome to this land called~Rijon.*My name is Timothy but you can~call me Tim.*I am the island's Pokémon~Tutor.
+GameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.*I've done a fair extent of~research on these and it seems~that they have special~capabilities for fighting~as well as being tame~house-hold pets.
+GameIntro_3,Oh, I forgot to ask!~What's your name?
+GameIntro_4,Ah, <player.name>!*I've never heard that name~before.
+GameIntro_5,<player.name>!~Now that you have met some~people, all you need now is to~journey the town.*I think your mother has~settled in and is done~unpacking.*Your adventure starts here so~come see me some time tomorrow~after you awake.*See you later!
 
 [Generic Tokens]
-Generic_TV_Movie,There's a movie on TV.~Four boys are walking~on railroad tracks.*I'd better go too.
-Generic_PC_NoInteract,You can't interact with~the PC at the moment.
-Generic_PC_BootUp,Booting up the PC...*Choose a host to~connect to.
-Generic_PC_ChooseHost,Choose a host to~connect to.
-Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon~books!
+Generic_TV_Movie,There's a movie on TV.~Four kids are walking on~railroad tracks.*I'd better go too.
+Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon books!
 Generic_TownMap,It's the Town Map.
 Generic_Bed_Question,It's a bed.~Would you like to sleep?
 Generic_Bed_Refreshed,You wake up feeling refreshed.
@@ -2973,6 +2970,31 @@ Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
 
 Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
 Generic_Sign_PokeCenter,Heal Your Pokémon!~Pokémon Center
+
+Generic_PC_NoInteract,You can't interact with the PC~at the moment.
+Generic_PC_BootUp,Booting up the PC...*Choose a host to connect to.
+Generic_PC_ChooseHost,Choose a host to connect to.
+Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating~System.*Do you want to get your~Pokédex rated?
+Generic_PC_DexEvaluation_BeforeRating,Pokédex completion is:*<pokedex.dexseen(0)> Pokémon seen~<pokedex.dexcaught(0)> Pokémon owned*Prof. Tim's Rating:
+Generic_PC_Rating_Level01,You still have lots to do.*Look for Pokémon in grassy~areas!
+Generic_PC_Rating_Level02,You're on the right track!~Keep going!
+Generic_PC_Rating_Level03,You still need more Pokémon!~Try to catch other species!
+Generic_PC_Rating_Level04,Hmm, you're catching Pokémon~at a decent pace!
+Generic_PC_Rating_Level05,Looking good! Go find my Aide~on Route 60 when you get 50!
+Generic_PC_Rating_Level06,You finally got a least 50~species!*Be sure to get the Exp. Share~from my Aide on Route 60!
+Generic_PC_Rating_Level07,Oh! This is getting even~better!*Be sure to get the Super Rod~from my Aide on Route 52!
+Generic_PC_Rating_Level08,Very good! Go fish for some~marine Pokémon!
+Generic_PC_Rating_Level09,Wonderful! Do you like~collecting Pokémon?
+Generic_PC_Rating_Level10,I'm impressed! It must have~been difficult to do!
+Generic_PC_Rating_Level11,You finally got at least 100~species!*I can't believe how good you~are!
+Generic_PC_Rating_Level12,You even have the evolved~forms of Pokémon! Super!
+Generic_PC_Rating_Level13,There are many more Pokémon~waiting to be caught in Rijon!*Good luck!
+Generic_PC_Rating_Level14,There are Pokémon that don't~evolve just by winning battles!
+Generic_PC_Rating_Level15,Outstanding! You're becoming~a real pro at this!
+Generic_PC_Rating_Level16,Excellent! If you can find a~way to trade with friends you~might be able to get more!
+Generic_PC_Rating_Level17,You're almost there!*Don't give up! You've got this!
+Generic_PC_Rating_Level18,I can't believe it!*<Player.Name>, your Pokédex is~fully complete!*Congratulations!
+Generic_PC_DexEvaluation_End,Closed link to Prof. Tim's PC.
 
 [Seashore City]
 Seashore_PlayerHouse1F_Mom_LookForTim,Good luck on following your~dad's footsteps, sweetie!!!*Go south to Gravel Town~and look for the Professor.
@@ -3522,10 +3544,10 @@ Owsauri_GameCorner1F_GamblingClerk_2,<player.name> received~20 coins!
 Owsauri_GameCorner1F_GamblingClerk_3,Darn! I need more coins for~the Pokémon I want!
 Owsauri_GameCorner1F_ForgotCoinCase,Oops! Forgot the Coin Case!
 Owsauri_GameCorner1F_SlotMachine,Only adults are allowed to use~the Slot Machines!
-Owsauri_GameCorner1F_VoltorbFlipGame_Question,Hello there, young man!~Ready to play Voltorb Flip?
+Owsauri_GameCorner1F_VoltorbFlipGame_Question,Hello there, challenger!~Ready to play Voltorb Flip?
 Owsauri_GameCorner1F_VoltorbFlipGame_Answer_Yes,I'll set up the game for you!
 Owsauri_GameCorner1F_VoltorbFlipGame_Answer_No,Very well.~Come play again later!
-Owsauri_GameCorner1F_Clerk_VoltorbFlip_BeforeTalking,Hello there, young man!~You look like quite a challenger!*Why don't you try our new~coin game, Voltorb Flip?*You can get some great prizes~if you collect enough coins!*Just take a seat and I'll set~up the game for you.*Be sure to have your~Coin Case ready!
+Owsauri_GameCorner1F_Clerk_VoltorbFlip_BeforeTalking,Hello there, kid!~You look like quite a challenger!*Why don't you try our new~coin game, Voltorb Flip?*You can get some great prizes~if you collect enough coins!*Just take a seat and I'll set~up the game for you.*Be sure to have your~Coin Case ready!
 Owsauri_GameCorner1F_Clerk_VoltorbFlip_AfterTalking,Just take a seat and I'll set~up the game for you.*Be sure to have your~Coin Case ready!
 Owsauri_GameCorner1F_Clerk_CoinBuy_Question,Welcome to Owsauri~Game Corner!*Are you in need of game coins?*It's only $1000 for 50 coins.~Would you like some?
 Owsauri_GameCorner1F_Clerk_CoinBuy_No,No? Please come play sometime!
@@ -3687,7 +3709,7 @@ Moraga_OrionAcademy_Notebook_Page3,Third page...*Pokémon Trainers seek others~t
 Moraga_OrionAcademy_Notebook_Page4,Fourth page...*There are more than 151~Pokémon available in Rijon!~Ones that are 152 and above~are hidden in special areas,~so keep an eye out for them.
 Moraga_OrionAcademy_Notebook_End,Guy: I plagiarized. So what?!
 
-Moraga_Gym_GymGirl_BeforeBadge,Gym Girl: Hi there, tough guy!*Don't blow my cover kid, they~don't like dudes as much~in this gym.*Lois uses Grass Pokémon,~which are weak against Fire~and Flying Pokémon!~Go get her, tiger!
+Moraga_Gym_GymGirl_BeforeBadge,Gym Girl: Hiya, champion in~the making!*...Don't blow my cover kid,~they don't like dudes as much~in this gym.*Lois uses Grass Pokémon,~which are weak against Fire~and Flying Pokémon!~Good luck!
 Moraga_Gym_GymGirl_AfterBadge,Gym Girl: What a fantastic~battle! You sure showed her!
 Moraga_Gym_LassKatrin_IntroMessage,A boy?!*Get out of here!
 Moraga_Gym_LassKatrin_OutroMessage,You're too rough!
@@ -3725,11 +3747,11 @@ Route60_PowerPlant_Raikou,Rrroar!
 [Route 60 - Jaeru City Gate]
 Route60_Jaeru_Gate_Guard,Are you working on a Pokédex?*Prof. Tim's Aide came by here.
 
-Route60_Jaeru_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 50 kinds~of Pokémon, I'm supposed to~give you an Exp. Share!*So <player.name>! Have you~caught at least 50 kinds~of Pokémon?
-Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_50OrMorePokemon,Let's see...*Great!~Here you have the Exp. Share!
-Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_LessThan50Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 50 kinds if~you want the Exp. Share.
-Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 50 kinds,~come back for the Exp. Share.
-Route60_Jaeru_Gate_Aide_SuperRod_AfterReceiveExpShare,Have fun with it!
+Route60_Jaeru_Gate_Aide_ExpShare_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 50 kinds~of Pokémon, I'm supposed to~give you an Exp. Share!*So <player.name>! Have you~caught at least 50 kinds~of Pokémon?
+Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_50OrMorePokemon,Let's see...*Great!~Here you have the Exp. Share!
+Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_LessThan50Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 50 kinds if~you want the Exp. Share.
+Route60_Jaeru_Gate_Aide_ExpShare_AnswerNo,Oh, I see.~When you get 50 kinds,~come back for the Exp. Share.
+Route60_Jaeru_Gate_Aide_ExpShare_AfterReceiveExpShare,Have fun with it!
 Route60_Jaeru_Gate_Binoculars_Left_Intro,Looked into the binoculars...
 Route60_Jaeru_Gate_Binoculars_Left_Flying,A strange Pokémon is flying~to Mt. Boulder!
 Route60_Jaeru_Gate_Binoculars_Left_Running,A strange Pokémon is running~towards Mt. Boulder!
@@ -4289,7 +4311,7 @@ Eagulou_Park_Area1_House_GiftScientist,I'm catching Pokémon to take~home as gif
 
 Eagulou_Park_Area2_House_EeveeGuy,My Eevee evolved into Leafeon!*But a friend's Eevee turned~into a Glaceon!*I wonder why?
 Eagulou_Park_Area2_House_HoleGuy,A hole was dug somewhere in~the Park.*But by who?*Or what?
-Eagulou_Park_Area2_House_TimeGirl,There's lots to be found here,~but don't run out of time!
+Eagulou_Park_Area2_House_BoyfriendErik,Erik: I promised my girlfriend,~Sara, I would catch her a Jynx~but I haven't succeeded yet.*I'm almost out of Eagulou~Balls!
 
 Eagulou_Park_Area3_House_BushedGuy,How many did you catch?~I'm bushed from the work!
 Eagulou_Park_Area3_House_ChanseyGuy,I caught a Chansey!*That makes this all worthwhile!
@@ -4297,5 +4319,15 @@ Eagulou_Park_Area3_House_TiredGuy,Whew! I'm tired from all the fun!
 
 Eagulou_Park_TimeIsUp,Ding! Your time's up!
 
-Eagulou_Park_SecretCave_B2F_Mewtwo,!
-Eagulou_Park_SecretCave_B2F_Mew,!
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_IntroMessage,You found the Secret Cave too?
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_OutroMessage,The rumors were true!
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_DefeatMessage,This cave isn't THAT well hidden.
+Eagulou_Park_SecretCaveB1F_CoolTrainerFemaleShirlee_IntroMessage,I'll show you just how good~you are!
+Eagulou_Park_SecretCaveB1F_CoolTrainerFemaleShirlee_OutroMessage,I'm furious!
+Eagulou_Park_SecretCaveB1F_CoolTrainerFemaleShirlee_DefeatMessage,You showed me just how good I~was!
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_IntroMessage,Nope!*Nothing here!
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_OutroMessage,I don't believe it!
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_DefeatMessage,Strange sounds are coming from~the basement!*Scary!
+
+Eagulou_Park_SecretCave_B2F_Mewtwo,Mewtwo!
+Eagulou_Park_SecretCave_B2F_Mew,Mew!

@@ -2,6 +2,7 @@ version=2
 
 :if:<player.position(z)>=4
 	@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Question)>)
+	@options.setcancelindex(1)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
 			@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Answer_Yes)>)
@@ -18,6 +19,7 @@ version=2
 	:endif
 	:if:<Register.Registered(parktimer)>=True
 		@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Question)>)
+		@options.setcancelindex(1)
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 			:when:<system.token(global_yes)>
 				:if:<inventory.countitem(181)>>0
@@ -38,6 +40,7 @@ version=2
 			:endwhen
 	:else
 		@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Question)>)
+		@options.setcancelindex(1)
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 			:when:<system.token(global_yes)>
 				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney1)>)
