@@ -1,6 +1,6 @@
 version=2
 
-:if:<Register.Registered(parktimer)>=False
+:if:<not><level.filename>=SecretCave_B1F <and> <not><level.filename>=SecretCave_B2F
 	@sound.play(EagulouParkBell)
 	@Text.Show(<system.token(Eagulou_Park_TimeIsUp)>)
 	@screen.fadeout(15)
@@ -15,8 +15,11 @@ version=2
 		@item.remove(181,<inventory.countitem(181)>)
 	:endif
 	@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_ComeAgain)>)
+	@player.turnto(2)
+	@player.move(1)
 	:end
 :else
+	@register.register(EagulouParkEnd)
 	:end
 :endif
 :end

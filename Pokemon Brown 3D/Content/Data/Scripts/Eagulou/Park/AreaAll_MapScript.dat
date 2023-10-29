@@ -1,0 +1,7 @@
+version=2
+
+:if:<register.registered(EagulouParkEnd)>=true
+	@script.start(Eagulou\Park\StepScript)
+	@register.unregister(EagulouParkEnd)
+:endif
+:end
