@@ -17,7 +17,7 @@ version=2
 	:if:<player.position(x)>=3
 		@player.move(1)
 	:endif
-	:if:<player.scriptsteps>>0
+	:if:<script.delay(value)>>0
 		@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Question)>)
 		@options.setcancelindex(1)
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
@@ -27,7 +27,7 @@ version=2
 					@item.remove(181,<inventory.countitem(181)>)
 				:endif
 				@text.show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_ComeAgain)>)
-				@player.clearscriptsteps
+				@script.cleardelay
 				@player.turnto(2)
 				@player.move(1)
 				:end
@@ -60,7 +60,7 @@ version=2
 				@player.turnto(0)
 				@player.move(2)
 				@player.warp(Eagulou\Park\Area1.dat,3,0.1,25,0)
-				@player.setscriptsteps(500,Eagulou\Park\StepScript)
+				@script.delay(Eagulou\Park\StepScript,steps,500)
 			:when:<system.token(global_no)>
 				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_No)>)
 				@player.turnto(2)
