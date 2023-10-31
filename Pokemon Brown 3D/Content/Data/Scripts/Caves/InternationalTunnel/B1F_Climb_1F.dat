@@ -1,0 +1,36 @@
+version=2
+:if:<Player.Position(z)>=1
+	@Storage.Set(int,ClimbOffset,1)
+	@Storage.Set(int,ClimbRotation,2)
+:else
+	@Storage.Set(int,ClimbOffset,0)
+	@Storage.Set(int,ClimbRotation,0)
+:endif
+
+@Player.TurnTo(<storage.get(int,ClimbRotation)>)
+@Player.SetMovement(0,1,0)
+@Player.SetSpeed(1.5)
+@Player.Move(3)
+@Player.ResetMovement
+
+:if:<Player.Facing>=0
+	@Player.Warp(Caves\InternationalTunnel\1F.dat,0,-0.9,<storage.get(int,ClimbOffset)>,0)
+:else
+	:if:<Player.Facing>=1
+		@Player.Warp(Caves\InternationalTunnel\1F.dat,0,-0.9,<storage.get(int,ClimbOffset)>,0)
+	:else
+		:if:<Player.Facing>=2
+			@Player.Warp(Caves\InternationalTunnel\1F.dat,0,-0.9,<storage.get(int,ClimbOffset)>,0)
+		:else
+			@Player.Warp(Caves\InternationalTunnel\1F.dat,0,-0.9,<storage.get(int,ClimbOffset)>,0)
+		:endif
+	:endif
+:endif
+@Level.Update
+@Player.SetMovement(0,1,0)
+@Player.SetSpeed(1.5)
+@Player.Move(1)
+@player.ResetMovement
+@Player.TurnTo(3)
+@Player.Move(1)
+:end
