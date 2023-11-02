@@ -5,10 +5,10 @@ version=2
 	@Storage.Set(int,ClimbRotation,0)
 :endif
 @Player.TurnTo(<storage.get(int,ClimbRotation)>)
-@Player.SetMovement(0,1,0)
+@Player.SetMovement(0,-1,0)
 @Player.SetSpeed(1.5)
-@Player.Move(4)
+@Player.Move(1)
 @player.ResetMovement
-@Player.TurnTo(1)
+@Player.TurnTo(3)
 @Player.Move(1)
 :end

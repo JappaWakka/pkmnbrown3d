@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[International Tunnel]}}{"MusicLoop"{str[CaveMusic2]}}{"WildPokemon"{bool[1]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[International Tunnel]}}{"MusicLoop"{str[CaveMusic2]}}{"WildPokemon"{bool[0]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[1]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}]}}
 
 Floors:
@@ -135,7 +135,7 @@ B1F Warps:
 	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\InternationalTunnel\1F_Climb_B1F]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[21,0,1]}}{"TextureID"{str[Miner]}}{"ID"{int[0]}}{"Name"{str[Miner]}}{"Action"{int[0]}}{"AdditionalValue"{str[I've built this ladder, and~now I'm mining upwards.~Why do you care?*This tunnel won't be ready for~a while, but it's okay for me~because I love to dig!]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[21,0,1]}}{"TextureID"{str[Miner]}}{"ID"{int[0]}}{"Name"{str[Miner]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route58_InternationalTunnel_1F_Miner)>]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}]}}
 
 Offsets:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[0,-4,0]}}{"Map"{str[Caves\InternationalTunnel\B1F.dat]}}]}}

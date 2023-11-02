@@ -1,5 +1,5 @@
 version=2
-:if:<Player.Position(z)>=1
+:if:<Player.Position(z)>=1 <or> <Player.Position(z)>=-1
 	@Storage.Set(int,ClimbRotation,2)
 :else
 	@Storage.Set(int,ClimbRotation,0)
@@ -7,14 +7,7 @@ version=2
 @Player.TurnTo(<storage.get(int,ClimbRotation)>)
 @Player.SetMovement(0,1,0)
 @Player.SetSpeed(1.5)
-@Player.Move(2)
-@player.ResetMovement
-@Player.TurnTo(3)
-@Player.Move(1)
-@Player.TurnTo(<storage.get(int,ClimbRotation)>)
-@Player.SetMovement(0,1,0)
-@Player.SetSpeed(1.5)
-@Player.Move(2)
+@Player.Move(3)
 @player.ResetMovement
 @Player.TurnTo(3)
 @Player.Move(1)

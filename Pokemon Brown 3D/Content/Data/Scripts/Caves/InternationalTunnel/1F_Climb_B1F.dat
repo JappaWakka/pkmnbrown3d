@@ -1,5 +1,5 @@
 version=2
-:if:<Player.Position(z)>=1
+:if:<Player.Position(z)>=1 <or> <Player.Position(z)>=-1
 	@Storage.Set(int,ClimbOffset,1)
 	@Storage.Set(int,ClimbRotation,2)
 :else

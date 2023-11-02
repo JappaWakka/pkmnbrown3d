@@ -7,7 +7,7 @@ version=2
 @Player.TurnTo(<storage.get(int,ClimbRotation)>)
 @Player.SetMovement(0,1,0)
 @Player.SetSpeed(1.5)
-@Player.Move(4)
+@Player.Move(3)
 @player.ResetMovement
 @Player.TurnTo(1)
 @Player.Move(1)
