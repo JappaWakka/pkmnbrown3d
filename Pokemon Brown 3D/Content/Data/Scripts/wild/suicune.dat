@@ -1,12 +1,14 @@
 version=2
 
-:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
-@Text.Show(Rrroar!)
-@battle.wildshiny(245,50)
+@Pokemon.Cry(245)
+:if:<Register.Value(ArticunoSuicuneShiny)>=true
+	@Text.Show(<system.token(MtBoulder_B1F_Suicune_Cry)>)
+	@battle.wild(245,50,1)
 :else
-@Text.Show(Rrroar!)
-@battle.wild(245,50)
+	@Text.Show(<system.token(MtBoulder_B1F_Suicune_Cry)>)
+	@battle.wild(245,50,0)
 :endif
 @register.unregister(Suicune)
 @level.reload
+
 :end

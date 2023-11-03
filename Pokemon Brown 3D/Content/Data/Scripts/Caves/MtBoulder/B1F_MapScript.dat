@@ -1,0 +1,27 @@
+version=2
+
+:if:<Register.Registered(ArticunoSuicuneShiny)>=false
+	:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
+		@Register.Register(ArticunoSuicuneShiny,bool,true)
+	:else
+		@Register.Register(ArticunoSuicuneShiny,bool,false)
+	:endif
+:endif
+
+:if:<Register.Registered(Articuno)>=True
+	:if:<Register.Value(ArticunoSuicuneShiny)>=true
+		@npc.spawn(6,1,1,1,wild\articuno,[POKEMON|S]144,0,2,Articuno,10,Still)
+	:else
+		@npc.spawn(6,1,1,1,wild\articuno,[POKEMON|N]144,0,2,Suicune,10,Still)
+	:endif
+:endif
+
+:if:<Register.Registered(Suicune)>=True
+	:if:<Register.Value(ArticunoSuicuneShiny)>=true
+		@npc.spawn(6,1,1,1,wild\suicune,[POKEMON|S]245,0,2,Suicune,10,Still)
+	:else
+		@npc.spawn(6,1,1,1,wild\suicune,[POKEMON|N]245,0,2,Suicune,10,Still)
+	:endif
+:endif
+
+:end
