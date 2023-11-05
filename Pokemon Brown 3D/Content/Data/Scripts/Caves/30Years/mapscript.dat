@@ -1,10 +1,27 @@
 version=2
 
+:if:<Register.Registered(MoltresEnteiShiny)>=false
+	:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
+		@Register.Register(MoltresEnteiShiny,bool,true)
+	:else
+		@Register.Register(MoltresEnteiShiny,bool,false)
+	:endif
+:endif
+
 :if:<Register.Registered(Moltres)>=True
-@npc.spawn(11,0,5,1,wild\moltres,[POKEMON|N]146,0,0,Moltres,10,Still)
+	:if:<Register.Value(MoltresEnteiShiny)>=true
+		@npc.spawn(11,0,5,1,wild\Moltres,[POKEMON|S]146,1,0,Moltres,10,Still)
+	:else
+		@npc.spawn(11,0,5,1,wild\Moltres,[POKEMON|N]146,1,0,Moltres,10,Still)
+	:endif
 :endif
 
 :if:<Register.Registered(Entei)>=True
-@npc.spawn(11,0,5,1,wild\entei,[POKEMON|N]244,0,0,Entei,10,Still)
+	:if:<Register.Value(MoltresEnteiShiny)>=true
+		@npc.spawn(11,0,5,1,wild\Entei,[POKEMON|S]244,0,0,Entei,10,Still)
+	:else
+		@npc.spawn(11,0,5,1,wild\Entei,[POKEMON|N]244,0,0,Entei,10,Still)
+	:endif
 :endif
+
 :end

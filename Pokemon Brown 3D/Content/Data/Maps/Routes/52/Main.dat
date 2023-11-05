@@ -13,6 +13,12 @@ Floors:
 	Dirt
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[6,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		
+	Under Mountains
+		{"Floor"{ENT[{"Size"{intArr[8,4]}}{"Position"{intArr[8,0,54]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+		
+	30 Years Cave Entrance
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[12,0,57]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+		
 	Docks
 		{"Floor"{ENT[{"Size"{intArr[2,18]}}{"Position"{intArr[12,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[14,0,36]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}

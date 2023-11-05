@@ -10,9 +10,9 @@ version=2
 
 :if:<Register.Registered(Articuno)>=True
 	:if:<Register.Value(ArticunoSuicuneShiny)>=true
-		@npc.spawn(6,1,1,1,wild\articuno,[POKEMON|S]144,0,2,Articuno,10,Still)
+		@npc.spawn(6,1,1,1,wild\articuno,[POKEMON|S]144,1,2,Articuno,10,Still)
 	:else
-		@npc.spawn(6,1,1,1,wild\articuno,[POKEMON|N]144,0,2,Suicune,10,Still)
+		@npc.spawn(6,1,1,1,wild\articuno,[POKEMON|N]144,1,2,Articuno,10,Still)
 	:endif
 :endif
 
