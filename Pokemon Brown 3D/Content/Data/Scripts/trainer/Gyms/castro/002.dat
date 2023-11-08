@@ -1,5 +1,5 @@
 version=2
-:if:<register.registered(trainer_Gyms\castro\002)>=false
+:if:<npc.skin(3)>=Blackbelt
 
 	:if:<player.facing>=0
 		@level.wait(5)

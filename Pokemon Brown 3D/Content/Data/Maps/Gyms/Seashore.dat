@@ -539,12 +539,9 @@ Shaders:
 	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[3,0,4]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
 	
 	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[29,0,12]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
-OffsetMaps:
-	{"OffsetMap"{MAP[{"Offset"{sngArr[8,40]}}{"Map"{str[Routes\53\Main.dat]}}]}}
-	{"OffsetMap"{MAP[{"Offset"{sngArr[8,-68]}}{"Map"{str[Routes\52\Main.dat]}}]}}
 
 Backdrops:
 	{"Backdrop"{BAC[{"Position"{sngArr[-1.5,-0.75,-68.5]}}{"Size"{intArr[40,67]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	{"Backdrop"{BAC[{"Position"{sngArr[-80.5,-0.75,-68.5]}}{"Size"{intArr[80,128]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	{"Backdrop"{BAC[{"Position"{sngArr[38.5,-0.75,-68.5]}}{"Size"{intArr[80,125]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	{"Backdrop"{BAC[{"Position"{sngArr[-1.5,-0.75,36.5]}}{"Size"{intArr[40,23]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	{"Backdrop"{BAC[{"Position"{sngArr[-80.5,-0.75,-68.5]}}{"Size"{intArr[80,144]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	{"Backdrop"{BAC[{"Position"{sngArr[38.5,-0.75,-68.5]}}{"Size"{intArr[80,144]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	{"Backdrop"{BAC[{"Position"{sngArr[-1.5,-0.75,36.5]}}{"Size"{intArr[40,39]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}

@@ -2,11 +2,12 @@
 Name|Zac
 TrainerClass|<system.token(TrainerClass_Juggler)>
 Money|2625
-IntroMessage|Is there anything here?*Maybe...
-OutroMessage|You got me!
-DefeatMessage|You're almost done!
+IntroMessage|<system.token(30YearsCave_JugglerZac_IntroMessage)>
+OutroMessage|<system.token(30YearsCave_JugglerZac_OutroMessage)>
+DefeatMessage|<system.token(30YearsCave_JugglerZac_DefeatMessage)>
 TextureID|Juggler
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|6,6

@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
 Name|Brend
-TrainerClass|<system.token(TrainerClass_CoolTrainer_Male)>
+TrainerClass|<system.token(TrainerClass_Tamer)>
 Money|2960
-IntroMessage|Come on! I'll whip you!
-OutroMessage|I got whipped!
-DefeatMessage|No I'm not a crossdresser!
-TextureID|CoolTrainer_Male
+IntroMessage|<system.token(30YearsCave_TamerBrend_IntroMessage)>
+OutroMessage|<system.token(30YearsCave_TamerBrend_OutroMessage)>
+DefeatMessage|<system.token(30YearsCave_TamerBrend_DefeatMessage)>
+TextureID|Tamer
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|4,4

@@ -2,11 +2,12 @@
 Name|Howard
 TrainerClass|<system.token(TrainerClass_PokeManiac)>
 Money|3500
-IntroMessage|If you can get through here, you~are a master!
-OutroMessage|No! Unbelieveable!
-DefeatMessage|You just got lucky...
+IntroMessage|<system.token(30YearsCave_PokeFanHoward_IntroMessage)>
+OutroMessage|<system.token(30YearsCave_PokeFanHoward_OutroMessage)>
+DefeatMessage|<system.token(30YearsCave_PokeFanHoward_DefeatMessage)>
 TextureID|PokeManiac
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|9,9
