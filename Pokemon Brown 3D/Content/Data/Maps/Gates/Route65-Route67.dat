@@ -43,10 +43,10 @@ Paint:
 {"Entity"{ENT[{"Scale"{sngArr[0.5,0.5,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0.6,-0.59]}}{"TexturePath"{str[specialblocks]}}{"Textures"{recArr[[32,0,14,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[4]}}{"Action"{int[1]}}{"AdditionalValue"{str[seashore\speary]}}{"Rotation"{int[0]}}]}}
 
 Doors:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,11]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\route0.dat,13,0.1,115,0]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[2,0,11]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\route0.dat,13,0.1,115,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,11]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\65\Main.dat,13,0.1,115,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[2,0,11]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\65\Main.dat,13,0.1,115,0]}}{"Rotation"{int[0]}}]}}
 
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[17,0,11]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\route1.dat,16,0.1,113,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[17,0,11]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[112,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\67\Main.dat,16,0.1,113,0]}}{"Rotation"{int[0]}}]}}
 
 Signs:
 {"Entity"{ENT[{"Scale"{sngArr[0.2,0.5,1]}}{"EntityID"{str[Cube]}}{"Position"{sngArr[2.5,1.25,10.25]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[64,60,30,14][112,16,4,14]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,1,1,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
