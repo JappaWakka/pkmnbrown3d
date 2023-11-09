@@ -11,6 +11,6 @@ version=2
 :endif
 
 :if:<Register.Registered(marinebadge_obtain)>=False
-	@Text.Show(You don't have the Marine~Badge yet!*You have to have it to get~to Pokémon League!)
+	@Text.Show(You don't have the Marine~Badge yet!*You have to have it to get~to the Pokémon League!)
 :endif
 :end

@@ -1,7 +1,7 @@
 version=2
-:if:<player.position(z)>=5 <and> <Register.Registered(guard1)>=False
-	@NPC.Turn(0,3)
-	@Player.TurnTo(1)
+:if:<player.position(z)>=1 <and> <Register.Registered(guard1)>=False
+	@NPC.Turn(0,1)
+	@Player.TurnTo(3)
 	@Text.Show(You can pass here only if~you have the Marine Badge!)
 	
 	:if:<Register.Registered(marinebadge_obtain)>=True
@@ -14,8 +14,8 @@ version=2
 	:endif
 	
 	:if:<Register.Registered(marinebadge_obtain)>=False
-		@Text.Show(You don't have the Marine~Badge yet!*You have to have it to get~to Pokémon League!)
-		@player.turnto(0)
+		@Text.Show(You don't have the Marine~Badge yet!*You have to have it to get~to the Pokémon League!)
+		@player.turnto(2)
 		@player.move(1)
 	:endif
 :endif

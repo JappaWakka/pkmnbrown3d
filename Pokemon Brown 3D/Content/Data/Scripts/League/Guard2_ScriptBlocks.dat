@@ -1,13 +1,8 @@
 version=2
 
-:if:<player.position(z)>=136 <and> <Register.Registered(guard2)>=False
-	:if:<player.position(x)>><npc.position(x)>
-		@NPC.Turn(0,3)
-		@Player.TurnTo(1)
-	:else
-		@NPC.Turn(0,1)
-		@Player.TurnTo(3)
-	:endif
+:if:<player.position(z)>=138 <and> <Register.Registered(guard2)>=False
+	@NPC.Turn(0,3)
+	@Player.TurnTo(1)
 	@Text.Show(You can pass here only if~you have the Hail Badge!)
 	
 	:if:<Register.Registered(hailbadge_obtain)>=True
@@ -16,11 +11,10 @@ version=2
 			@Register.Register(guard2)
 		:endif
 		@Text.Show(Oh! That is the Hail Badge!~OK then! Please, go right~ahead!)
-		@Register.Register(guard2)
 	:endif
 	
 	:if:<Register.Registered(hailbadge_obtain)>=False
-		@Text.Show(You don't have the Hail~Badge yet!*You have to have it to get~to Pokémon League!)
+		@Text.Show(You don't have the Hail~Badge yet!*You have to have it to get~to the Pokémon League!)
 		@player.turnto(2)
 		@player.move(1)
 		
