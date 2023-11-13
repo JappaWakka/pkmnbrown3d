@@ -1,14 +1,18 @@
 version=2
 
-:if:<Register.Registered(sparkybadge_obtain)>=True <and> <Register.Registered(guard3)>=False
-    @Text.Show(You can pass here only if~you have the Sparky Badge!*Oh! That is the Sparky Badge!~OK then! Please, go right~ahead!)
-    @Register.Register(guard3)
+@Text.Show(You can pass here only if~you have the Sparky Badge!)
+
+:if:<Register.Registered(sparkybadge_obtain)>=True
+	:if:<Register.Registered(guard3)>=False
+		@Sound.Play(Success_Small)
+		@Register.Register(guard3)
+	:endif
+	@Text.Show(Oh! That is the Sparky Badge!~OK then! Please, go right~ahead!)
+	
 :endif
 
-:if:<Register.Registered(sparkybadge_obtain)>=False <and> <Register.Registered(guard3)>=False
-    @Text.Show(You can pass here only if~you have the Sparky Badge!*You don't have the Sparky~Badge yet!*You have to have it to get~to Pokémon League!)
-    @player.turnto(2)
-    @player.move(1)
+:if:<Register.Registered(sparkybadge_obtain)>=False
+	@Text.Show(You don't have the Sparky~Badge yet!*You have to have it to get~to the Pokémon League!)
 :endif
 
 :end
