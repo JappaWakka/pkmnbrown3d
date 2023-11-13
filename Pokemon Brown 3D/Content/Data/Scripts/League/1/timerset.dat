@@ -1,9 +1,0 @@
-version=2
-@register.unregister(timer)
-@register.unregister(cp1)
-@register.unregister(cp2)
-@register.unregister(cp3)
-
-@Text.Show(You have 40 seconds.*. . .*GO!!)
-@Register.Registertime(timer,40,seconds)
-:end

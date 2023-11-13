@@ -9,6 +9,7 @@ Cities:
 {"PlaceType"[City]}{"Name"[Botan City]}{"MapFiles"[Botan\Main.dat,Botan\PokeMart.dat,Botan\MrRumikoHouse.dat,Botan\TradeHouse.dat,Caves\Botan\Main.dat,Botan\HauntedForest\Area0.dat,Botan\HauntedForest\Area1.dat,Botan\HauntedForest\Area2.dat,Botan\HauntedForest\Area2_MissingNo.dat,Botan\HauntedForest\Area3.dat,Botan\HauntedForest\Area3_MissingNo.dat,Botan\HauntedForest\Area4.dat,Botan\HauntedForest\Area4_MissingNo.dat,Botan\HauntedForest\Area5.dat,Botan\HauntedForest\Area5_MissingNo.dat,Botan\HauntedForest\Area6.dat]}{"Position"[15,7]}{"Size"[Small]}{"FlyTo"[Botan\Main.dat,20,12,21]}
 {"PlaceType"[City]}{"Name"[Castro Valley]}{"MapFiles"[Castro\Main.dat,Castro\PokeMart.dat,Castro\PokeCenter.dat,Castro\OldRodHouse.dat,Castro\TradeHouse.dat,Castro\Mansion\B1F.dat,Castro\Mansion\1F.dat,Castro\Mansion\2F.dat,Castro\Mansion\3F.dat]}{"Position"[15,10]}{"Size"[Small]}{"FlyTo"[Castro\Main.dat,21,12,16]}
 {"PlaceType"[City]}{"Name"[Eagulou City]}{"MapFiles"[Eagulou\Main.dat,Eagulou\PokeCenter.dat,Eagulou\PokeMart.dat,Eagulou\Park\Area1.dat,Eagulou\Park\Area2.dat,Eagulou\Park\Area3.dat,Eagulou\Park\Gate.dat,Eagulou\Park\House1.dat,Eagulou\Park\House2.dat,Eagulou\Park\House3.dat,Eagulou\Park\SecretCave_B1F.dat,Eagulou\Park\SecretCave_B2F.dat,Caves\Eagulou\Main.dat,Gyms\Eagulou.dat]}{"Position"[8,12]}{"Size"[Small]}{"FlyTo"[Eagulou\Main.dat,15,12,12]}
+{"PlaceType"[City]}{"Name"[Rijon League]}{"MapFiles"[League\Exterior.dat,League\EntranceHall.dat,League\Elite4\Red.dat,League\Elite4\Jared.dat,League\Elite4\Agatha.dat,League\Elite4\Drake.dat,League\Elite4\Champion.dat,League\HallOfFame.dat]}{"Position"[12,1]}{"Size"[Small]}{"FlyTo"[League\Exterior.dat,14,12,12]}
 {"PlaceType"[City]}{"Name"[Azalea Town]}{"MapFiles"[Azalea\Main.dat]}{"Position"[17,15]}{"Size"[Horizontal]}{"FlyTo"[Azalea\Main.dat,0,12,0]}
 
 Routes:
@@ -114,7 +115,6 @@ Places:
 {"PlaceType"[Place]}{"Name"[Silk Tunnel]}{"Mapfiles"[Caves\SilkTunnel\1F.dat,Caves\SilkTunnel\B1F.dat,Caves\SilkTunnel\B2F.dat,Caves\SilkTunnel\B3F.dat]}{"Position"[8,7]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Castro Forest]}{"Mapfiles"[Castro\Forest.dat,Gates\CastroValley-CastroForest.dat,Gates\Route57-CastroForest.dat,Gates\Route62-CastroForest.dat]}{"Position"[14,10]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Seneca Caverns]}{"Mapfiles"[]}{"Position"[15,5]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Rijon League]}{"MapFiles"[]}{"Position"[12,1]}{"Size"[Small]}{"FlyTo"[League\route0.dat,9,12,-10]}
 {"PlaceType"[Place]}{"Name"[Blood Moon Island]}{"MapFiles"[BloodMoonIsland\Main.dat]}{"Position"[14,19]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Ilex Forest]}{"MapFiles"[IlexForest.dat]}{"Position"[16,15]}{"Size"[Small]}
 {"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[IlexForest.dat]}{"Position"[15,15]}{"Direction"[TUp]}{"RouteType"[Land]}
