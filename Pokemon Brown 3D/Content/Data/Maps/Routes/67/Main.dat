@@ -36,6 +36,13 @@ Water Edges:
 {"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[31,-0.25,101]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[0,16,16,16][144,16,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 {"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[31,-0.25,109]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[0,16,16,16][144,16,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 
+	Waterside Counter-Clockwise Corners (Direction = Where the water is)
+		NorthWest
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[30,-0.25,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
+			
+		SouthEast
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[5,-0.25,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+		
 Trees:
 {"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[8,10]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[20,0.3,96]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[112,64,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[20,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[28,0.3,96]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[112,64,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
