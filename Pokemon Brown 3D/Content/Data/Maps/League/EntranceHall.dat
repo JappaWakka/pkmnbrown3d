@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Rijon League]}}{"MusicLoop"{str[League]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[League\Refresh]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[League\EntranceHall_Mapscript]}}]}}
 
 Floors:
 	Regular Pink
@@ -44,7 +44,10 @@ Walls (Direction = Facing):
 		{"EntityField"{ENT[{"Size"{intArr[1,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,120,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[1,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,120,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[1,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,120,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,2,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,120,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,120,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,0,8]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,0,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,120,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,1,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,120,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 		
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,0,5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[176,208,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,1,5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[176,192,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
@@ -85,6 +88,9 @@ Walls (Direction = Facing):
 		
 Poster:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7.5,0.5,3.01]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
+TownMap:
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,0,8]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Working Healing Machine:
 	Base
@@ -154,8 +160,8 @@ Mart Counter:
 		{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,128,16,8]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\League]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Freezer Cabinets:
-	{"EntityField"{ENT[{"Scale"{sngArr[1,1.5,0.5]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0.25,-0.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,144,16,24][344,296,8,16][144,72,16,16][160,136,16,8]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1,2,2,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Scale"{sngArr[1,1.5,0.5]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,0.25,-0.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,144,16,24][344,296,8,16][144,72,16,16][160,136,16,8]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,2,2,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,1.5,0.5]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0.25,-0.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,144,16,24][344,224,8,16][144,72,16,16][160,136,16,8]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1,2,2,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,1.5,0.5]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,0.25,-0.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,144,16,24][344,224,8,16][144,72,16,16][160,136,16,8]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,2,2,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 PokéBall Cabinets:
 	{"Entity"{ENT[{"Scale"{sngArr[1,1.5,0.5]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,0.25,-0.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[176,144,16,24][120,160,8,16][144,136,16,16][128,168,16,8]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,2,2,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -204,7 +210,7 @@ Stairs:
 	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_League_Up_South]}}{"Offset"{sngArr[14,0,3]}}]}}
 Warps:
 	Elite 4 Red
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,0,-1]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\Elite4\Red.dat,7,0.1,0,2]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,1,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\EntranceHall_Stairs_Up]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		
 	League Exterior
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[7,0,11]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,184,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\Exterior.dat,14,0.1,11,0]}}{"Rotation"{int[2]}}]}}
@@ -216,7 +222,7 @@ NPCs:
 	Chansey
 		{"NPC"{NPC[{"Position"{sngArr[8,0.155,4.25]}}{"TextureID"{str[[POKEMON|N]113]}}{"ID"{int[1]}}{"Name"{str[Chansey]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Cable Club Lady
-		{"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[Receptionist]}}{"ID"{int[2]}}{"Name"{str[Cable Club Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[Welcome to the Cable Club.*This area is reserved for 2~friends who are linked by cable.]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[Receptionist]}}{"ID"{int[2]}}{"Name"{str[Cable Club Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[Welcome to the Cable Club.*This area is reserved for~2 friends who are linked~by cable.]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Mart Clerk
 		{"NPC"{NPC[{"Position"{sngArr[0,0.155,4]}}{"TextureID"{str[Clerk]}}{"ID"{int[3]}}{"Name"{str[Mart Clerk]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Entrance Lady

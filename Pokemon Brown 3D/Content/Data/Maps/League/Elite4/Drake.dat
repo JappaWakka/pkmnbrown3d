@@ -87,7 +87,7 @@ Statues:
 {"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,0,13]}}{"TexturePath"{str[Gym]}}{"Textures"{recArr[[32,16,16,16][48,16,16,16][48,0,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 NPC:
-{"NPC"{NPC[{"Position"{sngArr[6,0,0]}}{"TextureID"{str[Drake]}}{"ID"{int[0]}}{"Name"{str[NurseJoy]}}{"Action"{int[1]}}{"AdditionalValue"{str[league\e4]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[6,0,0]}}{"TextureID"{str[Drake]}}{"ID"{int[0]}}{"Name"{str[Elite 4 Drake]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\Elite4_Trainer]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Rocks:
 {"EntityField"{ENT[{"Size"{intArr[1,12]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,-0.15,2]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[48,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
