@@ -222,11 +222,11 @@ NPCs:
 	Chansey
 		{"NPC"{NPC[{"Position"{sngArr[8,0.155,4.25]}}{"TextureID"{str[[POKEMON|N]113]}}{"ID"{int[1]}}{"Name"{str[Chansey]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Cable Club Lady
-		{"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[Receptionist]}}{"ID"{int[2]}}{"Name"{str[Cable Club Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[Welcome to the Cable Club.*This area is reserved for~2 friends who are linked~by cable.]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[Receptionist]}}{"ID"{int[2]}}{"Name"{str[Cable Club Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(League_EntranceHall_CableClubLady)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Mart Clerk
 		{"NPC"{NPC[{"Position"{sngArr[0,0.155,4]}}{"TextureID"{str[Clerk]}}{"ID"{int[3]}}{"Name"{str[Mart Clerk]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Entrance Lady
-		{"NPC"{NPC[{"Position"{sngArr[6,0,0]}}{"TextureID"{str[Beauty]}}{"ID"{int[5]}}{"Name"{str[Entrance Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[Do you think you're ready?*Good, go in!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[[2,2,3,1]]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[6,0,0]}}{"TextureID"{str[Beauty]}}{"ID"{int[5]}}{"Name"{str[Entrance Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(League_EntranceHall_EntranceLady)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[[2,2,3,1]]}}]}}
 	Gym Guy
 		{"NPC"{NPC[{"Position"{sngArr[4,0,9]}}{"TextureID"{str[GymGuy]}}{"ID"{int[4]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\GymGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
