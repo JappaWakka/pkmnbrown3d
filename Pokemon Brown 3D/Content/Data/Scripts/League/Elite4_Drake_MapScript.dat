@@ -1,0 +1,41 @@
+version=2
+
+:if:<Register.Registered(drakeenter)>=True
+	@entity.warp(2,~,~+3,~)
+	@entity.warp(3,~,~-3,~)
+	@level.update
+	:end
+:else
+	@player.StopMovement
+	:if:<player.position(z)>=16
+		@Player.SetSpeed(1.5)
+		@player.move(9)
+		@player.turnto(2)
+		@Player.SetSpeed(1.5)
+		@player.move(8)
+		@player.turnto(1)
+		@Player.SetSpeed(1.5)
+		@player.move(13)
+		@player.turnto(0)
+		@Player.SetSpeed(1.5)
+		@player.move(12)
+	:else
+		@Player.SetSpeed(1.5)
+		@player.move(10)
+		@player.turnto(2)
+		@Player.SetSpeed(1.5)
+		@player.move(8)
+		@player.turnto(1)
+		@Player.SetSpeed(1.5)
+		@player.move(11)
+		@player.turnto(0)
+		@Player.SetSpeed(1.5)
+		@player.move(11)
+	:endif
+		
+	@Level.Wait(10)
+	@sound.play(SwitchDoor)
+	@entity.warp(2,~,0,~)
+	@entity.warp(3,~,-3,~)
+	@Register.Register(drakeenter)
+:end

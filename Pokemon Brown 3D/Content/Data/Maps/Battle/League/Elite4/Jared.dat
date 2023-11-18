@@ -13,7 +13,7 @@ Floors:
 	
 	Doormats
 		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[7,0,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[112,152,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[20,0,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[112,152,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[21,0,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[112,152,16,16]}}]}}
 	
 Ceiling:
 	{"EntityField"{ENT[{"Size"{intArr[14,14]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,3,6]}}{"TexturePath"{str[League]}}{"Textures"{recArr[[96,152,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
