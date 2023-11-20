@@ -1,5 +1,10 @@
 version=2
 
+:if:<Register.Registered(defeat<level.filename>)>=true
+	@entity.warp(0,~,~-5,~)
+	@entity.warp(1,~,~+5,~)
+:endif
+
 :if:<Register.Registered(drakeenter)>=True
 	@entity.warp(2,~,~+3,~)
 	@entity.warp(3,~,~-3,~)
@@ -7,21 +12,21 @@ version=2
 	:end
 :else
 	@player.StopMovement
-	:if:<player.position(z)>=16
+	:if:<player.position(z)>=15
 		@Player.SetSpeed(1.5)
-		@player.move(9)
+		@player.move(7)
 		@player.turnto(2)
 		@Player.SetSpeed(1.5)
-		@player.move(8)
+		@player.move(7)
 		@player.turnto(1)
 		@Player.SetSpeed(1.5)
 		@player.move(13)
 		@player.turnto(0)
 		@Player.SetSpeed(1.5)
-		@player.move(12)
+		@player.move(10)
 	:else
 		@Player.SetSpeed(1.5)
-		@player.move(10)
+		@player.move(8)
 		@player.turnto(2)
 		@Player.SetSpeed(1.5)
 		@player.move(8)
@@ -30,12 +35,15 @@ version=2
 		@player.move(11)
 		@player.turnto(0)
 		@Player.SetSpeed(1.5)
-		@player.move(11)
+		@player.move(10)
 	:endif
 		
 	@Level.Wait(10)
 	@sound.play(SwitchDoor)
 	@entity.warp(2,~,0,~)
 	@entity.warp(3,~,-3,~)
+	@level.update
 	@Register.Register(drakeenter)
+:endif
+
 :end
