@@ -2,8 +2,11 @@
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[League\Elite4_Redd_Jared_Agatha_MapScript]}}]}}
 
 Floors:
-	Regular
+	Rock
 		{"Floor"{ENT[{"Size"{intArr[14,14]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[League]}}{"Texture"{rec[80,112,16,16]}}]}}
+	
+	Dirt
+		{"Floor"{ENT[{"Size"{intArr[4,14]}}{"Position"{intArr[5,0,0]}}{"TexturePath"{str[League]}}{"Texture"{rec[112,248,16,16]}}]}}
 	
 	Darkness
 		{"Floor"{ENT[{"Size"{intArr[14,3]}}{"Position"{intArr[0,0,-3]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}]}}
