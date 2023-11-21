@@ -13,6 +13,8 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[14,2]}}{"Position"{intArr[4,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[10,2]}}{"Position"{intArr[4,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[8,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[4,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[0,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
 
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,3]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}{"Visible"{bool[0]}}]}}
@@ -192,5 +194,5 @@ Water:
 			
 	Waterside Counter-Clockwise Corners (Direction = Where the water is)
 		NorthWest
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,96,16,16][112,32,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,96,16,16,1]}}{"Rotation"{int[1]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,96,16,16][112,32,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,96,16,16,1]}}{"Rotation"{int[1]}}]}}
 			
