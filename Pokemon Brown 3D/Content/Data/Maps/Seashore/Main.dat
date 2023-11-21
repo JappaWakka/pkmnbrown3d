@@ -70,6 +70,10 @@ Floors:
 		
 	Invisible Warp Floors
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[18,0,37]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Visible"{bool[0]}}]}}
+		
+	Removal
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[30,0,24]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[32,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
 			
 Docks:
 	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,-0.625,18]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
