@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Rijon League]}}{"MusicLoop"{str[Gym]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[League\Elite4_Red_Jared_Agatha_MapScript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[League\Elite4_Redd_Jared_Agatha_MapScript]}}]}}
 
 Floors:
 	Regular
@@ -147,4 +147,4 @@ Torches:
 	{"Structure"{STR[{"Map"{str[Structures\League\FlameLight]}}{"Offset"{sngArr[13,0,13]}}]}}
 
 NPC:
-	{"NPC"{NPC[{"Position"{sngArr[7,0,4]}}{"TextureID"{str[Red]}}{"ID"{int[0]}}{"Name"{str[Elite 4 Red]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\Elite4_Trainer]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[7,0,4]}}{"TextureID"{str[Redd]}}{"ID"{int[0]}}{"Name"{str[Elite 4 Redd]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\Elite4_Trainer]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

@@ -19,19 +19,27 @@
 
 @Text.Show(<system.token(GameIntro_2)>)
 
+@screen.skinselection()
+
 @screen.fadeout(20)
 @camera.update
 
 @npc.remove(1)
-@player.setskin(Player)
-@npc.spawn(9,0,5,1,,Player,0,2,Player,2,Still)
+@player.setskin(<screen.selectedskin>)
+@npc.spawn(9,0,5,1,,<screen.selectedskin>,0,2,<screen.selectedskin>,2,Still)
 @level.update
 
 @screen.fadein(20)
 @camera.update
 
 @Text.Show(<system.token(GameIntro_3)>)
-@screen.input(Brown,name,Brown,10)
+:if:<screen.selectedskin>=Player_Brown
+	@storage.set(str,PresetName,Brown)
+:else
+	@storage.set(str,PresetName,Beige)
+:endif
+
+@screen.input(<storage.get(str,PresetName)>,name,<storage.get(str,PresetName)>,10)
 @player.setname(<system.lastinput>)
 
 @Text.Show(<system.token(GameIntro_4)>)

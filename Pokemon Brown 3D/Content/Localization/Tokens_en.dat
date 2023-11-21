@@ -296,7 +296,7 @@ new_game_intro_same_name_1,Hey we got the~same names.*My name is also~
 new_game_intro_same_name_2,!
 new_game_intro_name_1,Right! So your name is~
 new_game_intro_name_2,!
-new_game_select_skin,Select your appearance
+new_game_select_skin,What is your style?
 ---
 MapScreen:
 map_screen_cities,Cities
@@ -2953,12 +2953,12 @@ Story Localization:
 [Game Intro]
 GameIntro_1,H-hello!? You must be new~here.*Welcome to this land called~Rijon.*My name is Timothy but you can~call me Tim.*I am the island's Pokémon~Tutor.
 GameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.*I've done a fair extent of~research on these and it seems~that they have special~capabilities for fighting~as well as being tame~house-hold pets.
-GameIntro_3,Oh, I forgot to ask!~What's your name?
-GameIntro_4,Ah, <player.name>!*I've never heard that name~before.
-GameIntro_5,<player.name>!~Now that you have met some~people, all you need now is to~journey the town.*I think your mother has~settled in and is done~unpacking.*Your adventure starts here so~come see me some time tomorrow~after you awake.*See you later!
+GameIntro_3,Oh um, what's your name,~youngling?
+GameIntro_4,Oh, <player.name>!*I've never heard that name~before.
+GameIntro_5,<player.name>!~My lab is in Gravel Town, just~south of your town!*I have something to show you~there.*Has your mother finished~packing everything?*See you soon!
 
 [Generic Tokens]
-Generic_TV_Movie,There's a movie on TV.~Four kids are walking on~railroad tracks.*I'd better go too.
+Generic_TV_Movie,This movie is titled Naljo's~Guardians.*I heard it's based off Naljo~mythology.
 Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon books!
 Generic_TownMap,It's the Town Map.
 Generic_Bed_Question,It's a bed.~Would you like to sleep?
@@ -3006,7 +3006,7 @@ Generic_PC_Rating_Level18,I can't believe it!*<Player.Name>, your Pokédex is~fu
 Generic_PC_DexEvaluation_End,Closed link to Prof. Tim's PC.
 
 [Seashore City]
-Seashore_PlayerHouse1F_Mom_LookForTim,Good luck on following your~dad's footsteps, sweetie!!!*Go south to Gravel Town~and look for the Professor.
+Seashore_PlayerHouse1F_Mom_LookForTim,Good luck on following your~dad's footsteps, sweetie!!!*Go south and look for the~Professor.
 Seashore_PlayerHouse1F_Mom_TakeARest,<player.name>! You should take~a quick rest.
 Seashore_PlayerHouse1F_Mom_AfterRest,Oh good! You and your~Pokémon are looking great!~Take care now!
 
@@ -3055,7 +3055,7 @@ Seashore_Main_YoungBoy_Red_Question,Hey! Are you going to be a~Pokémon trainer,
 Seashore_Main_YoungBoy_Red_AnswerYes,Cool!*I'm going to be one soon as well!*It's very hard, but rewarding.
 Seashore_Main_YoungBoy_Red_AnswerNo,Why not?
 
-Seashore_Main_Sign_City,Seashore City*Where waves of new journeys~begin their long travels
+Seashore_Main_Sign_City,Seashore City*Where waves of new journeys~begin their long travels.
 Seashore_Main_Sign_Gym_BeforeDefeat,Seashore City Pokémon Gym~Leader: Sheral*Winning Trainers:~Mura
 Seashore_Main_Sign_Gym_AfterDefeat,Seashore City Pokémon Gym~Leader: Sheral*Winning Trainers:~Mura~<player.name>
 
@@ -3090,7 +3090,7 @@ Seashore_Gym_LeaderSheral_TalkAgain,Sheral: Everyone has psychic~power!*People j
 Route53_PotionGuy_FreeSamples,Hi! The Gravel Town Mart is~giving away free samples~today, so go ahead and~take a free potion!
 Route53_PotionGuy_OutOfSamples,Sorry, but I'm all out of free~samples.
 Route53_OtherGuy_StraightForward,This road is pretty straight~forward.~You can never get~lost on this road!
-Route53_Sign,Route 53~Gravel Town - Seashore City
+Route53_Sign,Gravel Canyon~Route 53*Seashore City - Gravel Town
 
 [Gravel Town]
 Gravel_Main_Tim_Late,Tim: There you are!~You're late!
@@ -3171,7 +3171,7 @@ Merson_Main_QuestionKid_AnswerYes,Really? That's so cool!*I'm not...
 Merson_Main_QuestionKid_AnswerNo,Hahaha, I guess not.*Can you give me your Pokémon~then?*Please?
 Merson_Main_Sign_Gym_BeforeDefeat,Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura
 Merson_Main_Sign_Gym_AfterDefeat,Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<player.name>
-Merson_Main_Sign_City,Merson City*The noble little city
+Merson_Main_Sign_City,Merson City*The noble little city.
 Merson_Main_Sign_Challenge,Think you're tough?*Go face Karpman!
 
 Merson_PokeMart_PotionsGuy,You can never have enough~Potions! Buy lots to keep your~Pokémon alive and well!
@@ -3894,7 +3894,7 @@ Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<player.name>: Is every
 Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Make sure to visit our~main building, located in~Saffron City, Kanto when you~have the time.
 
 [Botan City]
-Botan_Main_Sign_City,Botan City*The city of nostalgia
+Botan_Main_Sign_City,Botan City*The city of nostalgia.
 Botan_Main_Sign_Cave,TO BE DEMOLISHED!*Coming soon: Magnet Train~Expansion.*Express way to Kanto, Johto,~and Naljo!
 Botan_Main_Scientist,You beat Team Rocket all~alone? That's amazing!
 Botan_Main_Gentleman,Thank goodness the warehouse~is safe.
@@ -4034,7 +4034,7 @@ Castro_Main_Gambler_Red,S.S. Anne won't leave for other~regions for 3 months, so
 Castro_Main_Sailor_Harbor,Welcome to S.S. Anne!
 Castro_Main_Sailor_Other,S.S. Anne is a famous luxury~cruise ship.
 Castro_Main_Marill_Cry,Marill: Marill Marill!*It looks lost...
-Castro_Main_Sign_City,Castro Valley*The courtly little port town
+Castro_Main_Sign_City,Castro Valley*The courtly little port town.
 Castro_Main_Sign_Forest,Castro Forest Entrance
 Castro_Main_Sign_Gym_BeforeDefeat,Castro Valley Pokémon Gym~Leader: Koji*Winning Trainers:~Mura
 Castro_Main_Sign_Gym_AfterDefeat,Castro Valley Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<player.name>

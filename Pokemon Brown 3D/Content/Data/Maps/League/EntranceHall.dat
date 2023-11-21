@@ -209,7 +209,7 @@ Stairs:
 	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_League_Up_South]}}{"Offset"{sngArr[12,0,3]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_League_Up_South]}}{"Offset"{sngArr[14,0,3]}}]}}
 Warps:
-	Elite 4 Red
+	Elite 4 Redd
 		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,1,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\EntranceHall_Stairs_Up]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		
 	League Exterior
