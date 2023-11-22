@@ -2,9 +2,9 @@
 Name|Nicolai
 TrainerClass|<system.token(TrainerClass_Gambler)>
 Money|560
-IntroMessage|Ow, a Pokémon just~bit my foot!
-OutroMessage|Losing hurts more...
-DefeatMessage|I need to catch better~Pokémon to fight with!~Just can't stop!
+IntroMessage|<system.token(Route54_GamblerNicolai_IntroMessage)>
+OutroMessage|<system.token(Route54_GamblerNicolai_OutroMessage)>
+DefeatMessage|<system.token(Route54_GamblerNicolai_DefeatMessage)>
 TextureID|Gambler_Purple
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male

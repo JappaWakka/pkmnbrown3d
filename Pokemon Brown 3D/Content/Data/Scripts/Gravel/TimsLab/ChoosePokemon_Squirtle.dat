@@ -1,7 +1,7 @@
 version=2
 :if:<Register.Registered(pokemongot)>=false
 	@screen.showpokemon(7,0,1)
-	@Text.Show(Tim: Do you want~Squirtle, the water~Pokémon?)
+	@Text.Show(<system.token(Gravel_TimsLab_Choose_Squirtle)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
 			@NPC.remove(2)
@@ -12,9 +12,9 @@ version=2
 			@register.unregister(mura1)
 			@Register.Register(tim2)
 			@Register.Register(mura2)
-			@Text.Show(Tim: I think that's a~great Pokémon too!)
-			@pokemon.add(7,5,As a gift from Prof. Tim,5,at Gravel Town)
-			@Text.Show(<player.name> received~a Squirtle!)
+			@Text.Show(<system.token(Gravel_Timslab_Choose_Confirm)>)
+			@pokemon.add(7,5,<system.token(Gravel_TimsLab_StarterPokemon_CatchMethod)>,5,<system.token(Gravel_TimsLab_StarterPokemon_CatchLocation)>)
+			@Text.Show(<system.token(Gravel_TimsLab_Receive_Squirtle)>)
 			@pokemon.rename(0)
 			:if:<player.position>=7,0,3
 				@NPC.turn(4,2)
@@ -23,15 +23,14 @@ version=2
 				@NPC.move(4,4)
 				@NPC.turn(4,0)
 				@NPC.move(4,1)
-				@Text.Show(Mura: I'll take this one, then!)
+				@Text.Show(<system.token(Gravel_TimsLab_Mura_ChoosePokemon)>)
 				@NPC.remove(3)
-				@Text.Show(Mura received a Bulbasaur!)
+				@Text.Show(<system.token(Gravel_TimsLab_Mura_Receive_Bulbasaur)>)
 			:endif
 		:when:<system.token(global_no)>
-			@Text.Show(Tim: Think it over~carefully.*Your partner is~important.)
-		
+			:end		
 		:endwhen
 :else
-	@Text.Show(It contains a~Pokémon caught by~Prof. Tim.)
+	@Text.Show(<system.token(Gravel_TimsLab_PokeballAfterChoose)>)
 :endif
 :end

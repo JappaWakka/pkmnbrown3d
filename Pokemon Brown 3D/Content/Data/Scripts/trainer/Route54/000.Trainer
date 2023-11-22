@@ -2,10 +2,10 @@
 Name|Craig
 TrainerClass|<system.token(TrainerClass_SuperNerd)>
 Money|200
-IntroMessage|You just made it out of~the cave?
-OutroMessage|It's not logical!
-DefeatMessage|This house looks nice,~I might buy it later.
-TextureID|PokeManiac
+IntroMessage|<system.token(Route54_SuperNerdCraig_IntroMessage)>
+OutroMessage|<system.token(Route54_SuperNerdCraig_OutroMessage)>
+DefeatMessage|<system.token(Route54_SuperNerdCraig_DefeatMessage)>
+TextureID|SuperNerd
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro

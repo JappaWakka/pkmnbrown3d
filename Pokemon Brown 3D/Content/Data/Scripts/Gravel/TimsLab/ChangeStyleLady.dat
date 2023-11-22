@@ -1,0 +1,18 @@
+version=2
+@Text.Show(<system.token(Gravel_TimsLab_ChangeStyleLady_Question)>)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		@Text.Show(<system.token(Gravel_TimsLab_ChangeStyleLady_Yes1)>)
+		@Screen.FadeOut(15)
+		:if:<Player.Skin>=Player_Brown
+			@Player.SetSkin(Player_Beige)
+		:else
+			@Player.SetSkin(Player_Brown)
+		:endif
+		@Screen.FadeIn(15)
+		@Text.Show(<system.token(Gravel_TimsLab_ChangeStyleLady_Yes2)>)
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Gravel_TimsLab_ChangeStyleLady_No)>)
+		:end
+	:endwhen
+:endif

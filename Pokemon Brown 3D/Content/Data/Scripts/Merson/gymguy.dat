@@ -1,9 +1,15 @@
 version=2
 
 :if:<Register.Registered(marinebadge_obtain)>=False
-	:then
-		@Text.Show(<system.token(Merson_Gym_GymGuy_BeforeBadge)>)
-	:else
-		@Text.Show(<system.token(Merson_Gym_GymGuy_AfterBadge)>!)
+	@Text.Show(<system.token(Merson_Gym_GymGuy_BeforeBadge_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		:when:<system.token(global_yes)>
+			@Text.Show(<system.token(Merson_Gym_GymGuy_BeforeBadge_Yes)>)
+		:when:<system.token(global_no)>
+			@Text.Show(<system.token(Merson_Gym_GymGuy_BeforeBadge_No)>)
+		:endwhen
+	:end
+:else
+	@Text.Show(<system.token(Merson_Gym_GymGuy_AfterBadge)>)
 :endif
 :end

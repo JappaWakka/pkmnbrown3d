@@ -26,6 +26,7 @@
 
 @npc.remove(1)
 @player.setskin(<screen.selectedskin>)
+
 @npc.spawn(9,0,5,1,,<screen.selectedskin>,0,2,<screen.selectedskin>,2,Still)
 @level.update
 
@@ -33,7 +34,7 @@
 @camera.update
 
 @Text.Show(<system.token(GameIntro_3)>)
-:if:<screen.selectedskin>=Player_Brown
+:if:<player.skin>=Player_Brown
 	@storage.set(str,PresetName,Brown)
 :else
 	@storage.set(str,PresetName,Beige)
