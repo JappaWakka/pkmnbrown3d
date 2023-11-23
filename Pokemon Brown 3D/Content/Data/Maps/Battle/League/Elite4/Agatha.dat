@@ -2,38 +2,31 @@
 
 Floors:
 	Regular
-		{"Floor"{ENT[{"Size"{intArr[14,14]}}{"Position"{intArr[7,0,6]}}{"TexturePath"{str[League]}}{"Texture"{rec[96,184,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[14,14]}}{"Position"{intArr[7,0,6]}}{"TexturePath"{str[League]}}{"Texture"{rec[96,184,16,16]}}{"Rotation"{int[3]}}]}}
 	
 	Dirt
-		{"Floor"{ENT[{"Size"{intArr[14,4]}}{"Position"{intArr[7,0,11]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[17,0,15]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,7]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[10,0,9]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,10]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,17]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[14,4]}}{"Position"{intArr[7,0,11]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[17,0,15]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,7]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[10,0,9]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,10]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,17]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}{"Rotation"{int[3]}}]}}
 		
-	Invisible
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[18,0,9]}}{"TexturePath"{str[League]}}{"Texture"{rec[48,200,16,16]}}{"Visible"{bool[0]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[17,0,15]}}{"TexturePath"{str[League]}}{"Texture"{rec[48,200,16,16]}}{"Visible"{bool[0]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[10,0,10]}}{"TexturePath"{str[League]}}{"Texture"{rec[48,200,16,16]}}{"Visible"{bool[0]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,8]}}{"TexturePath"{str[League]}}{"Texture"{rec[48,200,16,16]}}{"Visible"{bool[0]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,15]}}{"TexturePath"{str[League]}}{"Texture"{rec[48,200,16,16]}}{"Visible"{bool[0]}}]}}
-		
+	Dirt With Bones
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[18,0,9]}}{"TexturePath"{str[League]}}{"Texture"{rec[48,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[17,0,15]}}{"TexturePath"{str[League]}}{"Texture"{rec[48,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[10,0,10]}}{"TexturePath"{str[League]}}{"Texture"{rec[48,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,8]}}{"TexturePath"{str[League]}}{"Texture"{rec[48,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,15]}}{"TexturePath"{str[League]}}{"Texture"{rec[48,200,16,16]}}{"Rotation"{int[3]}}]}}
+				
 	Doormats
-		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[7,0,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[112,168,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[21,0,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[112,168,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[7,0,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[0,152,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[21,0,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[0,152,16,16]}}{"Rotation"{int[3]}}]}}
 	
 	Darkness
-		{"Floor"{ENT[{"Size"{intArr[6,5]}}{"Position"{intArr[11,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[6,5]}}{"Position"{intArr[11,0,15]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}]}}
-	
-Dirt With Bones (Rotated):
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,0,9]}}{"TexturePath"{str[League]}}{"Textures"{recArr[[48,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[17,0,15]}}{"TexturePath"{str[League]}}{"Textures"{recArr[[48,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,0,10]}}{"TexturePath"{str[League]}}{"Textures"{recArr[[48,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,0,8]}}{"TexturePath"{str[League]}}{"Textures"{recArr[[48,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,0,15]}}{"TexturePath"{str[League]}}{"Textures"{recArr[[48,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-		
+		{"Floor"{ENT[{"Size"{intArr[6,5]}}{"Position"{intArr[11,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[6,5]}}{"Position"{intArr[11,0,15]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}{"Rotation"{int[3]}}]}}
+
 Ceiling:
 	{"EntityField"{ENT[{"Size"{intArr[14,14]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,3,6]}}{"TexturePath"{str[League]}}{"Textures"{recArr[[80,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
@@ -102,11 +95,11 @@ Walls (Direction = Facing):
 	
 Hills:
 	Grass
-		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[14,1,7]}}{"TexturePath"{str[League]}}{"Texture"{rec[96,184,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[12,1,16]}}{"TexturePath"{str[League]}}{"Texture"{rec[96,184,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[14,1,7]}}{"TexturePath"{str[League]}}{"Texture"{rec[96,184,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[12,1,16]}}{"TexturePath"{str[League]}}{"Texture"{rec[96,184,16,16]}}{"Rotation"{int[3]}}]}}
 	Dirt
-		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[12,1,7]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[14,1,16]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[12,1,7]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[14,1,16]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,200,16,16]}}{"Rotation"{int[3]}}]}}
 		
 	Slopes
 		{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,0,6]}}{"TexturePath"{str[League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

@@ -1,9 +1,9 @@
 version=2
 
 :if:<Player.Facing>=0
-	@Player.Warp(Seashore\PlayerHouse1F.dat,7,0.1,0,1)
+	@Player.Warp(Seashore\PlayerHouse_2F.dat,7,0.1,0,1)
 :else
-	@Player.Warp(Seashore\PlayerHouse1F.dat,7,0.1,0,2)
+	@Player.Warp(Seashore\PlayerHouse_2F.dat,7,0.1,0,2)
 :endif
 @Level.Update
 :if:<Level.Riding>=true
@@ -14,4 +14,5 @@ version=2
 	:endif
 :endif
 @Player.Move(1)
+
 :end

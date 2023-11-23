@@ -2,15 +2,15 @@
 
 Floors:
 	Blue Bricks		
-		{"Floor"{ENT[{"Size"{intArr[13,10]}}{"Position"{intArr[8,0,8]}}{"TexturePath"{str[League]}}{"Texture"{rec[112,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,10]}}{"Position"{intArr[5,-1,8]}}{"TexturePath"{str[League]}}{"Texture"{rec[112,200,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[13,10]}}{"Position"{intArr[8,0,8]}}{"TexturePath"{str[League]}}{"Texture"{rec[112,200,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,10]}}{"Position"{intArr[5,-1,8]}}{"TexturePath"{str[League]}}{"Texture"{rec[112,200,16,16]}}{"Rotation"{int[3]}}]}}
 	
 	Doormats
-		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[5,-1,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[80,232,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[5,-1,13]}}{"TexturePath"{str[League]}}{"Texture"{rec[96,232,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[5,-1,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,216,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[5,-1,13]}}{"TexturePath"{str[League]}}{"Texture"{rec[80,216,16,16]}}{"Rotation"{int[3]}}]}}
 		
-		{"Floor"{ENT[{"Size"{intArr[13,1]}}{"Position"{intArr[8,0,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[80,232,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[13,1]}}{"Position"{intArr[8,0,13]}}{"TexturePath"{str[League]}}{"Texture"{rec[96,232,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[13,1]}}{"Position"{intArr[8,0,12]}}{"TexturePath"{str[League]}}{"Texture"{rec[64,216,16,16]}}{"Rotation"{int[3]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[13,1]}}{"Position"{intArr[8,0,13]}}{"TexturePath"{str[League]}}{"Texture"{rec[80,216,16,16]}}{"Rotation"{int[3]}}]}}
 	
 Ceiling:
 	{"EntityField"{ENT[{"Size"{intArr[16,14]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,3,6]}}{"TexturePath"{str[League]}}{"Textures"{recArr[[96,152,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

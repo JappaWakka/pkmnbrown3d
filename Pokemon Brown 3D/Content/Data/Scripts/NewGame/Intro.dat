@@ -34,13 +34,8 @@
 @camera.update
 
 @Text.Show(<system.token(GameIntro_3)>)
-:if:<player.skin>=Player_Brown
-	@storage.set(str,PresetName,Brown)
-:else
-	@storage.set(str,PresetName,Beige)
-:endif
 
-@screen.input(<storage.get(str,PresetName)>,name,<storage.get(str,PresetName)>,10)
+@screen.input(<screen.selectedname>,name,<screen.selectedname>,10)
 @player.setname(<system.lastinput>)
 
 @Text.Show(<system.token(GameIntro_4)>)

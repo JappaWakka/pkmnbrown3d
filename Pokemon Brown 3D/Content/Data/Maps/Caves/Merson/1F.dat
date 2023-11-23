@@ -375,5 +375,6 @@ Items:
 	
 	Repel
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[23,-0.375,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[4,20]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+		
 	TM00 Flash
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[3,-0.375,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[5,gm83]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
