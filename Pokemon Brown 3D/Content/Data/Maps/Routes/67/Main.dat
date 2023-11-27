@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[Route 67]}}{"MusicLoop"{str[kvictoryroad]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[Route 67]}}{"MusicLoop"{str[RouteMusic1]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[1]}}{"RideType"{int[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}]}}
 
 Grass:
@@ -133,7 +133,7 @@ Pokecenter:
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[53,0,109]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\67\PokeCenter.dat,2,0.1,8,0]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[54,0,109.6]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[80,32,16,16][32,32,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[Pokemon-Center~We heal YOUR~Pokemon.]}}{"Rotation"{int[0]}}]}}
 
-Route-Gate:
+Route 65 Gate:
 {"EntityField"{ENT[{"Fill"{bool[0]}}{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[17,0,113]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Fill"{bool[0]}}{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,0,110]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Fill"{bool[0]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[19,0,111]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -141,7 +141,7 @@ Route-Gate:
 {"EntityField"{ENT[{"Size"{intArr[4,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,2,110]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[80,16,16,16][64,0,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Size"{intArr[4,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,3,110]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[80,16,16,16][64,0,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Scale"{sngArr[1,0.2,1]}}{"Size"{intArr[4,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,3.6,110]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[20,24,12,3][96,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[16,0,113]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\gate1.dat,17,0.1,11,0]}}{"Rotation"{int[2]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[16,0,113]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route65-Route67.dat,17,0.1,11,0]}}{"Rotation"{int[2]}}]}}
 
 {"EntityField"{ENT[{"Fill"{bool[0]}}{"Size"{intArr[1,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,0,110]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Fill"{bool[0]}}{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,0,110]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -151,7 +151,7 @@ Route-Gate:
 {"EntityField"{ENT[{"Size"{intArr[4,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,1,110]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[80,16,16,16][64,0,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Size"{intArr[4,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,3,110]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[80,16,16,16][64,0,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Scale"{sngArr[1,0.2,1]}}{"Size"{intArr[4,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,3.6,110]}}{"TexturePath"{str[Kanto0]}}{"Textures"{recArr[[20,24,12,3][96,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[13,0,115]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\gate1.dat,2,0.1,11,0]}}{"Rotation"{int[2]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[13,0,115]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route65-Route67.dat,2,0.1,11,0]}}{"Rotation"{int[2]}}]}}
 
 Rocks:
 {"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[96,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}{"Position"{sngArr[20,-0.25,108]}}]}}

@@ -613,7 +613,7 @@ Signs:
 
 OffsetMaps:
 	Route 67
-		"OffsetMap"{MAP[{"Offset"{sngArr[30,104]}}{"Map"{str[Routes\67\Main.dat]}}]}}
+		{"OffsetMap"{MAP[{"Offset"{sngArr[30,104]}}{"Map"{str[Routes\67\Main.dat]}}]}}
 	
 	Rijon League Exterior
 		{"OffsetMap"{MAP[{"Offset"{sngArr[0,-26]}}{"Map"{str[League\Exterior.dat]}}]}}
