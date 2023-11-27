@@ -3,9 +3,10 @@ version=2
 :if:<Register.Registered(defeat<level.filename>)>=true
 	@entity.warp(0,~,~-5,~)
 	@entity.warp(1,~,~+5,~)
+	@Level.Update
 :endif
 
-:if:<Register.Registered(drakeenter)>=True
+:if:<Register.Registered(EnterDrake)>=True
 	@entity.warp(2,~,~+3,~)
 	@entity.warp(3,~,~-3,~)
 	@level.update
@@ -37,7 +38,7 @@ version=2
 	@entity.warp(2,~,0,~)
 	@entity.warp(3,~,-3,~)
 	@level.update
-	@Register.Register(drakeenter)
+	@Register.Register(EnterDrake)
 :endif
 
 :end
