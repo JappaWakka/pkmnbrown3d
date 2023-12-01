@@ -11,7 +11,7 @@
 @camera.update
 
 @npc.remove(0)
-@npc.spawn(9,0,5,1,,[POKEMON|N]207,1,2,Gligar,1,Still)
+@npc.spawn(9,0,5,1,,[POKEMON|N]17,1,2,Gligar,1,Still)
 @level.update
 
 @screen.fadein(20)
@@ -35,8 +35,17 @@
 
 @Text.Show(<system.token(GameIntro_3)>)
 
-@screen.input(<screen.selectedname>,name,<screen.selectedname>,10)
-@player.setname(<system.lastinput>)
+@Options.Show(<system.token(GameIntro_NewNameOption)>,Brown,Beige,Adam)
+:when:<system.token(GameIntro_NewNameOption)>
+	@screen.input(<screen.selectedname>,name,,10)
+	@player.setname(<system.lastinput>)
+:when:Brown
+	@player.setname(Brown)
+:when:Beige
+	@player.setname(Beige)
+:when:Adam
+	@player.setname(Adam)
+:endwhen
 
 @Text.Show(<system.token(GameIntro_4)>)
 

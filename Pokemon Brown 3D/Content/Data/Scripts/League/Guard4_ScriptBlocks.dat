@@ -3,19 +3,19 @@ version=2
 :if:<player.position(z)>=121 <and> <Register.Registered(guard4)>=False
 	@NPC.Turn(0,1)
 	@Player.TurnTo(3)
-	@Text.Show(You can pass here only if~you have the Sprout Badge!)
+	@Text.Show(<system.token(Route65_Guard4_Start)>)
 	
 	:if:<Register.Registered(sproutbadge_obtain)>=True
 		:if:<Register.Registered(guard4)>=False
 			@Sound.Play(Success_Small)
 			@Register.Register(guard4)
 		:endif
-		@Text.Show(Oh! That is the Sprout Badge!~OK then! Please, go right~ahead!)
+		@Text.Show(<system.token(Route65_Guard4_HaveBadge)>)
 		
 	:endif
 	
 	:if:<Register.Registered(sproutbadge_obtain)>=False
-		@Text.Show(You don't have the Sprout~Badge yet!*You have to have it to get~to the Pokémon League!)
+		@Text.Show(<system.token(Route65_Guard4_NoBadge)>)
 		@player.turnto(2)
 		@player.move(1)
 	:endif

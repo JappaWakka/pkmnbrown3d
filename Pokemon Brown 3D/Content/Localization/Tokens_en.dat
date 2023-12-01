@@ -2970,6 +2970,8 @@ GameIntro_3,Oh um, what's your name,~youngling?
 GameIntro_4,Oh, <player.name>!*I've never heard that name~before.
 GameIntro_5,<player.name>!~My lab is in Gravel Town, just~south of your town!*I have something to show you~there.*Has your mother finished~packing everything?*See you soon!
 
+GameIntro_NewNameOption,-New-
+
 [Generic Tokens]
 Generic_TV_Movie,This movie is titled Naljo's~Guardians.*I heard it's based off Naljo~mythology.
 Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon books!
@@ -2996,6 +2998,11 @@ Generic_Sign_PokeCenter,Heal Your Pokémon!~Pokémon Center
 Generic_PC_NoInteract,You can't interact with the PC~at the moment.
 Generic_PC_BootUp,Booting up the PC...*Choose a host to connect to.
 Generic_PC_ChooseHost,Choose a host to connect to.
+Generic_PC_Host_StorageSystem,Bill's PC
+Generic_PC_Host_Mailbox,Inbox
+Generic_PC_Host_DexEvaluation,Prof. Tim's PC
+Generic_PC_Host_HallOfFame,Pokémon League
+Generic_PC_LogOff,Log Off
 Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating~System.*Do you want to get your~Pokédex rated?
 Generic_PC_DexEvaluation_BeforeRating,Pokédex completion is:*<pokedex.dexseen(0)> Pokémon seen~<pokedex.dexcaught(0)> Pokémon owned*Prof. Tim's Rating:
 Generic_PC_Rating_Level01,You still have lots to do.*Look for Pokémon in grassy~areas!
@@ -3344,7 +3351,7 @@ Hayward_Main_OrbGirl_HaveAnyOrbs,I collect orbs!~Have any?
 Hayward_Main_OrbGirl_Question_GiveOrbs,Give her one of your orbs?
 Hayward_Main_OrbGirl_DontNeedThatOrb,I don't need that Orb.
 Hayward_Main_OrbGirl_Red_Orb_1,Red Orb?*Nice!*Take this rare TM!
-Hayward_Main_OrbGirl_Red_Orb_2,TM 30 contains Shadow Ball!*It's a great Ghost move!
+Hayward_Main_OrbGirl_Red_Orb_2,TM 07 contains Horn Drill!*It can One-Hit-Knock-Out the~opponent!
 Hayward_Main_OrbGirl_Blue_Orb_1,Great, a Blue Orb!*Take this as a reward!
 Hayward_Main_OrbGirl_Blue_Orb_2,TM 37 contains Megahorn!*Great for any Pokémon~with horns!
 Hayward_Main_OrbGirl_Green_Orb_1,Excellent, a Green Orb!*You deserve this!
@@ -3526,8 +3533,7 @@ Route49_Gate_Binoculars_Right,Looked into the binoculars...*There's Hayward City
 [Owsauri City]
 Owsauri_Main_Sign_City,Owsauri City*The lively city of delights!
 Owsauri_Main_Sign_NameRater,Name Rater
-Owsauri_Main_Sign_Gym_BeforeDefeat,Merson City Pokémon Gym~Leader: Lily*Winning Trainers:~Mura
-Owsauri_Main_Sign_Gym_AfterDefeat,Merson City Pokémon Gym~Leader: Lily*Winning Trainers:~Mura~<player.name>
+Owsauri_Main_Sign_Gym,Owsauri City~Pokémon Gym~Leader: Lily*The Icy Queen of Rijon
 
 Owsauri_PokeCenter_BenchGirl,My daddy is still in the casino.*He told me to wait here...
 Owsauri_PokeCenter_BirdKeeper,You can't win with just one~strong Pokémon.*It's tough, but you have~to raise them evenly.
@@ -3817,8 +3823,7 @@ Route60_Jaeru_Gate_Binoculars_Right,Looked into the binoculars...*It looks like 
 Jaeru_Main_Sign_RijonLeagueEntrance,Path to Rijon League Entrance
 Jaeru_Main_Sign_City,Jaeru City~The hoppy town!
 Jaeru_Main_Sign_TownMap,Notice!~If you are lost, refer to~your Town Map!
-Jaeru_Main_Sign_Gym_BeforeDefeat,Jaeru City Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura
-Jaeru_Main_Sign_Gym_AfterDefeat,Jaeru City Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<player.name>
+Jaeru_Main_Sign_Gym,Jaeru City Pokémon Gym~Leader: Sparky*The Pokémon trainer that gives~a shock to all!
 Jaeru_Main_NewsGuy_Question,Did you hear the news?
 Jaeru_Main_NewsGuy_Answer_Yes,Oh, I wish I could of told!
 Jaeru_Main_NewsGuy_Answer_No,Team Rocket took over the~Warehouse nearby!
@@ -4397,11 +4402,13 @@ Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_DefeatMessage,Strange sounds are
 Eagulou_Park_SecretCave_B2F_Mewtwo,Mewtwo!
 Eagulou_Park_SecretCave_B2F_Mew,Mew!
 
+[Mt. Boulder]
 MtBoulder_B1F_Sign_Ruins,Mt. Boulder Ruins
 MtBoulder_B1F_Sign_MadeItFar,Wow!*You've made it far!
 MtBoulder_B1F_Articuno_Cry,Gyaao!
 MtBoulder_B1F_Suicune_Cry,Rrroar!
 
+[30 Years Cave]
 30YearsCave_PokeFanHoward_IntroMessage,If you can get through here,~you are a master!
 30YearsCave_PokeFanHoward_OutroMessage,No! Unbelieveable!
 30YearsCave_PokeFanHoward_DefeatMessage,You just got lucky...
@@ -4418,6 +4425,7 @@ MtBoulder_B1F_Suicune_Cry,Rrroar!
 30YearsCave_JugglerZac_OutroMessage,You got me!
 30YearsCave_JugglerZac_DefeatMessage,You're almost done!
 
+[Rijon League]
 League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and the~current champion in order to~receive that title.*Go for it.
 League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Wow! That was an~astonishing victory!*Congratulations, champ!
 League_EntranceHall_CableClubLady,Welcome to the Cable Club.*This area is reserved for~2 friends who are linked~by cable.

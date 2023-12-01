@@ -14,8 +14,8 @@ version=2
 		:if:<inventory.selected>=gm3
 			:if:<Register.Registered(OrbGirl_Red)>=false
 				@Text.Show(<system.token(Hayward_Main_OrbGirl_Red_Orb_1)>)
-				@Item.Give(gm48,1)
-				@Item.MessageGive(gm48,1)
+				@Item.Give(gm25,1)
+				@Item.MessageGive(gm25,1)
 				@Text.Show(<system.token(Hayward_Main_OrbGirl_Red_Orb_2)>)
 				@Register.Register(OrbGirl_Red)
 				:end
