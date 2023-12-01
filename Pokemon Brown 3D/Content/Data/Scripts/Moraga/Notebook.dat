@@ -1,20 +1,20 @@
 version=2
 
-@text.show(<system.token(Moraga_OrionAcademy_Notebook_Page1)>)
+@text.show(<system.token(Moraga_HighSchoolAcademy_Notebook_Page1)>)
 @options.setcancelindex(1)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_yes)>
-	@Text.Show(<system.token(Moraga_OrionAcademy_Notebook_Page2)>)
+	@Text.Show(<system.token(Moraga_HighSchoolAcademy_Notebook_Page2)>)
 	@options.setcancelindex(1)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-		@Text.Show(<system.token(Moraga_OrionAcademy_Notebook_Page3)>)
+		@Text.Show(<system.token(Moraga_HighSchoolAcademy_Notebook_Page3)>)
 		@options.setcancelindex(1)
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
-			@Text.Show(<system.token(Moraga_OrionAcademy_Notebook_Page4)>)
+			@Text.Show(<system.token(Moraga_HighSchoolAcademy_Notebook_Page4)>)
 			@NPC.Turn(1,1)
-			@Text.Show(<system.token(Moraga_OrionAcademy_Notebook_End)>)
+			@Text.Show(<system.token(Moraga_HighSchoolAcademy_Notebook_End)>)
 			@NPC.Turn(1,0)
 			:end
 		:when:<system.token(global_no)>

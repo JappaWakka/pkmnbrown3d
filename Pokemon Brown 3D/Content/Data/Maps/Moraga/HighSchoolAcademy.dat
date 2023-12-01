@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[Orion Academy]}}{"MusicLoop"{str[violet]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[High School Academy]}}{"MusicLoop"{str[Moraga]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
 
 Floors:
@@ -65,8 +65,8 @@ Door:
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[2,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Moraga\Main.dat,32,0.1,25,0]}}{"Rotation"{int[2]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[OldMan_Purple]}}{"ID"{int[0]}}{"Name"{str[Teacher]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Moraga_OrionAcademy_Teacher)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[3,0.155,4]}}{"TextureID"{str[SchoolKid_Male_Green]}}{"ID"{int[1]}}{"Name"{str[Student]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Moraga_OrionAcademy_Student)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[OldMan_Purple]}}{"ID"{int[0]}}{"Name"{str[Teacher]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Moraga_HighSchoolAcademy_Teacher)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[3,0.155,4]}}{"TextureID"{str[SchoolKid_Male_Green]}}{"ID"{int[1]}}{"Name"{str[Student]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Moraga_HighSchoolAcademy_Student)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 
 

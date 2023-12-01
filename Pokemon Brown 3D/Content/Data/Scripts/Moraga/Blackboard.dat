@@ -1,30 +1,30 @@
 version=2
 :if:<register.registered(moraga_blackboard)>=false
-	@Text.Show(<system.token(Moraga_OrionAcademy_Blackboard_Intro)>)
+	@Text.Show(<system.token(Moraga_HighSchoolAcademy_Blackboard_Intro)>)
 	@Register.Register(moraga_blackboard)
 :endif
-@text.show(<system.token(Moraga_OrionAcademy_Blackboard_Question)>)
+@text.show(<system.token(Moraga_HighSchoolAcademy_Blackboard_Question)>)
 @options.setcancelindex(5)
 @options.show(<system.token(global_SLP)>,<system.token(global_BRN)>,<system.token(global_PSN)>,<system.token(global_FRZ)>,<system.token(global_PAR)>,<system.token(global_quit)>)
 	
 	:when:<system.token(global_SLP)>
-		@Text.Show(<system.token(Moraga_OrionAcademy_Blackboard_Sleep)>)
+		@Text.Show(<system.token(Moraga_HighSchoolAcademy_Blackboard_Sleep)>)
 		@script.start(Moraga\Blackboard)
 		
 	:when:<system.token(global_BRN)>
-		@Text.Show(<system.token(Moraga_OrionAcademy_Blackboard_Burn)>)
+		@Text.Show(<system.token(Moraga_HighSchoolAcademy_Blackboard_Burn)>)
 		@script.start(Moraga\Blackboard)
 		
 	:when:<system.token(global_PSN)>
-		@Text.Show(<system.token(Moraga_OrionAcademy_Blackboard_Poison)>)
+		@Text.Show(<system.token(Moraga_HighSchoolAcademy_Blackboard_Poison)>)
 		@script.start(Moraga\Blackboard)
 		
 	:when:<system.token(global_FRZ)>
-		@Text.Show(<system.token(Moraga_OrionAcademy_Blackboard_Freeze)>)
+		@Text.Show(<system.token(Moraga_HighSchoolAcademy_Blackboard_Freeze)>)
 		@script.start(Moraga\Blackboard)
 		
 	:when:<system.token(global_PAR)>
-		@Text.Show(<system.token(Moraga_OrionAcademy_Blackboard_Paralysis)>)
+		@Text.Show(<system.token(Moraga_HighSchoolAcademy_Blackboard_Paralysis)>)
 		@script.start(Moraga\Blackboard)
 		
 	:when:<system.token(global_quit)>

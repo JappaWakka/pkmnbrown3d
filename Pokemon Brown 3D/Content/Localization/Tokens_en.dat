@@ -3720,13 +3720,12 @@ SilkTunnel_PokeManiacFrederic_DefeatMessage,Cosplaying will get me~all the girls
 
 [Moraga Town]
 Moraga_Main_Sign_Pickpocketers,Look out for rabid~pick-pocketers!
-Moraga_Main_Sign_Gym_BeforeDefeat,Moraga Town Pokémon Gym~Leader: Lois*Winning Trainers:~Mura
-Moraga_Main_Sign_Gym_AfterDefeat,Moraga Town Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<player.name>
+Moraga_Main_Sign_Gym,Moraga Town~Pokémon Gym~Leader: Lois*The Princess of Plant Pokémon!
 Moraga_Main_Sign_TrainerTips,Trainer Tips*Keep an eye where you're going~and if needed, backtrack to~cities you've been to already.
-Moraga_Main_Sign_OrionAcademy,Orion Academy~The school for the gifted...
+Moraga_Main_Sign_HighSchoolAcademy,High School Academy
 Moraga_Main_ShortcutMan,There's a shortcut to~Eagulou City nearby.
 Moraga_Main_AlleyWoman,Being in the alley can~be scary sometimes.
-Moraga_Main_LittleGirl,This is one unusual town...
+Moraga_Main_LittleGirl,Help. I don't know where my~mommy is.
 Moraga_Main_Psyduck_Cry,Psyduck: Psy-yiy?
 Moraga_Main_TM31Man_BeforeTalking,You want to talk?*To me?*Thanks, I'm very lonely,~so take this thing I found~earlier...
 Moraga_Main_TM31Man_AfterTalking,TM31 teaches Mimic!*It lets your Pokémon copy one~of the opponent's moves!
@@ -3750,25 +3749,47 @@ Moraga_SandshrewKidHouse_Sandshrew_Cry,Sandshrew: Grr!
 
 Moraga_NationsBurgers_Chef,Welcome to Nation's Burgers!
 Moraga_NationsBurgers_Waitress,We have the best hamburgers~in town!*We're on break though.
-Moraga_NationsBurgers_FatGuy,Munch...*What is with that Orion Academy?
+Moraga_NationsBurgers_FatGuy,Munch...*Ouch, heartburn!
 Moraga_NationsBurgers_Hiker,A similar restaurant in~Kanto serves way better!
 Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking,Hey kid, like to gamble?*Well, there's a casino in~Owsauri City!*I'm stinkin' rich, so I can~just buy coins.*Here, take this.
 Moraga_NationsBurgers_CoinCaseGuy_AfterTalking,Ha ha!*Win rare Pokémon with that!
 
-Moraga_OrionAcademy_Blackboard_Intro,The blackboard describes~Pokémon Status changes~during battles.
-Moraga_OrionAcademy_Blackboard_Question,Which heading do you want~to read?
-Moraga_OrionAcademy_Blackboard_Sleep,A Pokémon can't attack if~it's asleep!*Pokémon will stay asleep even~after battles!*Use Awakening to wake them~up!
-Moraga_OrionAcademy_Blackboard_Burn,A burn reduces power and~speed. It also causes~ongoing damage.*Burns remain after battles.*Use Burn Heal to cure a~burn!
-Moraga_OrionAcademy_Blackboard_Poison,When poisoned, a Pokémon's~health steadily drops.*Poison lingers after battles.*Use an Antidote to cure~poison!
-Moraga_OrionAcademy_Blackboard_Freeze,If frozen, a Pokémon becomes~totally immobile!*It stays frozen even~after the battle ends.*Use Ice Heal to thaw~out Pokémon!
-Moraga_OrionAcademy_Blackboard_Paralysis,Paralysis could make~Pokémon moves misfire!*Paralysis remains after battles.*Use Paralyze Heal for~treatment!
-Moraga_OrionAcademy_Teacher,Detention!*For... uh...*Breathing!
-Moraga_OrionAcademy_Student,I am a material girl!*Yeah!
-Moraga_OrionAcademy_Notebook_Page1,Looked at the notebook!*First page...*Pokéballs are used to~catch Pokémon. Up to 6~Pokémon can be carried.~People who raise and make~Pokémon fight are called~Pokémon Trainers.*Turn the page?
-Moraga_OrionAcademy_Notebook_Page2,Second page...*A healthy Pokémon may be hard~to catch, so weaken it first!*Poison, burns, and other~damage are effective!*Turn the page?
-Moraga_OrionAcademy_Notebook_Page3,Third page...*Pokémon Trainers seek others~to engage in Pokémon fights.~Battles are constantly fought~at Pokémon Gyms.*Turn the page?
-Moraga_OrionAcademy_Notebook_Page4,Fourth page...*There are more than 151~Pokémon available in Rijon!~Ones that are 152 and above~are hidden in special areas,~so keep an eye out for them.
-Moraga_OrionAcademy_Notebook_End,Guy: I plagiarized. So what?!
+Moraga_HighSchoolAcademy_Blackboard_Intro,The blackboard describes~Pokémon Status changes~during battles.
+Moraga_HighSchoolAcademy_Blackboard_Question,Which heading do you want~to read?
+Moraga_HighSchoolAcademy_Blackboard_Sleep,A Pokémon can't attack if~it's asleep!*Pokémon will stay asleep even~after battles!*Use Awakening to wake them~up!
+Moraga_HighSchoolAcademy_Blackboard_Burn,A burn reduces power and~speed. It also causes~ongoing damage.*Burns remain after battles.*Use Burn Heal to cure a~burn!
+Moraga_HighSchoolAcademy_Blackboard_Poison,When poisoned, a Pokémon's~health steadily drops.*Poison lingers after battles.*Use an Antidote to cure~poison!
+Moraga_HighSchoolAcademy_Blackboard_Freeze,If frozen, a Pokémon becomes~totally immobile!*It stays frozen even~after the battle ends.*Use Ice Heal to thaw~out Pokémon!
+Moraga_HighSchoolAcademy_Blackboard_Paralysis,Paralysis could make~Pokémon moves misfire!*Paralysis remains after battles.*Use Paralyze Heal for~treatment!
+Moraga_HighSchoolAcademy_Teacher,Detention!*For... uh...*Breathing!
+Moraga_HighSchoolAcademy_Student,I am a material girl!*Yeah!
+Moraga_HighSchoolAcademy_Notebook_Page1,Looked at the notebook!*First page...*Pokéballs are used to~catch Pokémon. Up to 6~Pokémon can be carried.~People who raise and make~Pokémon fight are called~Pokémon Trainers.*Turn the page?
+Moraga_HighSchoolAcademy_Notebook_Page2,Second page...*A healthy Pokémon may be hard~to catch, so weaken it first!*Poison, burns, and other~damage are effective!*Turn the page?
+Moraga_HighSchoolAcademy_Notebook_Page3,Third page...*Pokémon Trainers seek others~to engage in Pokémon fights.~Battles are constantly fought~at Pokémon Gyms.*Turn the page?
+Moraga_HighSchoolAcademy_Notebook_Page4,Fourth page...*There are more than 151~Pokémon available in Rijon!~Ones that are 152 and above~are hidden in special areas,~so keep an eye out for them.
+Moraga_HighSchoolAcademy_Notebook_End,Guy: I plagiarized. So what?!
+
+Moraga_PrismMuseum_Owner_PrismKeyHint,This is the Prism Museum.*Bring me a Prism item and~maybe I'll let you inside.*I'll give you a clue: not all~things are reflected in the~mirror.
+Moraga_PrismMuseum_Owner_HavePrismKey,That is the Prism Key!*You are worthy, you may pass.*Legend says there are six~hidden eggs in Rijon.*It is my dream to collect 'em~all. Bring them to me and I'll give you splendid rewards!
+Morage_PrismMuseum_GoldEgg_Hint,We have escaped the dungeon!
+Morage_PrismMuseum_SilverEgg_Hint,What is this sticky film on~the mountain?
+Morage_PrismMuseum_SilverEgg_Reward,The Silver Egg!*Amazing! Here is your reward!
+Morage_PrismMuseum_SilverEgg_ReceivedLugia,<Player.Name> received a~Lugia!
+Morage_PrismMuseum_CrystalEgg_Hint,There are no Spinarak in this cave!
+Morage_PrismMuseum_CrystalEgg_Reward,The Crystal Egg!*Amazing! Here is your reward!
+Morage_PrismMuseum_CrystalEgg_ReceivedSuicune,<Player.Name> received a~Suicune!
+Morage_PrismMuseum_RubyEgg_Hint,I hope my game doesn't get~deleted.
+Morage_PrismMuseum_RubyEgg_Reward,The Ruby Egg!*Amazing! Here is your reward!
+Morage_PrismMuseum_RubyEgg_ReceivedMoltres,<Player.Name> received a~Moltres!
+Morage_PrismMuseum_SapphireEgg_Hint,A small token on the road to~victory.
+Morage_PrismMuseum_SapphireEgg_Reward,The Sapphire Egg!*Amazing! Here is your reward!
+Morage_PrismMuseum_SapphireEgg_ReceivedMasterBall,It's a Master Ball!
+Morage_PrismMuseum_EmeraldEgg_Hint,Pack your bug spray.
+Morage_PrismMuseum_EmeraldEgg_Reward,The Emerald Egg!*Amazing! Here is your reward!
+Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves,50 Gold Leaves!
+Morage_PrismMuseum_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+Morage_PrismMuseum_CatchMethod,Received as a reward
+Morage_PrismMuseum_CatchLocation,at the Prism Museum
 
 Moraga_Gym_GymGirl_BeforeBadge,Gym Girl: Hiya, champion in~the making!*...Don't blow my cover kid,~they don't like dudes as much~in this gym.*Lois uses Grass Pokémon,~which are weak against Fire~and Flying Pokémon!~Good luck!
 Moraga_Gym_GymGirl_AfterBadge,Gym Girl: What a fantastic~battle! You sure showed her!

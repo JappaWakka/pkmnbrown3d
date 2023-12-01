@@ -11,5 +11,5 @@ Counter ScriptBlock:
 	
 NPCs:
 {"NPC"{NPC[{"Position"{sngArr[3,0,2]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[1]}}{"Name"{str[Leaf Stone Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Moraga_PokeMart_LeafStoneGuy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[3,0,1,4]]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[5,0,0]}}{"TextureID"{str[Lass_Blue]}}{"ID"{int[2]}}{"Name"{str[Escape Rope Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Moraga_PokeMart_EscapeRopeGirl)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[4,0,4,1]]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[5,0,0]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[2]}}{"Name"{str[Escape Rope Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Moraga_PokeMart_EscapeRopeGirl)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[4,0,4,1]]}}]}}
 
