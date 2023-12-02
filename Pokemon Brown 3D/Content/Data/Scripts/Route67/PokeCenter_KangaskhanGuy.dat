@@ -1,0 +1,34 @@
+version=2
+:if:<Register.Registered(kangaskhanbuy)>=false
+	@options.setcancelindex(1)
+	@Text.Show(<system.token(Route67_PokeCenter_KangaskhanGuy_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		:if:<player.money>>59999
+			:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+				@storage.set(int,PokeShiny,1)
+			:else
+				@storage.set(int,PokeShiny,0)
+			:endif
+			@Sound.Play(Success,1)
+			@Text.Show(<system.token(Route67_PokeCenter_KangaskhanGuy_ReceivedKangaskhan)>)
+			@pokemon.add(115,20,<system.token(Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod)>,5,<system.token(Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+			@pokemon.rename(<math.int(<pokemon.count>-1)>)
+			:if:<pokemon.count>>6
+				@Text.Show(<system.token(Route67_PokeCenter_KangaskhanGuy_PokemonToPC)>)
+				@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
+			:endif
+			@Register.Register(kangaskhanbuy)
+			:end
+		:else
+			@Text.Show(<system.token(Route67_PokeCenter_KangaskhanGuy_NotEnoughMoney)>)
+			:end
+		:endif
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Route67_PokeCenter_KangaskhanGuy_Decline)>)
+		:end
+	:endwhen
+:else
+	@Text.Show(<system.token(Route67_PokeCenter_KangaskhanGuy_AfterSelling)>)
+:endif:
+:end

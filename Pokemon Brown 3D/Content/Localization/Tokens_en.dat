@@ -4479,6 +4479,28 @@ Route65_Guard8_Start,You can pass here only if~you have the Star Badge!
 Route65_Guard8_HaveBadge,Oh! That is the Star Badge!~OK then! Please, go right~ahead!
 Route65_Guard8_NoBadge,You don't have the Star Badge~yet!*You have to have it to get~to the Pokémon League!
 
+Route65_Main_Sign,Route 65 - Pokémon League
+
+[Route 67]
+Route67_Main_Sign,Seneca Cavefront~Route 67
+Route67_Main_Suloku,Suloku: Hey! <player.name>!*I hope you're enjoying your~Poké-Adventure!*Try evolving Eevee in a cave~or forest!*Also, did you know Primeape~evolves when fainting before~or after leveling up?
+
+Route67_PokeCenter_BenchGuy,This PokéCenter was recently~built!
+Route67_PokeCenter_RedditGuy,I'm checking Reddit for~Pokémon Prism updates!
+Route67_PokeCenter_KangaskhanGuy_Question,Yo!*I have Kangaskhan, a Pokémon~that doesn't appear in Rijon!*It'll cost you a pretty~penny - $60000!*Want it?
+Route67_PokeCenter_KangaskhanGuy_Decline,No swaggy swag for you then.
+Route67_PokeCenter_KangaskhanGuy_NotEnoughMoney,Hey!*No dough, no...*uh...*Pokémon.
+Route67_PokeCenter_KangaskhanGuy_ReceivedKangaskhan,<Player.Name> received a~Kangaskhan!
+Route67_PokeCenter_KangaskhanGuy_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+Route67_PokeCenter_KangaskhanGuy_AfterSelling,Everyday I'm hustlin...*Oh no, did you hear me?!
+Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone
+Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,at Route 67
+Route67_PokeCenter_ImpatientGuy,The teleporter is taking~forever. I want it NOW!
+
+Route67_TeleportScientist_Question,Hello there, I am...*A SCIENTIST!*I am in the process of~building a teleporter that~will warp anybody from Rijon~to Naljo.*Think of it as a shortcut to~our League because Naljo~doesn't have their own League.*Although it's taking a lot~longer than I anticipated.*People are getting impatient,~but I'm still at it!*For being so patient, would~you like a reward?
+Route67_TeleportScientist_AnswerNo,I don't understand, the~SCIENTIST is giving you free~stuff!
+Route67_TeleportScientist_AnswerYes,Here, take this so-called~Magic Wand I found.*It's busted... I wished that this project would finally be completed, but nothing happened.*It sure looks cool though.	
+
 [Rijon League]
 League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and the~current champion in order to~receive that title.*Go for it.
 League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Wow! That was an~astonishing victory!*Congratulations, champ!
