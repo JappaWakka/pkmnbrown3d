@@ -4,7 +4,7 @@ version=2
 @screen.fadeout(15)
 :select:<player.position>
 	:when:16,0,14
-		@player.warp(Castro\Mansion\1F.dat,16,0.1,14)
+		@player.warp(Castro\KoolboyMansion\1F.dat,16,0.1,14)
 		@level.update
 		:if:<Register.Registered(mansionlock)>=True
 			@entity.remove(0)
@@ -36,7 +36,7 @@ version=2
 		:endif
 		:end
 	:when:17,0,14
-		@player.warp(Castro\Mansion\1F.dat,16,0.1,14)
+		@player.warp(Castro\KoolboyMansion\1F.dat,16,0.1,14)
 		@level.update
 		:if:<Register.Registered(mansionlock)>=True
 			@entity.remove(0)
@@ -68,7 +68,7 @@ version=2
 		:endif
 		:end
 	:when:19,0,14
-		@player.warp(Castro\Mansion\2F.dat,19,0.1,14)
+		@player.warp(Castro\KoolboyMansion\2F.dat,19,0.1,14)
 		@level.update
 		@screen.fadein(15)
 		:end

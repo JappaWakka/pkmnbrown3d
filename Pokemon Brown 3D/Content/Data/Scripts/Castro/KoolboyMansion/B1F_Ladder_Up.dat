@@ -1,15 +1,15 @@
 version=2
 
 :if:<Player.Facing>=0
-	@Player.Warp(Castro\Mansion\1F.dat,5,0.1,8,1)
+	@Player.Warp(Castro\KoolboyMansion\1F.dat,21,0.1,23,0)
 :else
 	:if:<Player.Facing>=1
-		@Player.Warp(Castro\Mansion\1F.dat,5,0.1,8,0)
+		@Player.Warp(Castro\KoolboyMansion\1F.dat,21,0.1,23,0)
 	:else
 		:if:<Player.Facing>=2
-			@Player.Warp(Castro\Mansion\1F.dat,5,0.1,8,3)
+			@Player.Warp(Castro\KoolboyMansion\1F.dat,21,0.1,23,0)
 		:else
-			@Player.Warp(Castro\Mansion\1F.dat,5,0.1,8,2)
+			@Player.Warp(Castro\KoolboyMansion\1F.dat,21,0.1,23,0)
 		:endif
 	:endif
 :endif
