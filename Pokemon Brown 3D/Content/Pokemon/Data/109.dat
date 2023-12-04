@@ -53,4 +53,8 @@ Move|45,262
 TradeValue|20
 Item|5,106
 EvolutionCondition|110,Level,35,Level
-EvolutionLine|109\0\0,110\2\0
+EvolutionCondition|110,NotPlace,Haunted Forest,LevelUp
+EvolutionCondition|110_galar,Level,30,LevelUp
+EvolutionCondition|110_galar,Place,Haunted Forest,LevelUp
+EvolutionLine|109\0\0,110\2\-2
+EvolutionLine|109\0\0,110_galar\2\2

@@ -54,15 +54,26 @@ Move|41,387
 Move|45,376
 TradeValue|25
 DexForms|espeon,umbreon,leafeon,glaceon
-EvolutionCondition|136,item,22,itemuse
-EvolutionCondition|135,item,23,itemuse
-EvolutionCondition|134,item,24,itemuse
-EvolutionCondition|700,item,gm13,itemuse
-EvolutionLine|133\0\0,134\2\-3
-EvolutionLine|133\0\0,135\2\-1
-EvolutionLine|133\0\0,136\2\1
-EvolutionLine|133\0\0,700\2\3
-EvolutionLine|133_espeon\0\5,196\2\5
-EvolutionLine|133_umbreon\0\7,197\2\7
-EvolutionLine|133_leafeon\0\9,470\2\9
-EvolutionLine|133_glaceon\0\11,471\2\11
+EvolutionCondition|136,Item,22,ItemUse
+EvolutionCondition|135,Item,23,ItemUse
+EvolutionCondition|134,Item,24,ItemUse
+EvolutionCondition|470,Item,34,ItemUse
+EvolutionCondition|471,Item,593,ItemUse
+EvolutionCondition|700,Item,gm13,ItemUse
+EvolutionCondition|196,Level,20,LevelUp
+EvolutionCondition|196,NotEnvironmentType,2;5,LevelUp
+EvolutionCondition|196,NotPlace,Botan Cave;Merson Cave;Final Dungeon;Seneca Caverns;Slowpoke Well;International Tunnel;Haunted Forest;Silk Tunnel;30 Years Cave;Secret Cave,LevelUp
+EvolutionCondition|197,Level,20,LevelUp
+EvolutionCondition|197,EnvironmentType,2;5,LevelUp
+EvolutionCondition|197,Place,Botan Cave;Merson Cave;Final Dungeon;Seneca Caverns;Slowpoke Well;International Tunnel;Haunted Forest;Silk Tunnel;30 Years Cave;Secret Cave,LevelUp
+EvolutionCondition|470,Place,Castro Forest;Ilex Forest,LevelUp
+EvolutionCondition|471,Place,Mt. Boulder,LevelUp
+EvolutionCondition|700,Place,Seashore City Gym;Gravel Town Gym;Merson City Gym;Hayward City Gym;Owsauri City Gym;Moraga Town Gym;Jaeru City Gym;Botan City Gym;Castro Valley Gym;Out of City Gym;Eagulou City Gym;Azalea Town Gym;Rijon League,LevelUp
+EvolutionLine|133\0\0,134\-2\-2
+EvolutionLine|133\0\0,135\0\-2
+EvolutionLine|133\0\0,136\2\-2
+EvolutionLine|133\0\0,196\-2\0
+EvolutionLine|133\0\0,197\2\0
+EvolutionLine|133\0\0,470\-2\2
+EvolutionLine|133\0\0,471\2\2
+EvolutionLine|133\0\0,700\0\2
