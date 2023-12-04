@@ -4,7 +4,7 @@ version=2
 @Text.Show(<system.token(Botan_TradeHouse_EeveeTrade_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-		@pokemon.npctrade(207|133_leafeon||-1||0|52891|Trainer|5||<system.token(Botan_TradeHouse_EeveeTrade_CatchLocation)>|<system.token(Botan_TradeHouse_EeveeTrade_CatchMethod)>|Rinji|<system.token(Botan_TradeHouse_EeveeTrade_TradeSuccess)>|<system.token(Botan_TradeHouse_EeveeTrade_TradeFail)>|eeveetrade)
+		@pokemon.npctrade(207|133||-1||0|52891|Trainer|5||<system.token(Botan_TradeHouse_EeveeTrade_CatchLocation)>|<system.token(Botan_TradeHouse_EeveeTrade_CatchMethod)>|Rinji|<system.token(Botan_TradeHouse_EeveeTrade_TradeSuccess)>|<system.token(Botan_TradeHouse_EeveeTrade_TradeFail)>|eeveetrade)
 		:end
 		
 	:when:<system.token(global_no)>
