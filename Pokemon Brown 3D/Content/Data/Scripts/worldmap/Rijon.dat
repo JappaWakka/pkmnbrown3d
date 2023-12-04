@@ -64,7 +64,7 @@ Routes:
 {"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[14,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
 
 {"PlaceType"[Route]}{"Name"[Route 57]}{"MapFiles"[Routes\57\Main.dat,Gates\Route56-Route57.dat]}{"Position"[15,11]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 57]}{"MapFiles"[Routes\57\Main.dat,Gyms\Route57.dat]}{"Position"[15,12]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Out of City Gym]}{"MapFiles"[Gyms\Route57.dat]}{"Position"[15,12]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}{"FlyTo"[Routes\57\Main.dat,17,12,36]}
 
 {"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Routes\58\Main.dat,Gates\Route58-Botan.dat,Caves\InternationalTunnel\1F.dat,Caves\InternationalTunnel\B1F.dat]}{"Position"[16,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Routes\58\Main.dat]}{"Position"[16,9]}{"Direction"[Vertical]}{"RouteType"[Land]}
@@ -106,7 +106,7 @@ Routes:
 {"PlaceType"[Route]}{"Name"[Route 66]}{"MapFiles"[Routes\66\Main.dat]}{"Position"[6,5]}{"Direction"[VerticalEndDown]}{"RouteType"[Water]}
 
 {"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[Routes\67\Main.dat]}{"Position"[13,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[Routes\67\PokeCenter.dat]}{"Position"[14,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}{"FlyTo"[Routes\67\Main.dat,28,12,8]}
+{"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[Routes\67\Main.dat]}{"Position"[14,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
 {"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[IlexForest.dat]}{"Position"[16,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
@@ -118,7 +118,8 @@ Places:
 {"PlaceType"[Place]}{"Name"[Silk Tunnel]}{"Mapfiles"[Caves\SilkTunnel\1F.dat,Caves\SilkTunnel\B1F.dat,Caves\SilkTunnel\B2F.dat,Caves\SilkTunnel\B3F.dat]}{"Position"[8,7]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Castro Forest]}{"Mapfiles"[Castro\Forest.dat,Gates\CastroValley-CastroForest.dat,Gates\Route57-CastroForest.dat,Gates\Route62-CastroForest.dat]}{"Position"[15,10]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Eagulou Park]}{"Mapfiles"[Eagulou\Park\Area1.dat,Eagulou\Park\Area2.dat,Eagulou\Park\Area3.dat,Eagulou\Park\Gate.dat,Eagulou\Park\House1.dat,Eagulou\Park\House2.dat,Eagulou\Park\House3.dat,Eagulou\Park\SecretCave_B1F.dat,Eagulou\Park\SecretCave_B2F.dat]}{"Position"[8,11]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Seneca Caverns]}{"Mapfiles"[]}{"Position"[15,5]}{"Size"[Small]}
+{"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[Routes\67\PokeCenter.dat,Routes\67\TeleportScientistHouse.dat]}{"Position"[15,5]}{"Size"[Small]}{"FlyTo"[Routes\67\Main.dat,28,12,8]}
+{"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[]}{"Position"[15,5]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Blood Moon Island]}{"MapFiles"[BloodMoonIsland\Main.dat]}{"Position"[14,19]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Ilex Forest]}{"MapFiles"[IlexForest.dat]}{"Position"[16,15]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Slowpoke Well]}{"MapFiles"[]}{"Position"[19,15]}{"Size"[Small]}

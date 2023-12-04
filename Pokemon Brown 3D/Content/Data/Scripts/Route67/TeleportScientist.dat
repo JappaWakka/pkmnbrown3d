@@ -1,0 +1,20 @@
+version=2
+:if:<Register.Registered(teleportscientistgift)>=false
+	@Text.Show(<system.token(Route67_TeleportScientist_Question)>)
+	@options.setcancelindex(1)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		@Text.Show(<system.token(Route67_TeleportScientist_AnswerYes)>)
+		@Item.Give(gm18,1)
+		@Item.MessageGive(gm18,1)
+		@Register.Register(teleportscientistgift)
+		:end
+		
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Route67_TeleportScientist_AnswerNo)>)
+		:end
+	:endwhen
+:else
+	@Text.Show(<system.token(Route67_TeleportScientist_AfterGift)>)
+:endif:
+:end

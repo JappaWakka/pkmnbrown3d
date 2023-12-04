@@ -1,7 +1,7 @@
 version=2
 :if:<Register.Registered(kangaskhanbuy)>=false
-	@options.setcancelindex(1)
 	@Text.Show(<system.token(Route67_PokeCenter_KangaskhanGuy_Question)>)
+	@options.setcancelindex(1)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 		:if:<player.money>>59999

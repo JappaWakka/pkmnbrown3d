@@ -41,4 +41,4 @@ Table:
 {"Entity"{ENT[{"Scale"{sngArr[1,0.2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.2,2]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[64,80,16,3][96,80,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 NPC:
-{"NPC"{NPC[{"Position"{sngArr[2,0,1]}}{"TextureID"{str[64]}}{"ID"{int[0]}}{"Name"{str[Nerd]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hello there, I am...*A SCIENTIST!*I am in the proccess of~building a teleporter that will~warp anybody from Rijon to~Naljo.*Although it's taking a lot~longer than expected.]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[2,0,1]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Teleport Scientist]}}{"Action"{int[1]}}{"AdditionalValue"{str[Route67\TeleportScientist]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
