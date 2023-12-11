@@ -65,5 +65,9 @@ Table:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[1,0.5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.3127,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[112,112,16,8][128,112,16,8][80,112,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1,-1,-1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[1,0.5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.3127,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[112,120,16,8][128,112,16,8][96,112,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,-1,-1,-1,-1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
-NPC:
-{"NPC"{NPC[{"Position"{sngArr[2,0,1]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Teleport Scientist]}}{"Action"{int[1]}}{"AdditionalValue"{str[Route67\TeleportScientist]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+Statue:
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[4,0.5,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[32,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[1,0.5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.25,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[336,248,16,8][336,256,16,8][48,48,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
+NPCs:
+	{"NPC"{NPC[{"Position"{sngArr[2,0,1]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Teleport Scientist]}}{"Action"{int[1]}}{"AdditionalValue"{str[Route67\TeleportScientist]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
