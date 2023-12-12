@@ -1,0 +1,25 @@
+version=2
+
+:if:<Player.Facing>=0
+	@Player.Warp(Caves\SenecaCaverns\1F.dat,11,0.1,1,2)
+:else
+	:if:<Player.Facing>=1
+		@Player.Warp(Caves\SenecaCaverns\1F.dat,11,0.1,1,0)
+	:else
+		:if:<Player.Facing>=2
+			@Player.Warp(Caves\SenecaCaverns\1F.dat,11,0.1,1,0)
+		:else
+			@Player.Warp(Caves\SenecaCaverns\1F.dat,11,0.1,1,3)
+		:endif
+	:endif
+:endif
+@Level.Update
+:if:<Level.Riding>=true
+	@Player.SetSpeed(2)
+:else
+	:if:<Player.IsRunning>=true
+		@Player.SetSpeed(1.5)
+	:endif
+:endif
+@Player.Move(1)
+:end
