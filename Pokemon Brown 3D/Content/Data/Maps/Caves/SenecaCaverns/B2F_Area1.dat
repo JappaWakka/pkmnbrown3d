@@ -119,7 +119,7 @@ Large Rocks:
 		
 	Gemstone 1x2
 		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\Gemstone_Dark_1x2]}}{"Offset"{sngArr[5,0,2]}}]}}
-			
+		
 Items:
 	Moon Stone
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[0,-0.375,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,8]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
