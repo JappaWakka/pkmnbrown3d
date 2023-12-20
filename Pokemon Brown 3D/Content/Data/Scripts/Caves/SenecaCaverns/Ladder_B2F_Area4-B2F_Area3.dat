@@ -1,15 +1,15 @@
 version=2
 
 :if:<Player.Facing>=0
-	@Player.Warp(Caves\SenecaCaverns\B2F_Area4.dat,2,0.1,0,2)
+	@Player.Warp(Caves\SenecaCaverns\B2F_Area3.dat,8,0.1,6,0)
 :else
 	:if:<Player.Facing>=1
-		@Player.Warp(Caves\SenecaCaverns\B2F_Area4.dat,2,0.1,0,0)
+		@Player.Warp(Caves\SenecaCaverns\B2F_Area3.dat,8,0.1,6,3)
 	:else
 		:if:<Player.Facing>=2
-			@Player.Warp(Caves\SenecaCaverns\B2F_Area4.dat,2,0.1,0,0)
+			@Player.Warp(Caves\SenecaCaverns\B2F_Area3.dat,8,0.1,6,2)
 		:else
-			@Player.Warp(Caves\SenecaCaverns\B2F_Area4.dat,2,0.1,0,3)
+			@Player.Warp(Caves\SenecaCaverns\B2F_Area3.dat,8,0.1,6,0)
 		:endif
 	:endif
 :endif
