@@ -1,0 +1,7 @@
+version=2
+@NPC.turn(11,1)
+@Player.TurnTo(3)
+@Text.Show(<system.token(Botan_Main_RocketGrunt_NotAllowed)>)
+@Player.TurnTo(0)
+@Player.Move(1)
+:end

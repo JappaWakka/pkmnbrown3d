@@ -1,0 +1,32 @@
+version=2
+
+:if:<Register.Registered(Egg_Crystal)>=true
+	@Text.Show(<System.Token(Morage_PrismMuseum_CrystalEgg_Found)>)
+	:end
+:else
+	:if:<inventory.countitem(gm13)>>0
+		@Text.Show(<System.Token(Morage_PrismMuseum_CrystalEgg_Found)>*<System.Token(Morage_PrismMuseum_Egg_Reward)>)
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+			@storage.set(int,PokeShiny,1)
+		:else
+			@storage.set(int,PokeShiny,0)
+		:endif
+		@Sound.Play(Success,1)
+		@Text.Show(<system.token(Morage_PrismMuseum_CrystalEgg_ReceivedSuicune)>)
+		@pokemon.add(245,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		@pokemon.rename(<math.int(<pokemon.count>-1)>)
+		:if:<pokemon.count>>6
+			@Text.Show(<system.token(Morage_PrismMuseum_PokemonToPC)>)
+			@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
+		:endif
+		@Item.ClearItem(gm13)
+		@Register.Register(Egg_Crystal)
+		@NPC.WearSkin(3,Egg_Crystal)
+		:end
+	:else
+		@Text.Show(<system.token(Morage_PrismMuseum_CrystalEgg_Hint)>)
+		:end
+	:endif
+:endif
+
+:end

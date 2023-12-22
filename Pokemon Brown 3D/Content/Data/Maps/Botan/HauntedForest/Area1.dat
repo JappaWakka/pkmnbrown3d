@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Haunted Forest]}}{"MusicLoop"{str[HauntedForest]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[1]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[Botan\HauntedForest\Area1_RemoveScriptBlock]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[1]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[Botan\HauntedForest\Area1_MapScript]}}]}}
 
 Floors:
 	Dark Rock

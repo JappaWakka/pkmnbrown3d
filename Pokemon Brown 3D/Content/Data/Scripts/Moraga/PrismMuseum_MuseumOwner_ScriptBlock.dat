@@ -1,0 +1,20 @@
+version=2
+
+:if:<Register.Registered(PrismKey)>=false
+	:if:<inventory.countitem(gm17)>>0
+		@NPC.Turn(0,1)
+		@Player.TurnTo(3)
+		@Text.Show(<system.token(Moraga_PrismMuseum_Owner_HavePrismKey)>)
+		@Item.ClearItem(gm17)
+		@Entity.Remove(7)
+		@Register.Register(PrismKey)
+	:else
+		@NPC.Turn(0,1)
+		@Player.TurnTo(3)
+		@Text.Show(<system.token(Moraga_PrismMuseum_Owner_PrismKeyHint)>)
+		@Player.TurnTo(2)
+		@Player.Move(1)
+	:endif
+:endif
+
+:end

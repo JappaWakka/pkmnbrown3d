@@ -1,0 +1,25 @@
+version=2
+
+:if:<Register.Registered(PrismKey)>=true
+	@Entity.Remove(7)
+:endif
+:if:<Register.Registered(Egg_Gold)>=true
+	@NPC.WearSkin(1,Egg_Gold)
+:endif
+:if:<Register.Registered(Egg_Silver)>=true
+	@NPC.WearSkin(2,Egg_Silver)
+:endif
+:if:<Register.Registered(Egg_Crystal)>=true
+	@NPC.WearSkin(3,Egg_Crystal)
+:endif
+:if:<Register.Registered(Egg_Ruby)>=true
+	@NPC.WearSkin(4,Egg_Ruby)
+:endif
+:if:<Register.Registered(Egg_Sapphire)>=true
+	@NPC.WearSkin(5,Egg_Sapphire)
+:endif
+:if:<Register.Registered(Egg_Emerald)>=true
+	@NPC.WearSkin(6,Egg_Emerald)
+:endif
+
+:end

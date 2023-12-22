@@ -1,0 +1,32 @@
+version=2
+
+:if:<Register.Registered(Egg_Gold)>=true
+	@Text.Show(<System.Token(Morage_PrismMuseum_GoldEgg_Found)>)
+	:end
+:else
+	:if:<inventory.countitem(gm11)>>0
+		@Text.Show(<System.Token(Morage_PrismMuseum_GoldEgg_Found)>*<System.Token(Morage_PrismMuseum_Egg_Reward)>)
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+			@storage.set(int,PokeShiny,1)
+		:else
+			@storage.set(int,PokeShiny,0)
+		:endif
+		@Sound.Play(Success,1)
+		@Text.Show(<system.token(Morage_PrismMuseum_GoldEgg_ReceivedHoOh)>)
+		@pokemon.add(250,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		@pokemon.rename(<math.int(<pokemon.count>-1)>)
+		:if:<pokemon.count>>6
+			@Text.Show(<system.token(Morage_PrismMuseum_PokemonToPC)>)
+			@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
+		:endif
+		@Item.ClearItem(gm11)
+		@Register.Register(Egg_Gold)
+		@NPC.WearSkin(1,Egg_Gold)
+		:end
+	:else
+		@Text.Show(<system.token(Morage_PrismMuseum_GoldEgg_Hint)>)
+		:end
+	:endif
+:endif
+
+:end

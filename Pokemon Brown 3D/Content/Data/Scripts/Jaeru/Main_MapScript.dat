@@ -6,6 +6,7 @@ version=2
 	@npc.register(Botan\Main.dat|2|remove)
 	@npc.register(Botan\Main.dat|3|remove)
 	@npc.register(Botan\Main.dat|4|remove)
+	@npc.register(Botan\Main.dat|5|remove)
 	@Register.Register(RemoveBotanCitizens)
 :endif
 :end

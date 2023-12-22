@@ -1,0 +1,16 @@
+version=2
+
+:if:<Register.Registered(PrismKey)>=true
+	@Text.Show(<system.token(Moraga_PrismMuseum_Owner_HavePrismKey)>)
+:else
+	:if:<inventory.countitem(gm17)>>0
+		@Text.Show(<system.token(Moraga_PrismMuseum_Owner_HavePrismKey)>)
+		@Item.ClearItem(gm17)
+		@Entity.Remove(7)
+		@Register.Register(PrismKey)
+	:else
+		@Text.Show(<system.token(Moraga_PrismMuseum_Owner_PrismKeyHint)>)
+	:endif
+:endif
+
+:end

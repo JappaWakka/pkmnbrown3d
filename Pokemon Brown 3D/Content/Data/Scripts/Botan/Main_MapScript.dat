@@ -1,0 +1,5 @@
+version=2
+:if:<Register.Registered(BeatGiovanni)>=true
+	@entity.remove(12)
+:endif
+:end

@@ -1,0 +1,21 @@
+version=2
+
+:if:<Register.Registered(Egg_Sapphire)>=true
+	@Text.Show(<System.Token(Morage_PrismMuseum_SapphireEgg_Found)>)
+	:end
+:else
+	:if:<inventory.countitem(gm15)>>0
+		@Text.Show(<System.Token(Morage_PrismMuseum_SapphireEgg_Found)>*<System.Token(Morage_PrismMuseum_Egg_Reward)>)
+		@Sound.Play(Success,1)
+		@Text.Show(<system.token(Morage_PrismMuseum_SapphireEgg_ReceivedMasterBall)>)
+		@Item.Give(1,1)
+		@Item.ClearItem(gm15)
+		@Register.Register(Egg_Sapphire)
+		@NPC.WearSkin(5,Egg_Sapphire)
+	:else
+		@Text.Show(<system.token(Morage_PrismMuseum_SapphireEgg_Hint)>)
+		:end
+	:endif
+:endif
+
+:end

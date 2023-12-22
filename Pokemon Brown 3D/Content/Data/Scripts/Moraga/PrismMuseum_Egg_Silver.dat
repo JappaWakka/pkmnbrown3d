@@ -1,0 +1,32 @@
+version=2
+
+:if:<Register.Registered(Egg_Silver)>=true
+	@Text.Show(<System.Token(Morage_PrismMuseum_SilverEgg_Found)>)
+	:end
+:else
+	:if:<inventory.countitem(gm12)>>0
+		@Text.Show(<System.Token(Morage_PrismMuseum_SilverEgg_Found)>*<System.Token(Morage_PrismMuseum_Egg_Reward)>)
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+			@storage.set(int,PokeShiny,1)
+		:else
+			@storage.set(int,PokeShiny,0)
+		:endif
+		@Sound.Play(Success,1)
+		@Text.Show(<system.token(Morage_PrismMuseum_SilverEgg_ReceivedLugia)>)
+		@pokemon.add(249,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		@pokemon.rename(<math.int(<pokemon.count>-1)>)
+		:if:<pokemon.count>>6
+			@Text.Show(<system.token(Morage_PrismMuseum_PokemonToPC)>)
+			@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
+		:endif
+		@Item.ClearItem(gm12)
+		@Register.Register(Egg_Silver)
+		@NPC.WearSkin(2,Egg_Silver)
+		:end
+	:else
+		@Text.Show(<system.token(Morage_PrismMuseum_SilverEgg_Hint)>)
+		:end
+	:endif
+:endif
+
+:end

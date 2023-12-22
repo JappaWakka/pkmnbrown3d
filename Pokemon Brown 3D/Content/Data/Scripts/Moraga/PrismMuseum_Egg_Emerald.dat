@@ -1,0 +1,21 @@
+version=2
+
+:if:<Register.Registered(Egg_Emerald)>=true
+	@Text.Show(<System.Token(Morage_PrismMuseum_EmeraldEgg_Found)>)
+	:end
+:else
+	:if:<inventory.countitem(gm16)>>0
+		@Text.Show(<System.Token(Morage_PrismMuseum_EmeraldEgg_Found)>*<System.Token(Morage_PrismMuseum_Egg_Reward)>)
+		@Sound.Play(Success,1)
+		@Text.Show(<system.token(Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves)>)
+		@Item.Give(75,50)
+		@Item.ClearItem(gm16)
+		@Register.Register(Egg_Emerald)
+		@NPC.WearSkin(6,Egg_Emerald)
+	:else
+		@Text.Show(<system.token(Morage_PrismMuseum_EmeraldEgg_Hint)>)
+		:end
+	:endif
+:endif
+
+:end

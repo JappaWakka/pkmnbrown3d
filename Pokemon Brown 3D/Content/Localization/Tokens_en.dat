@@ -2313,7 +2313,7 @@ item_use_54,Your Coins:~
 [GameMode Items]
 Item_Use_TownMap,<player.name> checked the~Town Map.
 Item_Use_PokeFlute,<player.name> played the~PokéFlute.
-Item_Use_HiddenEggs,Wow!*This item may be useful~in Pokémon Prism!*<player.name>: Ugh!~Not this again!
+Item_Use_HiddenTreasures,What could this item be?*It looks important.~I should find an expert!
 -------------------
 Move Names:
 move_name_1,Pound
@@ -3734,6 +3734,7 @@ SilkTunnel_PokeManiacFrederic_OutroMessage,Well, that's that.
 SilkTunnel_PokeManiacFrederic_DefeatMessage,Cosplaying will get me~all the girls.
 
 [Moraga Town]
+Moraga_Main_Sign_Town,Moraga Town*Not really a town at all.
 Moraga_Main_Sign_Pickpocketers,Look out for rabid~pick-pocketers!
 Moraga_Main_Sign_Gym,Moraga Town~Pokémon Gym~Leader: Lois*The Princess of Plant Pokémon!
 Moraga_Main_Sign_TrainerTips,Trainer Tips*Keep an eye where you're going~and if needed, backtrack to~cities you've been to already.
@@ -3787,21 +3788,24 @@ Moraga_HighSchoolAcademy_Notebook_End,Guy: I plagiarized. So what?!
 Moraga_PrismMuseum_Owner_PrismKeyHint,This is the Prism Museum.*Bring me a Prism item and~maybe I'll let you inside.*I'll give you a clue: not all~things are reflected in the~mirror.
 Moraga_PrismMuseum_Owner_HavePrismKey,That is the Prism Key!*You are worthy, you may pass.*Legend says there are six~hidden eggs in Rijon.*It is my dream to collect 'em~all. Bring them to me and I'll give you splendid rewards!
 Morage_PrismMuseum_GoldEgg_Hint,We have escaped the dungeon!
+Morage_PrismMuseum_GoldEgg_Found,The Gold Egg!
+Morage_PrismMuseum_GoldEgg_ReceivedHoOh,<Player.Name> received a~Ho-oh!
 Morage_PrismMuseum_SilverEgg_Hint,What is this sticky film on~the mountain?
-Morage_PrismMuseum_SilverEgg_Reward,The Silver Egg!*Amazing! Here is your reward!
+Morage_PrismMuseum_SilverEgg_Found,The Silver Egg!
 Morage_PrismMuseum_SilverEgg_ReceivedLugia,<Player.Name> received a~Lugia!
-Morage_PrismMuseum_CrystalEgg_Hint,There are no Spinarak in this cave!
-Morage_PrismMuseum_CrystalEgg_Reward,The Crystal Egg!*Amazing! Here is your reward!
+Morage_PrismMuseum_CrystalEgg_Hint,There are no Spinarak in this~cave!
+Morage_PrismMuseum_CrystalEgg_Found,The Crystal Egg!
 Morage_PrismMuseum_CrystalEgg_ReceivedSuicune,<Player.Name> received a~Suicune!
 Morage_PrismMuseum_RubyEgg_Hint,I hope my game doesn't get~deleted.
-Morage_PrismMuseum_RubyEgg_Reward,The Ruby Egg!*Amazing! Here is your reward!
+Morage_PrismMuseum_RubyEgg_Found,The Ruby Egg!
 Morage_PrismMuseum_RubyEgg_ReceivedMoltres,<Player.Name> received a~Moltres!
 Morage_PrismMuseum_SapphireEgg_Hint,A small token on the road to~victory.
-Morage_PrismMuseum_SapphireEgg_Reward,The Sapphire Egg!*Amazing! Here is your reward!
+Morage_PrismMuseum_SapphireEgg_Found,The Sapphire Egg!
 Morage_PrismMuseum_SapphireEgg_ReceivedMasterBall,It's a Master Ball!
 Morage_PrismMuseum_EmeraldEgg_Hint,Pack your bug spray.
-Morage_PrismMuseum_EmeraldEgg_Reward,The Emerald Egg!*Amazing! Here is your reward!
+Morage_PrismMuseum_EmeraldEgg_Found,The Emerald Egg!
 Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves,50 Gold Leaves!
+Morage_PrismMuseum_Egg_Reward,Amazing! Here is your reward!
 Morage_PrismMuseum_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
 Morage_PrismMuseum_CatchMethod,Received as a reward
 Morage_PrismMuseum_CatchLocation,at the Prism Museum
@@ -3820,7 +3824,7 @@ Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We don't need men,~except to 
 Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage,Don't underestimate the power~of grass!
 Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage,Oh! Beaten!
 Moraga_Gym_CoolTrainerFemaleHeather_DefeatMessage,Lois has a twin in Kanto that~uses grass too.
-Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, my lovely flowers...*They sure are nice, aren't~they?*<player.name>: Pardon me, but I'm~here for your Sprout Badge!*Lois: I see. I'm just like my~sister in Kanto, aren't I...?*Well, if it's a battle you want,~it's a battle you'll get!*As a Kimono Girl, as well as~the Moraga Town Gym Leader,~I have plenty of battling~experience, so don't say I~didn't warn you.*Let's go!
+Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, my lovely flowers...~They sure look nice, don't they?*<player.name>: Pardon me, but I'm~here for your Sprout Badge!*Lois: I see. I'm just like my~sister in Kanto, aren't I...?*Well, if it's a battle you want,~it's a battle you'll get!*As a Kimono Girl, as well as~the Moraga Town Gym Leader,~I have plenty of battling~experience, so don't say I~didn't warn you.*Let's go!
 Moraga_Gym_LeaderLois_DefeatMessage,Lois: What a wonderful~performance of skill!*Here is your well-earned~Sprout Badge.
 Moraga_Gym_LeaderLois_AfterBattle1,Lois: The Sprout Badge will~make Pokémon able to use~HM04 Strength in and out~of battle.*Also, I'd like you to have~this.
 Moraga_Gym_LeaderLois_AfterBattle2,TM21 contains Giga Drain.*Half the damage it inflicts is~drained to heal your Pokémon.
@@ -3987,9 +3991,12 @@ Botan_Main_Rocker,MissingNo. are actually just~ghosts.
 Botan_Main_FatGuy,Yeah! Team Rocket is gone!~It's safe to go out again!
 Botan_Main_Beauty,The Haunted Forest is really spooky.
 Botan_Main_RocketGrunt_GetOutOfTheWay,Get out of the way!
+Botan_Main_RocketGrunt_GetLost,Get lost, kid!
 Botan_Main_RocketGrunt_WhatDoYouWant,What do you want? Get lost!
 Botan_Main_RocketGrunt_WeAreTakingTheTown,We're takin' the town!
 Botan_Main_RocketGrunt_TeamRocketWillBeRich,When the warehouse is ours,~Team Rocket will be rich!
+Botan_Main_RocketGrunt_NotAllowed,You're not allowed to pass!*Got a problem with that?~Talk to the boss!
+Botan_Main_RocketGrunt_Sleeping,...~Snore...*Hah! He's taking a snooze!
 
 Botan_PokeMart_Guy,This place is better than~any 7-Eleven!
 Botan_PokeMart_Girl,Revive is costly, but it revives~fainted Pokémon!
