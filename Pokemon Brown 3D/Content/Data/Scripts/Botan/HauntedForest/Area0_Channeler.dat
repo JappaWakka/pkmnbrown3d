@@ -1,0 +1,11 @@
+version=2
+
+@Text.Show(<system.token(Botan_HauntedForest_Area0_Channeler_Start)>)
+@Screen.FadeOutColor(255,255,255)
+@Screen.FadeOut(8)
+@Camera.Update
+@Pokemon.Heal
+@Screen.FadeIn(8)
+@Screen.FadeOutColor
+@Text.Show(<system.token(Botan_HauntedForest_Area0_Channeler_End)>)
+:end

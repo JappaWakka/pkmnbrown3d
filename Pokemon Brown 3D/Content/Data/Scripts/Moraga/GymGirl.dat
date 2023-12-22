@@ -1,8 +1,0 @@
-version=2
-
-:if:<Register.Registered(sproutbadge_obtain)>=False
-	@Text.Show(<system.token(Moraga_Gym_GymGirl_BeforeBadge)>)
-:else
-	@Text.Show(<system.token(Moraga_Gym_GymGirl_AfterBadge)>)
-:endif
-:end

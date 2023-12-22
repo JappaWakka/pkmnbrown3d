@@ -39,7 +39,7 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[6,0,6]}}{"TextureID"{str[AdultWoman_Red]}}{"ID"{int[1]}}{"Name"{str[Adult Woman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_HauntedForest_Area0_AdultWoman)>]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[15,0,11]}}{"TextureID"{str[PokeFan_Female_Red]}}{"ID"{int[2]}}{"Name"{str[Female PokéFan]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_HauntedForest_Area0_PokeFan_Female)>]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[YoungGirl_Blue]}}{"ID"{int[3]}}{"Name"{str[Young Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_HauntedForest_Area0_YoungGirl)>]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[17,0,5]}}{"TextureID"{str[Channeler]}}{"ID"{int[4]}}{"Name"{str[Channeler]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_HauntedForest_Area0_Channeler)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[17,0,5]}}{"TextureID"{str[Channeler]}}{"ID"{int[4]}}{"Name"{str[Channeler]}}{"Action"{int[1]}}{"AdditionalValue"{str[Botan\HauntedForest\Area0_Channeler]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Haunted Forest Exit (4x2y4z):
 	{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Botan_FlatRoof_4x2y6z_ForestGate_Dark]}}{"Offset"{sngArr[9,0,16]}}]}}
