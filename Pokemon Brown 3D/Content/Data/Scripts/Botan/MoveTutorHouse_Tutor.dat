@@ -1,0 +1,26 @@
+version=2
+@Text.Show(<system.token(Botan_MoveTutorHouse_MoveTutor_Intro)>)
+@options.SetCancelIndex(1)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+:when:<system.token(global_yes)>
+	:if:1000><player.money>
+		@Text.Show(<system.token(Botan_MoveTutorHouse_MoveTutor_NotEnoughMoney)>)
+		:end
+	:else
+		@Text.Show(<system.token(Botan_MoveTutorHouse_MoveTutor_WhichPokemon)>)
+		@Pokemon.Select(1,1,0)
+		:if:<not><pokemon.selected>=-1
+			@Text.Show(<system.token(Botan_MoveTutorHouse_MoveTutor_WhichMove)>)
+			@Screen.TeachMoves(<pokemon.selected>,<pokemon.levelattacks(<pokemon.selected>)>)
+			:if:<Pokemon.LearnedTutorMove>=true
+				@Player.RemoveMoney(1000)
+			:endif
+		:endif
+		@Text.Show(<system.token(Botan_MoveTutorHouse_MoveTutor_Outro)>)
+		:end
+	:endif
+:when:<system.token(global_no)>
+	@Text.Show(<system.token(Botan_MoveTutorHouse_MoveTutor_Outro)>)
+	:end
+:endwhen
+:end

@@ -337,12 +337,14 @@ Buildings:
 	Mr Rumiko's House (4x1y2z)
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Botan_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[19,0,7]}}]}}
 		
-	Rest House
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Botan_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[27,0,19]}}]}}
+	Move Tutor House
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Botan_SlopeRoof_4x1y2z_EntranceNoBackWindow]}}{"Offset"{sngArr[27,0,19]}}]}}
+	
+	Slumberwood Inn
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Botan_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[31,0,13]}}]}}
 		
 	Slope Roof Buildings (4x1y2z)
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Botan_SlopeRoof_4x1y2z]}}{"Offset"{sngArr[19,0,13]}}]}}
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Botan_SlopeRoof_4x1y2z]}}{"Offset"{sngArr[31,0,13]}}]}}
 		
 	Route 59 Gate
 		Floors
@@ -350,7 +352,7 @@ Buildings:
 				{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[0,0,9]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,0,16,16]}}{"HasSnow"{bool[0]}}]}}
 				{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[6,0,9]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[224,16,16,16]}}{"HasSnow"{bool[0]}}]}}
 			Doormat
-				{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
+				{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
 		
 		Walls
 			South
@@ -474,8 +476,11 @@ Warps:
 	Mr. Rumiko's House
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[20,0,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\MrRumikoHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
 	
+	Move Tutor House
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[28,0,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\MoveTutorHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+	
 	Slumberwood Inn
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[28,0,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\SlumberwoodInn.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[32,0,14]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\SlumberwoodInn.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
 
 	Route 58 Gate
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,41]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route58-Botan.dat,3,0.1,-1,0]}}{"Rotation"{int[2]}}]}}

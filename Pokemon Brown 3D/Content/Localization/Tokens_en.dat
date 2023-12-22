@@ -4022,6 +4022,18 @@ Botan_TradeHouse_EeveeTrade_CatchLocation,in Botan City
 
 Botan_SlumberwoodInn_Hostess,Hello, deary.~Oh my! You look weary!*Pick any bed you like and take~a nice long rest.*You'll feel better than by~visiting those PokéCenters!
 
+Botan_MoveTutorHouse_MoveTutor_Intro,I tutor children, but I also~tutor Pokémon.*I teach them to remember~moves they forgot.*$1000 per lesson.~How about it?
+Botan_MoveTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
+Botan_MoveTutorHouse_MoveTutor_WhichPokemon,Which Pokémon should I tutor?
+Botan_MoveTutorHouse_MoveTutor_WhichMove,Which move should it learn?
+Botan_MoveTutorHouse_MoveTutor_Outro,If any of your Pokémon need~to remember a move,~come visit me!
+Botan_MoveTutorHouse_MoveDeleter_Intro,Mom says I'm so forgetful~that it is contagious.*Want me to make a Pokémon~forget a move?
+Botan_MoveTutorHouse_MoveDeleter_WhichPokemon,Which Pokémon should forget~a move?
+Botan_MoveTutorHouse_MoveDeleter_WhichMove,Which move should it forget,~then?
+Botan_MoveTutorHouse_MoveDeleter_MakeItForget,Make it forget~<Pokemon.AttackName(<Pokemon.Selected>,<Pokemon.SelectedMove>)>?
+Botan_MoveTutorHouse_MoveDeleter_MoveIsForgotten,<Pokemon.AttackName(<Pokemon.Selected>,<Pokemon.SelectedMove>)> was~forgotten!
+Botan_MoveTutorHouse_MoveDeleter_Outro,Come visit me again!
+
 Botan_Cave_DynamiteMiner,Hahaha!*I love setting dynamite down!
 Botan_Cave_ExplanationMiner,When this cave is destroyed,~we can start building that~high-speed railway to Naljo!
 Botan_Cave_KarmaMiner_BeforeTalking,This shiny Red Orb I found~while blowing rocks up is mine!*MINE!*Oh wait, that's bad karma.*I have to be a nice person~right?*Fine, I'll be a good Buddhist~and give this to you to gain~good karma.

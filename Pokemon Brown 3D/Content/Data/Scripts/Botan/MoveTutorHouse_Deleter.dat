@@ -1,0 +1,37 @@
+version=2
+@Text.Show(<system.token(Botan_MoveTutorHouse_MoveDeleter_Intro)>)
+@options.SetCancelIndex(1)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+:when:<system.token(global_yes)>
+	@Text.Show(<system.token(Botan_MoveTutorHouse_MoveDeleter_WhichPokemon)>)
+	@Pokemon.Select(1,1,0)
+	:if:<pokemon.selected>=-1
+		@Text.Show(<system.token(Botan_MoveTutorHouse_MoveDeleter_Outro)>)
+		:end
+	:else
+		@storage.set(bool,ForgetMove,false)
+		:while:<storage.get(bool,ForgetMove)>=false
+			@Text.Show(<system.token(Botan_MoveTutorHouse_MoveDeleter_WhichMove)>)
+			@Pokemon.SelectMove(<Pokemon.Selected>,0,1)
+			:if:<Pokemon.SelectedMove>=-1
+				:exitwhile
+			:else
+				@Text.Show(<system.token(Botan_MoveTutorHouse_MoveDeleter_MakeItForget)>)
+				@options.SetCancelIndex(1)
+				@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@Text.Show(<system.token(Botan_MoveTutorHouse_MoveDeleter_MoveIsForgotten)>)
+					@Pokemon.RemoveAttack(<Pokemon.Selected>,<Pokemon.SelectedMove>)
+					@storage.set(bool,ForgetMove,true)
+				:endwhen
+			:endif
+		:endwhile
+		@Text.Show(<system.token(Botan_MoveTutorHouse_MoveDeleter_Outro)>)
+		:end
+			
+	:endif
+:when:<system.token(global_no)>
+	@Text.Show(<system.token(Botan_MoveTutorHouse_MoveDeleter_Outro)>)
+	:end
+:endwhen
+:end
