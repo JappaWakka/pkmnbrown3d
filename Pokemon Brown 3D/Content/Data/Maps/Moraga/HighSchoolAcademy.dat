@@ -45,8 +45,8 @@ Furniture:
 		ScriptBlock
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Generic_Bookshelf_PokemonBooks)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	Blackboard
-		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0.5,-0.995]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,240,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,0.5,-0.995]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,240,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0.5,-0.99]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,240,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,0.5,-0.99]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,240,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
 		Scriptblocks
 			{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Moraga\Blackboard]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
