@@ -19,15 +19,15 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[14,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[10,2]}}{"Position"{intArr[4,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[4,4]}}{"Position"{intArr[18,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[14,0,22]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[20,0,22]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[4,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[4,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[18,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[32,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[32,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[32,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[36,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[36,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[36,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[26,2]}}{"Position"{intArr[8,0,28]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 
 	Brick Path
 		{"Floor"{ENT[{"Size"{intArr[2,6]}}{"Position"{intArr[16,0,4]}}{"TexturePath"{str[Cities\Castro]}}{"Texture"{rec[0,64,16,16]}}]}}
@@ -40,9 +40,6 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[28,0,6]}}{"TexturePath"{str[Cities\Castro]}}{"Texture"{rec[0,64,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[28,0,12]}}{"TexturePath"{str[Cities\Castro]}}{"Texture"{rec[0,64,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[24,2]}}{"Position"{intArr[10,0,18]}}{"TexturePath"{str[Cities\Castro]}}{"Texture"{rec[0,64,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,6]}}{"Position"{intArr[18,0,22]}}{"TexturePath"{str[Cities\Castro]}}{"Texture"{rec[0,64,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[22,2]}}{"Position"{intArr[8,0,28]}}{"TexturePath"{str[Cities\Castro]}}{"Texture"{rec[0,64,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[6,0,30]}}{"TexturePath"{str[Cities\Castro]}}{"Texture"{rec[0,64,16,16]}}]}}
 
 	Under Flowers
 		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,1]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[48,16,16,16]}}]}}
@@ -167,11 +164,17 @@ Docks:
 	{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[18,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
 	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,-0.625,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[18,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
-	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,-0.625,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Floor"{ENT[{"Size"{intArr[2,6]}}{"Position"{intArr[18,0,22]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,-0.625,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[16,0,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
-	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[6,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,-0.625,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[16,0,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[6,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,-0.625,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[16,0,36]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,-0.625,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[20,0,36]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20,-0.625,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Flowers:
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[0.25,-0.25,0.25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[72,8,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[-0.25]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[Outside]}}{"AnimationData"{intArr2D[[72,8,8,8,1,3,5,0,0]]}}{"Rotation"{int[0]}}]}}
@@ -234,59 +237,69 @@ Flowers:
 Water:
 	Regular Water
 		{"EntityField"{ENT[{"Size"{intArr[4,6]}}{"EntityID"{str[Water]}}{"Position"{sngArr[9,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[10,16]}}{"EntityID"{str[Water]}}{"Position"{sngArr[33,-0.25,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[2,14]}}{"EntityID"{str[Water]}}{"Position"{sngArr[31,-0.25,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[5,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[5,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[20,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[8,3]}}{"EntityID"{str[Water]}}{"Position"{sngArr[35,-0.25,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[7,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[36,-0.25,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[2,12]}}{"EntityID"{str[Water]}}{"Position"{sngArr[31,-0.25,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[3,12]}}{"EntityID"{str[Water]}}{"Position"{sngArr[11,-0.25,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[14,-0.25,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[11,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[20,-0.25,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[14,-0.25,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[8,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[23,-0.25,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,12]}}{"EntityID"{str[Water]}}{"Position"{sngArr[33,-0.25,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[7,11]}}{"EntityID"{str[Water]}}{"Position"{sngArr[24,-0.25,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[9,11]}}{"EntityID"{str[Water]}}{"Position"{sngArr[34,-0.25,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[23,10]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-12,-0.25,33]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[10,9]}}{"EntityID"{str[Water]}}{"Position"{sngArr[14,-0.25,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[2,9]}}{"EntityID"{str[Water]}}{"Position"{sngArr[14,-0.25,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[2,9]}}{"EntityID"{str[Water]}}{"Position"{sngArr[22,-0.25,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[2,4]}}{"EntityID"{str[Water]}}{"Position"{sngArr[18,-0.25,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[6,3]}}{"EntityID"{str[Water]}}{"Position"{sngArr[16,-0.25,40]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 		
 	Waterside Sides (Direction = Where the water is)
 		South
 			{"EntityField"{ENT[{"Size"{intArr[9,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[9,-0.25,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[13,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[20,-0.25,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[9,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[34,-0.25,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[31,-0.25,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[7,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[11,-0.25,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[10,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[20,-0.25,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[11,-0.25,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[11,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[23,-0.25,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[22,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-12,-0.25,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			
 		North
-			{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[14,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[20,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[26,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[14,-0.25,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[20,-0.25,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[9,-0.25,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[33,-0.25,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 			
 		West
 			{"EntityField"{ENT[{"Size"{intArr[1,5]}}{"EntityID"{str[Water]}}{"Position"{sngArr[33,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,5]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[25,-0.25,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,3]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,24]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[15,-0.25,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
 			
 		East
 			{"EntityField"{ENT[{"Size"{intArr[1,6]}}{"EntityID"{str[Water]}}{"Position"{sngArr[8,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[24,-0.25,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,6]}}{"EntityID"{str[Water]}}{"Position"{sngArr[32,-0.25,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[30,-0.25,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,5]}}{"EntityID"{str[Water]}}{"Position"{sngArr[32,-0.25,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[34,-0.25,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[22,-0.25,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			
 	Waterside Counter-Clockwise Corners (Direction = Where the water is)
 		NorthWest
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[25,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
 		
 		NorthEast
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[24,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[32,-0.25,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[34,-0.25,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 			
 		SouthWest
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[33,-0.25,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[15,-0.25,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			
 		SouthEast
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[32,-0.25,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[30,-0.25,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[34,-0.25,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[22,-0.25,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			
 	Waterside Clockwise Corners (Direction = Where the water is)
 		NorthWest
@@ -294,33 +307,36 @@ Water:
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[1]}}]}}
 				
 		NorthEast
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[24,-0.25,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[8,-0.25,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[32,-0.25,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 				
 		SouthWest
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[33,-0.25,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[15,-0.25,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			
 		SouthEast
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[8,-0.25,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[30,-0.25,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[22,-0.25,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 		
 
 Large Rocks:
-	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[32,-0.25,26]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[34,-0.25,30]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[2,-0.25,32]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[14,-0.25,32]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[22,-0.25,32]}}]}}
 
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light_Half_South]}}{"Offset"{sngArr[12,0,-1]}}]}}
 	
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[16,0,30]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[20,0,30]}}]}}
+	
 Water Obstacles:
-	{"EntityField"{ENT[{"Size"{intArr[1,3]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[32,-0.20,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[1,3]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[33,-0.20,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[26,-0.20,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[32,-0.20,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[33,-0.20,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,-0.20,33]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[24,-0.20,33]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[24,-0.20,33]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,-0.20,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,-0.20,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[28,-0.20,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -332,8 +348,11 @@ Signs:
 	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[21,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_City)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[21,-0.15,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[20,0,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[GymSigns\Castro]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[20,-0.15,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[23,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_Gym)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[23,-0.15,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[31,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_KoolboymanMansion)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[31,-0.15,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[5,0,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_Forest)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[5,-0.15,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -561,11 +580,30 @@ NPCs:
 	
 	{"NPC"{NPC[{"Position"{sngArr[8,0,29]}}{"TextureID"{str[Sailor]}}{"ID"{int[5]}}{"Name"{str[Sailor]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sailor_Other)>]}}{"Rotation"{int[0]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[8,29,4,1]]}}]}}
 
+Invisible Collisions:
+	{"EntityField"{ENT[{"Size"{intArr[2,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,0,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,0,40]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20,0,40]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
+
 S.S. Anne:
 	Model
-		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,-0.75,35]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\SSAnne\SSAnne]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,-0.75,38]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\SSAnne\SSAnne]}}{"Rotation"{int[1]}}]}}
 	Collisions
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
+Ferry Boat:
+	Model
+		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[21.25,-0.75,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\FerryBoat\FerryBoat]}}{"Rotation"{int[2]}}]}}
+	Collisions
+		{"EntityField"{ENT[{"Size"{intArr[1,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[22,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
+Truck:
+	Model
+		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16.5,-0.5,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\HarborTruck\HarborTruck]}}{"Rotation"{int[3]}}]}}
+	Collisions
+		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,0,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+
 
 Warps:
 	PokeMart
@@ -589,15 +627,10 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[22,0,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Castro.dat,4,0.1,17,0]}}{"Rotation"{int[0]}}]}}
 
 	Koolboyman Mansion
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[28,0,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\KoolboyMansion\1F.dat,4,0.1,27,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[28,0,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\1F.dat,4,0.1,28,0]}}{"Rotation"{int[0]}}]}}
 
 	Castro Forest Gate
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\CastroValley-CastroForest.dat,4,0.1,7,0]}}{"Rotation"{int[0]}}]}}
-
-		
-Items:
-	Evolution Tool
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[21,-0.375,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm1]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 
 Backdrops:
 	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-12.5,-0.75,42.5]}}{"Size"{intArr[55,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}

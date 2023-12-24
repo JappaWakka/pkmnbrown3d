@@ -1,5 +1,5 @@
-{"Level"{LEV[{"Name"{str[Koolboy Mansion]}}{"MusicLoop"{str[SilphCoWarehouse]}}{"WildPokemon"{bool[1]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[Castro\KoolboyMansion\DoorChange]}}]}}
+{"Level"{LEV[{"Name"{str[Koolboyman Mansion]}}{"MusicLoop"{str[SilphCoWarehouse]}}{"WildPokemon"{bool[1]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[Castro\KoolboymanMansion\DoorChange]}}]}}
 
 Floors:
 	Regular Tiles
@@ -349,11 +349,11 @@ Plant:
 
 Stairs to 2F:
 	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Mansion_Up_West]}}{"Offset"{sngArr[5,0,8]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,8]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\KoolboyMansion\1F_Stairs_Up]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,8]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\1F_Stairs_Up]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Ladder to B1F:
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[21,0,23]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[21,0,23]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\KoolboyMansion\1F_Ladder_Down]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[21,0,23]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\1F_Ladder_Down]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Door Warps:
 	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,28]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[0,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Main.dat,28,0.1,27,0]}}{"Rotation"{int[2]}}]}}
@@ -365,13 +365,13 @@ Door Warps:
 
 Locked Doors:
 	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,0,8]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[0,112,16,16][16,112,4,16][20,112,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[15,0,8]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboyMansion\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[15,0,8]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 	{"EntityField"{ENT[{"ID"{int[1]}}{"Size"{intArr[1,2]}}{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25,0,12]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[0,112,16,16][16,112,4,16][20,112,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-	{"EntityField"{ENT[{"ID"{int[1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[25,0,12]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboyMansion\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"EntityField"{ENT[{"ID"{int[1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[25,0,12]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[21,0,16]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[0,112,16,16][16,112,4,16][20,112,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[21,0,16]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboyMansion\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[21,0,16]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Switch:
 	Sides(Direction = Facing):
@@ -395,7 +395,7 @@ Switch:
 		{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,1,4]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[96,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 	
 	ScriptBlock
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,0,5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboyMansion\SecretSwitch]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,0,5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\SecretSwitch]}}{"Rotation"{int[0]}}]}}
 	
 NPC:
 	{"NPC"{NPC[{"Position"{sngArr[18,0,14]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Scientist Jin]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\CastroMansion\001]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

@@ -521,7 +521,7 @@ Places_Game Corner,Game Corner
 Places_City Underpass,City Underpass
 Places_Dock Underpass,Dock Underpass
 Places_Castro Valley,Castro Valley
-Places_Koolboy Mansion,Koolboy Mansion
+Places_Koolboyman Mansion,Koolboyman Mansion
 Places_Merson Cave Entrance,Merson Cave Entrance
 Places_Merson Cave,Merson Cave
 Places_Mt. Boulder,Mt. Boulder
@@ -4139,8 +4139,8 @@ Castro_Main_Sailor_Other,S.S. Anne is a famous luxury~cruise ship.
 Castro_Main_Marill_Cry,Marill: Marill Marill!*It looks lost...
 Castro_Main_Sign_City,Castro Valley*The courtly little port town.
 Castro_Main_Sign_Forest,Castro Forest Entrance
-Castro_Main_Sign_Gym_BeforeDefeat,Castro Valley Pokémon Gym~Leader: Koji*Winning Trainers:~Mura
-Castro_Main_Sign_Gym_AfterDefeat,Castro Valley Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<player.name>
+Castro_Main_Sign_Gym,Castro Valley~Pokémon Gym~Leader: Koji*Calm as a breeze, overwhelming~as a storm!
+Castro_Main_Sign_KoolboymanMansion,Koolboyman's Mansion
 
 Castro_PokeCenter_BenchGuy,This couch is so comfy.~I could sit on it for days!
 Castro_PokeCenter_Gentleman,I wish I could travel to~unfamiliar regions...
@@ -4186,31 +4186,31 @@ Castro_Gym_LeaderKoji_AfterBattle2,TM 01 contains Dynamic Punch!~It can miss, bu
 Castro_Gym_LeaderKoji_DefeatMessage,Koji: Humph! You have proven~your worth!*Here! You deserve the Fist~Badge!
 Castro_Gym_LeaderKoji_TalkAgain,Koji: Dynamic Punch can often~miss but if it works it'll~deal a great amount of damage~and confuse your foe!
 
-Castro_KoolboyMansion_SecretSwitch_Question,A secret switch!*Press it?
-Castro_KoolboyMansion_SecretSwitch_Answer_Yes,Who wouldn't?
-Castro_KoolboyMansion_SecretSwitch_Answer_No,Not quite yet!
-Castro_KoolboyMansion_LockedDoor,This door is locked.
-Castro_KoolboyMansion_1F_ScientistJin_IntroMessage,Woah! Where did you come from?
-Castro_KoolboyMansion_1F_ScientistJin_OutroMessage,I should study those warp pads!
-Castro_KoolboyMansion_1F_ScientistJin_DefeatMessage,Are MissingNo. bothering you? Get a Virus Scanner!
-Castro_KoolboyMansion_2F_RegionMap,It's a map of another region.*Which one could it be?
-Castro_KoolboyMansion_2F_Diary,Dear Diary, some people really~take things out of context!*...Better leave this be.
-Castro_KoolboyMansion_2F_BurglarKazuya_IntroMessage,This mansion has nothing to loot!
-Castro_KoolboyMansion_2F_BurglarKazuya_OutroMessage,Maybe there's something behind~one of those locked doors!
-Castro_KoolboyMansion_2F_BurglarKazuya_DefeatMessage,There must be a switch somewhere.
-Castro_KoolboyMansion_3F_BurglarTodd_IntroMessage,Wanna help me?
-Castro_KoolboyMansion_3F_BurglarTodd_OutroMessage,Don't call the cops on me!
-Castro_KoolboyMansion_3F_BurglarTodd_DefeatMessage,There's nothing here anyway!
-Castro_KoolboyMansion_3F_30YearsCave,A strange cave appears on~Route 52 every 30 years.*Huh. Interesting...
-Castro_KoolboyMansion_3F_ScientistNils_IntroMessage,I dare you to step on a warp~pad!
-Castro_KoolboyMansion_3F_ScientistNils_OutroMessage,Don't worry! It's perfectly safe!
-Castro_KoolboyMansion_3F_ScientistNils_DefeatMessage,These warp pads are one way~only!
-Castro_KoolboyMansion_B1F_ScientistZac_IntroMessage,This place is really big!
-Castro_KoolboyMansion_B1F_ScientistZac_OutroMessage,What was that for?
-Castro_KoolboyMansion_B1F_ScientistZac_DefeatMessage,Darn!
-Castro_KoolboyMansion_B1F_BurglarJacey_IntroMessage,Sweet basement!
-Castro_KoolboyMansion_B1F_BurglarJacey_OutroMessage,Awooh!
-Castro_KoolboyMansion_B1F_BurglarJacey_DefeatMessage,I want a basement like this!
+Castro_KoolboymanMansion_SecretSwitch_Question,A secret switch!*Press it?
+Castro_KoolboymanMansion_SecretSwitch_Answer_Yes,Who wouldn't?
+Castro_KoolboymanMansion_SecretSwitch_Answer_No,Not quite yet!
+Castro_KoolboymanMansion_LockedDoor,This door is locked.
+Castro_KoolboymanMansion_1F_ScientistJin_IntroMessage,Woah! Where did you come from?
+Castro_KoolboymanMansion_1F_ScientistJin_OutroMessage,I should study those warp pads!
+Castro_KoolboymanMansion_1F_ScientistJin_DefeatMessage,Are MissingNo. bothering you? Get a Virus Scanner!
+Castro_KoolboymanMansion_2F_RegionMap,It's a map of another region.*Which one could it be?
+Castro_KoolboymanMansion_2F_Diary,Dear Diary, some people really~take things out of context!*...Better leave this be.
+Castro_KoolboymanMansion_2F_BurglarKazuya_IntroMessage,This mansion has nothing to loot!
+Castro_KoolboymanMansion_2F_BurglarKazuya_OutroMessage,Maybe there's something behind~one of those locked doors!
+Castro_KoolboymanMansion_2F_BurglarKazuya_DefeatMessage,There must be a switch somewhere.
+Castro_KoolboymanMansion_3F_BurglarTodd_IntroMessage,Wanna help me?
+Castro_KoolboymanMansion_3F_BurglarTodd_OutroMessage,Don't call the cops on me!
+Castro_KoolboymanMansion_3F_BurglarTodd_DefeatMessage,There's nothing here anyway!
+Castro_KoolboymanMansion_3F_30YearsCave,A strange cave appears on~Route 52 every 30 years.*Huh. Interesting...
+Castro_KoolboymanMansion_3F_ScientistNils_IntroMessage,I dare you to step on a warp~pad!
+Castro_KoolboymanMansion_3F_ScientistNils_OutroMessage,Don't worry! It's perfectly safe!
+Castro_KoolboymanMansion_3F_ScientistNils_DefeatMessage,These warp pads are one way~only!
+Castro_KoolboymanMansion_B1F_ScientistZac_IntroMessage,This place is really big!
+Castro_KoolboymanMansion_B1F_ScientistZac_OutroMessage,What was that for?
+Castro_KoolboymanMansion_B1F_ScientistZac_DefeatMessage,Darn!
+Castro_KoolboymanMansion_B1F_BurglarJacey_IntroMessage,Sweet basement!
+Castro_KoolboymanMansion_B1F_BurglarJacey_OutroMessage,Awooh!
+Castro_KoolboymanMansion_B1F_BurglarJacey_DefeatMessage,I want a basement like this!
 
 [Castro Valley - Castro Forest Gate]
 CastroValley_CastroForest_Gate_LittleGirl,Those Bug Catchers don't mess~around!
