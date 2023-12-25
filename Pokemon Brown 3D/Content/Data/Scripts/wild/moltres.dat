@@ -1,11 +1,14 @@
 version=2
 
-:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
-@Text.Show(Gyaao!)
-@battle.wildshiny(146,50)
+:if:<Register.Value(MoltresEnteiShiny)>=true
+	@Text.Show(<system.token(30YearsCave_Moltres)>)
+	@battle.wild(146,50,1)
 :else
-@Text.Show(Gyaao!)
-@battle.wild(146,50)
+	@Text.Show(<system.token(30YearsCave_Moltres)>)
+	@battle.wild(146,50,0)
+:endif
+:if:<battle.caught>=false
+	@Register.Register(ResetMoltres)
 :endif
 @register.unregister(Moltres)
 @level.reload

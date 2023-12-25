@@ -8,6 +8,9 @@ version=2
 	@Text.Show(<system.token(MtBoulder_B1F_Suicune_Cry)>)
 	@battle.wild(245,50,0)
 :endif
+:if:<battle.caught>=false
+	@Register.Register(ResetSuicune)
+:endif
 @register.unregister(Suicune)
 @level.reload
 

@@ -81,7 +81,7 @@ Ceiling:
 	
 Walls (Direction = Facing):
 	North
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,-1,9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,-1,9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 		
 		{"EntityField"{ENT[{"Size"{intArr[8,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,0,5]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[16,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[8,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,1,5]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[32,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}

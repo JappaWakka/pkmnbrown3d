@@ -2,7 +2,7 @@ version=2
 @Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Question)>)
 @options.show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Fighter)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Wizard)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Random)>)
 :when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Fighter)>
-	@Register.Register(Mew)
+	@Register.Register(Articuno)
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Fighter_Question)>)
 	@Options.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Fighter_Answer_Melee)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Fighter_Answer_Ranged)>)
 	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Fighter_Answer_Melee)>
@@ -36,7 +36,7 @@ version=2
 	:endwhen
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Finished_Answer)>)
 :when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Wizard)>
-	@Register.Register(MewTwo)
+	@Register.Register(Suicune)
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Wizard_Question)>)
 	@Options.Show(Fire,Water)
 	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step2_Wizard_Answer_Fire)>
@@ -61,20 +61,15 @@ version=2
 		@Register.Register(Zapdos)
 	:endwhen
 	
-	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Question)>)
-	@Options.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Answer_Direct)>,<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Answer_Vague)>)
-	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Answer_Direct)>
-		@Register.Register(Articuno)
-	:when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Answer_Vague)>
-		@Register.Register(Suicune)
-	:endwhen
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Finished_Answer)>)
+	@Register.Register(Mewtwo)
+	:end
 :when:<system.token(Seashore_PlayerHouse2F_SNES_Game_Step1_Answer_Random)>
 	:select:<system.random(0,1)>
 	:when:0
-	@Register.Register(Mew)
+	@Register.Register(Articuno)
 	:when:1
-	@Register.Register(MewTwo)
+	@Register.Register(Suicune)
 	:endwhen
 	
 	:select:<system.random(2,3)>
@@ -98,12 +93,8 @@ version=2
 	@Register.Register(Raikou)
 	:endwhen
 	
-	:select:<system.random(8,9)>
-	:when:8
-	@Register.Register(Articuno)
-	:when:9
-	@Register.Register(Suicune)
-	:endwhen
+	@Register.Register(Mewtwo)
+	
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES_Game_Finished_Random)>)
 :endwhen
 

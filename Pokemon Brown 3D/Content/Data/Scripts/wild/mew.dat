@@ -1,13 +1,23 @@
 version=2
+:if:<Register.Registered(MewShiny)>=false
+	:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
+		@Register.Register(MewShiny,bool,true)
+	:else
+		@Register.Register(MewShiny,bool,false)
+	:endif
+:endif
 
 @Pokemon.Cry(151)
-:if:<Register.Value(MewMewtwoShiny)>=true
-	@Text.Show(<system.token(Eagulou_Park_SecretCave_B2F_Mew)>)
+:if:<Register.Value(MewShiny)>=true
+	@Text.Show(<system.token(Castro_Main_Mew)>)
 	@battle.wild(151,50,1)
 :else
-	@Text.Show(<system.token(Eagulou_Park_SecretCave_B2F_Mew)>)
+	@Text.Show(<system.token(Castro_Main_Mew)>)
 	@battle.wild(151,50,0)
 :endif
+:if:<battle.caught>=false
+	@Register.Register(ResetMew)
+:endif
 @register.unregister(Mew)
-@level.reload
+@entity.Remove(7)
 :end

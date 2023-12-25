@@ -8,6 +8,9 @@ version=2
 	@Text.Show(<system.token(Route60_PowerPlant_Zapdos)>)
 	@battle.wild(145,50,0)
 :endif
+:if:<battle.caught>=false
+	@Register.Register(ResetZapdos)
+:endif
 @register.unregister(Zapdos)
 @level.reload
 :end

@@ -8,6 +8,9 @@ version=2
 	@Text.Show(<system.token(MtBoulder_B1F_Articuno_Cry)>)
 	@battle.wild(144,50,0)
 :endif
+:if:<battle.caught>=false
+	@Register.Register(ResetArticuno)
+:endif
 @register.unregister(Articuno)
 @level.reload
 :end

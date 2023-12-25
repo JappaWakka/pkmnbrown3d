@@ -1,0 +1,9 @@
+version=2
+:if:<register.registered(ReniflerIsland)>=true
+	@Entity.Remove(6)
+:endif
+:if:<register.registered(Mew)>=false
+	@entity.Remove(7)
+:endif
+
+:end

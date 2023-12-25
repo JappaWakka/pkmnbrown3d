@@ -2266,6 +2266,7 @@ item_pluralname_gm82,Surf Mails
 ----
 Item Descriptions:
 [Official Items]
+item_name_41,The ticket required for boarding the cruise ship S.S. Anne. It has a drawing of a ship on it.
 item_desc_54,A case for holding coins obtained at the Owsauri Game Corner.
 item_desc_127,A card key that opens a door in the Silph Co. Warehouse.
 item_desc_181,A special Pokéball that is used only in the Eagulou Park. It is decorated in a camouflage pattern.
@@ -3068,12 +3069,6 @@ Seashore_PlayerHouse2F_SNES_Game_Step4_Fighter_Answer_Power,Power
 Seashore_PlayerHouse2F_SNES_Game_Step4_Wizard_Question,How would your wizard~get past enemies?
 Seashore_PlayerHouse2F_SNES_Game_Step4_Wizard_Answer_Stealth,Stealth
 Seashore_PlayerHouse2F_SNES_Game_Step4_Wizard_Answer_Force,Force
-Seashore_PlayerHouse2F_SNES_Game_Step5_Fighter_Question,How would your fighter~act when being charmed?
-Seashore_PlayerHouse2F_SNES_Game_Step5_Fighter_Answer_Shy,Shy
-Seashore_PlayerHouse2F_SNES_Game_Step5_Fighter_Answer_Tough,Tough
-Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Question,How would your wizard act~when asked a question?
-Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Answer_Direct,Direct
-Seashore_PlayerHouse2F_SNES_Game_Step5_Wizard_Answer_Vague,Vague
 Seashore_PlayerHouse2F_SNES_Game_Finished_Answer,That's a solid character.*It did take a while. I should~probably get going.
 Seashore_PlayerHouse2F_SNES_Game_Finished_Random,I don't have time to play~this game. I should probably~get going.
 
@@ -4134,9 +4129,12 @@ Route58_InternationalTunnel_B1F_BorderPatrol,Border Patrol!*Without a passport y
 Castro_Main_OldLady,The S.S. Anne just came for its~final stop!
 Castro_Main_Gambler_Purple,Did you see S.S. Anne moored~in the harbor?
 Castro_Main_Gambler_Red,S.S. Anne won't leave for other~regions for 3 months, so~it rests here.
-Castro_Main_Sailor_Harbor,Welcome to S.S. Anne!
+Castro_Main_Sailor_Harbor,Welcome to the Castro Valley~Harbor!
+Castro_Main_Harbor_NoTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<player.name> doesn't have the~needed S.S. Ticket.*Sorry! You need a ticket to~get aboard.
+Castro_Main_Harbor_HaveTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<player.name> flashes the ticket.*Ah, good! Oh, but the~S.S. Anne will not be leaving~for a while. Perhaps that~other boat in the harbor still~needs passengers?
 Castro_Main_Sailor_Other,S.S. Anne is a famous luxury~cruise ship.
 Castro_Main_Marill_Cry,Marill: Marill Marill!*It looks lost...
+Castro_Main_Mew,Mew!
 Castro_Main_Sign_City,Castro Valley*The courtly little port town.
 Castro_Main_Sign_Forest,Castro Forest Entrance
 Castro_Main_Sign_Gym,Castro Valley~Pokémon Gym~Leader: Koji*Calm as a breeze, overwhelming~as a storm!
@@ -4454,7 +4452,6 @@ Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_OutroMessage,I don't believe it!
 Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_DefeatMessage,Strange sounds are coming from~the basement!*Scary!
 
 Eagulou_Park_SecretCave_B2F_Mewtwo,Mewtwo!
-Eagulou_Park_SecretCave_B2F_Mew,Mew!
 
 [Mt. Boulder]
 MtBoulder_B1F_Sign_Ruins,Mt. Boulder Ruins
@@ -4478,6 +4475,8 @@ MtBoulder_B1F_Suicune_Cry,Rrroar!
 30YearsCave_JugglerZac_IntroMessage,Is there anything here?*Maybe...
 30YearsCave_JugglerZac_OutroMessage,You got me!
 30YearsCave_JugglerZac_DefeatMessage,You're almost done!
+30YearsCave_Entei,Rrroar!
+30YearsCave_Moltres,Gyaao!
 
 [Route 65]
 Route65_Guard1_Start,You can pass here only if~you have the Marine Badge!

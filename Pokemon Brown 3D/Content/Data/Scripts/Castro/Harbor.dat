@@ -1,0 +1,21 @@
+version=2
+
+:if:<inventory.countitem(41)>=0
+	@NPC.Turn(4,1)
+	@Player.TurnTo(3)
+	@Text.Show(<system.token(Castro_Main_Harbor_NoTicket)>)
+	@NPC.Turn(4,0)
+	@Player.TurnTo(0)
+	@Player.Move(1)
+	:end
+:else
+	:if:<register.registered(ReniflerIsland)>=false <and> <player.facing>=2
+		@NPC.Turn(4,1)
+		@Player.TurnTo(3)
+		@Text.Show(<system.token(Castro_Main_Harbor_HaveTicket)>)
+		@NPC.Turn(4,0)
+		:end
+	:endif
+:endif	
+
+:end
