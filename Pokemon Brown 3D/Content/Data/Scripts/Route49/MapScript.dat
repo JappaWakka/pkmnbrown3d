@@ -1,0 +1,21 @@
+version=2
+:if:<player.position(z)><17 <or> <player.position(x)><9
+	:if:<player.ismoving>=true <or> <player.position(z)><6 <or> <player.position(x)>>34
+		@Storage.Set(bool,MoveForward,1)
+		@Player.StopMovement
+	:else
+		@Storage.Set(bool,MoveForward,0)
+	:endif
+	
+	:if:<player.position(x)><36
+		@Level.SetRideType(3)
+		:if:<inventory.countitem(6)>>0 <and> <level.riding>=false
+			@Item.Use(6)
+		:endif
+	:endif
+	
+	:if:<Storage.Get(bool,MoveForward)>=true
+		@Player.Move(1)
+	:endif
+:endif
+:end
