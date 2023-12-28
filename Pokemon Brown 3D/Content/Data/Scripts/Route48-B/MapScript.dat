@@ -1,5 +1,5 @@
 version=2
-:if:<player.ismoving>=true <or> <player.position(z)><6 <or> <player.position(x)>>34
+:if:<player.ismoving>=true
 	@Storage.Set(bool,MoveForward,1)
 	@Player.StopMovement
 :else

@@ -44,6 +44,9 @@ Tall Grass:
 
 Water:
 	Waterside Sides (Direction = Where the water is)
+		North
+			{"EntityField"{ENT[{"Size"{intArr[29,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-10,-0.25,-3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+			
 		East
 			{"EntityField"{ENT[{"Size"{intArr[1,13]}}{"EntityID"{str[Water]}}{"Position"{sngArr[30,-0.25,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 	
@@ -76,4 +79,6 @@ Offsets:
 Backdrops:
 	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[29.5,-0.75,40.5]}}{"Size"{intArr[1,1]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,22.5]}}{"Size"{intArr[71,18]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Route 49
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-10.5,-0.75,-18.5]}}{"Size"{intArr[29,15]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	
