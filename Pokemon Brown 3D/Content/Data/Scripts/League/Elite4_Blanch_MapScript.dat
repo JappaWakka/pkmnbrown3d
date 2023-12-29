@@ -6,7 +6,7 @@ version=2
 	@Level.Update
 :endif
 
-:if:<Register.Registered(EnterDrake)>=True
+:if:<Register.Registered(EnterBlanch)>=True
 	@entity.warp(2,~,~+3,~)
 	@entity.warp(3,~,~-3,~)
 	@level.update
@@ -38,7 +38,7 @@ version=2
 	@entity.warp(2,~,0,~)
 	@entity.warp(3,~,-3,~)
 	@level.update
-	@Register.Register(EnterDrake)
+	@Register.Register(EnterBlanch)
 :endif
 
 :end

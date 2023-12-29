@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Rijon League]}}{"MusicLoop"{str[League]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[League\Elite4_Drake_MapScript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[League\Elite4_Blanch_MapScript]}}]}}
 
 Floors:
 	Blue Bricks		
@@ -286,7 +286,7 @@ Invisible Obstacles:
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"ID"{int[0]}}{"Position"{sngArr[5,1,-1]}}{"TexturePath"{str[League]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[6,1,1]}}{"TextureID"{str[Drake]}}{"ID"{int[0]}}{"Name"{str[Elite 4 Drake]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\Elite4_Trainer_Drake]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[6,1,1]}}{"TextureID"{str[Blanch]}}{"ID"{int[0]}}{"Name"{str[Elite 4 Blanch]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\Elite4_Trainer_Blanch]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Warps:
 	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,1,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\Elite4\Champion.dat,6,0.1,14,0]}}{"Rotation"{int[0]}}]}}
