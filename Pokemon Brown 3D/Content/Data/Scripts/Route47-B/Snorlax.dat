@@ -1,0 +1,24 @@
+version=2
+
+:if:<inventory.countitem(gm9)>>0
+	@Text.Show(<system.token(Item_Use_PokeFlute)>)
+	@sound.play(PokeFlute,1)
+	@level.wait(450)
+	@Text.Show(<system.token(Route47B_Main_Snorlax_UsedPokeFlute)>)
+	:if:<Register.Value(snorlax47bshiny)>=true
+		@battle.wild(143,30,1)
+	:else
+		@battle.wild(143,30,0)
+	:endif
+	:if:<battle.caught>=true
+		@Text.Show(<system.token(Route47B_Main_Snorlax_Caught)>)
+	:else
+		@Text.Show(<system.token(Route47B_Main_Snorlax_Defeated)>)
+	:endif
+	@entity.remove(10)
+	@Register.Register(snorlax47b)
+:else
+	@Text.Show(<system.token(Route47B_Main_Snorlax_NoPokeFlute)>)
+:endif
+
+:end

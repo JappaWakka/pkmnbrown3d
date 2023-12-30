@@ -1,0 +1,42 @@
+version=2
+:if:<player.position(x)><20
+	:if:<player.ismoving>=true <or> <player.position(z)>>22 <or> <player.position(x)>>18
+		@Storage.Set(bool,MoveForward,1)
+		@Player.StopMovement
+	:else
+		@Storage.Set(bool,MoveForward,0)
+	:endif
+	
+	@Level.SetRideType(3)
+	:if:<inventory.countitem(6)>>0 <and> <level.riding>=false
+		@Item.Use(6)
+	:endif
+	
+	:if:<Storage.Get(bool,MoveForward)>=true
+		:if:<Level.Riding>=true
+			@Player.SetSpeed(2)
+		:else
+			:if:<Player.IsRunning>=true
+				@Player.SetSpeed(1.5)
+			:endif
+		:endif
+		@Player.Move(1)
+	:endif
+:endif
+:if:<Register.Registered(snorlax47b)>=True
+	@npc.remove(10)
+:else
+	:if:<Register.Registered(snorlax47bshiny)>=False
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+			@Register.Register(snorlax47bshiny,bool,true)
+			@Entity.SetModelPath(10,Models\SleepingSnorlax\Snorlax_Shiny)
+		:else
+			@Register.Register(snorlax47bshiny,bool,false)
+		:endif
+	:else
+		:if:<Register.Value(snorlax47bshiny)>=true
+			@Entity.SetModelPath(10,Models\SleepingSnorlax\Snorlax_Shiny)
+		:endif
+	:endif
+:endif
+:end
