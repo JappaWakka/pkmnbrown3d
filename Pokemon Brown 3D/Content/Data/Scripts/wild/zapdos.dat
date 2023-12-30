@@ -10,6 +10,8 @@ version=2
 :endif
 :if:<battle.caught>=false
 	@Register.Register(ResetZapdos)
+:else
+	@Register.Register(CaughtZapdos)
 :endif
 @register.unregister(Zapdos)
 @level.reload

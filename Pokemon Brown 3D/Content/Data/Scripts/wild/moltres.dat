@@ -9,6 +9,8 @@ version=2
 :endif
 :if:<battle.caught>=false
 	@Register.Register(ResetMoltres)
+:else
+	@Register.Register(CaughtMoltres)
 :endif
 @register.unregister(Moltres)
 @level.reload

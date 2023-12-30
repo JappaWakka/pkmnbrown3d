@@ -9,6 +9,8 @@ version=2
 :endif
 :if:<battle.caught>=false
 	@Register.Register(ResetEntei)
+:else
+	@Register.Register(CaughtEntei)
 :endif
 @register.unregister(Entei)
 @level.reload

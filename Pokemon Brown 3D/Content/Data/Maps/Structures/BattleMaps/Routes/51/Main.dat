@@ -4,7 +4,7 @@
 Floors:
 	Grass
 		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[30,38]}}{"Position"{intArr[-10,0,-2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
-		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[10,16]}}{"Position"{intArr[20,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[10,13]}}{"Position"{intArr[20,0,23]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
 		
 	Dirt
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[12,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
@@ -24,7 +24,7 @@ Jump Ledges:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Step]}}{"Position"{sngArr[13,0,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,16,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[7]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[Step]}}{"Position"{sngArr[13,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,16,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[7]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,16,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,1,1,1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[8]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,16,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,1,1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[8]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 
 Trees:
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[14,38]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[-10,0,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -36,38 +36,24 @@ Trees:
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[18,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[6,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[14,0,14]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[8,20]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[12,0,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[10,16]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[20,0,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[10,13]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[20,0,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Tall Grass:
-	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[8,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[4,0,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,20]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[10,0,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[8,2]}}{"EntityID"{str[Grass]}}{"Position"{sngArr[4,0,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,20]}}{"EntityID"{str[Grass]}}{"Position"{sngArr[10,0,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Water:
 	Waterside Sides (Direction = Where the water is)
+		North
+			{"EntityField"{ENT[{"Size"{intArr[29,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-10,-0.25,-3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+			
 		East
 			{"EntityField"{ENT[{"Size"{intArr[1,13]}}{"EntityID"{str[Water]}}{"Position"{sngArr[30,-0.25,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 	
-	Waterside Clockwise Corners (Direction = Where the water is)
-		SouthEast
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[30,-0.25,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[-1,-1,1,1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[10]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
-	
-
 Warps:
 	Route 50
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[20,0,10]}}{"SeasonTexture"{str[Grass]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\50\Main.dat,-3,0.1,10,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[20,0,11]}}{"SeasonTexture"{str[Grass]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\50\Main.dat,-3,0.1,11,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[20,0,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\50\Main.dat,-3,0.1,10,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[20,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\50\Main.dat,-3,0.1,11,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	Hayward City
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[10,0,36]}}{"SeasonTexture"{str[Grass]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,20,0.1,-1,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[11,0,36]}}{"SeasonTexture"{str[Grass]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,21,0.1,-1,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-
-Offsets:
-	{"OffsetMap"{MAP[{"Offset"{sngArr[-10,36]}}{"Map"{str[Hayward\Main.dat]}}]}}
-	{"OffsetMap"{MAP[{"Offset"{sngArr[22,0]}}{"Map"{str[Routes\50\Main.dat]}}]}}
-	{"OffsetMap"{MAP[{"Offset"{sngArr[20,-24]}}{"Map"{str[Routes\49\Main.dat]}}]}}
-	{"OffsetMap"{MAP[{"Offset"{sngArr[32,44]}}{"Map"{str[Routes\63\Main.dat]}}]}}
-	
-Backdrops:
-	{"Backdrop"{BAC[{"Position"{sngArr[29.5,-0.75,21.5]}}{"Size"{intArr[1,1]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[29.5,-0.75,40.5]}}{"Size"{intArr[1,1]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,22.5]}}{"Size"{intArr[71,18]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[10,0,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,20,0.1,-1,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[11,0,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,21,0.1,-1,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}

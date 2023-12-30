@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Route 48-B]}}{"MusicLoop"{str[RouteMusic1]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}{"RideType"{int[3]}}{"MapScript"{str[Route48-B\MapScript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}{"RideType"{int[3]}}]}}
 
 Floors:
 	Grass
@@ -269,47 +269,3 @@ Signs:
 		{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[10,0,51]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route_48B_Sign_RegionLimits)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[10,-0.15,51]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[8,0,119]}}{"TextureID"{str[Biker]}}{"ID"{int[0]}}{"Name"{str[Biker Donovan]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route48-B\000]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[14,0,100]}}{"TextureID"{str[CueBall]}}{"ID"{int[1]}}{"Name"{str[Cue Ball Tevin]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route48-B\001]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[6,0,98]}}{"TextureID"{str[Biker]}}{"ID"{int[2]}}{"Name"{str[Biker Frank]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route48-B\002]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[3,0,68]}}{"TextureID"{str[CueBall]}}{"ID"{int[3]}}{"Name"{str[Cue Ball Wesley]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route48-B\003]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[18,0,58]}}{"TextureID"{str[CueBall]}}{"ID"{int[4]}}{"Name"{str[Cue Ball Hayden]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route48-B\004]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[15,0,34]}}{"TextureID"{str[Biker]}}{"ID"{int[5]}}{"Name"{str[Biker Wilder]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route48-B\005]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[8,0,32]}}{"TextureID"{str[Biker]}}{"ID"{int[6]}}{"Name"{str[Biker Damion]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route48-B\006]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[13,0,19]}}{"TextureID"{str[CueBall]}}{"ID"{int[7]}}{"Name"{str[Cue Ball Gordon]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route48-B\007]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[12,0,16]}}{"TextureID"{str[CueBall]}}{"ID"{int[8]}}{"Name"{str[Cue Ball Monty]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\route48-B\008]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[6,0,17]}}{"TextureID"{str[Biker]}}{"ID"{int[9]}}{"Name"{str[Biker Dawson]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route48-B\006]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	
-Warps:
-	Route 49
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[7,0,144]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,7,0.1,5,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,0,144]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,8,0.1,5,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[9,0,144]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,9,0.1,5,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[10,0,144]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,10,0.1,5,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[11,0,144]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,11,0.1,5,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,144]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,12,0.1,5,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[13,0,144]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,13,0.1,5,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[14,0,144]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,14,0.1,5,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-
-Offsets:
-	Route 49
-		{"OffsetMap"{MAP[{"Offset"{sngArr[0,138]}}{"Map"{str[Routes\49\Main.dat]}}]}}
-		
-	Route 50
-		{"OffsetMap"{MAP[{"Offset"{sngArr[2,162]}}{"Map"{str[Routes\50\Main.dat]}}]}}
-	
-	Route 51
-		{"OffsetMap"{MAP[{"Offset"{sngArr[-20,162]}}{"Map"{str[Routes\51\Main.dat]}}]}}
-	
-Backdrops:
-	Route 48-B
-		{"Backdrop"{BAC[{"Position"{sngArr[-30.5,-0.75,-1.5]}}{"Size"{intArr[29,145]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Position"{sngArr[22.5,-0.75,4.5]}}{"Size"{intArr[29,132]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Position"{sngArr[51.5,-0.75,4.5]}}{"Size"{intArr[1,126]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		
-	Route 49
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-30.5,-0.75,143.5]}}{"Size"{intArr[29,15]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	
-	Route 50
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[10.5,-0.75,184.5]}}{"Size"{intArr[42,13]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}

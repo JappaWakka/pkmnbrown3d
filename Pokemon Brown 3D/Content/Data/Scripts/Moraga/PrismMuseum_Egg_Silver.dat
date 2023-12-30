@@ -12,8 +12,13 @@ version=2
 			@storage.set(int,PokeShiny,0)
 		:endif
 		@Sound.Play(Success,1)
-		@Text.Show(<system.token(Morage_PrismMuseum_SilverEgg_ReceivedLugia)>)
-		@pokemon.add(249,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		:if:<Register.Registered(Raikou)>=true <or> <Register.Registered(ResetRaikou)>=true <or> <Register.Registered(CaughtRaikou)>=true
+			@Text.Show(<system.token(Morage_PrismMuseum_SilverEgg_ReceivedZapdos)>)
+			@pokemon.add(145,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		:else
+			@Text.Show(<system.token(Morage_PrismMuseum_SilverEgg_ReceivedRaikou)>)
+			@pokemon.add(243,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		:endif
 		@pokemon.rename(<math.int(<pokemon.count>-1)>)
 		:if:<pokemon.count>>6
 			@Text.Show(<system.token(Morage_PrismMuseum_PokemonToPC)>)

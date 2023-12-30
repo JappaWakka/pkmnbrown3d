@@ -10,6 +10,8 @@ version=2
 :endif
 :if:<battle.caught>=false
 	@Register.Register(ResetArticuno)
+:else
+	@Register.Register(CaughtArticuno)
 :endif
 @register.unregister(Articuno)
 @level.reload

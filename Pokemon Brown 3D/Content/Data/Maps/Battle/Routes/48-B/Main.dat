@@ -1,26 +1,26 @@
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
+{"Actions"{LEV[{"Lighting"{int[0]}}]}}
+BattleMapStructure:
+	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\Routes\48-B\Main.dat]}}{"Offset"{sngArr[3,0,-46]}}]}}
 
-Grass:
-{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[22,8]}}{"Position"{intArr[3,0,7]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
-
-Water:
-{"EntityField"{ENT[{"Size"{intArr[22,8]}}{"EntityID"{str[Water]}}{"Position"{sngArr[3,-0.25,16]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[0,16,16,16][144,16,16,16]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-
-Water Edges:
-{"EntityField"{ENT[{"Size"{intArr[22,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[3,-0.25,15]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[0,16,16,16][144,16,16,16]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-
-Path:
-{"Floor"{ENT[{"Size"{intArr[8,3]}}{"Position"{intArr[10,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
-
-Trees:
-{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[22,4]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[3,0.3,7]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[112,64,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[4,5]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[3,0.3,10]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[112,64,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[4,5]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[20,0.3,10]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[112,64,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-
-Bridge:
-{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,8]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,-0.625,15]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-
-Fences:
-{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,0,8]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[112,32,16,16][128,32,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-
-
+Offsets:
+	Route 49
+		{"OffsetMap"{MAP[{"Offset"{sngArr[3,92]}}{"Map"{str[Routes\49\Main.dat]}}]}}
+		
+	Route 50
+		{"OffsetMap"{MAP[{"Offset"{sngArr[5,116]}}{"Map"{str[Routes\50\Main.dat]}}]}}
+	
+	Route 51
+		{"OffsetMap"{MAP[{"Offset"{sngArr[-17,116]}}{"Map"{str[Routes\51\Main.dat]}}]}}
+	
+Backdrops:
+	Route 48-B
+		{"Backdrop"{BAC[{"Position"{sngArr[-27.5,-0.75,-47.5]}}{"Size"{intArr[29,145]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Position"{sngArr[25.5,-0.75,-41.5]}}{"Size"{intArr[29,132]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Position"{sngArr[54.5,-0.75,-41.5]}}{"Size"{intArr[1,126]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		
+	Route 49
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-27.5,-0.75,97.5]}}{"Size"{intArr[29,15]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	
+	Route 50
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[10.5,-0.75,138.5]}}{"Size"{intArr[42,13]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		

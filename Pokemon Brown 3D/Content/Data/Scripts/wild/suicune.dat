@@ -10,6 +10,8 @@ version=2
 :endif
 :if:<battle.caught>=false
 	@Register.Register(ResetSuicune)
+:else
+	@Register.Register(CaughtSuicune)
 :endif
 @register.unregister(Suicune)
 @level.reload
