@@ -168,8 +168,8 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[24,0,7]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[2]}}{"Name"{str[Jr. Trainer♂ Blake]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\002]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[22,0,2]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[3]}}{"Name"{str[Bug Catcher Leo]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\003]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[31,0,7]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[4]}}{"Name"{str[Jr. Trainer♂ Michael]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\route63\004]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[39,0,8]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[5]}}{"Name"{str[Bug Catcher Christian]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\005]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[49,0,8]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[6]}}{"Name"{str[Jr. Trainer♀ Samantha]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\006]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[40,0,8]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[5]}}{"Name"{str[Bug Catcher Christian]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\005]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[51,0,7]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[6]}}{"Name"{str[Jr. Trainer♀ Samantha]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route63\006]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Water:
 	Waterside Sides (Direction = Where the water is)
