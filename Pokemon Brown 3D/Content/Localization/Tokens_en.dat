@@ -554,10 +554,11 @@ Places_Castro Valley Gym,Castro Valley Gym
 Places_Out of City Gym,Out of City Gym
 Places_Eagulou City Gym,Eagulou City Gym
 Places_Azalea Town Gym,Azalea Town Gym
+
 Routes:
 Places_Route 34,Route 34
-Places_Route 47-B,Route 47-B
-Places_Route 48-B,Route 48-B
+Places_Old Route 47,Old Route 47
+Places_Old Route 48,Old Route 48
 Places_Route 49,Route 49
 Places_Route 50,Route 50
 Places_Route 51,Route 51
@@ -4576,69 +4577,74 @@ League_Champion_Mura_AfterDefeat4,Mura: <player.name>!*You see this big finger?~
 
 League_HallOfFame,Tim: Er-hem!~Congratulations, <player.name>!*Shall we put your Pokémon data~on the Hall of Fame website~for all to see and know about~your accomplishments?*<player.name>: Yeah, definitely!*Tim: Alright, here we go!*Mura, shouting in the distance:~I will become a LEGEND, you~just wait and see!
 
-[Route 48-B]
-Route48B_Sign_GoingUphill,Going uphill.
-Route48B_Sign_CyclingRoad,Cycling Road*Owsauri City - Azalea Town
-Route48B_Sign_RegionLimits,Johto - Rijon~Region Limits
-Route48B_BikerDonovan_IntroMessage,What a lame bike!
-Route48B_BikerDonovan_OutroMessage,Are you satisfied?
-Route48B_BikerDonovan_DefeatMessage,I don't like you!
-Route48B_CueBallTevin_IntroMessage,Conformist!
-Route48B_CueBallTevin_OutroMessage,Aaaargh!
-Route48B_CueBallTevin_DefeatMessage,Why should the media control~you?
-Route48B_BikerFrank_IntroMessage,Having trouble steering?
-Route48B_BikerFrank_OutroMessage,Shoot!
-Route48B_BikerFrank_DefeatMessage,The slope makes it hard to~steer!
-Route48B_CueBallWesley_IntroMessage,You need to be careful!
-Route48B_CueBallWesley_OutroMessage,Good job kid!
-Route48B_CueBallWesley_DefeatMessage,These rafts are dangerous!
-Route48B_CueBallHayden_IntroMessage,My Pokémon won't evolve! Why?
-Route48B_CueBallHayden_OutroMessage,Why, you!
-Route48B_CueBallHayden_DefeatMessage,Maybe some Pokémon need~certain items to evolve.
-Route48B_BikerWilder_IntroMessage,Get zapped!
-Route48B_BikerWilder_OutroMessage,Grounded out!
-Route48B_BikerWilder_DefeatMessage,What are you looking at?
-Route48B_BikerDamion_IntroMessage,Having good enough luck?
-Route48B_BikerDamion_OutroMessage,Smoked!
-Route48B_BikerDamion_DefeatMessage,Are you looking for adventure?
-Route48B_CueBallGordon_IntroMessage,You're in Johto territory now,~kid!
-Route48B_CueBallGordon_OutroMessage,Burned out!
-Route48B_CueBallGordon_DefeatMessage,Johto trainers don't screw~around!
-Route48B_CueBallMonty_IntroMessage,You're from Rijon, right?
-Route48B_CueBallMonty_OutroMessage,Whoo!
-Route48B_CueBallMonty_DefeatMessage,I should go there one day!
-Route48B_BikerDawson_IntroMessage,You heading to Azalea?
-Route48B_BikerDawson_OutroMessage,Crash and burn!
-Route48B_BikerDawson_DefeatMessage,You're almost there, kid!
+[Old Route 48]
+Route48_Sign_GoingUphill,Going uphill.
+Route48_Sign_CyclingRoad,Cycling Road*Owsauri City - Azalea Town
+Route48_Sign_RegionLimits,Johto - Rijon~Region Limits
+Route48_BikerDonovan_IntroMessage,What a lame bike!
+Route48_BikerDonovan_OutroMessage,Are you satisfied?
+Route48_BikerDonovan_DefeatMessage,I don't like you!
+Route48_CueBallTevin_IntroMessage,Conformist!
+Route48_CueBallTevin_OutroMessage,Aaaargh!
+Route48_CueBallTevin_DefeatMessage,Why should the media control~you?
+Route48_BikerFrank_IntroMessage,Having trouble steering?
+Route48_BikerFrank_OutroMessage,Shoot!
+Route48_BikerFrank_DefeatMessage,The slope makes it hard to~steer!
+Route48_CueBallWesley_IntroMessage,You need to be careful!
+Route48_CueBallWesley_OutroMessage,Good job kid!
+Route48_CueBallWesley_DefeatMessage,These rafts are dangerous!
+Route48_CueBallHayden_IntroMessage,My Pokémon won't evolve! Why?
+Route48_CueBallHayden_OutroMessage,Why, you!
+Route48_CueBallHayden_DefeatMessage,Maybe some Pokémon need~certain items to evolve.
+Route48_BikerWilder_IntroMessage,Get zapped!
+Route48_BikerWilder_OutroMessage,Grounded out!
+Route48_BikerWilder_DefeatMessage,What are you looking at?
+Route48_BikerDamion_IntroMessage,Having good enough luck?
+Route48_BikerDamion_OutroMessage,Smoked!
+Route48_BikerDamion_DefeatMessage,Are you looking for adventure?
+Route48_CueBallGordon_IntroMessage,You're in Johto territory now,~kid!
+Route48_CueBallGordon_OutroMessage,Burned out!
+Route48_CueBallGordon_DefeatMessage,Johto trainers don't screw~around!
+Route48_CueBallMonty_IntroMessage,You're from Rijon, right?
+Route48_CueBallMonty_OutroMessage,Whoo!
+Route48_CueBallMonty_DefeatMessage,I should go there one day!
+Route48_BikerDawson_IntroMessage,You heading to Azalea?
+Route48_BikerDawson_OutroMessage,Crash and burn!
+Route48_BikerDawson_DefeatMessage,You're almost there, kid!
 
-[Route 47-B]
-Route47B_Sign_CyclingPeak,Cycling Peak*Welcome to Johto!
-Route47B_Snorlax_NoPokeFlute,A sleeping Pokémon blocks~the way!
-Route47B_Snorlax_UsedPokeFlute,Snorlax woke up!*It attacked in a grumpy rage!
-Route47B_Snorlax_Caught,Snorlax calmed down! It no longer blocks the way!
-Route47B_Snorlax_Defeated,Snorlax calmed down! With a~big yawn, it returned to~the forests!
-Route47B_BikerVinnie_IntroMessage,Where you goin'?
-Route47B_BikerVinnie_OutroMessage,Don't make me mad!
-Route47B_BikerVinnie_DefeatMessage,You off to Ilex Forest?
-Route47B_BikerJeff_IntroMessage,Hey, watch it!
-Route47B_BikerJeff_OutroMessage,Kaboom!
-Route47B_BikerJeff_DefeatMessage,Azalea Town is where my gramps~lives!
-Route47B_CueBallBentley_IntroMessage,I was in Rijon once...
-Route47B_CueBallBentley_OutroMessage,Bad, bad, bad!
-Route47B_CueBallBentley_DefeatMessage,Rijon trainers could never~beat Indigo Plateau!
-Route47B_CueBallZeke_IntroMessage,Stop hiding and fight!
-Route47B_CueBallZeke_OutroMessage,Gah!
-Route47B_CueBallZeke_DefeatMessage,I hate losing! Get out of~here!
-Route47B_BikerClive_IntroMessage,What do you want?
-Route47B_BikerClive_OutroMessage,Don't you dare laugh!
-Route47B_BikerClive_DefeatMessage,We like just hanging here,~what's it to you?
-Route47B_CueBallMatthew_IntroMessage,Stop looking at me!
-Route47B_CueBallMatthew_OutroMessage,Knock out!
-Route47B_CueBallMatthew_DefeatMessage,Don't look at me again!
+[Old Route 47]
+Route47_Sign_CyclingPeak,Cycling Peak*Welcome to Johto!
+Route47_Snorlax_NoPokeFlute,A sleeping Pokémon blocks~the way!
+Route47_Snorlax_UsedPokeFlute,Snorlax woke up!*It attacked in a grumpy rage!
+Route47_Snorlax_Caught,Snorlax calmed down! It no longer blocks the way!
+Route47_Snorlax_Defeated,Snorlax calmed down! With a~big yawn, it returned to~the forests!
+Route47_BikerVinnie_IntroMessage,Where you goin'?
+Route47_BikerVinnie_OutroMessage,Don't make me mad!
+Route47_BikerVinnie_DefeatMessage,You off to Ilex Forest?
+Route47_BikerJeff_IntroMessage,Hey, watch it!
+Route47_BikerJeff_OutroMessage,Kaboom!
+Route47_BikerJeff_DefeatMessage,Azalea Town is where my gramps~lives!
+Route47_CueBallBentley_IntroMessage,I was in Rijon once...
+Route47_CueBallBentley_OutroMessage,Bad, bad, bad!
+Route47_CueBallBentley_DefeatMessage,Rijon trainers could never~beat Indigo Plateau!
+Route47_CueBallZeke_IntroMessage,Stop hiding and fight!
+Route47_CueBallZeke_OutroMessage,Gah!
+Route47_CueBallZeke_DefeatMessage,I hate losing! Get out of~here!
+Route47_BikerClive_IntroMessage,What do you want?
+Route47_BikerClive_OutroMessage,Don't you dare laugh!
+Route47_BikerClive_DefeatMessage,We like just hanging here,~what's it to you?
+Route47_CueBallMatthew_IntroMessage,Stop looking at me!
+Route47_CueBallMatthew_OutroMessage,Knock out!
+Route47_CueBallMatthew_DefeatMessage,Don't look at me again!
 
-[Route 47-B Gate]
-Route47B_Gate_Guard,Cycling Road leads to the~Rijon city Owsauri City!
-Route47B_Gate_LittleBoy,We both live nearby...
-Route47B_Gate_LittleGirl,My brother loves Azalea Town!
-Route47B_Gate_Binoculars_Left,Looked into the binoculars...*It's the Magnet Train!
-Route47B_Gate_Binoculars_Right,Looked into the binoculars...*It's the Lake of Rage!
+[Old Route 47 Gate]
+Route47_Gate_Guard,Cycling Road leads to the~Rijon city Owsauri City!
+Route47_Gate_LittleBoy,We both live nearby!
+Route47_Gate_LittleGirl,My brother loves Azalea Town!
+Route47_Gate_Binoculars_Left,Looked into the binoculars...*It's the Magnet Train!
+Route47_Gate_Binoculars_Right,Looked into the binoculars...*It's the Lake of Rage!
+
+[Old Route 47, Route 34 & Ilex Forest Gate]
+Route47_Route34_IlexForest_Gate_OldMan,After the earthquake,~new species came to live in~Ilex Forest.
+Route47_Route34_IlexForest_Gate_Scientist,How did you get past the~Snorlax? Can you teach me?
+Route47_Route34_IlexForest_Gate_Guard,Don't bother going north.~The way to Goldenrod City is~still full of rubble.

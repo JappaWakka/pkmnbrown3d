@@ -7,7 +7,7 @@ NPCs:
 	BenchGuy
 		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[RegularGuy_Red]}}{"ID"{int[2]}}{"Name"{str[Bench Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Route67\PokeCenter_BenchGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	RedditGuy
-		{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[MailMan]}}{"ID"{int[3]}}{"Name"{str[Reddit Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route67_PokeCenter_RedditGuy)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[JohtoGuard]}}{"ID"{int[3]}}{"Name"{str[Reddit Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route67_PokeCenter_RedditGuy)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	KangaskhanGuy
 		{"NPC"{NPC[{"Position"{sngArr[1,0,5]}}{"TextureID"{str[CoolTrainer_Male]}}{"ID"{int[4]}}{"Name"{str[Kangaskhan Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Route67\PokeCenter_KangaskhanGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[0,5,3,1]]}}]}}
 	ImpatientGuy

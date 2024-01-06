@@ -3,8 +3,8 @@ BattleMapStructure:
 	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\Routes\49\Main.dat]}}{"Offset"{sngArr[-4,0,-1]}}]}}
 
 Offsets:
-	Route 48-B
-		{"OffsetMap"{MAP[{"Offset"{sngArr[-4,-139]}}{"Map"{str[Routes\48-B\Main.dat]}}]}}
+	Old Route 48
+		{"OffsetMap"{MAP[{"Offset"{sngArr[-4,-139]}}{"Map"{str[Routes\48\Main.dat]}}]}}
 	Owsauri City
 		{"OffsetMap"{MAP[{"Offset"{sngArr[49,-5]}}{"Map"{str[Owsauri\Main.dat]}}]}}
 	Route 50
@@ -21,7 +21,7 @@ Backdrops:
 	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[48.5,-0.75,45.5]}}{"Size"{intArr[1,50]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[58.5,-0.75,68.5]}}{"Size"{intArr[20,27]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 
-	Route 48-B
+	Old Route 48
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-34.5,-0.75,-140.5]}}{"Size"{intArr[29,145]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[18.5,-0.75,-134.5]}}{"Size"{intArr[29,132]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[47.5,-0.75,-134.5]}}{"Size"{intArr[1,126]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}

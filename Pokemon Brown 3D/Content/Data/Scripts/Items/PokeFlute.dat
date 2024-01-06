@@ -3,8 +3,8 @@ version=2
 	@script.start(Route61\Snorlax)
 	:end
 :else
-	:if:<level.mapfile>=Routes\47-B\Main.dat <and> <player.position>=26,0,16
-		@script.start(Route47-B\Snorlax)
+	:if:<level.mapfile>=Routes\47\Main.dat <and> <player.position>=26,0,16
+		@script.start(Route47\Snorlax)
 		:end
 	:else
 		@Text.Show(<system.token(Item_Use_PokeFlute)>)
