@@ -1,0 +1,13 @@
+version=2
+
+@Player.Warp(Gates\Route47B_2F.dat,7,0.1,7,1)
+@Level.Update
+:if:<player.isrunning>=true
+	@Player.SetSpeed(1.5)
+:endif
+:if:<level.riding>=true
+	@Player.SetSpeed(2)
+:endif
+@Player.Move(1)
+
+:end
