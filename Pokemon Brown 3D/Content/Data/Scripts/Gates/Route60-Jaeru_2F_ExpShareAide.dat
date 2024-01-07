@@ -1,0 +1,24 @@
+version=2
+:if:<Register.Registered(expshare)>=false
+	@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_ExpShare_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+
+	:when:<system.token(global_yes)>
+		:if:<pokedex.caught>>29
+			@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_30OrMorePokemon)>)
+			@Item.Give(57,1)
+			@Item.MessageGive(57,1)
+			@Register.Register(expshare)
+			:end
+		:else
+			@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_LessThan30Pokemon)>)
+			:end
+		:endif
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_ExpShare_AnswerNo)>)
+		:end
+	:endwhen
+:else
+	@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_ExpShare_AfterReceiveExpShare)>)
+:endif
+:end

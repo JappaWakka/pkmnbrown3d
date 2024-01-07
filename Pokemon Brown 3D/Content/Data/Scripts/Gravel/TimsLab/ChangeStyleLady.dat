@@ -14,5 +14,4 @@ version=2
 	:when:<system.token(global_no)>
 		@Text.Show(<system.token(Gravel_TimsLab_ChangeStyleLady_No)>)
 		:end
-	:endwhen
-:endif
+:endwhen

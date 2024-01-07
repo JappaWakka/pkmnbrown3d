@@ -31,12 +31,13 @@ version=2
 	@npc.unregister(Botan\Main.dat|3|remove)
 	@npc.unregister(Botan\Main.dat|4|remove)
 	@npc.unregister(Botan\Main.dat|5|remove)
-	@npc.register(Botan\Main.dat|6|remove)
+	@npc.unregister(Botan\Main.dat|6|remove)
 	@npc.register(Botan\Main.dat|7|remove)
 	@npc.register(Botan\Main.dat|8|remove)
 	@npc.register(Botan\Main.dat|9|remove)
 	@npc.register(Botan\Main.dat|10|remove)
 	@npc.register(Botan\Main.dat|11|remove)
+	@npc.register(Botan\Main.dat|12|remove)
 	
 	@screen.fadein(15)
 	@camera.update

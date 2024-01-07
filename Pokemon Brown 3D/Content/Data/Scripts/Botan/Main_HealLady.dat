@@ -1,0 +1,13 @@
+version=2
+@text.show(<system.token(Botan_Main_HealLady)>)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+:when:<system.token(global_yes)>
+	@screen.fadeout(15)
+	@pokemon.heal
+	@sound.play(Heal_Party,1)
+	@level.wait(125)
+	@screen.fadein(15)
+:when:<system.token(global_no)>
+	:end
+:endwhen
+:end

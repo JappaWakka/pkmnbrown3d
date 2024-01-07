@@ -1,0 +1,25 @@
+version=2
+
+:if:<Player.Facing>=0
+	@Player.Warp(Gates\Route59-Botan_2F.dat,7,0.1,7,0)
+:else
+	:if:<Player.Facing>=1
+		@Player.Warp(Gates\Route59-Botan_2F.dat,7,0.1,7,3)
+	:else
+		:if:<Player.Facing>=2
+			@Player.Warp(Gates\Route59-Botan_2F.dat,7,0.1,7,2)
+		:else
+			@Player.Warp(Gates\Route59-Botan_2F.dat,7,0.1,7,1)
+		:endif
+	:endif
+:endif
+@Level.Update
+:if:<Level.Riding>=true
+	@Player.SetSpeed(2)
+:else
+	:if:<Player.IsRunning>=true
+		@Player.SetSpeed(1.5)
+	:endif
+:endif
+@Player.Move(1)
+:end

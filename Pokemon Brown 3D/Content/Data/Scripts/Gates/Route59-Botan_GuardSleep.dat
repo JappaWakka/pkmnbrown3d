@@ -1,6 +1,0 @@
-version=2
-
-:if:<Register.Registered(drunksleep)>=true
-@Text.Show(<player.name>: He's still asleep...)
-:endif
-:end

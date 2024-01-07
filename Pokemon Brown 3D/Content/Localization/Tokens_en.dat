@@ -3029,8 +3029,8 @@ Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating
 Generic_PC_DexEvaluation_BeforeRating,Pokédex completion is:*<pokedex.dexseen(0)> Pokémon seen~<pokedex.dexcaught(0)> Pokémon owned*Prof. Tim's Rating:
 Generic_PC_Rating_Level01,You still have lots to do.*Look for Pokémon in grassy~areas!
 Generic_PC_Rating_Level02,You're on the right track!~Isn't it fun catching Pokémon?
-Generic_PC_Rating_Level03,You still need more Pokémon!~Try to catch other species!
-Generic_PC_Rating_Level04,Good, you're trying hard!*Be sure to get the Exp. Share~from my Aide on Route 52!
+Generic_PC_Rating_Level03,Good, you're trying hard!*Go get the Exp. Share from my~Aide on Route 52!
+Generic_PC_Rating_Level04,You still need more Pokémon!~Try to catch other species!*Oh, I almost forgot! My Aide~is waiting for you at Route 59~with an Item Finder!
 Generic_PC_Rating_Level05,Looking good! Go find my Aide~at Route 60 when you've caught~75 Pokémon.
 Generic_PC_Rating_Level06,You finally got at least 75~species!*Go get the Super Rod from my~Aide at Route 60!
 Generic_PC_Rating_Level07,Ho! This is getting even~better!
@@ -3330,11 +3330,11 @@ Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade
 Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,at a house at Route 52
 
 [Route 52 - Hayward City Gate]
-Route52_Hayward_Gate_Aide_ExpShare_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds~of Pokémon, I'm supposed to~give you an Exp. Share!*So <player.name>! Have you~caught at least 45 kinds~of Pokémon?
-Route52_Hayward_Gate_Aide_ExpShare_AnswerYes_45OrMorePokemon,Let's see...*Great!~Here you have the Exp. Share!
-Route52_Hayward_Gate_Aide_ExpShare_AnswerYes_LessThan45Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 45 kinds if~you want the Exp. Share.
-Route52_Hayward_Gate_Aide_ExpShare_AnswerNo,Oh, I see.~When you get 45 kinds,~come back for the Exp. Share.
-Route52_Hayward_Gate_Aide_ExpShare_AfterReceiveExpShare,Have fun with it!
+Route52_Hayward_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 75 kinds of~Pokémon, I'm supposed to~give you a Super Rod!*So <player.name>! Have you~caught at least 75 kinds~of Pokémon?
+Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_75OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
+Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 75 kinds if~you want the Super Rod.
+Route52_Hayward_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 75 kinds,~come back for the Super Rod.
+Route52_Hayward_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
 Route52_Hayward_Gate_BugCatcher,This gate leads straight~to Hayward City.~I love the city!
 
 [Hayward City]
@@ -3390,7 +3390,7 @@ Hayward_PokeCenter_BenchGuy,I wish I had HM02.
 Hayward_PokeCenter_Gentleman,If you can find a fossil, that~lab next door will revive it!
 Hayward_PokeCenter_PokeFan,I came from Eagulou City.
 
-Hayward_FossilLab_LaprasTrade_Question,I'm looking for a Clefairy!~Wanna trade one for Lapras?
+Hayward_FossilLab_LaprasTrade_Question,I'm looking for a Clefairy!~Wanna trade one for a Lapras?
 Hayward_FossilLab_LaprasTrade_Answer_No,Awww! Oh well...
 Hayward_FossilLab_LaprasTrade_AfterTrade,Isn't my old Lapras great?
 Hayward_FossilLab_LaprasTrade_TradeSuccess,Okay, connect the cable~like so!
@@ -3536,7 +3536,7 @@ Route49_Route50_Gate_Binoculars_Left,Looked into the binoculars...*A man biking!
 Route49_Route50_Gate_Binoculars_Right,Looked into the binoculars...*Azalea Town!
 
 [Route 49 Gate]
-Route49_Gate_RhyhornTrade_Question,I'm looking for a Shellder!~Wanna trade one for Rhyhorn?
+Route49_Gate_RhyhornTrade_Question,I'm looking for a Shellder!~Wanna trade one for a Rhyhorn?
 Route49_Gate_RhyhornTrade_Answer_No,Awww! Oh well...
 Route49_Gate_RhyhornTrade_AfterTrade,Isn't my old Rhyhorn great?
 Route49_Gate_RhyhornTrade_TradeSuccess,Okay, connect the cable~like so!
@@ -3852,11 +3852,12 @@ Route60_PowerPlant_Raikou,Rrroar!
 
 [Route 60 - Jaeru City Gate]
 Route60_Jaeru_Gate_Guard,Are you working on a Pokédex?*Prof. Tim's Aide came by here.
-Route60_Jaeru_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 75 kinds of~Pokémon, I'm supposed to~give you a Super Rod!*So <player.name>! Have you~caught at least 75 kinds~of Pokémon?
-Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_75OrMorePokemon,Let's see...*Great!~Here you have the Super Rod!
-Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 75 kinds if~you want the Super Rod.
-Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 75 kinds,~come back for the Super Rod.
-Route60_Jaeru_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
+
+Route60_Jaeru_Gate_Aide_ExpShare_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds~of Pokémon, I'm supposed to~give you an Exp. Share!*So <player.name>! Have you~caught at least 30 kinds~of Pokémon?
+Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_30OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
+Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 30 kinds if~you want the Exp. Share.
+Route60_Jaeru_Gate_Aide_ExpShare_AnswerNo,Oh, I see.~When you get 30 kinds,~come back for the Exp. Share.
+Route60_Jaeru_Gate_Aide_ExpShare_AfterReceiveExpShare,Have fun with it!
 Route60_Jaeru_Gate_Binoculars_Left_Intro,Looked into the binoculars...
 Route60_Jaeru_Gate_Binoculars_Left_Flying,A strange Pokémon is flying~to Mt. Boulder!
 Route60_Jaeru_Gate_Binoculars_Left_Running,A strange Pokémon is running~towards Mt. Boulder!
@@ -3986,6 +3987,29 @@ Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: How can I
 Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<player.name>: Is everyone okay?*Manager: Yes, thanks to you.*You're a brave kid.*<player.name>: It was~nothing really.*Manager: I need to repay you~somehow. Oh here, have this~valuable gift!*<player.name>: Thank you~so much!
 Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Make sure to visit our~main building, located in~Saffron City, Kanto when you~have the time.
 
+[Route 59 - Botan City Gate]
+Route59_Botan_Gate_1F_Guard_NoBeer_Wait,Wait!
+Route59_Botan_Gate_1F_Guard_NoBeer_CannotGoThrough,Sorry you can't go though.*I'm guarding the area!
+Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMeBeer,Whoa, kid!~I smell hard beer!*Give it to me I need it so bad!!!
+Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer,<player.name> handed over the~Beer Keg.*...Glug glug...~...Gulp...~This stuff hits you...
+Route59_Botan_Gate_1F_Guard_HaveBeer_FallAsleep,Zzzzz...*<player.name>: Looks like I can~get past this guy now,~and complete my quest!
+Route59_Botan_Gate_1F_Guard_StillAsleep,<player.name>: He's still asleep...
+Route59_Botan_Gate_2F_MagnemiteTrade_Question,I'm looking for a Rapidash!~Wanna trade one for a~Magnemite?
+Route59_Botan_Gate_2F_MagnemiteTrade_Answer_No,Awww! Oh well...
+Route59_Botan_Gate_2F_MagnemiteTrade_AfterTrade,Isn't my old Rapidash great?
+Route59_Botan_Gate_2F_MagnemiteTrade_TradeSuccess,Okay, connect the cable~like so!
+Route59_Botan_Gate_2F_MagnemiteTrade_TradeFail,What? That's not Rapidash!*If you get one, come back~here!
+Route59_Botan_Gate_2F_MagnemiteTrade_CatchMethod,Received in a trade
+Route59_Botan_Gate_2F_MagnemiteTrade_CatchLocation,in the Gate on Route 59
+Route59_Botan_Gate_2F_Binoculars_Left,Looked into the binoculars...*The Rijon League!
+Route59_Botan_Gate_2F_Binoculars_Right,Looked into the binoculars...*A dark forest can be~seen... maybe there are some~ghosts there...
+Route59_Botan_Gate_2F_Gate_Aide_ItemFinder_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds of~Pokémon, I'm supposed to~give you an Item Finder!*So <player.name>! Have you~caught at least 30 kinds~of Pokémon?
+Route59_Botan_Gate_2F_Gate_Aide_ItemFinder_AnswerYes_30OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
+Route59_Botan_Gate_2F_Gate_Aide_ItemFinder_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 30 kinds if~you want the Item Finder.
+Route59_Botan_Gate_2F_Gate_Aide_ItemFinder_AnswerNo,Oh, I see.~When you get 30 kinds,~come back for the Item Finder.
+Route59_Botan_Gate_2F_Gate_Aide_ItemFinder_AfterReceiveItemFinder,There are items on the ground that can't be seen. The Item Finder will detect an item close to you. It can't pinpoint it, so you have to look yourself!
+
+
 [Botan City]
 Botan_Main_Sign_City,Botan City*The city of nostalgia.
 Botan_Main_Sign_Cave,TO BE DEMOLISHED!*Coming soon: Magnet Train~Expansion.*Express way to Kanto, Johto,~and Naljo!
@@ -3994,6 +4018,7 @@ Botan_Main_Gentleman,Thank goodness the warehouse~is safe.
 Botan_Main_Rocker,MissingNo. are actually just~ghosts.
 Botan_Main_FatGuy,Yeah! Team Rocket is gone!~It's safe to go out again!
 Botan_Main_Beauty,The Haunted Forest is really spooky.
+Botan_Main_HealLady,My dream is to be a nurse~in the soon to be built~Pokémon Center!*Would you like me to heal your~Pokémon?
 Botan_Main_RocketGrunt_GetOutOfTheWay,Get out of the way!
 Botan_Main_RocketGrunt_GetLost,Get lost, kid!
 Botan_Main_RocketGrunt_WhatDoYouWant,What do you want? Get lost!
@@ -4645,3 +4670,6 @@ Route47_Gate_Binoculars_Right,Looked into the binoculars...*It's the Lake of Rag
 Route47_Route34_IlexForest_Gate_OldMan,After the earthquake,~new species came to live in~Ilex Forest.
 Route47_Route34_IlexForest_Gate_Scientist,How did you get past the~Snorlax? Can you teach me?
 Route47_Route34_IlexForest_Gate_Guard,Don't bother going north.~The way to Goldenrod City is~still full of rubble.
+
+[Route 34]
+Route34_CryingGirl,Sniff... Sniff...*Please keep quiet about my~crying!
