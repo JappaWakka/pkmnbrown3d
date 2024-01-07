@@ -66,7 +66,7 @@ ScriptBlocks:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gates\Route60-Jaeru_2F_Binoculars_Right]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Aide]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gates\Route60-Jaeru_2F_ExpShareAide]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Aide]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gates\Route60-Jaeru_2F_SuperRodAide]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Stairs:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route60-Jaeru_2F_Stairs]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}

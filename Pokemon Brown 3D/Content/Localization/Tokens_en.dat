@@ -3028,23 +3028,21 @@ Generic_PC_LogOff,Log Off
 Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating~System.*Do you want to get your~Pokédex rated?
 Generic_PC_DexEvaluation_BeforeRating,Pokédex completion is:*<pokedex.dexseen(0)> Pokémon seen~<pokedex.dexcaught(0)> Pokémon owned*Prof. Tim's Rating:
 Generic_PC_Rating_Level01,You still have lots to do.*Look for Pokémon in grassy~areas!
-Generic_PC_Rating_Level02,You're on the right track!~Keep going!
+Generic_PC_Rating_Level02,You're on the right track!~Isn't it fun catching Pokémon?
 Generic_PC_Rating_Level03,You still need more Pokémon!~Try to catch other species!
-Generic_PC_Rating_Level04,Hmm, you're catching Pokémon~at a decent pace!
-Generic_PC_Rating_Level05,Looking good! Go find my Aide~on Route 60 when you get 50!
-Generic_PC_Rating_Level06,You finally got a least 50~species!*Be sure to get the Exp. Share~from my Aide on Route 60!
-Generic_PC_Rating_Level07,Oh! This is getting even~better!*Be sure to get the Super Rod~from my Aide on Route 52!
+Generic_PC_Rating_Level04,Good, you're trying hard!*Be sure to get the Exp. Share~from my Aide on Route 52!
+Generic_PC_Rating_Level05,Looking good! Go find my Aide~at Route 60 when you've caught~75 Pokémon.
+Generic_PC_Rating_Level06,You finally got at least 75~species!*Go get the Super Rod from my~Aide at Route 60!
+Generic_PC_Rating_Level07,Ho! This is getting even~better!
 Generic_PC_Rating_Level08,Very good! Go fish for some~marine Pokémon!
 Generic_PC_Rating_Level09,Wonderful! Do you like~collecting Pokémon?
 Generic_PC_Rating_Level10,I'm impressed! It must have~been difficult to do!
-Generic_PC_Rating_Level11,You finally got at least 100~species!*I can't believe how good you~are!
+Generic_PC_Rating_Level11,You finally got at least 150~species!*I can't believe there are~more!
 Generic_PC_Rating_Level12,You even have the evolved~forms of Pokémon! Super!
-Generic_PC_Rating_Level13,There are many more Pokémon~waiting to be caught in Rijon!*Good luck!
-Generic_PC_Rating_Level14,There are Pokémon that don't~evolve just by winning battles!
-Generic_PC_Rating_Level15,Outstanding! You're becoming~a real pro at this!
-Generic_PC_Rating_Level16,Excellent! If you can find a~way to trade with friends you~might be able to get more!
-Generic_PC_Rating_Level17,You're almost there!*Don't give up! You've got this!
-Generic_PC_Rating_Level18,I can't believe it!*<Player.Name>, your Pokédex is~fully complete!*Congratulations!
+Generic_PC_Rating_Level13,Excellent! If you can find a~way to trade with friends you~might be able to get more!
+Generic_PC_Rating_Level14,Outstanding! You're becoming~a real pro at this!
+Generic_PC_Rating_Level15,I have nothing left to say!~You're the authority now!
+Generic_PC_Rating_Level16,I can't believe it!*<Player.Name>, your Pokédex is~fully complete!*Congratulations!*Come visit me at the lab,~I got something for you!
 Generic_PC_DexEvaluation_End,Closed link to Prof. Tim's PC.
 
 [Seashore City]
@@ -3332,11 +3330,11 @@ Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade
 Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,at a house at Route 52
 
 [Route 52 - Hayward City Gate]
-Route52_Hayward_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 70 kinds of~Pokémon, I'm supposed to~give you a Super Rod!*So <player.name>! Have you~caught at least 70 kinds~of Pokémon?
-Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_70OrMorePokemon,Let's see...*Great!~Here you have the Super Rod!
-Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_LessThan70Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 70 kinds if~you want the Super Rod.
-Route52_Hayward_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 70 kinds,~come back for the Super Rod.
-Route52_Hayward_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
+Route52_Hayward_Gate_Aide_ExpShare_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds~of Pokémon, I'm supposed to~give you an Exp. Share!*So <player.name>! Have you~caught at least 45 kinds~of Pokémon?
+Route52_Hayward_Gate_Aide_ExpShare_AnswerYes_45OrMorePokemon,Let's see...*Great!~Here you have the Exp. Share!
+Route52_Hayward_Gate_Aide_ExpShare_AnswerYes_LessThan45Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 45 kinds if~you want the Exp. Share.
+Route52_Hayward_Gate_Aide_ExpShare_AnswerNo,Oh, I see.~When you get 45 kinds,~come back for the Exp. Share.
+Route52_Hayward_Gate_Aide_ExpShare_AfterReceiveExpShare,Have fun with it!
 Route52_Hayward_Gate_BugCatcher,This gate leads straight~to Hayward City.~I love the city!
 
 [Hayward City]
@@ -3854,12 +3852,11 @@ Route60_PowerPlant_Raikou,Rrroar!
 
 [Route 60 - Jaeru City Gate]
 Route60_Jaeru_Gate_Guard,Are you working on a Pokédex?*Prof. Tim's Aide came by here.
-
-Route60_Jaeru_Gate_Aide_ExpShare_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 50 kinds~of Pokémon, I'm supposed to~give you an Exp. Share!*So <player.name>! Have you~caught at least 50 kinds~of Pokémon?
-Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_50OrMorePokemon,Let's see...*Great!~Here you have the Exp. Share!
-Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_LessThan50Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 50 kinds if~you want the Exp. Share.
-Route60_Jaeru_Gate_Aide_ExpShare_AnswerNo,Oh, I see.~When you get 50 kinds,~come back for the Exp. Share.
-Route60_Jaeru_Gate_Aide_ExpShare_AfterReceiveExpShare,Have fun with it!
+Route60_Jaeru_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 75 kinds of~Pokémon, I'm supposed to~give you a Super Rod!*So <player.name>! Have you~caught at least 75 kinds~of Pokémon?
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_75OrMorePokemon,Let's see...*Great!~Here you have the Super Rod!
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 75 kinds if~you want the Super Rod.
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 75 kinds,~come back for the Super Rod.
+Route60_Jaeru_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
 Route60_Jaeru_Gate_Binoculars_Left_Intro,Looked into the binoculars...
 Route60_Jaeru_Gate_Binoculars_Left_Flying,A strange Pokémon is flying~to Mt. Boulder!
 Route60_Jaeru_Gate_Binoculars_Left_Running,A strange Pokémon is running~towards Mt. Boulder!
