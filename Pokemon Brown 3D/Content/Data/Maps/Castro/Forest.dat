@@ -388,5 +388,5 @@ Items:
 	Ether
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[11,-0.375,35]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[2,63]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 	Hidden Emerald Egg
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[33,-0.375,42]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[3,gm16]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[32,-0.125,42]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[3,gm16]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.5,0.5,0.5]}}]}}
 	

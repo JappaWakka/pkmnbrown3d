@@ -9,6 +9,7 @@ version=2
 			@Item.Give(55,1)
 			@Item.MessageGive(55,1)
 			@Register.Register(itemfinder)
+			@Text.Show(<system.token(Route59_Botan_Gate_2F_Aide_ItemFinder_AfterReceiveItemFinder)>)
 			:end
 		:else
 			@Text.Show(<system.token(Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan45Pokemon)>)

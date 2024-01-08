@@ -13,5 +13,5 @@ version=2
 		@Text.Show(<system.token(Gravel_TimsLab_ChangeStyleLady_Yes2)>)
 	:when:<system.token(global_no)>
 		@Text.Show(<system.token(Gravel_TimsLab_ChangeStyleLady_No)>)
-		:end
 :endwhen
+:end
