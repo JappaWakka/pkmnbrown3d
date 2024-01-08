@@ -6,6 +6,12 @@ Floors:
 		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[28,75]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
 		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,2]}}{"Position"{intArr[14,0,77]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
 	
+	Dirt
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[10,0,7]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+		
+	Dirt
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[16,0,33]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
+		
 	Removal
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[10,0,9]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[4,6]}}{"Position"{intArr[14,0,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
@@ -297,6 +303,13 @@ Warps:
 	Route 62 Gate
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[15,0,41]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route61-Route62.dat,5,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
 
+Signs:
+	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[11,0,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route61_Main_Sign_SportFishingArea)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[11,-0.15,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[17,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route61_Main_Sign_YuvaMilaLake)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[17,-0.15,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		
 Snorlax:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"ID"{int[10]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,-0.5,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"Visible"{bool[1]}}{"ModelPath"{str[Models\SleepingSnorlax\Snorlax_Normal]}}{"AdditionalValue"{str[Route61\snorlax]}}{"Rotation"{int[0]}}]}}
 
@@ -309,8 +322,8 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[12,0,72]}}{"TextureID"{str[Fisherman]}}{"ID"{int[5]}}{"Name"{str[Fisherman Marrec]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Items:
-	Evolution Tool
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[15,-0.375,77]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm1]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+	Dragon Scale
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[15,-0.375,77]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm93]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 	TM16 Pay Day
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[20,-0.375,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[1,gm34]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 

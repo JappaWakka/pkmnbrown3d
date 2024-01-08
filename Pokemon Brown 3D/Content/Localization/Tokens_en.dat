@@ -3078,7 +3078,7 @@ Seashore_PlayerHouse2F_SNES_Game_Finished_Random,I don't have time to play~this 
 
 Seashore_PlayerHouse2F_BeSureToPlaySNES,<player.name>: Oh wait!~I almost forgot!*Mom gave me a new SNES game~after we unpacked everything!*Might be a good idea to check~it out before I go.
 
-Seashore_RivalHouse_Father_SonLeaving,My son's leaving today like~you are.*He always calls~himself Mura!
+Seashore_RivalHouse_Father_SonLeaving,My son Mura left home as well.*Make sure he stays safe.
 Seashore_RivalHouse_Sister_BrotherGone,My brother is gone!
 Seashore_RivalHouse_Note_Speary,Spearow~Name: Speary
 Seashore_RivalHouse_Speary_Cry,Speary: Tetweet!
@@ -3750,8 +3750,8 @@ Moraga_Main_GymLeaderFather,My daughter may appear cute,~but deep inside she is 
 Moraga_Main_FatGuy,That Gym Leader is hard...*No one can beat her!
 
 Moraga_PokeCenter_BenchGuy,I wish I had HM02 Surf.
-Moraga_PokeCenter_Gentleman,Where can I revive this fossil?*...In Hayward City?~Oof! That's going to be~a long walk!
-Moraga_PokeCenter_OldWoman,I came from Eagulou City.
+Moraga_PokeCenter_Gentleman,Silph. Co. is very famous.~That's why it attracted~Team Rocket!
+Moraga_PokeCenter_OldWoman,Pokémon growth rates differ~from species to species.
 
 Moraga_PokeMart_LeafStoneGuy,Why is that Leaf Stone so~expensive?
 Moraga_PokeMart_EscapeRopeGirl,Escape Ropes let you escape~from caves.
@@ -3847,6 +3847,8 @@ CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,at the City Underpass
 CityUnderpass_Entrance_Route56_Girl,People often lose things in~that underground path.
 
 [Route 60]
+Route60_Main_Sign_PowerPlant,Power Plant
+
 Route60_PowerPlant_Zapdos,Gyaao!
 Route60_PowerPlant_Raikou,Rrroar!
 
@@ -4174,9 +4176,9 @@ Castro_Main_Sign_Forest,Castro Forest Entrance
 Castro_Main_Sign_Gym,Castro Valley~Pokémon Gym~Leader: Koji*Calm as a breeze, overwhelming~as a storm!
 Castro_Main_Sign_KoolboymanMansion,Koolboyman's Mansion
 
-Castro_PokeCenter_BenchGuy,This couch is so comfy.~I could sit on it for days!
-Castro_PokeCenter_Gentleman,I wish I could travel to~unfamiliar regions...
-Castro_PokeCenter_Beauty,I don't like Castro Forest...~or the insects in it!
+Castro_PokeCenter_BenchGuy,It is true that a higher level~Pokémon will be more powerful...*But, all Pokémon will have~weak points against specific~types. So there is no~universally strong Pokémon.
+Castro_PokeCenter_Sailor,My Pokémon was poisoned! It~faited while we were walking!
+Castro_PokeCenter_Fisherman,Even if they are the same~level, Pokémon can have very~different abilities. A Pokémon~raised by a trainer is~stronger than one in the wild.
 
 Castro_TradeHouse_ChanseyTrade_Question,Hi! Do you have a~Pidgey?*Want to trade it for Chansey?
 Castro_TradeHouse_ChanseyTrade_Answer_No,That's too bad.
@@ -4262,6 +4264,7 @@ Castro_Forest_BugCatcherCaden_OutroMessage,I give up! You're good at this!
 Castro_Forest_BugCatcherCaden_DefeatMessage,Sometimes you can find stuff~on the ground!*I'm looking for the stuff~I dropped!
 
 [Route 62]
+Route62_Main_Sign_CastroField,Castro Field~Route 62*Castro Valley -~Power Plant
 Route62_Main_YoungsterBarry_IntroMessage,Caught ya by surprise!
 Route62_Main_YoungsterBarry_OutroMessage,Darn! I need to make my~Pokémon stronger!
 Route62_Main_YoungsterBarry_DefeatMessage,There's a fat Pokémon that~came down from the mountains.*It's really strong...~When it's awake, of course!
@@ -4282,6 +4285,8 @@ Route62_Main_YoungsterDouglas_OutroMessage,Nope, I'm just impatient!
 Route62_Main_YoungsterDouglas_DefeatMessage,I better go find stronger ones!
 
 [Route 61]
+Route61_Main_Sign_SportFishingArea,Sport Fishing Area
+Route61_Main_Sign_YuvaMilaLake,Yuva Mila Lake~Route 61*Castro Field -~Power Plant
 Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!
 Route61_Main_FishermanHildegard_OutroMessage,It's not easy...
 Route61_Main_FishermanHildegard_DefeatMessage,I guess I better~fish some more.
