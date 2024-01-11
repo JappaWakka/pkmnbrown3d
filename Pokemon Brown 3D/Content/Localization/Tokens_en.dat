@@ -3227,13 +3227,12 @@ Route54_LassAmanda_DefeatMessage,My Pokémon will always be~cuter!
 
 [Merson City]
 Merson_Main_WeakBoy,I tried facing the Pokémon~Gym Leader, but I'm way too~weak to fight him.
-Merson_Main_FreeHealGuy,You can go and heal your~Pokémon for free of charge!~Convenient isn't it? I love~it!
+Merson_Main_FreeHealGuy,You can go and heal your~Pokémon for free at any~Pokémon Center! Convenient~isn't it? I love it!
 Merson_Main_QuestionKid_AskQuestion,Are you a good trainer?
 Merson_Main_QuestionKid_AnswerYes,Really? That's so cool!*I'm not...
 Merson_Main_QuestionKid_AnswerNo,Hahaha, I guess not.*Can you give me your Pokémon~then?*Please?
-Merson_Main_Sign_Gym_BeforeDefeat,Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura
-Merson_Main_Sign_Gym_AfterDefeat,Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<player.name>
-Merson_Main_Sign_City,Merson City*The noble little city.
+Merson_Main_Sign_Gym,Merson City Pokémon Gym~Leader: Karpman*Feeling like a fish in water!
+Merson_Main_Sign_City,Merson City*The noble little town.
 Merson_Main_Sign_Challenge,Think you're tough?*Go face Karpman!
 Merson_Main_Sign_SouthRijonGate,South Rijon Gate*Under constuction~Opening Soon!*Luster City Construction Co.
 
@@ -3244,6 +3243,8 @@ Merson_PokeCenter_BenchGuy,I wonder.*Is Pokémon training possibly~entrepreneuri
 Merson_PokeCenter_Gentleman,Service is quick and speedy~here!
 Merson_PokeCenter_PigtailGirl,Pokémon love it here!
 
+Merson_FanClub_Note_Left,Let's all listen politely to~other trainers!
+Merson_FanClub_Note_Right,If someone brags, brag right~back!
 Merson_FanClub_Seel_Cry,Seel: Seel?
 Merson_FanClub_Clefable_Cry,Clefable: Fable!
 Merson_FanClub_Girl_1,That man's Clefable is really~cute!
@@ -3259,17 +3260,19 @@ Merson_FanClub_ReceiveVoucher,<player.name> received a~Bike Voucher!*Exchange th
 Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!
 Merson_CuboneHouse_Girl,Say hi to my cute CUBONE!
 
+Merson_Gym_Statues_BeforeDefeat,Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura
+Merson_Gym_Statues_AfterDefeat,Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<player.name>
 Merson_Gym_GymGuy_BeforeBadge_Question,Gym Guy: Hi there.*If you are looking for a~challenge, you came to the~right place.*Want to learn about the Leader~Karpman?
 Merson_Gym_GymGuy_BeforeBadge_Yes,Great, here we go!*Karpman uses Water Pokémon. Your best bet against him is to use either a Grass or an Electric Pokémon.
 Merson_Gym_GymGuy_BeforeBadge_No,Please just listen.*Thanks.*Karpman uses Water Pokémon. Your best bet against him is to use either a Grass or an Electric Pokémon.
 Merson_Gym_GymGuy_AfterBadge,Gym Guy: Well now, you might~be special at training!
-Merson_Gym_JrTrainerMaleButch_IntroMessage,Stop right there, kid!
-Merson_Gym_JrTrainerMaleButch_OutroMessage,Darn! I thought I had~a chance against you...
-Merson_Gym_JrTrainerMaleButch_DefeatMessage,Karpman knows all about marine~biology!
-Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: I'm Karpman.*I only train Water type~Pokémon!*Fire bends before my mighty~water attacks!*<player.name>: Alright, let's see~how good you really are!*Karpman: OK, but don't say I~didn't warn you!*Let's fight!
+Merson_Gym_JrTrainerMaleButch_IntroMessage,I'm Lochlan's right hand~man! Let's see if you make~it past me!
+Merson_Gym_JrTrainerMaleButch_OutroMessage,Darn! I slipped up!
+Merson_Gym_JrTrainerMaleButch_DefeatMessage,Karpman's given name is~Lochlan. Don't tell him I told~you that! He knows all about~marine biology!
+Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welcome to the Merson~City Gym, challenger!*<player.name>: So you're a Gym~Leader?*Karpman: You got it! My name~is Karpman, and I specialize~in Water-type Pokémon! If you~defeat me, I'll give you the~Marine Badge. Get all eight~badges throughout the region,~and you'll get the chance to~become Rijon's Champion! But I~won't make it easy for you.~Be sure to brace yourself for~waves of defeat!*<player.name>: Show me your best,~Karpman!
 Merson_Gym_LeaderKarpman_DefeatMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine Badge!
 Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!
-Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*A TM can only be used once!~So when you use one to~teach a new technique,~pick the Pokémon carefully!*TM 12 contains Octazooka!~It's a water move that can~lower the accuracy of your foe!
+Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*A TM can only be used once!~So when you use one to~teach a new technique,~pick the Pokémon carefully!*TM 12 contains Octazooka!~It's a Water move that can~lower the accuracy of your foe!
 Merson_Gym_LeaderKarpman_TalkAgain,Karpman: That was an epic~battle!*The next Gym Leader is Lily~who lives in Owsauri City.*Keep going north and you'll~end up there in no time!
 
 [Route 55]
