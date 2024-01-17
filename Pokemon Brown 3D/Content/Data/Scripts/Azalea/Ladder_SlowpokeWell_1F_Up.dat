@@ -1,0 +1,29 @@
+version=2
+:if:<Player.Facing>=0
+	@Player.Warp(Azalea\Main.dat,37,-0.9,11,2)
+:else
+	:if:<Player.Facing>=1
+		@Player.Warp(Azalea\Main.dat,37,-0.9,11,1)
+	:else
+		:if:<Player.Facing>=2
+			@Player.Warp(Azalea\Main.dat,37,-0.9,11,0)
+		:else
+			@Player.Warp(Azalea\Main.dat,37,-0.9,11,3)
+		:endif
+	:endif
+:endif
+@Level.Update
+:if:<Level.Riding>=true
+	@Player.SetSpeed(2)
+:else
+	:if:<Player.IsRunning>=true
+		@Player.SetSpeed(1.5)
+	:endif
+:endif
+@Player.SetMovement(0,1,1)
+@Player.Move(1)
+@OverworldPokemon.Hide
+@Player.SetMovement(0,0,1)
+@OverworldPokemon.Hide
+@Player.Move(1)
+:end

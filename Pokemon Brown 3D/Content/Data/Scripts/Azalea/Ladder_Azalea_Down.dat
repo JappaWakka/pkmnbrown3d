@@ -3,15 +3,15 @@ version=2
 @Player.Move(1)
 
 :if:<Player.Facing>=0
-	@Player.Warp(Azalea\SlowpokeWell\1F.dat,0,0.1,0,0)
+	@Player.Warp(Azalea\SlowpokeWell\1F.dat,15,0.1,13,0)
 :else
 	:if:<Player.Facing>=1
-		@Player.Warp(Azalea\SlowpokeWell\1F.dat,0,0.1,0,3)
+		@Player.Warp(Azalea\SlowpokeWell\1F.dat,15,0.1,13,3)
 	:else
 		:if:<Player.Facing>=2
-			@Player.Warp(Azalea\SlowpokeWell\1F.dat,0,0.1,0,2)
+			@Player.Warp(Azalea\SlowpokeWell\1F.dat,15,0.1,13,2)
 		:else
-			@Player.Warp(Azalea\SlowpokeWell\1F.dat,0,0.1,0,1)
+			@Player.Warp(Azalea\SlowpokeWell\1F.dat,15,0.1,13,1)
 		:endif
 	:endif
 :endif
