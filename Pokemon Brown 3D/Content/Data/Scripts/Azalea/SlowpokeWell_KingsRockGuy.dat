@@ -2,8 +2,8 @@ version=2
 
 :if:<Register.Registered(SlowpokeWell_KingsRock)>=false
 	@Text.Show(<system.token(Azalea_SlowpokeWell_B1F_KingsRockGuy_BeforeReceive)>)
-	@Item.Give(84,1)
-	@Item.MessageGive(84,1)
+	@Item.Give(gm84,1)
+	@Item.MessageGive(gm84,1)
 	@Register.Register(SlowpokeWell_KingsRock)
 	:end
 :else
