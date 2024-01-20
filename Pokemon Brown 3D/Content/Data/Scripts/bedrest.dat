@@ -3,7 +3,9 @@ version=2
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_yes)>
 	@screen.fadeout(15)
-	@pokemon.heal
+	:if:<pokemon.count>>0
+		@pokemon.heal
+	:endif
 	@sound.play(Heal_Party,1)
 	@level.wait(125)
 	@screen.fadein(15)

@@ -536,7 +536,7 @@ Places_Eagulou Park,Eagulou Park
 Places_Secret Cave,Secret Cave
 Places_Seneca Caverns,Seneca Caverns
 Places_Rijon League,Rijon League
-Places_Blood Moon Island,Blood Moon Island
+Places_Madame Renifler,Madame Renifler
 Places_Ilex Forest,Ilex Forest
 Places_Slowpoke Well,Slowpoke Well
 Places_Gate,Gate
@@ -2998,8 +2998,10 @@ GameIntro_NewNameOption,-New-
 Generic_TV_Movie,This movie is titled Naljo's~Guardians.*I heard it's based off Naljo~mythology.
 Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon books!
 Generic_TownMap,It's the Town Map.
-Generic_Bed_Question,It's a bed.~Would you like to sleep?
+Generic_Bed_Question,It's a bed.~Would you like to rest?
 Generic_Bed_Refreshed,You wake up feeling refreshed.
+Generic_HealPlatform_Start,This seems like a sweet spot~to take a break...
+Generic_HealPlatform_End,<player.name>'s Pokémon are~fully healed!
 
 Generic_PokeCenter_NurseJoy_Question_NightDay,Hello, and welcome to~the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?
 Generic_PokeCenter_NurseJoy_Question_Morning,Good morning! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?
@@ -3010,7 +3012,7 @@ Generic_PokeCenter_NurseJoy_HealedParty,Thank you for waiting.*We've restored yo
 
 Generic_PokeMart_Clerk_Question,Hi there!~May I help you?
 Generic_PokeMart_Clerk_AfterQuit,Thank you! Come again!
-Generic_PokeMart_Buy,Buy
+Generic_PokeMart_Store,Store
 Generic_PokeMart_Quit,Quit
 Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
 
@@ -3049,6 +3051,8 @@ Generic_PC_DexEvaluation_End,Closed link to Prof. Tim's PC.
 Seashore_PlayerHouse1F_Mom_LookForTim,Good luck on following your~dad's footsteps, sweetie!!!*Go south and look for the~Professor.
 Seashore_PlayerHouse1F_Mom_TakeARest,<player.name>! You should take~a quick rest.
 Seashore_PlayerHouse1F_Mom_AfterRest,Oh good! You and your~Pokémon are looking great!~Take care now!
+Seashore_PlayerHouse1F_Mom_AfterChampion,<player.name>! So my child is~Rijon's Champion? What are you~going to do now? You should~go visit the Gym Leaders again,~they may surprise you!*Also there's that "Champions~only" building in Hayward, you~may go check it out too!*In any case, why don't you~take a quick rest before~continuing your adventure?
+Seashore_PlayerHouse1F_Mom_AfterFinalDungeon,<player.name>! So my child is~Rijon's Champion? What are you~going to do now? You should~go visit the Gym Leaders again,~they may surprise you!*In any case, why don't you~take a quick rest before~continuing your adventure?
 
 Seashore_PlayerHouse2F_SNES,<player.name> is playing the SNES!~...Okay!~It's time to go!
 Seashore_PlayerHouse2F_SNES_Game_Step1_Question,<player.name> is playing~a new game on the SNES!*Let's create a new character.~What class should they be?
@@ -4108,6 +4112,7 @@ Botan_HauntedForest_Area3_ChannelerEdna_DefeatMessage,Dead souls don't need this
 Botan_HauntedForest_Area3_ChannelerHeidi_IntroMessage,I need moons!
 Botan_HauntedForest_Area3_ChannelerHeidi_OutroMessage,Live longer!
 Botan_HauntedForest_Area3_ChannelerHeidi_DefeatMessage,Chompers!*Load State 1!
+Botan_HauntedForest_Area4_HealPlatform,Entered purified,~protected zone!*<player.name>'s Pokémon are~fully healed!
 Botan_HauntedForest_Area4_HealPlatformChanneler,Rest here and let your~party's energy return!!
 Botan_HauntedForest_Area4_ChannelerTara_IntroMessage,Stop 'n' Swop is...
 Botan_HauntedForest_Area4_ChannelerTara_OutroMessage,Oops, I forgot!
@@ -4694,6 +4699,9 @@ Azalea_Main_Sign_Gym,Azalea Town~Pokémon Gym~Leader: Bugsy*The Bug Pokémon Enc
 Azalea_Main_RegularGuy,I'm happy everyone here is~safe.
 Azalea_Main_YoungBoy,I hope there won't be any~aftershocks later on!
 Azalea_Main_Hiker,I want to get out of here!
+Azalea_Main_Clerk_Question,My shop! What am I going to do~now? At least I was able to~rescue some goods...*Would you help me recover?
+Azalea_Main_Clerk_Store,Take your time.
+Azalea_Main_Clerk_Quit,Thank you!
 
 Azalea_PokeCenter_Fisherman,Kid, that was some quake!
 Azalea_PokeCenter_BenchGuy,Thank goodness everyone is~okay!

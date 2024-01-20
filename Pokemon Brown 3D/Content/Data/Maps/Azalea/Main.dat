@@ -422,6 +422,8 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[22,0,17]}}{"TextureID"{str[RegularGuy_Blue]}}{"ID"{int[0]}}{"Name"{str[Regular Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Azalea_Main_RegularGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[41,0,8]}}{"TextureID"{str[Hiker]}}{"ID"{int[1]}}{"Name"{str[Hiker]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Azalea_Main_Hiker)>]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[35,0,17]}}{"TextureID"{str[YoungBoy_Red]}}{"ID"{int[2]}}{"Name"{str[Young Boy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Azalea_Main_YoungBoy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	
+	{"NPC"{NPC[{"Position"{sngArr[28,0,12]}}{"TextureID"{str[Clerk]}}{"ID"{int[3]}}{"Name"{str[Clerk]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Azalea]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 		
 Warps:
 	Gym

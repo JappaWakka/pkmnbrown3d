@@ -1,12 +1,12 @@
 version=2
 :if:<Register.Registered(HealPlatform)>=false
-	@Text.Show(<system.token(Generic_HealPlatform_Start)>)
-	@Screen.FadeOutColor
+	@Screen.FadeOutColor(255,255,255)
 	@Screen.FadeOut(8)
 	@Camera.Update
 	@Pokemon.Heal
 	@Screen.FadeIn(8)
-	@Text.Show(<system.token(Generic_HealPlatform_End)>)
+	@Text.Show(<system.token(Botan_HauntedForest_Area4_HealPlatform)>)
+	@Screen.FadeOutColor
 	@Register.Register(HealPlatform)
 	:end
 :endif
