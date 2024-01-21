@@ -1,0 +1,84 @@
+{"Level"{LEV[{"Name"{str[Azalea Town Gym]}}{"MusicLoop"{str[gym]}}{"CurrentRegion"{str[Johto]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
+
+Floors:
+	Grass
+		{"Floor"{ENT[{"Size"{intArr[10,16]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[224,80,16,16]}}]}}
+	
+	Pink Floors
+		{"Floor"{ENT[{"Size"{intArr[2,6]}}{"Position"{intArr[6,0,4]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[32,336,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[0,0,6]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[32,336,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[8,0,6]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[32,336,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[2,0,8]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[32,336,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[10,4]}}{"Position"{intArr[0,0,12]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[32,336,16,16]}}]}}
+		
+	Doormat
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[4,0,15]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[48,0,16,16]}}]}}
+		
+	Invisible
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[4,0,16]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,16,16,16]}}{"Visible"{bool[0]}}]}}
+
+Ceiling:
+	{"EntityField"{ENT[{"Size"{intArr[10,16]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,2,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,336,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+Walls (Direction = Facing):
+	West
+		{"EntityField"{ENT[{"Size"{intArr[1,16]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,336,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,16]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,1,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,320,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+		
+	East
+		{"EntityField"{ENT[{"Size"{intArr[1,16]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-1,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,336,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,16]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-1,1,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,320,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+		
+	North
+		{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0,16]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,336,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,0,16]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,336,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		
+		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,1,16]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,336,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,1,16]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,320,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,1,16]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,336,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		
+	South
+		{"EntityField"{ENT[{"Size"{intArr[10,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,336,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[10,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,1,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[64,320,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		
+Large Tree:
+	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[4.5,0.435,6.5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[80,320,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+Grass Patches:
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0.75,-0.25,2.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[4.75,-0.25,2.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[8.75,-0.25,2.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[-0.25,-0.25,2.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[3.75,-0.25,2.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[7.75,-0.25,2.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0.75,-0.25,3.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[1.25,-0.25,3.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[4.75,-0.25,3.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[5.25,-0.25,3.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[8.75,-0.25,3.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[9.25,-0.25,3.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0.75,-0.25,4.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[4.75,-0.25,4.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[8.75,-0.25,4.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[-0.25,-0.25,4.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[3.75,-0.25,4.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[7.75,-0.25,4.75]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0.75,-0.25,5.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[1.25,-0.25,5.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[4.75,-0.25,5.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[5.25,-0.25,5.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[8.75,-0.25,5.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[9.25,-0.25,5.25]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,200,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+NPCs:
+	{"NPC"{NPC[{"Position"{sngArr[7,5,15]}}{"TextureID"{str[GymGuy]}}{"ID"{int[0]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Moraga\GymGuy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,5,11]}}{"TextureID"{str[Lass_Green]}}{"ID"{int[0]}}{"Name"{str[Lass Katrin]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\moraga\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[6,5,10]}}{"TextureID"{str[Beauty]}}{"ID"{int[1]}}{"Name"{str[Beauty Ronda]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\moraga\001]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[4,5,6]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[2]}}{"Name"{str[Jr. Trainer♀ Jacqueline]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\moraga\002]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[5,5,2]}}{"TextureID"{str[CoolTrainer_Female]}}{"ID"{int[3]}}{"Name"{str[Cool Trainer♀ Heather]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\gyms\moraga\003]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[4,5,3]}}{"TextureID"{str[Lois]}}{"ID"{int[4]}}{"Name"{str[Leader Lois]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\moraga\leader]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+
+Doors:
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,16]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,184,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Moraga\Main.dat,30,0.1,5,0]}}{"Rotation"{int[2]}}]}}
+
