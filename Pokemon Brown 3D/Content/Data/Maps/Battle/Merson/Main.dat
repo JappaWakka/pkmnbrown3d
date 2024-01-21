@@ -3,26 +3,6 @@
 BattleMapStructure:
 	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\Merson\Main.dat]}}{"Offset"{sngArr[7,0,-16]}}]}}
 
-Signs:
-	{"Structure"{STR[{"Map"{str[Structures\PokeCenter_Sign]}}{"Offset"{sngArr[23,0,15]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\PokeMart_Sign]}}{"Offset"{sngArr[23,0,-5]}}]}}
-	
-Buildings:
-	PokeMart (4x2y4z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_FlatRoof_4x2y4z_Entrance]}}{"Offset"{sngArr[21,0,-8]}}]}}
-		
-	PokeCenter (4x2y4z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_FlatRoof_4x2y4z_Entrance]}}{"Offset"{sngArr[21,0,12]}}]}}
-		
-	Slope Roof Buildings (4x1y2z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z]}}{"Offset"{sngArr[11,0,-10]}}]}}
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z]}}{"Offset"{sngArr[11,0,-2]}}]}}
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z]}}{"Offset"{sngArr[19,0,-2]}}]}}
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z]}}{"Offset"{sngArr[15,0,2]}}]}}
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z]}}{"Offset"{sngArr[19,0,6]}}]}}
-	
-	Slope Roof Buildings with Entrance (4x1y2z)
-		Cubone Owner's House
-			{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[11,0,6]}}]}}
-		Pokémon Fan Club
-			{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[17,0,10]}}]}}
+Offsets:
+	{"OffsetMap"{MAP[{"Offset"{sngArr[-21,0]}}{"Map"{str[Routes\54\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[-1,-74]}}{"Map"{str[Routes\55\Main.dat]}}]}}
