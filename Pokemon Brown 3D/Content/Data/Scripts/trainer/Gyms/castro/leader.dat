@@ -49,7 +49,6 @@ version=2
 	@Register.Register(trainer_Gyms\castro\003)
 	@Register.Register(trainer_Gyms\castro\004)
 	@Register.Register(trainer_Gyms\castro\005)
-	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(5)
 	@Text.Show(<system.token(Castro_Gym_LeaderKoji_AfterBattle1)>)
 	@Item.Give(gm19,1)

@@ -11,7 +11,6 @@ version=2
 	@Register.Register(trainer_Gyms\57\004)
 	@Register.Register(trainer_Gyms\57\005)
 	@Register.Register(trainer_Gyms\57\006)
-	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(7)
 	@Text.Show(<system.token(Route57_Gym_LeaderJoe_AfterBattle1)>)
 	@Item.Give(gm33,1)

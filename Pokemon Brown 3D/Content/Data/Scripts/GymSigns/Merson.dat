@@ -1,8 +1,8 @@
 version=2
 
 :if:<Register.Registered(marinebadge_obtain)>=true
-	@Text.Show(<system.token(Merson_Main_Sign_Gym_AfterDefeat)>)
+	@Text.Show(<system.token(Merson_Gym_Statues_AfterDefeat)>)
 :else
-	@Text.Show(<system.token(Merson_Main_Sign_Gym_BeforeDefeat)>)
+	@Text.Show(<system.token(Merson_Gym_Statues_BeforeDefeat)>)
 :endif
 :end

@@ -6,13 +6,30 @@ version=2
 	@Register.Register(hailbadge_obtain)
 	@Register.Register(trainer_Gyms\Owsauri\000)
 	@Register.Register(trainer_Gyms\Owsauri\001)
-	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(2)
 	@Text.Show(<system.token(Owsauri_Gym_LeaderLily_AfterBattle1)>)
 	@Item.Give(gm31,1)
 	@Item.MessageGive(gm31,1)
 	@Text.Show(<system.token(Owsauri_Gym_LeaderLily_AfterBattle2)>)
 :else
-	@Text.Show(<system.token(Owsauri_Gym_LeaderLily_TalkAgain)>)
+	:if:<Register.Registered(rijonleague)>=false
+		@Text.Show(<system.token(Owsauri_Gym_LeaderLily_TalkAgain)>)
+	:else
+		:if:<player.hasbadge(10)>=false
+			@Text.Show(<system.token(Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Question)>)
+			@options.setcancelindex(1)
+			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@Text.Show(<system.token(Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Answer_Yes)>)
+					@Battle.StartTrainer(Gyms\owsauri\leader_rematch)
+					@Player.AddBadge(10)
+					@Text.Show(<system.token(Owsauri_Gym_LeaderLily_Rematch_AfterBattle)>)
+				:when:<system.token(global_no)>
+					@Text.Show(<system.token(Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Answer_No)>)
+			:endwhen
+		:else
+			@Text.Show(<system.token(Owsauri_Gym_LeaderLily_Rematch_AfterBattle)>)
+		:endif
+	:endif
 :endif
 :end

@@ -104,7 +104,8 @@ Obstacles:
 Statues:
 	{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"Steps"{sngArr[3,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[3,1,8.5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[32,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"Steps"{sngArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0,8.5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,48,16,16][16,48,16,16][48,48,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-
+	{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"Steps"{sngArr[3,1]}}{"EntityID"{str[SignBlock]}}{"Position"{sngArr[3,0,8.5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[GymSigns\Owsauri]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[7,0,8]}}{"TextureID"{str[GymGuy]}}{"ID"{int[0]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[8,-0.2,5]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[1]}}{"Name"{str[Swimmer Ed]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\Owsauri\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

@@ -1,9 +1,8 @@
 version=2
 
 :if:<Register.Registered(whitebadge_obtain)>=true
-	@Text.Show(<system.token(Route57_Main_Sign_Gym_AfterDefeat)>)
-
+	@Text.Show(<system.token(Route57_Gym_Statue_AfterDefeat)>)
 :else
-	@Text.Show(<system.token(Route57_Main_Sign_Gym_BeforeDefeat)>)
+	@Text.Show(<system.token(Route57_Gym_Statue_BeforeDefeat)>)
 :endif
 :end

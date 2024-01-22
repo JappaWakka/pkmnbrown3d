@@ -1,7 +1,7 @@
 version=2
 
 :if:<Register.Registered(psibadge_obtain)>=False
-	@Text.Show(<system.token(Seashore_Gym_LeaderSheral_BeforeBattle)>)
+	@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_BeforeBattle)>)
 	@Battle.StartTrainer(Gyms\seashore\leader)
 	@Register.Register(psibadge_obtain)
 	@Register.Register(trainer_Gyms\seashore\000)
@@ -11,13 +11,30 @@ version=2
 	@Register.Register(trainer_Gyms\seashore\004)
 	@Register.Register(trainer_Gyms\seashore\005)
 	@Register.Register(trainer_Gyms\seashore\006)
-	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(6)
-	@Text.Show(<system.token(Seashore_Gym_LeaderSheral_AfterBattle1)>)
+	@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_AfterBattle1)>)
 	@Item.Give(gm47,1)
 	@Item.MessageGive(gm47,1)
-	@Text.Show(<system.token(Seashore_Gym_LeaderSheral_AfterBattle2)>)
+	@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_AfterBattle2)>)
 :else
-	@Text.Show(<system.token(Seashore_Gym_LeaderSheral_TalkAgain)>)
+	:if:<Register.Registered(rijonleague)>=false
+		@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_TalkAgain)>)
+	:else
+		:if:<player.hasbadge(14)>=false
+			@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Question)>)
+			@options.setcancelindex(1)
+			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Answer_Yes)>)
+					@Battle.StartTrainer(Gyms\seashore\leader_rematch)
+					@Player.AddBadge(14)
+					@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_Rematch_AfterBattle)>)
+				:when:<system.token(global_no)>
+					@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Answer_No)>)
+			:endwhen
+		:else
+			@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_Rematch_AfterBattle)>)
+		:endif
+	:endif
 :endif
 :end

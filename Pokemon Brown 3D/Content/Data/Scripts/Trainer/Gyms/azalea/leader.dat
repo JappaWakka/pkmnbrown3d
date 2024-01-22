@@ -1,0 +1,29 @@
+version=2
+:if:<System.ScriptTrigger>=ScriptBlockWalkOn
+	@NPC.Turn(4,1)
+	@Player.TurnTo(3)
+:endif
+:if:<Register.Registered(bugsy_defeat)>=false
+	@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_BeforeBattle)>)
+	@Battle.StartTrainer(Gyms\azalea\leader)
+	@Register.Register(bugsy_defeat)
+	@Register.Register(trainer_Gyms\azalea\000)
+	@Register.Register(trainer_Gyms\azalea\001)
+	@Register.Register(trainer_Gyms\azalea\002)
+	@Register.Register(trainer_Gyms\azalea\003)
+	@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_AfterBattle)>)
+	:end
+:else
+	:if:<Register.Registered(azalea_gym_pokemongot)>=false <or> <Register.Registered(rijonleague)>=false
+		@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_AfterBattle)>)
+		:end
+	:else
+		:if:<player.badges><16
+			@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_NotYetDefeatedRijonGymLeaders)>)
+			:end
+		:else
+			:end
+		:endif
+	:endif
+:endif
+:end

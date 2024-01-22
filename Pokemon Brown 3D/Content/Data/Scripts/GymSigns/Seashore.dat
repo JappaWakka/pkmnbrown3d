@@ -1,8 +1,8 @@
 version=2
 
 :if:<Register.Registered(psibadge_obtain)>=true
-	@Text.Show(<system.token(Seashore_Main_Sign_Gym_AfterDefeat)>)
+	@Text.Show(<system.token(Seashore_Gym_Sign_AfterDefeat)>)
 :else
-	@Text.Show(<system.token(Seashore_Main_Sign_Gym_BeforeDefeat)>)
+	@Text.Show(<system.token(Seashore_Gym_Sign_BeforeDefeat)>)
 :endif
 :end

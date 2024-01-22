@@ -7,13 +7,30 @@ version=2
 	@Register.Register(trainer_Gyms\jaeru\000)
 	@Register.Register(trainer_Gyms\jaeru\001)
 	@Register.Register(trainer_Gyms\jaeru\002)
-	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(4)
 	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_AfterBattle1)>)
 	@Item.Give(gm42,1)
 	@Item.MessageGive(gm42,1)
 	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_AfterBattle2)>)
 :else
-	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_TalkAgain)>)
+	:if:<Register.Registered(rijonleague)>=false
+		@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_TalkAgain)>)
+	:else
+		:if:<player.hasbadge(12)>=false
+			@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Question)>)
+			@options.setcancelindex(1)
+			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_Yes)>)
+					@Battle.StartTrainer(Gyms\jaeru\leader_rematch)
+					@Player.AddBadge(12)
+					@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_Rematch_AfterBattle)>)
+				:when:<system.token(global_no)>
+					@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_No)>)
+			:endwhen
+		:else
+			@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_Rematch_AfterBattle)>)
+		:endif
+	:endif
 :endif
 :end

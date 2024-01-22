@@ -495,6 +495,14 @@ badge_5,Fist
 badge_6,Psi
 badge_7,White
 badge_8,Star
+badge_9,Rematch
+badge_10,Rematch
+badge_11,Rematch
+badge_12,Rematch
+badge_13,Rematch
+badge_14,Rematch
+badge_15,Rematch
+badge_16,Rematch
 ---
 Regions:
 Johto,Johto
@@ -551,7 +559,7 @@ Places_Moraga Town Gym,Moraga Town Gym
 Places_Jaeru City Gym,Jaeru City Gym
 Places_Botan City Gym,Botan City Gym
 Places_Castro Valley Gym,Castro Valley Gym
-Places_Out of City Gym,Out of City Gym
+Places_Equality River Gym,Equality River Gym
 Places_Eagulou City Gym,Eagulou City Gym
 Places_Azalea Town Gym,Azalea Town Gym
 
@@ -3094,9 +3102,10 @@ Seashore_Main_YoungBoy_Red_AnswerYes,Cool!*I'm going to be one soon as well!*It'
 Seashore_Main_YoungBoy_Red_AnswerNo,Why not?
 
 Seashore_Main_Sign_City,Seashore City*Where waves of new journeys~begin their long travels.
-Seashore_Main_Sign_Gym_BeforeDefeat,Seashore City Pokémon Gym~Leader: Sheral*Winning Trainers:~Mura
-Seashore_Main_Sign_Gym_AfterDefeat,Seashore City Pokémon Gym~Leader: Sheral*Winning Trainers:~Mura~<player.name>
+Seashore_Main_Sign_Gym,Seashore City~Pokémon Gym~Leader: Sheryl*Master of the Extrasensory!
 
+Seashore_Gym_Sign_BeforeDefeat,Seashore City~Pokémon Gym~Leader: Sheryl*Winning Trainers:~Mura
+Seashore_Gym_Sign_AfterDefeat,Seashore City~Pokémon Gym~Leader: Sheryl*Winning Trainers:~Mura~<player.name>
 Seashore_Gym_ChannelerHelen_IntroMessage,Do your best!
 Seashore_Gym_ChannelerHelen_OutroMessage,I knew it!
 Seashore_Gym_ChannelerHelen_DefeatMessage,I need to do better next time!
@@ -3118,11 +3127,16 @@ Seashore_Gym_ChannelerSophie_DefeatMessage,Be gone!
 Seashore_Gym_ChannelerAgnes_IntroMessage,Pray.
 Seashore_Gym_ChannelerAgnes_OutroMessage,Not good enough!
 Seashore_Gym_ChannelerAgnes_DefeatMessage,Good battle.*Pray.
-Seashore_Gym_LeaderSheral_BeforeBattle,Sheral: I knew you would come.*Hello, I'm Sheral, and I use~my Pokémon's Psychic Powers~to maximum extent.*<player.name>: Expect the~unexpected!
-Seashore_Gym_LeaderSheral_AfterBattle1,Sheral: The Psi Badge makes~Pokémon up to Lv 70 obey you!*I predicted that you wanted~a TM to go along with this.*Well, I have the perfect one~for you!
-Seashore_Gym_LeaderSheral_AfterBattle2,It's the strongest Psychic~attack there is!
-Seashore_Gym_LeaderSheral_DefeatMessage,Sheral: I'm shocked!*Alright. I can tell that you~earned this.*Take the Psi Badge!
-Seashore_Gym_LeaderSheral_TalkAgain,Sheral: Everyone has psychic~power!*People just don't realize it!
+Seashore_Gym_LeaderSheryl_BeforeBattle,Sheryl: I knew you would come.*Hello, I'm Sheryl, and I use~my Pokémon's Psychic Powers~to maximum extent.*<player.name>: Expect the~unexpected!
+Seashore_Gym_LeaderSheryl_OutroMessage,Sheryl: I'm shocked!*Alright. I can tell that you~earned this.*Take the Psi Badge!
+Seashore_Gym_LeaderSheryl_AfterBattle1,Sheryl: The Psi Badge makes~Pokémon up to Lv 70 obey you!*I predicted that you wanted~a TM to go along with this.*Well, I have the perfect one~for you!
+Seashore_Gym_LeaderSheryl_AfterBattle2,It's the strongest Psychic~attack there is!
+Seashore_Gym_LeaderSheryl_TalkAgain,Sheryl: Everyone has psychic~power!*People just don't realize it!
+Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Question,Sheryl: Ah, welcome back~<player.name>. I suspected you~might come back, wishing to~flaunt your power. Have you~put much thought into what~you'll wield it for, in these~coming years?*<player.name>: ...*Sheryl: Well, you should. Your~future is a very important~one... Now, shall we?
+Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Answer_No,Sheryl: Not ready yet? How~amusing. But I know you'll be~back soon enough.
+Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Answer_Yes,Sheryl: I thought so.*Let's see if I can pry into~the source of your power a~little more!
+Seashore_Gym_LeaderSheryl_Rematch_OutroMessage,Sheryl: You young trainers..~I wonder how far beyond my~visions you'll travel.
+Seashore_Gym_LeaderSheryl_Rematch_AfterBattle,Sheryl: What does strength~even mean to you?*<player.name>: I'm not really~sure about the details, I just~know the stronger the trainers~and Pokémon, the more fun the~battle! So being strong is~just winning a lot, right?*Sheryl: That's just one part~of the picture. Are battles~between weak trainers any less~meaningful?*<player.name>: I mean, they're a~lot lamer...*Sheryl: Ha! Maybe you're right.~I never wanted to be a weak~trainer either. Just keep an~open mind, Champion.
 
 [Route 53]
 Route53_PotionGuy_FreeSamples,Hi! The Gravel Town Mart is~giving away free samples~today, so go ahead and~take a free potion!
@@ -3235,7 +3249,7 @@ Merson_Main_FreeHealGuy,You can go and heal your~Pokémon for free at any~Pokém
 Merson_Main_QuestionKid_AskQuestion,Are you a good trainer?
 Merson_Main_QuestionKid_AnswerYes,Really? That's so cool!*I'm not...
 Merson_Main_QuestionKid_AnswerNo,Hahaha, I guess not.*Can you give me your Pokémon~then?*Please?
-Merson_Main_Sign_Gym,Merson City Pokémon Gym~Leader: Karpman*Feeling Like a Fish in Water!
+Merson_Main_Sign_Gym,Merson City~Pokémon Gym~Leader: Karpman*Feelin' Like a Fish in Water!
 Merson_Main_Sign_City,Merson City*The noble little town.
 Merson_Main_Sign_Challenge,Think you're tough?*Go face Karpman!
 Merson_Main_Sign_SouthRijonGate,South Rijon Gate*Under constuction~Opening Soon!*Luster City Construction Co.
@@ -3264,8 +3278,8 @@ Merson_FanClub_ReceiveVoucher,<player.name> received a~Bike Voucher!*Exchange th
 Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!
 Merson_CuboneHouse_Girl,Say hi to my cute CUBONE!
 
-Merson_Gym_Statues_BeforeDefeat,Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura
-Merson_Gym_Statues_AfterDefeat,Merson City Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<player.name>
+Merson_Gym_Statues_BeforeDefeat,Merson City~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura
+Merson_Gym_Statues_AfterDefeat,Merson City~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<player.name>
 Merson_Gym_GymGuy_BeforeBadge_Question,Gym Guy: Hi there.*If you are looking for a~challenge, you came to the~right place.*Want to learn about the Leader~Karpman?
 Merson_Gym_GymGuy_BeforeBadge_Yes,Great, here we go!*Karpman uses Water Pokémon. Your best bet against him is to use either a Grass or an Electric Pokémon.
 Merson_Gym_GymGuy_BeforeBadge_No,Please just listen.*Thanks.*Karpman uses Water Pokémon. Your best bet against him is to use either a Grass or an Electric Pokémon.
@@ -3274,10 +3288,16 @@ Merson_Gym_JrTrainerMaleButch_IntroMessage,I'm Lochlan's right hand~man! Let's s
 Merson_Gym_JrTrainerMaleButch_OutroMessage,Darn! I slipped up!
 Merson_Gym_JrTrainerMaleButch_DefeatMessage,Karpman's given name is~Lochlan. Don't tell him I told~you that! He knows all about~marine biology!
 Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welcome to the Merson~City Gym, challenger!*<player.name>: So you're a Gym~Leader?*Karpman: You got it! My name~is Karpman, and I specialize~in Water-type Pokémon! If you~defeat me, I'll give you the~Marine Badge. Get all eight~badges throughout the region,~and you'll get the chance to~become Rijon's Champion! But I~won't make it easy for you.~Be sure to brace yourself for~waves of defeat!*<player.name>: Show me your best,~Karpman!
-Merson_Gym_LeaderKarpman_DefeatMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine Badge!
+Merson_Gym_LeaderKarpman_OutroMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine Badge!
 Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!
 Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*A TM can only be used once!~So when you use one to~teach a new technique,~pick the Pokémon carefully!*TM 12 contains Octazooka!~It's a Water move that can~lower the accuracy of your foe!
 Merson_Gym_LeaderKarpman_TalkAgain,Karpman: That was an epic~battle!*The next Gym Leader is Lily~who lives in Owsauri City.*Keep going north and you'll~end up there in no time!
+Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Question,Karpman: Well, you swam a long~way upriver since last time I~saw you.*You guys got strong, but I~think I can toss you around in~the tide a bit still. Care to~take the bait?
+Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Answer_No,Karpman: You aren't up for it?~That's fine, come back when~you're ready!*Just don't try anything fishy,~I got that covered!
+Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Answer_Yes,Karpman: I knew you would!~Let's catch some wild waves,~Champ!
+Merson_Gym_LeaderKarpman_Rematch_OutroMessage,Karpman: We've been toppled by~the tidal wave of your strength!
+Merson_Gym_LeaderKarpman_Rematch_AfterBattle,Karpman: I think everyone has~their own streams to swim, but~Pokémon is that one big river~we all flow into, hahaha!
+
 
 [Route 55]
 Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my Pokémon?
@@ -3556,7 +3576,7 @@ Route49_Gate_Binoculars_Right,Looked into the binoculars...*There's Hayward City
 [Owsauri City]
 Owsauri_Main_Sign_City,Owsauri City*The lively city of delights!
 Owsauri_Main_Sign_NameRater,Name Rater
-Owsauri_Main_Sign_Gym,Owsauri City~Pokémon Gym~Leader: Lily*The Icy Queen of Rijon
+Owsauri_Main_Sign_Gym,Owsauri City~Pokémon Gym~Leader: Lily*The Cold n' Icy DJ!
 
 Owsauri_PokeCenter_BenchGirl,My daddy is still in the casino.*He told me to wait here...
 Owsauri_PokeCenter_BirdKeeper,You can't win with just one~strong Pokémon.*It's tough, but you have~to raise them evenly.
@@ -3660,8 +3680,10 @@ Owsauri_GameCornerB1F_Shop_Center_Eevee_Espeon,Eevee #1      3500C
 Owsauri_GameCornerB1F_Shop_Center_Eevee_Glaceon,Eevee #2      3500C
 Owsauri_GameCornerB1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
+Owsauri_Gym_Statues_BeforeDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura
+Owsauri_Gym_Statues_AfterDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura~<player.name>
 Owsauri_Gym_GymGuy_BeforeBadge,Yo! Champ in making!~Here’s my advice!*The Leader, Lily loves to use~Ice Pokémon.*If you have Fire or Rock~Pokémon, her Pokémon won’t~stand a chance!
-Owsauri_Gym_GymGuy_AfterBadge,You beat Lily!! What'd I~tell ya?*You and me kid, we make~a pretty darn good team!
+Owsauri_Gym_GymGuy_AfterBadge,Lily was defeated?*Hopefully you were 'ice about~it! I am too funny!
 Owsauri_Gym_SwimmerMaleEd_IntroMessage,Splash!*Ready for an ice fight?
 Owsauri_Gym_SwimmerMaleEd_OutroMessage,That can't be!
 Owsauri_Gym_SwimmerMaleEd_DefeatMessage,Lily is always training~her Pokémon!
@@ -3669,10 +3691,16 @@ Owsauri_Gym_JrTrainerFemaleBethy_IntroMessage,Lily shouldn't waste her~time with
 Owsauri_Gym_JrTrainerFemaleBethy_OutroMessage,You overwhelmed me!
 Owsauri_Gym_JrTrainerFemaleBethy_DefeatMessage,You have to face other~trainers to find out how~good you really are.
 Owsauri_Gym_LeaderLily_BeforeBattle,Lily: Hi, you here to face me?*<player.name>: Yeah, I'm on a~quest to get all eight~Rijon Badges and compete in~the league!*Lily: Well if you beat me,~you get the Hail Badge,~so give it your best shot!
-Owsauri_Gym_LeaderLily_DefeatMessage,Lily: Wow! You're too much!
+Owsauri_Gym_LeaderLily_OutroMessage,Lily: Wow! You're too much!
 Owsauri_Gym_LeaderLily_AfterBattle1,Lily: All right!*You can have the Hail Badge~that will help you!*The Hail Badge lets you~use Cut any time if you~have the HM!*Also go and take this TM~I found earlier, it should~help you.
 Owsauri_Gym_LeaderLily_AfterBattle2,TM 13 teaches Ice Beam!*Use it on an Ice Pokémon!
 Owsauri_Gym_LeaderLily_TalkAgain,Lily: Good luck on your quest!
+Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Question,Lily: Well if it isn't~<player.name>!*Ready to jam out with the~coolest Gym Leader, I take it?
+Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Answer_No,Lily: Oh? Having a little~performance anxiety, or maybe~cold feet?*<player.name>: H-hey, that's not~it at all!*Lily: Well all right, don't~keep me waiting too long.~I can't battle to the beat~without a strong dance~partner!
+Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Answer_Yes,Lily: Alright, let's see if I~can put your Champion hot-~streak on ice!
+Owsauri_Gym_LeaderLily_Rematch_OutroMessage,Lily: That's a wrap! Looks~like your moves were too hot~to handle after all!
+Owsauri_Gym_LeaderLily_Rematch_AfterBattle,Lily: I've been thinking of~sampling some battle audio~into some tracks for my show.~Do you think that's something~trainers would want to listen~to?*<player.name>: Like, the noises~Pokémon make? Sounds kinda~weird... A Radio Channel for Pokémon?*Lily: That's not exactly the~kind of audio I had in mind,~but that could be a pretty~cool idea! Maybe Pokémon would~like to listen to the radio~too.
+
 
 [Route 66]
 Route66_Sign_Beach,Rijon Beach
@@ -3822,6 +3850,8 @@ Morage_PrismMuseum_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickn
 Morage_PrismMuseum_CatchMethod,Received as a reward
 Morage_PrismMuseum_CatchLocation,at the Prism Museum
 
+Moraga_Gym_Statues_BeforeDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura
+Moraga_Gym_Statues_AfterDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<player.name>
 Moraga_Gym_GymGuy_BeforeBadge,Gym Guy: Hiya, champion in~the making!*Lois uses Grass Pokémon,~which are weak against Fire~and Flying Pokémon!~Good luck!
 Moraga_Gym_GymGuy_AfterBadge,Gym Guy: What a fantastic~battle!
 Moraga_Gym_LassKatrin_IntroMessage,A kid?!*Get out of here!
@@ -3836,11 +3866,16 @@ Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We don't need men,~except to 
 Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage,Don't underestimate the power~of grass!
 Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage,Oh! Beaten!
 Moraga_Gym_CoolTrainerFemaleHeather_DefeatMessage,Lois has a twin in Kanto that~uses grass too.
-Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, my lovely flowers...~They sure look nice, don't they?*<player.name>: Pardon me, but I'm~here for your Sprout Badge!*Lois: I see. I'm just like my~sister in Kanto, aren't I...?*Well, if it's a battle you want,~it's a battle you'll get!*As a Kimono Girl, as well as~the Moraga Town Gym Leader,~I have plenty of battling~experience, so don't say I~didn't warn you.*Let's go!
-Moraga_Gym_LeaderLois_DefeatMessage,Lois: What a wonderful~performance of skill!*Here is your well-earned~Sprout Badge.
+Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, my lovely flowers...~They sure look nice, don't they?*<player.name>: Pardon me, but I'm~here for your Sprout Badge!*Lois: I see. I'm just like my~sister in Kanto, aren't I...?*Well, if it's a battle you want,~it's a battle you'll get!*As a Kimono Girl, as well as~the Moraga Town Gym Leader,~I have plenty of battling~experience, so don't say I~didn't warn you.*Leafeon, let's go!
+Moraga_Gym_LeaderLois_OutroMessage,Lois: What a wonderful~performance of skill!*Here is your well-earned~Sprout Badge.
 Moraga_Gym_LeaderLois_AfterBattle1,Lois: The Sprout Badge will~make Pokémon able to use~HM04 Strength in and out~of battle.*Also, I'd like you to have~this.
 Moraga_Gym_LeaderLois_AfterBattle2,TM21 contains Giga Drain.*Half the damage it inflicts is~drained to heal your Pokémon.
 Moraga_Gym_LeaderLois_TalkAgain,Lois: Good luck collecting all~of the Rijon League Badges.
+Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Question,Lois: Zzz...*<player.name>: She isn't dozing~off still, is she?*Lois: Yaaaawn...*<player.name>: ...*Lois: I apologize, that was~rather unladylike. I just~find myself so sleepy...~Perhaps I need a break.~Sleeping in the garden is more~appealing than dancing these~days... But I suppose you'll~be challenging me one again?
+Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Answer_No,Lois: Oh, what a shame. Do~come back when you have the~time. I'll likely be here...~a while...~YAAAAWN...~longer...*Zzz...
+Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Answer_Yes,Lois: Oh, delightful. Don't~hold back on my account,~Champion.
+Moraga_Gym_LeaderLois_Rematch_OutroMessage,Lois: Oh, you're all too much!
+Moraga_Gym_LeaderLois_Rematch_AfterBattle,Lois: Grass Pokémon are so~lovely, aren't they? Every~time I smell their sweet~floral scents... I can't help~but... Zzz...*<player.name>: And there she~goes...
 
 [City Underpass]
 CityUnderpass_Entrance_Moraga_NidoqueenTrade,
@@ -3878,7 +3913,7 @@ Jaeru_Main_Sign_RijonLeagueEntrance,Path to Rijon League Entrance
 Jaeru_Main_Sign_City,Jaeru City~The hoppy town!
 Jaeru_Main_Sign_BikeShop,Bike Shop*Cool Bikes for everyone!
 Jaeru_Main_Sign_TownMap,Notice!*If you are lost, refer to your~Town Map!
-Jaeru_Main_Sign_Gym,Jaeru City Pokémon Gym~Leader: Sparky*The Stunning Mechanic!
+Jaeru_Main_Sign_Gym,Jaeru City~Pokémon Gym~Leader: Sparky*The Stunning Mechanic!
 Jaeru_Main_NewsGuy_Question,Did you hear the news?
 Jaeru_Main_NewsGuy_Answer_Yes,Oh, I wish I could of told!
 Jaeru_Main_NewsGuy_Answer_No,Team Rocket took over the~Warehouse nearby!
@@ -3902,6 +3937,8 @@ Jearu_PokeMart_LittleBoy,My dad is up north trying to~go to the League.
 Jaeru_PokeCenter_Gentleman,Go away, I'm on my cellphone!
 Jaeru_PokeCenter_BenchGuy,Sparky was mean to me!~He called me a stupid little~kid.
 
+Jaeru_Gym_Statues_BeforeDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura
+Jaeru_Gym_Statues_AfterDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<player.name>
 Jaeru_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Sparky uses Electric Pokémon,~so you need to make sure and~pick the right kinds against~him.*Grass and Ground Pokémon are~good choices to win!
 Jaeru_Gym_GymGuy_AfterBadge,Whew! That match was electric!
 Jaeru_Gym_RockerBryan_IntroMessage,ARE YOU READY TO ROCK?!
@@ -3914,10 +3951,15 @@ Jaeru_Gym_GentlemanWilliam_IntroMessage,Having trouble getting to~Sparky?
 Jaeru_Gym_GentlemanWilliam_OutroMessage,Stop! You're very good!
 Jaeru_Gym_GentlemanWilliam_DefeatMessage,Electricity is my specialty!
 Jaeru_Gym_LeaderSparky_BeforeBattle,<player.name>: Are you~the Gym Leader?*Sparky: Yes I am!~What do you want to do,~battle me or something?*<player.name>: Uh... yeah!*Sparky: Why do you even~bother?*My Electric Pokémon are way~too powerful for anyone.*Especially you!*<player.name>: Well I'll see~about that.*Let's fight!
-Jaeru_Gym_LeaderSparky_DefeatMessage,Sparky: You weren't kidding!*Alright, here. Take the~Sparky Badge!
+Jaeru_Gym_LeaderSparky_OutroMessage,Sparky: You weren't kidding!*Alright, here. Take the~Sparky Badge!
 Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: The Sparky Badge,~named after yours truly,~lets you use Fly anytime!*Take this too!
 Jaeru_Gym_LeaderSparky_AfterBattle2,TM24 contains Thunderbolt!*Teach it to an Electric~Pokémon!
 Jaeru_Gym_LeaderSparky_TalkAgain,Sparky: Go on kid and enjoy~the rest of your quest!
+Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Question,Sparky: Well, if it isn't the~big-shot. I was just itching~for battle, and you caught me~on my break. Ready for this?
+Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_No,Sparky: Bah, celebrities.~Always expecting people to~make time for them. Maybe I'll~just make myself busy next~time you show up, see how you~like it.
+Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_Yes,Sparky: All right! I'm so~amped up I can already see the~sparks flying!
+Jaeru_Gym_LeaderSparky_Rematch_OutroMessage,Sparky: ... Whew. And back to~the garage for repairs.
+Jaeru_Gym_LeaderSparky_Rematch_AfterBattle,Sparky: Remember kid, any~Pokémon team is like a well-~oiled machine. You should~always take the time to give~them that extra maintenance~and love!
 
 Jaeru_OtherHouse_SittingGuy,Pokémon trainers pass by here~often on their way to the~Rijon League.
 Jaeru_OtherHouse_StandingGuy,I know trainers from around~the world.
@@ -4182,7 +4224,7 @@ Castro_Main_Marill_Cry,Marill: Marill Marill!*It looks lost...
 Castro_Main_Mew,Mew!
 Castro_Main_Sign_City,Castro Valley*The courtly little port town.
 Castro_Main_Sign_Forest,Castro Forest Entrance
-Castro_Main_Sign_Gym,Castro Valley~Pokémon Gym~Leader: Koji*Calm as a breeze, overwhelming~as a storm!
+Castro_Main_Sign_Gym,Castro Valley~Pokémon Gym~Leader: Koji*Calm as a Breeze, Overwhelming~as a Storm!
 Castro_Main_Sign_KoolboymanMansion,Koolboyman's Mansion
 
 Castro_PokeCenter_BenchGuy,It is true that a higher level~Pokémon will be more powerful...*But, all Pokémon will have~weak points against specific~types. So there is no~universally strong Pokémon.
@@ -4203,6 +4245,8 @@ Castro_OldRodHouse_OldRodGuy_Answer_Yes1,Grand! I like your style!*Take this and
 Castro_OldRodHouse_OldRodGuy_Answer_Yes2,Not the best Rod, but it's~better than nothing!
 Castro_OldRodHouse_OldRodGuy_AfterReceiveOldRod,Hello there, <player.name>!*How are the fish biting?
 
+Castro_Gym_Statues_BeforeDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura
+Castro_Gym_Statues_AfterDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<player.name>
 Castro_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Castro Valley's Gym has Koji~as its leader!*Koji only uses fighting Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!
 Castro_Gym_GymGuy_AfterBadge,Gym Guy: Amazing! You've~definitely fought your way~through that one!
 Castro_Gym_JugglerJoey_IntroMessage,Master Koji only uses fighting~Pokémon!
@@ -4224,10 +4268,15 @@ Castro_Gym_JugglerCalvin_IntroMessage,Strength is our number one~strategy!
 Castro_Gym_JugglerCalvin_OutroMessage,What? Extraordinary!
 Castro_Gym_JugglerCalvin_DefeatMessage,I guess it's best to have~multiple strategies!
 Castro_Gym_LeaderKoji_BeforeBattle,Koji: Who is this?!*A trainer with the wits and~courage to face me and win a~Fist Badge?*Well, my Fighting Pokémon are~unbeatable, so you better be~ready to be defeated!
+Castro_Gym_LeaderKoji_OutroMessage,Koji: Humph! You have proven~your worth!*Here! You deserve the Fist~Badge!
 Castro_Gym_LeaderKoji_AfterBattle1,Koji: Now that you have the~Fist Badge, you can use Surf~outside of battle.*Take this TM I found as a gift~too!
 Castro_Gym_LeaderKoji_AfterBattle2,TM 01 contains Dynamic Punch!~It can miss, but it confuses~the foe!
-Castro_Gym_LeaderKoji_DefeatMessage,Koji: Humph! You have proven~your worth!*Here! You deserve the Fist~Badge!
 Castro_Gym_LeaderKoji_TalkAgain,Koji: Dynamic Punch can often~miss but if it works it'll~deal a great amount of damage~and confuse your foe!
+Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Question,Koji: Ah, it's the prodigy!~Or was it protégé?*<player.name>: Is there even a~difference?*Koji: I do not know, honestly.~Grah, I hate fancy words.~Anyways, are you here to spar?
+Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_No,Koji: Ah. Perhaps you have yet~to find your team adequately~prepared for combat? You may~return later; I will be~honored to accept your~challenge when you see fit.
+Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_Yes,Koji: Very well. Let us test~each other's full strength!*HOOHAH!
+Castro_Gym_LeaderKoji_Rematch_OutroMessage,Koji: Incredible! Your power~knows no upper bound!
+Castro_Gym_LeaderKoji_Rematch_AfterBattle,Koji: We must become stronger.~I will inform my disciples~that we will be undergoing~special endurance training for~a year.*HOOHAH!*The strength of our blows must~be uncontested! Our defenses~must be infallible!*GUOH!
 
 Castro_KoolboymanMansion_SecretSwitch_Question,A secret switch!*Press it?
 Castro_KoolboymanMansion_SecretSwitch_Answer_Yes,Who wouldn't?
@@ -4333,9 +4382,10 @@ CastroForest_Route57_Gate_Guy,Many Pokémon live only in~forests and caves.*You 
 CastroForest_Route57_Gate_OldMan,Can you tell me the way~to Castro Valley?
 
 [Route 57]
-Route57_Main_Sign_Gym_BeforeDefeat,Out of City Pokémon Gym~Leader: Joe*Winning Trainers:~Mura
-Route57_Main_Sign_Gym_AfterDefeat,Out of City Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<player.name>
+Route57_Main_Sign_Gym,Equality River~Pokémon Gym~Leader: Joe*Just a Normal Guy!
 
+Route57_Gym_Statue_BeforeDefeat,Equality River~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura
+Route57_Gym_Statue_AfterDefeat,Equality River~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<player.name>
 Route57_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Joe uses only Normal Pokémon!*I would recommend using~Fighting type Pokémon against~those opponents!
 Route57_Gym_GymGuy_AfterBadge,Gym Guy: <player.name>!~Good job once again!
 Route57_Gym_Quiz_Answer_Correct,You're absolutely correct!*Go on through.
@@ -4412,8 +4462,8 @@ Eagulou_Main_ParkGirl,The Eagulou Park is a great~place to catch Pokémon!
 Eagulou_Main_MistStoneGuy,Rumor is that the Mist Stone~can break the barrier.
 Eagulou_Main_Sign_City,Eagulou City*The totally underrated city.
 Eagulou_Main_Sign_Park,Eagulou Park
-Eagulou_Main_Sign_Gym_BeforeDefeat,Eagulou City Pokémon Gym~Leader: ???*Winning Trainers:~Mura
-Eagulou_Main_Sign_Gym_AfterDefeat,Eagulou City Pokémon Gym~Leader: ???*Winning Trainers:~Mura~<player.name>
+Eagulou_Main_Sign_Gym_BeforeDefeat,Eagulou City~Pokémon Gym~Leader: ???*Winning Trainers:~Mura
+Eagulou_Main_Sign_Gym_AfterDefeat,Eagulou City~Pokémon Gym~Leader: ???*Winning Trainers:~Mura~<player.name>
 Eagulou_Main_MistStoneBarrier,Something pushes you.
 
 Eagulou_PokeCenter_CoolTrainerFemale,My boyfriend is busy catching~Pokémon from the Eagulou Park.
@@ -4709,3 +4759,29 @@ Azalea_PokeCenter_Gentleman,All the Slowpoke ran out of~town during the quake!*I
 
 Azalea_SlowpokeWell_B1F_KingsRockGuy_BeforeReceive,The earthquake's over?*...*Thanks, here.
 Azalea_SlowpokeWell_B1F_KingsRockGuy_AfterReceive,King's Rock can make certain~Pokémon evolve!
+
+Azalea_Gym_YoungsterPatrick_IntroMessage,Hey, what are you doing Rijon~kid?!
+Azalea_Gym_YoungsterPatrick_OutroMessage,Oof! I give up!
+Azalea_Gym_YoungsterPatrick_DefeatMessage,At least you're not as good as~that Gold kid.
+Azalea_Gym_YoungsterFawks_IntroMessage,Bug collecting is my life!
+Azalea_Gym_YoungsterFawks_OutroMessage,Yow! Stubbed fingers!
+Azalea_Gym_YoungsterFawks_DefeatMessage,I guess these bugs need more~training.
+Azalea_Gym_BugCatcherAustin_IntroMessage,Bugsy can't lose to a wimp!
+Azalea_Gym_BugCatcherAustin_OutroMessage,I give up!
+Azalea_Gym_BugCatcherAustin_DefeatMessage,You wait 'til you see Bugsy!
+Azalea_Gym_BugCatcherHarvey_IntroMessage,I hear you're good! Show me!
+Azalea_Gym_BugCatcherHarvey_OutroMessage,Nice job!
+Azalea_Gym_BugCatcherHarvey_DefeatMessage,But are you as good as Bugsy?~Only one way to find out!
+Azalea_Gym_LeaderBugsy_BeforeBattle,Bugsy: Hello!*I am Bugsy!*I love to train Bug Pokémon!*I rarely fight Rijon trainers,~so let's see how this goes!
+Azalea_Gym_LeaderBugsy_DefeatMessage,Bugsy: Well done!
+Azalea_Gym_LeaderBugsy_AfterBattle,Bugsy: Johto Badges are~useless for your league, so I~will give you a rare Pokémon.~Take only one though, don't be~greedy Rijon kid!
+Azalea_Gym_LeaderBugsy_Rematch_NotYetDefeatedRijonGymLeaders,Bugsy: So, you managed to~become Rijon's Champion?*You are strong, but it seems~you have yet to beat~Rijon's Gym Leaders' true~battle teams.*Come again after beating them~all and I'll battle with you~once more with all my buggy~might. If you win, I'll~provide you with a very useful~gadget. I'll continue my bug~studies meanwhile.
+Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle,Bugsy:
+Azalea_Gym_LeaderBugsy_Rematch_DefeatMessage,Bugsy:
+Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy:
+Azalea_Gym_Choose_Gligar,You want the Gligar?
+Azalea_Gym_Choose_Sneasel,You want the Sneasel?
+Azalea_Gym_Receive_Gligar,<player.name> received~a Gligar!
+Azalea_Gym_Receive_Sneasel,<player.name> received~a Sneasel!
+Azalea_Gym_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+Azalea_Gym_PokeballAfterChoose,Better not get greedy...

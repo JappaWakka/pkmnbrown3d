@@ -12,7 +12,6 @@ version=2
 	@Register.Register(trainer_Gyms\eagulou\007)
 	@Register.Register(trainer_Gyms\eagulou\008)
 	@Register.Register(trainer_Gyms\eagulou\009)
-	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(8)
 	@Text.Show(<system.token(Eagulou_Gym_LeaderGiovanni_AfterBattle1)>)
 	@Item.Give(gm45,1)

@@ -1,0 +1,24 @@
+version=2
+:if:<Register.Registered(azalea_gym_pokemongot)>=False
+	@screen.showpokemon(215,0,1)
+	@Text.Show(<system.token(Azalea_Gym_Choose_Sneasel)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		:when:<system.token(global_yes)>
+			@NPC.remove(6)
+			@NPC.register(Gyms\Azalea.dat|6|remove)
+			@Register.Register(azalea_gym_pokemongot)
+			@Register.Register(azalea_gym_sneasel)
+			@pokemon.add(215,30,<system.token(Azalea_Gym_Pokemon_CatchMethod)>,5,<system.token(Azalea_Gym_Pokemon_CatchLocation)>)
+			@Text.Show(<system.token(Azalea_Gym_Receive_Sneasel)>)
+			@pokemon.rename(<math.int(<pokemon.count>-1)>)
+			:if:<pokemon.count>>6
+				@Text.Show(<system.token(Azalea_Gym_PokemonToPC)>)
+				@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
+			:endif
+		:when:<system.token(global_no)>
+			:end
+		:endwhen
+:else
+	@Text.Show(<system.token(Azalea_Gym_PokeballAfterChoose)>)
+:endif
+:end

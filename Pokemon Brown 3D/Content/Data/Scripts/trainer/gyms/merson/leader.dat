@@ -5,13 +5,30 @@ version=2
 	@Battle.StartTrainer(Gyms\Merson\Leader)
 	@Register.Register(marinebadge_obtain)
 	@Register.Register(trainer_Gyms\merson\000)
-	@Sound.Play(Receive_Badge,1)
 	@Player.GetBadge(1)
 	@Text.Show(<system.token(Merson_Gym_LeaderKarpman_AfterBattle1)>)
 	@Item.Give(gm30,1)
 	@Item.MessageGive(gm30,1)
 	@Text.Show(<system.token(Merson_Gym_LeaderKarpman_AfterBattle2)>)
 :else
-	@Text.Show(<system.token(Merson_Gym_LeaderKarpman_TalkAgain)>)
+	:if:<Register.Registered(rijonleague)>=false
+		@Text.Show(<system.token(Merson_Gym_LeaderKarpman_TalkAgain)>)
+	:else
+		:if:<player.hasbadge(9)>=false
+			@Text.Show(<system.token(Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Question)>)
+			@options.setcancelindex(1)
+			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@Text.Show(<system.token(Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Answer_Yes)>)
+					@Battle.StartTrainer(Gyms\merson\leader_rematch)
+					@Player.AddBadge(9)
+					@Text.Show(<system.token(Merson_Gym_LeaderKarpman_Rematch_AfterBattle)>)
+				:when:<system.token(global_no)>
+					@Text.Show(<system.token(Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Answer_No)>)
+			:endwhen
+		:else
+			@Text.Show(<system.token(Merson_Gym_LeaderKarpman_Rematch_AfterBattle)>)
+		:endif
+	:endif
 :endif
 :end
