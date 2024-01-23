@@ -17,6 +17,24 @@ version=2
 	@Item.MessageGive(gm33,1)
 	@Text.Show(<system.token(Route57_Gym_LeaderJoe_AfterBattle2)>)
 :else
-	@Text.Show(<system.token(Route57_Gym_LeaderJoe_TalkAgain)>)
+	:if:<Register.Registered(rijonleague)>=false
+		@Text.Show(<system.token(Route57_Gym_LeaderJoe_TalkAgain)>)
+	:else
+		:if:<player.hasbadge(15)>=false
+			@Text.Show(<system.token(Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Question)>)
+			@options.setcancelindex(1)
+			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@Text.Show(<system.token(Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Answer_Yes)>)
+					@Battle.StartTrainer(Gyms\route57\leader_rematch)
+					@Player.AddBadge(15)
+					@Text.Show(<system.token(Route57_Gym_LeaderJoe_Rematch_AfterBattle)>)
+				:when:<system.token(global_no)>
+					@Text.Show(<system.token(Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Answer_No)>)
+			:endwhen
+		:else
+			@Text.Show(<system.token(Route57_Gym_LeaderJoe_Rematch_AfterBattle)>)
+		:endif
+	:endif
 :endif
 :end

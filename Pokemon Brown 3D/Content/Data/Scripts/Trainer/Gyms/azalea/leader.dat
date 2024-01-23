@@ -14,15 +14,31 @@ version=2
 	@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_AfterBattle)>)
 	:end
 :else
-	:if:<Register.Registered(azalea_gym_pokemongot)>=false <or> <Register.Registered(rijonleague)>=false
+	:if:<Register.Registered(azalea_gym_pokemongot)>=false
 		@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_AfterBattle)>)
-		:end
 	:else
-		:if:<player.badges><16
-			@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_NotYetDefeatedRijonGymLeaders)>)
-			:end
+		:if:<Register.Registered(rijonleague)>=false
+			@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_NotChampionYet)>)
 		:else
-			:end
+			:if:<player.badges><15
+				@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_NotYetDefeatedRijonGymLeaders)>)
+			:else
+				:if:<Register.Registered(bugsy_rematch)>=false
+					@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Question)>)
+					@options.setcancelindex(1)
+					@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+						:when:<system.token(global_yes)>
+							@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_Yes)>)
+							@Battle.StartTrainer(Gyms\azalea\leader_rematch)
+							@Register.Register(bugsy_rematch)
+							@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_AfterBattle)>)
+						:when:<system.token(global_no)>
+							@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_No)>)
+					:endwhen
+				:else
+					@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_AfterBattle)>)
+				:endif
+			:endif
 		:endif
 	:endif
 :endif

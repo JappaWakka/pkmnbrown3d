@@ -7,9 +7,18 @@ version=2
 		@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_TakeARest)>)
 	:else
 		:if:<Register.Registered(phancero)>=false
-			@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_AfterChampion)>)
+			:if:<Register.Registered(bugsy_rematch)>=false
+				@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_AfterChampion)>)
+			:else
+				@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_AfterRematch)>)
+			:endif
+			
 		:else
-			@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_AfterFinalDungeon)>)
+			:if:<Register.Registered(bugsy_rematch)>=false
+				@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_AfterFinalDungeon)>)
+			:else
+				@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_TakeARest)>)
+			:endif
 		:endif
 	:endif
 	@Screen.FadeOut

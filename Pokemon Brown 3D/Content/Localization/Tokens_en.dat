@@ -3061,6 +3061,7 @@ Seashore_PlayerHouse1F_Mom_TakeARest,<player.name>! You should take~a quick rest
 Seashore_PlayerHouse1F_Mom_AfterRest,Oh good! You and your~Pokémon are looking great!~Take care now!
 Seashore_PlayerHouse1F_Mom_AfterChampion,<player.name>! So my child is~Rijon's Champion? What are you~going to do now? You should~go visit the Gym Leaders again,~they may surprise you!*Also there's that "Champions~only" building in Hayward, you~may go check it out too!*In any case, why don't you~take a quick rest before~continuing your adventure?
 Seashore_PlayerHouse1F_Mom_AfterFinalDungeon,<player.name>! So my child is~Rijon's Champion? What are you~going to do now? You should~go visit the Gym Leaders again,~they may surprise you!*In any case, why don't you~take a quick rest before~continuing your adventure?
+Seashore_PlayerHouse1F_Mom_AfterRematch,<player.name>! So my child is~Rijon's Champion? What are you~going to do now? There's that~"Champions~only" building in~Hayward, you may go check~that out!*In any case, why don't you~take a quick rest before~continuing your adventure?
 
 Seashore_PlayerHouse2F_SNES,<player.name> is playing the SNES!~...Okay!~It's time to go!
 Seashore_PlayerHouse2F_SNES_Game_Step1_Question,<player.name> is playing~a new game on the SNES!*Let's create a new character.~What class should they be?
@@ -4417,10 +4418,15 @@ Route57_Gym_NormalTrainerStefan_IntroMessage,Normal equals best!
 Route57_Gym_NormalTrainerStefan_OutroMessage,Oh! Snuffed out!
 Route57_Gym_NormalTrainerStefan_DefeatMessage,Quit staring at me, it's mean!
 Route57_Gym_LeaderJoe_BeforeBattle,Joe: Hah! A stranger coming~to challenge me?*Well, I am Joe, the perfectly~regular leader of this Gym!*Winning has become a routine~to me!*<player.name>: Let's change the~standard!
+Route57_Gym_LeaderJoe_OutroMessage,Joe: Well, that was~unexpected!*Congrats, stranger! You have~earned the White Badge!
 Route57_Gym_LeaderJoe_AfterBattle1,Joe: Hah!*Since you're so special, I'll~give you something~extraordinary as well!
 Route57_Gym_LeaderJoe_AfterBattle2,TM 15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!
-Route57_Gym_LeaderJoe_DefeatMessage,Joe: Well, that was~unexpected!*Congrats, stranger! You have~earned the White Badge!
 Route57_Gym_LeaderJoe_TalkAgain,Joe: Hyper Beam is the best~Normal attack you can get!*Don't waste it on just any~plain Pokémon!
+Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Question,Joe: Ah, welcome! I've been~doing some thinking...?*<player.name>: ... Okay? Good~job, man?*Joe: You know Gym Leaders have~to tone things down for~trainers, right? Fighting at~less than full strength~doesn't seem very normal to~me. So how about you and I~have an average rematch, no~holds barred?!
+Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Answer_No,Joe: You don't want to battle~Pokémon right now?*That's so... ABNORMAL!*Get out, you miserable lout!!
+Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Answer_Yes,Joe: Alright! There's no way~you can handle us at our most~OVERWHELMING LEVEL OF...*normal.
+Route57_Gym_LeaderJoe_Rematch_OutroMessage,Joe: You beat us? Your team~must be that rumored...*EXTRAORDINARY type!
+Route57_Gym_LeaderJoe_Rematch_AfterBattle,Joe: Well we've only just~begun to see the limits of how~normal a guy can be. I'll show~you all; I'll be the most~normal trainer in the world!
 
 [Route 56]
 Route56_Main_SwimmerMaleKurt_IntroMessage,Oh no!
@@ -4773,12 +4779,14 @@ Azalea_Gym_BugCatcherHarvey_IntroMessage,I hear you're good! Show me!
 Azalea_Gym_BugCatcherHarvey_OutroMessage,Nice job!
 Azalea_Gym_BugCatcherHarvey_DefeatMessage,But are you as good as Bugsy?~Only one way to find out!
 Azalea_Gym_LeaderBugsy_BeforeBattle,Bugsy: Hello!*I am Bugsy!*I love to train Bug Pokémon!*I rarely fight Rijon trainers,~so let's see how this goes!
-Azalea_Gym_LeaderBugsy_DefeatMessage,Bugsy: Well done!
+Azalea_Gym_LeaderBugsy_OutroMessage,Bugsy: Well done!
 Azalea_Gym_LeaderBugsy_AfterBattle,Bugsy: Johto Badges are~useless for your league, so I~will give you a rare Pokémon.~Take only one though, don't be~greedy Rijon kid!
 Azalea_Gym_LeaderBugsy_Rematch_NotYetDefeatedRijonGymLeaders,Bugsy: So, you managed to~become Rijon's Champion?*You are strong, but it seems~you have yet to beat~Rijon's Gym Leaders' true~battle teams.*Come again after beating them~all and I'll battle with you~once more with all my buggy~might. If you win, I'll~provide you with a very useful~gadget. I'll continue my bug~studies meanwhile.
-Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle,Bugsy:
-Azalea_Gym_LeaderBugsy_Rematch_DefeatMessage,Bugsy:
-Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy:
+Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Question,Bugsy: Oh hey, it's you! You~look a bit tougher, but I've~been hitting the books night~and day since I lost to you!~Up for a rematch?
+Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_No,Bugsy: Ah, not this time?~Bummer, but at least it gives~me more time to prepare!
+Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_Yes,Bugsy: Time to see if I really~learned anything from my~studies! Go, my strong bugs!
+Azalea_Gym_LeaderBugsy_Rematch_OutroMessage,Bugsy: It's over? That bugs me~a little.
+Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Well, I guess I have~more learning to do. But~that's nothing new! Bug-type~Pokémon are my favorite, but~every Pokémon has so many~mysteries for us to uncover in~the future!
 Azalea_Gym_Choose_Gligar,You want the Gligar?
 Azalea_Gym_Choose_Sneasel,You want the Sneasel?
 Azalea_Gym_Receive_Gligar,<player.name> received~a Gligar!
