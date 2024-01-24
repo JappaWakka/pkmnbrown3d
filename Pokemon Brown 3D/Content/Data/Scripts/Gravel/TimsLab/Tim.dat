@@ -45,10 +45,31 @@ version=2
 	@register.unregister(tim3)
 	@Register.Register(tim4)
 	@NPC.register(Caves\Merson\Outside.dat|0|remove)
-:end
+	:end
 :endif
 
 :if:<Register.Registered(tim4)>=true
-	@Text.Show(<system.token(Gravel_TimsLab_Tim_CatchPokemon)>)
-:end
+	@Text.Show(<system.token(Gravel_TimsLab_Tim_CatchPokemon1)>)
+	@Item.Give(5,5)
+	@Item.MessageGive(5,5)
+	@Text.Show(<system.token(Gravel_TimsLab_Tim_CatchPokemon2)>)
+	@register.unregister(tim4)
+	@Register.Register(tim5)
+	:end
+:endif
+
+:if:<Register.Registered(tim5)>=true
+	@Text.Show(<system.token(Gravel_TimsLab_Tim_ComeSeeMeSometimes)>)
+	:end
+:endif
+
+:if:<Register.Registered(tim6)>=true
+	@Text.Show(<system.token(Gravel_TimsLab_Tim_DexEvaluation)>)
+	@script.start(DexEvaluation)
+	@Text.Show(<system.token(DexEvaluation_BeforeRating)>)
+	:if:<storage.get(bool,NewEvaluation)>=true
+		@Sound.Play(PokedexNewRating,1)
+	:endif
+	@Text.Show(<storage.get(str,EvaluationText)>)
+	:end
 :endif

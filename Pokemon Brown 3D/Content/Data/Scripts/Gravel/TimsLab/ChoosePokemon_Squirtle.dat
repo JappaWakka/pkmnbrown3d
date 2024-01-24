@@ -12,7 +12,7 @@ version=2
 			@register.unregister(mura1)
 			@Register.Register(tim2)
 			@Register.Register(mura2)
-			@Text.Show(<system.token(Gravel_Timslab_Choose_Confirm)>)
+			@Text.Show(<system.token(Gravel_TimsLab_Choose_Confirm)>)
 			@pokemon.add(7,5,<system.token(Gravel_TimsLab_StarterPokemon_CatchMethod)>,5,<system.token(Gravel_TimsLab_StarterPokemon_CatchLocation)>)
 			@Text.Show(<system.token(Gravel_TimsLab_Receive_Squirtle)>)
 			@pokemon.rename(0)

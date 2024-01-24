@@ -2,6 +2,9 @@ version=2
 :if:<Register.Registered(mettim)>=true
 	@NPC.Remove(3)
 :endif
-
+:if:<Register.Registered(tim5)>=true
+	@register.unregister(tim5)
+	@Register.Register(tim6)
+:endif
 :end
 
