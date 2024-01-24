@@ -1,0 +1,11 @@
+version=2
+@Text.Show(<system.token(Route57_Main_Fisherman_Question)>)
+@options.setcancelindex(1)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		@Text.Show(<system.token(Route57_Main_Fisherman_Answer_Yes)>)
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Route57_Main_Fisherman_Answer_No)>)
+:endwhen
+@NPC.Turn(0,0)
+:end
