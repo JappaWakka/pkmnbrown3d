@@ -21,7 +21,7 @@ version=2
 			@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_NotChampionYet)>)
 		:else
 			:if:<player.badges><15
-				@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_NotYetDefeatedRijonGymLeaders)>)
+				@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_BeforeGymLeaderRematch)>)
 			:else
 				:if:<Register.Registered(bugsy_rematch)>=false
 					@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Question)>)
@@ -31,7 +31,10 @@ version=2
 							@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_Yes)>)
 							@Battle.StartTrainer(Gyms\azalea\leader_rematch)
 							@Register.Register(bugsy_rematch)
-							@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_AfterBattle)>)
+							@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_Reward1)>)
+							@Item.Give(gm94,1)
+							@Item.MessageGive(gm94,1)
+							@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_Reward2)>)
 						:when:<system.token(global_no)>
 							@Text.Show(<system.token(Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_No)>)
 					:endwhen
