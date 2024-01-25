@@ -2,11 +2,12 @@
 Name|Geoff
 TrainerClass|<system.token(TrainerClass_Biker)>
 Money|1560
-IntroMessage|Don't think about getting inside.
-OutroMessage|Whatever, go ahead.
-DefeatMessage|Yeah, they got a new leader.
-TextureID|80
+IntroMessage|<system.token(FinalDungeon_OutdoorPath_BikerGeoff_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_OutdoorPath_BikerGeoff_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_OutdoorPath_BikerGeoff_DefeatMessage)>
+TextureID|Biker
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|7,7

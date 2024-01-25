@@ -122,5 +122,8 @@ Places:
 {"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[Caves\SenecaCaverns\1F_East.dat,Caves\SenecaCaverns\1F_West.dat,Caves\SenecaCaverns\B1F.dat,Caves\SenecaCaverns\B2F_Area0.dat,Caves\SenecaCaverns\B2F_Area1.dat,Caves\SenecaCaverns\B2F_Area2.dat,Caves\SenecaCaverns\B2F_Area3.dat,Caves\SenecaCaverns\B2F_Area4.dat]}{"Position"[15,5]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Ilex Forest]}{"MapFiles"[IlexForest.dat]}{"Position"[16,15]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Slowpoke Well]}{"MapFiles"[Azalea\SlowpokeWell\1F.dat,Azalea\SlowpokeWell\B1F.dat]}{"Position"[19,15]}{"Size"[Small]}
-{"PlaceType"[City]}{"Name"[Final Dungeon]}{"Mapfiles"[]}{"Position"[9,1]}{"Size"[Small]}{"FlyTo"[FinalDungeon\Island.dat,21,12,16]}
-{"PlaceType"[City]}{"Name"[Final Dungeon]}{"Mapfiles"[]}{"Position"[9,1]}{"Size"[Small]}
+
+{"PlaceType"[City]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\Island.dat]}{"Position"[9,1]}{"Size"[Small]}{"FlyTo"[FinalDungeon\Island.dat,21,12,16]}
+{"PlaceType"[Place]}{"Name"[]}{"Mapfiles"[FinalDungeon\MainBuilding_1F.dat]}{"Position"[9,3]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[]}{"Mapfiles"[FinalDungeon\OutdoorPath.dat]}{"Position"[9,5]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[]}{"Mapfiles"[FinalDungeon\UndergroundPath.dat]}{"Position"[6,6]}{"Size"[Small]}

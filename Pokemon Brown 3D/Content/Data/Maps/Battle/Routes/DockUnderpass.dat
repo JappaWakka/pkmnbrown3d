@@ -1,0 +1,20 @@
+{"Actions"{LEV[{"Lighting"{int[1]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}]}}
+
+Floors:
+	{"Floor"{ENT[{"Size"{intArr[14,7]}}{"Position"{intArr[7,0,10]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[192,32,16,16]}}]}}
+		
+Walls (Direction = Facing):
+	West
+		{"EntityField"{ENT[{"Size"{intArr[1,2,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[21,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+				
+	East
+		{"EntityField"{ENT[{"Size"{intArr[1,2,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+				
+	North
+		{"EntityField"{ENT[{"Size"{intArr[14,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,0,17]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		
+	South
+		{"EntityField"{ENT[{"Size"{intArr[14,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,0,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		
+Ceiling:
+	{"EntityField"{ENT[{"Size"{intArr[14,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,2,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

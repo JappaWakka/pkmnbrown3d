@@ -158,7 +158,7 @@ Plants:
 {"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[22,0.9,20]}}{"TexturePath"{str[rocketbase]}}{"Textures"{recArr[[0,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Stairs:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[26,0,24]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,96,16,16][16,96,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[finaldungeon\building0.dat,26,0.1,24,2,2]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[26,0,24]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,96,16,16][16,96,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[FinalDungeon\MainBuilding_1F.dat,26,0.1,24,2,2]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[SlideBlock]}}{"Position"{sngArr[26,1,25]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,96,16,16][16,96,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[26,0,25]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,96,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 

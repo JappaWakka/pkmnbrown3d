@@ -1,0 +1,7 @@
+version=2
+
+:if:<Register.Registered(MainBuilding_1F_Security)>=True
+:else
+	@Text.Show(It's an impassable security door.)
+:endif
+:end

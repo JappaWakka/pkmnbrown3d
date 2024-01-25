@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Final Dungeon]}}{"MusicLoop"{str[FinalDungeon_Building]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[finaldungeon\building0\mapscript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[FinalDungeon\MainBuilding_1F\mapscript]}}]}}
 
 Floor:
 {"Floor"{ENT[{"Size"{intArr[8,7]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[rocketbase]}}{"Texture"{rec[0,16,16,16]}}]}}

@@ -1,6 +1,0 @@
-version=2
-
-:if:<Register.Registered(building0security)>=True
-	@entity.remove(5)
-:endif
-:end

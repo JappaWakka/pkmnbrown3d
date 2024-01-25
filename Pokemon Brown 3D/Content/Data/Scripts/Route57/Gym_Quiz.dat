@@ -35,16 +35,16 @@ version=2
 		@Text.Show(<system.token(Route57_Gym_Quiz_Question3)>)
 		@options.show(<system.token(global_true)>,<system.token(global_false)>)
 			:when:<system.token(global_true)>
-				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Correct)>)
-				@Register.Register(quiz2)
-				@entity.remove(2)
-				@sound.play(SwitchDoor)
-			:when:<system.token(global_false)>
 				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Wrong)>)
 				@player.turnto(3)
 				@npc.turn(4,1)
 				@npc.move(4,1)
 				@Battle.StartTrainer(Gyms\57\004)
+			:when:<system.token(global_false)>
+				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Correct)>)
+				@Register.Register(quiz2)
+				@entity.remove(2)
+				@sound.play(SwitchDoor)
 			:endwhen
 	:when:0,0,13
 		@Text.Show(<system.token(Route57_Gym_Quiz_Question4)>)
