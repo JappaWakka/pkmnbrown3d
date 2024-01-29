@@ -1,16 +1,17 @@
 [TRAINER FORMAT]
-Name|Joey
+Name|Noah
 TrainerClass|<system.token(TrainerClass_Youngster)>
 Money|1305
-IntroMessage|Nuh uh uh..
-OutroMessage|Ack!
-DefeatMessage|They pay me well for failing.*Sweet!
+IntroMessage|<system.token(FinalDungeon_SmallRoom0_YoungsterNoah_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_SmallRoom0_YoungsterNoah_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_SmallRoom0_YoungsterNoah_DefeatMessage)>
 TextureID|Youngster_Blue
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
-Pokemon1|14,87
+Pokemon1|34,87
 Pokemon2|
 Pokemon3|
 Pokemon4|

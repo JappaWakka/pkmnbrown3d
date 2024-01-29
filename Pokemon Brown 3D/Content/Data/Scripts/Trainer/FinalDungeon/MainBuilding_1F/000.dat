@@ -1,4 +1,6 @@
 version=2
 @Battle.StartTrainer(FinalDungeon\MainBuilding_1F\000)
+@Sound.Play(SwitchDoor)
+@entity.remove(5)
 @Register.Register(MainBuilding_1F_Security)
 :end

@@ -1,0 +1,6 @@
+version=2
+
+:if:<Register.Registered(MainBuilding_1F_Security)>=False
+	@Text.Show(<system.token(FinalDungeon_MainBuilding1F_SecurityDoor)>)
+:endif
+:end

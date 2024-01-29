@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Karla
+Name|Emma
 TrainerClass|<system.token(TrainerClass_RocketGrunt)>
 Money|2460
-IntroMessage|Why did you come here?
-OutroMessage|This won't do!
-DefeatMessage|Please stop!~I have three kids to feed.
+IntroMessage|<system.token(FinalDungeon_MainBuilding1F_RocketGruntEmma_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_MainBuilding1F_RocketGruntEmma_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_MainBuilding1F_RocketGruntEmma_OutroMessage)>
 TextureID|RocketGrunt_Female
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -17,6 +18,6 @@ Pokemon4|91,82
 Pokemon5|
 Pokemon6|
 Items|
-Gender|0
+Gender|1
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

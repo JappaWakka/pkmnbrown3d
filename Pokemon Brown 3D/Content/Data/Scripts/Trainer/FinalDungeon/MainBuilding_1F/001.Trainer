@@ -2,11 +2,12 @@
 Name|Colton
 TrainerClass|<system.token(TrainerClass_RocketGrunt)>
 Money|2490
-IntroMessage|We will succeed this time.
-OutroMessage|Oww! Beaten!
-DefeatMessage|Get a life!
+IntroMessage|<system.token(FinalDungeon_MainBuilding1F_RocketGruntColton_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_MainBuilding1F_RocketGruntColton_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_MainBuilding1F_RocketGruntColton_OutroMessage)>
 TextureID|RocketGrunt_Male
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

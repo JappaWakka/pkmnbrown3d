@@ -196,7 +196,7 @@ Warps:
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[9,0,35]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[FinalDungeon\UndergroundPath.dat,52,0.1,12,0]}}{"Rotation"{int[0]}}]}}
 	
 	Main Building 1F
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[6,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[FinalDungeon\MainBuilding_1F.dat,3,0.1,26,0]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[6,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[FinalDungeon\MainBuilding_1F.dat,3,0.1,27,0]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[7,0,34]}}{"TextureID"{str[BirdKeeper]}}{"ID"{int[0]}}{"Name"{str[Bird Keeper Talon]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|Trainer\FinalDungeon\OutdoorPath\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
