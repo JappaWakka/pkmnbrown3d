@@ -79,7 +79,10 @@ Walls (Direction = Facing):
 		{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,1,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 		
 		{"EntityField"{ENT[{"Size"{intArr[19,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,0,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,280,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[19,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,1,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		
+		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,1,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,1,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[288,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[15,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,1,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 		
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25,0,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,280,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 		
@@ -121,7 +124,7 @@ Walls (Direction = Facing):
 		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[19,1,22]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		
 	West
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[23,-1,24]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[272,296,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[23,-1,24]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[1,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[27,-1,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[272,296,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 		
 		{"EntityField"{ENT[{"Size"{intArr[1,26]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[28,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,280,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
@@ -161,7 +164,7 @@ Walls (Direction = Facing):
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,1,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 		
 	East
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[21,-1,24]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[256,296,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[21,-1,24]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[1,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25,-1,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[256,296,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 		
 		{"EntityField"{ENT[{"Size"{intArr[1,10]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-1,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,280,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
@@ -306,9 +309,9 @@ Items:
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[19,-0.375,14]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[2,62]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 	
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[23,0,7]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[Rocket Grunt Horace]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\FinalDungeon\MainBuilding_1F\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[8,0,15]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[1]}}{"Name"{str[Rocket Grunt Colton]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\FinalDungeon\MainBuilding_1F\001]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[12,0,0]}}{"TextureID"{str[RocketGrunt_Female]}}{"ID"{int[2]}}{"Name"{str[Rocket Grunt Joanne]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\FinalDungeon\MainBuilding_1F\002]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[24,0,2]}}{"TextureID"{str[RocketGrunt_Female]}}{"ID"{int[3]}}{"Name"{str[Rocket Grunt Emma]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\FinalDungeon\MainBuilding_1F\003]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[25,0,16]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[4]}}{"Name"{str[Rocket Grunt Finn]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\FinalDungeon\MainBuilding_1F\004]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[23,0,7]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[Rocket Grunt Horace]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\FinalDungeon\MainBuilding_1F\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[8,0,15]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[1]}}{"Name"{str[Rocket Grunt Colton]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\FinalDungeon\MainBuilding_1F\001]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[12,0,0]}}{"TextureID"{str[RocketGrunt_Female]}}{"ID"{int[2]}}{"Name"{str[Rocket Grunt Joanne]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\FinalDungeon\MainBuilding_1F\002]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[24,0,2]}}{"TextureID"{str[RocketGrunt_Female]}}{"ID"{int[3]}}{"Name"{str[Rocket Grunt Emma]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\FinalDungeon\MainBuilding_1F\003]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[25,0,16]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[4]}}{"Name"{str[Rocket Grunt Finn]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\FinalDungeon\MainBuilding_1F\004]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
