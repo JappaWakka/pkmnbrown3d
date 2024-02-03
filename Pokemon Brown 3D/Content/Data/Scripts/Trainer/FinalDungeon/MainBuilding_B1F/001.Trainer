@@ -2,9 +2,9 @@
 Name|Chip
 TrainerClass|<system.token(TrainerClass_RocketGrunt)>
 Money|2520
-IntroMessage|Get out of the way!
-OutroMessage|Oof! Taken down!
-DefeatMessage|We've been stronger ever since~our new leader took over.
+IntroMessage|<system.token(FinalDungeon_MainBuildingB1F_RocketGruntChip_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_MainBuildingB1F_RocketGruntChip_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_MainBuildingB1F_RocketGruntChip_OutroMessage)>
 TextureID|RocketGrunt_Male
 Region|Rijon
 InSightMusic|Encounter_Rocket

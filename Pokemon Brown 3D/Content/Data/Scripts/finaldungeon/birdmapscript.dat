@@ -1,6 +1,6 @@
 version=2
 
-:if:<Register.Registered(birdroom)>=True
+:if:<Register.Registered(JohtoLegendaryRoom)>=True
 	@entity.remove(1)
 :endif
 :end

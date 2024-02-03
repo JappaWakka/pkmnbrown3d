@@ -2,11 +2,12 @@
 Name|Kenneth
 TrainerClass|<system.token(TrainerClass_Sailor)>
 Money|2580
-IntroMessage|I need a better hourly rate!
-OutroMessage|I was just careless..
-DefeatMessage|I heard the Rockets have a new leader.
+IntroMessage|<system.token(FinalDungeon_MainBuildingB3F_SailorKenneth_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_MainBuildingB3F_SailorKenneth_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_MainBuildingB3F_SailorKenneth_DefeatMessage)>
 TextureID|Sailor
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|1,1

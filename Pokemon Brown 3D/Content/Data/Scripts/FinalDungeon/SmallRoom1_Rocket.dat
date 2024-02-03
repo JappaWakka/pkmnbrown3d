@@ -1,6 +1,6 @@
 version=2
 
-@Text.Show(New here? We found one~of the birds.*Now we must find this one.)
+@Text.Show(<system.token(FinalDungeon_SmallRoom1_Rocket)>)
 
 :if:<Register.Registered(Lugia)>=True
 	@screen.showpokemon(249,0,1)

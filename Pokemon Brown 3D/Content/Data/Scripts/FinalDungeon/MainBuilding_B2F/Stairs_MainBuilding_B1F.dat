@@ -1,15 +1,15 @@
 version=2
 
 :if:<Player.Facing>=0
-	@Player.Warp(FinalDungeon\MainBuilding_B2F.dat,28,0.1,23,1)
+	@Player.Warp(FinalDungeon\MainBuilding_B1F.dat,18,0.1,6,3)
 :else
 	:if:<Player.Facing>=1
-		@Player.Warp(FinalDungeon\MainBuilding_B2F.dat,28,0.1,23,0)
+		@Player.Warp(FinalDungeon\MainBuilding_B1F.dat,18,0.1,6,2)
 	:else
 		:if:<Player.Facing>=2
-			@Player.Warp(FinalDungeon\MainBuilding_B2F.dat,28,0.1,23,3)
+			@Player.Warp(FinalDungeon\MainBuilding_B1F.dat,18,0.1,6,1)
 		:else
-			@Player.Warp(FinalDungeon\MainBuilding_B2F.dat,28,0.1,23,2)
+			@Player.Warp(FinalDungeon\MainBuilding_B1F.dat,18,0.1,6,0)
 		:endif
 	:endif
 :endif

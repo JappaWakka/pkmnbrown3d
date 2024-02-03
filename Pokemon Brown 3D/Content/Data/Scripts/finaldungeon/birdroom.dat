@@ -1,6 +1,6 @@
 version=2
 
-:if:<Register.Registered(birdroom)>=False
+:if:<Register.Registered(JohtoLegendaryRoom)>=False
 	@Text.Show(What have I done?*I trapped such a graceful Pokémon!*Please take this far far away~and let it live in peace.)
 	:if:<pokemon.count><6
 		:if:<Register.Registered(Lugia)>=True
@@ -8,7 +8,7 @@ version=2
 		:else
 			@pokemon.add(250,40)
 		@Text.Show(Now just look at that, this~doesn't deserve to be trapped~here!*It's a shame those Master Balls can~be abused this much...)
-		@Register.Register(birdroom)
+		@Register.Register(JohtoLegendaryRoom)
 		:endif
 	:else
 		@Text.Show(Unfortunately, you don't have room.~Please come get it later!)

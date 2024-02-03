@@ -2,11 +2,12 @@
 Name|Sal
 TrainerClass|<system.token(TrainerClass_Sailor)>
 Money|2550
-IntroMessage|Team Rocket hired me!
-OutroMessage|Wow!
-DefeatMessage|We transfer goods across the sea.
+IntroMessage|<system.token(FinalDungeon_MainBuildingB3F_SailorSal_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_MainBuildingB3F_SailorSal_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_MainBuildingB3F_SailorSal_DefeatMessage)>
 TextureID|Sailor
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|1,1
