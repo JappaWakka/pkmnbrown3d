@@ -2,16 +2,17 @@
 Name|Summer
 TrainerClass|<system.token(TrainerClass_Lass)>
 Money|1320
-IntroMessage|I need to loosen up!
-OutroMessage|Take it easy!
-DefeatMessage|Battling relaxes me.
-TextureID|Beauty
+IntroMessage|<system.token(FinalDungeon_SmallRoom2_LassSummer_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_SmallRoom2_LassSummer_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_SmallRoom2_LassSummer_DefeatMessage)>
+TextureID|Lass_Green
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
 Pokemon1|20,88
-Pokemon2|26,89
+Pokemon2|26,88
 Pokemon3|
 Pokemon4|
 Pokemon5|
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|5,5

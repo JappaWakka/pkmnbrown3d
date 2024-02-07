@@ -1,15 +1,15 @@
 version=2
 
 :if:<Player.Facing>=0
-	@Player.Warp(FinalDungeon\UndergroundCaveMaze_1F.dat,22,0.1,17,0)
+	@Player.Warp(FinalDungeon\SmallRoom2.dat,2,0.1,4,0)
 :else
 	:if:<Player.Facing>=1
-		@Player.Warp(FinalDungeon\UndergroundCaveMaze_1F.dat,22,0.1,17,3)
+		@Player.Warp(FinalDungeon\SmallRoom2.dat,2,0.1,4,3)
 	:else
 		:if:<Player.Facing>=2
-			@Player.Warp(FinalDungeon\UndergroundCaveMaze_1F.dat,22,0.1,17,2)
+			@Player.Warp(FinalDungeon\SmallRoom2.dat,2,0.1,4,2)
 		:else
-			@Player.Warp(FinalDungeon\UndergroundCaveMaze_1F.dat,22,0.1,17,1)
+			@Player.Warp(FinalDungeon\SmallRoom2.dat,2,0.1,4,1)
 		:endif
 	:endif
 :endif

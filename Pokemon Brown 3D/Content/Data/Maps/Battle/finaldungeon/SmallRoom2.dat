@@ -1,24 +1,42 @@
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
 
-Floor:
-{"Floor"{ENT[{"Size"{intArr[14,7]}}{"Position"{intArr[7,0,10]}}{"TexturePath"{str[rocketbase]}}{"Texture"{rec[0,16,16,16]}}]}}
-
-Walls:
-{"EntityField"{ENT[{"EntityID"{str[WallBlock]}}{"Size"{intArr[16,9]}}{"Fill"{bool[0]}}{"Position"{sngArr[6,0,9]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[16,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"EntityField"{ENT[{"EntityID"{str[WallBlock]}}{"Size"{intArr[16,9]}}{"Fill"{bool[0]}}{"Position"{sngArr[6,1,9]}}{"TexturePath"{str[Gate]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-
-Ceiling:
-{"EntityField"{ENT[{"Size"{intArr[14,7]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[7,2,10]}}{"TexturePath"{str[rocketbase]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-
-Stairs:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,0,10]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,96,16,16][16,96,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,9,0.1,11,1,1]}}{"Rotation"{int[3]}}]}}
-{"Entity"{ENT[{"EntityID"{str[SlideBlock]}}{"Position"{sngArr[7,1,10]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,96,16,16][16,96,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{[]}}{"Rotation"{int[3]}}]}}
-{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,0,10]}}{"TexturePath"{str[House2]}}{"Textures"{recArr[[32,96,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-
+Floors:
+	Blue Tiles
+		{"Floor"{ENT[{"Size"{intArr[12,7]}}{"Position"{intArr[8,0,10]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[272,80,16,16]}}]}}
+	
+	LadderHole
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,14]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[240,336,16,16]}}]}}
+		
+Ceilings:
+	{"EntityField"{ENT[{"Size"{intArr[14,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,2,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+Walls (Direction = Facing):
+	North
+		{"EntityField"{ENT[{"Size"{intArr[12,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,0,17]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,280,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[12,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,1,17]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+	
+	South
+		{"EntityField"{ENT[{"Size"{intArr[12,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,0,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,280,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[12,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,1,9]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		
+	West
+		{"EntityField"{ENT[{"Size"{intArr[1,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,280,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20,1,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+	
+	East
+		{"EntityField"{ENT[{"Size"{intArr[1,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,280,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,1,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[304,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+		
 Plants:
-{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[18,-0.1,10]}}{"TexturePath"{str[rocketbase]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[18,0.9,10]}}{"TexturePath"{str[rocketbase]}}{"Textures"{recArr[[0,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.75,1.5,0.75]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[16.5,0.25,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[40,112,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.75,1.5,0.75]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[16.5,0.25,16]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[40,112,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
+Ladder:
+	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Inside_BattleMap]}}{"Offset"{sngArr[8,0,14]}}]}}
+	
 Boxes:
-{"EntityField"{ENT[{"Size"{intArr[2,3]}}{"Scale"{sngArr[0.8,0.4,0.8]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,-0.3,11]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,64,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.8,0.4,0.8]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,0.1,12]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,64,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.9,0.45,0.9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,-0.275,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[256,256,16,8][256,240,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.9,0.45,0.9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,0.175,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[256,256,16,8][256,240,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.9,0.45,0.9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,0.625,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[256,256,16,8][256,240,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

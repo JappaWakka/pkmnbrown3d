@@ -2,21 +2,22 @@
 Name|Harley
 TrainerClass|<system.token(TrainerClass_RocketGrunt)>
 Money|2610
-IntroMessage|Ugh!
-OutroMessage|Owch, pain!
-DefeatMessage|If only I knew what I was doing..
+IntroMessage|<system.token(FinalDungeon_UndergroundCaveMaze1F_RocketGruntHarley_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_UndergroundCaveMaze1F_RocketGruntHarley_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_UndergroundCaveMaze1F_RocketGruntHarley_OutroMessage)>
 TextureID|RocketGrunt_Female
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
-Pokemon1|178,87
+Pokemon1|715,87
 Pokemon2|
 Pokemon3|
 Pokemon4|
 Pokemon5|
 Pokemon6|
 Items|
-Gender|0
+Gender|1
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3
