@@ -4814,6 +4814,9 @@ Azalea_Gym_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<sys
 Azalea_Gym_PokeballAfterChoose,Better not get greedy...
 
 [Final Dungeon]
+FinalDungeon_SecurityDoors_WithCardKey,Bingo!~The Card Key opened the door!
+FinalDungeon_SecurityDoors_NoCardKey,Darn! It needs a Card Key!
+
 FinalDungeon_UndergroundPath_BikerGeorge_IntroMessage,Bikes work well here.
 FinalDungeon_UndergroundPath_BikerGeorge_OutroMessage,Dang! Stripped gears!
 FinalDungeon_UndergroundPath_BikerGeorge_DefeatMessage,Get lost!
@@ -4873,7 +4876,6 @@ FinalDungeon_OutdoorPath_BikerJoel_IntroMessage,Hahaha, I stopped you!
 FinalDungeon_OutdoorPath_BikerJoel_OutroMessage,Blown away!
 FinalDungeon_OutdoorPath_BikerJoel_DefeatMessage,Enter at your own risk!
 
-FinalDungeon_MainBuilding1F_SecurityDoor,It's an impassable security~door.
 FinalDungeon_MainBuilding1F_RocketGruntHorace_IntroMessage,Oh no, not you again.
 FinalDungeon_MainBuilding1F_RocketGruntHorace_OutroMessage,Why...?
 FinalDungeon_MainBuilding1F_RocketGruntHorace_DefeatMessage,Fine, you can access that~room.
@@ -4934,7 +4936,7 @@ FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_IntroMessage,Get out of my wa
 FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_OutroMessage,So, you are good.
 FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_DefeatMessage,Stop getting near me!
 
-FinalDungeon_SmallCave0_Telekinetic,I think the trainer named~Slick would love that Crobat.
+FinalDungeon_SmallCave0_Telekinetic,I think a trainer named~Slick would love that Crobat.
 FinalDungeon_SmallCave0_CrobatTrade_Question,Hello there!*Do you want to trade your~Rhyhorn for Crobat?
 FinalDungeon_SmallCave0_CrobatTrade_Answer_No,Well, if you don't want to...
 FinalDungeon_SmallCave0_CrobatTrade_AfterTrade,The Rhyhorn you traded to~me went and evolved!
@@ -4949,3 +4951,38 @@ FinalDungeon_SmallRoom2_GentlemanJones_DefeatMessage,Thanks for the lesson.
 FinalDungeon_SmallRoom2_LassSummer_IntroMessage,I need to loosen up!
 FinalDungeon_SmallRoom2_LassSummer_OutroMessage,Take it easy!
 FinalDungeon_SmallRoom2_LassSummer_DefeatMessage,Battling relaxes me!
+
+FinalDungeon_UndergroundCaveMazeB1F_HikerJohnny_IntroMessage,How did I end up here?
+FinalDungeon_UndergroundCaveMazeB1F_HikerJohnny_OutroMessage,Doh! You win!
+FinalDungeon_UndergroundCaveMazeB1F_HikerJohnny_DefeatMessage,I'm a hiker, and even I got~lost!
+FinalDungeon_UndergroundCaveMazeB1F_HikerTed_IntroMessage,I don't like it here.
+FinalDungeon_UndergroundCaveMazeB1F_HikerTed_OutroMessage,Ease up! What am I doing?~Which way is out?
+FinalDungeon_UndergroundCaveMazeB1F_HikerTed_DefeatMessage,Do you have a map?
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleQuinn_IntroMessage,I like to help!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleQuinn_OutroMessage,I'm out of Pokémon!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleQuinn_DefeatMessage,I love helping, okay?
+FinalDungeon_UndergroundCaveMazeB1F_HikerMorgan_IntroMessage,WRONG WAY!
+FinalDungeon_UndergroundCaveMazeB1F_HikerMorgan_OutroMessage,I give!
+FinalDungeon_UndergroundCaveMazeB1F_HikerMorgan_DefeatMessage,LEAVE!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_IntroMessage,And the family attacks!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_OutroMessage,You play hard!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_DefeatMessage,That was just too much!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleYolanda_IntroMessage,Watch where you're going!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleYolanda_OutroMessage,It was too dark!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleYolanda_DefeatMessage,I'm scared!
+FinalDungeon_UndergroundCaveMazeB1F_PokeManiacTroy_IntroMessage,Pokémon, fight!~Ready, go!
+FinalDungeon_UndergroundCaveMazeB1F_PokeManiacTroy_OutroMessage,Game over!
+FinalDungeon_UndergroundCaveMazeB1F_PokeManiacTroy_DefeatMessage,How about fistfight instead?
+
+FinalDungeon_SmallRoom3_FishermanAstor_IntroMessage,I'm on the clock!
+FinalDungeon_SmallRoom3_FishermanAstor_OutroMessage,I'm all out!
+FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,I get paid to just sit here.
+
+FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,What have I done?*I trapped such a graceful~Pokémon!*Please take this far far away~and let it live in peace.
+FinalDungeon_JohtoLegendaryRoom_Rocket_ReceivedHoOh,<Player.Name> received~Ho-oh!
+FinalDungeon_JohtoLegendaryRoom_Rocket_ReceivedLugia,<Player.Name> received~Lugia!
+FinalDungeon_JohtoLegendaryRoom_Rocket_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Received from a Rocket Grunt
+FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,in the Final Dungeon
+FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Now just look at that, this~doesn't deserve to be trapped~here! It's a shame those~Master Balls can be abused~this much...
+FinalDungeon_JohtoLegendaryRoom_Rocket_TalkAgain,Don't tell anyone about this,~this is our secret.

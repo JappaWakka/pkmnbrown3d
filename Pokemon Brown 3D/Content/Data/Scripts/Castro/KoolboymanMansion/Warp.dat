@@ -1,9 +1,28 @@
 version=2
+:if:<camera.thirdperson>=true
+	@storage.set(bool,SetToFirstPerson,false)
+:else
+	@storage.set(bool,SetToFirstPerson,true)
+:endif
 
+@camera.activatethirdperson
+@player.turnto(2)
+@camera.setyaw(0)
+@camera.reset
+@camera.setpitch(-0.20)
+@level.wait(10)
+@camera.fix
 @sound.play(Teleport)
+
+@Player.SetMovement(0,1,0)
+@Player.SetSpeed(3)
+@Player.Move(3)
+
+@screen.fadeoutcolor(255,255,255)
 @screen.fadeout(15)
+@camera.update
 :select:<player.position>
-	:when:16,0,14
+	:when:16,3,14
 		@player.warp(Castro\KoolboymanMansion\1F.dat,16,0.1,14)
 		@level.update
 		:if:<Register.Registered(mansionlock)>=True
@@ -13,10 +32,28 @@ version=2
 		:if:<Register.Registered(mansionlock)>=False
 			@entity.remove(1)
 		:endif
+		
+		@level.update
+		@camera.defix
+		@camera.update
+		@camera.fix
+		@player.warp(~,2.9,~)
+		@level.update
 		@screen.fadein(15)
 		@camera.update
-		@level.wait(10)
+		
+		@Player.SetMovement(0,-1,0)
+		@Player.SetSpeed(3)
+		@Player.Move(3)
+		
+		@camera.defix
+		@screen.fadeoutcolor
+		:if:<storage.get(bool,SetToFirstPerson)>=true
+			@Camera.DeactivateThirdPerson
+		:endif
+		
 		:if:<Register.Registered(trainer_CastroMansion\001)>=false
+			@level.wait(10)
 			@Music.Play(Encounter_Trainer_Male)
 			@player.turnto(3)
 			:if:<camera.thirdperson>=true
@@ -35,7 +72,7 @@ version=2
 			@Music.Play(SilphCoWarehouse)
 		:endif
 		:end
-	:when:17,0,14
+	:when:17,3,14
 		@player.warp(Castro\KoolboymanMansion\1F.dat,16,0.1,14)
 		@level.update
 		:if:<Register.Registered(mansionlock)>=True
@@ -45,10 +82,28 @@ version=2
 		:if:<Register.Registered(mansionlock)>=False
 			@entity.remove(1)
 		:endif
+		
+		@level.update
+		@camera.defix
+		@camera.update
+		@camera.fix
+		@player.warp(~,2.9,~)
+		@level.update
 		@screen.fadein(15)
 		@camera.update
-		@level.wait(10)
+		
+		@Player.SetMovement(0,-1,0)
+		@Player.SetSpeed(3)
+		@Player.Move(3)
+		
+		@camera.defix
+		@screen.fadeoutcolor
+		:if:<storage.get(bool,SetToFirstPerson)>=true
+			@Camera.DeactivateThirdPerson
+		:endif
+		
 		:if:<Register.Registered(trainer_CastroMansion\001)>=false
+			@level.wait(10)
 			@Music.Play(Encounter_Trainer_Male)
 			@player.turnto(3)
 			:if:<camera.thirdperson>=true
@@ -67,10 +122,28 @@ version=2
 			@Music.Play(SilphCoWarehouse)
 		:endif
 		:end
-	:when:19,0,14
+	:when:19,3,14
 		@player.warp(Castro\KoolboymanMansion\2F.dat,19,0.1,14)
+		
+		@level.update
+		@camera.defix
+		@camera.update
+		@camera.fix
+		@player.warp(~,2.9,~)
 		@level.update
 		@screen.fadein(15)
+		@camera.update
+		
+		@Player.SetMovement(0,-1,0)
+		@Player.SetSpeed(3)
+		@Player.Move(3)
+		
+		@camera.defix
+		@screen.fadeoutcolor
+		:if:<storage.get(bool,SetToFirstPerson)>=true
+			@Camera.DeactivateThirdPerson
+		:endif
 		:end
 :endwhen
+
 :end

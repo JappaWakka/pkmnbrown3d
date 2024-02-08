@@ -26,7 +26,7 @@ Boxes:
 
 Warp:
 {"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[1,0,1]}}{"TexturePath"{str[rocketbase]}}{"Texture"{rec[64,0,16,16]}}]}}
-{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,1]}}{"TexturePath"{str[rocketbase]}}{"Textures"{recArr[[64,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[finaldungeon\warproom]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,1]}}{"TexturePath"{str[rocketbase]}}{"Textures"{recArr[[64,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[FinalDungeon\Warp]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[68]}}{"ID"{int[0]}}{"Name"{str[Gentleman]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\finaldungeon\smallroom4\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[68]}}{"ID"{int[0]}}{"Name"{str[Gentleman]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\FinalDungeon\SmallRoom4\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

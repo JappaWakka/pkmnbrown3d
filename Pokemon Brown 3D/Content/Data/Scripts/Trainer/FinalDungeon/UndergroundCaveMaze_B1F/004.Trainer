@@ -2,11 +2,12 @@
 Name|Caitlyn
 TrainerClass|<system.token(TrainerClass_JrTrainer_Female)>
 Money|1780
-IntroMessage|And the family attacks!
-OutroMessage|You play hard!
-DefeatMessage|That was just too much.
+IntroMessage|<system.token(FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_DefeatMessage)>
 TextureID|JrTrainer_Female
 Region|Rijon
+InSightMusic|Encounter_Trainer_Female
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -17,6 +18,6 @@ Pokemon4|149,89
 Pokemon5|
 Pokemon6|
 Items|
-Gender|0
+Gender|1
 AI|2
-IntroSequence|0,0
+IntroSequence|7,7

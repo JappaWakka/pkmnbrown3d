@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Joel
+Name|Astor
 TrainerClass|<system.token(TrainerClass_Fisherman)>
 Money|2940
-IntroMessage|I'm on the clock.
-OutroMessage|I'm all out!
-DefeatMessage|I get paid to just sit here.
+IntroMessage|<system.token(FinalDungeon_SmallRoom3_FishermanAstor_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_SmallRoom3_FishermanAstor_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage)>
 TextureID|Fisherman
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|2,2

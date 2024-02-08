@@ -2,9 +2,8 @@ version=2
 
 :if:<inventory.countitem(127)>=1
 	@Text.Show(<system.token(FinalDungeon_SecurityDoors_WithCardKey)>)
-	@entity.remove(5)
+	@entity.remove(1)
 	@sound.play(SwitchDoor)
-	@Register.Register(MainBuilding_1F_Security)
 	@level.update
 :else
 	@Text.Show(<system.token(FinalDungeon_SecurityDoors_NoCardKey)>)

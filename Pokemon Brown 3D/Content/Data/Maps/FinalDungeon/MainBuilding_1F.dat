@@ -18,6 +18,9 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[17,0,22]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[272,80,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[24,3]}}{"Position"{intArr[0,0,23]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[272,80,16,16]}}]}}
 		
+	Gray Tiles
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[20,0,23]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[304,96,16,16]}}]}}
+		
 	Doormat
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[3,0,26]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[192,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,26]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[208,0,16,16]}}]}}
@@ -294,13 +297,13 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[26,0,26]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[FinalDungeon\MainBuilding_1F\Stairs_MainBuilding_B1F]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Warehouse_Down_South]}}{"Offset"{sngArr[26,-1,26]}}]}}
 		
-Security Door:
+Security Doors:
 	{"EntityField"{ENT[{"ID"{int[5]}}{"Size"{intArr[1,2]}}{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20,0,23]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,224,16,16][336,224,4,16][320,260,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 	{"EntityField"{ENT[{"ID"{int[5]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[20,0,23]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[FinalDungeon\MainBuilding_1F\SecurityDoors]}}{"Rotation"{int[1]}}{"Visible"{bool[0]}}]}}
 
 Items:
 	TM32 Double Team
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[15,0.075,15]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm50]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[15,0.05,15]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm50]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 	
 	TM17 Submission
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[15,-0.375,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[1,gm35]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
