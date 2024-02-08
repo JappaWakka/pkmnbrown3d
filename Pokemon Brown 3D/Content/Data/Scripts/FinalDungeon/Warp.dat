@@ -28,28 +28,28 @@ version=2
 		@player.warp(FinalDungeon\WarpRoom.dat,1,0.1,3)
 	:when:SmallRoom5
 		@player.warp(FinalDungeon\WarpRoom.dat,5,0.1,5)
-	:when:SmallCave1
-		@player.warp(FinalDungeon\WarpRoom.dat,5,0.1,1)
 	:when:SmallRoom6
 		@player.warp(FinalDungeon\WarpRoom.dat,5,0.1,3)
+	:when:SmallRoom7
+		@player.warp(FinalDungeon\WarpRoom.dat,5,0.1,1)
 	:when:Lobby
 		@player.warp(FinalDungeon\WarpRoom.dat,3,0.1,5)
 	:when:WarpRoom
 		:select:<player.position>
 			:when:1,3,1
 				@player.warp(FinalDungeon\UndergroundCaveMaze_B1F.dat,17,0.1,21)
-			:when:1,3,3
-				@player.warp(FinalDungeon\SmallRoom4.dat,1,0.1,1)
-			:when:1,3,5
-				@player.warp(FinalDungeon\WarpRoom.dat,3,0.1,1)
 			:when:3,3,1
 				@player.warp(FinalDungeon\WarpRoom.dat,1,0.1,5)
-			:when:3,3,5
-				@player.warp(FinalDungeon\Lobby.dat,5,0.1,0)
 			:when:5,3,1
-				@player.warp(FinalDungeon\SmallCave1.dat,3,0.1,7)
+				@player.warp(FinalDungeon\SmallRoom7.dat,3,0.1,4)
+			:when:1,3,3
+				@player.warp(FinalDungeon\SmallRoom4.dat,1,0.1,1)
 			:when:5,3,3
 				@player.warp(FinalDungeon\SmallRoom6.dat,2,0.1,2)
+			:when:1,3,5
+				@player.warp(FinalDungeon\WarpRoom.dat,3,0.1,1)
+			:when:3,3,5
+				@player.warp(FinalDungeon\Lobby.dat,6,0.1,1)
 			:when:5,3,5
 				@player.warp(FinalDungeon\SmallRoom5.dat,2,0.1,4)
 		:endwhen

@@ -1,0 +1,11 @@
+version=2
+
+@Text.Show(<system.token(FinalDungeon_Lobby_HealLady_Intro)>)
+@screen.fadeout(15)
+@pokemon.heal
+@sound.play(Heal_Party,1)
+@level.wait(125)
+@screen.fadein(15)
+@Text.Show(<system.token(FinalDungeon_Lobby_HealLady_Outro)>)
+
+:end

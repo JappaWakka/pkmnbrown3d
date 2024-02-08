@@ -1,12 +1,13 @@
 [TRAINER FORMAT]
-Name|Bill
+Name|Silvester
 TrainerClass|<system.token(TrainerClass_Gentleman)>
 Money|6510
-IntroMessage|12,981...*12,982...*You made me lose count!
-OutroMessage|Wow!
-DefeatMessage|Please, leave me alone.
+IntroMessage|<system.token(FinalDungeon_SmallRoom4_GentlemanSilvester_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_SmallRoom4_GentlemanSilvester_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_SmallRoom4_GentlemanSilvester_DefeatMessage)>
 TextureID|Gentleman_Brown
 Region|Rijon
+InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|7,7
