@@ -2997,7 +2997,7 @@ TrainerClass_Youngster,Youngster
 Story Localization:
 
 [Game Intro]
-GameIntro_1,H-hello!? You must be new~here.*Welcome to this land called~Rijon.*My name is Timothy but you can~call me Tim.*I am the region's Pokémon~Tutor.
+GameIntro_1,H-hello!? You must be new~here.*Welcome to this land called~Rijon.*My name is Timothy, but you~can call me Tim.*I am the region's Pokémon~Tutor.
 GameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.*I've done a fair extent of~research on these and it seems~that they have special~capabilities for fighting~as well as being tame~house-hold pets.
 GameIntro_3,Oh um, what's your name,~youngling?
 GameIntro_4,Oh, <player.name>!*I've never heard that name~before.
@@ -3014,12 +3014,13 @@ Generic_Bed_Refreshed,You and your Pokémon wake up~feeling refreshed!
 Generic_HealPlatform_Start,This seems like a sweet spot~to take a break...
 Generic_HealPlatform_End,<player.name>'s Pokémon are~fully healed!
 
-Generic_PokeCenter_NurseJoy_Question_NightDay,Hello, and welcome to~the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?
-Generic_PokeCenter_NurseJoy_Question_Morning,Good morning! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?
-Generic_PokeCenter_NurseJoy_Question_Evening,Good evening! Welcome~to the Pokémon Center.*We restore your tired~Pokémon to full health.*Would you like to rest~your Pokémon?
-Generic_PokeCenter_NurseJoy_AnswerNo,We hope to see you~again!
-Generic_PokeCenter_NurseJoy_AnswerYes,Okay, I'll take your Pokémon~for a few seconds.
-Generic_PokeCenter_NurseJoy_HealedParty,Thank you for waiting.*We've restored your~Pokémon to full health.*We hope to see you~again!
+Generic_PokeCenter_NurseJoy_Question_NightDay,Hello, and welcome to~our Pokémon Center!*We heal your Pokémon back to~perfect health!
+Generic_PokeCenter_NurseJoy_Question_Morning,Good morning! Welcome~to our Pokémon Center!*We heal your Pokémon back to~perfect health!
+Generic_PokeCenter_NurseJoy_Question_Evening,Good evening! Welcome~to our Pokémon Center!*We heal your Pokémon back to~perfect health!
+Generic_PokeCenter_NurseJoy_Heal,Heal
+Generic_PokeCenter_NurseJoy_AnswerCancel,We hope to see you~again!
+Generic_PokeCenter_NurseJoy_AnswerHeal,Okay. We'll need your Pokémon.
+Generic_PokeCenter_NurseJoy_HealedParty,Thank you!~Your Pokémon are fighting fit!*We hope to see you~again!
 
 Generic_PokeMart_Clerk_Question,Hi there!~May I help you?
 Generic_PokeMart_Clerk_AfterQuit,Thank you! Come again!
@@ -3119,7 +3120,7 @@ Seashore_Gym_ChannelerHelen_DefeatMessage,I need to do better next time!
 Seashore_Gym_TelekineticSebastian_IntroMessage,Psychic Pokémon is what~we use!
 Seashore_Gym_TelekineticSebastian_OutroMessage,I don't believe this!
 Seashore_Gym_TelekineticSebastian_DefeatMessage,Psychic has no weakness~but Dark!
-Seashore_Gym_TelekineticJimbo_IntroMessage,We always cream Fighting types!
+Seashore_Gym_TelekineticJimbo_IntroMessage,We always cream Fighting-types!
 Seashore_Gym_TelekineticJimbo_OutroMessage,I never foresaw this!
 Seashore_Gym_TelekineticJimbo_DefeatMessage,Too bad I lost.
 Seashore_Gym_TelekineticJack_IntroMessage,My ability is too much~for you!
@@ -3155,7 +3156,7 @@ Route53_Sign,Gravel Canyon~Route 53*Seashore City - Gravel Town
 Gravel_Main_Tim_Late,Tim: There you are!~You're late!
 Gravel_Main_Tim_NeedPokemon,Tim: I've been waiting for you~to get here!*You need your very own~Pokémon, so come to~my lab right away!
 Gravel_Main_FreshAirGuy,I love living here!*The air is so fresh and clean.
-Gravel_Main_GameModeGuy,Did you know?*This gamemode is based on~the romhack by Koolboyman.*It was originally made by~Leahkim and Miragics in 2014!*Then after many years,~JappaWakka gave it a~massive overhaul!
+Gravel_Main_GameModeGuy,Did you know?*This GameMode is based on the~rom hack Pokémon Brown by~Koolboyman, which first~released on January 17th,~2004! Years later, in 2014,~Leahkim and Miragics made the~first attempt at a 3D remake~using Pokémon 3D!*Then in 2024, JappaWakka gave~it a massive overhaul, creating~a lot of content from scratch!
 Gravel_Main_Sign_Town,Gravel Town*A quiet mountain town.
 Gravel_Main_Sign_Lab,Tim's Lab
 Gravel_Main_Sign_Cave,Merson Cave
@@ -3172,7 +3173,7 @@ Gravel_TimsLab_ChangeStyleLady_Yes1,Leave it to me!
 Gravel_TimsLab_ChangeStyleLady_Yes2,All done! Much better!
 Gravel_TimsLab_ChangeStyleLady_No,Come back if you change your~mind!
 Gravel_TimsLab_ChoosePokemon1,Mura: Finally you're here!~Let's hurry!*Tim: Mura, be patient.*...*Now then, are you both ready~for your first Pokémon?*...*I have three newly hatched~Pokémon here. My grandfather~wanted me to carry on the~tradition of being a master.~I'm passing his legacy~to you two!
-Gravel_TimsLab_ChoosePokemon2,Mura: I am honored~good sir!
+Gravel_TimsLab_ChoosePokemon2,Mura: I am honored, good sir!
 Gravel_TimsLab_ChoosePokemon3,Tim: Good to know.*<player.name>, you pick first.
 Gravel_TimsLab_Choose_Charmander,Tim: So! You want the Fire~Pokémon, Charmander?
 Gravel_TimsLab_Choose_Squirtle,Tim: So! You want the Water~Pokémon, Squirtle?
@@ -3192,12 +3193,12 @@ Gravel_TimsLab_Tim_CatchPokemon2,Tim: When a wild Pokémon~appears, it's fair ga
 Gravel_TimsLab_Tim_ComeSeeMeSometimes,Tim: Come see me sometimes.~I want to know how your~Pokédex is coming along.
 Gravel_TimsLab_Tim_DexEvaluation,Tim: Good to see you! How is~your Pokédex doing?~Here, let me take a look!
 Gravel_TimsLab_Pokedex1,Tim: Oh, <player.name>!~What are you doing back~so early?*Huh, you have something~for me?
-Gravel_TimsLab_Pokedex2,<player.name> handed Tim his Pizza.*Tim: Oh good, I was hungry~but too busy to pick it up!
+Gravel_TimsLab_Pokedex2,<player.name> handed Tim his pizza.*Tim: Oh good, I was hungry~but too busy to pick it up!
 Gravel_TimsLab_Pokedex3,Mura: Coming!
 Gravel_TimsLab_Pokedex4,Mura: What do you need~me for?*Tim: Oh right!~I have a request of you two.*On the desk there is an~invention, the Pokédex!~It automatically records data~on Pokémon you've seen~or caught.*It's a hi-tech encyclopedia!*<player.name> and Mura!~Take these with you!
 Gravel_TimsLab_Pokedex5,<player.name> got a~Pokédex from Tim!
 Gravel_TimsLab_Pokedex6,Tim: I'll sign you up for~Bill's Storage System as well.~To make a complete guide~on all the Pokémon in the world...*That was gramps' dream...*But he passed away before~he could finish them.~I need you two to do this~for him.
-Gravel_TimsLab_Pokedex7,Mura: Alright!~I will do that all for you.*<player.name>!~I will fill this up and you won't!*...I know!~I'll buy lots of Pokéballs~with all my cash!~That way I'll get them all.*<player.name>! Seeya!
+Gravel_TimsLab_Pokedex7,Mura: Alright!~I will do that all for you.*<player.name>!~I will fill this Pokédex up~and you won't!*...I know!~I'll buy lots of Pokéballs~with all my cash!~That way I'll catch them all.*<player.name>! See ya!
 Gravel_TimsLab_Mura_ChoosePokemon,Mura: I'll take this one, then!
 Gravel_TimsLab_Mura_Receive_Charmander,Mura received a Charmander!
 Gravel_TimsLab_Mura_Receive_Squirtle,Mura received a Squirtle!
@@ -3206,15 +3207,15 @@ Gravel_TimsLab_Mura_HurryUp,Mura: Hurry up, I want my~turn!
 Gravel_TimsLab_Mura_BetterChoice,Mura: I made the best choice!
 Gravel_TimsLab_Mura_Chump,Pft, what a chump!
 Gravel_TimsLab_Mura_FirstBattle1,Wait, <player.name>!
-Gravel_TimsLab_Mura_FirstBattle2,Let's check out our Pokémon!~I'll probably beat you.
-Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Okay. Now I understand~the difficulty of training.*<player.name>, we will meet again!
+Gravel_TimsLab_Mura_FirstBattle2,Let's check out our Pokémon!~I'll probably beat you!
+Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Okay. I now understand~the difficulty of training.*<player.name>, we will meet again!
 Gravel_TimsLab_Mura_OutroMessage,...Darn, I need to train this~Pokémon!
 
 Gravel_PokeMart_Youngster,Ya!~Potions are available!
 Gravel_PokeMart_BugCatcher,This shop sells lots of~Pokéballs.
 Gravel_PokeMart_Clerk_YoKiddo,Yo kiddo!
-Gravel_PokeMart_Clerk_TimsPizza,Prof. Tim forgot to pick up~his Pizza!*Will you deliver it for me?
-Gravel_PokeMain_Clerk_NoDelivery,We don't deliver you know...
+Gravel_PokeMart_Clerk_TimsPizza,Prof. Tim forgot to pick up~his pizza!*Will you deliver it for me?
+Gravel_PokeMain_Clerk_NoDelivery,We don't deliver, you know...
 Gravel_PokeMart_ReceivePizza,<player.name> received Tim's Pizza!
 Gravel_PokeMart_PizzaInPocket,<player.name> stored it in the~№ KeyItems pocket.
 
@@ -3223,14 +3224,14 @@ MersonCave_Outside_NoPokedexNoAccessGuy,Go in without a Pokédex?*Are you crazy?
 MersonCave_Sign,Merson Cave*Route 54 up ahead.
 MersonCave_YoungsterTom_IntroMessage,Becoming a Pokémon trainer?
 MersonCave_YoungsterTom_OutroMessage,Aw man...
-MersonCave_YoungsterTom_DefeatMessage,The guys ahead of me are~much harder.
-MersonCave_LassClara_IntroMessage,Do you want to battle?~OK then, let's go!
+MersonCave_YoungsterTom_DefeatMessage,The guys ahead of me are~much harder!
+MersonCave_LassClara_IntroMessage,Do you want to battle?~Okay then... Let's go!
 MersonCave_LassClara_OutroMessage,Oh! I lost...!
 MersonCave_LassClara_DefeatMessage,We will meet again...
 MersonCave_BugCatcherRick_IntroMessage,I'm lost. Can you tell~me the way out of here?
 MersonCave_BugCatcherRick_OutroMessage,I lost.
 MersonCave_BugCatcherRick_DefeatMessage,Great...~I guess you won't help me.
-MersonCave_HikerRalph_IntroMessage,I like meeting people here!~Heheh...
+MersonCave_HikerRalph_IntroMessage,I like meeting people here!*Heheh...
 MersonCave_HikerRalph_OutroMessage,But I hate losing!
 MersonCave_HikerRalph_DefeatMessage,You don't belong here, kid.
 MersonCave_SuperNerdLouis_IntroMessage,Yo kid, wazzup?
@@ -3245,20 +3246,20 @@ MersonCave_BugCatcherBill_DefeatMessage,Blah! You don't play nice!
 
 [Route 54]
 Route54_Sign,Merson Pass~Route 54
-Route54_SuperNerdCraig_IntroMessage,Hey, you broke my~concentration! Let me think!
-Route54_SuperNerdCraig_OutroMessage,Nosy kids these days...
+Route54_SuperNerdCraig_IntroMessage,Hey, you broke my~concentration!
+Route54_SuperNerdCraig_OutroMessage,So noisy...
 Route54_SuperNerdCraig_DefeatMessage,This house looks nice,~I might buy it later.
 Route54_GamblerNicolai_IntroMessage,Ow, a Pokémon just~bit my foot!
-Route54_GamblerNicolai_OutroMessage,Losing hurts more...
+Route54_GamblerNicolai_OutroMessage,Losing hurts more...!
 Route54_GamblerNicolai_DefeatMessage,I need to catch better~Pokémon to fight with!~Just can't stop!
 Route54_LassAmanda_IntroMessage,My Pokémon is really cute!*Look!
-Route54_LassAmanda_OutroMessage,Stop!*Don't be so mean to my~PUFFIES!
+Route54_LassAmanda_OutroMessage,Stop!*Don't be so mean to my~Puffies!
 Route54_LassAmanda_DefeatMessage,My Pokémon will always be~cuter!
 
 [Merson City]
 Merson_Main_WeakBoy,I tried facing the Pokémon~Gym Leader, but I'm way too~weak to fight him.
-Merson_Main_FreeHealGuy,You can go and heal your~Pokémon for free at any~Pokémon Center! Convenient~isn't it? I love it!
-Merson_Main_QuestionKid_AskQuestion,Are you a good trainer?
+Merson_Main_FreeHealGuy,You can go and heal your~Pokémon free of charge at any~Pokémon Center.*Isn't it convenient?*I love it!
+Merson_Main_QuestionKid_AskQuestion,Are you a good trainer...?
 Merson_Main_QuestionKid_AnswerYes,Really? That's so cool!*I'm not...
 Merson_Main_QuestionKid_AnswerNo,Hahaha, I guess not.*Can you give me your Pokémon~then?*Please?
 Merson_Main_Sign_Gym,Merson City~Pokémon Gym~Leader: Karpman*Feelin' Like a Fish in Water!
@@ -3277,18 +3278,19 @@ Merson_FanClub_Note_Left,Let's all listen politely to~other trainers!
 Merson_FanClub_Note_Right,If someone brags, brag right~back!
 Merson_FanClub_Seel_Cry,Seel: Seel?
 Merson_FanClub_Clefable_Cry,Clefable: Fable!
-Merson_FanClub_Girl_1,That man's Clefable is really~cute!
-Merson_FanClub_Girl_2,My Seel makes funny noises!
-Merson_FanClub_Guy_1,My Clefable can get annoying~sometimes.
-Merson_FanClub_Guy_2,I love my Clefable more than~anything!
+Merson_FanClub_Girl_1,My Seel makes funny noises!
+Merson_FanClub_Girl_2,That man's Clefable is really~cute!
+Merson_FanClub_Guy_1,I love my Clefable more than~anything!
+Merson_FanClub_Guy_2,My Clefable can get annoying~sometimes.
+Merson_FanClub_Lady,I need a better job.
 Merson_FanClub_Chairman_Question,I chair the Pokémon Fan Club!*I have collected over 100~Pokémon!*I'm very fussy when it comes~to Pokémon!*So...*Did you bring in a cool~Pokémon?
-Merson_FanClub_Chairman_AnswerYes,Good! There's a special deal~I'm offering.*If you bring Pokémon, you~get a free bike coupon!*And it looks like you have one~so here you go!
-Merson_FanClub_Chairman_AnswerNo,Are you sure? Because~there's a special deal~I'm offering.*If you bring Pokémon, you~get a free bike coupon!*And it looks like you have one~so here you go!
-Merson_FanClub_Chairman_AfterVoucher,Hello, <player.name>!*I hope you have fun with~that bike!
-Merson_FanClub_ReceiveVoucher,<player.name> received a~Bike Voucher!*Exchange that for a bicycle!
+Merson_FanClub_Chairman_AnswerYes,Good! There's a special deal~I'm offering.*Bring in a Pokémon and you'll~get a free Bike coupon!*And it looks like you have one~so here you go!
+Merson_FanClub_Chairman_AnswerNo,Are you sure? Because~there's a special deal~I'm offering.*Bring in a Pokémon and you'll~get a free Bike coupon!*And it looks like you have one~so here you go!
+Merson_FanClub_Chairman_AfterVoucher,Hello, <player.name>!*I hope you have fun with~that Bike!
+Merson_FanClub_ReceiveVoucher,<player.name> received a~Bike Voucher!*Exchange that for a Bike!
 
 Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!
-Merson_CuboneHouse_Girl,Say hi to my cute CUBONE!
+Merson_CuboneHouse_Girl,Say hi to my cute Cubone!
 
 Merson_Gym_Statues_BeforeDefeat,Merson City~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura
 Merson_Gym_Statues_AfterDefeat,Merson City~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<player.name>
@@ -3299,9 +3301,9 @@ Merson_Gym_GymGuy_AfterBadge,Gym Guy: Well now, you might~be special at training
 Merson_Gym_JrTrainerMaleButch_IntroMessage,I'm Lochlan's right hand~man! Let's see if you make~it past me!
 Merson_Gym_JrTrainerMaleButch_OutroMessage,Darn! I slipped up!
 Merson_Gym_JrTrainerMaleButch_DefeatMessage,Karpman's given name is~Lochlan. Don't tell him I told~you that! He knows all about~marine biology!
-Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welcome to the Merson~City Gym, challenger!*<player.name>: So you're a Gym~Leader?*Karpman: You got it! My name~is Karpman, and I specialize~in Water type Pokémon! If you~defeat me, I'll give you the~Marine Badge. Get all eight~badges throughout the region,~and you'll get the chance to~become Rijon's Champion! But I~won't make it easy for you.~Be sure to brace yourself for~waves of defeat!*<player.name>: Show me your best,~Karpman!
+Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welcome to the Merson~City Gym, challenger!*<player.name>: So you're a Gym~Leader?*Karpman: You got it! My name~is Karpman, and I specialize~in Water-type Pokémon! If you~defeat me, I'll give you the~Marine Badge. Get all eight~badges throughout the region,~and you'll get the chance to~become Rijon's Champion! But I~won't make it easy for you.~Be sure to brace yourself for~waves of defeat!*<player.name>: Show me your best,~Karpman!
 Merson_Gym_LeaderKarpman_OutroMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine Badge!
-Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*Wait!*Take this with you!
+Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*But all caves in Rijon were lit~by Shinra Electric Power~Company, so it is kinda useless~now...*Wait! Take this with you!
 Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*A TM can only be used once!~So when you use one to~teach a new technique,~pick the Pokémon carefully!*TM 12 contains Octazooka!~It's a Water move that can~lower the accuracy of your foe!
 Merson_Gym_LeaderKarpman_TalkAgain,Karpman: That was an epic~battle!*The next Gym Leader is Lily~who lives in Owsauri City.*Keep going north and you'll~end up there in no time!
 Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Question,Karpman: Well, you swam a long~way upriver since last time I~saw you.*You guys got strong, but I~think I can toss you around in~the tide a bit still. Care to~take the bait?
@@ -3871,7 +3873,7 @@ Moraga_Gym_LassKatrin_OutroMessage,You're too rough!
 Moraga_Gym_LassKatrin_DefeatMessage,Bleaah!
 Moraga_Gym_BeautyRonda_IntroMessage,I was getting bored.
 Moraga_Gym_BeautyRonda_OutroMessage,My makeup!
-Moraga_Gym_BeautyRonda_DefeatMessage,Grass type Pokémon are tough~against the Water type!*They also have an edge~on Rock and Ground Pokémon!
+Moraga_Gym_BeautyRonda_DefeatMessage,Grass-type Pokémon are tough~against the Water-type!*They also have an edge~on Rock and Ground Pokémon!
 Moraga_Gym_JrTrainerFemaleJacqueline_IntroMessage,I hate boys!
 Moraga_Gym_JrTrainerFemaleJacqueline_OutroMessage,I'm in shock!
 Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We don't need men,~except to fight against!
@@ -4402,11 +4404,11 @@ Route57_Main_Fisherman_Answer_Yes,One day, when I was fishin'~down by this very 
 
 Route57_Gym_Statue_BeforeDefeat,Equality River~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura
 Route57_Gym_Statue_AfterDefeat,Equality River~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<player.name>
-Route57_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Joe uses only Normal Pokémon!*I would recommend using~Fighting type Pokémon against~those foes!
+Route57_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Joe uses only Normal Pokémon!*I would recommend using~Fighting-type Pokémon against~those foes!
 Route57_Gym_GymGuy_AfterBadge,Gym Guy: <player.name>!~Good job once again!
 Route57_Gym_Quiz_Answer_Correct,You're absolutely correct!*Go on through.
 Route57_Gym_Quiz_Answer_Wrong,Sorry, bad call.
-Route57_Gym_Quiz_Question1,Pokémon Quiz!*Mankey is a Fighting type.
+Route57_Gym_Quiz_Question1,Pokémon Quiz!*Mankey is a Fighting-type.
 Route57_Gym_Quiz_Question2,Pokémon Quiz!*Pewter City is in Johto.
 Route57_Gym_Quiz_Question3,Pokémon Quiz!*Marill isn't catchable in Rijon.
 Route57_Gym_Quiz_Question4,Pokémon Quiz!*Pokémon Brown was originally~made by Koolboyman.
@@ -4432,7 +4434,7 @@ Route57_Gym_NormalTrainerReggie_DefeatMessage,Normal Pokémon's only weakness~is
 Route57_Gym_NormalTrainerStefan_IntroMessage,Normal equals best!
 Route57_Gym_NormalTrainerStefan_OutroMessage,Oh! Snuffed out!
 Route57_Gym_NormalTrainerStefan_DefeatMessage,Quit staring at me, it's mean!
-Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the Equality River Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<player.name>: Well, I'll do~anything for the White Badge!
+Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the Equality River Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<player.name>: Well, I'll do~anything for the White Badge!
 Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if you are this good.*You have earned the White Badge!
 Route57_Gym_LeaderJoe_AfterBattle1,Joe: Hah!*Since you're special, I'll~give you something else!
 Route57_Gym_LeaderJoe_AfterBattle2,TM 15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!
@@ -4804,8 +4806,8 @@ Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_No,Bugsy: Ah, not this time?~
 Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_Yes,Bugsy: Time to see if I really~learned anything from my~studies! Go, my strong bugs!
 Azalea_Gym_LeaderBugsy_Rematch_OutroMessage,Bugsy: It's over? That bugs me~a little.
 Azalea_Gym_LeaderBugsy_Rematch_Reward1,Bugsy: WOW! You managed to~defeat all of us Gym Leaders~true teams! You are a worthy~Champion, you have earned this.
-Azalea_Gym_LeaderBugsy_Rematch_Reward2,Bugsy: This amazing tool will~make your Pokémon earn Exp. as~if they were traded as long as~they carry it. Use it wisely.*Well, I guess I have~more learning to do. But~that's nothing new! Bug type~Pokémon are my favorite, but~every Pokémon has so many~mysteries for us to uncover in~the future!
-Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Well, I guess I have~more learning to do. But~that's nothing new! Bug type~Pokémon are my favorite, but~every Pokémon has so many~mysteries for us to uncover in~the future!
+Azalea_Gym_LeaderBugsy_Rematch_Reward2,Bugsy: This amazing tool will~make your Pokémon earn Exp. as~if they were traded as long as~they carry it. Use it wisely.*Well, I guess I have~more learning to do. But~that's nothing new! Bug-type~Pokémon are my favorite, but~every Pokémon has so many~mysteries for us to uncover in~the future!
+Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Well, I guess I have~more learning to do. But~that's nothing new! Bug-type~Pokémon are my favorite, but~every Pokémon has so many~mysteries for us to uncover in~the future!
 Azalea_Gym_Choose_Gligar,You want the Gligar?
 Azalea_Gym_Choose_Sneasel,You want the Sneasel?
 Azalea_Gym_Receive_Gligar,<player.name> received~a Gligar!

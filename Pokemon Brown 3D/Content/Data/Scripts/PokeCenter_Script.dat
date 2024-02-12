@@ -12,17 +12,17 @@ version=2
 	:endwhen
 	
 @options.setcancelindex(1)
-@options.show(<system.token(global_yes)>,<system.token(global_no)>)
-	:when:<system.token(global_no)>
+@options.show(<system.token(Generic_PokeCenter_NurseJoy_Heal)>,<system.token(global_cancel)>)
+	:when:<system.token(global_cancel)>
 		@npc.wearskin(0,NurseJoy_Bow)
 		@level.wait(45)
 		@npc.wearskin(0,NurseJoy)
 			
-		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_AnswerNo)>)
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_AnswerCancel)>)
 		:end
 
-	:when:<system.token(global_yes)>
-		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_AnswerYes)>)
+	:when:<system.token(Generic_PokeCenter_NurseJoy_Heal)>
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_AnswerHeal)>)
 		@OverworldPokemon.hide
 		@level.update
 		@npc.turn(0,1)

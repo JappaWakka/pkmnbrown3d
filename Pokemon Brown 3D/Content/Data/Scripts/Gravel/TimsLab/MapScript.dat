@@ -6,7 +6,11 @@ version=2
 	@npc.turn(0,0)
 	@npc.move(0,10)
 	@npc.turn(0,2)
-	@player.move(7)
+	@player.move(4)
+	@player.turnto(3)
+	@player.move(1)
+	@player.turnto(0)
+	@player.move(4)
 	@npc.turn(4,0)
 	@Player.Move(0)
 	@music.unforce
