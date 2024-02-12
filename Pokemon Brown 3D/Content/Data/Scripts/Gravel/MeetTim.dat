@@ -13,15 +13,11 @@ version=2
 
 	@Text.Show(<system.token(Gravel_Main_Tim_Late)>)
 	
-	@npc.spawn(9,0,10,1,,Tim,0,2,Tim,3,Still)
-	@npc.turn(3,1)
 	@npc.move(3,1)
-	@npc.turn(3,0)
-	@npc.move(3,6)
 	@npc.turn(3,3)
 	@npc.move(3,1+<storage.get(integer,position)>)
 	@npc.turn(3,0)
-	@npc.move(3,4)
+	@npc.move(3,3)
 	
 	@Text.Show(<system.token(Gravel_Main_Tim_NeedPokemon)>)
 	

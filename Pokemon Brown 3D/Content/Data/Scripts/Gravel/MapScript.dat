@@ -1,6 +1,8 @@
 version=2
-:if:<Register.Registered(mettim)>=true
-	@NPC.Remove(3)
+:if:<Register.Registered(mettim)>=false
+	@npc.spawn(8,0,4,1,,Tim,0,0,Tim,3,Still)
+:else
+	@Entity.Remove(2)
 :endif
 :if:<Register.Registered(tim5)>=true
 	@register.unregister(tim5)

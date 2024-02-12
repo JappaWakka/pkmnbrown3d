@@ -63,8 +63,8 @@ Floors:
 	Merson Cave Entrance
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[12,0,33]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}{"HasSnow"{bool[0]}}]}}
 	
-Scriptblocks:
-	{"EntityField"{ENT[{"EntityID"{str[ScriptBlock]}}{"Size"{intArr[2,1]}}{"Position"{sngArr[9,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gravel\MeetTim]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+ScriptBlocks:
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"ID"{int[2]}}{"Position"{sngArr[9,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gravel\MeetTim]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Fences:
 	{"EntityField"{ENT[{"Scale"{sngArr[1,1,0.3125]}}{"Size"{intArr[1,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[1,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[32,32,16,16][32,32,5,16][48,32,16,16][45,32,5,16]]}}{"TextureIndex"{intArr[0,0,3,3,1,1,2,2,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

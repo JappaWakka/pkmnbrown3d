@@ -1,0 +1,6 @@
+version=2
+:if:<Register.Registered(mettim)>=False
+	@npc.spawn(9,0,43,1,,Tim,0,0,Tim,3,Still)
+:endif
+
+:end
