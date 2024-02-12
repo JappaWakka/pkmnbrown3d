@@ -1,0 +1,7 @@
+version=2
+
+:if:<Register.Registered(pokedex)>=false
+	@Text.Show(<system.token(Gravel_TimsLab_RewardAide_BeforePizza)>)
+:else
+	@Text.Show(<system.token(Gravel_TimsLab_RewardAide_AfterPizza)>)
+:endif
