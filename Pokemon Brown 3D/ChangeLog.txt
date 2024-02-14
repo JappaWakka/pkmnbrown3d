@@ -1,12 +1,47 @@
-Version 0.10
--Seashore City through Oswauri, 2 gyms
--First release
--HM Cut
+Version 1.0
+- Complete overhaul, redoing/improving pretty much everything that was done before
+- Most graphics reworked in a consistent GBC style
+- Accurate music rips from the rom hack with custom stereo panned channels
+- Updated content to roughly match the latest version of Pokémon Brown (20th Anniversary Edition)
+- New Pokémon previously not in this GameMode
 
-Version 0.20
--Fixed PokeCenter bug, pokemon script crashes, several text bugs
--Added Route 63, Silk Tunnel, Moraga Town, Route 60, Jaeru City, Route 59, 2 gyms
--HM Fly
+Version 0.81
+- Fixed Route 49 gate telescope bug
+- Cut some offsets to make map loading a bit faster for Jaeru City
+- Fixed inability to enter the southern gate in Botan City
+- Removed temporary guard in Jaeru City
+
+Version 0.8
+- Added the League Route and the League
+- Added the Final Dungeon w/o music
+- Added trainers to the caves near hayward docks
+- Fixed the TradeStone item
+
+Version 0.652
+-Fixed Fly to Jaeru City crash
+
+Version 0.651
+-Fixed Route 57 Gym
+
+Version 0.65
+-Added a Script for Mom and changed some texts to fit the recent version of the ROM
+-Corrected some texts saying POKéxyz to POKéXYZ (spelling)
+-Added a missing NPC in the Hayward mart
+-Fixed a crash for first rival battle
+-Trainers on Rijon Beach(Owsauri South)
+
+Version 0.61
+-Added a better Sheral(Gym Leader) Texture
+-Redone PalletRed and another Texture
+-Amulet Collection now changes as you get HM04
+-Fixed Weather on Mansion Battle Maps
+
+Version 0.60
+-Added Trainers to Route 56,61,62,Route 57 Gym and Eagulou Gym
+-Castro Mansion is now complete
+-Introduced custom items like Red Amulet
+-Added 8 out of 10 legendaries(you can get the half of them)
+-Fixed Eagulou-Route 56 warp
 
 Version 0.50
 -The Gravel mart clerk gives the player run shoes now
@@ -18,40 +53,12 @@ Version 0.50
 -HM Surf & Strength
 -Fixed an issue that blocked some players from entering houses
 
-Version 0.60
--Added Trainers to Route 56,61,62,Route 57 Gym and Eagulou Gym
--Castro Mansion is now complete
--Introduced custom items like Red Amulet
--Added 8 out of 10 legendaries(you can get the half of them)
--Fixed Eagulou-Route 56 warp
+Version 0.20
+-Fixed PokeCenter bug, pokemon script crashes, several text bugs
+-Added Route 63, Silk Tunnel, Moraga Town, Route 60, Jaeru City, Route 59, 2 gyms
+-HM Fly
 
-Version 0.61
--Added a better Sheral(Gym Leader) Texture
--Redone PalletRed and another Texture
--Amulet Collection now changes as you get HM04
--Fixed Weather on Mansion Battle Maps
-
-Version 0.65
--Added a Script for Mom and changed some texts to fit the recent version of the ROM
--Corrected some texts saying POKéxyz to POKéXYZ (spelling)
--Added a missing NPC in the Hayward mart
--Fixed a crash for first rival battle
--Trainers on Rijon Beach(Owsauri South)
-
-Version 0.651
--Fixed Route 57 Gym
-
-Version 0.652
--Fixed Fly to Jaeru City crash
-
-Version 0.8
-- Added the League Route and the League
-- Added the Final Dungeon w/o music
-- Added trainers to the caves near hayward docks
-- Fixed the TradeStone item
-
-Version 0.81
-- Fixed Route 49 gate telescope bug
-- Cut some offsets to make map loading a bit faster for Jaeru City
-- Fixed inability to enter the southern gate in Botan City
-- Removed temporary guard in Jaeru City
+Version 0.10
+-Seashore City through Oswauri, 2 gyms
+-First release
+-HM Cut
