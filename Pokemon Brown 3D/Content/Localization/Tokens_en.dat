@@ -2980,7 +2980,6 @@ TrainerClass_Palette,Palette
 TrainerClass_PokeManiac,PokéManiac
 TrainerClass_Rival,Rival
 TrainerClass_Rocker,Rocker
-TrainerClass_RocketElite,Rocket Elite
 TrainerClass_RocketGrunt,Rocket Grunt
 TrainerClass_RocketScientist,Rocket Scientist
 TrainerClass_RocketLeader,Rocket Leader
@@ -4938,14 +4937,14 @@ FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_IntroMessage,Get out of my wa
 FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_OutroMessage,So, you are good.
 FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_DefeatMessage,Stop getting near me!
 
-FinalDungeon_SmallCave0_Telekinetic,I think a trainer named~Slick would love that Crobat.
-FinalDungeon_SmallCave0_CrobatTrade_Question,Hello there!*Do you want to trade your~Rhyhorn for Crobat?
-FinalDungeon_SmallCave0_CrobatTrade_Answer_No,Well, if you don't want to...
-FinalDungeon_SmallCave0_CrobatTrade_AfterTrade,The Rhyhorn you traded to~me went and evolved!
-FinalDungeon_SmallCave0_CrobatTrade_TradeSuccess,Okay, connect the cable~like so!
-FinalDungeon_SmallCave0_CrobatTrade_TradeFail,Hmmm? This isn't Rhyhorn.*Think of me when you get one.
-FinalDungeon_SmallCave0_CrobatTrade_CatchMethod,Received in a trade
-FinalDungeon_SmallCave0_CrobatTrade_CatchLocation,in the Final Dungeon
+FinalDungeon_SmallCave_Telekinetic,I think the trainer named~Slick would love that Crobat.
+FinalDungeon_SmallCave_CrobatTrade_Question,Hello there!*Do you want to trade your~Rhyhorn for Crobat?
+FinalDungeon_SmallCave_CrobatTrade_Answer_No,Well, if you don't want to...
+FinalDungeon_SmallCave_CrobatTrade_AfterTrade,The Rhyhorn you traded to~me went and evolved!
+FinalDungeon_SmallCave_CrobatTrade_TradeSuccess,Okay, connect the cable~like so!
+FinalDungeon_SmallCave_CrobatTrade_TradeFail,Hmmm? This isn't Rhyhorn.*Think of me when you get one.
+FinalDungeon_SmallCave_CrobatTrade_CatchMethod,Received in a trade
+FinalDungeon_SmallCave_CrobatTrade_CatchLocation,in the Final Dungeon
 
 FinalDungeon_SmallRoom2_GentlemanJones_IntroMessage,I don't have time for your~garbage.
 FinalDungeon_SmallRoom2_GentlemanJones_OutroMessage,I must salute you!
@@ -5005,3 +5004,17 @@ FinalDungeon_Lobby_HealLady_Intro,Wow! You made it this far.*You should rest.
 FinalDungeon_Lobby_HealLady_Outro,Keep it up!
 FinalDungeon_Lobby_Shopkeeper_Question,It may not have been the best~of ideas to open a shop here...~but I have very good items!*How may I help you?
 FinalDungeon_Lobby_Shopkeeper_AfterQuit,Thank you!
+
+FinalDungeon_Island_RocketGruntArnold_IntroMessage,Saving the best for last!
+FinalDungeon_Island_RocketGruntArnold_OutroMessage,Ayaya!
+FinalDungeon_Island_RocketGruntArnold_DefeatMessage,You should give your Pokémon 'roids!
+FinalDungeon_Island_RocketGruntCaleb_IntroMessage,Heh, can't find a way through?
+FinalDungeon_Island_RocketGruntCaleb_OutroMessage,Burned again!
+FinalDungeon_Island_RocketGruntCaleb_DefeatMessage,Haha, I love those fake trees!
+FinalDungeon_Island_RocketGruntGustav_IntroMessage,This fossil will make me rich!
+FinalDungeon_Island_RocketGruntGustav_OutroMessage,No!
+FinalDungeon_Island_RocketGruntGustav_DefeatMessage,Don't kill me, just take it!
+FinalDungeon_Island_PaletteRed_IntroMessage,Having a Rocket army works for~me.
+FinalDungeon_Island_PaletteRed_OutroMessage,But they're level 100!
+FinalDungeon_Island_PaletteRed_AfterDefeat,Palette Red: I have faith that~my loyal Rockets will stick by~my side. In the meantime, I have~my eye on some kid from a~region west of Naljo whos~uncle's a miner and loves to~ride in minecarts...*However, I can redirect the~tracks and lead that kid right~into my trap.*Oh darn, why am I telling you~all this? It won't affect you~at all, so goodbye.
+FinalDungeon_Island_DistantVoice,A voice is heard in the~distance: Ceroo!*<player.name>: What was that?~This is supposed to be the~end, right? It looks like~there's more?*Distant voice: Adam?*Anyone?*A thick rainbow light emits~from the cave entrance!*<player.name>: I'm confused...~Maybe there will be long~awaited answers inside that~cave.

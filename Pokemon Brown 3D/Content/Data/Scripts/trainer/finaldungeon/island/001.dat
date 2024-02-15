@@ -1,3 +1,9 @@
 version=2
 @Battle.StartTrainer(FinalDungeon\Island\001)
+:if:<Register.Registered(IslandBlockTrees)>=false
+	@Text.Show(<Battle.DefeatMessage(FinalDungeon\Island\001)>)
+	@Sound.Play(SwitchDoor)
+	@entity.remove(4)
+	@Register.Register(IslandBlockTrees)
+:endif
 :end

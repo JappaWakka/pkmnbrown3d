@@ -1,0 +1,6 @@
+version=2
+@Item.Give(601,1)
+@Item.MessageGive(601,1)
+@NPC.Remove(5)
+@Register.Register(IslandFossilTaken)
+:end

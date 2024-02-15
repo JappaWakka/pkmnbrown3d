@@ -1,17 +1,18 @@
 [TRAINER FORMAT]
 Name|Caleb
-TrainerClass|<system.token(TrainerClass_RocketElite)>
-Money|2890
-IntroMessage|Heh, can't find a way through?
-OutroMessage|Burned again!
-DefeatMessage|Haha, I love those fake trees!
+TrainerClass|<system.token(TrainerClass_RocketGrunt)>
+Money|2850
+IntroMessage|<system.token(FinalDungeon_Island_RocketGruntCaleb_IntroMessage)>
+OutroMessage|<system.token(FinalDungeon_Island_RocketGruntCaleb_OutroMessage)>
+DefeatMessage|<system.token(FinalDungeon_Island_RocketGruntCaleb_OutroMessage)>
 TextureID|RocketGrunt_Male
 Region|Rijon
+InSightMusic|Encounter_Rocket
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
 Pokemon1|181,95
-Pokemon2|464,95
+Pokemon2|409,95
 Pokemon3|186,95
 Pokemon4|
 Pokemon5|
@@ -19,4 +20,4 @@ Pokemon6|
 Items|
 Gender|0
 AI|2
-IntroSequence|0,0
+IntroSequence|3,3

@@ -1,5 +1,11 @@
 version=2
 @Battle.StartTrainer(FinalDungeon\Island\boss)
-@Text.Show(I have faith that my loyal~Rockets will stay by my side.~In the meantime, I have my eye~on some young kid from a region~west of Naljo. His uncle's a miner~and he loves to ride in minecarts...*Oh darn, why am I telling you all~this? It won't affect you at all,~so bye!)
+@Text.Show(<system.token(FinalDungeon_Island_PaletteRed_AfterDefeat)>)
+@screen.fadeout(15)
+@level.wait(25)
+@npc.remove(3)
+@screen.fadein(15)
+@Text.Show(<system.token(FinalDungeon_Island_DistantVoice)>)
+@NPC.Register(FinalDungeon\Island.dat|3|remove)
 @Register.Register(bossbeaten)
 :end

@@ -1,15 +1,15 @@
 version=2
 
 :if:<Player.Facing>=0
-	@Player.Warp(FinalDungeon\SmallCave0.dat,2,0.1,7,0)
+	@Player.Warp(FinalDungeon\SmallCave.dat,2,0.1,7,0)
 :else
 	:if:<Player.Facing>=1
-		@Player.Warp(FinalDungeon\SmallCave0.dat,2,0.1,7,3)
+		@Player.Warp(FinalDungeon\SmallCave.dat,2,0.1,7,3)
 	:else
 		:if:<Player.Facing>=2
-			@Player.Warp(FinalDungeon\SmallCave0.dat,2,0.1,7,2)
+			@Player.Warp(FinalDungeon\SmallCave.dat,2,0.1,7,2)
 		:else
-			@Player.Warp(FinalDungeon\SmallCave0.dat,2,0.1,7,1)
+			@Player.Warp(FinalDungeon\SmallCave.dat,2,0.1,7,1)
 		:endif
 	:endif
 :endif

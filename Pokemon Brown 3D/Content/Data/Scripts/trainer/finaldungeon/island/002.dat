@@ -1,3 +1,10 @@
 version=2
 @Battle.StartTrainer(FinalDungeon\Island\002)
+:if:<Register.Registered(IslandFossilRocket)>=false
+	@Text.Show(<Battle.DefeatMessage(FinalDungeon\Island\002)>)
+	@NPC.Turn(2,2)
+	@npc.spawn(10,0,8,1,FinalDungeon\Island_HelixFossil,Fossil_Helix,0,0,Helix Fossil,5,PokeBall)
+	@NPC.Turn(2,3)
+	@Register.Register(IslandFossilRocket)
+:endif
 :end

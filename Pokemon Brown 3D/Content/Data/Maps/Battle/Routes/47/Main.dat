@@ -7,10 +7,6 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[9,2]}}{"Position"{intArr[9,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,7]}}{"Position"{intArr[16,0,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		
-	Under Flowers
-		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[4,1]}}{"Position"{intArr[12,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[48,16,16,16]}}]}}
-		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[4,1]}}{"Position"{intArr[12,0,9]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[32,16,16,16]}}]}}
-	
 	Removal
 		{"Floor"{ENT[{"Size"{intArr[8,4]}}{"Position"{intArr[9,0,7]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
 	
