@@ -1,0 +1,32 @@
+version=2
+
+@Text.Show(!)
+@Sound.Play(Cries\1010,1)
+@Screen.ShowImage(Textures\PhanceroDexEntry)
+@Text.Show(Ceroo!)
+@NPC.Turn(1,0)
+@Sound.Play(Cries\1010,1)
+@NPC.SetSpeed(1,0.75)
+@NPC.SetMoveY(1,2)
+@NPC.Move(1,6)
+@Screen.FadeOut(15)
+@Camera.Update
+@NPC.Remove(1)
+@Player.TurnTo(2)
+@Screen.ShowImage(Textures\EndingScreen)
+@Register.Register(Phancero)
+@Register.Register(Dex_Glitched)
+:if:<Register.Value(PhanceroShiny)>=true
+	@Pokedex.ChangeEntry(1011,3)
+:else
+	@Pokedex.ChangeEntry(1011,2)
+:endif
+@Entity.Remove(0)
+@player.save
+@level.waitforsave
+@sound.play(Save)
+@Camera.SetToPlayerFacing
+@Screen.FadeIn(15)
+@Camera.Update
+
+:end

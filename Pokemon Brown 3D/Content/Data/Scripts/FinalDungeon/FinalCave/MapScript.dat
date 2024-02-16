@@ -1,0 +1,20 @@
+version=2
+:if:<Register.Registered(PhanceroShiny)>=false
+	:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
+		@Register.Register(PhanceroShiny,bool,true)
+	:else
+		@Register.Register(PhanceroShiny,bool,false)
+	:endif
+:endif
+:if:<Register.Registered(Phancero)>=false
+	:if:<Register.Value(PhanceroShiny)>=true
+		@npc.spawn(9,0,2,1,FinalDungeon\FinalCave\Phancero,[POKEMON|S]1010,1,2,Phancero,1,Still)
+	:else
+		@npc.spawn(9,0,2,1,FinalDungeon\FinalCave\Phancero,[POKEMON|N]1010,1,2,Phancero,1,Still)
+	:endif
+	
+:else
+	@entity.remove(0)
+:endif
+
+:end
