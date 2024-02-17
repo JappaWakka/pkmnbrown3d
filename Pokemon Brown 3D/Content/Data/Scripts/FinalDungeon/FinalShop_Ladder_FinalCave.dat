@@ -1,0 +1,25 @@
+version=2
+
+:if:<Player.Facing>=0
+	@Player.Warp(FinalDungeon\FinalCave.dat,9,0.1,19,0)
+:else
+	:if:<Player.Facing>=1
+		@Player.Warp(FinalDungeon\FinalCave.dat,9,0.1,19,3)
+	:else
+		:if:<Player.Facing>=2
+			@Player.Warp(FinalDungeon\FinalCave.dat,9,0.1,19,2)
+		:else
+			@Player.Warp(FinalDungeon\FinalCave.dat,9,0.1,19,1)
+		:endif
+	:endif
+:endif
+@Level.Update
+:if:<Level.Riding>=true
+	@Player.SetSpeed(2)
+:else
+	:if:<Player.IsRunning>=true
+		@Player.SetSpeed(1.5)
+	:endif
+:endif
+@Player.Move(1)
+:end

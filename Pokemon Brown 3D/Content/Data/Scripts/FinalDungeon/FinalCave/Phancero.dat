@@ -1,9 +1,9 @@
 version=2
 
-@Text.Show(!)
+@Text.Show(<system.token(FinalDungeon_FinalCave_Phancero_1)>)
 @Sound.Play(Cries\1010,1)
-@Screen.ShowImage(Textures\PhanceroDexEntry)
-@Text.Show(Ceroo!)
+@Screen.ShowImage(Textures\PhanceroDexEntry_<system.language>)
+@Text.Show(<system.token(FinalDungeon_FinalCave_Phancero_2)>)
 @NPC.Turn(1,0)
 @Sound.Play(Cries\1010,1)
 @NPC.SetSpeed(1,0.75)
@@ -13,7 +13,7 @@ version=2
 @Camera.Update
 @NPC.Remove(1)
 @Player.TurnTo(2)
-@Screen.ShowImage(Textures\EndingScreen)
+@Screen.ShowImage(Textures\EndingScreen_<system.language>)
 @Register.Register(Phancero)
 @Register.Register(Dex_Glitched)
 :if:<Register.Value(PhanceroShiny)>=true
