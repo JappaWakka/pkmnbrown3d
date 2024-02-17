@@ -562,7 +562,7 @@ Places_Moraga Town Gym,Moraga Town Gym
 Places_Jaeru City Gym,Jaeru City Gym
 Places_Botan City Gym,Botan City Gym
 Places_Castro Valley Gym,Castro Valley Gym
-Places_Equality River Gym,Equality River Gym
+Places_South Reservoir Gym,South Reservoir Gym
 Places_Eagulou City Gym,Eagulou City Gym
 Places_Azalea Town Gym,Azalea Town Gym
 
@@ -3209,10 +3209,10 @@ Seashore_Gym_LeaderSheryl_Rematch_OutroMessage,Sheryl: You young trainers..~I wo
 Seashore_Gym_LeaderSheryl_Rematch_AfterBattle,Sheryl: What does strength~even mean to you?*<player.name>: I'm not really~sure about the details, I just~know the stronger the trainers~and Pokémon, the more fun the~battle! So being strong is~just winning a lot, right?*Sheryl: That's just one part~of the picture. Are battles~between weak trainers any less~meaningful?*<player.name>: I mean, they're a~lot lamer...*Sheryl: Ha! Maybe you're right.~I never wanted to be a weak~trainer either. Just keep an~open mind, Champion.
 
 [Route 53]
+Route53_Sign,Route 53~Gravel Canyon*Seashore City - Gravel Town
 Route53_PotionGuy_FreeSamples,Hi! The Gravel Town Mart is~giving away free samples~today, so go ahead and~take a free potion!
 Route53_PotionGuy_OutOfSamples,Sorry, but I'm all out of free~samples.
 Route53_OtherGuy_StraightForward,This road is pretty straight~forward.~You can never get~lost on this road!
-Route53_Sign,Gravel Canyon~Route 53*Seashore City - Gravel Town
 
 [Gravel Town]
 Gravel_Main_Tim_Late,Tim: There you are!~You're late!
@@ -3307,7 +3307,7 @@ MersonCave_BugCatcherBill_OutroMessage,You got me!
 MersonCave_BugCatcherBill_DefeatMessage,Blah! You don't play nice!
 
 [Route 54]
-Route54_Sign,Merson Pass~Route 54
+Route54_Sign,Route 54~Merson Pass*Merson Cave - Merson City
 Route54_SuperNerdCraig_IntroMessage,Hey, you broke my~concentration!
 Route54_SuperNerdCraig_OutroMessage,So noisy...
 Route54_SuperNerdCraig_DefeatMessage,This house looks nice,~I might buy it later.
@@ -3376,6 +3376,7 @@ Merson_Gym_LeaderKarpman_Rematch_AfterBattle,Karpman: I think everyone has~their
 
 
 [Route 55]
+Route55_Sign,Route 55~Mt. Boulder Pass*Merson City - Dock Underpass
 Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my Pokémon?
 Route55_PokeManiacRoger_OutroMessage,Oh no! My Pokémon!
 Route55_PokeManiacRoger_DefeatMessage,I don't like you for beating me!
@@ -3391,7 +3392,6 @@ Route55_HikerRudolph_DefeatMessage,If I was beaten by a kid...*then...
 Route55_PokeManiacGlenn_IntroMessage,Wow, are you a~PokéManiac too?*No?~I'll still fight you!
 Route55_PokeManiacGlenn_OutroMessage,Humph. I'm not angry.
 Route55_PokeManiacGlenn_DefeatMessage,How could I lose to you!?
-Route55_Sign,Route 55
 
 Route55_KBMGamesBuilding_Floor1_MeditatingGuy,Please leave. I'm meditating~with my three Pokémon friends.
 Route55_KBMGamesBuilding_Floor1_Persian_Cry,Persian: Meow!
@@ -3423,6 +3423,7 @@ DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52~a.k.a. the Haywa
 DockUnderpass_Entrance_Route52_HomelessGuy,This is where I live because I~have no money...
 
 [Route 52]
+Route52_Sign,Route 52~Hayward Docks*Hayward City - Dock Underpass
 Route52_MagmarTraderHouse_Father,Live in the city?*Why, I love it here.*No darn annoying hoodrats.
 Route52_MagmarTraderHouse_MagmarTrade_Question,Hi! Want to trade an Abra~for a Magmar?
 Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Oh well...
@@ -3565,6 +3566,7 @@ Route64_LassLaura_OutroMessage,Oh! Now I'm stressed out!
 Route64_LassLaura_DefeatMessage,I might set up a picnic here~later...*Nah, I'll just relax...
 
 [Route 51]
+Route51_Sign,Route 51~Foothill Pass*Hayward City - Anza'de Maze
 Route51_BugCatcherPhillip_IntroMessage,This is the Nugget Crew!~We give out nuggets to~people who can beat us all!*Give it a try!
 Route51_BugCatcherPhillip_OutroMessage,Whoo! Good stuff!
 Route51_BugCatcherPhillip_DefeatMessage,I did my best, I have~no regrets!
@@ -3586,7 +3588,7 @@ Route51_ExGruntGreg_OutroMessage,Yep, you are good!
 Route51_ExGruntGreg_DefeatMessage,When you reach the fork on~the road, go right to~get to a city.
 
 [Route 50]
-Route50_Sign,Route 50 - 49
+Route50_Sign,Route 50~Anza'de Maze*~Owsauri City - Hayward City
 Route50_HikerGustav_IntroMessage,I heard this path leads to~Johto.
 Route50_HikerGustav_OutroMessage,You worked hard!
 Route50_HikerGustav_DefeatMessage,I'm not completely sure though.
@@ -3625,7 +3627,7 @@ Route49_BirdKeeperRichard_DefeatMessage,I really want to visit Johto!
 Route49_BirdKeeperDavid_IntroMessage,I can't stop collecting~flying Pokémon!
 Route49_BirdKeeperDavid_OutroMessage,I had to bug you!
 Route49_BirdKeeperDavid_DefeatMessage,I also collect sea Pokémon~on weekends!
-Route49_Sign_CyclingFoothill,Cycling Foothill~Route 49*Owsauri City - Azalea Town
+Route49_Sign_CyclingFoothill,Route 49~Bridge Road*~Owsauri City -~Johto Border (Rinjoh Veloway)
 Route49_Sign_NoPedestriansPermitted,Cycling Road!~No pedestrians permitted!
 
 [Route 49 - Route 50 Gate]
@@ -3800,6 +3802,7 @@ Route66_SwimmerMaleIvan_OutroMessage,Help!
 Route66_SwimmerMaleIvan_DefeatMessage,You have to fish for sea~Pokémon!
 
 [Route 63]
+Route63_Sign,Route 63~Old Creek*Hayward City - Silk Tunnel
 Route63_JrTrainerFemaleAnnette_IntroMessage,On your way to Silk Tunnel~are you?
 Route63_JrTrainerFemaleAnnette_OutroMessage,You little brat!
 Route63_JrTrainerFemaleAnnette_DefeatMessage,The cave is way too scary~and dark for me!
@@ -3965,7 +3968,7 @@ CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,at the City Underpass
 CityUnderpass_Entrance_Route56_Girl,People often lose things in~that underground path.
 
 [Route 60]
-Route60_Main_Sign_PowerPlant,Power Plant
+Route60_Main_Sign,Route 60~Powerline Road*Moraga Town - Jaeru City -~Yuva Mila Lake
 
 Route60_PowerPlant_Zapdos,Gyaao!
 Route60_PowerPlant_Raikou,Rrroar!
@@ -4042,7 +4045,7 @@ Jaeru_OtherHouse_StandingGuy,I know trainers from around~the world.
 
 [Route 59]
 Route59_Main_Sign_SilphCo,Silph Co. Warehouse
-Route59_Main_Sign_Route,Route 59*Jaeru City - Botan City
+Route59_Main_Sign_Route,Route 59~Jaeru Plains*Botan City - Jaeru City
 Route59_Main_LassDaisy_IntroMessage,You are pretty strange.
 Route59_Main_LassDaisy_OutroMessage,You're mean!
 Route59_Main_LassDaisy_DefeatMessage,What are you looking at?
@@ -4268,7 +4271,7 @@ Botan_HauntedForest_Area6_RocketGruntIzzy_DefeatMessage,Gah, not again!
 Botan_HauntedForest_Area6_MrRumiko,Mr. Rumiko: Finally! Somebody~found me!*The Rockets held me hostage~because they thought I knew~more about the MissingNo.!*<player.name>: Luckily they didn't~get any information out of~you, right?*Mr. Rumiko: What information?~I was just having my daily~stroll through the forest!*Anyhow, as a reward for saving~me, I've got a special gift~for you!*Let's get out of this dark~forest first of all!
 
 [Route 58]
-Route58_Main_Sign_Route,Route 58*Botan City - Castro Valley
+Route58_Main_Sign_Route,Route 58~Tan Boat Creek*Botan City - Castro Valley
 Route58_Main_JrTrainerFemaleAleah_IntroMessage,You want to battle me?*Hope I can win for once!
 Route58_Main_JrTrainerFemaleAleah_OutroMessage,Ugh! I hate losing!
 Route58_Main_JrTrainerFemaleAleah_DefeatMessage,Get out of here!
@@ -4398,7 +4401,7 @@ Castro_Forest_BugCatcherCaden_OutroMessage,I give up! You're good at this!
 Castro_Forest_BugCatcherCaden_DefeatMessage,Sometimes you can find stuff~on the ground!*I'm looking for the stuff~I dropped!
 
 [Route 62]
-Route62_Main_Sign_CastroField,Castro Field~Route 62*Castro Valley -~Power Plant
+Route62_Main_Sign_CastroField,Route 62~Castro Field*The path to many cities!
 Route62_Main_YoungsterBarry_IntroMessage,Caught ya by surprise!
 Route62_Main_YoungsterBarry_OutroMessage,Darn! I need to make my~Pokémon stronger!
 Route62_Main_YoungsterBarry_DefeatMessage,There's a fat Pokémon that~came down from the mountains.*It's really strong...~When it's awake, of course!
@@ -4420,7 +4423,7 @@ Route62_Main_YoungsterDouglas_DefeatMessage,I better go find stronger ones!
 
 [Route 61]
 Route61_Main_Sign_SportFishingArea,Sport Fishing Area
-Route61_Main_Sign_YuvaMilaLake,Yuva Mila Lake~Route 61*Castro Field -~Power Plant
+Route61_Main_Sign_YuvaMilaLake,Route 61~Yuva Mila Lake*The path to many cities!
 Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!
 Route61_Main_FishermanHildegard_OutroMessage,It's not easy...
 Route61_Main_FishermanHildegard_DefeatMessage,I guess I better~fish some more.
@@ -4458,8 +4461,8 @@ CastroForest_Route57_Gate_Guy,Many Pokémon live only in~forests and caves.*You 
 CastroForest_Route57_Gate_OldMan,Can you tell me the way~to Castro Valley?
 
 [Route 57]
-Route57_Main_Sign_Route,Equality River~Route 57*Castro Forest - Southedge Bay
-Route57_Main_Sign_Gym,Equality River~Pokémon Gym~Leader: Joe*Just a Normal Guy!
+Route57_Main_Sign_Route,Route 57~South Reservoir*Castro Forest - Southedge Bay
+Route57_Main_Sign_Gym,South Reservoir~Pokémon Gym*Leader: Joe~Just a Normal guy!
 Route57_Main_Fisherman_Question,Got time for a story, kid?
 Route57_Main_Fisherman_Answer_No,You don't? I promise it's a~good one!
 Route57_Main_Fisherman_Answer_Yes,One day, when I was fishin'~down by this very same river~with some pals, we happened to~see a weird hole open up in~the sky. It spat out a man and~closed right back up, never~seen anythin' like it. The man~that fell from the sky was~very upset and said he~couldn't remember a thing but~his name, so we figured we'd~get him a Pokémon so he could~at least get by traveling. He~was scared by most of them for~some reason or another and~didn't even like our fish~much... But rats? Cats? Birds?~He loved those. So we caught~Joe a Pidgey, way back then.~And he took darn good care of~it.*Bit of a weird fella; can't~say we talk much now. But he~made a good name for himself,~far as I'm concerned. You~ought to pay his Gym a visit.
@@ -4508,7 +4511,7 @@ Route57_Gym_LeaderJoe_Rematch_OutroMessage,Joe: You beat us? Your team~must be t
 Route57_Gym_LeaderJoe_Rematch_AfterBattle,Joe: Well we've only just~begun to see the limits of how~normal a guy can be. I'll show~you all; I'll be the most~normal trainer in the world!
 
 [Route 56]
-Route56_Main_Sign_Route,Southedge Bay~Route 56*Equality River - Eagulou City
+Route56_Main_Sign_Route,Route 56~Southedge Bay*South Resevoir - Eagulou City
 Route56_Main_SwimmerMaleKurt_IntroMessage,Oh no!
 Route56_Main_SwimmerMaleKurt_OutroMessage,Ouch! Torpedoed!
 Route56_Main_SwimmerMaleKurt_DefeatMessage,I lost!
@@ -4750,9 +4753,9 @@ League_Champion_Mura_AfterDefeat4,Mura: <player.name>!*You see this big finger?~
 League_HallOfFame,Tim: Er-hem!~Congratulations, <player.name>!*Shall we put your Pokémon data~on the Hall of Fame website~for all to see and know about~your accomplishments?*<player.name>: Yeah, definitely!*Tim: Alright, here we go!*Mura, shouting in the distance:~I will become a LEGEND, you~just wait and see!
 
 [Old Route 48]
-Route48_Sign_GoingUphill,Going uphill.
-Route48_Sign_CyclingRoad,Cycling Road*Owsauri City - Azalea Town
-Route48_Sign_RegionLimits,Johto - Rijon~Region Limits
+Route48_Sign_GoingUphill,Old Route 48~Going uphill!
+Route48_Sign_CyclingRoad,Old Route 48~Rinjoh Veloway*Johto (Ilex Forest) -~Rijon (Bridge Road)
+Route48_Sign_RegionLimits,Old Route 48~Johto - Rijon border
 Route48_BikerDonovan_IntroMessage,What a lame bike!
 Route48_BikerDonovan_OutroMessage,Are you satisfied?
 Route48_BikerDonovan_DefeatMessage,I don't like you!
@@ -4785,7 +4788,7 @@ Route48_BikerDawson_OutroMessage,Crash and burn!
 Route48_BikerDawson_DefeatMessage,You're almost there, kid!
 
 [Old Route 47]
-Route47_Sign_CyclingPeak,Cycling Peak*Welcome to Johto!
+Route47_Sign_CyclingPeak,Old Route 47~Cycling Peak*Ilex Forext -~Rijon Border (Rinjoh Veloway)
 Route47_Snorlax_NoPokeFlute,A sleeping Pokémon blocks~the way!
 Route47_Snorlax_UsedPokeFlute,Snorlax woke up!*It attacked in a grumpy rage!
 Route47_Snorlax_Caught,Snorlax calmed down! It no longer blocks the way!
