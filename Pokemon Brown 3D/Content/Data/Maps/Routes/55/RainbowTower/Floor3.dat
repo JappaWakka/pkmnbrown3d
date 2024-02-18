@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[KBM Games Building]}}{"MusicLoop"{str[Moraga]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[Rainbow Tower]}}{"MusicLoop"{str[Moraga]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
 
 Floors:
@@ -65,11 +65,11 @@ Small Walls:
 Furniture:
 	PCs
 		Monitors
-			{"EntityField"{ENT[{"RotationXYZ"{sngArr[0,-0.78,0]}}{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0.1875,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,220,12,12][48,208,12,12][72,208,12,12][60,208,12,12][60,220,12,12]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,3,3,4,4]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor3_PC_Fan]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"RotationXYZ"{sngArr[0,-0.78,0]}}{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0.1875,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,220,12,12][48,208,12,12][72,208,12,12][60,208,12,12][60,220,12,12]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,3,3,4,4]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[RainbowTower\Floor3_PC_Fan]}}{"Rotation"{int[0]}}]}}
 			
-			{"EntityField"{ENT[{"RotationXYZ"{sngArr[0,-0.78,0]}}{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0.1875,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,220,12,12][48,208,12,12][72,208,12,12][60,208,12,12][60,220,12,12]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,3,3,4,4]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor3_PC_SamuelLow]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"RotationXYZ"{sngArr[0,-0.78,0]}}{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0.1875,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,220,12,12][48,208,12,12][72,208,12,12][60,208,12,12][60,220,12,12]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,3,3,4,4]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[RainbowTower\Floor3_PC_SamuelLow]}}{"Rotation"{int[0]}}]}}
 			
-			{"EntityField"{ENT[{"RotationXYZ"{sngArr[0,-0.78,0]}}{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0.1875,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,220,12,12][48,208,12,12][72,208,12,12][60,208,12,12][60,220,12,12]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,3,3,4,4]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor3_PC_MeanMrMustard]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"RotationXYZ"{sngArr[0,-0.78,0]}}{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0.1875,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,220,12,12][48,208,12,12][72,208,12,12][60,208,12,12][60,220,12,12]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,3,3,4,4]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[RainbowTower\Floor3_PC_MeanMrMustard]}}{"Rotation"{int[0]}}]}}
 			
 		Tables
 			{"Entity"{ENT[{"Scale"{sngArr[1,0.4375,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-0.285,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[112,112,16,7][128,128,16,7][128,120,16,7][160,224,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1,2,2,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -88,19 +88,19 @@ Furniture:
 			{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-0.36,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[28,127,12,12][28,139,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			
 Stairs:
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor3_Stairs_Down]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[RainbowTower\Floor3_Stairs_Down]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Office_Down]}}{"Offset"{sngArr[6,-1,-2]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,1,-3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor3_Stairs_Up]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,1,-3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[RainbowTower\Floor3_Stairs_Up]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Office_Up]}}{"Offset"{sngArr[7,0,-2]}}]}}
 
 
 Note:
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor3_Note]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[RainbowTower\Floor3_Note]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[0,0.155,4]}}{"TextureID"{str[MeanMrMustard]}}{"ID"{int[0]}}{"Name"{str[MeanMrMustard]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_KBMGamesBuilding_Floor3_MeanMrMustard)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[3,0.155,1]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[1]}}{"Name"{str[Samuel Low]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_KBMGamesBuilding_Floor3_SamuelLow)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[0,0.155,1]}}{"TextureID"{str[SunglassesGuy]}}{"ID"{int[2]}}{"Name"{str[Fan]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_KBMGamesBuilding_Floor3_Fan)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[2,0.155,0]}}{"TextureID"{str[Koolboyman]}}{"ID"{int[3]}}{"Name"{str[Koolboyman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_KBMGamesBuilding_Floor3_Koolboyman)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[0,0.155,4]}}{"TextureID"{str[MeanMrMustard]}}{"ID"{int[0]}}{"Name"{str[MeanMrMustard]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_RainbowTower_Floor3_MeanMrMustard)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[3,0.155,1]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[1]}}{"Name"{str[Samuel Low]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_RainbowTower_Floor3_SamuelLow)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[0,0.155,1]}}{"TextureID"{str[SunglassesGuy]}}{"ID"{int[2]}}{"Name"{str[Fan]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_RainbowTower_Floor3_Fan)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0.155,0]}}{"TextureID"{str[Koolboyman]}}{"ID"{int[3]}}{"Name"{str[Koolboyman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_RainbowTower_Floor3_Koolboyman)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	

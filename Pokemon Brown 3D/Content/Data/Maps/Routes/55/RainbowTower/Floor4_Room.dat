@@ -1,5 +1,5 @@
-{"Level"{LEV[{"Name"{str[KBM Games Building]}}{"MusicLoop"{str[Moraga]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[KBMGamesBuilding\Floor4_Room_MapScript]}}]}}
+{"Level"{LEV[{"Name"{str[Rainbow Tower]}}{"MusicLoop"{str[Moraga]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[RainbowTower\Floor4_Room_MapScript]}}]}}
 
 Floors:
 	Regular
@@ -34,8 +34,8 @@ Walls:
 		
 
 Door:
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[2,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[128,240,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\55\KBMGamesBuilding\Floor4.dat,2,0.1,4,0]}}{"Rotation"{int[2]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[112,240,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\55\KBMGamesBuilding\Floor4.dat,2,0.1,4,0]}}{"Rotation"{int[2]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[2,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[128,240,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\55\RainbowTower\Floor4.dat,2,0.1,4,0]}}{"Rotation"{int[2]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[112,240,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\55\RainbowTower\Floor4.dat,2,0.1,4,0]}}{"Rotation"{int[2]}}]}}
 
 Furniture:
 	Plants
@@ -50,7 +50,7 @@ Furniture:
 		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0.5,-0.99]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[144,240,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,0.5,-0.99]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,240,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
 		Scriptblocks
-			{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor4_Room_Blackboard]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[RainbowTower\Floor4_Room_Blackboard]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 	Table
 		{"Entity"{ENT[{"Scale"{sngArr[1,0.5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.3127,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[112,112,16,8][128,120,16,8][80,96,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -58,16 +58,16 @@ Furniture:
 		{"Entity"{ENT[{"Scale"{sngArr[1,0.5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.3127,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[112,112,16,8][128,120,16,8][176,240,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1,-1,-1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"Entity"{ENT[{"Scale"{sngArr[1,0.5,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.3127,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[112,120,16,8][128,112,16,8][96,112,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,-1,-1,-1,-1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		Pamphlet ScriptBlock
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor4_Room_Pamphlet]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[RainbowTower\Floor4_Room_Pamphlet]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 	Chair
 		{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.36,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[28,127,12,12][28,139,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[0]}}{"Name"{str[BlackBelt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_KBMGamesBuilding_Floor4_Room_Karl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[0]}}{"Name"{str[BlackBelt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route55_RainbowTower_Floor4_Room_Karl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Pokeball:
-	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[4,0.3075,2]}}{"TextureID"{str[MasterBall]}}{"ID"{int[1]}}{"Name"{str[Porygon in a Master Ball]}}{"Action"{int[1]}}{"AdditionalValue"{str[KBMGamesBuilding\Floor4_Room_Porygon]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[4,0.3075,2]}}{"TextureID"{str[MasterBall]}}{"ID"{int[1]}}{"Name"{str[Porygon in a Master Ball]}}{"Action"{int[1]}}{"AdditionalValue"{str[RainbowTower\Floor4_Room_Porygon]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}]}}
 
 
 
