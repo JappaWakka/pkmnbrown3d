@@ -6,6 +6,8 @@ version=2
 :endif
 :if:<Register.Registered(murahaywardbattle)>=false
 	@NPC.spawn(20,0,2,3,0,<rival.skin>,0,2,Mura,20,Still)
+:else
+	@Entity.Remove(11)
 :endif
 :if:<Register.Registered(rijonleague)>=true
 	@npc.remove(8)
