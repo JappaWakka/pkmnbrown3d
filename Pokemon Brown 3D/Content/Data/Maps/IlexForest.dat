@@ -383,7 +383,7 @@ Buildings:
 				
 Warps:
 	Route 34 - Old Route 47 Gate
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[1,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route34-Route47-IlexForest.dat,15,0.1,9,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[1,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route34-Route47-IlexForest.dat,14,0.1,9,0]}}{"Rotation"{int[0]}}]}}
 	
 	Azalea Town Gate
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,43]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Azalea-IlexForest.dat,4,0.1,18,0]}}{"Rotation"{int[0]}}]}}
