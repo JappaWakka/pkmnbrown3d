@@ -493,7 +493,7 @@ badge_3,Sprout
 badge_4,Sparky
 badge_5,Fist
 badge_6,Psi
-badge_7,White
+badge_7,Equality
 badge_8,Star
 badge_9,Rematch
 badge_10,Rematch
@@ -4472,8 +4472,8 @@ Route57_Main_Fisherman_Question,Got time for a story, kid?
 Route57_Main_Fisherman_Answer_No,You don't? I promise it's a~good one!
 Route57_Main_Fisherman_Answer_Yes,One day, when I was fishin'~down by this very same river~with some pals, we happened to~see a weird hole open up in~the sky. It spat out a man and~closed right back up, never~seen anythin' like it. The man~that fell from the sky was~very upset and said he~couldn't remember a thing but~his name, so we figured we'd~get him a Pokémon so he could~at least get by traveling. He~was scared by most of them for~some reason or another and~didn't even like our fish~much... But rats? Cats? Birds?~He loved those. So we caught~Joe a Pidgey, way back then.~And he took darn good care of~it.*Bit of a weird fella; can't~say we talk much now. But he~made a good name for himself,~far as I'm concerned. You~ought to pay his Gym a visit.
 
-Route57_Gym_Statue_BeforeDefeat,Equality River~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura
-Route57_Gym_Statue_AfterDefeat,Equality River~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<player.name>
+Route57_Gym_Statue_BeforeDefeat,South Reservoir~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura
+Route57_Gym_Statue_AfterDefeat,South Reservoir~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<player.name>
 Route57_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Joe uses only Normal Pokémon!*I would recommend using~Fighting-type Pokémon against~those foes!
 Route57_Gym_GymGuy_AfterBadge,Gym Guy: <player.name>!~Good job once again!
 Route57_Gym_Quiz_Answer_Correct,You're absolutely correct!*Go on through.
@@ -4504,8 +4504,8 @@ Route57_Gym_NormalTrainerReggie_DefeatMessage,Normal Pokémon's only weakness~is
 Route57_Gym_NormalTrainerStefan_IntroMessage,Normal equals best!
 Route57_Gym_NormalTrainerStefan_OutroMessage,Oh! Snuffed out!
 Route57_Gym_NormalTrainerStefan_DefeatMessage,Quit staring at me, it's mean!
-Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the Equality River Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<player.name>: Well, I'll do~anything for the White Badge!
-Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if you are this good.*You have earned the White Badge!
+Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the South Reservoir Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<player.name>: Well, I'll~do anything for the~Equality Badge!
+Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if you are this good.*You have earned the Equality~Badge!
 Route57_Gym_LeaderJoe_AfterBattle1,Joe: Hah!*Since you're special, I'll~give you something else!
 Route57_Gym_LeaderJoe_AfterBattle2,TM 15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!
 Route57_Gym_LeaderJoe_TalkAgain,Joe: Hyper Beam is the best~Normal attack you can get!*Don't waste it!
@@ -4698,9 +4698,9 @@ Route65_Guard6_Start,You can pass here only if~you have the Psi Badge!
 Route65_Guard6_HaveBadge,Oh! That is the Psi Badge!~OK then! Please, go right~ahead!
 Route65_Guard6_NoBadge,You don't have the Psi Badge~yet!*You have to have it to get~to the Pokémon League!
 
-Route65_Guard7_Start,You can pass here only if~you have the White Badge!
-Route65_Guard7_HaveBadge,Oh! That is the White Badge!~OK then! Please, go right~ahead!
-Route65_Guard7_NoBadge,You don't have the White~Badge yet!*You have to have it to get~to the Pokémon League!
+Route65_Guard7_Start,You can pass here only if~you have the Equality Badge!
+Route65_Guard7_HaveBadge,Oh! That is the Equality Badge!~OK then! Please, go right~ahead!
+Route65_Guard7_NoBadge,You don't have the Equality~Badge yet!*You have to have it to get~to the Pokémon League!
 
 Route65_Guard8_Start,You can pass here only if~you have the Star Badge!
 Route65_Guard8_HaveBadge,Oh! That is the Star Badge!~OK then! Please, go right~ahead!
@@ -5079,11 +5079,11 @@ FinalDungeon_Lobby_Shopkeeper_AfterQuit,Thank you!
 
 FinalDungeon_Island_RocketGruntArnold_IntroMessage,Saving the best for last!
 FinalDungeon_Island_RocketGruntArnold_OutroMessage,Ayaya!
-FinalDungeon_Island_RocketGruntArnold_DefeatMessage,You should give your Pokémon 'roids!
+FinalDungeon_Island_RocketGruntArnold_DefeatMessage,You must've given them 'roids!
 FinalDungeon_Island_RocketGruntCaleb_IntroMessage,Heh, can't find a way through?
 FinalDungeon_Island_RocketGruntCaleb_OutroMessage,Burned again!
 FinalDungeon_Island_RocketGruntCaleb_DefeatMessage,Haha, I love those fake trees!
-FinalDungeon_Island_RocketGruntGustav_IntroMessage,This fossil will make me rich!
+FinalDungeon_Island_RocketGruntGustav_IntroMessage,This god's fossil will make me~rich!
 FinalDungeon_Island_RocketGruntGustav_OutroMessage,No!
 FinalDungeon_Island_RocketGruntGustav_DefeatMessage,Don't kill me, just take it!
 FinalDungeon_Island_PaletteRed_IntroMessage,Having a Rocket army works for~me.
