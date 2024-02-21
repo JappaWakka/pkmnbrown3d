@@ -15,9 +15,7 @@ version=2
 	@Player.Move(0)
 	@music.unforce
 	@music.play(TimsLab)
-	@Text.Show(<system.token(Gravel_TimsLab_ChoosePokemon1)>)
-	@Text.Show(<system.token(Gravel_TimsLab_ChoosePokemon2)>)
-	@Text.Show(<system.token(Gravel_TimsLab_ChoosePokemon3)>)
+	@Text.Show(<system.token(Gravel_TimsLab_ChoosePokemon)>)
 	@Register.Register(gotpokemon)
 	@Register.Register(tim1)
 	@Register.Register(mura1)

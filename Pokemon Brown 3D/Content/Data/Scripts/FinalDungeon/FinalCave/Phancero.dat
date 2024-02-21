@@ -25,6 +25,7 @@ version=2
 @player.save
 @level.waitforsave
 @sound.play(Save)
+@screen.credits(Rijon)
 @Camera.SetToPlayerFacing
 @Screen.FadeIn(15)
 @Camera.Update

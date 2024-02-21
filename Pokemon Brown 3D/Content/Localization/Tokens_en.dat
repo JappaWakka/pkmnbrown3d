@@ -3235,9 +3235,7 @@ Gravel_TimsLab_ChangeStyleLady_Question,Prof. Tim is the authority~on Pokémon.~
 Gravel_TimsLab_ChangeStyleLady_Yes1,Leave it to me!
 Gravel_TimsLab_ChangeStyleLady_Yes2,All done! Much better!
 Gravel_TimsLab_ChangeStyleLady_No,Come back if you change your~mind!
-Gravel_TimsLab_ChoosePokemon1,Mura: Finally you're here!~Let's hurry!*Tim: Mura, be patient.*...*Now then, are you both ready~for your first Pokémon?*...*I have three newly hatched~Pokémon here. My grandfather~wanted me to carry on the~tradition of being a master.~I'm passing his legacy~to you two!
-Gravel_TimsLab_ChoosePokemon2,Mura: I am honored, good sir!
-Gravel_TimsLab_ChoosePokemon3,Tim: Good to know.*<player.name>, you pick first.
+Gravel_TimsLab_ChoosePokemon,Mura: Finally you're here!~Let's hurry!*Tim: Mura, be patient.*...*Now then, are you both ready~for your first Pokémon?*Mura: I can't wait! Hurry up!*I have three newly hatched~Pokémon here. My grandfather~wanted me to carry on the~tradition of being a master.~I'm passing his legacy~to you two!*Mura: I am honored, good sir!*Tim: Good to know.*<player.name>, you pick first.
 Gravel_TimsLab_Choose_Charmander,Tim: So! You want the Fire~Pokémon, Charmander?
 Gravel_TimsLab_Choose_Squirtle,Tim: So! You want the Water~Pokémon, Squirtle?
 Gravel_TimsLab_Choose_Bulbasaur,Tim: So! You want the Grass~Pokémon, Bulbasaur?
@@ -3367,7 +3365,7 @@ Merson_Gym_JrTrainerMaleButch_DefeatMessage,Karpman's given name is~Lochlan. Don
 Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welcome to the Merson~City Gym, challenger!*<player.name>: So you're a Gym~Leader?*Karpman: You got it! My name~is Karpman, and I specialize~in Water-type Pokémon! If you~defeat me, I'll give you the~Marine Badge. Get all eight~badges throughout the region,~and you'll get the chance to~become Rijon's Champion! But I~won't make it easy for you.~Be sure to brace yourself for~waves of defeat!*<player.name>: Show me your best,~Karpman!
 Merson_Gym_LeaderKarpman_OutroMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine Badge!
 Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*But all caves in Rijon were lit~by Shinra Electric Power~Company, so it is kinda useless~now...*Wait! Take this with you!
-Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*A TM can only be used once!~So when you use one to~teach a new technique,~pick the Pokémon carefully!*TM 12 contains Octazooka!~It's a Water move that can~lower the accuracy of your foe!
+Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*TMs are single use! So when~you use one to teach a new~technique, pick the Pokémon~carefully!*TM 12 contains Octazooka!~It's a Water move that can~lower the accuracy of your foe!
 Merson_Gym_LeaderKarpman_TalkAgain,Karpman: That was an epic~battle!*The next Gym Leader is Lily~who lives in Owsauri City.*Keep going north and you'll~end up there in no time!
 Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Question,Karpman: Well, you swam a long~way upriver since last time I~saw you.*You guys got strong, but I~think I can toss you around in~the tide a bit still. Care to~take the bait?
 Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Answer_No,Karpman: You aren't up for it?~That's fine, come back when~you're ready!*Just don't try anything fishy,~I got that covered!
@@ -3377,7 +3375,8 @@ Merson_Gym_LeaderKarpman_Rematch_AfterBattle,Karpman: I think everyone has~their
 
 
 [Route 55]
-Route55_Sign,Route 55~Mt. Boulder Pass*Merson City - Dock Underpass
+Route55_Sign_Route,Route 55~Mt. Boulder Pass*Merson City - Dock Underpass
+Route55_Sign_RainbowTower,Rainbow Tower
 Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my Pokémon?
 Route55_PokeManiacRoger_OutroMessage,Oh no! My Pokémon!
 Route55_PokeManiacRoger_DefeatMessage,I don't like you for beating me!
@@ -3414,7 +3413,7 @@ Route55_RainbowTower_Floor3_Note,RainbowDevs~Development Room
 Route55_RainbowTower_Floor4_Note,DON'T GO IN HERE!!!
 
 Route55_RainbowTower_Floor4_Room_Blackboard,I shall not waste Master Balls~I shall not waste Master Balls*I shall not waste Master Balls~I shall not waste Master Balls*...I think someone wasted~a Master Ball.
-Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 50 TMs and 4 HMs~have been produced by Silph Co.*HMs can also be used outside~of battle, but Pokémon~have trouble forgetting them.
+Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~have been produced by Silph Co.*HMs can also be used outside~of battle, but Pokémon~have trouble forgetting them.
 Route55_RainbowTower_Floor4_Room_Porygon_Receive,<player.name> got Porygon!
 Route55_RainbowTower_Floor4_Room_Porygon_ToPC,It was transfered to the PC.
 Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift from Karl
