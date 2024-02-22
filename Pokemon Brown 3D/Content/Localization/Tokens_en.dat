@@ -493,7 +493,7 @@ badge_3,Sprout
 badge_4,Sparky
 badge_5,Fist
 badge_6,Psi
-badge_7,Equality
+badge_7,Equity
 badge_8,Star
 badge_9,Rematch
 badge_10,Rematch
@@ -3563,7 +3563,9 @@ Hayward_SouthlandMall_Floor5_Sailor,I'm here for Pokémon ability~enhancers.*Pro
 Hayward_RijonTunnel_Entrance_Fisherman,Do you have any idea who owns~that area?*It's very confusing!
 
 [Route 64]
-Route64_Sign,Route 64~Hayward Lowlands*Hayward City -~Naljo Border (Closed)
+Route64_Sign_Route,Route 64~Hayward Lowlands*Hayward City -~Naljo Border (Closed)
+Route64_Sign_ComingSoon,Coming soon: a high speed link~to the world!*The Magnet Train: on its way~from Naljo to Rijon.*Est. completion: 3 years.~Pardon our dust!*Luster City~Construction Co.*       Magnet Train~We're Getting There
+Route64_ConstructionWorker_BorderClosed,The Naljo border is closed~due to construction of the~Magnet Train.*We apologise for the~inconvenience caused.
 Route64_LassLaura_IntroMessage,This is a nice resting place.
 Route64_LassLaura_OutroMessage,Oh! Now I'm stressed out!
 Route64_LassLaura_DefeatMessage,I might set up a picnic here~later...*Nah, I'll just relax...
@@ -3591,7 +3593,7 @@ Route51_ExGruntGreg_OutroMessage,Yep, you are good!
 Route51_ExGruntGreg_DefeatMessage,When you reach the fork on~the road, go right to~get to a city.
 
 [Route 50]
-Route50_Sign,Route 50~Anza'de Maze*~Owsauri City - Hayward City
+Route50_Sign,Route 50~Anza'de Maze*Owsauri City - Hayward City
 Route50_HikerGustav_IntroMessage,I heard this path leads to~Johto.
 Route50_HikerGustav_OutroMessage,You worked hard!
 Route50_HikerGustav_DefeatMessage,I'm not completely sure though.
@@ -3630,7 +3632,7 @@ Route49_BirdKeeperRichard_DefeatMessage,I really want to visit Johto!
 Route49_BirdKeeperDavid_IntroMessage,I can't stop collecting~flying Pokémon!
 Route49_BirdKeeperDavid_OutroMessage,I had to bug you!
 Route49_BirdKeeperDavid_DefeatMessage,I also collect sea Pokémon~on weekends!
-Route49_Sign_CyclingFoothill,Route 49~Bridge Road*~Owsauri City -~Johto Border (Rinjoh Veloway)
+Route49_Sign_CyclingFoothill,Route 49~Bridge Road*Owsauri City -~Johto Border (Rinjoh Veloway)
 Route49_Sign_NoPedestriansPermitted,Cycling Road!~No pedestrians permitted!
 
 [Route 49 - Route 50 Gate]
@@ -3991,7 +3993,7 @@ Route60_Jaeru_Gate_Binoculars_Left_None,Mt. Boulder!
 Route60_Jaeru_Gate_Binoculars_Right,Looked into the binoculars...*It looks like part of Johto!
 
 [Jaeru City]
-Jaeru_Main_Sign_RijonLeagueEntrance,Route 65~El Norteno Heights*Pathway to the Rijon League!
+Jaeru_Main_Sign_RijonLeagueEntrance,Path to Rijon League Entrance
 Jaeru_Main_Sign_City,Jaeru City~The hoppy town!
 Jaeru_Main_Sign_BikeShop,Bike Shop*Cool Bikes for everyone!
 Jaeru_Main_Sign_TownMap,Notice!*If you are lost, refer to your~Town Map!
@@ -4466,7 +4468,7 @@ CastroForest_Route57_Gate_OldMan,Can you tell me the way~to Castro Valley?
 
 [Route 57]
 Route57_Main_Sign_Route,Route 57~South Reservoir*Castro Forest - Southedge Bay
-Route57_Main_Sign_Gym,South Reservoir~Pokémon Gym*Leader: Joe~Just a Normal guy!
+Route57_Main_Sign_Gym,South Reservoir~Pokémon Gym*Leader: Joe~Just a Normal Guy!
 Route57_Main_Fisherman_Question,Got time for a story, kid?
 Route57_Main_Fisherman_Answer_No,You don't? I promise it's a~good one!
 Route57_Main_Fisherman_Answer_Yes,One day, when I was fishin'~down by this very same river~with some pals, we happened to~see a weird hole open up in~the sky. It spat out a man and~closed right back up, never~seen anythin' like it. The man~that fell from the sky was~very upset and said he~couldn't remember a thing but~his name, so we figured we'd~get him a Pokémon so he could~at least get by traveling. He~was scared by most of them for~some reason or another and~didn't even like our fish~much... But rats? Cats? Birds?~He loved those. So we caught~Joe a Pidgey, way back then.~And he took darn good care of~it.*Bit of a weird fella; can't~say we talk much now. But he~made a good name for himself,~far as I'm concerned. You~ought to pay his Gym a visit.
@@ -4503,8 +4505,8 @@ Route57_Gym_NormalTrainerReggie_DefeatMessage,Normal Pokémon's only weakness~is
 Route57_Gym_NormalTrainerStefan_IntroMessage,Normal equals best!
 Route57_Gym_NormalTrainerStefan_OutroMessage,Oh! Snuffed out!
 Route57_Gym_NormalTrainerStefan_DefeatMessage,Quit staring at me, it's mean!
-Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the South Reservoir Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<player.name>: Well, I'll~do anything for the~Equality Badge!
-Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if you are this good.*You have earned the Equality~Badge!
+Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the South Reservoir Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<player.name>: Well, I'll~do anything for the~Equity Badge!
+Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if you are this good.*You have earned the Equity~Badge!
 Route57_Gym_LeaderJoe_AfterBattle1,Joe: Hah!*Since you're special, I'll~give you something else!
 Route57_Gym_LeaderJoe_AfterBattle2,TM 15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!
 Route57_Gym_LeaderJoe_TalkAgain,Joe: Hyper Beam is the best~Normal attack you can get!*Don't waste it!
@@ -4671,7 +4673,8 @@ MtBoulder_B1F_Suicune_Cry,Rrroar!
 30YearsCave_Moltres,Gyaao!
 
 [Route 65]
-Route65_Main_Sign,Rijon League~El Norteno Summit*E pluribus unum.
+Route65_Main_Sign_North,Rijon League~El Norteno Summit*E pluribus unum.
+Route65_Main_Sign_South,Route 65~El Norteno Heights*Pathway to the Rijon League!
 
 Route65_Guard1_Start,You can pass here only if~you have the Marine Badge!
 Route65_Guard1_HaveBadge,Oh! That is the Marine Badge!~OK then! Please, go right~ahead!
@@ -4697,9 +4700,9 @@ Route65_Guard6_Start,You can pass here only if~you have the Psi Badge!
 Route65_Guard6_HaveBadge,Oh! That is the Psi Badge!~OK then! Please, go right~ahead!
 Route65_Guard6_NoBadge,You don't have the Psi Badge~yet!*You have to have it to get~to the Pokémon League!
 
-Route65_Guard7_Start,You can pass here only if~you have the Equality Badge!
-Route65_Guard7_HaveBadge,Oh! That is the Equality Badge!~OK then! Please, go right~ahead!
-Route65_Guard7_NoBadge,You don't have the Equality~Badge yet!*You have to have it to get~to the Pokémon League!
+Route65_Guard7_Start,You can pass here only if~you have the Equity Badge!
+Route65_Guard7_HaveBadge,Oh! That is the Equity Badge!~OK then! Please, go right~ahead!
+Route65_Guard7_NoBadge,You don't have the Equity~Badge yet!*You have to have it to get~to the Pokémon League!
 
 Route65_Guard8_Start,You can pass here only if~you have the Star Badge!
 Route65_Guard8_HaveBadge,Oh! That is the Star Badge!~OK then! Please, go right~ahead!

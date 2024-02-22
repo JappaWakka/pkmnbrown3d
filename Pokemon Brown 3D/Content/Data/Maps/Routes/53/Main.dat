@@ -223,15 +223,19 @@ OffsetMaps:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[1,39]}}{"Map"{str[Gravel\Main.dat]}}]}}
 
 Backdrops:
-	Route52
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-88.5,-0.75,-104.5]}}{"Size"{intArr[80,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,-104.5]}}{"Size"{intArr[80,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	Seashore
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-88.5,-0.75,-38.5]}}{"Size"{intArr[80,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,-38.5]}}{"Size"{intArr[80,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	Route53
-		{"Backdrop"{BAC[{"Position"{sngArr[-88.5,-0.75,-0.5]}}{"Size"{intArr[80,37]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Position"{sngArr[30.5,-0.75,-0.5]}}{"Size"{intArr[80,37]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	Gravel
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-88.5,-0.75,36.5]}}{"Size"{intArr[80,48]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,36.5]}}{"Size"{intArr[80,48]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	Route 52
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-66.5,-0.75,-106.5]}}{"Size"{intArr[57,68]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-9.5,-0.75,-103.5]}}{"Size"{intArr[1,65]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,-106.5]}}{"Size"{intArr[71,68]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	
+	Seashore City
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-66.5,-0.75,-38.5]}}{"Size"{intArr[58,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,-38.5]}}{"Size"{intArr[71,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		
+	Route 53
+		{"Backdrop"{BAC[{"Position"{sngArr[-66.5,-0.75,-0.5]}}{"Size"{intArr[58,37]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Position"{sngArr[30.5,-0.75,-0.5]}}{"Size"{intArr[71,37]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	
+	Gravel Town
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-66.5,-0.75,36.5]}}{"Size"{intArr[58,48]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,36.5]}}{"Size"{intArr[71,48]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
