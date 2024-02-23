@@ -322,7 +322,6 @@ Offsets:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[44,-8]}}{"Map"{str[Hayward\Main.dat]}}]}}
 	{"OffsetMap"{MAP[{"Offset"{sngArr[52,30]}}{"Map"{str[Routes\52\Main.dat]}}]}}
 
-	{"OffsetMap"{MAP[{"Offset"{sngArr[54,-44]}}{"Map"{str[Routes\51\Main.dat]}}]}}
 	{"OffsetMap"{MAP[{"Offset"{sngArr[84,0]}}{"Map"{str[Routes\63\Main.dat]}}]}}
 	
 Backdrops:
@@ -337,9 +336,7 @@ Backdrops:
 	Route 64
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-14.5,-0.75,24.5]}}{"Size"{intArr[57,5]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	
-	Route 51
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[82.5,-0.75,-21.5]}}{"Size"{intArr[71,18]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	
 	Route 63
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[82.5,-0.75,-8.5]}}{"Size"{intArr[71,5]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[82.5,-0.75,20.5]}}{"Size"{intArr[71,9]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	
