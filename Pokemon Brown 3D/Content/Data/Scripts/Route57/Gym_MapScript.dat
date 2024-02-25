@@ -20,4 +20,8 @@ version=2
 	@entity.remove(4)
 :endif
 
+:if:<Register.Registered(quiz5)>=True
+	@entity.remove(5)
+:endif
+
 :end

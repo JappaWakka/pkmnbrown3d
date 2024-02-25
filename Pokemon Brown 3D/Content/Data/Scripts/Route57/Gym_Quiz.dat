@@ -5,75 +5,108 @@ version=2
 		@Text.Show(<system.token(Route57_Gym_Quiz_Question1)>)
 		@options.show(<system.token(global_true)>,<system.token(global_false)>)
 			:when:<system.token(global_true)>
-				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Correct)>)
-				@Register.Register(quiz0)
-				@entity.remove(0)
-				@sound.play(SwitchDoor)
-			:when:<system.token(global_false)>
 				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Wrong)>)
 				@player.turnto(3)
 				@npc.turn(0,1)
 				@npc.move(0,1)
-				@Battle.StartTrainer(Gyms\57\000)
+				@Battle.StartTrainer(Gyms\Route57\000)
+				@Register.Register(quiz0)
+				@entity.remove(0)
+				@sound.play(SwitchDoor)
+			:when:<system.token(global_false)>
+				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Correct)>)
+				@Register.Register(quiz0)
+				@entity.remove(0)
+				@sound.play(SwitchDoor)
 			:endwhen
-	:when:8,0,7
+	:when:8,0,1
 		@Text.Show(<system.token(Route57_Gym_Quiz_Question2)>)
 		@options.show(<system.token(global_true)>,<system.token(global_false)>)
 			:when:<system.token(global_true)>
 				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Wrong)>)
 				@player.turnto(3)
-				@npc.turn(3,1)
-				@npc.move(3,1)
-				@Battle.StartTrainer(Gyms\57\003)
+				@npc.turn(2,1)
+				@npc.move(2,1)
+				@Battle.StartTrainer(Gyms\Route57\002)
+				@Register.Register(quiz1)
+				@entity.remove(1)
+				@sound.play(SwitchDoor)
 			:when:<system.token(global_false)>
 				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Correct)>)
 				@Register.Register(quiz1)
 				@entity.remove(1)
 				@sound.play(SwitchDoor)
 			:endwhen
-	:when:8,0,13
+	:when:8,0,7
 		@Text.Show(<system.token(Route57_Gym_Quiz_Question3)>)
 		@options.show(<system.token(global_true)>,<system.token(global_false)>)
 			:when:<system.token(global_true)>
 				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Wrong)>)
 				@player.turnto(3)
-				@npc.turn(4,1)
-				@npc.move(4,1)
-				@Battle.StartTrainer(Gyms\57\004)
+				@npc.turn(3,1)
+				@npc.move(3,1)
+				@Battle.StartTrainer(Gyms\Route57\003)
+				@Register.Register(quiz2)
+				@entity.remove(2)
+				@sound.play(SwitchDoor)
 			:when:<system.token(global_false)>
 				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Correct)>)
 				@Register.Register(quiz2)
 				@entity.remove(2)
 				@sound.play(SwitchDoor)
 			:endwhen
-	:when:0,0,13
+	:when:8,0,13
 		@Text.Show(<system.token(Route57_Gym_Quiz_Question4)>)
 		@options.show(<system.token(global_true)>,<system.token(global_false)>)
 			:when:<system.token(global_true)>
+				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Wrong)>)
+				@player.turnto(3)
+				@npc.turn(4,1)
+				@npc.move(4,1)
+				@Battle.StartTrainer(Gyms\Route57\004)
+				@Register.Register(quiz3)
+				@entity.remove(3)
+				@sound.play(SwitchDoor)
+			:when:<system.token(global_false)>
 				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Correct)>)
 				@Register.Register(quiz3)
 				@entity.remove(3)
+				@sound.play(SwitchDoor)
+			:endwhen
+	:when:0,0,13
+		@Text.Show(<system.token(Route57_Gym_Quiz_Question5)>)
+		@options.show(<system.token(global_true)>,<system.token(global_false)>)
+			:when:<system.token(global_true)>
+				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Correct)>)
+				@Register.Register(quiz4)
+				@entity.remove(4)
 				@sound.play(SwitchDoor)
 			:when:<system.token(global_false)>
 				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Wrong)>)
 				@player.turnto(3)
 				@npc.turn(5,1)
 				@npc.move(5,1)
-				@Battle.StartTrainer(Gyms\57\005)
+				@Battle.StartTrainer(Gyms\Route57\005)
+				@Register.Register(quiz4)
+				@entity.remove(4)
+				@sound.play(SwitchDoor)
 			:endwhen
 	:when:0,0,7
-		@Text.Show(<system.token(Route57_Gym_Quiz_Question5)>)
+		@Text.Show(<system.token(Route57_Gym_Quiz_Question6)>)
 		@options.show(<system.token(global_true)>,<system.token(global_false)>)
 			:when:<system.token(global_true)>
 				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Wrong)>)
 				@player.turnto(3)
 				@npc.turn(6,1)
 				@npc.move(6,1)
-				@Battle.StartTrainer(Gyms\57\006)
+				@Battle.StartTrainer(Gyms\Route57\006)
+				@Register.Register(quiz5)
+				@entity.remove(5)
+				@sound.play(SwitchDoor)
 			:when:<system.token(global_false)>
 				@Text.Show(<system.token(Route57_Gym_Quiz_Answer_Correct)>)
-				@Register.Register(quiz4)
-				@entity.remove(4)
+				@Register.Register(quiz5)
+				@entity.remove(5)
 				@sound.play(SwitchDoor)
 			:endwhen
 :endwhen
