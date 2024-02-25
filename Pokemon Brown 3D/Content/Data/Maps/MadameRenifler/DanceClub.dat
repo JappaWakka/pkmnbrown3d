@@ -120,7 +120,7 @@ Stairs:
 	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_MadameRenifler_Dark_Up]}}{"Offset"{sngArr[8,0,-1]}}]}}
 	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[6,0.28,13]}}{"TextureID"{str[AlexCorruptor]}}{"ID"{int[0]}}{"Name"{str[AlexCorruptor]}}{"Action"{int[1]}}{"AdditionalValue"{str[MadameRenifler\AlexCorruptor]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}{"AnimateIdle"{Bool[1]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[6,0.28,13]}}{"TextureID"{str[AlexCorruptor_Tepig]}}{"ID"{int[0]}}{"Name"{str[AlexCorruptor]}}{"Action"{int[1]}}{"AdditionalValue"{str[MadameRenifler\AlexCorruptor]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}{"AnimateIdle"{Bool[1]}}]}}
 	
 	{"NPC"{NPC[{"Position"{sngArr[3,0,5]}}{"TextureID"{str[YoungBoy_Red]}}{"ID"{int[1]}}{"Name"{str[Dancing Person]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(MadameRenifler_DanceClub_YoungBoy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}{"AnimateIdle"{Bool[1]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[8,0,6]}}{"TextureID"{str[Lass_Green]}}{"ID"{int[2]}}{"Name"{str[Dancing Person]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(MadameRenifler_DanceClub_Lass)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[7,6,2,1]]}}{"AnimateIdle"{Bool[1]}}]}}
