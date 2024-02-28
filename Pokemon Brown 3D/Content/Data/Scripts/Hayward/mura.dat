@@ -6,9 +6,10 @@ version=2
 		@NPC.Move(20,1)
 		@NPC.Turn(20,2)
 	:endif
+	@music.play(Encounter_Rival)
 	@NPC.move(20,4)
 	@Text.Show(<system.token(Hayward_Main_Mura_BeforeBattle)>)
-
+	@music.setmusicloop(HaywardOwsauri)
 	:if:<Register.Registered(starter1)>=true
 		@battle.trainer(mura\1charmander)
 	:endif
@@ -20,8 +21,10 @@ version=2
 	:if:<Register.Registered(starter3)>=true
 		@battle.trainer(mura\1bulbasaur)
 	:endif
-
+	
 	@Text.Show(<system.token(Hayward_Main_Mura_AfterBattle)>)
+	
+	@music.play(Encounter_Rival)
 	:if:<player.position>=20,0,7
 		@npc.turn(20,3)
 	:else
@@ -34,5 +37,6 @@ version=2
 	@npc.move(20,4)
 	@npc.remove(20)
 	@Register.Register(murahaywardbattle)
+	@music.play(HaywardOwsauri)
 :endif
 :end
