@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Power Plant]}}{"MusicLoop"{str[CaveMusic1]}}{"WildPokemon"{bool[1]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[powerplant\mapscript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[PowerPlant\MapScript]}}]}}
 
 Floors:
 	Regular
@@ -371,19 +371,25 @@ Fake PokeBalls:
 
 Items:
 	TM25 Thunder
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[38,-0.375,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[2,gm43]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[38,-0.375,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm43]}}{"Rotation"{int[0]}}]}}
 	
 	Thunder Stone
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[4,-0.375,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[4,23]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[4,-0.375,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[1,23]}}{"Rotation"{int[0]}}]}}
 	
 	Rare Candy
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[18,-0.375,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[1,32]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[18,-0.375,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[2,32]}}{"Rotation"{int[0]}}]}}
 			
-	Evolution Tool
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[9,-0.375,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm87]}}{"Rotation"{int[0]}}]}}
+	Electirizer
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[9,-0.375,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[3,gm87]}}{"Rotation"{int[0]}}]}}
 	
 	Max Ether
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[38,-0.375,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[3,64]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[38,-0.375,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[4,64]}}{"Rotation"{int[0]}}]}}
 		
+	Hidden Ice Stone
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[0,-0.375,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[5,593]}}{"Rotation"{int[0]}}]}}
+	
+	Hidden PP UP
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[20,0.125,35]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[6,62]}}{"Rotation"{int[0]}}]}}
+	
 Doors:
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,39]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[224,96,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\60\Main.dat,12,0.1,9,0]}}{"Rotation"{int[2]}}]}}

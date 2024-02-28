@@ -771,14 +771,17 @@ Ladder:
 	
 Items:
 	TM15 Hyper Beam
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[-72,0.625,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm33]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[-72,0.625,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm33]}}{"Rotation"{int[0]}}]}}
 	
 	Nugget
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[-77,-7.375,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[1,36]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[-77,-7.375,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[1,36]}}{"Rotation"{int[0]}}]}}
 	
-	Evolution Tool
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[-96,-3.375,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[2,136]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+	Dusk Stone
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[-96,-3.375,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[2,136]}}{"Rotation"{int[0]}}]}}
 		
+	Hidden Rare Bone
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[-54,-4.375,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[3,109]}}{"Rotation"{int[0]}}]}}
+
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[-93,-3,-2]}}{"TextureID"{str[Officer]}}{"ID"{int[0]}}{"Name"{str[Officer]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route58_InternationalTunnel_B1F_BorderPatrol)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[-93,-3,-1]}}{"TextureID"{str[Officer]}}{"ID"{int[0]}}{"Name"{str[Officer]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route58_InternationalTunnel_B1F_BorderPatrol)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

@@ -49,7 +49,7 @@ Cave Walls:
 			{"EntityField"{ENT[{"Size"{intArr[3,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20,1,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[4,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[41,1,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 			
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-1,2]}}{"TexturePath"{str[InternationalTunnel]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-1,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 			
 		West
 			{"EntityField"{ENT[{"Size"{intArr[1,2,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[46,1,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
@@ -57,7 +57,7 @@ Cave Walls:
 			{"EntityField"{ENT[{"Size"{intArr[1,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[23,1,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[45,1,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 			
-			{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,-1,0]}}{"TexturePath"{str[InternationalTunnel]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,-1,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 			
 		East
 			{"EntityField"{ENT[{"Size"{intArr[1,2,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-2,1,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
@@ -65,12 +65,12 @@ Cave Walls:
 			{"EntityField"{ENT[{"Size"{intArr[1,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[19,1,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[40,1,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 			
-			{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-1,-1,0]}}{"TexturePath"{str[InternationalTunnel]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-1,-1,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 			
 		South
 			{"EntityField"{ENT[{"Size"{intArr[47,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-1,1,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-1,-1]}}{"TexturePath"{str[InternationalTunnel]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-1,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			
 	Slope Sides
 		Straight Slopes (Direction = Where the lowest point is)
@@ -134,6 +134,10 @@ Ladders:
 B1F Warps:
 	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\InternationalTunnel\1F_Climb_B1F]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
+Items:
+	Hidden Max Elixir
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[1,-0.375,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[0,21]}}{"Rotation"{int[0]}}]}}
+
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[21,0,1]}}{"TextureID"{str[Miner]}}{"ID"{int[0]}}{"Name"{str[Miner]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route58_InternationalTunnel_1F_Miner)>]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}]}}
 
