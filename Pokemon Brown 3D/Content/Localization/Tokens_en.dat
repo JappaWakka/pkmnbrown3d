@@ -2320,7 +2320,7 @@ item_desc_gm82,Lapras-print Mail. Write a message on it and let a Pokémon hold 
 ----
 Item Use Text:
 item_cannot_use,Now is not the time~to use that.
-item_6_cannot_walk,You cannot walk here!
+item_6_cannot_walk,You can't dismount here!
 item_6_missingskin,You can't use this item~without a bicycle skin.*Its name should be the~same as your current one,~but with "_bike" at the end.
 item_6_only_custom_gamemodes,This item can't be used~on this GameMode.
 
@@ -3060,13 +3060,12 @@ TrainerClass_Youngster,Youngster
 Story Localization:
 
 [Game Intro]
-GameIntro_1,H-hello!? You must be new~here.*Welcome to this land called~Rijon.*My name is Timothy, but you~can call me Tim.*I am the region's Pokémon~Tutor.
-GameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.*I've done a fair extent of~research on these and it seems~that they have special~capabilities for fighting~as well as being tame~house-hold pets.
-GameIntro_3,Oh um, what's your name,~youngling?
-GameIntro_4,Oh, <player.name>!*I've never heard that name~before.
-GameIntro_5,<player.name>!~My lab is in Gravel Town, just~south of your town!*I have something to show you~there.*Has your mother finished~packing everything?*See you soon!
+NewGameIntro_1,H-hello?! You must be new~here.*Welcome to the region of Rijon!*I am Timothy, but there are~some who call me Tim.*I am this region's Pokémon~Tutor.
+NewGameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.
+NewGameIntro_3,I research these creatures as~my profession. They have~special capabilities for~fighting, but can be raised as~tame household pets.*Oh, where are my manners?~What should I call you?
+NewGameIntro_4,<Player.Name>?*A most unusual name. I've~never heard it before!*Well, it turns out that you~actually live close by!*My laboratory is in Gravel Town,~just south of where you live.*Stop by when you can. I have~something wonderful to show~you! See you soon!
 
-GameIntro_NewNameOption,-New-
+NewGameIntro_NewNameOption,-New-
 
 [Generic Tokens]
 Generic_TV_Movie,This movie is titled "Naljo's~Guardians".*It's based off Naljo mythology!

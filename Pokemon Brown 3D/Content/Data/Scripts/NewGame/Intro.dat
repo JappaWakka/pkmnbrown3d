@@ -5,38 +5,30 @@
 @npc.spawn(13,0,5,1,,Tim,0,1,Tim,0,Still)
 @npc.move(0,4)
 @npc.turn(0,2)
-@Text.Show(<system.token(GameIntro_1)>)
+@Text.Show(<system.token(NewGameIntro_1)>)
 
+@Screen.FadeOutColor(255,255,255)
 @screen.fadeout(20)
 @camera.update
 
 @npc.remove(0)
-@npc.spawn(9,0,5,1,,[POKEMON|N]17,1,2,Gligar,1,Still)
+@npc.spawn(9,0,5,1,,[POKEMON|N]18,1,2,Pidgeot,1,Still)
 @level.update
 
 @screen.fadein(20)
 @camera.update
 
-@Text.Show(<system.token(GameIntro_2)>)
-
-@screen.skinselection()
+@Text.Show(<system.token(NewGameIntro_2)>)
+@Pokemon.Cry(18)
+@Text.Show(<system.token(NewGameIntro_3)>)
 
 @screen.fadeout(20)
 @camera.update
 
-@npc.remove(1)
-@player.setskin(<screen.selectedskin>)
+@screen.skinselection()
 
-@npc.spawn(9,0,5,1,,<screen.selectedskin>,0,2,<screen.selectedskin>,2,Still)
-@level.update
-
-@screen.fadein(20)
-@camera.update
-
-@Text.Show(<system.token(GameIntro_3)>)
-
-@Options.Show(<system.token(GameIntro_NewNameOption)>,Brown,Beige,Adam)
-:when:<system.token(GameIntro_NewNameOption)>
+@Options.Show(<system.token(NewGameIntro_NewNameOption)>,Brown,Beige,Adam)
+:when:<system.token(NewGameIntro_NewNameOption)>
 	@screen.input(<screen.selectedname>,name,,10)
 	@player.setname(<system.lastinput>)
 :when:Brown
@@ -47,9 +39,16 @@
 	@player.setname(Adam)
 :endwhen
 
-@Text.Show(<system.token(GameIntro_4)>)
+@npc.remove(1)
+@player.setskin(<screen.selectedskin>)
 
-@Text.Show(<system.token(GameIntro_5)>)
+@npc.spawn(9,0,5,1,,<screen.selectedskin>,0,2,<screen.selectedskin>,2,Still)
+@level.update
+
+@screen.fadein(20)
+@camera.update
+
+@Text.Show(<system.token(NewGameIntro_4)>)
 
 @storage.set(integer,screenFade,0)
 
@@ -68,7 +67,7 @@
 @player.setrivalname(Mura)
 @Item.Give(78)
 @Player.ReceivePokegear
-
+@Screen.FadeOutColor
 @system.endnewgame(Seashore\PlayerHouse2F.dat,6,0.1,5,3)
 
 :end
