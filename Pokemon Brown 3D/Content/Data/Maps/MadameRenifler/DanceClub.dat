@@ -116,11 +116,16 @@ HyperCube:
 	{"Structure"{STR[{"Map"{str[Structures\TesseractLight]}}{"Offset"{sngArr[6,2,7]}}]}}
 	
 Stairs:
-	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_MadameRenifler_Dark_Down]}}{"Offset"{sngArr[3,-1,-1]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_MadameRenifler_Dark_Up]}}{"Offset"{sngArr[8,0,-1]}}]}}
-	
+	To the Hall
+		{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_MadameRenifler_Dark_Down]}}{"Offset"{sngArr[3,-1,-1]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[MadameRenifler\DanceClub_Stairs_Down]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		
+	To the Bridge
+		{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_MadameRenifler_Dark_Up]}}{"Offset"{sngArr[8,0,-1]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,1,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[MadameRenifler\DanceClub_Stairs_Up]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[6,0.28,13]}}{"TextureID"{str[AlexCorruptor_Tepig]}}{"ID"{int[0]}}{"Name"{str[AlexCorruptor]}}{"Action"{int[1]}}{"AdditionalValue"{str[MadameRenifler\AlexCorruptor]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}{"AnimateIdle"{Bool[1]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[6,0.2325,13]}}{"TextureID"{str[AlexCorruptor_Tepig]}}{"ID"{int[0]}}{"Name"{str[AlexCorruptor]}}{"Action"{int[1]}}{"AdditionalValue"{str[MadameRenifler\AlexCorruptor]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}{"AnimateIdle"{Bool[1]}}]}}
 	
 	{"NPC"{NPC[{"Position"{sngArr[3,0,5]}}{"TextureID"{str[YoungBoy_Red]}}{"ID"{int[1]}}{"Name"{str[Dancing Person]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(MadameRenifler_DanceClub_YoungBoy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}{"AnimateIdle"{Bool[1]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[8,0,6]}}{"TextureID"{str[Lass_Green]}}{"ID"{int[2]}}{"Name"{str[Dancing Person]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(MadameRenifler_DanceClub_Lass)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[7,6,2,1]]}}{"AnimateIdle"{Bool[1]}}]}}
