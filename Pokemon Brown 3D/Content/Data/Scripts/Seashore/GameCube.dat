@@ -2,6 +2,6 @@ version=2
 :if:<Register.Registered(legendary)>=false
 	@script.start(legendary)
 :else
-	@Text.Show(<system.token(Seashore_PlayerHouse2F_SNES)>)
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube)>)
 :endif
 :end

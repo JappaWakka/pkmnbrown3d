@@ -120,11 +120,11 @@ Video Game Tables:
 		{"Structure"{STR[{"Map"{str[Structures\Furniture\TV_DeptStore]}}{"Offset"{sngArr[2,0.5,4]}}]}}
 		{"Structure"{STR[{"Map"{str[Structures\Furniture\TV_DeptStore]}}{"Offset"{sngArr[5,0.5,4]}}]}}
 	
-	SNES's
+	Consoles
 		{"Structure"{STR[{"Map"{str[Structures\Furniture\SNES]}}{"Offset"{sngArr[1,0.5,2]}}]}}
-		{"Structure"{STR[{"Map"{str[Structures\Furniture\SNES]}}{"Offset"{sngArr[4,0.5,2]}}]}}
-		{"Structure"{STR[{"Map"{str[Structures\Furniture\SNES]}}{"Offset"{sngArr[1,0.5,4]}}]}}
-		{"Structure"{STR[{"Map"{str[Structures\Furniture\SNES]}}{"Offset"{sngArr[4,0.5,4]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Furniture\Nintendo64]}}{"Offset"{sngArr[4,0.5,2]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Furniture\GameCube]}}{"Offset"{sngArr[1,0.5,3.875]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Furniture\GameCube]}}{"Offset"{sngArr[4,0.5,3.875]}}]}}
 		
 		
 Scriptblocks:
@@ -137,8 +137,14 @@ Scriptblocks:
 	TM 18 Clerk
 		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Visible"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\TM18Clerk]}}{"Rotation"{int[0]}}]}}
 	
-	SNES's
-		{"EntityField"{ENT[{"Size"{intArr[4,3]}}{"Steps"{sngArr[3,1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\SNES]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	SNES
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\SNES]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
+	Nintendo 64
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\Nintendo64]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
+	GameCube
+		{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"Steps"{sngArr[3,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\GameCube]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	TVs
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\SouthlandMall\TV1]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}

@@ -1,6 +1,6 @@
 version=2
 :if:<Register.Registered(legendary)>=false <and> <Register.Registered(checkgame)>=false
-	@Text.Show(<system.token(Seashore_PlayerHouse2F_BeSureToPlaySNES)>)
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_BeSureToPlayGameCube)>)
 	@Register.Register(checkgame)
 :endif
 
