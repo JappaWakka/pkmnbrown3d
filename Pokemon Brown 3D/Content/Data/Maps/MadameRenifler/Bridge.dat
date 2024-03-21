@@ -118,5 +118,5 @@ Stairs:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[MadameRenifler\Bridge_Stairs_Down]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[4,0.155,8]}}{"TextureID"{str[JappaWakka]}}{"ID"{int[0]}}{"Name"{str[AlexCorruptor]}}{"Action"{int[1]}}{"AdditionalValue"{str[MadameRenifler\AlexCorruptor]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[4,0.155,8]}}{"TextureID"{str[JappaWakka]}}{"ID"{int[0]}}{"Name"{str[JappaWakka]}}{"Action"{int[1]}}{"AdditionalValue"{str[MadameRenifler\Bridge_JappaWakka]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	
