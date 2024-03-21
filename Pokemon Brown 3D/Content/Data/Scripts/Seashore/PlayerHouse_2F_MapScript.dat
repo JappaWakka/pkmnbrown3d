@@ -1,0 +1,22 @@
+version=2
+
+:if:<Register.Registered(Seashore_Wall_Spot1)>=false
+	@Register.Register(Seashore_Wall_Spot1,int,-1)
+	@Register.Register(Seashore_Wall_Spot2,int,-1)
+	@Register.Register(Seashore_Wall_Spot3,int,-1)
+	@Register.Register(Seashore_Wall_Spot4,int,-1)
+:endif
+
+:if:<not><register.value(Seashore_Wall_Spot1)>=-1
+	@Entity.SetVisible(<register.value(Seashore_Wall_Spot1)>,1)
+:endif
+:if:<not><register.value(Seashore_Wall_Spot2)>=-1
+	@Entity.SetVisible(<register.value(Seashore_Wall_Spot2)>,1)
+:endif
+:if:<not><register.value(Seashore_Wall_Spot3)>=-1
+	@Entity.SetVisible(<register.value(Seashore_Wall_Spot3)>,1)
+:endif
+:if:<not><register.value(Seashore_Wall_Spot4)>=-1
+	@Entity.SetVisible(<register.value(Seashore_Wall_Spot4)>,1)
+:endif
+:end

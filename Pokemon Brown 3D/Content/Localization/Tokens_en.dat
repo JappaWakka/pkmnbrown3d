@@ -3100,9 +3100,24 @@ Generic_PC_Host_StorageSystem,Bill's PC
 Generic_PC_Host_Mailbox,Inbox
 Generic_PC_Host_DexEvaluation,Prof. Tim's PC
 Generic_PC_Host_HallOfFame,Pokémon League
+Generic_PC_Host_Decoration,Decoration
 Generic_PC_LogOff,Log Off
 Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating~System.*Do you want to get your~Pokédex rated?
 Generic_PC_DexEvaluation_End,Closed link to Prof. Tim's PC.
+Generic_PC_Decoration_Start,What do you want to customize?
+
+[PC Decorations]
+PC_Decorations_Wall_PlaceQuestion,Where do you want to put it?
+PC_Decorations_Wall_RemoveQuestion,Which item should be removed?
+PC_Decorations_Wall_RemoveNothingThere,There's nothing in that spot.
+PC_Decorations_Wall_Remove,Remove
+PC_Decorations_Wall_SniffCat,Sniff Cat 
+PC_Decorations_Bed_White,White Bed 
+PC_Decorations_WallSpot1,Spot 1
+PC_Decorations_WallSpot2,Spot 2
+PC_Decorations_WallSpot3,Spot 3
+PC_Decorations_WallSpot4,Spot 4
+PC_Decorations_Wall_Removed,Removed the item.
 
 [Pokédex Evaluation]
 DexEvaluation_BeforeRating,Pokédex completion is:*<pokedex.dexseen(0)> Pokémon seen~<pokedex.dexcaught(0)> Pokémon owned*Prof. Tim's Rating:

@@ -16,6 +16,10 @@ version=2
 	@storage.set(str,computer_options,<storage.get(str,computer_options)>,<system.token(Generic_PC_Host_HallOfFame)>)
 	@storage.set(int,canind,<storage.get(int,canind)>+1)
 :endif
+:if:<level.filename>=PlayerHouse_2F
+	@storage.set(str,computer_options,<storage.get(str,computer_options)>,<system.token(Generic_PC_Host_Decoration)>)
+	@storage.set(int,canind,<storage.get(int,canind)>+1)
+:endif
 
 @storage.set(str,computer_options,<storage.get(str,computer_options)>,<system.token(Generic_PC_LogOff)>)
 @options.setcancelindex(<storage.get(int,canind)>)
@@ -38,6 +42,10 @@ version=2
 		@sound.play(PC\LogOn)
 		@screen.halloffame
 		@script.start(computer_choose)
+	:when:<system.token(Generic_PC_Host_Decoration)>
+		@sound.play(PC\LogOn)
+		@script.start(Computer_Decoration)
+		@Text.Show(<system.token(Generic_PC_ChooseHost)>)
 	:when:<system.token(Generic_PC_LogOff)>
 		@sound.play(PC\TurnOff)
 		:endscript
