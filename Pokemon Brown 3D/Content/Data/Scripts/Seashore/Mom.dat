@@ -6,7 +6,7 @@ version=2
 	:if:<Register.Registered(rijonleague)>=false
 		@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_TakeARest)>)
 	:else
-		:if:<Register.Registered(Phancero)>=false
+		:if:<Register.Registered(bossbeaten)>=false
 			:if:<Register.Registered(bugsy_rematch)>=false
 				@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_AfterChampion)>)
 			:else
