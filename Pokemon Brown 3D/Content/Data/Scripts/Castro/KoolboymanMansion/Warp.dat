@@ -58,14 +58,14 @@ version=2
 			@player.turnto(3)
 			:if:<camera.thirdperson>=true
 				@camera.setfocus(npc,0)
-				@sound.play(Emote_Exclamation)	
-				@entity.showmessagebulb(1|17.99|0.7|14)
+				@sound.play(Emote_Exclamation)
+				@Entity.ShowMessageBulb(1|17.99|0.7|14)
 				@npc.move(0,1)
 				@script.start(trainer\CastroMansion\001)
 				@camera.resetfocus
 			:else
-				@sound.play(Emote_Exclamation)	
-				@entity.showmessagebulb(1|17.99|0.7|14)
+				@sound.play(Emote_Exclamation)
+				@Entity.ShowMessageBulb(1|17.99|0.7|14)
 				@npc.move(0,1)
 				@script.start(trainer\CastroMansion\001)
 			:endif
@@ -108,14 +108,14 @@ version=2
 			@player.turnto(3)
 			:if:<camera.thirdperson>=true
 				@camera.setfocus(npc,0)
-				@sound.play(Emote_Exclamation)	
-				@entity.showmessagebulb(1|17.99|0.7|14)
+				@sound.play(Emote_Exclamation)
+				@Entity.ShowMessageBulb(1|17.99|0.7|14)
 				@npc.move(0,1)
 				@script.start(trainer\CastroMansion\001)
 				@camera.resetfocus
 			:else
-				@sound.play(Emote_Exclamation)	
-				@entity.showmessagebulb(1|17.99|0.7|14)
+				@sound.play(Emote_Exclamation)
+				@Entity.ShowMessageBulb(1|17.99|0.7|14)
 				@npc.move(0,1)
 				@script.start(trainer\CastroMansion\001)
 			:endif

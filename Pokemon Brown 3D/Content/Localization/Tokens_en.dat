@@ -3157,7 +3157,6 @@ Seashore_PlayerHouse2F_GameCube_Game_Step4_Wizard_Answer_Stealth,Stealth
 Seashore_PlayerHouse2F_GameCube_Game_Step4_Wizard_Answer_Force,Force
 Seashore_PlayerHouse2F_GameCube_Game_Finished_Answer,That's a solid character.*It did take a while. I should~probably get going.
 Seashore_PlayerHouse2F_GameCube_Game_Finished_Random,I don't have time to play~this game. I should probably~get going.
-
 Seashore_PlayerHouse2F_BeSureToPlayGameCube,<player.name>: Oh wait!~I almost forgot!*Mom bought me a new Nintendo~GameCube!*Might be a good idea to check~it out before I go.
 
 Seashore_RivalHouse_Father_SonLeaving,My son Mura left home as well.*Make sure he stays safe.
@@ -4603,7 +4602,8 @@ Eagulou_Gym_TamerUlric_OutroMessage,Yowch! Whiplash!
 Eagulou_Gym_TamerUlric_DefeatMessage,Wait! I was just careless!
 Eagulou_Gym_PaletteBlack_IntroMessage,...*What? You thought I was one~of the goons here?*Pathetic!*Ever since losing to a punk kid~up in Kanto 9 years ago, the~old boss has gone and lost the~respect of the organization!*You know what that makes this?*A prime target for~recruitment!*There's a region west of here~that's corrupt and~superstitious enough to~exploit for our own ends.*Soon as everyone here gets~word of our plans, they'll~join us and we'll rake in the~cash!*And you, kid?*Want to join us to become a~Palette Patroller?
 Eagulou_Gym_PaletteBlack_OutroMessage,I'll take that as a no...
-Eagulou_Gym_PaletteBlack_DefeatMessage,Tch!*It doesn't matter what you do.*If you humiliate the boss here~by defeating him, you'll just~be helping us.*Palette Red and I will soon~take on these clowns.*And then when he least~suspects, BOOM!*I'll be in charge.
+Eagulou_Gym_PaletteBlack_DefeatMessage,Palette Red and I will soon~take on these clowns.*And then when he least~suspects, BOOM!*I'll be in charge.
+Eagulou_Gym_PaletteBlack_AfterBattle,Tch!*It doesn't matter what you do.*If you humiliate the boss here~by defeating him, you'll just~be helping us.*Palette Red and I will soon~take on these clowns.*And then when he least~suspects, BOOM!*I'll be in charge.
 Eagulou_Gym_LeaderGiovanni_BeforeBattle,<player.name>: Giovanni?!*What are you doing here?!*Giovanni: I'm the Gym Leader,~kid.*At least for a little while.*I've heard the authorities~have plans for this place.*Thought I could make a quick~buck before I'd disappear~forever.*Anyhow, you want that Star~Badge or not?*<player.name>: You bet!*Giovanni: Then you gotta take~it from me!
 Eagulou_Gym_LeaderGiovanni_AfterBattle1,Giovanni: Take good care of~that badge, it's worth quite~a lot!*<Player.Name>: I'm not gonna sell~my Badges!*Giovanni: You'll never know~when desperation strikes!*Now, take this final gift as~well.
 Eagulou_Gym_LeaderGiovanni_AfterBattle2,TM 27 is Fissure!*It will take out Pokémon with~just one hit!*...Oh by the way, I rejected~that guy in black over there~from joining the Rockets.*He seemed... quite a bit too~greedy for power.*I hope he won't become a~problem in the future.*Farewell, kid.
@@ -4720,7 +4720,7 @@ Route67_PokeCenter_KangaskhanGuy_Question,Yo!*I have Kangaskhan, a Pokémon~that
 Route67_PokeCenter_KangaskhanGuy_Decline,No swaggy swag for you then.
 Route67_PokeCenter_KangaskhanGuy_NotEnoughMoney,Hey!*No dough, no...*uh...*Pokémon.
 Route67_PokeCenter_KangaskhanGuy_ReceivedKangaskhan,<Player.Name> received a~Kangaskhan!
-Route67_PokeCenter_KangaskhanGuy_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+Route67_PokeCenter_KangaskhanGuy_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<math.int(<pokemon.count>-1)>)> was transfered~to the PC.
 Route67_PokeCenter_KangaskhanGuy_AfterSelling,Everyday I'm hustlin...*Oh no, did you hear me?!
 Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone
 Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,at Route 67
@@ -5111,9 +5111,10 @@ FinalDungeon_FinalShop_Manager_Quit,Thank you!
 FinalDungeon_FinalShop_BikeMan_Question,I was forced to work here,~so I can take the risk and~sell you some of Palette~Red's stuff.*Want any?
 FinalDungeon_FinalShop_BikeMan_Store,Take your time.
 FinalDungeon_FinalShop_BikeMan_Quit,Thank you!
-FinalDungeon_FinalShop_GymGuy_Question,All these resources are being~transported to Naljo...~I wonder what for.~I can slip you some, for a~price, of course.*Wanna take a look?
+FinalDungeon_FinalShop_GymGuy_Question,All these resources are being~transported to Naljo...~I wonder what for?~I can slip you some... for a~price, of course.*Wanna take a look?
 FinalDungeon_FinalShop_GymGuy_Store,Take your time.
 FinalDungeon_FinalShop_GymGuy_Quit,Thank you!
+FinalDungeon_FinalShop_Book,We have managed to mass-produce TMs and other items. We are one step closer to producing reusable TMs!
 
 MadameRenifler_Hall_ClosedDoors,<Player.Name>: We're currently~out on the ocean, it wouldn't~be safe to leave now.
 
