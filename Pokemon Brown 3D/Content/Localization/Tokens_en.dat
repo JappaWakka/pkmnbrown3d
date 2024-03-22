@@ -4040,21 +4040,21 @@ Jaeru_PokeCenter_BenchGuy,Sparky was mean to me!~He called me a stupid little~ki
 Jaeru_Gym_Statues_BeforeDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura
 Jaeru_Gym_Statues_AfterDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<player.name>
 Jaeru_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Sparky uses Electric Pokémon,~so you need to make sure and~pick the right kinds against~him.*Grass and Ground Pokémon are~good choices to win!
-Jaeru_Gym_GymGuy_AfterBadge,Whew! That match was electric!
-Jaeru_Gym_RockerBryan_IntroMessage,ARE YOU READY TO ROCK?!
-Jaeru_Gym_RockerBryan_OutroMessage,Fried!
-Jaeru_Gym_RockerBryan_DefeatMessage,I doubt you will beat Sparky!
+Jaeru_Gym_GymGuy_AfterBadge,Gym Guy: Whew! That match was~electric!
 Jaeru_Gym_SailorWilfried_IntroMessage,Leave now!
 Jaeru_Gym_SailorWilfried_OutroMessage,Wow! Surprised me!
 Jaeru_Gym_SailorWilfried_DefeatMessage,I'll never look down upon~a kid again.
+Jaeru_Gym_RockerBryan_IntroMessage,ARE YOU READY TO ROCK?!
+Jaeru_Gym_RockerBryan_OutroMessage,Fried!
+Jaeru_Gym_RockerBryan_DefeatMessage,I doubt you will beat Sparky!
 Jaeru_Gym_GentlemanWilliam_IntroMessage,Having trouble getting to~Sparky?
 Jaeru_Gym_GentlemanWilliam_OutroMessage,Stop! You're very good!
-Jaeru_Gym_GentlemanWilliam_DefeatMessage,Electricity is my specialty!
-Jaeru_Gym_LeaderSparky_BeforeBattle,<player.name>: Are you~the Gym Leader?*Sparky: Yes I am!~What do you want to do,~battle me or something?*<player.name>: Uh... yeah!*Sparky: Why do you even~bother?*My Electric Pokémon are way~too powerful for anyone.*Especially you!*<player.name>: Well I'll see~about that.*Let's fight!
-Jaeru_Gym_LeaderSparky_OutroMessage,Sparky: You weren't kidding!*Alright, here. Take the~Sparky Badge!
-Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: The Sparky Badge,~named after yours truly,~lets you use Fly anytime!*Take this too!
+Jaeru_Gym_GentlemanWilliam_DefeatMessage,Electricity is my domain!
+Jaeru_Gym_LeaderSparky_BeforeBattle,Sparky: Attention, Perkins! Go~and oil the generator!*<player.name>: Uhhh, excuse me?*Sparky: Ah, you're not~Perkins! By the looks of it,~you must be here to earn my~Badge! As the best mechanic~in Rijon, I, the great Sparky,~Leader of Jaeru City Gym, make~sure my employees are in~tip-top shape so that no task~gets left undone! Prepare to~get shocked by my efficiency~in Pokémon battling!
+Jaeru_Gym_LeaderSparky_OutroMessage,Sparky: Shocking! Alright,~here. Take the Sparky Badge!
+Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: The Sparky Badge,~named after yours truly,~increases your Pokémon's~speed, and lets you use Fly~anytime!*Take this too!
 Jaeru_Gym_LeaderSparky_AfterBattle2,TM24 contains Thunderbolt!*Teach it to an Electric~Pokémon!
-Jaeru_Gym_LeaderSparky_TalkAgain,Sparky: Go on kid and enjoy~the rest of your quest!
+Jaeru_Gym_LeaderSparky_TalkAgain,Sparky: The next gym is in~Castro Valley.*My good friend Koji will give~you a run for your money.
 Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Question,Sparky: Well, if it isn't the~big-shot. I was just itching~for battle, and you caught me~on my break. Ready for this?
 Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_No,Sparky: Bah, celebrities.~Always expecting people to~make time for them. Maybe I'll~just make myself busy next~time you show up, see how you~like it.
 Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_Yes,Sparky: All right! I'm so~amped up I can already see the~sparks flying!
@@ -4134,7 +4134,7 @@ Route59_SilphCoWarehouse_4F_RocketGruntHector_IntroMessage,Get out of here right
 Route59_SilphCoWarehouse_4F_RocketGruntHector_OutroMessage,Don't... Please!
 Route59_SilphCoWarehouse_4F_RocketGruntHector_DefeatMessage,You will never beat 'da Boss!
 Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle,Giovanni: What?!*Another child trying to stop~me from fulfilling Team~Rocket's goals?*If you don't stay out of~my business kid, you'll be in~a world of pain!*<player.name>: Bring it on,~old man.
-Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage,Arrgh!! I lost again!?
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage,Giovanni: Arrgh!! I lost~again!?
 Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: How can I run a~criminal organization if my~plans keep getting thwarted~by children?!*I guess I should just give up.*There's no way we can succeed~with kids like you!*Goodbye forever!
 Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<player.name>: Is everyone okay?*Manager: Yes, thanks to you.*You're a brave kid.*<player.name>: It was~nothing really.*Manager: I need to repay you~somehow. Oh here, have this~valuable gift!*<player.name>: Thank you~so much!
 Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Make sure to visit our~main building, located in~Saffron City, Kanto when you~have the time.
@@ -4620,9 +4620,9 @@ Eagulou_Gym_PaletteBlack_OutroMessage,I'll take that as a no...
 Eagulou_Gym_PaletteBlack_DefeatMessage,Palette Red and I will soon~take on these clowns.*And then when he least~suspects, BOOM!*I'll be in charge.
 Eagulou_Gym_PaletteBlack_AfterBattle,Tch!*It doesn't matter what you do.*If you humiliate the boss here~by defeating him, you'll just~be helping us.*Palette Red and I will soon~take on these clowns.*And then when he least~suspects, BOOM!*I'll be in charge.
 Eagulou_Gym_LeaderGiovanni_BeforeBattle,<player.name>: Giovanni?!*What are you doing here?!*Giovanni: I'm the Gym Leader,~kid.*At least for a little while.*I've heard the authorities~have plans for this place.*Thought I could make a quick~buck before I'd disappear~forever.*Anyhow, you want that Star~Badge or not?*<player.name>: You bet!*Giovanni: Then you gotta take~it from me!
+Eagulou_Gym_LeaderGiovanni_OutroMessage,Giovanni: Defeated once~again... *Well, take that Star Badge~then!
 Eagulou_Gym_LeaderGiovanni_AfterBattle1,Giovanni: Take good care of~that badge, it's worth quite~a lot!*<Player.Name>: I'm not gonna sell~my Badges!*Giovanni: You'll never know~when desperation strikes!*Now, take this final gift as~well.
 Eagulou_Gym_LeaderGiovanni_AfterBattle2,TM 27 is Fissure!*It will take out Pokémon with~just one hit!*...Oh by the way, I rejected~that guy in black over there~from joining the Rockets.*He seemed... quite a bit too~greedy for power.*I hope he won't become a~problem in the future.*Farewell, kid.
-Eagulou_Gym_LeaderGiovanni_DefeatMessage,Giovanni: Defeated once~again... *Well, take that Star Badge~then!
 
 Eagulou_Park_Gate_InfoClerk_Question,Hi!~Is it your first time here?
 Eagulou_Park_Gate_InfoClerk_Answer_Yes,Well, this is similar to the~Safari Zone in Kanto,~but different Pokemon lie~within it.*Don't run out of balls or steps!~Best luck to you!
@@ -5159,3 +5159,5 @@ MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,at Madame Renifler
 MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
 MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero. I'd let~Professor Tim take a look at~that device if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
+MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex,JappaWakka: I'd let Professor~Tim take a look at that~Pokédex if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
+MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
