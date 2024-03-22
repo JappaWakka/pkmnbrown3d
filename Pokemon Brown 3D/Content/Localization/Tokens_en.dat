@@ -3428,7 +3428,7 @@ Route55_RainbowTower_Floor4_Note,DON'T GO IN HERE!!!
 Route55_RainbowTower_Floor4_Room_Blackboard,I shall not waste Master Balls~I shall not waste Master Balls*I shall not waste Master Balls~I shall not waste Master Balls*...I think someone wasted~a Master Ball.
 Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~have been produced by Silph Co.*HMs can also be used outside~of battle, but Pokémon~have trouble forgetting them.
 Route55_RainbowTower_Floor4_Room_Porygon_Receive,<player.name> got Porygon!
-Route55_RainbowTower_Floor4_Room_Porygon_ToPC,It was transfered to the PC.
+Route55_RainbowTower_Floor4_Room_Porygon_ToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
 Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift from Karl
 Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the KGM Games Building
 Route55_RainbowTower_Floor4_Room_Karl,Karl: I don't need this Pokémon,~so you can have it for free...*No sir, I am not crazy, just~an idiot...
@@ -3530,7 +3530,7 @@ Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~
 Hayward_FossilLab_GotOmanyte,<player.name> got Omanyte!
 Hayward_FossilLab_GotKabuto,<player.name> got Kabuto!
 Hayward_FossilLab_GotCranidos,<player.name> got Cranidos!
-Hayward_FossilLab_FossilPokemon_ToPC,It was transfered to the PC.
+Hayward_FossilLab_FossilPokemon_ToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
 Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist
 Hayward_FossilLab_FossilPokemon_CatchLocation,in the Hayward Fossil Lab
 
@@ -5132,8 +5132,30 @@ FinalDungeon_FinalShop_GymGuy_Quit,Thank you!
 FinalDungeon_FinalShop_Book,We have managed to mass-produce TMs and other items. We are one step closer to producing reusable TMs!
 
 MadameRenifler_Hall_ClosedDoors,<Player.Name>: We're currently~out on the ocean, it wouldn't~be safe to leave now.
+MadameRenifler_Hall_Music_Path,Currently Playing:~Path*by JappaWakka
 
 MadameRenifler_DanceClub_YoungBoy,I love the music here!*"Play It" by JappaWakka is~my favorite!
 MadameRenifler_DanceClub_Lass,Do you think my dance moves~look good?
 MadameRenifler_DanceClub_SuperNerd,I can't stop dancing, my feet~move on their own!
 MadameRenifler_DanceClub_Youngster,AlexCorruptor makes some~badass Game Boy remixes!
+MadameRenifler_DanceClub_Music_Nike1,Currently Playing: nike#01*by DSX~- Game Boy cover by AlexCorruptor
+MadameRenifler_DanceClub_Music_PlayIt,Currently Playing:~Play It*by JappaWakka
+MadameRenifler_DanceClub_Music_Pr0ndiskOutro,Currently Playing: Pr0ndisk Outro*by Zalza~- Game Boy cover by AlexCorruptor
+MadameRenifler_DanceClub_Music_Worship,Currently Playing: Worship*by Amadeus Voxon~- Game Boy cover by AlexCorruptor
+
+MadameRenifler_Bridge_Music_Breeze,Currently Playing:~Breeze*by JappaWakka
+MadameRenifler_Bridge_JappaWakka_FirstTalk1,JappaWakka: Hiya! You must be~<player.name>!*You can call me JappaWakka!*I've heard a lot about you.*Rijon Champion, huh? That's~pretty special.*Welcome to my ship: Madame~Renifler! Built it myself,~pretty proud of it.*Don't worry, it's perfectly~safe. My good buddy Alex~helped me out a lot.*He's got a nose for finding~things that need improvement~and fixing.*Have you met him yet? He's the~Tepig operating the DJ set in~the dance room below.*I'm kinda worried about Alex~though. There seems to be~something troubling him, but~he seems to not want to talk~about it. If you're able to,~please let him know he can~always tell me anything and~that I'm there for him if he~needs me.
+MadameRenifler_Bridge_JappaWakka_FirstTalk2,JappaWakka: Hi, <player.name>!~Have you met Alex yet? He's~the Tepig operating the DJ set~in the dance room below.*There seems to be something~troubling him, but he seems to~not want to talk about it.~If you're able to, please let~him know he can always tell me~anything and that I'm there~for him if he needs me.
+MadameRenifler_Bridge_JappaWakka_AfterAlexStory1,JappaWakka: Have you met Alex?~What did he say?*...*I see.*Well that explains a lot. I'm~glad I know what's going on.*I don't have a lot of~knowledge about different~universes, but I mean... with~Pokémon, anything is possible!*Who knows, maybe he'll be able~to return to that Pokémon~world one day! We'll see, but~until that happens I'll just~try to be the best friend I~can be in this one. Thanks for~telling me, <player.name>.*Here, I got you something to~remember us by.
+MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat,<player.name> received a framed photo of a~sniffing cat!
+MadameRenifler_Bridge_JappaWakka_AfterAlexStory2,You can hang it on the wall of~your room if you like.~Your computer should be able~to help you with that.
+MadameRenifler_Bridge_JappaWakka_AfterAlexStory3,Ah, we've arrived back at~Castro Valley's harbor again.*Oh! Before you go, would you~like to have a Pokémon battle~with me? I've got something~extra special for you if you~can defeat me!
+MadameRenifler_Bridge_JappaWakka_Battle_No,That's okay, feel free to come~back if you want to challenge~me later!
+MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo,JappaWakka: Ah, <player.name>!~You're back!*Ready to challenge me?
+MadameRenifler_Bridge_JappaWakka_Battle_Yes1,Alrighty then! Let's see what~you got, champion!
+MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~some skilled battling! You've~certainly proven yourself~worthy of this reward!
+MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
+MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift
+MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,at Madame Renifler
+MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero. I'd let~Professor Tim take a look at~that device if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!

@@ -1,24 +1,24 @@
 version=2
 :if:<Register.Registered(AlexCorruptor_StoryComplete)>=false
 	:if:<Register.Registered(JappaWakka_FirstTalk)>=false
-		@Text.Show(JappaWakka: Hiya! You must be~<player.name>!*You can call me JappaWakka!*I've heard a lot about you.*Rijon Champion, huh? That's~pretty special.*Welcome to my ship: Madame~Renifler! Built it myself,~pretty proud of it.*Don't worry, it's perfectly~safe. My good buddy Alex~helped me out a lot.*He's got a nose for finding~things that need improvement~and fixing.*Have you met him yet? He's the~Tepig operating the DJ set in~the dance room below.*I'm kinda worried about Alex~though. There seems to be~something troubling him, but~he seems to not want to talk~about it. If you're able to,~please let him know he can~always tell me anything and~that I'm there for him if he~needs me.)
+		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_FirstTalk1)>)
 		@Register.Register(JappaWakka_FirstTalk)
 	:else
-		@Text.Show(JappaWakka: Hi, <player.name>!~Have you met Alex yet? He's~the Tepig operating the DJ set~in the dance room below.*There seems to be something~troubling him, but he seems to~not want to talk about it.~If you're able to, please let~him know he can always tell me~anything and that I'm there~for him if he needs me.)
+		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_FirstTalk2)>)
 	:endif
 :else
 	:if:<Register.Registered(Decorations_Wall_SniffCat)>=false
-		@Text.Show(JappaWakka: Have you met Alex?~What did he say?*...*I see.*Well that explains a lot. I'm~glad I know what's going on.*I don't have a lot of~knowledge about different~universes, but I mean... with~Pokémon, anything is possible!*Who knows, maybe he'll be able~to return to that Pokémon~world one day! We'll see, but~until that happens I'll just~try to be the best friend I~can be in this one. Thanks for~telling me, <player.name>.*Here, I got you something to~remember us by.)
+		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory1)>)
 		@Sound.Play(Receive_Item)
-		@Text.Show(<player.name> received a framed photo of a~sniffing cat!)
-		@Text.Show(You can hang it on the wall of~your room if you like.~Your computer should be able~to help you with that.)
+		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat)>)
+		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory2)>)
 		@Register.Register(Decorations_Wall_SniffCat)
 		@Sound.Play(Emote_Exclamation)
 		@Entity.ShowMessageBulb(1|4|0.855|8)
 		@NPC.Turn(0,2)
 		@Level.Wait(30)
 		@NPC.Turn(0,<player.facing>-2)
-		@Text.Show(Ah, we've arrived back at~Castro Valley's harbor again.*Oh! Before you go, would you~like to have a Pokémon battle~with me? I've got something~extra special for you if you~can defeat me!)
+		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory3)>)
 		@options.setcancelindex(1)
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 			:when:<system.token(global_yes)>
@@ -30,7 +30,7 @@ version=2
 					:endif
 				:endif
 				
-				@Text.Show(Alrighty then! Let's see what~you got, champion!)
+				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes1)>)
 				
 				:if:<Register.Value(PhanceroShiny)>=true
 					@Battle.StartTrainer(MadameRenifler\JappaWakka_Shiny)
@@ -40,30 +40,28 @@ version=2
 					@Pokedex.ChangeEntry(1011,2)
 				:endif
 				
-				@Text.Show(JappaWakka: Wowzers! That was~some skilled battling! You've~certainly proven yourself~worthy of this reward!)
-				
 				@Register.Register(Dex_Glitched)
 				@Sound.Play(Success,1)
-				@Text.Show(<Player.Name> received a~Ph4D95210XaP!)
-				@pokemon.add(<pokemon.count>,{"Pokemon"[1010]}{"OriginalNumber"[-1]}{"Experience"[1250000]}{"Gender"[2]}{"EggSteps"[0]}{"Item"[0]}{"ItemData"[]}{"NickName"[Foutmelding]}{"Level"[100]}{"OT"[<player.ot>]}{"Ability"[88]}{"Status"[]}{"Nature"[9]}{"CatchLocation"[at Madame Renifler]}{"CatchTrainer"[<player.name>]}{"CatchBall"[5]}{"CatchMethod"[Received as a gift]}{"Friendship"[70]}{"isShiny"[0]}{"Attack1"[1048,10,10]}{"Attack2"[136,10,10]}{"Attack3"[1004,10,10]}{"Attack4"[247,15,15]}{"HP"[497]}{"EVs"[0,0,0,0,0,0]}{"IVs"[31,31,31,31,31,31]}{"AdditionalData"[]}{"IDValue"[xsAdbGaJBZt]})
+				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes2)>)
+				@pokemon.add(<pokemon.count>,{"Pokemon"[1010]}{"OriginalNumber"[-1]}{"Experience"[1250000]}{"Gender"[2]}{"EggSteps"[0]}{"Item"[0]}{"ItemData"[]}{"NickName"[Foutmelding]}{"Level"[100]}{"OT"[<player.ot>]}{"Ability"[88]}{"Status"[]}{"Nature"[9]}{"CatchLocation"[<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation)>]}{"CatchTrainer"[<player.name>]}{"CatchBall"[5]}{"CatchMethod"[<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod)>]}{"Friendship"[70]}{"isShiny"[0]}{"Attack1"[1048,10,10]}{"Attack2"[136,10,10]}{"Attack3"[1004,10,10]}{"Attack4"[247,15,15]}{"HP"[497]}{"EVs"[0,0,0,0,0,0]}{"IVs"[31,31,31,31,31,31]}{"AdditionalData"[]}{"IDValue"[xsAdbGaJBZt]})
 				:if:<Register.Value(PhanceroShiny)>=true
 					@pokemon.setshiny(<math.int(<pokemon.count>-1)>,1)
 				:endif
 				@pokemon.rename(<math.int(<pokemon.count>-1)>)
 				:if:<pokemon.count>>6
-					@Text.Show(There's no more room for Pokémon!~<pokemon.nickname(<math.int(<pokemon.count>-1)>)> was transfered~to the PC.)
+					@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC)>)
 					@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 				:endif
-				@Text.Show(JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero. I'd let~Professor Tim take a look at~that device if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!)
+				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes3)>)
 				
 				@Register.Register(JappaWakka_Battle)
 			:when:<system.token(global_no)>
-				@Text.Show(That's okay, feel free to come~back if you want to challenge~me later!)
+				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_No)>)
 		:endwhen
 		:end
 	:else
 		:if:<Register.Registered(JappaWakka_Battle)>=false
-			@Text.Show(JappaWakka: Ah, <player.name>!~You're back!*Ready to challenge me?)
+			@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo)>)
 			@options.setcancelindex(1)
 			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 				:when:<system.token(global_yes)>
@@ -75,7 +73,7 @@ version=2
 					:endif
 				:endif
 				
-				@Text.Show(Alrighty then! Let's see what~you got, champion!)
+				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes1)>)
 				
 				:if:<Register.Value(PhanceroShiny)>=true
 					@Battle.StartTrainer(MadameRenifler\JappaWakka_Shiny)
@@ -85,32 +83,30 @@ version=2
 					@Pokedex.ChangeEntry(1011,2)
 				:endif
 				
-				@Text.Show(JappaWakka: Wowzers! That was~some skilled battling! You've~certainly proven yourself~worthy of this reward!)
-				
 				@Register.Register(Dex_Glitched)
 				@Sound.Play(Success,1)
-				@Text.Show(<Player.Name> received a~Ph4D95210XaP!)
+				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes2)>)
 				@pokemon.add(<pokemon.count>,{"Pokemon"[1010]}{"OriginalNumber"[-1]}{"Experience"[1250000]}{"Gender"[2]}{"EggSteps"[0]}{"Item"[0]}{"ItemData"[]}{"NickName"[Foutmelding]}{"Level"[100]}{"OT"[<player.ot>]}{"Ability"[88]}{"Status"[]}{"Nature"[9]}{"CatchLocation"[at Madame Renifler]}{"CatchTrainer"[<player.name>]}{"CatchBall"[5]}{"CatchMethod"[Received as a gift]}{"Friendship"[70]}{"isShiny"[0]}{"Attack1"[1048,10,10]}{"Attack2"[136,10,10]}{"Attack3"[1004,10,10]}{"Attack4"[247,15,15]}{"HP"[497]}{"EVs"[0,0,0,0,0,0]}{"IVs"[31,31,31,31,31,31]}{"AdditionalData"[]}{"IDValue"[xsAdbGaJBZt]})
 				:if:<Register.Value(PhanceroShiny)>=true
 					@pokemon.setshiny(<math.int(<pokemon.count>-1)>,1)
 				:endif
 				@pokemon.rename(<math.int(<pokemon.count>-1)>)
 				:if:<pokemon.count>>6
-					@Text.Show(There's no more room for Pokémon!~<pokemon.nickname(<math.int(<pokemon.count>-1)>)> was transfered~to the PC.)
+					@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC)>)
 					@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 				:endif
-				@Text.Show(JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero. I'd let~Professor Tim take a look at~that device if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!)
+				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes3)>)
 				
 				@Register.Register(JappaWakka_Battle)
 				:when:<system.token(global_no)>
-					@Text.Show(That's okay, feel free to come~back if you want to challenge~me later!)
+					@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_No)>)
 			:endwhen
 			:end
 		:else
 			:if:<Register.Registered(Dex_Repeared)>=false
-				@Text.Show(JappaWakka: I'd let Professor~Tim take a look at that~Pokédex if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!)
+				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex)>)
 			:else
-				@Text.Show(JappaWakka: I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!)
+				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex)>)
 			:endif
 		:endif
 	:endif
