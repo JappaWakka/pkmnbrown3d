@@ -1,3 +1,29 @@
 version=2
-@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Blackboard)>)
+:if:<Register.Registered(BlackboardStart)>=false
+	@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Blackboard_Question1)>*<system.token(Route55_RainbowTower_Floor4_Room_Blackboard_Question2)>)
+	@Register.Register(BlackboardStart)
+:else
+	@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Blackboard_Question2)>)
+:endif
+@Options.SetCancelIndex(5)
+@Options.Show(<system.token(global_pokemon_type_wind)>,<system.token(global_pokemon_type_sound)>,<system.token(global_pokemon_type_gas)>,<system.token(global_pokemon_type_wood)>,<system.token(global_pokemon_type_abnormal)>,<system.token(global_back)>)
+	:when:<system.token(global_pokemon_type_wind)>
+		@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wind)>)
+		@Script.Start(RainbowTower\Floor4_Room_Blackboard)
+	:when:<system.token(global_pokemon_type_sound)>
+		@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound)>)
+		@Script.Start(RainbowTower\Floor4_Room_Blackboard)
+	:when:<system.token(global_pokemon_type_gas)>
+		@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas)>)
+		@Script.Start(RainbowTower\Floor4_Room_Blackboard)
+	:when:<system.token(global_pokemon_type_wood)>
+		@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood)>)
+		@Script.Start(RainbowTower\Floor4_Room_Blackboard)
+	:when:<system.token(global_pokemon_type_abnormal)>
+		@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal)>)
+		@Script.Start(RainbowTower\Floor4_Room_Blackboard)
+	:when:<system.token(global_back)>
+		@Register.Unregister(BlackboardStart)
+		:endscript
+:endwhen
 :end

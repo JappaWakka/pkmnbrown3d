@@ -417,8 +417,8 @@ Warps:
 		
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[5,0,11]}}{"TextureID"{str[RegularGuy_Brown]}}{"ID"{int[0]}}{"Name"{str[Fresh Air Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_Main_FreshAirGuy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[5,11,5,2]]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[13,0,23]}}{"TextureID"{str[Youngster_Blue]}}{"ID"{int[1]}}{"Name"{str[GameMode Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_Main_GameModeGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[11,22,5,4]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[5,0,10]}}{"TextureID"{str[RegularGuy_Brown]}}{"ID"{int[0]}}{"Name"{str[Fresh Air Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_Main_FreshAirGuy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[5,11,5,2]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[14,0,23]}}{"TextureID"{str[Youngster_Blue]}}{"ID"{int[1]}}{"Name"{str[GameMode Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_Main_GameModeGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[11,22,5,4]]}}]}}
 
 
 OffsetMaps:

@@ -9,5 +9,5 @@ version=2
 	@Register.Register(friendlygrunt)
 :else:
 	@Text.Show(<system.token(Route51_ExGruntGreg_DefeatMessage)>)
-:endif:
+:endif
 :end

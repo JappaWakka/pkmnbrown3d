@@ -16,5 +16,5 @@ version=2
 	:endwhen:
 :else:
 	@Text.Show(<system.token(Merson_FanClub_Chairman_AfterVoucher)>)
-:endif:
+:endif
 :end

@@ -1,0 +1,7 @@
+version=2
+:if:<Register.Registered(porygon)>=false
+	@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Man_BeforePorygon)>)
+:else
+	@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Man_AfterPorygon)>)
+:endif
+:end

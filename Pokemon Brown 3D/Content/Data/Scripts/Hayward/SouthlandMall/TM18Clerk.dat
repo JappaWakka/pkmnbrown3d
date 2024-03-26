@@ -7,5 +7,5 @@ version=2
 	@Register.Register(tm18)
 :else
 	@Text.Show(<system.token(Hayward_SouthlandMall_Floor3_TM18Clerk_AfterGive)>)
-:endif:
+:endif
 :end

@@ -55,6 +55,11 @@ global_pokemon_type_dark,Dark
 global_pokemon_type_steel,Steel
 global_pokemon_type_fairy,Fairy
 global_pokemon_type_blank,Blank
+global_pokemon_type_wind,Wind
+global_pokemon_type_sound,Sound
+global_pokemon_type_gas,Gas
+global_pokemon_type_wood,Wood
+global_pokemon_type_abnormal,Abnormal
 global_true,True
 global_false,False
 global_select,Select
@@ -3404,7 +3409,7 @@ Route55_HikerRudolph_OutroMessage,Although I'm never ready~to lose against a kid
 Route55_HikerRudolph_DefeatMessage,If I was beaten by a kid...*then...
 Route55_PokeManiacGlenn_IntroMessage,Wow, are you a~PokéManiac too?*No?~I'll still fight you!
 Route55_PokeManiacGlenn_OutroMessage,Humph. I'm not angry.
-Route55_PokeManiacGlenn_DefeatMessage,How could I lose to you!?
+Route55_PokeManiacGlenn_DefeatMessage,How could I lose to you?!
 
 Route55_RainbowTower_Floor1_MeditatingGuy,Please leave. I'm meditating~with my three Pokémon friends.
 Route55_RainbowTower_Floor1_Persian_Cry,Persian: Meow!
@@ -3425,16 +3430,28 @@ Route55_RainbowTower_Floor3_Note,RainbowDevs~Development Room
 
 Route55_RainbowTower_Floor4_Note,DON'T GO IN HERE!!!
 
-Route55_RainbowTower_Floor4_Room_Blackboard,I shall not waste Master Balls~I shall not waste Master Balls*I shall not waste Master Balls~I shall not waste Master Balls*...I think someone wasted~a Master Ball.
-Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~have been produced by Silph Co.*HMs can also be used outside~of battle, but Pokémon~have trouble forgetting them.
+Route55_RainbowTower_Floor4_Room_Blackboard_Question1,Information on new types!
+Route55_RainbowTower_Floor4_Room_Blackboard_Question2,Which heading do you want to~read?
+Route55_RainbowTower_Floor4_Room_Blackboard_Option_Wind,Wind
+Route55_RainbowTower_Floor4_Room_Blackboard_Option_Sound,Sound
+Route55_RainbowTower_Floor4_Room_Blackboard_Option_Gas,Gas
+Route55_RainbowTower_Floor4_Room_Blackboard_Option_Wood,Wood
+Route55_RainbowTower_Floor4_Room_Blackboard_Option_Abnormal,Abnormal
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wind,Offense - Strong towards:*Fire, Rock, Ghost, Wood and~Gas.*Offense - Weak towards:*Ground, Fighting, Grass and~Flying.*Defense - Strong against:*Fire, Rock, Ghost and Wood.*Defense - Weak against:~Electric and Flying.*Defense - Immune to: Gas.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound,Offense - Strong towards:*Ghost, Steel and Water.*Offense - Weak towards:*Bug and Fighting.*Defense - Strong against:*Rock, Steel, Gas, Water, Abnormal.*Defense - Weak against:*Bug, Electric and Fighting.*Defense - Immune to: Sound.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*Fairy, Fire and Fighting.*Offense - Weak towards:*Grass, Ice, Rock and Sound.*Defense - Strong against:*Fairy, Ground and Fighting.*Defense - Weak against:*Electric, Fire, Grass and Wind.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*Grass, Ice, Steel, Poison and~Water.*Offense - Weak towards:*Bug, Electric, Rock and Wind.*Offense - No effect towards:~Fire.*Defense - Strong against:*Bug and Ground.*Defense - Weak against:*Electric, Fire, Fighting and~Wind.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and Normal.
+Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle,~but Pokémon have trouble~forgetting them.*Silph Co.
 Route55_RainbowTower_Floor4_Room_Porygon_Receive,<player.name> got Porygon!
 Route55_RainbowTower_Floor4_Room_Porygon_ToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
-Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift from Karl
-Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the KGM Games Building
-Route55_RainbowTower_Floor4_Room_Karl,Karl: I don't need this Pokémon,~so you can have it for free...*No sir, I am not crazy, just~an idiot...
+Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift
+Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the Rainbow Tower
+Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,I don't need this Pokémon,~so you can have it for free...*No kid, I am not crazy, just~an idiot...
+Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,How are you liking that crazy~little Pokémon I gave to you?*I downloaded it from some scam~website and my computer got~infected with a weird virus.*I got so mad that I threw my~laptop out of the window, sold~my house, moved into this~apartment, and put up a sign~outside to keep everyone away~from my stupidity.*Then I blacked out and wrote a~whole bunch of stuff on the~blackboard.*I came to with the worst~headache.*New types?*I don't even know what a type~is. Man, am I dumb.
 
 [Dock Underpass]
-DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52~a.k.a. the Hayward Docks.
+DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52,~a.k.a. the Hayward Docks.
 DockUnderpass_Entrance_Route52_HomelessGuy,This is where I live because I~have no money...
 
 [Route 52]
@@ -3471,7 +3488,7 @@ Hayward_Main_RocketGruntHorace_IntroMessage,Hey kid! Get out of here~right now! 
 Hayward_Main_RocketGruntHorace_OutroMessage,Fine, you can have this~place!
 Hayward_Main_RocketGruntHorace_TakeThis,Take this and don't kill me!
 Hayward_Main_RocketGruntHorace_GetMoving,I better get moving! Bye!
-Hayward_Main_SlowbroGirl_1,Hey kid?!?!!~Seen my Slowbro? He ran away~and is lost...!
+Hayward_Main_SlowbroGirl_1,Hey, kid?!~Seen my Slowbro? He ran away~and is lost...!
 Hayward_Main_SlowbroGirl_2,SLOWBRO? WHERE ARE YOU?!~It's hopeless...~He is gone forever...~I loved my Slowbro...boo hoo!~I wish he didn't leave me!
 Hayward_Main_SlowbroGirl_3,Please try to find Slowbro~for me!
 Hayward_Main_Slowbro_1,Slowbro is loafing around...
@@ -3554,7 +3571,7 @@ Hayward_SouthlandMall_InfoSign_Floor4,4F: Deity TM's~Great for any Pokémon Team
 Hayward_SouthlandMall_InfoSign_Floor5,5F: Drug Store
 Hayward_SouthlandMall_InfoSign_FloorRooftop,Rooftop Square:~Vending Machines
 Hayward_SouthlandMall_Floor1_Receptionist,Hello! Welcome to the~Southland Mall!*The board on the right~describes the store layout.
-Hayward_SouthlandMall_Floor2_ParasGirl,My Paras loves Super Potions!*Yum!
+Hayward_SouthlandMall_Floor2_ParasGirl,My Paras loves Rare Candies!*Yum!
 Hayward_SouthlandMall_Floor2_RepelMan,Wild Pokémon annoying you?*Use some Repels, you won't~regret it!
 Hayward_SouthlandMall_Floor3_Poster,Pokémon Prism is now on sale!
 Hayward_SouthlandMall_Floor3_TM18Clerk_BeforeGive,Oh, hi! I finally finished~Pokémon Achromic!*Haven't finished your quest~yet? This might be useful!
@@ -4134,8 +4151,8 @@ Route59_SilphCoWarehouse_4F_RocketGruntHector_IntroMessage,Get out of here right
 Route59_SilphCoWarehouse_4F_RocketGruntHector_OutroMessage,Don't... Please!
 Route59_SilphCoWarehouse_4F_RocketGruntHector_DefeatMessage,You will never beat 'da Boss!
 Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle,Giovanni: What?!*Another child trying to stop~me from fulfilling Team~Rocket's goals?*If you don't stay out of~my business kid, you'll be in~a world of pain!*<player.name>: Bring it on.
-Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage,Giovanni: Arrgh!! I lost~again!?
-Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: How can I run a~criminal organization if my~plans keep getting thwarted~by children?!*I guess I should just give up.*There's no way we can succeed~with kids like you!*Goodbye forever!
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage,Giovanni: Arrgh!! I lost~again?!
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: How can I run a~criminal organization if my~plans keep getting thwarted~by children?!*I guess I should just give up,~there's no way we can succeed~with kids like you!*Goodbye forever!
 Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<player.name>: Is everyone okay?*Manager: Yes, thanks to you.*You're a brave kid.*<player.name>: It was~nothing, really.*Manager: I need to repay you~somehow. Oh here, have this~valuable gift!*<player.name>: Thank you~so much!
 Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Manager: Make sure to visit~our main building, located in~Saffron City, Kanto when you~have the time.
 
