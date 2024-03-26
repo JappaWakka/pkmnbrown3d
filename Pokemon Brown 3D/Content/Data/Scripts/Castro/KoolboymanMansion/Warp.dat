@@ -23,7 +23,7 @@ version=2
 @camera.update
 :select:<player.position>
 	:when:16,3,14
-		@player.warp(Castro\KoolboymanMansion\1F.dat,16,0.1,14)
+		@player.warp(Castro\CastroManor\1F.dat,16,0.1,14)
 		@level.update
 		:if:<Register.Registered(mansionlock)>=True
 			@entity.remove(0)
@@ -52,7 +52,7 @@ version=2
 			@Camera.DeactivateThirdPerson
 		:endif
 		
-		:if:<Register.Registered(trainer_CastroMansion\001)>=false
+		:if:<Register.Registered(trainer_CastroManor\001)>=false
 			@level.wait(10)
 			@Music.Play(Encounter_Trainer_Male)
 			@player.turnto(3)
@@ -61,19 +61,19 @@ version=2
 				@sound.play(Emote_Exclamation)
 				@Entity.ShowMessageBulb(1|17.99|0.7|14)
 				@npc.move(0,1)
-				@script.start(trainer\CastroMansion\001)
+				@script.start(trainer\CastroManor\001)
 				@camera.resetfocus
 			:else
 				@sound.play(Emote_Exclamation)
 				@Entity.ShowMessageBulb(1|17.99|0.7|14)
 				@npc.move(0,1)
-				@script.start(trainer\CastroMansion\001)
+				@script.start(trainer\CastroManor\001)
 			:endif
 			@Music.Play(SilphCoWarehouse)
 		:endif
 		:end
 	:when:17,3,14
-		@player.warp(Castro\KoolboymanMansion\1F.dat,16,0.1,14)
+		@player.warp(Castro\CastroManor\1F.dat,16,0.1,14)
 		@level.update
 		:if:<Register.Registered(mansionlock)>=True
 			@entity.remove(0)
@@ -102,7 +102,7 @@ version=2
 			@Camera.DeactivateThirdPerson
 		:endif
 		
-		:if:<Register.Registered(trainer_CastroMansion\001)>=false
+		:if:<Register.Registered(trainer_CastroManor\001)>=false
 			@level.wait(10)
 			@Music.Play(Encounter_Trainer_Male)
 			@player.turnto(3)
@@ -111,19 +111,19 @@ version=2
 				@sound.play(Emote_Exclamation)
 				@Entity.ShowMessageBulb(1|17.99|0.7|14)
 				@npc.move(0,1)
-				@script.start(trainer\CastroMansion\001)
+				@script.start(trainer\CastroManor\001)
 				@camera.resetfocus
 			:else
 				@sound.play(Emote_Exclamation)
 				@Entity.ShowMessageBulb(1|17.99|0.7|14)
 				@npc.move(0,1)
-				@script.start(trainer\CastroMansion\001)
+				@script.start(trainer\CastroManor\001)
 			:endif
 			@Music.Play(SilphCoWarehouse)
 		:endif
 		:end
 	:when:19,3,14
-		@player.warp(Castro\KoolboymanMansion\2F.dat,19,0.1,14)
+		@player.warp(Castro\CastroManor\2F.dat,19,0.1,14)
 		
 		@level.update
 		@camera.defix

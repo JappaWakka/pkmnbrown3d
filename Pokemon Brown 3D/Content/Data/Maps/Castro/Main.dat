@@ -10,6 +10,7 @@ Floors:
 		
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[3,1]}}{"Position"{intArr[18,0,-2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"Visible"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[22,0,36]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"Visible"{bool[0]}}]}}
 	
 	Dirt
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[20,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
@@ -351,7 +352,7 @@ Signs:
 	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[23,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_Gym)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[23,-0.15,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[31,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_KoolboymanMansion)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[31,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_CastroManor)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[31,-0.15,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[5,0,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_Forest)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
@@ -599,6 +600,8 @@ S.S. Anne:
 		{"EntityField"{ENT[{"Size"{intArr[1,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Ferry Boat:
+	Doormat
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[21,0,36]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
 	Model
 		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[21.25,-0.75,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\FerryBoat\FerryBoat]}}{"Rotation"{int[2]}}]}}
 	Collisions
@@ -638,12 +641,15 @@ Warps:
 	Gym
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[22,0,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Castro.dat,4,0.1,17,0]}}{"Rotation"{int[0]}}]}}
 
-	Koolboyman Mansion
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[28,0,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\1F.dat,4,0.1,28,0]}}{"Rotation"{int[0]}}]}}
+	Castro Manor
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[28,0,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\CastroManor\1F.dat,4,0.1,28,0]}}{"Rotation"{int[0]}}]}}
 
 	Castro Forest Gate
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\CastroValley-CastroForest.dat,4,0.1,7,0]}}{"Rotation"{int[0]}}]}}
-
+	
+	Madame Renifler
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[22,0,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[MadameRenifler\Hall.dat,4,0.1,5,2]}}{"Rotation"{int[0]}}]}}
+		
 Backdrops:
 	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-12.5,-0.75,42.5]}}{"Size"{intArr[55,38]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	

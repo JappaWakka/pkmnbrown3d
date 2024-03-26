@@ -1,5 +1,5 @@
-{"Level"{LEV[{"Name"{str[Koolboyman Mansion]}}{"MusicLoop"{str[SilphCoWarehouse]}}{"WildPokemon"{bool[1]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[Castro\KoolboymanMansion\DoorChange]}}]}}
+{"Level"{LEV[{"Name"{str[Castro Manor]}}{"MusicLoop"{str[SilphCoWarehouse]}}{"WildPokemon"{bool[1]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[Castro\CastroManor\DoorChange]}}]}}
 
 Floors:
 	Regular Tiles
@@ -394,11 +394,11 @@ Tables:
 Books:
 	Diary
 		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,0.45,2]}}{"Scale"{sngArr[0.65,1,0.65]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,208,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"CameraDistanceDelta"{sng[-0.25]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[18,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\Diary]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[18,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\CastroManor\Diary]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		
 	RegionMap
 		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0.45,22]}}{"Scale"{sngArr[0.65,1,0.65]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,208,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"CameraDistanceDelta"{sng[-0.25]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,22]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\RegionMap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,22]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\CastroManor\RegionMap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Machines:
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[24,0,1]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[32,144,16,16][48,144,16,16][64,144,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -411,13 +411,13 @@ Machines:
 
 Locked Doors:
 	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[2,1]}}{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,0,8]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[0,112,16,16][16,112,4,16][20,112,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[18,0,8]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[18,0,8]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\CastroManor\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,0,22]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[0,112,16,16][16,112,4,16][20,112,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,22]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"EntityField"{ENT[{"ID"{int[0]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,22]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\CastroManor\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	{"EntityField"{ENT[{"ID"{int[1]}}{"Size"{intArr[1,2]}}{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,0,4]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[0,112,16,16][16,112,4,16][20,112,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-	{"EntityField"{ENT[{"ID"{int[1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"EntityField"{ENT[{"ID"{int[1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\CastroManor\LockedDoors]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 Blocks:
 	{"EntityField"{ENT[{"Scale"{sngArr[1,0.3125,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,-0.345,12]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[16,144,16,5][0,144,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -445,19 +445,19 @@ Switch:
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0,11]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[96,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		
 		ScriptBlock
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,0,11]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\SecretSwitch]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,0,11]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\CastroManor\SecretSwitch]}}{"Rotation"{int[0]}}]}}
 
 Stairs:
 	1F
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\2F_Stairs_Down]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\CastroManor\2F_Stairs_Down]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Mansion_Down_West]}}{"Offset"{sngArr[5,-1,10]}}]}}
 		
 	3F
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\KoolboymanMansion\2F_Stairs_Up]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\CastroManor\2F_Stairs_Up]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		{"Structure"{STR[{"Map"{str[Structures\Stairs\Stairs_Mansion_Up_East]}}{"Offset"{sngArr[8,0,10]}}]}}
 		
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[4,0,17]}}{"TextureID"{str[Burglar]}}{"ID"{int[0]}}{"Name"{str[Burglar Kazuya]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\CastroMansion\000]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[1,17,6,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[4,0,17]}}{"TextureID"{str[Burglar]}}{"ID"{int[0]}}{"Name"{str[Burglar Kazuya]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\CastroManor\000]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[1,17,6,1]]}}]}}
 
 Item:
 	Iron
