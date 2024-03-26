@@ -9,7 +9,7 @@ version=2
 	@Player.Move(1)
 	:end
 :else
-	:if:<register.registered(ReniflerIsland)>=false <and> <player.facing>=2
+	:if:<register.registered(Decorations_Wall_SniffCat)>=false <and> <player.facing>=2
 		@NPC.Turn(4,1)
 		@Player.TurnTo(3)
 		@Text.Show(<system.token(Castro_Main_Harbor_HaveTicket)>)
