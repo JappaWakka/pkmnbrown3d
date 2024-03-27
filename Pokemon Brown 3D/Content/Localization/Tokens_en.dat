@@ -3442,7 +3442,7 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound,Offense - Strong towards:
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*Fairy, Fire and Fighting.*Offense - Weak towards:*Grass, Ice, Rock and Sound.*Defense - Strong against:*Fairy, Ground and Fighting.*Defense - Weak against:*Electric, Fire, Grass and Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*Grass, Ice, Steel, Poison and~Water.*Offense - Weak towards:*Bug, Electric, Rock and Wind.*Offense - No effect towards:~Fire.*Defense - Strong against:*Bug and Ground.*Defense - Weak against:*Electric, Fire, Fighting and~Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and Normal.
-Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Silph Co.
+Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
 Route55_RainbowTower_Floor4_Room_Porygon_Receive,<player.name> got Porygon!
 Route55_RainbowTower_Floor4_Room_Porygon_ToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
 Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift
@@ -4337,9 +4337,9 @@ Castro_Main_Sailor_Harbor,Welcome to the Castro Valley~Harbor!
 Castro_Main_Harbor_NoTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<player.name> doesn't have the~needed S.S. Ticket.*Sorry! You need a ticket to~get aboard.
 Castro_Main_Harbor_HaveTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<player.name> flashes the ticket.*Ah, good! Oh, but the~S.S. Anne will not be leaving~for a while. Perhaps that~other boat in the harbor still~needs passengers?
 Castro_Main_Sailor_Other,S.S. Anne is a famous luxury~cruise ship.
-Castro_Main_Sailor_CastroManor1,The abandoned Castro Manor is~nearly two-hundred years old.~It was once the heart of~Castro Valley. My granny told~me stories about the Castro~family, who once owned it.
-Castro_Main_Sailor_CastroManor2,Fifty years ago, the Castro~Mansion was acquired by a rich~and peculiar scientist, who~repurposed the manor as a~research facility, but it has~since been abandoned. Isn't~that a shame?
-Castro_Main_Sailor_CastroGrandson,My relatives founded this~town, as well as its famous~mansion. They're since now~long gone, but Castro Valley~was built around their naval~activities, and is still the~core of Rijon's maritime~economy.
+Castro_Main_Sailor_CastroManor,The abandoned Castro Manor is~nearly two-hundred years old.~It was once the heart of~Castro Valley. My granny told~me stories about the Castro~family, who once owned it.
+Castro_Main_Officer_CastroManor,Fifty years ago, the Castro~Manor was acquired by a rich~and peculiar scientist, who~repurposed the manor as a~research facility, but it has~since been abandoned. Isn't~that a shame?
+Castro_Main_CastroGrandson,My relatives founded this~town, as well as its famous~manor. They're since now~long gone, but Castro Valley~was built around their naval~activities, and is still the~core of Rijon's maritime~economy.
 Castro_Main_Marill_Cry,Marill: Marill Marill!*It looks lost...
 Castro_Main_JappaWakka,JappaWakka: Hiya! You must be~<player.name>!*My name is JappaWakka, but you~can call me Jappa if you want!*I've heard a lot about you.*Rijon Champion, huh? That's~pretty special! Would you like~to join me and some other~folks on a short ocean trip?~We got a great dance club and~we'll be back in no time,~no worries.*<player.name>: Sure, why not?*JappaWakka: Great, I'll start~the engine! See you inside!
 Castro_Main_Mew,Mew!
@@ -4408,7 +4408,7 @@ Castro_CastroManor_1F_ScientistJin_OutroMessage,I should study those warp pads!
 Castro_CastroManor_1F_ScientistJin_DefeatMessage,Are MissingNo. bothering you? Get a Virus Scanner!
 Castro_CastroManor_2F_RegionMap,It's a map of another region.*Which one could it be?
 Castro_CastroManor_2F_Diary,Dear Diary, some people really~take things out of context!*...Better leave this be.
-Castro_CastroManor_2F_BurglarKazuya_IntroMessage,This mansion has nothing to loot!
+Castro_CastroManor_2F_BurglarKazuya_IntroMessage,This manor has nothing to loot!
 Castro_CastroManor_2F_BurglarKazuya_OutroMessage,Maybe there's something behind~one of those locked doors!
 Castro_CastroManor_2F_BurglarKazuya_DefeatMessage,There must be a switch somewhere.
 Castro_CastroManor_3F_BurglarTodd_IntroMessage,Wanna help me?

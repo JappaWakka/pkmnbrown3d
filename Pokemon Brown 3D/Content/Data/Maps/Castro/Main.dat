@@ -346,16 +346,16 @@ Water Obstacles:
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[29,-0.20,35]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Signs:
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[21,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_City)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[21,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_City)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[21,-0.15,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[23,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_Gym)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[23,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_Gym)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[23,-0.15,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[31,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_CastroManor)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[31,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_CastroManor)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[31,-0.15,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[5,0,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_Forest)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sign_Forest)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[5,-0.15,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 	{"Structure"{STR[{"Map"{str[Structures\PokeMart_Sign]}}{"Offset"{sngArr[30,0,5]}}]}}
@@ -576,10 +576,11 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[14,0,19]}}{"TextureID"{str[[POKEMON|N]183]}}{"ID"{int[1]}}{"Name"{str[Marill]}}{"Action"{int[1]}}{"AdditionalValue"{str[cry\marill]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[14,19,1,4]]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[25,0,16]}}{"TextureID"{str[Gambler_Purple]}}{"ID"{int[2]}}{"Name"{str[Gambler]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Gambler_Purple)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[29,0,7]}}{"TextureID"{str[Gambler_Red]}}{"ID"{int[3]}}{"Name"{str[Gambler]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Gambler_Red)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	
 	{"NPC"{NPC[{"Position"{sngArr[19,0,30]}}{"TextureID"{str[Sailor]}}{"ID"{int[4]}}{"Name"{str[Sailor]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sailor_Harbor)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	
 	{"NPC"{NPC[{"Position"{sngArr[8,0,29]}}{"TextureID"{str[Sailor]}}{"ID"{int[5]}}{"Name"{str[Sailor]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sailor_Other)>]}}{"Rotation"{int[0]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[8,29,4,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[9,0,6]}}{"TextureID"{str[YoungBoy_Blue]}}{"ID"{int[6]}}{"Name"{str[Young Boy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_CastroGrandson)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[4,6,10,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[18,0,23]}}{"TextureID"{str[Sailor]}}{"ID"{int[7]}}{"Name"{str[Sailor]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sailor_CastroManor)>]}}{"Rotation"{int[0]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[18,20,1,8]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[29,0,28]}}{"TextureID"{str[Officer]}}{"ID"{int[8]}}{"Name"{str[Officer]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Officer_CastroManor)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Harbor ScriptBlock:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[18,0,30]}}{"ID"{int[6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Harbor]}}{"Rotation"{int[0]}}]}}
@@ -591,7 +592,6 @@ Invisible Collisions:
 	{"EntityField"{ENT[{"Size"{intArr[2,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,0,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,0,40]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20,0,40]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-
 
 S.S. Anne:
 	Model

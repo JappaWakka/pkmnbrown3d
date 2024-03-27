@@ -257,10 +257,10 @@ Mountains:
 
 Signs:
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[36,-0.15,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[36,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Route56_Main_Sign_Route)>]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[36,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Route56_Main_Sign_Route)>]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 	
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[92,-0.15,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[92,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Route56_Main_Sign_Route)>]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[92,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Route56_Main_Sign_Route)>]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 	
 Jump Ledges:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Step]}}{"Position"{sngArr[93,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,16,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,-1,1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[7]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
