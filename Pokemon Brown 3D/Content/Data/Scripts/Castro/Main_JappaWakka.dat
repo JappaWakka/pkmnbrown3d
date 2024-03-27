@@ -1,0 +1,7 @@
+version=2
+@Text.Show(<system.token(Castro_Main_JappaWakka)>)
+@NPC.Turn(11,3)
+@NPC.Move(11,2)
+@NPC.Remove(11)
+@Register.Register(Castro_JappaWakka)
+:end

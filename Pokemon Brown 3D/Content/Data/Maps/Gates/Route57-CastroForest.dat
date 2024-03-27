@@ -71,5 +71,5 @@ Doors:
 	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\57\Main.dat,7,0.1,11,0]}}{"Rotation"{int[2]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[3,0,1]}}{"TextureID"{str[RegularGuy_Blue]}}{"ID"{int[0]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(CastroForest_Route57_Gate_Guy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[2,0,4]}}{"TextureID"{str[OldMan_Red]}}{"ID"{int[1]}}{"Name"{str[Old Man]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(CastroForest_Route57_Gate_OldMan)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[3,0,1]}}{"TextureID"{str[RegularGuy_Blue]}}{"ID"{int[0]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route57_CastroForest_Gate_Guy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0,4]}}{"TextureID"{str[OldMan_Red]}}{"ID"{int[1]}}{"Name"{str[Old Man]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route57_CastroForest_Gate_OldMan)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

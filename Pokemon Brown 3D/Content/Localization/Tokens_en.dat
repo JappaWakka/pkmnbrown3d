@@ -3254,7 +3254,7 @@ Gravel_TimsLab_ChangeStyleLady_Question,Prof. Tim is the authority~on Pokémon.~
 Gravel_TimsLab_ChangeStyleLady_Yes1,Leave it to me!
 Gravel_TimsLab_ChangeStyleLady_Yes2,All done! Much better!
 Gravel_TimsLab_ChangeStyleLady_No,Come back if you change your~mind!
-Gravel_TimsLab_ChoosePokemon,Mura: Finally you're here!~Let's hurry!*Tim: Mura, be patient.*...*Now then, are you both ready~for your first Pokémon?*Mura: I can't wait! Hurry up!*I have three newly hatched~Pokémon here. My grandfather~wanted me to carry on the~tradition of being a master.~I'm passing his legacy~to you two!*Mura: I am honored, good sir!*Tim: Good to know.*<player.name>, you pick first.
+Gravel_TimsLab_ChoosePokemon,Mura: Finally you're here!~Let's hurry!*Tim: Mura, be patient.*...*Now then, are you both ready~for your first Pokémon?*Mura: I can't wait! Hurry up!*Tim: I have three newly~hatched Pokémon here.*My grandfather wanted me to~carry on the tradition of~being a master. I'm passing~his legacy to you two!*Mura: I am honored, good sir!*Tim: Good to know.*<player.name>, you pick first.
 Gravel_TimsLab_Choose_Charmander,Tim: So! You want the Fire~Pokémon, Charmander?
 Gravel_TimsLab_Choose_Squirtle,Tim: So! You want the Water~Pokémon, Squirtle?
 Gravel_TimsLab_Choose_Bulbasaur,Tim: So! You want the Grass~Pokémon, Bulbasaur?
@@ -3421,12 +3421,12 @@ Route55_RainbowTower_Floor2_PC,Someone forgot to log out!*Let's change the backg
 Route55_RainbowTower_Floor2_Note,RainbowDevs~Meeting Room
 
 Route55_RainbowTower_Floor3_MeanMrMustard,MeanMrMustard: All work, and~never any credit or respect!*Meh!
-Route55_RainbowTower_Floor3_SamuelLow,Samuel Low: Pfew! Work is~so tough!*It's probably time for a break!~It's been 10 minutes since~my last one!
-Route55_RainbowTower_Floor3_Fan,I'm just a fan!~No idea why I'm here!
+Route55_RainbowTower_Floor3_Programmer,Pfew! Work is so tough!*It's probably time for a break!*It's been 10 minutes since~my last one!
+Route55_RainbowTower_Floor3_Suloku,Suloku: I didn't know anything~about romhacking, but with~Derbs84's initial help and~patience the 2024 update for~Pokémon Brown came to be!*Many others also helped a lot!
 Route55_RainbowTower_Floor3_Koolboyman,Koolboyman: Hey, I made the~original Pokémon Brown hack!*No need to thank me!*Now, back to Prism! Let's hope~it doesn't get DMCA'd!*Though I'm sure fans will~continue development if~that happens!
 Route55_RainbowTower_Floor3_PC_MeanMrMustard,Complicated code.*Can't understand it!
-Route55_RainbowTower_Floor3_PC_SamuelLow,Someone's playing a game~instead of working!
-Route55_RainbowTower_Floor3_PC_Fan,This guy is looking up~weird stuff!
+Route55_RainbowTower_Floor3_PC_Programmer,Someone's playing a game~instead of working!
+Route55_RainbowTower_Floor3_PC_Suloku,There are more than 700 beta~versions here!
 Route55_RainbowTower_Floor3_Note,RainbowDevs~Development Room
 
 Route55_RainbowTower_Floor4_Note,DON'T GO IN HERE!!!
@@ -3920,8 +3920,8 @@ Moraga_NationsBurgers_Chef,Welcome to Nation's Burgers!
 Moraga_NationsBurgers_Waitress,We have the best hamburgers~in town!*We're on break though.
 Moraga_NationsBurgers_FatGuy,Munch...*Ouch, heartburn!
 Moraga_NationsBurgers_Hiker,A similar restaurant in~Kanto serves way better!
-Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking,Hey kid, like to gamble?*Well, there's a casino in~Owsauri City!*I'm stinkin' rich, so I can~just buy coins.*Here, take this.
-Moraga_NationsBurgers_CoinCaseGuy_AfterTalking,Ha ha!*Win rare Pokémon with that!
+Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking,Hey kid, want to win cool~prizes?*I just came from the Game~Corner in Owsauri City!*I'm stinkin' rich, so I just~buy coins. Here!
+Moraga_NationsBurgers_CoinCaseGuy_AfterTalking,Ha ha!*Have fun at the Game Corner, kid!
 
 Moraga_HighSchoolAcademy_Blackboard_Intro,The blackboard describes~Pokémon Status changes~during battles.
 Moraga_HighSchoolAcademy_Blackboard_Question,Which heading do you want~to read?
@@ -4428,7 +4428,7 @@ Castro_CastroManor_B1F_BurglarJacey_DefeatMessage,I want a basement like this!
 
 [Castro Valley - Castro Forest Gate]
 CastroValley_CastroForest_Gate_LittleGirl,Those Bug Catchers don't mess~around!
-CastroValley_CastroForest_Gate_YoungGirl,Are you going to Castro~Forest?
+CastroValley_CastroForest_Gate_YoungGirl,Are you going to Castro~Forest?*A friend's Eevee evolved into~Leafeon there!
 
 [Castro Forest]
 Castro_Forest_DangerousBugsGuy,Bugs in this forest can be~dangerous!
@@ -4442,6 +4442,11 @@ Castro_Forest_BugCatcherTill_DefeatMessage,Gotta think of different words~than y
 Castro_Forest_BugCatcherCaden_IntroMessage,Hey, wait up! What's the~hurry?
 Castro_Forest_BugCatcherCaden_OutroMessage,I give up! You're good at this!
 Castro_Forest_BugCatcherCaden_DefeatMessage,Sometimes you can find stuff~on the ground!*I'm looking for the stuff~I dropped!
+
+[Route 62 - Castro Forest Gate]
+Route62_CastroForest_Gate_Guard,If you keep going west you'll~reach Moraga Town. Although~it's more like a city at this~point...
+Route62_CastroForest_Gate_RegularGuy,You want to learn how to Surf?*You should find the fisherman~that lives at Route 61.
+Route62_CastroForest_Gate_YoungGirl,Prof. Tim got a Bulbasaur in~this forest!
 
 [Route 62]
 Route62_Main_Sign_CastroField,Route 62~Castro Field*The path to many cities!
@@ -4463,6 +4468,11 @@ Route62_Main_GamblerClaude_DefeatMessage,Guess it's back to the poker~table...
 Route62_Main_YoungsterDouglas_IntroMessage,My Pokémon should be ready by~now!
 Route62_Main_YoungsterDouglas_OutroMessage,Nope, I'm just impatient!
 Route62_Main_YoungsterDouglas_DefeatMessage,I better go find stronger ones!
+
+[Route 61 - Route 62 Gate]
+Route60_Route61_Gate_Guard,I make sure no one vandalizes~the Power Plant, there are~plans to get it up and running~again in the near future.*It's weird how even after it~shut down a special magnetic~field still remains, attracting~many Electric-type Pokémon,~like Magneton, who seem~specially fond on it.
+Route61_Route62_Gate_RegularGuy,Be careful inside the Power~Plant.*When I was in Kanto, I once~picked up what I thought was a~Poké Ball. It was actually a~Voltorb!*How shocking!
+Route61_Route62_Gate_YoungBoy,Yuva Mila Lake lies at the end~of this route.
 
 [Route 61]
 Route61_Main_Sign_SportFishingArea,Sport Fishing Area
@@ -4499,9 +4509,9 @@ Route61_GoodRodHouse_GoodRodGuy_AfterReceiveGoodRod,Hello there, <player.name>!*
 Route61_SurfHouse_SurfMan_BeforeTalking,Hi there kid!*I just bought a bunch of HM03s~to add to my HM03s collection.*Although I think you will need~one to go to Eagulou City,~so here you go kid!
 Route61_SurfHouse_SurfMan_AfterTalking,HM03 is Surf!*Pokémon will be able to~ferry you across water!*And, this HM isn't disposable!~You can use it over and over!
 
-[Castro Forest - Route 57 Gate]
-CastroForest_Route57_Gate_Guy,Many Pokémon live only in~forests and caves.*You need to look everywhere to~get different kinds!
-CastroForest_Route57_Gate_OldMan,Can you tell me the way~to Castro Valley?
+[Route 57 - Castro Forest Gate]
+Route57_CastroForest_Gate_Guy,Many Pokémon live only in~forests and caves.*You need to look everywhere to~get different kinds!
+Route57_CastroForest_Gate_OldMan,Can you tell me the way to~Castro Valley?
 
 [Route 57]
 Route57_Main_Sign_Route,Route 57~South Reservoir*Castro Forest - Southedge Bay
@@ -4746,6 +4756,11 @@ Route65_Guard7_NoBadge,You don't have the Equity~Badge yet!*You have to have it 
 Route65_Guard8_Start,You can pass here only if~you have the Star Badge!
 Route65_Guard8_HaveBadge,Oh! That is the Star Badge!~OK then! Please, go right~ahead!
 Route65_Guard8_NoBadge,You don't have the Star Badge~yet!*You have to have it to get~to the Pokémon League!
+
+[Route 65 - Route 67 Gate]
+Route65_Route67_Gate_Guard,Be careful kid, the caverns~are dangerous, even for~experienced trainers.*East from these caverns are~the Sevii Islands, but there's~no way to go from them to~Rijon... Hopefully, they will~figure out a way to do so in~the future.
+Route65_Route67_Gate_Scientist,If you continue this way,~you'll get into Seneca Caverns.*Many strong Pokémon live in~its depths, and some even say~ancient Pokémon still live~there, but I only ever found~some fossils.
+Route65_Route67_Gate_YoungBoy,Getting here was too easy.~Those Gym Leaders won't use~their true teams even if I~begged them.*Why would they purposedly make~it easier for the challengers?
 
 [Route 67]
 Route67_Main_Sign,Route 67~Seneca Cavefront*Pathway to the Rijon League!

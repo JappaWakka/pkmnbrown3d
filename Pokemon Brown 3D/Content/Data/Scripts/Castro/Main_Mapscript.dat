@@ -1,9 +1,11 @@
 version=2
-:if:<register.registered(ReniflerIsland)>=true
-	@Entity.Remove(6)
+:if:<register.registered(Decorations_Wall_SniffCat)>=true
+	@Entity.Remove(9)
 :endif
 :if:<register.registered(Mew)>=false
-	@entity.Remove(7)
+	@entity.Remove(10)
 :endif
-
+:if:<inventory.countitem(41)>=1 <and> <register.registered(Castro_JappaWakka)>=false
+	@NPC.spawn(21,0,36,1,Castro\Main_JappaWakka,JappaWakka,0,1,JappaWakka,11,Still)
+:endif
 :end

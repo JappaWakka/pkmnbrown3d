@@ -573,7 +573,7 @@ Buildings:
 				
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[18,0,7]}}{"TextureID"{str[OldWoman_Blue]}}{"ID"{int[0]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_OldLady)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[18,7,3,1]]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[14,0,19]}}{"TextureID"{str[[POKEMON|N]183]}}{"ID"{int[1]}}{"Name"{str[Marill]}}{"Action"{int[1]}}{"AdditionalValue"{str[cry\marill]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[14,19,1,4]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[14,0,18]}}{"TextureID"{str[[POKEMON|N]183]}}{"ID"{int[1]}}{"Name"{str[Marill]}}{"Action"{int[1]}}{"AdditionalValue"{str[cry\marill]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[14,16,1,4]]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[25,0,16]}}{"TextureID"{str[Gambler_Purple]}}{"ID"{int[2]}}{"Name"{str[Gambler]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Gambler_Purple)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[29,0,7]}}{"TextureID"{str[Gambler_Red]}}{"ID"{int[3]}}{"Name"{str[Gambler]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Gambler_Red)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[19,0,30]}}{"TextureID"{str[Sailor]}}{"ID"{int[4]}}{"Name"{str[Sailor]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Sailor_Harbor)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
@@ -583,10 +583,10 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[29,0,28]}}{"TextureID"{str[Officer]}}{"ID"{int[8]}}{"Name"{str[Officer]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_Main_Officer_CastroManor)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Harbor ScriptBlock:
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[18,0,30]}}{"ID"{int[6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Harbor]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[18,0,30]}}{"ID"{int[9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Harbor]}}{"Rotation"{int[0]}}]}}
 		
 Mew under Truck:
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"ID"{int[7]}}{"Position"{sngArr[16,0,32]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Wild\Mew]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"ID"{int[10]}}{"Position"{sngArr[16,0,32]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Wild\Mew]}}{"Rotation"{int[0]}}]}}
 		
 Invisible Collisions:
 	{"EntityField"{ENT[{"Size"{intArr[2,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,0,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -603,7 +603,7 @@ Ferry Boat:
 	Doormat
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[21,0,36]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}]}}
 	Model
-		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[21.25,-0.75,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\FerryBoat\FerryBoat]}}{"Rotation"{int[2]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[21.25,-0.75,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\FerryBoat\FerryBoat]}}{"Rotation"{int[2]}}{"CameraDistanceDelta"{sng[3]}}]}}
 	Collisions
 		{"EntityField"{ENT[{"Size"{intArr[1,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[22,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
