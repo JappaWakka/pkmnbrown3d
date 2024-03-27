@@ -59,8 +59,6 @@ version=2
 	@camera.settoplayerfacing
 	@camera.update
 	@Register.Register(mettim)
-:else
-	@npc.remove(3)
 :endif
 
 :end
