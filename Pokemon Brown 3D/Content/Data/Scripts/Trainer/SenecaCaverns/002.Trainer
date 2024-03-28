@@ -1,18 +1,18 @@
 [TRAINER FORMAT]
-Name|Jin
+Name|Darian
 TrainerClass|<system.token(TrainerClass_Scientist)>
-Money|1600
-IntroMessage|<system.token(Castro_CastroManor_1F_ScientistJin_IntroMessage)>
-OutroMessage|<system.token(Castro_CastroManor_1F_ScientistJin_OutroMessage)>
-DefeatMessage|<system.token(Castro_CastroManor_1F_ScientistJin_DefeatMessage)>
+Money|1750
+IntroMessage|<system.token(SenecaCaverns_1F_ScientistDarian_IntroMessage)>
+OutroMessage|<system.token(SenecaCaverns_1F_ScientistDarian_OutroMessage)>
+DefeatMessage|<system.token(SenecaCaverns_1F_ScientistDarian_OutroMessage)>
 TextureID|Scientist_Male
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
 DefeatMusic|Rijon_Trainer_Defeat
 BattleMusic|Rijon_Trainer
-Pokemon1|101,32
-Pokemon2|110,32
+Pokemon1|138,35
+Pokemon2|140,35
 Pokemon3|
 Pokemon4|
 Pokemon5|
