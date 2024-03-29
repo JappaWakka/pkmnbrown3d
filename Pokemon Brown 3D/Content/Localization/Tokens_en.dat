@@ -3074,7 +3074,7 @@ NewGameIntro_NewNameOption,-New-
 
 [Generic Tokens]
 Generic_TV_Movie,This movie is titled "Naljo's~Guardians".*It's based off Naljo mythology!
-Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon books!
+Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon~books!
 Generic_TownMap,It's the Town Map.
 Generic_Bed_Question,It's a bed.~Would you like to rest?
 Generic_Bed_Refreshed,You and your Pokémon wake up~feeling refreshed!
@@ -3178,6 +3178,7 @@ Seashore_PlayerHouse2F_GameCube_Game_Step4_Wizard_Answer_Force,Force
 Seashore_PlayerHouse2F_GameCube_Game_Finished_Answer,That's a solid character.*It did take a while. I should~probably get going.
 Seashore_PlayerHouse2F_GameCube_Game_Finished_Random,I don't have time to play~this game. I should probably~get going.
 Seashore_PlayerHouse2F_BeSureToPlayGameCube,<player.name>: Oh wait!~I almost forgot!*Mom bought me a new Nintendo~GameCube!*Might be a good idea to check~it out before I go.
+Seashore_PlayerHouse2F_StyleChangeCloset,Would you like to change your~style?
 
 Seashore_RivalHouse_Father_BeforeTim,Are you headed to Prof. Tim's?*My son Mura left home as~well, make sure he stays safe~for me.
 Seashore_RivalHouse_Father_AfterTim,Hello <Player.Name>!*Have you met Mura recently?~Is he doing good?
@@ -3186,7 +3187,7 @@ Seashore_RivalHouse_Note_Speary,Spearow~Name: Speary
 Seashore_RivalHouse_Speary_Cry,Speary: Tetweet!
 
 Seashore_Main_YoungGirl_Green_RunningShoes,Are those new shoes?*Try running with them~by pressing [<System.Button(Run)>]!
-Seashore_Main_YoungBoy_Blue_Dreams,You should never be afraid to~attempt to accomplish~your dreams.
+Seashore_Main_YoungBoy_Blue_Dreams,You will never regret~following your dreams, even if~you don't achieve them. You'll~only regret passing up the~chance.
 Seashore_Main_YoungBoy_Red_Question,Hey! Are you going to be a~Pokémon trainer, <player.name>?
 Seashore_Main_YoungBoy_Red_AnswerYes,Cool!*I'm going to be one soon as well!*It's very hard, but rewarding.
 Seashore_Main_YoungBoy_Red_AnswerNo,Why not?
@@ -3250,10 +3251,7 @@ Gravel_TimsLab_PC_StephanieMail,There's an e-mail message~here!*...*Mr. Tim, don
 Gravel_TimsLab_RegularAide,I study Pokémon as~Prof. Tim's Aide.
 Gravel_TimsLab_RewardAide_BeforePizza,I'm hungry... Where's the pizza?
 Gravel_TimsLab_RewardAide_AfterPizza,I'm Prof. Tim's Aide.*You are working on the~Pokédex, right?*I'll give you some rewards if~you do a good job with it, so~work hard and catch lots of~different Pokémon!
-Gravel_TimsLab_ChangeStyleLady_Question,Prof. Tim is the authority~on Pokémon.~Many Pokémon trainers hold him~in high regard!*You might become a trainer~just as famous some day, but~don't you think you should~change your style a bit?
-Gravel_TimsLab_ChangeStyleLady_Yes1,Leave it to me!
-Gravel_TimsLab_ChangeStyleLady_Yes2,All done! Much better!
-Gravel_TimsLab_ChangeStyleLady_No,Come back if you change your~mind!
+Gravel_TimsLab_FemaleAide,Prof. Tim is the authority~on Pokémon.~Many Pokémon trainers hold him~in high regard!
 Gravel_TimsLab_ChoosePokemon,Mura: Finally you're here!~Let's hurry!*Tim: Mura, be patient.*...*Now then, are you both ready~for your first Pokémon?*Mura: I can't wait! Hurry up!*Tim: I have three newly~hatched Pokémon here.*My grandfather wanted me to~carry on the tradition of~being a master. I'm passing~his legacy to you two!*Mura: I am honored, good sir!*Tim: Good to know.*<player.name>, you pick first.
 Gravel_TimsLab_Choose_Charmander,Tim: So! You want the Fire~Pokémon, Charmander?
 Gravel_TimsLab_Choose_Squirtle,Tim: So! You want the Water~Pokémon, Squirtle?

@@ -1,0 +1,15 @@
+version=2
+@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset)>)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		@Screen.FadeOut(15)
+		:if:<Player.Skin>=Player_Brown
+			@Player.SetSkin(Player_Beige)
+		:else
+			@Player.SetSkin(Player_Brown)
+		:endif
+		@Screen.FadeIn(15)
+	:when:<system.token(global_no)>
+		:end
+:endwhen
+:end
