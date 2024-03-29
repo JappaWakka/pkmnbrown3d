@@ -1,7 +1,8 @@
 version=2
-@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset)>)
+@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_Question)>)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
+		@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_Yes)>)
 		@Screen.FadeOut(15)
 		:if:<Player.Skin>=Player_Brown
 			@Player.SetSkin(Player_Beige)
@@ -9,7 +10,9 @@ version=2
 			@Player.SetSkin(Player_Brown)
 		:endif
 		@Screen.FadeIn(15)
+		@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_Done)>)
 	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_No)>)
 		:end
 :endwhen
 :end
