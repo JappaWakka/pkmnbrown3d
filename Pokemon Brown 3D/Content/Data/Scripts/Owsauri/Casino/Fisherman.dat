@@ -1,20 +1,20 @@
 version=2
 :if:<Register.Registered(GameCorner1F_Fisherman)>=false
-	@Text.Show(<system.token(Owsauri_GameCorner1F_Fisherman_1)>)
+	@Text.Show(<system.token(Owsauri_Casino_1F_Fisherman_1)>)
 	:if:<inventory.countitem(54)>=1
 		@sound.play(success_small)
-		@Text.Show(<system.token(Owsauri_GameCorner1F_Fisherman_2)>)
+		@Text.Show(<system.token(Owsauri_Casino_1F_Fisherman_2)>)
 		@player.addcoins(10)
 		@Register.Register(GameCorner1F_Fisherman)
 		@npc.turn(6,1)
 		:end
 	:else
-		@Text.Show(<system.token(Owsauri_GameCorner1F_ForgotCoinCase)>)
+		@Text.Show(<system.token(Owsauri_Casino_1F_ForgotCoinCase)>)
 		@npc.turn(6,1)
 		:end
 	:endif
 :else
-	@Text.Show(<system.token(Owsauri_GameCorner1F_Fisherman_3)>)
+	@Text.Show(<system.token(Owsauri_Casino_1F_Fisherman_3)>)
 	@npc.turn(6,1)
 	:end
 :endif
