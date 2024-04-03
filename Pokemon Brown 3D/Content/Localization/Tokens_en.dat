@@ -3221,10 +3221,10 @@ Seashore_Gym_ChannelerSophie_DefeatMessage,Be gone!
 Seashore_Gym_ChannelerAgnes_IntroMessage,Pray.
 Seashore_Gym_ChannelerAgnes_OutroMessage,Not good enough!
 Seashore_Gym_ChannelerAgnes_DefeatMessage,Good battle.*Pray.
-Seashore_Gym_LeaderSheryl_BeforeBattle,Sheryl: I knew you would come.*Hello, I'm Sheryl, and I use~my Pokémon's Psychic Powers~to maximum extent.*<Player.Name>: Expect the~unexpected!
+Seashore_Gym_LeaderSheryl_BeforeBattle,Sheryl: Welcome to the~Seashore City Gym, <Player.Name>.*<Player.Name>: Wait, you know my~name?!*Sheryl: I've been monitoring~you ever since you were~beginning your journey. My~name is Sheryl, and I~specialize in the Psychic-~type, as you might have~guessed from my little puzzle.~I had a vision years ago that~I'd find you one day, you see.~As a psychologist, it's my job~to delve into the human~psyche. Now let me dive into~yours, and may my vision come~to fruition!
 Seashore_Gym_LeaderSheryl_OutroMessage,Sheryl: I'm shocked!*Alright. I can tell that you~earned this.*Take the Psi Badge!
 Seashore_Gym_LeaderSheryl_AfterBattle1,Sheryl: The Psi Badge makes~Pokémon up to Lv 70 obey you!*I predicted that you wanted~a TM to go along with this.*Well, I have the perfect one~for you!
-Seashore_Gym_LeaderSheryl_AfterBattle2,It's the strongest Psychic~attack there is!
+Seashore_Gym_LeaderSheryl_AfterBattle2,TM29 contains Psychic.*It's the strongest Psychic~attack there is!
 Seashore_Gym_LeaderSheryl_TalkAgain,Sheryl: Everyone has psychic~power!*People just don't realize it!
 Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Question,Sheryl: Ah, welcome back~<Player.Name>. I suspected you~might come back, wishing to~flaunt your power. Have you~put much thought into what~you'll wield it for, in these~coming years?*<Player.Name>: ...*Sheryl: Well, you should. Your~future is a very important~one... Now, shall we?
 Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Answer_No,Sheryl: Not ready yet? How~amusing. But I know you'll be~back soon enough.
@@ -4073,7 +4073,7 @@ Jaeru_Gym_LeaderSparky_BeforeBattle,Sparky: Attention, Perkins! Go~and oil the g
 Jaeru_Gym_LeaderSparky_OutroMessage,Sparky: Shocking! Alright,~here. Take the Sparky Badge!
 Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: The Sparky Badge,~named after yours truly,~increases your Pokémon's~speed, and lets you use Fly~anytime!*Take this too!
 Jaeru_Gym_LeaderSparky_AfterBattle2,TM24 contains Thunderbolt!*Teach it to an Electric~Pokémon!
-Jaeru_Gym_LeaderSparky_TalkAgain,Sparky: The next gym is in~Castro Valley.*My good friend Koji will give~you a run for your money.
+Jaeru_Gym_LeaderSparky_TalkAgain,Sparky: The next Gym is in~Castro Valley.*My good friend Koji will give~you a run for your money.
 Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Question,Sparky: Well, if it isn't the~big-shot. I was just itching~for battle, and you caught me~on my break. Ready for this?
 Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_No,Sparky: Bah, celebrities.~Always expecting people to~make time for them. Maybe I'll~just make myself busy next~time you show up, see how you~like it.
 Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_Yes,Sparky: All right! I'm so~amped up I can already see the~sparks flying!
@@ -4371,7 +4371,7 @@ Castro_OldRodHouse_OldRodGuy_AfterReceiveOldRod,Hello there, <Player.Name>!*How 
 
 Castro_Gym_Statues_BeforeDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura
 Castro_Gym_Statues_AfterDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<Player.Name>
-Castro_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Castro Valley's Gym has Koji~as its leader!*Koji only uses fighting Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!
+Castro_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Castro Valley's Gym has Koji~as its Leader!*Koji only uses fighting Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!
 Castro_Gym_GymGuy_AfterBadge,Gym Guy: Amazing! You've~definitely fought your way~through that one!
 Castro_Gym_JugglerJoey_IntroMessage,Master Koji only uses fighting~Pokémon!
 Castro_Gym_JugglerJoey_OutroMessage,My balls!
@@ -4385,17 +4385,17 @@ Castro_Gym_TamerAllan_DefeatMessage,Can't tell who's who?*You have no eye for de
 Castro_Gym_TamerBoris_IntroMessage,No one can beat us!
 Castro_Gym_TamerBoris_OutroMessage,Awoo!
 Castro_Gym_TamerBoris_DefeatMessage,I still have much to learn!
-Castro_Gym_JugglerKay_IntroMessage,I'm the gym leader!*Haha! Tricked you!
+Castro_Gym_JugglerKay_IntroMessage,I'm the Gym Leader!*Haha! Tricked you!
 Castro_Gym_JugglerKay_OutroMessage,You had me fooled!
 Castro_Gym_JugglerKay_DefeatMessage,Stay and train with us!
 Castro_Gym_JugglerCalvin_IntroMessage,Strength is our number one~strategy!
 Castro_Gym_JugglerCalvin_OutroMessage,What? Extraordinary!
 Castro_Gym_JugglerCalvin_DefeatMessage,I guess it's best to have~multiple strategies!
-Castro_Gym_LeaderKoji_BeforeBattle,Koji: Who is this?!*A trainer with the wits and~courage to face me and win a~Fist Badge?*Well, my Fighting Pokémon are~unbeatable, so you better be~ready to be defeated!
+Castro_Gym_LeaderKoji_BeforeBattle,Koji: Ah, so I see you've~found me at last!*<Player.Name>: One of your Gym~trainers literally told me~where you were...*Koji: So they did, did they?~I'm going to need to talk to~them about that.*The name's Koji, and I specialize~in Fighting-type Pokémon.~Our dojo is packed with the~strongest fighters in Rijon,~and I, the Castro Valley Gym~Leader, am its master!*Bow down to the might of our~powerful kicks and blows!*Hoohah!
 Castro_Gym_LeaderKoji_OutroMessage,Koji: Humph! You have proven~your worth!*Here! You deserve the Fist~Badge!
 Castro_Gym_LeaderKoji_AfterBattle1,Koji: Now that you have the~Fist Badge, you can use Surf~outside of battle.*Take this TM I found as a gift~too!
 Castro_Gym_LeaderKoji_AfterBattle2,TM 01 contains Dynamic Punch!~It can miss, but it confuses~the foe!
-Castro_Gym_LeaderKoji_TalkAgain,Koji: Dynamic Punch can often~miss but if it works it'll~deal a great amount of damage~and confuse your foe!
+Castro_Gym_LeaderKoji_TalkAgain,Koji: Dynamic Punch can often~miss, but if it works it'll~deal a great amount of damage~and confuse your foe!
 Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Question,Koji: Ah, it's the prodigy!~Or was it protégé?*<Player.Name>: Is there even a~difference?*Koji: I do not know, honestly.~Grah, I hate fancy words.~Anyways, are you here to spar?
 Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_No,Koji: Ah. Perhaps you have yet~to find your team adequately~prepared for combat? You may~return later; I will be~honored to accept your~challenge when you see fit.
 Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_Yes,Koji: Very well. Let us test~each other's full strength!*HOOHAH!
@@ -4549,14 +4549,14 @@ Route57_Gym_NormalTrainerDesmond_DefeatMessage,I need to train my Pokémon!
 Route57_Gym_NormalTrainerMacaulay_IntroMessage,I'm really normal!
 Route57_Gym_NormalTrainerMacaulay_OutroMessage,Ow!
 Route57_Gym_NormalTrainerMacaulay_DefeatMessage,It would be more normal if~you didn't win that battle!
-Route57_Gym_NormalTrainerReggie_IntroMessage,I've been to many gyms, but~this is my favorite!
+Route57_Gym_NormalTrainerReggie_IntroMessage,I've been to many Gyms, but~this is my favorite!
 Route57_Gym_NormalTrainerReggie_OutroMessage,Yowza! Too hot!
 Route57_Gym_NormalTrainerReggie_DefeatMessage,Normal Pokémon's only weakness~is Fighting Pokémon!
 Route57_Gym_NormalTrainerStefan_IntroMessage,Normal equals best!
 Route57_Gym_NormalTrainerStefan_OutroMessage,Oh! Snuffed out!
 Route57_Gym_NormalTrainerStefan_DefeatMessage,Quit staring at me, it's mean!
 Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the South Reservoir Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<Player.Name>: Well, I'll~do anything for the~Equity Badge!
-Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if you are this good.*You have earned the Equity~Badge!
+Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if~your opponent is this good.*You have earned the Equity~Badge!
 Route57_Gym_LeaderJoe_AfterBattle1,Joe: Hah!*Since you're special, I'll~give you something else!
 Route57_Gym_LeaderJoe_AfterBattle2,TM 15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!
 Route57_Gym_LeaderJoe_TalkAgain,Joe: Hyper Beam is the best~Normal attack you can get!*Don't waste it!
@@ -4626,7 +4626,7 @@ Eagulou_Cave_CoolTrainerMaleRendell_IntroMessage,You broke the entrance's~spell.
 Eagulou_Cave_CoolTrainerMaleRendell_OutroMessage,I had a chance...
 Eagulou_Cave_CoolTrainerMaleRendell_DefeatMessage,Guess you are good!
 
-Eagulou_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in~the making!*This is the hardest Gym yet.*I heard the leader uses Ground~Pokémon, so Water and Grass~would do best against him.
+Eagulou_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in~the making!*This is the hardest Gym yet.*I heard the Leader uses Ground~Pokémon, so Water and Grass~would do best against him.
 Eagulou_Gym_GymGuy_AfterBadge,Gym Guy: I never had a doubt you'd win!
 Eagulou_Gym_BlackbeltKenji_IntroMessage,Rrrroar!*Try to defeat my fury!
 Eagulou_Gym_BlackbeltKenji_OutroMessage,Wargh!
@@ -4642,7 +4642,7 @@ Eagulou_Gym_BlackbeltRyu_OutroMessage,Go!
 Eagulou_Gym_BlackbeltRyu_DefeatMessage,What are you waiting for?
 Eagulou_Gym_CoolTrainerMaleTyron_IntroMessage,Having trouble walking in here?
 Eagulou_Gym_CoolTrainerMaleTyron_OutroMessage,I lost my grip!
-Eagulou_Gym_CoolTrainerMaleTyron_DefeatMessage,The leader will scold me!
+Eagulou_Gym_CoolTrainerMaleTyron_DefeatMessage,The Leader will scold me!
 Eagulou_Gym_BlackbeltLei_IntroMessage,Hahahaha!
 Eagulou_Gym_BlackbeltLei_OutroMessage,Ayah!
 Eagulou_Gym_BlackbeltLei_DefeatMessage,Don't go so fast!
@@ -4803,13 +4803,13 @@ League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Wow! That was an~astonishing v
 League_EntranceHall_CableClubLady,Welcome to the Cable Club.*This area is reserved for~2 friends who are linked~by cable.
 League_EntranceHall_EntranceLady,Do you think you're ready?*Good, go in!
 
-League_Elite4_Red_IntroMessage,Welcome to the Rijon League!*I am Redd, the Fire trainer!*No one can withstand my Fire~Pokémon!*Let's ignite the fight!
-League_Elite4_Red_OutroMessage,That was a hot battle!
-League_Elite4_Red_DefeatMessage,You've blazed me away!~Go on ahead!
+League_Elite4_Red_IntroMessage,Redd: Welcome to the Rijon~League, <Player.Name>.*<Player.Name>: You know my name?~Who are you?*Redd: The name's Redd, and~I'll be your first opponent in~the Rijon League.*We've heard a lot about you.~As for me, my fire Pokémon are~tough, rough, and ready. Watch~me rev right up and leave you~and your team in flames!
+League_Elite4_Red_OutroMessage,Redd: How dare you!
+League_Elite4_Red_DefeatMessage,Redd: You're better than I~thought! Go on ahead!
 
-League_Elite4_Jared_IntroMessage,I'm Jared of the Rijon~League!*I trust the power of Poison~and I'm not afraid to be~toxic! So give up now!
-League_Elite4_Jared_OutroMessage,How could I lose? This is~unfair!
-League_Elite4_Jared_DefeatMessage,Whatever! Go bother the next~trainer!
+League_Elite4_Jared_IntroMessage,Jared: So you beat Redd after~all, didn't you?*<Player.Name>: She was no problem~at all! Bring it on!*Jared: No problem at all, huh?~Such feistiness coming from a~little one such as yourself.*My name is Jared, and I take~part in the art of Ninja~Pokémon.*My cousin Koga introduced~me to them when I was a kid,~and I haven't backed down~ever since.*Prepare to be confounded~not by sheer power, but by the~art of status conditions.*Confusion... sleep...~poison... you'll learn their~worth soon enough.
+League_Elite4_Jared_OutroMessage,Jared: Why? How could I lose?
+League_Elite4_Jared_DefeatMessage,Jared: My job is done! Go face~your next challenge!
 
 League_Elite4_Agatha_IntroMessage,I am Agatha!*I was once part of the Pokémon~League in Kanto, but I wanted~to test the skills of trainers~in other regions as well.~So I moved to Rijon.*My Pokémon are ready to fight~when you are, child!
 League_Elite4_Agatha_OutroMessage,Oh-ho-ho! You're something~special, child!
