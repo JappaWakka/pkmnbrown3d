@@ -474,9 +474,9 @@ Stairs:
 	
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[11,0,19]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Rocket Scientist]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(SenecaCaverns_1F_FossilScientist)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[10,0,5]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[1]}}{"Name"{str[Rocket Grunt Derrick]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\SenecaCaverns\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[10,0,5]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[1]}}{"Name"{str[Rocket Grunt Derrick]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\SenecaCaverns\000]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[28,0,0]}}{"TextureID"{str[RocketGrunt_Female]}}{"ID"{int[2]}}{"Name"{str[Rocket Grunt Rosalyn]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\SenecaCaverns\001]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[27,1,13]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[3]}}{"Name"{str[Rocket Scientist]}}{"Action"{int[2]}}{"AdditionalValue"{str[4|trainer\SenecaCaverns\002]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[27,1,13]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[3]}}{"Name"{str[Rocket Scientist]}}{"Action"{int[2]}}{"AdditionalValue"{str[4|trainer\SenecaCaverns\002]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	
 Ladders:
 	Seneca Caverns B1F (East)

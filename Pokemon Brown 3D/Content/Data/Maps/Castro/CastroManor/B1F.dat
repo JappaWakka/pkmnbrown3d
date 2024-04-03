@@ -401,5 +401,8 @@ Items:
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[4,0.625,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[3,gm64]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 	
 	TM 40
-	{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[25,-0.375,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[4,gm58]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[25,-0.375,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[4,gm58]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+	
+	Hidden Rare Candy
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[16,-0.375,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[5,32]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 	

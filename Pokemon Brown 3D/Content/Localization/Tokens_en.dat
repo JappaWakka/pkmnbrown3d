@@ -287,7 +287,7 @@ IngameMenu:
 game_menu_pokedex,Pokédex
 game_menu_party,Pokémon
 game_menu_bag,Bag
-game_menu_trainer_card,<player.name>
+game_menu_trainer_card,<Player.Name>
 game_menu_save,Save
 game_menu_save_notpossible,Saving is not possible right now.
 game_menu_options,Options
@@ -315,7 +315,7 @@ map_screen_places,Places
 map_screen_roaming,Roaming Pokes
 ---
 Trainer Card Screen:
-trainer_screen_collected_badges,Collected badges
+trainer_screen_collected_badges,Collected Badges
 trainer_screen_badge, Badge
 trainer_screen_empty_badge,???
 ---
@@ -364,7 +364,7 @@ Voltorb Flip:
 VoltorbFlip_LV.,LV.
 VoltorbFlip_CurrentCoins_Line1,Coins found
 VoltorbFlip_CurrentCoins_Line2,in this LV.
-VoltorbFlip_TotalCoins_Line1,<player.name>'s
+VoltorbFlip_TotalCoins_Line1,<Player.Name>'s
 VoltorbFlip_TotalCoins_Line2,earned Coins
 
 VoltorbFlip_MemoButton_Open_Line1,Open
@@ -390,7 +390,7 @@ VoltorbFlip_BeforeNewLevel_GameInfo_Answer_Hint,Hint!
 VoltorbFlip_BeforeNewLevel_GameInfo_Answer_AboutMemos,About Memos
 VoltorbFlip_BeforeNewLevel_GameInfo_Back,Back
 
-VoltorbFlip_GameWon_1,Game clear!~You've found all of the~hidden x2 and x3 cards.*<player.name> received~
+VoltorbFlip_GameWon_1,Game clear!~You've found all of the~hidden x2 and x3 cards.*<Player.Name> received~
 VoltorbFlip_GameWon_2,Coin(s)!
 
 VoltorbFlip_GameLost,Oh no! You get 0 Coins!
@@ -404,7 +404,7 @@ VoltorbFlip_NewLevel_Higher2,!
 VoltorbFlip_NewLevel_Ready1,Ready to play Game Lv.
 VoltorbFlip_NewLevel_Ready2,!
 
-VoltorbFlip_QuitGame_1,<player.name> received~
+VoltorbFlip_QuitGame_1,<Player.Name> received~
 VoltorbFlip_QuitGame_2,Coin(s)!
 
 VoltorbFlip_AfterGame_Won1,You've won
@@ -425,16 +425,16 @@ VoltorbFlip_Tutorial_AboutMemos_Image,Select "Open Memo" to open the Memo Window
 Receiving Items:
 item_received_single,Received the~
 item_received_multiple,Received
-item_found,<player.name> found~
-item_stored_in_pocket_single_start,<player.name> stored it in the~
+item_found,<Player.Name> found~
+item_stored_in_pocket_single_start,<Player.Name> stored it in the~
 item_stored_in_pocket_single_end,pocket.
-item_stored_in_pocket_multiple_start,<player.name> stored them~in the
+item_stored_in_pocket_multiple_start,<Player.Name> stored them~in the
 item_stored_in_pocket_multiple_end,pocket.
 
 Berries:
-berry_picked_single_start,<player.name> picked the~
+berry_picked_single_start,<Player.Name> picked the~
 berry_picked_single_end,Berry.
-berry_picked_multiple_start,<player.name> picked the~
+berry_picked_multiple_start,<Player.Name> picked the~
 berry_picked_multiple_end,Berries.
 ----
 PokedexScreen
@@ -471,15 +471,15 @@ pokedex_evolution_no_evolutions,doesn't evolve.
 Receiving Items:
 item_received_single,Received the~
 item_received_multiple,Received
-item_stored_in_pocket_single_start,<player.name> stored it in the~
+item_stored_in_pocket_single_start,<Player.Name> stored it in the~
 item_stored_in_pocket_single_end,pocket.
-item_stored_in_pocket_multiple_start,<player.name> stored them~in the
+item_stored_in_pocket_multiple_start,<Player.Name> stored them~in the
 item_stored_in_pocket_multiple_end,pocket.
 
 Berries:
-berry_picked_single_start,<player.name> picked the~
+berry_picked_single_start,<Player.Name> picked the~
 berry_picked_single_end,Berry.
-berry_picked_multiple_start,<player.name> picked the~
+berry_picked_multiple_start,<Player.Name> picked the~
 berry_picked_multiple_end,Berries.
 ----
 Battle:
@@ -2330,12 +2330,12 @@ item_6_missingskin,You can't use this item~without a bicycle skin.*Its name shou
 item_6_only_custom_gamemodes,This item can't be used~on this GameMode.
 
 [Official Items]
-item_use_6,<player.name> stepped~off the Bicycle.
+item_use_6,<Player.Name> stepped~off the Bicycle.
 item_use_54,Your Coins:~
 
 [GameMode Items]
-Item_Use_TownMap,<player.name> checked the~Town Map.
-Item_Use_PokeFlute,<player.name> played the~PokéFlute.
+Item_Use_TownMap,<Player.Name> checked the~Town Map.
+Item_Use_PokeFlute,<Player.Name> played the~PokéFlute.
 Item_Use_HiddenTreasures,What could this item be?*It looks important.~I should find an expert!
 -------------------
 Move Names:
@@ -3079,7 +3079,7 @@ Generic_TownMap,It's the Town Map.
 Generic_Bed_Question,It's a bed.~Would you like to rest?
 Generic_Bed_Refreshed,You and your Pokémon wake up~feeling refreshed!
 Generic_HealPlatform_Start,This seems like a sweet spot~to take a break...
-Generic_HealPlatform_End,<player.name>'s Pokémon are~fully healed!
+Generic_HealPlatform_End,<Player.Name>'s Pokémon are~fully healed!
 
 Generic_PokeCenter_NurseJoy_Question_NightDay,Hello, and welcome to~our Pokémon Center!*We heal your Pokémon back to~perfect health!
 Generic_PokeCenter_NurseJoy_Question_Morning,Good morning! Welcome~to our Pokémon Center!*We heal your Pokémon back to~perfect health!
@@ -3146,14 +3146,14 @@ DexEvaluation_Rating_Level16,I can't believe it!*<Player.Name>, your Pokédex is
 
 [Seashore City]
 Seashore_PlayerHouse1F_Mom_LookForTim,Good luck on following your~dad's footsteps, sweetie!*Go south and look for the~Professor.
-Seashore_PlayerHouse1F_Mom_TakeARest,<player.name>! You should take~a quick rest.
+Seashore_PlayerHouse1F_Mom_TakeARest,<Player.Name>! You should take~a quick rest.
 Seashore_PlayerHouse1F_Mom_AfterRest,Oh good! You and your~Pokémon are looking great!~Take care now!
-Seashore_PlayerHouse1F_Mom_AfterChampion,<player.name>! So my child is~Rijon's Champion? What are you~going to do now? You should~go visit the Gym Leaders again,~they may surprise you!*Also there's that "Champions~only" building in Hayward, you~may go check it out too!*In any case, why don't you~take a quick rest before~continuing your adventure?
-Seashore_PlayerHouse1F_Mom_AfterFinalDungeon,<player.name>! So my child is~Rijon's Champion? What are you~going to do now? You should~go visit the Gym Leaders again,~they may surprise you!*In any case, why don't you~take a quick rest before~continuing your adventure?
-Seashore_PlayerHouse1F_Mom_AfterRematch,<player.name>! So my child is~Rijon's Champion? What are you~going to do now? There's that~"Champions~only" building in~Hayward, you may go check~that out!*In any case, why don't you~take a quick rest before~continuing your adventure?
+Seashore_PlayerHouse1F_Mom_AfterChampion,<Player.Name>! So my child is~Rijon's Champion? What are you~going to do now? You should~go visit the Gym Leaders again,~they may surprise you!*Also there's that "Champions~only" building in Hayward, you~may go check it out too!*In any case, why don't you~take a quick rest before~continuing your adventure?
+Seashore_PlayerHouse1F_Mom_AfterFinalDungeon,<Player.Name>! So my child is~Rijon's Champion? What are you~going to do now? You should~go visit the Gym Leaders again,~they may surprise you!*In any case, why don't you~take a quick rest before~continuing your adventure?
+Seashore_PlayerHouse1F_Mom_AfterRematch,<Player.Name>! So my child is~Rijon's Champion? What are you~going to do now? There's that~"Champions~only" building in~Hayward, you may go check~that out!*In any case, why don't you~take a quick rest before~continuing your adventure?
 
-Seashore_PlayerHouse2F_GameCube,<player.name> is playing the~Nintendo GameCube!*...Okay!~It's time to go!
-Seashore_PlayerHouse2F_GameCube_Game_Step1_Question,<player.name> is playing a new~game on the Nintendo GameCube!*Let's create a new character.~What class should they be?
+Seashore_PlayerHouse2F_GameCube,<Player.Name> is playing the~Nintendo GameCube!*...Okay!~It's time to go!
+Seashore_PlayerHouse2F_GameCube_Game_Step1_Question,<Player.Name> is playing a new~game on the Nintendo GameCube!*Let's create a new character.~What class should they be?
 Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Fighter,Fighter
 Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Wizard,Wizard
 Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Random,Random
@@ -3177,7 +3177,7 @@ Seashore_PlayerHouse2F_GameCube_Game_Step4_Wizard_Answer_Stealth,Stealth
 Seashore_PlayerHouse2F_GameCube_Game_Step4_Wizard_Answer_Force,Force
 Seashore_PlayerHouse2F_GameCube_Game_Finished_Answer,That's a solid character.*It did take a while. I should~probably get going.
 Seashore_PlayerHouse2F_GameCube_Game_Finished_Random,I don't have time to play~this game. I should probably~get going.
-Seashore_PlayerHouse2F_BeSureToPlayGameCube,<player.name>: Oh wait!~I almost forgot!*Mom bought me a new Nintendo~GameCube!*Might be a good idea to check~it out before I go.
+Seashore_PlayerHouse2F_BeSureToPlayGameCube,<Player.Name>: Oh wait!~I almost forgot!*Mom bought me a new Nintendo~GameCube!*Might be a good idea to check~it out before I go.
 Seashore_PlayerHouse2F_StyleChangeCloset_Question,Should I change my style a~bit?
 Seashore_PlayerHouse2F_StyleChangeCloset_Yes,Let's go!
 Seashore_PlayerHouse2F_StyleChangeCloset_No,Maybe later.
@@ -3191,7 +3191,7 @@ Seashore_RivalHouse_Speary_Cry,Speary: Tetweet!
 
 Seashore_Main_YoungGirl_Green_RunningShoes,Are those new shoes?*Try running with them~by pressing [<System.Button(Run)>]!
 Seashore_Main_YoungBoy_Blue_Dreams,You will never regret~following your dreams, even if~you don't achieve them. You'll~only regret passing up the~chance.
-Seashore_Main_YoungBoy_Red_Question,Hey! Are you going to be a~Pokémon trainer, <player.name>?
+Seashore_Main_YoungBoy_Red_Question,Hey! Are you going to be a~Pokémon trainer, <Player.Name>?
 Seashore_Main_YoungBoy_Red_AnswerYes,Cool!*I'm going to be one soon as well!*It's very hard, but rewarding.
 Seashore_Main_YoungBoy_Red_AnswerNo,Why not?
 
@@ -3199,7 +3199,7 @@ Seashore_Main_Sign_City,Seashore City*Where waves of new journeys~begin their lo
 Seashore_Main_Sign_Gym,Seashore City~Pokémon Gym~Leader: Sheryl*Master of the Extrasensory!
 
 Seashore_Gym_Sign_BeforeDefeat,Seashore City~Pokémon Gym~Leader: Sheryl*Winning Trainers:~Mura
-Seashore_Gym_Sign_AfterDefeat,Seashore City~Pokémon Gym~Leader: Sheryl*Winning Trainers:~Mura~<player.name>
+Seashore_Gym_Sign_AfterDefeat,Seashore City~Pokémon Gym~Leader: Sheryl*Winning Trainers:~Mura~<Player.Name>
 Seashore_Gym_ChannelerHelen_IntroMessage,Do your best!
 Seashore_Gym_ChannelerHelen_OutroMessage,I knew it!
 Seashore_Gym_ChannelerHelen_DefeatMessage,I need to do better next time!
@@ -3221,16 +3221,16 @@ Seashore_Gym_ChannelerSophie_DefeatMessage,Be gone!
 Seashore_Gym_ChannelerAgnes_IntroMessage,Pray.
 Seashore_Gym_ChannelerAgnes_OutroMessage,Not good enough!
 Seashore_Gym_ChannelerAgnes_DefeatMessage,Good battle.*Pray.
-Seashore_Gym_LeaderSheryl_BeforeBattle,Sheryl: I knew you would come.*Hello, I'm Sheryl, and I use~my Pokémon's Psychic Powers~to maximum extent.*<player.name>: Expect the~unexpected!
+Seashore_Gym_LeaderSheryl_BeforeBattle,Sheryl: I knew you would come.*Hello, I'm Sheryl, and I use~my Pokémon's Psychic Powers~to maximum extent.*<Player.Name>: Expect the~unexpected!
 Seashore_Gym_LeaderSheryl_OutroMessage,Sheryl: I'm shocked!*Alright. I can tell that you~earned this.*Take the Psi Badge!
 Seashore_Gym_LeaderSheryl_AfterBattle1,Sheryl: The Psi Badge makes~Pokémon up to Lv 70 obey you!*I predicted that you wanted~a TM to go along with this.*Well, I have the perfect one~for you!
 Seashore_Gym_LeaderSheryl_AfterBattle2,It's the strongest Psychic~attack there is!
 Seashore_Gym_LeaderSheryl_TalkAgain,Sheryl: Everyone has psychic~power!*People just don't realize it!
-Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Question,Sheryl: Ah, welcome back~<player.name>. I suspected you~might come back, wishing to~flaunt your power. Have you~put much thought into what~you'll wield it for, in these~coming years?*<player.name>: ...*Sheryl: Well, you should. Your~future is a very important~one... Now, shall we?
+Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Question,Sheryl: Ah, welcome back~<Player.Name>. I suspected you~might come back, wishing to~flaunt your power. Have you~put much thought into what~you'll wield it for, in these~coming years?*<Player.Name>: ...*Sheryl: Well, you should. Your~future is a very important~one... Now, shall we?
 Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Answer_No,Sheryl: Not ready yet? How~amusing. But I know you'll be~back soon enough.
 Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Answer_Yes,Sheryl: I thought so.*Let's see if I can pry into~the source of your power a~little more!
 Seashore_Gym_LeaderSheryl_Rematch_OutroMessage,Sheryl: You young trainers..~I wonder how far beyond my~visions you'll travel.
-Seashore_Gym_LeaderSheryl_Rematch_AfterBattle,Sheryl: What does strength~even mean to you?*<player.name>: I'm not really~sure about the details, I just~know the stronger the trainers~and Pokémon, the more fun the~battle! So being strong is~just winning a lot, right?*Sheryl: That's just one part~of the picture. Are battles~between weak trainers any less~meaningful?*<player.name>: I mean, they're a~lot lamer...*Sheryl: Ha! Maybe you're right.~I never wanted to be a weak~trainer either. Just keep an~open mind, Champion.
+Seashore_Gym_LeaderSheryl_Rematch_AfterBattle,Sheryl: What does strength~even mean to you?*<Player.Name>: I'm not really~sure about the details, I just~know the stronger the trainers~and Pokémon, the more fun the~battle! So being strong is~just winning a lot, right?*Sheryl: That's just one part~of the picture. Are battles~between weak trainers any less~meaningful?*<Player.Name>: I mean, they're a~lot lamer...*Sheryl: Ha! Maybe you're right.~I never wanted to be a weak~trainer either. Just keep an~open mind, Champion.
 
 [Route 53]
 Route53_Sign,Route 53~Gravel Canyon*Seashore City - Gravel Town
@@ -3255,31 +3255,31 @@ Gravel_TimsLab_RegularAide,I study Pokémon as~Prof. Tim's Aide.
 Gravel_TimsLab_RewardAide_BeforePizza,I'm hungry... Where's the pizza?
 Gravel_TimsLab_RewardAide_AfterPizza,I'm Prof. Tim's Aide.*You are working on the~Pokédex, right?*I'll give you some rewards if~you do a good job with it, so~work hard and catch lots of~different Pokémon!
 Gravel_TimsLab_FemaleAide,Prof. Tim is the authority~on Pokémon.~Many Pokémon trainers hold him~in high regard!
-Gravel_TimsLab_ChoosePokemon,Mura: Finally you're here!~Let's hurry!*Tim: Mura, be patient.*...*Now then, are you both ready~for your first Pokémon?*Mura: I can't wait! Hurry up!*Tim: I have three newly~hatched Pokémon here.*My grandfather wanted me to~carry on the tradition of~being a master. I'm passing~his legacy to you two!*Mura: I am honored, good sir!*Tim: Good to know.*<player.name>, you pick first.
+Gravel_TimsLab_ChoosePokemon,Mura: Finally you're here!~Let's hurry!*Tim: Mura, be patient.*...*Now then, are you both ready~for your first Pokémon?*Mura: I can't wait! Hurry up!*Tim: I have three newly~hatched Pokémon here.*My grandfather wanted me to~carry on the tradition of~being a master. I'm passing~his legacy to you two!*Mura: I am honored, good sir!*Tim: Good to know.*<Player.Name>, you pick first.
 Gravel_TimsLab_Choose_Charmander,Tim: So! You want the Fire~Pokémon, Charmander?
 Gravel_TimsLab_Choose_Squirtle,Tim: So! You want the Water~Pokémon, Squirtle?
 Gravel_TimsLab_Choose_Bulbasaur,Tim: So! You want the Grass~Pokémon, Bulbasaur?
 Gravel_TimsLab_Choose_Confirm,Tim: Good choice!
-Gravel_TimsLab_Receive_Charmander,<player.name> received~a Charmander!
-Gravel_TimsLab_Receive_Squirtle,<player.name> received~a Squirtle!
-Gravel_TimsLab_Receive_Bulbasaur,<player.name> received~a Bulbasaur!
+Gravel_TimsLab_Receive_Charmander,<Player.Name> received~a Charmander!
+Gravel_TimsLab_Receive_Squirtle,<Player.Name> received~a Squirtle!
+Gravel_TimsLab_Receive_Bulbasaur,<Player.Name> received~a Bulbasaur!
 Gravel_TimsLab_StarterPokemon_CatchMethod,As a gift from Prof. Tim
 Gravel_TimsLab_StarterPokemon_CatchLocation,at Gravel Town
 Gravel_TimsLab_Tim_LeaveBeforeChoose,Tim: Hey! Don't go away yet!
 Gravel_TimsLab_Tim_ChoosePokemon,Tim: What are you doing?*Choose a Pokémon!
 Gravel_TimsLab_Tim_GoodLuck,Tim: Good luck!
-Gravel_TimsLab_Tim_TakeGoodCare,<player.name>!*I expect you to take good care~of it!
-Gravel_TimsLab_Tim_CatchPokemon1,Tim: Pokémon are just waiting~to be caught, <player.name>!*But you can't get detailed~data on Pokémon just by seeing~them. You need to catch them!~Use these to capture wild~Pokémon.
+Gravel_TimsLab_Tim_TakeGoodCare,<Player.Name>!*I expect you to take good care~of it!
+Gravel_TimsLab_Tim_CatchPokemon1,Tim: Pokémon are just waiting~to be caught, <Player.Name>!*But you can't get detailed~data on Pokémon just by seeing~them. You need to catch them!~Use these to capture wild~Pokémon.
 Gravel_TimsLab_Tim_CatchPokemon2,Tim: When a wild Pokémon~appears, it's fair game. Just~throw a Poké Ball at it and~try to catch it! This won't~always work, though, a healthy~Pokémon could escape. You~have to be lucky!
 Gravel_TimsLab_Tim_ComeSeeMeSometimes,Tim: Come see me sometimes.~I want to know how your~Pokédex is coming along.
 Gravel_TimsLab_Tim_DexEvaluation,Tim: Good to see you! How is~your Pokédex doing?~Here, let me take a look!
-Gravel_TimsLab_Pokedex1,Tim: Oh, <player.name>!~What are you doing back~so early?*Huh, you have something~for me?
-Gravel_TimsLab_Pokedex2,<player.name> handed Tim his pizza.*Tim: Oh good! I was hungry,~but too busy to pick it up!
+Gravel_TimsLab_Pokedex1,Tim: Oh, <Player.Name>!~What are you doing back~so early?*Huh, you have something~for me?
+Gravel_TimsLab_Pokedex2,<Player.Name> handed Tim his pizza.*Tim: Oh good! I was hungry,~but too busy to pick it up!
 Gravel_TimsLab_Pokedex3,Mura: Coming!
-Gravel_TimsLab_Pokedex4,Mura: What do you need~me for?*Tim: Oh right!~I have a request of you two.*On the desk there is an~invention, the Pokédex!~It automatically records data~on Pokémon you've seen~or caught.*It's a hi-tech encyclopedia!*<player.name> and Mura!~Take these with you!
-Gravel_TimsLab_Pokedex5,<player.name> got a~Pokédex from Tim!
+Gravel_TimsLab_Pokedex4,Mura: What do you need~me for?*Tim: Oh right!~I have a request of you two.*On the desk there is an~invention, the Pokédex!~It automatically records data~on Pokémon you've seen~or caught.*It's a hi-tech encyclopedia!*<Player.Name> and Mura!~Take these with you!
+Gravel_TimsLab_Pokedex5,<Player.Name> got a~Pokédex from Tim!
 Gravel_TimsLab_Pokedex6,Tim: I'll sign you up for~Bill's Storage System as well.~To make a complete guide~on all the Pokémon in the world...*That was gramps' dream...*But he passed away before~he could finish them.~I need you two to do this~for him.
-Gravel_TimsLab_Pokedex7,Mura: Alright!~I will do that all for you.*<player.name>!~I will fill this Pokédex up~and you won't!*...I know!~I'll buy lots of Poké Balls~with all my cash!~That way I'll catch them all.*<player.name>! See ya!
+Gravel_TimsLab_Pokedex7,Mura: Alright!~I will do that all for you.*<Player.Name>!~I will fill this Pokédex up~and you won't!*...I know!~I'll buy lots of Poké Balls~with all my cash!~That way I'll catch them all.*<Player.Name>! See ya!
 Gravel_TimsLab_Mura_ChoosePokemon,Mura: I'll take this one, then!
 Gravel_TimsLab_Mura_Receive_Charmander,Mura received a Charmander!
 Gravel_TimsLab_Mura_Receive_Squirtle,Mura received a Squirtle!
@@ -3287,9 +3287,9 @@ Gravel_TimsLab_Mura_Receive_Bulbasaur,Mura received a Bulbasaur!
 Gravel_TimsLab_Mura_HurryUp,Mura: Hurry up, I want my~turn!
 Gravel_TimsLab_Mura_BetterChoice,Mura: I made the best choice!
 Gravel_TimsLab_Mura_Chump,Pft, what a chump!
-Gravel_TimsLab_Mura_FirstBattle1,Wait, <player.name>!
+Gravel_TimsLab_Mura_FirstBattle1,Wait, <Player.Name>!
 Gravel_TimsLab_Mura_FirstBattle2,Let's check out our Pokémon!~I'll probably beat you!
-Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Okay. I now understand~the difficulty of training.*<player.name>, we will meet again!
+Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Okay. I now understand~the difficulty of training.*<Player.Name>, we will meet again!
 Gravel_TimsLab_Mura_OutroMessage,...Darn, I need to train this~Pokémon!
 
 Gravel_PokeMart_Youngster,Ya!~Potions are available!
@@ -3297,8 +3297,8 @@ Gravel_PokeMart_BugCatcher,This shop sells lots of~Poké Balls.
 Gravel_PokeMart_Clerk_YoKiddo,Yo kiddo!
 Gravel_PokeMart_Clerk_TimsPizza,Prof. Tim forgot to pick up~his pizza!*Will you deliver it for me?
 Gravel_PokeMain_Clerk_NoDelivery,We don't deliver, you know...
-Gravel_PokeMart_ReceivePizza,<player.name> received Tim's Pizza!
-Gravel_PokeMart_PizzaInPocket,<player.name> stored it in the~№ KeyItems pocket.
+Gravel_PokeMart_ReceivePizza,<Player.Name> received Tim's Pizza!
+Gravel_PokeMart_PizzaInPocket,<Player.Name> stored it in the~№ KeyItems pocket.
 
 [Merson Cave]
 MersonCave_Outside_NoPokedexNoAccessGuy,Go in without a Pokédex?*Are you crazy?
@@ -3367,14 +3367,14 @@ Merson_FanClub_Lady,I need a better job.
 Merson_FanClub_Chairman_Question,I chair the Pokémon Fan Club!*I have collected over 100~Pokémon!*I'm very fussy when it comes~to Pokémon!*So...*Did you bring in a cool~Pokémon?
 Merson_FanClub_Chairman_AnswerYes,Good! There's a special deal~I'm offering.*Bring in a Pokémon and you'll~get a free Bike coupon!*And it looks like you have one~so here you go!
 Merson_FanClub_Chairman_AnswerNo,Are you sure? Because~there's a special deal~I'm offering.*Bring in a Pokémon and you'll~get a free Bike coupon!*And it looks like you have one~so here you go!
-Merson_FanClub_Chairman_AfterVoucher,Hello, <player.name>!*I hope you have fun with~that Bike!
-Merson_FanClub_ReceiveVoucher,<player.name> received a~Bike Voucher!*Exchange that for a Bike!
+Merson_FanClub_Chairman_AfterVoucher,Hello, <Player.Name>!*I hope you have fun with~that Bike!
+Merson_FanClub_ReceiveVoucher,<Player.Name> received a~Bike Voucher!*Exchange that for a Bike!
 
 Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!
 Merson_CuboneHouse_Girl,Say hi to my cute Cubone!
 
 Merson_Gym_Statues_BeforeDefeat,Merson City~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura
-Merson_Gym_Statues_AfterDefeat,Merson City~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<player.name>
+Merson_Gym_Statues_AfterDefeat,Merson City~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<Player.Name>
 Merson_Gym_GymGuy_BeforeBadge_Question,Gym Guy: Hi there.*If you are looking for a~challenge, you came to the~right place.*Want to learn about the Leader~Karpman?
 Merson_Gym_GymGuy_BeforeBadge_Yes,Great, here we go!*Karpman uses Water Pokémon. Your best bet against him is to use either a Grass or an Electric Pokémon.
 Merson_Gym_GymGuy_BeforeBadge_No,Please just listen.*Thanks.*Karpman uses Water Pokémon. Your best bet against him is to use either a Grass or an Electric Pokémon.
@@ -3382,7 +3382,7 @@ Merson_Gym_GymGuy_AfterBadge,Gym Guy: Well now, you might~be special at training
 Merson_Gym_JrTrainerMaleButch_IntroMessage,I'm Lochlan's right hand~man! Let's see if you make~it past me!
 Merson_Gym_JrTrainerMaleButch_OutroMessage,Darn! I slipped up!
 Merson_Gym_JrTrainerMaleButch_DefeatMessage,Karpman's given name is~Lochlan. Don't tell him I told~you that! He knows all about~marine biology!
-Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welcome to the Merson~City Gym, challenger!*<player.name>: So you're a Gym~Leader?*Karpman: You got it! My name~is Karpman, and I specialize~in Water-type Pokémon! If you~defeat me, I'll give you the~Marine Badge. Get all eight~badges throughout the region,~and you'll get the chance to~become Rijon's Champion! But I~won't make it easy for you.~Be sure to brace yourself for~waves of defeat!*<player.name>: Show me your best,~Karpman!
+Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welcome to the Merson~City Gym, challenger!*<Player.Name>: So you're a Gym~Leader?*Karpman: You got it! My name~is Karpman, and I specialize~in Water-type Pokémon! If you~defeat me, I'll give you the~Marine Badge. Get all eight~Badges throughout the region,~and you'll get the chance to~become Rijon's Champion! But I~won't make it easy for you.~Be sure to brace yourself for~waves of defeat!*<Player.Name>: Show me your best,~Karpman!
 Merson_Gym_LeaderKarpman_OutroMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your~victory, here's the~Marine Badge!
 Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*But all caves in Rijon were lit~by Shinra Electric Power~Company, so it is kinda useless~now...*Wait! Take this with you!
 Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*TMs are single use! So when~you use one to teach a new~technique, pick the Pokémon~carefully!*TM 12 contains Octazooka!~It's a Water move that can~lower the accuracy of your foe!
@@ -3445,7 +3445,7 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*F
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*Grass, Ice, Steel, Poison and~Water.*Offense - Weak towards:*Bug, Electric, Rock and Wind.*Offense - No effect towards:~Fire.*Defense - Strong against:*Bug and Ground.*Defense - Weak against:*Electric, Fire, Fighting and~Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and Normal.
 Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
-Route55_RainbowTower_Floor4_Room_Porygon_Receive,<player.name> got Porygon!
+Route55_RainbowTower_Floor4_Room_Porygon_Receive,<Player.Name> got Porygon!
 Route55_RainbowTower_Floor4_Room_Porygon_ToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
 Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift
 Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the Rainbow Tower
@@ -3468,7 +3468,7 @@ Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade
 Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,at a house at Route 52
 
 [Route 52 - Hayward City Gate]
-Route52_Hayward_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 75 kinds of~Pokémon, I'm supposed to~give you a Super Rod!*So <player.name>! Have you~caught at least 75 kinds~of Pokémon?
+Route52_Hayward_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 75 kinds of~Pokémon, I'm supposed to~give you a Super Rod!*So <Player.Name>! Have you~caught at least 75 kinds~of Pokémon?
 Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_75OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
 Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 75 kinds if~you want the Super Rod.
 Route52_Hayward_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 75 kinds,~come back for the Super Rod.
@@ -3520,9 +3520,9 @@ Hayward_Main_VendingMachine_Extra_SodaPop,Score!*An extra bottle of Soda Pop~dro
 Hayward_Main_VendingMachine_Extra_Lemonade,Score!*An extra can of Lemonade~dropped down!
 Hayward_Main_VendingMachine_NotEnoughMoney,You don't have enough money!
 
-Hayward_Main_Mura_BeforeBattle,Mura: Yo! <player.name>!*I just got a cool HM from~that city back there.*My Pokémon have been~getting stronger too!*<player.name>: Alright, let's see~if that's true, Mura!
+Hayward_Main_Mura_BeforeBattle,Mura: Yo! <Player.Name>!*I just got a cool HM from~that city back there.*My Pokémon have been~getting stronger too!*<Player.Name>: Alright, let's see~if that's true, Mura!
 Hayward_Main_Mura_OutroMessage,Mura: Hey!~Take it easy!~You won already!
-Hayward_Main_Mura_AfterBattle,Mura: You may have won~this time, but I'm going to~compete in the Rijon League~and become the champion!*<player.name>: Not before I do!*Mura: Well see about that~man, I'll see you later.
+Hayward_Main_Mura_AfterBattle,Mura: You may have won~this time, but I'm going to~compete in the Rijon League~and become the champion!*<Player.Name>: Not before I do!*Mura: Well see about that~man, I'll see you later.
 
 Hayward_PokeCenter_BenchGuy,I wish I had HM02.
 Hayward_PokeCenter_Gentleman,If you can find a fossil, that~lab next door will revive it!
@@ -3541,14 +3541,14 @@ Hayward_FossilLab_FossilReviver_Answer_No,Don't waste my time then!~Come back wh
 Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! That is a Helix Fossil!~It's a fossil of Omanyte,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
 Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! That is a Dome Fossil!~It's a fossil of Kabuto,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
 Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! That is a Skull Fossil!~It's a fossil of Cranidos,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Well? Hurry up and give~me that!*<player.name> handed~over the Helix Fossil!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Well? Hurry up and give~me that!*<player.name> handed~over the Dome Fossil!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me that!*<player.name> handed~over the Skull Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Well? Hurry up and give~me that!*<Player.Name> handed~over the Helix Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Well? Hurry up and give~me that!*<Player.Name> handed~over the Dome Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me that!*<Player.Name> handed~over the Skull Fossil!*Walk around Eagulou and come~back, then I can finish!
 Hayward_FossilLab_FossilReviver_NoSand,Don't put sand in your bag!~Just walk around Eagulou!*What gets stuck in your~clothes will be enough!
 Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~Enjoy your new Pokemon!
-Hayward_FossilLab_GotOmanyte,<player.name> got Omanyte!
-Hayward_FossilLab_GotKabuto,<player.name> got Kabuto!
-Hayward_FossilLab_GotCranidos,<player.name> got Cranidos!
+Hayward_FossilLab_GotOmanyte,<Player.Name> got Omanyte!
+Hayward_FossilLab_GotKabuto,<Player.Name> got Kabuto!
+Hayward_FossilLab_GotCranidos,<Player.Name> got Cranidos!
 Hayward_FossilLab_FossilPokemon_ToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
 Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist
 Hayward_FossilLab_FossilPokemon_CatchLocation,in the Hayward Fossil Lab
@@ -3557,7 +3557,7 @@ Hayward_StrengthHouse_Amulets,A collection of amulets.
 Hayward_StrengthHouse_StrengthMan_Question,Hey, have you seen my~special amulet?*It's really important to me~but I lost it!
 Hayward_StrengthHouse_StrengthMan_Answer_Yes,You did?!*Well, go get it and bring it~to me for a big reward!
 Hayward_StrengthHouse_StrengthMan_Answer_No,Darn, well try to look for it.*Last time I remember having~it on me was back at my~temporary Warehouse job!
-Hayward_StrengthHouse_StrengthMan_GiveAmulet,<player.name> gave the Red Amulet to~the man!*The man put it in his display~case.*Thank you so much kid!*<player.name>: Erm, no problem,~now what's that reward?*Man: Oh yeah, it's an HM that~can push boulders around!
+Hayward_StrengthHouse_StrengthMan_GiveAmulet,<Player.Name> gave the Red Amulet to~the man!*The man put it in his display~case.*Thank you so much kid!*<Player.Name>: Erm, no problem,~now what's that reward?*Man: Oh yeah, it's an HM that~can push boulders around!
 Hayward_StrengthHouse_StrengthMan_AfterGivenAmulet,The HM 04 teaches Strength!*It lets Pokémon move boulders~when you're outside of battle.
 
 Hayward_TownMapHouse_TownMap,YO!
@@ -3712,11 +3712,11 @@ Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_BothYes,Your Pokémon have
 Owsauri_Daycare_DaycareMan_Question_TakeBack,Which Pokémon do you want to~take back?
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_NoLevelUp,If you want your~<daycare.pokemonname(0,0)> back,~you owe me $<math.int(<daycare.grownlevels(0,0)>*100+100)>.*Would you like it back?
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_HigherLevel,By level, your~<daycare.pokemonname(0,0)> has~grown about <daycare.grownlevels(0,0)>.*If you want your~<daycare.pokemonname(0,0)> back,~you owe me $<math.int(<daycare.grownlevels(0,0)>*100+100)>.~Would you like it back?
-Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_GotBack,Thank you! Here's your~Pokémon!*<player.name> got~<daycare.pokemonname(0,0)> back!
+Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_GotBack,Thank you! Here's your~Pokémon!*<Player.Name> got~<daycare.pokemonname(0,0)> back!
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_NotEnoughMoney,You don't have enough~money to get~<daycare.pokemonname(0,0)> back.
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_NoLevelUp,If you want your~<daycare.pokemonname(0,1)> back,~you owe me $<math.int(<daycare.grownlevels(0,1)>*100+100)>.*Would you like it back?
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_HigherLevel,By level, your~<daycare.pokemonname(0,1)> has~grown about <daycare.grownlevels(0,1)>.*If you want your~<daycare.pokemonname(0,1)> back,~you owe me $<math.int(<daycare.grownlevels(0,1)>*100+100)>.~Would you like it back?
-Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_GotBack,Thank you! Here's your~Pokémon!*<player.name> got~<daycare.pokemonname(0,1)> back!
+Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_GotBack,Thank you! Here's your~Pokémon!*<Player.Name> got~<daycare.pokemonname(0,1)> back!
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_NotEnoughMoney,You don't have enough~money to get~<daycare.pokemonname(0,1)> back.
 Owsauri_Daycare_DaycareMan_TakeBack_OtherOneToo,Would you like to have~the other one back, too?
 Owsauri_Daycare_DaycareMan_TakeBack_NoRoom,You have no room for this~Pokémon!
@@ -3727,7 +3727,7 @@ Owsauri_Daycare_DaycareMan_LeavePokemon_WhichPokemon,Which Pokémon should I rai
 Owsauri_Daycare_DaycareMan_LeavePokemon_SelectedPokemon,Fine. I'll look after~<daycare.pokemonname(0,<daycare.countpokemon(0)>-1)> for a while.
 Owsauri_Daycare_DaycareMan_LeavePokemon_ComeBackLater,Come see me in a while.
 Owsauri_Daycare_DaycareMan_TakeEgg_WantEgg,Ah, it's you!*I was raising your~Pokémon, and I was surprised!*Your Pokémon was holding~an Egg!*I don't know how it got there,~but your Pokémon had it.*You do want it, don't you?
-Owsauri_Daycare_DaycareMan_TakeEgg_ReceivedEgg,<player.name> received~the Egg from the Day-Care Man.
+Owsauri_Daycare_DaycareMan_TakeEgg_ReceivedEgg,<Player.Name> received~the Egg from the Day-Care Man.
 Owsauri_Daycare_DaycareMan_TakeEgg_TakeCare,Take good care of it!
 Owsauri_Daycare_DaycareMan_TakeEgg_NoRoom,You have no room for~that right now.*Come back when you've~made room.
 Owsauri_Daycare_DaycareMan_TakeEgg_YouSure,I can just take it and~never give it back.*Are you really sure you~don't want the egg?
@@ -3750,18 +3750,18 @@ Owsauri_GamblerHouse_Mother,My husband is addicted~to the slots...
 Owsauri_GamblerHouse_Father,Hmm... which book should I~pick out of this shelf...?
 
 Owsauri_Casino_1F_Fisherman_1,Gambling is healthy!
-Owsauri_Casino_1F_Fisherman_2,<player.name> received~10 coins!
+Owsauri_Casino_1F_Fisherman_2,<Player.Name> received~10 coins!
 Owsauri_Casino_1F_Fisherman_3,Wins and losses balance.
 Owsauri_Casino_1F_PokeFanMale_Green,These slots never let~me win...*I don't know how I'll~earn it back.
 Owsauri_Casino_1F_PokeFanFemale_Red,I make a living with this!
 Owsauri_Casino_1F_PokeManiac,Hey!*Leave me alone, I'm on a roll!
 Owsauri_Casino_1F_AdultWoman_Green,I love this!*More money!
 Owsauri_Casino_1F_Gentleman_Purple_1,Want to get addicted to~gambling? Let me help you!
-Owsauri_Casino_1F_Gentleman_Purple_2,<player.name> received~20 coins!
+Owsauri_Casino_1F_Gentleman_Purple_2,<Player.Name> received~20 coins!
 Owsauri_Casino_1F_Gentleman_Purple_3,You can start with the~Voltorb Flip game over there!
 Owsauri_Casino_1F_Gambler_Blue,I might as well live here.
 Owsauri_Casino_1F_GamblingClerk_1,What's up? Want some coins?
-Owsauri_Casino_1F_GamblingClerk_2,<player.name> received~20 coins!
+Owsauri_Casino_1F_GamblingClerk_2,<Player.Name> received~20 coins!
 Owsauri_Casino_1F_GamblingClerk_3,Darn! I need more coins for~the Pokémon I want!
 Owsauri_Casino_1F_ForgotCoinCase,Oops! Forgot the Coin Case!
 Owsauri_Casino_1F_SlotMachine,Only adults are allowed to use~the Slot Machines!
@@ -3786,7 +3786,7 @@ Owsauri_Casino_B1F_Shop_Intro,We exchange your coins~for prizes!
 Owsauri_Casino_B1F_Shop_NoThanks,No Thanks
 Owsauri_Casino_B1F_Shop_NotEnoughCoins,Sorry, you need more coins.
 Owsauri_Casino_B1F_Shop_ChoosePokemon,So, you want <pokedex.getname(<storage.get(int,PokeNumber)>)>?
-Owsauri_Casino_B1F_Shop_ReceivedPokemon,<player.name> got~<pokedex.getname(<storage.get(int,PokeNumber)>)>!
+Owsauri_Casino_B1F_Shop_ReceivedPokemon,<Player.Name> got~<pokedex.getname(<storage.get(int,PokeNumber)>)>!
 Owsauri_Casino_B1F_Shop_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
 Owsauri_Casino_B1F_Shop_PokemonCatchMethod,Purchased from
 Owsauri_Casino_B1F_Shop_PokemonCatchLocation,Owsauri Casino
@@ -3798,7 +3798,7 @@ Owsauri_Casino_B1F_Shop_Center_Eevee_Glaceon,Eevee #2      3500C
 Owsauri_Casino_B1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
 Owsauri_Gym_Statues_BeforeDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura
-Owsauri_Gym_Statues_AfterDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura~<player.name>
+Owsauri_Gym_Statues_AfterDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura~<Player.Name>
 Owsauri_Gym_GymGuy_BeforeBadge,Yo! Champ in making!~Here’s my advice!*The Leader, Lily loves to use~Ice Pokémon.*If you have Fire or Rock~Pokémon, her Pokémon won’t~stand a chance!
 Owsauri_Gym_GymGuy_AfterBadge,Lily was defeated?*Hopefully you were 'ice about~it! I am too funny!
 Owsauri_Gym_SwimmerMaleEd_IntroMessage,Splash!*Ready for an ice fight?
@@ -3807,16 +3807,16 @@ Owsauri_Gym_SwimmerMaleEd_DefeatMessage,Lily is always training~her Pokémon!
 Owsauri_Gym_JrTrainerFemaleBethy_IntroMessage,Lily shouldn't waste her~time with you!
 Owsauri_Gym_JrTrainerFemaleBethy_OutroMessage,You overwhelmed me!
 Owsauri_Gym_JrTrainerFemaleBethy_DefeatMessage,You have to face other~trainers to find out how~good you really are.
-Owsauri_Gym_LeaderLily_BeforeBattle,Lily: Hi, you here to face me?*<player.name>: Yeah, I'm on a~quest to get all eight~Rijon Badges and compete in~the league!*Lily: Well if you beat me,~you get the Hail Badge,~so give it your best shot!
+Owsauri_Gym_LeaderLily_BeforeBattle,Lily: Heya! Who have we got~here?*<Player.Name>: the name's~<Player.Name>, and I'm here for~your Hail Badge!*Lily: You're not going to get~it that easy! You've got Lily~as your host, and my Ice-type~Pokémon will freeze you solid!~Live on the air, skating~through the ice as gracefully~as a winter's day... let's go!
 Owsauri_Gym_LeaderLily_OutroMessage,Lily: Wow! You're too much!
-Owsauri_Gym_LeaderLily_AfterBattle1,Lily: All right!*You can have the Hail Badge~that will help you!*The Hail Badge lets you~use Cut any time if you~have the HM!*Also go and take this TM~I found earlier, it should~help you.
+Owsauri_Gym_LeaderLily_AfterBattle1,Lily: All right!*You can have the Hail Badge~that will help you!*The Hail Badge lets you~use Cut any time if you~have the HM!*Also please take this TM, it~will surely prove useful!
 Owsauri_Gym_LeaderLily_AfterBattle2,TM 13 teaches Ice Beam!*Use it on an Ice Pokémon!
 Owsauri_Gym_LeaderLily_TalkAgain,Lily: Good luck on your quest!
-Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Question,Lily: Well if it isn't~<player.name>!*Ready to jam out with the~coolest Gym Leader, I take it?
-Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Answer_No,Lily: Oh? Having a little~performance anxiety, or maybe~cold feet?*<player.name>: H-hey, that's not~it at all!*Lily: Well all right, don't~keep me waiting too long.~I can't battle to the beat~without a strong dance~partner!
+Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Question,Lily: Well if it isn't~<Player.Name>!*Ready to jam out with the~coolest Gym Leader, I take it?
+Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Answer_No,Lily: Oh? Having a little~performance anxiety, or maybe~cold feet?*<Player.Name>: H-hey, that's not~it at all!*Lily: Well all right, don't~keep me waiting too long.~I can't battle to the beat~without a strong dance~partner!
 Owsauri_Gym_LeaderLily_Rematch_BeforeBattle_Answer_Yes,Lily: Alright, let's see if I~can put your Champion hot-~streak on ice!
 Owsauri_Gym_LeaderLily_Rematch_OutroMessage,Lily: That's a wrap! Looks~like your moves were too hot~to handle after all!
-Owsauri_Gym_LeaderLily_Rematch_AfterBattle,Lily: I've been thinking of~sampling some battle audio~into some tracks for my show.~Do you think that's something~trainers would want to listen~to?*<player.name>: Like, the noises~Pokémon make? Sounds kinda~weird... A Radio Channel for Pokémon?*Lily: That's not exactly the~kind of audio I had in mind,~but that could be a pretty~cool idea! Maybe Pokémon would~like to listen to the radio~too.
+Owsauri_Gym_LeaderLily_Rematch_AfterBattle,Lily: I've been thinking of~sampling some battle audio~into some tracks for my show.~Do you think that's something~trainers would want to listen~to?*<Player.Name>: Like, the noises~Pokémon make? Sounds kinda~weird... A Radio Channel for Pokémon?*Lily: That's not exactly the~kind of audio I had in mind,~but that could be a pretty~cool idea! Maybe Pokémon would~like to listen to the radio~too.
 
 
 [Route 66]
@@ -3969,7 +3969,7 @@ Morage_PrismMuseum_CatchMethod,Received as a reward
 Morage_PrismMuseum_CatchLocation,at the Prism Museum
 
 Moraga_Gym_Statues_BeforeDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura
-Moraga_Gym_Statues_AfterDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<player.name>
+Moraga_Gym_Statues_AfterDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<Player.Name>
 Moraga_Gym_GymGuy_BeforeBadge,Gym Guy: Hiya, champion in~the making!*Lois uses Grass Pokémon,~which are weak against Fire~and Flying Pokémon!~Good luck!
 Moraga_Gym_GymGuy_AfterBadge,Gym Guy: What a fantastic~battle!
 Moraga_Gym_LassKatrin_IntroMessage,A kid?!*Get out of here!
@@ -3984,16 +3984,16 @@ Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We don't need men,~except to 
 Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage,Don't underestimate the power~of grass!
 Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage,Oh! Beaten!
 Moraga_Gym_CoolTrainerFemaleHeather_DefeatMessage,Lois has a twin in Kanto that~uses grass too.
-Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, my lovely flowers...~They sure look nice, don't they?*<player.name>: Pardon me, but I'm~here for your Sprout Badge!*Lois: I see. I'm just like my~sister in Kanto, aren't I...?*Well, if it's a battle you want,~it's a battle you'll get!*As a Kimono Girl, as well as~the Moraga Town Gym Leader,~I have plenty of battling~experience, so don't say I~didn't warn you.*Leafeon, let's go!
-Moraga_Gym_LeaderLois_OutroMessage,Lois: What a wonderful~performance of skill!*Here is your well-earned~Sprout Badge.
-Moraga_Gym_LeaderLois_AfterBattle1,Lois: The Sprout Badge will~make Pokémon able to use~HM04 Strength in and out~of battle.*Also, I'd like you to have~this.
-Moraga_Gym_LeaderLois_AfterBattle2,TM21 contains Giga Drain.*Half the damage it inflicts is~drained to heal your Pokémon.
+Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, my lovely flowers...~They sure are nice, aren't~they?*<Player.Name>: Pardon me, but I'm~here for your Sprout Badge!*Lois: Oh the Sprout Badge? I'm~just like my sister in Kanto,~aren't I... Nonetheless, if~it's a battle you want, it's~a battle you'll get!*As a Kimono Girl, as well as~the Moraga Town Gym Leader,~I also have plenty of battling~experience, so don't say I~didn't warn you.*Leafeon, let's go!
+Moraga_Gym_LeaderLois_OutroMessage,Lois: Well that's it, you~showed me how good you are!*You earned the Sprout Badge!
+Moraga_Gym_LeaderLois_AfterBattle1,Lois: The Sprout Badge will~make Pokémon able to use~Strength in and out of battle.*Also, take this.
+Moraga_Gym_LeaderLois_AfterBattle2,TM21 contains Giga Drain.*Half the damage it inflicts is~drained to heal your Pokémon!
 Moraga_Gym_LeaderLois_TalkAgain,Lois: Good luck collecting all~of the Rijon League Badges.
-Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Question,Lois: Zzz...*<player.name>: She isn't dozing~off still, is she?*Lois: Yaaaawn...*<player.name>: ...*Lois: I apologize, that was~rather unladylike. I just~find myself so sleepy...~Perhaps I need a break.~Sleeping in the garden is more~appealing than dancing these~days... But I suppose you'll~be challenging me one again?
+Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Question,Lois: Zzz...*<Player.Name>: She isn't dozing~off still, is she?*Lois: Yaaaawn...*<Player.Name>: ...*Lois: I apologize, that was~rather unladylike. I just~find myself so sleepy...~Perhaps I need a break.~Sleeping in the garden is more~appealing than dancing these~days... But I suppose you'll~be challenging me one again?
 Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Answer_No,Lois: Oh, what a shame. Do~come back when you have the~time. I'll likely be here...~a while...~YAAAAWN...~longer...*Zzz...
 Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Answer_Yes,Lois: Oh, delightful. Don't~hold back on my account,~Champion.
 Moraga_Gym_LeaderLois_Rematch_OutroMessage,Lois: Oh, you're all too much!
-Moraga_Gym_LeaderLois_Rematch_AfterBattle,Lois: Grass Pokémon are so~lovely, aren't they? Every~time I smell their sweet~floral scents... I can't help~but... Zzz...*<player.name>: And there she~goes...
+Moraga_Gym_LeaderLois_Rematch_AfterBattle,Lois: Grass Pokémon are so~lovely, aren't they? Every~time I smell their sweet~floral scents... I can't help~but... Zzz...*<Player.Name>: And there she~goes...
 
 [City Underpass]
 CityUnderpass_Entrance_Moraga_NidoqueenTrade,
@@ -4015,7 +4015,7 @@ Route60_PowerPlant_Raikou,Rrroar!
 [Route 60 - Jaeru City Gate]
 Route60_Jaeru_Gate_Guard,Are you working on a Pokédex?*Prof. Tim's Aide came by here.
 
-Route60_Jaeru_Gate_Aide_ExpShare_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds~of Pokémon, I'm supposed to~give you an Exp. Share!*So <player.name>! Have you~caught at least 30 kinds~of Pokémon?
+Route60_Jaeru_Gate_Aide_ExpShare_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds~of Pokémon, I'm supposed to~give you an Exp. Share!*So <Player.Name>! Have you~caught at least 30 kinds~of Pokémon?
 Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_30OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
 Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 30 kinds if~you want the Exp. Share.
 Route60_Jaeru_Gate_Aide_ExpShare_AnswerNo,Oh, I see.~When you get 30 kinds,~come back for the Exp. Share.
@@ -4046,8 +4046,8 @@ Jaeru_BikeShop_BikeSalesMan_Option_Bicycle,Bicycle    $1000000
 Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle,Sorry! You can't afford it!*Come back again some time!
 Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Come back again some time!
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that’s... A Bike Voucher!~OK! Here you go!
-Jaeru_BikeShop_ExchangeVoucherForBike,<player.name> exchanged~the Bike Voucher for a Bicycle.
-Jaeru_BikeShop_BikeInPocket,<player.name> stored it in the~№ KeyItems pocket.
+Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> exchanged~the Bike Voucher for a Bicycle.
+Jaeru_BikeShop_BikeInPocket,<Player.Name> stored it in the~№ KeyItems pocket.
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new~Bicycle?*You can take it on Cycling Road~and in caves!
 
 Jearu_PokeMart_BugCatcher,Good things can happen if you~raise Pokémon dilligently,~even the weak ones!
@@ -4057,7 +4057,7 @@ Jaeru_PokeCenter_Gentleman,Go away, I'm on my cellphone!
 Jaeru_PokeCenter_BenchGuy,Sparky was mean to me!~He called me a stupid little~kid.
 
 Jaeru_Gym_Statues_BeforeDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura
-Jaeru_Gym_Statues_AfterDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<player.name>
+Jaeru_Gym_Statues_AfterDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<Player.Name>
 Jaeru_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Sparky uses Electric Pokémon,~so you need to make sure and~pick the right kinds against~him.*Grass and Ground Pokémon are~good choices to win!
 Jaeru_Gym_GymGuy_AfterBadge,Gym Guy: Whew! That match was~electric!
 Jaeru_Gym_SailorWilfried_IntroMessage,Leave now!
@@ -4069,7 +4069,7 @@ Jaeru_Gym_RockerBryan_DefeatMessage,I doubt you will beat Sparky!
 Jaeru_Gym_GentlemanWilliam_IntroMessage,Having trouble getting to~Sparky?
 Jaeru_Gym_GentlemanWilliam_OutroMessage,Stop! You're very good!
 Jaeru_Gym_GentlemanWilliam_DefeatMessage,Electricity is my domain!
-Jaeru_Gym_LeaderSparky_BeforeBattle,Sparky: Attention, Perkins! Go~and oil the generator!*<player.name>: Uhhh, excuse me?*Sparky: Ah, you're not~Perkins! By the looks of it,~you must be here to earn my~Badge! As the best mechanic~in Rijon, I, the great Sparky,~Leader of Jaeru City Gym, make~sure my employees are in~tip-top shape so that no task~gets left undone! Prepare to~get shocked by my efficiency~in Pokémon battling!
+Jaeru_Gym_LeaderSparky_BeforeBattle,Sparky: Attention, Perkins! Go~and oil the generator!*<Player.Name>: Uhhh, excuse me?*Sparky: Ah, you're not~Perkins! By the looks of it,~you must be here to earn my~Badge! As the best mechanic~in Rijon, I, the great Sparky,~Leader of Jaeru City Gym, make~sure my employees are in~tip-top shape so that no task~gets left undone! Prepare to~get shocked by my efficiency~in Pokémon battling!
 Jaeru_Gym_LeaderSparky_OutroMessage,Sparky: Shocking! Alright,~here. Take the Sparky Badge!
 Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: The Sparky Badge,~named after yours truly,~increases your Pokémon's~speed, and lets you use Fly~anytime!*Take this too!
 Jaeru_Gym_LeaderSparky_AfterBattle2,TM24 contains Thunderbolt!*Teach it to an Electric~Pokémon!
@@ -4152,19 +4152,19 @@ Route59_SilphCoWarehouse_3F_OfficerWorker_Male2_AfterDefeatGiovanni,I'd better g
 Route59_SilphCoWarehouse_4F_RocketGruntHector_IntroMessage,Get out of here right now!
 Route59_SilphCoWarehouse_4F_RocketGruntHector_OutroMessage,Don't... Please!
 Route59_SilphCoWarehouse_4F_RocketGruntHector_DefeatMessage,You will never beat 'da Boss!
-Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle,Giovanni: What?!*Another child trying to stop~me from fulfilling Team~Rocket's goals?*If you don't stay out of~my business kid, you'll be in~a world of pain!*<player.name>: Bring it on.
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle,Giovanni: What?!*Another child trying to stop~me from fulfilling Team~Rocket's goals?*If you don't stay out of~my business kid, you'll be in~a world of pain!*<Player.Name>: Bring it on.
 Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage,Giovanni: Arrgh!! I lost~again?!
 Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: How can I run a~criminal organization if my~plans keep getting thwarted~by children?!*I guess I should just give up,~there's no way we can succeed~with kids like you!*Goodbye forever!
-Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<player.name>: Is everyone okay?*Manager: Yes, thanks to you.*You're a brave kid.*<player.name>: It was~nothing, really.*Manager: I need to repay you~somehow. Oh here, have this~valuable gift!*<player.name>: Thank you~so much!
+Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<Player.Name>: Is everyone okay?*Manager: Yes, thanks to you.*You're a brave kid.*<Player.Name>: It was~nothing, really.*Manager: I need to repay you~somehow. Oh here, have this~valuable gift!*<Player.Name>: Thank you~so much!
 Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Manager: Make sure to visit~our main building, located in~Saffron City, Kanto when you~have the time.
 
 [Route 59 - Botan City Gate]
 Route59_Botan_Gate_1F_Guard_NoBeer_Wait,Wait!
 Route59_Botan_Gate_1F_Guard_NoBeer_CannotGoThrough,Sorry you can't go though.*I'm guarding the area!
 Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMeBeer,Whoa, kid!~I smell hard beer!*Give it to me I need it so bad!
-Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer,<player.name> handed over the~Beer Keg.*...Glug glug...~...Gulp...~This stuff hits you...
-Route59_Botan_Gate_1F_Guard_HaveBeer_FallAsleep,Zzzzz...*<player.name>: Looks like I can~get past this guy now,~and complete my quest!
-Route59_Botan_Gate_1F_Guard_StillAsleep,<player.name>: He's still asleep...
+Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer,<Player.Name> handed over the~Beer Keg.*...Glug glug...~...Gulp...~This stuff hits you...
+Route59_Botan_Gate_1F_Guard_HaveBeer_FallAsleep,Zzzzz...*<Player.Name>: Looks like I can~get past this guy now,~and complete my quest!
+Route59_Botan_Gate_1F_Guard_StillAsleep,<Player.Name>: He's still asleep...
 Route59_Botan_Gate_2F_MagnemiteTrade_Question,I'm looking for a Rapidash!~Wanna trade one for a~Magnemite?
 Route59_Botan_Gate_2F_MagnemiteTrade_Answer_No,Awww! Oh well...
 Route59_Botan_Gate_2F_MagnemiteTrade_AfterTrade,Isn't my old Rapidash great?
@@ -4174,7 +4174,7 @@ Route59_Botan_Gate_2F_MagnemiteTrade_CatchMethod,Received in a trade
 Route59_Botan_Gate_2F_MagnemiteTrade_CatchLocation,in the Gate on Route 59
 Route59_Botan_Gate_2F_Binoculars_Left,Looked into the binoculars...*The Rijon League!
 Route59_Botan_Gate_2F_Binoculars_Right,Looked into the binoculars...*A dark forest can be~seen... maybe there are some~ghosts there...
-Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds of~Pokémon, I'm supposed to~give you an Item Finder!*So <player.name>! Have you~caught at least 45 kinds~of Pokémon?
+Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds of~Pokémon, I'm supposed to~give you an Item Finder!*So <Player.Name>! Have you~caught at least 45 kinds~of Pokémon?
 Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_45OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
 Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 45 kinds if~you want the Item Finder.
 Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerNo,Oh, I see.~When you get 45 kinds,~come back for the Item Finder.
@@ -4208,7 +4208,7 @@ Botan_MrRumikoHouse_Grandson_BeforeRescue,That's odd.*Mr. Rumiko is gone.
 Botan_MrRumikoHouse_Grandson_AfterRescue,I'm Mr. Rumiko's grandson!
 Botan_MrRumikoHouse_Granddaughter,Hiya!
 Botan_MrRumikoHouse_Magazine,Pokémon Monthly
-Botan_MrRumikoHouse_MrRumiko_BeforeTalking_BeforeReceivePokeFlute,Mr. Rumiko: Alright,~<player.name>!*Here is the gift I promised~you.*It's a very popular item...~a PokéFlute!
+Botan_MrRumikoHouse_MrRumiko_BeforeTalking_BeforeReceivePokeFlute,Mr. Rumiko: Alright,~<Player.Name>!*Here is the gift I promised~you.*It's a very popular item...~a PokéFlute!
 Botan_MrRumikoHouse_MrRumiko_BeforeTalking_AfterReceivePokeFlute,Mr. Rumiko: Upon hearing the~PokéFlute, any sleeping~Pokémon will wake up right~away!
 Botan_MrRumikoHouse_MrRumiko_AfterTalking,Mr. Rumiko: Good luck and~thanks again for saving me!
 
@@ -4251,11 +4251,11 @@ Botan_HauntedForest_Area0_PokeFan_Female,No one knows why this place~is haunted.
 Botan_HauntedForest_Area0_YoungGirl,My Pokémon is lost in the~woods...
 Botan_HauntedForest_Area0_Channeler_Start,MissingNo. are loose!~Let me heal your Pokémon!
 Botan_HauntedForest_Area0_Channeler_End,Be careful!
-Botan_HauntedForest_Area1_Mura_BeforeBattle,Mura: Hey, <player.name>!~I just caught a ghost~Pokémon and have also been~training my other Pokémon.*Care to try them out?
+Botan_HauntedForest_Area1_Mura_BeforeBattle,Mura: Hey, <Player.Name>!~I just caught a ghost~Pokémon and have also been~training my other Pokémon.*Care to try them out?
 Botan_HauntedForest_Area1_Mura_OutroMessage,What? You stinker! I took it easy on you too!
-Botan_HauntedForest_Area1_Mura_AfterBattle,Mura: Well that stinks, I lost.~But don't think I'll go~easy on you next time.*<player.name>: Alright, see you~later man!
+Botan_HauntedForest_Area1_Mura_AfterBattle,Mura: Well that stinks, I lost.~But don't think I'll go~easy on you next time.*<Player.Name>: Alright, see you~later man!
 Botan_HauntedForest_Area1_Channeler,MissingNo. are really messing~up the place!
-Botan_HauntedForest_Area2_VirusScanner,<player.name> used Virus Scanner!
+Botan_HauntedForest_Area2_VirusScanner,<Player.Name> used Virus Scanner!
 Botan_HauntedForest_Area2_ChannelerCarmen_IntroMessage,I will eat your soul!
 Botan_HauntedForest_Area2_ChannelerCarmen_OutroMessage,Huh?
 Botan_HauntedForest_Area2_ChannelerCarmen_DefeatMessage,Why do I have 99 Town Maps?
@@ -4274,7 +4274,7 @@ Botan_HauntedForest_Area3_ChannelerEdna_DefeatMessage,Dead souls don't need this
 Botan_HauntedForest_Area3_ChannelerHeidi_IntroMessage,I need moons!
 Botan_HauntedForest_Area3_ChannelerHeidi_OutroMessage,Live longer!
 Botan_HauntedForest_Area3_ChannelerHeidi_DefeatMessage,Chompers!*Load State 1!
-Botan_HauntedForest_Area4_HealPlatform,Entered purified,~protected zone!*<player.name>'s Pokémon are~fully healed!
+Botan_HauntedForest_Area4_HealPlatform,Entered purified,~protected zone!*<Player.Name>'s Pokémon are~fully healed!
 Botan_HauntedForest_Area4_HealPlatformChanneler,Rest here and let your~party's energy return!!
 Botan_HauntedForest_Area4_ChannelerTara_IntroMessage,Stop 'n' Swop is...
 Botan_HauntedForest_Area4_ChannelerTara_OutroMessage,Oops, I forgot!
@@ -4298,7 +4298,7 @@ Botan_HauntedForest_Area5_ChannelerShaundi_IntroMessage,Stuff.
 Botan_HauntedForest_Area5_ChannelerShaundi_OutroMessage,Other stuff.
 Botan_HauntedForest_Area5_ChannelerShaundi_DefeatMessage,Even more stuff!
 Botan_HauntedForest_Area5_MissingNo_NoVirusScanner_StartBattle,Your game was erased!
-Botan_HauntedForest_Area5_MissingNo_WithVirusScanner_StartBattle,Your game was erased!*<player.name> used Virus Scanner!
+Botan_HauntedForest_Area5_MissingNo_WithVirusScanner_StartBattle,Your game was erased!*<Player.Name> used Virus Scanner!
 Botan_HauntedForest_Area5_MissingNo_WithVirusScanner_AfterBattle,The MissingNo. was really just a~Kangaskhan!*Luckily the virus is~now removed!*The MissingNo. vanished!
 Botan_HauntedForest_Area6_RocketGruntKlay_IntroMessage,What do you want?~Why are you here?
 Botan_HauntedForest_Area6_RocketGruntKlay_OutroMessage,I give up!
@@ -4309,7 +4309,7 @@ Botan_HauntedForest_Area6_RocketGruntRolf_DefeatMessage,Why did the candies fail
 Botan_HauntedForest_Area6_RocketGruntIzzy_IntroMessage,Deja Vu, huh?
 Botan_HauntedForest_Area6_RocketGruntIzzy_OutroMessage,Don't fight us Rockets!
 Botan_HauntedForest_Area6_RocketGruntIzzy_DefeatMessage,Gah, not again!
-Botan_HauntedForest_Area6_MrRumiko,Mr. Rumiko: Finally! Somebody~found me!*The Rockets held me hostage~because they thought I knew~more about the MissingNo.!*<player.name>: Luckily they didn't~get any information out of~you, right?*Mr. Rumiko: What information?~I was just having my daily~stroll through the forest!*Anyhow, as a reward for saving~me, I've got a special gift~for you!*Let's get out of this dark~forest, first of all!
+Botan_HauntedForest_Area6_MrRumiko,Mr. Rumiko: Finally! Somebody~found me!*The Rockets held me hostage~because they thought I knew~more about the MissingNo.!*<Player.Name>: Luckily they didn't~get any information out of~you, right?*Mr. Rumiko: What information?~I was just having my daily~stroll through the forest!*Anyhow, as a reward for saving~me, I've got a special gift~for you!*Let's get out of this dark~forest, first of all!
 
 [Route 58]
 Route58_Main_Sign_Route,Route 58~Tan Boat Creek*Botan City - Castro Valley
@@ -4337,14 +4337,14 @@ Castro_Main_OldLady,The S.S. Anne just came for its~final stop!
 Castro_Main_Gambler_Purple,Did you see S.S. Anne moored~in the harbor?
 Castro_Main_Gambler_Red,S.S. Anne won't leave for other~regions for 3 months, so~it rests here.
 Castro_Main_Sailor_Harbor,Welcome to the Castro Valley~Harbor!
-Castro_Main_Harbor_NoTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<player.name> doesn't have the~needed S.S. Ticket.*Sorry! You need a ticket to~get aboard.
-Castro_Main_Harbor_HaveTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<player.name> flashes the ticket.*Ah, good! Oh, but the~S.S. Anne will not be leaving~for a while. Perhaps that~other boat in the harbor still~needs passengers?
+Castro_Main_Harbor_NoTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<Player.Name> doesn't have the~needed S.S. Ticket.*Sorry! You need a ticket to~get aboard.
+Castro_Main_Harbor_HaveTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<Player.Name> flashes the ticket.*Ah, good! Oh, but the~S.S. Anne will not be leaving~for a while. Perhaps that~other boat in the harbor still~needs passengers?
 Castro_Main_Sailor_Other,S.S. Anne is a famous luxury~cruise ship.
 Castro_Main_Sailor_CastroManor,The abandoned Castro Manor is~nearly two-hundred years old.~It was once the heart of~Castro Valley. My granny told~me stories about the Castro~family, who once owned it.
 Castro_Main_Officer_CastroManor,Fifty years ago, the Castro~Manor was acquired by a rich~and peculiar scientist, who~repurposed the manor as a~research facility, but it has~since been abandoned. Isn't~that a shame?*I see you are a seasoned~trainer, so I'll allow you to~enter, but please be careful!
 Castro_Main_CastroGrandson,My relatives founded this~town, as well as its famous~manor. They're since now~long gone, but Castro Valley~was built around their naval~activities, and is still the~core of Rijon's maritime~economy.
 Castro_Main_Marill_Cry,Marill: Marill Marill!*It looks lost...
-Castro_Main_JappaWakka,JappaWakka: Hiya! You must be~<player.name>!*My name is JappaWakka, but you~can call me Jappa if you want!*I've heard a lot about you.*Rijon Champion, huh? That's~pretty special! Would you like~to join me and some other~folks on a short ocean trip?~We got a great dance club and~we'll be back in no time,~no worries.*<player.name>: Sure, why not?*JappaWakka: Great, I'll start~the engine! See you inside!
+Castro_Main_JappaWakka,JappaWakka: Hiya! You must be~<Player.Name>!*My name is JappaWakka, but you~can call me Jappa if you want!*I've heard a lot about you.*Rijon Champion, huh? That's~pretty special! Would you like~to join me and some other~folks on a short ocean trip?~We got a great dance club and~we'll be back in no time,~no worries.*<Player.Name>: Sure, why not?*JappaWakka: Great, I'll start~the engine! See you inside!
 Castro_Main_Mew,Mew!
 Castro_Main_Sign_City,Castro Valley*The courtly little port town.
 Castro_Main_Sign_Forest,Castro Forest Entrance
@@ -4367,10 +4367,10 @@ Castro_OldRodHouse_OldRodGuy_Question,I'm the Fishing Guru's cousin!*I love to f
 Castro_OldRodHouse_OldRodGuy_Answer_No,Oh...That's so disappointing...
 Castro_OldRodHouse_OldRodGuy_Answer_Yes1,Grand! I like your style!*Take this and fish, young one!
 Castro_OldRodHouse_OldRodGuy_Answer_Yes2,Not the best Rod, but it's~better than nothing!
-Castro_OldRodHouse_OldRodGuy_AfterReceiveOldRod,Hello there, <player.name>!*How are the fish biting?
+Castro_OldRodHouse_OldRodGuy_AfterReceiveOldRod,Hello there, <Player.Name>!*How are the fish biting?
 
 Castro_Gym_Statues_BeforeDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura
-Castro_Gym_Statues_AfterDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<player.name>
+Castro_Gym_Statues_AfterDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<Player.Name>
 Castro_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Castro Valley's Gym has Koji~as its leader!*Koji only uses fighting Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!
 Castro_Gym_GymGuy_AfterBadge,Gym Guy: Amazing! You've~definitely fought your way~through that one!
 Castro_Gym_JugglerJoey_IntroMessage,Master Koji only uses fighting~Pokémon!
@@ -4396,7 +4396,7 @@ Castro_Gym_LeaderKoji_OutroMessage,Koji: Humph! You have proven~your worth!*Here
 Castro_Gym_LeaderKoji_AfterBattle1,Koji: Now that you have the~Fist Badge, you can use Surf~outside of battle.*Take this TM I found as a gift~too!
 Castro_Gym_LeaderKoji_AfterBattle2,TM 01 contains Dynamic Punch!~It can miss, but it confuses~the foe!
 Castro_Gym_LeaderKoji_TalkAgain,Koji: Dynamic Punch can often~miss but if it works it'll~deal a great amount of damage~and confuse your foe!
-Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Question,Koji: Ah, it's the prodigy!~Or was it protégé?*<player.name>: Is there even a~difference?*Koji: I do not know, honestly.~Grah, I hate fancy words.~Anyways, are you here to spar?
+Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Question,Koji: Ah, it's the prodigy!~Or was it protégé?*<Player.Name>: Is there even a~difference?*Koji: I do not know, honestly.~Grah, I hate fancy words.~Anyways, are you here to spar?
 Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_No,Koji: Ah. Perhaps you have yet~to find your team adequately~prepared for combat? You may~return later; I will be~honored to accept your~challenge when you see fit.
 Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_Yes,Koji: Very well. Let us test~each other's full strength!*HOOHAH!
 Castro_Gym_LeaderKoji_Rematch_OutroMessage,Koji: Incredible! Your power~knows no upper bound!
@@ -4506,7 +4506,7 @@ Route61_GoodRodHouse_GoodRodGuy_Question,I'm the Fishing Guru's~second cousin's 
 Route61_GoodRodHouse_GoodRodGuy_Answer_No,Oh...That's so disappointing...
 Route61_GoodRodHouse_GoodRodGuy_Answer_Yes1,Grand! I like your style!*Take this and fish, young one!
 Route61_GoodRodHouse_GoodRodGuy_Answer_Yes2,Fishing is a way of life!*From the seas to rivers,~go out and land the big one!
-Route61_GoodRodHouse_GoodRodGuy_AfterReceiveGoodRod,Hello there, <player.name>!*The Good Rod is actually good,~unlike the Old Rod!*Catch different Pokémon~with it!
+Route61_GoodRodHouse_GoodRodGuy_AfterReceiveGoodRod,Hello there, <Player.Name>!*The Good Rod is actually good,~unlike the Old Rod!*Catch different Pokémon~with it!
 
 Route61_SurfHouse_SurfMan_BeforeTalking,Hi there kid!*I just bought a bunch of HM03s~to add to my HM03s collection.*Although I think you will need~one to go to Eagulou City,~so here you go kid!
 Route61_SurfHouse_SurfMan_AfterTalking,HM03 is Surf!*Pokémon will be able to~ferry you across water!*And, this HM isn't disposable!~You can use it over and over!
@@ -4523,9 +4523,9 @@ Route57_Main_Fisherman_Answer_No,You don't? I promise it's a~good one!
 Route57_Main_Fisherman_Answer_Yes,One day, when I was fishin'~down by this very same river~with some pals, we happened to~see a weird hole open up in~the sky. It spat out a man and~closed right back up, never~seen anythin' like it. The man~that fell from the sky was~very upset and said he~couldn't remember a thing but~his name, so we figured we'd~get him a Pokémon so he could~at least get by traveling. He~was scared by most of them for~some reason or another and~didn't even like our fish~much... But rats? Cats? Birds?~He loved those. So we caught~Joe a Pidgey, way back then.~And he took darn good care of~it.*Bit of a weird fella; can't~say we talk much now. But he~made a good name for himself,~far as I'm concerned. You~ought to pay his Gym a visit.
 
 Route57_Gym_Statue_BeforeDefeat,South Reservoir~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura
-Route57_Gym_Statue_AfterDefeat,South Reservoir~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<player.name>
+Route57_Gym_Statue_AfterDefeat,South Reservoir~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<Player.Name>
 Route57_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Joe uses only Normal Pokémon!*I would recommend using~Fighting-type Pokémon against~those foes!
-Route57_Gym_GymGuy_AfterBadge,Gym Guy: <player.name>!~Good job once again!
+Route57_Gym_GymGuy_AfterBadge,Gym Guy: <Player.Name>!~Good job once again!
 Route57_Gym_Quiz_Answer_Correct,You're absolutely correct!*Go on through.
 Route57_Gym_Quiz_Answer_Wrong,Sorry, bad call.
 Route57_Gym_Quiz_Question1,Pokémon Quiz!*Pidgeot is Normal/Wind-type?
@@ -4555,12 +4555,12 @@ Route57_Gym_NormalTrainerReggie_DefeatMessage,Normal Pokémon's only weakness~is
 Route57_Gym_NormalTrainerStefan_IntroMessage,Normal equals best!
 Route57_Gym_NormalTrainerStefan_OutroMessage,Oh! Snuffed out!
 Route57_Gym_NormalTrainerStefan_DefeatMessage,Quit staring at me, it's mean!
-Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the South Reservoir Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<player.name>: Well, I'll~do anything for the~Equity Badge!
+Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the South Reservoir Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<Player.Name>: Well, I'll~do anything for the~Equity Badge!
 Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if you are this good.*You have earned the Equity~Badge!
 Route57_Gym_LeaderJoe_AfterBattle1,Joe: Hah!*Since you're special, I'll~give you something else!
 Route57_Gym_LeaderJoe_AfterBattle2,TM 15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!
 Route57_Gym_LeaderJoe_TalkAgain,Joe: Hyper Beam is the best~Normal attack you can get!*Don't waste it!
-Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Question,Joe: Ah, welcome! I've been~doing some thinking...?*<player.name>: ... Okay? Good~job, man?*Joe: You know Gym Leaders have~to tone things down for~trainers, right? Fighting at~less than full strength~doesn't seem very normal to~me. So how about you and I~have an average rematch, no~holds barred?!
+Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Question,Joe: Ah, welcome! I've been~doing some thinking...?*<Player.Name>: ... Okay? Good~job, man?*Joe: You know Gym Leaders have~to tone things down for~trainers, right? Fighting at~less than full strength~doesn't seem very normal to~me. So how about you and I~have an average rematch, no~holds barred?!
 Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Answer_No,Joe: You don't want to battle~Pokémon right now?*That's so... ABNORMAL!*Get out, you miserable lout!!
 Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Answer_Yes,Joe: Alright! There's no way~you can handle us at our most~OVERWHELMING LEVEL OF...*normal.
 Route57_Gym_LeaderJoe_Rematch_OutroMessage,Joe: You beat us? Your team~must be that rumored...*EXTRAORDINARY type!
@@ -4609,7 +4609,7 @@ Eagulou_Main_Sign_City,Eagulou City*The totally underrated city.
 Eagulou_Main_Sign_Park,Eagulou Park
 Eagulou_Main_Sign_MtBoulder,Mt. Boulder*Shortcut to Merson City*There's a note attached:~Watch out! A Pokémon nested~in Mt. Boulder recently and~temperature in it has dropped~to freezing point!*There's an extra note: Poor~Growlithe...
 Eagulou_Main_Sign_Gym_BeforeDefeat,Eagulou City~Pokémon Gym~Leader: ???*Winning Trainers:~Mura
-Eagulou_Main_Sign_Gym_AfterDefeat,Eagulou City~Pokémon Gym~Leader: ???*Winning Trainers:~Mura~<player.name>
+Eagulou_Main_Sign_Gym_AfterDefeat,Eagulou City~Pokémon Gym~Leader: ???*Winning Trainers:~Mura~<Player.Name>
 Eagulou_Main_MistStoneBarrier,Something pushes you.
 
 Eagulou_PokeCenter_CoolTrainerFemale,My boyfriend is busy catching~Pokémon from the Eagulou Park.
@@ -4653,7 +4653,7 @@ Eagulou_Gym_PaletteBlack_IntroMessage,...*What? You thought I was one~of the goo
 Eagulou_Gym_PaletteBlack_OutroMessage,I'll take that as a no...
 Eagulou_Gym_PaletteBlack_DefeatMessage,Palette Red and I will soon~take on these clowns.*And then when he least~suspects, BOOM!*I'll be in charge.
 Eagulou_Gym_PaletteBlack_AfterBattle,Tch!*It doesn't matter what you do.*If you humiliate the boss here~by defeating him, you'll just~be helping us.*Palette Red and I will soon~take on these clowns.*And then when he least~suspects, BOOM!*I'll be in charge.
-Eagulou_Gym_LeaderGiovanni_BeforeBattle,<player.name>: What?!*You're the Gym Leader here?*Giovanni: Well, well. So it's~happened again.*After regrouping in Johto~following our defeat in Kanto,~we moved to Rijon, hoping to~escape detection of any~intruders. But alas, you know~how it played out.*I, Giovanni, the Eagulou City~Gym Leader, will once again~disband Team Rocket if you~manage to defeat me.*Let us see who the better one~is, shall we?
+Eagulou_Gym_LeaderGiovanni_BeforeBattle,<Player.Name>: What?!*You're the Gym Leader here?*Giovanni: Well, well. So it's~happened again.*After regrouping in Johto~following our defeat in Kanto,~we moved to Rijon, hoping to~escape detection of any~intruders. But alas, you know~how it played out.*I, Giovanni, the Eagulou City~Gym Leader, will once again~disband Team Rocket if you~manage to defeat me.*Let us see who the better one~is, shall we?
 Eagulou_Gym_LeaderGiovanni_OutroMessage,Giovanni: I'm beginning to~feel rather nostalgic.*You have earned my Star Badge,~and the league's acceptance!
 Eagulou_Gym_LeaderGiovanni_AfterBattle1,Giovanni: So, it comes to an end. My defeat has happened, and as promised, Team Rocket will be disbanded. But before I go, take the Star Badge, and take this parting gift too.
 Eagulou_Gym_LeaderGiovanni_AfterBattle2,TM 27 is Fissure!*It will take out Pokémon with~just one hit!*Just like the Earth Badge in~Kanto, the Star Badge makes~Pokémon of all levels obey~your every command. It shows~your true mastery as a Pokémon~trainer. Now it is time to say~farewell. Give Red my best~regards if you happen to cross~paths with him, will you?
@@ -4766,7 +4766,7 @@ Route65_Route67_Gate_YoungBoy,Getting here was too easy.~Those Gym Leaders won't
 
 [Route 67]
 Route67_Main_Sign,Route 67~Seneca Cavefront*Pathway to the Rijon League!
-Route67_Main_Suloku,Suloku: Hey! <player.name>!*I hope you're enjoying your~Poké-Adventure!*Try evolving Eevee in a cave~or forest!*Also, did you know Primeape~evolves when fainting before~or after leveling up?
+Route67_Main_Suloku,Suloku: Hey! <Player.Name>!*I hope you're enjoying your~Poké-Adventure!*Try evolving Eevee in a cave~or forest!*Also, did you know Primeape~evolves when fainting before~or after leveling up?
 
 Route67_PokeCenter_BenchGuy,This PokéCenter was recently~built!
 Route67_PokeCenter_RedditGuy,I'm checking Reddit for~Pokémon Prism updates!
@@ -4815,18 +4815,18 @@ League_Elite4_Agatha_IntroMessage,I am Agatha!*I was once part of the Pokémon~L
 League_Elite4_Agatha_OutroMessage,Oh-ho-ho! You're something~special, child!
 League_Elite4_Agatha_DefeatMessage,You're not afraid to chase~your dreams!*It's time for you to face the~next trainer.*Run along now, child!
 
-League_Elite4_Blanch_IntroMessage,Hey <player.name>!~The name's Blanch.~Welcome to the room of the~strongest member of Rijon's~Elite Four!*<player.name>: So if I beat you,~I become Rijon's Champion?*Blanch: Beat ME?!~Not a chance, kid! Me and my~dragons will grind you down to~dust in no time at all!*Prepare to lose! Haha!
+League_Elite4_Blanch_IntroMessage,Hey <Player.Name>!~The name's Blanch.~Welcome to the room of the~strongest member of Rijon's~Elite Four!*<Player.Name>: So if I beat you,~I become Rijon's Champion?*Blanch: Beat ME?!~Not a chance, kid! Me and my~dragons will grind you down to~dust in no time at all!*Prepare to lose! Haha!
 League_Elite4_Blanch_OutroMessage,Wh--wha... No...
 League_Elite4_Blanch_DefeatMessage,...you...beat... me...?*I can't believe this, but you~won fair and square.~To add insult to injury,~I just lost to this OTHER~dumb kid earlier today.~Think his name was Mura, or~something like that.*If you want to become~Champion, you gotta beat that~other guy first.*Wish you luck.
 
-League_Champion_Mura_IntroMessage,Mura: Hey!*<player.name>: You're the last~trainer?*Mura: Yep, I told you I would~be the best Pokémon trainer~ever!*<player.name>: I... can't believe~this...*Blanch was hard enough...~I almost lost to her but you~beat her before me.*Mura: There's only one way to~settle this...*<player.name>: I think I know what~you mean.*Mura: Let's do it then and~prove who's the real champion~of Rijon!
-League_Champion_Mura_OutroMessage,NO! That wasn't fair!*<player.name>: Well I'm sorry to~say, that I'm the champion~now.
-League_Champion_Mura_AfterDefeat1,Mura: What the heck?*This is totally unfair!*You must have cheated, get out~of my sight now you jerk!*<player.name>: Sore loser?*Didn't see that coming...
-League_Champion_Mura_AfterDefeat2,Tim: <player.name>!
-League_Champion_Mura_AfterDefeat3,Tim: So, you won!~Congratulations!~You're the new Pokémon~League Champion!*<player.name>: Yeah, I am!*Although Mura isn't happy.*Mura: Tim, listen to me!~I defeated that cheater!*It's a rules violation!*Tim: I watched the whole~thing, and you both put in a~great fight.*I'm disappointed in you Mura,~not for losing, but for not~admitting defeat.
-League_Champion_Mura_AfterDefeat4,Mura: <player.name>!*You see this big finger?~It's for you.*<player.name>: Oh grow up.*Tim: That's enough bickering~you two.*<player.name>, follow me.
+League_Champion_Mura_IntroMessage,Mura: Hey!*<Player.Name>: You're the last~trainer?*Mura: Yep, I told you I would~be the best Pokémon trainer~ever!*<Player.Name>: I... can't believe~this...*Blanch was hard enough...~I almost lost to her but you~beat her before me.*Mura: There's only one way to~settle this...*<Player.Name>: I think I know what~you mean.*Mura: Let's do it then and~prove who's the real champion~of Rijon!
+League_Champion_Mura_OutroMessage,NO! That wasn't fair!*<Player.Name>: Well I'm sorry to~say, that I'm the champion~now.
+League_Champion_Mura_AfterDefeat1,Mura: What the heck?*This is totally unfair!*You must have cheated, get out~of my sight now you jerk!*<Player.Name>: Sore loser?*Didn't see that coming...
+League_Champion_Mura_AfterDefeat2,Tim: <Player.Name>!
+League_Champion_Mura_AfterDefeat3,Tim: So, you won!~Congratulations!~You're the new Pokémon~League Champion!*<Player.Name>: Yeah, I am!*Although Mura isn't happy.*Mura: Tim, listen to me!~I defeated that cheater!*It's a rules violation!*Tim: I watched the whole~thing, and you both put in a~great fight.*I'm disappointed in you Mura,~not for losing, but for not~admitting defeat.
+League_Champion_Mura_AfterDefeat4,Mura: <Player.Name>!*You see this big finger?~It's for you.*<Player.Name>: Oh grow up.*Tim: That's enough bickering~you two.*<Player.Name>, follow me.
 
-League_HallOfFame,Tim: Er-hem!~Congratulations, <player.name>!*Shall we put your Pokémon data~on the Hall of Fame website~for all to see and know about~your accomplishments?*<player.name>: Yeah, definitely!*Tim: Alright, here we go!*Mura, shouting in the distance:~I will become a LEGEND, you~just wait and see!
+League_HallOfFame,Tim: Er-hem!~Congratulations, <Player.Name>!*Shall we put your Pokémon data~on the Hall of Fame website~for all to see and know about~your accomplishments?*<Player.Name>: Yeah, definitely!*Tim: Alright, here we go!*Mura, shouting in the distance:~I will become a LEGEND, you~just wait and see!
 
 [Old Route 48]
 Route48_Sign_GoingUphill,Old Route 48~Going uphill!
@@ -4951,8 +4951,8 @@ Azalea_Gym_LeaderBugsy_Rematch_Reward2,Bugsy: This amazing tool will~make your P
 Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Well, I guess I have~more learning to do. But~that's nothing new! Bug-type~Pokémon are my favorite, but~every Pokémon has so many~mysteries for us to uncover in~the future!
 Azalea_Gym_Choose_Gligar,You want the Gligar?
 Azalea_Gym_Choose_Sneasel,You want the Sneasel?
-Azalea_Gym_Receive_Gligar,<player.name> received~a Gligar!
-Azalea_Gym_Receive_Sneasel,<player.name> received~a Sneasel!
+Azalea_Gym_Receive_Gligar,<Player.Name> received~a Gligar!
+Azalea_Gym_Receive_Sneasel,<Player.Name> received~a Sneasel!
 Azalea_Gym_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
 Azalea_Gym_PokeballAfterChoose,Better not get greedy...
 
@@ -5195,14 +5195,14 @@ MadameRenifler_DanceClub_Music_Pr0ndiskOutro,Currently Playing: Pr0ndisk Outro*b
 MadameRenifler_DanceClub_Music_Worship,Currently Playing: Worship*by Amadeus Voxon~- Game Boy cover by AlexCorruptor
 
 MadameRenifler_Bridge_Music_Breeze,Currently Playing:~Breeze*by JappaWakka
-MadameRenifler_Bridge_JappaWakka_FirstTalk1,JappaWakka: Hiya, <player.name>!*Welcome to my ship: Madame~Renifler! Built it myself,~pretty proud of it.*Don't worry, it's perfectly~safe. My good buddy Alex~helped me out a lot.*He's got a nose for finding~things that need improvement~and fixing.*Have you met him yet? He's the~Tepig operating the DJ set in~the dance room below.*I'm kinda worried about Alex~though. There seems to be~something troubling him, but~he seems to not want to talk~about it. If you're able to,~please let him know he can~always tell me anything and~that I'm there for him if he~needs me.
-MadameRenifler_Bridge_JappaWakka_FirstTalk2,JappaWakka: Hiya, <player.name>!~Have you met Alex yet? He's~the Tepig operating the DJ set~in the dance room below.*There seems to be something~troubling him, but he seems to~not want to talk about it.~If you're able to, please let~him know he can always tell me~anything and that I'm there~for him if he needs me.
-MadameRenifler_Bridge_JappaWakka_AfterAlexStory1,JappaWakka: Have you met Alex?~What did he say?*...*I see.*Well that explains a lot. I'm~glad I know what's going on.*I don't have a lot of~knowledge about different~universes, but I mean... with~Pokémon, anything is possible!*Who knows, maybe he'll be able~to return to that Pokémon~world one day! We'll see, but~until that happens I'll just~try to be the best friend I~can be in this one. Thanks for~telling me, <player.name>.*Here, I got you something to~remember us by.
-MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat,<player.name> received a framed photo of a~sniffing cat!
+MadameRenifler_Bridge_JappaWakka_FirstTalk1,JappaWakka: Hiya, <Player.Name>!*Welcome to my ship: Madame~Renifler! Built it myself,~pretty proud of it.*Don't worry, it's perfectly~safe. My good buddy Alex~helped me out a lot.*He's got a nose for finding~things that need improvement~and fixing.*Have you met him yet? He's the~Tepig operating the DJ set in~the dance room below.*I'm kinda worried about Alex~though. There seems to be~something troubling him, but~he seems to not want to talk~about it. If you're able to,~please let him know he can~always tell me anything and~that I'm there for him if he~needs me.
+MadameRenifler_Bridge_JappaWakka_FirstTalk2,JappaWakka: Hiya, <Player.Name>!~Have you met Alex yet? He's~the Tepig operating the DJ set~in the dance room below.*There seems to be something~troubling him, but he seems to~not want to talk about it.~If you're able to, please let~him know he can always tell me~anything and that I'm there~for him if he needs me.
+MadameRenifler_Bridge_JappaWakka_AfterAlexStory1,JappaWakka: Have you met Alex?~What did he say?*...*I see.*Well that explains a lot. I'm~glad I know what's going on.*I don't have a lot of~knowledge about different~universes, but I mean... with~Pokémon, anything is possible!*Who knows, maybe he'll be able~to return to that Pokémon~world one day! We'll see, but~until that happens I'll just~try to be the best friend I~can be in this one. Thanks for~telling me, <Player.Name>.*Here, I got you something to~remember us by.
+MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat,<Player.Name> received a framed photo of a~sniffing cat!
 MadameRenifler_Bridge_JappaWakka_AfterAlexStory2,You can hang it on the wall of~your room if you like.~Your computer should be able~to help you with that.
 MadameRenifler_Bridge_JappaWakka_AfterAlexStory3,Ah, we've arrived back at~Castro Valley's harbor again.*Oh! Before you go, would you~like to have a Pokémon battle~with me? I've got something~extra special for you if you~can defeat me!
 MadameRenifler_Bridge_JappaWakka_Battle_No,That's okay, feel free to come~back if you want to challenge~me later!
-MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo,JappaWakka: Ah, <player.name>!~You're back!*Ready to challenge me?
+MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo,JappaWakka: Ah, <Player.Name>!~You're back!*Ready to challenge me?
 MadameRenifler_Bridge_JappaWakka_Battle_Yes1,Alrighty then! Let's see what~you got, champion!
 MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~some skilled battling! You've~certainly proven yourself~worthy of this reward!
 MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
