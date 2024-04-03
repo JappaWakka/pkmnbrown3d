@@ -4,7 +4,7 @@ version=2
 	@Item.Give(36,1)
 	@Item.MessageGive(36,1)
 	@Text.Show(<system.token(Route51_ExGruntGreg_BeforeBattle_2)>)
-	@Battle.StartTrainer(route51\grunt)
+	@Battle.StartTrainer(route51\exgrunt)
 	@Text.Show(<system.token(Route51_ExGruntGreg_DefeatMessage)>)
 	@Register.Register(friendlygrunt)
 :else:
