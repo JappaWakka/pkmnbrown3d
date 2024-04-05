@@ -23,18 +23,18 @@ version=2
 		@Player.Move(1)
 	:endif
 :endif
-:if:<Register.Registered(snorlax47b)>=True
+:if:<Register.Registered(Snorlax_OldRoute47)>=True
 	@npc.remove(10)
 :else
-	:if:<Register.Registered(snorlax47bshiny)>=False
+	:if:<Register.Registered(Snorlax_OldRoute47_Shiny)>=False
 		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
-			@Register.Register(snorlax47bshiny,bool,true)
+			@Register.Register(Snorlax_OldRoute47_Shiny,bool,true)
 			@Entity.SetModelPath(10,Models\SleepingSnorlax\Snorlax_Shiny)
 		:else
-			@Register.Register(snorlax47bshiny,bool,false)
+			@Register.Register(Snorlax_OldRoute47_Shiny,bool,false)
 		:endif
 	:else
-		:if:<Register.Value(snorlax47bshiny)>=true
+		:if:<Register.Value(Snorlax_OldRoute47_Shiny)>=true
 			@Entity.SetModelPath(10,Models\SleepingSnorlax\Snorlax_Shiny)
 		:endif
 	:endif

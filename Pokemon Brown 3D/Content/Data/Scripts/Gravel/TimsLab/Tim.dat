@@ -71,5 +71,13 @@ version=2
 		@Sound.Play(PokedexNewRating,1)
 	:endif
 	@Text.Show(<storage.get(str,EvaluationText)>)
+	:if:<Register.Registered(RijonDexComplete)>=true
+		:if:<Register.Registered(ReceiveShinyCharm)>=false
+			@Item.Give(242,1)
+			@Item.MessageGive(242,1)
+			@Register.Register(ReceiveShinyCharm)
+		:endif
+		@Text.Show(<system.token(Gravel_TimsLab_Tim_DexComplete2)>)
+	:endif
 	:end
 :endif

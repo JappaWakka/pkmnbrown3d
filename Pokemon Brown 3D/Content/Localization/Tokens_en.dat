@@ -3142,6 +3142,7 @@ DexEvaluation_Rating_Level13,Excellent! If you can find a~way to trade with frie
 DexEvaluation_Rating_Level14,Outstanding! You're becoming~a real pro at this!
 DexEvaluation_Rating_Level15,I have nothing left to say!~You're the authority now!
 DexEvaluation_Rating_Level16,I can't believe it!*<Player.Name>, your Pokédex is~fully complete!*Congratulations!*Come visit me at the lab,~I got something for you!
+DexEvaluation_Rating_Level16_ReceivedReward,I can't believe it!*<Player.Name>, your Pokédex is~fully complete!*Congratulations!
 
 
 [Seashore City]
@@ -3273,6 +3274,8 @@ Gravel_TimsLab_Tim_CatchPokemon1,Tim: Pokémon are just waiting~to be caught, <P
 Gravel_TimsLab_Tim_CatchPokemon2,Tim: When a wild Pokémon~appears, it's fair game. Just~throw a Poké Ball at it and~try to catch it! This won't~always work, though, a healthy~Pokémon could escape. You~have to be lucky!
 Gravel_TimsLab_Tim_ComeSeeMeSometimes,Tim: Come see me sometimes.~I want to know how your~Pokédex is coming along.
 Gravel_TimsLab_Tim_DexEvaluation,Tim: Good to see you! How is~your Pokédex doing?~Here, let me take a look!
+Gravel_TimsLab_Tim_DexComplete1,I can't believe it!*<Player.Name>, your Pokédex is~fully complete!*Congratulations!*Here, take this reward!
+Gravel_TimsLab_Tim_DexComplete2,The Shiny Charm will greatly~increase the chance to~encounter a shiny Pokémon in~the wild!*Good luck hunting shiny~Pokémon!
 Gravel_TimsLab_Pokedex1,Tim: Oh, <Player.Name>!~What are you doing back~so early?*Huh, you have something~for me?
 Gravel_TimsLab_Pokedex2,<Player.Name> handed Tim his pizza.*Tim: Oh good! I was hungry,~but too busy to pick it up!
 Gravel_TimsLab_Pokedex3,Mura: Coming!
@@ -3522,7 +3525,7 @@ Hayward_Main_VendingMachine_NotEnoughMoney,You don't have enough money!
 
 Hayward_Main_Mura_BeforeBattle,Mura: Yo! <Player.Name>!*I just got a cool HM from~that city back there.*My Pokémon have grown stronger~too!*<Player.Name>: Alright, let's see~if that's true, Mura!
 Hayward_Main_Mura_OutroMessage,Mura: Hey!~Take it easy!~You won already!
-Hayward_Main_Mura_AfterBattle,Mura: You may have won~this time, but I'm going to~beat the Rijon League and~become the champion!*<Player.Name>: Not before I do!*Mura: We'll see about that...~I'll see you later.
+Hayward_Main_Mura_AfterBattle,Mura: You may have won~this time, but I'm going to~beat the Rijon League and~become the Champion!*<Player.Name>: Not before I do!*Mura: We'll see about that...~I'll see you later.
 
 Hayward_PokeCenter_BenchGuy,I wish I had HM02.
 Hayward_PokeCenter_Gentleman,If you can find a fossil, that~lab next door will revive it!
@@ -3970,7 +3973,7 @@ Morage_PrismMuseum_CatchLocation,at the Prism Museum
 
 Moraga_Gym_Statues_BeforeDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura
 Moraga_Gym_Statues_AfterDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<Player.Name>
-Moraga_Gym_GymGuy_BeforeBadge,Gym Guy: Hiya, champion in~the making!*Lois uses Grass Pokémon,~which are weak against Fire~and Flying Pokémon!~Good luck!
+Moraga_Gym_GymGuy_BeforeBadge,Gym Guy: Hiya, Champion in~the making!*Lois uses Grass Pokémon,~which are weak against Fire~and Flying Pokémon!~Good luck!
 Moraga_Gym_GymGuy_AfterBadge,Gym Guy: What a fantastic~battle!
 Moraga_Gym_LassKatrin_IntroMessage,A kid?!*Get out of here!
 Moraga_Gym_LassKatrin_OutroMessage,You're too rough!
@@ -4798,7 +4801,7 @@ SenecaCaverns_1F_ScientistDarian_OutroMessage,I just want to take a quick look..
 SenecaCaverns_1F_ScientistDarian_DefeatMessage,My colleagues at Hayward~revived my Pokémon! It seems~Team Rocket has emptied these~caves, I can't find any more~fossils...
 
 [Rijon League]
-League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and the~current champion in order to~receive that title.*Go for it.
+League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and the~current Champion in order to~receive that title.*Go for it.
 League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Wow! That was an~astonishing victory!*Congratulations, champ!
 League_EntranceHall_CableClubLady,Welcome to the Cable Club.*This area is reserved for~2 friends who are linked~by cable.
 League_EntranceHall_EntranceLady,Do you think you're ready?*Good, go in!
@@ -4811,19 +4814,19 @@ League_Elite4_Jared_IntroMessage,Jared: So you beat Redd after~all, didn't you?*
 League_Elite4_Jared_OutroMessage,Jared: Why? How could I lose?
 League_Elite4_Jared_DefeatMessage,Jared: My job is done! Go face~your next challenge!
 
-League_Elite4_Agatha_IntroMessage,I am Agatha!*I was once part of the Pokémon~League in Kanto, but I wanted~to test the skills of trainers~in other regions as well.~So I moved to Rijon.*My Pokémon are ready to fight~when you are, child!
-League_Elite4_Agatha_OutroMessage,Oh-ho-ho! You're something~special, child!
-League_Elite4_Agatha_DefeatMessage,You're not afraid to chase~your dreams!*It's time for you to face the~next trainer.*Run along now, child!
+League_Elite4_Agatha_IntroMessage,Agatha: Welcome, child. I'm~Agatha, a user of Ghost-type~Pokémon. I was once part of~the Elite Four in Kanto, but I~moved here to Rijon for even~more challenges!*<Player.Name>: The real challenge~here is Rijon's Pokédex!~There's just so many!*Agatha: Pokédex, huh? That~sure brings back memories.~That's all those geezers want~these days.*Pokémon are for battling, not~for collecting statistics!*Let me show you the power~behind my words, child!~Prepare to feel the chill of~Ghost-type Pokémon!
+League_Elite4_Agatha_OutroMessage,Agatha: Oh ho! You're~something special, child!
+League_Elite4_Agatha_DefeatMessage,You win!*It's time for you to face the~next member.*Run along now, child!
 
-League_Elite4_Blanch_IntroMessage,Hey <Player.Name>!~The name's Blanch.~Welcome to the room of the~strongest member of Rijon's~Elite Four!*<Player.Name>: So if I beat you,~I become Rijon's Champion?*Blanch: Beat ME?!~Not a chance, kid! Me and my~dragons will grind you down to~dust in no time at all!*Prepare to lose! Haha!
-League_Elite4_Blanch_OutroMessage,Wh--wha... No...
-League_Elite4_Blanch_DefeatMessage,...you...beat... me...?*I can't believe this, but you~won fair and square.~To add insult to injury,~I just lost to this OTHER~dumb kid earlier today.~Think his name was Mura, or~something like that.*If you want to become~Champion, you gotta beat that~other guy first.*Wish you luck.
+League_Elite4_Blanch_IntroMessage,Blanch: Hey <Player.Name>!~The name's Blanch.~Welcome to the room of the~strongest member of Rijon's~Elite Four!*<Player.Name>: So if I beat you,~I become Rijon's Champion?*Blanch: Beat ME?!~Not a chance, kid! Me and my~dragons will grind you down to~dust in no time at all!*Prepare to lose! Haha!
+League_Elite4_Blanch_OutroMessage,Blanch: Wh--wha...*No...
+League_Elite4_Blanch_DefeatMessage,Blanch: ...you...beat...me...?*I can't believe this, but you~won fair and square.~To add insult to injury,~I just lost to this OTHER~dumb kid earlier today.~Think his name was Mura, or~something like that.*If you want to become~Champion, you gotta beat that~other guy first.*Wish you luck.
 
-League_Champion_Mura_IntroMessage,Mura: Hey!*<Player.Name>: You're the last~trainer?*Mura: Yep, I told you I would~be the best Pokémon trainer~ever!*<Player.Name>: I... can't believe~this...*Blanch was hard enough...~I almost lost to her but you~beat her before me.*Mura: There's only one way to~settle this...*<Player.Name>: I think I know what~you mean.*Mura: Let's do it then and~prove who's the real champion~of Rijon!
-League_Champion_Mura_OutroMessage,NO! That wasn't fair!*<Player.Name>: Well I'm sorry to~say, that I'm the champion~now.
-League_Champion_Mura_AfterDefeat1,Mura: What the heck?*This is totally unfair!*You must have cheated, get out~of my sight now you jerk!*<Player.Name>: Sore loser?*Didn't see that coming...
+League_Champion_Mura_IntroMessage,Mura: Hey!*<Player.Name>: You're the~Champion?*Mura: Yep, I told you I would~be the best Pokémon trainer~ever!*<Player.Name>: I... can't believe~this...*Blanch was hard enough...~I almost lost to her but you~beat her before me.*Mura: There's only one way to~settle this...*<Player.Name>: I think I know what~you mean.*Mura: Let's do it then and~prove who's the real Champion~of Rijon!
+League_Champion_Mura_OutroMessage,Mura: NO! DANG IT!*That wasn't fair!*<Player.Name>: Well I'm sorry to~say, that I'm the Champion~now.
+League_Champion_Mura_AfterDefeat1,Mura: What the heck?*This is totally unfair!*You must have cheated, get out~of my sight now, you jerk!*<Player.Name>: Sore loser?*Didn't see that coming...
 League_Champion_Mura_AfterDefeat2,Tim: <Player.Name>!
-League_Champion_Mura_AfterDefeat3,Tim: So, you won!~Congratulations!~You're the new Pokémon~League Champion!*<Player.Name>: Yeah, I am!*Although Mura isn't happy.*Mura: Tim, listen to me!~I defeated that cheater!*It's a rules violation!*Tim: I watched the whole~thing, and you both put in a~great fight.*I'm disappointed in you Mura,~not for losing, but for not~admitting defeat.
+League_Champion_Mura_AfterDefeat3,Tim: So, you won!~Congratulations!~You're the new Pokémon~League Champion!*<Player.Name>: Yeah, I am!*Although Mura isn't happy.*Mura: Tim, listen to me!~I beat that cheater!*It's a rules violation!*Tim: I watched the whole~thing, and you both put in a~great fight.*I'm disappointed in you Mura,~not for losing, but for not~admitting defeat.
 League_Champion_Mura_AfterDefeat4,Mura: <Player.Name>!*You see this big finger?~It's for you.*<Player.Name>: Oh grow up.*Tim: That's enough bickering~you two.*<Player.Name>, follow me.
 
 League_HallOfFame,Tim: Er-hem!~Congratulations, <Player.Name>!*Shall we put your Pokémon data~on the Hall of Fame website~for all to see and know about~your accomplishments?*<Player.Name>: Yeah, definitely!*Tim: Alright, here we go!*Mura, shouting in the distance:~I will become a LEGEND, you~just wait and see!
@@ -5203,7 +5206,7 @@ MadameRenifler_Bridge_JappaWakka_AfterAlexStory2,You can hang it on the wall of~
 MadameRenifler_Bridge_JappaWakka_AfterAlexStory3,Ah, we've arrived back at~Castro Valley's harbor again.*Oh! Before you go, would you~like to have a Pokémon battle~with me? I've got something~extra special for you if you~can defeat me!
 MadameRenifler_Bridge_JappaWakka_Battle_No,That's okay, feel free to come~back if you want to challenge~me later!
 MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo,JappaWakka: Ah, <Player.Name>!~You're back!*Ready to challenge me?
-MadameRenifler_Bridge_JappaWakka_Battle_Yes1,Alrighty then! Let's see what~you got, champion!
+MadameRenifler_Bridge_JappaWakka_Battle_Yes1,Alrighty then! Let's see what~you got, Champion!
 MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~some skilled battling! You've~certainly proven yourself~worthy of this reward!
 MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift

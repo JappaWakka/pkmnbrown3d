@@ -1,17 +1,17 @@
 version=2
 
-:if:<Register.Registered(snorlax61)>=True
+:if:<Register.Registered(Snorlax_Route61)>=True
 	@npc.remove(10)
 :else
-	:if:<Register.Registered(snorlax61shiny)>=False
+	:if:<Register.Registered(Snorlax_Route61_Shiny)>=False
 		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
-			@Register.Register(snorlax61shiny,bool,true)
+			@Register.Register(Snorlax_Route61_Shiny,bool,true)
 			@Entity.SetModelPath(10,Models\SleepingSnorlax\Snorlax_Shiny)
 		:else
-			@Register.Register(snorlax61shiny,bool,false)
+			@Register.Register(Snorlax_Route61_Shiny,bool,false)
 		:endif
 	:else
-		:if:<Register.Value(snorlax61shiny)>=true
+		:if:<Register.Value(Snorlax_Route61_Shiny)>=true
 			@Entity.SetModelPath(10,Models\SleepingSnorlax\Snorlax_Shiny)
 		:endif
 	:endif
