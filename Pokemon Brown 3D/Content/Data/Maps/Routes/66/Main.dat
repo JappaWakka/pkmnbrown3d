@@ -158,7 +158,7 @@ Dock Sides (Direction = Facing):
 		{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,-0.625,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12,-0.625,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,50,16,4][192,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
-Rocks:
+Large Rocks:
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[6,-0.25,1]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[6,0,5]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[0,-0.25,11]}}]}}
@@ -174,9 +174,9 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[13,0,7]}}{"TextureID"{str[Swimmer_Male_Land]}}{"ID"{int[5]}}{"Name"{str[Swimmer Jake]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\001]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[9,-0.2,12]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[6]}}{"Name"{str[Swimmer Lucky]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\002]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[4,-0.2,29]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[7]}}{"Name"{str[Swimmer Emile]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\003]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[16,-0.2,33]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[8]}}{"Name"{str[Swimmer Logan]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\Route66\004]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[13,-0.2,27]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[8]}}{"Name"{str[Swimmer Ivan]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\005]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-
+	{"NPC"{NPC[{"Position"{sngArr[13,-0.2,27]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[8]}}{"Name"{str[Swimmer Logan]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\004]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[16,-0.2,33]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[8]}}{"Name"{str[Swimmer Ivan]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\Route66\005]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	
 Warps:
 	Owsauri City
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[7,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,17,0.1,37,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}

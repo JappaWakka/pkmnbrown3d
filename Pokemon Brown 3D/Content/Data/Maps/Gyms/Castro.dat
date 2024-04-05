@@ -84,7 +84,7 @@ Statues:
 	{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"Steps"{sngArr[3,1]}}{"EntityID"{str[SignBlock]}}{"Position"{sngArr[3,0,13.5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[GymSigns\Castro]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[7,0,4]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[1]}}{"Name"{str[Juggler Joey]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\castro\000]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[7,0,4]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[1]}}{"Name"{str[Juggler Emmett]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\castro\000]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[8,0,3]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[2]}}{"Name"{str[Juggler Aaron]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\castro\001]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[4,0,7]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[3]}}{"Name"{str[Tamer Allan]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\castro\002]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[3,0,5]}}{"TextureID"{str[Blackbelt]}}{"ID"{int[4]}}{"Name"{str[Tamer Boris]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\castro\003]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
