@@ -4374,12 +4374,12 @@ Castro_OldRodHouse_OldRodGuy_AfterReceiveOldRod,Hello there, <Player.Name>!*How 
 
 Castro_Gym_Statues_BeforeDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura
 Castro_Gym_Statues_AfterDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<Player.Name>
-Castro_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Castro Valley's Gym has Koji~as its Leader!*Koji only uses fighting Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!
+Castro_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Castro Valley's Gym has Koji~as its Leader!*Koji only uses Fighting-type Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!
 Castro_Gym_GymGuy_AfterBadge,Gym Guy: Amazing! You've~definitely fought your way~through that one!
-Castro_Gym_JugglerEmmett_IntroMessage,Master Koji only uses fighting~Pokémon!
+Castro_Gym_JugglerEmmett_IntroMessage,Master Koji only uses~Fighting-type Pokémon!
 Castro_Gym_JugglerEmmett_OutroMessage,My balls!
 Castro_Gym_JugglerEmmett_DefeatMessage,How could my Primeape fail~me..?
-Castro_Gym_JugglerAaron_IntroMessage,Fighting Pokémon are the best!
+Castro_Gym_JugglerAaron_IntroMessage,Fighting-type Pokémon are the~best!
 Castro_Gym_JugglerAaron_OutroMessage,I'm done for!
 Castro_Gym_JugglerAaron_DefeatMessage,I will keep on training!
 Castro_Gym_TamerAllan_IntroMessage,Stop right there!
@@ -4394,7 +4394,7 @@ Castro_Gym_JugglerKay_DefeatMessage,Stay and train with us!
 Castro_Gym_JugglerCalvin_IntroMessage,Strength is our number one~strategy!
 Castro_Gym_JugglerCalvin_OutroMessage,What? Extraordinary!
 Castro_Gym_JugglerCalvin_DefeatMessage,I guess it's best to have~multiple strategies!
-Castro_Gym_LeaderKoji_BeforeBattle,Koji: Ah, so I see you've~found me at last!*<Player.Name>: One of your Gym~trainers literally told me~where you were...*Koji: So they did, did they?~I'm going to need to talk to~them about that.*The name's Koji, and I specialize~in Fighting-type Pokémon.~Our dojo is packed with the~strongest fighters in Rijon,~and I, the Castro Valley Gym~Leader, am its master!*Bow down to the might of our~powerful kicks and blows!*Hoohah!
+Castro_Gym_LeaderKoji_BeforeBattle,Koji: Ah, so I see you've~found me at last!*<Player.Name>: The Gym guide~literally told me where you~were...*Koji: So he did, did he?~I need to have a talk with him~about that.*The name's Koji, and I specialize~in Fighting-type Pokémon.~Our dojo is packed with the~strongest fighters in Rijon,~and I, the Castro Valley Gym~Leader, am its master!*Bow down to the might of our~powerful kicks and blows!*Hoohah!
 Castro_Gym_LeaderKoji_OutroMessage,Koji: Humph! You have proven~your worth!*Here! You deserve the Fist~Badge!
 Castro_Gym_LeaderKoji_AfterBattle1,Koji: Now that you have the~Fist Badge, you can use Surf~outside of battle.*Take this TM I found as a gift~too!
 Castro_Gym_LeaderKoji_AfterBattle2,TM 01 contains Dynamic Punch!~It can miss, but it confuses~the foe!
@@ -4791,7 +4791,7 @@ Route67_TeleportScientist_AfterGift,I don't believe in magic, and~I don't wear b
 [Seneca Caverns]
 SenecaCaverns_1F_FossilScientist,I'm studying the cave in~search of fossils to revive~powerful ancient Pokémon.
 SenecaCaverns_1F_RocketGruntDerrick_IntroMessage,Give me your fossils!
-SenecaCaverns_1F_RocketGruntDerrick_OutroMessage,Please...?
+SenecaCaverns_1F_RocketGruntDerrick_OutroMessage,...Please?
 SenecaCaverns_1F_RocketGruntDerrick_DefeatMessage,The leader won't be happy...
 SenecaCaverns_1F_RocketGruntRosalyn_IntroMessage,Where do you think you are going?
 SenecaCaverns_1F_RocketGruntRosalyn_OutroMessage,Well, whatever.
@@ -4824,10 +4824,10 @@ League_Elite4_Blanch_DefeatMessage,Blanch: ...you...beat...me...?*I can't believ
 
 League_Champion_Mura_IntroMessage,Mura: Hey!*<Player.Name>: You're the~Champion?*Mura: Yep, I told you I would~be the best Pokémon trainer~ever!*<Player.Name>: I... can't believe~this...*Blanch was hard enough...~I almost lost to her but you~beat her before me.*Mura: There's only one way to~settle this...*<Player.Name>: I think I know what~you mean.*Mura: Let's do it then and~prove who's the real Champion~of Rijon!
 League_Champion_Mura_OutroMessage,Mura: NO! DANG IT!*That wasn't fair!*<Player.Name>: Well I'm sorry to~say, that I'm the Champion~now.
-League_Champion_Mura_AfterDefeat1,Mura: What the heck?*This is totally unfair!*You must have cheated, get out~of my sight now, you jerk!*<Player.Name>: Sore loser?*Didn't see that coming...
+League_Champion_Mura_AfterDefeat1,Mura: What the heck?*This is totally unfair!*You must have cheated, get out~of my sight now, you jerk!!!*<Player.Name>: Sore loser?*Didn't see that coming...
 League_Champion_Mura_AfterDefeat2,Tim: <Player.Name>!
 League_Champion_Mura_AfterDefeat3,Tim: So, you won!~Congratulations!~You're the new Pokémon~League Champion!*<Player.Name>: Yeah, I am!*Although Mura isn't happy.*Mura: Tim, listen to me!~I beat that cheater!*It's a rules violation!*Tim: I watched the whole~thing, and you both put in a~great fight.*I'm disappointed in you Mura,~not for losing, but for not~admitting defeat.
-League_Champion_Mura_AfterDefeat4,Mura: <Player.Name>!*You see this big finger?~It's for you.*<Player.Name>: Oh grow up.*Tim: That's enough bickering~you two.*<Player.Name>, follow me.
+League_Champion_Mura_AfterDefeat4,Mura: <Player.Name>!*You see this big finger?~It's for you.*<Player.Name>: Oh grow up.*Tim: That's enough bickering~you two.*Follow me, <Player.Name>.
 
 League_HallOfFame,Tim: Er-hem!~Congratulations, <Player.Name>!*Shall we put your Pokémon data~on the Hall of Fame website~for all to see and know about~your accomplishments?*<Player.Name>: Yeah, definitely!*Tim: Alright, here we go!*Mura, shouting in the distance:~I will become a LEGEND, you~just wait and see!
 
