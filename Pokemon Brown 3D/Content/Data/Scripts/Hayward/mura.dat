@@ -10,16 +10,16 @@ version=2
 	@NPC.move(20,4)
 	@Text.Show(<system.token(Hayward_Main_Mura_BeforeBattle)>)
 	@music.setmusicloop(HaywardOwsauri)
-	:if:<Register.Registered(starter1)>=true
-		@battle.trainer(mura\1charmander)
-	:endif
-
-	:if:<Register.Registered(starter2)>=true
+	:if:<Register.Registered(Starter_Charmander)>=true
 		@battle.trainer(mura\1squirtle)
 	:endif
 
-	:if:<Register.Registered(starter3)>=true
+	:if:<Register.Registered(Starter_Squirtle)>=true
 		@battle.trainer(mura\1bulbasaur)
+	:endif
+
+	:if:<Register.Registered(Starter_Bulbasaur)>=true
+		@battle.trainer(mura\1charmander)
 	:endif
 	
 	@Text.Show(<system.token(Hayward_Main_Mura_AfterBattle)>)

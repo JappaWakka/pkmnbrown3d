@@ -35,7 +35,7 @@ version=2
 	@entity.remove(10)
 :endif
 
-:if:<Register.Registered(starter1)>=true
+:if:<Register.Registered(Starter_Charmander)>=true
 	@NPC.remove(1)
 	@NPC.remove(2)
 	:if:<Register.Registered(muralabbattle)>=false
@@ -44,7 +44,7 @@ version=2
 	:endif
 :endif
 
-:if:<Register.Registered(starter2)>=true
+:if:<Register.Registered(Starter_Squirtle)>=true
 	@NPC.remove(2)
 	@NPC.remove(3)
 	:if:<Register.Registered(muralabbattle)>=false
@@ -53,7 +53,7 @@ version=2
 	:endif
 :endif
 
-:if:<Register.Registered(starter3)>=true
+:if:<Register.Registered(Starter_Bulbasaur)>=true
 	@NPC.remove(3)
 	@NPC.remove(1)
 	:if:<Register.Registered(muralabbattle)>=false

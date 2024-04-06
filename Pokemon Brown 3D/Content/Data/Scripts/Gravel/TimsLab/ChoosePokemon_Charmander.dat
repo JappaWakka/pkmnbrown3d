@@ -7,7 +7,7 @@ version=2
 			@NPC.remove(1)
 			@NPC.register(TimsLab.dat|1|remove)
 			@Register.Register(pokemongot)
-			@Register.Register(starter1)
+			@Register.Register(Starter_Charmander)
 			@register.unregister(tim1)
 			@register.unregister(mura1)
 			@Register.Register(tim2)
