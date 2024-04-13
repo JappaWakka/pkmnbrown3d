@@ -1,7 +1,24 @@
 version=2
 
 :if:<Register.Registered(sparkybadge_obtain)>=False
-	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_BeforeBattle)>)
+	@Level.Wait(15)
+	:if:<player.position(x)>=6
+		@NPC.Turn(4,0)
+		@Level.Wait(15)
+		@NPC.Turn(4,2)
+		@Level.Wait(15)
+		@NPC.Turn(4,3)
+	:else
+		@NPC.Turn(4,2)
+		@Level.Wait(15)
+		@NPC.Turn(4,1)
+		@Level.Wait(15)
+		@NPC.Turn(4,3)
+	:endif
+	@Level.Wait(15)
+	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_BeforeBattle1)>)
+	@NPC.Turn(4,<player.facing>-2)
+	@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_BeforeBattle2)>)
 	@Battle.StartTrainer(Gyms\jaeru\leader)
 	@Register.Register(sparkybadge_obtain)
 	@Register.Register(trainer_Gyms\jaeru\000)

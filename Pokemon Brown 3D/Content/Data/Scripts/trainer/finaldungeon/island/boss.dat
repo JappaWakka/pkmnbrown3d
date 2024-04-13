@@ -3,6 +3,7 @@ version=2
 @Text.Show(<system.token(FinalDungeon_Island_PaletteRed_AfterDefeat1)>)
 @Pokemon.Cry(1010)
 @Level.Wait(50)
+@Sound.Play(Emote_Exclamation)
 @Entity.ShowMessageBulb(1|21|0.65|5)
 @npc.turn(3,0)
 @Text.Show(<system.token(FinalDungeon_Island_PaletteRed_AfterDefeat2)>)
