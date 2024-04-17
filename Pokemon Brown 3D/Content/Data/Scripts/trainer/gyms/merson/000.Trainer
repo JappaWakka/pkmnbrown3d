@@ -1,11 +1,11 @@
 [TRAINER FORMAT]
 Name|Silas
-TrainerClass|<system.token(TrainerClass_JrTrainer_Male)>
+TrainerClass|<system.token(TrainerClass_Lifeguard)>
 Money|220
-IntroMessage|<system.token(Merson_Gym_JrTrainerMaleSilas_IntroMessage)>
-OutroMessage|<system.token(Merson_Gym_JrTrainerMaleSilas_OutroMessage)>
-DefeatMessage|<system.token(Merson_Gym_JrTrainerMaleSilas_DefeatMessage)>
-TextureID|JrTrainer_Male
+IntroMessage|<system.token(Merson_Gym_LifeguardSilas_IntroMessage)>
+OutroMessage|<system.token(Merson_Gym_LifeguardSilas_OutroMessage)>
+DefeatMessage|<system.token(Merson_Gym_LifeguardSilas_DefeatMessage)>
+TextureID|Silas
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
