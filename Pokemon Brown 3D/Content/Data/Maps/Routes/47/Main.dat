@@ -196,8 +196,8 @@ Buildings:
 				
 Signs:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,0,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Route47_Sign_CyclingPeak)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.703125,0.1875]}}{"Position"{sngArr[8,-0.15,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-
+	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[8,0,21]}}]}}
+	
 Snorlax:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"ID"{int[10]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[27,-0.5,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"Visible"{bool[1]}}{"ModelPath"{str[Models\SleepingSnorlax\Snorlax_Normal]}}{"AdditionalValue"{str[Route61\snorlax]}}{"Rotation"{int[0]}}]}}
 

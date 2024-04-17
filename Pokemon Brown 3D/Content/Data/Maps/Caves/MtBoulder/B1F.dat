@@ -157,10 +157,10 @@ Large Rocks:
 		{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2]}}{"Offset"{sngArr[0,0,16]}}]}}
 		
 Signs:
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.609375,0.1875]}}{"Position"{sngArr[9,-0.2,15]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,19,16,13][144,19,4,13][112,19,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Cave]}}{"Offset"{sngArr[9,0,15]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,15]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(MtBoulder_B1F_Sign_Ruins)>]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.609375,0.1875]}}{"Position"{sngArr[23,-0.2,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,19,16,13][144,19,4,13][112,19,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Cave]}}{"Offset"{sngArr[23,0,1]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[23,0,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(MtBoulder_B1F_Sign_EvolveEevee)>]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 	
 Stairs:
