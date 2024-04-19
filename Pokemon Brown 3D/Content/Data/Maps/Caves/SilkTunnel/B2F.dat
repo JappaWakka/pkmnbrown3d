@@ -9,7 +9,6 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[34,1]}}{"Position"{intArr[-2,2,-2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,18]}}{"Position"{intArr[-2,2,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,18]}}{"Position"{intArr[31,2,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[7,1,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[8,3]}}{"Position"{intArr[3,1,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[4,5]}}{"Position"{intArr[23,1,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[4,3]}}{"Position"{intArr[11,1,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}]}}
@@ -63,6 +62,20 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[6,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[10,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[6,6]}}{"Position"{intArr[22,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[0,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[1,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[4,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[6,1]}}{"Position"{intArr[4,0,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[8,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[7,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[14,0,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[15,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[18,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[20,0,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[20,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[21,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[24,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[28,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
 		
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,9]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Visible"{bool[0]}}]}}

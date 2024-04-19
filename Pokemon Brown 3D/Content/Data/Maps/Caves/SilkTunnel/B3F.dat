@@ -136,6 +136,42 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[21,0,35]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[30,0,35]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 	
+	Removal
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[0,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[0,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[2,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[2,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[3,0,22]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[4,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[7,0,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[8,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[10,0,34]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[12,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[12,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[12,0,24]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[13,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[14,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[4,1]}}{"Position"{intArr[18,0,22]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[18,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[18,0,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[20,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[22,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[22,0,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[24,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[24,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[3,2]}}{"Position"{intArr[25,0,22]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[26,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[26,0,34]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[28,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[32,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[33,0,22]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[33,0,28]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[34,0,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[36,0,22]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[38,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[38,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[38,0,28]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+	
 Gemstones:
 	Rough
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[2,-0.1,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
