@@ -34,7 +34,7 @@ Ladder:
 		{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Inside_Rotated]}}{"Offset"{sngArr[2,0,4]}}]}}
 	
 Boxes:
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.9,0.45,0.9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-0.275,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[256,256,16,8][256,240,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.9,0.45,0.9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-0.275,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[256,256,16,8][256,240,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.9,0.45,0.9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0.175,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[256,256,16,8][256,240,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Counters:
