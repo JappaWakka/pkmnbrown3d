@@ -3451,7 +3451,7 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and Normal.
 Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
 Route55_RainbowTower_Floor4_Room_Porygon_Receive,<Player.Name> got Porygon!
-Route55_RainbowTower_Floor4_Room_Porygon_ToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+Route55_RainbowTower_Floor4_Room_Porygon_ToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift
 Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the Rainbow Tower
 Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,I don't need this Pokémon,~so you can have it for free...*No kid, I am not crazy, just~an idiot...
@@ -3554,7 +3554,7 @@ Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~
 Hayward_FossilLab_GotOmanyte,<Player.Name> got Omanyte!
 Hayward_FossilLab_GotKabuto,<Player.Name> got Kabuto!
 Hayward_FossilLab_GotCranidos,<Player.Name> got Cranidos!
-Hayward_FossilLab_FossilPokemon_ToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+Hayward_FossilLab_FossilPokemon_ToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist
 Hayward_FossilLab_FossilPokemon_CatchLocation,in the Hayward Fossil Lab
 
@@ -3792,7 +3792,7 @@ Owsauri_Casino_B1F_Shop_NoThanks,No Thanks
 Owsauri_Casino_B1F_Shop_NotEnoughCoins,Sorry, you need more coins.
 Owsauri_Casino_B1F_Shop_ChoosePokemon,So, you want <pokedex.getname(<storage.get(int,PokeNumber)>)>?
 Owsauri_Casino_B1F_Shop_ReceivedPokemon,<Player.Name> got~<pokedex.getname(<storage.get(int,PokeNumber)>)>!
-Owsauri_Casino_B1F_Shop_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+Owsauri_Casino_B1F_Shop_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 Owsauri_Casino_B1F_Shop_PokemonCatchMethod,Purchased from
 Owsauri_Casino_B1F_Shop_PokemonCatchLocation,Owsauri Casino
 Owsauri_Casino_B1F_Shop_Left_Chikorita,Chikorita         2500C
@@ -3969,7 +3969,7 @@ Morage_PrismMuseum_EmeraldEgg_Hint,Pack your bug spray.
 Morage_PrismMuseum_EmeraldEgg_Found,The Emerald Egg!
 Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves,50 Gold Leaves!
 Morage_PrismMuseum_Egg_Reward,Amazing! Here is your reward!
-Morage_PrismMuseum_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+Morage_PrismMuseum_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 Morage_PrismMuseum_CatchMethod,Received as a reward
 Morage_PrismMuseum_CatchLocation,at the Prism Museum
 
@@ -4780,7 +4780,7 @@ Route67_PokeCenter_KangaskhanGuy_Question,Yo!*I have Kangaskhan, a Pokémon~that
 Route67_PokeCenter_KangaskhanGuy_Decline,No swaggy swag for you then.
 Route67_PokeCenter_KangaskhanGuy_NotEnoughMoney,Hey!*No dough, no...*uh...*Pokémon.
 Route67_PokeCenter_KangaskhanGuy_ReceivedKangaskhan,<Player.Name> received a~Kangaskhan!
-Route67_PokeCenter_KangaskhanGuy_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<math.int(<pokemon.count>-1)>)> was transfered~to the PC.
+Route67_PokeCenter_KangaskhanGuy_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<math.int(<pokemon.count>-1)>)> was transfered~to the PC.
 Route67_PokeCenter_KangaskhanGuy_AfterSelling,Everyday I'm hustlin...*Oh no, did you hear me?!
 Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone
 Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,at Route 67
@@ -4959,7 +4959,7 @@ Azalea_Gym_Choose_Gligar,You want the Gligar?
 Azalea_Gym_Choose_Sneasel,You want the Sneasel?
 Azalea_Gym_Receive_Gligar,<Player.Name> received~a Gligar!
 Azalea_Gym_Receive_Sneasel,<Player.Name> received~a Sneasel!
-Azalea_Gym_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+Azalea_Gym_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 Azalea_Gym_PokeballAfterChoose,Better not get greedy...
 
 [Final Dungeon]
@@ -5130,7 +5130,7 @@ FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,I get paid to just sit here
 FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,What have I done?*I trapped such a graceful~Pokémon!*Please take this far far away~and let it live in peace.
 FinalDungeon_JohtoLegendaryRoom_Rocket_ReceivedHoOh,<Player.Name> received~Ho-oh!
 FinalDungeon_JohtoLegendaryRoom_Rocket_ReceivedLugia,<Player.Name> received~Lugia!
-FinalDungeon_JohtoLegendaryRoom_Rocket_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+FinalDungeon_JohtoLegendaryRoom_Rocket_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Received from a Rocket Grunt
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,in the Final Dungeon
 FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Now just look at that, this~doesn't deserve to be trapped~here! It's a shame those~Master Balls can be abused~this much...
@@ -5205,17 +5205,17 @@ MadameRenifler_DanceClub_ChooseSong_Nike1,nike#01
 MadameRenifler_DanceClub_ChooseSong_PlayIt,Play It
 MadameRenifler_DanceClub_ChooseSong_Pr0ndiskOutro,Pr0ndisk Outro
 MadameRenifler_DanceClub_ChooseSong_Worship,Worship
-MadameRenifler_DanceClub_AlexCorruptor_Intro,<player.name>: That Tepig is~operating the DJ set!~Incredible!*Alex: Thank you. Hi, I am~AlexCorruptor but you can call~me Alex.*<player.name>: And you can talk?!*Alex: Well... yeah... it's a~long story...
+MadameRenifler_DanceClub_AlexCorruptor_Intro,<player.name>: That Tepig is~operating the DJ set!~Incredible!*Alex: Thank you.~Hi, I am AlexCorruptor, but~you can call me Alex.*<player.name>: And you can talk?!*Alex: Well... yeah... it's a~long story...
 MadameRenifler_DanceClub_AlexCorruptor_FirstTime,Are you looking for~JappaWakka?*<player.name>: Yeah, I am!*Alex: He's at the bridge of~the ship, up the stairs to~the right.*By the way, if you'd like to~hear a different song, choose~the one you want on the~DJ set.
 MadameRenifler_DanceClub_AlexCorruptor_BeforeJappa,Alex: JappaWakka is at the~bridge of the ship, up the~stairs to the right. If you'd~like to hear a different song,~choose the one you want on the~DJ set.
 MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Intro,Alex: ...Jappa is worried~about me, you say?*Hmm... Maybe I should tell you~about my worries.*It's gonna be long, so~listen up.
-MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Story,You see, I am not from this~region, and my journey up~until now hasn't exactly been~smooth either, so let me tell~you all about it from the~beginning.*I was born in the Unova region~and when I grew up, I started~growing fond of the Tepig~evolution line.*I had a few of those and we~were hugging all the time.*One day, I woke up in a world~unknown to me, with a voice~calling for help.*I looked down, saw my~reflection and saw that I~transformed into a shiny Tepig.*Suddenly I was up in the sky~and started falling down~hitting some of the trees in~the process.*Shortly after I met 3 other~Pokémon:~Roffe the Snivy,~Lossy the Axew~and Jappa the Oshawott.*We became friends very quickly~and we started adventuring~together as a team.*We faced many different~battles, puzzles and other~Pokémon who needed help.*At one point, we encountered a~Hydreigon who ended up~following me specifically,~which initially gave me an~idea that he know who I was.*In the end, we defeated the~greatest evil that was~threatening the entire world.*Soon after this, it was my~time to go back to the normal~world and to never come back.*All 3 of my friends, Roffe,~Lossy and Jappa were sad to~see me go, they even begged~for me to stay, but it seemed~that the balance of nature~would've shifted if that were~to happen.*I started glowing and~ascending slowly, marking the~end of our adventures.*Before I finally got back to~the normal world I looked down~at them, they were crying,~and I wished that I didn't~have to leave that world.*When I returned to the normal~world, I found myself in Ilex~Forest, still as a shiny Tepig.*I realised that I still had~the ability to talk to the~other Pokémon, but I hadn't~encountered any humans yet.*Soon enough I met JappaWakka,~who was a nice guy, and we~were able to talk to each~other without any problem,~which meant that I could talk~to humans too.*He told me about this ship~that he was trying to build~where I could stay and learn~more about myself, and I ended~up becoming interested in~creating music.*Almost all the stuff that you~hear in this club, including~what's playing currently~playing, was composed or~covered by me.*I also learned about ciphers~which are used to decode~stuff, and about 4-dimensional~hypercubes like the one~hanging from the ceiling.*I still think about all the~friends I made back in that~world, while also wondering~whether Jappa from that world~and JappaWakka from this world~are the same or not.*I avoid telling him about~these experiences, because I'm~not sure what he'd think of~it all...*As of late, I've started~dreaming about that world,~with Hydreigon seeming to~know that I am watching.*Whether that means anything,~I don't know, but I still wish~that I could get back there...*Well, <player.name>, I hope you~relate to me on any level...
+MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Story,You see, I am not from this~region, and my journey up~until now hasn't exactly been~smooth either, so let me tell~you all about it from the~beginning.*I was born in the Unova region~and when I grew up, I started~growing fond of the Tepig~evolution line.*I had a few of those and we~were hugging all the time.*One day, I woke up in a world~unknown to me, with a voice~calling for help.*I looked down, saw my~reflection and saw that I~transformed into a shiny Tepig.*Suddenly I was up in the sky~and started falling down~hitting some of the trees in~the process.*Shortly after I met 3 other~Pokémon:~Roffe the Snivy,~Lossy the Axew,~and Jappa the Oshawott.*We became friends very quickly~and we started adventuring~together as a team.*We faced many different~battles, puzzles and other~Pokémon who needed help.*At one point, we encountered~a Hydreigon who ended up~following me specifically,~which initially gave me an~idea that he know who I was.*In the end, we defeated the~greatest evil that was~threatening the entire world.*Soon after this, it was my~time to go back to the normal~world and to never come back.*All 3 of my friends, Roffe,~Lossy and Jappa were sad to~see me go, they even begged~for me to stay, but it seemed~that the balance of nature~would've shifted if that were~to happen.*I started glowing and~ascending slowly, marking the~end of our adventures.*Before I finally got back to~the normal world I looked down~at them, they were crying,~and I wished that I didn't~have to leave that world.*When I returned to the normal~world, I found myself in Ilex~Forest, still as a shiny Tepig.*I realised that I still had~the ability to talk to the~other Pokémon, but I hadn't~encountered any humans yet.*Soon enough I met JappaWakka,~who was a nice guy, and we~were able to talk to each~other without any problem,~which meant that I could talk~to humans too.*He told me about this ship~that he was trying to build~where I could stay and learn~more about myself, and I ended~up becoming interested in~creating music.*Almost all the stuff that you~hear in this club, including~what's playing currently~playing, was composed or~covered by me.*I also learned about ciphers~which are used to decode~stuff, and about 4-dimensional~hypercubes like the one~hanging from the ceiling.*I still think about all the~friends I made back in that~world, while also wondering~whether Jappa from that world~and JappaWakka from this~world are the same or not.*I avoid telling him about~these experiences, because~I'm not sure what he'd think of~it all...*As of late, I've started~dreaming about that world,~with Hydreigon seeming to~know that I am watching.*Whether that means anything,~I don't know, but I still wish~that I could get back there...*Well, <player.name>, I hope you~can relate to me on any level...
 
 MadameRenifler_Bridge_Music_Breeze,Currently Playing:~Breeze*by JappaWakka
 MadameRenifler_Bridge_JappaWakka_FirstTalk1,JappaWakka: Hiya, <Player.Name>!*Welcome to my ship: Madame~Renifler! Built it myself,~pretty proud of it.*Don't worry, it's perfectly~safe. My good buddy Alex~helped me out a lot.*He's got a nose for finding~things that need improvement~and fixing.*Have you met him yet? He's the~Tepig operating the DJ set in~the dance room below.*I'm kinda worried about Alex~though. There seems to be~something troubling him, but~he seems to not want to talk~about it. If you're able to,~please let him know he can~always tell me anything and~that I'm there for him if he~needs me.
 MadameRenifler_Bridge_JappaWakka_FirstTalk2,JappaWakka: Hiya, <Player.Name>!~Have you met Alex yet? He's~the Tepig operating the DJ set~in the dance room below.*There seems to be something~troubling him, but he seems to~not want to talk about it.~If you're able to, please let~him know he can always tell me~anything and that I'm there~for him if he needs me.
-MadameRenifler_Bridge_JappaWakka_AfterAlexStory1,JappaWakka: Have you met Alex?~What did he say?*...*I see.*Well that explains a lot. I'm~glad I know what's going on.*I don't have a lot of~knowledge about different~universes, but I mean... with~Pokémon, anything is possible!*Who knows, maybe he'll be able~to return to that Pokémon~world one day! We'll see, but~until that happens I'll just~try to be the best friend I~can be in this one. Thanks for~telling me, <Player.Name>.*Here, I got you something to~remember us by.
-MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat,<Player.Name> received a framed photo of a~sniffing cat!
+MadameRenifler_Bridge_JappaWakka_AfterAlexStory1,JappaWakka: Have you met~Alex? What did he say?*...*I see.*Well that explains a lot. I'm~glad I know what's going on.*I don't have a lot of~knowledge about different~universes, but I mean... with~Pokémon, anything is possible!*Who knows, maybe he'll be able~to return to that Pokémon~world one day! We'll see, but~until that happens I'll just~try to be the best friend I~can be in this one. Thanks for~telling me, <Player.Name>.*Here, I got you something to~remember us by.
+MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat,<Player.Name> received a framed~photo of a sniffing cat!
 MadameRenifler_Bridge_JappaWakka_AfterAlexStory2,You can hang it on the wall of~your room if you like.~Your computer should be able~to help you with that.
 MadameRenifler_Bridge_JappaWakka_AfterAlexStory3,Ah, we've arrived back at~Castro Valley's harbor again.*Oh! Before you go, would you~like to have a Pokémon battle~with me? I've got something~extra special for you if you~can defeat me!
 MadameRenifler_Bridge_JappaWakka_Battle_No,That's okay, feel free to come~back if you want to challenge~me later!
@@ -5225,7 +5225,7 @@ MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~so
 MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,at Madame Renifler
-MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC,There's no more room for Pokémon!~<pokemon.nickname(<system.math(<pokemon.count>-1)>)> was transfered~to the PC.
+MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero. I'd let~Professor Tim take a look at~that device if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex,JappaWakka: I'd let Professor~Tim take a look at that~Pokédex if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!

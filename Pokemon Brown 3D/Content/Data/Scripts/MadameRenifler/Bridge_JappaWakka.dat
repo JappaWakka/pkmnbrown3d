@@ -9,14 +9,28 @@ version=2
 :else
 	:if:<Register.Registered(Decorations_Wall_SniffCat)>=false
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory1)>)
-		@Sound.Play(Receive_Item)
+		@Sound.Play(Receive_Item,1)
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat)>)
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory2)>)
 		@Register.Register(Decorations_Wall_SniffCat)
+		@Storage.Set(bool,SetFirstPerson,false)
+		:if:<camera.thirdperson>=true
+			@Camera.Reset
+			@Camera.SetPitch(-0.063)
+		:else
+			@Camera.SetThirdPerson(1)
+			@Camera.SetToPlayerFacing
+			@Camera.SetPitch(-0.063)
+			@Storage.Set(bool,SetFirstPerson,true)
+		:endif
 		@Sound.Play(Emote_Exclamation)
 		@Entity.ShowMessageBulb(1|4|0.855|8)
+		:if:<storage.get(bool,SetFirstPerson)>=true
+			@Camera.DeactivateThirdPerson
+		:endif
+		@Level.Wait(10)
 		@NPC.Turn(0,2)
-		@Level.Wait(30)
+		@Level.Wait(40)
 		@NPC.Turn(0,<player.facing>-2)
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory3)>)
 		@options.setcancelindex(1)
