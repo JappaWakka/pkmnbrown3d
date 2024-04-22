@@ -3,7 +3,11 @@ version=2
 @Text.Show(<system.token(FinalDungeon_FinalCave_Phancero_1)>)
 @Sound.Play(Cries\1010,1)
 :if:<Register.Registered(Dex_Repaired)>=false
-	@Screen.ShowImage(Textures\PhanceroDexEntry_Glitched_<system.language>)
+	:if:<System.FileExists(Textures\PhanceroDexEntry_Glitched_<system.language>.png)>=true
+		@Screen.ShowImage(Textures\PhanceroDexEntry_Glitched_<system.language>)
+	:else
+		@Screen.ShowImage(Textures\PhanceroDexEntry_Glitched_en)
+	:endif
 :endif
 @Text.Show(<system.token(FinalDungeon_FinalCave_Phancero_2)>)
 @NPC.Turn(1,0)
@@ -15,7 +19,12 @@ version=2
 @Camera.Update
 @NPC.Remove(1)
 @Player.TurnTo(2)
-@Screen.ShowImage(Textures\EndingScreen_<system.language>)
+:if:<System.FileExists(Textures\EndingScreen_<system.language>.png)>=true
+	@Screen.ShowImage(Textures\EndingScreen_<system.language>)
+:else
+	@Screen.ShowImage(Textures\EndingScreen_en)
+:endif
+
 @Register.Register(Phancero)
 :if:<Register.Registered(Dex_Repaired)>=false
 	@Register.Register(Dex_Glitched)
