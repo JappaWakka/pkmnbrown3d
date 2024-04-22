@@ -208,7 +208,7 @@ Scriptblocks:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"ID"{int[4]}}{"Position"{sngArr[5,0,10]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[4]}}{"AdditionalValue"{str[trainer\SilphCoWarehouse\giovanni]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[2,0,13]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[Rocket Grunt Hector]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\SilphCoWarehouse\grunt4]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0,13]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[Rocket Grunt Hector]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\SilphCoWarehouse\grunt4]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[5,0,7]}}{"TextureID"{str[Giovanni]}}{"ID"{int[1]}}{"Name"{str[Rocket Leader Giovanni]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[6,0,2]}}{"TextureID"{str[SilphCoManager]}}{"ID"{int[2]}}{"Name"{str[Silph Co. Manager]}}{"Action"{int[1]}}{"AdditionalValue"{str[SilphCoWarehouse\Manager]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[9,0,2]}}{"TextureID"{str[PokeFan_Female_Purple]}}{"ID"{int[3]}}{"Name"{str[Assistant]}}{"Action"{int[0]}}{"AdditionalValue"{str[You are my hero!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
