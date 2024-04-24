@@ -37,7 +37,8 @@ Furniture:
 		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,0.5,-0.99]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[32,320,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
 		
 	Bookshelves
-		{"EntityField"{ENT[{"Scale"{sngArr[1,1.5625,0.75]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,0.28,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,87,16,25][20,87,12,25][24,112,16,12][32,87,16,25]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,3,3,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Scale"{sngArr[1,1.5625,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,0.28,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,87,16,25][20,87,12,25][24,112,16,12][32,87,16,25]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1,3,3,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Scale"{sngArr[1,1.5625,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0.28,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,87,16,25][20,87,12,25][24,112,16,12][32,87,16,25]]}}{"TextureIndex"{intArr[0,0,1,1,-1,-1,3,3,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		ScriptBlocks
 			{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Generic_Bookshelf_PokemonBooks)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 			
