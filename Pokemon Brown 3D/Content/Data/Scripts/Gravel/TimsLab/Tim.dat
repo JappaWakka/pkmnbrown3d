@@ -63,21 +63,44 @@ version=2
 	:end
 :endif
 
-:if:<Register.Registered(tim6)>=true
-	@Text.Show(<system.token(Gravel_TimsLab_Tim_DexEvaluation)>)
-	@script.start(DexEvaluation)
-	@Text.Show(<system.token(DexEvaluation_BeforeRating)>)
-	:if:<storage.get(bool,NewEvaluation)>=true
-		@Sound.Play(PokedexNewRating,1)
+:if:<Register.Registered(Dex_Glitched)>=true
+	@Text.Show(<system.token(Gravel_TimsLab_Tim_GlitchedPokedex1)>)
+	:if:<System.FileExists(Textures\PhanceroDexEntry_Repaired_<system.language>.png)>=true
+		@Screen.ShowImage(Textures\PhanceroDexEntry_Repaired_<system.language>)
+	:else
+		@Screen.ShowImage(Textures\PhanceroDexEntry_Repaired_en)
 	:endif
-	@Text.Show(<storage.get(str,EvaluationText)>)
-	:if:<Register.Registered(RijonDexComplete)>=true
-		:if:<Register.Registered(ReceiveShinyCharm)>=false
-			@Item.Give(242,1)
-			@Item.MessageGive(242,1)
-			@Register.Register(ReceiveShinyCharm)
-		:endif
-		@Text.Show(<system.token(Gravel_TimsLab_Tim_DexComplete2)>)
-	:endif
+	@Text.Show(<system.token(Gravel_TimsLab_Tim_GlitchedPokedex2)>)
+	@Register.Unregister(Dex_Glitched)
+	@Register.Register(Dex_Repeared)
 	:end
+:else
+	:if:<Register.Registered(tim6)>=true
+		@Text.Show(<system.token(Gravel_TimsLab_Tim_DexEvaluation)>)
+		@script.start(DexEvaluation)
+		@Text.Show(<system.token(DexEvaluation_BeforeRating)>)
+		:if:<storage.get(bool,NewEvaluation)>=true
+			@Sound.Play(PokedexNewRating,1)
+		:endif
+		
+		:if:<Register.Registered(RijonDexComplete)>=true
+			:if:<Register.Registered(ReceiveShinyCharm)>=false
+				@Text.Show(<storage.get(str,EvaluationText)>)
+				@Item.Give(242,1)
+				@Item.MessageGive(242,1)
+				@Register.Register(ReceiveShinyCharm)
+				@Text.Show(<system.token(Gravel_TimsLab_Tim_DexComplete2)>)
+				:end
+			:else
+				@Text.Show(<storage.get(str,EvaluationText)>*<system.token(Gravel_TimsLab_Tim_DexComplete2)>)
+			:endif
+			:if:<Register.Registered(DecorationItem_DexDiploma)>=false
+				@text.notification(<system.token(DecorationItem_Received_DexDiploma)>,500,1,1,,,0,0)
+				@Register.Register(DecorationItem_DexDiploma)
+			:endif
+		:else
+			@Text.Show(<storage.get(str,EvaluationText)>)
+		:endif
+		:end
+	:endif
 :endif

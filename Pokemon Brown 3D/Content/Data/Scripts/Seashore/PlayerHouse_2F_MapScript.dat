@@ -1,22 +1,17 @@
 version=2
 
-:if:<Register.Registered(Seashore_Wall_Spot1)>=false
-	@Register.Register(Seashore_Wall_Spot1,int,-1)
-	@Register.Register(Seashore_Wall_Spot2,int,-1)
-	@Register.Register(Seashore_Wall_Spot3,int,-1)
-	@Register.Register(Seashore_Wall_Spot4,int,-1)
+:if:<Register.Registered(DecorationPlaced_SniffCat)>=true
+	@Entity.SetVisible(0,1)
+:endif
+:if:<Register.Registered(DecorationPlaced_DJSet)>=true
+	@Entity.SetVisible(1,1)
+	@Entity.SetCollision(1,1)
+:endif
+:if:<Register.Registered(DecorationPlaced_LeagueTrophy)>=true
+	@Entity.SetVisible(2,1)
+:endif
+:if:<Register.Registered(DecorationPlaced_DexDiploma)>=true
+	@Entity.SetVisible(3,1)
 :endif
 
-:if:<not><register.value(Seashore_Wall_Spot1)>=-1
-	@Entity.SetVisible(<register.value(Seashore_Wall_Spot1)>,1)
-:endif
-:if:<not><register.value(Seashore_Wall_Spot2)>=-1
-	@Entity.SetVisible(<register.value(Seashore_Wall_Spot2)>,1)
-:endif
-:if:<not><register.value(Seashore_Wall_Spot3)>=-1
-	@Entity.SetVisible(<register.value(Seashore_Wall_Spot3)>,1)
-:endif
-:if:<not><register.value(Seashore_Wall_Spot4)>=-1
-	@Entity.SetVisible(<register.value(Seashore_Wall_Spot4)>,1)
-:endif
 :end

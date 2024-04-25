@@ -3112,20 +3112,21 @@ Generic_PC_Host_Decoration,Decoration
 Generic_PC_LogOff,Log Off
 Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating~System.*Do you want to get your~Pokédex rated?
 Generic_PC_DexEvaluation_End,Closed link to Prof. Tim's PC.
-Generic_PC_Decoration_Start,What do you want to customize?
+Generic_PC_Decoration_Start,How do you want to customize~your room?
 
 [PC Decorations]
-PC_Decorations_Wall_PlaceQuestion,Where do you want to put it?
-PC_Decorations_Wall_RemoveQuestion,Which item should be removed?
-PC_Decorations_Wall_RemoveNothingThere,There's nothing in that spot.
-PC_Decorations_Wall_Remove,Remove
-PC_Decorations_Wall_SniffCat,Sniff Cat 
-PC_Decorations_Bed_White,White Bed 
-PC_Decorations_WallSpot1,Spot 1
-PC_Decorations_WallSpot2,Spot 2
-PC_Decorations_WallSpot3,Spot 3
-PC_Decorations_WallSpot4,Spot 4
-PC_Decorations_Wall_Removed,Removed the item.
+PC_Decorations_RemoveQuestion,Which item should be removed?
+PC_Decorations_Placed,Placed the item.
+PC_Decorations_Removed,Removed the item.
+PC_Decorations_Remove,Remove Items
+PC_Decorations_Item_SniffCat,Framed SniffCat
+PC_Decorations_Item_DJSet,Alex's DJ Set
+PC_Decorations_Item_LeagueTrophy,League Trophy
+PC_Decorations_Item_DexDiploma,Pokédex Diploma
+
+[Decoration Item Receive Messages]
+DecorationItem_Received_LeagueTrophy,Decoration Received:~League Trophy*Add it to your room with the PC!
+DecorationItem_Received_DexDiploma,Decoration Received:~Pokédex Diploma*Add it to your room with the PC!
 
 [Pokédex Evaluation]
 DexEvaluation_BeforeRating,Pokédex completion is:*<pokedex.dexseen(0)> Pokémon seen~<pokedex.dexcaught(0)> Pokémon owned*Prof. Tim's Rating:
@@ -3279,6 +3280,8 @@ Gravel_TimsLab_Tim_ComeSeeMeSometimes,Tim: Come see me sometimes.~I want to know
 Gravel_TimsLab_Tim_DexEvaluation,Tim: Good to see you! How is~your Pokédex doing?~Here, let me take a look!
 Gravel_TimsLab_Tim_DexComplete1,I can't believe it!*<Player.Name>, your Pokédex is~fully complete!*Congratulations!*Here, take this reward!
 Gravel_TimsLab_Tim_DexComplete2,The Shiny Charm will greatly~increase the chance to~encounter a shiny Pokémon in~the wild!*Good luck hunting shiny~Pokémon!
+Gravel_TimsLab_Tim_GlitchedPokedex1,Tim: Good to see you! How is~your Pokédex doing?*Oh? That's odd...*This Pokédex entry is all~corrupted. Let me see if I can~do something about that!*...*Ah, there you go!
+Gravel_TimsLab_Tim_GlitchedPokedex2,Tim: So this is Phancero...*A very special and powerful~Pokémon! And you've obtained~one yourself?*Amazing!*I'm sure you'll take good~care of it, <Player.Name>!
 Gravel_TimsLab_Pokedex1,Tim: Oh, <Player.Name>!~What are you doing back~so early?*Huh, you have something~for me?
 Gravel_TimsLab_Pokedex2,<Player.Name> handed Tim his pizza.*Tim: Oh good! I was hungry,~but too busy to pick it up!
 Gravel_TimsLab_Pokedex3,Mura: Coming!

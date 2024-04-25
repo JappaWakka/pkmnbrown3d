@@ -7,12 +7,12 @@ version=2
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_FirstTalk2)>)
 	:endif
 :else
-	:if:<Register.Registered(Decorations_Wall_SniffCat)>=false
+	:if:<Register.Registered(DecorationItem_SniffCat)>=false
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory1)>)
 		@Sound.Play(Receive_Item,1)
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat)>)
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory2)>)
-		@Register.Register(Decorations_Wall_SniffCat)
+		@Register.Register(DecorationItem_SniffCat)
 		@Storage.Set(bool,SetFirstPerson,false)
 		:if:<camera.thirdperson>=true
 			@Camera.Reset
