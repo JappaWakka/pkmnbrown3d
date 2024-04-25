@@ -14,7 +14,6 @@ Floors:
 	
 	Dirt
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[20,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[20,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[8,2]}}{"Position"{intArr[10,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[6,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[14,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
@@ -29,7 +28,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[36,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[36,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[26,2]}}{"Position"{intArr[8,0,28]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
-
+		
 	Brick Path
 		{"Floor"{ENT[{"Size"{intArr[2,6]}}{"Position"{intArr[16,0,4]}}{"TexturePath"{str[Cities\Castro]}}{"Texture"{rec[0,64,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[18,0,4]}}{"TexturePath"{str[Cities\Castro]}}{"Texture"{rec[0,64,16,16]}}]}}

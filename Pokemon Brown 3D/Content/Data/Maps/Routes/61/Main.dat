@@ -5,12 +5,7 @@ Floors:
 	Grass
 		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[28,75]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
 		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,2]}}{"Position"{intArr[14,0,77]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
-	
-	Dirt
-		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[10,0,7]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		
-	Dirt
-		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[16,0,33]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
 		
 	Removal
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[10,0,9]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}

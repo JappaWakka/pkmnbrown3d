@@ -203,9 +203,8 @@ Items:
 
 Warps:
 	Hayward City
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-3,0,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,40,0.1,12,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-3,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,40,0.1,13,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-3,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,40,0.1,14,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-3,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,38,0.1,13,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-3,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,38,0.1,14,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	Silk Tunnel
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[60,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16][96,32,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\SilkTunnel\1F.dat,4,0.1,18,0]}}{"Rotation"{int[0]}}]}}
