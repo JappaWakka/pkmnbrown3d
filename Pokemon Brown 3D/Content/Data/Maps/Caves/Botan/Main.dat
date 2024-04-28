@@ -59,10 +59,9 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[3,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[21,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[2,0,5]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[22,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[3,1]}}{"Position"{intArr[15,0,9]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[15,0,9]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[3,1]}}{"Position"{intArr[23,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[23,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[27,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[22,0,19]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[26,0,19]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
@@ -80,13 +79,28 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[17,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[22,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[26,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[16,0,27]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[12,0,28]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
 		
-		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[2,1,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
+	Removal
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[18,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[6,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[3,2]}}{"Position"{intArr[9,0,2]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[0,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[4,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,6]}}{"Position"{intArr[28,1,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[14,0,7]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,3]}}{"Position"{intArr[22,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[16,0,9]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[14,0,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[2,1,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[18,2]}}{"Position"{intArr[10,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[24,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[0,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[6,2]}}{"Position"{intArr[10,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[9,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[26,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
 		
-
 Ceiling:
 	Regular
 		{"EntityField"{ENT[{"Size"{intArr[42,34]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-7,5,-7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
