@@ -2326,8 +2326,8 @@ item_desc_gm81,Mail featuring the holder's likeness. Write a message on it and l
 item_desc_gm82,Lapras-print Mail. Write a message on it and let a Pokémon hold it.
 ----
 Item Use Text:
-item_cannot_use,Now is not the time~to use that.
-item_6_cannot_walk,You can't dismount here!
+item_cannot_use,<Player.Name>: Hmm... I don't think~I can use this now.
+item_6_cannot_walk,<Player.Name>: I can't dismount~here!
 item_6_missingskin,You can't use this item~without a bicycle skin.*Its name should be the~same as your current one,~but with "_bike" at the end.
 item_6_only_custom_gamemodes,This item can't be used~on this GameMode.
 
@@ -2338,7 +2338,7 @@ item_use_54,Your Coins:~
 [GameMode Items]
 Item_Use_TownMap,<Player.Name> checked the~Town Map.
 Item_Use_PokeFlute,<Player.Name> played the~PokéFlute.
-Item_Use_HiddenTreasures,What could this item be?*It looks important.~I should find an expert!
+Item_Use_HiddenTreasures,<Player.Name>: What could this~item be?*It looks important.~I should find an expert!
 -------------------
 Move Names:
 move_name_1,Pound
@@ -3678,7 +3678,7 @@ Route49_BirdKeeperDavid_IntroMessage,I can't stop collecting~flying Pokémon!
 Route49_BirdKeeperDavid_OutroMessage,I had to bug you!
 Route49_BirdKeeperDavid_DefeatMessage,I also collect sea Pokémon~on weekends!
 Route49_Sign_CyclingFoothill,Route 49~Bridge Road*Owsauri City -~Johto Border (Rinjoh Veloway)
-Route49_Sign_NoPedestriansPermitted,Cycling Road!~No pedestrians permitted!
+Route49_Sign_NoPedestriansPermitted,Rinjoh Veloway~No pedestrians permitted!
 
 [Route 49 - Route 50 Gate]
 Route49_Route50_Gate_TM39Girl_BeforeGive,I don't need this so you~can take it!
@@ -4065,7 +4065,7 @@ Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Come back again some time!
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that’s... A Bike Voucher!~OK! Here you go!
 Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> exchanged~the Bike Voucher for a Bicycle.
 Jaeru_BikeShop_BikeInPocket,<Player.Name> stored it in the~№ KeyItems pocket.
-Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new~Bicycle?*You can take it on Cycling Road~and in caves!
+Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new~Bicycle?*You can take it on Rinjoh Veloway~and in caves!
 
 Jearu_PokeMart_BugCatcher,Good things can happen if you~raise Pokémon dilligently,~even the weak ones!
 Jearu_PokeMart_LittleBoy,My dad is up north trying to~go to the League.
@@ -4148,7 +4148,7 @@ Route59_SilphCoWarehouse_2F_RocketScientistPercy_DefeatMessage,Go away kid!
 Route59_SilphCoWarehouse_2F_RocketScientistNathan_IntroMessage,Can't open the doors?
 Route59_SilphCoWarehouse_2F_RocketScientistNathan_OutroMessage,Drat! How could I lose?
 Route59_SilphCoWarehouse_2F_RocketScientistNathan_DefeatMessage,The doors only open with~the Card Key!
-Route59_SilphCoWarehouse_3F_RocketGruntScott_IntroMessage,Feeling lucky punk?
+Route59_SilphCoWarehouse_3F_RocketGruntScott_IntroMessage,Feeling lucky, punk?
 Route59_SilphCoWarehouse_3F_RocketGruntScott_OutroMessage,Flame out!
 Route59_SilphCoWarehouse_3F_RocketGruntScott_DefeatMessage,This didn't work in Saffron~City either!
 Route59_SilphCoWarehouse_3F_RocketGruntSean_IntroMessage,Oh, not this again!
@@ -4157,7 +4157,7 @@ Route59_SilphCoWarehouse_3F_RocketGruntSean_DefeatMessage,I think it's time for 
 Route59_SilphCoWarehouse_3F_RocketScientistJulius_IntroMessage,There's nothing down there~kid, turn back!
 Route59_SilphCoWarehouse_3F_RocketScientistJulius_OutroMessage,Shoot!
 Route59_SilphCoWarehouse_3F_RocketScientistJulius_DefeatMessage,Great, there's nothing I~can do.
-Route59_SilphCoWarehouse_3F_OfficerWorker_Female0_BeforeDefeatGiovanni,Oh now, what will we do?
+Route59_SilphCoWarehouse_3F_OfficerWorker_Female0_BeforeDefeatGiovanni,Oh, now what will we do?
 Route59_SilphCoWarehouse_3F_OfficerWorker_Female0_AfterDefeatGiovanni,You are a true hero!
 Route59_SilphCoWarehouse_3F_OfficerWorker_Female1_BeforeDefeatGiovanni,The Team Rocket leader~is upstairs.*Defeat him!
 Route59_SilphCoWarehouse_3F_OfficerWorker_Female1_AfterDefeatGiovanni,Thanks for everything!
@@ -4265,7 +4265,7 @@ Botan_Cave_KarmaMiner_AfterTalking,Come on karma, help me out!
 
 Botan_HauntedForest_Area0_PokeFan_Male,I heard this place is haunted.
 Botan_HauntedForest_Area0_AdultWoman,I would never go in the forest.
-Botan_HauntedForest_Area0_PokeFan_Female,No one knows why this place~is haunted...
+Botan_HauntedForest_Area0_PokeFan_Female,No one knows why this place~is haunted...~It reminds me of Slumbering~Weald in the Galar region.*Koffing seem to be weirdly~attracted to this forest.*A friend said his Koffing did~something weird when it evolved~in this area...
 Botan_HauntedForest_Area0_YoungGirl,My Pokémon is lost in the~woods...
 Botan_HauntedForest_Area0_Channeler_Start,MissingNo. are loose!~Let me heal your Pokémon!
 Botan_HauntedForest_Area0_Channeler_End,Be careful!
@@ -4908,7 +4908,7 @@ Route47_CueBallMatthew_OutroMessage,Knock out!
 Route47_CueBallMatthew_DefeatMessage,Don't look at me again!
 
 [Old Route 47 Gate]
-Route47_Gate_Guard,Cycling Road leads to the~Rijon city Owsauri City!
+Route47_Gate_Guard,Rinjoh Veloway leads to the~Rijon city Owsauri City!
 Route47_Gate_LittleBoy,We both live nearby!
 Route47_Gate_LittleGirl,My brother loves Azalea Town!
 Route47_Gate_Binoculars_Left,Looked into the binoculars...*It's the Magnet Train!
@@ -4982,8 +4982,8 @@ Azalea_Gym_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pok
 Azalea_Gym_PokeballAfterChoose,Better not get greedy...
 
 [Final Dungeon]
-FinalDungeon_SecurityDoors_WithCardKey,Bingo!~The Card Key opened the door!
-FinalDungeon_SecurityDoors_NoCardKey,Darn! It needs a Card Key!
+FinalDungeon_SecurityDoors_WithCardKey,<Player.Name>: Bingo!~The Card Key opened the door!
+FinalDungeon_SecurityDoors_NoCardKey,<Player.Name>: I need a Card Key~for this!
 
 FinalDungeon_UndergroundPath_BikerGeorge_IntroMessage,Bikes work well here.
 FinalDungeon_UndergroundPath_BikerGeorge_OutroMessage,Dang! Stripped gears!
