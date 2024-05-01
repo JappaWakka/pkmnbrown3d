@@ -287,7 +287,7 @@ Water Obstacles:
 
 Warps:
 	Route 60 Gate
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route60-Route61.dat,4,0.1,11,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route60-Route61.dat,4,0.1,9,0]}}{"Rotation"{int[0]}}]}}
 	
 	Good Rod House
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[19,0,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\61\GoodRodHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
