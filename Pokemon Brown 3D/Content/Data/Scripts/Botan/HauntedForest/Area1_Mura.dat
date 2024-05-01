@@ -45,4 +45,5 @@ version=2
 @npc.register(Botan\HauntedForest\Area1.dat|1|remove)
 @register.register(MuraBotanBattle)
 @music.play(HauntedForest)
+@Entity.Remove(2)
 :end
