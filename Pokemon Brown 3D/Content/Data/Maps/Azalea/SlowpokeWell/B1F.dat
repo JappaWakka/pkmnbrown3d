@@ -204,14 +204,14 @@ Water:
 			
 	Waterside Counter-Clockwise Corners (Direction = Where the water is)
 		NorthWest
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,96,16,16][112,32,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,96,16,16,1]}}{"Rotation"{int[1]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,96,16,16][112,32,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,96,16,16,1]}}{"Rotation"{int[1]}}]}}
 		
 		SouthWest
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[1,-0.25,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,96,16,16][112,32,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,96,16,16,1]}}{"Rotation"{int[2]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[3,-0.25,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,96,16,16][112,32,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,96,16,16,1]}}{"Rotation"{int[2]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[1,-0.25,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,96,16,16][112,32,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,96,16,16,1]}}{"Rotation"{int[2]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[3,-0.25,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,96,16,16][112,32,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,96,16,16,1]}}{"Rotation"{int[2]}}]}}
 			
 		SouthEast
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,96,16,16][112,32,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,96,16,16,1]}}{"Rotation"{int[3]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,96,16,16][112,32,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,96,16,16,1]}}{"Rotation"{int[3]}}]}}
 			
 Ladders:
 	{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[7,3,9]}}]}}
