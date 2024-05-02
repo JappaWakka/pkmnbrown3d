@@ -6,12 +6,15 @@ version=2
 :if:<Register.Registered(DecorationPlaced_DJSet)>=true
 	@Entity.SetVisible(1,1)
 	@Entity.SetCollision(1,1)
+	@Entity.Warp(5,~,0,~)
 :endif
 :if:<Register.Registered(DecorationPlaced_LeagueTrophy)>=true
 	@Entity.SetVisible(2,1)
+	@Entity.Warp(6,~,0,~)
 :endif
 :if:<Register.Registered(DecorationPlaced_DexDiploma)>=true
 	@Entity.SetVisible(3,1)
+	@Entity.Warp(7,~,0,~)
 :endif
 
 :end
