@@ -6,6 +6,10 @@ Ground:
 	
 	LadderHole
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[20,0,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,80,16,16]}}]}}
+		
+	Removal	
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[7,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[64,16,16,16]}}{"Remove"{bool[1]}}]}}
+		
 Ceiling:
 	{"EntityField"{ENT[{"Size"{intArr[16,9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,3,9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
