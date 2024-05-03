@@ -26,10 +26,12 @@ Ceiling:
 	{"EntityField"{ENT[{"Size"{intArr[14,7]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,2,10]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Machines:
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[19,0,10]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[32,144,16,16][48,144,16,16][64,144,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[19,0,10]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[32,144,16,16][48,144,16,16][64,144,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20,0,10]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[32,144,16,16][48,144,16,16][64,144,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,-1,-1,1,1,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Blocks:
-	{"EntityField"{ENT[{"Scale"{sngArr[1,0.3125,1]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,-0.345,16]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[16,144,16,5][0,144,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,0.3125,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,-0.345,16]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[16,144,16,5][0,144,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,0.3125,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,-0.345,16]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[16,144,16,5][0,144,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,-1,-1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Plants:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.75,1.5,0.75]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[7,0.25,10]}}{"TexturePath"{str[Cities\Castro]}}{"Textures"{recArr[[96,112,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
