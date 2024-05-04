@@ -70,7 +70,7 @@ Chairs:
 	{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,-0.36,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[28,127,12,12][28,139,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[0,0.155,1.25]}}{"TextureID"{str[IslandHealLady]}}{"ID"{int[0]}}{"Name"{str[Heal Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[0,0.155,1.25]}}{"TextureID"{str[HealLady]}}{"ID"{int[0]}}{"Name"{str[Heal Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[1,0.155,1.25]}}{"TextureID"{str[ExGrunt]}}{"ID"{int[1]}}{"Name"{str[Shopkeeper]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	
 ScriptBlocks:

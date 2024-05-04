@@ -40,7 +40,7 @@ version=2
 	@npc.turn(4,2)
 	@npc.move(4,9)
 	@npc.remove(4)
-	@music.play(Timslab)
+	@music.play(TimsLab)
 	@Register.Register(pokedex)
 	@register.unregister(tim3)
 	@Register.Register(tim4)
@@ -73,6 +73,7 @@ version=2
 	@Text.Show(<system.token(Gravel_TimsLab_Tim_GlitchedPokedex2)>)
 	@Register.Unregister(Dex_Glitched)
 	@Register.Register(Dex_Repeared)
+	@Script.Start(Gravel\TimsLab\JappaWakka)
 	:end
 :else
 	:if:<Register.Registered(tim6)>=true
@@ -104,3 +105,4 @@ version=2
 		:end
 	:endif
 :endif
+:end
