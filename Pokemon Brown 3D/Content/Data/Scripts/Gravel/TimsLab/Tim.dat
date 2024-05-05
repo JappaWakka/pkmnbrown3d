@@ -96,7 +96,7 @@ version=2
 				@Text.Show(<storage.get(str,EvaluationText)>*<system.token(Gravel_TimsLab_Tim_DexComplete2)>)
 			:endif
 			:if:<Register.Registered(DecorationItem_DexDiploma)>=false
-				@text.notification(<system.token(DecorationItem_Received_DexDiploma)>,500,1,1,,,0,0)
+				@text.notification(<system.token(DecorationItem_Received_DexDiploma)>,800,1,1,,,0,0)
 				@Register.Register(DecorationItem_DexDiploma)
 			:endif
 		:else

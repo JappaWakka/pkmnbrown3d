@@ -61,6 +61,11 @@ version=2
 				@player.move(2)
 				@player.warp(Eagulou\Park\Area1.dat,3,0.1,25,0)
 				@script.delay(Eagulou\Park\StepScript,steps,500)
+				
+				:if:<Register.Registered(DecorationItem_PottedPlant)>=false
+					@text.notification(<system.token(DecorationItem_Received_PottedPlant)>,800,1,1,,,0,0)
+					@Register.Register(DecorationItem_PottedPlant)
+				:endif
 			:when:<system.token(global_no)>
 				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_No)>)
 				@player.turnto(2)

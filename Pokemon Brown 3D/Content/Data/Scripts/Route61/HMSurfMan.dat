@@ -5,6 +5,11 @@ version=2
     @Item.Give(gm71,1)
     @Item.MessageGive(gm71,1)
     @Register.Register(surfobtained)
+	:if:<Register.Registered(DecorationItem_SquirtleDoll)>=false
+		@text.notification(<system.token(DecorationItem_Received_SquirtleDoll)>,800,1,1,,,0,0)
+		@Register.Register(DecorationItem_SquirtleDoll)
+	:endif
+	:end
 :else
     @Text.Show(<system.token(Route61_SurfHouse_SurfMan_AfterTalking)>)
 :endif

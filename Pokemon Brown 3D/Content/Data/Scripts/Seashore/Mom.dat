@@ -27,6 +27,10 @@ version=2
 	@Level.Wait(50)
 	@Screen.Fadein
 	@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_AfterRest)>)
+	:if:<Register.Registered(DecorationItem_SurfingPikachuDoll)>=false
+		@text.notification(<system.token(DecorationItem_Received_SurfingPikachuDoll)>,800,1,1,,,0,0)
+		@Register.Register(DecorationItem_SurfingPikachuDoll)
+	:endif
 :endif
 @NPC.Turn(0,1)
 :end
