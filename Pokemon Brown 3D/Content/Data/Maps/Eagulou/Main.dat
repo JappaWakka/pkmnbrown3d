@@ -332,7 +332,7 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Eagulou\Park\Gate.dat,3,0.1,6,0]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[4,0,15]}}{"TextureID"{str[YoungGirl_Blue]}}{"ID"{int[0]}}{"Name"{str[Park Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Eagulou_Main_ParkGirl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[4,15,2,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[4,0,12]}}{"TextureID"{str[YoungGirl_Blue]}}{"ID"{int[0]}}{"Name"{str[Park Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Eagulou_Main_ParkGirl)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[4,12,3,1]]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[15,0,14]}}{"TextureID"{str[Gambler_Purple]}}{"ID"{int[1]}}{"Name"{str[Mist Stone Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Eagulou_Main_MistStoneGuy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 
 Mist Stone Barrier:
