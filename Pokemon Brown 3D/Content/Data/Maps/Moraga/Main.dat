@@ -28,6 +28,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[46,6]}}{"Position"{intArr[0,0,30]}}{"TexturePath"{str[Cities\Moraga]}}{"Texture"{rec[0,64,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,4]}}{"Position"{intArr[32,0,26]}}{"TexturePath"{str[Cities\Moraga]}}{"Texture"{rec[0,64,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,12]}}{"Position"{intArr[26,0,18]}}{"TexturePath"{str[Cities\Moraga]}}{"Texture"{rec[0,64,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[28,0,18]}}{"TexturePath"{str[Cities\Moraga]}}{"Texture"{rec[0,64,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[12,2]}}{"Position"{intArr[14,0,18]}}{"TexturePath"{str[Cities\Moraga]}}{"Texture"{rec[0,64,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,8]}}{"Position"{intArr[12,0,12]}}{"TexturePath"{str[Cities\Moraga]}}{"Texture"{rec[0,64,16,16]}}]}}
 
@@ -106,8 +107,12 @@ Signs:
 		{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[25,0,29]}}]}}
 	
 	High School Academy
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[33,0,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Moraga_Main_Sign_HighSchoolAcademy)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[33,0,27]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[33,0,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Moraga_Main_Sign_HighSchoolAcademy)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[33,0,26]}}]}}
+	
+	Prism Museum
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[44,0,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Moraga_Main_Sign_PrismMuseum)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[44,0,28]}}]}}
 	
 	Gym
 		{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[27,0,5]}}]}}

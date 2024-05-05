@@ -91,14 +91,17 @@ Fences:
 	{"EntityField"{ENT[{"Scale"{sngArr[1,1,0.3125]}}{"Size"{intArr[1,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[23,0,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[32,32,16,16][32,32,5,16][48,32,16,16][45,32,5,16]]}}{"TextureIndex"{intArr[0,0,3,3,1,1,2,2,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Signs:
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[13,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Owsauri_Main_Sign_City)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[13,0,13]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[13,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Owsauri_Main_Sign_City)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,27]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Owsauri_Main_Sign_NameRater)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[5,0,27]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[2,0,26]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,0,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Owsauri_Main_Sign_NameRater)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
-	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[33,0,35]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[33,0,35]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Owsauri_Main_Sign_Gym)>]}}{"Rotation"{int[0]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[22,0,26]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[22,0,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Owsauri_Main_Sign_Casino)>]}}{"Rotation"{int[0]}}]}}
+	
+	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[33,0,34]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[33,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Owsauri_Main_Sign_Gym)>]}}{"Rotation"{int[0]}}]}}
 	
 	{"Structure"{STR[{"Map"{str[Structures\PokeCenter_Sign]}}{"Offset"{sngArr[34,0,25]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[16,0,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Generic_Sign_PokeCenter)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
@@ -414,10 +417,10 @@ Rocks:
 	
 NPCs:
 	People
-		{"NPC"{NPC[{"Position"{sngArr[6,0,13]}}{"TextureID"{str[Youngster_Red]}}{"ID"{int[0]}}{"Name"{str[Youngster]}}{"Action"{int[0]}}{"AdditionalValue"{str[This city is a big fan~of Pokémon.*They can't get enough of them!]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[6,13,8,1]]}}]}}
-		{"NPC"{NPC[{"Position"{sngArr[13,0,15]}}{"TextureID"{str[Gambler_Purple]}}{"ID"{int[1]}}{"Name"{str[Gambler]}}{"Action"{int[0]}}{"AdditionalValue"{str[Leave your Pokémon with~the Daycare man and he will~take care of them!]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-		{"NPC"{NPC[{"Position"{sngArr[23,0,11]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[2]}}{"Name"{str[Bugcatcher]}}{"Action"{int[0]}}{"AdditionalValue"{str[I wonder how Voltorb is~doing?]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-		{"NPC"{NPC[{"Position"{sngArr[34,0,18]}}{"TextureID"{str[FatGuy_Blue]}}{"ID"{int[3]}}{"Name"{str[Fat Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[I left my Meowth in the~daycare!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[6,0,13]}}{"TextureID"{str[Youngster_Red]}}{"ID"{int[0]}}{"Name"{str[Youngster]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Owsauri_Main_Youngster)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[6,13,8,1]]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[13,0,15]}}{"TextureID"{str[Gambler_Purple]}}{"ID"{int[1]}}{"Name"{str[Gambler]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Owsauri_Main_Gambler)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[22,0,13]}}{"TextureID"{str[Rocker]}}{"ID"{int[2]}}{"Name"{str[Rocker]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Owsauri_Main_Rocker)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[34,0,18]}}{"TextureID"{str[FatGuy_Blue]}}{"ID"{int[3]}}{"Name"{str[Fat Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Owsauri_Main_FatGuy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 		
 	Pokémon
 		{"NPC"{NPC[{"Position"{sngArr[6,-0.3325,4]}}{"TextureID"{str[[POKEMON|N]138]}}{"ID"{int[12]}}{"Name"{str[Omanyte]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cry\Owsauri_Omanyte]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
@@ -425,7 +428,7 @@ NPCs:
 		{"NPC"{NPC[{"Position"{sngArr[18,0,2]}}{"TextureID"{str[[POKEMON|N]100]}}{"ID"{int[15]}}{"Name"{str[Voltorb]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cry\Owsauri_Voltorb]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[18,2,2,2]]}}]}}
 		{"NPC"{NPC[{"Position"{sngArr[14,0,4]}}{"TextureID"{str[[POKEMON|N]104]}}{"ID"{int[16]}}{"Name"{str[Cubone]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cry\Owsauri_Cubone]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[14,4,3,1]]}}]}}
 		{"NPC"{NPC[{"Position"{sngArr[13,0,5]}}{"TextureID"{str[[POKEMON|N]35]}}{"ID"{int[13]}}{"Name"{str[Clefairy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cry\Owsauri_Clefairy]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[13,4,5,3]]}}]}}
-		{"NPC"{NPC[{"Position"{sngArr[18,0,7]}}{"TextureID"{str[[POKEMON|N]125]}}{"ID"{int[14]}}{"Name"{str[Electabuzz]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cry\Owsauri_Electabuzz]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[18,6,5,2]]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[18,0,7]}}{"TextureID"{str[[POKEMON|N]52]}}{"ID"{int[14]}}{"Name"{str[Meowth]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cry\Owsauri_Meowth]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[18,6,5,2]]}}]}}
 		
 		{"NPC"{NPC[{"Position"{sngArr[10,-1,3]}}{"TextureID"{str[Empty]}}{"ID"{int[20]}}{"Name"{str[PlayerPokemon1]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\Daycare\pokemon_0]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 		{"NPC"{NPC[{"Position"{sngArr[12,-1,3]}}{"TextureID"{str[Empty]}}{"ID"{int[21]}}{"Name"{str[PlayerPokemon2]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\Daycare\pokemon_1]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

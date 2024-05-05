@@ -6,9 +6,6 @@ Floors:
 		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[44,31]}}{"Position"{intArr[-9,0,-1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
 		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[3,26]}}{"Position"{intArr[-12,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
 	
-	Dirt
-		{"Floor"{ENT[{"Size"{intArr[4,4]}}{"Position"{intArr[18,0,7]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}]}}
-	
 	Under Mountains
 		{"Floor"{ENT[{"Size"{intArr[8,4]}}{"Position"{intArr[2,0,5]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}{"HasSnow"{bool[0]}}]}}
 		
