@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Botan City]}}{"MusicLoop"{str[SeashoreJaeru]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"MapScript"{str[Botan\Main_MapScript]}}{"SurfingBattleMap"{str[Botan\Main_Surfing.dat]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
 
 Floors:
 	Grass
@@ -471,23 +471,7 @@ Buildings:
 				East
 					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[23.9375,1.5925,41]}}{"TexturePath"{str[Cities\Botan]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[23.9375,1.5925,42]}}{"TexturePath"{str[Cities\Botan]}}{"Textures"{recArr[[2,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-					
-NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[15,0,17]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Scientist]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_Scientist)>]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[15,16,4,3]]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[25,0,21]}}{"TextureID"{str[Gentleman_Brown]}}{"ID"{int[1]}}{"Name"{str[Gentleman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_Gentleman)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[33,0,20]}}{"TextureID"{str[Rocker]}}{"ID"{int[2]}}{"Name"{str[Rocker]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_Rocker)>]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[22,0,24]}}{"TextureID"{str[FatGuy_Green]}}{"ID"{int[3]}}{"Name"{str[Fat Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_FatGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[21,0,29]}}{"TextureID"{str[Beauty]}}{"ID"{int[4]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_Beauty)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[21,27,2,4]]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[22,0,35]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[5]}}{"Name"{str[Rocket Grunt]}}{"Action"{int[1]}}{"AdditionalValue"{str[Botan\Main_RocketSleep]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[29,0,17]}}{"TextureID"{str[HealLady]}}{"ID"{int[6]}}{"Name"{str[Heal Lady]}}{"Action"{int[1]}}{"AdditionalValue"{str[Botan\Main_HealLady]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[27,15,4,4]]}}]}}
-	
-	{"NPC"{NPC[{"Position"{sngArr[16,0,5]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[7]}}{"Name"{str[Rocket Grunt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_RocketGrunt_GetOutOfTheWay)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[10,0,12]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[8]}}{"Name"{str[Rocket Grunt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_RocketGrunt_WhatDoYouWant)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[25,0,17]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[9]}}{"Name"{str[Rocket Grunt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_RocketGrunt_WeAreTakingTheTown)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[28,0,21]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[10]}}{"Name"{str[Rocket Grunt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_RocketGrunt_GetLost)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[19,0,24]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[11]}}{"Name"{str[Rocket Grunt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_RocketGrunt_TeamRocketWillBeRich)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[22,0,35]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[12]}}{"Name"{str[Rocket Grunt]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_Main_RocketGrunt_NotAllowed)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-
+		
 Warps:
 	Route 59 Gate
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5.6825,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route59-Botan_1F.dat,4,0.1,10,3]}}{"Rotation"{int[1]}}]}}
@@ -515,8 +499,4 @@ Warps:
 
 ScriptBlocks:
 	{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[19,0,35]}}{"ID"{int[12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\Main_RocketBlock]}}{"Rotation"{int[0]}}]}}
-		
-Offsets:
-	{"OffsetMap"{MAP[{"Offset"{sngArr[-68,10]}}{"Map"{str[Routes\59\Main.dat]}}]}}
-	{"OffsetMap"{MAP[{"Offset"{sngArr[9,44]}}{"Map"{str[Routes\58\Main.dat]}}]}}
-
+	

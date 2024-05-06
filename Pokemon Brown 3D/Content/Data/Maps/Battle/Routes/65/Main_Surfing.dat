@@ -8,7 +8,7 @@ Floors:
 		
 	Removal
 		{"Floor"{ENT[{"Size"{intArr[10,4]}}{"Position"{intArr[9,0,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
-	
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[7,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
 	
 Large Rock:
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[7,0,18]}}]}}

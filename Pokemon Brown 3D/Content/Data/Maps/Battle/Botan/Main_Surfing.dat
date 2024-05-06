@@ -1,0 +1,9 @@
+{"Level"{LEV[{"Name"{str[Botan City]}}{"MusicLoop"{str[SeashoreJaeru]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
+
+BattleMapStructure:
+	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\Botan\Main.dat]}}{"Offset"{sngArr[-3,0,-19]}}]}}
+
+Offsets:
+	{"OffsetMap"{MAP[{"Offset"{sngArr[-71,-9]}}{"Map"{str[Routes\59\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[6,25]}}{"Map"{str[Routes\58\Main.dat]}}]}}
