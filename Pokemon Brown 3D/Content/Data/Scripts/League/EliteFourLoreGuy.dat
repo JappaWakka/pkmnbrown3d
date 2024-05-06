@@ -1,0 +1,28 @@
+version=2
+:if:<Register.Registered(EliteFourLoreGuy_Intro)>=false
+	@Text.Show(<system.token(League_EntranceHall_EliteFourLoreGuy_Intro)>*<system.token(League_EntranceHall_EliteFourLoreGuy_Question)>)
+	@Register.Register(EliteFourLoreGuy_Intro)
+:else
+	@Text.Show(<system.token(League_EntranceHall_EliteFourLoreGuy_Question)>)
+:endif
+@options.setcancelindex(5)
+@options.show(Redd,Jared,Agatha,Drake,Blanch,Quit)
+	:when:Redd
+		@Text.Show(<system.token(League_EntranceHall_EliteFourLoreGuy_Answer_Redd)>)
+		@script.start(League\EliteFourLoreGuy)
+	:when:Jared
+		@Text.Show(<system.token(League_EntranceHall_EliteFourLoreGuy_Answer_Jared)>)
+		@script.start(League\EliteFourLoreGuy)
+	:when:Agatha
+		@Text.Show(<system.token(League_EntranceHall_EliteFourLoreGuy_Answer_Agatha)>)
+		@script.start(League\EliteFourLoreGuy)
+	:when:Drake
+		@Text.Show(<system.token(League_EntranceHall_EliteFourLoreGuy_Answer_Drake)>)
+		@script.start(League\EliteFourLoreGuy)
+	:when:Blanch
+		@Text.Show(<system.token(League_EntranceHall_EliteFourLoreGuy_Answer_Blanch)>)
+		@script.start(League\EliteFourLoreGuy)
+	:when:Quit
+		:end
+:endwhen
+:end

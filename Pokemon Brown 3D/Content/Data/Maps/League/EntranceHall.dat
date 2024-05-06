@@ -229,4 +229,7 @@ NPCs:
 		{"NPC"{NPC[{"Position"{sngArr[6,0,0]}}{"TextureID"{str[Beauty]}}{"ID"{int[5]}}{"Name"{str[Entrance Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(League_EntranceHall_EntranceLady)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[[2,2,3,1]]}}]}}
 	Gym Guy
 		{"NPC"{NPC[{"Position"{sngArr[4,0,9]}}{"TextureID"{str[GymGuy]}}{"ID"{int[4]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\GymGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-
+	Elite Four Lore Guy
+		{"NPC"{NPC[{"Position"{sngArr[9,0,6]}}{"TextureID"{str[OldMan_Blue]}}{"ID"{int[6]}}{"Name"{str[Elite Four Lore Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\EliteFourLoreGuy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		
+		
