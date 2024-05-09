@@ -269,7 +269,7 @@ Shrine:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.25,0.5]}}{"Position"{sngArr[7.75,0.325,22]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[80,152,8,4][80,144,16,8][88,152,8,4]]}}{"TextureIndex"{intArr[-1,-1,2,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.25,0.5]}}{"Position"{sngArr[8.25,0.325,22]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[88,152,8,4][96,144,16,8][80,152,8,4]]}}{"TextureIndex"{intArr[-1,-1,0,2,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 	ScriptBlock
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,0,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[IlexForest\Shrine]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,0,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(IlexForest_Shrine)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		
 Buildings:
 	Route 34 - Old Route 47 Gate
