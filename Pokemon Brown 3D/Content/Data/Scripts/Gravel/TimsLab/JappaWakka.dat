@@ -1,7 +1,7 @@
 version=2
 :if:<Register.Registered(AlexMissing)>=false
 	@NPC.Spawn(5,0,10,1,Gravel\TimsLab\JappaWakka,JappaWakka,0,0,JappaWakka,11,Looking)
-	@Text.Show(<system.token(Gravel_TimsLab_JappaWakka_AlexMissing1)>)
+	@Text.Show(<system.token(Gravel_TimsLab_AlexMissing1)>)
 	@Player.TurnTo(2,1)
 	@NPC.Turn(0,2)
 	:if:<Player.Position(x)>=5
@@ -12,12 +12,13 @@ version=2
 		@Player.TurnTo(3)
 	:endif
 	
-	@Text.Show(<system.token(Gravel_TimsLab_JappaWakka_AlexMissing2)>)
+	@Text.Show(<system.token(Gravel_TimsLab_AlexMissing2)>)
 	@Screen.FadeOut(4)
 	@Player.Warp(Seashore\PlayerHouse_2F.dat,6,0.1,5)
 	@Level.Update
 	@Screen.FadeIn(4)
-	@Text.Show(<system.token(Gravel_TimsLab_JappaWakka_AlexMissing3)>)
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_AlexMissing3)>)
+	@NPC.Register(IlexForest.dat|0|move|8,0,23)
 	@Register.Register(AlexMissing)
 :endif
 

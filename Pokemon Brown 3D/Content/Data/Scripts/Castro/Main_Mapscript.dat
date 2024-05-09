@@ -8,4 +8,9 @@ version=2
 :if:<inventory.countitem(41)>=1 <and> <register.registered(Castro_JappaWakka)>=false
 	@NPC.spawn(21,0,36,1,Castro\Main_JappaWakka,JappaWakka,0,1,JappaWakka,11,Still)
 :endif
+:if:<Register.Registered(GoodbyeMadameRenifler)>=true
+	@Entity.Warp(13,~,-1,~)
+	@Entity.Warp(14,~,0,~)
+	@level.update
+:endif
 :end
