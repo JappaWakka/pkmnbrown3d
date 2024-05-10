@@ -27,13 +27,6 @@ version=2
 		@Register.Register(Zapdos)
 	:endwhen
 	
-	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step5_Fighter_Question)>)
-	@Options.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step5_Fighter_Answer_Shy)>,<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step5_Fighter_Answer_Tough)>)
-	:when:<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step5_Fighter_Answer_Shy)>
-		@Register.Register(Articuno)
-	:when:<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step5_Fighter_Answer_Tough)>
-		@Register.Register(Suicune)
-	:endwhen
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Finished_Answer)>)
 :when:<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Wizard)>
 	@Register.Register(Suicune)

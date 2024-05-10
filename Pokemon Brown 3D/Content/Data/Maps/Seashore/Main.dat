@@ -476,9 +476,9 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[17,-0.25,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\Main.dat,9,0,66,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[24,0,16]}}{"TextureID"{str[YoungGirl_Green]}}{"ID"{int[0]}}{"Name"{str[Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Seashore_Main_YoungGirl_Green_RunningShoes)>]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[27,0,20]}}{"TextureID"{str[YoungBoy_Red]}}{"ID"{int[1]}}{"Name"{str[Boy]}}{"Action"{int[1]}}{"AdditionalValue"{str[seashore\boy]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[26,20,5,2]]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[12,0,16]}}{"TextureID"{str[YoungBoy_Blue]}}{"ID"{int[2]}}{"Name"{str[Boy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Seashore_Main_YoungBoy_Blue_Dreams)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[24,0,16]}}{"TextureID"{str[YoungGirl_Green]}}{"ID"{int[0]}}{"Name"{str[Running Shoes Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<System.Token(Seashore_Main_YoungGirl_Green_RunningShoes)>]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[27,0,20]}}{"TextureID"{str[YoungBoy_Red]}}{"ID"{int[1]}}{"Name"{str[Trainer Boy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Seashore\TrainerBoy]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[26,20,5,2]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[12,0,16]}}{"TextureID"{str[YoungBoy_Blue]}}{"ID"{int[2]}}{"Name"{str[Dream Boy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Seashore\DreamBoy]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 OffsetMaps:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[8,-67]}}{"Map"{str[Routes\52\Main.dat]}}]}}
