@@ -1,7 +1,7 @@
 version=2
 
 :if:<Register.Registered(pokedex)>=False
-	@Text.Show(<system.token(Gravel_Main_Clerk_NoDelivery)>)
+	@Text.Show(<system.token(Gravel_PokeMain_Clerk_NoDelivery)>)
 :else
 	@Text.Show(<system.token(Generic_PokeMart_Clerk_Question)>)
 	@options.show(<system.token(Generic_PokeMart_Store)>,<system.token(Generic_PokeMart_Quit)>)

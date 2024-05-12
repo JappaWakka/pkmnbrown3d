@@ -22,10 +22,15 @@ version=2
 	@music.play(Encounter_Rival)
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex3)>)
 	@NPC.spawn(4,0,11,0,0,Rival,0,0,Mura,4,Still)
+	@NPC.Turn(0,2)
 	@player.turnto(2,1)
 	@NPC.move(4,9)
 	@music.play(TimsLab)
-	@player.turnto(0,1)
+	:if:<player.position(x)>=5
+		@player.turnto(0,1)
+	:else
+		@Player.turnto(3)
+	:endif
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex4)>)
 	@player.receivepokedex
 	@sound.play(Receive_KeyItem,1)

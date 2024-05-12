@@ -1,9 +1,9 @@
 version=2
 
 :if:<pokemon.count>=0
-	@Text.Show(<system.token(Gravel_TimsLab_LeaveBeforeChoose)>)
+	@Text.Show(<system.token(Gravel_TimsLab_Tim_LeaveBeforeChoose)>)
 	@player.turn(2)
-	@player.move(2)
+	@player.move(1)
 	:end
 :endif
 

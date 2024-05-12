@@ -14,6 +14,8 @@ version=2
 			@Register.Register(mura2)
 			@Text.Show(<system.token(Gravel_TimsLab_Choose_Confirm)>)
 			@pokemon.add(7,5,<system.token(Gravel_TimsLab_StarterPokemon_CatchMethod)>,5,<system.token(Gravel_TimsLab_StarterPokemon_CatchLocation)>)
+			@overworldpokemon.hide
+			@sound.play(success,1)
 			@Text.Show(<system.token(Gravel_TimsLab_Receive_Squirtle)>)
 			@pokemon.rename(0)
 			:if:<player.position>=7,0,3
