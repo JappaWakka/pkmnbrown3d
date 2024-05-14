@@ -1,0 +1,42 @@
+version=2
+
+@Text.Show(<system.token(Azalea_Main_MoveTutor_Question)>)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		:if:1000><player.money>
+			@Text.Show(<system.token(Azalea_Main_MoveTutor_NotEnoughMoney)>)
+			:end
+		:else
+			@Text.Show(<system.token(Azalea_Main_MoveTutor_WhichPokémon)>)
+			@Storage.Set(bool,CanExit,false)
+			:while:<storage.get(bool,CanExit)>=false
+				@Pokemon.Select(1,1,0,1052)
+				:if:<not><pokemon.selected>=-1
+					:if:<Pokemon.CanLearnAttack(<pokemon.selected>,1052)>=true
+						:if:<Pokemon.HasAttack(<pokemon.selected>,1052)>=false
+							@Pokemon.LearnAttack(<pokemon.selected>,1052)
+							:if:<Pokemon.HasAttack(<pokemon.selected>,1052)>=true
+								@Player.Money(-1000)
+								@sound.play(buy)
+								@Storage.Set(bool,CanExit,true)
+							:endif
+						:else
+							@Text.Show(<system.token(Azalea_Main_MoveTutor_FalseSwipe_AlreadyKnows)>)
+						:endif
+					:else
+						@Text.Show(<system.token(Azalea_Main_MoveTutor_FalseSwipe_CannotLearn)>)
+					:endif
+				:else
+					@Storage.Set(bool,CanExit,true)
+				:endif
+			:endwhile
+			@Text.Show(<system.token(Botan_MoveTutorHouse_MoveTutor_Outro)>)
+			:end
+		:endif
+		
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Botan_MoveTutorHouse_MoveTutor_Outro)>)
+		:end
+		
+:endwhen
+:end

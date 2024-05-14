@@ -8,7 +8,7 @@ version=2
 			@sound.play(buy)
 			@Text.Show(<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Buy50Coins)>)
 			@player.addcoins(50)
-			@player.money(-1000)
+			@Player.Money(-1000)
 			:end
 		:else
 			@Text.Show(<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_NotEnoughMoney)>)
@@ -24,7 +24,7 @@ version=2
 			@sound.play(buy)
 			@Text.Show(<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Buy500Coins)>)
 			@player.addcoins(500)
-			@player.money(-10000)
+			@Player.Money(-10000)
 			:end
 		:else
 			@Text.Show(<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_NotEnoughMoney)>)

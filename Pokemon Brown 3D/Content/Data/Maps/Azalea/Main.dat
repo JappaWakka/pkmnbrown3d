@@ -45,6 +45,7 @@ Floors:
 	
 	Removal
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[30,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[12,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[18,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[24,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[32,0,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
@@ -63,6 +64,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[48,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[58,0,16]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[24,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[30,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[46,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[4,4]}}{"Position"{intArr[58,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[26,0,20]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Remove"{bool[1]}}]}}
@@ -94,8 +96,9 @@ Tall Trees:
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[4,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[64,0.375,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[240,0,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[8,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[42,0.375,14]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[240,0,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[12,6]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[0,0.375,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[240,0,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[4,4]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[30,0.375,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[240,0,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[4,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[30,0.375,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[240,0,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[46,0.375,16]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[240,0,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[32,0.375,18]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[240,0,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[24,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[28,0.375,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[240,0,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[68,4]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[0,0.375,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[240,0,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
@@ -221,6 +224,7 @@ Mountains:
 		
 Large Rocks:
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[30,0,4]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[12,0,6]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[18,0,6]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[24,0,6]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[32,0,8]}}]}}
@@ -239,6 +243,7 @@ Large Rocks:
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[54,0,16]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[58,0,16]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[24,0,18]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[30,0,18]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[46,0,18]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[58,0,18]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Johto]}}{"Offset"{sngArr[60,0,18]}}]}}
@@ -420,11 +425,12 @@ Turning Signs:
 	
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[22,0,17]}}{"TextureID"{str[RegularGuy_Blue]}}{"ID"{int[0]}}{"Name"{str[Regular Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Azalea_Main_RegularGuy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[22,16,1,4]]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[41,0,8]}}{"TextureID"{str[Hiker]}}{"ID"{int[1]}}{"Name"{str[Hiker]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Azalea_Main_Hiker)>]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[35,0,17]}}{"TextureID"{str[YoungBoy_Red]}}{"ID"{int[2]}}{"Name"{str[Young Boy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Azalea_Main_YoungBoy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[34,17,6,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[41,0,8]}}{"TextureID"{str[PonytailGirl_Green]}}{"ID"{int[1]}}{"Name"{str[Young Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Azalea_Main_YoungGirl)>]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[35,0,17]}}{"TextureID"{str[Rocker]}}{"ID"{int[2]}}{"Name"{str[Rocker]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Azalea_Main_Rocker)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[34,17,6,1]]}}]}}
 	
 	{"NPC"{NPC[{"Position"{sngArr[28,0,12]}}{"TextureID"{str[Clerk]}}{"ID"{int[3]}}{"Name"{str[Clerk]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Azalea]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-		
+	{"NPC"{NPC[{"Position"{sngArr[14,0,12]}}{"TextureID"{str[SuperNerd]}}{"ID"{int[3]}}{"Name"{str[Move Tutor]}}{"Action"{int[1]}}{"AdditionalValue"{str[Azalea\Main_MoveTutor]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	
 Warps:
 	Gym
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[16,0,19]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[96,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Azalea.dat,4,0.1,16,0]}}{"Rotation"{int[0]}}]}}
