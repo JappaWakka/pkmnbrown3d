@@ -1,5 +1,8 @@
 version=2
 
+:if:<Player.ThirdPerson>=false
+	@Camera.SetToPlayerFacing
+:endif
 :if:<Player.Facing>=0
 	@Player.Warp(Caves\Merson\B1F.dat,12,0.1,24,2)
 :else

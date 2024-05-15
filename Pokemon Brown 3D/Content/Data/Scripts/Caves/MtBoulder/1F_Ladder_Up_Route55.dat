@@ -1,5 +1,8 @@
 version=2
 
+:if:<Player.ThirdPerson>=false
+	@Camera.SetToPlayerFacing
+:endif
 :if:<Player.Facing>=0
 	@Player.Warp(Routes\55\Main.dat,14,0.1,49,2)
 :else

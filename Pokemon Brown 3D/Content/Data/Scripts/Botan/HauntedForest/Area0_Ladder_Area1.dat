@@ -1,5 +1,8 @@
 version=2
 
+:if:<Player.ThirdPerson>=false
+	@Camera.SetToPlayerFacing
+:endif
 :if:<Player.Facing>=0
 	@Player.Warp(Botan\HauntedForest\Area1.dat,14,0.1,7,0)
 :else

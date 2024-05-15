@@ -1,4 +1,7 @@
 version=2
+:if:<Player.ThirdPerson>=false
+	@Camera.SetToPlayerFacing
+:endif
 :if:<Player.Facing>=0
 	@Player.Warp(League\Elite4\Redd.dat,6,0.1,14,2)
 :else

@@ -4,6 +4,9 @@ version=2
 :if:<inventory.countitem(gm6)>>0
 	@storage.set(bool,VirusScan,true)
 :endif
+:if:<Player.ThirdPerson>=false
+	@Camera.SetToPlayerFacing
+:endif
 :if:<Player.Facing>=0
 	:if:<inventory.countitem(gm6)>=0
 		@player.warp(Botan\HauntedForest\Area2.dat,2,0.1,9,0)

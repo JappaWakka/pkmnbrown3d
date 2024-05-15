@@ -1,5 +1,8 @@
 version=2
 
+:if:<Player.ThirdPerson>=false
+	@Camera.SetToPlayerFacing
+:endif
 :if:<Player.Facing>=0
 	@Player.Warp(FinalDungeon\JohtoLegendaryRoom.dat,7,0.1,8,0)
 :else

@@ -1,4 +1,7 @@
 version=2
+:if:<Player.ThirdPerson>=false
+	@Camera.SetToPlayerFacing
+:endif
 :if:<Player.Facing>=0
 	@Player.Warp(Azalea\Main.dat,37,-0.9,11,2)
 :else

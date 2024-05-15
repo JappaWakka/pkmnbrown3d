@@ -1,5 +1,8 @@
 version=2
 
+:if:<Player.ThirdPerson>=false
+	@Camera.SetToPlayerFacing
+:endif
 :if:<Player.Facing>=0
 	@Player.Warp(FinalDungeon\UndergroundCaveMaze_1F.dat,22,0.1,17,0)
 :else
