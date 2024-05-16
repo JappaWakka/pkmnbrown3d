@@ -1,0 +1,14 @@
+version=2
+@Text.Show(<system.token(Bunker_PC_Intro)>)
+@Sound.Play(PC\TurnOn)
+@Text.Show(<system.token(Bunker_PC_Question)>)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+:when:<system.token(global_yes)>
+	@Text.Show(<system.token(Bunker_PC_AnswerYes)>)
+	@Sound.Play(PC\TurnOff)
+	@Text.Show(<system.token(Bunker_PC_Outro)>)
+	:end
+:when:<system.token(global_no)>
+	:end
+:endwhen
+:end

@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[Rijon Tunnel]}}{"MusicLoop"{str[CaveMusic3]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[Bunker]}}{"MusicLoop"{str[CaveMusic3]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
 
 Floors:
@@ -46,8 +46,8 @@ Warps:
 	Hayward City
 		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[1,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[336,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hayward\Main.dat,4,0.1,11,0]}}{"Rotation"{int[2]}}]}}
 
-	Rijon Tunnel
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[RijonTunnel\Warp]}}{"Rotation"{int[0]}}]}}
+	Bunker
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Bunker\Warp]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[Fisherman]}}{"ID"{int[0]}}{"Name"{str[Fisherman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_RijonTunnel_Entrance_Fisherman)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[Fisherman]}}{"ID"{int[0]}}{"Name"{str[Fisherman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_Bunker_Entrance_Fisherman)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

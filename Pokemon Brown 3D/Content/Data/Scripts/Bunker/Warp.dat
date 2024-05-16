@@ -23,10 +23,10 @@ version=2
 @camera.update
 
 :select:<level.filename>
-	:when:RijonTunnel
-		@player.warp(Hayward\RijonTunnel_Entrance.dat,3,0.1,3)
-	:when:RijonTunnel_Entrance
-		@player.warp(Routes\RijonTunnel.dat,2,0.1,2)
+	:when:Bunker
+		@player.warp(Hayward\Bunker_Entrance.dat,3,0.1,3)
+	:when:Bunker_Entrance
+		@player.warp(Routes\Bunker.dat,2,0.1,2)
 :endwhen
 
 @level.update
