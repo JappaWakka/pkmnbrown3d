@@ -21,11 +21,9 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[3,1,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[6,3]}}{"Position"{intArr[23,1,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}]}}
 		
-	WarpPlatform
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[25,1,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,72,16,16]}}]}}
-
-	LadderHole
+	LadderHoles
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,80,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[25,1,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[96,48,16,16]}}]}}
 	
 	Gemstone Floors
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[5,0,0]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}]}}
@@ -326,8 +324,9 @@ Ladders:
 	
 	Mt. Boulder B1F
 		{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[8,0,6]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\MtBoulder\1F_Ladder_Down]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\MtBoulder\1F_Ladder_Down_B1F]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		
 	Rijon Tunnel
-		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[25,1,14]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[RijonTunnel\Warp]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[25,1,14]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[25,1,14]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\MtBoulder\1F_Ladder_Down_RijonTunnel]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 

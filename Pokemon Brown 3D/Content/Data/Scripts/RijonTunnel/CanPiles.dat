@@ -1,0 +1,8 @@
+version=2
+
+:if:<math.int(<player.position(x)>%2)>=0
+	@Text.Show(<system.token(RijonTunnel_CanPiles1)>)
+:else
+	@Text.Show(<system.token(RijonTunnel_CanPiles2)>)
+:endif
+:end
