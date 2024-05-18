@@ -68,6 +68,8 @@
 @player.setrivalname(Mura)
 @Item.Give(78)
 @Player.ReceivePokegear
+@Register.Register(pokegear_remove_worldmap)
+@Register.Register(pokegear_remove_phone)
 @Screen.FadeOutColor
 @system.endnewgame(Seashore\PlayerHouse_2F.dat,6,0.1,5,3)
 
