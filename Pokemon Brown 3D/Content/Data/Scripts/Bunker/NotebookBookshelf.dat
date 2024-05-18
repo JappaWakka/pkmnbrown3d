@@ -1,0 +1,6 @@
+version=2
+@Text.Show(<system.token(Bunker_Bookshelf_Notebook)>)
+:if:<Register.Registered(Bunker_NoteBook)>=false
+	@Register.Register(Bunker_NoteBook)
+:endif
+:end

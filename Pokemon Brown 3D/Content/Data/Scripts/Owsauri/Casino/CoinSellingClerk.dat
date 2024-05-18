@@ -1,8 +1,8 @@
 version=2
 	
 @Text.Show(<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Question)>)
-@options.show(<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Buy50Coins)>,<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Buy500Coins)>,<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Answer_NoThanks)>)
-:when:<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Buy50Coins)>
+@options.show(<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Answer_50Coins)>,<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Answer_500Coins)>,<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Answer_NoThanks)>)
+:when:<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Answer_50Coins)>
 	:if:<inventory.countitem(54)>=1
 		:if:<player.money>>1000
 			@sound.play(buy)
@@ -18,7 +18,7 @@ version=2
 		@Text.Show(<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_NoCoinCase)>)
 		:end
 	:endif
-:when:<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_500Coins)>
+:when:<system.token(Owsauri_Casino_1F_Clerk_CoinBuy_Answer_500Coins)>
 	:if:<inventory.countitem(54)>=1
 		:if:<player.money>>10000
 			@sound.play(buy)
