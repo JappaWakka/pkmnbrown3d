@@ -1,11 +1,17 @@
 version=2
 :if:<Register.Registered(Bunker_NoteBook)>=true
 	:if:<Register.Registered(Owsauri_DailyCoins)>=false
+		@Storage.Set(int,FreeCoinAmount,<system.random(200,700)>)
+		:if:<Storage.Get(int,FreeCoinAmount)>>400
+			:if:<system.random(0,1)>=0
+				@Storage.Set(int,FreeCoinAmount,<Storage.Get(int,FreeCoinAmount)>-150)
+			:endif
+		:endif
 		@Text.Show(<system.token(Owsauri_Casino_1F_SlotMachine_Rigged_Reward1)>)
 		@Sound.Play(Success_Small)
 		@Text.Show(<system.token(Owsauri_Casino_1F_SlotMachine_Rigged_Reward2)>)
 		@Register.RegisterTime(Owsauri_DailyCoins,1,day)
-		@player.addcoins(50)
+		@player.addcoins(<Storage.Get(int,FreeCoinAmount)>)
 		:end
 	:else
 		@Text.Show(<system.token(Owsauri_Casino_1F_SlotMachine_Rigged_ComeBackLater)>)
