@@ -6,16 +6,16 @@ version=2
 		@Text.Show(<system.token(Owsauri_Casino_1F_GamblingClerk_2)>)
 		@player.addcoins(20)
 		@Register.Register(GameCorner1F_GamblingClerk)
-		@npc.turn(10,1)
+		@npc.turn(9,1)
 		:end
 	:else
 		@Text.Show(<system.token(Owsauri_Casino_1F_ForgotCoinCase)>)
-		@npc.turn(10,1)
+		@npc.turn(9,1)
 		:end
 	:endif
 :else
 	@Text.Show(<system.token(Owsauri_Casino_1F_GamblingClerk_3)>)
-	@npc.turn(10,1)
+	@npc.turn(9,1)
 	:end
 :endif
 

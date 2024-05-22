@@ -1,0 +1,9 @@
+version=2
+:if:<Register.Registered(Bunker_NoteBook)>=true
+	@Entity.Warp(11,~,0,~)
+	@Entity.Warp(12,~,-2.5,~)
+	@Entity.SetVisible(12,0)
+	@Entity.Warp(13,~,-0.5,~)
+	@Entity.SetVisible(13,1)
+:endif
+:end
