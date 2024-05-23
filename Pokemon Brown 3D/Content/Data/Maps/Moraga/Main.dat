@@ -101,6 +101,10 @@ Signs:
 	PokeMart
 		{"Structure"{STR[{"Map"{str[Structures\PokeMart_Sign]}}{"Offset"{sngArr[4,0,21]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[4,0,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Generic_Sign_PokeCenter)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
+	Nation's Burgers
+		{"Structure"{STR[{"Map"{str[Structures\NationsBurgers_Sign]}}{"Offset"{sngArr[6,0,29]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[6,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Moraga_Main_Sign_NationsBurgers)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 	Trainer Tips
 		{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[25,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Moraga_Main_Sign_TrainerTips)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
@@ -353,7 +357,7 @@ Buildings:
 	City Underpass Entrance
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Moraga_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[42,0,32]}}]}}
 	
-	Nations Burgers
+	Nation's Burgers
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Moraga_FlatRoof_4x2y4z_Entrance]}}{"Offset"{sngArr[4,0,26]}}]}}
 	
 	Sandshrew Kid's House
@@ -592,7 +596,7 @@ Warps:
 	High School Academy
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[32,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Moraga\HighSchoolAcademy.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
 	
-	Nations Burgers
+	Nation's Burgers
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[5,0,29]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Moraga\NationsBurgers.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
 
 	HM Fly House
