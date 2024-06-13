@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Rijon League]}}{"MusicLoop"{str[CaveMusic1]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"DayTime"{int[1]}}{"MapScript"{str[League\Elite4_Jared_Agatha_MapScript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"DayTime"{int[1]}}]}}
 
 BattleMapStructure:
 	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\League\Elite4\Jared.dat]}}{"Offset"{sngArr[7,0,6]}}{"AddNPC"{bool[1]}}]}}
