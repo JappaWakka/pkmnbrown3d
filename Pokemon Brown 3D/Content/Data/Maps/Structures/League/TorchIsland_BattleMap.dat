@@ -1,9 +1,9 @@
 Floors:
-	{"Floor"{ENT[{"Size"{intArr[3,3]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,200,16,16]}}]}}
+	{"Floor"{ENT[{"Size"{intArr[3,3]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,200,16,16]}}{"Rotation"{int[3]}}]}}
 
 Torch:
-	{"NPC"{NPC[{"Position"{sngArr[1,1,1]}}{"TextureID"{str[Flame]}}{"AnimateIdle"{bool[1]}}{"ID"{int[20]}}{"Name"{str[Flame]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,0,1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,96,16,16][16,96,16,16][32,96,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[1,1,1]}}{"TextureID"{str[Flame]}}{"AnimateIdle"{bool[1]}}{"ID"{int[20]}}{"Name"{str[Flame]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,0,1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,96,16,16][16,96,16,16][32,96,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 	
 Walls (Direction = Facing):
 	North

@@ -1,44 +1,14 @@
 version=2
 
+:if:<Register.Registered(EnterBlanch)>=true
+	@Entity.Remove(2)
+	@NPC.Warp(1,13,0,-1)
+	@Level.Update
+:endif
 :if:<Register.Registered(defeat<level.filename>)>=true
 	@entity.warp(0,~,~-5,~)
 	@entity.warp(1,~,~+5,~)
 	@Level.Update
-:endif
-
-:if:<Register.Registered(EnterBlanch)>=True
-	@entity.warp(2,~,~+3,~)
-	@entity.warp(3,~,~-3,~)
-	@level.update
-	:end
-:else
-	@player.StopMovement
-	:if:<player.position(z)>=15
-		@Player.SetSpeed(1.5)
-		@player.move(7)
-		@player.turnto(2)
-		@player.move(7)
-		@player.turnto(1)
-		@player.move(13)
-		@player.turnto(0)
-		@player.move(10)
-	:else
-		@Player.SetSpeed(1.5)
-		@player.move(8)
-		@player.turnto(2)
-		@player.move(8)
-		@player.turnto(1)
-		@player.move(11)
-		@player.turnto(0)
-		@player.move(10)
-	:endif
-		
-	@Level.Wait(10)
-	@sound.play(SwitchDoor)
-	@entity.warp(2,~,0,~)
-	@entity.warp(3,~,-3,~)
-	@level.update
-	@Register.Register(EnterBlanch)
 :endif
 
 :end
