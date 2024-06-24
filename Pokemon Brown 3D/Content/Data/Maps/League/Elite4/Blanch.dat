@@ -130,8 +130,9 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[26,28]}}{"Position"{intArr[0,-2,-4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}]}}
 	
 	Doormats
-		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[12,0,-2]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[0,152,16,16]}}]}}
-		
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[12,0,-2]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[0,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[13,0,-2]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[16,432,16,16]}}]}}
+				
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[12,0,-1]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,400,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[12,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,416,16,16]}}]}}
 		
@@ -301,5 +302,5 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[13,0,10]}}{"TextureID"{str[Blanch]}}{"ID"{int[1]}}{"Name"{str[Elite 4 Blanch]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\Elite4_Trainer_Blanch]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Warps:
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,-3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\Elite4\Champion.dat,6,0.1,14,0]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[13,0,-3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\Elite4\Champion.dat,7,0.1,14,0]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,-3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\Elite4\Champion.dat,4,0.1,10,0]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[13,0,-3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\Elite4\Champion.dat,5,0.1,10,0]}}{"Rotation"{int[0]}}]}}

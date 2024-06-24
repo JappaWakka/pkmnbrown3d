@@ -1,0 +1,31 @@
+{"Level"{LEV[{"Name"{str[Rijon League]}}{"MusicLoop"{str[League]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}]}}
+
+Floors:
+	Brown
+		
+	Gray
+		
+	Darkness
+		
+	Doormats
+		
+	
+Ceiling:
+	{"EntityField"{ENT[{"Size"{intArr[10,10]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,3,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,264,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+Walls (Direction = Facing):
+	
+Flames:
+	
+Pillars:
+	
+Doors:
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"ID"{int[0]}}{"Position"{sngArr[4,0.5,-0.625]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][0,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,3,3,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"ID"{int[0]}}{"Position"{sngArr[5,0.5,-0.625]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][16,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[3,3,1,1,1,1,0,0,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"Position"{sngArr[4,0.5,9.625]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][0,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,3,3,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"Position"{sngArr[5,0.5,9.625]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][16,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[3,3,1,1,1,1,0,0,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+Statues:
+	
