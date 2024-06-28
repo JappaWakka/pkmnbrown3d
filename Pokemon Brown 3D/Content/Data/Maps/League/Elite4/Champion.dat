@@ -2,7 +2,7 @@
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[League\Champion_MapScript]}}]}}
 
 Floors:
-	Brown
+	Regular
 		{"Floor"{ENT[{"Size"{intArr[2,10]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,264,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,10]}}{"Position"{intArr[8,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,264,16,16]}}]}}
 		
@@ -32,21 +32,10 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,7]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[32,280,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,9]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[32,280,16,16]}}]}}
 		
-		
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,4]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[16,248,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[5,0,4]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[32,248,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,5]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[48,248,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[5,0,5]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,248,16,16]}}]}}
-	
-	Gray
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,3]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,3]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,6]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,6]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,9]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,9]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,200,16,16]}}]}}
 	
 	Darkness
 		{"Floor"{ENT[{"Size"{intArr[10,3]}}{"Position"{intArr[0,0,-3]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}]}}
