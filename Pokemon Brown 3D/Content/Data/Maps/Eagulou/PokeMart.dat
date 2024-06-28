@@ -10,5 +10,5 @@ Counter ScriptBlock:
 	{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,128,16,8]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Eagulou]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[3,0,2]}}{"TextureID"{str[Scientist_Female]}}{"ID"{int[0]}}{"Name"{str[Extra Items Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Eagulou_PokeMart_ExtraItemsGirl)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[3,0,3]}}{"TextureID"{str[Scientist_Female]}}{"ID"{int[0]}}{"Name"{str[Extra Items Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Eagulou_PokeMart_ExtraItemsGirl)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[6,0,0]}}{"TextureID"{str[OfficeWorker_Female]}}{"ID"{int[0]}}{"Name"{str[X Attack Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Eagulou_PokeMart_XAttackGirl)>]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
