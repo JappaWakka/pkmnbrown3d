@@ -2,14 +2,16 @@ version=2
 
 :if:<Register.Registered(pizza)>=false
 	@player.stopmovement
+	:if:<Level.Riding>=true
+			@Player.SetSpeed(2)
+		:else
+			:if:<Player.IsRunning>=true
+				@Player.SetSpeed(1.5)
+			:endif
+		:endif
 	@player.move(1)
-	@player.turnto(0,1)
-	@npc.turn(0,2)
 	@Text.Show(<system.token(Gravel_PokeMart_Clerk_YoKiddo)>)
-	@player.move(2)
-	@npc.turn(0,3)
-	@player.turn(1)
-	@player.move(1)
+	@player.move(4)
 	@Text.Show(<system.token(Gravel_PokeMart_Clerk_TimsPizza)>)
 	@Item.Give(gm0,1)
 	@sound.play(Success,1)

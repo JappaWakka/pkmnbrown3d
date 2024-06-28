@@ -4,12 +4,12 @@
 {"Structure"{STR[{"Map"{str[Structures\PokeMart_Interior]}}{"AddNPC"{bool[1]}}{"Offset"{sngArr[0,0,0]}}]}}
 
 Warps:
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\Main.dat,20,0.1,20,0]}}{"Rotation"{int[2]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\Main.dat,20,0.1,20,0]}}{"Rotation"{int[2]}}]}}
 
 Counter ScriptBlock:
-	{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,128,16,8]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Botan]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,128,16,8]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Botan]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[RegularGuy_Blue]}}{"ID"{int[1]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_PokeMart_Guy)>]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[6,0,3]}}{"TextureID"{str[Cooltrainer_Female]}}{"ID"{int[2]}}{"Name"{str[Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_PokeMart_Girl)>]}}{"Rotation"{int[0]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[4,3,4,2]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[RegularGuy_Blue]}}{"ID"{int[1]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_PokeMart_Guy)>]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[6,0,4]}}{"TextureID"{str[Cooltrainer_Female]}}{"ID"{int[2]}}{"Name"{str[Girl]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Botan_PokeMart_Girl)>]}}{"Rotation"{int[0]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[6,0,1,6]]}}]}}
 

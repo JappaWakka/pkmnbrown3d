@@ -4,11 +4,11 @@
 {"Structure"{STR[{"Map"{str[Structures\PokeMart_Interior]}}{"AddNPC"{bool[1]}}{"Offset"{sngArr[0,0,0]}}]}}
 
 Warps:
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\Main.dat,15,0.1,11,0]}}{"Rotation"{int[2]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\Main.dat,15,0.1,11,0]}}{"Rotation"{int[2]}}]}}
 
 Counter ScriptBlock:
-	{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,128,16,8]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Merson]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,128,16,8]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Merson]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[3,0,2]}}{"TextureID"{str[PokeFan_Male_Red]}}{"ID"{int[0]}}{"Name"{str[Potions Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Merson_PokeMart_PotionsGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[3,0,3]}}{"TextureID"{str[PokeFan_Male_Red]}}{"ID"{int[0]}}{"Name"{str[Potions Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Merson_PokeMart_PotionsGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[7,0,0]}}{"TextureID"{str[Hiker]}}{"ID"{int[0]}}{"Name"{str[Food Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Merson_PokeMart_NuggetGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
