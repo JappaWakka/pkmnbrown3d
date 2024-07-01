@@ -3,7 +3,7 @@ version=2
 
 :if:<Register.Registered(hailbadge_obtain)>=True
     :if:<Register.Registered(guard2)>=False
-		@Sound.Play(Success_Small)
+		@Sound.Play(Success_Small,1)
 		@Register.Register(guard2)
 	:endif
 	@Text.Show(<system.token(Route65_Guard2_HaveBadge)>)

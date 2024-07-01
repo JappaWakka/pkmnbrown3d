@@ -1,5 +1,8 @@
 version=2
 
 @pokemon.cry(52)
-@Text.Show(<system.token(Owsauri_Main_Meowth_Cry)>)
+@Text.Show(<system.token(Owsauri_Main_Meowth_Cry1)>)
+@Sound.Play(Success_Small,1)
+@Text.Show(<system.token(Owsauri_Main_Meowth_Cry2)>)
+@Player.AddMoney(1)
 :end

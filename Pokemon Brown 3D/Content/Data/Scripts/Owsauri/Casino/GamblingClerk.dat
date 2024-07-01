@@ -2,7 +2,7 @@ version=2
 :if:<Register.Registered(GameCorner1F_GamblingClerk)>=false
 	@Text.Show(<system.token(Owsauri_Casino_1F_GamblingClerk_1)>)
 	:if:<inventory.countitem(54)>=1
-		@sound.play(success_small)
+		@Sound.Play(Success_Small,1)
 		@Text.Show(<system.token(Owsauri_Casino_1F_GamblingClerk_2)>)
 		@player.addcoins(20)
 		@Register.Register(GameCorner1F_GamblingClerk)

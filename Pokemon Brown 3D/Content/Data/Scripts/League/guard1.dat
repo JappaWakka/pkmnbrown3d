@@ -3,7 +3,7 @@ version=2
 
 :if:<Register.Registered(marinebadge_obtain)>=True
 	:if:<Register.Registered(guard1)>=False
-		@Sound.Play(Success_Small)
+		@Sound.Play(Success_Small,1)
 		@Register.Register(guard1)
 	:endif
 	@Text.Show(<system.token(Route65_Guard1_HaveBadge)>)

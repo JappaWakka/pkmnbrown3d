@@ -7,7 +7,7 @@ version=2
 	
 	:if:<Register.Registered(fistbadge_obtain)>=True
 		:if:<Register.Registered(guard5)>=False
-			@Sound.Play(Success_Small)
+			@Sound.Play(Success_Small,1)
 			@Register.Register(guard5)
 		:endif
 		@Text.Show(<system.token(Route65_Guard5_HaveBadge)>)

@@ -7,7 +7,7 @@ version=2
 	
 	:if:<Register.Registered(psibadge_obtain)>=True
 		:if:<Register.Registered(guard6)>=False
-			@Sound.Play(Success_Small)
+			@Sound.Play(Success_Small,1)
 			@Register.Register(guard6)
 		:endif
 		@Text.Show(<system.token(Route65_Guard6_HaveBadge)>)

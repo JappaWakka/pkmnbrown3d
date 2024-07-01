@@ -7,7 +7,7 @@ version=2
 	
 	:if:<Register.Registered(starbadge_obtain)>=True
 		:if:<Register.Registered(guard8)>=False
-			@Sound.Play(Success_Small)
+			@Sound.Play(Success_Small,1)
 			@Register.Register(guard8)
 		:endif
 		@Text.Show(<system.token(Route65_Guard8_HaveBadge)>)

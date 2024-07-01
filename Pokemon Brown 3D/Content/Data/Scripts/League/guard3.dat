@@ -4,7 +4,7 @@ version=2
 
 :if:<Register.Registered(sparkybadge_obtain)>=True
 	:if:<Register.Registered(guard3)>=False
-		@Sound.Play(Success_Small)
+		@Sound.Play(Success_Small,1)
 		@Register.Register(guard3)
 	:endif
 	@Text.Show(<system.token(Route65_Guard3_HaveBadge)>)

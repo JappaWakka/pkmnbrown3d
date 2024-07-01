@@ -8,7 +8,7 @@ version=2
 			:endif
 		:endif
 		@Text.Show(<system.token(Owsauri_Casino_1F_SlotMachine_Rigged_Reward1)>)
-		@Sound.Play(Success_Small)
+		@Sound.Play(Success_Small,1)
 		@Text.Show(<system.token(Owsauri_Casino_1F_SlotMachine_Rigged_Reward2)>)
 		@Register.RegisterTime(Owsauri_DailyCoins,1,day)
 		@player.addcoins(<Storage.Get(int,FreeCoinAmount)>)

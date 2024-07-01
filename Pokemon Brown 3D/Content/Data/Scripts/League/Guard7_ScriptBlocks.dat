@@ -7,7 +7,7 @@ version=2
 	
 	:if:<Register.Registered(whitebadge_obtain)>=True
 		:if:<Register.Registered(guard7)>=False
-			@Sound.Play(Success_Small)
+			@Sound.Play(Success_Small,1)
 			@Register.Register(guard7)
 		:endif
 		@Text.Show(<system.token(Route65_Guard7_HaveBadge)>)

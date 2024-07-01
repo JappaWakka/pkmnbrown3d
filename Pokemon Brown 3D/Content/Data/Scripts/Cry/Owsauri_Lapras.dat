@@ -1,0 +1,8 @@
+version=2
+
+@pokemon.cry(131)
+@Text.Show(<system.token(Owsauri_Main_Lapras_Cry1)>)
+@Sound.Play(PokeFlute,1)
+@Text.Show(<system.token(Owsauri_Main_Lapras_Cry2)>)
+
+:end
