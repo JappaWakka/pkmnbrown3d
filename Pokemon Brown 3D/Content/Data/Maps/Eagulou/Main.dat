@@ -61,7 +61,9 @@ Mountains:
 			
 		South
 			{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,1,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[17,1,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[17,1,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20,1,8]}}{"TexturePath"{str[Cities\Eagulou]}}{"Textures"{recArr[[0,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[21,1,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,1,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,1,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,1,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -196,9 +198,6 @@ Jump Ledges:
 	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[1,1]}}{"EntityID"{str[Step]}}{"Position"{sngArr[15,0,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[7]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Signs:
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[19,0,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[GymSigns\Eagulou]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[19,0,10]}}]}}
-	
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[20,0,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Eagulou_Main_Sign_City)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[20,0,12]}}]}}
 	
