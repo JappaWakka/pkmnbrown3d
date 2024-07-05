@@ -345,7 +345,7 @@ Signs:
 
 Warps:
 	Hayward City Gate
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route52-Hayward.dat,4,0.1,7,4]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[8,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route52-Hayward.dat,4,0.1,7,4,,1]}}{"Rotation"{int[0]}}]}}
 
 	Seashore City
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[6,-0.25,66]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\Main.dat,14,0,-2,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
@@ -354,10 +354,10 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[9,-0.25,66]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\Main.dat,17,0,-2,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 		
 	Magmar Trade House
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[15,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\MagmarTradeHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[15,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\MagmarTradeHouse.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
 	
 	Dock Underpass Entrance
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\DockUnderpass_Entrance.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\DockUnderpass_Entrance.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
 	
 	30 Years Cave
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,57]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16][96,32,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Caves\30Years\Main.dat,1,0.1,1,2]}}{"Rotation"{int[0]}}]}}

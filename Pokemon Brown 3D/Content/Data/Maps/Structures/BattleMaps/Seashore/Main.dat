@@ -463,11 +463,11 @@ Gym:
 		
 Warps:
 	Gym
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Seashore.dat,30,0.1,11,2]}}{"Rotation"{int[0]}}{"Position"{sngArr[30,0,11]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Seashore.dat,30,0.1,11,2,,1]}}{"Rotation"{int[0]}}{"Position"{sngArr[30,0,11]}}]}}
 	Player's House
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\PlayerHouse_1F.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\PlayerHouse_1F.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
 	Rival's House
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[23,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\RivalHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[23,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Seashore\RivalHouse.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
 	Route 53
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[18,0,37]}}{"TexturePath"{str[Village]}}{"Textures"{recArr[[128,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\53\Main.dat,10,0.1,-1,0]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[19,0,37]}}{"TexturePath"{str[Village]}}{"Textures"{recArr[[128,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\53\Main.dat,11,0.1,-1,0]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}

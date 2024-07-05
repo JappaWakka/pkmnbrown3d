@@ -376,17 +376,17 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[14,0,-2]}}{"SeasonTexture"{str[Grass]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\55\Main.dat,15,0.1,73,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	Gym
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Merson.dat,4,0.1,14,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[2,0,3]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Merson.dat,4,0.1,14,0,,1]}}{"Rotation"{int[0]}}{"Position"{sngArr[2,0,3]}}]}}
 	
 	PokeCenter
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\PokeCenter.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[15,0,31]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\PokeCenter.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}{"Position"{sngArr[15,0,31]}}]}}
 	
 	Cubone House
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\CuboneHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[5,0,23]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\CuboneHouse.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}{"Position"{sngArr[5,0,23]}}]}}
 	
 	Fan Club
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\FanClub.dat,2,0.1,7,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[11,0,27]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\FanClub.dat,2,0.1,7,0,,1]}}{"Rotation"{int[0]}}{"Position"{sngArr[11,0,27]}}]}}
 	
 	PokeMart
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\PokeMart.dat,4,0.1,7,0]}}{"Rotation"{int[0]}}{"Position"{sngArr[15,0,11]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Merson\PokeMart.dat,4,0.1,7,0,,1]}}{"Rotation"{int[0]}}{"Position"{sngArr[15,0,11]}}]}}
 	

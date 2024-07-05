@@ -395,7 +395,7 @@ Buildings:
 				
 Warps:
 	Old Route 47 - Ilex Forest Gate
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[23,0,38]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route34-Route47-IlexForest.dat,14,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[23,0,38]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gates\Route34-Route47-IlexForest.dat,14,0.1,-1,0,,1]}}{"Rotation"{int[2]}}]}}
 		
 Items:
 	Magmarizer

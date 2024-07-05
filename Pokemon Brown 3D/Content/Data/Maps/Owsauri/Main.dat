@@ -432,28 +432,28 @@ NPCs:
 		
 Warps:
 	Gym
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[32,0,33]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Owsauri.dat,4,0.1,12,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[32,0,33]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gyms\Owsauri.dat,4,0.1,12,0,,1]}}{"Rotation"{int[0]}}]}}
 	
 	PokeCenter
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[33,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\PokeCenter.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[33,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\PokeCenter.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
 	
 	PokeMart
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[17,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\PokeMart.dat,4,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[17,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\PokeMart.dat,4,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
 	
 	Daycare Front
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Daycare.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[12,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Daycare.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
 	
 	Daycare Back
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[13,0,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Daycare.dat,4,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[13,0,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Daycare.dat,4,0.1,-1,0,,1]}}{"Rotation"{int[2]}}]}}
 		
 	Game Corner
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Casino_1F.dat,1,0.1,13,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Casino_1F.dat,1,0.1,13,0,,1]}}{"Rotation"{int[0]}}]}}
 	
 	NameRater House
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\NameRater.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\NameRater.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
 	
 	Gambler's House:
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[9,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\GamblerHouse.dat,3,0.1,7,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[9,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\GamblerHouse.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
 
 	Route 49
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[-1,0,14]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\49\Main.dat,53,0.1,10,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
