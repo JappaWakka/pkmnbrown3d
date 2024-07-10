@@ -6,8 +6,8 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[34,32]}}{"Position"{intArr[-10,0,-6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[128,0,16,16]}}]}}
 	
 	Teleport
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[-1,0,9]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[32,112,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,9]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[32,112,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[-1,0,9]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,80,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,9]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,80,16,16]}}]}}
 
 Purified Zone:
 	Floors:

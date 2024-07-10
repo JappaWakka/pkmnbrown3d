@@ -336,7 +336,7 @@ Buildings:
 					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10.9375,3.5925,21]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 				
 	Dock Underpass Entrance (4x1y2z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[14,0,4]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Underpass_4x1y2z]}}{"Offset"{sngArr[14,0,4]}}]}}
 		
 	Slope Roof Building (2x1y2z)
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_2x1y2z]}}{"Offset"{sngArr[14,0,26]}}]}}

@@ -6,7 +6,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[18,28]}}{"Position"{intArr[-6,0,-6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[128,0,16,16]}}]}}
 	
 	Teleport
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[1,0,14]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[32,112,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[1,0,14]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,80,16,16]}}]}}
 
 Small Trees:
 	{"EntityField"{ENT[{"Size"{intArr[1,12]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

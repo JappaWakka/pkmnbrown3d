@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[Botan City]}}{"MusicLoop"{str[SeashoreJaeru]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[Botan City]}}{"MusicLoop"{str[SeashoreJaeruBotan]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[Botan\MrRumikoHouse_MapScript]}}]}}
 
 {"Structure"{STR[{"Map"{str[Structures\SmallBuilding_Interior]}}{"Offset"{sngArr[0,0,0]}}{"AddNPC"{bool[1]}}]}}
@@ -7,7 +7,7 @@ Doormat:
 	{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[3,0,6]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[32,0,16,16]}}]}}
 
 Door:
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\Main.dat,20,0.1,8,0]}}{"Rotation"{int[2]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\Main.dat,16,0.1,8,0]}}{"Rotation"{int[2]}}]}}
 
 Magazine:
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0.45,2]}}{"Scale"{sngArr[0.65,1,0.65]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[320,208,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"CameraDistanceDelta"{sng[-0.25]}}]}}

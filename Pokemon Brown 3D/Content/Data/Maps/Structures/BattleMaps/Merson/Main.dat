@@ -124,12 +124,12 @@ Signs:
 	
 	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[11,0,37]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[11,0,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Merson_Main_Sign_SouthRijonGate)>]}}{"Rotation"{int[0]}}]}}
+	
+																						
+																																																																																			  
 
-	{"Structure"{STR[{"Map"{str[Structures\PokeCenter_Sign]}}{"Offset"{sngArr[16,0,31]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[16,0,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Generic_Sign_PokeCenter)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-
-	{"Structure"{STR[{"Map"{str[Structures\PokeMart_Sign]}}{"Offset"{sngArr[16,0,11]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[16,0,11]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Generic_Sign_PokeMart)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+																					  
+																																																																																			
 
 Turning Signs:
 	PokeMart
@@ -338,7 +338,10 @@ Gym:
 				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,1.5925,3]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[32,20,16,3][16,16,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			Center
 				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,1.5925,0]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[32,20,16,3][16,16,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[2,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,1.5925,1]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[32,20,16,3][0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,1.5925,1]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[32,20,16,3][96,16,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,1.5925,1]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[32,20,16,3][96,48,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,1.5925,2]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[32,20,16,3][96,32,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,1.5925,2]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[32,20,16,3][96,64,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,1.5925,3]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[32,20,16,3][16,16,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			East
 				{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,1.5925,0]}}{"TexturePath"{str[Cities\Merson]}}{"Textures"{recArr[[32,20,16,3][16,16,16,16]]}}{"TextureIndex"{intArr[-1,-1,0,0,-1,-1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -348,10 +351,10 @@ Gym:
 		
 Buildings:
 	PokeMart (4x2y4z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_FlatRoof_4x2y4z_Entrance]}}{"Offset"{sngArr[14,0,8]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_PokeMart_Rijon_4x2y4z]}}{"Offset"{sngArr[14,0,8]}}]}}
 		
 	PokeCenter (4x2y4z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_FlatRoof_4x2y4z_Entrance]}}{"Offset"{sngArr[14,0,28]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_PokeCenter_Rijon_4x2y4z]}}{"Offset"{sngArr[14,0,28]}}]}}
 		
 	Slope Roof Buildings (4x1y2z)
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Merson_SlopeRoof_4x1y2z]}}{"Offset"{sngArr[6,0,6]}}]}}
