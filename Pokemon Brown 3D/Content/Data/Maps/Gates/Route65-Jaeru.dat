@@ -49,7 +49,7 @@ Statues:
 	{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"Steps"{sngArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,48,16,16][16,48,16,16][48,48,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Guard:
-	{"NPC"{NPC[{"Position"{sngArr[6,0,1]}}{"TextureID"{str[Officer]}}{"ID"{int[0]}}{"Name"{str[Guard]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\Guard1]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[6,0,1]}}{"TextureID"{str[Guard]}}{"ID"{int[0]}}{"Name"{str[Guard]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\Guard1]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\Guard1_ScriptBlocks]}}{"Rotation"{int[0]}}]}}
 	
 Signs:

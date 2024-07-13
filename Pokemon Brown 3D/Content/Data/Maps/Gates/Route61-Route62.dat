@@ -74,7 +74,7 @@ Chairs:
 	{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,-0.36,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[114,296,12,12][114,308,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[2,0.155,2]}}{"TextureID"{str[Officer]}}{"ID"{int[0]}}{"Name"{str[Guard]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route61_Route62_Gate_Guard)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0.155,2]}}{"TextureID"{str[Guard]}}{"ID"{int[0]}}{"Name"{str[Guard]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route61_Route62_Gate_Guard)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[3,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Route61_Route62_Gate_Guard)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	{"NPC"{NPC[{"Position"{sngArr[2,0,6]}}{"TextureID"{str[Gentleman_Brown]}}{"ID"{int[1]}}{"Name"{str[Gentleman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route61_Route62_Gate_Gentleman)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[1,6,3,2]]}}]}}

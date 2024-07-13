@@ -20,34 +20,13 @@ version=2
 			@Pokemon.Add(408,30,<system.token(Hayward_FossilLab_FossilPokemon_CatchMethod)>,5,<system.token(Hayward_FossilLab_FossilPokemon_CatchLocation)>)
 		:endif
 		
-		:if:<pokemon.count>=7
-			@Pokemon.Rename(6)
+		@Pokemon.Rename(<math.int(<pokemon.count>-1)>)
+		:if:<pokemon.count>>6
 			@Text.Show(<system.token(Hayward_FossilLab_FossilPokemon_ToPC)>)
-			@Pokemon.SendToStorage(6)
-			:end
-		:else
-			:select:<pokemon.count>
-				:when:1
-					@Pokemon.Rename(0)
-					:end
-				:when:2
-					@Pokemon.Rename(1)
-					:end
-				:when:3
-					@Pokemon.Rename(2)
-					:end
-				:when:4
-					@Pokemon.Rename(3)
-					:end
-				:when:5
-					@Pokemon.Rename(4)
-					:end
-				:when:6
-					@Pokemon.Rename(5)
-					:end
-			:endwhen
+			@Pokemon.SendToStorage(<math.int(<pokemon.count>-1)>)
 		:endif
-		
+		@Register.Unregister(EagulouSand_Found)
+		:end
 	:else
 		@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_NoSand)>)
 	:endif

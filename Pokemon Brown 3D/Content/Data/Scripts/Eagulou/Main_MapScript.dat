@@ -1,0 +1,9 @@
+version=2
+
+:if:<Register.Registered(FossilRevive_Helix)>=true <or> <Register.Registered(FossilRevive_Dome)>=true <or> <Register.Registered(FossilRevive_Skull)>=true
+	:if:<Register.Registered(EagulouSand_Found)>=false
+		@Text.Show(<system.token(Eagulou_Gym_GymGuy_BeforeBadge)>)
+		@Register.Register(EagulouSand_Found)
+	:endif
+:endif
+:end

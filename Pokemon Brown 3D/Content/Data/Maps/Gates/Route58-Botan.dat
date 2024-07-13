@@ -77,6 +77,16 @@ Signs:
 	{"Entity"{ENT[{"Scale"{sngArr[0.96875,0.4375,0.125]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[3.5,1.28,-0.4375]}}{"TexturePath"{str[GateSigns]}}{"Textures"{recArr[[0,42,31,14][32,0,4,14][0,0,31,14][64,0,31,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,2,2,3,3,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"Entity"{ENT[{"Scale"{sngArr[0.96875,0.4375,0.125]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[3.5,1.28,7.4375]}}{"TexturePath"{str[GateSigns]}}{"Textures"{recArr[[32,42,31,14][32,0,4,14][0,0,31,14][64,0,31,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,2,2,3,3,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 
+Chairs:
+	{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,-0.36,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[114,296,12,12][114,308,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,-0.36,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[114,296,12,12][114,308,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		
+NPC:
+	{"NPC"{NPC[{"Position"{sngArr[6,0.155,4]}}{"TextureID"{str[Guard]}}{"ID"{int[0]}}{"Name"{str[Guard]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+
+ScriptBlock:
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Route58_Botan_Gate_Guard)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+
 Doors:
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\Main.dat,21,0.1,41,0]}}{"Rotation"{int[0]}}]}}
 	
