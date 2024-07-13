@@ -1,6 +1,6 @@
 version=2
 :if:<Register.Registered(porygon)>=false
-	:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+	:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
 		@storage.set(int,PokeShiny,1)
 	:else
 		@storage.set(int,PokeShiny,0)

@@ -27,7 +27,7 @@ version=2
 	@npc.remove(10)
 :else
 	:if:<Register.Registered(Snorlax_OldRoute47_Shiny)>=False
-		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
 			@Register.Register(Snorlax_OldRoute47_Shiny,bool,true)
 			@Entity.SetModelPath(10,Models\SleepingSnorlax\Snorlax_Shiny)
 		:else

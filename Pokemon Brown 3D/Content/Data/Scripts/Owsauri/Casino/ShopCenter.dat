@@ -29,7 +29,7 @@ version=2
 	@Text.Show(<system.token(Owsauri_Casino_B1F_Shop_ChoosePokemon)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
 			@storage.set(int,PokeShiny,1)
 		:else
 			@storage.set(int,PokeShiny,0)

@@ -6,7 +6,7 @@ version=2
 :else
 	:if:<inventory.countitem(gm12)>>0
 		@Text.Show(<System.Token(Morage_PrismMuseum_SilverEgg_Found)>*<System.Token(Morage_PrismMuseum_Egg_Reward)>)
-		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
 			@storage.set(int,PokeShiny,1)
 		:else
 			@storage.set(int,PokeShiny,0)

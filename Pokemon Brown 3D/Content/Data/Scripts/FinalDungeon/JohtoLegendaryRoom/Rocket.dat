@@ -2,7 +2,7 @@ version=2
 
 :if:<Register.Registered(JohtoLegendaryRoom)>=False
 	@Text.Show(<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary)>)
-	:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+	:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
 		@storage.set(int,PokeShiny,1)
 	:else
 		@storage.set(int,PokeShiny,0)

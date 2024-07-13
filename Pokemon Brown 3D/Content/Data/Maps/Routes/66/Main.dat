@@ -169,6 +169,10 @@ Signs:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[11,0,9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<System.Token(Route66_Sign_Beach)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[11,0,9]}}]}}
 	
+Items:
+	Hidden Big Pearl
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[13,-0.375,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[0,111]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+	
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[8,0,7]}}{"TextureID"{str[Swimmer_Male_Land]}}{"ID"{int[4]}}{"Name"{str[Swimmer Ericsson]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\Route66\000]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

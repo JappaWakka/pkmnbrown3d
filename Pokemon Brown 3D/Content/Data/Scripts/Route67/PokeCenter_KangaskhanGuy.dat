@@ -5,7 +5,7 @@ version=2
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 		:if:<player.money>>59999
-			:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>/2)>)>=0
+			:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
 				@storage.set(int,PokeShiny,1)
 			:else
 				@storage.set(int,PokeShiny,0)
