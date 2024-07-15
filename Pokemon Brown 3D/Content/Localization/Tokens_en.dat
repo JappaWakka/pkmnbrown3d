@@ -118,7 +118,7 @@ fieldmove_strength_used,used~Strength!
 
 fieldmove_surf_type0,Do you want to Surf?
 fieldmove_surf_type1,The water looks still~and deep.~Do you want to Surf?
-fieldmove_surf_type2,This lake is~calm and shallow~Do you want to Surf?
+fieldmove_surf_type2,This lake is~calm and shallow.~Do you want to Surf?
 fieldmove_surf_used,used~Surf!
 
 fieldmove_dive_down_1,The water seems to be~really deep at this point.
@@ -215,9 +215,9 @@ option_screen_game_textspeed,Text Speed
 option_screen_game_textspeed_description,The speed the textbox shows up and~displays the text
 option_screen_game_difficulty,Difficulty
 option_screen_game_difficulty_description,Difficulty mode~Sets the level of difficulty.
-option_screen_game_difficulty_easy,Easy
+option_screen_game_difficulty_easy,Normal
 option_screen_game_difficulty_hard,Hard
-option_screen_game_difficulty_superhard,Super Hard
+option_screen_game_difficulty_superhard,Nuzlocke
 option_screen_game_viewbobbing,View Bobbing
 option_screen_game_viewbobbing_description,Turns camera shaking on or off.
 
@@ -423,21 +423,6 @@ VoltorbFlip_Tutorial_HowToPlay_Image3,But if you find Voltorb, you'll lose all y
 VoltorbFlip_Tutorial_Hint_Image,By looking at the numbers on the sides of the cards, you can see the hidden number and Voltorb totals.
 VoltorbFlip_Tutorial_AboutMemos_Image,Select "Open Memo" to open the Memo Window. Select the cards and press [<system.button(enter1)>] to add and [<system.button(back1)>] to remove marks.
 ----
-Receiving Items:
-item_received_single,Received the~
-item_received_multiple,Received
-item_found,<Player.Name> found~
-item_stored_in_pocket_single_start,<Player.Name> stored it in the~
-item_stored_in_pocket_single_end,pocket.
-item_stored_in_pocket_multiple_start,<Player.Name> stored them~in the
-item_stored_in_pocket_multiple_end,pocket.
-
-Berries:
-berry_picked_single_start,<Player.Name> picked the~
-berry_picked_single_end,Berry.
-berry_picked_multiple_start,<Player.Name> picked the~
-berry_picked_multiple_end,Berries.
-----
 PokedexScreen
 pokedex_seen,Seen:
 pokedex_obtained,Obtained:
@@ -472,6 +457,7 @@ pokedex_evolution_no_evolutions,doesn't evolve.
 Receiving Items:
 item_received_single,Received the~
 item_received_multiple,Received
+item_found,<player.name> found~
 item_stored_in_pocket_single_start,<Player.Name> stored it in the~
 item_stored_in_pocket_single_end,pocket.
 item_stored_in_pocket_multiple_start,<Player.Name> stored them~in the
@@ -516,7 +502,7 @@ Kanto,Kanto
 Sevii Islands,Sevii Islands
 ---
 Places:
-Places_,
+
 Places_???,???
 
 Towns and Cities:
@@ -599,6 +585,16 @@ Places_Route 66,Route 66
 Places_Route 67,Route 67
 
 ---
+Item categories:
+item_category_Standard,Standard
+item_category_Medicine,Medicine
+item_category_Machines,TM/HM
+item_category_Pokéballs,Poké Balls
+item_category_Plants,Plants
+item_category_KeyItems,Key Items
+item_category_BattleItems,Battle Items
+item_category_Mail,Mail
+---
 GameMessages:
 game_message_screenshot,Screenshot saved as 
 game_message_screenshot_failed,Cannot create screenshot
@@ -611,6 +607,7 @@ game_message_free_camera_off,Free camera mode off
 game_message_audio_on,Audio on
 game_message_audio_off,Audio off
 game_message_continue_autosave,Continued save state:
+game_message_debug_texture_list_clear,Texture list was cleared
 ---
 Pokemon:
 pokemon_name_Bulbasaur,Bulbasaur
@@ -1420,6 +1417,7 @@ pokemon_name_Stakataka,Stakataka
 pokemon_name_Blacephalon,Blacephalon
 pokemon_name_Zeraora,Zeraora
 pokemon_name_Meltan,Meltan
+pokemon_name_Melmetal,Melmetal
 pokemon_name_Grookey,Grookey
 pokemon_name_Thwackey,Thwackey
 pokemon_name_Rillaboom,Rillaboom
@@ -1521,16 +1519,6 @@ pokemon_name_Galarian Weezing,Galarian Weezing
 pokemon_name_MissingNo.,MissingNo.
 
 --------------
-Item categories:
-item_category_Standard,Standard
-item_category_Medicine,Medicine
-item_category_Machines,TM/HM
-item_category_Pokéballs,Poké Balls
-item_category_Plants,Plants
-item_category_KeyItems,Key Items
-item_category_BattleItems,Battle Items
-item_category_Mail,Mail
----
 Item names:
 [Official Items]
 Balls:
@@ -4404,7 +4392,7 @@ Castro_Main_Sign_Gym,Castro Valley~Pokémon Gym~Leader: Koji*Calm as a Breeze, O
 Castro_Main_Sign_CastroManor,Please restrain from entering,~as Castro Manor is now~abandoned and rampant with~wild Pokémon.*In hope of restoring the~former glory of this very~important piece of Castro's~history, a blueprint and~budget for restoration have~been approved.*Castro's Mayor
 
 Castro_PokeCenter_BenchGuy,It is true that a higher level~Pokémon will be more powerful...*But, all Pokémon will have~weak points against specific~types. So there is no~universally strong Pokémon.
-Castro_PokeCenter_Sailor,My Pokémon was poisoned! It~faited while we were walking!
+Castro_PokeCenter_Sailor,My Pokémon was poisoned!*It almost fainted while we~were walking!
 Castro_PokeCenter_Fisherman,Are you interested in fishing?~An old rod might not seem~much, but a friend of mine~caught a Gyarados once!*It scared the heck out of us,~that's why we only use a Good~Rod now. With it you can only~fish Marill, Goldeen, Poliwag~and Wooper, so it's safer!
 
 Castro_TradeHouse_ChanseyTrade_Question,Hi! Do you have a~Pidgey?*Want to trade it for Chansey?
@@ -4867,11 +4855,10 @@ SenecaCaverns_1F_ScientistDarian_OutroMessage,I just want to take a quick look..
 SenecaCaverns_1F_ScientistDarian_DefeatMessage,My colleagues at Hayward~revived my Pokémon! It seems~Team Rocket has emptied these~caves, I can't find any more~fossils...
 
 [Rijon League]
-League_Exterior_Sign,Rijon League
+League_Exterior_Sign,      Rijon League~El Norteno Summit*E pluribus unum.
 
 League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and the~current Champion in order to~receive that title.*Go for it.
 League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Yo! Champ!*So you defeated all Elite Four~members?*They have been training~nonstop to become the Champion~themselves, so if you plan to~challenge them again, you~better be prepared!*Also, have you visited the~Gym Leaders again?*Now that you've become the~Champion they'll battle you~with all their might!
-League_EntranceHall_CableClubLady,Welcome to the Cable Club.*This area is reserved for~2 friends who are linked~by cable.
 League_EntranceHall_EntranceLady,Do you think you're ready?*Good, go in!
 League_EntranceHall_EliteFourLoreGuy_Intro,Eight Badges?!*You've sure come a long way~kid.*Would you like to know more~about the Elite Four?
 League_EntranceHall_EliteFourLoreGuy_Question,Who do you want to know about?
