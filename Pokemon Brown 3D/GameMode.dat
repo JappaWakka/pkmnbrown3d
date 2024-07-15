@@ -9,11 +9,13 @@ PokemonDataPath|$Mode\Content\Pokemon\Data\
 ContentPath|$Mode\Content\
 LocalizationsPath|$Mode\Content\Localization\
 WaterSpeed|5
-GameRules|(MaxLevel|100)(OnlyCaptureFirst|0)(ForceRename|0)(DeathInsteadOfFaint|0)(CanUseHealItems|1)(Difficulty|0)(LockDifficulty|0)(GameOverAt0Pokemon|0)(CanGetAchievements|1)(ShowFollowPokemon|1)(OverworldPoison|1)(SavingDisabled|0)(SingleUseTM|1)(CanForgetHM|0)(CoinCaseCap|0)(GainExpAfterCatch|1)
+GameRules|(MaxLevel|100)(OnlyCaptureFirst|0)(ForceRename|0)(DeathInsteadOfFaint|0)(CanUseHealItems|1)(Difficulty|0)(LockDifficulty|0)(GameOverAt0Pokemon|0)(CanGetAchievements|1)(ShowFollowPokemon|1)(OverworldPoison|1)(SavingDisabled|0)(SingleUseTM|1)(CanForgetHM|0)(CoinCaseCap|0)(GainExpAfterCatch|1)(ShinyRate|4096)(LevelMultiplier|1.0)
+HardGameRules|(LevelMultiplier|1.15)
+SuperHardGameRules|(LevelMultiplier|1.0)(OnlyCaptureFirst|1)(ForceRename|1)(DeathInsteadOfFaint|1)(GameOverAt0Pokemon|1)
 StartMap|NewGame\Intro.dat
 StartPosition|9,0.1,5
 StartRotation|0
-StartScript|StartScript
+StartScript|DevScripts\StartScript
 StartLocationName|Seashore City
 StartDialogue|
 StartColor|130,60,10
