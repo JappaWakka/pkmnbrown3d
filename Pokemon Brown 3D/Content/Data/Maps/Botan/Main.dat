@@ -518,7 +518,7 @@ Warps:
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[20,0,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\PokeMart.dat,4,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
 	
 	Haunted Forest Entrance
-		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[23,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\Area0.dat,10,0.1,16,0]}}{"Rotation"{int[0]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[23,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\HauntedForest\Area1.dat,10,0.1,16,0]}}{"Rotation"{int[0]}}]}}
 	
 	Trade House
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[38,0,22]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Botan\TradeHouse.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}

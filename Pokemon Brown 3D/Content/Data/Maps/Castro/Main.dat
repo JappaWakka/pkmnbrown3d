@@ -599,7 +599,7 @@ Invisible Collisions:
 
 S.S. Anne:
 	Model
-		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,-0.75,38]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\SSAnne\SSAnne]}}{"Rotation"{int[1]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,-0.75,38]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\SSAnne\SSAnne]}}{"Rotation"{int[1]}}]}}
 	Collisions
 		{"EntityField"{ENT[{"Size"{intArr[1,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,0,34]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 

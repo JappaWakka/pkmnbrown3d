@@ -3,7 +3,7 @@
 Floors:
 	Grass
 		{"Floor"{ENT[{"Size"{intArr[26,20]}}{"Position"{intArr[1,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[128,0,16,16]}}]}}
-
+	
 Large Trees:
 	{"EntityField"{ENT[{"Size"{intArr[26,6]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[1.5,0.435,4.5]}}{"Steps"{sngArr[2,2,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,96,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[26,6]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[1.5,0.435,18.5]}}{"Steps"{sngArr[2,2,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,96,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

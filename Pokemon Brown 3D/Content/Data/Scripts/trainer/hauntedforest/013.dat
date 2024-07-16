@@ -2,7 +2,7 @@ version=2
 
 @OverworldPokemon.Hide
 @Battle.StartTrainer(hauntedforest\013)
-@Text.Show(<system.token(Botan_HauntedForest_Area6_RocketGruntKlay_DefeatMessage)>)
+@Text.Show(<system.token(Botan_HauntedForest_Area7_RocketGruntKlay_DefeatMessage)>)
 :if:<player.position(z)>=9
 	:if:<npc.position(0,x)>=1
 		@npc.turn(0,2)
@@ -35,5 +35,5 @@ version=2
 	@npc.move(0,1)
 :endif
 @npc.remove(0)
-@npc.register(Botan\HauntedForest\Area6.dat|0|remove)
+@npc.register(Botan\HauntedForest\Area7.dat|0|remove)
 :end

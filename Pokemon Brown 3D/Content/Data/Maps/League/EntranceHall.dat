@@ -74,7 +74,7 @@ TownMap:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[-1,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[townmap]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 Healing Machine:
-	{"Structure"{STR[{"Map"{str[Structures\HealingMachine]}}{"Offset"{sngArr[1,0,-0.3125]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\HealingMachine]}}{"Offset"{sngArr[1,0,-0.3125]}}{"AddNPC"{bool[1]}}]}}
 
 PC:
 	Monitor

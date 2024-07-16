@@ -1,10 +1,10 @@
 version=2
 
 :if:<Register.Registered(MrRumikoRescued)>=false
-	@Text.Show(<system.token(Botan_HauntedForest_Area6_MrRumiko)>)
+	@Text.Show(<system.token(Botan_HauntedForest_Area7_MrRumiko)>)
 	@screen.fadeout(15)
 	@npc.remove(3)
-	@npc.register(Botan\HauntedForest\Area6.dat|3|remove)
+	@npc.register(Botan\HauntedForest\Area7.dat|3|remove)
 	@Register.Register(MrRumikoRescued)
 	:if:<player.position(z)>=2
 		@player.warp(Botan\MrRumikoHouse.dat,4,0.1,1,0)

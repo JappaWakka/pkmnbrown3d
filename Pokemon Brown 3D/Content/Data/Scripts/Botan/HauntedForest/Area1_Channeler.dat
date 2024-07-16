@@ -1,6 +1,6 @@
 version=2
 
-@Text.Show(<system.token(Botan_HauntedForest_Area0_Channeler_Start)>)
+@Text.Show(<system.token(Botan_HauntedForest_Area1_Channeler_Start)>)
 @Screen.FadeOutColor(255,255,255)
 @Screen.FadeOut(15)
 @Camera.Update
@@ -9,5 +9,5 @@ version=2
 @level.wait(125)
 @Screen.FadeIn(15)
 @Screen.FadeOutColor
-@Text.Show(<system.token(Botan_HauntedForest_Area0_Channeler_End)>)
+@Text.Show(<system.token(Botan_HauntedForest_Area1_Channeler_End)>)
 :end

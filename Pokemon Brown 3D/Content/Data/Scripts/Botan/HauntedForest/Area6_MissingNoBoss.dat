@@ -1,0 +1,17 @@
+version=2
+
+:if:<inventory.countitem(gm6)>=false
+	@Text.Show(<system.token(Botan_HauntedForest_Area6_MissingNo_NoVirusScanner_StartBattle)>)
+	@battle.wild(1001,30)
+	@player.turnto(0)
+	@player.move(1)
+:else
+	@Text.Show(<system.token(Botan_HauntedForest_Area6_MissingNo_WithVirusScanner_StartBattle)>)
+	@battle.wild(115,30)
+	@pokemon.cry(115)
+	@Text.Show(<system.token(Botan_HauntedForest_Area6_MissingNo_WithVirusScanner_AfterBattle)>)
+	@player.warp(Botan\HauntedForest\Area6.dat)
+	@level.update
+	@Register.Register(VirusScan)
+:endif
+:end

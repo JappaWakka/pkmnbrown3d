@@ -4,15 +4,15 @@ version=2
 	@Camera.SetToPlayerFacing
 :endif
 :if:<Player.Facing>=0
-	@Player.Warp(Botan\HauntedForest\Area1.dat,-1,1.1,7,0)
+	@Player.Warp(Botan\HauntedForest\Area1.dat,18,0.1,7,1)
 :else
 	:if:<Player.Facing>=1
-		@Player.Warp(Botan\HauntedForest\Area1.dat,-1,1.1,7,0)
+		@Player.Warp(Botan\HauntedForest\Area1.dat,18,0.1,7,0)
 	:else
 		:if:<Player.Facing>=2
-			@Player.Warp(Botan\HauntedForest\Area1.dat,-1,1.1,7,0)
+			@Player.Warp(Botan\HauntedForest\Area1.dat,18,0.1,7,3)
 		:else
-			@Player.Warp(Botan\HauntedForest\Area1.dat,-1,1.1,7,0)
+			@Player.Warp(Botan\HauntedForest\Area1.dat,18,0.1,7,1)
 		:endif
 	:endif
 :endif

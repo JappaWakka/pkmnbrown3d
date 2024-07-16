@@ -5,7 +5,7 @@ version=2
 	@Camera.Update
 	@Pokemon.Heal
 	@Screen.FadeIn(8)
-	@Text.Show(<system.token(Botan_HauntedForest_Area4_HealPlatform)>)
+	@Text.Show(<system.token(Botan_HauntedForest_Area5_HealPlatform)>)
 	@Screen.FadeOutColor
 	@Register.Register(HealPlatform)
 	:end

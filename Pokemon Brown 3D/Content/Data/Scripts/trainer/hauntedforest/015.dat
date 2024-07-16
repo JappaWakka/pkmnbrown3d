@@ -2,7 +2,7 @@ version=2
 
 @OverworldPokemon.Hide
 @Battle.StartTrainer(hauntedforest\015)
-@Text.Show(<system.token(Botan_HauntedForest_Area6_RocketGruntIzzy_DefeatMessage)>)
+@Text.Show(<system.token(Botan_HauntedForest_Area7_RocketGruntIzzy_DefeatMessage)>)
 :if:<player.position(z)>=5
 	:if:<npc.position(2,x)>=1
 		@npc.turn(2,2)
@@ -35,5 +35,5 @@ version=2
 	@npc.move(2,1)
 :endif
 @npc.remove(2)
-@npc.register(Botan\HauntedForest\Area6.dat|2|remove)
+@npc.register(Botan\HauntedForest\Area7.dat|2|remove)
 :end

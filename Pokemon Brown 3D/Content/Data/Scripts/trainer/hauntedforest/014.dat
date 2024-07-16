@@ -2,7 +2,7 @@ version=2
 
 @OverworldPokemon.Hide
 @Battle.StartTrainer(hauntedforest\014)
-@Text.Show(<system.token(Botan_HauntedForest_Area6_RocketGruntRolf_DefeatMessage)>)
+@Text.Show(<system.token(Botan_HauntedForest_Area7_RocketGruntRolf_DefeatMessage)>)
 :if:<player.position(z)>=7
 	:if:<npc.position(1,x)>=4
 		@npc.turn(1,2)
@@ -31,5 +31,5 @@ version=2
 	@npc.move(1,7)
 :endif
 @npc.remove(1)
-@npc.register(Botan\HauntedForest\Area6.dat|1|remove)
+@npc.register(Botan\HauntedForest\Area7.dat|1|remove)
 :end

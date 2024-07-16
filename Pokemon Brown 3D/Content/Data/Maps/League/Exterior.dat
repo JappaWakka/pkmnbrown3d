@@ -301,3 +301,11 @@ Warps:
 OffsetMaps:
 	Route 65
 		{"OffsetMap"{MAP[{"Offset"{sngArr[0,21]}}{"Map"{str[Routes\65\Main.dat]}}]}}
+	Route 67
+		{"OffsetMap"{MAP[{"Offset"{sngArr[30,125]}}{"Map"{str[Routes\67\Main.dat]}}]}}
+	
+Backdrops:
+	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[30.5,-0.75,92.5]}}{"Size"{intArr[71,25]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[65.5,-0.75,117.5]}}{"Size"{intArr[36,1]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[75.5,-0.75,118.5]}}{"Size"{intArr[26,25]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[61.5,-0.75,138.5]}}{"Size"{intArr[40,33]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}

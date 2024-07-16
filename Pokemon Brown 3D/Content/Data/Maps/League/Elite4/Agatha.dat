@@ -1,184 +1,155 @@
 {"Level"{LEV[{"Name"{str[Rijon League]}}{"MusicLoop"{str[HauntedForest]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}{"MapScript"{str[League\Elite4_Jared_Agatha_MapScript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[5]}}{"Weather"{int[1]}}{"MapScript"{str[League\Elite4_Jared_Agatha_MapScript]}}]}}
 
 Floors:
 	Grass
-		{"Floor"{ENT[{"Size"{intArr[14,14]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[96,184,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[22,24]}}{"Position"{intArr[-4,0,-6]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[96,184,16,16]}}]}}
 	
-	Dirt
-		{"Floor"{ENT[{"Size"{intArr[4,14]}}{"Position"{intArr[5,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[4,2]}}{"Position"{intArr[9,0,2]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[3,0,10]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[1,0,11]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,11]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[11,0,11]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,200,16,16]}}]}}
-	
-	Dirt with Bones
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[3,0,2]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[48,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,3]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[48,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,10]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[48,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[2,0,12]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[48,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,12]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[48,200,16,16]}}]}}
-		
 	Darkness
-		{"Floor"{ENT[{"Size"{intArr[14,3]}}{"Position"{intArr[0,0,-3]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[5,6]}}{"Position"{intArr[0,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[5,6]}}{"Position"{intArr[9,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}]}}	
+		{"Floor"{ENT[{"Size"{intArr[2,6]}}{"Position"{intArr[6,0,-6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,6]}}{"Position"{intArr[6,0,12]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[208,0,16,16]}}]}}
+	
+	Platform
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,2]}}{"TexturePath"{str[HealPlatform]}}{"Texture"{rec[0,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,2]}}{"TexturePath"{str[HealPlatform]}}{"Texture"{rec[16,0,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,3]}}{"TexturePath"{str[HealPlatform]}}{"Texture"{rec[0,16,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,3]}}{"TexturePath"{str[HealPlatform]}}{"Texture"{rec[16,16,16,16]}}]}}
+	
+	Other Floors
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[32,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,0]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[3,0,1]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[80,184,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,1]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[32,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,1]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[16,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[5,0,1]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[96,464,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,1]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[112,464,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[9,0,1]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[80,184,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,2]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[80,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[5,0,2]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,2]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[80,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[5,0,3]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[32,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,3]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[32,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[6,0,4]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,4]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[48,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,5]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[80,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,5]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[16,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[6,0,6]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,6]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,7]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[80,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,7]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[16,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,7]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[5,0,8]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,8]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,200,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,8]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[0,448,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,8]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[80,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[9,0,8]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[48,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[4,0,9]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,9]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[32,200,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,9]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[48,200,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,9]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[32,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,10]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[80,432,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,10]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[48,432,16,16]}}]}}
 	
 	Doormats
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[6,0,-1]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[0,152,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[6,0,13]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[0,152,16,16]}}]}}
-			
-Ceiling:
-	{"EntityField"{ENT[{"Size"{intArr[14,14]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,3,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	
-Walls (Direction = Facing):
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[6,0,11]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[0,152,16,16]}}]}}
+
+Walls (Direction = Facing):	
 	North
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[0,0,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[1,0,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[8,0,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[9,0,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[0,1,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[1,1,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[8,1,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[9,1,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[0,2,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[1,2,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,2,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,152,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[8,2,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[9,2,14]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		
-	West
-		{"EntityField"{ENT[{"Size"{intArr[1,14]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[14,0,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,13]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[14,0,1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[1,14]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[14,1,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,13]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[14,1,1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[1,14]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[14,2,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,13]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[14,2,1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-		
-	East
-		{"EntityField"{ENT[{"Size"{intArr[1,13]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[-1,0,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,14]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[-1,0,1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[1,13]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[-1,1,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,14]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[-1,1,1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[1,13]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[-1,2,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,14]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[-1,2,1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-		
+		{"EntityField"{ENT[{"Size"{intArr[2,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,0,18]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+	
 	South
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[0,0,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[1,0,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[8,0,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[9,0,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[0,1,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[1,1,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[8,1,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[9,1,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[0,2,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[1,2,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,2,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,152,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[6,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[8,2,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[48,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"EntityID"{str[WallBlock]}}{"Steps"{sngArr[2,2]}}{"Position"{sngArr[9,2,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[64,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[2,2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,0,-7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-Hills:
-	Grass
-		{"Floor"{ENT[{"Size"{intArr[3,2]}}{"Position"{intArr[1,1,5]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[96,184,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[3,2]}}{"Position"{intArr[10,1,7]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[96,184,16,16]}}]}}
-	Dirt
-		{"Floor"{ENT[{"Size"{intArr[3,2]}}{"Position"{intArr[10,1,5]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		{"Floor"{ENT[{"Size"{intArr[3,2]}}{"Position"{intArr[1,1,7]}}{"TexturePath"{str[Cities\League]}}{"Texture"{rec[64,200,16,16]}}]}}
-		
-	Slopes
-		{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,0,9]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,0,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,0,5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0,5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,0,9]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,0,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,0,5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[1,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,0,5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-		
-	Counter-Clockwise Corners (Direction = Where the lowest points are)
-		NorthWest
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,0,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
-			
-		NorthEast
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,0,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,0,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		SouthWest
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,0,9]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,0,9]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
-			
-		SouthEast
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,0,9]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,0,9]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[112,184,16,16]]}}{"TextureIndex"{intArr[-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-
+	West
+		{"EntityField"{ENT[{"Size"{intArr[1,2,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,0,-6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,2,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,0,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+	
+	East
+		{"EntityField"{ENT[{"Size"{intArr[1,2,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,0,-6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,2,6]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,0,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[208,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+	
+Flowers:
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[2.7375,-0.25,0.75]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[56,160,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cities\League]}}{"AnimationData"{intArr2D[[56,160,8,8,1,3,5,0,0]]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[3.25,-0.25,0.75]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[56,160,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cities\League]}}{"AnimationData"{intArr2D[[56,160,8,8,1,3,5,0,0]]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[4.7375,-0.25,0.75]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[56,160,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cities\League]}}{"AnimationData"{intArr2D[[56,160,8,8,1,3,5,0,0]]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[8.25,-0.25,0.75]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[56,160,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cities\League]}}{"AnimationData"{intArr2D[[56,160,8,8,1,3,5,0,0]]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[8.7375,-0.25,0.75]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[56,160,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cities\League]}}{"AnimationData"{intArr2D[[56,160,8,8,1,3,5,0,0]]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[9.25,-0.25,0.75]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[56,160,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cities\League]}}{"AnimationData"{intArr2D[[56,160,8,8,1,3,5,0,0]]}}{"Rotation"{int[0]}}]}}
+	
 Large Trees:
-	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[1,0.5,0.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,184,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[12.5,0.5,12.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,184,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-
-	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[2,1.5,5.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,184,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[10,4]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[-3.5,0.25,-5.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[10,4]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[8.5,0.25,-5.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[2.5,0.25,-1.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[8.5,0.25,-1.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[6,20]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[-3.5,0.25,-1.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[6,20]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[12.5,0.25,-1.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[2.5,0.25,2.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[10.5,0.25,6.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[2.5,0.25,10.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[10.5,0.25,10.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[4,6]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[2.5,0.25,12.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[4,6]}}{"Steps"{sngArr[2,2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[8.5,0.25,12.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[96,432,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-Tall Trees:
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[10,0.5,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,184,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[0,0.5,13]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,184,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+Willow Trees:
+	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[4.5,0.5,-1.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,184,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[10.5,0.5,-1.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,184,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[10.5,0.5,2.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,184,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[2.5,0.5,6.5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,184,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[10,1.5,7]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,184,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[12,1.5,8]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,184,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+Small Trees:
+	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[2,0,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[3,0,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[3,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[8,0,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[11,0,0]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[2,0,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[11,0,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[2,0,8]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[11,0,8]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[4,0,11]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[8,0,11]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-Skulls:
-	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{{"Position"{sngArr[1,0,11]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBill]}}{{"Position"{sngArr[11,1,5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,200,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-Gravestones:
-	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,0.625,7]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[2,0.965,7]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+Round Gravestones:
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,-0.5,2]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,464,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\RoundedGravestone\RoundedGravestone]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.5,5]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,464,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\RoundedGravestone\RoundedGravestone]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,-0.5,7]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,464,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\RoundedGravestone\RoundedGravestone]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,-0.5,9]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[80,464,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\RoundedGravestone\RoundedGravestone]}}]}}
 	
-	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,-0.375,2]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,-0.035,2]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+Blocky Gravestones:
+	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.375,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.035,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.375,10]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.035,10]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,-0.375,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,-0.035,4]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[11,-0.375,11]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[11,-0.035,11]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.375,6]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.035,6]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-Torches:
-	{"NPC"{NPC[{"Position"{sngArr[5,1,10]}}{"TextureID"{str[Flame]}}{"AnimateIdle"{bool[1]}}{"ID"{int[0]}}{"Name"{str[Flame]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,0,10]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,96,16,16][16,96,16,16][32,96,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\League\FlameLight]}}{"Offset"{sngArr[5,0,10]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,-0.375,6]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,-0.035,6]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"NPC"{NPC[{"Position"{sngArr[8,1,3]}}{"TextureID"{str[Flame]}}{"AnimateIdle"{bool[1]}}{"ID"{int[0]}}{"Name"{str[Flame]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[8,0,3]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,96,16,16][16,96,16,16][32,96,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\League\FlameLight]}}{"Offset"{sngArr[8,0,3]}}]}}
-
+	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.375,8]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[3,-0.035,8]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,-0.375,8]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,-0.035,8]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,-0.375,10]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,-0.035,10]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.375,10]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[46,184,14,4][46,188,14,6][54,194,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.035,10]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[32,184,10,9][32,193,10,4][42,184,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
 Doors:
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"ID"{int[0]}}{"Position"{sngArr[6,0.5,-0.625]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][0,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,3,3,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"ID"{int[0]}}{"Position"{sngArr[7,0.5,-0.625]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][16,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[3,3,1,1,1,1,0,0,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"ID"{int[1]}}{"Position"{sngArr[5.375,-2.5,-1.01]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][16,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[3,3,1,1,1,1,0,0,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"ID"{int[1]}}{"Position"{sngArr[7.625,-2.5,-1.01]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][0,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,3,3,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"ID"{int[1]}}{"Position"{sngArr[5.375,-2.5,-0.01]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][16,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[3,3,1,1,1,1,0,0,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"ID"{int[1]}}{"Position"{sngArr[7.625,-2.5,-0.01]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][0,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,3,3,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 	
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"Position"{sngArr[6,0.5,13.625]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][0,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,3,3,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"Position"{sngArr[7,0.5,13.625]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][16,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[3,3,1,1,1,1,0,0,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"Position"{sngArr[6,0.5,11.625]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][0,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,3,3,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,0.25]}}{"Position"{sngArr[7,0.5,11.625]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,112,16,32][32,112,4,32][16,144,16,4][16,112,16,32]]}}{"TextureIndex"{intArr[3,3,1,1,1,1,0,0,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Invisible Obstacles:
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"ID"{int[0]}}{"Position"{sngArr[6,0,-1]}}{"TexturePath"{str[Cities\League]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
@@ -188,4 +159,4 @@ Warps:
 	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[7,0,-2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[League\Elite4\Blanch.dat,12,0.1,24,0]}}{"Rotation"{int[0]}}]}}
 	
 NPC:
-	{"NPC"{NPC[{"Position"{sngArr[7,0,4]}}{"TextureID"{str[Agatha]}}{"ID"{int[0]}}{"Name"{str[Elite 4 Agatha]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\Elite4_Trainer]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[7,0,2]}}{"TextureID"{str[Agatha]}}{"ID"{int[0]}}{"Name"{str[Elite 4 Agatha]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\Elite4_Trainer]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
