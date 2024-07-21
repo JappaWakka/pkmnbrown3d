@@ -1,5 +1,7 @@
 version=2
-
+:if:<Player.ThirdPerson>=false
+	@Camera.SetToPlayerFacing
+:endif
 :if:<Player.Facing>=0
 	@Player.Warp(map.dat,0,0.1,0,3)
 :else

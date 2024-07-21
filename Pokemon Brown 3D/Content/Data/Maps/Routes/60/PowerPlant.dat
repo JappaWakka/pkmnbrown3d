@@ -575,8 +575,8 @@ Items:
 	Max Ether
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[38,-0.375,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[4,64]}}{"Rotation"{int[0]}}]}}
 		
-	Hidden Ice Stone
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[0,-0.375,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[5,593]}}{"Rotation"{int[0]}}]}}
+	Hidden Thunder Stone
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[0,-0.375,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[5,23]}}{"Rotation"{int[0]}}]}}
 	
 	Hidden PP UP
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Scale"{sngArr[0.25,0.25,0.25]}}{"Position"{sngArr[20,0.125,35]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[6,62]}}{"Rotation"{int[0]}}]}}
