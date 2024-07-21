@@ -13,7 +13,7 @@ version=2
 @level.wait(10)
 @camera.fix
 @sound.play(Teleport)
-
+@Player.DoWalkAnimation(0)
 @Player.SetMovement(0,1,0)
 @Player.SetSpeed(3)
 @Player.Move(3)
@@ -67,6 +67,7 @@ version=2
 @Player.SetMovement(0,-1,0)
 @Player.SetSpeed(3)
 @Player.Move(3)
+@Player.DoWalkAnimation(1)
 
 @camera.defix
 @screen.fadeoutcolor

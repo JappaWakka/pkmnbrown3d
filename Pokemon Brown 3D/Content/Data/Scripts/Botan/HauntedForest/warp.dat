@@ -1,68 +1,191 @@
 version=2
 
-@sound.play(Teleport)
-@screen.fadeout(15)
+:if:<camera.thirdperson>=true
+	@storage.set(bool,SetToFirstPerson,false)
+:else
+	@storage.set(bool,SetToFirstPerson,true)
+:endif
+
+@camera.activatethirdperson
 :select:<level.filename>
 	:when:Area3
 		:select:<player.position>
-			:when:2,0,9
-				@player.warp(Botan\HauntedForest\Area2.dat,-1,1.1,8)
 			:when:17,0,9
-				@player.warp(Botan\HauntedForest\Area4.dat,18,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
 		:endwhen
 	:when:Area3_MissingNo
 		:select:<player.position>
 			:when:2,0,9
-				@player.warp(Botan\HauntedForest\Area2.dat,-1,1.1,8)
+				
 			:when:17,0,9
-				@player.warp(Botan\HauntedForest\Area4_MissingNo.dat,18,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
 		:endwhen
 	:when:Area4
 		:select:<player.position>
 			:when:18,0,9
-				@player.warp(Botan\HauntedForest\Area3.dat,17,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
 			:when:3,0,9
-				@player.warp(Botan\HauntedForest\Area5.dat,-1,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
 		:endwhen
 	:when:Area4_MissingNo
 		:select:<player.position>
 			:when:18,0,9
-				@player.warp(Botan\HauntedForest\Area3_MissingNo.dat,17,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
 			:when:3,0,9
-				@player.warp(Botan\HauntedForest\Area5_MissingNo.dat,-1,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
 		:endwhen
 	:when:Area5
 		:select:<player.position>
 			:when:-1,0,9
-				@player.warp(Botan\HauntedForest\Area4.dat,3,0.1,9)
+				@player.turnto(3)
+				@camera.setyaw(1.570796)
+				
 			:when:14,0,9
-				@player.warp(Botan\HauntedForest\Area6.dat,18,0.1,5)
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
 		:endwhen
 	:when:Area5_MissingNo
 		:select:<player.position>
 			:when:-1,0,9
-				@player.warp(Botan\HauntedForest\Area4_MissingNo.dat,3,0.1,9)
+				@player.turnto(3)
+				@camera.setyaw(1.570796)
+				
 			:when:14,0,9
-				@player.warp(Botan\HauntedForest\Area6_MissingNo.dat,18,0.1,5)
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
 		:endwhen
 	:when:Area6
 		:select:<player.position>
 			:when:18,0,5
-				@player.warp(Botan\HauntedForest\Area5.dat,14,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
 			:when:9,0,12
-				@player.warp(Botan\HauntedForest\Area7.dat,1,0.1,14)
+				@player.turnto(3)
+				@camera.setyaw(1.570796)
+				
 		:endwhen
 	:when:Area6_MissingNo
 		:select:<player.position>
 			:when:18,0,5
-				@player.warp(Botan\HauntedForest\Area5_MissingNo.dat,14,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
 			:when:9,0,12
 				@player.turnto(3)
 				@player.move(1)
+				:end
+				
+		:endwhen
+	:when:Area7
+		@player.turnto(3)
+		@camera.setyaw(1.570796)
+		
+:endwhen
+@camera.reset
+@camera.setpitch(-0.20)
+@level.wait(10)
+@camera.fix
+@sound.play(Teleport)
+
+@Player.DoWalkAnimation(0)
+@Player.SetMovement(0,1,0)
+@Player.SetSpeed(3)
+@Player.Move(3)
+
+@screen.fadeoutcolor(255,255,255)
+@screen.fadeout(15)
+@camera.update
+:select:<level.filename>
+	:when:Area3
+		@player.warp(Botan\HauntedForest\Area4.dat,18,0.1,9)
+	:when:Area3_MissingNo
+		@player.warp(Botan\HauntedForest\Area4_MissingNo.dat,18,0.1,9)
+	:when:Area4
+		:select:<player.position>
+			:when:18,3,9
+				@player.warp(Botan\HauntedForest\Area3.dat,17,0.1,9)
+			:when:3,3,9
+				@player.warp(Botan\HauntedForest\Area5.dat,-1,0.1,9)
+				@player.turnto(3)
+				@camera.setyaw(1.570796)
+		:endwhen
+	:when:Area4_MissingNo
+		:select:<player.position>
+			:when:18,3,9
+				@player.warp(Botan\HauntedForest\Area3_MissingNo.dat,17,0.1,9)
+			:when:3,3,9
+				@player.warp(Botan\HauntedForest\Area5_MissingNo.dat,-1,0.1,9)
+				@player.turnto(3)
+				@camera.setyaw(1.570796)
+		:endwhen
+	:when:Area5
+		:select:<player.position>
+			:when:-1,3,9
+				@player.warp(Botan\HauntedForest\Area4.dat,3,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+			:when:14,3,9
+				@player.warp(Botan\HauntedForest\Area6.dat,18,0.1,5)
+		:endwhen
+	:when:Area5_MissingNo
+		:select:<player.position>
+			:when:-1,3,9
+				@player.warp(Botan\HauntedForest\Area4_MissingNo.dat,3,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+			:when:14,3,9
+				@player.warp(Botan\HauntedForest\Area6_MissingNo.dat,18,0.1,5)
+		:endwhen
+	:when:Area6
+		:select:<player.position>
+			:when:18,3,5
+				@player.warp(Botan\HauntedForest\Area5.dat,14,0.1,9)
+				@player.turnto(2)
+				@camera.setyaw(0)
+			:when:9,3,12
+				@player.warp(Botan\HauntedForest\Area7.dat,1,0.1,14)
+		:endwhen
+	:when:Area6_MissingNo
+		:select:<player.position>
+			:when:18,3,5
+				@player.warp(Botan\HauntedForest\Area5_MissingNo.dat,14,0.1,9)
 		:endwhen
 	:when:Area7
 		@player.warp(Botan\HauntedForest\Area6.dat,9,0.1,12)
 :endwhen
+
+@level.update
+@camera.defix
+@camera.update
+@camera.fix
+@player.warp(~,2.9,~)
 @level.update
 @screen.fadein(15)
+@camera.update
+
+@Player.SetMovement(0,-1,0)
+@Player.SetSpeed(3)
+@Player.Move(3)
+@Player.DoWalkAnimation(1)
+
+@camera.defix
+@screen.fadeoutcolor
+:if:<storage.get(bool,SetToFirstPerson)>=true
+	@Camera.DeactivateThirdPerson
+:endif
 :end
