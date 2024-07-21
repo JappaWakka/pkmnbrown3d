@@ -34,6 +34,30 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,4]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[16,128,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,4]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[32,144,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[6,0,5]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,128,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,6]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[48,128,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[15,0,6]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[16,128,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[16,0,6]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[80,144,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[17,0,6]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[16,128,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,7]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,128,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[16,0,7]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,112,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,8]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[32,112,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[15,0,8]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[80,144,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,9]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,112,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[15,0,9]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[16,112,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[12,0,10]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[80,144,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[13,0,10]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[16,128,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,10]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[80,144,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[15,0,10]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[32,160,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[12,0,11]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,112,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,11]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[32,160,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[15,0,11]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[16,144,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[10,0,12]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,128,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[11,0,12]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[80,144,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[12,0,12]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[48,144,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[14,0,12]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[32,144,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[11,0,13]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[16,144,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[12,0,13]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[48,112,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[13,0,13]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,144,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[10,0,14]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[0,128,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[11,0,14]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[32,128,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[11,0,15]}}{"TexturePath"{str[Cities\Botan]}}{"Texture"{rec[48,144,16,16]}}]}}
@@ -63,9 +87,11 @@ Large Trees:
 	{"EntityField"{ENT[{"Size"{intArr[10,4]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[14.5,0.25,16.5]}}{"Steps"{sngArr[2,2,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,96,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[4,16]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[-3.5,0.25,0.5]}}{"Steps"{sngArr[2,2,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,96,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-Willow Trees:
-	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[10.5,0.5,6.5]}}{"Steps"{sngArr[2,2,2]}}{"TexturePath"{str[Cities\Botan]}}{"Textures"{recArr[[64,96,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	
+Willow Tree:
+	{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[WallBill]}}{"Scale"{sngArr[2,2,2]}}{"Position"{sngArr[10.5,0.375,6.5]}}{"Steps"{sngArr[2,2,2]}}{"TexturePath"{str[Cities\Botan]}}{"Textures"{recArr[[64,96,32,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	ScriptBlock
+		{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[10,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Botan\HauntedForest\Area1_WillowTree]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		
 Small Trees:
 	{"EntityField"{ENT[{"Size"{intArr[1,6]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[2,0,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[17,0,4]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -94,12 +120,18 @@ Gate:
 Blocky Gravestones:
 	{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.25,0.375]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,-0.375,7]}}{"TexturePath"{str[Cities\Botan]}}{"Textures"{recArr[[46,80,14,4][46,84,14,6][60,84,6,6]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,-0.035,7]}}{"TexturePath"{str[Cities\Botan]}}{"Textures"{recArr[[32,80,10,9][32,90,10,4][42,80,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	
+	ScriptBlocks
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Botan_HauntedForest_Gravestone_Blocky)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		
 Rounded Gravestones:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.5,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\RoundedGravestone\RoundedGravestone]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[9,-0.5,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\RoundedGravestone\RoundedGravestone]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,-0.5,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\RoundedGravestone\RoundedGravestone]}}]}}
 	
+	ScriptBlocks
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Botan_HauntedForest_Gravestone_Rounded)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Botan_HauntedForest_Gravestone_Rounded)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		
 Haunted Forest Exit (4x2y4z):
 	{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Botan_FlatRoof_4x2y6z_ForestGate_Dark]}}{"Offset"{sngArr[8,0,16]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[10,0,19]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
