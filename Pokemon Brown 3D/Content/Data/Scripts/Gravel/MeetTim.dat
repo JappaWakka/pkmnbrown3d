@@ -36,9 +36,11 @@ version=2
 		@player.move(1)
 		@npc.turn(3,2)
 		@player.turnto(1)
+		@npc.moveasync(3,7)
+	:else
+		@npc.moveasync(3,8)
 	:endif
 	
-	@npc.moveasync(3,8)
 	@player.move(1)
 	@player.turnto(2)
 	@player.move(7)

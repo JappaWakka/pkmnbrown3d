@@ -69,8 +69,8 @@ PokéBalls:
 	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[8,0.3075,2]}}{"TextureID"{str[PokeBall]}}{"ID"{int[3]}}{"Name"{str[Bulbasaur]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\ChoosePokemon_Bulbasaur]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
 
 Pokédexes:
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"ID"{int[8]}}{"Position"{sngArr[2,0.135,0]}}{"Scale"{sngArr[0.65,0.65,0.65]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"RotationXYZ"{sngArr[-0.9,0,0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"ID"{int[9]}}{"Position"{sngArr[3,0.135,0]}}{"Scale"{sngArr[0.65,0.65,0.65]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"RotationXYZ"{sngArr[-0.9,0,0]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"ID"{int[8]}}{"Position"{sngArr[2,0.275,0]}}{"Scale"{sngArr[0.65,0.65,0.65]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"CameraDistanceDelta"{sng[-0.25]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"ID"{int[9]}}{"Position"{sngArr[3,0.275,0]}}{"Scale"{sngArr[0.65,0.65,0.65]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"CameraDistanceDelta"{sng[-0.25]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"ID"{int[10]}}{"Position"{sngArr[2,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Gravel_TimsLab_Pokedex)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 PC:
