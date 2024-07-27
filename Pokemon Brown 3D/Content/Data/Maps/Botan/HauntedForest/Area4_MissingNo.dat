@@ -122,7 +122,7 @@ Statue:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,0,2.5]}}{"TexturePath"{str[Cities\Botan]}}{"Textures"{recArr[[0,96,16,16][16,96,16,16][48,96,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Rounded Gravestones:
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,-0.5,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\RoundedGravestone\RoundedGravestone]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,-0.5,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\Gravestones\RoundedGravestone]}}]}}
 	
 	ScriptBlocks
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[13,0,3]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Botan_HauntedForest_Gravestone_Rounded)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}

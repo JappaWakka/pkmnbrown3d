@@ -107,7 +107,7 @@ version=2
 @Player.SetSpeed(3)
 @Player.Move(3)
 
-@screen.fadeoutcolor(255,255,255)
+@screen.fadeoutcolor
 @screen.fadeout(15)
 @camera.update
 :select:<level.filename>

@@ -66,5 +66,5 @@ Blocky Gravestones:
 	{"EntityField"{ENT[{"Scale"{sngArr[0.625,0.5625,0.25]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[20,-0.035,15]}}{"TexturePath"{str[Cities\Botan]}}{"Textures"{recArr[[32,80,10,9][32,90,10,4][42,80,4,9]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Rounded Gravestones:
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,-0.5,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\RoundedGravestone\RoundedGravestone]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,-0.5,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"ModelPath"{str[models\Gravestones\RoundedGravestone]}}]}}
 	
