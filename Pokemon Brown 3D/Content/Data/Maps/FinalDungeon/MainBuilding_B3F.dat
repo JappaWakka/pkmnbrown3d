@@ -214,6 +214,5 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[18,0,6]}}{"TextureID"{str[Sailor]}}{"ID"{int[4]}}{"Name"{str[Cleaning Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(FinalDungeon_MainBuildingB3F_CleaningGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Counterfeit Master Balls:
-	{"EntityField"{ENT[{"Size"{intArr[4,1]}}{"Scale"{sngArr[0.75,0.75,0.75]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,-0.125,0]}}{"TexturePath"{str[NPC\MasterBall]}}{"Textures"{recArr[[0,0,24,24]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.75,0.75,0.75]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[4,-0.125,0]}}{"TexturePath"{str[NPC\PokeBall]}}{"Textures"{recArr[[0,0,24,24]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[5,1]}}{"Scale"{sngArr[0.75,0.75,0.75]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,-0.125,0]}}{"TexturePath"{str[NPC\MasterBall]}}{"Textures"{recArr[[0,0,24,24]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	

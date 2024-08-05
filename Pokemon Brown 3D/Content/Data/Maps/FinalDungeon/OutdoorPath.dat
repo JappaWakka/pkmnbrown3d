@@ -127,7 +127,7 @@ Water:
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[1,-0.25,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 		
 Underground Path Entrance:
-	{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_FinalDungeon_SlopeRoof_4x1y2z_EntranceNoBackWindow]}}{"Offset"{sngArr[8,0,34]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Underpass_4x1y2z]}}{"Offset"{sngArr[8,0,34]}}]}}
 	
 Main Building 1F Entrance:
 	Floors
