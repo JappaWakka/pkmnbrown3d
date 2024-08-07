@@ -11,4 +11,4 @@ Counter ScriptBlock:
 	
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[3,0,3]}}{"TextureID"{str[PokeFan_Male_Red]}}{"ID"{int[0]}}{"Name"{str[Potions Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Merson_PokeMart_PotionsGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[7,0,0]}}{"TextureID"{str[Hiker]}}{"ID"{int[0]}}{"Name"{str[Food Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Merson_PokeMart_NuggetGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[7,0,0]}}{"TextureID"{str[Hiker]}}{"ID"{int[0]}}{"Name"{str[Food Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Merson_PokeMart_FoodGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

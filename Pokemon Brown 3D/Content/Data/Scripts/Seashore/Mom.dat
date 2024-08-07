@@ -23,7 +23,7 @@ version=2
 	:endif
 	@Screen.FadeOut
 	@Pokemon.Heal
-	@Sound.Play(Heal_Party)
+	@Sound.Play(Heal_Party,1)
 	@Level.Wait(50)
 	@Screen.Fadein
 	@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_AfterRest)>)
