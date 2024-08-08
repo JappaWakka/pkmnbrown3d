@@ -5,11 +5,15 @@ version=2
 	@screen.fadeout(15)
 	:if:<pokemon.count>>0
 		@pokemon.heal
+		@sound.play(Heal_Party,1)
 	:endif
-	@sound.play(Heal_Party,1)
 	@level.wait(125)
 	@screen.fadein(15)
-	@Text.Show(<system.token(Generic_Bed_Refreshed)>)
+	:if:<pokemon.count>>0
+		@Text.Show(<system.token(Generic_Bed_Refreshed_Pokemon)>)
+	:else
+		@Text.Show(<system.token(Generic_Bed_Refreshed_NoPokemon)>)		
+	:endif
 	:end
 :when:<system.token(global_no)>
 	:end
