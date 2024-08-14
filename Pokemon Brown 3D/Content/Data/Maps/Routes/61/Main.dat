@@ -311,7 +311,7 @@ Signs:
 	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[17,0,34]}}]}}
 		
 Snorlax:
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"ID"{int[10]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,-0.5,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"Visible"{bool[1]}}{"ModelPath"{str[Models\SleepingSnorlax\Snorlax_Normal]}}{"AdditionalValue"{str[Route61\snorlax]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"ID"{int[10]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[16,-0.5,37]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"Visible"{bool[1]}}{"ModelPath"{str[<register.value(Snorlax_Route61_ModelPath)>]}}{"AdditionalValue"{str[Route61\snorlax]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[15,0,27]}}{"TextureID"{str[Fisherman]}}{"ID"{int[0]}}{"Name"{str[Fisherman Hildegard]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\route61\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

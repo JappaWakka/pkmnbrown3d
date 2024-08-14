@@ -72,5 +72,7 @@
 @Register.Register(pokegear_remove_phone)
 @Screen.FadeOutColor
 @system.endnewgame(Seashore\PlayerHouse_2F.dat,6,0.1,5,3)
+@Register.Register(Snorlax_OldRoute47_ModelPath,str,Models\SleepingSnorlax\Snorlax_Normal)
+@Register.Register(Snorlax_Route61_ModelPath,str,Models\SleepingSnorlax\Snorlax_Normal)
 
 :end

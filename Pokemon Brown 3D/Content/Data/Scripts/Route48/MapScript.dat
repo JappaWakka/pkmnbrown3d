@@ -21,4 +21,15 @@ version=2
 	@Player.Move(1)
 :endif
 
+:if:<Level.LoadOffsetMaps>=true
+	:if:<Register.Registered(Snorlax_OldRoute47_Shiny)>=False
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
+			@Register.Change(Snorlax_OldRoute47_ModelPath,Models\SleepingSnorlax\Snorlax_Shiny)
+			@Register.Register(Snorlax_OldRoute47_Shiny,bool,true)
+			@Level.Reload
+		:else
+			@Register.Register(Snorlax_OldRoute47_Shiny,bool,false)
+		:endif
+	:endif
+:endif
 :end

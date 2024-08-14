@@ -17,6 +17,7 @@ version=2
 	:endif
 	@entity.remove(10)
 	@Register.Register(Snorlax_OldRoute47)
+	@NPC.register(Routes\47\Main.dat|10|remove)
 :else
 	@Text.Show(<system.token(Route47_Main_Snorlax_NoPokeFlute)>)
 :endif
