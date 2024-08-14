@@ -3,7 +3,7 @@ version=2
 :if:<Register.Registered(Snorlax_Route61_Shiny)>=False
 	:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
 		@Register.Register(Snorlax_Route61_Shiny,bool,true)
-		@Register.Register(Snorlax_Route61_ModelPath,str,Models\SleepingSnorlax\Snorlax_Shiny)
+		@Register.Change(Snorlax_Route61_ModelPath,str,Models\SleepingSnorlax\Snorlax_Shiny)
 		@Level.Reload
 	:else
 		@Register.Register(Snorlax_Route61_Shiny,bool,false)
