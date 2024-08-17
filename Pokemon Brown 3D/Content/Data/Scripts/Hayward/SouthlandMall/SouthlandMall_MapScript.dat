@@ -2,15 +2,15 @@ version=2
 @camera.update
 @storage.set(integer,ElevatorLevel,1)
 :select:<level.filename>
-	:when:floor1
+	:when:Floor1
 		@storage.set(integer,ElevatorLevel,1)
-	:when:floor2
+	:when:Floor2
 		@storage.set(integer,ElevatorLevel,2)
-	:when:floor3
+	:when:Floor3
 		@storage.set(integer,ElevatorLevel,3)
-	:when:floor4
+	:when:Floor4
 		@storage.set(integer,ElevatorLevel,4)
-	:when:floor5
+	:when:Floor5
 		@storage.set(integer,ElevatorLevel,5)
 :endwhen
 

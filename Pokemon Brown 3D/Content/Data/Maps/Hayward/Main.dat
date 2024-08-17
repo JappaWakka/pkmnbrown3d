@@ -547,7 +547,7 @@ Buildings:
 					{"EntityField"{ENT[{"Scale"{sngArr[0.875,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[34.9375,1.5925,23]}}{"TexturePath"{str[Cities\Hayward]}}{"Textures"{recArr[[18,16,14,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 					
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[9,0,27]}}{"TextureID"{str[Lass_Blue]}}{"ID"{int[0]}}{"Name"{str[Lass]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_Main_FossilLass)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[5,27,11,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[9,0,27]}}{"TextureID"{str[Lass_Blue]}}{"ID"{int[0]}}{"Name"{str[Lass]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_Main_Lass)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[5,27,11,1]]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[28,0,26]}}{"TextureID"{str[[POKEMON|N]80]}}{"ID"{int[1]}}{"Name"{str[Slowbro]}}{"Action"{int[1]}}{"AdditionalValue"{str[Hayward\Slowbro]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[15,0,19]}}{"TextureID"{str[SuperNerd]}}{"ID"{int[2]}}{"Name"{str[Super Nerd]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_Main_SuperNerd)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[15,16,1,5]]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[10,0,21]}}{"TextureID"{str[Hiker]}}{"ID"{int[3]}}{"Name"{str[Hiker]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Hayward_Main_Hiker)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[6,21,9,1]]}}]}}
