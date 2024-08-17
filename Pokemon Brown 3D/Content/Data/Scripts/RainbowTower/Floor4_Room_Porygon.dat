@@ -17,6 +17,6 @@ version=2
 		@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 	:endif
 	@Register.Register(porygon)
-	@NPC.Register(Routes\55\RainbowTower\Floor4_Room.dat,1,remove)
+	@NPC.Register(Routes\55\RainbowTower\Floor4_Room.dat|1|remove)
 :endif
 :end
