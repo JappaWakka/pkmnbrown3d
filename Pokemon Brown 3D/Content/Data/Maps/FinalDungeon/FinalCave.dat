@@ -67,7 +67,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[8,0,35]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[32,96,16,16]}}]}}
 		
 	Invisible
-		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[8,0,36]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,16,16,16]}}{"Visible"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[8,0,36]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,16,16,16]}}{"Visible"{bool[0]}}]}}
 		
 	Removal
 		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[11,0,4]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[80,48,16,16]}}{"Remove"{bool[1]}}]}}
