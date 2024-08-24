@@ -1,18 +1,24 @@
 version=2
-@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_Question)>)
-@options.show(<system.token(global_yes)>,<system.token(global_no)>)
-	:when:<system.token(global_yes)>
-		@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_Yes)>)
-		@Screen.FadeOut(15)
-		:if:<Player.Skin>=Player_Brown
-			@Player.SetSkin(Player_Beige)
-		:else
-			@Player.SetSkin(Player_Brown)
-		:endif
-		@Screen.FadeIn(15)
-		@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_Done)>)
-	:when:<system.token(global_no)>
-		@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_No)>)
-		:end
-:endwhen
+:if:<player.facing>=0
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		:when:<system.token(global_yes)>
+			@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_Yes)>)
+			@Screen.FadeOut(15)
+			:if:<Player.Skin>=Player_Brown
+				@Player.SetSkin(Player_Beige)
+			:else
+				@Player.SetSkin(Player_Brown)
+			:endif
+			@Screen.FadeIn(15)
+			@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_Done)>)
+		:when:<system.token(global_no)>
+			@Text.Show(<system.token(Seashore_PlayerHouse2F_StyleChangeCloset_No)>)
+			:end
+	:endwhen
+:else
+	:if:<player.facing>=1
+		@Text.Show(<system.token(Seashore_PlayerHouse2F_DrakePoster)>)
+	:endif
+:endif
 :end
