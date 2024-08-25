@@ -66,7 +66,7 @@ ScriptBlocks:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gates\Route59-Botan_2F_Binoculars_Right]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 NPC:
-	{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[YoungBoy_Green]}}{"ID"{int[0]}}{"Name"{str[Trader]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gates\Route59-Botan_2F_RapidashMagnemiteTrade]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,0,4,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[YoungBoy_Green]}}{"ID"{int[0]}}{"Name"{str[Trader]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gates\Route59-Botan_2F_MareepEeveeTrade]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,0,4,1]]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[2,0,6]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[1]}}{"Name"{str[Aide]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gates\Route59-Botan_2F_ItemFinderAide]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[[0,3,8,1]]}}]}}
 
 Stairs:

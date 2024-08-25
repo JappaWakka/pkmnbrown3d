@@ -4204,13 +4204,13 @@ Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMeBeer,Whoa, kid!~I smell hard beer!*Gi
 Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer,<Player.Name> handed over the~Beer Keg.*...Glug glug...~...Gulp...~This stuff hits you...
 Route59_Botan_Gate_1F_Guard_HaveBeer_FallAsleep,Zzzzz...*<Player.Name>: Looks like I can~get past this guy now,~and complete my quest!
 Route59_Botan_Gate_1F_Guard_StillAsleep,<Player.Name>: He's still asleep...
-Route59_Botan_Gate_2F_MagnemiteTrade_Question,I'm looking for a Rapidash!~Wanna trade one for a~Magnemite?
-Route59_Botan_Gate_2F_MagnemiteTrade_Answer_No,Awww! Oh well...
-Route59_Botan_Gate_2F_MagnemiteTrade_AfterTrade,Isn't my old Magnemite great?
-Route59_Botan_Gate_2F_MagnemiteTrade_TradeSuccess,Okay, connect the cable~like so!
-Route59_Botan_Gate_2F_MagnemiteTrade_TradeFail,What? That's not Rapidash!*If you get one, come back~here!
-Route59_Botan_Gate_2F_MagnemiteTrade_CatchMethod,Received in a trade
-Route59_Botan_Gate_2F_MagnemiteTrade_CatchLocation,in the Gate on Route 59
+Route59_Botan_Gate_2F_EeveeTrade_Question,Hi! Do you have a~Mareep?*Want to trade it for Eevee?
+Route59_Botan_Gate_2F_EeveeTrade_Answer_No,That's too bad.
+Route59_Botan_Gate_2F_EeveeTrade_AfterTrade,How is my old Eevee?*My Mareep is doing great!
+Route59_Botan_Gate_2F_EeveeTrade_TradeSuccess,Okay, connect the cable~like so!
+Route59_Botan_Gate_2F_EeveeTrade_TradeFail,...This is no Mareep.*If you get one, trade it~with me!
+Route59_Botan_Gate_2F_EeveeTrade_CatchMethod,Received in a trade
+Route59_Botan_Gate_2F_EeveeTrade_CatchLocation,in the Gate on Route 59
 Route59_Botan_Gate_2F_Binoculars_Left,Looked into the binoculars...*The Rijon League!
 Route59_Botan_Gate_2F_Binoculars_Right,Looked into the binoculars...*A dark forest can be~seen... maybe there are some~ghosts there...
 Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds of~Pokémon, I'm supposed to~give you an Item Finder!*So <Player.Name>! Have you~caught at least 45 kinds~of Pokémon?
@@ -4218,7 +4218,6 @@ Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_45OrMorePokemon,Let's see...*Gre
 Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 45 kinds if~you want the Item Finder.
 Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerNo,Oh, I see.~When you get 45 kinds,~come back for the Item Finder.
 Route59_Botan_Gate_2F_Aide_ItemFinder_AfterReceiveItemFinder,There are items on the ground~that can't be seen.~The Item Finder will reveal~hidden items near you for a~brief moment.~It doesn't tell you where they~are exactly, so you have to~look yourself!
-
 
 [Botan City]
 Botan_Main_Sign_City,Botan City*The City Of Nostalgia.
@@ -4259,13 +4258,13 @@ Botan_TradeHouse_TyrogueTrade_TradeSuccess,Okay, connect the cable~like so!
 Botan_TradeHouse_TyrogueTrade_TradeFail,Hmmm? This isn't Butterfree.*Think of me when you get one.
 Botan_TradeHouse_TyrogueTrade_CatchMethod,Received in a trade
 Botan_TradeHouse_TyrogueTrade_CatchLocation,in Botan City
-Botan_TradeHouse_EeveeTrade_Question,Hi! Do you have a~Gligar?*Want to trade it for Eevee?
-Botan_TradeHouse_EeveeTrade_Answer_No,That's too bad.
-Botan_TradeHouse_EeveeTrade_AfterTrade,How is my old Eevee?*My Gligar is doing great!
-Botan_TradeHouse_EeveeTrade_TradeSuccess,Okay, connect the cable~like so!
-Botan_TradeHouse_EeveeTrade_TradeFail,...This is no Gligar.*If you get one, trade it~with me!
-Botan_TradeHouse_EeveeTrade_CatchMethod,Received in a trade
-Botan_TradeHouse_EeveeTrade_CatchLocation,in Botan City
+Botan_TradeHouse_NoivernTrade_Question,I'm looking for a Gligar!~Wanna trade one for a~Noivern?
+Botan_TradeHouse_NoivernTrade_Answer_No,Awww! Oh well...
+Botan_TradeHouse_NoivernTrade_AfterTrade,Isn't my old Noivern great?
+Botan_TradeHouse_NoivernTrade_TradeSuccess,Okay, connect the cable~like so!
+Botan_TradeHouse_NoivernTrade_TradeFail,What? That's not Gligar!*If you get one, come back~here!
+Botan_TradeHouse_NoivernTrade_CatchMethod,Received in a trade
+Botan_TradeHouse_NoivernTrade_CatchLocation,in Botan City
 
 Botan_MoveTutorHouse_MoveTutor_Intro,I tutor children, but I also~tutor Pokémon.*I teach them to remember~moves they forgot.*$1000 per lesson.~How about it?
 Botan_MoveTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
