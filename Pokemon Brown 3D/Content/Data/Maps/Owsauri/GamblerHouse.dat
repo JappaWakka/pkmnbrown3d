@@ -7,7 +7,7 @@ Doormat:
 	{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[3,0,6]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[16,0,16,16]}}]}}
 
 Door:
-	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,9,0.1,25,0]}}{"Rotation"{int[2]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[3,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[48,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Owsauri\Main.dat,19,0.1,17,0]}}{"Rotation"{int[2]}}]}}
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[5,0,4]}}{"TextureID"{str[YoungBoy_Purple]}}{"ID"{int[0]}}{"Name"{str[Son]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Owsauri_GamblerHouse_Son)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
