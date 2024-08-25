@@ -283,7 +283,7 @@ Buildings:
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[27,0,17]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[96,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 	PokeCenter
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_PokeCenter_Azalea_4x2y4z]}}{"Offset"{sngArr[20,0,10]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_PokeCenter_Azalea_FinalDungeon_4x2y4z]}}{"Offset"{sngArr[20,0,10]}}]}}
 	
 	Gym
 		Walls
@@ -400,7 +400,7 @@ Turning Signs:
 			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.375,1,9.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.375,2,9.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		Sign
-			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.375,3,9.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[32,48,16,12][56,48,4,12][48,68,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"RotationXYZ"{sngArr[0,-0.75,0]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.375,3,9.625]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[16,64,16,16][32,32,4,16][0,100,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"RotationXYZ"{sngArr[0,-0.75,0]}}]}}
 
 	PokeCenter
 		Pole
@@ -408,7 +408,7 @@ Turning Signs:
 			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[23.625,1,13.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[23.625,2,13.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		Sign
-			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[23.625,3,13.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[32,60,16,12][60,48,4,12][48,64,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[23.625,3,13.625]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[0,64,16,16][32,16,4,16][16,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
 	
 	Gym
 		Pole
@@ -416,7 +416,7 @@ Turning Signs:
 			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13.375,1,19.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13.375,2,19.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 		Sign
-			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[13.375,3,19.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[32,72,16,12][64,48,4,12][48,72,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[13.375,3,19.625]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[16,48,16,16][32,0,4,16][0,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
 	
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[22,0,17]}}{"TextureID"{str[RegularGuy_Blue]}}{"ID"{int[0]}}{"Name"{str[Regular Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Azalea_Main_RegularGuy)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[22,16,1,4]]}}]}}

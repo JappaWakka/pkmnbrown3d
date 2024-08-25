@@ -5,4 +5,5 @@ version=2
 
 :if:<Register.Registered(IslandFossilRocket)>=true <and> <Register.Registered(IslandFossilTaken)>=false
 	@npc.spawn(10,0,8,1,FinalDungeon\Island_HelixFossil,Fossil_Helix,0,0,Helix Fossil,5,PokeBall)
+:endif
 :end

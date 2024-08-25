@@ -3,7 +3,7 @@ version=2
 @options.show(<system.token(Generic_PokeMart_Store)>,<system.token(Generic_PokeMart_Quit)>)
 	:when:<system.token(Generic_PokeMart_Store)>
 		@Text.Show(<system.token(FinalDungeon_FinalShop_BikeMan_Store)>)
-		@screen.Trade({gm61,-1,-1}{gm62,-1,-1}{gm63,-1,-1}{gm64,-1,-1}{gm65,-1,-1}{gm66,-1,-1}{gm67,-1,-1}{gm68,-1,-1}{8,-1,-1}{593,-1,-1}{22,-1,-1}{23,-1,-1}{24,-1,-1}{34,-1,-1},True,True)
+		@screen.Trade({gm61|-1|-1}{gm62|-1|-1}{gm63|-1|-1}{gm64|-1|-1}{gm65|-1|-1}{gm66|-1|-1}{gm67|-1|-1}{gm68|-1|-1}{8|-1|-1}{593|-1|-1}{22|-1|-1}{23|-1|-1}{24|-1|-1}{34|-1|-1},True,True)
 		@Text.Show(<system.token(FinalDungeon_FinalShop_BikeMan_Quit)>)
 	:when:<system.token(Generic_PokeMart_Quit)>
 		@Text.Show(<system.token(FinalDungeon_FinalShop_BikeMan_Quit)>)

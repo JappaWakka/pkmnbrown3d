@@ -3,7 +3,7 @@ version=2
 @options.show(<system.token(Generic_PokeMart_Store)>,<system.token(Generic_PokeMart_Quit)>)
 	:when:<system.token(Generic_PokeMart_Store)>
 		@Text.Show(<system.token(FinalDungeon_FinalShop_Manager_Store)>)
-		@screen.Trade({gm1,-1,-1}{136,-1,-1}{135,-1,-1}{gm89,-1,-1}{gm90,-1,-1}{gm85,-1,-1}{gm88,-1,-1}{gm87,-1,-1}{gm86,-1,-1}{gm92,-1,-1}{gm91,-1,-1}{gm84,-1,-1}{gm93,-1,-1}{gm18,-1,-1},True,True)
+		@screen.Trade({gm1|-1|-1}{136|-1|-1}{135|-1|-1}{gm89|-1|-1}{gm90|-1|-1}{gm85|-1|-1}{gm88|-1|-1}{gm87|-1|-1}{gm86|-1|-1}{gm92|-1|-1}{gm91|-1|-1}{gm84|-1|-1}{gm93|-1|-1}{gm18|-1|-1},True,True)
 		@Text.Show(<system.token(FinalDungeon_FinalShop_Manager_Quit)>)
 	:when:<system.token(Generic_PokeMart_Quit)>
 		@Text.Show(<system.token(FinalDungeon_FinalShop_Manager_Quit)>)
