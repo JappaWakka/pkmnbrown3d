@@ -271,7 +271,7 @@ Jump Ledges:
 
 Buildings:
 	PokeMart (Blocked)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Azalea_JohtoRoof_4x2y4z_Entrance]}}{"Offset"{sngArr[26,0,6]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_PokeMart_Azalea_4x2y4z]}}{"Offset"{sngArr[26,0,6]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[27,0,9]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[96,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 	Kurt's House (Blocked)
@@ -283,7 +283,7 @@ Buildings:
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[27,0,17]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[96,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 	PokeCenter
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Azalea_JohtoRoof_4x2y4z_Entrance]}}{"Offset"{sngArr[20,0,10]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_PokeCenter_Azalea_4x2y4z]}}{"Offset"{sngArr[20,0,10]}}]}}
 	
 	Gym
 		Walls
@@ -390,12 +390,7 @@ Slowpoke Well Ladder:
 Signs:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[20,-0.0625,19]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[20,0,19]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Azalea_Main_Sign_Gym)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-	
-	{"Structure"{STR[{"Map"{str[Structures\PokeCenter_Sign_Johto]}}{"Offset"{sngArr[22,0,13]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[22,0,13]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Generic_Sign_PokeCenter)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-	
-	{"Structure"{STR[{"Map"{str[Structures\PokeMart_Sign_Johto]}}{"Offset"{sngArr[28,0,9]}}]}}
-	
+		
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[57,-0.0625,15]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Turning Signs:

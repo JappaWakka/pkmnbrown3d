@@ -261,10 +261,10 @@ Buildings:
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Goldenrod_SlopeRoof_4x2y4z_Gate]}}{"Offset"{sngArr[18,0,0]}}]}}
 		
 	PokeCenter (4x2y4z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Goldenrod_FlatRoof_DarkBrick_4x2y4z_Entrance]}}{"Offset"{sngArr[14,0,20]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_PokeCenter_Goldenrod_4x2y4z]}}{"Offset"{sngArr[14,0,20]}}]}}
 		
 	PokeMart (4x2y4z)
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Goldenrod_FlatRoof_DarkBrick_4x2y4z_Entrance]}}{"Offset"{sngArr[22,0,20]}}]}}
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_PokeMart_Goldenrod_4x2y4z]}}{"Offset"{sngArr[22,0,20]}}]}}
 		
 	Gym
 		Walls
@@ -458,29 +458,20 @@ Buildings:
 					{"EntityField"{ENT[{"Scale"{sngArr[1,0.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[11,1.5925,23]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[0,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 Signs:
-	PokeCenter
-		{"Structure"{STR[{"Map"{str[Structures\PokeCenter_Sign_Johto]}}{"Offset"{sngArr[16,0,23]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[16,0,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Generic_Sign_PokeCenter)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[14,-0.0625,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
-	PokeMart
-		{"Structure"{STR[{"Map"{str[Structures\PokeMart_Sign_Johto]}}{"Offset"{sngArr[24,0,23]}}]}}
-		{"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[24,0,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,80,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Generic_Sign_PokeCenter)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-		
-	Other
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[14,-0.0625,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[10,-0.0625,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[6,-0.0625,18]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[22,-0.0625,18]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[6,-0.0625,24]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[26,-0.0625,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
-		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[12,-0.0625,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-		
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[10,-0.0625,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[6,-0.0625,18]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[22,-0.0625,18]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[6,-0.0625,24]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[26,-0.0625,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,0.875,0.25]}}{"Position"{sngArr[12,-0.0625,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,98,16,14][208,98,4,14][192,92,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
 Turning Signs:
 	PokeMart
 		Pole

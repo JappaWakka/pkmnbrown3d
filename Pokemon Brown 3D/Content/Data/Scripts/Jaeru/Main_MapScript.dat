@@ -22,4 +22,9 @@ version=2
 	@npc.register(Botan\Main.dat|6|remove)
 	@Register.Register(RemoveBotanCitizens)
 :endif
+
+#:if:<pokemon.counthalloffame>>0
+#	@Entity.Warp(3,~,~-1,~)
+#	@Entity.Warp(4,~,~+1,~)
+#:endif
 :end
