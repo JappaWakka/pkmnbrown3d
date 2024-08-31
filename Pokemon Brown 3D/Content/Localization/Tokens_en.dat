@@ -1582,6 +1582,7 @@ item_name_576,Mega Bracelet
 item_name_651,Light Stone
 item_name_652,Dark Stone
 item_name_653,Black Augurite
+item_name_658,Exp. All
 
 Technical Machines:
 item_name_191,TM 01
@@ -2322,6 +2323,8 @@ item_6_only_custom_gamemodes,This item can't be used~on this GameMode.
 [Official Items]
 item_use_6,<Player.Name> stepped~off the Bicycle.
 item_use_54,Your Coins:~
+item_use_658_disable,The Exp. All was turned off.
+item_use_658_enable,The Exp. All was turned on.
 
 [GameMode Items]
 Item_Use_TownMap,<Player.Name> checked the~Town Map.
@@ -3100,7 +3103,7 @@ Generic_PC_ChooseHost,Choose a host to connect to.
 Generic_PC_Host_StorageSystem,Bill's PC
 Generic_PC_Host_Mailbox,Inbox
 Generic_PC_Host_DexEvaluation,Prof. Tim's PC
-Generic_PC_Host_HallOfFame,Pokémon League
+Generic_PC_Host_HallOfFame,Rijon League
 Generic_PC_Host_Decoration,Decoration
 Generic_PC_LogOff,Log Off
 Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating~System.*Do you want to get your~Pokédex rated?
@@ -3401,7 +3404,7 @@ Merson_Gym_LifeguardSilas_OutroMessage,Whoops!
 Merson_Gym_LifeguardSilas_DefeatMessage,I came from South Rijon to~train under Karpman's fin.*Please don't tell him that I~told you his real name!*He hates it when people call~him that.*South Rijon will surely get~its own Pokémon League, and~when it does, I'll become one~of its Leaders, just like~Lochlan!*...whoops! I did it again!
 Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welcome to the~Merson City Gym, challenger!*<Player.Name>: So you're a Gym~Leader?*Karpman: You got it!*My name is Karpman, and I~specialize in Water-type~Pokémon!*If you defeat me, I'll give~you the Marine Badge.*Get all eight Badges~throughout the region,~and you'll get the chance to~become Rijon's Champion!*But I won't make it easy~for you.*Be sure to brace yourself for~waves of defeat!*<Player.Name>: Show me your best,~Karpman!
 Merson_Gym_LeaderKarpman_OutroMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your victory,~here's the Marine Badge!
-Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Pokémon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*But all caves in Rijon were lit~by Shinra Electric Power~Company, so it is kinda useless~now...*Wait! Take this with you!
+Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Rijon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*But all caves in Rijon were lit~by Shinra Electric Power~Company, so it is kinda useless~now...*Wait! Take this with you!
 Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*TMs are single use! So when~you use one to teach a new~technique, pick the Pokémon~carefully!*TM 12 contains Octazooka!~It's a Water move that can~lower the accuracy of your foe!
 Merson_Gym_LeaderKarpman_TalkAgain,Karpman: That was an epic~battle!*The next Gym Leader is Lily~who lives in Owsauri City.*Keep going north and you'll~end up there in no time!
 Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Question,Karpman: Well, you swam a long~way upriver since last time I~saw you.*You guys got strong, but I~think I can toss you around in~the tide a bit still. Care to~take the bait?
@@ -3725,7 +3728,7 @@ Owsauri_Main_Lapras_Cry2,Zz...zz...*...Huh?!~What was I doing again?
 Owsauri_Main_Voltorb_Cry,Voltorb! Bzzt!
 Owsauri_Main_Cubone_Cry,Kyarugoo!
 Owsauri_Main_Clefairy_Cry,Clefaiiiry!
-Owsauri_Main_Meowth_Cry1,Meowth!*<Player.Name>: Uh? For me?
+Owsauri_Main_Meowth_Cry1,Meowth!*<Player.Name>: Uh? Is that for~me?
 Owsauri_Main_Meowth_Cry2,<Player.Name> received $1!
 
 Owsauri_PokeCenter_BenchGirl,My daddy is still in the casino.*He told me to wait here...
@@ -4055,11 +4058,11 @@ Route60_PowerPlant_Raikou,Rrroar!
 [Route 60 - Jaeru City Gate]
 Route60_Jaeru_Gate_Guard,Are you working on a Pokédex?*Prof. Tim's Aide came by here.
 
-Route60_Jaeru_Gate_Aide_ExpShare_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds~of Pokémon, I'm supposed to~give you an Exp. Share!*So <Player.Name>! Have you~caught at least 30 kinds~of Pokémon?
-Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_30OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
-Route60_Jaeru_Gate_Aide_ExpShare_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 30 kinds if~you want the Exp. Share.
-Route60_Jaeru_Gate_Aide_ExpShare_AnswerNo,Oh, I see.~When you get 30 kinds,~come back for the Exp. Share.
-Route60_Jaeru_Gate_Aide_ExpShare_AfterReceiveExpShare,Have fun with it!
+Route60_Jaeru_Gate_Aide_ExpAll_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds~of Pokémon, I'm supposed to~give you an Exp. All!*So <Player.Name>! Have you~caught at least 30 kinds~of Pokémon?
+Route60_Jaeru_Gate_Aide_ExpAll_AnswerYes_30OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
+Route60_Jaeru_Gate_Aide_ExpAll_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 30 kinds if~you want the Exp. All.
+Route60_Jaeru_Gate_Aide_ExpAll_AnswerNo,Oh, I see.~When you get 30 kinds,~come back for the Exp. All.
+Route60_Jaeru_Gate_Aide_ExpAll_AfterReceiveExpAll,Have fun with it!
 Route60_Jaeru_Gate_Binoculars_Left_Intro,Looked into the binoculars...
 Route60_Jaeru_Gate_Binoculars_Left_Flying,A strange Pokémon is flying~to Mt. Boulder!
 Route60_Jaeru_Gate_Binoculars_Left_Running,A strange Pokémon is running~towards Mt. Boulder!
@@ -4793,35 +4796,35 @@ Route65_Main_Sign_South,Route 65~El Norteno Heights*Pathway to the Rijon League!
 
 Route65_Guard1_Start,You can pass here only if~you have the Marine Badge!
 Route65_Guard1_HaveBadge,Oh! That is the Marine Badge!~OK then! Please, go right~ahead!
-Route65_Guard1_NoBadge,You don't have the Marine~Badge yet!*You have to have it to get~to the Pokémon League!
+Route65_Guard1_NoBadge,You don't have the Marine~Badge yet!*You have to have it to get~to the Rijon League!
 
 Route65_Guard2_Start,You can pass here only if~you have the Hail Badge!
 Route65_Guard2_HaveBadge,Oh! That is the Hail Badge!~OK then! Please, go right~ahead!
-Route65_Guard2_NoBadge,You don't have the Hail~Badge yet!*You have to have it to get~to the Pokémon League!
+Route65_Guard2_NoBadge,You don't have the Hail~Badge yet!*You have to have it to get~to the Rijon League!
 
 Route65_Guard3_Start,You can pass here only if~you have the Sparky Badge!
 Route65_Guard3_HaveBadge,Oh! That is the Sparky Badge!~OK then! Please, go right~ahead!
-Route65_Guard3_NoBadge,You don't have the Sparky~Badge yet!*You have to have it to get~to the Pokémon League!
+Route65_Guard3_NoBadge,You don't have the Sparky~Badge yet!*You have to have it to get~to the Rijon League!
 
 Route65_Guard4_Start,You can pass here only if~you have the Sprout Badge!
 Route65_Guard4_HaveBadge,Oh! That is the Sprout Badge!~OK then! Please, go right~ahead!
-Route65_Guard4_NoBadge,You don't have the Sprout~Badge yet!*You have to have it to get~to the Pokémon League!
+Route65_Guard4_NoBadge,You don't have the Sprout~Badge yet!*You have to have it to get~to the Rijon League!
 
 Route65_Guard5_Start,You can pass here only if~you have the Fist Badge!
 Route65_Guard5_HaveBadge,Oh! That is the Fist Badge!~OK then! Please, go right~ahead!
-Route65_Guard5_NoBadge,You don't have the Fist Badge~yet!*You have to have it to get~to the Pokémon League!
+Route65_Guard5_NoBadge,You don't have the Fist Badge~yet!*You have to have it to get~to the Rijon League!
 
 Route65_Guard6_Start,You can pass here only if~you have the Psi Badge!
 Route65_Guard6_HaveBadge,Oh! That is the Psi Badge!~OK then! Please, go right~ahead!
-Route65_Guard6_NoBadge,You don't have the Psi Badge~yet!*You have to have it to get~to the Pokémon League!
+Route65_Guard6_NoBadge,You don't have the Psi Badge~yet!*You have to have it to get~to the Rijon League!
 
 Route65_Guard7_Start,You can pass here only if~you have the Equity Badge!
 Route65_Guard7_HaveBadge,Oh! That is the Equity Badge!~OK then! Please, go right~ahead!
-Route65_Guard7_NoBadge,You don't have the Equity~Badge yet!*You have to have it to get~to the Pokémon League!
+Route65_Guard7_NoBadge,You don't have the Equity~Badge yet!*You have to have it to get~to the Rijon League!
 
 Route65_Guard8_Start,You can pass here only if~you have the Star Badge!
 Route65_Guard8_HaveBadge,Oh! That is the Star Badge!~OK then! Please, go right~ahead!
-Route65_Guard8_NoBadge,You don't have the Star Badge~yet!*You have to have it to get~to the Pokémon League!
+Route65_Guard8_NoBadge,You don't have the Star Badge~yet!*You have to have it to get~to the Rijon League!
 
 [Route 65 - Route 67 Gate]
 Route65_Route67_Gate_Guard,Be careful kid, the caverns~are dangerous, even for~experienced trainers.*East from these caverns are~the Sevii Islands, but there's~no way to go from them to~Rijon... Hopefully, they will~figure out a way to do so in~the future.
