@@ -71,6 +71,6 @@ Doors:
 	{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[4,0,7]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[192,176,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\52\Main.dat,8,0.1,-1,0]}}{"Rotation"{int[2]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[1,0,3]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Aide]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gates\Route52-Hayward_SuperRodAide]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[1,0,3]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[0]}}{"Name"{str[Aide]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gates\Route52-Hayward_ExpAllAide]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[5,0,3]}}{"TextureID"{str[BugCatcher]}}{"ID"{int[1]}}{"Name"{str[Bug Catcher]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route52_Hayward_Gate_BugCatcher)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,3,7,1]]}}]}}
 

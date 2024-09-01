@@ -3490,11 +3490,11 @@ Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade
 Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,at a house at Route 52
 
 [Route 52 - Hayward City Gate]
-Route52_Hayward_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 75 kinds of~Pokémon, I'm supposed to~give you a Super Rod!*So <Player.Name>! Have you~caught at least 75 kinds~of Pokémon?
-Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_75OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
-Route52_Hayward_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 75 kinds if~you want the Super Rod.
-Route52_Hayward_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 75 kinds,~come back for the Super Rod.
-Route52_Hayward_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
+Route52_Hayward_Gate_Aide_ExpAll_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds~of Pokémon, I'm supposed to~give you an Exp. All!*So <Player.Name>! Have you~caught at least 30 kinds~of Pokémon?
+Route52_Hayward_Gate_Aide_ExpAll_AnswerYes_30OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
+Route52_Hayward_Gate_Aide_ExpAll_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 30 kinds if~you want the Exp. All.
+Route52_Hayward_Gate_Aide_ExpAll_AnswerNo,Oh, I see.~When you get 30 kinds,~come back for the Exp. All.
+Route52_Hayward_Gate_Aide_ExpAll_AfterReceiveExpAll,Have fun with it!
 Route52_Hayward_Gate_BugCatcher,This gate leads straight~to Hayward City.~I love the city!
 
 [Hayward City]
@@ -3979,7 +3979,7 @@ Moraga_HighSchoolAcademy_Student,I am a material girl!*Yeah!
 Moraga_HighSchoolAcademy_Notebook_Page1,Looked at the notebook!*First page...*Poké Balls are used to~catch Pokémon. Up to 6~Pokémon can be carried.~People who raise and make~Pokémon fight are called~Pokémon Trainers.*Turn the page?
 Moraga_HighSchoolAcademy_Notebook_Page2,Second page...*A healthy Pokémon may be hard~to catch, so weaken it first!*Poison, burns, and other~damage are effective!*Turn the page?
 Moraga_HighSchoolAcademy_Notebook_Page3,Third page...*Pokémon Trainers seek others~to engage in Pokémon fights.~Battles are constantly fought~at Pokémon Gyms.*Turn the page?
-Moraga_HighSchoolAcademy_Notebook_Page4,Fourth page...*There are more than 151~Pokémon available in Rijon!~Ones that are 152 and above~are hidden in special areas,~so keep an eye out for them.
+Moraga_HighSchoolAcademy_Notebook_Page4,Fourth page...*There are more than 200~Pokémon available in Rijon!*Most can also be found in~Kanto or Johto, but there are~more species, some from Naljo!
 Moraga_HighSchoolAcademy_Notebook_End,Guy: I plagiarized. So what?!
 
 Moraga_PrismMuseum_Owner_PrismKeyHint,This is the Prism Museum.*Bring me a Prism item and~maybe I'll let you inside.*I'll give you a clue: not all~things are reflected in the~mirror.
@@ -4058,11 +4058,12 @@ Route60_PowerPlant_Raikou,Rrroar!
 [Route 60 - Jaeru City Gate]
 Route60_Jaeru_Gate_Guard,Are you working on a Pokédex?*Prof. Tim's Aide came by here.
 
-Route60_Jaeru_Gate_Aide_ExpAll_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds~of Pokémon, I'm supposed to~give you an Exp. All!*So <Player.Name>! Have you~caught at least 30 kinds~of Pokémon?
-Route60_Jaeru_Gate_Aide_ExpAll_AnswerYes_30OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
-Route60_Jaeru_Gate_Aide_ExpAll_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 30 kinds if~you want the Exp. All.
-Route60_Jaeru_Gate_Aide_ExpAll_AnswerNo,Oh, I see.~When you get 30 kinds,~come back for the Exp. All.
-Route60_Jaeru_Gate_Aide_ExpAll_AfterReceiveExpAll,Have fun with it!
+Route60_Jaeru_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 75 kinds of~Pokémon, I'm supposed to~give you a Super Rod!*So <Player.Name>! Have you~caught at least 75 kinds~of Pokémon?
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_75OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 75 kinds if~you want the Super Rod.
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 75 kinds,~come back for the Super Rod.
+Route60_Jaeru_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
+
 Route60_Jaeru_Gate_Binoculars_Left_Intro,Looked into the binoculars...
 Route60_Jaeru_Gate_Binoculars_Left_Flying,A strange Pokémon is flying~to Mt. Boulder!
 Route60_Jaeru_Gate_Binoculars_Left_Running,A strange Pokémon is running~towards Mt. Boulder!

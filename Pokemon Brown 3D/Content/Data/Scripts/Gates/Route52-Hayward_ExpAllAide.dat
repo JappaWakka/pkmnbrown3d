@@ -1,0 +1,24 @@
+version=2
+:if:<Register.Registered(expall)>=false
+	@Text.Show(<system.token(Route52_Hayward_Gate_Aide_ExpAll_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+
+	:when:<system.token(global_yes)>
+		:if:<pokedex.caught>>29
+			@Text.Show(<system.token(Route52_Hayward_Gate_Aide_ExpAll_AnswerYes_30OrMorePokemon)>)
+			@Item.Give(658,1)
+			@Item.MessageGive(658,1)
+			@Register.Register(expall)
+			:end
+		:else
+			@Text.Show(<system.token(Route52_Hayward_Gate_Aide_ExpAll_AnswerYes_LessThan30Pokemon)>)
+			:end
+		:endif
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Route52_Hayward_Gate_Aide_ExpAll_AnswerNo)>)
+		:end
+	:endwhen
+:else
+	@Text.Show(<system.token(Route52_Hayward_Gate_Aide_ExpAll_AfterReceiveExpAll)>)
+:endif
+:end

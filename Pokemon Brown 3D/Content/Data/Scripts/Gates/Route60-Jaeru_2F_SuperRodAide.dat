@@ -1,0 +1,26 @@
+version=2
+:if:<Register.Registered(superrod)>=false
+	@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_SuperRod_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	
+	:when:<system.token(global_yes)>
+		:if:<pokedex.caught>>74
+			@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_75OrMorePokemon)>)
+			@Item.Give(61,1)
+			@Item.MessageGive(61,1)
+			@Register.Register(superrod)
+			:end
+		:else
+			@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon)>)
+		:end
+		
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo)>)
+		:end
+	
+	:endwhen
+	
+:else
+	@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_SuperRod_AfterReceiveSuperRod)>)
+:endif
+:end
