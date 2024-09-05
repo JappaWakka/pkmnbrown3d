@@ -424,7 +424,7 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[35,0,17]}}{"TextureID"{str[Rocker]}}{"ID"{int[2]}}{"Name"{str[Rocker]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Azalea_Main_Rocker)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[34,17,6,1]]}}]}}
 	
 	{"NPC"{NPC[{"Position"{sngArr[28,0,12]}}{"TextureID"{str[Clerk]}}{"ID"{int[3]}}{"Name"{str[Clerk]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Azalea]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[14,0,12]}}{"TextureID"{str[SuperNerd]}}{"ID"{int[3]}}{"Name"{str[Move Tutor]}}{"Action"{int[1]}}{"AdditionalValue"{str[Azalea\Main_MoveTutor]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[14,0,12]}}{"TextureID"{str[SuperNerd]}}{"ID"{int[3]}}{"Name"{str[False Swipe Move Tutor]}}{"Action"{int[1]}}{"AdditionalValue"{str[Azalea\Main_MoveTutor_FalseSwipe]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	
 Warps:
 	Gym

@@ -4,7 +4,7 @@ version=2
 @Text.Show(<system.token(Route52_MagmarTraderHouse_MagmarTrade_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-		@pokemon.npctrade(63|126||-1||0|49396|Trainer|5||<system.token(Route52_MagmarTraderHouse_MagmarTrade_CatchLocation)>|<system.token(Route52_MagmarTraderHouse_MagmarTrade_CatchMethod)>|Master|<system.token(Route52_MagmarTraderHouse_MagmarTrade_TradeSuccess)>|<system.token(Route52_MagmarTraderHouse_MagmarTrade_TradeFail)>|magmartrade)
+		@pokemon.npctrade(63|126||-1||0|33986|James|5||<system.token(Route52_MagmarTraderHouse_MagmarTrade_CatchLocation)>|<system.token(Route52_MagmarTraderHouse_MagmarTrade_CatchMethod)>|Master|<system.token(Route52_MagmarTraderHouse_MagmarTrade_TradeSuccess)>|<system.token(Route52_MagmarTraderHouse_MagmarTrade_TradeFail)>|magmartrade)
 		:end
 	
 	:when:<system.token(global_no)>

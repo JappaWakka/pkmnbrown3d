@@ -4,7 +4,7 @@ version=2
 	@Text.Show(<system.token(Botan_TradeHouse_NoivernTrade_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-		@pokemon.npctrade(207|715||-1||0|52891|Trainer|5||<system.token(Botan_TradeHouse_NoivernTrade_CatchLocation)>|<system.token(Botan_TradeHouse_NoivernTrade_CatchMethod)>|Bruce|<system.token(Botan_TradeHouse_NoivernTrade_TradeSuccess)>|<system.token(Botan_TradeHouse_NoivernTrade_TradeFail)>|NoivernTrade)
+		@pokemon.npctrade(207|715||-1||0|61297|Robin|5||<system.token(Botan_TradeHouse_NoivernTrade_CatchLocation)>|<system.token(Botan_TradeHouse_NoivernTrade_CatchMethod)>|Bruce|<system.token(Botan_TradeHouse_NoivernTrade_TradeSuccess)>|<system.token(Botan_TradeHouse_NoivernTrade_TradeFail)>|NoivernTrade)
 		:end
 		
 	:when:<system.token(global_no)>

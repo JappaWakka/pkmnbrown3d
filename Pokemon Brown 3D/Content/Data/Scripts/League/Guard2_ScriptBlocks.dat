@@ -1,6 +1,6 @@
 version=2
 
-:if:<player.position(z)>=138 <and> <Register.Registered(guard2)>=False
+:if:<Register.Registered(guard2)>=False
 	@NPC.Turn(0,3)
 	@Player.TurnTo(1)
 	@Text.Show(<system.token(Route65_Guard2_Start)>)

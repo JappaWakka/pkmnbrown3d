@@ -30,12 +30,12 @@ version=2
 					@Storage.Set(bool,CanExit,true)
 				:endif
 			:endwhile
-			@Text.Show(<system.token(Botan_MoveTutorHouse_MoveTutor_Outro)>)
+			@Text.Show(<system.token(Azalea_Main_MoveTutor_Outro)>)
 			:end
 		:endif
 		
 	:when:<system.token(global_no)>
-		@Text.Show(<system.token(Botan_MoveTutorHouse_MoveTutor_Outro)>)
+		@Text.Show(<system.token(Azalea_Main_MoveTutor_Outro)>)
 		:end
 		
 :endwhen

@@ -4979,7 +4979,13 @@ Route34_Route47_IlexForest_Gate_Scientist,How did you get past the~Snorlax? Can 
 Route34_Route47_IlexForest_Gate_Guard,Don't bother going north.~The way to Goldenrod City is~still full of rubble.
 
 [Route 34]
-Route34_CryingGirl,Waaaaa!*I'm scared!
+Route34_MoveTutor_Intro,I screamed so much when the~earthquake happened that my~Donphan learned a move!*Maybe if I scream again, one of~your Pokémon will learn it too?*I don't scream for free though.*Would you like me to teach one~of your Pokémon the move~Hyper Voice for only $1000?
+Route34_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
+Route34_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
+Route34_MoveTutor_HyperVoice_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Hyper Voice.
+Route34_MoveTutor_HyperVoice_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Hyper Voice!
+Route34_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
+
 Route34_ScientistMax_IntroMessage,I do experiments in the Crion~region!
 Route34_ScientistMax_OutroMessage,Where IS Crion?
 Route34_ScientistMax_DefeatMessage,I came to study the~earthquake's after-effects.

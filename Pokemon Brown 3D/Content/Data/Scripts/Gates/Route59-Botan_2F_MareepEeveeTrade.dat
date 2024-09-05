@@ -4,7 +4,7 @@ version=2
 	@Text.Show(<system.token(Route59_Botan_Gate_2F_EeveeTrade_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-		@pokemon.npctrade(179|133||-1||0|45686|Trainer|5||<system.token(Route59_Botan_Gate_2F_EeveeTrade_CatchLocation)>|<system.token(Route59_Botan_Gate_2F_EeveeTrade_CatchMethod)>|Rinji|<system.token(Route59_Botan_Gate_2F_EeveeTrade_TradeSuccess)>|<system.token(Route59_Botan_Gate_2F_EeveeTrade_TradeFail)>|EeveeTrade)
+		@pokemon.npctrade(179|133||-1||0|21095|Jasper|5||<system.token(Route59_Botan_Gate_2F_EeveeTrade_CatchLocation)>|<system.token(Route59_Botan_Gate_2F_EeveeTrade_CatchMethod)>|Rinji|<system.token(Route59_Botan_Gate_2F_EeveeTrade_TradeSuccess)>|<system.token(Route59_Botan_Gate_2F_EeveeTrade_TradeFail)>|EeveeTrade)
 		:end
 	
 	:when:<system.token(global_no)>

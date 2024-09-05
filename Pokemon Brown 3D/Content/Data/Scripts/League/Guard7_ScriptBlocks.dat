@@ -1,6 +1,6 @@
 version=2
 
-:if:<player.position(z)>=56 <and> <Register.Registered(guard7)>=False
+:if:<Register.Registered(guard7)>=False
 	@NPC.Turn(0,1)
 	@Player.TurnTo(3)
 	@Text.Show(<system.token(Route65_Guard7_Start)>)

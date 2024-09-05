@@ -4,7 +4,7 @@ version=2
 @Text.Show(<system.token(FinalDungeon_SmallCave_CrobatTrade_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-		@pokemon.npctrade(111|169||-1||0|51922|Trainer|5||<system.token(FinalDungeon_SmallCave_CrobatTrade_CatchLocation)>|<system.token(FinalDungeon_SmallCave_CrobatTrade_CatchMethod)>|Keese|<system.token(FinalDungeon_SmallCave_CrobatTrade_TradeSuccess)>|<system.token(FinalDungeon_SmallCave_CrobatTrade_TradeFail)>|crobattrade)
+		@pokemon.npctrade(111|169||-1||0|10396|Lothar|5||<system.token(FinalDungeon_SmallCave_CrobatTrade_CatchLocation)>|<system.token(FinalDungeon_SmallCave_CrobatTrade_CatchMethod)>|Keese|<system.token(FinalDungeon_SmallCave_CrobatTrade_TradeSuccess)>|<system.token(FinalDungeon_SmallCave_CrobatTrade_TradeFail)>|crobattrade)
 		:end
 	
 	:when:<system.token(global_no)>

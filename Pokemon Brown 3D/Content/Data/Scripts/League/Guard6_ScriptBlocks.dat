@@ -1,8 +1,8 @@
 version=2
 
-:if:<player.position(z)>=68 <and> <Register.Registered(guard6)>=False
-	@NPC.Turn(0,1)
-	@Player.TurnTo(3)
+:if:<Register.Registered(guard6)>=False
+	@NPC.Turn(0,3)
+	@Player.TurnTo(1)
 	@Text.Show(<system.token(Route65_Guard6_Start)>)
 	
 	:if:<Register.Registered(psibadge_obtain)>=True
