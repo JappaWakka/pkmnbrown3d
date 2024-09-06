@@ -3462,8 +3462,8 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Option_Gas,Gas
 Route55_RainbowTower_Floor4_Room_Blackboard_Option_Wood,Wood
 Route55_RainbowTower_Floor4_Room_Blackboard_Option_Abnormal,Abnormal
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wind,Offense - Strong towards:*Fire, Rock, Ghost, Wood and~Gas.*Offense - Weak towards:*Ground, Fighting, Grass and~Flying.*Defense - Strong against:*Fire, Rock, Ghost and Wood.*Defense - Weak against:~Electric and Flying.*Defense - Immune to: Gas.
-Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound,Offense - Strong towards:*Ghost, Steel and Water.*Offense - Weak towards:*Bug and Fighting.*Defense - Strong against:*Rock, Steel, Gas, Water, Abnormal.*Defense - Weak against:*Bug, Electric and Fighting.*Defense - Immune to: Sound.
-Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*Fairy, Fire and Fighting.*Offense - Weak towards:*Grass, Ice, Rock and Sound.*Defense - Strong against:*Fairy, Ground and Fighting.*Defense - Weak against:*Electric, Fire, Grass and Wind.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound,Offense - Strong towards:*Ghost, Steel and Water.*Offense - Weak towards:*Bug and Fighting.*Offense - No effect towards:~Sound.*Defense - Strong against:*Rock, Steel, Gas, Water, Abnormal.*Defense - Weak against:*Bug, Electric and Fighting.*Defense - Immune to: Sound.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*Fairy, Fire and Fighting.*Offense - Weak towards:*Grass, Ice, Rock and Sound.*Offense - No effect towards:~Wind.*Defense - Strong against:*Fairy, Ground and Fighting.*Defense - Weak against:*Electric, Fire, Grass and Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*Grass, Ice, Steel, Poison and~Water.*Offense - Weak towards:*Bug, Electric, Rock and Wind.*Offense - No effect towards:~Fire.*Defense - Strong against:*Bug and Ground.*Defense - Weak against:*Electric, Fire, Fighting and~Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and Normal.
 Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
@@ -3616,7 +3616,7 @@ Hayward_SouthlandMall_Floor4_PokeDollGuy,No PokéDolls here anymore?*I'm gonna c
 Hayward_SouthlandMall_Floor5_Gentleman,Pokémon ability enhancers~can only be bought here.*Use Calcium to increase~Special abilities.*Use Carbos to increase~Speed.
 Hayward_SouthlandMall_Floor5_Sailor,I'm here for Pokémon ability~enhancers.*Protein increases Attack~power.*Iron increases Defense!
 
-Hayward_Bunker_Entrance_Fisherman,You came from the bunker?*That place is pretty much~abandoned.*Even wild Pokémon go inside~from time to time.*My friend is so obsessed with~maintaining it because he's~fearful of those legendary~Guardians... poor thing,~scared of an old tale!*He even wanted to build other~warps around the region, but~this one and the backdoor at~Mt.Boulder are the only ones~he's been able to maintain.
+Hayward_Bunker_Entrance_Fisherman,You came from the bunker?*That place is pretty much~abandoned.*Even wild Pokémon go inside~from time to time.*My friend is so obsessed with~maintaining it because she's~fearful of those legendary~Guardians... poor thing,~scared of an old tale!*She even wanted to build other~warps around the region, but~this one and the backdoor at~Mt.Boulder are the only ones~she's been able to maintain.
 
 [Route 64]
 Route64_Sign_Route,Route 64~Hayward Lowlands*Hayward City -~Naljo Border (Closed)
@@ -4609,7 +4609,7 @@ Route57_Gym_NormalTrainerReggie_IntroMessage,I've been to many Gyms, but~this is
 Route57_Gym_NormalTrainerReggie_OutroMessage,Yowza! Too hot!
 Route57_Gym_NormalTrainerReggie_DefeatMessage,Normal Pokémon's only weakness~is Fighting-type Pokémon!
 Route57_Gym_NormalTrainerStefan_IntroMessage,Normal equals best!
-Route57_Gym_NormalTrainerStefan_OutroMessage,Oh! Snuffed out!
+Route57_Gym_NormalTrainerStefan_OutroMessage,Just another day at the office.
 Route57_Gym_NormalTrainerStefan_DefeatMessage,Quit staring at me, it's mean!
 Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the South Reservoir Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<Player.Name>: Well, I'll~do anything for the~Equity Badge!
 Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if~your opponent is this good.*You have earned the Equity~Badge!
@@ -4770,7 +4770,7 @@ Bunker_Bookshelf_Notebook,<Player.Name>: A notebook is~sticking out...*January 1
 Bunker_PC_Intro,It's an old and dusty PC.
 Bunker_PC_Question,This looks like a diary.~Read it?
 Bunker_PC_AnswerYes,I spoke to Stella again today.~I wish I hadn't.*She has seen it all. The oceans~will boil from the wrath of the~one with the gaze of fire and~claws of steel.*Once the oceans have~evaporated, it will gallop~across the seabed and~ravage this land I love.*It will be scarred and rendered~but a barren wasteland.*My friends, my family, they~don't want to hear my words.*There will be no survivors.~Rijon is doomed.~I must prepare.
-Bunker_PC_Outro,<Player.Name>: The other entries~are password protected.*Was he referring to that~legendary Guardian?*How ominous...
+Bunker_PC_Outro,<Player.Name>: The other entries~are password protected.*Were they referring to that~legendary Guardian?*How ominous...
 
 [30 Years Cave]
 30YearsCave_PokeFanHoward_IntroMessage,If you can get through here,~you are a master!
@@ -4986,8 +4986,8 @@ Route34_MoveTutor_HyperVoice_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)>
 Route34_MoveTutor_HyperVoice_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Hyper Voice!
 Route34_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
 
-Route34_ScientistMax_IntroMessage,I do experiments in the Crion~region!
-Route34_ScientistMax_OutroMessage,Where IS Crion?
+Route34_ScientistMax_IntroMessage,I do experiments in the Onwa~region!
+Route34_ScientistMax_OutroMessage,Where is Onwa...?
 Route34_ScientistMax_DefeatMessage,I came to study the~earthquake's after-effects.
 Route34_RocketGruntMarvin_IntroMessage,No, I'm not hiding!
 Route34_RocketGruntMarvin_OutroMessage,I swear!
@@ -5174,7 +5174,7 @@ FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_IntroMessage,Get out of my wa
 FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_OutroMessage,So, you are good.
 FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_DefeatMessage,Stop getting near me!
 
-FinalDungeon_SmallCave_Telekinetic,I think the trainer called~Slick would love that guy's~Crobat.
+FinalDungeon_SmallCave_Telekinetic,I think the trainer called~Slick would love that guy's~Crobat!
 FinalDungeon_SmallCave_CrobatTrade_Question,Hello there!*Do you want to trade your~Rhyhorn for Crobat?
 FinalDungeon_SmallCave_CrobatTrade_Answer_No,Well, if you don't want to...
 FinalDungeon_SmallCave_CrobatTrade_AfterTrade,Now, if only I had a protector...
