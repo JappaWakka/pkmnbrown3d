@@ -4,7 +4,7 @@ version=2
 @Text.Show(<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-		@pokemon.npctrade(31|34||-1||0|30480|Trixie|5||<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation)>|<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod)>|Adam|<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeSuccess)>|<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeFail)>|nidoqueentrade)
+		@pokemon.npctrade(31|34||-1||0|11704|Paul|5||<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation)>|<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod)>|Adam|<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeSuccess)>|<system.token(CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeFail)>|nidoqueentrade)
 	:end
 	
 	:when:<system.token(global_no)>
