@@ -10,12 +10,12 @@ version=2
 			@Text.Show(<system.token(Azalea_Main_MoveTutor_WhichPokémon)>)
 			@Storage.Set(bool,CanExit,false)
 			:while:<storage.get(bool,CanExit)>=false
-				@Pokemon.Select(1,1,0,206)
+				@Pokemon.Select(1,1,0,1052)
 				:if:<not><pokemon.selected>=-1
-					:if:<Pokemon.CanLearnAttack(<pokemon.selected>,206)>=true
-						:if:<Pokemon.HasAttack(<pokemon.selected>,206)>=false
-							@Pokemon.LearnAttack(<pokemon.selected>,206)
-							:if:<Pokemon.HasAttack(<pokemon.selected>,206)>=true
+					:if:<Pokemon.CanLearnAttack(<pokemon.selected>,1052)>=true
+						:if:<Pokemon.HasAttack(<pokemon.selected>,1052)>=false
+							@Pokemon.LearnAttack(<pokemon.selected>,1052)
+							:if:<Pokemon.HasAttack(<pokemon.selected>,1052)>=true
 								@Player.Money(-1000)
 								@sound.play(buy)
 								@Storage.Set(bool,CanExit,true)
