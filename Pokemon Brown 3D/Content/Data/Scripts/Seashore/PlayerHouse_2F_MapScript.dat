@@ -1,4 +1,14 @@
 version=2
+@Script.Start(ResetScriptDelayAfterBlackout)
+:if:<Register.Registered(PokeInteraction_PlayerRoom_DJSet_Text)>=false
+	:if:<system.random(0,1)>=0
+		@Register.Register(PokeInteraction_PlayerRoom_DJSet_Text,str,<system.token(FollowerInteraction_Music_PlayerRoomMusic1)>)
+		@Register.Register(PokeInteraction_PlayerRoom_DJSet_Icon,str,...)
+	:else
+		@Register.Register(PokeInteraction_PlayerRoom_DJSet_Text,str,<system.token(FollowerInteraction_Music_PlayerRoomMusic2)>)
+		@Register.Register(PokeInteraction_PlayerRoom_DJSet_Icon,str,:))
+	:endif
+:endif
 
 :if:<Register.Registered(DecorationPlaced_SniffCat)>=true
 	@Entity.SetVisible(0,1)
