@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Pokémon Center]}}{"MusicLoop"{str[PokeCenter]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[ResetScriptDelayAfterBlackout]}}]}}
 
 {"Structure"{STR[{"Map"{str[Structures\PokeCenter_Interior]}}{"Offset"{sngArr[0,0,0]}}{"AddNPC"{bool[1]}}]}}
 	
