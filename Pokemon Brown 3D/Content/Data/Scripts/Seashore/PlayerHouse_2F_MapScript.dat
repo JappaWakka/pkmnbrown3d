@@ -6,7 +6,7 @@ version=2
 		@Register.Register(PokeInteraction_PlayerRoom_DJSet_Icon,str,...)
 	:else
 		@Register.Register(PokeInteraction_PlayerRoom_DJSet_Text,str,<system.token(FollowerInteraction_Music_PlayerRoomMusic2)>)
-		@Register.Register(PokeInteraction_PlayerRoom_DJSet_Icon,str,:))
+		@Register.Register(PokeInteraction_PlayerRoom_DJSet_Icon,str,friendly)
 	:endif
 :endif
 
