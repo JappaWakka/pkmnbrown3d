@@ -398,13 +398,13 @@ Turning Signs:
 		Pole
 			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.375,0,9.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.375,1,9.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.375,2,9.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[25.45,1.95,9.695]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"RotationXYZ"{sngArr[0.15,0,-0.15]}}]}}
 			
 		Sparks
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[25.375,2.9,9.625]}}{"TexturePath"{str[Electricity]}}{"Textures"{recArr[[0,0,24,24]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[Electricity]}}{"AnimationData"{intArr2D[[0,0,24,24,1,18,8,0,0]]}}]}}
+			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[25.45,2.9,9.695]}}{"TexturePath"{str[Electricity]}}{"Textures"{recArr[[0,0,24,24]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[Electricity]}}{"AnimationData"{intArr2D[[0,0,24,24,1,18,8,0,0]]}}]}}
 	
 		Sign
-			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[26,0.025,10.01]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[16,64,16,16][32,32,4,16][0,100,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"RotationXYZ"{sngArr[-0.75,0,0.25]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[27.1,-0.3,11.1]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[16,64,16,16][32,32,4,16][0,100,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[0]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"RotationXYZ"{sngArr[1.285,0.75,0.15]}}]}}
 
 	PokeCenter
 		Pole
