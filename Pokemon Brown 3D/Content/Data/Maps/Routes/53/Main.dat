@@ -79,6 +79,12 @@ Signs:
 	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[9,0,28]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Route53_Sign)>]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 
+LampPosts
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[10,0,4]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[10,0,11]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[10,0,18]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[8,0,34]}}]}}
+
 Mountains:
 	Top
 		{"EntityField"{ENT[{"Size"{intArr[11,17]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-5,3,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

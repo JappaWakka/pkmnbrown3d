@@ -270,6 +270,9 @@ Jump Ledges:
 	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Step]}}{"Position"{sngArr[25,0,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,16,16,16][96,0,16,4]]}}{"TextureIndex"{intArr[1,1,1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[7]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 LampPosts
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[8,0,7]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[17,0,7]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[28,0,12]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[17,0,15]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[31,0,20]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[18,0,24]}}]}}
