@@ -128,6 +128,15 @@ Tall Grass:
 	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[3,3]}}{"EntityID"{str[Grass]}}{"Position"{sngArr[13,0,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[2,2]}}{"EntityID"{str[Grass]}}{"Position"{sngArr[16,0,18]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
+LampPosts
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[16,0,9]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[10,0,15]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[6,0,22]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[11,0,29]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[12,0,50]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[7,0,58]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[16,0,62]}}]}}
+
 Mountains:
 	Top
 		{"EntityField"{ENT[{"Size"{intArr[4,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,1,47]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

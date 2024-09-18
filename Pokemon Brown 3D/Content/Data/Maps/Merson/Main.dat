@@ -72,7 +72,8 @@ Flowers:
 	
 Trees:
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[4,5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[6,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[4,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[10,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[3,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[10,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[13,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[3,5]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[15,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[18,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[13,0,30]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -150,6 +151,16 @@ Turning Signs:
 		Sign
 			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[5.375,3,3.625]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[0,0,16,16][32,0,4,16][0,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
 
+LampPosts
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[13,0,0]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[0,0,4]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[10,0,7]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[17,0,12]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[0,0,13]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[8,0,15]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[11,0,23]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[2,0,33]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[17,0,32]}}]}}
 
 Mountains:
 	Top
