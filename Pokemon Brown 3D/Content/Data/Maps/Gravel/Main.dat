@@ -94,14 +94,14 @@ Signs:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[10,0,33]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Gravel_Main_Sign_Cave)>]}}{"Visible"{bool[0]}}{"Rotation"{int[2]}}]}}
 
 LampPosts
-	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[1,0,6]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[5,0,0]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[16,0,4]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[1,0,20]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[9,0,14]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[16,0,20]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[5,0,26]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\LampPost]}}{"Offset"{sngArr[14,0,34]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[1,0,6]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[5,0,0]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[16,0,4]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[1,0,20]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[9,0,14]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[16,0,20]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[5,0,26]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[14,0,34]}}]}}
 
 Turning Sign:
 	PokeMart
