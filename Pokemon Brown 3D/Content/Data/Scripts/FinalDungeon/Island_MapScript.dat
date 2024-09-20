@@ -4,6 +4,7 @@ version=2
 :endif
 
 :if:<Register.Registered(IslandFossilRocket)>=true <and> <Register.Registered(IslandFossilTaken)>=false
-	@npc.spawn(10,0,8,1,FinalDungeon\Island_HelixFossil,Fossil_Helix,0,0,Helix Fossil,5,PokeBall)
+	@npc.spawn(<register.value(IslandFossilPositionX)>,-0.375,<register.value(IslandFossilPositionZ)>,1,FinalDungeon\Island_HelixFossil,Fossil_Helix,0,0,Helix Fossil,5,PokeBall)
+	@npc.setscale(5,0.25,0.25,0.25)
 :endif
 :end
