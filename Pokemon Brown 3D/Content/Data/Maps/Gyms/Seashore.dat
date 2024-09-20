@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Seashore City Gym]}}{"MusicLoop"{str[Gym]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[3]}}{"Weather"{int[4]}}{"Lighting"{int[0]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[3]}}{"Weather"{int[4]}}{"Lighting"{int[0]}}{"DayTime"{int[3]}}]}}
 
 Floors:
 	Grass
@@ -559,16 +559,25 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[29,0,12]}}{"TextureID"{str[GymGuy]}}{"ID"{int[0]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[seashore\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Shaders:
-	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[32,0,19]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
-	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[27,0,23]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
-	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[24,0,21]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
-	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[25,0,17]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
-	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[16,0,12]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
-	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[11,0,19]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
-	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[20,0,7]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
-	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[3,0,4]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
+	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[32,0,19]}}{"Shader"{sngArr[2,2,2]}}{"StopOnContact"{bool[0]}}]}}
+	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[27,0,23]}}{"Shader"{sngArr[2,2,2]}}{"StopOnContact"{bool[0]}}]}}
+	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[24,0,21]}}{"Shader"{sngArr[2,2,2]}}{"StopOnContact"{bool[0]}}]}}
+	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[25,0,17]}}{"Shader"{sngArr[2,2,2]}}{"StopOnContact"{bool[0]}}]}}
+	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[16,0,12]}}{"Shader"{sngArr[2,2,2]}}{"StopOnContact"{bool[0]}}]}}
+	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[11,0,19]}}{"Shader"{sngArr[2,2,2]}}{"StopOnContact"{bool[0]}}]}}
+	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[20,0,7]}}{"Shader"{sngArr[2,2,2]}}{"StopOnContact"{bool[0]}}]}}
+	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[3,0,4]}}{"Shader"{sngArr[2,2,2]}}{"StopOnContact"{bool[0]}}]}}
 	
-	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[29,0,12]}}{"Shader"{sngArr[1.5,1.5,1.5]}}{"StopOnContact"{bool[0]}}]}}
+	{"Shader"{SHA[{"Size"{intArr[1,2,1]}}{"Position"{intArr[29,0,12]}}{"Shader"{sngArr[2,2,2]}}{"StopOnContact"{bool[0]}}]}}
+
+LampPosts
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[8,0,7]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[17,0,7]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[28,0,12]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[17,0,15]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[31,0,20]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[18,0,24]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[27,0,24]}}]}}
 
 Backdrops:
 	{"Backdrop"{BAC[{"Position"{sngArr[-1.5,-0.75,-68.5]}}{"Size"{intArr[40,67]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}

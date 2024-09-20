@@ -213,9 +213,9 @@ Water:
 		{"EntityField"{ENT[{"Size"{intArr[2,4]}}{"EntityID"{str[Water]}}{"Position"{sngArr[15,-0.25,12]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[17,-0.25,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 		{"EntityField"{ENT[{"Size"{intArr[8,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[11,-0.25,74]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[14,4]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-1,-0.25,76]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[12,4]}}{"EntityID"{str[Water]}}{"Position"{sngArr[17,-0.25,76]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[30,8]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-1,-0.25,80]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[13,4]}}{"EntityID"{str[Water]}}{"Position"{sngArr[0,-0.25,76]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[11,4]}}{"EntityID"{str[Water]}}{"Position"{sngArr[17,-0.25,76]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[28,8]}}{"EntityID"{str[Water]}}{"Position"{sngArr[0,-0.25,80]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 		
 	Waterside Sides (Direction = Where the water is)
 		South
@@ -253,13 +253,11 @@ Water:
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[16,-0.25,76]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
 			
 		SouthWest
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-1,-0.25,75]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[19,-0.25,75]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[13,-0.25,79]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[2]}}]}}
 			
 		SouthEast
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[10,-0.25,75]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
-			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[28,-0.25,75]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[Water]}}{"Position"{sngArr[16,-0.25,79]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,4,4]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[11]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
 			
 	Waterside Clockwise Corners (Direction = Where the water is)
@@ -319,7 +317,7 @@ NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[21,0,17]}}{"TextureID"{str[Fisherman]}}{"ID"{int[2]}}{"Name"{str[Fisherman Terry]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\002]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[20,0,6]}}{"TextureID"{str[Fisherman]}}{"ID"{int[3]}}{"Name"{str[Fisherman Connor]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\003]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[17,0,67]}}{"TextureID"{str[JrTrainer_Male]}}{"ID"{int[4]}}{"Name"{str[Jr. Trainer♂ Darwin]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\004]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[12,0,72]}}{"TextureID"{str[Fisherman]}}{"ID"{int[5]}}{"Name"{str[Fisherman Marrec]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route61\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[12,0,72]}}{"TextureID"{str[Fisherman]}}{"ID"{int[5]}}{"Name"{str[Fisherman Marrec]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\route61\005]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Items:
 	Dragon Scale
@@ -337,5 +335,5 @@ Offsets:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[20,-38]}}{"Map"{str[Jaeru\Main.dat]}}]}}
 
 Backdrops:
-	{"Backdrop"{BAC[{"Position"{sngArr[-1.5,-0.75,87.5]}}{"Size"{intArr[30,40]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+	{"Backdrop"{BAC[{"Position"{sngArr[-0.5,-0.75,87.5]}}{"Size"{intArr[28,40]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		
