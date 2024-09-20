@@ -389,6 +389,22 @@ Turning Signs:
 		Sign
 			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[19.625,3,27.625]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[0,32,16,16][32,0,4,16][0,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
 	
+LampPosts
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[15,0,4]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[26,0,5]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[2,0,6]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[38,0,7]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[22,0,9]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[6,0,12]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[38,0,13]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[26,0,17]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[10,0,19]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[17,0,19]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[33,0,29]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[9,0,31]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[16,0,32]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[21,0,32]}}]}}
+	
 Buildings:
 	Flat Roof Buildings (4x2y4z)
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Castro_FlatRoof_4x2y4z]}}{"Offset"{sngArr[34,0,2]}}]}}
@@ -590,7 +606,7 @@ Harbor ScriptBlock:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[18,0,30]}}{"ID"{int[9]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\Harbor]}}{"Rotation"{int[0]}}]}}
 		
 Mew under Truck:
-	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"ID"{int[10]}}{"Position"{sngArr[16,0,32]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Wild\Mew]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"ID"{int[10]}}{"Position"{sngArr[18,0,35]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Wild\Mew]}}{"Rotation"{int[0]}}]}}
 		
 Invisible Collisions:
 	{"EntityField"{ENT[{"Size"{intArr[2,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,0,36]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -618,9 +634,9 @@ Madame Renifler:
 		
 Truck:
 	Model
-		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16.5,-0.5,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\HarborTruck\HarborTruck]}}{"Rotation"{int[3]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18.5,-0.5,35]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[96,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"ModelPath"{str[models\HarborTruck\HarborTruck]}}{"Rotation"{int[3]}}]}}
 	Collisions
-		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16,0,32]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,0,35]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 Items:
 	Hidden Ice Stone
