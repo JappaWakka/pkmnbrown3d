@@ -489,6 +489,14 @@ Turning Signs:
 		Sign
 			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[17.625,3,23.625]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[0,64,16,16][32,16,4,16][16,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
 	
+	Train Station
+		Pole
+			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13.625,0,13.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13.625,1,13.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13.625,2,13.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		Sign
+			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[13.625,3,13.625]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[0,108,16,16][32,80,4,16][0,104,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
+	
 	Gym
 		Pole
 			{"Entity"{ENT[{"Scale"{sngArr[0.25,1,0.25]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[11.625,0,7.625]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[48,48,4,16][52,48,4,4]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,-1,-1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -497,8 +505,21 @@ Turning Signs:
 		Sign
 			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[11.625,3,7.625]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[16,32,16,16][32,0,4,16][0,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
 	
+LampPosts:
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[16,0,6]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[36,0,10]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[22,0,15]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern_Broken]}}{"Offset"{sngArr[31,0,18]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern_Broken]}}{"Offset"{sngArr[3,0,19]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern_Broken]}}{"Offset"{sngArr[15,0,18]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[34,0,26]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[27,0,26]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[10,0,27]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[3,0,28]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[16,0,33]}}]}}
+	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[9,0,26]}}{"TextureID"{str[AdultWoman_Green]}}{"ID"{int[0]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[7,26,4,2]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[9,0,26]}}{"TextureID"{str[AdultWoman_Green]}}{"ID"{int[0]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[7,26,3,2]]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[19,0,25]}}{"TextureID"{str[OldMan_Red]}}{"ID"{int[1]}}{"Name"{str[Man]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[27,0,28]}}{"TextureID"{str[Youngster_Red]}}{"ID"{int[2]}}{"Name"{str[Youngster]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[29,0,18]}}{"TextureID"{str[OfficeWorker_Female]}}{"ID"{int[3]}}{"Name"{str[Office Worker]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[26,16,6,4]]}}]}}

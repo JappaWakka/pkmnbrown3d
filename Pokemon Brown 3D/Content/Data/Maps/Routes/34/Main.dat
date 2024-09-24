@@ -241,6 +241,14 @@ Water:
 Water Obstacles:
 	{"EntityField"{ENT[{"Size"{intArr[1,36]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,-0.20,8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
+LampPosts:
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[19,0,10]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern_Broken]}}{"Offset"{sngArr[23,0,20]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern_Broken]}}{"Offset"{sngArr[29,0,28]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[18,0,30]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[25,0,36]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb]}}{"Offset"{sngArr[17,0,51]}}]}}
+	
 Buildings:
 	Old Route 47 - Ilex Forest Gate
 		Walls
@@ -279,7 +287,10 @@ Buildings:
 					{"EntityField"{ENT[{"Scale"{sngArr[0.5,0.5,0.5]}}{"Size"{intArr[1,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[21.75,1.75,41.25]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[0,88,16,8]]}}{"TextureIndex"{intArr[-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 				Center
 					{"EntityField"{ENT[{"Scale"{sngArr[1,0.5,0.5]}}{"Size"{intArr[3,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[22.5,1.75,37.75]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[0,88,16,8]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-					{"EntityField"{ENT[{"Scale"{sngArr[1,0.5,1]}}{"Size"{intArr[3,3]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[22.5,1.75,38.5]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[16,80,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[1,0.5,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[22.5,1.75,38.5]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[16,80,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[1,0.5,1]}}{"Size"{intArr[2,3]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[23.5,1.75,38.5]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[16,80,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[1,0.5,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[22.5,1.75,39.5]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[112,192,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+					{"EntityField"{ENT[{"Scale"{sngArr[1,0.5,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[22.5,1.75,40.5]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[16,80,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 					{"EntityField"{ENT[{"Scale"{sngArr[1,0.5,0.5]}}{"Size"{intArr[3,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[22.5,1.75,41.25]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[0,88,16,8]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 				Right
 					{"EntityField"{ENT[{"Scale"{sngArr[0.5,0.5,0.5]}}{"Size"{intArr[1,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[25.25,1.75,37.75]}}{"TexturePath"{str[Cities\Johto]}}{"Textures"{recArr[[0,88,16,8]]}}{"TextureIndex"{intArr[-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[5]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
