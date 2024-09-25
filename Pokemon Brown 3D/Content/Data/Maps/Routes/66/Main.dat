@@ -27,6 +27,12 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[8,0,1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[12,0,33]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
 		
+LampPosts
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb_PlusHalfUnit]}}{"Offset"{sngArr[10,1,30]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb]}}{"Offset"{sngArr[10,0,9]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[7,0,0]}}]}}
+
+		
 Trees:
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[16,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[-10,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[17,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[-10,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

@@ -22,6 +22,17 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[8,1]}}{"Position"{intArr[7,0,5]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[53,0,10]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
 	
+LampPosts
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[7,0,7]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[14,0,7]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[33,0,10]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[47,0,10]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[20,0,13]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[13,0,16]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[27,0,16]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[44,0,19]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[33,0,21]}}]}}
+	
 Trees:
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[2,8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[45,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[6,4]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[47,0,6]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
