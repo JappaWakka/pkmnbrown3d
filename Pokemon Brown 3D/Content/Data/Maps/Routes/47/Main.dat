@@ -234,10 +234,10 @@ Offsets:
 		
 Backdrops:
 	Old Route 47
-		{"Backdrop"{BAC[{"Position"{sngArr[-30.5,-0.75,-16.5]}}{"Size"{intArr[29,39]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Position"{sngArr[-33.5,-0.75,-16.5]}}{"Size"{intArr[32,39]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		
 	Old Route 48
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-30.5,-0.75,22.5]}}{"Size"{intArr[29,145]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-33.5,-0.75,22.5]}}{"Size"{intArr[32,145]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[22.5,-0.75,28.5]}}{"Size"{intArr[29,132]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[51.5,-0.75,28.5]}}{"Size"{intArr[1,126]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		

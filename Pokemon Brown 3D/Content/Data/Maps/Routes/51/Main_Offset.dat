@@ -1,0 +1,15 @@
+{"Level"{LEV[{"Name"{str[Route 51]}}{"MusicLoop"{str[RouteMusic2]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
+
+Floors:
+	Grass
+		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[7,13]}}{"Position"{intArr[21,0,23]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}
+		
+Trees:
+	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[7,13]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[21,0,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+Water:
+	Waterside Sides (Direction = Where the water is)
+		East
+			{"EntityField"{ENT[{"Size"{intArr[1,13]}}{"EntityID"{str[Water]}}{"Position"{sngArr[28,-0.25,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16][112,24,16,4]]}}{"TextureIndex"{intArr[0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[9]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[3]}}]}}
+			
