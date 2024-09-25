@@ -113,6 +113,12 @@ Boulder:
 	{"Entity"{ENT[{"Scale"{sngArr[0.8,0.8,0.8]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[11,-0.1,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[224,144,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[11,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Route34_Route47_IlexForest_Gate_Boulder)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
+Laptop:
+	{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.4375,0.1875]}}{"Size"{intArr[1,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[11.7125,0.335,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[116,185,12,7][113,185,3,7][101,185,12,7][84,192,12,3][116,199,12,3]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,2,2,3,3,4,4]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"RotationXYZ"{sngArr[-0.392,1.57,0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.1875,0.4375]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12.1,0.075,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[116,199,12,3][89,195,7,3][116,192,12,7]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}]}}
+	ScriptBlock
+		{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[12,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[1,Computer]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+
 Chairs:
 	{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[18,-0.36,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[114,296,12,12][114,308,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
@@ -131,5 +137,5 @@ NPC:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[17,0,4]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gates\Route34_Route47_IlexForest_Guard]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 	{"NPC"{NPC[{"Position"{sngArr[7,0,2]}}{"TextureID"{str[OldMan_Brown]}}{"ID"{int[1]}}{"Name"{str[Old Man]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route34_Route47_IlexForest_Gate_OldMan)>]}}{"Rotation"{int[0]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[7,2,1,4]]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[15,0,2]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[2]}}{"Name"{str[Scientist]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route34_Route47_IlexForest_Gate_Scientist)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[13,2,4,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[16,0,2]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[2]}}{"Name"{str[Scientist]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route34_Route47_IlexForest_Gate_Scientist)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[16,0,1,4]]}}]}}
 
