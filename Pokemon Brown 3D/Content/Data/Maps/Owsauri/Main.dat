@@ -51,6 +51,7 @@ Floors:
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[1,4]}}{"Position"{intArr[-1,0,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[8,1]}}{"Position"{intArr[16,0,36]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[10,3,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
 	
 LampPosts
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb]}}{"Offset"{sngArr[11,0,2]}}]}}
@@ -484,7 +485,8 @@ NPCs:
 		{"NPC"{NPC[{"Position"{sngArr[10,-1,3]}}{"TextureID"{str[Empty]}}{"ID"{int[20]}}{"Name"{str[PlayerPokemon1]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\Daycare\pokemon_0]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 		{"NPC"{NPC[{"Position"{sngArr[12,-1,3]}}{"TextureID"{str[Empty]}}{"ID"{int[21]}}{"Name"{str[PlayerPokemon2]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\Daycare\pokemon_1]}}{"Rotation"{int[3]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 		
-		{"NPC"{NPC[{"Position"{sngArr[15.385,1,11]}}{"TextureID"{str[SleepingNoibat]}}{"ID"{int[3]}}{"Name"{str[Noibat]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[15.385,-2,11]}}{"TextureID"{str[SleepingNoibat]}}{"ID"{int[17]}}{"Name"{str[Noibat]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[15,3,11]}}{"TextureID"{str[[POKEMON|N]714]}}{"ID"{int[18]}}{"Name"{str[Noibat]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Straight]}}{"AnimateIdle"{bool[1]}}{"MoveRectangles"{recArr[[10,8,6,4]]}}]}}
 		
 Warps:
 	Gym
