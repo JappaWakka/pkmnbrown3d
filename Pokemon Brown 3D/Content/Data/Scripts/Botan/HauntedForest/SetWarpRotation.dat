@@ -1,0 +1,89 @@
+version=2
+:select:<level.filename>
+	:when:Area3
+		:select:<player.position>
+			:when:17,0,9
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
+		:endwhen
+	:when:Area3_MissingNo
+		:select:<player.position>
+			:when:17,0,9
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
+		:endwhen
+	:when:Area4
+		:select:<player.position>
+			:when:18,0,9
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
+			:when:3,0,9
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
+		:endwhen
+	:when:Area4_MissingNo
+		:select:<player.position>
+			:when:18,0,9
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
+			:when:3,0,9
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
+		:endwhen
+	:when:Area5
+		:select:<player.position>
+			:when:-1,0,9
+				@player.turnto(3)
+				@camera.setyaw(1.570796)
+				
+			:when:14,0,9
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
+		:endwhen
+	:when:Area5_MissingNo
+		:select:<player.position>
+			:when:-1,0,9
+				@player.turnto(3)
+				@camera.setyaw(1.570796)
+				
+			:when:14,0,9
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
+		:endwhen
+	:when:Area6
+		:select:<player.position>
+			:when:18,0,5
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
+			:when:9,0,12
+				@player.turnto(3)
+				@camera.setyaw(1.570796)
+				
+		:endwhen
+	:when:Area6_MissingNo
+		:select:<player.position>
+			:when:18,0,5
+				@player.turnto(2)
+				@camera.setyaw(0)
+				
+			:when:9,0,12
+				@player.turnto(3)
+				@player.move(1)
+				:end
+				
+		:endwhen
+	:when:Area7
+		@player.turnto(3)
+		@camera.setyaw(1.570796)
+		
+:endwhen
+:end

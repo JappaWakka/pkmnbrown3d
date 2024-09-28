@@ -14,16 +14,30 @@ version=2
 @camera.fix
 @sound.play(Teleport)
 
-@Player.SetMovement(0,1,0)
-@Player.SetSpeed(3)
-@Player.Move(3)
+@Player.DoWalkAnimation(0)
+@Storage.Set(integer,SpinCount,0)
+:while:<storage.get(integer,SpinCount)><8
+	@player.turn(1)
+	@Storage.Set(integer,SpinCount,<storage.get(integer,SpinCount)>+1)
+	@Level.Wait(2)
+:endwhile
+@Storage.Set(integer,SpinCount,0)
+:while:<storage.get(integer,SpinCount)><8
+	@player.turn(1)
+	@Storage.Set(integer,SpinCount,<storage.get(integer,SpinCount)>+1)
+:endwhile
+:while:<player.position(y)><3
+	@player.turn(1)
+	@player.warp(~,~+0.1,~)
+:endwhile
 
 @screen.fadeoutcolor(255,255,255)
 @screen.fadeout(15)
 @camera.update
+@player.turnto(2)
 :select:<player.position>
 	:when:16,3,14
-		@player.warp(Castro\CastroManor\1F.dat,16,0.1,14)
+		@player.warp(Castro\CastroManor\1F.dat,16,0.1,14,0,3)
 		@level.update
 		:if:<Register.Registered(mansionlock)>=True
 			@entity.remove(0)
@@ -45,6 +59,7 @@ version=2
 		@Player.SetMovement(0,-1,0)
 		@Player.SetSpeed(3)
 		@Player.Move(3)
+		@Player.DoWalkAnimation(1)
 		
 		@camera.defix
 		@screen.fadeoutcolor
@@ -73,7 +88,7 @@ version=2
 		:endif
 		:end
 	:when:17,3,14
-		@player.warp(Castro\CastroManor\1F.dat,16,0.1,14)
+		@player.warp(Castro\CastroManor\1F.dat,16,0.1,14,0,3)
 		@level.update
 		:if:<Register.Registered(mansionlock)>=True
 			@entity.remove(0)
@@ -95,6 +110,7 @@ version=2
 		@Player.SetMovement(0,-1,0)
 		@Player.SetSpeed(3)
 		@Player.Move(3)
+		@Player.DoWalkAnimation(1)
 		
 		@camera.defix
 		@screen.fadeoutcolor
@@ -123,7 +139,7 @@ version=2
 		:endif
 		:end
 	:when:19,3,14
-		@player.warp(Castro\CastroManor\2F.dat,19,0.1,14)
+		@player.warp(Castro\CastroManor\2F.dat,19,0.1,14,0,3)
 		
 		@level.update
 		@camera.defix
@@ -137,12 +153,14 @@ version=2
 		@Player.SetMovement(0,-1,0)
 		@Player.SetSpeed(3)
 		@Player.Move(3)
+		@Player.DoWalkAnimation(1)
 		
 		@camera.defix
 		@screen.fadeoutcolor
 		:if:<storage.get(bool,SetToFirstPerson)>=true
 			@Camera.DeactivateThirdPerson
 		:endif
+
 		:end
 :endwhen
 

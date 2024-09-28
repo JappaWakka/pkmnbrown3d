@@ -410,7 +410,6 @@ Buildings:
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Castro_FlatRoof_4x2y4z]}}{"Offset"{sngArr[34,0,2]}}]}}
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Castro_FlatRoof_4x2y4z]}}{"Offset"{sngArr[28,0,8]}}]}}
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Castro_FlatRoof_4x2y4z]}}{"Offset"{sngArr[34,0,8]}}]}}
-		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Castro_FlatRoof_4x2y4z]}}{"Offset"{sngArr[28,0,14]}}]}}
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Castro_FlatRoof_4x2y4z]}}{"Offset"{sngArr[34,0,14]}}]}}
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Castro_FlatRoof_4x2y4z]}}{"Offset"{sngArr[14,0,24]}}]}}
 	
@@ -427,6 +426,9 @@ Buildings:
 		
 	TradeHouse (4x2y4z)
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Castro_FlatRoof_4x2y4z_Entrance]}}{"Offset"{sngArr[10,0,12]}}]}}
+	
+	PunchTutorHouse (4x2y4z)
+		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Castro_FlatRoof_4x2y4z_Entrance]}}{"Offset"{sngArr[28,0,14]}}]}}
 		
 	PokeMart (4x2y4z)
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_PokeMart_Rijon_4x2y4z]}}{"Offset"{sngArr[28,0,2]}}]}}
@@ -657,7 +659,10 @@ Warps:
 
 	TradeHouse
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[11,0,15]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\TradeHouse.dat,3,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
-
+	
+	PunchTutorHouse
+		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[29,0,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[128,80,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Castro\PunchTutorHouse.dat,5,0.1,7,0,,1]}}{"Rotation"{int[0]}}]}}
+		
 	Route 58
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[18,0,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\58\Main.dat,10,0.1,30,0]}}{"Rotation"{int[0]}}]}}
 		{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[19,0,-2]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Routes\58\Main.dat,11,0.1,30,0]}}{"Rotation"{int[0]}}]}}

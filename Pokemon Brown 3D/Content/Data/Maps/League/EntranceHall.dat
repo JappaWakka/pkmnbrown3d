@@ -187,8 +187,8 @@ NPCs:
 		{"NPC"{NPC[{"Position"{sngArr[4,0.155,0.25]}}{"TextureID"{str[[POKEMON|N]242]}}{"ID"{int[1]}}{"Name"{str[Blissey]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Mart Clerk
 		{"NPC"{NPC[{"Position"{sngArr[18,0.155,0]}}{"TextureID"{str[Clerk]}}{"ID"{int[3]}}{"Name"{str[Mart Clerk]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	Entrance Lady
-		{"NPC"{NPC[{"Position"{sngArr[2,0,3]}}{"TextureID"{str[Beauty]}}{"ID"{int[5]}}{"Name"{str[Entrance Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(League_EntranceHall_EntranceLady)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,2,1,3]]}}]}}
+	Giga Impact Tutor
+		{"NPC"{NPC[{"Position"{sngArr[2,0,3]}}{"TextureID"{str[Beauty]}}{"ID"{int[5]}}{"Name"{str[Giga Impact Tutor]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\EntranceHall_MoveTutor_GigaImpact]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,2,1,3]]}}]}}
 	Gym Guy
 		{"NPC"{NPC[{"Position"{sngArr[12,0,1]}}{"TextureID"{str[GymGuy]}}{"ID"{int[4]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[League\GymGuy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Elite Four Lore Guy

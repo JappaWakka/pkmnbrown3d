@@ -1,0 +1,111 @@
+version=2
+@storage.set(integer,MoveID,-1)
+@storage.set(integer,MoveName,Nothing)
+@Text.Show(<system.token(Castro_PunchTutorHouse_MoveTutor_Intro)>)
+@options.SetCancelIndex(4)
+@options.show(<system.token(move_name_8)>,<system.token(move_name_9)>,<system.token(move_name_7)>,<system.token(Castro_PunchTutorHouse_MoveTutor_FacePunch)>,Cancel)
+	:when:<system.token(move_name_8)>
+		@storage.set(integer,MoveID,8)
+		@storage.set(string,MoveName,<system.token(move_name_8)>)
+	:when:<system.token(move_name_9)>
+		@storage.set(integer,MoveID,9)
+		@storage.set(string,MoveName,<system.token(move_name_9)>)
+	:when:<system.token(move_name_7)>
+		@storage.set(integer,MoveID,7)
+		@storage.set(string,MoveName,<system.token(move_name_7)>)
+	:when:<system.token(Castro_PunchTutorHouse_MoveTutor_FacePunch)>
+		@Text.Show(<system.token(Castro_PunchTutorHouse_MoveTutor_Choose_FacePunch)>)
+		:if:<camera.thirdperson>=true
+			@storage.set(bool,SetToFirstPerson,false)
+		:else
+			@storage.set(bool,SetToFirstPerson,true)
+		:endif
+		
+		@camera.activatethirdperson
+		@level.wait(10)
+		@sound.play(Emote_Exclamation)
+		@Entity.ShowMessageBulb(1|<player.position(x)>|0.7|<player.position(z)>)
+		@Music.Stop
+		@Sound.Play(Battle\Attacks\Normal\Tackle)
+		@Level.Wait(15)
+		@Player.DoWalkAnimation(0)
+		@Sound.Play(Teleport,1)
+		@camera.reset
+		@camera.setpitch(-0.20)
+		@level.wait(10)
+		@camera.fix
+		@Player.SetMovement(0,1,0)
+		@Player.SetSpeed(3)
+		@Player.Move(3)
+		
+		@screen.fadeoutcolor
+		@screen.fadeout(15)
+		@camera.update
+		
+		@player.warp(<player.lastrestplace>,0,3)
+		
+		@level.update
+		@camera.defix
+		@camera.update
+		@camera.fix
+		@player.warp(~,2.9,~)
+		@level.update
+		@screen.fadein(15)
+		@camera.update
+		@Music.Play(<Level.MusicLoop>)
+		@Player.SetMovement(0,-1,0)
+		@Player.SetSpeed(3)
+		@Player.Move(3)
+		@Player.DoWalkAnimation(1)
+		
+		@camera.defix
+		:if:<storage.get(bool,SetToFirstPerson)>=true
+			@Camera.DeactivateThirdPerson
+		:endif
+		:end
+	
+	:when:Cancel
+		@Text.Show(<system.token(Castro_PunchTutorHouse_MoveTutor_Outro)>)
+		:end
+:endwhen
+@Text.Show(<system.token(Castro_PunchTutorHouse_MoveTutor_LearnQuestion)>)
+@options.SetCancelIndex(1)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		:if:3000><player.money>
+			@Text.Show(<system.token(Castro_PunchTutorHouse_MoveTutor_NotEnoughMoney)>)
+			:end
+		:else
+			@Text.Show(<system.token(Castro_PunchTutorHouse_MoveTutor_WhichPokémon)>)
+			@Storage.Set(bool,CanExit,false)
+			:while:<storage.get(bool,CanExit)>=false
+				@Pokemon.Select(1,1,0,<storage.get(integer,MoveID)>)
+				:if:<not><pokemon.selected>=-1
+					:if:<Pokemon.CanLearnAttack(<pokemon.selected>,<storage.get(integer,MoveID)>)>=true
+						:if:<Pokemon.HasAttack(<pokemon.selected>,<storage.get(integer,MoveID)>)>=false
+							@Pokemon.LearnAttack(<pokemon.selected>,<storage.get(integer,MoveID)>)
+							:if:<Pokemon.HasAttack(<pokemon.selected>,<storage.get(integer,MoveID)>)>=true
+								@Player.Money(-3000)
+								@sound.play(buy)
+								@Storage.Set(bool,CanExit,true)
+							:endif
+						:else
+							@Text.Show(<system.token(Castro_PunchTutorHouse_MoveTutor_Move_AlreadyKnows)>)
+						:endif
+					:else
+						@Text.Show(<system.token(Castro_PunchTutorHouse_MoveTutor_Move_CannotLearn)>)
+					:endif
+				:else
+					@Storage.Set(bool,CanExit,true)
+				:endif
+			:endwhile
+			@Text.Show(<system.token(Castro_PunchTutorHouse_MoveTutor_Outro)>)
+			:end
+		:endif
+		
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Castro_PunchTutorHouse_MoveTutor_Outro)>)
+		:end
+		
+:endwhen
+:end

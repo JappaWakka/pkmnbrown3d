@@ -3,7 +3,7 @@ version=2
 @Text.Show(<system.token(Route34_MoveTutor_Question)>)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
-		:if:1000><player.money>
+		:if:8000><player.money>
 			@Text.Show(<system.token(Route34_MoveTutor_NotEnoughMoney)>)
 			:end
 		:else
@@ -16,7 +16,7 @@ version=2
 						:if:<Pokemon.HasAttack(<pokemon.selected>,1014)>=false
 							@Pokemon.LearnAttack(<pokemon.selected>,1014)
 							:if:<Pokemon.HasAttack(<pokemon.selected>,1014)>=true
-								@Player.Money(-1000)
+								@Player.Money(-8000)
 								@sound.play(buy)
 								@Storage.Set(bool,CanExit,true)
 							:endif

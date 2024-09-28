@@ -1,12 +1,25 @@
 version=2
 
 :if:<Register.Registered(BeatGiovanni)>=false
+	:if:<Player.Position(x)>=7
+		@Player.TurnTo(0)
+	:endif
 	@Text.Show(<system.token(Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle)>)
 	@music.play(Encounter_Rocket)
-	@npc.move(1,2)
 	:if:<player.position(x)>=6
-		@npc.turn(1,3)
-		@player.turnto(1)
+		:if:<Player.ThirdPerson>=false
+			@NPC.MoveAsync(1,1)
+			@Player.TurnTo(1)
+			@NPC.Move(1,1)
+			@npc.turn(1,3)
+		:else
+			@NPC.Move(1,1)
+			@Player.TurnTo(1)
+			@NPC.Move(1,1)
+			@NPC.Turn(1,3)
+		:endif
+	:else
+		@npc.move(1,2)
 	:endif
 	@Battle.StartTrainer(SilphCoWarehouse\Giovanni)
 	@Text.Show(<system.token(Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle)>)

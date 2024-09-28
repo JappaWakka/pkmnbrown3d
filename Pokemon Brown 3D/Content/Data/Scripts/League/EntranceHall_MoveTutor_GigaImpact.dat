@@ -1,0 +1,42 @@
+version=2
+
+@Text.Show(<system.token(League_EntranceHall_MoveTutor_Question)>)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		:if:8000><player.money>
+			@Text.Show(<system.token(League_EntranceHall_MoveTutor_NotEnoughMoney)>)
+			:end
+		:else
+			@Text.Show(<system.token(League_EntranceHall_MoveTutor_WhichPokémon)>)
+			@Storage.Set(bool,CanExit,false)
+			:while:<storage.get(bool,CanExit)>=false
+				@Pokemon.Select(1,1,0,416)
+				:if:<not><pokemon.selected>=-1
+					:if:<Pokemon.CanLearnAttack(<pokemon.selected>,416)>=true
+						:if:<Pokemon.HasAttack(<pokemon.selected>,416)>=false
+							@Pokemon.LearnAttack(<pokemon.selected>,416)
+							:if:<Pokemon.HasAttack(<pokemon.selected>,416)>=true
+								@Player.Money(-8000)
+								@sound.play(buy)
+								@Storage.Set(bool,CanExit,true)
+							:endif
+						:else
+							@Text.Show(<system.token(League_EntranceHall_MoveTutor_HyperVoice_AlreadyKnows)>)
+						:endif
+					:else
+						@Text.Show(<system.token(League_EntranceHall_MoveTutor_HyperVoice_CannotLearn)>)
+					:endif
+				:else
+					@Storage.Set(bool,CanExit,true)
+				:endif
+			:endwhile
+			@Text.Show(<system.token(League_EntranceHall_MoveTutor_Outro)>)
+			:end
+		:endif
+		
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(League_EntranceHall_MoveTutor_Outro)>)
+		:end
+		
+:endwhen
+:end

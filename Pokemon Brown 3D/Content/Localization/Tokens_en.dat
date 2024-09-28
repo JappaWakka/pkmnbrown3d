@@ -4418,6 +4418,20 @@ Castro_PokeCenter_BenchGuy,It is true that a higher level~Pokémon will be more 
 Castro_PokeCenter_Sailor,My Pokémon was poisoned!*It almost fainted while we~were walking!
 Castro_PokeCenter_Fisherman,Are you interested in fishing?~An old rod might not seem~much, but a friend of mine~caught a Gyarados once!*It scared the heck out of us,~that's why we only use a Good~Rod now. With it you can only~fish Marill, Goldeen, Poliwag~and Wooper, so it's safer!
 
+Castro_PunchTutorHouse_MoveTutor_Intro,Hooha!*Oh, hi there kid. I'm training~to beat my rival, Koji!*Do you want to train with me?*I could teach one of your~Pokémon a move or two...~for a price.*What do you want to learn?
+Castro_PunchTutorHouse_MoveTutor_LearnQuestion,Would you like me to teach one~of your Pokémon the move~<storage.get(string,MoveName)> for only $3000?
+Castro_PunchTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
+Castro_PunchTutorHouse_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
+Castro_PunchTutorHouse_MoveTutor_Move_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows <storage.get(string,MoveName)>.
+Castro_PunchTutorHouse_MoveTutor_Move_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~<storage.get(string,MoveName)>!
+Castro_PunchTutorHouse_MoveTutor_FacePunch,Face Punch
+Castro_PunchTutorHouse_MoveTutor_Choose_FacePunch,You sure?*Well, if that's what you want,~here I come!*Hooha!
+Castro_PunchTutorHouse_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~a move!
+Castro_PunchTutorHouse_Haiku_IcePunch,Slap across the face,~caressed by the ice cold hit~of a frozen hand.
+Castro_PunchTutorHouse_Haiku_ThunderPunch,The umbrella up.~Nothing will protect you less~from a static shock.
+Castro_PunchTutorHouse_Haiku_FirePunch,Its fists, set ablaze.~Apply hot pressure and see~your foes turn to ash.
+Castro_PunchTutorHouse_Haiku_FacePunch,It seems unlikely.~If you decide to find out,~face the consequence!
+
 Castro_TradeHouse_ChanseyTrade_Question,Hi! Do you have a~Pidgey?*Want to trade it for Chansey?
 Castro_TradeHouse_ChanseyTrade_Answer_No,That's too bad.
 Castro_TradeHouse_ChanseyTrade_AfterTrade,How is my old Chansey?
@@ -4883,6 +4897,12 @@ League_Exterior_Sign,      Rijon League~El Norteno Summit*E pluribus unum.
 League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and the~current Champion in order to~receive that title.*Go for it.
 League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Yo! Champ!*So you defeated all Elite Four~members?*They have been training~nonstop to become the Champion~themselves, so if you plan to~challenge them again, you~better be prepared!*Also, have you visited the~Gym Leaders again?*Now that you've become the~Champion they'll battle you~with all their might!
 League_EntranceHall_EntranceLady,Do you think you're ready?*Good, go in!
+League_EntranceHall_MoveTutor_Question,Do you think you're ready?*Good, go in!*But first, I know a move that~can help you out.*Would you like me to teach one~of your Pokémon the move~Giga Impact for only $8000?
+League_EntranceHall_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
+League_EntranceHall_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
+League_EntranceHall_MoveTutor_GigaImpact_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Giga Impact.
+League_EntranceHall_MoveTutor_GigaImpact_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Giga Impact!
+League_EntranceHall_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
 League_EntranceHall_EliteFourLoreGuy_Intro,Eight Badges?!*You've sure come a long way~kid.*Would you like to know more~about the Elite Four?
 League_EntranceHall_EliteFourLoreGuy_Question,Who do you want to know about?
 League_EntranceHall_EliteFourLoreGuy_Answer_Redd,Rijon's first Elite Four~member! Redd specializes in~the Fire-type.*Always hot and ready for~battle, she used to be a~member of the Kanto Pokémon~Federation, hence she is~always on her beloved bike.*It is said she was powerful~enough to terrify all of the~other members of the gang,~thereby attracting the~attention of the Rijon League.*It is said that nothing can~scare Redd, who, legend says,~fought off a wild Ursaring~with her bare hands.
@@ -4992,7 +5012,7 @@ Route34_Route47_IlexForest_Gate_Guard,Don't bother going north.~The way to Golde
 Route34_Route47_IlexForest_Gate_Boulder,<Player.Name>: This boulder seems~to have fallen through that~hole in the roof...*That's scary.
 
 [Route 34]
-Route34_MoveTutor_Intro,I screamed so much when the~earthquake happened that my~Donphan learned a move!*Maybe if I scream again, one of~your Pokémon will learn it too?*I don't scream for free though.*Would you like me to teach one~of your Pokémon the move~Hyper Voice for only $1000?
+Route34_MoveTutor_Question,I screamed so much when the~earthquake happened that my~Donphan learned a move!*Maybe if I scream again, one of~your Pokémon will learn it too?*I don't scream for free though.*Would you like me to teach one~of your Pokémon the move~Hyper Voice for only $8000?
 Route34_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
 Route34_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
 Route34_MoveTutor_HyperVoice_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Hyper Voice.

@@ -14,44 +14,57 @@ version=2
 @camera.fix
 @sound.play(Teleport)
 @Player.DoWalkAnimation(0)
-@Player.SetMovement(0,1,0)
-@Player.SetSpeed(3)
-@Player.Move(3)
+@Storage.Set(integer,SpinCount,0)
+:while:<storage.get(integer,SpinCount)><8
+	@player.turn(1)
+	@Storage.Set(integer,SpinCount,<storage.get(integer,SpinCount)>+1)
+	@Level.Wait(2)
+:endwhile
+@Storage.Set(integer,SpinCount,0)
+:while:<storage.get(integer,SpinCount)><8
+	@player.turn(1)
+	@Storage.Set(integer,SpinCount,<storage.get(integer,SpinCount)>+1)
+:endwhile
+:while:<player.position(y)><3
+	@player.turn(1)
+	@player.warp(~,~+0.1,~)
+:endwhile
 
 @screen.fadeoutcolor(255,255,255)
 @screen.fadeout(15)
 @camera.update
+@player.turnto(2)
 :select:<level.filename>
 	:when:UndergroundCaveMaze_B1F
-		@player.warp(FinalDungeon\WarpRoom.dat,1,0.1,1)
+		@player.warp(FinalDungeon\WarpRoom.dat,1,0.1,1,0,3)
 	:when:SmallRoom4
-		@player.warp(FinalDungeon\WarpRoom.dat,1,0.1,3)
+		@player.warp(FinalDungeon\WarpRoom.dat,1,0.1,3,0,3)
 	:when:SmallRoom5
-		@player.warp(FinalDungeon\WarpRoom.dat,5,0.1,5)
+		@player.warp(FinalDungeon\WarpRoom.dat,5,0.1,5,0,3)
 	:when:SmallRoom6
-		@player.warp(FinalDungeon\WarpRoom.dat,5,0.1,3)
+		@player.warp(FinalDungeon\WarpRoom.dat,5,0.1,3,0,3)
 	:when:SmallRoom7
-		@player.warp(FinalDungeon\WarpRoom.dat,5,0.1,1)
+		@player.warp(FinalDungeon\WarpRoom.dat,5,0.1,1,0,3)
 	:when:Lobby
-		@player.warp(FinalDungeon\WarpRoom.dat,3,0.1,5)
+		@player.warp(FinalDungeon\WarpRoom.dat,3,0.1,5,0,3)
 	:when:WarpRoom
 		:select:<player.position>
 			:when:1,3,1
-				@player.warp(FinalDungeon\UndergroundCaveMaze_B1F.dat,17,0.1,21)
+				@player.warp(FinalDungeon\UndergroundCaveMaze_B1F.dat,17,0.1,21,0,3)
 			:when:3,3,1
-				@player.warp(FinalDungeon\WarpRoom.dat,1,0.1,5)
+				@player.warp(FinalDungeon\WarpRoom.dat,1,0.1,5,0,3)
 			:when:5,3,1
-				@player.warp(FinalDungeon\SmallRoom7.dat,3,0.1,4)
+				@player.warp(FinalDungeon\SmallRoom7.dat,3,0.1,4,0,3)
 			:when:1,3,3
-				@player.warp(FinalDungeon\SmallRoom4.dat,1,0.1,1)
+				@player.warp(FinalDungeon\SmallRoom4.dat,1,0.1,1,0,3)
 			:when:5,3,3
-				@player.warp(FinalDungeon\SmallRoom6.dat,2,0.1,2)
+				@player.warp(FinalDungeon\SmallRoom6.dat,2,0.1,2,0,3)
 			:when:1,3,5
-				@player.warp(FinalDungeon\WarpRoom.dat,3,0.1,1)
+				@player.warp(FinalDungeon\WarpRoom.dat,3,0.1,1,0,3)
 			:when:3,3,5
-				@player.warp(FinalDungeon\Lobby.dat,6,0.1,1)
+				@player.warp(FinalDungeon\Lobby.dat,6,0.1,1,0,3)
 			:when:5,3,5
-				@player.warp(FinalDungeon\SmallRoom5.dat,2,0.1,4)
+				@player.warp(FinalDungeon\SmallRoom5.dat,2,0.1,4,0,3)
 		:endwhen
 :endwhen
 
