@@ -1,0 +1,42 @@
+version=2
+
+@Text.Show(<system.token(Owsauri_GamblerHouse_Mother_MoveTutor_Question)>)
+@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	:when:<system.token(global_yes)>
+		:if:2000><player.money>
+			@Text.Show(<system.token(Owsauri_GamblerHouse_Mother_MoveTutor_NotEnoughMoney)>)
+			:end
+		:else
+			@Text.Show(<system.token(Owsauri_GamblerHouse_Mother_MoveTutor_WhichPokémon)>)
+			@Storage.Set(bool,CanExit,false)
+			:while:<storage.get(bool,CanExit)>=false
+				@Pokemon.Select(1,1,0,577)
+				:if:<not><pokemon.selected>=-1
+					:if:<Pokemon.CanLearnAttack(<pokemon.selected>,577)>=true
+						:if:<Pokemon.HasAttack(<pokemon.selected>,577)>=false
+							@Pokemon.LearnAttack(<pokemon.selected>,577)
+							:if:<Pokemon.HasAttack(<pokemon.selected>,577)>=true
+								@Player.Money(-2000)
+								@sound.play(buy)
+								@Storage.Set(bool,CanExit,true)
+							:endif
+						:else
+							@Text.Show(<system.token(Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_AlreadyKnows)>)
+						:endif
+					:else
+						@Text.Show(<system.token(Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_CannotLearn)>)
+					:endif
+				:else
+					@Storage.Set(bool,CanExit,true)
+				:endif
+			:endwhile
+			@Text.Show(<system.token(Owsauri_GamblerHouse_Mother_MoveTutor_Outro)>)
+			:end
+		:endif
+		
+	:when:<system.token(global_no)>
+		@Text.Show(<system.token(Owsauri_GamblerHouse_Mother_MoveTutor_Outro)>)
+		:end
+		
+:endwhen
+:end

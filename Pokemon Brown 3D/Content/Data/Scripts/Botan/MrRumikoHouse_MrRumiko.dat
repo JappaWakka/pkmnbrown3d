@@ -1,12 +1,50 @@
 version=2
 
 :if:<Register.Registered(ReceivedPokeFlute)>=false
-	@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_BeforeTalking_BeforeReceivePokeFlute)>)
+	@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_BeforeReceivePokeFlute)>)
 	@Item.Give(gm9,1)
 	@Item.MessageGive(gm9,1)
-	@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_BeforeTalking_AfterReceivePokeFlute)>)
+	@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_AfterReceivePokeFlute)>)
 	@Register.Register(ReceivedPokeFlute)
 :else
-	@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_AfterTalking)>)
+	@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_MoveTutor_Question)>)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		:when:<system.token(global_yes)>
+			:if:3000><player.money>
+				@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_MoveTutor_NotEnoughMoney)>)
+				:end
+			:else
+				@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_MoveTutor_WhichPokémon)>)
+				@Storage.Set(bool,CanExit,false)
+				:while:<storage.get(bool,CanExit)>=false
+					@Pokemon.Select(1,1,0,399)
+					:if:<not><pokemon.selected>=-1
+						:if:<Pokemon.CanLearnAttack(<pokemon.selected>,399)>=true
+							:if:<Pokemon.HasAttack(<pokemon.selected>,399)>=false
+								@Pokemon.LearnAttack(<pokemon.selected>,399)
+								:if:<Pokemon.HasAttack(<pokemon.selected>,399)>=true
+									@Player.Money(-3000)
+									@sound.play(buy)
+									@Storage.Set(bool,CanExit,true)
+								:endif
+							:else
+								@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_AlreadyKnows)>)
+							:endif
+						:else
+							@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_CannotLearn)>)
+						:endif
+					:else
+						@Storage.Set(bool,CanExit,true)
+					:endif
+				:endwhile
+				@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_MoveTutor_Outro)>)
+				:end
+			:endif
+			
+		:when:<system.token(global_no)>
+			@Text.Show(<system.token(Botan_MrRumikoHouse_MrRumiko_MoveTutor_Outro)>)
+			:end
+			
+	:endwhen
 :endif
 :end

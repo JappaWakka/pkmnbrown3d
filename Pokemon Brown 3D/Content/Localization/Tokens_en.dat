@@ -3795,8 +3795,14 @@ Owsauri_NameRater_RenamePokemon_NewName,OK! This Pokémon has been~renamed <poke
 Owsauri_NameRater_NoOrCancel,Fine! Come any time you like!
 
 Owsauri_GamblerHouse_Son,I hope the Day Care Man is~taking good care of my~Pokémon.
-Owsauri_GamblerHouse_Mother,My husband is addicted~to the slots...
-Owsauri_GamblerHouse_Father,Hmm... which book should I~pick out of this shelf...?
+Owsauri_GamblerHouse_Mother_MoveTutor_Question,My husband is addicted~to the slots, not even my~kisses are enough for him~anymore.*Maybe your Pokémon would~appreciate them more.*Would you like me to teach one~of your Pokémon the move~Draining Kiss for only $2000?
+Owsauri_GamblerHouse_Mother_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
+Owsauri_GamblerHouse_Mother_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
+Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Draining Kiss.
+Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Draining Kiss!
+Owsauri_GamblerHouse_Mother_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
+
+Owsauri_GamblerHouse_Father,Yawn. My wife told me to take a break.
 
 Owsauri_Casino_1F_Fisherman_1,Gambling is healthy!
 Owsauri_Casino_1F_Fisherman_2,<Player.Name> received 10 coins!
@@ -4258,15 +4264,21 @@ Botan_Main_RocketGrunt_Sleeping,...~Snore...*Hah! He's taking a snooze!
 Botan_PokeMart_Guy,This place is better than~any other mart!
 Botan_PokeMart_Girl,Revive is costly, but it revives~fainted Pokémon!
 
-Botan_MrRumikoHouse_Nidorino_Cry,Gaoo!
-Botan_MrRumikoHouse_Psyduck_Cry,Gwappa!
+Botan_MrRumikoHouse_Nidorino_Cry,Nidorino: Gaoo!
+Botan_MrRumikoHouse_Psyduck_Cry,Psyduck: Gwappa!
 Botan_MrRumikoHouse_Grandson_BeforeRescue,That's odd.*Mr. Rumiko is gone.
 Botan_MrRumikoHouse_Grandson_AfterRescue,I'm Mr. Rumiko's grandson!
 Botan_MrRumikoHouse_Granddaughter,Hiya!
 Botan_MrRumikoHouse_Magazine,Pokémon Monthly
-Botan_MrRumikoHouse_MrRumiko_BeforeTalking_BeforeReceivePokeFlute,Mr. Rumiko: Alright,~<Player.Name>!*Here is the gift I promised~you.*It's a very popular item...~a PokéFlute!
-Botan_MrRumikoHouse_MrRumiko_BeforeTalking_AfterReceivePokeFlute,Mr. Rumiko: Upon hearing the~PokéFlute, any sleeping~Pokémon will wake up right~away!
-Botan_MrRumikoHouse_MrRumiko_AfterTalking,Mr. Rumiko: Good luck and~thanks again for saving me!
+Botan_MrRumikoHouse_MrRumiko_BeforeReceivePokeFlute,Mr. Rumiko: Alright,~<Player.Name>!*Here is the gift I promised~you.*It's a very popular item...~a PokéFlute!
+Botan_MrRumikoHouse_MrRumiko_AfterReceivePokeFlute,Mr. Rumiko: Upon hearing the~PokéFlute, any sleeping~Pokémon will wake up right~away!
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_Question,Mr. Rumiko: Good luck and~thanks again for saving me,~<Player.Name>!*I learned a couple of things~on my strolls through the~forest, would you like me to~teach one of your Pokémon~the move Dark Pulse for only~$3000?
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Dark Pulse.
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Dark Pulse!
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
+
 
 Botan_TradeHouse_Blackbelt,Eevee evolves based on where~it grew up.*That girl's Eevee came from~a huge forest.
 Botan_TradeHouse_TyrogueTrade_Question,Hello there!*Do you want to trade your~Butterfree for Tyrogue?
@@ -4896,13 +4908,12 @@ League_Exterior_Sign,      Rijon League~El Norteno Summit*E pluribus unum.
 
 League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and the~current Champion in order to~receive that title.*Go for it.
 League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Yo! Champ!*So you defeated all Elite Four~members?*They have been training~nonstop to become the Champion~themselves, so if you plan to~challenge them again, you~better be prepared!*Also, have you visited the~Gym Leaders again?*Now that you've become the~Champion they'll battle you~with all their might!
-League_EntranceHall_EntranceLady,Do you think you're ready?*Good, go in!
-League_EntranceHall_MoveTutor_Question,Do you think you're ready?*Good, go in!*But first, I know a move that~can help you out.*Would you like me to teach one~of your Pokémon the move~Giga Impact for only $8000?
-League_EntranceHall_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
-League_EntranceHall_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
-League_EntranceHall_MoveTutor_GigaImpact_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Giga Impact.
-League_EntranceHall_MoveTutor_GigaImpact_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Giga Impact!
-League_EntranceHall_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
+League_EntranceHall_MoveTutor_Female_Question,Do you think you're ready?*Good, go in!*But first, I know a move that~can help you out.*Would you like me to teach one~of your Pokémon the move~Giga Impact for only $8000?
+League_EntranceHall_MoveTutor_Female_NotEnoughMoney,Hmmm...*You don't have enough money!
+League_EntranceHall_MoveTutor_Female_WhichPokémon,Which Pokémon should I tutor?
+League_EntranceHall_MoveTutor_Female_GigaImpact_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Giga Impact.
+League_EntranceHall_MoveTutor_Female_GigaImpact_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Giga Impact!
+League_EntranceHall_MoveTutor_Female_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
 League_EntranceHall_EliteFourLoreGuy_Intro,Eight Badges?!*You've sure come a long way~kid.*Would you like to know more~about the Elite Four?
 League_EntranceHall_EliteFourLoreGuy_Question,Who do you want to know about?
 League_EntranceHall_EliteFourLoreGuy_Answer_Redd,Rijon's first Elite Four~member! Redd specializes in~the Fire-type.*Always hot and ready for~battle, she used to be a~member of the Kanto Pokémon~Federation, hence she is~always on her beloved bike.*It is said she was powerful~enough to terrify all of the~other members of the gang,~thereby attracting the~attention of the Rijon League.*It is said that nothing can~scare Redd, who, legend says,~fought off a wild Ursaring~with her bare hands.

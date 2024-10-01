@@ -1,13 +1,13 @@
 version=2
 
-@Text.Show(<system.token(League_EntranceHall_MoveTutor_Question)>)
+@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_Question)>)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 		:if:8000><player.money>
-			@Text.Show(<system.token(League_EntranceHall_MoveTutor_NotEnoughMoney)>)
+			@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_NotEnoughMoney)>)
 			:end
 		:else
-			@Text.Show(<system.token(League_EntranceHall_MoveTutor_WhichPokémon)>)
+			@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_WhichPokémon)>)
 			@Storage.Set(bool,CanExit,false)
 			:while:<storage.get(bool,CanExit)>=false
 				@Pokemon.Select(1,1,0,416)
@@ -21,21 +21,21 @@ version=2
 								@Storage.Set(bool,CanExit,true)
 							:endif
 						:else
-							@Text.Show(<system.token(League_EntranceHall_MoveTutor_HyperVoice_AlreadyKnows)>)
+							@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_HyperVoice_AlreadyKnows)>)
 						:endif
 					:else
-						@Text.Show(<system.token(League_EntranceHall_MoveTutor_HyperVoice_CannotLearn)>)
+						@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_HyperVoice_CannotLearn)>)
 					:endif
 				:else
 					@Storage.Set(bool,CanExit,true)
 				:endif
 			:endwhile
-			@Text.Show(<system.token(League_EntranceHall_MoveTutor_Outro)>)
+			@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_Outro)>)
 			:end
 		:endif
 		
 	:when:<system.token(global_no)>
-		@Text.Show(<system.token(League_EntranceHall_MoveTutor_Outro)>)
+		@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_Outro)>)
 		:end
 		
 :endwhen

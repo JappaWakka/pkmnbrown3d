@@ -11,5 +11,5 @@ Door:
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[5,0,4]}}{"TextureID"{str[YoungBoy_Purple]}}{"ID"{int[0]}}{"Name"{str[Son]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Owsauri_GamblerHouse_Son)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[2,0.155,2]}}{"TextureID"{str[AdultWoman_Red]}}{"ID"{int[1]}}{"Name"{str[Mother]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Owsauri_GamblerHouse_Mother)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0.155,2]}}{"TextureID"{str[AdultWoman_Red]}}{"ID"{int[1]}}{"Name"{str[Mother]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\MoveTutor_DrainingKiss]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[7,0,1]}}{"TextureID"{str[Gambler_Blue]}}{"ID"{int[2]}}{"Name"{str[Father]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Owsauri_GamblerHouse_Father)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
