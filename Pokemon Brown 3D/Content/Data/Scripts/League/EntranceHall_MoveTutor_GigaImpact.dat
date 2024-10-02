@@ -21,10 +21,10 @@ version=2
 								@Storage.Set(bool,CanExit,true)
 							:endif
 						:else
-							@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_HyperVoice_AlreadyKnows)>)
+							@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_GigaImpact_AlreadyKnows)>)
 						:endif
 					:else
-						@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_HyperVoice_CannotLearn)>)
+						@Text.Show(<system.token(League_EntranceHall_MoveTutor_Female_GigaImpact_CannotLearn)>)
 					:endif
 				:else
 					@Storage.Set(bool,CanExit,true)
