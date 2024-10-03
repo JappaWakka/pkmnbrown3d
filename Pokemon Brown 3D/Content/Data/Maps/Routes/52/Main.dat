@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Route 52]}}{"MusicLoop"{str[RouteMusic0]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"SurfingBattleMap"{str[Routes\52\Main_Surfing.dat]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}{"SurfingBattleMap"{str[Routes\52\Main_Surfing.dat]}}]}}
 
 Floors:
 	Grass
@@ -150,7 +150,7 @@ Large Rocks:
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[12,0,10]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[18,-0.25,20]}}]}}
 				
-LampPosts
+LampPosts:
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[6,0,1]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[8,0,12]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[17,0,19]}}]}}

@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Gravel Town]}}{"MusicLoop"{str[Gravel]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"MapScript"{str[Gravel\MapScript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}{"MapScript"{str[Gravel\MapScript]}}]}}
 
 Floors:
 	Grass
@@ -93,7 +93,7 @@ Signs:
 	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[10,0,33]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[10,0,33]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,0,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Gravel_Main_Sign_Cave)>]}}{"Visible"{bool[0]}}{"Rotation"{int[2]}}]}}
 
-LampPosts
+LampPosts:
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[1,0,6]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[5,0,0]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[16,0,4]}}]}}

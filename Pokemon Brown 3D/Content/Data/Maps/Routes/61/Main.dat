@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Route 61]}}{"MusicLoop"{str[RouteMusic3]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"MapScript"{str[route61\mapscript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}{"MapScript"{str[route61\mapscript]}}]}}
 
 Floors:
 	Grass
@@ -12,7 +12,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[4,4]}}{"Position"{intArr[16,0,25]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[10,2]}}{"Position"{intArr[10,0,73]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
 	
-LampPosts
+LampPosts:
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[17,0,3]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[10,0,8]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[18,0,15]}}]}}

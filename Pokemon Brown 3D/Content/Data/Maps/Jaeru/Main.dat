@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Jaeru City]}}{"MusicLoop"{str[JaeruBotan]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"MapScript"{str[Jaeru\Main_MapScript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}{"MapScript"{str[Jaeru\Main_MapScript]}}]}}
 
 Floors:
 	Grass
@@ -53,7 +53,7 @@ Floors:
 	Removal
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[36,0,14]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
 	
-LampPosts
+LampPosts:
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[28,0,22]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[26,0,31]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[6,0,26]}}]}}

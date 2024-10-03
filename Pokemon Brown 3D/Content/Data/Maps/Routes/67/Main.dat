@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Route 67]}}{"MusicLoop"{str[RouteMusic1]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"RideType"{int[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"Lighting"{int[0]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"RideType"{int[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"Lighting"{int[0]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}]}}
 Floors:
 	Grass
 		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[31,44]}}{"Position"{intArr[0,0,-6]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,0,16,16]}}]}}

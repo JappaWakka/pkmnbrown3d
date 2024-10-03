@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Route 53]}}{"MusicLoop"{str[RouteMusic0]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"MapScript"{str[Route53\MapScript]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}{"MapScript"{str[Route53\MapScript]}}]}}
 
 Floors:
 	Grass
@@ -79,7 +79,7 @@ Signs:
 	{"Structure"{STR[{"Map"{str[Structures\RegularSign_Rijon]}}{"Offset"{sngArr[9,0,28]}}]}}
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,28]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[64,81,16,15][60,81,4,15][64,76,16,4]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Route53_Sign)>]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 
-LampPosts
+LampPosts:
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[10,0,4]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[10,0,11]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[10,0,18]}}]}}

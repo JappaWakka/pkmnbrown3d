@@ -53,7 +53,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[8,1]}}{"Position"{intArr[16,0,36]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[6,4]}}{"Position"{intArr[10,3,8]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
 	
-LampPosts
+LampPosts:
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb]}}{"Offset"{sngArr[11,0,2]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb_PlusHalfUnit]}}{"Offset"{sngArr[20,0.3,4]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[1,0,12]}}]}}

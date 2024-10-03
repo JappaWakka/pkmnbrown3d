@@ -220,7 +220,7 @@ Turning Signs:
 		Sign
 			{"Entity"{ENT[{"Scale"{sngArr[1,1,0.25]}}{"EntityID"{str[TurningSign]}}{"Position"{sngArr[19.375,3,15.625]}}{"TexturePath"{str[TurningSigns]}}{"Textures"{recArr[[0,64,16,16][32,16,4,16][16,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,2,2,2,2]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[1]}}{"Rotation"{int[0]}}]}}
 
-LampPosts
+LampPosts:
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[5,0,2]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[14,0,6]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[24,0,7]}}]}}

@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Eagulou City]}}{"MusicLoop"{str[Eagulou]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"MapScript"{str[Eagulou\Main_MapScript]}}{"BattleMap"{str[Routes\56\Main.dat]}}{"SurfingBattleMap"{str[Routes\56\Main_Surfing.dat]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}{"MapScript"{str[Eagulou\Main_MapScript]}}{"BattleMap"{str[Routes\56\Main.dat]}}{"SurfingBattleMap"{str[Routes\56\Main_Surfing.dat]}}]}}
 
 Floors:
 	Grass
@@ -43,7 +43,7 @@ Trees:
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[22,6]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,0,24]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[1,4]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[22,0,26]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
-LampPosts
+LampPosts:
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[10,0,14]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[21,0,14]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[6,0,20]}}]}}

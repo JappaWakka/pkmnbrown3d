@@ -1,14 +1,8 @@
-{"Actions"{LEV[{"Lighting"{int[0]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"Lighting"{int[0]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}]}}
 
 BattleMapStructure:
 	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\Routes\53\Main.dat]}}{"Offset"{sngArr[4,0,5]}}]}}
 	
-{"NPC"{NPC[{"Position"{sngArr[10,0,13]}}{"TextureID"{str[RegularGuy_Blue]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route53_OtherGuy_StraightForward)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[12,0,13]}}{"TextureID"{str[[POKEMON|N]21]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route53_OtherGuy_StraightForward)>]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-
-{"NPC"{NPC[{"Position"{sngArr[15,0,13]}}{"TextureID"{str[[POKEMON|N]19]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route53_OtherGuy_StraightForward)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[17,0,13]}}{"TextureID"{str[RegularGuy_Red]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route53_OtherGuy_StraightForward)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-
 OffsetMaps:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[4,-99]}}{"Map"{str[Routes\52\Main.dat]}}]}}
 	{"OffsetMap"{MAP[{"Offset"{sngArr[-4,-32]}}{"Map"{str[Seashore\Main.dat]}}]}}

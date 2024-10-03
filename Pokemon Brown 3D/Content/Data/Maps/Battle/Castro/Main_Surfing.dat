@@ -1,3 +1,5 @@
+{"Actions"{LEV[{"Lighting"{int[0]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}]}}
+
 Water:
 	Regular Water
 		{"EntityField"{ENT[{"Size"{intArr[5,42]}}{"EntityID"{str[Water]}}{"Position"{sngArr[-10,0,-8]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
@@ -30,6 +32,10 @@ Water Obstacles:
 	{"EntityField"{ENT[{"Size"{intArr[1,9]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4,0.05,10]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[16,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,0.05,18]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[192,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"CameraDistanceDelta"{sng[-0.55]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
+LampPosts:
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb_PlusHalfUnit]}}{"Offset"{sngArr[4,0,8]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb_PlusHalfUnit]}}{"Offset"{sngArr[21,0,17]}}]}}
+
 Large Rocks:
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[-3,0,-2]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[27,0,1]}}]}}

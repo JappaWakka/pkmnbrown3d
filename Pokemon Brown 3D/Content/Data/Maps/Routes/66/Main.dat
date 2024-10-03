@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Route 66]}}{"MusicLoop"{str[RouteMusic1]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"SurfingBattleMap"{str[Routes\66\Main_Surfing.dat]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}{"SurfingBattleMap"{str[Routes\66\Main_Surfing.dat]}}]}}
 
 Floors:
 	Grass
@@ -27,12 +27,11 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[8,0,1]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[12,0,33]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,32,16,16]}}]}}
 		
-LampPosts
+LampPosts:
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb_PlusHalfUnit]}}{"Offset"{sngArr[6,0,1]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb]}}{"Offset"{sngArr[13,0,5]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb_PlusHalfUnit]}}{"Offset"{sngArr[10,1,30]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\LampPost_Orb]}}{"Offset"{sngArr[10,0,9]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[7,0,0]}}]}}
 
-		
 Trees:
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[16,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[-10,0,-1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[17,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[-10,0,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[16,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -185,7 +184,7 @@ Items:
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[8,0,7]}}{"TextureID"{str[Swimmer_Male_Land]}}{"ID"{int[4]}}{"Name"{str[Swimmer Ericsson]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\Route66\000]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[13,0,7]}}{"TextureID"{str[Swimmer_Male_Land]}}{"ID"{int[5]}}{"Name"{str[Swimmer Jake]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\001]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[9,-0.2,12]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[6]}}{"Name"{str[Swimmer Lucky]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\002]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[9,-0.2,12]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[6]}}{"Name"{str[Swimmer Lucky]}}{"Action"{int[2]}}{"AdditionalValue"{str[1|trainer\Route66\002]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[4,-0.2,29]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[7]}}{"Name"{str[Swimmer Emile]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\003]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[13,-0.2,27]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[8]}}{"Name"{str[Swimmer Logan]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\Route66\004]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[16,-0.2,33]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[8]}}{"Name"{str[Swimmer Ivan]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\Route66\005]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

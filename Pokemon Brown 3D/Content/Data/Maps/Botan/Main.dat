@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Botan City]}}{"MusicLoop"{str[JaeruBotan]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}{"MapScript"{str[Botan\Main_MapScript]}}{"SurfingBattleMap"{str[Botan\Main_Surfing.dat]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}{"MapScript"{str[Botan\Main_MapScript]}}{"SurfingBattleMap"{str[Botan\Main_Surfing.dat]}}]}}
 
 Floors:
 	Grass
@@ -186,7 +186,7 @@ Mountains:
 				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[15,2,23]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,0,-1,0]}}{"Collision"{bool[1]}}{"ModelID"{int[6]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 				{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,2,25]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,32,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,0,-1,0]}}{"Collision"{bool[1]}}{"ModelID"{int[6]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 			
-LampPosts
+LampPosts:
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_CandleLike]}}{"Offset"{sngArr[13,0,9]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_CandleLike]}}{"Offset"{sngArr[19,0,11]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_CandleLike]}}{"Offset"{sngArr[27,0,14]}}]}}

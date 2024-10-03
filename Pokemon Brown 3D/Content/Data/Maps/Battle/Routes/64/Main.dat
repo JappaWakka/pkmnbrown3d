@@ -1,28 +1,27 @@
-{"Actions"{LEV[{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
+{"Actions"{LEV[{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}]}}
 
 BattleMapStructure:
-	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\Routes\64\Main.dat]}}{"Offset"{sngArr[-8,0,10]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\BattleMaps\Routes\64\Main.dat]}}{"Offset"{sngArr[-8,0,9]}}]}}
 	
-
 Offsets:
-	{"OffsetMap"{MAP[{"Offset"{sngArr[36,2]}}{"Map"{str[Hayward\Main.dat]}}]}}
-	{"OffsetMap"{MAP[{"Offset"{sngArr[44,40]}}{"Map"{str[Routes\52\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[36,1]}}{"Map"{str[Hayward\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[44,39]}}{"Map"{str[Routes\52\Main.dat]}}]}}
 
-	{"OffsetMap"{MAP[{"Offset"{sngArr[76,10]}}{"Map"{str[Routes\63\Main.dat]}}]}}
+	{"OffsetMap"{MAP[{"Offset"{sngArr[76,9]}}{"Map"{str[Routes\63\Main.dat]}}]}}
 	
 Backdrops:
 	Hayward City
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[73.5,-0.75,6.5]}}{"Size"{intArr[1,1]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[73.5,-0.75,5.5]}}{"Size"{intArr[1,1]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		
 	Route 52
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-22.5,-0.75,39.5]}}{"Size"{intArr[57,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[34.5,-0.75,40.5]}}{"Size"{intArr[1,65]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[74.5,-0.75,39.5]}}{"Size"{intArr[71,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-22.5,-0.75,38.5]}}{"Size"{intArr[57,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[34.5,-0.75,39.5]}}{"Size"{intArr[1,65]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[74.5,-0.75,38.5]}}{"Size"{intArr[71,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	
 	Route 64
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-22.5,-0.75,34.5]}}{"Size"{intArr[57,5]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-22.5,-0.75,33.5]}}{"Size"{intArr[57,5]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	
 	Route 63
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[74.5,-0.75,1.5]}}{"Size"{intArr[71,5]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[74.5,-0.75,30.5]}}{"Size"{intArr[71,9]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[74.5,-0.75,0.5]}}{"Size"{intArr[71,5]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[74.5,-0.75,29.5]}}{"Size"{intArr[71,9]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	

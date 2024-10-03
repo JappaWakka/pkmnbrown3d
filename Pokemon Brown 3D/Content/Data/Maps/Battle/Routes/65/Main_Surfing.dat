@@ -1,4 +1,4 @@
-{"Actions"{LEV[{"Lighting"{int[0]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"Lighting"{int[0]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}]}}
 
 Floors:
 	Grass
@@ -9,6 +9,11 @@ Floors:
 	Removal
 		{"Floor"{ENT[{"Size"{intArr[10,4]}}{"Position"{intArr[9,0,11]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,2]}}{"Position"{intArr[7,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[16,32,16,16]}}{"HasSnow"{bool[0]}}{"Remove"{bool[1]}}]}}
+	
+LampPosts:
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[12,0,6]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[8,0,14]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[18,0,15]}}]}}
 	
 Large Rock:
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Light]}}{"Offset"{sngArr[7,0,18]}}]}}
