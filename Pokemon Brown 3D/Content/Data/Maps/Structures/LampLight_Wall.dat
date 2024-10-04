@@ -1,0 +1,30 @@
+Light:
+	Evening
+		5x5
+			{"Shader"{SHA[{"Size"{intArr[6,4,1]}}{"Position"{intArr[-2,-1,0]}}{"Shader"{sngArr[1.0325,1.0325,1.0325]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[3]}}]}}
+			{"Shader"{SHA[{"Size"{intArr[4,6,1]}}{"Position"{intArr[-1,-2,0]}}{"Shader"{sngArr[1.0325,1.0325,1.0325]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[3]}}]}}
+			
+		7x7
+			{"Shader"{SHA[{"Size"{intArr[4,8,1]}}{"Position"{intArr[-1,-3,0]}}{"Shader"{sngArr[1.0325,1.0325,1.0325]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[3]}}]}}
+			{"Shader"{SHA[{"Size"{intArr[6,6,1]}}{"Position"{intArr[-2,-2,0]}}{"Shader"{sngArr[1.0325,1.0325,1.0325]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[3]}}]}}
+			{"Shader"{SHA[{"Size"{intArr[8,4,1]}}{"Position"{intArr[-3,-1,0]}}{"Shader"{sngArr[1.0325,1.0325,1.0325]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[3]}}]}}
+		
+		9x9
+			{"Shader"{SHA[{"Size"{intArr[4,10,1]}}{"Position"{intArr[-1,-4,0]}}{"Shader"{sngArr[1.0325,1.0325,1.0325]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[3]}}]}}
+			{"Shader"{SHA[{"Size"{intArr[8,8,1]}}{"Position"{intArr[-3,-3,0]}}{"Shader"{sngArr[1.0325,1.0325,1.0325]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[3]}}]}}
+			{"Shader"{SHA[{"Size"{intArr[10,4,1]}}{"Position"{intArr[-4,-1,0]}}{"Shader"{sngArr[1.0325,1.0325,1.0325]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[3]}}]}}
+			
+	Night
+		5x5
+			{"Shader"{SHA[{"Size"{intArr[6,4,1]}}{"Position"{intArr[-2,-1,0]}}{"Shader"{sngArr[1.065,1.065,1.065]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[0]}}]}}
+			{"Shader"{SHA[{"Size"{intArr[4,6,1]}}{"Position"{intArr[-1,-2,0]}}{"Shader"{sngArr[1.065,1.065,1.065]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[0]}}]}}
+			
+		7x7
+			{"Shader"{SHA[{"Size"{intArr[4,8,1]}}{"Position"{intArr[-1,-3,0]}}{"Shader"{sngArr[1.065,1.065,1.065]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[0]}}]}}
+			{"Shader"{SHA[{"Size"{intArr[6,6,1]}}{"Position"{intArr[-2,-2,0]}}{"Shader"{sngArr[1.065,1.065,1.065]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[0]}}]}}
+			{"Shader"{SHA[{"Size"{intArr[8,4,1]}}{"Position"{intArr[-3,-1,0]}}{"Shader"{sngArr[1.065,1.065,1.065]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[0]}}]}}
+		
+		9x9
+			{"Shader"{SHA[{"Size"{intArr[4,10,1]}}{"Position"{intArr[-1,-4,0]}}{"Shader"{sngArr[1.065,1.065,1.065]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[0]}}]}}
+			{"Shader"{SHA[{"Size"{intArr[8,8,1]}}{"Position"{intArr[-3,-3,0]}}{"Shader"{sngArr[1.065,1.065,1.065]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[0]}}]}}
+			{"Shader"{SHA[{"Size"{intArr[10,4,1]}}{"Position"{intArr[-4,-1,0]}}{"Shader"{sngArr[1.065,1.065,1.065]}}{"StopOnContact"{bool[0]}}{"DayTime"{intArr[0]}}]}}
