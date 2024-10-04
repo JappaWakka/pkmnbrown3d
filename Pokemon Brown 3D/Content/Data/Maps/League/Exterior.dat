@@ -103,14 +103,14 @@ Small Trees:
 	{"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[9,-0.125,20]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[32,128,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
 LampPosts:
-	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[10,0,18]}}]}}
-	{"Structure"{STR[{"Map"{str[Structures\LampPost_Modern]}}{"Offset"{sngArr[19,0,18]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[10,0,18]}}]}}
+	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[19,0,18]}}]}}
 
 Wall Lamps:
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12.5,3.4925,13.125]}}{"TexturePath"{str[LampPosts]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"RotationXYZ"{sngArr[0.25,0,0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[12.5,3.4925,13.125]}}{"TexturePath"{str[LampPosts]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"RotationXYZ"{sngArr[0.25,0,0]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampLight_Wall]}}{"Offset"{sngArr[12,2,13]}}]}}
 	
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16.5,3.4925,13.125]}}{"TexturePath"{str[LampPosts]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"RotationXYZ"{sngArr[0.25,0,0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[16.5,3.4925,13.125]}}{"TexturePath"{str[LampPosts]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[0.25]}}{"RotationXYZ"{sngArr[0.25,0,0]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampLight_Wall]}}{"Offset"{sngArr[16,2,13]}}]}}
 	
 Rijon League Building:
