@@ -1,7 +1,7 @@
 version=2
 @storage.set(boolean,HaveFossil,0)
 
-:if:<Register.Registered(FossilRevive_Helix)>=true <or> <Register.Registered(FossilRevive_Dome)>=true <or> <Register.Registered(FossilRevive_Skull)>=true
+:if:<Register.Registered(FossilRevive_Helix)>=true <or> <Register.Registered(FossilRevive_Dome)>=true <or> <Register.Registered(FossilRevive_Skull)>=true <or> <Register.Registered(FossilRevive_OldAmber)>=true
 	:if:<Register.Registered(EagulouSand_Found)>=true
 		@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_HaveSand)>)
 		:if:<Register.Registered(FossilRevive_Helix)>=true
@@ -19,6 +19,11 @@ version=2
 			
 			@Pokemon.Add(408,30,<system.token(Hayward_FossilLab_FossilPokemon_CatchMethod)>,5,<system.token(Hayward_FossilLab_FossilPokemon_CatchLocation)>)
 		:endif
+		:if:<Register.Registered(FossilRevive_OldAmber)>=true
+			@Text.Show(<system.token(Hayward_FossilLab_GotAerodactyl)>)
+			
+			@Pokemon.Add(142,30,<system.token(Hayward_FossilLab_FossilPokemon_CatchMethod)>,5,<system.token(Hayward_FossilLab_FossilPokemon_CatchLocation)>)
+		:endif
 		
 		@Pokemon.Rename(<math.int(<pokemon.count>-1)>)
 		:if:<pokemon.count>>6
@@ -31,7 +36,7 @@ version=2
 		@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_NoSand)>)
 	:endif
 :else
-	:if:<inventory.countitem(601)>>1 <or> <inventory.countitem(602)>>1 <or> <inventory.countitem(606)>=1
+	:if:<inventory.countitem(601)>>0 <or> <inventory.countitem(602)>>0 <or> <inventory.countitem(606)>>0 <or> <inventory.countitem(603)>>0
 		@storage.set(boolean,HaveFossil,1)
 	:endif
 		
@@ -40,7 +45,7 @@ version=2
 		
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
-			@item.select(standard,601;602;606)
+			@item.select(standard,601;602;606;603)
 			:if:<inventory.selected>=601
 				@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_Question_HelixFossil)>)
 				@options.show(<system.token(global_yes)>,<system.token(global_no)>)
@@ -74,6 +79,18 @@ version=2
 					@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_Answer_SkullFossil)>)
 					@item.clearitem(606,1)
 					@Register.Register(FossilRevive_Skull)
+					:end
+				:when:<system.token(global_no)>
+					@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_Answer_No)>)
+					:end
+				:endwhen
+			:endif
+			:if:<inventory.selected>=603
+				@Text.Show()
+				:when:<system.token(global_yes)>
+					@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_Answer_OldAmber)>)
+					@item.clearitem(603,1)
+					@Register.Register(FossilRevive_OldAmber)
 					:end
 				:when:<system.token(global_no)>
 					@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_Answer_No)>)
