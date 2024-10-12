@@ -604,6 +604,9 @@ Items:
 	Hidden Helix Fossil
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[31,-0.375,19]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[2,601]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 	
+	Hidden Old Amber
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[5,-0.375,14]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[3,603]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+	
 Ladders:
 	Seneca Caverns 1F (West)
 		{"Structure"{STR[{"Map"{str[Structures\Ladders\Ladder_Cave_Top]}}{"Offset"{sngArr[9,4,1]}}]}}
