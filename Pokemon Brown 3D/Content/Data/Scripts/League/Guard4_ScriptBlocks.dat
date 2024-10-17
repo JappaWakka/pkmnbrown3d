@@ -5,7 +5,7 @@ version=2
 	@Player.TurnTo(3)
 	@Text.Show(<system.token(Route65_Guard4_Start)>)
 	
-	:if:<Register.Registered(sproutbadge_obtain)>=True
+	:if:<Register.Registered(sparkybadge_obtain)>=True
 		:if:<Register.Registered(guard4)>=False
 			@Sound.Play(Success_Small,1)
 			@Register.Register(guard4)
@@ -14,7 +14,7 @@ version=2
 		
 	:endif
 	
-	:if:<Register.Registered(sproutbadge_obtain)>=False
+	:if:<Register.Registered(sparkybadge_obtain)>=False
 		@Text.Show(<system.token(Route65_Guard4_NoBadge)>)
 		@player.turnto(2)
 		@player.move(1)
