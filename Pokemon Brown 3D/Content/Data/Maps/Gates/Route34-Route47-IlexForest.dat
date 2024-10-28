@@ -10,12 +10,13 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,3]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[0,400,16,16]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[0,0,4]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[16,400,16,16]}}]}}
 		
-		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[14,0,-1]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[32,400,16,16]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[14,0,0]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[32,400,16,16]}}]}}
 		
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[14,0,8]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[32,400,16,16]}}]}}
 		
 	Invisible
 		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[-1,0,3]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[192,160,16,16]}}{"Visible"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[14,0,-1]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[192,160,16,16]}}{"Visible"{bool[0]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[14,0,9]}}{"TexturePath"{str[Inside]}}{"Texture"{rec[192,160,16,16]}}{"Visible"{bool[0]}}]}}
 
 Ceiling:
