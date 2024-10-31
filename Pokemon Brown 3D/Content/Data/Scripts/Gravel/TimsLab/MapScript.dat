@@ -16,6 +16,27 @@ version=2
 	@music.unforce
 	@music.play(TimsLab)
 	@Text.Show(<system.token(Gravel_TimsLab_ChoosePokemon)>)
+	:if:<Register.Registered(Shiny_Starter_Bulbasaur)>=false
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
+			@Register.Register(Shiny_Starter_Bulbasaur,integer,1)
+		:else
+			@Register.Register(Shiny_Starter_Bulbasaur,integer,0)
+		:endif
+	:endif
+	:if:<Register.Registered(Shiny_Starter_Charmander)>=false
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
+			@Register.Register(Shiny_Starter_Charmander,integer,1)
+		:else
+			@Register.Register(Shiny_Starter_Charmander,integer,0)
+		:endif
+	:endif
+	:if:<Register.Registered(Shiny_Starter_Squirtle)>=false
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
+			@Register.Register(Shiny_Starter_Squirtle,integer,1)
+		:else
+			@Register.Register(Shiny_Starter_Squirtle,integer,0)
+		:endif
+	:endif
 	@Register.Register(gotpokemon)
 	@Register.Register(tim1)
 	@Register.Register(mura1)
