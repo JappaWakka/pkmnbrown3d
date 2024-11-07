@@ -187,6 +187,8 @@ NPCs:
 {"NPC"{NPC[{"Position"{sngArr[3,0,10]}}{"TextureID"{str[PaletteBlack]}}{"ID"{int[7]}}{"Name"{str[Palette Black]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\009]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[2,0,1]}}{"TextureID"{str[Giovanni]}}{"ID"{int[8]}}{"Name"{str[Leader Giovanni]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\eagulou\leader]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
+{"NPC"{NPC[{"Position"{sngArr[2,0,12]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[9]}}{"Name"{str[Rocket Grunt Blocker]}}{"Action"{int[1]}}{"AdditionalValue"{str[Eagulou\Gym_RocketBlock]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+
 Item:
 	King's Rock
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[8,-0.375,1]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[0,gm84]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}

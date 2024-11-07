@@ -20,6 +20,7 @@ version=2
 	@npc.register(Botan\Main.dat|4|remove)
 	@npc.register(Botan\Main.dat|5|remove)
 	@npc.register(Botan\Main.dat|6|remove)
+	@npc.register(Gyms\Eagulou.dat|8|remove)
 	@Register.Register(RemoveBotanCitizens)
 :endif
 

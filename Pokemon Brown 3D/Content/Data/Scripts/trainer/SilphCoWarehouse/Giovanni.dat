@@ -50,7 +50,9 @@ version=2
 	@npc.register(Botan\Main.dat|9|remove)
 	@npc.register(Botan\Main.dat|10|remove)
 	@npc.register(Botan\Main.dat|11|remove)
-	@npc.register(Botan\Main.dat|12|remove)
+	
+	@npc.unregister(Gyms\Eagulou.dat|8|remove)
+	@npc.register(Gyms\Eagulou.dat|9|remove)
 	
 	@screen.fadein(15)
 	@camera.update
