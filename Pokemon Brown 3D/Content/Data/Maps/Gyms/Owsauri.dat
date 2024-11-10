@@ -133,7 +133,7 @@ Statues:
 	
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[7,0,8]}}{"TextureID"{str[GymGuy]}}{"ID"{int[0]}}{"Name"{str[Gym Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\gymguy]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[8,-0.2,5]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[1]}}{"Name"{str[Swimmer Ed]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\Owsauri\000]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[8,-0.2,5]}}{"TextureID"{str[Swimmer_Male]}}{"ID"{int[1]}}{"Name"{str[Swimmer Ed]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\Owsauri\000|0]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[2,0,1]}}{"TextureID"{str[JrTrainer_Female]}}{"ID"{int[2]}}{"Name"{str[Jr. Trainer♀ Bethy]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\gyms\Owsauri\001]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[Lily]}}{"ID"{int[3]}}{"Name"{str[Gym Leader Lily]}}{"Action"{int[2]}}{"AdditionalValue"{str[-1|trainer\gyms\Owsauri\leader]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
