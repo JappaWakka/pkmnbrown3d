@@ -498,8 +498,7 @@ badge_16,Rematch
 ---
 Regions:
 Johto,Johto
-Kanto,Kanto
-Sevii Islands,Sevii Islands
+Rijon,Rijon
 ---
 Places:
 
@@ -519,15 +518,17 @@ Places_Eagulou City,Eagulou City
 Places_Azalea Town,Azalea Town
 
 Special Places:
+Places_Pokémon Center,Pokémon Center
+Places_Pokémon Center,Pokémon Mart
 Places_Tim's Lab,Tim's Lab
 Places_Pokémon Fan Club,Pokémon Fan Club
 Places_Rainbow Tower,Rainbow Tower
+Places_Daycare,Daycare
 Places_Nation's Burgers,Nation's Burgers
 Places_Orion Academy,Orion Academy
 Places_Owsauri Casino,Owsauri Casino
 Places_City Underpass,City Underpass
 Places_Dock Underpass,Dock Underpass
-Places_Castro Valley,Castro Valley
 Places_Castro Manor,Castro Manor
 Places_Merson Cave Entrance,Merson Cave Entrance
 Places_Merson Cave,Merson Cave
@@ -1517,6 +1518,7 @@ pokemon_name_Enamorus,Enamorus
 pokemon_name_Annihilape,Annihilape
 pokemon_name_Galarian Weezing,Galarian Weezing
 pokemon_name_MissingNo.,MissingNo.
+pokemon_name_Phancero,Phancero
 
 --------------
 Item names:
@@ -2294,7 +2296,7 @@ item_desc_gm6,Strange artifact used to ban MissingNo.
 item_desc_gm7,An alcoholic beverage with a strong smell. When consumed by a Pokémon, it restores 30 HP.
 item_desc_gm8,A very convenient map that can be viewed anytime. It even shows your present location.
 item_desc_gm9,A flute that is said to instantly awaken any Pokémon. It has a lovely tone.
-item_desc_gm10,A special stone that is said to break spells. It emits a yellow glow somehow.
+item_desc_gm10,A special stone that is said to break spells. It emits a blue glow.
 item_desc_gm11,One of seven hidden treasures!
 item_desc_gm12,One of seven hidden treasures!
 item_desc_gm13,One of seven hidden treasures!
@@ -2381,6 +2383,7 @@ move_name_46,Roar
 move_name_47,Sing
 move_name_48,Supersonic
 move_name_49,Sonic Boom
+move_name_50,Disable
 move_name_51,Acid
 move_name_52,Ember
 move_name_53,Flamethrower
@@ -2762,7 +2765,7 @@ move_name_438,Power Whip
 move_name_439,Rock Wrecker
 move_name_440,Crosspoison
 move_name_441,Gunk Shot
-move_name_442,Ironhead
+move_name_442,Iron Head
 move_name_443,Magnet Bomb
 move_name_444,Stone Edge
 move_name_445,Captivate
@@ -2944,8 +2947,11 @@ move_name_715,Tearful Look
 move_name_716,Zing Zap
 move_name_717,Natures Madness
 move_name_749,Tar Shot
+move_name_790,Strange Steam
 move_name_796,Steel Beam
+move_name_797,Rage Fist
 
+[GameMode Moves]
 move_name_1000,ESW954e8t4721GI
 move_name_1001,Noise Pulse
 move_name_1002,Burning Mist
@@ -2997,6 +3003,8 @@ move_name_1047,Transform
 move_name_1048,Tri Attack
 move_name_1049,Cut
 move_name_1050,Flash
+move_name_1051,Waterfall
+move_name_1052,False Swipe
 ------
 Move Descriptions:
 move_desc_1000,???
@@ -3033,12 +3041,12 @@ TrainerClass_ExGrunt,Ex-Grunt
 TrainerClass_Fisherman,Fisherman
 TrainerClass_Gambler,Gambler
 TrainerClass_Gentleman,Gentleman
+TrainerClass_GymLeader,Gym Leader
 TrainerClass_Hiker,Hiker
 TrainerClass_JrTrainer_Female,Jr. Trainer♀
 TrainerClass_JrTrainer_Male,Jr. Trainer♂
 TrainerClass_Juggler,Juggler
 TrainerClass_Lass,Lass
-TrainerClass_Leader,Leader
 TrainerClass_Lifeguard,Lifeguard
 TrainerClass_NormalTrainer,Normal Trainer
 TrainerClass_Palette,Palette
@@ -3095,7 +3103,7 @@ Generic_PokeMart_MerchBins,Many Pokémon plushies are~lying in the bin.*Is that 
 Generic_PokeMart_LockedCabinets,Several action figures can~be seen.*The tag on them says:~"Pokéstar Studios".
 
 Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
-Generic_Sign_PokeCenter,Heal Your Pokémon!~Pokémon Center
+Generic_Sign_PokeCenter,Heal your Pokémon!~Pokémon Center
 
 Generic_PC_NoInteract,You can't interact with the PC~at the moment.
 Generic_PC_BootUp,Booting up the PC...*Choose a host to connect to.
@@ -3113,10 +3121,10 @@ Generic_PC_Decoration_Start,How do you want to customize~your room?
 [Follower Pokémon Interations]
 
 FollowerInteraction_Music_PlayerRoomMusic1,<name> is moving~around the room.
-FollowerInteraction_Music_PlayerRoomMusic2,<name> is happy to be home!
+FollowerInteraction_Music_PlayerRoomMusic2,<name> is happy to~be home!
 FollowerInteraction_Music_Nike1,<name> is dancing~energetically to the music!
-FollowerInteraction_Music_PlayIt,<name> is singing along~with the melody of the music!
-FollowerInteraction_Music_Pr0ndiskOutro,<name> is bopping to the~beat of the music!
+FollowerInteraction_Music_PlayIt,<name> is singing~along with the melody of~the music!
+FollowerInteraction_Music_Pr0ndiskOutro,<name> is bopping to~the beat of the music!
 FollowerInteraction_Music_Worship,<name> is swaying back~and forth to the music!
 FollowerInteraction_Music_Breeze,<name> is proud of how~far you've come on~your journey!
 FollowerInteraction_Music_Path,The music makes <name>~excited to go outside!
