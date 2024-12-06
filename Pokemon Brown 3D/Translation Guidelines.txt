@@ -1,0 +1,20 @@
+The localization file is a simple .txt file, renamed to .dat, which can be opened by any text editor (Notepad++ for example).
+
+To start, make a copy of "Tokens_en.dat" inside the "Content\Localization\" folder of the Pokémon Brown 3D GameMode and change the "en" to your language's suffix.
+Look in the "Content\Localization\" folder of the regular game for the available language suffixes.
+
+Each token has a name (the value before the first comma) and content (everything after the first comma). The token name should not be changed.
+
+To update/refresh the currently loaded tokens, you have to exit to the main menu and start your savegame again.
+
+You can write ~ in places where you want a soft line break (which scrolls to the next line, keeping the last previous line in view)
+You can write * in places where you want a hard line break (which clears the text box before displaying the next line)
+
+If you want to quickly test some strings (for example to check if it's not too long), you can press T and then type "@Text.Show(string)" (without parentheses) to show the string between the brackets.
+You can also show tokens from the token file by pressing T and then typing "@Text.Show(<system.token(tokenName)>)" (without parentheses) to show the token with the specified name between the brackets.
+
+For dialogue to fit in the text box I usually try to keep a line under 30 characters.
+Sometimes you can go over that as not all characters are equally wide (periods and the letter i for example are less wide) but that's usually the safe range.
+
+Player names (which replace <player.name>) can be max. 10 characters long.
+Pokémon nicknames (which replace various <pokemon.nickname(...)> can be max. 14 characters long.
