@@ -3230,14 +3230,14 @@ PC_Decorations_Item_SquirtleDoll,Squirtle Doll
 DecorationItem_Received_LeagueTrophy,Eye of the Tiger*Decoration Received:~League Trophy~~Add it to your room with the PC!
 DecorationItem_Received_DexDiploma,Completionist*Decoration Received:~Pokédex Diploma~~Add it to your room with the PC!
 DecorationItem_Received_SurfingPikachuDoll,Mom Loves You*Decoration Received:~Surfing Pikachu Doll~~Add it to your room with the PC!
-DecorationItem_Received_PottedPlant,Welcome To The Jungle*Decoration Received:~Potted Plant~~Add it to your room with the PC!
+DecorationItem_Received_PottedPlant,Welcome to the Jungle*Decoration Received:~Potted Plant~~Add it to your room with the PC!
 DecorationItem_Received_SquirtleDoll,7.8/10 Too Much Water*Decoration Received:~Squirtle Doll~~Add it to your room with the PC!
 
 [Pokédex Evaluation]
 DexEvaluation_BeforeRating,Pokédex completion is:*<pokedex.dexseen(0)> Pokémon seen~<pokedex.dexcaught(0)> Pokémon owned*Prof. Tim's Rating:
 DexEvaluation_Rating_Level01,You still have lots to do.*Look for Pokémon in grassy~areas!
 DexEvaluation_Rating_Level02,You're on the right track!~Isn't it fun catching Pokémon?
-DexEvaluation_Rating_Level03,Good, you're trying hard!*Go get the Exp. Share from my~Aide on Route 52!
+DexEvaluation_Rating_Level03,Good, you're trying hard!*Go get the Exp. All from my~Aide on Route 52!
 DexEvaluation_Rating_Level04,You still need more Pokémon!~Try to catch other species!*Oh, I almost forgot!*My Aide is waiting for you at~Route 59 with an Item Finder!
 DexEvaluation_Rating_Level05,Looking good!*Go find my Aide at Route 60~when you've caught 75 Pokémon.
 DexEvaluation_Rating_Level06,You finally got at least 75~species!*Go get the Super Rod from my~Aide at Route 60!
@@ -3253,7 +3253,6 @@ DexEvaluation_Rating_Level15,I have nothing left to say!~You're the authority no
 DexEvaluation_Rating_Level16,I can't believe it!*<Player.Name>, your Pokédex is~fully complete!*Congratulations!*Come visit me at the lab,~I got something for you!
 DexEvaluation_Rating_Level16_ReceivedReward,I can't believe it!*<Player.Name>, your Pokédex is~fully complete!*Congratulations!
 
-
 [Seashore City]
 Seashore_PlayerHouse1F_Mom_LookForTim,Good luck on following your~dad's footsteps, sweetie!*Go south and look for the~Professor.
 Seashore_PlayerHouse1F_Mom_TakeARest,<Player.Name>! You should take~a quick rest.
@@ -3263,7 +3262,7 @@ Seashore_PlayerHouse1F_Mom_AfterFinalDungeon,<Player.Name>! So my child is~Rijon
 Seashore_PlayerHouse1F_Mom_AfterRematch,<Player.Name>! So my child is~Rijon's Champion?~What are you going to do now?*There's that "Champions only"~building in Hayward, you could~go check that out!*In any case, why don't you~take a quick rest before~continuing your adventure?
 
 Seashore_PlayerHouse2F_GameCube,<Player.Name> is playing the~Nintendo GameCube!*...Okay!~It's time to go!
-Seashore_PlayerHouse2F_GameCube_Game_Step1_Question,<Player.Name> is playing a new game~on the Nintendo GameCube!*Let's create a new character.~What class should they be?
+Seashore_PlayerHouse2F_GameCube_Game_Step1_Question,<Player.Name> is playing a new~game on the Nintendo GameCube!*Let's create a new character.~What class should they be?
 Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Fighter,Fighter
 Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Wizard,Wizard
 Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Random,Random
