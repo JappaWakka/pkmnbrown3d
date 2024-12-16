@@ -30,4 +30,12 @@ version=2
 		@Player.Move(1)
 	:endif
 :endif
+
+:if:<Level.LoadOffsetMaps>=true
+	:if:<environment.daytime>=Day <or> <environment.daytime>=Morning
+		@NPC.Warp(17,68.385,1,7)
+	:else
+		@NPC.Warp(18,68,3,7)
+	:endif
+:endif
 :end
