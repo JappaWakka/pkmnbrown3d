@@ -9,8 +9,3 @@ version=2
 	@Text.Show(<system.token(Gravel_TimsLab_Mura_BetterChoice)>)
 	:end
 :endif
-
-:if:<Register.Registered(mura0)>=true
-	@Text.Show(<system.token(Gravel_TimsLab_Mura_Chump)>)
-	:end
-:endif
