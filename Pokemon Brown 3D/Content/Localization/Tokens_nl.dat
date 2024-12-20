@@ -102,6 +102,25 @@ Special_Defense,Speciale Verdediging
 Sp_Defense,Sp. Verdediging
 Speed,Snelheid
 ---
+Keyboard Keys:
+
+keyboard_key_Up,Omhoog
+keyboard_key_Down,Omlaag
+keyboard_key_Left,Links
+keyboard_key_Right,Rechts
+keyboard_key_Enter,Enter
+keyboard_key_Space,Spatie
+keyboard_key_Escape,Escape
+keyboard_key_Back,Backspace
+keyboard_key_Tab,Tab
+keyboard_key_Home,Home
+keyboard_key_End,End
+keyboard_key_Delete,Delete
+keyboard_key_PageUp,Page Up
+keyboard_key_PageDown,Page Down
+keyboard_key_LeftShift,L Shift
+keyboard_key_RightShift,R Shift
+---
 FieldMoves:
 
 fieldmove_cut_1,Zo te zien kan deze boom~omgehakt worden!
@@ -3717,7 +3736,7 @@ Seashore_PlayerHouse2F_Decoration_DexDiploma,<Player.Name>: Mijn diploma voor he
 Seashore_PlayerHouse2F_Decoration_SurfingPikachuDoll,<Player.Name>: Een Surfende~Pikachu-pop!
 Seashore_PlayerHouse2F_Decoration_SquirtleDoll,<Player.Name>: Een Squirtle-Pop!
 Seashore_PlayerHouse2F_ControlsNote_Question,Er hangt een briefje aan de~muur over de besturing.*Wil je het lezen?
-Seashore_PlayerHouse2F_ControlsNote_Controls,De besturing in Pokémon 3D:~Beweeg: [<System.Button(MoveForward)>]~Draai camera: [<System.Button(MoveLeft)>][<System.Button(MoveRight)>]~Rennen aan/uit: [<System.Button(Run)>]~Open spelmenu: [<System.Button(OpenMenu)>]~Vecht/ruil (PSS): [<System.Button(Special)>]~Perspectief: [<System.Button(PerspectiveSwitch)>]~Muziek aan/uit: [<System.Button(MuteAudio)>]~Verberg GUI: [<System.Button(HideGUI)>]~Schermafbeelding: [<System.Button(Screenshot)>]
+Seashore_PlayerHouse2F_ControlsNote_Controls,De besturing in Pokémon 3D:~Beweeg: [<System.Button(MoveForward)>]~Draai camera: [<System.Button(MoveLeft)>][<System.Button(MoveRight)>]~Rennen aan/uit: [<System.Button(Run)>]~Open spelmenu: [<System.Button(OpenMenu)>]~Vecht / Ruil (PSS): [<System.Button(Special)>]~Perspectief: [<System.Button(PerspectiveSwitch)>]~Muziek aan/uit: [<System.Button(MuteAudio)>]~Verberg GUI: [<System.Button(HideGUI)>]~Schermafbeelding: [<System.Button(Screenshot)>]
 
 Seashore_RivalHouse_Father_BeforeTim,Ga je naar Tim's lab toe?*Mijn zoon Mura is ook van huis~vertrokken, zorg ervoor dat~hij veilig blijft voor me,~wil je?
 Seashore_RivalHouse_Father_AfterTim,Hallo <Player.Name>!*Heb je Mura onlangs nog~ontmoet?~Gaat het goed met hem?
