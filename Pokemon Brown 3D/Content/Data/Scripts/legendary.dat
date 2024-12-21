@@ -31,7 +31,7 @@ version=2
 :when:<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Wizard)>
 	@Register.Register(Suicune)
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step2_Wizard_Question)>)
-	@Options.Show(Fire,Water)
+	@Options.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step2_Wizard_Answer_Fire)>,<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step2_Wizard_Answer_Water)>)
 	:when:<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step2_Wizard_Answer_Fire)>
 		@Register.Register(Hooh)
 	:when:<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step2_Wizard_Answer_Water)>
