@@ -1,25 +1,18 @@
 version=2
-
-:if:<not><level.filename>=SecretCave_B1F <and> <not><level.filename>=SecretCave_B2F
-	@sound.play(EagulouParkBell)
-	@Text.Show(<system.token(Eagulou_Park_TimeIsUp)>)
-	@screen.fadeout(15)
-	@player.warp(Eagulou\Park\gate.dat,4,0.1,0)
-	@player.turnto(2)
-	@level.update
-	@screen.fadein(15)
-	@player.move(2)
-	@player.turnto(3)
-	:if:<inventory.countitem(181)>>0
-		@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_EndOfRun)>)
-		@item.remove(181,<inventory.countitem(181)>)
-	:endif
-	@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_ComeAgain)>)
-	@player.turnto(2)
-	@player.move(1)
-	:end
-:else
-	@register.register(EagulouParkEnd)
-	:end
+@sound.play(EagulouParkBell)
+@Text.Show(<system.token(Eagulou_Park_TimeIsUp)>)
+@screen.fadeout(15)
+@player.warp(Eagulou\Park\gate.dat,4,0.1,0)
+@player.turnto(2)
+@level.update
+@screen.fadein(15)
+@player.move(2)
+@player.turnto(3)
+:if:<inventory.countitem(181)>>0
+	@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_EndOfRun)>)
+	@item.remove(181,<inventory.countitem(181)>)
 :endif
+@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_ComeAgain)>)
+@player.turnto(2)
+@player.move(1)
 :end
