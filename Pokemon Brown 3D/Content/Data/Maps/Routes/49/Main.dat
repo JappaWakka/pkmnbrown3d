@@ -207,8 +207,8 @@ NPCs:
 		{"NPC"{NPC[{"Position"{sngArr[43,0,19]}}{"TextureID"{str[BirdKeeper]}}{"ID"{int[1]}}{"Name"{str[Bird Keeper Richard]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route49\001]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 		{"NPC"{NPC[{"Position"{sngArr[41,0,21]}}{"TextureID"{str[BirdKeeper]}}{"ID"{int[2]}}{"Name"{str[Bird Keeper David]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\route49\002]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Pokémon
-		{"NPC"{NPC[{"Position"{sngArr[68.385,-2,7]}}{"TextureID"{str[SleepingNoibat]}}{"ID"{int[17]}}{"Name"{str[Noibat]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-		{"NPC"{NPC[{"Position"{sngArr[68,-2,7]}}{"TextureID"{str[[POKEMON|N]714]}}{"ID"{int[18]}}{"Name"{str[Noibat]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"AnimateIdle"{bool[1]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[18.385,-2,7]}}{"TextureID"{str[SleepingNoibat]}}{"ID"{int[17]}}{"Name"{str[Noibat]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[18,-2,7]}}{"TextureID"{str[[POKEMON|N]714]}}{"ID"{int[18]}}{"Name"{str[Noibat]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"AnimateIdle"{bool[1]}}{"MoveRectangles"{recArr[]}}]}}
 		
 Warps:
 	Owsauri City
