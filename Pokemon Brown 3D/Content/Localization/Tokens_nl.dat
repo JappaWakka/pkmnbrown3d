@@ -10,7 +10,7 @@ global_female,Vrouw
 global_genderless,Overig
 global_style a,Stijl A
 global_style b,Stijl B
-global_yes,Ja			  
+global_yes,Ja
 global_no,Nee
 global_accept,Bevestig
 global_cancel,Annuleer
@@ -237,9 +237,11 @@ option_screen_game_textspeed,Tekstsnelheid
 option_screen_game_textspeed_description,The speed the textbox shows up and~displays the text
 option_screen_game_difficulty,Moeilijkheidsgraad
 option_screen_game_difficulty_description,Difficulty mode~Sets the level of difficulty.
-option_screen_game_difficulty_easy,Makkelijk
+option_screen_game_difficulty_easy,Normaal
 option_screen_game_difficulty_hard,Moeilijk
-option_screen_game_difficulty_superhard,Supermoeilijk
+option_screen_game_difficulty_superhard,Nuzlocke
+option_screen_game_interfacescale,Interface-schaal
+option_screen_game_interfacescale_automatic,Automatisch
 option_screen_game_viewbobbing,Loopbeweging
 option_screen_game_viewbobbing_description,Turns camera shaking on or off.
 
