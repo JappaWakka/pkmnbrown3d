@@ -8,6 +8,8 @@ version=2
 @screen.fadein(15)
 @player.move(2)
 @player.turnto(3)
+@script.cleardelay(ParkSteps)
+@script.cleardelay(ParkBalls)
 :if:<inventory.countitem(181)>>0
 	@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_EndOfRun)>)
 	@item.remove(181,<inventory.countitem(181)>)
