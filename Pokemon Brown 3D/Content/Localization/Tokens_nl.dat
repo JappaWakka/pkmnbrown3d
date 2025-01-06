@@ -560,29 +560,29 @@ Special Places:
 Places_Pokémon Center,Pokémon-Centrum
 Places_Pokémon Center,Pokémon-Winkel
 Places_Tim's Lab,Tim's Lab
-Places_Pokémon Fan Club,Pokémon-fanclub
+Places_Pokémon Fan Club,Pokémon-Fanclub
 Places_Rainbow Tower,Regenboogtoren
 Places_Daycare,Dagopvang
 Places_Nation's Burgers,Nation's Burgers
-Places_Orion Academy,Orion-academie
+Places_Orion Academy,Orion Academie
 Places_Owsauri Casino,Owsauri Casino
 Places_City Underpass,Stad-onderdoorgang
 Places_Dock Underpass,Dok-onderdoorgang
 Places_Castro Manor,Huize Castro
-Places_Merson Cave Entrance,Ingang van Mersongrot
-Places_Merson Cave,Mersongrot
+Places_Merson Cave Entrance,Ingang van Merson-Grot
+Places_Merson Cave,Merson-Grot
 Places_Mt. Boulder,Mt. Boulder
-Places_Silk Tunnel,Zijdetunnel
+Places_Silk Tunnel,Zijden Tunnel
 Places_Silph Co. Warehouse,Silph Co. Warenhuis
 Places_Haunted Forest,Spookachtig Woud
-Places_Castro Forest,Castrobos
-Places_Eagulou Park,Eaguloupark
+Places_Castro Forest,Castro-Bos
+Places_Eagulou Park,Eagulou Park
 Places_Secret Cave,Geheime Grot
-Places_Seneca Caverns,Seneca Cavernes
+Places_Seneca Caverns,Seneca-Cavernes
 Places_Rijon League,Rijon League
 Places_Madame Renifler,Madame Renifler
-Places_Ilex Forest,Ilexbos
-Places_Slowpoke Well,Slowpokewaterput
+Places_Ilex Forest,Ilex-Bos
+Places_Slowpoke Well,Slowpoke-Waterput
 Places_Gate,Poort
 Places_Final Dungeon,Laatste Uitdaging
 
@@ -628,7 +628,7 @@ Places_Route 67,Route 67
 Item categories:
 item_category_Standard,Standaard
 item_category_Medicine,Medicijnen
-item_category_Machines,TM/HM
+item_category_Machines,TM/VM
 item_category_Pokéballs,PokéBallen
 item_category_Plants,Planten
 item_category_KeyItems,Belangrijk
@@ -3799,10 +3799,10 @@ Route53_OtherGuy_StraightForward,Deze weg is vrij eenvoudig.*Op deze weg kun je 
 Gravel_Main_Tim_Late,Tim: Daar ben je!~Je bent laat!
 Gravel_Main_Tim_NeedPokemon,Tim: Ik heb op je gewacht!*Je hebt je eigen Pokémon nodig,~dus kom meteen naar mijn lab!
 Gravel_Main_FreshAirGuy,Ik vind het heerlijk om hier~te wonen!*De lucht is zo fris en schoon.
-Gravel_Main_GameModeGuy,Wist je dit?*Deze GameMode is gebaseerd~op de rom-hack "Pokémon Brown"~van Koolboyman, die voor het~eerst werd uitgebracht op~17 januari 2004!*Jaren later, in 2014, deden~Leahkim en Miragics de eerste~poging tot een 3D-remake met~Pokémon 3D!*Toen, in 2024, gaf JappaWakka~het een enorme opknapbeurt,~waarbij hij veel content van~begins af aan creëerde!
+Gravel_Main_GameModeGuy,Wist je dit?*Deze GameMode is gebaseerd~op de romhack "Pokémon Brown"~van Koolboyman, die voor het~eerst werd uitgebracht op~17 januari 2004!*Jaren later, in 2014, deden~Leahkim en Miragics de eerste~poging tot een 3D-remake met~Pokémon 3D!*Toen, in 2024, gaf JappaWakka~het een enorme opknapbeurt,~waarbij hij veel content van~begins af aan creëerde!
 Gravel_Main_Sign_Town,Gravel Town*Een Rustig Bergdorp.
 Gravel_Main_Sign_Lab,Tim's Lab
-Gravel_Main_Sign_Cave,Mersongrot
+Gravel_Main_Sign_Cave,Merson-Grot
 
 Gravel_TimsLab_Note_OpenMenu,Druk op [<system.button(OpenMenu)>] om het~Menu te openen!
 Gravel_TimsLab_Pokedex,Het lijkt op een encyclopedie,~maar de pagina's zijn blanco!
@@ -3862,7 +3862,7 @@ Gravel_PokeMart_PizzaInPocket,<Player.Name> stopte hem in het~№ Belangrijke Vo
 
 [Merson Cave]
 MersonCave_Outside_NoPokedexNoAccessGuy,Ga je naar binnen zonder~Pokédex?*Ben je gek?
-MersonCave_1F_Sign,Mersongrot*Route 54 verderop.
+MersonCave_1F_Sign,Merson-Grot*Route 54 verderop.
 MersonCave_1F_YoungsterTom_IntroMessage,Een Pokémon-trainer aan het~worden?
 MersonCave_1F_YoungsterTom_OutroMessage,Oh jee...
 MersonCave_1F_YoungsterTom_DefeatMessage,De mensen verderop zijn veel~moeilijker!
@@ -3886,7 +3886,7 @@ MersonCave_1F_BugCatcherBill_OutroMessage,Je hebt me te pakken!
 MersonCave_1F_BugCatcherBill_DefeatMessage,Blèh! Je speelt niet eerlijk!
 
 [Route 54]
-Route54_Sign,Route 54~Merson Bergpas*Mersongrot - Merson City
+Route54_Sign,Route 54~Merson Bergpas*Merson-Grot - Merson City
 Route54_SuperNerdCraig_IntroMessage,Hé, je brak mijn concentratie!
 Route54_SuperNerdCraig_OutroMessage,Zo luidruchtig...
 Route54_SuperNerdCraig_DefeatMessage,Dit huis ziet er leuk~uit, misschien koop ik het~later wel.
@@ -3907,7 +3907,7 @@ Merson_Main_Sign_Gym,Merson City~Pokémon Gym~Leider: Karpman*Als een Vis in het
 Merson_Main_Sign_City,Merson City*Het nobele kleine stadje.
 Merson_Main_Sign_Challenge,Vind je jezelf sterk?*Ga Karpman uitdagen!
 Merson_Main_Sign_SouthRijonGate,Zuid-Rijon Poort~Route 88*In aanbouw~Binnenkort geopend!*Luster City~Bouwbedrijf
-Merson_Main_Sign_PokemonFanClub,Pokémon-fanclub~Alle Pokémon-fans zijn welkom!
+Merson_Main_Sign_PokemonFanClub,Pokémon-Fanclub~Alle Pokémon-fans zijn welkom!
 
 Merson_PokeMart_PotionsGuy,Je kunt nooit genoeg Drankjes~hebben!*Koop er veel om je Pokémon~levend en wel te houden!
 Merson_PokeMart_FoodGuy,Weet jij waar ik daadwerkelijk~eten voor mezelf kan kopen?
@@ -3925,7 +3925,7 @@ Merson_FanClub_Girl_2,De Clefable van die man is~erg schattig!
 Merson_FanClub_Guy_1,Ik hou meer van mijn Clefable~dan van wat dan ook!
 Merson_FanClub_Guy_2,Mijn Clefable kan soms~irritant zijn.
 Merson_FanClub_Lady,Ik heb een betere baan nodig.
-Merson_FanClub_Chairman_Question,Ik ben voorzitter van de~Pokémon-fanclub!*Ik heb meer dan 100 Pokémon~verzameld!*Ik ben erg kieskeurig als het~op Pokémon aankomt!*Dus...*Heb je een coole Pokémon~meegebracht?
+Merson_FanClub_Chairman_Question,Ik ben voorzitter van de~Pokémon-Fanclub!*Ik heb meer dan 100 Pokémon~verzameld!*Ik ben erg kieskeurig als het~op Pokémon aankomt!*Dus...*Heb je een coole Pokémon~meegebracht?
 Merson_FanClub_Chairman_AnswerYes,Goed zo! Er is een speciale~actie die ik aanbied.*Breng een Pokémon mee en je~krijgt een gratis waardebon~voor een Fiets!*En het lijkt erop dat je er~een hebt, dus alsjeblieft!
 Merson_FanClub_Chairman_AnswerNo,Weet je het zeker?~Want er is een speciale actie~die ik aanbied.*Breng een Pokémon mee en je~krijgt een gratis waardebon~voor een Fiets!*En het lijkt erop dat je er~een hebt, dus alsjeblieft!
 Merson_FanClub_Chairman_AfterVoucher,Hallo, <Player.Name>!*Ik wens je veel plezier met~die fiets!
@@ -3986,41 +3986,41 @@ Route55_RainbowTower_Floor2_Note,RainbowDevs~Vergaderruimte
 
 Route55_RainbowTower_Floor3_MeanMrMustard,MeanMrMustard: Al dat werk,~en nooit enige eer of respect!*Meh!
 Route55_RainbowTower_Floor3_Programmer,Pfew! Het werk is zo zwaar!*Het is waarschijnlijk tijd~voor een pauze!*Het is al 10 minuten geleden~sinds mijn laatste!
-Route55_RainbowTower_Floor3_Suloku,Suloku: Bugs, bugs and more~bugs!*Oh, sorry, this game is full~of bugs and it gets to me~at times.*When you think one is fixed,~you caused yet another one.*Hopefully I've got them all~now!*Did you know the 2024 update~of the Pokémon Brown romhack~is still old school?*That means manually making~all the changes!*At first I only wanted to~change a couple of things.~Derbs84 helped a lot at the~time since I knew nothing~about romhacking.*The project kept growing,~and so did the team.*I'm really grateful to~everyone that has helped~along the way: spriters,~testers, proofreaders...*It's amazing what people~can do when they put their~minds together!
-Route55_RainbowTower_Floor3_Koolboyman,Koolboyman: Hey, I made the~original Pokémon Brown hack!*No need to thank me!*Hopefully it looks more~polished now.
-Route55_RainbowTower_Floor3_PC_MeanMrMustard,Complicated code.*Can't understand it!
-Route55_RainbowTower_Floor3_PC_Programmer,Someone's playing a game~instead of working!
-Route55_RainbowTower_Floor3_PC_Suloku,There's a beta version~counter...*It's over 1000!!!
-Route55_RainbowTower_Floor3_Note,RainbowDevs~Development Room
+Route55_RainbowTower_Floor3_Suloku,Suloku: Bugs, bugs en nog~eens bugs!*Oh, sorry, dit spel zit~vol bugs en soms word ik~er gek van.*Als je denkt dat er één~opgelost is, veroorzaak~je er weer één.*Hopelijk heb ik ze nu allemaal!*Wist je dat de 2024 update~van de Pokémon Brown romhack~nog steeds old school is?*Dat betekent handmatig alle~wijzigingen aanbrengen!*In het begin wilde ik maar~een paar dingen veranderen.~Derbs84 heeft me toen erg~geholpen, want ik wist niets~van romhacken.*Het project bleef groeien,~en het team ook.*Ik ben echt iedereen dankbaar~die heeft meegeholpen:~spriters, testers,~proeflezers...*Het is verbazingwekkend wat~mensen kunnen doen als ze de~koppen bij elkaar steken!
+Route55_RainbowTower_Floor3_Koolboyman,Koolboyman: Hé, ik heb~de originele Pokémon Brown~hack gemaakt!*Geen dank!*Hopelijk ziet het er nu wat~meer opgepoetst uit.
+Route55_RainbowTower_Floor3_PC_MeanMrMustard,Ingewikkelde code.*Niet te begrijpen!
+Route55_RainbowTower_Floor3_PC_Programmer,Iemand speelt een spelletje~in plaats van te werken!
+Route55_RainbowTower_Floor3_PC_Suloku,Er is een teller voor~bètaversies...*Hij is hoger dan 1000!!!
+Route55_RainbowTower_Floor3_Note,RainbowDevs~Ontwikkelingsruimte
 
-Route55_RainbowTower_Floor4_Note,DON'T GO IN HERE!!!
+Route55_RainbowTower_Floor4_Note,GA HIER NIET NAAR BINNEN!!!
 
-Route55_RainbowTower_Floor4_Room_Blackboard_Question1,Information on new types!
-Route55_RainbowTower_Floor4_Room_Blackboard_Question2,Which heading do you want to~read?
+Route55_RainbowTower_Floor4_Room_Blackboard_Question1,Informatie over nieuwe types!
+Route55_RainbowTower_Floor4_Room_Blackboard_Question2,Welke rubriek wil je lezen?
 Route55_RainbowTower_Floor4_Room_Blackboard_Option_Wind,Wind
-Route55_RainbowTower_Floor4_Room_Blackboard_Option_Sound,Sound
+Route55_RainbowTower_Floor4_Room_Blackboard_Option_Sound,Geluid
 Route55_RainbowTower_Floor4_Room_Blackboard_Option_Gas,Gas
-Route55_RainbowTower_Floor4_Room_Blackboard_Option_Wood,Wood
-Route55_RainbowTower_Floor4_Room_Blackboard_Option_Abnormal,Abnormal
-Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wind,Offense - Strong towards:*Fire, Rock, Ghost, Wood and~Gas.*Offense - Weak towards:*Ground, Fighting, Grass and~Flying.*Defense - Strong against:*Fire, Rock, Ghost and Wood.*Defense - Weak against:~Electric and Flying.*Defense - Immune to: Gas.
-Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound,Offense - Strong towards:*Ghost, Steel and Water.*Offense - Weak towards:*Bug and Fighting.*Offense - No effect towards:~Sound.*Defense - Strong against:*Rock, Steel, Gas, Water, Abnormal.*Defense - Weak against:*Bug, Electric and Fighting.*Defense - Immune to: Sound.
-Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*Fairy, Fire and Fighting.*Offense - Weak towards:*Grass, Ice, Rock and Sound.*Offense - No effect towards:~Wind.*Defense - Strong against:*Fairy, Ground and Fighting.*Defense - Weak against:*Electric, Fire, Grass and Wind.
-Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*Grass, Ice, Steel, Poison and~Water.*Offense - Weak towards:*Bug, Electric, Rock and Wind.*Offense - No effect towards:~Fire.*Defense - Strong against:*Bug and Ground.*Defense - Weak against:*Electric, Fire, Fighting and~Wind.
-Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and Normal.
-Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
-Route55_RainbowTower_Floor4_Room_Porygon_Receive,<Player.Name> got Porygon!
-Route55_RainbowTower_Floor4_Room_Porygon_ToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
-Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift
-Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the Rainbow Tower
-Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,I don't need this Pokémon,~so you can have it for free...*No kid, I am not crazy, just~an idiot...
-Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,How are you liking that crazy~little Pokémon I gave to you?*I downloaded it from some scam~website and my computer got~infected with a weird virus.*I got so mad that I threw my~laptop out of the window, sold~my house, moved into this~apartment, and put up a sign~outside to keep everyone away~from my stupidity.*Then I blacked out and wrote a~whole bunch of stuff on the~blackboard.*I came to with the worst~headache.*New types?*I don't even know what a type~is. Man, am I dumb.
+Route55_RainbowTower_Floor4_Room_Blackboard_Option_Wood,Hout
+Route55_RainbowTower_Floor4_Room_Blackboard_Option_Abnormal,Abnormaal
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wind,Aanval - Sterk tegen:*Vuur, Rots, Geest, Hout en~Gas.*Aanval - Zwak tegen:*Grond, Vecht, Gras en Vlieg.*Verdediging - Sterk tegen:*Vuur, Rots, Geest en Hout.*Verdediging - Zwak tegen:~Electrisch en Vlieg.*Verdediging - Immuun tegen:~Gas.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound,Aanval - Sterk tegen:*Geest, Staal en Water.*Aanval - Zwak tegen:*Insect en Vecht.*Aanval - Geen effect tegen:~Geluid.*Verdediging - Sterk tegen:*Rots, Staal, Gas, Water, Abnormaal.*Verdediging - Zwak tegen:*Insect, Electrisch en Vecht.*Verdediging - Immuun tegen: Geluid.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Aanval - Sterk tegen:*Fee, Vuur en Vecht.*Aanval - Zwak tegen:*Gras, IJs, Rots en Geluid.*Aanval - Geen effect tegen:~Wind.*Verdediging - Sterk tegen:*Fee, Grond en Vecht.*Verdediging - Zwak tegen:*Electrisch, Vuur, Gras en~Wind.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Aanval - Sterk tegen:*Gras, IJs, Staal, Gif en~Water.*Aanval - Zwak tegen:*Insect, Electrisch, Rots en~Wind.*Aanval - Geen effect tegen:~Vuur.*Verdediging - Sterk tegen:*Insect en Grond.*Verdediging - Zwak tegen:*Electrisch, Vuur, Vecht en~Wind.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Aanval - Sterk tegen:*Psychisch, Abnormaal, Insect,~Duister en Staal.*Aanval - Zwak tegen:*Vlieg, Normaal en Geluid.*Verdediging - Sterk tegen:~Duister en Staal.*Verdediging - Zwak tegen:*Abnormaal, Psychisch, Vlieg~en Normaal.
+Route55_RainbowTower_Floor4_Room_Pamphlet,Het is een pamflet over TM's~en VM's.*...*Er zijn momenteel in totaal~51 TM's en 4 VM's beschikbaar.*TM's zijn voor eenmalig~gebruik, terwijl VM's~herhaaldelijk kunnen~worden gebruikt.*Technieken die door VM's~worden geleerd, kunnen~ook buiten gevechten~worden gebruikt.*Pokémon hebben moeite om~VM-moves te vergeten, dus~daarmee zouden ze hulp~nodig hebben van een~techniek-wisser.*Silph Co.
+Route55_RainbowTower_Floor4_Room_Porygon_Receive,<Player.Name> ontving~Porygon!
+Route55_RainbowTower_Floor4_Room_Porygon_ToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
+Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,Als een gift
+Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in de Regenboogtoren
+Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,Ik heb deze Pokémon niet~nodig, dus je mag hem~gratis hebben...*Nee kind, ik ben niet gek,~gewoon een idioot...
+Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,Wat vind je van die gekke~kleine Pokémon die ik je~heb gegeven?*Ik heb hem gedownload van een~of andere oplichterswebsite~en mijn computer raakte~geïnfecteerd met een~raar virus.*Ik werd zo kwaad dat ik mijn~laptop uit het raam gooide,~mijn huis verkocht, in dit~appartement ging wonen en~buiten een bord ophing om~iedereen weg te houden van~mijn stommiteit.*Toen had ik een black-out en~schreef ik een heleboel dingen~op het schoolbord.*Ik kwam bij met een~verschrikkelijke hoofdpijn.*Nieuwe types?*Ik weet niet eens wat een~type is. Man, wat ben ik dom.
 
 [Dock Underpass]
-DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52,~a.k.a. the Hayward Docks.
-DockUnderpass_Entrance_Route52_HomelessGuy,This is where I live because I~have no money...
+DockUnderpass_Entrance_Route55_Girl,Dit pad leidt naar Route 52, ook wel bekend als de Hayward-dokken.
+DockUnderpass_Entrance_Route52_HomelessGuy,Hier woon ik omdat ik geen~geld heb...
 
 [Route 52]
-Route52_Sign,Route 52~Hayward Docks*Hayward City - Dock Underpass
+Route52_Sign,Route 52~Hayward-dokken*Hayward City - Dok-onderdoorgang
 Route52_MagmarTraderHouse_Father,Live in the city?*Why, I love it here.*No darn annoying hoodrats.
 Route52_MagmarTraderHouse_MagmarTrade_Question,Hi! Want to trade an Abra~for a Magmar?
 Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Oh well...
@@ -4115,7 +4115,7 @@ Hayward_FossilLab_GotOmanyte,<Player.Name> got Omanyte!
 Hayward_FossilLab_GotKabuto,<Player.Name> got Kabuto!
 Hayward_FossilLab_GotCranidos,<Player.Name> got Cranidos!
 Hayward_FossilLab_GotAerodactyl,<Player.Name> got Aerodactyl!
-Hayward_FossilLab_FossilPokemon_ToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
+Hayward_FossilLab_FossilPokemon_ToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist
 Hayward_FossilLab_FossilPokemon_CatchLocation,in the Hayward Fossil Lab
 
@@ -4375,7 +4375,7 @@ Owsauri_Casino_B1F_Shop_NoThanks,No Thanks
 Owsauri_Casino_B1F_Shop_NotEnoughCoins,Sorry, you need more coins.
 Owsauri_Casino_B1F_Shop_ChoosePokemon,So, you want <pokedex.getname(<storage.get(int,PokeNumber)>)>?
 Owsauri_Casino_B1F_Shop_ReceivedPokemon,<Player.Name> got~<pokedex.getname(<storage.get(int,PokeNumber)>)>!
-Owsauri_Casino_B1F_Shop_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
+Owsauri_Casino_B1F_Shop_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 Owsauri_Casino_B1F_Shop_PokemonCatchMethod,Purchased from
 Owsauri_Casino_B1F_Shop_PokemonCatchLocation,Owsauri Casino
 Owsauri_Casino_B1F_Shop_Left_Chikorita,Chikorita         2500C
@@ -4554,7 +4554,7 @@ Morage_PrismMuseum_EmeraldEgg_Hint,Pack your bug spray.
 Morage_PrismMuseum_EmeraldEgg_Found,The Emerald Egg!
 Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves,50 Gold Leaves!
 Morage_PrismMuseum_Egg_Reward,Amazing! Here is your reward!
-Morage_PrismMuseum_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
+Morage_PrismMuseum_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 Morage_PrismMuseum_CatchMethod,Received as a reward
 Morage_PrismMuseum_CatchLocation,at the Prism Museum
 
@@ -5629,7 +5629,7 @@ Azalea_Gym_Choose_Gligar,You want the Gligar?
 Azalea_Gym_Choose_Sneasel,You want the Sneasel?
 Azalea_Gym_Receive_Gligar,<Player.Name> ontving~een Gligar!
 Azalea_Gym_Receive_Sneasel,<Player.Name> ontving~een Sneasel!
-Azalea_Gym_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
+Azalea_Gym_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 Azalea_Gym_PokeballAfterChoose,Better not get greedy...
 
 [Final Dungeon]
@@ -5799,7 +5799,7 @@ FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,I get paid to just sit here
 FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,What have I done?*I trapped such a graceful~Pokémon!*Please take this far far away~and let it live in peace.
 FinalDungeon_JohtoLegendaryRoom_Rocket_ReceivedHoOh,<Player.Name> received~Ho-oh!
 FinalDungeon_JohtoLegendaryRoom_Rocket_ReceivedLugia,<Player.Name> received~Lugia!
-FinalDungeon_JohtoLegendaryRoom_Rocket_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
+FinalDungeon_JohtoLegendaryRoom_Rocket_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Received from a Rocket Grunt
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,in the Final Dungeon
 FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Now just look at that, this~doesn't deserve to be trapped~here! It's a shame those~Master Balls can be abused~this much...
@@ -5896,7 +5896,7 @@ MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~so
 MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,at Madame Renifler
-MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
+MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero. I'd let~Professor Tim take a look at~that device if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex,JappaWakka: I'd let Professor~Tim take a look at that~Pokédex if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
