@@ -281,8 +281,8 @@ option_screen_audio_volume_music,Muziekvolume
 option_screen_audio_volume_sfx,Geluidenvolume
 option_screen_audio_muted,Gedempt
 
-option_screen_contentpacks_up,Verplaats omhoog
-option_screen_contentpacks_down,Verplaats omlaag
+option_screen_contentpacks_up,Plaats hoger
+option_screen_contentpacks_down,Plaats lager
 option_screen_contentpacks_information,Informatie
 option_screen_contentpacks_songs,Muziek
 option_screen_contentpacks_sounds,Geluiden
@@ -562,6 +562,7 @@ Places_Pokémon Center,Pokémon-Winkel
 Places_Tim's Lab,Tim's Lab
 Places_Pokémon Fan Club,Pokémon-Fanclub
 Places_Rainbow Tower,Regenboogtoren
+Places_Southland Mall,Winkelcentrum Zuidland
 Places_Daycare,Dagopvang
 Places_Nation's Burgers,Nation's Burgers
 Places_Orion Academy,Orion Academie
@@ -2990,33 +2991,33 @@ move_name_217,Present
 move_name_218,Frustration
 move_name_219,Safeguard
 move_name_220,Pain Split
-move_name_221,Sacred Fire
+move_name_221,Heilig vuur
 move_name_222,Magnitude
-move_name_223,Dynamic Punch
-move_name_224,Megahorn
-move_name_225,Dragon Breath
+move_name_223,Dynamische slag
+move_name_224,Megahoorn
+move_name_225,Drakenadem
 move_name_226,Baton Pass
 move_name_227,Encore
 move_name_228,Pursuit
 move_name_229,Rapid Spin
-move_name_230,Sweet Scent
-move_name_231,Iron Tail
-move_name_232,Metal Claw
+move_name_230,Zoete geur
+move_name_231,IJzerstaart
+move_name_232,Metalen klauw
 move_name_233,Vital Throw
-move_name_234,Morning Sun
-move_name_235,Synthesis
-move_name_236,Moonlight
-move_name_237,Hidden Power
-move_name_238,Cross Chop
+move_name_234,Ochtendzon
+move_name_235,Synthese
+move_name_236,Maanlicht
+move_name_237,Verborgen kracht
+move_name_238,Kruisslag
 move_name_239,Cycloon
-move_name_240,Rain Dance
+move_name_240,Regendans
 move_name_241,Sunny Day
-move_name_242,Crunch
+move_name_242,Kraak
 move_name_243,Mirror Coat
 move_name_244,Psych Up
-move_name_245,Extreme Speed
-move_name_246,Ancient Power
-move_name_247,Shadow Ball
+move_name_245,Extreme snelheid
+move_name_246,Oeroude kracht
+move_name_247,Shaduwbal
 move_name_248,Future Sight
 move_name_249,Steenknal
 move_name_250,Whirlpool
@@ -3397,7 +3398,7 @@ move_name_1005,Lachgas
 move_name_1006,Miasma
 move_name_1007,Schoksmog
 move_name_1008,Basdreun
-move_name_1009,3-D Aanval
+move_name_1009,3-D aanval
 move_name_1010,Vreemde golf
 move_name_1011,Dobbelsteenrol
 move_name_1012,Twijgklap
@@ -3808,9 +3809,9 @@ Gravel_TimsLab_Note_OpenMenu,Druk op [<system.button(OpenMenu)>] om het~Menu te 
 Gravel_TimsLab_Pokedex,Het lijkt op een encyclopedie,~maar de pagina's zijn blanco!
 Gravel_TimsLab_PokeballAfterChoose,Die is van Tim.
 Gravel_TimsLab_PC_StephanieMail,Er staat hier een e-mail~bericht!*...*Mr. Tim, vergeet onze date van~vanavond niet!*Liefs, Stephanie
-Gravel_TimsLab_RegularAide,Ik bestudeer Pokémon als Prof. Tim's~Assistent.
+Gravel_TimsLab_RegularAide,Ik bestudeer Pokémon als Prof. Tim's~assistent.
 Gravel_TimsLab_RewardAide_BeforePizza,Ik heb honger... Waar is de pizza?
-Gravel_TimsLab_RewardAide_AfterPizza,Ik ben Prof. Tim's Assistent.*Je werkt aan de Pokédex, toch?*Ik geef je wat beloningen als~je het goed doet, dus~werk hard en vang veel~verschillende Pokémon!
+Gravel_TimsLab_RewardAide_AfterPizza,Ik ben Prof. Tim's assistent.*Je werkt aan de Pokédex, toch?*Ik geef je wat beloningen als~je het goed doet, dus~werk hard en vang veel~verschillende Pokémon!
 Gravel_TimsLab_FemaleAide,Prof. Tim is de authoriteit op~het gebied van Pokémon.*Veel Pokémon trainers hebben~grote waardering voor hem!
 Gravel_TimsLab_ChoosePokemon,Mura: Eindelijk ben je er!~Laten we opschieten!*Tim: Mura, wees geduldig.*...*Zijn jullie allebei klaar voor~jullie eerste Pokémon?*Mura: Ik kan niet wachten!~Schiet op!*Tim: Ik heb hier drie pas~uitgekomen Pokémon.*Mijn opa wilde dat ik de~traditie van meester zou~voortzetten.*Ik geef zijn nalatenschap door~aan jullie!*Mura: Ik voel me vereerd,~meneer!*Tim: Goed om te weten.*<Player.Name>, jij mag eerst~kiezen.
 Gravel_TimsLab_Choose_Charmander,Tim: Zo! Dus jij wilt de Vuur-~Pokémon, Charmander?
@@ -4016,72 +4017,72 @@ Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,Ik heb deze Pokémon niet~nod
 Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,Wat vind je van die gekke~kleine Pokémon die ik je~heb gegeven?*Ik heb hem gedownload van een~of andere oplichterswebsite~en mijn computer raakte~geïnfecteerd met een~raar virus.*Ik werd zo kwaad dat ik mijn~laptop uit het raam gooide,~mijn huis verkocht, in dit~appartement ging wonen en~buiten een bord ophing om~iedereen weg te houden van~mijn stommiteit.*Toen had ik een black-out en~schreef ik een heleboel dingen~op het schoolbord.*Ik kwam bij met een~verschrikkelijke hoofdpijn.*Nieuwe types?*Ik weet niet eens wat een~type is. Man, wat ben ik dom.
 
 [Dock Underpass]
-DockUnderpass_Entrance_Route55_Girl,Dit pad leidt naar Route 52, ook wel bekend als de Hayward-dokken.
+DockUnderpass_Entrance_Route55_Girl,Dit pad leidt naar Route 52, ook wel bekend als de Hayward-Dokken.
 DockUnderpass_Entrance_Route52_HomelessGuy,Hier woon ik omdat ik geen~geld heb...
 
 [Route 52]
-Route52_Sign,Route 52~Hayward-dokken*Hayward City - Dok-Onderdoorgang
-Route52_MagmarTraderHouse_Father,Live in the city?*Why, I love it here.*No darn annoying hoodrats.
-Route52_MagmarTraderHouse_MagmarTrade_Question,Hi! Want to trade an Abra~for a Magmar?
-Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Oh well...
-Route52_MagmarTraderHouse_MagmarTrade_AfterTrade,Isn't my old Magmar great?
-Route52_MagmarTraderHouse_MagmarTrade_TradeSuccess,Okay, connect the cable~like so!
-Route52_MagmarTraderHouse_MagmarTrade_TradeFail,What? That's not Abra!*If you get one, come back~here!
-Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade
-Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,at a house at Route 52
+Route52_Sign,Route 52~Hayward-Dokken*Hayward City - Dok-Onderdoorgang
+Route52_MagmarTraderHouse_Father,Wonen in de stad?*Waarom? Ik vind het hier~geweldig.*Geen vervelende~straatschoffies.
+Route52_MagmarTraderHouse_MagmarTrade_Question,Hoi! Wil je een Abra ruilen~voor een Magmar?
+Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Nou ja...
+Route52_MagmarTraderHouse_MagmarTrade_AfterTrade,Is mijn oude Magmar niet geweldig?
+Route52_MagmarTraderHouse_MagmarTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
+Route52_MagmarTraderHouse_MagmarTrade_TradeFail,Wat? Dat is geen Abra!*Als je er eentje vindt, kom~dan hier terug!
+Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Ontvangen in een ruil
+Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,in een huis op Route 52
 
 [Route 52 - Hayward City Gate]
-Route52_Hayward_Gate_Aide_ExpAll_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds~of Pokémon, I'm supposed to~give you an Exp. All!*So <Player.Name>! Have you~caught at least 30 kinds~of Pokémon?
-Route52_Hayward_Gate_Aide_ExpAll_AnswerYes_30OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
-Route52_Hayward_Gate_Aide_ExpAll_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough kinds~of Pokémon!*You need 30 kinds if~you want the Exp. All.
-Route52_Hayward_Gate_Aide_ExpAll_AnswerNo,Oh, I see.~When you get 30 kinds,~come back for the Exp. All.
-Route52_Hayward_Gate_Aide_ExpAll_AfterReceiveExpAll,Have fun with it!
-Route52_Hayward_Gate_BugCatcher,This gate leads straight~to Hayward City.~I love the city!
+Route52_Hayward_Gate_Aide_ExpAll_Question,Hoi! Ken je me nog?*Ik ben de assistent van~Prof. Tim!*Als je 30 soorten Pokémon hebt~gevangen, moet ik je een~Team-ervaringsdeler geven!*Dus <Player.Name>!~Heb je minstens 30 soorten~Pokémon gevangen?
+Route52_Hayward_Gate_Aide_ExpAll_AnswerYes_30OrMorePokemon,Even zien...*Geweldig! Je hebt <Pokedex.Caught>~soorten Pokémon gevangen!~Gefeliciteerd!*Alsjeblieft!
+Route52_Hayward_Gate_Aide_ExpAll_AnswerYes_LessThan30Pokemon,Even zien...*Oh-oh!~Je hebt niet genoeg soorten~Pokémon gevangen!*Je hebt 30 soorten nodig als~je de Team-ervaringsdeler wilt.
+Route52_Hayward_Gate_Aide_ExpAll_AnswerNo,Oh, ik begrijp het.~Als je 30 soorten hebt,~kom dan terug voor de~Team-ervaringsdeler.
+Route52_Hayward_Gate_Aide_ExpAll_AfterReceiveExpAll,Veel plezier ermee!
+Route52_Hayward_Gate_BugCatcher,Deze poort leidt rechtstreeks~naar Hayward City.*Ik hou van die stad!
 
 [Hayward City]
-Hayward_Main_Sign_SouthlandMall,The largest shopping center~in Rijon!~Southland Mall
-Hayward_Main_Sign_City,Hayward City*A calm, peaceful city to be at!
-Hayward_Main_Sign_TrainerTips,Trainer Tips*Pressing [<system.button(back1)>] during evolution~cancels the whole process.
+Hayward_Main_Sign_SouthlandMall,Het grootste winkelcentrum~in Rijon!*Winkelcentrum Zuidland
+Hayward_Main_Sign_City,Hayward City*Een rustige, vredige stad om~in te vertoeven!
+Hayward_Main_Sign_TrainerTips,Trainer-Tips*Als je op [<system.button(back1)>] drukt~tijdens een evolutie~dan stopt het hele proces.
 
-Hayward_Main_Lass,I got my fossil revived by some~geeky lab guys in white.
-Hayward_Main_SuperNerd,I love to shop because they~sell Dire Hit.~It increases crit. hit ratio!
-Hayward_Main_Hiker,I want to go east, but that bush~is blocking my path.
-Hayward_Main_Officer,Team Rocket came from Kanto~to terrorize our nice town.~You seen any suspicious~mean lately?*If so, report it to me and~I'll deal with them!
-Hayward_Main_SchoolKid,You're a trainer too? Collecting,~fighting, it's a tough life.
-Hayward_Main_Bouncer,You can't go over here until~you beat the Rijon League,~sorry!
-Hayward_Main_RocketGruntHorace_IntroMessage,Hey kid! Get out of here~right now! Huh?*What I'm doing here isn't~really your business.
-Hayward_Main_RocketGruntHorace_OutroMessage,Fine, you can have this~place!
-Hayward_Main_RocketGruntHorace_TakeThis,Take this and don't kill me!
-Hayward_Main_RocketGruntHorace_GetMoving,I better get moving! Bye!
-Hayward_Main_SlowbroGirl_1,Hey, kid?!~Seen my Slowbro? He ran away~and is lost...!
-Hayward_Main_SlowbroGirl_2,SLOWBRO? WHERE ARE YOU?!~It's hopeless...~He is gone forever...~I loved my Slowbro...boo hoo!~I wish he didn't leave me!
-Hayward_Main_SlowbroGirl_3,Please try to find Slowbro~for me!
-Hayward_Main_Slowbro_1,Slowbro is loafing around...
-Hayward_Main_Slowbro_2,Slowbro ignored orders...
-Hayward_Main_Slowbro_3,Slowbro turned away...
-Hayward_Main_Slowbro_4,Slowbro took a snooze...
-Hayward_Main_AnnoyedGuy_NoOrbs,That girl over there is~annoying and a pain!*Why doesn't she get an orb~herself?
-Hayward_Main_AnnoyedGuy_HaveOrbs,I think she wants orbs to~awaken rare Pokémon in Naljo.*Just a theory.
-Hayward_Main_OrbGirl_HaveAnyOrbs,I collect orbs!~Have any?
-Hayward_Main_OrbGirl_Question_GiveOrbs,Give her one of your orbs?
-Hayward_Main_OrbGirl_DontNeedThatOrb,I don't need that Orb.
-Hayward_Main_OrbGirl_Red_Orb_1,Red Orb?*Nice!*Take this rare TM!
-Hayward_Main_OrbGirl_Red_Orb_2,TM 07 contains Horn Drill!*It can One-Hit-Knock-Out the~opponent!
-Hayward_Main_OrbGirl_Blue_Orb_1,Great, a Blue Orb!*Take this as a reward!
-Hayward_Main_OrbGirl_Blue_Orb_2,TM 37 contains Megahorn!*Great for any Pokémon~with horns!
-Hayward_Main_OrbGirl_Green_Orb_1,Excellent, a Green Orb!*You deserve this!
-Hayward_Main_OrbGirl_Green_Orb_2,TM 26 contains Earthquake!*It's great for shaking~things up a bit!
-Hayward_Main_VendingMachine_Menu,A vending machine!~Here's the menu.
-Hayward_Main_VendingMachine_Option_BeerKeg,Beer Keg    $200
-Hayward_Main_VendingMachine_Option_SodaPop,Soda Pop        $300
-Hayward_Main_VendingMachine_Option_Lemonade,Lemonade       $350
-Hayward_Main_VendingMachine_Buy_BeerKeg,BZZT!*Beer Keg popped out.
-Hayward_Main_VendingMachine_Buy_SodaPop,CLANG!*Soda Pop dropped down.
-Hayward_Main_VendingMachine_Buy_Lemonade,CLANG!*Lemonade dropped down.
-Hayward_Main_VendingMachine_Extra_BeerKeg,Score!*An extra Beer Keg~popped out!
-Hayward_Main_VendingMachine_Extra_SodaPop,Score!*An extra bottle of Soda Pop~dropped down!
-Hayward_Main_VendingMachine_Extra_Lemonade,Score!*An extra can of Lemonade~dropped down!
-Hayward_Main_VendingMachine_NotEnoughMoney,You don't have enough money!
+Hayward_Main_Lass,Mijn fossiel werd nieuw leven~ingeblazen door een paar maffe~labjongens in het wit.
+Hayward_Main_SuperNerd,Ik ben dol op winkelen omdat~ze Harde Treffers verkopen.~Die verhogen de kans op een~voltreffer.
+Hayward_Main_Hiker,Ik wil naar het oosten, maar~die struik verspert me de weg.
+Hayward_Main_Officer,Team Rocket kwam uit Kanto~om onze mooie stad te~terroriseren.*Heb je de laatste tijd nog~verdachte types gezien?*Zo ja, meld het aan mij en ik~reken met ze af!
+Hayward_Main_SchoolKid,Ben je ook een trainer?~Verzamelen, vechten, het is~een zwaar leven.
+Hayward_Main_Bouncer,Je kunt hier pas heen als~je de Rijon League hebt~verslagen, sorry!
+Hayward_Main_RocketGruntHorace_IntroMessage,Hey kleine! Maak dat je~wegkomt!*Huh?*Wat ik hier doe zijn niet~echt jouw zaken.
+Hayward_Main_RocketGruntHorace_OutroMessage,Best, je mag deze plek hebben!
+Hayward_Main_RocketGruntHorace_TakeThis,Hier, pak aan en maak me~niet dood!
+Hayward_Main_RocketGruntHorace_GetMoving,Ik ga er maar beter vandoor!~Doei!
+Hayward_Main_SlowbroGirl_1,Hé jij?!~Heb je mijn Slowbro gezien?~Hij rende weg en is verdwaald...!
+Hayward_Main_SlowbroGirl_2,SLOWBRO? WAAR BEN JE?!~Het is hopeloos...~Hij is voor altijd weg...~Ik hield van mijn Slowbro...boe-hoe!~Ik wou dat hij me niet had~verlaten!
+Hayward_Main_SlowbroGirl_3,Probeer alsjeblieft Slowbro~te vinden voor me!
+Hayward_Main_Slowbro_1,Slowbro lummelde wat rond...
+Hayward_Main_Slowbro_2,Slowbro negeerde orders...
+Hayward_Main_Slowbro_3,Slowbro draaide zich om...
+Hayward_Main_Slowbro_4,Slowbro deed een dutje...
+Hayward_Main_AnnoyedGuy_NoOrbs,Dat meisje daar is vervelend~en lastig!*Waarom zoekt ze zelf geen Bol?
+Hayward_Main_AnnoyedGuy_HaveOrbs,Ik denk dat ze Bollen wil~om zeldzame Pokémon in Naljo~wakker te maken.*Het is maar een theorie.
+Hayward_Main_OrbGirl_HaveAnyOrbs,Ik verzamel Bollen!~Heb je die?
+Hayward_Main_OrbGirl_Question_GiveOrbs,Geef haar een van je Bollen?
+Hayward_Main_OrbGirl_DontNeedThatOrb,Die Bol heb ik niet nodig.
+Hayward_Main_OrbGirl_Red_Orb_1,Rode Bol?*Tof!*Neem deze zeldzame TM!
+Hayward_Main_OrbGirl_Red_Orb_2,TM 07 bevat Hoornboor!*Die kan de tegenstander in~één keer uitschakelen!
+Hayward_Main_OrbGirl_Blue_Orb_1,Wauw, een Blauwe Bol!*Neem dit als beloning!
+Hayward_Main_OrbGirl_Blue_Orb_2,TM 37 bevat Megahoorn!*Perfect voor elke Pokémon~met hoorns!
+Hayward_Main_OrbGirl_Green_Orb_1,Super, een Groene Bol!*Jij verdient dit!
+Hayward_Main_OrbGirl_Green_Orb_2,TM 26 bevat Aardbeving!*Hiermee kan je de boel goed~opschudden!
+Hayward_Main_VendingMachine_Menu,Een verkoopautomaat!~Hier is het menu.
+Hayward_Main_VendingMachine_Option_BeerKeg,Blikje Bier      $200
+Hayward_Main_VendingMachine_Option_SodaPop,Frisdrank      $300
+Hayward_Main_VendingMachine_Option_Lemonade,Limonade        $350
+Hayward_Main_VendingMachine_Buy_BeerKeg,BZZT!*Blikje Bier viel eruit.
+Hayward_Main_VendingMachine_Buy_SodaPop,BENG!*Frisdrank viel eruit.
+Hayward_Main_VendingMachine_Buy_Lemonade,BENG!*Limonade viel eruit.
+Hayward_Main_VendingMachine_Extra_BeerKeg,Geluk!*Een extra Blikje Bier viel eruit.
+Hayward_Main_VendingMachine_Extra_SodaPop,Geluk!*Een extra fles Frisdrank viel eruit.
+Hayward_Main_VendingMachine_Extra_Lemonade,Geluk!*Een extra blik Limonade viel eruit.
+Hayward_Main_VendingMachine_NotEnoughMoney,Je hebt niet genoeg geld!
 
 Hayward_Main_Mura_BeforeBattle,Mura: Yo! <Player.Name>!*I just got a cool HM from~that city back there.*My Pokémon have grown stronger~too!*<Player.Name>: Alright, let's see~if that's true, Mura!
 Hayward_Main_Mura_OutroMessage,Mura: Hey!~Take it easy!~You won already!
