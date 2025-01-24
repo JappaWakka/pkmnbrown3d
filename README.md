@@ -46,7 +46,7 @@ If your issue has not been reported, please create a new one. Please include wha
 * Anything else you think is worth noting.
 
 ## Gameplay Tips 
-* You can also move the cursor all the way to the left and change some settings. Select Options and then one of the buttons in that submenu.
+* While in the Main Menu, you can also move the cursor all the way to the left and change some settings. Select Options and then one of the buttons in that submenu.
  * For example, if you prefer the GameBoy soundtrack over the Orchestral one, you can disable the Brown 3D Orchestral pack in the ContentPacks menu.
 * To return to the Main Menu or cancel anything, you can press the E key or the right mouse button.
 * The rest of the settings (like text speed and mouse sensitivity) can only be changed while in-game. You can access the in-game Options menu by pressing the E key after the intro cutscene and selecting Options.
