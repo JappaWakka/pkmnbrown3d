@@ -42,7 +42,7 @@ version=2
 
 	:if:<Register.Registered(Starter_Bulbasaur)>=true
 		@npc.turn(4,1)
-		@npc.move(4,4+<storage.get(integer,position)>)
+		@npc.move(4,1+<storage.get(integer,position)>)
 		@npc.turn(4,2)
 		@npc.move(4,2)
 		
