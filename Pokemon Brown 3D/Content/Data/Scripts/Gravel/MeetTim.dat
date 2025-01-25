@@ -1,10 +1,12 @@
 version=2
 :if:<Register.Registered(mettim)>=False
-
 	@player.stopmovement(0)
 	@player.setspeed(1)
 	@music.forceplay(Encounter_Tim)
 	@player.turnto(2,1)
+	:if:<camera.thirdperson>=true
+		@camera.reset
+	:endif
 	@storage.set(integer,position,0)
 	
 	:if:<player.position>=10,0,-1
@@ -36,24 +38,29 @@ version=2
 		@player.move(1)
 		@npc.turn(3,2)
 		@player.turnto(1)
-		@npc.moveasync(3,7)
+		@npc.moveasync(3,1)
+		@player.move(1)
+		@player.turnto(2)
+		@npc.moveasync(3,6)
+		@player.move(7)
 	:else
-		@npc.moveasync(3,8)
+		@npc.moveasync(3,1)
+		@player.move(1)
+		@player.turnto(2)
+		@npc.moveasync(3,7)
+		@player.move(7)
 	:endif
 	
-	@player.move(1)
-	@player.turnto(2)
-	@player.move(7)
 	@npc.turn(3,3)
 	@npc.moveasync(3,1)
 	@player.move(1)
-	@player.turnto(3)
+	@player.turnto(3,1)
 	@npc.moveasync(3,2)
 	@player.move(2)
 	@npc.turn(3,0)
 	@npc.moveasync(3,1)
 	@player.move(1)
-	@player.turnto(0)
+	@player.turnto(0,1)
 	@npc.remove(3)
 	@player.move(1)
 	@player.warp(Gravel\TimsLab.dat,4,0.1,10,0)
