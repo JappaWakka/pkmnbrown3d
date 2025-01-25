@@ -8,18 +8,19 @@
 My name is [JappaWakka](https://github.com/JappaWakka), and I'm the main developer for the 3D remake of Pokémon Brown, simply (but effectively) called Pokémon Brown 3D! 😛
 
 ## How to play
-1. Download the Test Build of Pokémon 3D [here](https://github.com/JappaWakka/pkmnbrown3d/releases/download/v1.0-beta.1/Pokemon_3D_Beta.zip).
-2. Extract the Test Build zip using WinRAR or 7zip to a location of your choice.
+1. Download the test build of Pokémon 3D [here](https://github.com/JappaWakka/pkmnbrown3d/releases/download/v1.0-beta.1/Pokemon_3D_Beta.zip).
+2. Extract the test build zip using WinRAR or 7zip to a location of your choice.
 3. Download the Pokémon Brown 3D GameMode from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest).
-4. Open the zip and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the Test Release build folder (the path would be TestBuild_Pokemon3D\GameModes\Pokemon Brown 3D).
+4. Open the zip and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the test build folder (the path would be Pokemon 3D Beta\GameModes\Pokemon Brown 3D).
 5. Launch the game by executing Pokemon3D.exe.
 6. Press any button at the title screen, then in the Main Menu, move the cursor all the way to the right and select "New Game".
 7. Select Pokémon Brown 3D from the list to start the game.
 
 ## How to update
-1. Download the Pokémon Brown 3D GameMode from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest).
-2. Open the zip and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the Test Release build folder (the path would be TestBuild_Pokemon3D\GameModes\Pokemon Brown 3D)
-3. Once the Pokemon Brown 3D folder is in the GameModes folder, you can launch the game by executing Pokemon3D.exe and continue your save by selecting it in the Main Menu.
+1. Download the Pokémon Brown 3D GameMode (and if available also the Pokemon 3D Beta update) from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest). **Note: You don't need to download the "Source code" zips!!!!**
+2. Open the Brown 3D Beta zip and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the test build folder (the path would be Pokemon 3D Beta\GameModes\Pokemon Brown 3D)
+3. If there's a Pokemon 3D Beta update, open that zip as well and extract its contents into the root of the "Pokemon 3D Beta" test build folder, overwriting the existing files.
+4. Once the Pokemon Brown 3D folder is in the GameModes folder and everything is updated, you can launch the game by executing Pokemon3D.exe and continue your save by selecting it in the Main Menu.
 
 ## Reporting an issue
 Check the [issue tracker](https://github.com/JappaWakka/pkmnbrown3d/issues).
@@ -32,13 +33,11 @@ If your issue has not been reported, please create a new one. Please include wha
 * A copy of your save file from before the bug occurred or just after.
 
 ### Important notes
-
 * Please take regular backups of your save file.
 * Please update your game as soon as a beta is released. You will be pinged.
 * Remember to back up your save file before updating.
 
 ### What we are looking for
-
 * Spelling and grammar.
 * Continuity issues.
 * Lack of direction or clarity, or progression confusion.
