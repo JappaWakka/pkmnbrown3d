@@ -20,11 +20,10 @@ version=2
 			@pokemon.rename(0)
 			:if:<player.position>=8,0,3
 				@NPC.turn(4,2)
-				@NPC.move(4,2)
+				@NPC.move(4,1)
 				@NPC.turn(4,3)
 				@NPC.move(4,2)
 				@NPC.turn(4,0)
-				@NPC.move(4,1)
 				@Text.Show(<system.token(Gravel_TimsLab_Mura_ChoosePokemon)>)
 				@NPC.remove(1)
 				@Text.Show(<system.token(Gravel_TimsLab_Mura_Receive_Charmander)>)
