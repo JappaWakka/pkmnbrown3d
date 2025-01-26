@@ -8,7 +8,7 @@ Doors
 
 NPCs:
 	BenchGuy
-		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[RegularGuy_Red]}}{"ID"{int[2]}}{"Name"{str[BenchGuy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\PokeCenter_BenchGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[RegularGuy_Red]}}{"ID"{int[2]}}{"Name"{str[Bench Guy]}}{"Collision"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Castro\PokeCenter_BenchGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Other
 		{"NPC"{NPC[{"Position"{sngArr[2,0,5]}}{"TextureID"{str[Fisherman]}}{"ID"{int[1]}}{"Name"{str[Fisherman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_PokeCenter_Fisherman)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 		{"NPC"{NPC[{"Position"{sngArr[5,0,5]}}{"TextureID"{str[Sailor]}}{"ID"{int[3]}}{"Name"{str[Sailor]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_PokeCenter_Sailor)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[5,4,1,3]]}}]}}

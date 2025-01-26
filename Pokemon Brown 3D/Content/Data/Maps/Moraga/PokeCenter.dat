@@ -5,7 +5,7 @@
 	
 NPCs:
 	BenchGuy
-		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[RegularGuy_Red]}}{"ID"{int[2]}}{"Name"{str[BenchGuy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Moraga\PokeCenter_BenchGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[RegularGuy_Red]}}{"ID"{int[2]}}{"Name"{str[Bench Guy]}}{"Collision"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Moraga\PokeCenter_BenchGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Other
 		{"NPC"{NPC[{"Position"{sngArr[5,0,2]}}{"TextureID"{str[Gentleman_Brown]}}{"ID"{int[3]}}{"Name"{str[Gentleman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Moraga_PokeCenter_Gentleman)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 		{"NPC"{NPC[{"Position"{sngArr[5,0,5]}}{"TextureID"{str[OldWoman_Blue]}}{"ID"{int[4]}}{"Name"{str[Old Woman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Moraga_PokeCenter_OldWoman)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[5,4,1,3]]}}]}}

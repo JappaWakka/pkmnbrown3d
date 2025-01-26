@@ -5,7 +5,7 @@
 	
 NPCs:
 	BenchGuy
-		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[LittleGirl_BowTie]}}{"ID"{int[2]}}{"Name"{str[BenchGirl]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\PokeCenter_BenchGirl]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[LittleGirl_BowTie]}}{"ID"{int[2]}}{"Name"{str[Bench Girl]}}{"Collision"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Owsauri\PokeCenter_BenchGirl]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Other
 		{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[BirdKeeper]}}{"ID"{int[3]}}{"Name"{str[Bird Keeper]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Owsauri_PokeCenter_BirdKeeper)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 		{"NPC"{NPC[{"Position"{sngArr[5,0,4]}}{"TextureID"{str[Lass_Green]}}{"ID"{int[4]}}{"Name"{str[Lass]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Owsauri_PokeCenter_Lass)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[4,4,3,1]]}}]}}

@@ -5,7 +5,7 @@
 
 NPCs:
 	BenchGuy
-		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[RegularGuy_Red]}}{"ID"{int[2]}}{"Name"{str[BenchGuy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Jaeru\PokeCenter_BenchGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+		{"NPC"{NPC[{"Position"{sngArr[0.25,0.375,3]}}{"TextureID"{str[RegularGuy_Red]}}{"ID"{int[2]}}{"Name"{str[Bench Guy]}}{"Collision"{bool[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Jaeru\PokeCenter_BenchGuy]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	Other
 		{"NPC"{NPC[{"Position"{sngArr[7,0,5]}}{"TextureID"{str[Gentleman_Brown]}}{"ID"{int[3]}}{"Name"{str[Gentleman]}}{"Action"{int[1]}}{"AdditionalValue"{str[jaeru\cellphone]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
