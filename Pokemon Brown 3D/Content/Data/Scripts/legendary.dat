@@ -27,8 +27,11 @@ version=2
 		@Register.Register(Zapdos)
 	:endwhen
 	
-	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Finished_Answer)>)
 	@Register.Register(Mewtwo)
+	@Register.Register(Mew)
+	
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Finished_Answer)>)
+	
 :when:<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Wizard)>
 	@Register.Register(Suicune)
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step2_Wizard_Question)>)
@@ -55,8 +58,11 @@ version=2
 		@Register.Register(Zapdos)
 	:endwhen
 	
-	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Finished_Answer)>)
 	@Register.Register(Mewtwo)
+	@Register.Register(Mew)
+	
+	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Finished_Answer)>)
+	
 :when:<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Random)>
 	:select:<system.random(0,1)>
 	:when:0
@@ -87,8 +93,10 @@ version=2
 	:endwhen
 	
 	@Register.Register(Mewtwo)
+	@Register.Register(Mew)
 	
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Finished_Random)>)
+	
 :endwhen
 
 @Register.Register(legendary)

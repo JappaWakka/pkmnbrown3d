@@ -3,12 +3,8 @@ version=2
 	@npc.spawn(17,0,80,1,,Tim,0,0,Tim,3,Still)
 :endif
 :if:<Register.Registered(legendary)>=false
-	:select:<system.random(0,1)>
-	:when:0
 	@Register.Register(Mew)
-	:when:1
 	@Register.Register(MewTwo)
-	:endwhen
 	
 	:select:<system.random(2,3)>
 	:when:2
