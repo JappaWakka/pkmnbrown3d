@@ -2,7 +2,9 @@ version=2
 @Text.Show(<system.token(Eagulou_Gym_RocketGrunt_Block1)>)
 @Level.Wait(10)
 @NPC.Turn(9,0)
-@Level.Wait(50)
-@NPC.Turn(9,2)
 @Text.Show(<system.token(Eagulou_Gym_RocketGrunt_Block2)>)
+@Level.Wait(50)
+@Entity.ShowMessageBulb(1|2|0.7|12)
+@NPC.Turn(9,2)
+@Text.Show(<system.token(Eagulou_Gym_RocketGrunt_Block3)>)
 :end
