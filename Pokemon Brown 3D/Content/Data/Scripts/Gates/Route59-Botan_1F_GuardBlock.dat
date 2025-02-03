@@ -9,7 +9,7 @@ version=2
 :else
 	:if:<Register.Registered(drunksleep)>=false
 		@player.turnto(3)
-		@Text.Show(<system.token(Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMe)>)
+		@Text.Show(<system.token(Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMeBeer)>)
 		:if:<player.position(x)>=3
 			@player.move(1)
 		:endif
