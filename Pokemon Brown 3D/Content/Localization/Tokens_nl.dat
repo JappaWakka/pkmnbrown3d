@@ -650,6 +650,8 @@ game_message_third_person_on,Weergave in derde persoon
 game_message_third_person_off,Weergave in eerste persoon
 game_message_free_camera_on,Vrije-camera-modus aan
 game_message_free_camera_off,Vrije-camera-modus uit
+game_message_sandbox_mode_on,Zandbak-modus aan
+game_message_sandbox_mode_off,Zandbak-modus uit
 game_message_audio_on,Geluid aan
 game_message_audio_off,Geluid uit
 game_message_continue_autosave,Hervatte opslagbestand:
@@ -2268,7 +2270,7 @@ item_pluralname_1999,Shokschijven
 Fossils:
 item_name_601,Schroeffossiel
 item_name_602,Koepelfossiel
-item_name_603,Oude Amber
+item_name_603,Oud Amber
 item_name_604,Wortelfossiel
 item_name_605,Klauwfossiel
 item_name_606,Schedelfossiel
@@ -3492,7 +3494,7 @@ Trainer (Sub-)Classes:
 TrainerClass_Beauty,Schoonheid
 TrainerClass_Biker,Motorrijder
 TrainerClass_BirdKeeper,Vogelverzorger
-TrainerClass_Blackbelt,Zwarte band
+TrainerClass_Blackbelt,Zwarte Band
 TrainerClass_BugCatcher,Insectenvanger
 TrainerClass_Burglar,Inbreker
 TrainerClass_Champion,Kampioen
@@ -3501,7 +3503,7 @@ TrainerClass_CoolTrainer_Female,Coole Trainer♀
 TrainerClass_CoolTrainer_Male,Coole Trainer♂
 TrainerClass_CueBall,Keubal
 TrainerClass_Developer,Ontwikkelaar
-TrainerClass_EliteFour,Elite vier
+TrainerClass_EliteFour,Elite Vier
 TrainerClass_ExGrunt,Ex-rekruut
 TrainerClass_Fisherman,Visser
 TrainerClass_Gambler,Gokker
@@ -4053,7 +4055,7 @@ Route52_Sign,Route 52~Hayward-Dokken*Hayward City - Dok-Onderdoorgang
 Route52_MagmarTraderHouse_Father,Wonen in de stad?*Waarom? Ik vind het hier~geweldig.*Geen vervelende~straatschoffies.
 Route52_MagmarTraderHouse_MagmarTrade_Question,Hoi! Wil je een Abra ruilen~voor een Magmar?
 Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Nou ja...
-Route52_MagmarTraderHouse_MagmarTrade_AfterTrade,Is mijn oude Magmar niet geweldig?
+Route52_MagmarTraderHouse_MagmarTrade_AfterTrade,Is mijn oude Magmar niet~geweldig?
 Route52_MagmarTraderHouse_MagmarTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Route52_MagmarTraderHouse_MagmarTrade_TradeFail,Wat? Dat is geen Abra!*Als je er eentje vindt, kom~dan hier terug!
 Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Ontvangen in een ruil
@@ -4072,7 +4074,7 @@ Hayward_Main_Sign_SouthlandMall,Het grootste winkelcentrum~in Rijon!*Winkelcentr
 Hayward_Main_Sign_City,Hayward City*Een rustige, vredige stad om~in te vertoeven!
 Hayward_Main_Sign_TrainerTips,Trainer-Tips*Als je op [<system.button(back1)>] drukt~tijdens een evolutie~dan stopt het hele proces.
 
-Hayward_Main_Lass,Mijn fossiel werd nieuw leven~ingeblazen door een paar maffe~labjongens in het wit.
+Hayward_Main_Lass,Mijn fossiel werd tot leven~gewekt door een paar maffe~labjongens in het wit.
 Hayward_Main_SuperNerd,Ik ben dol op winkelen omdat~ze Harde Treffers verkopen.~Die verhogen de kans op een~voltreffer.
 Hayward_Main_Hiker,Ik wil naar het oosten, maar~die struik verspert me de weg.
 Hayward_Main_Officer,Team Rocket kwam uit Kanto~om onze mooie stad te~terroriseren.*Heb je de laatste tijd nog~verdachte types hier in de~buurt gezien?*Zo ja, meld het aan mij en ik~reken met ze af!
@@ -4112,52 +4114,52 @@ Hayward_Main_VendingMachine_Extra_SodaPop,Geluk!*Een extra fles Frisdrank viel e
 Hayward_Main_VendingMachine_Extra_Lemonade,Geluk!*Een extra blik Limonade viel eruit.
 Hayward_Main_VendingMachine_NotEnoughMoney,Je hebt niet genoeg geld!
 
-Hayward_Main_Mura_BeforeBattle,Mura: Yo! <Player.Name>!*Ik heb net een coole HM~gevonden in die stad~daar verderop.*Mijn Pokémon zijn ook sterker~geworden!*<Player.Name>: Oké, eens kijken~of dat waar is, Mura!
+Hayward_Main_Mura_BeforeBattle,Mura: Yo! <Player.Name>!*Ik heb net een coole VM~gevonden in die stad~daar verderop.*Ze hadden er een heleboel,~maar stonden op het punt om~ze ergens anders heen te~vervoeren, dus je krijgt er~geen van!*Haha!*Mijn Pokémon zijn ook sterker~geworden!*<Player.Name>: Oké, eens kijken~of dat waar is, Mura!
 Hayward_Main_Mura_OutroMessage,Mura: Hé!~Doe eens rustig!~Je hebt al gewonnen!
 Hayward_Main_Mura_AfterBattle,Mura: Je hebt deze keer~misschien gewonnen, maar ik~ga de Rijon League verslaan~en kampioen worden!*<Player.Name>: Niet voordat ik~dat doe!*Mura: Dat zullen we nog wel~eens zien...~Ik zie je later.
 
-Hayward_PokeCenter_BenchGuy,It would be great if the~Elite Four came and stomped~Team Rocket!
-Hayward_PokeCenter_Gentleman,If you can find a fossil, that~lab next door will revive it!
-Hayward_PokeCenter_PokeFan,I came from Eagulou City.
+Hayward_PokeCenter_BenchGuy,Het zou geweldig zijn als de~Elite Vier Team Rocket zouden~komen verdrijven!
+Hayward_PokeCenter_Gentleman,Als je een fossiel kunt vinden,~zal dat lab hiernaast het tot~leven kunnen wekken!
+Hayward_PokeCenter_PokeFan,Ik kom uit Eagulou City.
 
-Hayward_FossilLab_LaprasTrade_Question,I'm looking for a Clefairy!~Wanna trade one for a Lapras?
-Hayward_FossilLab_LaprasTrade_Answer_No,Awww! Oh well...
-Hayward_FossilLab_LaprasTrade_AfterTrade,Isn't my old Lapras great?
-Hayward_FossilLab_LaprasTrade_TradeSuccess,Okay, connect the cable~like so!
-Hayward_FossilLab_LaprasTrade_TradeFail,What? That's not Clefairy!*If you get one, come back~here!
-Hayward_FossilLab_LaprasTrade_CatchMethod,Received in a trade
-Hayward_FossilLab_LaprasTrade_CatchLocation,in the Hayward Fossil Lab
-Hayward_FossilLab_FossilReviver_Question,Hey there!*I love to study fossils.*Do you have one I can revive~with this machine?
-Hayward_FossilLab_FossilReviver_NoFossil,No?*GET OUT!
-Hayward_FossilLab_FossilReviver_Answer_No,Don't waste my time then!~Come back when you do!
-Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! That is a Helix Fossil!~It's a fossil of Omanyte,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! That is a Dome Fossil!~It's a fossil of Kabuto,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! That is a Skull Fossil!~It's a fossil of Cranidos,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_OldAmber,Oh! That is an Old Amber!~It's a fossil of Aerodactyl,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Well? Hurry up and give~me that!*<Player.Name> handed~over the Helix Fossil!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Well? Hurry up and give~me that!*<Player.Name> handed~over the Dome Fossil!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me that!*<Player.Name> handed~over the Skull Fossil!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_Answer_OldAmber,Well? Hurry up and give~me that!*<Player.Name> handed~over the Old Amber!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_NoSand,Don't put sand in your bag!~Just walk around Eagulou!*What gets stuck in your~clothes will be enough!
-Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~Enjoy your new Pokemon!
-Hayward_FossilLab_GotOmanyte,<Player.Name> got Omanyte!
-Hayward_FossilLab_GotKabuto,<Player.Name> got Kabuto!
-Hayward_FossilLab_GotCranidos,<Player.Name> got Cranidos!
-Hayward_FossilLab_GotAerodactyl,<Player.Name> got Aerodactyl!
+Hayward_FossilLab_LaprasTrade_Question,Ik zoek naar een Clefairy!~Wil je er eentje ruilen tegen een Lapras?
+Hayward_FossilLab_LaprasTrade_Answer_No,Awww! Nou ja...
+Hayward_FossilLab_LaprasTrade_AfterTrade,Is mijn oude Lapras niet~geweldig?
+Hayward_FossilLab_LaprasTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
+Hayward_FossilLab_LaprasTrade_TradeFail,Wat? Dat is geen Clefairy!*Als je er eentje vindt, kom~dan hier terug!
+Hayward_FossilLab_LaprasTrade_CatchMethod,Ontvangen in een ruil
+Hayward_FossilLab_LaprasTrade_CatchLocation,in het Hayward Fossielen-Lab
+Hayward_FossilLab_FossilReviver_Question,Hé daar!*Ik bestudeer graag fossielen.*Heb je er een die ik met~deze machine weer tot~leven kan wekken?
+Hayward_FossilLab_FossilReviver_NoFossil,Nee?*WEGWEZEN!
+Hayward_FossilLab_FossilReviver_Answer_No,Verspil mijn tijd dan niet!~Kom terug als je dat wel hebt!
+Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! Dat is een Schroeffossiel!~Het is een fossiel van Omanyte,~een Pokemon die al~uitgestorven is!*Ik zal het tot leven wekken~voor je, wil je dat?
+Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! Dat is een Koepelfossiel!~Het is een fossiel van Kabuto,~een Pokemon die al~uitgestorven is!*Ik zal het tot leven wekken~voor je, wil je dat?
+Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! Dat is een Schedelfossiel!~Het is een fossiel van Cranidos,~een Pokemon die al~uitgestorven is!*Ik zal het tot leven wekken~voor je, wil je dat?
+Hayward_FossilLab_FossilReviver_Question_OldAmber,Oh! Dat is Oud Amber!~Het is een fossiel van Aerodactyl,~een Pokemon die al~uitgestorven is!*Ik zal het tot leven wekken~voor je, wil je dat?
+Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Schroeffossiel!*Loop rond in Eagulou en~kom weer terug, dan kan~ik het afmaken!
+Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Koepelfossiel!*Loop rond in Eagulou en~kom weer terug, dan kan~ik het afmaken!
+Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Schedelfossiel!*Loop rond in Eagulou en~kom weer terug, dan kan~ik het afmaken!
+Hayward_FossilLab_FossilReviver_Answer_OldAmber,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Oud Amber!*Loop rond in Eagulou en~kom weer terug, dan kan~ik het afmaken!
+Hayward_FossilLab_FossilReviver_NoSand,Stop geen zand in je tas!~Loop gewoon rond in Eagulou!*Wat er in je kleren blijft~zitten is genoeg!
+Hayward_FossilLab_FossilReviver_HaveSand,Bedankt voor het Eagulou-zand!*...*Klaar!~Veel plezier met je nieuwe~Pokemon!
+Hayward_FossilLab_GotOmanyte,<Player.Name> ontving~Omanyte!
+Hayward_FossilLab_GotKabuto,<Player.Name> ontving~Kabuto!
+Hayward_FossilLab_GotCranidos,<Player.Name> ontving~Cranidos!
+Hayward_FossilLab_GotAerodactyl,<Player.Name> ontving~Aerodactyl!
 Hayward_FossilLab_FossilPokemon_ToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
-Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist
-Hayward_FossilLab_FossilPokemon_CatchLocation,in the Hayward Fossil Lab
+Hayward_FossilLab_FossilPokemon_CatchMethod,Tot leven gewekt
+Hayward_FossilLab_FossilPokemon_CatchLocation,in het Hayward Fossielen-Lab
 
-Hayward_StrengthHouse_Amulets,A collection of amulets.
-Hayward_StrengthHouse_StrengthMan_Question,Hey, have you seen my~special amulet?*It's really important to me~but I lost it!
-Hayward_StrengthHouse_StrengthMan_Answer_Yes,You did?!*Well, go get it and bring it~to me for a big reward!
-Hayward_StrengthHouse_StrengthMan_Answer_No,Darn, well try to look for it.*Last time I remember having~it on me was back at my~temporary Warehouse job!
-Hayward_StrengthHouse_StrengthMan_GiveAmulet,<Player.Name> gave the Red Amulet to~the man!*The man put it in his display~case.*Thank you so much kid!*<Player.Name>: Erm, no problem,~now what's that reward?*Man: Oh yeah, it's an HM that~can push boulders around!
-Hayward_StrengthHouse_StrengthMan_AfterGivenAmulet,The HM 04 teaches Strength!*It lets Pokémon move boulders~when you're outside of battle.
+Hayward_StrengthHouse_Amulets,Een collectie amuletten.
+Hayward_StrengthHouse_StrengthMan_Question,Hé, heb je mijn speciale amulet~gezien?*Het is heel belangrijk voor me,~maar ik ben het kwijt!
+Hayward_StrengthHouse_StrengthMan_Answer_Yes,Echt waar?!*Nou, ga hem halen en breng~hem naar mij voor een~grote beloning!
+Hayward_StrengthHouse_StrengthMan_Answer_No,Verdorie, nou probeer er~alsjeblieft naar te zoeken.*De laatste keer dat ik hem bij~me had was bij mijn tijdelijke~baan als Magazijnmedewerker~in een Warenhuis!
+Hayward_StrengthHouse_StrengthMan_GiveAmulet,<Player.Name> gaf het Rode Amulet~aan de man!*De man legde het in zijn~vitrinekast.*Heel erg bedankt, kleintje!*<Player.Name>: Ehm, geen~probleem, wat is nu~die beloning?*Man: Oh ja, het is een VM die~rotsblokken kan wegduwen!
+Hayward_StrengthHouse_StrengthMan_AfterGivenAmulet,De VM 04 leert Kracht aan je~Pokémon!*Hiermee kunnen Pokémon~rotsblokken verplaatsen~wanneer je buiten~een gevecht bent.
 
-Hayward_TownMapHouse_TownMap,It's a map of Rijon.
-Hayward_TownMapHouse_TownMapGirl_BeforeGive,I'm handing out free Rijon maps~today. Go ahead and take one!
-Hayward_TownMapHouse_TownMapGirl_AfterGive,Use the map if you get lost!
+Hayward_TownMapHouse_TownMap,Het is een kaart van Rijon.
+Hayward_TownMapHouse_TownMapGirl_BeforeGive,Ik deel vandaag gratis kaarten~van Rijon uit.~Ga je gang en neem er een!
+Hayward_TownMapHouse_TownMapGirl_AfterGive,Gebruik de kaart als je~verdwaald raakt!
 
 Hayward_SouthlandMall_ElevatorButtons,Which floor do you want?
 Hayward_SouthlandMall_InfoSign_AllFloors,1F: Service Counter*2F: Trainer's Market*3F: TV Game Shop*4F: Deity TM's*5F: Drug Store*Rooftop Square:~Vending Machines
@@ -4273,10 +4275,10 @@ Route49_Route50_Gate_Binoculars_Right,Looked into the binoculars...*Azalea Town!
 
 [Route 49 Gate]
 Route49_Gate_RhyhornTrade_Question,I'm looking for a Shellder!~Wanna trade one for a Rhyhorn?
-Route49_Gate_RhyhornTrade_Answer_No,Awww! Oh well...
-Route49_Gate_RhyhornTrade_AfterTrade,Isn't my old Rhyhorn great?
-Route49_Gate_RhyhornTrade_TradeSuccess,Okay, connect the cable~like so!
-Route49_Gate_RhyhornTrade_TradeFail,What? That's not Rhyhorn!*If you get one, come back~here!
+Route49_Gate_RhyhornTrade_Answer_No,Awww! Nou ja...
+Route49_Gate_RhyhornTrade_AfterTrade,Is mijn oude Rhyhorn niet~geweldig?
+Route49_Gate_RhyhornTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
+Route49_Gate_RhyhornTrade_TradeFail,Wat? Dat is geen Rhyhorn!*Als je er eentje vindt, kom~dan hier terug!
 Route49_Gate_RhyhornTrade_CatchMethod,Received in a trade
 Route49_Gate_RhyhornTrade_CatchLocation,in the Gate on Route 49
 Route49_Gate_Binoculars_Left,Looked into the binoculars...*There are people swimming!
@@ -4618,7 +4620,7 @@ Moraga_Gym_LeaderLois_Rematch_AfterBattle,Lois: Grass Pokémon are so~lovely, ar
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_Question,Hi! Do you have Nidoqueen?~Want to trade it for Nidoking?
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_Answer_No,That's too bad.
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_AfterTrade,How is my old Nidoking?~My Nidoqueen is doing great!
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeSuccess,Okay, connect the cable~like so!
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeFail,This is no Nidoqueen.*If you get one, trade it~with me!
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod,Received in a trade
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,at the City Underpass
@@ -4788,7 +4790,7 @@ Route59_Botan_Gate_1F_Guard_StillAsleep,<Player.Name>: He's still asleep...
 Route59_Botan_Gate_2F_EeveeTrade_Question,Hi! Do you have a~Mareep?*Want to trade it for Eevee?
 Route59_Botan_Gate_2F_EeveeTrade_Answer_No,That's too bad.
 Route59_Botan_Gate_2F_EeveeTrade_AfterTrade,How is my old Eevee?*My Mareep is doing great!
-Route59_Botan_Gate_2F_EeveeTrade_TradeSuccess,Okay, connect the cable~like so!
+Route59_Botan_Gate_2F_EeveeTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Route59_Botan_Gate_2F_EeveeTrade_TradeFail,...This is no Mareep.*If you get one, trade it~with me!
 Route59_Botan_Gate_2F_EeveeTrade_CatchMethod,Received in a trade
 Route59_Botan_Gate_2F_EeveeTrade_CatchLocation,in the Gate on Route 59
@@ -4840,15 +4842,15 @@ Botan_TradeHouse_Blackbelt,Eevee evolves based on where~it grew up.*That girl's 
 Botan_TradeHouse_TyrogueTrade_Question,Hello there!*Do you want to trade your~Butterfree for Tyrogue?
 Botan_TradeHouse_TyrogueTrade_Answer_No,Well, if you don't want to...
 Botan_TradeHouse_TyrogueTrade_AfterTrade,The Butterfree you traded to~me is doing well!
-Botan_TradeHouse_TyrogueTrade_TradeSuccess,Okay, connect the cable~like so!
+Botan_TradeHouse_TyrogueTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Botan_TradeHouse_TyrogueTrade_TradeFail,Hmmm? This isn't Butterfree.*Think of me when you get one.
 Botan_TradeHouse_TyrogueTrade_CatchMethod,Received in a trade
 Botan_TradeHouse_TyrogueTrade_CatchLocation,in Botan City
 Botan_TradeHouse_NoivernTrade_Question,I'm looking for a Gligar!~Wanna trade one for a~Noivern?
-Botan_TradeHouse_NoivernTrade_Answer_No,Awww! Oh well...
-Botan_TradeHouse_NoivernTrade_AfterTrade,Isn't my old Noivern great?
-Botan_TradeHouse_NoivernTrade_TradeSuccess,Okay, connect the cable~like so!
-Botan_TradeHouse_NoivernTrade_TradeFail,What? That's not Gligar!*If you get one, come back~here!
+Botan_TradeHouse_NoivernTrade_Answer_No,Awww! Nou ja...
+Botan_TradeHouse_NoivernTrade_AfterTrade,Is mijn oude Noivern niet~geweldig?
+Botan_TradeHouse_NoivernTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
+Botan_TradeHouse_NoivernTrade_TradeFail,Wat? Dat is geen Gligar!*Als je er eentje vindt, kom~dan hier terug!
 Botan_TradeHouse_NoivernTrade_CatchMethod,Received in a trade
 Botan_TradeHouse_NoivernTrade_CatchLocation,in Botan City
 
@@ -5003,7 +5005,7 @@ Castro_PunchTutorHouse_Haiku_FacePunch,It seems unlikely.~If you decide to find 
 Castro_TradeHouse_ChanseyTrade_Question,Hi! Do you have a~Pidgey?*Want to trade it for Chansey?
 Castro_TradeHouse_ChanseyTrade_Answer_No,That's too bad.
 Castro_TradeHouse_ChanseyTrade_AfterTrade,How is my old Chansey?
-Castro_TradeHouse_ChanseyTrade_TradeSuccess,Okay, connect the cable~like so!
+Castro_TradeHouse_ChanseyTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Castro_TradeHouse_ChanseyTrade_TradeFail,...This is no Pidgey.*If you get one, trade it with~me!
 Castro_TradeHouse_ChanseyTrade_CatchMethod,Received in a trade
 Castro_TradeHouse_ChanseyTrade_CatchLocation,in Castro Valley
@@ -5788,7 +5790,7 @@ FinalDungeon_SmallCave_Telekinetic,I think the trainer called~Slick would love t
 FinalDungeon_SmallCave_CrobatTrade_Question,Hello there!*Do you want to trade your~Rhyhorn for Crobat?
 FinalDungeon_SmallCave_CrobatTrade_Answer_No,Well, if you don't want to...
 FinalDungeon_SmallCave_CrobatTrade_AfterTrade,Now, if only I had a protector...
-FinalDungeon_SmallCave_CrobatTrade_TradeSuccess,Okay, connect the cable~like so!
+FinalDungeon_SmallCave_CrobatTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 FinalDungeon_SmallCave_CrobatTrade_TradeFail,Hmmm? This isn't Rhyhorn.*Think of me when you get one.
 FinalDungeon_SmallCave_CrobatTrade_CatchMethod,Received in a trade
 FinalDungeon_SmallCave_CrobatTrade_CatchLocation,in the Final Dungeon

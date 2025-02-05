@@ -10,8 +10,8 @@ To update/refresh the currently loaded tokens, you have to exit to the main menu
 You can write ~ in places where you want a soft line break (which scrolls to the next line, keeping the last previous line in view)
 You can write * in places where you want a hard line break (which clears the text box before displaying the next line)
 
-If you want to quickly test some strings (for example to check if it's not too long), you can press T and then type "@Text.Show(string)" (without parentheses) to show the string between the brackets.
-You can also show tokens from the token file by pressing T and then typing "@Text.Show(<system.token(tokenName)>)" (without parentheses) to show the token with the specified name between the brackets.
+If you want to quickly test some strings (for example to check if it's not too long), you can press T and then type "@Text.Show(string)" (without quotations) to show the string between the brackets.
+You can also show tokens from the token file by pressing T and then typing "@Text.Show(<system.token(tokenName)>)" (without quotations) to show the token with the specified name between the brackets.
 
 For dialogue to fit in the text box I usually try to keep a line under 30 characters.
 Sometimes you can go over that as not all characters are equally wide (periods and the letter i for example are less wide) but that's usually the safe range.
