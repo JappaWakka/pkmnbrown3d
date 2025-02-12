@@ -5,6 +5,7 @@ global_please_wait,Even geduld
 global_loading,Laden
 global_game,Spel
 global_login,Log in
+global_create_account,Creëer Account
 global_male,Man
 global_female,Vrouw
 global_genderless,Overig
@@ -14,6 +15,7 @@ global_yes,Ja
 global_no,Nee
 global_accept,Bevestig
 global_cancel,Annuleer
+global_ok,OK
 global_gamemode,Spelmodus
 global_clear,Wis
 global_save,Sla op
@@ -704,9 +706,10 @@ pokemon_name_Pikachu,Pikachu
 pokemon_name_Raichu,Raichu
 pokemon_name_Sandshrew,Sandshrew
 pokemon_name_Sandslash,Sandslash
-pokemon_name_Nidoran,Nidoran
+pokemon_name_Nidoran♀,Nidoran♀
 pokemon_name_Nidorina,Nidorina
 pokemon_name_Nidoqueen,Nidoqueen
+pokemon_name_Nidoran♂,Nidoran♂
 pokemon_name_Nidorino,Nidorino
 pokemon_name_Nidoking,Nidoking
 pokemon_name_Clefairy,Clefairy
@@ -1584,6 +1587,471 @@ pokemon_name_Annihilape,Annihilape
 pokemon_name_Galarian Weezing,Galariaanse Weezing
 pokemon_name_MissingNo.,OntbrekendNr.
 pokemon_name_Phancero,Phancero
+
+pokemon_desc_Bulbasaur,Bij zijn geboorte is er een vreemd zaadje op zijn rug gepoot. Daaruit is een plant ontkiemd die nu samen met deze Pokémon groeit.
+pokemon_desc_Ivysaur,Als de bloembol op zijn rug groter wordt, lijkt de Pokémon het vermogen te verliezen om op zijn achterbenen te staan.
+pokemon_desc_Venusaur,De plant op zijn rug bloeit als het zonne-energie absorbeert. Hij blijft in beweging op zoek naar zonlicht.
+pokemon_desc_Charmander,Geeft uiteraard de voorkeur aan warme plekken. Er wordt gezegd dat er stoom uit de punt van zijn staart spuit als hij in de regen terecht komt.
+pokemon_desc_Charmeleon,Als hij met zijn brandende staart zwaait, stijgt de temperatuur tot een ondraaglijke hoogte.
+pokemon_desc_Charizard,Spuwt vuur dat heet genoeg is om rotsblokken te laten smelten. Staat erom bekend dat hij onopzettelijk bosbranden veroorzaakt.
+pokemon_desc_Squirtle,Na zijn geboorte zwelt zijn rug op en verhardt die tot een hard schild. Hij spuwt met grote kracht schuim uit zijn bek.
+pokemon_desc_Wartortle,Verschuilt zich vaak in het water om zijn nietsvermoedende prooien te besluipen. Als hij snel zwemt, beweegt hij zijn oren om zijn evenwicht te bewaren.
+pokemon_desc_Blastoise,Een niets-ontziende Pokémon met hogedruk-waterstraalpijpen op zijn schild. Ze worden gebruikt voor aanvalsmanouevres onder hoge snelheid.
+pokemon_desc_Caterpie,Zijn korte voetjes hebben een zuignap aan hun uiteinde waardoor hij onvermoeibaar tegen hellingen en muren op kan kruipen.
+pokemon_desc_Metapod,Hij is kwetsbaar voor aanvallen omdat zijn schaal zacht is, waardoor zijn zwakke, tere lichaam wordt blootgesteld.
+pokemon_desc_Butterfree,In de strijd flappert hij met zijn vleugels met hoge snelheid om zwaar giftig stof in de lucht te brengen.
+pokemon_desc_Weedle,Wordt vaak gevonden in wouden, waar hij bladeren eet. Hij heeft een scherpe, giftige stekel op zijn hoofd.
+pokemon_desc_Kakuna,Omdat hij zich bijna niet kan bewegen, kan deze Pokémon alleen zijn schaal verharden om zichzelf tegen roofdieren te beschermen.
+pokemon_desc_Beedrill,Vliegt op hoge snelheid en valt aan met behulp van de grote, giftige stekels op zijn voorpoten en staart.
+pokemon_desc_Pidgey,Vaak te zien in bossen en wouden. Hij flappert net boven de grond met zijn vleugels om verblindend zand op te gooien.
+pokemon_desc_Pidgeotto,Omdat hij zijn uitgebreide grondgebied tot het uiterste verdedigt, zal hij fel pikken naar elke indringer.
+pokemon_desc_Pidgeot,Als hij aan het jagen is, scheert hij met hoge snelheid langs het wateroppervlak om onvoorzichtige prooi zoals Magikarp op te scheppen.
+pokemon_desc_Rattata,Bijt alles wanneer hij aanvalt. Hij is klein, snel en veelgezien op allerlei plekken.
+pokemon_desc_Raticate,Gebruikt zijn snorharen om zijn evenwicht te bewaren. Hij lijkt langzamer te bewegen als ze worden afgeknipt.
+pokemon_desc_Spearow,Eet insecten in gebieden met veel gras. Hij moet erg snel met zijn korte vleugels flapperen om in de lucht te blijven.
+pokemon_desc_Fearow,Met zijn enorme en schitterende vleugels kan hij blijven zweven zonder ooit te hoeven landen om te rusten.
+pokemon_desc_Ekans,Beweegt stilletjes en heimelijk. Eet de eieren van vogels als Pidgey en Spearow heel op.
+pokemon_desc_Arbok,Het gerucht gaat dat de woeste waarschuwingsmarkeringen op zijn buik van gebied tot gebied variëren.
+pokemon_desc_Pikachu,Als een aantal van deze Pokémon zich verzamelt, kan hun elektriciteit bliksemstormen veroorzaken.
+pokemon_desc_Raichu,Zijn lange staart fungeert als een aarde om zichzelf te beschermen tegen zijn eigen hoogspanningsenergie.
+pokemon_desc_Sandshrew,Graaft tunnels diep onder de grond in dorre streken ver van het water. Hij komt alleen tevoorschijn om op voedsel te jagen.
+pokemon_desc_Sandslash,Rolt zich op tot een stekelige bal wanneer hij bedreigd wordt. Terwijl hij opgerold is kan hij zich voortrollen om aan te vallen of te ontsnappen.
+pokemon_desc_Nidoran♀,Alhoewel zij klein is, maken haar giftige stekels deze Pokémon gevaarlijk. Het vrouwtje heeft kleinere horens.
+pokemon_desc_Nidorina,De hoorn van het vrouwtje ontwikkelt zich langzaam. Geeft de voorkeur aan fysieke aanvallen zoals klauwen en bijten.
+pokemon_desc_Nidoqueen,Haar harde schubben vormen een uitstekende bescherming. Zij gebruikt haar grote omvang om krachtige aanvalsmanoeuvres uit te voeren.
+pokemon_desc_Nidoran♂,Verstijft zijn oren om gevaar op te kunnen vangen. De grotere, krachtigere hoorn scheidt gif af
+pokemon_desc_Nidorino,Een agressieve Pokémon die snel aanvalt. De hoorn op zijn kop scheidt een krachtig gif af
+pokemon_desc_Nidoking,Gebruikt tijdens een gevecht zijn krachtige staart om zijn slachtoffer te vermorzelen, te verstikken en vervolgens zijn botten te breken.
+pokemon_desc_Clefairy,Zijn magische en schattige aantrekkingskracht kent vele bewonderaars. Hij is zeldzaam en alleen op bepaalde plaatsen te vinden.
+pokemon_desc_Clefable,Een timide Fee-Pokémon die zelden gezien wordt. Hij vlucht en verstopt zich zodra hij mensen ziet.
+pokemon_desc_Vulpix,Bij zijn geboorte heeft hij maar één staart. Als hij ouder wordt, begint zijn staart vanaf het puntje te splitsen.
+pokemon_desc_Ninetales,Bijzonder slim en erg wraakzuchtig. Het vastpakken van één van zijn vele staarten kan een 1000 jaar lang durende vloek tot gevolg hebben.
+pokemon_desc_Jigglypuff,Wanneer zijn enorme ogen oplichten, zingt hij een mysterieus kalmerende melodie die zijn vijanden in slaap brengt.
+pokemon_desc_Wigglytuff,Het lichaam is zacht en rubberachtig. Wanneer hij kwaad wordt, zuigt hij zich vol met lucht en blaast hij zichzelf op tot een enorme grootte.
+pokemon_desc_Zubat,Vormt kolonies in plaatsen die eeuwig duister blijven. Gebruikt ultrasone golven om zijn doelwit te herkennen en te benaderen.
+pokemon_desc_Golbat,Als hij een keer toeslaat, houdt hij niet op energie aan zijn slachtoffer te onttrekken, zelfs niet wanneer hij te zwaar wordt om te vliegen.
+pokemon_desc_Oddish,Overdag houdt hij zijn hoofd begraven in de grond. 's Nachts zwerft hij rond en zaait hij zijn zaad.
+pokemon_desc_Gloom,De vloeistof die uit zijn bek druipt is geen kwijl; het is een nectar die gebruikt wordt om prooi aan te trekken.
+pokemon_desc_Vileplume,Hoe groter zijn bloemblaadjes zijn, hoe meer giftig stuifmeel hij bevat. Zijn grote hoofd is zwaar en moeilijk overeind te houden.
+pokemon_desc_Paras,Wroet om aan wortels van bomen te zuigen. De paddestoelen op zijn rug groeien door voedingsstoffen te onttrekken aan het insect dat hun gastheer is.
+pokemon_desc_Parasect,Een gastheer-parasiet-paar waarin de parasitaire paddestoel de gastheer heeft overgenomen. Geeft de voorkeur aan vochtige plaatsen.
+pokemon_desc_Venonat,Leeft in de schaduwen van hoge bomen waar hij insecten eet. Hij wordt 's nachts aangetrokken door licht.
+pokemon_desc_Venomoth,De stofachtige schubben die zijn vleugels bedekken zijn kleurgecodeerd om de soorten vergif die hij heeft aan te geven.
+pokemon_desc_Diglett,Leeft ongeveer een meter onder de grond, waar hij zich voedt met de wortels van planten. Soms verschijnt hij boven de grond.
+pokemon_desc_Dugtrio,Een team gevormd door een Diglett-drieling. Het veroorzaakt enorme aardbevingen door 90 kilometer onder de grond tunnels te graven.
+pokemon_desc_Meowth,Is gek op cirkelvormige objecten. Zwerft elke nacht door de straten op zoek naar kleingeld dat iemand heeft laten vallen.
+pokemon_desc_Persian,Alhoewel zijn vacht vele bewonderaars heeft, is hij moeilijk als huisdier op te voeden vanwege zijn grillige gemeenheid.
+pokemon_desc_Psyduck,Terwijl hij zijn vijanden met zijn lege blik in slaap sust, gebruikt deze sluwe Pokémon zijn psychokinetische krachten.
+pokemon_desc_Golduck,Men kan hem vaak sierlijk langs de kant van een meer zien zwemmen. Wordt regelmatig ten onrechte aangezien voor het Japanse monster, Kappa.
+pokemon_desc_Mankey,Wordt erg gauw kwaad. Hij kan op het ene moment heel volgzaam zijn en het volgende moment enorm tekeer gaan.
+pokemon_desc_Primeape,Altijd razend en vasthoudend op de koop toe. Hij geeft de jacht op zijn prooi niet op totdat zijn prooi is gevangen.
+pokemon_desc_Growlithe,Gaat tot het uiterste om zijn terrein te beschermen. Hij zal blaffen en bijten om indringers van zijn grondgebied te verjagen.
+pokemon_desc_Arcanine,Een Pokémon die al een lange tijd bewonderd wordt om zijn schoonheid. Hij rent sierlijk, alsof hij vleugels heeft.
+pokemon_desc_Poliwag,Met zijn pas gegroeide pootjes kan hij niet rennen. Het lijkt erop dat hij liever zwemt dan probeert te staan.
+pokemon_desc_Poliwhirl,Kan zowel in als buiten het water leven. Buiten het water zweet hij om zijn lijf slijmerig te houden.
+pokemon_desc_Poliwrath,Een ervaren zwemmer, zowel met crawlen als met de borstslag. Haalt met gemak de beste menselijke zwemmers in.
+pokemon_desc_Abra,Met behulp van zijn vermogen om gedachten te lezen, herkent hij aankomend gevaar en teleporteert hij zichzelf naar de veiligheid.
+pokemon_desc_Kadabra,Hij zendt vanuit zijn lijf speciale alfa-golven uit die hoofdpijn veroorzaken, zelfs bij hen die er toevallig bij in de buurt staan.
+pokemon_desc_Alakazam,Tegen zijn brein legt een supercomputer het af. Er wordt beweerd dat zijn intelligentiequotiënt 5000 is.
+pokemon_desc_Machop,Vindt het heerlijk om zijn spieren te ontwikkelen. Hij beoefent allerlei vormen van vechtsporten om nog sterker te worden.
+pokemon_desc_Machoke,Zijn gespierde lijf is zo krachtig dat hij een energie-besparende riem moet dragen die hem helpt zijn bewegingen onder controle te houden.
+pokemon_desc_Machamp,Met behulp van zijn ontzagwekkende spieren, geeft hij duizelingwekkende stompen die zijn slachtoffers helemaal over de horizon kunnen doen verdwijnen.
+pokemon_desc_Bellsprout,Een vleesetende Pokémon die insecten vangt en eet. Hij gebruikt zijn wortelvoeten om het benodigde vocht op te zuigen.
+pokemon_desc_Weepinbell,Hij spuugt gifpoeder om de vijand lam te leggen, en maakt de vijand dan af met een wolk zuur.
+pokemon_desc_Victreebel,Er wordt beweerd dat hij in enorme kolonies diep in de jungle leeft, alhoewel daar nog niemand uit is teruggekeerd.
+pokemon_desc_Tentacool,Zwerft in ondiepe zeeën. Vissers die ze per ongeluk aan de haak slaan, worden vaak gestraft door zijn bijtende zuur.
+pokemon_desc_Tentacruel,De tentakels worden gewoonlijk kort gehouden. Als hij op voedsel jaagt worden ze langer om de prooi te omstrengelen en hem het bewegen onmogelijk te maken.
+pokemon_desc_Geodude,Te vinden in velden en bergen. Omdat mensen ze vaak aanzien voor rotsblokken, stappen ze er vaak bovenop of struikelen ze erover.
+pokemon_desc_Graveler,Rolt van hellingen af om vooruit te komen. Hij rolt over elk obstakel zonder dat hij wordt vertraagd of van richting verandert.
+pokemon_desc_Golem,Zijn lichaam lijkt op een rotsblok en is bijzonder hard. Hij kan makkelijk tegen een ontploffing van dynamiet zonder daarvan schade te ondervinden.
+pokemon_desc_Ponyta,Zijn hoeven zijn 10 keer zo hard als diamant. Hij kan in enkele ogenblikken alles plattrappen.
+pokemon_desc_Rapidash,Omdat hij erg competitief is zal deze Pokémon alles najagen wat snel loopt in de hoop ertegen te kunnen racen.
+pokemon_desc_Slowpoke,Ontzettend traag en duf. Het duurt 5 seconden voor hij pijn voelt als hij wordt aangevallen.
+pokemon_desc_Slowbro,Er wordt beweerd dat de Shellder die vastzit aan Slowbro's staart zich voedt met de restjes die zijn gastheer over laat.
+pokemon_desc_Magnemite,Gebruikt anti-zwaartekracht om in de lucht te blijven. Verschijnt zonder waarschuwing en gebruikt aanvallen zoals Dondergolf.
+pokemon_desc_Magneton,Wordt gevormd door verschillende met elkaar verbonden Magnemite. Verschijnt vaak als de zonnevlekken opvlammen.
+pokemon_desc_Farfetch'd,De bos lente-uitjes die hij vasthoudt is zijn wapen. Deze bos wordt ongeveer op dezelfde manier gebruikt als een ijzeren zwaard.
+pokemon_desc_Doduo,Een vogel die het feit dat hij slecht vliegt goedmaakt door enorm snel te lopen. Laat gigantische voetafdrukken na.
+pokemon_desc_Dodrio,Gebruikt zijn drie breinen om complexe plannen uit te voeren. Terwijl twee hoofden slapen blijft één hoofd wakker.
+pokemon_desc_Seel,De hoorn die uit zijn kop steekt is erg hard. Deze hoorn wordt gebruikt om door dik ijs te hakken.
+pokemon_desc_Dewgong,Slaat thermische energie op in zijn lijf. Zwemt met een gelijkmatige snelheid van 8 knopen, zelfs in intens koude wateren.
+pokemon_desc_Grimer,Verschijnt in vervuilde gebieden. Hij gedijt door het opzuigen van vervuilde blubber die uit fabrieken wordt gepompt.
+pokemon_desc_Muk,Bedekt met een dikke laag vieze, walgelijke blubber. Hij is zo giftig dat zelfs zijn voetafdrukken gif bevatten.
+pokemon_desc_Shellder,Zijn harde schaal vormt een afwering tegen elk soort aanval. Hij is alleen kwetsbaar als zijn schaal open is.
+pokemon_desc_Cloyster,Wanneer hij wordt aangevallen zet hij in snelle salvo's zijn horens uit. Niemand heeft ooit zijn inwendige gezien.
+pokemon_desc_Gastly,Deze gasachtige Pokémon die bijna onzichtbaar is omhult zijn doelwit en brengt het ongemerkt in slaap.
+pokemon_desc_Haunter,Omdat hij in staat is door stenen muren heen te glippen, wordt er van hem gezegd dat hij uit een andere dimensie afkomstig is.
+pokemon_desc_Gengar,Onder een volle maan houdt deze Pokémon ervan om de schaduwen van mensen na te doen en om hun angst te lachen.
+pokemon_desc_Onix,Naarmate hij groeit, worden de stenen gedeelten van zijn lijf harder tot zij op een diamant lijken, maar dan zwart van kleur.
+pokemon_desc_Drowzee,Brengt zijn vijanden in slaap en eet vervolgens hun dromen op. Wordt soms wel eens ziek omdat hij slechte dromen eet.
+pokemon_desc_Hypno,Als hij de ogen kruist met een vijand, gebruikt hij een mengsel van psychische tactieken zoals Hypnose en Verwarring.
+pokemon_desc_Krabby,Zijn grijpers zijn niet alleen krachtige wapens, maar ze worden ook gebruikt om zijn evenwicht te bewaren wanneer hij zijwaarts loopt.
+pokemon_desc_Kingler,De grote schaar heeft een verbrijzelingsvermogen van 10.000 pk. Maar omdat hij zo groot is, is hij moeilijk te hanteren.
+pokemon_desc_Voltorb,Meestal te vinden in energiecentrales. Doordat hij makkelijk wordt verward met een PokéBal, heeft hij al heel wat mensen stroomschokken gegeven.
+pokemon_desc_Electrode,Hij slaat elektrische energie op onder erg hoge druk. Vaak explodeert hij bij het minste of geringste.
+pokemon_desc_Exeggcute,Vaak verward met eieren. Als ze worden gestoord, verzamelen ze zich snel en vallen ze in zwermen aan.
+pokemon_desc_Exeggutor,Volgens de legende zal bij zeldzame gelegenheden een van zijn hoofden afvallen en verder gaan als Exeggcute.
+pokemon_desc_Cubone,Omdat hij zijn schedelhelm nog nooit heeft afgezet, heeft niemand ooit het echte gezicht van deze Pokémon gezien.
+pokemon_desc_Marowak,Het bot dat hij vasthoudt is zijn belangrijkste wapen. Hij gooit het bot met grote vaardigheid als een boemerang om zijn doelen uit te schakelen.
+pokemon_desc_Hitmonlee,Als hij haast heeft, worden zijn benen steeds langer. Hij loopt soepel met extra lange, vloeiende schreden.
+pokemon_desc_Hitmonchan,Terwijl het lijkt alsof hij niets doet, deelt hij een reeks stompen uit in bliksemsnelle salvo's die onzichtbaar zijn voor het blote oog.
+pokemon_desc_Lickitung,Zijn tong kan worden uitgestoken zoals die van een kameleon. Hij laat een stekend gevoel achter wanneer hij vijanden likt.
+pokemon_desc_Koffing,Omdat hij verschillende soorten gifgas in zijn lijf heeft opgeslagen, kan hij makkelijk zonder waarschuwing exploderen.
+pokemon_desc_Weezing,Waar twee soorten gifgas elkaar ontmoeten, kunnen twee Koffing over vele jaren tot een Weezing versmelten.
+pokemon_desc_Galarian Weezing,_galar,Deze Pokémon consumeert deeltjes die de lucht vervuilen. In plaats van uitwerpselen achter te laten, stoot hij schone lucht uit.
+pokemon_desc_Rhyhorn,Zijn massieve botten zijn 1000 keer harder dan menselijke botten. Hij kan makkelijk een trailer de lucht in slaan.
+pokemon_desc_Rhydon,Beschermd door zijn pantserachtige huid, is hij in staat te leven in gesmolten lava van 2000 graden.
+pokemon_desc_Chansey,Een zeldzame en praktisch ongrijpbare Pokémon waarvan wordt beweerd dat hij geluk brengt aan degenen die erin slagen hem te pakken te krijgen.
+pokemon_desc_Tangela,Zijn hele lichaam is gewikkeld in brede strengen die veel op zeewier lijken. Als hij loopt, schudden deze strengen.
+pokemon_desc_Kangaskhan,Het kind waagt zich zelden buiten de beschermende buidel van zijn moeder totdat het drie jaar oud is.
+pokemon_desc_Horsea,Staat erom bekend dat hij met uiterst nauwkeurige stralen inkt vliegende insecten vanaf de oppervlakte van het water neerschiet.
+pokemon_desc_Seadra,Kan achteruit zwemmen door zijn op vleugels lijkende borstvinnen en stevige staart snel heen en weer te zwiepen.
+pokemon_desc_Goldeen,Zijn staartvin bolt op als een elegante ballroom-jurk waardoor hij de bijnaam "Waterkoningin" heeft gekregen.
+pokemon_desc_Seaking,In de herfst, het seizoen om kuit te schieten, zie je ze in rivieren en stroompjes krachtig stroomopwaarts zwemmen.
+pokemon_desc_Staryu,Een raadselachtige Pokémon die moeiteloos elke arm die hij in een strijd verliest kan laten teruggroeien.
+pokemon_desc_Starmie,Zijn middelpunt glanst met de zeven kleuren van de regenboog. Sommige mensen beschouwen dit middelpunt als een edelsteen.
+pokemon_desc_Mr. Mime,Als hij onderbroken wordt tijdens het mimen, geeft hij de vijand een pak slaag met zijn brede handen.
+pokemon_desc_Scyther,Met ninja-achtige behendigheid en snelheid kan hij de illusie creëren dat er meer dan één van hem is.
+pokemon_desc_Jynx,Enkel door te mediteren, lanceert de Pokémon een krachtige psychische energieaanval.
+pokemon_desc_Electabuzz,Hoewel hij gewoonlijk te vinden is in de buurt van energiecentrales, kan hij afdwalen en enorme stroomstoringen veroorzaken in steden.
+pokemon_desc_Magmar,Zijn lijft gloeit altijd met een oranje gloed waardoor hij zich uitstekend tussen de vlammen kan verbergen.
+pokemon_desc_Pinsir,Als hij het slachtoffer niet in zijn scharen kan verbrijzelen, slingert hij zijn slachtoffer in het rond en gooit hij hem hard.
+pokemon_desc_Tauros,Als hij een vijand op het oog heeft, valt hij heftig aan terwijl hij zijn lichaam opzweept met zijn lange staarten.
+pokemon_desc_Magikarp,In het verre verleden was hij sterker dan zijn verschrikkelijk zwakke afstammelingen die vandaag de dag in leven zijn.
+pokemon_desc_Gyarados,Wordt zelden in het wild gezien. Omdat hij zo enorm en kwaadaardig is, kan hij tijdens een woede-aanval hele steden vernietigen.
+pokemon_desc_Lapras,Een Pokémon die door overbejaging bijna uitgeroeid is. Hij kan mensen het water overzetten.
+pokemon_desc_Ditto,Is in staat de genetische code van een vijand te kopiëren om zichzelf onmiddelijk tot een duplicaat van de vijand te transformeren.
+pokemon_desc_Eevee,Zijn genetische code is onregelmatig. Hij zou kunnen muteren als hij wordt blootgesteld aan elementaire gesteenten.
+pokemon_desc_Vaporeon,Leeft dicht bij het water. Op zijn lange staart zit een vin die vaak verward wordt met die van een meermin.
+pokemon_desc_Jolteon,Hij verzamelt negatieve ionen uit de atmosfeer om bliksemschichten van 10.000 volt af te vuren.
+pokemon_desc_Flareon,Als hij thermische energie in zijn lichaam opslaat, kan zijn temperatuur oplopen tot boven de 900 graden.
+pokemon_desc_Porygon,Een Pokémon die helemaal uit programmacode bestaat. Kan zich in cyberspace vrijelijk bewegen.
+pokemon_desc_Omanyte,Hoewel hij al lang is uitgestorven, kan hij in zeldzame gevallen genetisch opnieuw tot leven worden gewekt uit fossielen.
+pokemon_desc_Omastar,Een prehistorische Pokémon die is uitgestorven toen zijn zware schaal het hem onmogelijk maakte om prooi te vangen.
+pokemon_desc_Kabuto,Een Pokémon die opnieuw tot leven is gebracht uit een fossiel dat is gevonden in wat eens, een eeuwigheid geleden, de bodem van de oceaan was.
+pokemon_desc_Kabutops,Zijn slanke vorm is perfect om te zwemmen. Hij hakt met zijn klauwen in op zijn prooi en zuigt er de lichaamssappen uit.
+pokemon_desc_Aerodactyl,Een woeste, prehistorische Pokémon die de vijand bij de keel grijpt met zijn gekartelde, zaagachtige slagtanden.
+pokemon_desc_Snorlax,Erg lui. Eet en slaapt alleen maar. Naarmate zijn mollige massa groter wordt, wordt hij steeds luier.
+pokemon_desc_Articuno,Een legendarische vogel-Pokémon waarvan wordt beweerd dat hij verschijnt aan gedoemde mensen die in ijzige bergen zijn verdwaald.
+pokemon_desc_Zapdos,Een legendarische vogel-Pokémon waarvan wordt gezegd dat hij uit de wolken tevoorschijn komt en tegelijkertijd enorme bliksemschichten rondslingert.
+pokemon_desc_Moltres,Staat bekend als de legendarische vuurvogel. Elke slag van zijn vleugels veroorzaakt een duizelingwekkende flikkering van vlammen.
+pokemon_desc_Dratini,Lange tijd beschouwd als een mythische Pokémon totdat onlangs een kleine kolonie gevonden werd die onder water leeft.
+pokemon_desc_Dragonair,Een mystieke Pokémon die een zachte uitstraling heeft. Bezit het vermogen om de omstandigheden van het klimaat te veranderen.
+pokemon_desc_Dragonite,Een mariene Pokémon die uiterst zelden gezien wordt. Er wordt beweerd dat zijn intelligentie overeenkomt met die van mensen.
+pokemon_desc_Mewtwo,Een wetenschapper heeft deze Pokémon gecreëerd na jaren van afschuwwekkende genensplitsing en experimenten met DNA-manipulatie.
+pokemon_desc_Mew,Zo zeldzaam dat experts hem nog steeds als een waanbeeld beschouwen. Er zijn maar een paar mensen ter wereld die hem hebben gezien.
+pokemon_desc_Chikorita,Een zoet aroma walmt zachtjes uit het blad op zijn hoofd. Hij is volgzaam en geniet graag van de zonnestralen.
+pokemon_desc_Bayleef,De geur van kruiden komt van rondom zijn nek. Op de een of andere manier krijg je zin om te vechten als je eraan ruikt.
+pokemon_desc_Meganium,Het aroma dat opstijgt uit de bloemblaadjes bevat een stof die agressieve gevoelens kalmeert.
+pokemon_desc_Cyndaquil,Hij is timide en krult zich altijd op in een bal. Als hij wordt aangevallen, ontvlamt zijn rug om hem te beschermen.
+pokemon_desc_Quilava,Wees voorzichtig als hij zich tijdens een gevecht omdraait. Dit betekent dat hij zal aanvallen met het vuur op zijn rug.
+pokemon_desc_Typhlosion,Als zijn woede piekt, wordt hij zo heet dat alles wat hem aanraakt onmiddellijk in vlammen opgaat.
+pokemon_desc_Totodile,Zijn goed ontwikkelde kaken zijn krachtig en kunnen alles verbrijzelen. Zelfs zijn trainer moet voorzichtig zijn.
+pokemon_desc_Croconaw,Als hij een slagtand verliest, groeit er een nieuwe voor in de plaats. Er zijn altijd 48 hoektanden in zijn bek.
+pokemon_desc_Feraligatr,Als hij bijt met zijn massieve en krachtige kaken, schudt hij zijn kop en verscheurt hij zijn slachtoffer op beestachtige wijze.
+pokemon_desc_Spinarak,Hij ligt dagenlang in dezelfde houding in zijn web te wachten tot zijn nietsvermoedende prooi in de buurt komt.
+pokemon_desc_Ariados,Hij spint niet alleen touwtjes vanaf zijn achterkant, maar ook vanaf zijn mond. Het is moeilijk te zeggen welk uiteinde wat is.
+pokemon_desc_Crobat,Hij vliegt zo stil door het donker op zijn vier vleugels dat hij misschien niet eens wordt opgemerkt als hij in de buurt is.
+pokemon_desc_Chinchou,Hij schiet positieve en negatieve elektriciteit tussen de punten van zijn twee antennes en zapt zijn vijanden.
+pokemon_desc_Lanturn,Het licht dat hij uitzendt is zo helder dat het het zeeoppervlak kan verlichten vanaf een diepte van meer dan 5 kilometer.
+pokemon_desc_Togepi,De schaal lijkt vervuld van vreugde. Er wordt gezegd dat hij geluk brengt als hij vriendelijk wordt behandeld.
+pokemon_desc_Togetic,Ze zeggen dat hij voor goedhartige, zorgzame mensen zal verschijnen en hen met geluk zal overladen.
+pokemon_desc_Natu,Omdat zijn vleugels nog niet volgroeid zijn, moet hij huppelen om zich te verplaatsen. Hij staart altijd ergens naar.
+pokemon_desc_Xatu,Ze zeggen dat hij stil en rustig blijft omdat hij tegelijkertijd het verleden en de toekomst ziet.
+pokemon_desc_Mareep,Als er zich statische elektriciteit opbouwt in zijn lichaam, verdubbelt zijn vacht in volume. Als je hem aanraakt, krijg je een schok.
+pokemon_desc_Flaaffy,Als gevolg van het opslaan van te veel elektriciteit, ontwikkelde hij plekken waar zelfs donswol niet groeit.
+pokemon_desc_Ampharos,Het puntje van de staart glanst fel en is van ver te zien. Hij fungeert als baken voor verdwaalde mensen.
+pokemon_desc_Marill,Het puntje van zijn staart, dat olie bevat die lichter is dan water, laat hem zwemmen zonder te verdrinken.
+pokemon_desc_Azumarill,Door stil te blijven zitten en aandachtig te luisteren, kan hij zelfs in wild, snelstromend water waarnemen wat er zich in bevindt.
+pokemon_desc_Politoed,Als Poliwag en Poliwhirl zijn echoënde kreet horen, reageren ze door zich van heinde en verre te verzamelen.
+pokemon_desc_Yanma,Als hij heel snel met zijn vleugels slaat, kan hij schokgolven opwekken die de ruiten in de buurt doen versplinteren.
+pokemon_desc_Wooper,Deze Pokemon leeft in koud water. Hij verlaat het water om voedsel te zoeken als het buiten koud wordt.
+pokemon_desc_Quagsire,Deze zorgeloze Pokemon is makkelijk in de omgang. Tijdens het zwemmen botst hij altijd tegen bootrompen.
+pokemon_desc_Espeon,Hij gebruikt het fijne haar dat zijn lichaam bedekt om luchtstromingen waar te nemen en de acties van zijn vijanden te voorspellen.
+pokemon_desc_Umbreon,Als hij wordt opgejaagd, beschermt deze Pokemon zichzelf door giftig zweet uit zijn poriën te spuiten.
+pokemon_desc_Murkrow,Hij wordt door velen gevreesd en verafschuwd en men gelooft dat hij ongeluk brengt aan iedereen die hem 's nachts ziet.
+pokemon_desc_Slowking,Hij heeft een ongelooflijk intellect en intutie. Wat de situatie ook is, hij blijft kalm en beheerst.
+pokemon_desc_Misdreavus,Hij haalt graag ondeugende streken uit, zoals schreeuwen en jammeren om mensen 's nachts te laten schrikken.
+pokemon_desc_Gligar,Hij vliegt recht op het gezicht van zijn doelwit af en klemt zich dan vast aan het geschrokken slachtoffer om gif te injecteren.
+pokemon_desc_Steelix,Zijn lichaam is diep onder de grond samengeperst. Daardoor is hij nog harder dan een diamant.
+pokemon_desc_Scizor,Hij zwaait zijn tangen met oogpatronen omhoog om zijn vijand af te schrikken. Hierdoor lijkt het alsof hij drie hoofden heeft.
+pokemon_desc_Heracross,Deze krachtige Pokemon duwt zijn kostbare hoorn onder de buik van zijn vijanden en tilt ze dan op en gooit ze weg.
+pokemon_desc_Sneasel,Zijn poten verbergen scherpe klauwen. Als hij wordt aangevallen, steekt hij plotseling zijn klauwen uit en laat hij zijn vijand schrikken.
+pokemon_desc_Swinub,Hij wrijft met zijn snuit over de grond om voedsel te vinden en op te graven. Soms ontdekt hij warmwaterbronnen.
+pokemon_desc_Piloswine,Omdat het lange haar over zijn hele lichaam zijn zicht belemmert, blijft hij gewoon herhaaldelijk aanvallen.
+pokemon_desc_Houndour,Hij gebruikt verschillende soorten kreten om te communiceren met soortgenoten en om zijn prooi te achtervolgen.
+pokemon_desc_Houndoom,Als je verbrand wordt door de vlammen die hij uit zijn mond schiet, zal de pijn nooit verdwijnen.
+pokemon_desc_Kingdra,Er wordt gezegd dat hij zich meestal verbergt in onderwatergrotten. Hij kan draaikolken maken door te geeuwen.
+pokemon_desc_Phanpy,Hij zwaait speels met zijn lange snuit, maar omdat hij zo sterk is, kan dat gevaarlijk zijn.
+pokemon_desc_Donphan,Hij heeft scherpe, harde slagtanden en een ruige huid. Zijn Tackle is sterk genoeg om een huis omver te werpen.
+pokemon_desc_Porygon2,Deze verbeterde versie van Porygon is ontworpen voor ruimteverkenning. Hij kan echter niet vliegen.
+pokemon_desc_Tyrogue,Hij barst altijd van de energie. Om zichzelf sterker te maken, blijft hij doorvechten, zelfs als hij verliest.
+pokemon_desc_Hitmontop,Als je betoverd raakt door zijn soepele, elegante, dansachtige trappen, kun je wel eens een harde dreun krijgen.
+pokemon_desc_Blissey,Iedereen die ook maar één hap van Blissey's ei neemt, wordt onvermoeibaar zorgzaam en aardig voor iedereen.
+pokemon_desc_Raikou,De regenwolken die hij met zich meedraagt laten hem naar believen bliksemschichten afvuren. Ze zeggen dat hij met de bliksem neerdaalde.
+pokemon_desc_Entei,Vulkanen barsten uit als hij blaft. Hij kan zijn extreme kracht niet in bedwang houden en raast halsoverkop over het land.
+pokemon_desc_Suicune,Er wordt gezegd dat hij de reïncarnatie van de noordenwind is en dat hij vuil en troebel water onmiddellijk kan zuiveren.
+pokemon_desc_Larvitar,Hij voedt zich met aarde. Nadat hij een grote berg heeft opgegeten, valt hij in slaap zodat hij kan groeien.
+pokemon_desc_Pupitar,Zijn schaal is zo hard als steen, en hij is ook erg sterk. Zijn Afranseling kan een berg omverwerpen.
+pokemon_desc_Tyranitar,Zijn lichaam kan door geen enkele aanval worden aangetast, dus hij is erg gretig om uitdagingen aan te gaan tegen vijanden.
+pokemon_desc_Lugia,Er wordt gezegd dat hij stilletjes zijn tijd doorbrengt op de diepe bodem van de zee omdat zijn krachten te sterk zijn.
+pokemon_desc_Ho-oh,Volgens legendes vliegt deze Pokemon continu door de lucht met zijn prachtige zevenkleurige vleugels.
+pokemon_desc_Cranidos,Cranidos verharden hun toch al keiharde hoofden door elkaar kopstoten te geven.
+pokemon_desc_Rampardos,Zijn schedel is bestand tegen stoten van elke omvang. Daardoor krijgen zijn hersenen nooit de kans om te groeien.
+pokemon_desc_Mismagius,Zijn kreten klinken als bezweringen om de vijand te kwellen. Hij verschijnt waar je hem het minst verwacht.
+pokemon_desc_Honchkrow,Het is van nature genadeloos. Er wordt gezegd dat hij de fouten van zijn Murkrow volgelingen nooit vergeeft.
+pokemon_desc_Weavile,Hij leeft in besneeuwde gebieden. Hij kerft patronen in bomen met zijn klauwen als signaal naar anderen.
+pokemon_desc_Magnezone,Blootstelling aan een speciaal magnetisch veld veranderde de moleculaire structuur van Magneton, waardoor hij veranderde in Magnezone.
+pokemon_desc_Lickilicky,Zijn speeksel kan alles afbreken. Hij slaat zijn lange tong om dingen heen om ze in te smeren met zijn kleverige speeksel.
+pokemon_desc_Rhyperior,Vanuit gaten in zijn handpalmen vuurt hij Geodude af. Zijn pantser is bestand tegen vulkaanuitbarstingen.
+pokemon_desc_Tangrowth,Als hij stilstaat, lijkt hij op een grote struik. Nietsvermoedende prooien die in de buurt komen, raken verstrikt in zijn lianen.
+pokemon_desc_Electivire,Terwijl zijn elektrische lading zich versterkt, beginnen er blauwe vonken te knetteren tussen zijn hoorns.
+pokemon_desc_Magmortar,Hij blaast vuurballen van meer dan 1900 graden Celsius uit zijn armen. Zijn adem brandt en verschroeit ook.
+pokemon_desc_Togekiss,Zoals iedereen weet, bezoekt hij vredige regio's en brengt ze geschenken van vriendelijkheid en zoete zegeningen.
+pokemon_desc_Yanmega,Deze zespotige Pokémon kan gemakkelijk een volwassene vervoeren tijdens de vlucht. De vleugels aan zijn staart helpen hem in balans te blijven.
+pokemon_desc_Leafeon,Als je Leafeon ziet slapen in de zon, weet je dat hij fotosynthese gebruikt om schone lucht te produceren.
+pokemon_desc_Glaceon,Het veroorzaakt de vorming van kleine ijskristallen door de temperatuur van de omringende atmosfeer te verlagen.
+pokemon_desc_Gliscor,Hij vliegt geluidloos. Hij gebruikt zijn lange staart om zijn prooi weg te voeren... Dan doen zijn langwerpige giftanden de rest.
+pokemon_desc_Mamoswine,Een bevroren Mamoswine is opgegraven uit ijs dat 10.000 jaar oud is. Deze Pokémon bestaat al heel lang.
+pokemon_desc_Porygon-Z,Zijn programmering was aangepast om door buitenaardse dimensies te kunnen reizen. Het lijkt erop dat er iets fout is gegaan...
+pokemon_desc_Sylveon,Hij zendt een kalmerend aura uit zijn lintvormige voelsprieten om gevechten tot bedaren te brengen.
+pokemon_desc_Noibat,Ze leven in pikzwarte grotten. Hun enorme oren kunnen ultrasone golven van 200.000 hertz uitzenden.
+pokemon_desc_Noivern,Ze vliegen rond op maanloze nachten en vallen achteloze prooien aan. Niets kan ze verslaan in een gevecht in het donker.
+pokemon_desc_Annihilape,Hij doordrenkt zijn vuisten met de kracht van de woede die hij in zijn hart verborgen hield. Tegenstanders die door deze doordrenkte vuisten worden geraakt, zullen tot op het bot worden verbrijzeld.
+pokemon_desc_Phancero,Een verdwaalde vogel die illusies creëert om zichzelf te beschermen. Is alleen gezien tijdens ongewone omstandigheden.
+
+pokemon_species_Bulbasaur,Zaad-Pokémon
+pokemon_species_Ivysaur,Zaad-Pokémon
+pokemon_species_Venusaur,Zaad-Pokémon
+pokemon_species_Charmander,Hagedis-Pokémon
+pokemon_species_Charmeleon,Vlam-Pokémon
+pokemon_species_Charizard,Vlam-Pokémon
+pokemon_species_Squirtle,Kleine Schildpad-Pokémon
+pokemon_species_Wartortle,Schildpad-Pokémon
+pokemon_species_Blastoise,Schelpdier-Pokémon
+pokemon_species_Caterpie,Worm-Pokémon
+pokemon_species_Metapod,Cocon-Pokémon
+pokemon_species_Butterfree,Vlinder-Pokémon
+pokemon_species_Weedle,Harige Insect-Pokémon
+pokemon_species_Kakuna,Cocon-Pokémon
+pokemon_species_Beedrill,Gifbij-Pokémon
+pokemon_species_Pidgey,Kleine Vogel-Pokémon
+pokemon_species_Pidgeotto,Vogel-Pokémon
+pokemon_species_Pidgeot,Vogel-Pokémon
+pokemon_species_Rattata,Rat-Pokémon
+pokemon_species_Raticate,Rat-Pokémon
+pokemon_species_Spearow,Kleine Vogel-Pokémon
+pokemon_species_Fearow,Bek-Pokémon
+pokemon_species_Ekans,Slang-Pokémon
+pokemon_species_Arbok,Cobra-Pokémon
+pokemon_species_Pikachu,Muis-Pokémon
+pokemon_species_Raichu,Muis-Pokémon
+pokemon_species_Sandshrew,Muis-Pokémon
+pokemon_species_Sandslash,Muis-Pokémon
+pokemon_species_Nidoran♀,Gifstekel-Pokémon
+pokemon_species_Nidorina,Gifstekel-Pokémon
+pokemon_species_Nidoqueen,Boor-Pokémon
+pokemon_species_Nidoran,Gifstekel-Pokémon
+pokemon_species_Nidorino,Gifstekel-Pokémon
+pokemon_species_Nidoking,Boor-Pokémon
+pokemon_species_Clefairy,Fee-Pokémon
+pokemon_species_Clefable,Fee-Pokémon
+pokemon_species_Vulpix,Vos-Pokémon
+pokemon_species_Ninetales,Vos-Pokémon
+pokemon_species_Jigglypuff,Ballon-Pokémon
+pokemon_species_Wigglytuff,Ballon-Pokémon
+pokemon_species_Zubat,Vleermuis-Pokémon
+pokemon_species_Golbat,Vleermuis-Pokémon
+pokemon_species_Oddish,Onkruid-Pokémon
+pokemon_species_Gloom,Onkruid-Pokémon
+pokemon_species_Vileplume,Bloem-Pokémon
+pokemon_species_Paras,Paddestoel-Pokémon
+pokemon_species_Parasect,Paddestoel-Pokémon
+pokemon_species_Venonat,Insect-Pokémon
+pokemon_species_Venomoth,Gifmot-Pokémon
+pokemon_species_Diglett,Mol-Pokémon
+pokemon_species_Dugtrio,Mol-Pokémon
+pokemon_species_Meowth,Krabkat-Pokémon
+pokemon_species_Persian,Sjieke Kat-Pokémon
+pokemon_species_Psyduck,Eend-Pokémon
+pokemon_species_Golduck,Eend-Pokémon
+pokemon_species_Mankey,Varkensaap-Pokémon
+pokemon_species_Primeape,Varkensaap-Pokémon
+pokemon_species_Growlithe,Puppy-Pokémon
+pokemon_species_Arcanine,Legendarische Pokémon
+pokemon_species_Poliwag,Kikkervisje-Pokémon
+pokemon_species_Poliwhirl,Kikkervisje-Pokémon
+pokemon_species_Poliwrath,Kikkervisje-Pokémon
+pokemon_species_Abra,Psychische Pokémon
+pokemon_species_Kadabra,Psychische Pokémon
+pokemon_species_Alakazam,Psychische Pokémon
+pokemon_species_Machop,Superkracht-Pokémon
+pokemon_species_Machoke,Superkracht-Pokémon
+pokemon_species_Machamp,Superkracht-Pokémon
+pokemon_species_Bellsprout,Bloem-Pokémon
+pokemon_species_Weepinbell,Vliegenvanger-Pokémon
+pokemon_species_Victreebel,Vliegenvanger-Pokémon
+pokemon_species_Tentacool,Kwal-Pokémon
+pokemon_species_Tentacruel,Kwal-Pokémon
+pokemon_species_Geodude,Rots-Pokémon
+pokemon_species_Graveler,Rots-Pokémon
+pokemon_species_Golem,Megaton-Pokémon
+pokemon_species_Ponyta,Vuurpaard-Pokémon
+pokemon_species_Rapidash,Vuurpaard-Pokémon
+pokemon_species_Slowpoke,Duffe Pokémon
+pokemon_species_Slowbro,Heremietkreeft-Pokémon
+pokemon_species_Magnemite,Magneet-Pokémon
+pokemon_species_Magneton,Magneet-Pokémon
+pokemon_species_Farfetch'd,Wilde Eend-Pokémon
+pokemon_species_Doduo,Tweelingvogel-Pokémon
+pokemon_species_Dodrio,Drielingvogel-Pokémon
+pokemon_species_Seel,Zeeleeuw-Pokémon
+pokemon_species_Dewgong,Zeeleeuw-Pokémon
+pokemon_species_Grimer,Blubber-Pokémon
+pokemon_species_Muk,Blubber-Pokémon
+pokemon_species_Shellder,Tweekleppige Pokémon
+pokemon_species_Cloyster,Tweekleppige Pokémon
+pokemon_species_Gastly,Gas-Pokémon
+pokemon_species_Haunter,Gas-Pokémon
+pokemon_species_Gengar,Schaduw-Pokémon
+pokemon_species_Onix,Rotsslang-Pokémon
+pokemon_species_Drowzee,Hypnose-Pokémon
+pokemon_species_Hypno,Hypnose-Pokémon
+pokemon_species_Krabby,Rivierkreeft-Pokémon
+pokemon_species_Kingler,Schaar-Pokémon
+pokemon_species_Voltorb,Bal-Pokémon
+pokemon_species_Electrode,Bal-Pokémon
+pokemon_species_Exeggcute,Ei-Pokémon
+pokemon_species_Exeggutor,Kokosnoot-Pokémon
+pokemon_species_Cubone,Eenzame Pokémon
+pokemon_species_Marowak,Botbewaarder-Pokémon
+pokemon_species_Hitmonlee,Schoppende Pokémon
+pokemon_species_Hitmonchan,Stompende Pokémon
+pokemon_species_Lickitung,Likkende Pokémon
+pokemon_species_Koffing,Gifgas-Pokémon
+pokemon_species_Weezing,Gifgas-Pokémon
+pokemon_species_Galarian Weezing,_galar,Gifgas-Pokémon
+pokemon_species_Rhyhorn,Spijker-Pokémon
+pokemon_species_Rhydon,Boor-Pokémon
+pokemon_species_Chansey,Ei-Pokémon
+pokemon_species_Tangela,Klimplant-Pokémon
+pokemon_species_Kangaskhan,Ouder-Pokémon
+pokemon_species_Horsea,Draak-Pokémon
+pokemon_species_Seadra,Draak-Pokémon
+pokemon_species_Goldeen,Goudvis-Pokémon
+pokemon_species_Seaking,Goudvis-Pokémon
+pokemon_species_Staryu,Stervormige Pokémon
+pokemon_species_Starmie,Mysterieuze Pokémon
+pokemon_species_Mr. Mime,Barrière-Pokémon
+pokemon_species_Scyther,Bidsprinkhaan-Pokémon
+pokemon_species_Jynx,Menselijk gevormde Pokémon
+pokemon_species_Electabuzz,Elektrische Pokémon
+pokemon_species_Magmar,Vuurspuwende Pokémon
+pokemon_species_Pinsir,Vliegend Hert-Pokémon
+pokemon_species_Tauros,Wilde Stier-Pokémon
+pokemon_species_Magikarp,Vis-Pokémon
+pokemon_species_Gyarados,Afgrijselijke Pokémon
+pokemon_species_Lapras,Transport-Pokémon
+pokemon_species_Ditto,Transformatie-Pokémon
+pokemon_species_Eevee,Evolutie-Pokémon
+pokemon_species_Vaporeon,Bubbelstraal-Pokémon
+pokemon_species_Jolteon,Bliksem-Pokémon
+pokemon_species_Flareon,Vlam-Pokémon
+pokemon_species_Porygon,Virtuele Pokémon
+pokemon_species_Omanyte,Spiraal-Pokémon
+pokemon_species_Omastar,Spiraal-Pokémon
+pokemon_species_Kabuto,Schelpdier-Pokémon
+pokemon_species_Kabutops,Schelpdier-Pokémon
+pokemon_species_Aerodactyl,Fossiel-Pokémon
+pokemon_species_Snorlax,Slapende Pokémon
+pokemon_species_Articuno,Bevriezing-Pokémon
+pokemon_species_Zapdos,Elektrische Pokémon
+pokemon_species_Moltres,Vlam-Pokémon
+pokemon_species_Dratini,Draak-Pokémon
+pokemon_species_Dragonair,Draak-Pokémon
+pokemon_species_Dragonite,Draak-Pokémon
+pokemon_species_Mewtwo,Genetische Pokémon
+pokemon_species_Mew,Nieuwe Soort-Pokémon
+pokemon_species_Chikorita,Blad-Pokémon
+pokemon_species_Bayleef,Blad-Pokémon
+pokemon_species_Meganium,Kruiden-Pokémon
+pokemon_species_Cyndaquil,Vuurmuis-Pokémon
+pokemon_species_Quilava,Vulkaan-Pokémon
+pokemon_species_Typhlosion,Vulkaan-Pokémon
+pokemon_species_Totodile,Grote Kaak-Pokémon
+pokemon_species_Croconaw,Grote Kaak-Pokémon
+pokemon_species_Feraligatr,Grote Kaak-Pokémon
+pokemon_species_Spinarak,Draadspuw-Pokémon
+pokemon_species_Ariados,Langpoot-Pokémon
+pokemon_species_Crobat,Vleermuis-Pokémon
+pokemon_species_Chinchou,Hengelaar-Pokémon
+pokemon_species_Lanturn,Licht-Pokémon
+pokemon_species_Togepi,Stekelbal-Pokémon
+pokemon_species_Togetic,Geluk-Pokémon
+pokemon_species_Natu,Kleine Vogel-Pokémon
+pokemon_species_Xatu,Mystieke Pokémon
+pokemon_species_Mareep,Wol-Pokémon
+pokemon_species_Flaaffy,Wol-Pokémon
+pokemon_species_Ampharos,Licht-Pokémon
+pokemon_species_Marill,Watermuis-Pokémon
+pokemon_species_Azumarill,Waterkonijn-Pokémon
+pokemon_species_Politoed,Kikker-Pokémon
+pokemon_species_Yanma,Doorzichtige Vleugel-Pokémon
+pokemon_species_Wooper,Watervis-Pokémon
+pokemon_species_Quagsire,Watervis-Pokémon
+pokemon_species_Espeon,Zon-Pokémon
+pokemon_species_Umbreon,Maanlicht-Pokémon
+pokemon_species_Murkrow,Duisternis-Pokémon
+pokemon_species_Slowking,Koninklijke Pokémon
+pokemon_species_Misdreavus,Krijs-Pokémon
+pokemon_species_Gligar,Vliegende Schorpioen-Pokémon
+pokemon_species_Steelix,IJzerslang-Pokémon
+pokemon_species_Scizor,Tang-Pokémon
+pokemon_species_Heracross,Enkele Hoorn-Pokémon
+pokemon_species_Sneasel,Scherpe Klauw-Pokémon
+pokemon_species_Swinub,Varken-Pokémon
+pokemon_species_Piloswine,Zwijn-Pokémon
+pokemon_species_Houndour,Duistere Pokémon
+pokemon_species_Houndoom,Duistere Pokémon
+pokemon_species_Kingdra,Draak-Pokémon
+pokemon_species_Phanpy,Langneus-Pokémon
+pokemon_species_Donphan,Pantser-Pokémon
+pokemon_species_Porygon2,Virtuele Pokémon
+pokemon_species_Tyrogue,Handgemeen Pokémon
+pokemon_species_Hitmontop,Handstand Pokémon
+pokemon_species_Blissey,Geluk-Pokémon
+pokemon_species_Raikou,Donder-Pokémon
+pokemon_species_Entei,Vulkaan-Pokémon
+pokemon_species_Suicune,Aurora-Pokémon
+pokemon_species_Larvitar,Rotshuid-Pokémon
+pokemon_species_Pupitar,Harde Schaal-Pokémon
+pokemon_species_Tyranitar,Pantser-Pokémon
+pokemon_species_Lugia,Duikende Pokémon
+pokemon_species_Ho-oh,Regenboog-Pokémon
+pokemon_species_Cranidos,Kopstoot-Pokémon
+pokemon_species_Rampardos,Kopstoot-Pokémon
+pokemon_species_Mismagius,Magische Pokémon
+pokemon_species_Honchkrow,Grote Baas-Pokémon
+pokemon_species_Weavile,Scherpe Klauw-Pokémon
+pokemon_species_Magnezone,Magneetgebied-Pokémon
+pokemon_species_Lickilicky,Likkende Pokémon
+pokemon_species_Rhyperior,Drilboor-Pokémon
+pokemon_species_Tangrowth,Liaan-Pokémon
+pokemon_species_Electivire,Bliksemstraal-Pokémon
+pokemon_species_Magmortar,Kanonschot-Pokémon
+pokemon_species_Togekiss,Jubilerende Pokémon
+pokemon_species_Yanmega,Ogerkeizerlibel-Pokémon
+pokemon_species_Leafeon,Plantengroen-Pokémon
+pokemon_species_Glaceon,Verse Sneeuw-Pokémon
+pokemon_species_Gliscor,Slagtandschorpioen-Pokémon
+pokemon_species_Mamoswine,Dubbele Slagtand-Pokémon
+pokemon_species_Porygon-Z,Virtuele Pokémon
+pokemon_species_Sylveon,Verweven Pokémon
+pokemon_species_Noibat,Geluidsgolf-Pokémon
+pokemon_species_Noivern,Geluidsgolf-Pokémon
+pokemon_species_Annihilape,Woedeaap-Pokémon
+pokemon_species_Phancero,Glitchvogel-Pokémon
+pokemon_species_Ph4D95210XaP,Glitchvogel-Pokémon
 --------------
 Item names:
 Balls:

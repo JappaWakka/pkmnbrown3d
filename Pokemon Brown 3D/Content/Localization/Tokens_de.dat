@@ -5,6 +5,7 @@ global_please_wait,Bitte warten
 global_loading,Lädt
 global_game,Spiel
 global_login,Login
+global_create_account,Create Account
 global_male,Männlich
 global_female,Weiblich
 global_genderless,Geschlechtslos
@@ -14,6 +15,7 @@ global_yes,Ja
 global_no,Nein
 global_accept,Akzeptieren
 global_cancel,Abbrechen
+global_ok,OK
 global_gamemode,Spielmodus
 global_clear,Löschen
 global_save,Speichern
@@ -26,15 +28,15 @@ global_enabled,Aktiviert
 global_disabled,Deaktiviert
 global_enable,Aktivieren
 global_disable,Deaktivieren
-global_player_name,Spielername
+global_player_name,Name
 global_badges,Orden
 global_play_time,Spielzeit
 global_location,Ort
 global_money,Geld
 global_points,Punkte
-global_ot,OT
+global_ot,ID-Nr.
 global_time,Zeit
-global_name,Nahme
+global_name,Name
 global_order,Reihenfolge
 global_filter,Filter
 global_reset,Reset
@@ -64,7 +66,7 @@ global_pokemon_type_wood,Holz
 global_pokemon_type_abnormal,Abnormal
 global_true,True
 global_false,Falsch
-global_select,Auswählen
+global_select,Tauschen
 global_summary,Bericht
 global_item,Item
 global_use,Benutzen
@@ -81,10 +83,10 @@ global_pokemon_move_teleport,Teleport
 global_pokemon_move_dig,Schaufler
 global_used,Benutzt
 
-global_SLP,SLP
+global_SLP,SLF
 global_BRN,BRN
-global_PSN,PSN
-global_FRZ,FRZ
+global_PSN,GIF
+global_FRZ,GFR
 global_PAR,PAR
 global_quit,Quit
 ---
@@ -168,11 +170,11 @@ fieldmove_teleport_CannotUse,Cannot use Teleport here.
 fieldmove_teleport_used,used~Teleport!
 ---
 GameInteractions:
-game_interaction_interact,Interact
-game_interaction_gamemenu,Game Menu
-game_interaction_pokegear,Pokégear
-game_interaction_pausemenu,Pause Menu
-game_interaction_notification,Notification
+game_interaction_interact,Untersuchen
+game_interaction_gamemenu,Start-Menü
+game_interaction_pokegear,PokéCOM
+game_interaction_pausemenu,Pause
+game_interaction_notification,Nachrichten
 game_notification_accept,Press [<system.button(special)>] to accept.
 game_notification_dismiss,Press [<system.button(special)>] to dismiss.
 ---
@@ -184,7 +186,7 @@ Main Menu:
 main_menu_newgame_line1,Neues
 main_menu_newgame_line2,Spiel
 main_menu_options,Optionen
-main_menu_savefile_name,Spielername
+main_menu_savefile_name,Name
 main_menu_savefile_gamemode,Spielmodus
 main_menu_savefile_badges,Orden
 main_menu_savefile_playtime,Spielzeit
@@ -207,8 +209,8 @@ main_menu_options_contentpacks_line1,Content
 main_menu_options_contentpacks_line2,Packs
 
 GameModeMenu:
-gamemode_menu_select1,Select a GameMode
-gamemode_menu_select2,to start the new game with.
+gamemode_menu_select1,Wähle ein Spiel,
+gamemode_menu_select2,mit dem du starten möchtest.
 gamemode_menu_name,Name
 gamemode_menu_description,Description
 gamemode_menu_version,Version
@@ -297,20 +299,20 @@ option_screen_audio_volume_music,Musik Lautstärke
 option_screen_audio_volume_sfx,Soundeffekte Lautstärke
 option_screen_audio_muted,Lautlos
 
-option_screen_contentpacks_up,Move Up
-option_screen_contentpacks_down,Move Down
-option_screen_contentpacks_information,Information
+option_screen_contentpacks_up,Nach Oben
+option_screen_contentpacks_down,Nach Unten
+option_screen_contentpacks_information,Informationen
 option_screen_contentpacks_songs,Songs
 option_screen_contentpacks_sounds,Sounds
 option_screen_contentpacks_textures,Textures
 option_screen_contentpacks_name,Name
 option_screen_contentpacks_version,Version
-option_screen_contentpacks_by,By
+option_screen_contentpacks_by,Von
 option_screen_contentpacks_content,Content
-option_screen_contentpacks_description,Description
+option_screen_contentpacks_description,Beschreibung
 
-option_screen_resetoptions,Einstellungen zurücksetzen.
-option_screen_save_options,Optionen speichern.
+option_screen_resetoptions,Zurücksetzen
+option_screen_save_options,Optionen speichern
 option_screen_close,Schließen
 ---
 Pausescreen:
@@ -491,7 +493,7 @@ VoltorbFlip_Tutorial_AboutMemos_Image,Select "Open Memo" to open the Memo Window
 PokedexScreen
 pokedex_seen,Gesehen:
 pokedex_obtained,Gefangen:
-pokedex_available,Verfügbar:
+pokedex_available,Gesehen:
 pokedex_select,Select a Pokédex
 pokedex_habitat_dex_name,Habitat-Dex
 pokedex_habitat_select,Select a Habitat
@@ -708,9 +710,10 @@ pokemon_name_Pikachu,Pikachu
 pokemon_name_Raichu,Raichu
 pokemon_name_Sandshrew,Sandan
 pokemon_name_Sandshlash,Sandamer
-pokemon_name_Nidoran,Nidoran
+pokemon_name_Nidoran♀,Nidoran♀
 pokemon_name_Nidorina,Nidorina
 pokemon_name_Nidoqueen,Nidoqueen
+pokemon_name_Nidoran♂,Nidoran♂
 pokemon_name_Nidorino,Nidorino
 pokemon_name_Nidoking,Nidoking
 pokemon_name_Clefairy,Piepi
