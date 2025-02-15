@@ -74,6 +74,7 @@ global_give,Give
 global_take,Take
 global_toss,Toss
 global_switch,Switch
+global_learn,Learn
 global_pokemon_move_fly,Fly
 global_pokemon_move_rocksmash,Rock Smash
 global_pokemon_move_ride,Ride
@@ -358,6 +359,7 @@ PartyScreen:
 party_screen_Unable,Unable!
 party_screen_Able,Able!
 party_screen_FieldMove,Field Move
+party_screen_ChoosePokemon,Choose Pokémon
 party_screen_CannotChoosePokemon,Cannot choose this~Pokémon.
 ---
 NewGameScreen:
@@ -538,13 +540,22 @@ berry_picked_multiple_end,Berries.
 Battle:
 battle_trainer_about_to_send_out_1,is about to send out
 battle_trainer_about_to_send_out_2,! Do you want to switch your Pokémon?
-battle_choose_pokemon,Choose Pokémon
 battle_switch_already_in_battle,is already~in battle!
 battle_switch_fainted,is fainted!
 battle_switch_egg,Cannot switch in~the egg!
 battle_cannot_switch,Cannot switch out.
 battle_cannot_run,Failed to run away.
 battle_cannot_run_ability,Failed to run away because of~
+battle_MoveDisabled,Disabled!
+battle_NoSafariBalls,No Safari Balls.
+battle_NoSportBalls,No Sport Balls.
+battle_ThrowMud,Throw Mud
+battle_ThrowBait,Throw Bait
+battle_Run,Run
+battle_Battle,Battle
+battle_Bag,Bag
+battle_Surrender,Surrender
+battle_action_MegaEvolve,Mega Evolve!
 ---
 Badges:
 badge_1,Marine
@@ -591,6 +602,7 @@ Places_Pokémon Center,Pokémon Mart
 Places_Tim's Lab,Tim's Lab
 Places_Pokémon Fan Club,Pokémon Fan Club
 Places_Rainbow Tower,Rainbow Tower
+Places_30 Years Cave,30 Years Cave
 Places_Southland Mall,Southland Mall
 Places_Daycare,Daycare
 Places_Nation's Burgers,Nation's Burgers
@@ -604,7 +616,9 @@ Places_Merson Cave,Merson Cave
 Places_Mt. Boulder,Mt. Boulder
 Places_Silk Tunnel,Silk Tunnel
 Places_Silph Co. Warehouse,Silph Co. Warehouse
+Places_Botan Cave,Botan Cave
 Places_Haunted Forest,Haunted Forest
+Places_International Tunnel,International Tunnel
 Places_Castro Forest,Castro Forest
 Places_Eagulou Park,Eagulou Park
 Places_Secret Cave,Secret Cave
@@ -5019,8 +5033,8 @@ Bunker_PC_Outro,<Player.Name>: The other entries~are password protected.*Were th
 30YearsCave_Moltres,Gyaao!
 
 [Route 65]
-Route65_Main_Sign_North,Rijon League~El Norteno Summit*E pluribus unum.
-Route65_Main_Sign_South,Route 65~El Norteno Heights*Pathway to the Rijon League!
+Route65_Main_Sign_North,Rijon League~El Norteño Summit*E pluribus unum.
+Route65_Main_Sign_South,Route 65~El Norteño Heights*Pathway to the Rijon League!
 
 Route65_Guard1_Start,You can pass here only if~you have the Marine Badge!
 Route65_Guard1_HaveBadge,Oh! That is the Marine Badge!~OK then! Please, go right~ahead!
@@ -5093,7 +5107,7 @@ SenecaCaverns_1F_ScientistDarian_OutroMessage,I just want to take a quick look..
 SenecaCaverns_1F_ScientistDarian_DefeatMessage,My colleagues at Hayward~revived my Pokémon! It seems~Team Rocket has emptied these~caves, I can't find any more~fossils...
 
 [Rijon League]
-League_Exterior_Sign,      Rijon League~El Norteno Summit*E pluribus unum.
+League_Exterior_Sign,      Rijon League~El Norteño Summit*E pluribus unum.
 
 League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and the~current Champion in order to~receive that title.*Go for it.
 League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Yo! Champ!*So you defeated all Elite Four~members?*They have been training~nonstop to become the Champion~themselves, so if you plan to~challenge them again, you~better be prepared!*Also, have you visited the~Gym Leaders again?*Now that you've become the~Champion they'll battle you~with all their might!

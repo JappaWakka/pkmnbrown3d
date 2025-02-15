@@ -73,6 +73,7 @@ global_give,Geef
 global_take,Neem
 global_toss,Gooi weg
 global_switch,Verwissel
+global_learn,Leer
 global_pokemon_move_fly,Vlieg
 global_pokemon_move_rocksmash,Steenknal
 global_pokemon_move_ride,Rijd
@@ -356,6 +357,7 @@ PartyScreen:
 party_screen_Unable,Onmogelijk!
 party_screen_Able,Mogelijk!
 party_screen_FieldMove,Veldtechniek
+party_screen_ChoosePokemon,Kies Pokémon
 party_screen_CannotChoosePokemon,Kan deze Pokémon niet~kiezen.
 ---
 NewGameScreen:
@@ -535,13 +537,22 @@ berry_picked_multiple_end,Bessen.
 Battle:
 battle_trainer_about_to_send_out_1,staat op het punt om
 battle_trainer_about_to_send_out_2,in te zetten om te vechten! Wil je je Pokémon verwisselen met een andere?
-battle_choose_pokemon,Kies Pokémon
 battle_switch_already_in_battle,is al~aan het vechten!
 battle_switch_fainted,is uitgeschakeld!
 battle_switch_egg,Kan geen ei inzetten!
 battle_cannot_switch,Kan niet wisselen.
 battle_cannot_run,Kon niet wegrennen.
 battle_cannot_run_ability,Kon niet wegrennen vanwege~
+battle_MoveDisabled,Uitgeschakeld!
+battle_NoSafariBalls,Geen SafariBallen.
+battle_NoSportBalls,Geen SportBallen.
+battle_action_ThrowMud,Gooi Modder
+battle_action_ThrowBait,Gooi Aas
+battle_action_Run,Ren
+battle_action_Battle,Vecht
+battle_action_Bag,Tas
+battle_action_Surrender,Geef Op
+battle_action_MegaEvolve,Mega-Evolueer!
 ---
 Badges:
 badge_1,Marine
@@ -587,6 +598,7 @@ Places_Pokémon Center,Pokémon-Winkel
 Places_Tim's Lab,Tim's Lab
 Places_Pokémon Fan Club,Pokémon-Fanclub
 Places_Rainbow Tower,Regenboogtoren
+Places_30 Years Cave,30 Jaren-Grot
 Places_Southland Mall,Winkelcentrum Zuidland
 Places_Daycare,Dagopvang
 Places_Nation's Burgers,Nation's Burgers
@@ -600,7 +612,9 @@ Places_Merson Cave,Merson-Grot
 Places_Mt. Boulder,Mt. Boulder
 Places_Silk Tunnel,Zijde-Tunnel
 Places_Silph Co. Warehouse,Silph Co. Warenhuis
+Places_Botan Cave,Botan-Grot
 Places_Haunted Forest,Spookachtig Woud
+Places_International Tunnel,Internationale Tunnel
 Places_Castro Forest,Castro-Bos
 Places_Eagulou Park,Eagulou Park
 Places_Secret Cave,Geheime Grot
@@ -5878,8 +5892,8 @@ Bunker_PC_Outro,<Player.Name>: The other entries~are password protected.*Were th
 30YearsCave_Moltres,Gyaao!
 
 [Route 65]
-Route65_Main_Sign_North,Rijon League~El Norteno Summit*E pluribus unum.
-Route65_Main_Sign_South,Route 65~El Norteno Heights*Pathway to the Rijon League!
+Route65_Main_Sign_North,Rijon League~El Norteño Summit*E pluribus unum.
+Route65_Main_Sign_South,Route 65~El Norteño Heights*Pathway to the Rijon League!
 
 Route65_Guard1_Start,You can pass here only if~you have the Marine Badge!
 Route65_Guard1_HaveBadge,Oh! That is the Marine Badge!~OK then! Please, go right~ahead!
@@ -5952,7 +5966,7 @@ SenecaCaverns_1F_ScientistDarian_OutroMessage,I just want to take a quick look..
 SenecaCaverns_1F_ScientistDarian_DefeatMessage,My colleagues at Hayward~revived my Pokémon! It seems~Team Rocket has emptied these~caves, I can't find any more~fossils...
 
 [Rijon League]
-League_Exterior_Sign,      Rijon League~El Norteno Summit*E pluribus unum.
+League_Exterior_Sign,      Rijon League~El Norteño Summit*E pluribus unum.
 
 League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and the~current Champion in order to~receive that title.*Go for it.
 League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Yo! Champ!*So you defeated all Elite Four~members?*They have been training~nonstop to become the Champion~themselves, so if you plan to~challenge them again, you~better be prepared!*Also, have you visited the~Gym Leaders again?*Now that you've become the~Champion they'll battle you~with all their might!
