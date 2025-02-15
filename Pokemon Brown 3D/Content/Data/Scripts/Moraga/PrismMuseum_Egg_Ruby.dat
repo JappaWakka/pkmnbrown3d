@@ -14,10 +14,10 @@ version=2
 		@Sound.Play(Success,1)
 		:if:<Register.Registered(Entei)>=true <or> <Register.Registered(ResetEntei)>=true <or> <Register.Registered(CaughtEntei)>=true
 			@Text.Show(<system.token(Morage_PrismMuseum_RubyEgg_ReceivedMoltres)>)
-			@pokemon.add(146,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+			@pokemon.add(146,50,[system.token(Morage_PrismMuseum_CatchMethod)],5,[system.token(Morage_PrismMuseum_CatchLocation)],0,<player.name>,0,<storage.get(int,PokeShiny)>)
 		:else
 			@Text.Show(<system.token(Morage_PrismMuseum_RubyEgg_ReceivedEntei)>)
-			@pokemon.add(244,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+			@pokemon.add(244,50,[system.token(Morage_PrismMuseum_CatchMethod)],5,[system.token(Morage_PrismMuseum_CatchLocation)],0,<player.name>,0,<storage.get(int,PokeShiny)>)
 		:endif
 		
 		@pokemon.rename(<math.int(<pokemon.count>-1)>)

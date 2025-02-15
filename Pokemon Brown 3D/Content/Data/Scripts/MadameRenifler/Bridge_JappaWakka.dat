@@ -57,7 +57,7 @@ version=2
 				@Register.Register(Dex_Glitched)
 				@Sound.Play(Success,1)
 				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes2)>)
-				@pokemon.add(<pokemon.count>,{"Pokemon"[1010]}{"OriginalNumber"[-1]}{"Experience"[1250000]}{"Gender"[2]}{"EggSteps"[0]}{"Item"[0]}{"ItemData"[]}{"NickName"[Foutmelding]}{"Level"[100]}{"OT"[<player.ot>]}{"Ability"[88]}{"Status"[]}{"Nature"[9]}{"CatchLocation"[<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation)>]}{"CatchTrainer"[<player.name>]}{"CatchBall"[5]}{"CatchMethod"[<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod)>]}{"Friendship"[70]}{"isShiny"[0]}{"Attack1"[1048,10,10]}{"Attack2"[136,10,10]}{"Attack3"[1004,10,10]}{"Attack4"[247,15,15]}{"HP"[497]}{"EVs"[0,0,0,0,0,0]}{"IVs"[31,31,31,31,31,31]}{"AdditionalData"[]}{"IDValue"[xsAdbGaJBZt]})
+				@pokemon.add(<pokemon.count>,{"Pokemon"[1010]}{"OriginalNumber"[-1]}{"Experience"[1250000]}{"Gender"[2]}{"EggSteps"[0]}{"Item"[0]}{"ItemData"[]}{"NickName"[Foutmelding]}{"Level"[100]}{"OT"[<player.ot>]}{"Ability"[88]}{"Status"[]}{"Nature"[9]}{"CatchLocation"[[system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation)]]}{"CatchTrainer"[<player.name>]}{"CatchBall"[5]}{"CatchMethod"[[system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod)]]}{"Friendship"[70]}{"isShiny"[0]}{"Attack1"[1048,10,10]}{"Attack2"[136,10,10]}{"Attack3"[1004,10,10]}{"Attack4"[247,15,15]}{"HP"[497]}{"EVs"[0,0,0,0,0,0]}{"IVs"[31,31,31,31,31,31]}{"AdditionalData"[]}{"IDValue"[xsAdbGaJBZt]})
 				:if:<Register.Value(PhanceroShiny)>=true
 					@pokemon.setshiny(<math.int(<pokemon.count>-1)>,1)
 				:endif
@@ -100,7 +100,7 @@ version=2
 				@Register.Register(Dex_Glitched)
 				@Sound.Play(Success,1)
 				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes2)>)
-				@pokemon.add(<pokemon.count>,{"Pokemon"[1010]}{"OriginalNumber"[-1]}{"Experience"[1250000]}{"Gender"[2]}{"EggSteps"[0]}{"Item"[0]}{"ItemData"[]}{"NickName"[Foutmelding]}{"Level"[100]}{"OT"[<player.ot>]}{"Ability"[88]}{"Status"[]}{"Nature"[9]}{"CatchLocation"[at Madame Renifler]}{"CatchTrainer"[<player.name>]}{"CatchBall"[5]}{"CatchMethod"[Received as a gift]}{"Friendship"[70]}{"isShiny"[0]}{"Attack1"[1048,10,10]}{"Attack2"[136,10,10]}{"Attack3"[1004,10,10]}{"Attack4"[247,15,15]}{"HP"[497]}{"EVs"[0,0,0,0,0,0]}{"IVs"[31,31,31,31,31,31]}{"AdditionalData"[]}{"IDValue"[xsAdbGaJBZt]})
+				@pokemon.add(<pokemon.count>,{"Pokemon"[1010]}{"OriginalNumber"[-1]}{"Experience"[1250000]}{"Gender"[2]}{"EggSteps"[0]}{"Item"[0]}{"ItemData"[]}{"NickName"[Foutmelding]}{"Level"[100]}{"OT"[<player.ot>]}{"Ability"[88]}{"Status"[]}{"Nature"[9]}{"CatchLocation"[[system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation)]]}{"CatchTrainer"[<player.name>]}{"CatchBall"[5]}{"CatchMethod"[[system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod)]]}{"Friendship"[70]}{"isShiny"[0]}{"Attack1"[1048,10,10]}{"Attack2"[136,10,10]}{"Attack3"[1004,10,10]}{"Attack4"[247,15,15]}{"HP"[497]}{"EVs"[0,0,0,0,0,0]}{"IVs"[31,31,31,31,31,31]}{"AdditionalData"[]}{"IDValue"[xsAdbGaJBZt]})
 				:if:<Register.Value(PhanceroShiny)>=true
 					@pokemon.setshiny(<math.int(<pokemon.count>-1)>,1)
 				:endif
