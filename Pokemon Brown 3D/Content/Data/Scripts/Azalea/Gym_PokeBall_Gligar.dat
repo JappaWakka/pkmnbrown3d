@@ -8,7 +8,7 @@ version=2
 			@NPC.register(Gyms\Azalea.dat|5|remove)
 			@Register.Register(azalea_gym_pokemongot)
 			@Register.Register(azalea_gym_gligar)
-			@pokemon.add(207,30,[system.token(Azalea_Gym_Pokemon_CatchMethod)],5,[system.token(Azalea_Gym_Pokemon_CatchLocation)])
+			@pokemon.add(207,30,<system.token(Azalea_Gym_Pokemon_CatchMethod)>,5,<system.token(Azalea_Gym_Pokemon_CatchLocation)>)
 			@Text.Show(<system.token(Azalea_Gym_Receive_Gligar)>)
 			@pokemon.rename(<math.int(<pokemon.count>-1)>)
 			:if:<pokemon.count>>6

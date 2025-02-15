@@ -12,7 +12,7 @@ version=2
 			:endif
 			@Sound.Play(Success,1)
 			@Text.Show(<system.token(Route67_PokeCenter_KangaskhanGuy_ReceivedKangaskhan)>)
-			@pokemon.add(115,20,[system.token(Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod)],5,[system.token(Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation)],0,<player.name>,0,<storage.get(int,PokeShiny)>)
+			@pokemon.add(115,20,<system.token(Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod)>,5,<system.token(Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
 			@pokemon.rename(<math.int(<pokemon.count>-1)>)
 			:if:<pokemon.count>>6
 				@Text.Show(<system.token(Route67_PokeCenter_KangaskhanGuy_PokemonToPC)>)

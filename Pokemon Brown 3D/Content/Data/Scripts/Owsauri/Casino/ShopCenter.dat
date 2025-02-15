@@ -38,7 +38,7 @@ version=2
 		@Text.Show(<system.token(Owsauri_Casino_B1F_Shop_ReceivedPokemon)>)
 		@player.addcoins(-<storage.get(int,Cost)>)
 		@sound.play(buy)
-		@pokemon.add(<storage.get(int,PokeNumber)>,<storage.get(int,PokeLevel)>,[system.token(Owsauri_Casino_B1F_Shop_PokemonCatchMethod)],5,[system.token(Owsauri_Casino_B1F_Shop_PokemonCatchLocation)],0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		@pokemon.add(<storage.get(int,PokeNumber)>,<storage.get(int,PokeLevel)>,<system.token(Owsauri_Casino_B1F_Shop_PokemonCatchMethod)>,5,<system.token(Owsauri_Casino_B1F_Shop_PokemonCatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
 		@pokemon.setadditionalvalue(<math.int(<pokemon.count>-1)>,<storage.get(str,PokeForm)>)
 		@pokemon.rename(<math.int(<pokemon.count>-1)>)
 		:if:<pokemon.count>>6
