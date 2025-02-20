@@ -61,7 +61,7 @@ version=2
 				@player.turnto(0)
 				@player.move(2)
 				@player.warp(Eagulou\Park\Area1.dat,3,0.1,25,0)
-				@script.delay(ParkSteps,Eagulou\Park\EndOfRunScript,steps,500,1)
+				@script.delay(ParkSteps,Eagulou\Park\EndOfRunScript,steps,650,1)
 				@script.delay(ParkBalls,Eagulou\Park\EndOfRunScript,itemcount,181,equal,0)
 				
 				:if:<Register.Registered(DecorationItem_PottedPlant)>=false
