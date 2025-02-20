@@ -1,6 +1,6 @@
 The localization file is a simple .txt file, renamed to .dat, which can be opened by any text editor (Notepad++ for example).
 
-To start, make a copy of "Tokens_en.dat" inside the "Content\Localization\" folder of the Pokémon Brown 3D GameMode and change the "en" to your language's suffix.
+To start, make a copy of "Tokens_en.dat" inside the "Content\Localization\" folder inside the Pokémon Brown 3D GameMode folder and change the "en" to your language's suffix.
 Look in the "Content\Localization\" folder of the regular game for the available language suffixes.
 
 Each token has a name (the value before the first comma) and content (everything after the first comma). The token name should not be changed.
@@ -10,8 +10,13 @@ To update/refresh the currently loaded tokens, you have to exit to the main menu
 You can write ~ in places where you want a soft line break (which scrolls to the next line, keeping the last previous line in view)
 You can write * in places where you want a hard line break (which clears the text box before displaying the next line)
 
-If you want to quickly test some strings (for example to check if it's not too long), you can press T and then type "@Text.Show(string)" (without quotations) to show the string between the brackets.
-You can also show tokens from the token file by pressing T and then typing "@Text.Show(<system.token(tokenName)>)" (without quotations) to show the token with the specified name between the brackets.
+If you want to quickly test some strings (for example to check if it's not too long), you need to be in Sandbox Mode.
+While in game, hold the F3 key and press O, you are now in Sandbox Mode
+If you want to continue playing eventually, hold the F3 key again and press O. You're now back in Normal Mode.
+Press F3 if the info is still in the top left corner.
+
+When you're in Sandbox Mode you can press T and then type "@Text.Show(string)" (without quotations) to show the string between the brackets.
+You can also show tokens from the token file by pressing T and then typing "@Text.Show(<system.token(tokenName)>)" (without quotations) to show the token with the specified token name between the brackets.
 
 For dialogue to fit in the text box I usually try to keep a line under 30 characters.
 Sometimes you can go over that as not all characters are equally wide (periods and the letter i for example are less wide) but that's usually the safe range.
