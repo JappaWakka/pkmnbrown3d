@@ -29,9 +29,9 @@ global_enabled,Habilitado
 global_disabled,Desactivado
 global_enable,Habilitar
 global_disable,Desactivar
-global_player_name,Nombre del jugador
+global_player_name,Nombre del Jugador
 global_badges,Insignias
-global_play_time,Tiempo de juego
+global_play_time,Tiempo de Juego
 global_location,Ubicación
 global_money,Dinero
 global_points,Puntos
@@ -209,7 +209,7 @@ game_interaction_pokegear,Pokégear
 game_interaction_pausemenu,Menú de pausa
 game_interaction_notification,Notificación
 game_notification_accept,Pulsa <system.button(special)> para aceptar.
-game_notification_dismiss,Pulsa <system.button(special)> para descartar.  
+game_notification_dismiss,Pulsa <system.button(special)> para descartar.
 ---
 PressStartScreen:
 start_screen_press,Presiona
@@ -219,11 +219,6 @@ Main Menu:
 main_menu_newgame_line1,Nuevo
 main_menu_newgame_line2,Juego
 main_menu_options,Opciones
-main_menu_savefile_name,Nombre del jugador
-main_menu_savefile_gamemode,Modo de juego
-main_menu_savefile_badges,Insignias
-main_menu_savefile_playtime,Tiempo de juego
-main_menu_savefile_location,Ubicación
 main_menu_gamejolt_ChangeToMale,Change to male
 main_menu_gamejolt_ChangeToFemale,Change to female
 main_menu_gamejolt_ChangeToGenderless,Change to genderless
@@ -275,9 +270,6 @@ join_server_screen_no_connection,(no connection)
 ---
 Options Screen:
 option_screen_title,Opciones
-option_screen_warning,Las opciones aún no se han guardado, desplácese hacia abajo y elija "Guardar opciones".
-option_screen_backadvice,PULSA [<system.button(OpenMenu)>] PARA VOLVER
-option_screen_description,Descripción 
 
 option_screen_game,Juego
 option_screen_game_textspeed,Velocidad del texto
@@ -297,9 +289,9 @@ option_screen_graphics_renderdistance_short,Corta
 option_screen_graphics_renderdistance_normal,Normal
 option_screen_graphics_renderdistance_far,Lejana
 option_screen_graphics_renderdistance_extreme,Extrema
-option_screen_graphics_offset_mapquality,Calidad del mapa de desplazamiento 
+option_screen_graphics_offset_mapquality,Calidad del mapa de desplazamiento
 option_screen_graphics_offset_mapquality_off,Desactivado
-option_screen_graphics_graphics,Gráficos 
+option_screen_graphics_graphics,Gráficos
 option_screen_graphics_graphics_fancy,Fantasía
 option_screen_graphics_graphics_fast,Rápidos
 option_screen_graphics_multisampling,Muestreo múltiple
@@ -341,7 +333,7 @@ option_screen_contentpacks_content,Contenido
 option_screen_contentpacks_description,Descripción
 
 option_screen_resetoptions,Restablecer configuración
-option_screen_save_options,Guardar opciones 
+option_screen_save_options,Guardar opciones
 option_screen_close,Cerrar
 ---
 Pausescreen:
@@ -1893,7 +1885,7 @@ item_name_15,Poción Máxima
 item_name_16,Hiperpoción
 item_name_17,Superpoción
 item_name_18,Poción
-item_name_21,Elixir Máximo 
+item_name_21,Elixir Máximo
 item_name_32,Carameloraro
 item_name_38,Curar Todo
 item_name_39,Revivir
@@ -2044,8 +2036,8 @@ item_name_120,Electrizador
 item_name_125,Piedra dura
 item_name_126,Huevo suerte
 item_name_131,Polvoestelar
-item_name_132,Trozo Estrella  
-item_name_138,Carbón 
+item_name_132,Trozo Estrella
+item_name_138,Carbón
 item_name_140,Periscopio
 item_name_141,Protector
 item_name_142,Cola plúmbea
@@ -2062,7 +2054,7 @@ item_name_154,Muda concha
 item_name_155,Polvo Veloz
 item_name_162,Escama marina
 item_name_163,Bola luminosa
-item_name_167,Diente marino 
+item_name_167,Diente marino
 item_name_170,Gen loco
 item_name_171,Lupa
 item_name_172,Mejora
@@ -2793,7 +2785,7 @@ move_name_340,Bote
 move_name_341,Disparo Lodo
 move_name_342,Cola Veneno
 move_name_343,Antojo
-move_name_344,Placaje Eléctrico 
+move_name_344,Placaje Eléctrico
 move_name_345,Hoja Mágica
 move_name_346,Hidrochorro
 move_name_347,Paz Mental
