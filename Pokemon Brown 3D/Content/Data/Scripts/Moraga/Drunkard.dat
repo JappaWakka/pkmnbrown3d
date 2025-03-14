@@ -1,0 +1,22 @@
+version=2
+@NPC.Turn(5,3)
+:if:<Register.Registered(Drunkard_First)>=false
+	@Text.Show(<system.token(Moraga_NationsBurgers_Drunkard_FirstTalk1)>)
+	@Item.Give(gm7,1)
+	@Item.MessageGive(gm7,1)
+	@Text.Show(<system.token(Moraga_NationsBurgers_Drunkard_FirstTalk2)>)
+	@Register.Register(Drunkard_First)
+	:end
+:else
+	:if:<Register.Registered(Drunkard_Second)>=false <and> <player.money>=0 <and> <inventory.countitem(gm7)>=0
+		@Text.Show(<system.token(Moraga_NationsBurgers_Drunkard_SecondTalk_NoMoneyOrBeer)>)
+		@Item.Give(gm7,1)
+		@Item.MessageGive(gm7,1)
+		@Register.Register(Drunkard_Second)
+		:end
+	:else
+		@Text.Show(<system.token(Moraga_NationsBurgers_Drunkard_SecondTalk_HaveMoneyOrBeer)>)
+		:end
+	:endif
+:endif
+:end
