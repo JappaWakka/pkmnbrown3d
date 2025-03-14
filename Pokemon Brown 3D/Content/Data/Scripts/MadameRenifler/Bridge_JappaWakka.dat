@@ -106,7 +106,7 @@ version=2
 				:endif
 				@pokemon.rename(<math.int(<pokemon.count>-1)>)
 				:if:<pokemon.count>>6
-					@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC)>)
+					@Text.Show(<system.token(Generic_PokemonToPC)>)
 					@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 				:endif
 				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes3)>)

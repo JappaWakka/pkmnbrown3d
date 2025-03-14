@@ -292,16 +292,13 @@ option_screen_description,Beschreibung
 
 option_screen_game,Spiel
 option_screen_game_textspeed,Textgeschwindigkeit
-option_screen_game_textspeed_description,Die Geschwindigkeit des Textes,~der im Spiel angezeigt wird.
 option_screen_game_difficulty,Schwierigkeit
-option_screen_game_difficulty_description,Die Schwierigkeit des Spiels kann hier eingestellt werden.
 option_screen_game_difficulty_easy,Einfach
 option_screen_game_difficulty_hard,Schwer
 option_screen_game_difficulty_superhard,Superschwer
 option_screen_game_interfacescale,Interface Scale
 option_screen_game_interfacescale_automatic,Automatic
 option_screen_game_viewbobbing,Kamerabewegung
-option_screen_game_viewbobbing_description,Schaltet Kamerabewegung an oder aus.
 
 option_screen_graphics,Grafiken
 option_screen_graphics_fov,FOV
@@ -3269,6 +3266,10 @@ Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating
 Generic_PC_DexEvaluation_End,Closed link to Prof. Tim's PC.
 Generic_PC_Decoration_Start,How do you want to customize~your room?
 
+Generic_ReceivePokemon,<Player.Name> received~a <pokemon.name(<pokemon.count>-1)>!
+Generic_ReceiveAnPokemon,<Player.Name> received~an <pokemon.name(<pokemon.count>-1)>!
+Generic_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
+
 [Follower Pokémon Interations]
 FollowerInteraction_Music_PlayerRoomMusic1,<name> is moving~around the room.
 FollowerInteraction_Music_PlayerRoomMusic2,<name> is happy to~be home!
@@ -3531,9 +3532,6 @@ Gravel_TimsLab_Choose_Charmander,Tim: So! You want the Fire~Pokémon, Charmander
 Gravel_TimsLab_Choose_Squirtle,Tim: So! You want the Water~Pokémon, Squirtle?
 Gravel_TimsLab_Choose_Bulbasaur,Tim: So! You want the Grass~Pokémon, Bulbasaur?
 Gravel_TimsLab_Choose_Confirm,Tim: Good choice!
-Gravel_TimsLab_Receive_Charmander,<Player.Name> received~a Charmander!
-Gravel_TimsLab_Receive_Squirtle,<Player.Name> received~a Squirtle!
-Gravel_TimsLab_Receive_Bulbasaur,<Player.Name> received~a Bulbasaur!
 Gravel_TimsLab_StarterPokemon_CatchMethod,As a gift from Prof. Tim
 Gravel_TimsLab_StarterPokemon_CatchLocation,at Gravel Town
 Gravel_TimsLab_Tim_LeaveBeforeChoose,Tim: Hey! Don't go away yet!
@@ -3722,8 +3720,6 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*F
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*Grass, Ice, Steel, Poison and~Water.*Offense - Weak towards:*Bug, Electric, Rock and Wind.*Offense - No effect towards:~Fire.*Defense - Strong against:*Bug and Ground.*Defense - Weak against:*Electric, Fire, Fighting and~Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and~Normal.
 Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
-Route55_RainbowTower_Floor4_Room_Porygon_Receive,<Player.Name> got Porygon!
-Route55_RainbowTower_Floor4_Room_Porygon_ToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift
 Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the Rainbow Tower
 Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,I don't need this Pokémon,~so you can have it for free...*No kid, I am not crazy, just~an idiot...
@@ -3825,11 +3821,6 @@ Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me th
 Hayward_FossilLab_FossilReviver_Answer_OldAmber,Well? Hurry up and give~me that!*<Player.Name> handed~over the Old Amber!*Walk around Eagulou and come~back, then I can finish!
 Hayward_FossilLab_FossilReviver_NoSand,Don't put sand in your bag!~Just walk around Eagulou!*What gets stuck in your~clothes will be enough!
 Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~Enjoy your new Pokemon!
-Hayward_FossilLab_GotOmanyte,<Player.Name> got Omanyte!
-Hayward_FossilLab_GotKabuto,<Player.Name> got Kabuto!
-Hayward_FossilLab_GotCranidos,<Player.Name> got Cranidos!
-Hayward_FossilLab_GotAerodactyl,<Player.Name> got Aerodactyl!
-Hayward_FossilLab_FossilPokemon_ToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist
 Hayward_FossilLab_FossilPokemon_CatchLocation,in the Hayward Fossil Lab
 
@@ -4227,14 +4218,18 @@ Moraga_NationsBurgers_FatGuy,Munch...*Ouch, heartburn!
 Moraga_NationsBurgers_Hiker,A similar restaurant in~Kanto serves way better!
 Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking,Hey kid, want to win cool~prizes?*I just came from the Game~Corner in Owsauri City!*I'm stinkin' rich, so I just~buy coins. Here!
 Moraga_NationsBurgers_CoinCaseGuy_AfterTalking,Ha ha!*Have fun at the Casino, kid!
+Moraga_NationsBurgers_Drunkard_FirstTalk1,Hey kid... (hic)...~have you ever tried this (hic)?*<Player.Name>: Erm... No?*Drunkard: Don't...(hic) worry,~as you can... (hic) see,~it's harmless!
+Moraga_NationsBurgers_Drunkard_FirstTalk2,<Player.Name>: If you say so...
+Moraga_NationsBurgers_Drunkard_SecondTalk_HaveMoneyOrBeer,It tastes...(hic) great, right?*If you want...(hic) more,~there's a vending...(hic)~machine at Southland Mall's...~(hic) roof, no vigilance!
+Moraga_NationsBurgers_Drunkard_SecondTalk_NoMoneyOrBeer,What, you want... (hic) another~one?*You are out of... (hic) cash?~Okay, but only... (hic) this once...~Don't tell... (hic) anyone!
 
 Moraga_HighSchoolAcademy_Blackboard_Intro,The blackboard describes~Pokémon Status changes~during battles.
 Moraga_HighSchoolAcademy_Blackboard_Question,Which heading do you want~to read?
 Moraga_HighSchoolAcademy_Blackboard_Sleep,A Pokémon can't attack if~it's asleep!*Pokémon will stay asleep even~after battles!*Use Awakening to wake them~up!
-Moraga_HighSchoolAcademy_Blackboard_Burn,A burn reduces power and~speed. It also causes~ongoing damage.*Burns remain after battles.*Use Burn Heal to cure a~burn!
+Moraga_HighSchoolAcademy_Blackboard_Burn,A burn reduces power.~It also causes ongoing damage.*Burns remain after battles.*Use Burn Heal to cure a~burn!
 Moraga_HighSchoolAcademy_Blackboard_Poison,When poisoned, a Pokémon's~health steadily drops.*Poison lingers after battles.*Use an Antidote to cure~poison!
 Moraga_HighSchoolAcademy_Blackboard_Freeze,If frozen, a Pokémon becomes~totally immobile!*It stays frozen even~after the battle ends.*Use Ice Heal to thaw~out Pokémon!
-Moraga_HighSchoolAcademy_Blackboard_Paralysis,Paralysis could make~Pokémon moves misfire!*Paralysis remains after battles.*Use Paralyze Heal for~treatment!
+Moraga_HighSchoolAcademy_Blackboard_Paralysis,Paralysis could make~Pokémon moves misfire and~reduces speed!*Paralysis remains after battles.*Use Paralyze Heal for~treatment!
 Moraga_HighSchoolAcademy_Teacher,Detention!*For... uh...*Breathing!
 Moraga_HighSchoolAcademy_Student,I am a material girl!*Yeah!
 Moraga_HighSchoolAcademy_Notebook_Page1,Looked at the notebook!*First page...*Poké Balls are used to~catch Pokémon. Up to 6~Pokémon can be carried.~People who raise and make~Pokémon fight are called~Pokémon Trainers.*Turn the page?
@@ -4247,20 +4242,12 @@ Moraga_PrismMuseum_Owner_PrismKeyHint,This is the Prism Museum.*Bring me a Prism
 Moraga_PrismMuseum_Owner_HavePrismKey,That is the Prism Key!*You are worthy, you may pass.*Legend says there are six~hidden eggs in Rijon.*It is my dream to collect 'em~all. Bring them to me and I'll give you splendid rewards!
 Morage_PrismMuseum_GoldEgg_Hint,We have escaped the dungeon!
 Morage_PrismMuseum_GoldEgg_Found,The Gold Egg!
-Morage_PrismMuseum_GoldEgg_ReceivedHoOh,<Player.Name> received a~Ho-oh!
-Morage_PrismMuseum_GoldEgg_ReceivedLugia,<Player.Name> received a~Lugia!
 Morage_PrismMuseum_SilverEgg_Hint,What is this sticky film on~the mountain?
 Morage_PrismMuseum_SilverEgg_Found,The Silver Egg!
-Morage_PrismMuseum_SilverEgg_ReceivedZapdos,<Player.Name> received a~Zapdos!
-Morage_PrismMuseum_SilverEgg_ReceivedRaikou,<Player.Name> received a~Raikou!
 Morage_PrismMuseum_CrystalEgg_Hint,There are no Spinarak in this~cave!
 Morage_PrismMuseum_CrystalEgg_Found,The Crystal Egg!
-Morage_PrismMuseum_CrystalEgg_ReceivedArticuno,<Player.Name> received a~Articuno!
-Morage_PrismMuseum_CrystalEgg_ReceivedSuicune,<Player.Name> received a~Suicune!
 Morage_PrismMuseum_RubyEgg_Hint,I hope my game doesn't get~deleted.
 Morage_PrismMuseum_RubyEgg_Found,The Ruby Egg!
-Morage_PrismMuseum_RubyEgg_ReceivedMoltres,<Player.Name> received a~Moltres!
-Morage_PrismMuseum_RubyEgg_ReceivedEntei,<Player.Name> received a~Entei!
 Morage_PrismMuseum_SapphireEgg_Hint,A small token on the road to~victory.
 Morage_PrismMuseum_SapphireEgg_Found,The Sapphire Egg!
 Morage_PrismMuseum_SapphireEgg_ReceivedMasterBall,It's a Master Ball!
@@ -4268,7 +4255,6 @@ Morage_PrismMuseum_EmeraldEgg_Hint,Pack your bug spray.
 Morage_PrismMuseum_EmeraldEgg_Found,The Emerald Egg!
 Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves,50 Gold Leaves!
 Morage_PrismMuseum_Egg_Reward,Amazing! Here is your reward!
-Morage_PrismMuseum_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 Morage_PrismMuseum_CatchMethod,Received as a reward
 Morage_PrismMuseum_CatchLocation,at the Prism Museum
 
@@ -5124,8 +5110,6 @@ Route67_PokeCenter_RedditGuy,I'm checking Reddit for~Pokémon Prism updates!
 Route67_PokeCenter_KangaskhanGuy_Question,Yo!*I have Kangaskhan, a Pokémon~that doesn't appear in Rijon!*It'll cost you a pretty~penny - $60000!*Want it?
 Route67_PokeCenter_KangaskhanGuy_Decline,No swaggy swag for you then.
 Route67_PokeCenter_KangaskhanGuy_NotEnoughMoney,Hey!*No dough, no...*uh...*Pokémon.
-Route67_PokeCenter_KangaskhanGuy_ReceivedKangaskhan,<Player.Name> received a~Kangaskhan!
-Route67_PokeCenter_KangaskhanGuy_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<math.int(<pokemon.count>-1)>)> was transfered~to the PC.
 Route67_PokeCenter_KangaskhanGuy_AfterSelling,Everyday I'm hustlin...*Oh no, did you hear me?!
 Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone
 Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,at Route 67
@@ -5342,9 +5326,6 @@ Azalea_Gym_LeaderBugsy_Rematch_Reward2,Bugsy: This amazing tool will~make your P
 Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Well, I guess I have~more learning to do. But~that's nothing new! Bug-type~Pokémon are my favorite, but~every Pokémon has so many~mysteries for us to uncover in~the future!
 Azalea_Gym_Choose_Gligar,You want the Gligar?
 Azalea_Gym_Choose_Sneasel,You want the Sneasel?
-Azalea_Gym_Receive_Gligar,<Player.Name> received~a Gligar!
-Azalea_Gym_Receive_Sneasel,<Player.Name> received~a Sneasel!
-Azalea_Gym_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 Azalea_Gym_PokeballAfterChoose,Better not get greedy...
 
 [Final Dungeon]
@@ -5512,9 +5493,6 @@ FinalDungeon_SmallRoom3_FishermanAstor_OutroMessage,I'm all out!
 FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,I get paid to just sit here.
 
 FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,What have I done?*I trapped such a graceful~Pokémon!*Please take this far far away~and let it live in peace.
-FinalDungeon_JohtoLegendaryRoom_Rocket_ReceivedHoOh,<Player.Name> received~Ho-oh!
-FinalDungeon_JohtoLegendaryRoom_Rocket_ReceivedLugia,<Player.Name> received~Lugia!
-FinalDungeon_JohtoLegendaryRoom_Rocket_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Received from a Rocket Grunt
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,in the Final Dungeon
 FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Now just look at that, this~doesn't deserve to be trapped~here! It's a shame those~Master Balls can be abused~this much...

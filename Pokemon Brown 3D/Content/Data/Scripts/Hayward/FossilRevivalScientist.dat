@@ -5,29 +5,25 @@ version=2
 	:if:<Register.Registered(EagulouSand_Found)>=true
 		@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_HaveSand)>)
 		:if:<Register.Registered(FossilRevive_Helix)>=true
-			@Text.Show(<system.token(Hayward_FossilLab_GotOmanyte)>)
-			
 			@Pokemon.Add(138,30,<system.token(Hayward_FossilLab_FossilPokemon_CatchMethod)>,5,<system.token(Hayward_FossilLab_FossilPokemon_CatchLocation)>)
+			@Text.Show(<system.token(Generic_ReceiveAnPokemon)>)
 		:endif
 		:if:<Register.Registered(FossilRevive_Dome)>=true
-			@Text.Show(<system.token(Hayward_FossilLab_GotKabuto)>)
-			
 			@Pokemon.Add(140,30,<system.token(Hayward_FossilLab_FossilPokemon_CatchMethod)>,5,<system.token(Hayward_FossilLab_FossilPokemon_CatchLocation)>)
+			@Text.Show(<system.token(Generic_ReceivePokemon)>)
 		:endif
 		:if:<Register.Registered(FossilRevive_Skull)>=true
-			@Text.Show(<system.token(Hayward_FossilLab_GotCranidos)>)
-			
 			@Pokemon.Add(408,30,<system.token(Hayward_FossilLab_FossilPokemon_CatchMethod)>,5,<system.token(Hayward_FossilLab_FossilPokemon_CatchLocation)>)
+			@Text.Show(<system.token(Generic_ReceivePokemon)>)
 		:endif
 		:if:<Register.Registered(FossilRevive_OldAmber)>=true
-			@Text.Show(<system.token(Hayward_FossilLab_GotAerodactyl)>)
-			
 			@Pokemon.Add(142,30,<system.token(Hayward_FossilLab_FossilPokemon_CatchMethod)>,5,<system.token(Hayward_FossilLab_FossilPokemon_CatchLocation)>)
+			@Text.Show(<system.token(Generic_ReceiveAnPokemon)>)
 		:endif
 		
 		@Pokemon.Rename(<math.int(<pokemon.count>-1)>)
 		:if:<pokemon.count>>6
-			@Text.Show(<system.token(Hayward_FossilLab_FossilPokemon_ToPC)>)
+			@Text.Show(<system.token(Generic_PokemonToPC)>)
 			@Pokemon.SendToStorage(<math.int(<pokemon.count>-1)>)
 		:endif
 		@Register.Unregister(EagulouSand_Found)

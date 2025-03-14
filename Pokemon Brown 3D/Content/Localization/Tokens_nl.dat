@@ -290,16 +290,13 @@ option_screen_description,Description
 
 option_screen_game,Spel
 option_screen_game_textspeed,Tekstsnelheid
-option_screen_game_textspeed_description,The speed the textbox shows up and~displays the text
 option_screen_game_difficulty,Moeilijkheidsgraad
-option_screen_game_difficulty_description,Difficulty mode~Sets the level of difficulty.
 option_screen_game_difficulty_easy,Normaal
 option_screen_game_difficulty_hard,Moeilijk
 option_screen_game_difficulty_superhard,Nuzlocke
 option_screen_game_interfacescale,Interface-schaal
 option_screen_game_interfacescale_automatic,Automatisch
 option_screen_game_viewbobbing,Loopbeweging
-option_screen_game_viewbobbing_description,Turns camera shaking on or off.
 
 option_screen_graphics,Beeld
 option_screen_graphics_fov,Gezichtsveld
@@ -388,7 +385,7 @@ inventory_screen_ItemSubtitle_Plant,Plant
 inventory_screen_ItemSubtitle_BattleItem,Voorwerp voor Gevecht
 inventory_screen_ItemNotUsableInBattle,Dit voorwerp kan niet tijdens~een gevecht gebruikt worden.
 inventory_screen_TossConfirmation,Weet je zeker dat je dit~voorwerp wilt weggooien?
-inventory_screen_TossAmount,Selecteer aantal om weg te gooien.
+inventory_screen_TossAmount,Selecteer aantal om weg te~gooien.
 inventory_screen_GiveItem_Give,Gaf <name> een <newitem>.
 inventory_screen_GiveItem_Switch,Wisselde <name>'s <olditem> met een <newitem>.
 inventory_screen_GiveItem_TakeMail,Gaf een <newitem> aan <name> en bracht de Brief naar de PC.
@@ -4127,6 +4124,10 @@ Generic_PC_DexEvaluation_Start,Toegang tot Prof. Tim's PC.*Toegang tot Pokédex-
 Generic_PC_DexEvaluation_End,Verbinding naar Prof. Tim's PC gesloten.
 Generic_PC_Decoration_Start,Hoe wil je je kamer inrichten?
 
+Generic_ReceivePokemon,<Player.Name> ontving een~<pokemon.name(<pokemon.count>-1)>!
+Generic_ReceiveAnPokemon,<Player.Name> ontving een~<pokemon.name(<pokemon.count>-1)>!
+Generic_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
+
 [Follower Pokémon Interations]
 
 FollowerInteraction_Music_PlayerRoomMusic1,<name> beweegt~rond in de kamer.
@@ -4390,9 +4391,6 @@ Gravel_TimsLab_Choose_Charmander,Tim: Zo! Dus jij wilt de Vuur-~Pokémon, Charma
 Gravel_TimsLab_Choose_Squirtle,Tim: Zo! Dus jij wilt de~Water-Pokémon, Squirtle?
 Gravel_TimsLab_Choose_Bulbasaur,Tim: Zo! Dus jij wilt de Gras-~Pokémon, Bulbasaur?
 Gravel_TimsLab_Choose_Confirm,Tim: Goede keuze!
-Gravel_TimsLab_Receive_Charmander,<Player.Name> ontving een~Charmander!
-Gravel_TimsLab_Receive_Squirtle,<Player.Name> ontving een~Squirtle!
-Gravel_TimsLab_Receive_Bulbasaur,<Player.Name> ontving een~Bulbasaur!
 Gravel_TimsLab_StarterPokemon_CatchMethod,Als cadeau van Prof. Tim
 Gravel_TimsLab_StarterPokemon_CatchLocation,in Gravel Town
 Gravel_TimsLab_Tim_LeaveBeforeChoose,Tim: Hé! Ga nog niet weg!
@@ -4581,8 +4579,6 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Aanval - Sterk tegen:*Fee, 
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Aanval - Sterk tegen:*Gras, IJs, Staal, Gif en~Water.*Aanval - Zwak tegen:*Insect, Electrisch, Rots en~Wind.*Aanval - Geen effect tegen:~Vuur.*Verdediging - Sterk tegen:*Insect en Grond.*Verdediging - Zwak tegen:*Electrisch, Vuur, Vecht en~Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Aanval - Sterk tegen:*Psychisch, Abnormaal, Insect,~Duister en Staal.*Aanval - Zwak tegen:*Vlieg, Normaal en Geluid.*Verdediging - Sterk tegen:~Duister en Staal.*Verdediging - Zwak tegen:*Abnormaal, Psychisch, Vlieg~en Normaal.
 Route55_RainbowTower_Floor4_Room_Pamphlet,Het is een pamflet over TM's~en VM's.*...*Er zijn momenteel in totaal~51 TM's en 4 VM's beschikbaar.*TM's zijn voor eenmalig~gebruik, terwijl VM's~herhaaldelijk kunnen~worden gebruikt.*Technieken die door VM's~worden geleerd, kunnen~ook buiten gevechten~worden gebruikt.*Pokémon hebben moeite om~VM-moves te vergeten, dus~daarmee zouden ze hulp~nodig hebben van een~techniek-wisser.*Silph Co.
-Route55_RainbowTower_Floor4_Room_Porygon_Receive,<Player.Name> ontving~Porygon!
-Route55_RainbowTower_Floor4_Room_Porygon_ToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,Als een gift
 Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in de Regenboogtoren
 Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,Ik heb deze Pokémon niet~nodig, dus je mag hem~gratis hebben...*Nee kind, ik ben niet gek,~gewoon een idioot...
@@ -4684,10 +4680,6 @@ Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Nou? Schiet op en geef het~aa
 Hayward_FossilLab_FossilReviver_Answer_OldAmber,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Oud Amber!*Loop rond in Eagulou en~kom weer terug, dan kan~ik het afmaken!
 Hayward_FossilLab_FossilReviver_NoSand,Stop geen zand in je tas!~Loop gewoon rond in Eagulou!*Wat er in je kleren blijft~zitten is genoeg!
 Hayward_FossilLab_FossilReviver_HaveSand,Bedankt voor het Eagulou-zand!*...*Klaar!~Veel plezier met je nieuwe~Pokemon!
-Hayward_FossilLab_GotOmanyte,<Player.Name> ontving~Omanyte!
-Hayward_FossilLab_GotKabuto,<Player.Name> ontving~Kabuto!
-Hayward_FossilLab_GotCranidos,<Player.Name> ontving~Cranidos!
-Hayward_FossilLab_GotAerodactyl,<Player.Name> ontving~Aerodactyl!
 Hayward_FossilLab_FossilPokemon_ToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 Hayward_FossilLab_FossilPokemon_CatchMethod,Tot leven gewekt
 Hayward_FossilLab_FossilPokemon_CatchLocation,in het Hayward Fossielen-Lab
@@ -5086,6 +5078,10 @@ Moraga_NationsBurgers_FatGuy,Munch...*Ouch, heartburn!
 Moraga_NationsBurgers_Hiker,A similar restaurant in~Kanto serves way better!
 Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking,Hey kid, want to win cool~prizes?*I just came from the Game~Corner in Owsauri City!*I'm stinkin' rich, so I just~buy coins. Here!
 Moraga_NationsBurgers_CoinCaseGuy_AfterTalking,Ha ha!*Have fun at the Casino, kid!
+Moraga_NationsBurgers_Drunkard_FirstTalk1,Hey kid... (hic)...~have you ever tried this (hic)?*<Player.Name>: Erm... No?*Drunkard: Don't...(hic) worry,~as you can... (hic) see,~it's harmless!
+Moraga_NationsBurgers_Drunkard_FirstTalk2,<Player.Name>: If you say so...
+Moraga_NationsBurgers_Drunkard_SecondTalk_HaveMoneyOrBeer,It tastes...(hic) great, right?*If you want...(hic) more,~there's a vending...(hic)~machine at Southland Mall's...~(hic) roof, no vigilance!
+Moraga_NationsBurgers_Drunkard_SecondTalk_NoMoneyOrBeer,What, you want... (hic) another~one?*You are out of... (hic) cash?~Okay, but only... (hic) this once...~Don't tell... (hic) anyone!
 
 Moraga_HighSchoolAcademy_Blackboard_Intro,The blackboard describes~Pokémon Status changes~during battles.
 Moraga_HighSchoolAcademy_Blackboard_Question,Which heading do you want~to read?
@@ -5106,20 +5102,12 @@ Moraga_PrismMuseum_Owner_PrismKeyHint,This is the Prism Museum.*Bring me a Prism
 Moraga_PrismMuseum_Owner_HavePrismKey,That is the Prism Key!*You are worthy, you may pass.*Legend says there are six~hidden eggs in Rijon.*It is my dream to collect 'em~all. Bring them to me and I'll give you splendid rewards!
 Morage_PrismMuseum_GoldEgg_Hint,We have escaped the dungeon!
 Morage_PrismMuseum_GoldEgg_Found,The Gold Egg!
-Morage_PrismMuseum_GoldEgg_ReceivedHoOh,<Player.Name> received a~Ho-oh!
-Morage_PrismMuseum_GoldEgg_ReceivedLugia,<Player.Name> received a~Lugia!
 Morage_PrismMuseum_SilverEgg_Hint,What is this sticky film on~the mountain?
 Morage_PrismMuseum_SilverEgg_Found,The Silver Egg!
-Morage_PrismMuseum_SilverEgg_ReceivedZapdos,<Player.Name> received a~Zapdos!
-Morage_PrismMuseum_SilverEgg_ReceivedRaikou,<Player.Name> received a~Raikou!
 Morage_PrismMuseum_CrystalEgg_Hint,There are no Spinarak in this~cave!
 Morage_PrismMuseum_CrystalEgg_Found,The Crystal Egg!
-Morage_PrismMuseum_CrystalEgg_ReceivedArticuno,<Player.Name> received a~Articuno!
-Morage_PrismMuseum_CrystalEgg_ReceivedSuicune,<Player.Name> received a~Suicune!
 Morage_PrismMuseum_RubyEgg_Hint,I hope my game doesn't get~deleted.
 Morage_PrismMuseum_RubyEgg_Found,The Ruby Egg!
-Morage_PrismMuseum_RubyEgg_ReceivedMoltres,<Player.Name> received a~Moltres!
-Morage_PrismMuseum_RubyEgg_ReceivedEntei,<Player.Name> received a~Entei!
 Morage_PrismMuseum_SapphireEgg_Hint,A small token on the road to~victory.
 Morage_PrismMuseum_SapphireEgg_Found,The Sapphire Egg!
 Morage_PrismMuseum_SapphireEgg_ReceivedMasterBall,It's a Master Ball!
@@ -5127,7 +5115,6 @@ Morage_PrismMuseum_EmeraldEgg_Hint,Pack your bug spray.
 Morage_PrismMuseum_EmeraldEgg_Found,The Emerald Egg!
 Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves,50 Gold Leaves!
 Morage_PrismMuseum_Egg_Reward,Amazing! Here is your reward!
-Morage_PrismMuseum_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 Morage_PrismMuseum_CatchMethod,Received as a reward
 Morage_PrismMuseum_CatchLocation,at the Prism Museum
 
@@ -5983,8 +5970,6 @@ Route67_PokeCenter_RedditGuy,I'm checking Reddit for~Pokémon Prism updates!
 Route67_PokeCenter_KangaskhanGuy_Question,Yo!*I have Kangaskhan, a Pokémon~that doesn't appear in Rijon!*It'll cost you a pretty~penny - $60000!*Want it?
 Route67_PokeCenter_KangaskhanGuy_Decline,No swaggy swag for you then.
 Route67_PokeCenter_KangaskhanGuy_NotEnoughMoney,Hey!*No dough, no...*uh...*Pokémon.
-Route67_PokeCenter_KangaskhanGuy_ReceivedKangaskhan,<Player.Name> received a~Kangaskhan!
-Route67_PokeCenter_KangaskhanGuy_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<math.int(<pokemon.count>-1)>)> was transfered~to the PC.
 Route67_PokeCenter_KangaskhanGuy_AfterSelling,Everyday I'm hustlin...*Oh no, did you hear me?!
 Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone
 Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,at Route 67
@@ -6201,9 +6186,6 @@ Azalea_Gym_LeaderBugsy_Rematch_Reward2,Bugsy: This amazing tool will~make your P
 Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Well, I guess I have~more learning to do. But~that's nothing new! Bug-type~Pokémon are my favorite, but~every Pokémon has so many~mysteries for us to uncover in~the future!
 Azalea_Gym_Choose_Gligar,You want the Gligar?
 Azalea_Gym_Choose_Sneasel,You want the Sneasel?
-Azalea_Gym_Receive_Gligar,<Player.Name> ontving~een Gligar!
-Azalea_Gym_Receive_Sneasel,<Player.Name> ontving~een Sneasel!
-Azalea_Gym_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 Azalea_Gym_PokeballAfterChoose,Better not get greedy...
 
 [Final Dungeon]
@@ -6371,9 +6353,6 @@ FinalDungeon_SmallRoom3_FishermanAstor_OutroMessage,I'm all out!
 FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,I get paid to just sit here.
 
 FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,What have I done?*I trapped such a graceful~Pokémon!*Please take this far far away~and let it live in peace.
-FinalDungeon_JohtoLegendaryRoom_Rocket_ReceivedHoOh,<Player.Name> received~Ho-oh!
-FinalDungeon_JohtoLegendaryRoom_Rocket_ReceivedLugia,<Player.Name> received~Lugia!
-FinalDungeon_JohtoLegendaryRoom_Rocket_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Received from a Rocket Grunt
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,in the Final Dungeon
 FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Now just look at that, this~doesn't deserve to be trapped~here! It's a shame those~Master Balls can be abused~this much...

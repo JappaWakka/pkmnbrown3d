@@ -9,10 +9,10 @@ version=2
 			@Register.Register(azalea_gym_pokemongot)
 			@Register.Register(azalea_gym_gligar)
 			@pokemon.add(207,30,<system.token(Azalea_Gym_Pokemon_CatchMethod)>,5,<system.token(Azalea_Gym_Pokemon_CatchLocation)>)
-			@Text.Show(<system.token(Azalea_Gym_Receive_Gligar)>)
+			@Text.Show(<system.token(Generic_ReceivePokemon)>)
 			@pokemon.rename(<math.int(<pokemon.count>-1)>)
 			:if:<pokemon.count>>6
-				@Text.Show(<system.token(Azalea_Gym_PokemonToPC)>)
+				@Text.Show(<system.token(Generic_PokemonToPC)>)
 				@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 			:endif
 		:when:<system.token(global_no)>

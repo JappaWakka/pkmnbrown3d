@@ -9,11 +9,11 @@ version=2
 	@NPC.remove(1)
 	@NPC.register(routes\55\RainbowTower\Floor4_Room.dat|1|remove)
 	@Sound.Play(Success,1)
-	@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Porygon_Receive)>)
 	@Pokemon.Add(137,5,<system.token(Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod)>,5,<system.token(Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+	@Text.Show(<system.token(Generic_ReceivePokemon)>)
 	@pokemon.rename(<math.int(<pokemon.count>-1)>)
 	:if:<pokemon.count>>6
-		@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Porygon_ToPC)>)
+		@Text.Show(<system.token(Generic_PokemonToPC)>)
 		@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 	:endif
 	@Register.Register(porygon)

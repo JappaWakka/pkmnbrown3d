@@ -13,15 +13,15 @@ version=2
 		:endif
 		@Sound.Play(Success,1)
 		:if:<Register.Registered(Suicune)>=true <or> <Register.Registered(ResetSuicune)>=true <or> <Register.Registered(CaughtSuicune)>=true
-			@Text.Show(<system.token(Morage_PrismMuseum_CrystalEgg_ReceivedArticuno)>)
 			@pokemon.add(144,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+			@Text.Show(<system.token(Generic_ReceiveAnPokemon)>)
 		:else
-			@Text.Show(<system.token(Morage_PrismMuseum_CrystalEgg_ReceivedSuicune)>)
 			@pokemon.add(245,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+			@Text.Show(<system.token(Generic_ReceivePokemon)>)
 		:endif
 		@pokemon.rename(<math.int(<pokemon.count>-1)>)
 		:if:<pokemon.count>>6
-			@Text.Show(<system.token(Morage_PrismMuseum_PokemonToPC)>)
+			@Text.Show(<system.token(Generic_PokemonToPC)>)
 			@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 		:endif
 		@Item.ClearItem(gm13)
