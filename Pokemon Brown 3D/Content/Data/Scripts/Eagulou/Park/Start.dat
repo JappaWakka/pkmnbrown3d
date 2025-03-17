@@ -1,80 +1,128 @@
 version=2
 
-:if:<player.position(z)>=4
-	@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Question)>)
-	@options.setcancelindex(1)
-	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
-		:when:<system.token(global_yes)>
-			@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Answer_Yes)>)
-			:end
-		:when:<system.token(global_no)>
-			@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Answer_No)>)
-			:end
-		:endwhen
-	:end
-:else
-	@player.turnto(3)
-	:if:<player.position(x)>=3
-		@player.move(1)
+:if:<Register.Registered(ShortcutDuringParkRun)>=true <or> <Register.Registered(EnterParkIllegally)>=true
+	
+	:if:<player.position(z)>=2
+		
+		:if:<camera.thirdperson>=true
+			@camera.setfocus(npc,0)
+			@Sound.Play(Emote_Exclamation)
+			@Entity.ShowMessageBulb(1|6|0.855|2)
+			@camera.resetfocus
+		:else
+			@Camera.ActivateThirdPerson
+			@camera.setfocus(npc,0)
+			@Sound.Play(Emote_Exclamation)
+			@Entity.ShowMessageBulb(1|6|0.855|2)
+			@camera.resetfocus
+			@Camera.DeactivateThirdPerson
+		:endif
+		@Player.TurnTo(3)
+	:else
+		:if:<camera.thirdperson>=true
+			@camera.setfocus(npc,1)
+			@Sound.Play(Emote_Exclamation)
+			@Entity.ShowMessageBulb(1|1|0.855|4)
+			@camera.resetfocus
+		:else
+			@Camera.ActivateThirdPerson
+			@camera.setfocus(npc,0)
+			@Sound.Play(Emote_Exclamation)
+			@Entity.ShowMessageBulb(1|1|0.855|4)
+			@camera.resetfocus
+			@Camera.DeactivateThirdPerson
+		:endif
+		@Player.TurnTo(1)
 	:endif
-	:if:<script.delay(ParkSteps,value)>>0 <or> <script.delay(ParkBalls,value)>>0
-		@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Question)>)
+	
+	:if:<Register.Registered(ShortcutDuringParkRun)>=true
+		@Text.Show(<system.token(Eagulou_Park_Gate_BothClerks_LostTrack)>)
+	:else
+		@Text.Show(<system.token(Eagulou_Park_Gate_BothClerks_IllegalEnter)>)
+	:endif
+	@Item.ClearItem(181)
+	:if:<player.position(z)>=2
+		@Player.TurnTo(2)
+		@Player.Move(1)
+	:endif
+	:end
+	
+:else
+	:if:<player.position(z)>=4 <and> <player.facing>=1
+		@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Question)>)
 		@options.setcancelindex(1)
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 			:when:<system.token(global_yes)>
-				@script.cleardelay(ParkSteps)
-				@script.cleardelay(ParkBalls)
-				:if:<inventory.countitem(181)>>0
-					@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Answer_Yes)>)
-					@item.remove(181,<inventory.countitem(181)>)
-				:endif
-				@text.show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_ComeAgain)>)
-				@player.turnto(2)
-				@player.move(1)
+				@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Answer_Yes)>)
 				:end
 			:when:<system.token(global_no)>
-				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Answer_No)>)
-				@player.turnto(0)
-				@player.move(2)
-				@player.warp(Eagulou\Park\Area1.dat,3,0.1,25,0)
+				@Text.Show(<system.token(Eagulou_Park_Gate_InfoClerk_Answer_No)>)
 				:end
 			:endwhen
+		:end
 	:else
-		@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Question)>)
-		@options.setcancelindex(1)
-		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
-			:when:<system.token(global_yes)>
-				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney1)>)
-				:if:<player.money>>499
-					@player.money(-500)
-					@sound.play(buy)
-				:else
-					@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_NotEnoughMoney)>)
-					@player.turnto(1)
+		@Player.TurnTo(3)
+		:if:<player.position(x)>=3
+			@player.move(1)
+		:endif
+		:if:<script.delay(ParkSteps,value)>>0 <or> <script.delay(ParkBalls,value)>>0
+			@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Question)>)
+			@options.setcancelindex(1)
+			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@script.cleardelay(ParkSteps)
+					@script.cleardelay(ParkBalls)
+					:if:<inventory.countitem(181)>>0
+						@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Answer_Yes)>)
+						@item.remove(181,<inventory.countitem(181)>)
+					:endif
+					@text.show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_ComeAgain)>)
+					@player.turnto(2)
 					@player.move(1)
 					:end
-				:endif
-				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney2)>)
-				@Item.Give(181,30)
-				@Item.MessageGive(181,30)
-				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney3)>)
-				@player.turnto(0)
-				@player.move(2)
-				@player.warp(Eagulou\Park\Area1.dat,3,0.1,25,0)
-				@script.delay(ParkSteps,Eagulou\Park\EndOfRunScript,steps,650,1)
-				@script.delay(ParkBalls,Eagulou\Park\EndOfRunScript,itemcount,181,equal,0)
-				
-				:if:<Register.Registered(DecorationItem_PottedPlant)>=false
-					@text.notification(<system.token(DecorationItem_Received_PottedPlant)>,800,1,1,,,0,0)
-					@Register.Register(DecorationItem_PottedPlant)
-				:endif
-			:when:<system.token(global_no)>
-				@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_No)>)
-				@player.turnto(2)
-				@player.move(1)
-				:end
-			:endwhen
+				:when:<system.token(global_no)>
+					@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Exit_Answer_No)>)
+					@player.turnto(0)
+					@player.move(2)
+					@player.warp(Eagulou\Park\Area1.dat,3,0.1,25,0)
+					:end
+				:endwhen
+		:else
+			@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Question)>)
+			@options.setcancelindex(1)
+			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney1)>)
+					:if:<player.money>>499
+						@player.money(-500)
+						@sound.play(buy)
+					:else
+						@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_NotEnoughMoney)>)
+						@player.turnto(1)
+						@player.move(1)
+						:end
+					:endif
+					@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney2)>)
+					@Item.Give(181,30)
+					@Item.MessageGive(181,30)
+					@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney3)>)
+					@player.turnto(0)
+					@player.move(2)
+					@player.warp(Eagulou\Park\Area1.dat,3,0.1,25,0)
+					@script.delay(ParkSteps,Eagulou\Park\EndOfRunScript,steps,650,1)
+					@script.delay(ParkBalls,Eagulou\Park\EndOfRunScript,itemcount,181,equal,0)
+					
+					:if:<Register.Registered(DecorationItem_PottedPlant)>=false
+						@text.notification(<system.token(DecorationItem_Received_PottedPlant)>,800,1,1,,,0,0)
+						@Register.Register(DecorationItem_PottedPlant)
+					:endif
+				:when:<system.token(global_no)>
+					@Text.Show(<system.token(Eagulou_Park_Gate_EntranceClerk_Enter_Answer_No)>)
+					@player.turnto(2)
+					@player.move(1)
+					:end
+				:endwhen
+		:endif
 	:endif
 :endif
-
 :end

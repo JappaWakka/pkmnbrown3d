@@ -1,0 +1,6 @@
+version=2
+:if:<Register.Registered(EnterParkIllegally)>=false <and> <Register.Registered(ShortcutDuringParkRun)>=false
+	@Entity.Remove(2)
+	@Level.Update
+:endif
+:end

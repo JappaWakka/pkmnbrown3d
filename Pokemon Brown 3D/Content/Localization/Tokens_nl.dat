@@ -122,7 +122,7 @@ Summary Screen:
 summary_hint_ViewMoves,Technieken: [<system.button(movebackward)>] / Omlaag
 summary_hint_ViewInfo,Informatie: [<system.button(moveforward)>] / Omhoog
 summary_EVsIVs,MWs / IWs
-summary_ExpToNextLv,Naar volgende Nv.
+summary_ExpToNextLv,Tot Nv. Hoger
 summary_TheEggWatch,De Eierwacht
 summary_EggHatch_LongTime,Het lijkt erop dat het lang zal duren voordat dit Ei uitkomt.
 summary_EggHatch_MediumTime,Het wordt warmer en beweegt een beetje. Het zal binnenkort uitkomen.
@@ -5843,6 +5843,8 @@ Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney2,We only use a spec
 Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney3,We'll call you over the~speakers when you run out of~steps or Safari Balls.
 Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_NotEnoughMoney,Sorry! You don't have enough~money.
 Eagulou_Park_Gate_EntranceClerk_Enter_Answer_No,OK. Please come again!
+Eagulou_Park_Gate_BothClerks_LostTrack,We lost track of you and~couldn't find you anywhere!*You have to abide by the~rules, don't do it again!
+Eagulou_Park_Gate_BothClerks_IllegalEnter,Hey!*Where did you sneak in from?!*You have to pay the fee to~capture inside the Park!*Don't do it again!
 
 Eagulou_Park_Area1_House_GirlfriendSara,Sara: Where did my boyfriend,~Erik, go?
 Eagulou_Park_Area1_House_GiftScientist,I'm catching Pokémon to take~home as gifts!
@@ -5869,12 +5871,18 @@ Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_OutroMessage,I don't believe it!
 Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_DefeatMessage,Strange sounds are coming from~the basement!*Scary!
 
 Eagulou_Park_SecretCave_B2F_Mewtwo,Mewtwo!
+Eagulou_Park_SecretCave_B2F_Switch_Question,There's a switch on the wall!~Should I press it?
+Eagulou_Park_SecretCave_B2F_Switch_Answer_Yes,<Player.Name>: What was that?
+Eagulou_Park_SecretCave_B2F_Switch_Answer_No,<Player.Name>: Who knows what~might happen, better safe~than sorry.
 
 [Mt. Boulder]
 MtBoulder_B1F_Sign_Ruins,Mt. Boulder Ruins
 MtBoulder_B1F_Sign_EvolveEevee,Wow!*You made it!*Congratulations, try evolving an Eevee in this freezing cave!
 MtBoulder_B1F_Articuno_Cry,Gyaao!
 MtBoulder_B1F_Suicune_Cry,Rrroar!
+MtBoulder_EndParkRun1,<Player.Name>: Since I sneaked~out of the Park, I guess these~are mine now.
+MtBoulder_EndParkRun2_OneBall,<Player.Name> "obtained" a Park Ball!
+MtBoulder_EndParkRun2_MoreThanOneBall,<Player.Name> "obtained" Park Balls!
 
 [Bunker]
 Bunker_CanPiles,Countless cans of Ho-O's are~stacked on top of each other.

@@ -3,7 +3,7 @@ version=2
 @options.show(<system.token(Generic_PokeMart_Store)>,<system.token(Generic_PokeMart_Quit)>)
 	:when:<system.token(Generic_PokeMart_Store)>
 		@Text.Show(<system.token(Azalea_Main_Clerk_Store)>)
-		@screen.Trade({5|-1|-1}{4|-1|-1}{2|-1|-1}{38|-1|-1}{13|-1|-1}{10|-1|-1}{11|-1|-1}{37|-1|-1}{8|-1|-1}{gm1|-1|-1}{gm79|-1|-1},True,True)
+		@screen.Trade({5|-1|-1}{4|-1|-1}{2|-1|-1}{38|-1|-1}{13|-1|-1}{10|-1|-1}{11|-1|-1}{37|-1|-1}{8|-1|-1}{gm1|-1|-1}{gm79|-1|-1}{181|0|2},True,True)
 		@Text.Show(<system.token(Azalea_Main_Clerk_Quit)>)
 	:when:<system.token(Generic_PokeMart_Quit)>
 		@Text.Show(<system.token(Azalea_Main_Clerk_Quit)>)

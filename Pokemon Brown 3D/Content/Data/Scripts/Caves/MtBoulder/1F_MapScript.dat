@@ -1,0 +1,13 @@
+version=2
+
+:if:<Register.Registered(SecretCaveWarp)>=false
+	:if:<Register.Registered(MtBoulderShortcut)>=true
+		@Entity.Warp(1,~-10,~-4,~+5)
+		@Entity.Warp(2,~+10,~+4,~-5)
+		@Level.Update
+	:endif
+:else
+	@Register.Unregister(SecretCaveWarp)
+:endif
+
+:end

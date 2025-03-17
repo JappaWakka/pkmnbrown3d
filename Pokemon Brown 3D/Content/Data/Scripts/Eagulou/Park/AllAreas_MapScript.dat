@@ -1,0 +1,5 @@
+version=2
+:if:<Register.Registered(EnterParkIllegally)>=true <or> <Register.Registered(ShortcutDuringParkRun)>=true
+	@Level.SetSafari(0)
+:endif
+:end
