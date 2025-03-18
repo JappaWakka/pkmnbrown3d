@@ -26,7 +26,7 @@ version=2
 			@camera.resetfocus
 		:else
 			@Camera.ActivateThirdPerson
-			@camera.setfocus(npc,0)
+			@camera.setfocus(npc,1)
 			@Sound.Play(Emote_Exclamation)
 			@Entity.ShowMessageBulb(1|1|0.855|4)
 			@camera.resetfocus
@@ -37,8 +37,10 @@ version=2
 	
 	:if:<Register.Registered(ShortcutDuringParkRun)>=true
 		@Text.Show(<system.token(Eagulou_Park_Gate_BothClerks_LostTrack)>)
+		@Register.Unregister(ShortcutDuringParkRun)
 	:else
 		@Text.Show(<system.token(Eagulou_Park_Gate_BothClerks_IllegalEnter)>)
+		@Register.Unregister(EnterParkIllegally)
 	:endif
 	@Item.ClearItem(181)
 	:if:<player.position(z)>=2
