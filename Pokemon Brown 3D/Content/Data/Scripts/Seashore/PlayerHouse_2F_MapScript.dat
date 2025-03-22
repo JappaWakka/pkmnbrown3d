@@ -8,6 +8,14 @@ version=2
 		@Register.Register(PokeInteraction_PlayerRoom_DJSet_Text,str,<system.token(FollowerInteraction_Music_PlayerRoomMusic2)>)
 		@Register.Register(PokeInteraction_PlayerRoom_DJSet_Icon,str,friendly)
 	:endif
+:else
+	:if:<system.random(0,1)>=0
+		@Register.Change(PokeInteraction_PlayerRoom_DJSet_Text,<system.token(FollowerInteraction_Music_PlayerRoomMusic1)>)
+		@Register.Change(PokeInteraction_PlayerRoom_DJSet_Icon,...)
+	:else
+		@Register.Change(PokeInteraction_PlayerRoom_DJSet_Text,<system.token(FollowerInteraction_Music_PlayerRoomMusic2)>)
+		@Register.Change(PokeInteraction_PlayerRoom_DJSet_Icon,friendly)		
+	:endif
 :endif
 
 :if:<Register.Registered(DecorationPlaced_SniffCat)>=true
