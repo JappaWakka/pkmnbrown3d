@@ -3959,7 +3959,7 @@ Owsauri_Daycare_DaycareMan_Intro_NoPokemon,I run a Daycare.*Would you like me to
 Owsauri_Daycare_DaycareMan_Intro_1Pokemon_NoLevelUp,Back already?~Your <daycare.pokemonname(0,0)> needs~some more time with me.*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Intro_1Pokemon_HigherLevel,Your <daycare.pokemonname(0,0)> has grown~a lot!*By level, it's grown about <daycare.grownlevels(0,0)>!~Aren't I great?*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Intro_2Pokemon_NoLevelUp,Back already?~Your Pokémon need~some more time with me.*Do you want to take your~Pokémon back?
-Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_0Yes1No,Your <daycare.pokemonname(0,0)> has grown~a lot!*By level, it's grown about <daycare.grownlevels(0,0)>!~Aren't I great?*Do you want to take your~Pokémon back?
+Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_0Yes1No,Your Pokémon have grown~a lot!*By level, <daycare.pokemonname(0,0)>~has grown about <daycare.grownlevels(0,0)>!*Aren't I great?*<daycare.pokemonname(0,1)> needs~some more time with me.*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_0No1Yes,Your Pokémon have grown~a lot!*By level, <daycare.pokemonname(0,1)>~has grown about <daycare.grownlevels(0,1)>!*Aren't I great?*<daycare.pokemonname(0,0)> needs~some more time with me.*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_BothYes,Your Pokémon have grown~a lot!*By level, <daycare.pokemonname(0,0)>~has grown about <daycare.grownlevels(0,0)>!*<daycare.pokemonname(0,1)> has grown~about <daycare.grownlevels(0,1)>!~Aren't I great?*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Question_TakeBack,Which Pokémon do you want to~take back?
@@ -3991,7 +3991,7 @@ Owsauri_Daycare_DaycareMan_NoOrCancel,Alright then, come again.
 Owsauri_Daycare_DaycareMan_Answer_LeavePokemon,Leave Pokémon
 Owsauri_Daycare_DaycareMan_Answer_TakeBack,Take Back
 
-Owsauri_NameRater_Intro,Hello, Hello!~I am the official Name Rater.*Want me to rate the nicknames~of your Pokémon?
+Owsauri_NameRater_Intro,Hello,Hello!~I am the official Name Rater.*Want me to rate the nicknames~of your Pokémon?
 Owsauri_NameRater_RenamePokemon_WhichPokemon,Which Pokémon should I look~at?
 Owsauri_NameRater_RenamePokemon_BetterNickname,<storage.get(string,PokeName)>, is it?~That is a decent nickname!*But, would you like me to~give it a nicer name?*How about it?
 Owsauri_NameRater_RenamePokemon_WhatName,Fine! What should we name it?
