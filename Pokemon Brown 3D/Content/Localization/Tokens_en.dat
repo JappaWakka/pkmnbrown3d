@@ -424,7 +424,7 @@ save_screen_question2,save the game?
 save_screen_progress_validating,Validating data
 save_screen_progress_saving,Saving, please wait
 save_screen_fail_title,Saving failed!
-save_screen_fail_message1,Press Dismiss to close this~screen and try to save again~in order to prevent data~corruption.~~~If the problem persists, the~GameJolt servers could be~down for maintenance right~now.
+save_screen_fail_message1,Press [<system.button(back1)>] to close this~screen and try to save again~in order to prevent data~corruption.~~~If the problem persists, the~GameJolt servers could be~down for maintenance right~now.
 save_screen_fail_message2,Please try again later,~or contact us here:~~Discord Server:~www.discord.me/p3d~~Official News:~pokemon3d.net/blog
 save_screen_success,Saved the game.
 save_screen_press,Press
@@ -433,14 +433,14 @@ save_screen_to_continue,to continue.
 Apricorn Screen:
 apricorn_screen_apricorns,Apricorns
 apricorn_screen_producing,I am producing the Balls at the moment.~Come back later.
-apricorn_screen_backadvice,PRESS E TO GO BACK
+apricorn_screen_backadvice,PRESS [<system.button(OpenMenu)>] TO GO BACK
 apricorn_screen_choose_apricorns,Please choose the Apricorns I should take to produce Poké Balls.
 apricorn_screen_ok,OK
 apricorn_screen_clear,Clear
 apricorn_screen_all,All
 apricorn_screen_take,Take
 apricorn_screen_ready,I am ready producing Poké Balls. Here's the result of my work:
-apricorn_screen_obtain, obtained
+apricorn_screen_obtain,obtained
 ---
 Donation screen:
 donation_screen_donators,Donators
@@ -4492,7 +4492,7 @@ Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_AlreadyKnows,<pokemon.nicknam
 Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Draining Kiss!
 Owsauri_GamblerHouse_Mother_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
 
-Owsauri_GamblerHouse_Father,Yawn. My wife told me to take a break.
+Owsauri_GamblerHouse_Father,Yawn. My wife told me to take~a break.
 
 Owsauri_Casino_1F_Fisherman_1,Gambling is healthy!
 Owsauri_Casino_1F_Fisherman_2,<Player.Name> received 10 coins!

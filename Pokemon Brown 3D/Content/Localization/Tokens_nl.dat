@@ -429,13 +429,13 @@ save_screen_to_continue,om door te gaan.
 Apricorn Screen:
 apricorn_screen_apricorns,Apricorns
 apricorn_screen_producing,Ik ben bezig met het maken van de PokéBallen.~Kom later terug.
-apricorn_screen_backadvice,DRUK OP <system.button(openmenu)> OM TERUG TE GAAN
+apricorn_screen_backadvice,DRUK OP [<system.button(OpenMenu)>] OM TERUG TE GAAN
 apricorn_screen_choose_apricorns,Selecteer de Apricorns waarvan ik PokéBallen moet maken.
 apricorn_screen_ok,Oké
 apricorn_screen_clear,Wis
 apricorn_screen_take,Neem
 apricorn_screen_ready,Ik heb de PokéBallen voor je gemaakt. Hier is het resultaat van mijn werk:
-apricorn_screen_obtain,Ontvangen
+apricorn_screen_obtain,ontving
 ---
 Donation screen:
 donation_screen_donators,Donateurs
@@ -4885,7 +4885,7 @@ Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_AlreadyKnows,<pokemon.nicknam
 Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Draining Kiss!
 Owsauri_GamblerHouse_Mother_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
 
-Owsauri_GamblerHouse_Father,Yawn. My wife told me to take a break.
+Owsauri_GamblerHouse_Father,Yawn. My wife told me to take~a break.
 
 Owsauri_Casino_1F_Fisherman_1,Gambling is healthy!
 Owsauri_Casino_1F_Fisherman_2,<Player.Name> received 10 coins!

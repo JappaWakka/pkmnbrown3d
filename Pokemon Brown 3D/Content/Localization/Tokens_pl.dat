@@ -1,46 +1,46 @@
-language_name,English
+language_name,Polski
 =====
 Global:
-global_please_wait,Please wait
-global_loading,Loading
-global_game,Game
-global_login,Log in
-global_create_account,Create Account
+global_please_wait,Proszę czekać
+global_loading,Ładowanie
+global_game,Gra
+global_login,Zaloguj się
+global_create_account,Załóż Konto
 global_male,Male
 global_female,Female
 global_genderless,Genderless
-global_style a,Style A
-global_style b,Style B
-global_yes,Yes
-global_no,No
-global_accept,Accept
-global_cancel,Cancel
+global_style a,Styl A
+global_style b,Styl B
+global_yes,Tak
+global_no,Nie
+global_accept,Zaakceptuj
+global_cancel,Anuluj
 global_ok,OK
-global_gamemode,GameMode
+global_gamemode,Tryb gry
 global_clear,Clear
-global_save,Save
-global_apply,Apply
-global_close,Close
-global_back,Back
-global_quit,Quit
-global_on,On
-global_off,Off
-global_enabled,Enabled
-global_disabled,Disabled
-global_enable,Enable
-global_disable,Disable
-global_player_name,Player Name
-global_badges,Badges
-global_play_time,Play Time
-global_location,Location
-global_money,Money
-global_points,Points
+global_save,Zapisz
+global_apply,Zastosuj
+global_close,Zamknij
+global_back,Powrót
+global_quit,Wyjdź
+global_on,Włączone
+global_off,Wyłączone
+global_enabled,Włączone
+global_disabled,Wyłączone
+global_enable,Włącz
+global_disable,Wyłącz
+global_player_name,Imię gracza
+global_badges,Odznaki
+global_play_time,Czas Gry
+global_location,Lokalizacja
+global_money,Kasa
+global_points,Punkty
 global_ot,OT
-global_time,Time
+global_time,Czas
 global_name,Name
-global_order,Order
-global_filter,Filter
-global_reset,Reset
+global_order,Kolejność
+global_filter,Filtruj
+global_reset,Zresetuj
 global_pokemon_type_normal,Normal
 global_pokemon_type_fire,Fire
 global_pokemon_type_flying,Flying
@@ -66,17 +66,17 @@ global_pokemon_type_gas,Gas
 global_pokemon_type_wood,Wood
 global_pokemon_type_abnormal,Abnormal
 global_pokemon_type_neutral,Neutral
-global_true,True
-global_false,False
-global_select,Select
-global_summary,Summary
-global_item,Item
-global_use,Use
-global_give,Give
-global_take,Take
-global_toss,Toss
-global_switch,Switch
-global_learn,Learn
+global_true,Prawda
+global_false,Fałsz
+global_select,Wybierz
+global_summary,Podsumowanie
+global_item,Przedmiot
+global_use,Użyj
+global_give,Daj
+global_take,Zabierz
+global_toss,Wyrzuć
+global_switch,Zamień
+global_learn,Naucz
 global_pokemon_move_fly,Fly
 global_pokemon_move_rocksmash,Rock Smash
 global_pokemon_move_ride,Ride
@@ -84,35 +84,35 @@ global_pokemon_move_flash,Flash
 global_pokemon_move_cut,Cut
 global_pokemon_move_teleport,Teleport
 global_pokemon_move_dig,Dig
-global_used,Used
-global_none,None
+global_used,Użyte
+global_none,Nic
 
-global_SLP,SLP
-global_BRN,BRN
-global_PSN,PSN
-global_FRZ,FRZ
+global_SLP,SEN
+global_BRN,PDP
+global_PSN,TRC
+global_FRZ,ZMR
 global_PAR,PAR
 ---
 Pokémon & Attack Properties:
 
-property_HP,HP
-property_PP,PP
-property_No.,No.
-property_Lv.,Lv.
-property_Level,Level
-property_MaxHP,Max HP
-property_Attack,Attack
-property_Defense,Defense
+property_HP,PŻ
+property_PP,PA
+property_No.,Nr
+property_Lv.,Pz.
+property_Level,Poziom
+property_MaxHP,Maksymalne PŻ
+property_Attack,Atak
+property_Defense,Obrona
 property_Special_Attack,Special Attack
 property_Sp_Attack,Sp. Attack
 property_Special_Defense,Special Defense
 property_Sp_Defense,Sp. Defense
 property_Speed,Speed
 property_Ability,Ability
-property_Type,Type
+property_Type,Typ
 property_Nature,Nature
-property_DexNo.,Dex No.
-property_IDNo.,ID No.
+property_DexNo.,Nr Dex
+property_IDNo.,Nr ID
 property_CatchMethod,Catch Method
 property_ExpPoints,Exp. Points
 property_Category,Category
@@ -132,20 +132,20 @@ summary_EggHatch_ShortTime,There is strong movement noticeable. It will hatch so
 ---
 Catch Method & Location:
 
-CatchMethod_Empty,Somehow obtained at
-CatchMethod_Caught,Caught at
-CatchMethod_Obtained,Obtained at
+CatchMethod_Empty,Jakoś otrzymano w:
+CatchMethod_Caught,Złapano w:
+CatchMethod_Obtained,Otrzymano w:
 
-CatchLocation_Empty,an unknown place
+CatchLocation_Empty,nieznanym miejscu
 ---
 Keyboard Keys:
 
-keyboard_key_Up,Up
-keyboard_key_Down,Down
-keyboard_key_Left,Left
-keyboard_key_Right,Right
+keyboard_key_Up,Góra
+keyboard_key_Down,Dół
+keyboard_key_Left,Lewo
+keyboard_key_Right,Prawo
 keyboard_key_Enter,Enter
-keyboard_key_Space,Space
+keyboard_key_Space,Spacja
 keyboard_key_Escape,Escape
 keyboard_key_Back,Backspace
 keyboard_key_Tab,Tab
@@ -154,8 +154,8 @@ keyboard_key_End,End
 keyboard_key_Delete,Delete
 keyboard_key_PageUp,Page Up
 keyboard_key_PageDown,Page Down
-keyboard_key_LeftShift,Left Shift
-keyboard_key_RightShift,Right Shift
+keyboard_key_LeftShift,Lewy Shift
+keyboard_key_RightShift,Prawy Shift
 ---
 FieldMoves:
 
@@ -204,59 +204,59 @@ fieldmove_teleport_used,used~Teleport!
 ---
 GameInteractions:
 game_interaction_interact,Interact
-game_interaction_gamemenu,Game Menu
-game_interaction_pokegear,Pokégear
+game_interaction_gamemenu,Menu Gry
+game_interaction_pokegear,PokéŁącze
 game_interaction_pausemenu,Pause Menu
-game_interaction_accept,Accept
-game_interaction_enter,Enter
-game_interaction_confirm,Confirm
-game_interaction_back,Back
-game_interaction_dismiss,Dismiss
-game_interaction_go_back,Go Back
-game_interaction_close,Close
-game_interaction_edit,Edit
-game_interaction_clear,Clear
-game_interaction_delete,Delete
-game_interaction_learn,Learn
-game_interaction_notification,Notification
-game_notification_accept,Press <system.button(special)> to accept.
-game_notification_dismiss,Press <system.button(special)> to dismiss.
+game_interaction_accept,Zaakceptuj
+game_interaction_enter,Wprowadź
+game_interaction_confirm,Potwierdź
+game_interaction_back,Wróć
+game_interaction_dismiss,Odrzuć
+game_interaction_go_back,Wróć
+game_interaction_close,Zamknij
+game_interaction_edit,Edytuj
+game_interaction_clear,Wyczyść
+game_interaction_delete,Usuń
+game_interaction_learn,Naucz
+game_interaction_notification,Powiadomienie
+game_notification_accept,Wciśnij <system.button(special)>, aby zaakceptować.
+game_notification_dismiss,Wciśnij <system.button(special)>, aby odrzucić.
 ---
 PressStartScreen:
-start_screen_press,Press
-start_screen_tostart,to start.
+start_screen_press,Wciśnij
+start_screen_tostart,, aby zacząć.
 ---
 Main Menu:
-main_menu_newgame_line1,New
-main_menu_newgame_line2,Game
-main_menu_options,Options
+main_menu_newgame_line1,Nowa
+main_menu_newgame_line2,Gra
+main_menu_options,Opcje
 main_menu_gamejolt_ChangeToMale,Change to male
 main_menu_gamejolt_ChangeToFemale,Change to female
 main_menu_gamejolt_ChangeToGenderless,Change to genderless
-main_menu_gamejolt_ResetSave,Reset save
-main_menu_error_gamemode_profile,The required GameMode does not exist!
-main_menu_error_gamemode_message,The required GameMode does not exist.~Reaquire the GameMode to play on this profile.
-main_menu_error_gamejolt_1,Download failed. Press Accept to try again.
-main_menu_error_gamejolt_2,If the problem persists, please try again later
-main_menu_error_gamejolt_3,or contact us in our Discord server:
+main_menu_gamejolt_ResetSave,Resetuj plik zapisu
+main_menu_error_gamemode_profile,Wymagany tryb gry nie istnieje!
+main_menu_error_gamemode_message,Wymagany tryb gry nie istnieje.~Ponownie pobierz tryb gry, aby grać na tym profilu.
+main_menu_error_gamejolt_1,Błąd pobierania. Kliknij Zaakceptuj, aby pobrać ponownie.
+main_menu_error_gamejolt_2,Jeżeli problem dalej występuje, proszę spróbować ponownie później
+main_menu_error_gamejolt_3,lub skontaktować się z nami na naszym serwerze na Discordzie:
 main_menu_error_gamejolt_4,http://www.discord.me/p3d
-main_menu_error_filevalidation,File validation failed!~Redownload the game's files to solve this problem.
-main_menu_options_language,Language
-main_menu_options_audio,Audio
-main_menu_options_controls,Controls
-main_menu_options_contentpacks_line1,Content
-main_menu_options_contentpacks_line2,Packs
+main_menu_error_filevalidation,Błąd podczas walidacji pliku!~Ponownie pobierz pliki gry,~aby rozwiązać ten problem.
+main_menu_options_language,Język
+main_menu_options_audio,Dźwięk
+main_menu_options_controls,Kontrole
+main_menu_options_contentpacks_line1,Paczki
+main_menu_options_contentpacks_line2,Treści
 
 GameModeMenu:
-gamemode_menu_select1,Select a GameMode
-gamemode_menu_select2,to start the new game with.
-gamemode_menu_name,Name
-gamemode_menu_description,Description
-gamemode_menu_version,Version
-gamemode_menu_author,Author
-gamemode_menu_contentpath,ContentPath
-gamemode_menu_create,Create
-gamemode_menu_back,Back
+gamemode_menu_select1,Wybierz tryb gry,
+gamemode_menu_select2,aby zacząć w nim nową grę.
+gamemode_menu_name,Nazwa
+gamemode_menu_description,Opis
+gamemode_menu_version,Wersja
+gamemode_menu_author,Autor
+gamemode_menu_contentpath,Ścieżka do treści
+gamemode_menu_create,Utwórz
+gamemode_menu_back,Wróć
 ---
 JoinServerScreen:
 join_server_screen_title,Join a server:
@@ -281,10 +281,10 @@ join_server_screen_no_connection,(no connection)
 ---
 
 Options Screen:
-option_screen_title,Options
+option_screen_title,Opcje
 
-option_screen_game,Game
-option_screen_game_textspeed,Text Speed
+option_screen_game,Gra
+option_screen_game_textspeed,Szybkość tekstu
 option_screen_game_difficulty,Difficulty
 option_screen_game_difficulty_easy,Normal
 option_screen_game_difficulty_hard,Hard
@@ -309,9 +309,9 @@ option_screen_graphics_graphics_fast,Fast
 option_screen_graphics_multisampling,Multi Sampling
 
 option_screen_battle,Battle
-option_screen_battle_3dmodels,3D Models
-option_screen_battle_animations,Animations
-option_screen_battle_battlestyle,Battle Style
+option_screen_battle_3dmodels,Modele 3D
+option_screen_battle_animations,Animacje
+option_screen_battle_battlestyle,Styl walki
 option_screen_battle_battlestyle_shift,Shift
 option_screen_battle_battlestyle_set,Set
 
@@ -344,27 +344,27 @@ option_screen_contentpacks_by,By
 option_screen_contentpacks_content,Content
 option_screen_contentpacks_description,Description
 
-option_screen_resetoptions,Reset options
-option_screen_save_options,Save options
-option_screen_close,Close
+option_screen_resetoptions,Resetuj opcje
+option_screen_save_options,Zapisz opcje
+option_screen_close,Zamknij
 ---
 Pausescreen:
-pause_menu_title,Game menu
-pause_menu_back_to_game,Back to game
-pause_menu_disconnect,Disconnect
-pause_menu_quit_to_menu,Quit to menu
+pause_menu_title,Menu gry
+pause_menu_back_to_game,Wróć do gry
+pause_menu_disconnect,Rozłącz
+pause_menu_quit_to_menu,Wyjdź do menu
 pause_menu_autosave_fail,Cannot create autosave.
-pause_menu_confirmation,Do you really want to quit? Unsaved progress will be lost.
+pause_menu_confirmation,Czy na pewno chcesz wyjść? Niezapisane postępy zostaną stracone.
 ---
 IngameMenu:
 game_menu_pokedex,Pokédex
-game_menu_party,Pokémon
-game_menu_bag,Bag
+game_menu_party,Pokémony
+game_menu_bag,Plecak
 game_menu_trainer_card,<Player.Name>
-game_menu_save,Save
-game_menu_save_notpossible,Saving is not possible right now.
-game_menu_options,Options
-game_menu_exit,Exit Menu
+game_menu_save,Zapisz
+game_menu_save_notpossible,Teraz nie można zapisać.
+game_menu_options,Opcje
+game_menu_exit,Wyjdź z menu
 game_menu_end_contest,End Contest
 ---
 InventoryScreen:
@@ -424,7 +424,7 @@ save_screen_question2,save the game?
 save_screen_progress_validating,Validating data
 save_screen_progress_saving,Saving, please wait
 save_screen_fail_title,Saving failed!
-save_screen_fail_message1,Press Dismiss to close this~screen and try to save again~in order to prevent data~corruption.~~~If the problem persists, the~GameJolt servers could be~down for maintenance right~now.
+save_screen_fail_message1,Press [<system.button(back1)>] to close this~screen and try to save again~in order to prevent data~corruption.~~~If the problem persists, the~GameJolt servers could be~down for maintenance right~now.
 save_screen_fail_message2,Please try again later,~or contact us here:~~Discord Server:~www.discord.me/p3d~~Official News:~pokemon3d.net/blog
 save_screen_success,Saved the game.
 save_screen_press,Press
@@ -433,14 +433,14 @@ save_screen_to_continue,to continue.
 Apricorn Screen:
 apricorn_screen_apricorns,Apricorns
 apricorn_screen_producing,I am producing the Balls at the moment.~Come back later.
-apricorn_screen_backadvice,PRESS E TO GO BACK
+apricorn_screen_backadvice,PRESS [<system.button(OpenMenu)>] TO GO BACK
 apricorn_screen_choose_apricorns,Please choose the Apricorns I should take to produce Poké Balls.
 apricorn_screen_ok,OK
 apricorn_screen_clear,Clear
 apricorn_screen_all,All
 apricorn_screen_take,Take
 apricorn_screen_ready,I am ready producing Poké Balls. Here's the result of my work:
-apricorn_screen_obtain, obtained
+apricorn_screen_obtain,obtained
 ---
 Donation screen:
 donation_screen_donators,Donators
@@ -478,8 +478,8 @@ VoltorbFlip_MemoButton_Close_Line2,Memos
 
 VoltorbFlip_QuitButton,Quit
 
-VoltorbFlip_QuitQuestion_Question_1,If you quit now, you will~receive
-VoltorbFlip_QuitQuestion_Question_2,Coin(s).*Will you quit?
+VoltorbFlip_QuitQuestion_Question_1,Jeżeli wyjdziesz teraz,~otrzymasz
+VoltorbFlip_QuitQuestion_Question_2,monet(y).*Czy chcesz wyjść?
 
 VoltorbFlip_BeforeNewLevel_Main_Question_1,Play Voltorb Flip Lv.
 VoltorbFlip_BeforeNewLevel_Main_Question_2,?
@@ -588,7 +588,7 @@ battle_ThrowBait,Throw Bait
 battle_Run,Run
 battle_Battle,Battle
 battle_Bag,Bag
-battle_Surrender,Surrender
+battle_Surrender,Poddaj się
 battle_action_MegaEvolve,Mega Evolve!
 ---
 Badges:
@@ -618,102 +618,102 @@ Places:
 Places_???,???
 
 Towns and Cities:
-Places_Seashore City,Seashore City
-Places_Gravel Town,Gravel Town
-Places_Merson City,Merson City
-Places_Hayward City,Hayward City
-Places_Owsauri City,Owsauri City
-Places_Moraga Town,Moraga Town
-Places_Jaeru City,Jaeru City
-Places_Botan City,Botan City
-Places_Castro Valley,Castro Valley
-Places_Eagulou City,Eagulou City
-Places_Azalea Town,Azalea Town
+Places_Seashore City,Seashore
+Places_Gravel Town,Gravel
+Places_Merson City,Merson
+Places_Hayward City,Hayward
+Places_Owsauri City,Owsauri
+Places_Moraga Town,Moraga
+Places_Jaeru City,Jaeru
+Places_Botan City,Botan
+Places_Castro Valley,Castro
+Places_Eagulou City,Eagulou
+Places_Azalea Town,Azalea
 
 Special Places:
-Places_Pokémon Center,Pokémon Center
-Places_Pokémon Center,Pokémon Mart
-Places_Tim's Lab,Tim's Lab
-Places_Pokémon Fan Club,Pokémon Fan Club
-Places_Rainbow Tower,Rainbow Tower
-Places_30 Years Cave,30 Years Cave
+Places_Pokémon Center,Centrum Pokémonów
+Places_Pokémon Center,Pokémarket
+Places_Tim's Lab,Laboratorium Tima
+Places_Pokémon Fan Club,Fanklub Pokémonów
+Places_Rainbow Tower,Tęczowa Wieża
+Places_30 Years Cave,Jaskinia 30 Lat
 Places_Southland Mall,Southland Mall
-Places_Daycare,Daycare
+Places_Daycare,Centrum Opieki
 Places_Nation's Burgers,Nation's Burgers
-Places_Orion Academy,Orion Academy
-Places_Owsauri Casino,Owsauri Casino
-Places_City Underpass,City Underpass
-Places_Dock Underpass,Dock Underpass
-Places_Castro Manor,Castro Manor
-Places_Merson Cave Entrance,Merson Cave Entrance
-Places_Merson Cave,Merson Cave
-Places_Mt. Boulder,Mt. Boulder
-Places_Silk Tunnel,Silk Tunnel
-Places_Silph Co. Warehouse,Silph Co. Warehouse
-Places_Botan Cave,Botan Cave
-Places_Haunted Forest,Haunted Forest
-Places_International Tunnel,International Tunnel
-Places_Castro Forest,Castro Forest
-Places_Eagulou Park,Eagulou Park
-Places_Secret Cave,Secret Cave
-Places_Seneca Caverns,Seneca Caverns
-Places_Rijon League,Rijon League
+Places_Orion Academy,Akademia Oriona
+Places_Owsauri Casino,Kasyno Owsauri
+Places_City Underpass,Miejskie Przejście Podziemne
+Places_Dock Underpass,Dokowe Przejście Podziemne
+Places_Castro Manor,Rezydencja Castro
+Places_Merson Cave Entrance,Wejście do Jaskini Merson
+Places_Merson Cave,Jaskinia Merson
+Places_Mt. Boulder,Góra Głaz
+Places_Silk Tunnel,Jedwabny Tunel
+Places_Silph Co. Warehouse,Magazyn Silph
+Places_Botan Cave,Jaskinia Botan
+Places_Haunted Forest,Nawiedzony Las
+Places_International Tunnel,Tunel Międzynarodowy
+Places_Castro Forest,Las Castro
+Places_Eagulou Park,Park Eagulou
+Places_Secret Cave,Tajna Jaskinia
+Places_Seneca Caverns,Jaskinia Seneki
+Places_Rijon League,Liga Rijon
 Places_Madame Renifler,Madame Renifler
-Places_Ilex Forest,Ilex Forest
-Places_Slowpoke Well,Slowpoke Well
-Places_Gate,Gate
-Places_Final Dungeon,Final Dungeon
+Places_Ilex Forest,Las Ilex
+Places_Slowpoke Well,Slowpoke Zdrój
+Places_Gate,Brama
+Places_Final Dungeon,Ostatni Loch
 
 Gyms:
-Places_Seashore City Gym,Seashore City Gym
-Places_Merson City Gym,Merson City Gym
-Places_Owsauri City Gym,Owsauri City Gym
-Places_Moraga Town Gym,Moraga Town Gym
-Places_Jaeru City Gym,Jaeru City Gym
-Places_Castro Valley Gym,Castro Valley Gym
-Places_South Reservoir Gym,South Reservoir Gym
-Places_Eagulou City Gym,Eagulou City Gym
-Places_Azalea Town Gym,Azalea Town Gym
+Places_Seashore City Gym,Sala Seashore
+Places_Merson City Gym,Sala Merson
+Places_Owsauri City Gym,Sala Owsauri
+Places_Moraga Town Gym,Sala Moraga
+Places_Jaeru City Gym,Sala Jaeru
+Places_Castro Valley Gym,Sala Castro
+Places_South Reservoir Gym,Sala South Reservoir
+Places_Eagulou City Gym,Sala Eagulou
+Places_Azalea Town Gym,Sala Azalea
 
 Routes:
-Places_Route 34,Route 34
-Places_Old Route 47,Old Route 47
-Places_Old Route 48,Old Route 48
-Places_Route 49,Route 49
-Places_Route 50,Route 50
-Places_Route 51,Route 51
-Places_Route 52,Route 52
-Places_Route 53,Route 53
-Places_Route 54,Route 54
-Places_Route 55,Route 55
-Places_Route 56,Route 56
-Places_Route 57,Route 57
-Places_Route 58,Route 58
-Places_Route 59,Route 59
-Places_Route 60,Route 60
-Places_Route 61,Route 61
-Places_Route 62,Route 62
-Places_Route 63,Route 63
-Places_Route 64,Route 64
-Places_Route 65,Route 65
-Places_Route 66,Route 66
-Places_Route 67,Route 67
+Places_Route 34,Droga 34
+Places_Old Route 47,Stara Droga 47
+Places_Old Route 48,Stara Droga 48
+Places_Route 49,Droga 49
+Places_Route 50,Droga 50
+Places_Route 51,Droga 51
+Places_Route 52,Droga 52
+Places_Route 53,Droga 53
+Places_Route 54,Droga 54
+Places_Route 55,Droga 55
+Places_Route 56,Droga 56
+Places_Route 57,Droga 57
+Places_Route 58,Droga 58
+Places_Route 59,Droga 59
+Places_Route 60,Droga 60
+Places_Route 61,Droga 61
+Places_Route 62,Droga 62
+Places_Route 63,Droga 63
+Places_Route 64,Droga 64
+Places_Route 65,Droga 65
+Places_Route 66,Droga 66
+Places_Route 67,Droga 67
 
 ---
 Item categories:
-item_category_Standard,Standard
-item_category_Medicine,Medicine
+item_category_Standard,Standardowe
+item_category_Medicine,Medycyna
 item_category_Machines,TM/HM
-item_category_Pokéballs,Poké Balls
-item_category_Plants,Plants
-item_category_KeyItems,Key Items
+item_category_Pokéballs,Pokéballe
+item_category_Plants,Rośliny
+item_category_KeyItems,Przedmioty kluczowe
 item_category_BattleItems,Battle Items
 item_category_Mail,Mail
 ---
 GameMessages:
-game_message_screenshot,Screenshot saved as
-game_message_screenshot_failed,Cannot create screenshot
-game_message_fullscreen_on,Fullscreen on
+game_message_screenshot,Zapisano zrzut ekranu jako
+game_message_screenshot_failed,Nie można utworzyć zrzutu ekranu
+game_message_fullscreen_on,Włączono tryb pełnoekranowy
 game_message_fullscreen_off,Fullscreen off
 game_message_third_person_on,Third person mode on
 game_message_third_person_off,Third person mode off
@@ -1633,7 +1633,7 @@ pokemon_name_Sneasler,Sneasler
 pokemon_name_Overqwil,Overqwil
 pokemon_name_Enamorus,Enamorus
 pokemon_name_Annihilape,Annihilape
-pokemon_name_Galarian Weezing,Galarian Weezing
+pokemon_name_Galarian Weezing,Galarski Weezing
 pokemon_name_MissingNo.,MissingNo.
 pokemon_name_Phancero,Phancero
 
@@ -2032,7 +2032,7 @@ item_name_75,Gold Leaf
 item_name_76,Soft Sand
 item_name_77,Sharp Beak
 item_name_81,Poison Barb
-item_name_82,Kings Rock
+item_name_82,King's Rock
 item_name_83,Prism Scale
 item_name_84,Reaper Cloth
 item_name_88,Silver Powder
@@ -2425,9 +2425,9 @@ item_desc_127,A card key that opens a door in the Silph Co. Warehouse.
 item_desc_181,A special Poké Ball that is used only in the Eagulou Park. It is decorated in a camouflage pattern.
 
 [GameMode Items]
-item_desc_gm0,The pizza that Tim ordered. Better give it to him before it gets cold!
+item_desc_gm0,Pizza, którą zamówił Tim. Lepiej ją dostarczyć, zanim ostygnie!
 item_desc_gm1,A peculiar device that can make certain species of Pokémon evolve that would normally need to hold items or be traded.
-item_desc_gm2,It seems someone has lost this amulet. The owner probably wants it back.
+item_desc_gm2,Wydaje się, że ktoś zgubił ten amulet. Jego właściciel na pewno chce go z powrotem.
 item_desc_gm3,A shiny red orb. Someone might give you something in exchange for it.
 item_desc_gm4,A shiny blue orb. Someone might give you something in exchange for it.
 item_desc_gm5,A shiny green orb. Someone might give you something in exchange for it.
@@ -2462,8 +2462,8 @@ item_6_missingskin,You can't use this item~without a bicycle skin.*Its name shou
 item_6_only_custom_gamemodes,This item can't be used~on this GameMode.
 
 [Official Items]
-item_use_6,<Player.Name> stepped~off the Bicycle.
-item_use_54,Your Coins:~
+item_use_6,<Player.Name> zszedł~(zeszła) z Roweru.
+item_use_54,Twoje monety:~
 item_use_658_disable,The Exp. All was turned off.
 item_use_658_enable,The Exp. All was turned on.
 
@@ -3023,7 +3023,7 @@ move_name_583,Play Rough
 move_name_584,Fairy Wind
 move_name_585,Moonblast
 move_name_586,Boomburst
-move_name_588,Kings Shield
+move_name_588,King's Shield
 move_name_589,Play Nice
 move_name_590,Confide
 move_name_591,Diamond Storm
@@ -3217,9 +3217,9 @@ NewGameIntro_4,<Player.Name>?*A most unusual name.~I've never heard it before!*W
 NewGameIntro_NewNameOption,-New-
 
 [Generic Tokens]
-Generic_TV_Movie,This movie is titled "Naljo's~Guardians".*It's based off Naljo mythology!
-Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon~books!
-Generic_TownMap,It's the Town Map.
+Generic_TV_Movie,Film "Strażnicy Naljo".*Oparty na mitologii Naljo!
+Generic_Bookshelf_PokemonBooks,Pełno książek o Pokémonach!
+Generic_TownMap,Mapa Rijonu.
 Generic_Bed_Question,It's a bed.~Would you like to rest?
 Generic_Bed_Refreshed_NoPokemon,You wake up feeling refreshed!
 Generic_Bed_Refreshed_Pokemon,You and your Pokémon wake up~feeling refreshed!
@@ -3454,7 +3454,7 @@ Seashore_RivalHouse_Note_Speary,Spearow~Name: Speary
 Seashore_RivalHouse_Speary_Cry,Speary: Tetweet!
 
 Seashore_Main_YoungGirl_Green_RunningShoes,Are those new shoes?*Try running with them~by pressing [<System.Button(Run)>]!
-Seashore_Main_YoungBoy_Blue_Dreams,You will never regret~following your dreams, even~if you don't achieve them.*You'll only regret passing up~the chance.
+Seashore_Main_YoungBoy_Blue_Dreams,Nigdy nie pożałujesz podążania~za marzeniami, nawet jeśli się~nie spełnią.*Możesz tylko pożałować~przepuszczenia szansy.
 Seashore_Main_YoungBoy_Red_Question,Hey! Are you going to be a~Pokémon trainer, <Player.Name>?
 Seashore_Main_YoungBoy_Red_AnswerYes,Cool!*I'm going to be one soon as~well!*It's very hard, but rewarding.
 Seashore_Main_YoungBoy_Red_AnswerNo,Why not?
@@ -3503,16 +3503,17 @@ Route53_PotionGuy_OutOfSamples,Sorry, but I'm all out of free~samples.
 Route53_OtherGuy_StraightForward,This road is pretty straight-~forward.*You can never get lost on this~road!
 
 [Gravel Town]
-Gravel_Main_Tim_Late,Tim: There you are!~You're late!
-Gravel_Main_Tim_NeedPokemon,Tim: I've been waiting for you~to get here!*You need your very own~Pokémon, so come to~my lab right away!
-Gravel_Main_FreshAirGuy,I love living here!*The air is so fresh and clean.
+Gravel_Main_Tim_Late,Tim: Tu jesteś! Już~się spóźniłeś!
+Gravel_Main_Tim_NeedPokemon,Tim: Czekałem, aż przyjdziesz!*Potrzebujesz własnego~Pokémona, więc przyjdź szybko~do mojego laboratorium!
+Gravel_Main_FreshAirGuy,Uwielbiam to miejsce!*Powietrze jest takie świeże~i czyste.
 Gravel_Main_GameModeGuy,Did you know?*This GameMode is based on the~rom hack Pokémon Brown by~Koolboyman, which first~released on January 17th,~2004!*Years later, in 2014, Leahkim~and Miragics made the first~attempt at a 3D remake using~Pokémon 3D!*Then in 2024, JappaWakka gave~it a massive overhaul,~creating a lot of content from~scratch!
 Gravel_Main_Sign_Town,Gravel Town*A Quiet Mountain Town.
-Gravel_Main_Sign_Lab,Tim's Lab
-Gravel_Main_Sign_Cave,Merson Cave
+Gravel_Main_Sign_Lab,Laboratorium Tima
+Gravel_Main_Sign_Cave,Jaskinia Merson
 
 Gravel_TimsLab_Note_OpenMenu,Press [<system.button(OpenMenu)>] to open~the Menu!
-Gravel_TimsLab_Pokedex,It's encyclopedia-like,~but the pages are blank!
+# Gravel_TimsLab_Pokedex,It's encyclopedia-like,~but the pages are blank!
+Gravel_TimsLab_Pokedex,Jak encyklopedia, ale strony~są puste!
 Gravel_TimsLab_PokeballAfterChoose,That belongs to Tim.
 Gravel_TimsLab_PC_StephanieMail,There's an e-mail message~here!*...*Mr. Tim, don't forget about~our date tonight!*Love,~Stephanie
 Gravel_TimsLab_RegularAide,I study Pokémon as Prof. Tim's~Aide.
@@ -3559,8 +3560,8 @@ Gravel_TimsLab_Mura_OutroMessage,...Darn, I need to train this~Pokémon!
 Gravel_PokeMart_Youngster,Ya!~Potions are available!
 Gravel_PokeMart_BugCatcher,This shop sells lots of~Poké Balls.
 Gravel_PokeMart_Clerk_YoKiddo,Yo kiddo!
-Gravel_PokeMart_Clerk_TimsPizza,Prof. Tim forgot to pick up~his pizza!*Will you deliver it for me?
-Gravel_PokeMain_Clerk_NoDelivery,We don't deliver, you know...
+Gravel_PokeMart_Clerk_TimsPizza,Profesor Tim zapomniał~odebrać pizzę!*Czy dostarczysz ją za mnie?
+Gravel_PokeMain_Clerk_NoDelivery,Wiesz, sami nie dostarczamy...
 Gravel_PokeMart_ReceivePizza,<Player.Name> received Tim's Pizza!
 Gravel_PokeMart_PizzaInPocket,<Player.Name> stored it in the~№ KeyItems pocket.
 
@@ -3607,7 +3608,8 @@ Merson_Main_FreeHealGuy,You can go and heal your~Pokémon free of charge at~any 
 Merson_Main_QuestionKid_AskQuestion,Are you a good trainer...?
 Merson_Main_QuestionKid_AnswerYes,Really? That's so cool!*I'm not...
 Merson_Main_QuestionKid_AnswerNo,Hahaha, I guess not.*Can you give me your Pokémon~then?*Please?
-Merson_Main_Sign_Gym,Merson City~Pokémon Gym~Leader: Karpman*Feelin' Like a Fish in Water!
+# Merson_Main_Sign_Gym,Merson City~Pokémon Gym~Leader: Karpman*Feelin' Like a Fish in Water!
+Merson_Main_Sign_Gym,Lider Sali Merson:~Karpman*Czuje się jak ryba w wodzie!
 Merson_Main_Sign_City,Merson City*The Noble Little Town.
 Merson_Main_Sign_Challenge,Think you're tough?*Go face Karpman!
 Merson_Main_Sign_SouthRijonGate,South Rijon Gate~Route 88*Under construction~Opening soon!*Luster City~Construction Co.
@@ -3616,9 +3618,9 @@ Merson_Main_Sign_PokemonFanClub,Pokémon Fan Club~All Pokémon fans welcome!
 Merson_PokeMart_PotionsGuy,You can never have enough~Potions!*Buy lots to keep your Pokémon~alive and well!
 Merson_PokeMart_FoodGuy,Know where I can buy actual~food for myself?
 
-Merson_PokeCenter_BenchGuy,I wonder.*Is Pokémon training possibly~entrepreneurial?
-Merson_PokeCenter_Gentleman,Service is quick and speedy~here!
-Merson_PokeCenter_PigtailGirl,Pokémon love it here!
+Merson_PokeCenter_BenchGuy,Zastanawiam się, czy trenowanie~Pokémonów jest~przedsiębiorcze.
+Merson_PokeCenter_Gentleman,Tu obsługa jest szybka~i pospieszna!
+Merson_PokeCenter_PigtailGirl,Pokémonom się tu podoba!
 
 Merson_FanClub_Note_Left,Let's all listen politely to~other trainers!
 Merson_FanClub_Note_Right,If someone brags, brag right~back!
@@ -3662,7 +3664,7 @@ Merson_Gym_LeaderKarpman_Rematch_AfterBattle,Karpman: I think everyone has~their
 [Route 55]
 Route55_Sign_Route,Route 55~Mt. Boulder Pass*Merson City - Dock Underpass
 Route55_Sign_RainbowTower,Rainbow Tower
-Route55_Sign_MtBoulder,Mt. Boulder*Shortcut to Eagulou City*There's a note attached:~Watch out! A Pokémon nested~in Mt. Boulder recently and~temperature in it has dropped~to freezing point!*There's an extra note:~Poor Growlithe...
+Route55_Sign_MtBoulder,Góra Głaz*Skrót do Eagulou*Jest dołączona notka: Uwaga!~Pokémon niedawno zbudował~gniazdo w górze Głaz i tempe-~ratura w środku spadła do~punktu zamarzania!*Jest jeszcze jedna notka:~Biedne Growlithe...
 Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my Pokémon?
 Route55_PokeManiacRoger_OutroMessage,Oh no! My Pokémon!
 Route55_PokeManiacRoger_DefeatMessage,I don't like you for beating me!
@@ -3680,24 +3682,24 @@ Route55_PokeManiacGlenn_OutroMessage,Humph. I'm not angry.
 Route55_PokeManiacGlenn_DefeatMessage,How could I lose to you?!
 
 Route55_RainbowTower_Floor1_MeditatingGuy,Please leave. I'm meditating~with my three Pokémon friends.
-Route55_RainbowTower_Floor1_Persian_Cry,Persian: Meow!
+Route55_RainbowTower_Floor1_Persian_Cry,Persian: Miau!
 Route55_RainbowTower_Floor1_Rhydon_Cry,Rhydon: ROAR!
 Route55_RainbowTower_Floor1_Pikachu_Cry,Pikachu: Pika pi!
-Route55_RainbowTower_Floor1_TrophyCabinet,A shiny trophy. The plaque~reads:*PokéCommunity Hack of the~Year 2007:~        Pokémon Prism
+Route55_RainbowTower_Floor1_TrophyCabinet,To trofeum lśni! Na plakietce~jest napisane:*Hack PokéCommunity Roku~2007:~        Pokémon Prism
 
-Route55_RainbowTower_Floor2_PC,Someone forgot to log out!*Let's change the background~to something silly!
-Route55_RainbowTower_Floor2_Note,RainbowDevs~Meeting Room
+Route55_RainbowTower_Floor2_PC,Ktoś zapomniał się wylogować!*Zamienię tło na coś głupiego!
+Route55_RainbowTower_Floor2_Note,RainbowDevs~Sala spotkań
 
 Route55_RainbowTower_Floor3_MeanMrMustard,MeanMrMustard: All work, and~never any credit or respect!*Meh!
 Route55_RainbowTower_Floor3_Programmer,Pfew! Work is so tough!*It's probably time for a break!*It's been 10 minutes since~my last one!
 Route55_RainbowTower_Floor3_Suloku,Suloku: Bugs, bugs and more~bugs!*Oh, sorry, this game is full~of bugs and it gets to me~at times.*When you think one is fixed,~you caused yet another one.*Hopefully I've got them all~now!*Did you know the 2024 update~of the Pokémon Brown romhack~is still old school?*That means manually making~all the changes!*At first I only wanted to~change a couple of things.~Derbs84 helped a lot at the~time since I knew nothing~about romhacking.*The project kept growing,~and so did the team.*I'm really grateful to~everyone that has helped~along the way: spriters,~testers, proofreaders...*It's amazing what people~can do when they put their~minds together!
 Route55_RainbowTower_Floor3_Koolboyman,Koolboyman: Hey, I made the~original Pokémon Brown hack!*No need to thank me!*Hopefully it looks more~polished now.
-Route55_RainbowTower_Floor3_PC_MeanMrMustard,Complicated code.*Can't understand it!
-Route55_RainbowTower_Floor3_PC_Programmer,Someone's playing a game~instead of working!
-Route55_RainbowTower_Floor3_PC_Suloku,There's a beta version~counter...*It's over 1000!!!
-Route55_RainbowTower_Floor3_Note,RainbowDevs~Development Room
+Route55_RainbowTower_Floor3_PC_MeanMrMustard,Ten kod jest skomplikowany.~Nie mogę go zrozumieć!
+Route55_RainbowTower_Floor3_PC_Programmer,Ktoś gra w grę zamiast~pracować!
+Route55_RainbowTower_Floor3_PC_Suloku,Jest licznik wersji beta...~Ponad 1000!!!
+Route55_RainbowTower_Floor3_Note,RainbowDevs~Sala developmentu
 
-Route55_RainbowTower_Floor4_Note,DON'T GO IN HERE!!!
+Route55_RainbowTower_Floor4_Note,NIE WCHODZIĆ!!!
 
 Route55_RainbowTower_Floor4_Room_Blackboard_Question1,Information on new types!
 Route55_RainbowTower_Floor4_Room_Blackboard_Question2,Which heading do you want to~read?
@@ -3719,11 +3721,12 @@ Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,How are you liking that crazy~
 
 [Dock Underpass]
 DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52,~a.k.a. the Hayward Docks.
-DockUnderpass_Entrance_Route52_HomelessGuy,This is where I live because I~have no money...
+DockUnderpass_Entrance_Route52_HomelessGuy,Tu mieszkam, bo nie mam~pieniędzy...
 
 [Route 52]
 Route52_Sign,Route 52~Hayward Docks*Hayward City - Dock Underpass
-Route52_MagmarTraderHouse_Father,Live in the city?*Why, I love it here.*No darn annoying hoodrats.
+# Route52_MagmarTraderHouse_Father,Live in the city?*Why, I love it here.*No darn annoying hoodrats.
+Route52_MagmarTraderHouse_Father,Mieszkać w mieście?*Czemu? Tu mi się podoba.*Żadnych irytujących blokerów.
 Route52_MagmarTraderHouse_MagmarTrade_Question,Hi! Want to trade an Abra~for a Magmar?
 Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Oh well...
 Route52_MagmarTraderHouse_MagmarTrade_AfterTrade,Isn't my old Magmar great?
@@ -3789,9 +3792,9 @@ Hayward_Main_Mura_BeforeBattle,Mura: Yo! <Player.Name>!*I just got a cool HM fro
 Hayward_Main_Mura_OutroMessage,Mura: Hey!~Take it easy!~You won already!
 Hayward_Main_Mura_AfterBattle,Mura: You may have won~this time, but I'm going to~beat the Rijon League and~become the Champion!*<Player.Name>: Not before I do!*Mura: We'll see about that...~I'll see you later.
 
-Hayward_PokeCenter_BenchGuy,It would be great if the~Elite Four came and stomped~Team Rocket!
-Hayward_PokeCenter_Gentleman,If you can find a fossil, that~lab next door will revive it!
-Hayward_PokeCenter_PokeFan,I came from Eagulou City.
+Hayward_PokeCenter_BenchGuy,Byłoby fajnie, gdyby Elitarna~Czwórka przyszła i zgniotła~Zespół R!
+Hayward_PokeCenter_Gentleman,Jeżeli znajdziesz skamielinę,~to laboratorium obok przywróci~jej życie!
+Hayward_PokeCenter_PokeFan,Jestem z Eagulou.
 
 Hayward_FossilLab_LaprasTrade_Question,I'm looking for a Clefairy!~Wanna trade one for a Lapras?
 Hayward_FossilLab_LaprasTrade_Answer_No,Awww! Oh well...
@@ -3816,16 +3819,17 @@ Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~
 Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist
 Hayward_FossilLab_FossilPokemon_CatchLocation,in the Hayward Fossil Lab
 
-Hayward_StrengthHouse_Amulets,A collection of amulets.
-Hayward_StrengthHouse_StrengthMan_Question,Hey, have you seen my~special amulet?*It's really important to me~but I lost it!
-Hayward_StrengthHouse_StrengthMan_Answer_Yes,You did?!*Well, go get it and bring it~to me for a big reward!
+Hayward_StrengthHouse_Amulets,Kolekcja amuletów.
+Hayward_StrengthHouse_StrengthMan_Question,Hej, czy widziałeś mój specjalny~amulet?*Jest dla mnie ważny, ale go~zgubiłem!
+Hayward_StrengthHouse_StrengthMan_Answer_Yes,Naprawdę?!*To idź i przynieś mi go, należy ci~się nagroda!
+# Hayward_StrengthHouse_StrengthMan_Answer_No,Darn, well try to look for it.*Last time I remember having~it on me was back at my~temporary Warehouse job!
 Hayward_StrengthHouse_StrengthMan_Answer_No,Darn, well try to look for it.*Last time I remember having~it on me was back at my~temporary Warehouse job!
 Hayward_StrengthHouse_StrengthMan_GiveAmulet,<Player.Name> gave the Red Amulet~to the man!*The man put it in his display~case.*Thank you so much kid!*<Player.Name>: Erm, no problem,~now what's that reward?*Man: Oh yeah, it's an HM that~can push boulders around!
 Hayward_StrengthHouse_StrengthMan_AfterGivenAmulet,The HM 04 teaches Strength!*It lets Pokémon move boulders~when you're outside of battle.
 
-Hayward_TownMapHouse_TownMap,It's a map of Rijon.
-Hayward_TownMapHouse_TownMapGirl_BeforeGive,I'm handing out free Rijon maps~today. Go ahead and take one!
-Hayward_TownMapHouse_TownMapGirl_AfterGive,Use the map if you get lost!
+Hayward_TownMapHouse_TownMap,Mapa Rijonu.
+Hayward_TownMapHouse_TownMapGirl_BeforeGive,Dzisiaj rozdaję mapy Rijonu za~darmo. Śmiało, weź jedną!
+Hayward_TownMapHouse_TownMapGirl_AfterGive,Użyj mapy, gdy się zagubisz!
 
 Hayward_SouthlandMall_ElevatorButtons,Which floor do you want?
 Hayward_SouthlandMall_InfoSign_AllFloors,1F: Service Counter*2F: Trainer's Market*3F: TV Game Shop*4F: Deity TM's*5F: Drug Store*Rooftop Square:~Vending Machines
@@ -3980,7 +3984,7 @@ Owsauri_Daycare_DaycareMan_Intro_NoPokemon,I run a Daycare.*Would you like me to
 Owsauri_Daycare_DaycareMan_Intro_1Pokemon_NoLevelUp,Back already?~Your <daycare.pokemonname(0,0)> needs~some more time with me.*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Intro_1Pokemon_HigherLevel,Your <daycare.pokemonname(0,0)> has grown~a lot!*By level, it's grown about <daycare.grownlevels(0,0)>!~Aren't I great?*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Intro_2Pokemon_NoLevelUp,Back already?~Your Pokémon need~some more time with me.*Do you want to take your~Pokémon back?
-Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_0Yes1No,Your Pokémon have grown~a lot!*By level, <daycare.pokemonname(0,0)>~has grown about <daycare.grownlevels(0,0)>!*Aren't I great?*<daycare.pokemonname(0,1)> needs~some more time with me.*Do you want to take your~Pokémon back?
+Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_0Yes1No,Your <daycare.pokemonname(0,0)> has grown~a lot!*By level, it's grown about <daycare.grownlevels(0,0)>!~Aren't I great?*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_0No1Yes,Your Pokémon have grown~a lot!*By level, <daycare.pokemonname(0,1)>~has grown about <daycare.grownlevels(0,1)>!*Aren't I great?*<daycare.pokemonname(0,0)> needs~some more time with me.*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_BothYes,Your Pokémon have grown~a lot!*By level, <daycare.pokemonname(0,0)>~has grown about <daycare.grownlevels(0,0)>!*<daycare.pokemonname(0,1)> has grown~about <daycare.grownlevels(0,1)>!~Aren't I great?*Do you want to take your~Pokémon back?
 Owsauri_Daycare_DaycareMan_Question_TakeBack,Which Pokémon do you want to~take back?
@@ -4012,7 +4016,7 @@ Owsauri_Daycare_DaycareMan_NoOrCancel,Alright then, come again.
 Owsauri_Daycare_DaycareMan_Answer_LeavePokemon,Leave Pokémon
 Owsauri_Daycare_DaycareMan_Answer_TakeBack,Take Back
 
-Owsauri_NameRater_Intro,Hello,Hello!~I am the official Name Rater.*Want me to rate the nicknames~of your Pokémon?
+Owsauri_NameRater_Intro,Hello, Hello!~I am the official Name Rater.*Want me to rate the nicknames~of your Pokémon?
 Owsauri_NameRater_RenamePokemon_WhichPokemon,Which Pokémon should I look~at?
 Owsauri_NameRater_RenamePokemon_BetterNickname,<storage.get(string,PokeName)>, is it?~That is a decent nickname!*But, would you like me to~give it a nicer name?*How about it?
 Owsauri_NameRater_RenamePokemon_WhatName,Fine! What should we name it?
@@ -4174,7 +4178,8 @@ SilkTunnel_B3F_PokeManiacFrederic_DefeatMessage,Cosplaying will get me~all the g
 
 [Moraga Town]
 Moraga_Main_Sign_Town,Moraga Town*Not really a town at all.
-Moraga_Main_Sign_Pickpocketers,Look out for rabid~pick-pocketers!
+# Moraga_Main_Sign_Pickpocketers,Look out for rabid~pick-pocketers!
+Moraga_Main_Sign_Pickpocketers,Uwaga na wściekłych~kieszonkowców!
 Moraga_Main_Sign_Gym,Moraga Town~Pokémon Gym~Leader: Lois*The Princess of Plant Pokémon!
 Moraga_Main_Sign_TrainerTips,Trainer Tips*Keep an eye on where~you're going and if needed,~backtrack to cities you've~been to already.
 Moraga_Main_Sign_HighSchoolAcademy,High School Academy
@@ -4189,15 +4194,17 @@ Moraga_Main_TM31Man_AfterTalking,TM31 teaches Mimic!*It lets your Pokémon copy 
 Moraga_Main_GymLeaderFather,My daughter may appear cute,~but deep inside she is a~warrior!
 Moraga_Main_FatGuy,That Gym Leader is hard...*No one can beat her!
 
-Moraga_PokeCenter_BenchGuy,I wish I had HM02 Surf.
-Moraga_PokeCenter_Gentleman,Silph. Co. is very famous.~That's why it attracted~Team Rocket!
+# Moraga_PokeCenter_BenchGuy,I wish I had HM02 Surf.
+Moraga_PokeCenter_BenchGuy,Chciałbym mieć HM02 Fala.
+Moraga_PokeCenter_Gentleman,Silph jest bardzo sławną~firmą. Dlatego przyciągnął~Zespół R!
 Moraga_PokeCenter_OldWoman,Pokémon growth rates differ~from species to species.
 
 Moraga_PokeMart_LeafStoneGuy,Why is that Leaf Stone so~expensive?
 Moraga_PokeMart_EscapeRopeGirl,Escape Ropes let you escape~from caves.
 
 Moraga_FlyHouse_Fearow_Cry,Fearow: Kyueen!
-Moraga_FlyHouse_FlyGirl_BeforeTalking,How do you people keep~finding me?*OK, take this HM just like~the others and scram!
+# Moraga_FlyHouse_FlyGirl_BeforeTalking,How do you people keep~finding me?*OK, take this HM just like~the others and scram!
+Moraga_FlyHouse_FlyGirl_BeforeTalking,Nigdy nie mogę się ukryć!*OK, weź 
 Moraga_FlyHouse_FlyGirl_AfterTalking,HM02 is Fly. It will take~you back to any town.*Put it to good use!
 
 Moraga_SandshrewKidHouse_Father,My son just can't stop~paying attention to his~new pet!*At least it's better than~video games and TV...
