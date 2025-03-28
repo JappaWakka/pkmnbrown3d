@@ -569,6 +569,7 @@ berry_picked_multiple_end,Bessen.
 Battle:
 battle_trainer_about_to_send_out_1,staat op het punt om
 battle_trainer_about_to_send_out_2,in te zetten om te vechten! Wil je je Pokémon verwisselen met een andere?
+battle_choose_pokemon,Kies een Pokémon
 battle_switch_already_in_battle,is al~aan het vechten!
 battle_switch_fainted,is uitgeschakeld!
 battle_switch_egg,Kan geen ei inzetten!
@@ -612,17 +613,17 @@ Places:
 Places_???,???
 
 Towns and Cities:
-Places_Seashore City,Seashore City
-Places_Gravel Town,Gravel Town
-Places_Merson City,Merson City
-Places_Hayward City,Hayward City
-Places_Owsauri City,Owsauri City
-Places_Moraga Town,Moraga Town
-Places_Jaeru City,Jaeru City
-Places_Botan City,Botan City
-Places_Castro Valley,Castro Valley
-Places_Eagulou City,Eagulou City
-Places_Azalea Town,Azalea Town
+Places_Seashore City,Zeekuststad
+Places_Gravel Town,Kiezeldorp
+Places_Merson City,Mertenstad
+Places_Hayward City,Haagwachterstad
+Places_Owsauri City,Slotwaterstad
+Places_Moraga Town,Stamppotdorp
+Places_Jaeru City,Laeterwirstad
+Places_Botan City,Bloemenbloeistad
+Places_Castro Valley,Dalburg
+Places_Eagulou City,Tromtorenstad
+Places_Azalea Town,Azaleadorp
 
 Special Places:
 Places_Pokémon Center,Pokémon-Centrum
@@ -630,25 +631,26 @@ Places_Pokémon Center,Pokémon-Winkel
 Places_Tim's Lab,Tim's Lab
 Places_Pokémon Fan Club,Pokémon-Fanclub
 Places_Rainbow Tower,Regenboogtoren
-Places_30 Years Cave,30 Jaren-Grot
+Places_30 Years Cave,30-Jaren-Grot
 Places_Southland Mall,Winkelcentrum Zuidland
 Places_Daycare,Dagopvang
-Places_Nation's Burgers,Nation's Burgers
+Places_Nation's Burgers,Burgerland
 Places_Orion Academy,Orion Academie
-Places_Owsauri Casino,Owsauri Casino
-Places_City Underpass,Stad-Onderdoorgang
-Places_Dock Underpass,Dok-Onderdoorgang
-Places_Castro Manor,Huize Castro
-Places_Merson Cave Entrance,Ingang van Merson-Grot
-Places_Merson Cave,Merson-Grot
-Places_Mt. Boulder,Mt. Boulder
-Places_Silk Tunnel,Zijde-Tunnel
+Places_Owsauri Casino,Slotwater-Casino
+Places_City Underpass,Stad-onderdoorgang
+Places_Dock Underpass,Kade-onderdoorgang
+Places_Power Plant,Energiecentrale
+Places_Castro Manor,Huize Dalburg
+Places_Merson Cave Entrance,Ingang van Mertengrot
+Places_Merson Cave,Mertengrot
+Places_Mt. Boulder,Zwerfkeiberg
+Places_Silk Tunnel,Zijdetunnel
 Places_Silph Co. Warehouse,Silph Co. Warenhuis
-Places_Botan Cave,Botan-Grot
+Places_Botan Cave,Bloemenbloeigrot
 Places_Haunted Forest,Spookachtig Woud
 Places_International Tunnel,Internationale Tunnel
-Places_Castro Forest,Castro-Bos
-Places_Eagulou Park,Eagulou Park
+Places_Castro Forest,Dalburgbos
+Places_Eagulou Park,Tromtorenpark
 Places_Secret Cave,Geheime Grot
 Places_Seneca Caverns,Seneca-Cavernes
 Places_Rijon League,Rijon League
@@ -659,15 +661,15 @@ Places_Gate,Poort
 Places_Final Dungeon,Laatste Uitdaging
 
 Gyms:
-Places_Seashore City Gym,Seashore City Gym
-Places_Merson City Gym,Merson City Gym
-Places_Owsauri City Gym,Owsauri City Gym
-Places_Moraga Town Gym,Moraga Town Gym
-Places_Jaeru City Gym,Jaeru City Gym
-Places_Castro Valley Gym,Castro Valley Gym
+Places_Seashore City Gym,Zeekust-Stad Gym
+Places_Merson City Gym,Mertenstad Gym
+Places_Owsauri City Gym,Slotwaterstad Gym
+Places_Moraga Town Gym,Stamppotdorp Gym
+Places_Jaeru City Gym,Laeterwirstad Gym
+Places_Castro Valley Gym,Dalburg Gym
 Places_South Reservoir Gym,Zuidreservoir Gym
-Places_Eagulou City Gym,Eagulou City Gym
-Places_Azalea Town Gym,Azalea Town Gym
+Places_Eagulou City Gym,Tromtorenstad Gym
+Places_Azalea Town Gym,Azaleadorp Gym
 
 Routes:
 Places_Route 34,Route 34
@@ -3276,9 +3278,9 @@ item_pluralname_gm94,Boost-Machines
 Item Descriptions:
 [Officiële voorwerpen]
 item_desc_41,Het ticket dat je nodig hebt om aan boord van het cruiseschip S.S. Anne te gaan. Er staat een tekening van een schip op.
-item_desc_54,Een kistje voor munten die zijn verkregen in het Owsauri Casino.
+item_desc_54,Een kistje voor munten die zijn verkregen in het Slotwater-Casino.
 item_desc_127,Een kaartsleutel die een deur opent in het Silph Co. Warenhuis.
-item_desc_181,Een speciale Pokébal die alleen in het Eagulou Park wordt gebruikt. Hij is versierd met een camouflagepatroon.
+item_desc_181,Een speciale Pokébal die alleen in het Tromtorenpark wordt gebruikt. Hij is versierd met een camouflagepatroon.
 
 [Spelmodus-voorwerpen]
 item_desc_gm0,De pizza die Tim bestelde. Geef maar aan hem voordat hij koud wordt!
@@ -3734,7 +3736,7 @@ move_name_412,Energy Ball
 move_name_413,Brave Bird
 move_name_414,Earth Power
 move_name_415,Switcheroo
-move_name_416,Giga Impact
+move_name_416,Giga-impact
 move_name_417,Nasty Plot
 move_name_418,Bullet Punch
 move_name_419,Avalanche
@@ -4068,7 +4070,7 @@ Story Localization:
 NewGameIntro_1,H-hallo?! Jij moet hier~nieuw zijn.*Welkom in de Rijon-regio!*Ik ben Timothy, maar sommigen~noemen me Tim.*Ik ben de Pokémon-Mentor van~deze regio.
 NewGameIntro_2,Dit is een Pokémon.~Er zijn er veel van in het~Rijon gebied.
 NewGameIntro_3,Ik onderzoek deze wezens als~mijn beroep.*Ze hebben speciale~vaardigheden voor gevechten,~maar kunnen ook worden~opgevoed als tamme huisdieren.*Oh, waar zijn mijn manieren?~Hoe mag ik je noemen?
-NewGameIntro_4,<Player.Name>?*Een heel ongewone naam.~Die heb ik nog nooit~eerder gehoord!*Het blijkt dat je hier vlakbij~woont!*Mijn laboratorium is in~Gravel Town, net ten zuiden~van jouw woonplaats.*Kom langs wanneer je kunt.~Ik heb iets prachtigs om je~te laten zien! Tot gauw!
+NewGameIntro_4,<Player.Name>?*Een heel ongewone naam.~Die heb ik nog nooit~eerder gehoord!*Het blijkt dat je hier vlakbij~woont!*Mijn laboratorium is in~Kiezeldorp, net ten zuiden~van jouw woonplaats.*Kom langs wanneer je kunt.~Ik heb iets prachtigs om je~te laten zien! Tot gauw!
 
 NewGameIntro_NewNameOption,-Nieuw-
 
@@ -4258,9 +4260,9 @@ DexEvaluation_Rating_Level16_ReceivedReward,Ik kan het niet geloven!*<Player.Nam
 Seashore_PlayerHouse1F_Mom_LookForTim,Succes met het treden in~de voetsporen van je~vader, lieverd!*Ga naar het zuiden en zoek~de professor.
 Seashore_PlayerHouse1F_Mom_TakeARest,<Player.Name>! Neem even een~korte rustpauze.
 Seashore_PlayerHouse1F_Mom_AfterRest,Oh mooi! Jij en je Pokémon~zien er uitgerust uit!~Pas goed op jezelf!
-Seashore_PlayerHouse1F_Mom_AfterChampion,<Player.Name>! Dus mijn kind is~Rijon's kampioen?~Wat ga je nu doen?*Je zou de Gym Leiders nog eens~kunnen uitdagen, misschien~verrassen ze je!*Daarnaast is er dat "Alleen~voor kampioenen" gebouw in~Hayward, daar zou je ook eens~kunnen kijken!*In ieder geval, waarom rust~je niet even uit voordat je~verder gaat met je avontuur?
+Seashore_PlayerHouse1F_Mom_AfterChampion,<Player.Name>! Dus mijn kind is~Rijon's kampioen?~Wat ga je nu doen?*Je zou de Gym Leiders nog eens~kunnen uitdagen, misschien~verrassen ze je!*Daarnaast is er dat "Alleen~voor kampioenen" gebouw in~Haagwachterstad, daar zou je~ook eens kunnen kijken!*In ieder geval, waarom rust~je niet even uit voordat je~verder gaat met je avontuur?
 Seashore_PlayerHouse1F_Mom_AfterFinalDungeon,<Player.Name>! Dus mijn kind is~Rijon's kampioen?~Wat ga je nu doen?*Je zou de Gym Leiders nog eens~kunnen uitdagen, misschien~verrassen ze je!*In ieder geval, waarom rust~je niet even uit voordat je~verder gaat met je avontuur?
-Seashore_PlayerHouse1F_Mom_AfterRematch,<Player.Name>! Dus mijn kind is~Rijon's kampioen?~Wat ga je nu doen?*Er is dat "Alleen~voor kampioenen" gebouw in~Hayward, daar zou je ook eens~kunnen kijken!*In ieder geval, waarom rust~je niet even uit voordat je~verder gaat met je avontuur?
+Seashore_PlayerHouse1F_Mom_AfterRematch,<Player.Name>! Dus mijn kind is~Rijon's kampioen?~Wat ga je nu doen?*Er is dat "Alleen~voor kampioenen" gebouw in~Haagwachterstad, daar zou je~ook eens kunnen kijken!*In ieder geval, waarom rust~je niet even uit voordat je~verder gaat met je avontuur?
 
 Seashore_PlayerHouse2F_GameCube,<Player.Name> speelt op de~Nintendo GameCube!*...Oké!~Het is tijd om te gaan!
 Seashore_PlayerHouse2F_GameCube_Game_Step1_Question,<Player.Name> speelt een nieuw~spel op de Nintendo GameCube!*Laten we een nieuw~personage maken.*Welke karakterklasse moet hij~zijn?
@@ -4316,11 +4318,11 @@ Seashore_Main_YoungBoy_Red_Question,Hé! Ga je Pokémon-trainer~worden, <Player.
 Seashore_Main_YoungBoy_Red_AnswerYes,Cool!*Ik ga er binnenkort ook een~worden!*Het is erg moeilijk, maar de~moeite waard.
 Seashore_Main_YoungBoy_Red_AnswerNo,Waarom niet?
 
-Seashore_Main_Sign_City,Seashore City*Waar golven van nieuwe reizen~beginnen aan hun lange tocht.
-Seashore_Main_Sign_Gym,Seashore City~Pokémon Gym~Leider: Sheryl*Meesteres van de~Buitenzintuigen!
+Seashore_Main_Sign_City,Zeekust-Stad*Waar golven van nieuwe reizen~beginnen aan hun lange tocht.
+Seashore_Main_Sign_Gym,Zeekust-Stad~Pokémon Gym~Leider: Sheryl*Meesteres van de~Buitenzintuigen!
 
-Seashore_Gym_Sign_BeforeDefeat,Seashore City~Pokémon Gym~Leider: Sheryl*Winnende Trainers:~Mura
-Seashore_Gym_Sign_AfterDefeat,Seashore City~Pokémon Gym~Leader: Sheryl*Winnende Trainers:~Mura~<Player.Name>
+Seashore_Gym_Sign_BeforeDefeat,Zeekust-Stad~Pokémon Gym~Leider: Sheryl*Winnende Trainers:~Mura
+Seashore_Gym_Sign_AfterDefeat,Zeekust-Stad~Pokémon Gym~Leader: Sheryl*Winnende Trainers:~Mura~<Player.Name>
 Seashore_Gym_ChannelerHelen_IntroMessage,Doe je best!
 Seashore_Gym_ChannelerHelen_OutroMessage,Ik wist het!
 Seashore_Gym_ChannelerHelen_DefeatMessage,Ik moet het de volgende keer~beter doen!
@@ -4354,8 +4356,8 @@ Seashore_Gym_LeaderSheryl_Rematch_OutroMessage,Sheryl: Jullie jonge~trainers... 
 Seashore_Gym_LeaderSheryl_Rematch_AfterBattle,Sheryl: Wat betekent kracht~eigenlijk voor jou?*<Player.Name>: Ik weet niet echt~de details, ik weet alleen dat~hoe sterker de trainers en~de Pokémon, hoe leuker~het gevecht!*Dus sterk zijn is gewoon veel~winnen, toch?*Sheryl: Dat is maar een deel~van het plaatje.*Hebben gevechten tussen zwakke~trainers minder betekenis?*<Player.Name>: Ik bedoel, ze zijn wel veel~saaier...*Sheryl: Ha, misschien heb je~gelijk.*Ik wilde ook nooit een zwakke~trainer zijn.*Gewoon een open geest houden,~kampioen.
 
 [Route 53]
-Route53_Sign,Route 53~Gravel Kloof*Seashore City - Gravel Town
-Route53_PotionGuy_FreeSamples,De Gravel Town Winkel geeft~vandaag gratis proefmonsters~weg, dus ga je gang en neem~een gratis Drankje!
+Route53_Sign,Route 53~Kiezelkloof*Zeekuststad - Kiezeldorp
+Route53_PotionGuy_FreeSamples,De Kiezeldorp Winkel geeft~vandaag gratis proefmonsters~weg, dus ga je gang en neem~een gratis Drankje!
 Route53_PotionGuy_OutOfSamples,Sorry, maar ik heb geen gratis~proefmonsters meer.
 Route53_OtherGuy_StraightForward,Deze weg is vrij eenvoudig.*Op deze weg kun je nooit~verdwalen!
 
@@ -4364,7 +4366,7 @@ Gravel_Main_Tim_Late,Tim: Daar ben je!~Je bent laat!
 Gravel_Main_Tim_NeedPokemon,Tim: Ik heb op je gewacht!*Je hebt je eigen Pokémon nodig,~dus kom meteen naar mijn lab!
 Gravel_Main_FreshAirGuy,Ik vind het heerlijk om hier~te wonen!*De lucht is zo fris en schoon.
 Gravel_Main_GameModeGuy,Wist je dit?*Deze GameMode is gebaseerd~op de romhack "Pokémon Brown"~van Koolboyman, die voor het~eerst werd uitgebracht op~17 januari 2004!*Jaren later, in 2014, deden~Leahkim en Miragics de eerste~poging tot een 3D-remake met~Pokémon 3D!*Toen, in 2024, gaf JappaWakka~het een enorme opknapbeurt,~waarbij hij veel content van~begins af aan creëerde!
-Gravel_Main_Sign_Town,Gravel Town*Een Rustig Bergdorp.
+Gravel_Main_Sign_Town,Kiezeldorp*Een Rustig Bergdorp.
 Gravel_Main_Sign_Lab,Tim's Lab
 Gravel_Main_Sign_Cave,Merson-Grot
 
@@ -4382,7 +4384,7 @@ Gravel_TimsLab_Choose_Squirtle,Tim: Zo! Dus jij wilt de~Water-Pokémon, Squirtle
 Gravel_TimsLab_Choose_Bulbasaur,Tim: Zo! Dus jij wilt de Gras-~Pokémon, Bulbasaur?
 Gravel_TimsLab_Choose_Confirm,Tim: Goede keuze!
 Gravel_TimsLab_StarterPokemon_CatchMethod,Als cadeau van Prof. Tim
-Gravel_TimsLab_StarterPokemon_CatchLocation,in Gravel Town
+Gravel_TimsLab_StarterPokemon_CatchLocation,in Kiezeldorp
 Gravel_TimsLab_Tim_LeaveBeforeChoose,Tim: Hé! Ga nog niet weg!
 Gravel_TimsLab_Tim_ChoosePokemon,Tim: Wat ben je aan het doen?*Kies een Pokémon!
 Gravel_TimsLab_Tim_GoodLuck,Tim: Veel geluk!
@@ -4447,7 +4449,7 @@ MersonCave_1F_BugCatcherBill_OutroMessage,Je hebt me te pakken!
 MersonCave_1F_BugCatcherBill_DefeatMessage,Blèh! Je speelt niet eerlijk!
 
 [Route 54]
-Route54_Sign,Route 54~Merson Bergpas*Merson-Grot - Merson City
+Route54_Sign,Route 54~Mertenbergpas*Mertengrot - Mertenstad
 Route54_SuperNerdCraig_IntroMessage,Hé, je brak mijn concentratie!
 Route54_SuperNerdCraig_OutroMessage,Zo luidruchtig...
 Route54_SuperNerdCraig_DefeatMessage,Dit huis ziet er leuk~uit, misschien koop ik het~later wel.
@@ -4464,8 +4466,8 @@ Merson_Main_FreeHealGuy,Je kunt je Pokémon gratis~genezen in elk Pokémon-~Cent
 Merson_Main_QuestionKid_AskQuestion,Ben jij een goede trainer...?
 Merson_Main_QuestionKid_AnswerYes,Echt waar? Da's zo cool!*Ik niet...
 Merson_Main_QuestionKid_AnswerNo,Hahaha, niet dus.*Kun je me dan je Pokémon~geven?*Alsjeblieft?
-Merson_Main_Sign_Gym,Merson City~Pokémon Gym~Leider: Karpman*Als een Vis in het Water!
-Merson_Main_Sign_City,Merson City*Het nobele kleine stadje.
+Merson_Main_Sign_Gym,Mertenstad~Pokémon Gym~Leider: Karpman*Als een Vis in het Water!
+Merson_Main_Sign_City,Mertenstad*Het nobele kleine stadje.
 Merson_Main_Sign_Challenge,Vind je jezelf sterk?*Ga Karpman uitdagen!
 Merson_Main_Sign_SouthRijonGate,Zuid-Rijon Poort~Route 88*In aanbouw~Binnenkort geopend!*Luster City~Bouwbedrijf
 Merson_Main_Sign_PokemonFanClub,Pokémon-Fanclub~Alle Pokémon-fans zijn welkom!
@@ -4495,8 +4497,8 @@ Merson_FanClub_ReceiveVoucher,<Player.Name> ontving een~Fiets-waardebon!*Ruil di
 Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!
 Merson_CuboneHouse_Girl,Zeg eens hoi tegen mijn lieve Cubone!
 
-Merson_Gym_Statues_BeforeDefeat,Merson City~Pokémon Gym~Leider: Karpman*Winnende Trainers:~Mura
-Merson_Gym_Statues_AfterDefeat,Merson City~Pokémon Gym~Leider: Karpman*Winnende Trainers:~Mura~<Player.Name>
+Merson_Gym_Statues_BeforeDefeat,Mertenstad~Pokémon Gym~Leider: Karpman*Winnende Trainers:~Mura
+Merson_Gym_Statues_AfterDefeat,Mertenstad~Pokémon Gym~Leider: Karpman*Winnende Trainers:~Mura~<Player.Name>
 Merson_Gym_GymGuy_BeforeBadge_Question,Gym Gast: Hallo daar.*Als je op zoek bent naar~een uitdaging, ben je op de~juiste plaats.*Wil je meer leren over de~Leider Karpman?
 Merson_Gym_GymGuy_BeforeBadge_Yes,Top, daar gaan we!*Karpman gebruikt Water-Pokémon.*Je beste kans tegen hem is om~een Gras- of een Elektrische~Pokémon te gebruiken.
 Merson_Gym_GymGuy_BeforeBadge_No,Luister nou even.*Dankjewel.*Karpman gebruikt Water-Pokémon.*Je beste kans tegen hem is om~een Gras- of een Elektrische~Pokémon te gebruiken.
@@ -4508,7 +4510,7 @@ Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welkom bij de Merson~City Gym, ui
 Merson_Gym_LeaderKarpman_OutroMessage,Karpman: Verdorie!*Je hebt mijn Pokémon~verslagen.*Als bewijs van je overwinning,~is hier de Marine Badge!
 Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: Dat is een officiële~Rijon League Badge!*De Pokémon van de drager~worden er sterker door!*De techniek Flits kan nu op~elk moment worden gebruikt!*Maar alle grotten in Rijon~zijn verlicht door de Shinra~Elektriciteitsmaatschappij,~dus het is een beetje~nutteloos nu...*Wacht! Neem dit mee!
 Merson_Gym_LeaderKarpman_AfterBattle2,Een TM bevat een techniek~die aan Pokémon kan~worden geleerd!*TM's zijn voor eenmalig~gebruik!*Dus als je er een gebruikt om~een nieuwe techniek aan te~leren, kies de Pokémon dan~zorgvuldig uit!*TM 12 bevat Octazooka!~Het is een Water-aanval die~de nauwkeurigheid van je~tegenstander kan verlagen!
-Merson_Gym_LeaderKarpman_TalkAgain,Karpman: Dat was een episch~gevecht!*De volgende Gym Leider is~Lily die in Owsauri City woont.*Als je naar het noorden blijft~gaan, ben je er zo!
+Merson_Gym_LeaderKarpman_TalkAgain,Karpman: Dat was een episch~gevecht!*De volgende Gym Leider is~Lily die in Slotwaterstad woont.*Als je naar het noorden blijft~gaan, ben je er zo!
 Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Question,Karpman: Je bent een heel~eind stroomopwaarts gezwommen~sinds de laatste keer dat ik~je zag.*Jullie zijn sterk geworden,~maar ik denk dat ik jullie nog~wel een beetje in het getij~rond kan werpen.*Durf je de vishaak te grijpen?
 Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Answer_No,Karpman: Ben je er niet klaar~voor?*Dat is prima, kom maar terug~als je er aan toe bent!*Maar probeer niet naar mijn~strategie te vissen, dan vang~je bot!
 Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Answer_Yes,Karpman: Ik wist het wel!*Laten we wat wilde golven~pakken, kampioentje!
@@ -4517,9 +4519,9 @@ Merson_Gym_LeaderKarpman_Rematch_AfterBattle,Karpman: Ik denk dat iedereen~zijn 
 
 
 [Route 55]
-Route55_Sign_Route,Route 55~Mt. Boulder Bergpas*Merson City - Dok-Onderdoorgang
+Route55_Sign_Route,Route 55~Zwerfkeibergpas*Mertenstad - Kade-onderdoorgang
 Route55_Sign_RainbowTower,Regenboogtoren
-Route55_Sign_MtBoulder,Mt. Boulder*Sluiproute naar Eagulou City*Er zit een briefje bij:~Kijk uit! Een Pokémon heeft~zich onlangs genesteld~in Mt. Boulder en de~temperatuur is er gedaald tot~het vriespunt!*Er is een extra notitie aan~toegevoegd: Arme Growlithe...
+Route55_Sign_MtBoulder,Zwerfkeiberg*Sluiproute naar Tromtorenstad*Er zit een briefje bij:~Kijk uit! Een Pokémon heeft~zich onlangs genesteld~in Zwerfkeiberg en de~temperatuur is er gedaald tot~het vriespunt!*Er is een extra notitie aan~toegevoegd: Arme Growlithe...
 Route55_PokeManiacRoger_IntroMessage,Hé kleintje, wil je mijn Pokémon zien?
 Route55_PokeManiacRoger_OutroMessage,Oh nee! Mijn Pokémon!
 Route55_PokeManiacRoger_DefeatMessage,Ik mag jou niet omdat je me~verslagen hebt!
@@ -4575,11 +4577,11 @@ Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,Ik heb deze Pokémon niet~nod
 Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,Wat vind je van die gekke~kleine Pokémon die ik je~heb gegeven?*Ik heb hem gedownload van een~of andere oplichterswebsite~en mijn computer raakte~geïnfecteerd met een~raar virus.*Ik werd zo kwaad dat ik mijn~laptop uit het raam gooide,~mijn huis verkocht, in dit~appartement ging wonen en~buiten een bord ophing om~iedereen weg te houden van~mijn stommiteit.*Toen had ik een black-out en~schreef ik een heleboel dingen~op het schoolbord.*Ik kwam bij met een~verschrikkelijke hoofdpijn.*Nieuwe types?*Ik weet niet eens wat een~type is. Man, wat ben ik dom.
 
 [Dock Underpass]
-DockUnderpass_Entrance_Route55_Girl,Dit pad leidt naar Route 52, ook wel bekend als de Hayward-Dokken.
+DockUnderpass_Entrance_Route55_Girl,Dit pad leidt naar Route 52, ook wel bekend als de Haagwachterkades.
 DockUnderpass_Entrance_Route52_HomelessGuy,Hier woon ik omdat ik geen~geld heb...
 
 [Route 52]
-Route52_Sign,Route 52~Hayward-Dokken*Hayward City - Dok-Onderdoorgang
+Route52_Sign,Route 52~Haagwachterkades*Haagwachterstad - Kade-onderdoorgang
 Route52_MagmarTraderHouse_Father,Wonen in de stad?*Waarom? Ik vind het hier~geweldig.*Geen vervelende~straatschoffies.
 Route52_MagmarTraderHouse_MagmarTrade_Question,Hoi! Wil je een Abra ruilen~voor een Magmar?
 Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Nou ja...
@@ -4595,11 +4597,11 @@ Route52_Hayward_Gate_Aide_ExpAll_AnswerYes_30OrMorePokemon,Even zien...*Geweldig
 Route52_Hayward_Gate_Aide_ExpAll_AnswerYes_LessThan30Pokemon,Even zien...*Oh-oh!~Je hebt niet genoeg soorten~Pokémon gevangen!*Je hebt 30 soorten nodig als~je de Team-ervaringsdeler wilt.
 Route52_Hayward_Gate_Aide_ExpAll_AnswerNo,Oh, ik begrijp het.~Als je 30 soorten hebt,~kom dan terug voor de~Team-ervaringsdeler.
 Route52_Hayward_Gate_Aide_ExpAll_AfterReceiveExpAll,Veel plezier ermee!
-Route52_Hayward_Gate_BugCatcher,Deze poort leidt rechtstreeks~naar Hayward City.*Ik hou van die stad!
+Route52_Hayward_Gate_BugCatcher,Deze poort leidt rechtstreeks~naar Haagwachterstad.*Ik hou van die plek!
 
 [Hayward City]
 Hayward_Main_Sign_SouthlandMall,Het grootste winkelcentrum~in Rijon!*Winkelcentrum Zuidland
-Hayward_Main_Sign_City,Hayward City*Een rustige, vredige stad om~in te vertoeven!
+Hayward_Main_Sign_City,Haagwachterstad*Een rustige, vredige stad om~in te vertoeven!
 Hayward_Main_Sign_TrainerTips,Trainer-Tips*Als je op [<system.button(back1)>] drukt~tijdens een evolutie~dan stopt het hele proces.
 
 Hayward_Main_Lass,Mijn fossiel werd tot leven~gewekt door een paar maffe~labjongens in het wit.
@@ -4648,7 +4650,7 @@ Hayward_Main_Mura_AfterBattle,Mura: Je hebt deze keer~misschien gewonnen, maar i
 
 Hayward_PokeCenter_BenchGuy,Het zou geweldig zijn als de~Elite Vier Team Rocket zouden~komen verdrijven!
 Hayward_PokeCenter_Gentleman,Als je een fossiel kunt vinden,~zal dat lab hiernaast het tot~leven kunnen wekken!
-Hayward_PokeCenter_PokeFan,Ik kom uit Eagulou City.
+Hayward_PokeCenter_PokeFan,Ik kom uit Tromtorenstad.
 
 Hayward_FossilLab_LaprasTrade_Question,Ik zoek naar een Clefairy!~Wil je er eentje ruilen tegen een Lapras?
 Hayward_FossilLab_LaprasTrade_Answer_No,Awww! Nou ja...
@@ -4656,7 +4658,7 @@ Hayward_FossilLab_LaprasTrade_AfterTrade,Is mijn oude Lapras niet~geweldig?
 Hayward_FossilLab_LaprasTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Hayward_FossilLab_LaprasTrade_TradeFail,Wat? Dat is geen Clefairy!*Als je er eentje vindt, kom~dan hier terug!
 Hayward_FossilLab_LaprasTrade_CatchMethod,Ontvangen in een ruil
-Hayward_FossilLab_LaprasTrade_CatchLocation,in het Hayward Fossielen-Lab
+Hayward_FossilLab_LaprasTrade_CatchLocation,in het Haagwachter-Fossielenlab
 Hayward_FossilLab_FossilReviver_Question,Hé daar!*Ik bestudeer graag fossielen.*Heb je er een die ik met~deze machine weer tot~leven kan wekken?
 Hayward_FossilLab_FossilReviver_NoFossil,Nee?*WEGWEZEN!
 Hayward_FossilLab_FossilReviver_Answer_No,Verspil mijn tijd dan niet!~Kom terug als je dat wel hebt!
@@ -4664,15 +4666,15 @@ Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! Dat is een Schroeffossi
 Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! Dat is een Koepelfossiel!~Het is een fossiel van Kabuto,~een Pokemon die al~uitgestorven is!*Ik zal het tot leven wekken~voor je, wil je dat?
 Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! Dat is een Schedelfossiel!~Het is een fossiel van Cranidos,~een Pokemon die al~uitgestorven is!*Ik zal het tot leven wekken~voor je, wil je dat?
 Hayward_FossilLab_FossilReviver_Question_OldAmber,Oh! Dat is Oud Amber!~Het is een fossiel van Aerodactyl,~een Pokemon die al~uitgestorven is!*Ik zal het tot leven wekken~voor je, wil je dat?
-Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Schroeffossiel!*Loop rond in Eagulou en~kom weer terug, dan kan~ik het afmaken!
-Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Koepelfossiel!*Loop rond in Eagulou en~kom weer terug, dan kan~ik het afmaken!
-Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Schedelfossiel!*Loop rond in Eagulou en~kom weer terug, dan kan~ik het afmaken!
-Hayward_FossilLab_FossilReviver_Answer_OldAmber,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Oud Amber!*Loop rond in Eagulou en~kom weer terug, dan kan~ik het afmaken!
-Hayward_FossilLab_FossilReviver_NoSand,Stop geen zand in je tas!~Loop gewoon rond in Eagulou!*Wat er in je kleren blijft~zitten is genoeg!
-Hayward_FossilLab_FossilReviver_HaveSand,Bedankt voor het Eagulou-zand!*...*Klaar!~Veel plezier met je nieuwe~Pokemon!
+Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Schroeffossiel!*Loop rond in Tromtorenstad~en kom weer terug, dan kan~ik het afmaken!
+Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Koepelfossiel!*Loop rond in Tromtorenstad~en kom weer terug, dan kan~ik het afmaken!
+Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Schedelfossiel!*Loop rond in Tromtorenstad~en kom weer terug, dan kan~ik het afmaken!
+Hayward_FossilLab_FossilReviver_Answer_OldAmber,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Oud Amber!*Loop rond in Tromtorenstad~en kom weer terug, dan kan~ik het afmaken!
+Hayward_FossilLab_FossilReviver_NoSand,Stop geen zand in je tas!~Loop gewoon rond in~Tromtorenstad!*Wat er in je kleren blijft~zitten is genoeg!
+Hayward_FossilLab_FossilReviver_HaveSand,Bedankt voor het Tromtoren-zand!*...*Klaar!~Veel plezier met je nieuwe~Pokemon!
 Hayward_FossilLab_FossilPokemon_ToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 Hayward_FossilLab_FossilPokemon_CatchMethod,Tot leven gewekt
-Hayward_FossilLab_FossilPokemon_CatchLocation,in het Hayward Fossielen-Lab
+Hayward_FossilLab_FossilPokemon_CatchLocation,in het Haagwachter-Fossielenlab
 
 Hayward_StrengthHouse_Amulets,Een collectie amuletten.
 Hayward_StrengthHouse_StrengthMan_Question,Hé, heb je mijn speciale amulet~gezien?*Het is heel belangrijk voor me,~maar ik ben het kwijt!
@@ -4715,10 +4717,10 @@ Hayward_SouthlandMall_Floor4_PokeDollGuy,Geen Poké-Poppen meer hier?*Dat is toc
 Hayward_SouthlandMall_Floor5_Gentleman,Pokémon-vaardigheids-~versterkers kunnen alleen hier~worden gekocht.*Gebruik Calcium om Speciale~Aanvalskracht te verhogen en~Zink om Speciale Verdediging~te verhogen.*Gebruik Koolhydraten om~Snelheid te verhogen.
 Hayward_SouthlandMall_Floor5_Sailor,Ik ben hier voor de Pokémon-~vaardigheidsversterkers.*Proteïne verhoogt Aanvalskracht.*Ijzer verhoogt Verdediging!
 
-Hayward_Bunker_Entrance_Fisherman,Kwam je net uit de bunker?*Die plek is zo goed als~verlaten.*Zelfs wilde Pokémon gaan er af~en toe naar binnen.*Mijn vriendin is zo~geobsedeerd met het~onderhouden ervan omdat ze~bang is voor die legendarische~Hoeders... arm kind, bang voor~een oud verhaal!*Ze wilde zelfs andere~warp-platforms in de regio~bouwen, maar deze en de~achteringang bij Mt. Boulder~zijn de enige die ze voor~elkaar heeft kunnen krijgen.
+Hayward_Bunker_Entrance_Fisherman,Kwam je net uit de bunker?*Die plek is zo goed als~verlaten.*Zelfs wilde Pokémon gaan er af~en toe naar binnen.*Mijn vriendin is zo~geobsedeerd met het~onderhouden ervan omdat ze~bang is voor die legendarische~Hoeders... arm kind, bang voor~een oud verhaal!*Ze wilde zelfs andere~warp-platforms in de regio~bouwen, maar deze en de~achteringang bij Zwerfkeiberg~zijn de enige die ze voor~elkaar heeft kunnen krijgen.
 
 [Route 64]
-Route64_Sign_Route,Route 64~Hayward Laaglanden*Hayward City -~Naljo Grens (Gesloten)
+Route64_Sign_Route,Route 64~Haagwachterlaaglanden*Haagwachterstad -~Naljo-grens (Gesloten)
 Route64_Sign_ComingSoon,Binnenkort hier: een~hogesnelheidsverbinding met~de wereld!*De Magneettrein: onderweg~van Naljo naar Rijon.*Geschatte voltooiing: 3 years.~Sorry voor de stofwolken!*Luster City~Bouwbedrijf*       Magneettrein~We Komen Er Wel
 Route64_ConstructionWorker_BorderClosed,De grens met Naljo is gesloten~vanwege de bouw van de~Magneettrein.*Onze excuses voor het ongemak.
 Route64_LassLaura_IntroMessage,Dit is een mooie plek om uit~te rusten.
@@ -4726,7 +4728,7 @@ Route64_LassLaura_OutroMessage,Oh! Nu ben ik helemaal~gestrest!
 Route64_LassLaura_DefeatMessage,Misschien houd ik hier later~wel een picknick...*Nee, ik ontspan me wel gewoon...
 
 [Route 51]
-Route51_Sign,Route 51~Voetheuvelpas*Hayward City - Anza'de Maze
+Route51_Sign,Route 51~Voetheuvelpas*Haagwachterstad - Anza's Doolhof
 Route51_BugCatcherPhillip_IntroMessage,Dit is de Goudklompjesclub!~We geven goudklompjes weg aan~iedereen die ons allemaal~kan verslaan!*Probeer het eens!
 Route51_BugCatcherPhillip_OutroMessage,Woow! Goed bezig!
 Route51_BugCatcherPhillip_DefeatMessage,Ik heb mijn best gedaan,~Ik heb er geen spijt van.
@@ -4748,7 +4750,7 @@ Route51_ExGruntGreg_OutroMessage,Jep, jij bent goed!
 Route51_ExGruntGreg_DefeatMessage,Ga bij de splitsing rechtsaf~om bij een stad te komen.
 
 [Route 50]
-Route50_Sign,Route 50~Anza'de Maze*Owsauri City - Hayward City
+Route50_Sign,Route 50~Anza'de Maze*Slotwaterstad - Haagwachterstad
 Route50_HikerGustav_IntroMessage,Ik heb gehoord dat dit pad~naar Johto leidt.
 Route50_HikerGustav_OutroMessage,Je hebt hard gewerkt!
 Route50_HikerGustav_DefeatMessage,Maar ik weet het niet helemaal~zeker.
@@ -4758,7 +4760,7 @@ Route50_YoungsterTim_DefeatMessage,Alle Pokémon hebben zwakke~punten.*Het is he
 Route50_HikerIrwin_IntroMessage,Denk je dat je sterk bent?
 Route50_HikerIrwin_OutroMessage,Je bent me er eentje.
 Route50_HikerIrwin_DefeatMessage,Ik denk dat je weet dat je~sterk bent!
-Route50_YoungsterKevin_IntroMessage,Ik woon in Owsauri City en~we weten veel over Pokémon!
+Route50_YoungsterKevin_IntroMessage,Ik woon in Slotwaterstad en~we weten veel over Pokémon!
 Route50_YoungsterKevin_OutroMessage,Ik ben niet boos!
 Route50_YoungsterKevin_DefeatMessage,Ik denk dat ik wat meer moet~trainen, hè?
 Route50_LassBelle_IntroMessage,Ik ben altijd klaar voor de~strijd!
@@ -4787,7 +4789,7 @@ Route49_BirdKeeperRichard_DefeatMessage,Ik wil Johto heel graag~bezoeken!
 Route49_BirdKeeperDavid_IntroMessage,Ik kan niet stoppen met~het verzamelen van~vliegende Pokémon!
 Route49_BirdKeeperDavid_OutroMessage,Ik moest je lastig vallen!
 Route49_BirdKeeperDavid_DefeatMessage,In het weekend verzamel ik ook~zee-Pokémon!
-Route49_Sign_BridgeRoad,Route 49~Brugweg*Owsauri City -~Johto-grens (Rinjoh Fietspad)
+Route49_Sign_BridgeRoad,Route 49~Brugweg*Slotwaterstad -~Johto-grens (Rinjoh Fietspad)
 Route49_Sign_NoPedestriansPermitted,Rinjoh Fietspad~Voetgangers niet toegestaan!
 
 [Route 49 - Route 50 Gate]
@@ -4795,7 +4797,7 @@ Route49_Route50_Gate_TM39Girl_BeforeGive,Ik heb dit niet nodig, dus je~mag het h
 Route49_Route50_Gate_TM39Girl_AfterGive,TM 39 is een techniek die~Vlug heet.*Hij is heel nauwkeurig, dus~gebruik hem tijdens gevechten~die je je niet kunt veroorloven~om te verliezen.
 Route49_Route50_Gate_Guard,Daarboven is een uitkijkpost!
 Route49_Route50_Gate_Binoculars_Left,<Player.Name> keek door de~verrekijker...*Een fietsende man!
-Route49_Route50_Gate_Binoculars_Right,<Player.Name> keek door de~verrekijker...*Azalea Town!
+Route49_Route50_Gate_Binoculars_Right,<Player.Name> keek door de~verrekijker...*Azaleadorp!
 
 [Route 49 Gate]
 Route49_Gate_RhyhornTrade_Question,Ik ben op zoek naar een~Shellder!*Wil je er een ruilen voor~een Rhyhorn?
@@ -4806,14 +4808,14 @@ Route49_Gate_RhyhornTrade_TradeFail,Wat? Dat is geen Rhyhorn!*Als je er eentje v
 Route49_Gate_RhyhornTrade_CatchMethod,Ontvangen in een ruil
 Route49_Gate_RhyhornTrade_CatchLocation,in de Poort op Route 49
 Route49_Gate_Binoculars_Left,<Player.Name> keek door de~verrekijker...*Daar zwemmen wat mensen!
-Route49_Gate_Binoculars_Right,<Player.Name> keek door de~verrekijker...*Daar is Hayward City!
+Route49_Gate_Binoculars_Right,<Player.Name> keek door de~verrekijker...*Daar is Haagwachterstad!
 
 [Owsauri City]
 Owsauri_Main_Sign_DayCare,Pokémon-Dagopvang
-Owsauri_Main_Sign_City,Owsauri City*De Levendige Stad Der Lusten!
+Owsauri_Main_Sign_City,Slotwaterstad*De Levendige Stad Der Lusten!
 Owsauri_Main_Sign_NameRater,Naambeoordelaar
-Owsauri_Main_Sign_Casino,Owsauri City's Casino
-Owsauri_Main_Sign_Gym,Owsauri City~Pokémon Gym~Leider: Lily*De Coolste IJskoude DJ!
+Owsauri_Main_Sign_Casino,Slotwaterstad's Casino
+Owsauri_Main_Sign_Gym,Slotwaterstad~Pokémon Gym~Leider: Lily*De Coolste IJskoude DJ!
 Owsauri_Main_Youngster,Deze stad is een grote fan~van Pokémon.*Ze kunnen er geen genoeg van~krijgen!
 Owsauri_Main_Gambler,Laat je Pokémon achter bij de~Dagopvangman en hij zal voor~ze zorgen!
 Owsauri_Main_Rocker,Ik vraag me af hoe het met~mijn Voltorb gaat?
@@ -4829,7 +4831,7 @@ Owsauri_Main_Meowth_Cry2,<Player.Name> ontving $1!
 
 Owsauri_PokeCenter_BenchGirl,Mijn papa is nog steeds in~het casino.*Hij zei dat ik hier moest~wachten...
 Owsauri_PokeCenter_BirdKeeper,Je kunt niet winnen met maar~één sterke Pokémon.*Het is een uitdaging, maar je~moet ze gelijkmatig opvoeden.
-Owsauri_PokeCenter_Lass,Ten noorden van Jaeru City~ligt de Rijon League.
+Owsauri_PokeCenter_Lass,Ten noorden van Laeterwirstad~ligt de Rijon League.
 
 Owsauri_PokeMart_Lass,Heb je X-Snelheid geprobeerd?~Hiermee kun je de snelheid~van een Pokémon in een~gevecht verhogen!
 Owsauri_PokeMart_Hiker,Ze verkopen hier Afweerders,~die wilde Pokémon bij~je weghouden!
@@ -4877,31 +4879,31 @@ Owsauri_NameRater_RenamePokemon_WhatName,Prima! Hoe zullen we hem~noemen?
 Owsauri_NameRater_RenamePokemon_NewName,Oké! Deze Pokémon heeft een~nieuwe naam gekregen:~<pokemon.nickname(<pokemon.selected>)>!*Dat is een betere naam dan~voorheen!
 Owsauri_NameRater_NoOrCancel,Prima! Kom maar langs wanneer~je wilt!
 
-Owsauri_GamblerHouse_Son,I hope the Day Care Man is~taking good care of my~Pokémon.
-Owsauri_GamblerHouse_Mother_MoveTutor_Question,My husband is addicted~to the slots, not even my~kisses are enough for him~anymore.*Maybe your Pokémon would~appreciate them more.*Would you like me to teach one~of your Pokémon the move~Draining Kiss for only $2000?
-Owsauri_GamblerHouse_Mother_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
-Owsauri_GamblerHouse_Mother_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
-Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Draining Kiss.
-Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Draining Kiss!
-Owsauri_GamblerHouse_Mother_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
+Owsauri_GamblerHouse_Son,Ik hoop dat de Dagopvangman~goed voor mijn Pokémon zorgt.
+Owsauri_GamblerHouse_Mother_MoveTutor_Question,Mijn man is verslaafd aan de~gokkasten, zelfs mijn kussen~zijn niet meer genoeg~voor hem.*Misschien zouden jouw Pokémon~ze meer waarderen.*Wil je dat ik een van je~Pokémon de techniek Zuigende~Kus leer voor maar $2000?
+Owsauri_GamblerHouse_Mother_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
+Owsauri_GamblerHouse_Mother_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
+Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Zuigende Kus al.
+Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Zuigende Kus niet leren!
+Owsauri_GamblerHouse_Mother_MoveTutor_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 
-Owsauri_GamblerHouse_Father,Yawn. My wife told me to take~a break.
+Owsauri_GamblerHouse_Father,Gaap. Mijn vrouw zei dat ik~een pauze moest nemen.
 
-Owsauri_Casino_1F_Fisherman_1,Gambling is healthy!
-Owsauri_Casino_1F_Fisherman_2,<Player.Name> received 10 coins!
-Owsauri_Casino_1F_Fisherman_3,Wins and losses balance.
-Owsauri_Casino_1F_PokeFanMale_Green,These slots never let~me win...*I don't know how I'll~earn it back.
-Owsauri_Casino_1F_PokeFanFemale_Red,I make a living with this!
-Owsauri_Casino_1F_PokeManiac,Hey!*Leave me alone, I'm on a roll!
-Owsauri_Casino_1F_AdultWoman_Green,I love this!*More money!
-Owsauri_Casino_1F_Gentleman_Purple_1,Want to get addicted to~gambling? Let me help you!
-Owsauri_Casino_1F_Gentleman_Purple_2,<Player.Name> received 20 coins!
-Owsauri_Casino_1F_Gentleman_Purple_3,You can start with the~Voltorb Flip game over there!
-Owsauri_Casino_1F_Gambler_Blue,I might as well live here.
-Owsauri_Casino_1F_GamblingClerk_1,What's up? Want some coins?
-Owsauri_Casino_1F_GamblingClerk_2,<Player.Name> received 20 coins!
-Owsauri_Casino_1F_GamblingClerk_3,Darn! I need more coins for~the Pokémon I want!
-Owsauri_Casino_1F_ForgotCoinCase,Oops! Forgot the Coin Case!
+Owsauri_Casino_1F_Fisherman_1,Gokken is gezond!
+Owsauri_Casino_1F_Fisherman_2,<Player.Name> ontving 10 munten!
+Owsauri_Casino_1F_Fisherman_3,Winsten en verliezen zijn in balans.
+Owsauri_Casino_1F_PokeFanMale_Green,Deze gokkasten laten me nooit~winnen...*Ik weet niet hoe ik het terug~kan verdienen.
+Owsauri_Casino_1F_PokeFanFemale_Red,Ik verdien hier mijn brood mee!
+Owsauri_Casino_1F_PokeManiac,Hé!*Laat me met rust, het gaat~als een tierelier!
+Owsauri_Casino_1F_AdultWoman_Green,Hier hou ik van!*Meer geld!
+Owsauri_Casino_1F_Gentleman_Purple_1,Wil je verslaafd raken aan~gokken? Laat me je helpen!
+Owsauri_Casino_1F_Gentleman_Purple_2,<Player.Name> ontving 20 munten!
+Owsauri_Casino_1F_Gentleman_Purple_3,Je kunt daar beginnen met het~Voltorb Flip-spel daarzo!
+Owsauri_Casino_1F_Gambler_Blue,Ik kan hier net zo goed gaan wonen.
+Owsauri_Casino_1F_GamblingClerk_1,Wat is er? Wil je wat munten?
+Owsauri_Casino_1F_GamblingClerk_2,<Player.Name> ontving 20 munten!
+Owsauri_Casino_1F_GamblingClerk_3,Verdorie! Ik heb meer munten~nodig voor de Pokémon die~ik wil!
+Owsauri_Casino_1F_ForgotCoinCase,Oeps! Ik ben de Muntenkist~vergeten!
 Owsauri_Casino_1F_SlotMachine,Only adults are allowed to use~the slot machines!
 Owsauri_Casino_1F_SlotMachine_Rigged_OutOfOrder,This slot machine is out of~order!
 Owsauri_Casino_1F_SlotMachine_Rigged_Side,There's a subtle mark on this~machine... is it a prism?
@@ -4936,8 +4938,7 @@ Owsauri_Casino_B1F_Shop_PokemonCatchLocation,Owsauri Casino
 Owsauri_Casino_B1F_Shop_Left_Chikorita,Chikorita         2500C
 Owsauri_Casino_B1F_Shop_Left_Cyndaquil,Cyndaquil         3500C
 Owsauri_Casino_B1F_Shop_Left_Totodile,Totodile           3500C
-Owsauri_Casino_B1F_Shop_Center_Eevee_Espeon,Eevee #1      3500C
-Owsauri_Casino_B1F_Shop_Center_Eevee_Glaceon,Eevee #2      3500C
+Owsauri_Casino_B1F_Shop_Center_Eevee,Eevee             3500C
 Owsauri_Casino_B1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
 Owsauri_Gym_Statues_BeforeDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura
@@ -5350,11 +5351,11 @@ Botan_MrRumikoHouse_Magazine,Pokémon Monthly
 Botan_MrRumikoHouse_MrRumiko_BeforeReceivePokeFlute,Mr. Rumiko: Alright,~<Player.Name>!*Here is the gift I promised~you.*It's a very popular item...~a PokéFlute!
 Botan_MrRumikoHouse_MrRumiko_AfterReceivePokeFlute,Mr. Rumiko: Upon hearing the~PokéFlute, any sleeping~Pokémon will wake up right~away!
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_Question,Mr. Rumiko: Good luck and~thanks again for saving me,~<Player.Name>!*I learned a couple of things~on my strolls through the~forest, would you like me to~teach one of your Pokémon~the move Dark Pulse for only~$3000?
-Botan_MrRumikoHouse_MrRumiko_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
-Botan_MrRumikoHouse_MrRumiko_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
-Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Dark Pulse.
-Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Dark Pulse!
-Botan_MrRumikoHouse_MrRumiko_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Duisterpuls al.
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Duisterpuls niet leren!
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 
 
 Botan_TradeHouse_Blackbelt,Eevee evolves based on where~it grew up.*That girl's Eevee came from~a huge forest.
@@ -5374,8 +5375,8 @@ Botan_TradeHouse_NoivernTrade_CatchMethod,Received in a trade
 Botan_TradeHouse_NoivernTrade_CatchLocation,in Botan City
 
 Botan_MoveTutorHouse_MoveTutor_Intro,I tutor children, but I also~tutor Pokémon.*I teach them to remember~moves they forgot.*$1000 per lesson.~How about it?
-Botan_MoveTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
-Botan_MoveTutorHouse_MoveTutor_WhichPokemon,Which Pokémon should I tutor?
+Botan_MoveTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
+Botan_MoveTutorHouse_MoveTutor_WhichPokemon,Welke Pokémon moet ik de~techniek leren?
 Botan_MoveTutorHouse_MoveTutor_WhichMove,Which move should it learn?
 Botan_MoveTutorHouse_MoveTutor_Outro,If any of your Pokémon need~to remember a move,~come visit me!
 Botan_MoveTutorHouse_MoveDeleter_Intro,Mom says I'm so forgetful~that it is contagious.*Want me to make a Pokémon~forget a move?
@@ -5509,10 +5510,10 @@ Castro_PokeCenter_Fisherman,Are you interested in fishing?~An old rod might not 
 
 Castro_PunchTutorHouse_MoveTutor_Intro,Hooha!*Oh, hi there kid. I'm training~to beat my rival, Koji!*Do you want to train with me?*I could teach one of your~Pokémon a move or two...~for a price.*What do you want to learn?
 Castro_PunchTutorHouse_MoveTutor_LearnQuestion,Would you like me to teach one~of your Pokémon the move~<storage.get(string,MoveName)> for only $3000?
-Castro_PunchTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
-Castro_PunchTutorHouse_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
-Castro_PunchTutorHouse_MoveTutor_Move_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows <storage.get(string,MoveName)>.
-Castro_PunchTutorHouse_MoveTutor_Move_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~<storage.get(string,MoveName)>!
+Castro_PunchTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
+Castro_PunchTutorHouse_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
+Castro_PunchTutorHouse_MoveTutor_Move_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek <storage.get(string,MoveName)> al.
+Castro_PunchTutorHouse_MoveTutor_Move_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~<storage.get(string,MoveName)> niet leren!
 Castro_PunchTutorHouse_MoveTutor_FacePunch,Face Punch
 Castro_PunchTutorHouse_MoveTutor_Choose_FacePunch,You sure?*Well, if that's what you want,~here I come!*Hooha!
 Castro_PunchTutorHouse_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~a move!
@@ -5996,17 +5997,17 @@ League_Exterior_Sign,      Rijon League~El Norteño Summit*E pluribus unum.
 League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and the~current Champion in order to~receive that title.*Go for it.
 League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Yo! Champ!*So you defeated all Elite Four~members?*They have been training~nonstop to become the Champion~themselves, so if you plan to~challenge them again, you~better be prepared!*Also, have you visited the~Gym Leaders again?*Now that you've become the~Champion they'll battle you~with all their might!
 League_EntranceHall_MoveTutor_Female_Question,Do you think you're ready?*Good, go in!*But first, I know a move that~can help you out.*Would you like me to teach one~of your Pokémon the move~Giga Impact for only $8000?
-League_EntranceHall_MoveTutor_Female_NotEnoughMoney,Hmmm...*You don't have enough money!
-League_EntranceHall_MoveTutor_Female_WhichPokémon,Which Pokémon should I tutor?
-League_EntranceHall_MoveTutor_Female_GigaImpact_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Giga Impact.
-League_EntranceHall_MoveTutor_Female_GigaImpact_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Giga Impact!
-League_EntranceHall_MoveTutor_Female_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
+League_EntranceHall_MoveTutor_Female_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
+League_EntranceHall_MoveTutor_Female_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
+League_EntranceHall_MoveTutor_Female_GigaImpact_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Giga-impact al.
+League_EntranceHall_MoveTutor_Female_GigaImpact_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Giga-impact niet leren!
+League_EntranceHall_MoveTutor_Female_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 League_EntranceHall_MoveTutor_Male_Question,They sell very powerful TMs~here, but not the Fire Blast~one...~because I bought all of them!*Would you like me to teach~one of your Pokémon the move~Fire Blast for only $9000?
-League_EntranceHall_MoveTutor_Male_NotEnoughMoney,Hmmm...*You don't have enough money!
-League_EntranceHall_MoveTutor_Male_WhichPokémon,Which Pokémon should I tutor?
-League_EntranceHall_MoveTutor_Male_FireBlast_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Fire Blast.
-League_EntranceHall_MoveTutor_Male_FireBlast_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Fire Blast!
-League_EntranceHall_MoveTutor_Male_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
+League_EntranceHall_MoveTutor_Male_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
+League_EntranceHall_MoveTutor_Male_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
+League_EntranceHall_MoveTutor_Male_FireBlast_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Vuurschot al.
+League_EntranceHall_MoveTutor_Male_FireBlast_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Vuurschot niet leren!
+League_EntranceHall_MoveTutor_Male_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 League_EntranceHall_EliteFourLoreGuy_Intro,Eight Badges?!*You've sure come a long way~kid.*Would you like to know more~about the Elite Four?
 League_EntranceHall_EliteFourLoreGuy_Question,Who do you want to know about?
 League_EntranceHall_EliteFourLoreGuy_Answer_Redd,Rijon's first Elite Four~member! Redd specializes in~the Fire-type.*Always hot and ready for~battle, she used to be a~member of the Kanto Pokémon~Federation, hence she is~always on her beloved bike.*It is said she was powerful~enough to terrify all of the~other members of the gang,~thereby attracting the~attention of the Rijon League.*It is said that nothing can~scare Redd, who, legend says,~fought off a wild Ursaring~with her bare hands.
@@ -6117,11 +6118,11 @@ Route34_Route47_IlexForest_Gate_Boulder,<Player.Name>: This boulder seems~to hav
 
 [Route 34]
 Route34_MoveTutor_Question,I screamed so much when the~earthquake happened that my~Donphan learned a move!*Maybe if I scream again, one of~your Pokémon will learn it too?*I don't scream for free though.*Would you like me to teach one~of your Pokémon the move~Hyper Voice for only $8000?
-Route34_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
-Route34_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
-Route34_MoveTutor_HyperVoice_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Hyper Voice.
-Route34_MoveTutor_HyperVoice_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Hyper Voice!
-Route34_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
+Route34_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
+Route34_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
+Route34_MoveTutor_HyperVoice_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Hyperstem al.
+Route34_MoveTutor_HyperVoice_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Hyperstem niet leren!
+Route34_MoveTutor_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 
 Route34_ScientistMax_IntroMessage,I do experiments in the Onwa~region!
 Route34_ScientistMax_OutroMessage,Where is Onwa...?
@@ -6145,11 +6146,11 @@ Azalea_Main_Clerk_Question,My shop! What am I going to do~now? At least I was ab
 Azalea_Main_Clerk_Store,Take your time.
 Azalea_Main_Clerk_Quit,Thank you!
 Azalea_Main_MoveTutor_Question,I need some money to do~repairs.*Would you like me to teach one~of your Pokémon the move~False Swipe for only $1000?
-Azalea_Main_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
-Azalea_Main_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
-Azalea_Main_MoveTutor_FalseSwipe_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows False Swipe.
-Azalea_Main_MoveTutor_FalseSwipe_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~False Swipe!
-Azalea_Main_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~the move!
+Azalea_Main_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
+Azalea_Main_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
+Azalea_Main_MoveTutor_FalseSwipe_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Stompe klap al.
+Azalea_Main_MoveTutor_FalseSwipe_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Stompe klap niet leren!
+Azalea_Main_MoveTutor_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 
 Azalea_PokeCenter_Fisherman,Kid, that was some quake!
 Azalea_PokeCenter_BenchGuy,Thank goodness everyone is~okay!
