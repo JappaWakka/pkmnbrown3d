@@ -10,7 +10,7 @@ Cities:
 {"PlaceType"[City]}{"Name"[Castro Valley]}{"MapFiles"[Castro\Main.dat,Castro\PokeMart.dat,Castro\PokeCenter.dat,Castro\OldRodHouse.dat,Castro\TradeHouse.dat,Castro\CastroManor\B1F.dat,Castro\CastroManor\1F.dat,Castro\CastroManor\2F.dat,Castro\CastroManor\3F.dat]}{"Position"[16,10]}{"Size"[Small]}{"FlyTo"[Castro\Main.dat,21,12,16]}
 {"PlaceType"[City]}{"Name"[Eagulou City]}{"MapFiles"[Eagulou\Main.dat,Eagulou\PokeCenter.dat,Eagulou\PokeMart.dat,Caves\Eagulou\Main.dat,Gyms\Eagulou.dat]}{"Position"[8,12]}{"Size"[Small]}{"FlyTo"[Eagulou\Main.dat,15,12,12]}
 {"PlaceType"[City]}{"Name"[Rijon League]}{"MapFiles"[League\Exterior.dat,League\EntranceHall.dat,League\Elite4\Redd.dat,League\Elite4\Jared.dat,League\Elite4\Agatha.dat,League\Elite4\Blanch.dat,League\Elite4\Champion.dat,League\HallOfFame.dat]}{"Position"[12,1]}{"Size"[Small]}{"FlyTo"[League\Exterior.dat,14,12,14]}
-{"PlaceType"[City]}{"Name"[Azalea Town]}{"MapFiles"[Azalea\Main.dat,Azalea\PokeCenter.dat,Gyms\Azalea.dat]}{"Position"[17,15]}{"Size"[Horizontal]}{"FlyTo"[Azalea\Main.dat,21,12,14]}
+{"PlaceType"[City]}{"Name"[Azalea Town]}{"MapFiles"[Azalea\Main.dat,Azalea\PokeCenter.dat,Gyms\Azalea.dat]}{"Position"[17,15]}{"Size"[Small]}{"FlyTo"[Azalea\Main.dat,21,12,14]}
 
 Routes:
 
@@ -121,7 +121,7 @@ Places:
 {"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[Routes\67\PokeCenter.dat,Routes\67\TeleportScientistHouse.dat]}{"Position"[15,5]}{"Size"[Small]}{"FlyTo"[Routes\67\Main.dat,28,12,8]}
 {"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[Caves\SenecaCaverns\1F_East.dat,Caves\SenecaCaverns\1F_West.dat,Caves\SenecaCaverns\B1F.dat,Caves\SenecaCaverns\B2F_Area0.dat,Caves\SenecaCaverns\B2F_Area1.dat,Caves\SenecaCaverns\B2F_Area2.dat,Caves\SenecaCaverns\B2F_Area3.dat,Caves\SenecaCaverns\B2F_Area4.dat]}{"Position"[15,5]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Ilex Forest]}{"MapFiles"[IlexForest.dat]}{"Position"[16,15]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Slowpoke Well]}{"MapFiles"[Azalea\SlowpokeWell\1F.dat,Azalea\SlowpokeWell\B1F.dat]}{"Position"[19,15]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Slowpoke Well]}{"MapFiles"[Azalea\SlowpokeWell\1F.dat,Azalea\SlowpokeWell\B1F.dat]}{"Position"[17,14]}{"Size"[Small]}
 
 {"PlaceType"[City]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\Island.dat,FinalDungeon\Lobby.dat,FinalCave.dat,FinalShop.dat]}{"Position"[9,1]}{"Size"[Small]}{"FlyTo"[FinalDungeon\Island.dat,21,12,16]}{"Visible"[Unlock]}
 {"PlaceType"[Place]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\MainBuilding_1F.dat,FinalDungeon\MainBuilding_B1F.dat,FinalDungeon\MainBuilding_B2F.dat,FinalDungeon\MainBuilding_B3F.dat,FinalDungeon\SmallRoom0.dat,FinalDungeon\SmallRoom1.dat,FinalDungeon\HealRoom.dat,FinalDungeon\UndergroundCaveMaze_1F.dat,FinalDungeon\SmallRoom2.dat,FinalDungeon\SmallCave.dat,FinalDungeon\UndergroundCaveMaze_B1F.dat,FinalDungeon\SmallRoom3.dat,FinalDungeon\JohtoLegendaryRoom.dat,FinalDungeon\WarpRoom.dat]}{"Position"[9,3]}{"Size"[Small]}{"Visible"[Temporary]}
