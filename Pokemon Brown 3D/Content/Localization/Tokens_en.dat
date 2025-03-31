@@ -664,6 +664,7 @@ Places_Rijon League,Rijon League
 Places_Madame Renifler,Madame Renifler
 Places_Ilex Forest,Ilex Forest
 Places_Slowpoke Well,Slowpoke Well
+Places_Bunker,Bunker
 Places_Gate,Gate
 Places_Final Dungeon,Final Dungeon
 
@@ -4539,8 +4540,6 @@ Owsauri_Casino_B1F_Shop_Intro,We exchange your coins~for prizes!
 Owsauri_Casino_B1F_Shop_NoThanks,No Thanks
 Owsauri_Casino_B1F_Shop_NotEnoughCoins,Sorry, you need more coins.
 Owsauri_Casino_B1F_Shop_ChoosePokemon,So, you want <pokedex.getname(<storage.get(int,PokeNumber)>)>?
-Owsauri_Casino_B1F_Shop_ReceivedPokemon,<Player.Name> got~<pokedex.getname(<storage.get(int,PokeNumber)>)>!
-Owsauri_Casino_B1F_Shop_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 Owsauri_Casino_B1F_Shop_PokemonCatchMethod,Purchased from
 Owsauri_Casino_B1F_Shop_PokemonCatchLocation,Owsauri Casino
 Owsauri_Casino_B1F_Shop_Left_Chikorita,Chikorita         2500C
@@ -4559,7 +4558,7 @@ Owsauri_Gym_SwimmerMaleEd_DefeatMessage,Lily is always training~her Pokémon!
 Owsauri_Gym_JrTrainerFemaleBethy_IntroMessage,Lily shouldn't waste her~time with you!
 Owsauri_Gym_JrTrainerFemaleBethy_OutroMessage,You overwhelmed me!
 Owsauri_Gym_JrTrainerFemaleBethy_DefeatMessage,You have to face other~trainers to find out how~good you really are.
-Owsauri_Gym_LeaderLily_BeforeBattle,Lily: Heya! Who have we got~here?*<Player.Name>: the name's~<Player.Name>, and I'm here for~your Hail Badge!*Lily: You're not going to get~it that easy! You've got Lily~as your host, and my Ice-type~Pokémon will freeze you solid!~Live on the air, skating~through the ice as gracefully~as a winter's day... let's go!
+Owsauri_Gym_LeaderLily_BeforeBattle,Lily: Heya! Who have we got~here?*<Player.Name>: The name's~<Player.Name>, and I'm here for~your Hail Badge!*Lily: You're not going to get~it that easy! You've got Lily~as your host, and my Ice-type~Pokémon will freeze you solid!~Live on the air, skating~through the ice as gracefully~as a winter's day... Let's go!
 Owsauri_Gym_LeaderLily_OutroMessage,Lily: Wow! You're too much!
 Owsauri_Gym_LeaderLily_AfterBattle1,Lily: All right!*You can have the Hail Badge~that will help you!*The Hail Badge lets you~use Cut any time if you~have the HM!*Also please take this TM, it~will surely prove useful!
 Owsauri_Gym_LeaderLily_AfterBattle2,TM 13 teaches Ice Beam!*Use it on an Ice Pokémon!
@@ -5394,7 +5393,7 @@ Eagulou_Main_MistStoneBarrier,Something pushes you.
 Eagulou_Main_SandInClothes,<Player.Name>: There's some sand~stuck in my clothes.*I hope it's enough for that~scientist in Hayward City!
 
 Eagulou_PokeCenter_CoolTrainerFemale,My boyfriend is busy catching~Pokémon from the Eagulou Park.
-Eagulou_PokeCenter_Gentleman,What is with that cave, and I don't mean Mt. Boulder...
+Eagulou_PokeCenter_Gentleman,What is with that cave, and I~don't mean Mt. Boulder...
 Eagulou_PokeCenter_BenchGuy,Pokémon can still learn~techniques after canceling~evolution.*Evolution can wait until~new moves have been learned.
 
 Eagulou_PokeMart_ExtraItemsGirl,It never hurts to have extra~items!

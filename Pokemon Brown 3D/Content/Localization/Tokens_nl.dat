@@ -310,8 +310,8 @@ option_screen_battle,Gevecht
 option_screen_battle_3dmodels,3D Modellen
 option_screen_battle_animations,Animaties
 option_screen_battle_battlestyle,Gevechtstijl
-option_screen_battle_battlestyle_shift,Wisselen
-option_screen_battle_battlestyle_set,Doorgaan
+option_screen_battle_battlestyle_shift,Wissel
+option_screen_battle_battlestyle_set,Vast
 
 option_screen_controls,Besturing
 option_screen_controls_xboxgamepad,Xbox Gamepad
@@ -412,7 +412,7 @@ map_screen_roaming,Dwalende Pokémon
 Trainer Card Screen:
 trainer_screen_title,Trainerkaart
 trainer_screen_collected_badges,Verzamelde badges
-trainer_screen_badge, Badge
+trainer_screen_badge,-Badge
 trainer_screen_empty_badge,???
 ---
 Save Screen:
@@ -658,6 +658,7 @@ Places_Rijon League,Rijon League
 Places_Madame Renifler,Madame Renifler
 Places_Ilex Forest,Ilex-Bos
 Places_Slowpoke Well,Slowpoke-Waterput
+Places_Bunker,Bunker
 Places_Gate,Poort
 Places_Final Dungeon,Laatste Uitdaging
 
@@ -4507,7 +4508,7 @@ Merson_Gym_GymGuy_AfterBadge,Gym Gast: Nou, misschien ben~je wel speciaal op het
 Merson_Gym_LifeguardSilas_IntroMessage,Hoe gaat ie? Mijn naam is~Silas!*Je bent hier om mijn maatje~Lochlan te verslaan voor~een Badge?*Dan moet je eerst langs mij!
 Merson_Gym_LifeguardSilas_OutroMessage,Oeps!
 Merson_Gym_LifeguardSilas_DefeatMessage,Ik ben uit Zuid-Rijon~gekomen om te trainen~onder Karpman's vin.*Zeg hem alsjeblieft niet~dat ik je zijn echte naam~heb verteld!*Hij haat het als mensen hem~zo noemen.*Zuid-Rijon krijgt vast en~zeker zijn eigen Pokémon~League en als die er komt,~word ik een van de Leiders,~net als Lochlan!*...Oeps! Nou deed ik het weer!
-Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welkom bij de Merson~City Gym, uitdager!*<Player.Name>: Dus jij bent een~Gym Leider?*Karpman: Inderdaad!*Mijn naam is Karpman en ik~ben gespecialiseerd in Water-~type Pokémon!*Als je me verslaat, krijg je~de Marine Badge.*Behaal alle acht Badges in de~hele regio en je krijgt de~kans om Rijon's Kampioen te worden!*Maar ik zal het je niet~makkelijk maken.*Zet je schrap voor golven van~nederlagen!*<Player.Name>: Kom maar op,~Karpman!
+Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welkom bij de Merson~City Gym, uitdager!*<Player.Name>: Dus jij bent een~Gym Leider?*Karpman: Inderdaad!*Mijn naam is Karpman en ik~ben gespecialiseerd in Water-~type Pokémon!*Als je me verslaat, krijg je~de Marine-Badge.*Behaal alle acht Badges in de~hele regio en je krijgt de~kans om Rijon's Kampioen te worden!*Maar ik zal het je niet~makkelijk maken.*Zet je schrap voor golven van~nederlagen!*<Player.Name>: Kom maar op,~Karpman!
 Merson_Gym_LeaderKarpman_OutroMessage,Karpman: Verdorie!*Je hebt mijn Pokémon~verslagen.*Als bewijs van je overwinning,~is hier de Marine Badge!
 Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: Dat is een officiële~Rijon League Badge!*De Pokémon van de drager~worden er sterker door!*De techniek Flits kan nu op~elk moment worden gebruikt!*Maar alle grotten in Rijon~zijn verlicht door de Shinra~Elektriciteitsmaatschappij,~dus het is een beetje~nutteloos nu...*Wacht! Neem dit mee!
 Merson_Gym_LeaderKarpman_AfterBattle2,Een TM bevat een techniek~die aan Pokémon kan~worden geleerd!*TM's zijn voor eenmalig~gebruik!*Dus als je er een gebruikt om~een nieuwe techniek aan te~leren, kies de Pokémon dan~zorgvuldig uit!*TM 12 bevat Octazooka!~Het is een Water-aanval die~de nauwkeurigheid van je~tegenstander kan verlagen!
@@ -4875,7 +4876,7 @@ Owsauri_Daycare_DaycareMan_Answer_TakeBack,Neem Terug
 
 Owsauri_NameRater_Intro,Hello,Hallo!~Ik ben de officiële~Naambeoordelaar.*Wil je dat ik de bijnamen~van jouw Pokémon beoordeel?
 Owsauri_NameRater_RenamePokemon_WhichPokemon,Welke Pokémon moet ik~bekijken?
-Owsauri_NameRater_RenamePokemon_BetterNickname,I<storage.get(string,PokeName)>, toch?~Dat is een mooie bijnaam!*Maar, wil je dat ik hem een~mooiere naam geef?*Wat denk je ervan?
+Owsauri_NameRater_RenamePokemon_BetterNickname,<storage.get(string,PokeName)>, toch?~Dat is een mooie bijnaam!*Maar, wil je dat ik hem een~mooiere naam geef?*Wat denk je ervan?
 Owsauri_NameRater_RenamePokemon_WhatName,Prima! Hoe zullen we hem~noemen?
 Owsauri_NameRater_RenamePokemon_NewName,Oké! Deze Pokémon heeft een~nieuwe naam gekregen:~<pokemon.nickname(<pokemon.selected>)>!*Dat is een betere naam dan~voorheen!
 Owsauri_NameRater_NoOrCancel,Prima! Kom maar langs wanneer~je wilt!
@@ -4905,54 +4906,52 @@ Owsauri_Casino_1F_GamblingClerk_1,Wat is er? Wil je wat munten?
 Owsauri_Casino_1F_GamblingClerk_2,<Player.Name> ontving 20 munten!
 Owsauri_Casino_1F_GamblingClerk_3,Verdorie! Ik heb meer munten~nodig voor de Pokémon die~ik wil!
 Owsauri_Casino_1F_ForgotCoinCase,Oeps! Ik ben de Muntenkist~vergeten!
-Owsauri_Casino_1F_SlotMachine,Only adults are allowed to use~the slot machines!
-Owsauri_Casino_1F_SlotMachine_Rigged_OutOfOrder,This slot machine is out of~order!
-Owsauri_Casino_1F_SlotMachine_Rigged_Side,There's a subtle mark on this~machine... is it a prism?
-Owsauri_Casino_1F_SlotMachine_Rigged_Reward1,<Player.Name>: Woah! This Slot~Machine just paid out even~though I didn't do anything!
-Owsauri_Casino_1F_SlotMachine_Rigged_Reward2,<Player.Name> found <Storage.Get(int,FreeCoinAmount)> coins!*<Player.Name>: The message~on-screen says to come back~later? Strange...
-Owsauri_Casino_1F_SlotMachine_Rigged_ComeBackLater,<Player.Name>: The message~on-screen says to come back~later? Strange...
-Owsauri_Casino_1F_VoltorbFlipGame_Question,Hello there, challenger!~Ready to play Voltorb Flip?
-Owsauri_Casino_1F_VoltorbFlipGame_Answer_Yes,I'll set up the game for you!
-Owsauri_Casino_1F_VoltorbFlipGame_Answer_No,Very well.~Come play again later!
-Owsauri_Casino_1F_Clerk_VoltorbFlip_BeforeTalking,Hello there, kid!~You look like quite a challenger!*Why don't you try our new~coin game, Voltorb Flip?*You can get some great prizes~if you collect enough coins!*Just take a seat and I'll set~up the game for you.*Be sure to have your~Coin Case ready!
-Owsauri_Casino_1F_Clerk_VoltorbFlip_AfterTalking,Just take a seat and I'll set~up the game for you.*Be sure to have your~Coin Case ready!
-Owsauri_Casino_1F_Clerk_CoinBuy_Question,Welcome to Owsauri's Casino!*Are you in need of game coins?*It's only $1000 for 50 coins,~and $10000 for 500 coins!~Would you like some?
-Owsauri_Casino_1F_Clerk_CoinBuy_No,No? Please come play~sometime!
-Owsauri_Casino_1F_Clerk_CoinBuy_Buy50Coins,Thanks! Here are your~50 coins!
-Owsauri_Casino_1F_Clerk_CoinBuy_Buy500Coins,Thanks! Here are your~500 coins!
-Owsauri_Casino_1F_Clerk_CoinBuy_NotEnoughMoney,You can't afford the coins!
-Owsauri_Casino_1F_Clerk_CoinBuy_NoCoinCase,You don't have a Coin Case!
-Owsauri_Casino_1F_Clerk_CoinBuy_Answer_50Coins,50 Coins          $1000
-Owsauri_Casino_1F_Clerk_CoinBuy_Answer_500Coins,500 Coins       $10000
-Owsauri_Casino_1F_Clerk_CoinBuy_Answer_NoThanks,No Thanks
-Owsauri_Casino_1F_Clerk_Directions,Welcome to Owsauri Casino!*You can exchange your coins~for prizes in the basement.*Our slot machines are for~adults only, but feel free to~give our Voltorb Flip coin game~a try!
-Owsauri_Casino_B1F_FatGuy_Blue,I really need some Rare Candy~for my Pokémon!
-Owsauri_Casino_B1F_Gambler_Purple,I had a major haul today!
-Owsauri_Casino_B1F_Shop_Intro,We exchange your coins~for prizes!
-Owsauri_Casino_B1F_Shop_NoThanks,No Thanks
-Owsauri_Casino_B1F_Shop_NotEnoughCoins,Sorry, you need more coins.
-Owsauri_Casino_B1F_Shop_ChoosePokemon,So, you want <pokedex.getname(<storage.get(int,PokeNumber)>)>?
-Owsauri_Casino_B1F_Shop_ReceivedPokemon,<Player.Name> got~<pokedex.getname(<storage.get(int,PokeNumber)>)>!
-Owsauri_Casino_B1F_Shop_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
-Owsauri_Casino_B1F_Shop_PokemonCatchMethod,Purchased from
-Owsauri_Casino_B1F_Shop_PokemonCatchLocation,Owsauri Casino
+Owsauri_Casino_1F_SlotMachine,Alleen volwassenen mogen de~gokkasten gebruiken!
+Owsauri_Casino_1F_SlotMachine_Rigged_OutOfOrder,Deze gokkast is buiten~werking!
+Owsauri_Casino_1F_SlotMachine_Rigged_Side,Er zit een subtiel merkteken~op deze machine... is het~een prisma?
+Owsauri_Casino_1F_SlotMachine_Rigged_Reward1,<Player.Name>: Wauw! Deze gokkast heeft~net uitbetaald ondanks dat~ik niets heb gedaan!
+Owsauri_Casino_1F_SlotMachine_Rigged_Reward2,<Player.Name> vond <Storage.Get(int,FreeCoinAmount)> munten!*<Player.Name>: Het bericht op het~scherm zegt 'kom later~terug'? Vreemd...
+Owsauri_Casino_1F_SlotMachine_Rigged_ComeBackLater,<Player.Name>: Het bericht op het~scherm zegt 'kom later~terug'? Vreemd...
+Owsauri_Casino_1F_VoltorbFlipGame_Question,Hallo daar, speler!~Zin om Voltorb Flip te spelen?
+Owsauri_Casino_1F_VoltorbFlipGame_Answer_Yes,Ik zal het spel voor je~klaarzetten!
+Owsauri_Casino_1F_VoltorbFlipGame_Answer_No,Goed dan.~Kom later nog eens spelen!
+Owsauri_Casino_1F_Clerk_VoltorbFlip_BeforeTalking,Hallo daar, kleintje!*Je ziet eruit als een echte~speler!*Waarom probeer je ons nieuwe~muntenspel Voltorb Flip~niet uit?*Je kunt prachtige prijzen~winnen als je genoeg~munten verzamelt!*Neem maar plaats, dan zet ik~het spel voor je klaar.*Zorg ervoor dat je je~Muntenkist bij de hand hebt!
+Owsauri_Casino_1F_Clerk_VoltorbFlip_AfterTalking,Neem maar plaats, dan zet ik~het spel voor je klaar.*Zorg ervoor dat je je~Muntenkist bij de hand hebt!
+Owsauri_Casino_1F_Clerk_CoinBuy_Question,Welkom bij het Slotwater-~Casino!*Heb je speelmunten nodig?*Het is slechts $1000 voor~50 munten, en $10000 voor~500 munten!~Wil je er een paar?
+Owsauri_Casino_1F_Clerk_CoinBuy_No,Niet? Nou, kom later nog eens~spelen!
+Owsauri_Casino_1F_Clerk_CoinBuy_Buy50Coins,Dankjewel! Hier zijn je~50 munten!
+Owsauri_Casino_1F_Clerk_CoinBuy_Buy500Coins,Dankjewel! Hier zijn je~500 munten!
+Owsauri_Casino_1F_Clerk_CoinBuy_NotEnoughMoney,Je kan de munten niet betalen!
+Owsauri_Casino_1F_Clerk_CoinBuy_NoCoinCase,Je hebt geen Muntenkist!
+Owsauri_Casino_1F_Clerk_CoinBuy_Answer_50Coins,50 Munten          $1000
+Owsauri_Casino_1F_Clerk_CoinBuy_Answer_500Coins,500 Munten       $10000
+Owsauri_Casino_1F_Clerk_CoinBuy_Answer_NoThanks,Nee Bedankt
+Owsauri_Casino_1F_Clerk_Directions,Welkom bij het Slotwater-~Casino!*Je kunt je munten inwisselen~voor prijzen in de kelder.*Onze gokautomaten zijn alleen~voor volwassenen, maar voel je~vrij om ons Voltorb Flip-~muntenspel eens te proberen!
+Owsauri_Casino_B1F_FatGuy_Blue,Ik heb echt wat Zeldzame~Snoepjes nodig voor~mijn Pokémon!
+Owsauri_Casino_B1F_Gambler_Purple,Ik had een grote buit vandaag!
+Owsauri_Casino_B1F_Shop_Intro,We ruilen je munten in voor~prijzen!
+Owsauri_Casino_B1F_Shop_NoThanks,Nee Bedankt
+Owsauri_Casino_B1F_Shop_NotEnoughCoins,Sorry, je hebt meer munten~nodig.
+Owsauri_Casino_B1F_Shop_ChoosePokemon,Dus je wilt <pokedex.getname(<storage.get(int,PokeNumber)>)>?
+Owsauri_Casino_B1F_Shop_PokemonCatchMethod,Gekocht bij het
+Owsauri_Casino_B1F_Shop_PokemonCatchLocation,Slotwater-Casino
 Owsauri_Casino_B1F_Shop_Left_Chikorita,Chikorita         2500C
 Owsauri_Casino_B1F_Shop_Left_Cyndaquil,Cyndaquil         3500C
 Owsauri_Casino_B1F_Shop_Left_Totodile,Totodile           3500C
 Owsauri_Casino_B1F_Shop_Center_Eevee,Eevee             3500C
 Owsauri_Casino_B1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
-Owsauri_Gym_Statues_BeforeDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura
-Owsauri_Gym_Statues_AfterDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura~<Player.Name>
-Owsauri_Gym_GymGuy_BeforeBadge,Yo! Champ in making!~Here’s my advice!*The Leader, Lily loves to use~Ice Pokémon.*If you have Fire or Rock~Pokémon, her Pokémon won’t~stand a chance!
-Owsauri_Gym_GymGuy_AfterBadge,Lily was defeated?*Hopefully you were 'ice about~it! I am too funny!
-Owsauri_Gym_SwimmerMaleEd_IntroMessage,Splash!*Ready for an ice fight?
-Owsauri_Gym_SwimmerMaleEd_OutroMessage,That can't be!
-Owsauri_Gym_SwimmerMaleEd_DefeatMessage,Lily is always training~her Pokémon!
-Owsauri_Gym_JrTrainerFemaleBethy_IntroMessage,Lily shouldn't waste her~time with you!
-Owsauri_Gym_JrTrainerFemaleBethy_OutroMessage,You overwhelmed me!
-Owsauri_Gym_JrTrainerFemaleBethy_DefeatMessage,You have to face other~trainers to find out how~good you really are.
-Owsauri_Gym_LeaderLily_BeforeBattle,Lily: Heya! Who have we got~here?*<Player.Name>: the name's~<Player.Name>, and I'm here for~your Hail Badge!*Lily: You're not going to get~it that easy! You've got Lily~as your host, and my Ice-type~Pokémon will freeze you solid!~Live on the air, skating~through the ice as gracefully~as a winter's day... let's go!
+Owsauri_Gym_Statues_BeforeDefeat,Slotwaterstad~Pokémon Gym~Leider: Lily*Winnende Trainers:~Mura
+Owsauri_Gym_Statues_AfterDefeat,Slotwaterstad~Pokémon Gym~Leider: Lily*Winnende Trainers:~Mura~<Player.Name>
+Owsauri_Gym_GymGuy_BeforeBadge,Yo! Kampioen in de dop!~Hier is mijn advies!*De Leider, Lily, gebruikt het~liefst IJs-Pokémon.*Als je Vuur- of Rots-Pokémon~hebt, maken haar Pokémon geen~schijn van kans!
+Owsauri_Gym_GymGuy_AfterBadge,Is Lily verslagen?*Hopelijk was je blij met je~pr-ijs! Ik ben te grappig!
+Owsauri_Gym_SwimmerMaleEd_IntroMessage,Plons!*Klaar voor een ijsgevecht?
+Owsauri_Gym_SwimmerMaleEd_OutroMessage,Dat kan niet!
+Owsauri_Gym_SwimmerMaleEd_DefeatMessage,Lily is altijd haar Pokémon~aan het trainen!
+Owsauri_Gym_JrTrainerFemaleBethy_IntroMessage,Lily moet haar tijd niet met~jou verspillen!
+Owsauri_Gym_JrTrainerFemaleBethy_OutroMessage,Je hebt me overdonderd!
+Owsauri_Gym_JrTrainerFemaleBethy_DefeatMessage,Je moet het opnemen tegen~andere trainers om erachter~te komen hoe goed je~echt bent.
+Owsauri_Gym_LeaderLily_BeforeBattle,Lily: Hé! Wie hebben we hier?*De naam is <Player.Name>, en ik~ben hier voor je Hagel-Badge!*Lily: Zo makkelijk ga je hem~niet krijgen!*Je hebt Lily als je gastvrouw~en mijn IJs-type Pokémon~zullen je bevriezen!*Live in de uitzending, zo~sierlijk schaatsend over het~ijs als een winterdag...*Kom maar op!
 Owsauri_Gym_LeaderLily_OutroMessage,Lily: Wow! You're too much!
 Owsauri_Gym_LeaderLily_AfterBattle1,Lily: All right!*You can have the Hail Badge~that will help you!*The Hail Badge lets you~use Cut any time if you~have the HM!*Also please take this TM, it~will surely prove useful!
 Owsauri_Gym_LeaderLily_AfterBattle2,TM 13 teaches Ice Beam!*Use it on an Ice Pokémon!
@@ -5787,7 +5786,7 @@ Eagulou_Main_MistStoneBarrier,Something pushes you.
 Eagulou_Main_SandInClothes,<Player.Name>: There's some sand~stuck in my clothes.*I hope it's enough for that~scientist in Hayward City!
 
 Eagulou_PokeCenter_CoolTrainerFemale,My boyfriend is busy catching~Pokémon from the Eagulou Park.
-Eagulou_PokeCenter_Gentleman,What is with that cave, and I don't mean Mt. Boulder...
+Eagulou_PokeCenter_Gentleman,What is with that cave, and I~don't mean Mt. Boulder...
 Eagulou_PokeCenter_BenchGuy,Pokémon can still learn~techniques after canceling~evolution.*Evolution can wait until~new moves have been learned.
 
 Eagulou_PokeMart_ExtraItemsGirl,It never hurts to have extra~items!
