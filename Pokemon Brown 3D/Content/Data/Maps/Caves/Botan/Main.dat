@@ -1,4 +1,4 @@
-{"Level"{LEV[{"Name"{str[Botan City Cave]}}{"MusicLoop"{str[CaveMusic1]}}{"WildPokemon"{bool[1]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[Botan Cave]}}{"MusicLoop"{str[CaveMusic1]}}{"WildPokemon"{bool[1]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[1]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[2]}}{"Weather"{int[1]}}]}}
 
 Floors:
@@ -102,6 +102,8 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[9,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
 		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[26,0,26]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[112,0,16,16]}}{"Remove"{bool[1]}}]}}
 		
+	Invisible
+		{"Floor"{ENT[{"Size"{intArr[2,1]}}{"Position"{intArr[12,0,30]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[32,96,16,16]}}{"Visible"{bool[0]}}]}}
 Ceiling:
 	Regular
 		{"EntityField"{ENT[{"Size"{intArr[42,42]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[-7,5,-7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[80,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
