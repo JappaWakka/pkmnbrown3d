@@ -1,7 +1,53 @@
-﻿Version=2
-@Music.Play(NewGameIntro)
+Version=2
+
+@Screen.FadeOutColor(255,255,255)
+@screen.fadeout(20)
 @camera.set(9,0.5,9,0,0-0.1)
 @camera.update
+@storage.set(bool,SelectedDifficulty,false)
+:while:<storage.get(bool,SelectedDifficulty)>=false
+	
+	:if:<Register.Registered(DifficultyStart)>=false
+		@Text.Show(<system.token(DifficultySelect_Question1)>)
+		@Register.Register(DifficultyStart)
+	:else
+		@Text.Show(<system.token(DifficultySelect_Question2)>)
+	:endif
+	
+	@Options.SetCancelIndex(0)
+	@Options.Show(<system.token(option_screen_game_difficulty_easy)>,<system.token(option_screen_game_difficulty_hard)>,<system.token(option_screen_game_difficulty_superhard)>)
+		:when:<system.token(option_screen_game_difficulty_easy)>
+			@Text.Show(<system.token(DifficultySelect_Answer_Normal)>)
+			@Options.SetCancelIndex(1)
+			@Options.Show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@Player.SetDifficulty(0)
+					@storage.set(bool,SelectedDifficulty,true)
+			:endwhen
+		:when:<system.token(option_screen_game_difficulty_hard)>
+			@Text.Show(<system.token(DifficultySelect_Answer_Hard)>)
+			@Options.SetCancelIndex(1)
+			@Options.Show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@Player.SetDifficulty(1)
+					@storage.set(bool,SelectedDifficulty,true)
+			:endwhen
+		:when:<system.token(option_screen_game_difficulty_superhard)>
+			@Text.Show(<system.token(DifficultySelect_Answer_Nuzlocke)>)
+			@Options.SetCancelIndex(1)
+			@Options.Show(<system.token(global_yes)>,<system.token(global_no)>)
+				:when:<system.token(global_yes)>
+					@Player.SetDifficulty(2)
+					@storage.set(bool,SelectedDifficulty,true)
+			:endwhen
+	:endwhen
+:endwhile
+@Text.Show(<system.token(DifficultySelect_End)>)
+@Screen.FadeOutColor(255,255,255)
+@Screen.FadeIn(20)
+@camera.update
+
+@Music.Play(NewGameIntro)
 
 @npc.spawn(13,0,5,1,,Tim,0,1,Tim,0,Still)
 @npc.move(0,4)

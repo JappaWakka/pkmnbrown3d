@@ -3202,6 +3202,14 @@ TrainerClass_Youngster,Youngster
 -----
 Story Localization:
 
+[Difficulty Selection]
+DifficultySelect_Question1,Pokémon Brown 3D supports~different difficulty modes.*An explanation will be given~for each upon selection.*Please select your desired~difficulty.
+DifficultySelect_Question2,Please select your desired~difficulty.
+DifficultySelect_Answer_Normal,Normal: Recommended for~new players or for regulars~who prefer a more casual~playthrough.*Do you want this difficulty?
+DifficultySelect_Answer_Hard,Hard: Recommended for~more experienced players who~want a more challenging~playthrough.*The levels of wild and trainer-~owned Pokémon are multiplied~by 1.15.*Do you want this difficulty?
+DifficultySelect_Answer_Nuzlocke,Nuzlocke: Recommended for~Pokémon veterans who like to~use the Nuzlocke rules for~their playthrough.*This difficulty mode is~identical to Normal, except~you're only able capture the~first Pokémon in a location,~you have to give your Pokémon~nicknames, when your Pokémon~are defeated they are~removed from your party and~when you are out of Pokémon,~the game will be ended and~your save file will be deleted.*Do you want this difficulty?
+DifficultySelect_End,If you change your mind, you~can change the difficulty~later from the Options menu,~which can be found by~pressing [<system.button(OpenMenu)>].
+
 [Game Intro]
 NewGameIntro_1,H-hello?! You must be new~here.*Welcome to the region of~Rijon!*I am Timothy, but there are~some who call me Tim.*I am this region's Pokémon~Tutor.
 NewGameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.
@@ -5581,7 +5589,6 @@ MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~so
 MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,at Madame Renifler
-MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero. I'd let~Professor Tim take a look at~that device if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex,JappaWakka: I'd let Professor~Tim take a look at that~Pokédex if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!

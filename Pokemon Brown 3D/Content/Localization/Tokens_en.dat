@@ -3677,6 +3677,14 @@ TrainerClass_Youngster,Youngster
 -----
 Story Localization:
 
+[Difficulty Selection]
+DifficultySelect_Question1,Pokémon Brown 3D supports~different difficulty modes.*An explanation will be given~for each upon selection.*Please select your desired~difficulty.
+DifficultySelect_Question2,Please select your desired~difficulty.
+DifficultySelect_Answer_Normal,Normal: Recommended for~new players or for regulars~who prefer a more casual~playthrough.*Do you want this difficulty?
+DifficultySelect_Answer_Hard,Hard: Recommended for~more experienced players who~want a more challenging~playthrough.*The levels of wild and trainer-~owned Pokémon are multiplied~by 1.15.*Do you want this difficulty?
+DifficultySelect_Answer_Nuzlocke,Nuzlocke: Recommended for~Pokémon veterans who like to~use the Nuzlocke rules for~their playthrough.*This difficulty mode is~identical to Normal, except~you're only able capture the~first Pokémon in a location,~you have to give your Pokémon~nicknames, when your Pokémon~are defeated they are~removed from your party and~when you are out of Pokémon,~the game will be ended and~your save file will be deleted.*Do you want this difficulty?
+DifficultySelect_End,If you change your mind, you~can change the difficulty~later from the Options menu,~which can be found by~pressing [<system.button(OpenMenu)>].
+
 [Game Intro]
 NewGameIntro_1,H-hello?! You must be new~here.*Welcome to the region of~Rijon!*I am Timothy, but there are~some who call me Tim.*I am this region's Pokémon~Tutor.
 NewGameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.
@@ -4132,7 +4140,7 @@ Merson_Gym_LeaderKarpman_Rematch_AfterBattle,Karpman: I think everyone has~their
 Route55_Sign_Route,Route 55~Mt. Boulder Pass*Merson City - Dock Underpass
 Route55_Sign_RainbowTower,Rainbow Tower
 Route55_Sign_MtBoulder,Mt. Boulder*Shortcut to Eagulou City*There's a note attached:~Watch out! A Pokémon nested~in Mt. Boulder recently and~temperature in it has dropped~to freezing point!*There's an extra note:~Poor Growlithe...
-Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my Pokémon?
+Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my~Pokémon?
 Route55_PokeManiacRoger_OutroMessage,Oh no! My Pokémon!
 Route55_PokeManiacRoger_DefeatMessage,I don't like you for beating me!
 Route55_HikerBobby_IntroMessage,Ah! This mountain air is~delicious!
@@ -4148,7 +4156,7 @@ Route55_PokeManiacGlenn_IntroMessage,Wow, are you a~PokéManiac too?*No?~I'll st
 Route55_PokeManiacGlenn_OutroMessage,Humph. I'm not angry.
 Route55_PokeManiacGlenn_DefeatMessage,How could I lose to you?!
 
-Route55_RainbowTower_Floor1_MeditatingGuy,Please leave. I'm meditating~with my three Pokémon friends.
+Route55_RainbowTower_Floor1_MeditatingGuy,Please leave.*I'm meditating with my three~Pokémon friends.
 Route55_RainbowTower_Floor1_Persian_Cry,Persian: Meow!
 Route55_RainbowTower_Floor1_Rhydon_Cry,Rhydon: ROAR!
 Route55_RainbowTower_Floor1_Pikachu_Cry,Pikachu: Pika pi!
@@ -4158,8 +4166,8 @@ Route55_RainbowTower_Floor2_PC,Someone forgot to log out!*Let's change the backg
 Route55_RainbowTower_Floor2_Note,RainbowDevs~Meeting Room
 
 Route55_RainbowTower_Floor3_MeanMrMustard,MeanMrMustard: All work, and~never any credit or respect!*Meh!
-Route55_RainbowTower_Floor3_Programmer,Pfew! Work is so tough!*It's probably time for a break!*It's been 10 minutes since~my last one!
-Route55_RainbowTower_Floor3_Suloku,Suloku: Bugs, bugs and more~bugs!*Oh, sorry, this game is full~of bugs and it gets to me~at times.*When you think one is fixed,~you caused yet another one.*Hopefully I've got them all~now!*Did you know the 2024 update~of the Pokémon Brown romhack~is still old school?*That means manually making~all the changes!*At first I only wanted to~change a couple of things.~Derbs84 helped a lot at the~time since I knew nothing~about romhacking.*The project kept growing,~and so did the team.*I'm really grateful to~everyone that has helped~along the way: spriters,~testers, proofreaders...*It's amazing what people~can do when they put their~minds together!
+Route55_RainbowTower_Floor3_Programmer,Pfew! Work is so tough!*It's probably time for a~break!*It's been 10 minutes since~my last one!
+Route55_RainbowTower_Floor3_Suloku,Suloku: Bugs, bugs and more~bugs!*Oh, sorry, this game is full~of bugs and it gets to me~at times.*When you think one is fixed,~you caused yet another one.*Hopefully I've got them all~now!*Did you know the 2024 update~of the Pokémon Brown~romhack is still old school?*That means manually making~all the changes!*At first I only wanted to~change a couple of things.~Derbs84 helped a lot at the~time since I knew nothing~about romhacking.*The project kept growing,~and so did the team.*I'm really grateful to~everyone that has helped~along the way: spriters,~testers, proofreaders...*It's amazing what people~can do when they put their~minds together!
 Route55_RainbowTower_Floor3_Koolboyman,Koolboyman: Hey, I made the~original Pokémon Brown hack!*No need to thank me!*Hopefully it looks more~polished now.
 Route55_RainbowTower_Floor3_PC_MeanMrMustard,Complicated code.*Can't understand it!
 Route55_RainbowTower_Floor3_PC_Programmer,Someone's playing a game~instead of working!
@@ -4176,22 +4184,22 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Option_Gas,Gas
 Route55_RainbowTower_Floor4_Room_Blackboard_Option_Wood,Wood
 Route55_RainbowTower_Floor4_Room_Blackboard_Option_Abnormal,Abnormal
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wind,Offense - Strong towards:*Fire, Rock, Ghost, Wood and~Gas.*Offense - Weak towards:*Ground, Fighting, Grass and~Flying.*Defense - Strong against:*Fire, Rock, Ghost and Wood.*Defense - Weak against:~Electric and Flying.*Defense - Immune to: Gas.
-Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound,Offense - Strong towards:*Ghost, Steel and Water.*Offense - Weak towards:*Bug and Fighting.*Offense - No effect towards:~Sound.*Defense - Strong against:*Rock, Steel, Gas, Water, Abnormal.*Defense - Weak against:*Bug, Electric and Fighting.*Defense - Immune to: Sound.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound,Offense - Strong towards:*Ghost, Steel and Water.*Offense - Weak towards:*Bug and Fighting.*Offense - No effect towards:~Sound.*Defense - Strong against:*Rock, Steel, Gas, Water,~Abnormal.*Defense - Weak against:*Bug, Electric and Fighting.*Defense - Immune to: Sound.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*Fairy, Fire and Fighting.*Offense - Weak towards:*Grass, Ice, Rock and Sound.*Offense - No effect towards:~Wind.*Defense - Strong against:*Fairy, Ground and Fighting.*Defense - Weak against:*Electric, Fire, Grass and Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*Grass, Ice, Steel, Poison and~Water.*Offense - Weak towards:*Bug, Electric, Rock and Wind.*Offense - No effect towards:~Fire.*Defense - Strong against:*Bug and Ground.*Defense - Weak against:*Electric, Fire, Fighting and~Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and~Normal.
-Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
+Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and~HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
 Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift
 Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the Rainbow Tower
 Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,I don't need this Pokémon,~so you can have it for free...*No kid, I am not crazy, just~an idiot...
-Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,How are you liking that crazy~little Pokémon I gave to you?*I downloaded it from some scam~website and my computer got~infected with a weird virus.*I got so mad that I threw my~laptop out of the window, sold~my house, moved into this~apartment, and put up a sign~outside to keep everyone away~from my stupidity.*Then I blacked out and wrote a~whole bunch of stuff on the~blackboard.*I came to with the worst~headache.*New types?*I don't even know what a type~is. Man, am I dumb.
+Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,How are you liking that crazy~little Pokémon I gave to you?*I downloaded it from~some scam website and my~computer got infected with~a weird virus.*I got so mad that I threw my~laptop out of the window, sold~my house, moved into this~apartment, and put up a sign~outside to keep everyone~away from my stupidity.*Then I blacked out and wrote~a whole bunch of stuff on~the blackboard.*I came to with the worst~headache.*New types?*I don't even know what a type~is. Man, am I dumb.
 
 [Dock Underpass]
 DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52,~a.k.a. the Hayward Docks.
 DockUnderpass_Entrance_Route52_HomelessGuy,This is where I live because I~have no money...
 
 [Route 52]
-Route52_Sign,Route 52~Hayward Docks*Hayward City - Dock Underpass
+Route52_Sign,Route 52~Hayward Docks*Hayward City - Dock~Underpass
 Route52_MagmarTraderHouse_Father,Live in the city?*Why, I love it here.*No darn annoying hoodrats.
 Route52_MagmarTraderHouse_MagmarTrade_Question,Hi! Want to trade an Abra~for a Magmar?
 Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Oh well...
@@ -6055,7 +6063,6 @@ MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~so
 MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,at Madame Renifler
-MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero. I'd let~Professor Tim take a look at~that device if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex,JappaWakka: I'd let Professor~Tim take a look at that~Pokédex if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
