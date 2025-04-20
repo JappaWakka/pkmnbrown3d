@@ -1,14 +1,15 @@
 version=2
-
- :select:<system.random(0,3)>
- :when:0
-   @Text.Show(<system.token(Hayward_Main_Slowbro_1)>) 
- :when:1
-   @Text.Show(<system.token(Hayward_Main_Slowbro_2)>) 
- :when:2
-   @Text.Show(<system.token(Hayward_Main_Slowbro_3)>)
-   @npc.turn(1,2)
- :when:3
-   @Text.Show(<system.token(Hayward_Main_Slowbro_4)>) 
- :endwhen
+@NPC.Turn(1,<system.random(0,3)>)
+@level.update
+:select:<system.random(0,3)>
+	:when:0
+		@Text.Show(<system.token(Hayward_Main_Slowbro_1)>)
+	:when:1
+		@Text.Show(<system.token(Hayward_Main_Slowbro_2)>)
+	:when:2
+		@Text.Show(<system.token(Hayward_Main_Slowbro_3)>)
+	:when:3
+		@Text.Show(<system.token(Hayward_Main_Slowbro_4)>)
+:endwhen
+@NPC.Turn(1,2)
 :end
