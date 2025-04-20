@@ -15,7 +15,6 @@ global_yes,Ja
 global_no,Nein
 global_accept,Akzeptieren
 global_cancel,Abbrechen
-global_quit,Quit
 global_ok,OK
 global_gamemode,Spiel-Modus
 global_clear,Löschen
@@ -23,6 +22,7 @@ global_save,Speichern
 global_apply,Anwenden
 global_close,Schließen
 global_back,Zurück
+global_quit,Quit
 global_on,Ein
 global_off,Aus
 global_enabled,Aktiviert
@@ -3772,8 +3772,8 @@ Gravel_TimsLab_Choose_Charmander,Tim: So! You want the Fire~Pokémon, Charmander
 Gravel_TimsLab_Choose_Squirtle,Tim: So! You want the Water~Pokémon, Squirtle?
 Gravel_TimsLab_Choose_Bulbasaur,Tim: So! You want the Grass~Pokémon, Bulbasaur?
 Gravel_TimsLab_Choose_Confirm,Tim: Good choice!
-Gravel_TimsLab_StarterPokemon_CatchMethod,As a gift from Prof. Tim
-Gravel_TimsLab_StarterPokemon_CatchLocation,at Gravel Town
+Gravel_TimsLab_StarterPokemon_CatchMethod,As a gift from Prof. Tim at
+Gravel_TimsLab_StarterPokemon_CatchLocation,Gravel Town
 Gravel_TimsLab_Tim_LeaveBeforeChoose,Tim: Hey! Don't go away yet!
 Gravel_TimsLab_Tim_ChoosePokemon,Tim: What are you doing?*Choose a Pokémon!
 Gravel_TimsLab_Tim_GoodLuck,Tim: Good luck!
@@ -3960,8 +3960,8 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*F
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*Grass, Ice, Steel, Poison and~Water.*Offense - Weak towards:*Bug, Electric, Rock and Wind.*Offense - No effect towards:~Fire.*Defense - Strong against:*Bug and Ground.*Defense - Weak against:*Electric, Fire, Fighting and~Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and~Normal.
 Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
-Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift
-Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the Rainbow Tower
+Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift in the
+Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,Rainbow Tower
 Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,I don't need this Pokémon,~so you can have it for free...*No kid, I am not crazy, just~an idiot...
 Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,How are you liking that crazy~little Pokémon I gave to you?*I downloaded it from some scam~website and my computer got~infected with a weird virus.*I got so mad that I threw my~laptop out of the window, sold~my house, moved into this~apartment, and put up a sign~outside to keep everyone away~from my stupidity.*Then I blacked out and wrote a~whole bunch of stuff on the~blackboard.*I came to with the worst~headache.*New types?*I don't even know what a type~is. Man, am I dumb.
 
@@ -3977,8 +3977,8 @@ Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Oh well...
 Route52_MagmarTraderHouse_MagmarTrade_AfterTrade,Isn't my old Magmar great?
 Route52_MagmarTraderHouse_MagmarTrade_TradeSuccess,Okay, connect the cable~like so!
 Route52_MagmarTraderHouse_MagmarTrade_TradeFail,What? That's not Abra!*If you get one, come back~here!
-Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade
-Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,at a house at Route 52
+Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade at a house on
+Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,Route 52
 
 [Route 52 - Hayward City Gate]
 Route52_Hayward_Gate_Aide_ExpAll_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds~of Pokémon, I'm supposed to~give you an Exp. All!*So <Player.Name>! Have you~caught at least 30 kinds~of Pokémon?
@@ -4037,7 +4037,7 @@ Hayward_Main_Mura_BeforeBattle,Mura: Yo! <Player.Name>!*I just got a cool HM fro
 Hayward_Main_Mura_OutroMessage,Mura: Hey!~Take it easy!~You won already!
 Hayward_Main_Mura_AfterBattle,Mura: You may have won~this time, but I'm going to~beat the Rijon League and~become the Champion!*<Player.Name>: Not before I do!*Mura: We'll see about that...~I'll see you later.
 
-Hayward_PokeCenter_BenchGuy,I wish I had HM02.
+Hayward_PokeCenter_BenchGuy,It would be great if the~Elite Four came and stomped~Team Rocket!
 Hayward_PokeCenter_Gentleman,If you can find a fossil, that~lab next door will revive it!
 Hayward_PokeCenter_PokeFan,I came from Eagulou City.
 
@@ -4046,8 +4046,8 @@ Hayward_FossilLab_LaprasTrade_Answer_No,Awww! Oh well...
 Hayward_FossilLab_LaprasTrade_AfterTrade,Isn't my old Lapras great?
 Hayward_FossilLab_LaprasTrade_TradeSuccess,Okay, connect the cable~like so!
 Hayward_FossilLab_LaprasTrade_TradeFail,What? That's not Clefairy!*If you get one, come back~here!
-Hayward_FossilLab_LaprasTrade_CatchMethod,Received in a trade
-Hayward_FossilLab_LaprasTrade_CatchLocation,in the Hayward Fossil Lab
+Hayward_FossilLab_LaprasTrade_CatchMethod,Received in a trade in the
+Hayward_FossilLab_LaprasTrade_CatchLocation,Hayward Fossil Lab
 Hayward_FossilLab_FossilReviver_Question,Hey there!*I love to study fossils.*Do you have one I can revive~with this machine?
 Hayward_FossilLab_FossilReviver_NoFossil,No?*GET OUT!
 Hayward_FossilLab_FossilReviver_Answer_No,Don't waste my time then!~Come back when you do!
@@ -4061,8 +4061,8 @@ Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me th
 Hayward_FossilLab_FossilReviver_Answer_OldAmber,Well? Hurry up and give~me that!*<Player.Name> handed~over the Old Amber!*Walk around Eagulou and come~back, then I can finish!
 Hayward_FossilLab_FossilReviver_NoSand,Don't put sand in your bag!~Just walk around Eagulou!*What gets stuck in your~clothes will be enough!
 Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~Enjoy your new Pokemon!
-Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist
-Hayward_FossilLab_FossilPokemon_CatchLocation,in the Hayward Fossil Lab
+Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist in the
+Hayward_FossilLab_FossilPokemon_CatchLocation,Hayward Fossil Lab
 
 Hayward_StrengthHouse_Amulets,A collection of amulets.
 Hayward_StrengthHouse_StrengthMan_Question,Hey, have you seen my~special amulet?*It's really important to me~but I lost it!
@@ -4193,8 +4193,8 @@ Route49_Gate_RhyhornTrade_Answer_No,Awww! Oh well...
 Route49_Gate_RhyhornTrade_AfterTrade,Isn't my old Rhyhorn great?
 Route49_Gate_RhyhornTrade_TradeSuccess,Okay, connect the cable~like so!
 Route49_Gate_RhyhornTrade_TradeFail,What? That's not Rhyhorn!*If you get one, come back~here!
-Route49_Gate_RhyhornTrade_CatchMethod,Received in a trade
-Route49_Gate_RhyhornTrade_CatchLocation,in the Gate on Route 49
+Route49_Gate_RhyhornTrade_CatchMethod,Received in a trade in the Gate on
+Route49_Gate_RhyhornTrade_CatchLocation,Route 49
 Route49_Gate_Binoculars_Left,Looked into the binoculars...*There are people swimming!
 Route49_Gate_Binoculars_Right,Looked into the binoculars...*There's Hayward City!
 
@@ -4492,8 +4492,8 @@ Morage_PrismMuseum_EmeraldEgg_Hint,Pack your bug spray.
 Morage_PrismMuseum_EmeraldEgg_Found,The Emerald Egg!
 Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves,50 Gold Leaves!
 Morage_PrismMuseum_Egg_Reward,Amazing! Here is your reward!
-Morage_PrismMuseum_CatchMethod,Received as a reward
-Morage_PrismMuseum_CatchLocation,at the Prism Museum
+Morage_PrismMuseum_CatchMethod,Received as a reward at the
+Morage_PrismMuseum_CatchLocation,Prism Museum
 
 Moraga_Gym_Statues_BeforeDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura
 Moraga_Gym_Statues_AfterDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<Player.Name>
@@ -4528,8 +4528,8 @@ CityUnderpass_Entrance_Moraga_NidoqueenTrade_Answer_No,That's too bad.
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_AfterTrade,How is my old Nidoking?~My Nidoqueen is doing great!
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeSuccess,Okay, connect the cable~like so!
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeFail,This is no Nidoqueen.*If you get one, trade it~with me!
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod,Received in a trade
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,at the City Underpass
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod,Received in a trade at the
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,City Underpass
 CityUnderpass_Entrance_Route56_Girl,People often lose things in~that underground path.
 
 [Route 60]
@@ -4698,8 +4698,8 @@ Route59_Botan_Gate_2F_EeveeTrade_Answer_No,That's too bad.
 Route59_Botan_Gate_2F_EeveeTrade_AfterTrade,How is my old Eevee?*My Mareep is doing great!
 Route59_Botan_Gate_2F_EeveeTrade_TradeSuccess,Okay, connect the cable~like so!
 Route59_Botan_Gate_2F_EeveeTrade_TradeFail,...This is no Mareep.*If you get one, trade it~with me!
-Route59_Botan_Gate_2F_EeveeTrade_CatchMethod,Received in a trade
-Route59_Botan_Gate_2F_EeveeTrade_CatchLocation,in the Gate on Route 59
+Route59_Botan_Gate_2F_EeveeTrade_CatchMethod,Received in a trade in the Gate on
+Route59_Botan_Gate_2F_EeveeTrade_CatchLocation,Route 59
 Route59_Botan_Gate_2F_Binoculars_Left,Looked into the binoculars...*The Rijon League!
 Route59_Botan_Gate_2F_Binoculars_Right,Looked into the binoculars...*A dark forest can be~seen... maybe there are some~ghosts there...
 Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds of~Pokémon, I'm supposed to~give you an Item Finder!*So <Player.Name>! Have you~caught at least 45 kinds~of Pokémon?
@@ -4750,15 +4750,15 @@ Botan_TradeHouse_TyrogueTrade_Answer_No,Well, if you don't want to...
 Botan_TradeHouse_TyrogueTrade_AfterTrade,The Butterfree you traded to~me is doing well!
 Botan_TradeHouse_TyrogueTrade_TradeSuccess,Okay, connect the cable~like so!
 Botan_TradeHouse_TyrogueTrade_TradeFail,Hmmm? This isn't Butterfree.*Think of me when you get one.
-Botan_TradeHouse_TyrogueTrade_CatchMethod,Received in a trade
-Botan_TradeHouse_TyrogueTrade_CatchLocation,in Botan City
+Botan_TradeHouse_TyrogueTrade_CatchMethod,Received in a trade in
+Botan_TradeHouse_TyrogueTrade_CatchLocation,Botan City
 Botan_TradeHouse_NoivernTrade_Question,I'm looking for a Gligar!~Wanna trade one for a~Noivern?
 Botan_TradeHouse_NoivernTrade_Answer_No,Awww! Oh well...
 Botan_TradeHouse_NoivernTrade_AfterTrade,Isn't my old Noivern great?
 Botan_TradeHouse_NoivernTrade_TradeSuccess,Okay, connect the cable~like so!
 Botan_TradeHouse_NoivernTrade_TradeFail,What? That's not Gligar!*If you get one, come back~here!
-Botan_TradeHouse_NoivernTrade_CatchMethod,Received in a trade
-Botan_TradeHouse_NoivernTrade_CatchLocation,in Botan City
+Botan_TradeHouse_NoivernTrade_CatchMethod,Received in a trade in
+Botan_TradeHouse_NoivernTrade_CatchLocation,Botan City
 
 Botan_MoveTutorHouse_MoveTutor_Intro,I tutor children, but I also~tutor Pokémon.*I teach them to remember~moves they forgot.*$1000 per lesson.~How about it?
 Botan_MoveTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
@@ -4913,8 +4913,8 @@ Castro_TradeHouse_ChanseyTrade_Answer_No,That's too bad.
 Castro_TradeHouse_ChanseyTrade_AfterTrade,How is my old Chansey?
 Castro_TradeHouse_ChanseyTrade_TradeSuccess,Okay, connect the cable~like so!
 Castro_TradeHouse_ChanseyTrade_TradeFail,...This is no Pidgey.*If you get one, trade it with~me!
-Castro_TradeHouse_ChanseyTrade_CatchMethod,Received in a trade
-Castro_TradeHouse_ChanseyTrade_CatchLocation,in Castro Valley
+Castro_TradeHouse_ChanseyTrade_CatchMethod,Received in a trade in
+Castro_TradeHouse_ChanseyTrade_CatchLocation,Castro Valley
 
 Castro_OldRodHouse_OldRodGuy_Question,I'm the Fishing Guru's cousin!*I love to fish!*How about you?
 Castro_OldRodHouse_OldRodGuy_Answer_No,Oh...That's so disappointing...
@@ -5356,8 +5356,8 @@ Route67_PokeCenter_KangaskhanGuy_Question,Yo!*I have Kangaskhan, a Pokémon~that
 Route67_PokeCenter_KangaskhanGuy_Decline,No swaggy swag for you then.
 Route67_PokeCenter_KangaskhanGuy_NotEnoughMoney,Hey!*No dough, no...*uh...*Pokémon.
 Route67_PokeCenter_KangaskhanGuy_AfterSelling,Everyday I'm hustlin...*Oh no, did you hear me?!
-Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone
-Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,at Route 67
+Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone at
+Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,Route 67
 Route67_PokeCenter_ImpatientGuy,The teleporter is taking~forever. I want it NOW!
 
 Route67_TeleportScientist_Question,Hello there, I am...*A SCIENTIST!*I am in the process of~building a teleporter that~will warp anybody from Rijon~to Naljo.*Think of it as a shortcut to~our League because Naljo~doesn't have their own League.*Although it's taking a lot~longer than I anticipated.*People are getting impatient,~but I'm still at it!*For being so patient, would~you like a reward?
@@ -5701,8 +5701,8 @@ FinalDungeon_SmallCave_CrobatTrade_Answer_No,Well, if you don't want to...
 FinalDungeon_SmallCave_CrobatTrade_AfterTrade,Now, if only I had a protector...
 FinalDungeon_SmallCave_CrobatTrade_TradeSuccess,Okay, connect the cable~like so!
 FinalDungeon_SmallCave_CrobatTrade_TradeFail,Hmmm? This isn't Rhyhorn.*Think of me when you get one.
-FinalDungeon_SmallCave_CrobatTrade_CatchMethod,Received in a trade
-FinalDungeon_SmallCave_CrobatTrade_CatchLocation,in the Final Dungeon
+FinalDungeon_SmallCave_CrobatTrade_CatchMethod,Received in a trade in the
+FinalDungeon_SmallCave_CrobatTrade_CatchLocation,Final Dungeon
 
 FinalDungeon_SmallRoom2_GentlemanJones_IntroMessage,I don't have time for your~garbage.
 FinalDungeon_SmallRoom2_GentlemanJones_OutroMessage,I must salute you!
@@ -5738,8 +5738,8 @@ FinalDungeon_SmallRoom3_FishermanAstor_OutroMessage,I'm all out!
 FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,I get paid to just sit here.
 
 FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,What have I done?*I trapped such a graceful~Pokémon!*Please take this far far away~and let it live in peace.
-FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Received from a Rocket Grunt
-FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,in the Final Dungeon
+FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Received from a Rocket Grunt in the
+FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,Final Dungeon
 FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Now just look at that, this~doesn't deserve to be trapped~here! It's a shame those~Master Balls can be abused~this much...
 FinalDungeon_JohtoLegendaryRoom_Rocket_TalkAgain,Don't tell anyone about this,~this is our secret.
 
@@ -5832,8 +5832,8 @@ MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo,JappaWakka: Ah, <Player.
 MadameRenifler_Bridge_JappaWakka_Battle_Yes1,Alrighty then! Let's see what~you got, Champion!
 MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~some skilled battling! You've~certainly proven yourself~worthy of this reward!
 MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
-MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift
-MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,at Madame Renifler
+MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift at
+MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,Madame Renifler
 MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero. I'd let~Professor Tim take a look at~that device if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex,JappaWakka: I'd let Professor~Tim take a look at that~Pokédex if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!

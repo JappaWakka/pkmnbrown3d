@@ -3219,7 +3219,7 @@ NewGameIntro_4,<Player.Name>?*A most unusual name.~I've never heard it before!*W
 NewGameIntro_NewNameOption,-New-
 
 [Generic Tokens]
-Generic_TV_Movie,This movie is titled "Naljo's~Guardians".*It's based off Naljo mythology!
+Generic_TV_Movie,This movie is titled "Naljo's~Guardians".*It's based off Naljo~mythology!
 Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon~books!
 Generic_TownMap,It's the Town Map.
 Generic_Bed_Question,It's a bed.~Would you like to rest?
@@ -3449,7 +3449,7 @@ Seashore_PlayerHouse2F_Decoration_SquirtleDoll,<Player.Name>: A Squirtle doll!
 Seashore_PlayerHouse2F_ControlsNote_Question,It's a note on the wall about~the controls.*Do you want to read it?
 Seashore_PlayerHouse2F_ControlsNote_Controls,The controls in Pokémon 3D:~Move: [<System.Button(MoveForward)>]~Turn camera: [<System.Button(MoveLeft)>][<System.Button(MoveRight)>]~Toggle run: [<System.Button(Run)>]~Open game menu: [<System.Button(OpenMenu)>]~Battle/trade (PSS): [<System.Button(Special)>]~Toggle perspective: [<System.Button(PerspectiveSwitch)>]~Mute music: [<System.Button(MuteAudio)>]~Hide GUI: [<System.Button(HideGUI)>]~Take screenshot: [<System.Button(Screenshot)>]
 
-Seashore_RivalHouse_Father_BeforeTim,Are you headed to Tim's place?*My son Mura left home as~well, make sure he stays safe~for me, would you?
+Seashore_RivalHouse_Father_BeforeTim,Are you headed to Tim's~place?*My son Mura left home as~well, make sure he stays safe~for me, would you?
 Seashore_RivalHouse_Father_AfterTim,Hello <Player.Name>!*Have you met Mura recently?~Is he doing good?
 Seashore_RivalHouse_Sister_BrotherGone,My brother is gone!
 Seashore_RivalHouse_Note_Speary,Spearow~Name: Speary
@@ -3461,11 +3461,11 @@ Seashore_Main_YoungBoy_Red_Question,Hey! Are you going to be a~Pokémon trainer,
 Seashore_Main_YoungBoy_Red_AnswerYes,Cool!*I'm going to be one soon as~well!*It's very hard, but rewarding.
 Seashore_Main_YoungBoy_Red_AnswerNo,Why not?
 
-Seashore_Main_Sign_City,Ciudad Costamar*Where waves of new journeys~begin their long travels.
-Seashore_Main_Sign_Gym,Ciudad Costamar~Pokémon Gym~Leader: Sheryl*Master of the Extrasensory!
+Seashore_Main_Sign_City,Seashore City*Where waves of new journeys~begin their long travels.
+Seashore_Main_Sign_Gym,Seashore City~Pokémon Gym~Leader: Sheryl*Master of the Extrasensory!
 
-Seashore_Gym_Sign_BeforeDefeat,Ciudad Costamar~Pokémon Gym~Leader: Sheryl*Winning Trainers:~Mura
-Seashore_Gym_Sign_AfterDefeat,Ciudad Costamar~Pokémon Gym~Leader: Sheryl*Winning Trainers:~Mura~<Player.Name>
+Seashore_Gym_Sign_BeforeDefeat,Seashore City~Pokémon Gym~Leader: Sheryl*Winning Trainers:~Mura
+Seashore_Gym_Sign_AfterDefeat,Seashore City~Pokémon Gym~Leader: Sheryl*Winning Trainers:~Mura~<Player.Name>
 Seashore_Gym_ChannelerHelen_IntroMessage,Do your best!
 Seashore_Gym_ChannelerHelen_OutroMessage,I knew it!
 Seashore_Gym_ChannelerHelen_DefeatMessage,I need to do better next time!
@@ -3487,7 +3487,7 @@ Seashore_Gym_ChannelerSophie_DefeatMessage,Be gone!
 Seashore_Gym_ChannelerAgnes_IntroMessage,Pray.
 Seashore_Gym_ChannelerAgnes_OutroMessage,Not good enough!
 Seashore_Gym_ChannelerAgnes_DefeatMessage,Good battle.*Pray.
-Seashore_Gym_LeaderSheryl_BeforeBattle,Sheryl: Welcome to the~Ciudad Costamar Gym, <Player.Name>.*<Player.Name>: Wait, you know my~name?!*Sheryl: I've been monitoring~you ever since you were~beginning your journey. My~name is Sheryl, and I~specialize in the Psychic-~type, as you might have~guessed from my little puzzle.~I had a vision years ago that~I'd find you one day, you see.~As a psychologist, it's my job~to delve into the human~psyche. Now let me dive into~yours, and may my vision come~to fruition!
+Seashore_Gym_LeaderSheryl_BeforeBattle,Sheryl: Welcome to the~Seashore City Gym, <Player.Name>.*<Player.Name>: Wait, you know my~name?!*Sheryl: I've been monitoring~you ever since you were~beginning your journey. My~name is Sheryl, and I~specialize in the Psychic-~type, as you might have~guessed from my little puzzle.~I had a vision years ago that~I'd find you one day, you see.~As a psychologist, it's my job~to delve into the human~psyche. Now let me dive into~yours, and may my vision come~to fruition!
 Seashore_Gym_LeaderSheryl_OutroMessage,Sheryl: I'm shocked!*Alright. I can tell that you~earned this.*Take the Psi Badge!
 Seashore_Gym_LeaderSheryl_AfterBattle1,Sheryl: The Psi Badge makes~Pokémon up to Lv 70 obey you!*I predicted that you wanted~a TM to go along with this.*Well, I have the perfect one~for you!
 Seashore_Gym_LeaderSheryl_AfterBattle2,TM29 contains Psychic.*It's the strongest Psychic~attack there is!
@@ -3499,8 +3499,8 @@ Seashore_Gym_LeaderSheryl_Rematch_OutroMessage,Sheryl: You young trainers...~I w
 Seashore_Gym_LeaderSheryl_Rematch_AfterBattle,Sheryl: What does strength~even mean to you?*<Player.Name>: I'm not really~sure about the details, I just~know the stronger the trainers~and Pokémon, the more fun the~battle! So being strong is~just winning a lot, right?*Sheryl: That's just one part~of the picture. Are battles~between weak trainers any less~meaningful?*<Player.Name>: I mean, they're a~lot lamer...*Sheryl: Ha! Maybe you're right.~I never wanted to be a weak~trainer either. Just keep an~open mind, Champion.
 
 [Route 53]
-Route53_Sign,Route 53~Cañón Gravilla*Ciudad Costamar - Pueblo Gravilla
-Route53_PotionGuy_FreeSamples,Hi! The Pueblo Gravilla Mart is~giving away free samples~today, so go ahead and~take a free potion!
+Route53_Sign,Route 53~Gravel Canyon*Seashore City - Gravel Town
+Route53_PotionGuy_FreeSamples,Hi! The Gravel Town Mart is~giving away free samples~today, so go ahead and~take a free potion!
 Route53_PotionGuy_OutOfSamples,Sorry, but I'm all out of free~samples.
 Route53_OtherGuy_StraightForward,This road is pretty straight-~forward.*You can never get lost on this~road!
 
@@ -3509,9 +3509,9 @@ Gravel_Main_Tim_Late,Tim: There you are!~You're late!
 Gravel_Main_Tim_NeedPokemon,Tim: I've been waiting for you~to get here!*You need your very own~Pokémon, so come to~my lab right away!
 Gravel_Main_FreshAirGuy,I love living here!*The air is so fresh and clean.
 Gravel_Main_GameModeGuy,Did you know?*This GameMode is based on the~rom hack Pokémon Brown by~Koolboyman, which first~released on January 17th,~2004!*Years later, in 2014, Leahkim~and Miragics made the first~attempt at a 3D remake using~Pokémon 3D!*Then in 2024, JappaWakka gave~it a massive overhaul,~creating a lot of content from~scratch!
-Gravel_Main_Sign_Town,Pueblo Gravilla*A Quiet Mountain Town.
+Gravel_Main_Sign_Town,Gravel Town*A Quiet Mountain Town.
 Gravel_Main_Sign_Lab,Tim's Lab
-Gravel_Main_Sign_Cave,Cueva Merson
+Gravel_Main_Sign_Cave,Merson Cave
 
 Gravel_TimsLab_Note_OpenMenu,Press [<system.button(OpenMenu)>] to open~the Menu!
 Gravel_TimsLab_Pokedex,It's encyclopedia-like,~but the pages are blank!
@@ -3526,8 +3526,8 @@ Gravel_TimsLab_Choose_Charmander,Tim: So! You want the Fire~Pokémon, Charmander
 Gravel_TimsLab_Choose_Squirtle,Tim: So! You want the Water~Pokémon, Squirtle?
 Gravel_TimsLab_Choose_Bulbasaur,Tim: So! You want the Grass~Pokémon, Bulbasaur?
 Gravel_TimsLab_Choose_Confirm,Tim: Good choice!
-Gravel_TimsLab_StarterPokemon_CatchMethod,As a gift from Prof. Tim
-Gravel_TimsLab_StarterPokemon_CatchLocation,at Pueblo Gravilla
+Gravel_TimsLab_StarterPokemon_CatchMethod,As a gift from Prof. Tim at
+Gravel_TimsLab_StarterPokemon_CatchLocation,Gravel Town
 Gravel_TimsLab_Tim_LeaveBeforeChoose,Tim: Hey! Don't go away yet!
 Gravel_TimsLab_Tim_ChoosePokemon,Tim: What are you doing?*Choose a Pokémon!
 Gravel_TimsLab_Tim_GoodLuck,Tim: Good luck!
@@ -3555,7 +3555,7 @@ Gravel_TimsLab_Mura_HurryUp,Mura: Hurry up, I want my~turn!
 Gravel_TimsLab_Mura_BetterChoice,Mura: I made the best choice!
 Gravel_TimsLab_Mura_FirstBattle1,Wait, <Player.Name>!
 Gravel_TimsLab_Mura_FirstBattle2,Let's check out our Pokémon!~I'll probably beat you!
-Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Okay. I now understand~the difficulty of training.*<Player.Name>, we will meet again!
+Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Okay. I now~understand the difficulty~of training.*<Player.Name>, we will meet again!
 Gravel_TimsLab_Mura_OutroMessage,...Darn, I need to train this~Pokémon!
 
 Gravel_PokeMart_Youngster,Ya!~Potions are available!
@@ -3568,7 +3568,7 @@ Gravel_PokeMart_PizzaInPocket,<Player.Name> stored it in the~№ KeyItems pocket
 
 [Merson Cave]
 MersonCave_Outside_NoPokedexNoAccessGuy,Go in without a Pokédex?*Are you crazy?
-MersonCave_1F_Sign,Cueva Merson*Route 54 up ahead.
+MersonCave_1F_Sign,Merson Cave*Route 54 up ahead.
 MersonCave_1F_YoungsterTom_IntroMessage,Becoming a Pokémon trainer?
 MersonCave_1F_YoungsterTom_OutroMessage,Aw man...
 MersonCave_1F_YoungsterTom_DefeatMessage,The guys ahead of me are~much harder!
@@ -3592,7 +3592,7 @@ MersonCave_1F_BugCatcherBill_OutroMessage,You got me!
 MersonCave_1F_BugCatcherBill_DefeatMessage,Blah! You don't play nice!
 
 [Route 54]
-Route54_Sign,Route 54~Senda Merson*Cueva Merson - Ciudad Merson
+Route54_Sign,Route 54~Merson Pass*Merson Cave - Merson City
 Route54_SuperNerdCraig_IntroMessage,Hey, you broke my~concentration!
 Route54_SuperNerdCraig_OutroMessage,So noisy...
 Route54_SuperNerdCraig_DefeatMessage,This house looks nice,~I might buy it later.
@@ -3609,8 +3609,8 @@ Merson_Main_FreeHealGuy,You can go and heal your~Pokémon free of charge at~any 
 Merson_Main_QuestionKid_AskQuestion,Are you a good trainer...?
 Merson_Main_QuestionKid_AnswerYes,Really? That's so cool!*I'm not...
 Merson_Main_QuestionKid_AnswerNo,Hahaha, I guess not.*Can you give me your Pokémon~then?*Please?
-Merson_Main_Sign_Gym,Ciudad Merson~Pokémon Gym~Leader: Karpman*Feelin' Like a Fish in Water!
-Merson_Main_Sign_City,Ciudad Merson*The Noble Little Town.
+Merson_Main_Sign_Gym,Merson City~Pokémon Gym~Leader: Karpman*Feelin' Like a Fish in Water!
+Merson_Main_Sign_City,Merson City*The Noble Little Town.
 Merson_Main_Sign_Challenge,Think you're tough?*Go face Karpman!
 Merson_Main_Sign_SouthRijonGate,South Rijon Gate~Route 88*Under construction~Opening soon!*Luster City~Construction Co.
 Merson_Main_Sign_PokemonFanClub,Pokémon Fan Club~All Pokémon fans welcome!
@@ -3640,8 +3640,8 @@ Merson_FanClub_ReceiveVoucher,<Player.Name> received a~Bike Voucher!*Exchange th
 Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!
 Merson_CuboneHouse_Girl,Say hi to my cute Cubone!
 
-Merson_Gym_Statues_BeforeDefeat,Ciudad Merson~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura
-Merson_Gym_Statues_AfterDefeat,Ciudad Merson~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<Player.Name>
+Merson_Gym_Statues_BeforeDefeat,Merson City~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura
+Merson_Gym_Statues_AfterDefeat,Merson City~Pokémon Gym~Leader: Karpman*Winning Trainers:~Mura~<Player.Name>
 Merson_Gym_GymGuy_BeforeBadge_Question,Gym Guy: Hi there.*If you are looking for a~challenge, you came to the~right place.*Want to learn about the Leader~Karpman?
 Merson_Gym_GymGuy_BeforeBadge_Yes,Great, here we go!*Karpman uses Water Pokémon.*Your best bet against him is~to use either a Grass or an~Electric Pokémon.
 Merson_Gym_GymGuy_BeforeBadge_No,Please just listen.*Thanks.*Karpman uses Water Pokémon.*Your best bet against him is~to use either a Grass or an~Electric Pokémon.
@@ -3649,7 +3649,7 @@ Merson_Gym_GymGuy_AfterBadge,Gym Guy: Well now, you might~be special at training
 Merson_Gym_LifeguardSilas_IntroMessage,What's up? The name's Silas!~You're here to beat my buddy~Lochlan for a Badge?*You'll have to get through me~first!
 Merson_Gym_LifeguardSilas_OutroMessage,Whoops!
 Merson_Gym_LifeguardSilas_DefeatMessage,I came from South Rijon to~train under Karpman's fin.*Please don't tell him that I~told you his real name!*He hates it when people call~him that.*South Rijon will surely get~its own Pokémon League, and~when it does, I'll become one~of its Leaders, just like~Lochlan!*...whoops! I did it again!
-Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welcome to the~Ciudad Merson Gym, challenger!*<Player.Name>: So you're a Gym~Leader?*Karpman: You got it!*My name is Karpman, and I~specialize in Water-type~Pokémon!*If you defeat me, I'll give~you the Marine Badge.*Get all eight Badges~throughout the region,~and you'll get the chance to~become Rijon's Champion!*But I won't make it easy~for you.*Be sure to brace yourself for~waves of defeat!*<Player.Name>: Show me your best,~Karpman!
+Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welcome to the~Merson City Gym, challenger!*<Player.Name>: So you're a Gym~Leader?*Karpman: You got it!*My name is Karpman, and I~specialize in Water-type~Pokémon!*If you defeat me, I'll give~you the Marine Badge.*Get all eight Badges~throughout the region,~and you'll get the chance to~become Rijon's Champion!*But I won't make it easy~for you.*Be sure to brace yourself for~waves of defeat!*<Player.Name>: Show me your best,~Karpman!
 Merson_Gym_LeaderKarpman_OutroMessage,Karpman: Dang!*You beat my Pokémon.~As proof of your victory,~here's the Marine Badge!
 Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: That's an official~Rijon League Badge!~It's bearer's Pokémon become~more powerful!*The technique Flash can now~be used any time!*But all caves in Rijon were lit~by Shinra Electric Power~Company, so it is kinda useless~now...*Wait! Take this with you!
 Merson_Gym_LeaderKarpman_AfterBattle2,A TM contains a technique~that can be taught to Pokémon!*TMs are single use! So when~you use one to teach a new~technique, pick the Pokémon~carefully!*TM 12 contains Octazooka!~It's a Water move that can~lower the accuracy of your foe!
@@ -3662,10 +3662,10 @@ Merson_Gym_LeaderKarpman_Rematch_AfterBattle,Karpman: I think everyone has~their
 
 
 [Route 55]
-Route55_Sign_Route,Route 55~Senda Mt. Pedrusco*Ciudad Merson - Dock Underpass
+Route55_Sign_Route,Route 55~Mt. Boulder Pass*Merson City - Dock Underpass
 Route55_Sign_RainbowTower,Rainbow Tower
-Route55_Sign_MtBoulder,Mt. Pedrusco*Shortcut to Eagulou City*There's a note attached:~Watch out! A Pokémon nested~in Mt. Pedrusco recently and~temperature in it has dropped~to freezing point!*There's an extra note:~Poor Growlithe...
-Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my Pokémon?
+Route55_Sign_MtBoulder,Mt. Boulder*Shortcut to Eagulou City*There's a note attached:~Watch out! A Pokémon nested~in Mt. Boulder recently and~temperature in it has dropped~to freezing point!*There's an extra note:~Poor Growlithe...
+Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my~Pokémon?
 Route55_PokeManiacRoger_OutroMessage,Oh no! My Pokémon!
 Route55_PokeManiacRoger_DefeatMessage,I don't like you for beating me!
 Route55_HikerBobby_IntroMessage,Ah! This mountain air is~delicious!
@@ -3681,7 +3681,7 @@ Route55_PokeManiacGlenn_IntroMessage,Wow, are you a~PokéManiac too?*No?~I'll st
 Route55_PokeManiacGlenn_OutroMessage,Humph. I'm not angry.
 Route55_PokeManiacGlenn_DefeatMessage,How could I lose to you?!
 
-Route55_RainbowTower_Floor1_MeditatingGuy,Please leave. I'm meditating~with my three Pokémon friends.
+Route55_RainbowTower_Floor1_MeditatingGuy,Please leave.*I'm meditating with my three~Pokémon friends.
 Route55_RainbowTower_Floor1_Persian_Cry,Persian: Meow!
 Route55_RainbowTower_Floor1_Rhydon_Cry,Rhydon: ROAR!
 Route55_RainbowTower_Floor1_Pikachu_Cry,Pikachu: Pika pi!
@@ -3691,8 +3691,8 @@ Route55_RainbowTower_Floor2_PC,Someone forgot to log out!*Let's change the backg
 Route55_RainbowTower_Floor2_Note,RainbowDevs~Meeting Room
 
 Route55_RainbowTower_Floor3_MeanMrMustard,MeanMrMustard: All work, and~never any credit or respect!*Meh!
-Route55_RainbowTower_Floor3_Programmer,Pfew! Work is so tough!*It's probably time for a break!*It's been 10 minutes since~my last one!
-Route55_RainbowTower_Floor3_Suloku,Suloku: Bugs, bugs and more~bugs!*Oh, sorry, this game is full~of bugs and it gets to me~at times.*When you think one is fixed,~you caused yet another one.*Hopefully I've got them all~now!*Did you know the 2024 update~of the Pokémon Brown romhack~is still old school?*That means manually making~all the changes!*At first I only wanted to~change a couple of things.~Derbs84 helped a lot at the~time since I knew nothing~about romhacking.*The project kept growing,~and so did the team.*I'm really grateful to~everyone that has helped~along the way: spriters,~testers, proofreaders...*It's amazing what people~can do when they put their~minds together!
+Route55_RainbowTower_Floor3_Programmer,Pfew! Work is so tough!*It's probably time for a~break!*It's been 10 minutes since~my last one!
+Route55_RainbowTower_Floor3_Suloku,Suloku: Bugs, bugs and more~bugs!*Oh, sorry, this game is full~of bugs and it gets to me~at times.*When you think one is fixed,~you caused yet another one.*Hopefully I've got them all~now!*Did you know the 2024 update~of the Pokémon Brown~romhack is still old school?*That means manually making~all the changes!*At first I only wanted to~change a couple of things.~Derbs84 helped a lot at the~time since I knew nothing~about romhacking.*The project kept growing,~and so did the team.*I'm really grateful to~everyone that has helped~along the way: spriters,~testers, proofreaders...*It's amazing what people~can do when they put their~minds together!
 Route55_RainbowTower_Floor3_Koolboyman,Koolboyman: Hey, I made the~original Pokémon Brown hack!*No need to thank me!*Hopefully it looks more~polished now.
 Route55_RainbowTower_Floor3_PC_MeanMrMustard,Complicated code.*Can't understand it!
 Route55_RainbowTower_Floor3_PC_Programmer,Someone's playing a game~instead of working!
@@ -3709,30 +3709,30 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Option_Gas,Gas
 Route55_RainbowTower_Floor4_Room_Blackboard_Option_Wood,Wood
 Route55_RainbowTower_Floor4_Room_Blackboard_Option_Abnormal,Abnormal
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wind,Offense - Strong towards:*Fire, Rock, Ghost, Wood and~Gas.*Offense - Weak towards:*Ground, Fighting, Grass and~Flying.*Defense - Strong against:*Fire, Rock, Ghost and Wood.*Defense - Weak against:~Electric and Flying.*Defense - Immune to: Gas.
-Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound,Offense - Strong towards:*Ghost, Steel and Water.*Offense - Weak towards:*Bug and Fighting.*Offense - No effect towards:~Sound.*Defense - Strong against:*Rock, Steel, Gas, Water, Abnormal.*Defense - Weak against:*Bug, Electric and Fighting.*Defense - Immune to: Sound.
+Route55_RainbowTower_Floor4_Room_Blackboard_Text_Sound,Offense - Strong towards:*Ghost, Steel and Water.*Offense - Weak towards:*Bug and Fighting.*Offense - No effect towards:~Sound.*Defense - Strong against:*Rock, Steel, Gas, Water,~Abnormal.*Defense - Weak against:*Bug, Electric and Fighting.*Defense - Immune to: Sound.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*Fairy, Fire and Fighting.*Offense - Weak towards:*Grass, Ice, Rock and Sound.*Offense - No effect towards:~Wind.*Defense - Strong against:*Fairy, Ground and Fighting.*Defense - Weak against:*Electric, Fire, Grass and Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*Grass, Ice, Steel, Poison and~Water.*Offense - Weak towards:*Bug, Electric, Rock and Wind.*Offense - No effect towards:~Fire.*Defense - Strong against:*Bug and Ground.*Defense - Weak against:*Electric, Fire, Fighting and~Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and~Normal.
-Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
-Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift
-Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the Rainbow Tower
+Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and~HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
+Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift in the
+Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,Rainbow Tower
 Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,I don't need this Pokémon,~so you can have it for free...*No kid, I am not crazy, just~an idiot...
-Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,How are you liking that crazy~little Pokémon I gave to you?*I downloaded it from some scam~website and my computer got~infected with a weird virus.*I got so mad that I threw my~laptop out of the window, sold~my house, moved into this~apartment, and put up a sign~outside to keep everyone away~from my stupidity.*Then I blacked out and wrote a~whole bunch of stuff on the~blackboard.*I came to with the worst~headache.*New types?*I don't even know what a type~is. Man, am I dumb.
+Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,How are you liking that crazy~little Pokémon I gave to you?*I downloaded it from~some scam website and my~computer got infected with~a weird virus.*I got so mad that I threw my~laptop out of the window, sold~my house, moved into this~apartment, and put up a sign~outside to keep everyone~away from my stupidity.*Then I blacked out and wrote~a whole bunch of stuff on~the blackboard.*I came to with the worst~headache.*New types?*I don't even know what a type~is. Man, am I dumb.
 
 [Dock Underpass]
 DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52,~a.k.a. the Hayward Docks.
 DockUnderpass_Entrance_Route52_HomelessGuy,This is where I live because I~have no money...
 
 [Route 52]
-Route52_Sign,Route 52~Hayward Docks*Hayward City - Dock Underpass
+Route52_Sign,Route 52~Hayward Docks*Hayward City - Dock~Underpass
 Route52_MagmarTraderHouse_Father,Live in the city?*Why, I love it here.*No darn annoying hoodrats.
 Route52_MagmarTraderHouse_MagmarTrade_Question,Hi! Want to trade an Abra~for a Magmar?
 Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Oh well...
 Route52_MagmarTraderHouse_MagmarTrade_AfterTrade,Isn't my old Magmar great?
 Route52_MagmarTraderHouse_MagmarTrade_TradeSuccess,Okay, connect the cable~like so!
 Route52_MagmarTraderHouse_MagmarTrade_TradeFail,What? That's not Abra!*If you get one, come back~here!
-Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade
-Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,at a house at Route 52
+Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Received in a trade at a house on
+Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,Route 52
 
 [Route 52 - Hayward City Gate]
 Route52_Hayward_Gate_Aide_ExpAll_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 30 kinds~of Pokémon, I'm supposed to~give you an Exp. All!*So <Player.Name>! Have you~caught at least 30 kinds~of Pokémon?
@@ -3800,8 +3800,8 @@ Hayward_FossilLab_LaprasTrade_Answer_No,Awww! Oh well...
 Hayward_FossilLab_LaprasTrade_AfterTrade,Isn't my old Lapras great?
 Hayward_FossilLab_LaprasTrade_TradeSuccess,Okay, connect the cable~like so!
 Hayward_FossilLab_LaprasTrade_TradeFail,What? That's not Clefairy!*If you get one, come back~here!
-Hayward_FossilLab_LaprasTrade_CatchMethod,Received in a trade
-Hayward_FossilLab_LaprasTrade_CatchLocation,in the Hayward Fossil Lab
+Hayward_FossilLab_LaprasTrade_CatchMethod,Received in a trade in the
+Hayward_FossilLab_LaprasTrade_CatchLocation,Hayward Fossil Lab
 Hayward_FossilLab_FossilReviver_Question,Hey there!*I love to study fossils.*Do you have one I can revive~with this machine?
 Hayward_FossilLab_FossilReviver_NoFossil,No?*GET OUT!
 Hayward_FossilLab_FossilReviver_Answer_No,Don't waste my time then!~Come back when you do!
@@ -3815,8 +3815,8 @@ Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me th
 Hayward_FossilLab_FossilReviver_Answer_OldAmber,Well? Hurry up and give~me that!*<Player.Name> handed~over the Old Amber!*Walk around Eagulou and come~back, then I can finish!
 Hayward_FossilLab_FossilReviver_NoSand,Don't put sand in your bag!~Just walk around Eagulou!*What gets stuck in your~clothes will be enough!
 Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~Enjoy your new Pokemon!
-Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist
-Hayward_FossilLab_FossilPokemon_CatchLocation,in the Hayward Fossil Lab
+Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist in the
+Hayward_FossilLab_FossilPokemon_CatchLocation,Hayward Fossil Lab
 
 Hayward_StrengthHouse_Amulets,A collection of amulets.
 Hayward_StrengthHouse_StrengthMan_Question,Hey, have you seen my~special amulet?*It's really important to me~but I lost it!
@@ -3859,7 +3859,7 @@ Hayward_SouthlandMall_Floor4_PokeDollGuy,No Poké Dolls here anymore?*I'm gonna 
 Hayward_SouthlandMall_Floor5_Gentleman,Pokémon ability enhancers~can only be bought here.*Use Calcium to increase~Special Attack and Zinc to~increase Special Defense.*Use Carbos to increase~Speed.
 Hayward_SouthlandMall_Floor5_Sailor,I'm here for Pokémon ability~enhancers.*Protein increases Attack~power.*Iron increases Defense!
 
-Hayward_Bunker_Entrance_Fisherman,You came from the bunker?*That place is pretty much~abandoned.*Even wild Pokémon go inside~from time to time.*My friend is so obsessed with~maintaining it because she's~fearful of those legendary~Guardians... poor thing,~scared of an old tale!*She even wanted to build other~warps around the region, but~this one and the backdoor at~Mt. Pedrusco are the only ones~she's been able to maintain.
+Hayward_Bunker_Entrance_Fisherman,You came from the bunker?*That place is pretty much~abandoned.*Even wild Pokémon go inside~from time to time.*My friend is so obsessed with~maintaining it because she's~fearful of those legendary~Guardians... poor thing,~scared of an old tale!*She even wanted to build other~warps around the region, but~this one and the backdoor at~Mt. Boulder are the only ones~she's been able to maintain.
 
 [Route 64]
 Route64_Sign_Route,Route 64~Hayward Lowlands*Hayward City -~Naljo Border (Closed)
@@ -3870,7 +3870,7 @@ Route64_LassLaura_OutroMessage,Oh! Now I'm stressed out!
 Route64_LassLaura_DefeatMessage,I might set up a picnic here~later...*Nah, I'll just relax...
 
 [Route 51]
-Route51_Sign,Route 51~Senda Elevada*Hayward City - Laberinto de Anza
+Route51_Sign,Route 51~Foothill Pass*Hayward City - Anza'de Maze
 Route51_BugCatcherPhillip_IntroMessage,This is the Nugget Crew!~We give out nuggets to~people who can beat us all!*Give it a try!
 Route51_BugCatcherPhillip_OutroMessage,Whoo! Good stuff!
 Route51_BugCatcherPhillip_DefeatMessage,I did my best, I have~no regrets!
@@ -3931,8 +3931,8 @@ Route49_BirdKeeperRichard_DefeatMessage,I really want to visit Johto!
 Route49_BirdKeeperDavid_IntroMessage,I can't stop collecting~flying Pokémon!
 Route49_BirdKeeperDavid_OutroMessage,I had to bug you!
 Route49_BirdKeeperDavid_DefeatMessage,I also collect sea Pokémon~on weekends!
-Route49_Sign_BridgeRoad,Route 49~Calle Enlace*Owsauri City -~Johto Border (Ciclovía Rinjoh)
-Route49_Sign_NoPedestriansPermitted,Ciclovía Rinjoh~No pedestrians permitted!
+Route49_Sign_BridgeRoad,Route 49~Bridge Road*Owsauri City -~Johto Border (Rinjoh Veloway)
+Route49_Sign_NoPedestriansPermitted,Rinjoh Veloway~No pedestrians permitted!
 
 [Route 49 - Route 50 Gate]
 Route49_Route50_Gate_TM39Girl_BeforeGive,I don't need this so you~can take it!
@@ -3947,8 +3947,8 @@ Route49_Gate_RhyhornTrade_Answer_No,Awww! Oh well...
 Route49_Gate_RhyhornTrade_AfterTrade,Isn't my old Rhyhorn great?
 Route49_Gate_RhyhornTrade_TradeSuccess,Okay, connect the cable~like so!
 Route49_Gate_RhyhornTrade_TradeFail,What? That's not Rhyhorn!*If you get one, come back~here!
-Route49_Gate_RhyhornTrade_CatchMethod,Received in a trade
-Route49_Gate_RhyhornTrade_CatchLocation,in the Gate on Route 49
+Route49_Gate_RhyhornTrade_CatchMethod,Received in a trade in the Gate on
+Route49_Gate_RhyhornTrade_CatchLocation,Route 49
 Route49_Gate_Binoculars_Left,Looked into the binoculars...*There are people swimming!
 Route49_Gate_Binoculars_Right,Looked into the binoculars...*There's Hayward City!
 
@@ -3973,7 +3973,7 @@ Owsauri_Main_Meowth_Cry2,<Player.Name> received $1!
 
 Owsauri_PokeCenter_BenchGirl,My daddy is still in the casino.*He told me to wait here...
 Owsauri_PokeCenter_BirdKeeper,You can't win with just one~strong Pokémon.*It's tough, but you have~to raise them evenly.
-Owsauri_PokeCenter_Lass,North of Ciudad Jazru lies~the Rijon League.
+Owsauri_PokeCenter_Lass,North of Jaeru City lies~the Rijon League.
 
 Owsauri_PokeMart_Lass,Did you try X Speed?~It speeds up a Pokémon~in battle!
 Owsauri_PokeMart_Hiker,They sell Repel here, which~repel wild Pokémon away~from you!
@@ -4078,8 +4078,7 @@ Owsauri_Casino_B1F_Shop_PokemonCatchLocation,Owsauri Casino
 Owsauri_Casino_B1F_Shop_Left_Chikorita,Chikorita         2500C
 Owsauri_Casino_B1F_Shop_Left_Cyndaquil,Cyndaquil         3500C
 Owsauri_Casino_B1F_Shop_Left_Totodile,Totodile           3500C
-Owsauri_Casino_B1F_Shop_Center_Eevee_Espeon,Eevee #1      3500C
-Owsauri_Casino_B1F_Shop_Center_Eevee_Glaceon,Eevee #2      3500C
+Owsauri_Casino_B1F_Shop_Center_Eevee,Eevee             3500C
 Owsauri_Casino_B1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
 Owsauri_Gym_Statues_BeforeDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura
@@ -4105,7 +4104,7 @@ Owsauri_Gym_LeaderLily_Rematch_AfterBattle,Lily: I've been thinking of~sampling 
 
 
 [Route 66]
-Route66_Sign_Beach,Route 66~Bahía Merritt
+Route66_Sign_Beach,Route 66~Merritt Bay
 Route66_SwimmerMaleEricsson_IntroMessage,Time to work on my tan!
 Route66_SwimmerMaleEricsson_OutroMessage,All warmed up!
 Route66_SwimmerMaleEricsson_DefeatMessage,Do I have skin cancer?*Be honest.
@@ -4126,8 +4125,8 @@ Route66_SwimmerMaleIvan_OutroMessage,Help!
 Route66_SwimmerMaleIvan_DefeatMessage,You have to fish for sea~Pokémon!
 
 [Route 63]
-Route63_Sign,Route 63~Arroyo Extinto*Hayward City - Túnel Seda
-Route63_JrTrainerFemaleAnnette_IntroMessage,On your way to Túnel Seda~are you?
+Route63_Sign,Route 63~Old Creek*Hayward City - Silk Tunnel
+Route63_JrTrainerFemaleAnnette_IntroMessage,On your way to Silk Tunnel~are you?
 Route63_JrTrainerFemaleAnnette_OutroMessage,You little brat!
 Route63_JrTrainerFemaleAnnette_DefeatMessage,The cave is way too scary~and dark for me!
 Route63_HikerArchibald_IntroMessage,Bwahaha! Great!~I was bored, eh!
@@ -4139,7 +4138,7 @@ Route63_JrTrainerMaleBlake_DefeatMessage,What is it?
 Route63_BugCatcherLeo_IntroMessage,Insects for the win!
 Route63_BugCatcherLeo_OutroMessage,Beyond lame.
 Route63_BugCatcherLeo_DefeatMessage,I'll never give up on~my bugs!
-Route63_JrTrainerMaleMichael_IntroMessage,The tunnel ahead leads~to Pueblo Moraga.
+Route63_JrTrainerMaleMichael_IntroMessage,The tunnel ahead leads~to Moraga Town.
 Route63_JrTrainerMaleMichael_OutroMessage,Can't measure up!
 Route63_JrTrainerMaleMichael_DefeatMessage,Are you going to Moraga too?
 Route63_JrTrainerFemaleSamantha_IntroMessage,What is it, creep?
@@ -4173,9 +4172,9 @@ SilkTunnel_B3F_PokeManiacFrederic_OutroMessage,Well, that's that.
 SilkTunnel_B3F_PokeManiacFrederic_DefeatMessage,Cosplaying will get me~all the girls.
 
 [Moraga Town]
-Moraga_Main_Sign_Town,Pueblo Moraga*Not really a town at all.
+Moraga_Main_Sign_Town,Moraga Town*Not really a town at all.
 Moraga_Main_Sign_Pickpocketers,Look out for rabid~pick-pocketers!
-Moraga_Main_Sign_Gym,Pueblo Moraga~Pokémon Gym~Leader: Lois*The Princess of Plant Pokémon!
+Moraga_Main_Sign_Gym,Moraga Town~Pokémon Gym~Leader: Lois*The Princess of Plant Pokémon!
 Moraga_Main_Sign_TrainerTips,Trainer Tips*Keep an eye on where~you're going and if needed,~backtrack to cities you've~been to already.
 Moraga_Main_Sign_HighSchoolAcademy,High School Academy
 Moraga_Main_Sign_PrismMuseum,Prism Museum
@@ -4247,8 +4246,8 @@ Morage_PrismMuseum_EmeraldEgg_Hint,Pack your bug spray.
 Morage_PrismMuseum_EmeraldEgg_Found,The Emerald Egg!
 Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves,50 Gold Leaves!
 Morage_PrismMuseum_Egg_Reward,Amazing! Here is your reward!
-Morage_PrismMuseum_CatchMethod,Received as a reward
-Morage_PrismMuseum_CatchLocation,at the Prism Museum
+Morage_PrismMuseum_CatchMethod,Received as a reward at the
+Morage_PrismMuseum_CatchLocation,Prism Museum
 
 Moraga_Gym_Statues_BeforeDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura
 Moraga_Gym_Statues_AfterDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<Player.Name>
@@ -4266,7 +4265,7 @@ Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We don't need men,~except to 
 Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage,Don't underestimate the power~of grass!
 Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage,Oh! Beaten!
 Moraga_Gym_CoolTrainerFemaleHeather_DefeatMessage,Lois has a twin in Kanto that~uses grass too.
-Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, my lovely flowers...~They sure are nice, aren't~they?*<Player.Name>: Pardon me, but I'm~here for your Sprout Badge!*Lois: Oh the Sprout Badge? I'm~just like my sister in Kanto,~aren't I... Nonetheless, if~it's a battle you want, it's~a battle you'll get!*As a Kimono Girl, as well as~the Pueblo Moraga Gym Leader,~I also have plenty of battling~experience, so don't say I~didn't warn you.*Leafeon, let's go!
+Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, my lovely flowers...~They sure are nice, aren't~they?*<Player.Name>: Pardon me, but I'm~here for your Sprout Badge!*Lois: Oh the Sprout Badge? I'm~just like my sister in Kanto,~aren't I... Nonetheless, if~it's a battle you want, it's~a battle you'll get!*As a Kimono Girl, as well as~the Moraga Town Gym Leader,~I also have plenty of battling~experience, so don't say I~didn't warn you.*Leafeon, let's go!
 Moraga_Gym_LeaderLois_OutroMessage,Lois: Well that's it, you~showed me how good you are!*You earned the Sprout Badge!
 Moraga_Gym_LeaderLois_AfterBattle1,Lois: The Sprout Badge will~make Pokémon able to use~Strength in and out of battle.*Also, take this.
 Moraga_Gym_LeaderLois_AfterBattle2,TM21 contains Giga Drain.*Half the damage it inflicts is~drained to heal your Pokémon!
@@ -4283,12 +4282,12 @@ CityUnderpass_Entrance_Moraga_NidoqueenTrade_Answer_No,That's too bad.
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_AfterTrade,How is my old Nidoking?~My Nidoqueen is doing great!
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeSuccess,Okay, connect the cable~like so!
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeFail,This is no Nidoqueen.*If you get one, trade it~with me!
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod,Received in a trade
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,at the City Underpass
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod,Received in a trade at the
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,City Underpass
 CityUnderpass_Entrance_Route56_Girl,People often lose things in~that underground path.
 
 [Route 60]
-Route60_Main_Sign,Route 60~Calle Cableada*Pueblo Moraga - Ciudad Jazru -~Yuva Mila Lake
+Route60_Main_Sign,Route 60~Powerline Road*Moraga Town - Jaeru City -~Yuva Mila Lake
 
 Route60_PowerPlant_Zapdos,Gyaao!
 Route60_PowerPlant_Raikou,Rrroar!
@@ -4303,23 +4302,23 @@ Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 75 kinds,~come
 Route60_Jaeru_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
 
 Route60_Jaeru_Gate_Binoculars_Left_Intro,Looked into the binoculars...
-Route60_Jaeru_Gate_Binoculars_Left_Flying,A strange Pokémon is flying~to Mt. Pedrusco!
-Route60_Jaeru_Gate_Binoculars_Left_Running,A strange Pokémon is running~towards Mt. Pedrusco!
-Route60_Jaeru_Gate_Binoculars_Left_None,It's Mt. Pedrusco!
+Route60_Jaeru_Gate_Binoculars_Left_Flying,A strange Pokémon is flying~to Mt. Boulder!
+Route60_Jaeru_Gate_Binoculars_Left_Running,A strange Pokémon is running~towards Mt. Boulder!
+Route60_Jaeru_Gate_Binoculars_Left_None,It's Mt. Boulder!
 Route60_Jaeru_Gate_Binoculars_Right,Looked into the binoculars...*It looks like part of Johto!
 
 [Jaeru City]
 Jaeru_Main_Sign_RijonLeagueEntrance,Path to Rijon League Entrance
-Jaeru_Main_Sign_City,Ciudad Jazru~The Hoppy Town!
+Jaeru_Main_Sign_City,Jaeru City~The Hoppy Town!
 Jaeru_Main_Sign_BikeShop,Bike Shop*Cool Bikes for everyone!
 Jaeru_Main_Sign_TownMap,Notice!*If you are lost, refer to your~Town Map!
 Jaeru_Main_Sign_TownMap,Notice!*If you are lost, refer to your~Town Map!
-Jaeru_Main_Sign_Gym,Ciudad Jazru~Pokémon Gym~Leader: Sparky*The Stunning Mechanic!
+Jaeru_Main_Sign_Gym,Jaeru City~Pokémon Gym~Leader: Sparky*The Stunning Mechanic!
 Jaeru_Main_NewsGuy_Question,Did you hear the news?
 Jaeru_Main_NewsGuy_Answer_Yes,Oh, I wish I could have told!
 Jaeru_Main_NewsGuy_Answer_No,Team Rocket took over the~Warehouse nearby!
 Jaeru_Main_DirectionsGuy,If you go up north, you will~end up at the Rijon League!
-Jaeru_Main_SilkTunnelGirl,I got a Ground Pokémon from~Túnel Seda, but it still~wasn't good enough to beat~Sparky!
+Jaeru_Main_SilkTunnelGirl,I got a Ground Pokémon from~Silk Tunnel, but it still~wasn't good enough to beat~Sparky!
 
 Jaeru_BikeShop_Youngster,These Bikes are cool, but~they're way expensive!
 Jaeru_BikeShop_Woman,I knew modes of transportation~were getting more expensive,~but come on!
@@ -4330,7 +4329,7 @@ Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Come back again some time!
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that’s... A Bike Voucher!~OK! Here you go!
 Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> exchanged~the Bike Voucher for a Bicycle.
 Jaeru_BikeShop_BikeInPocket,<Player.Name> stored it in the~№ KeyItems pocket.
-Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new~Bicycle?*You can take it on Ciclovía Rinjoh~and in caves!
+Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new~Bicycle?*You can take it on Rinjoh Veloway~and in caves!
 
 Jaeru_PokeMart_RegularGuy,You will need eight Rijon~badges in order to reach the~Rijon League.
 Jaeru_PokeMart_LittleBoy,My dad is up north trying to~go to the League!
@@ -4338,8 +4337,8 @@ Jaeru_PokeMart_LittleBoy,My dad is up north trying to~go to the League!
 Jaeru_PokeCenter_Gentleman,Go away, I'm on my cellphone!
 Jaeru_PokeCenter_BenchGuy,Sparky was mean to me!~He called me a stupid little~kid.
 
-Jaeru_Gym_Statues_BeforeDefeat,Ciudad Jazru~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura
-Jaeru_Gym_Statues_AfterDefeat,Ciudad Jazru~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<Player.Name>
+Jaeru_Gym_Statues_BeforeDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura
+Jaeru_Gym_Statues_AfterDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<Player.Name>
 Jaeru_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Sparky uses Electric-type~Pokémon!*Make sure you're prepared to~face him with some Grass and~Ground-type Pokémon!
 Jaeru_Gym_GymGuy_AfterBadge,Gym Guy: Whew! That match was~electric!
 Jaeru_Gym_SailorWilfried_IntroMessage,Leave now!
@@ -4352,7 +4351,7 @@ Jaeru_Gym_GentlemanWilliam_IntroMessage,Having trouble getting to~Sparky?
 Jaeru_Gym_GentlemanWilliam_OutroMessage,Stop! You're very good!
 Jaeru_Gym_GentlemanWilliam_DefeatMessage,Electricity is my domain!
 Jaeru_Gym_LeaderSparky_BeforeBattle1,Sparky: Perkins!~Where's my wrench?!~This isn't gonna fix itself!*<Player.Name>: Uhhh, excuse me?
-Jaeru_Gym_LeaderSparky_BeforeBattle2,Sparky: Ah, you're not~Perkins! By the looks of it,~you must be here to earn my~Badge! As the best mechanic~in Rijon, I, the great Sparky,~Leader of Ciudad Jazru Gym, make~sure my employees are in~tip-top shape so that no task~gets left undone! Prepare to~get shocked by my efficiency~in Pokémon battling!
+Jaeru_Gym_LeaderSparky_BeforeBattle2,Sparky: Ah, you're not~Perkins! By the looks of it,~you must be here to earn my~Badge! As the best mechanic~in Rijon, I, the great Sparky,~Leader of Jaeru City Gym, make~sure my employees are in~tip-top shape so that no task~gets left undone! Prepare to~get shocked by my efficiency~in Pokémon battling!
 Jaeru_Gym_LeaderSparky_OutroMessage,Sparky: Shocking! Alright,~here. Take the Sparky Badge!
 Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: The Sparky Badge,~named after yours truly,~increases your Pokémon's~speed, and lets you use Fly~anytime!*Take this too!
 Jaeru_Gym_LeaderSparky_AfterBattle2,TM24 contains Thunderbolt!*Teach it to an Electric~Pokémon!
@@ -4367,8 +4366,8 @@ Jaeru_OtherHouse_SittingGuy,Pokémon trainers pass by here~often on their way to
 Jaeru_OtherHouse_StandingGuy,I know trainers from around~the world.
 
 [Route 59]
-Route59_Main_Sign_SilphCo,Almacén Silph
-Route59_Main_Sign_Route,Route 59~Planicie Jazru*Botan City - Ciudad Jazru
+Route59_Main_Sign_SilphCo,Silph Co. Warehouse
+Route59_Main_Sign_Route,Route 59~Jaeru Plains*Botan City - Jaeru City
 Route59_Main_LassDaisy_IntroMessage,You are pretty strange.
 Route59_Main_LassDaisy_OutroMessage,You're mean!
 Route59_Main_LassDaisy_DefeatMessage,What are you looking at?
@@ -4453,8 +4452,8 @@ Route59_Botan_Gate_2F_EeveeTrade_Answer_No,That's too bad.
 Route59_Botan_Gate_2F_EeveeTrade_AfterTrade,How is my old Eevee?*My Mareep is doing great!
 Route59_Botan_Gate_2F_EeveeTrade_TradeSuccess,Okay, connect the cable~like so!
 Route59_Botan_Gate_2F_EeveeTrade_TradeFail,...This is no Mareep.*If you get one, trade it~with me!
-Route59_Botan_Gate_2F_EeveeTrade_CatchMethod,Received in a trade
-Route59_Botan_Gate_2F_EeveeTrade_CatchLocation,in the Gate on Route 59
+Route59_Botan_Gate_2F_EeveeTrade_CatchMethod,Received in a trade in the Gate on
+Route59_Botan_Gate_2F_EeveeTrade_CatchLocation,Route 59
 Route59_Botan_Gate_2F_Binoculars_Left,Looked into the binoculars...*The Rijon League!
 Route59_Botan_Gate_2F_Binoculars_Right,Looked into the binoculars...*A dark forest can be~seen... maybe there are some~ghosts there...
 Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds of~Pokémon, I'm supposed to~give you an Item Finder!*So <Player.Name>! Have you~caught at least 45 kinds~of Pokémon?
@@ -4470,7 +4469,7 @@ Botan_Main_Scientist,That supernatural forest is~really intriguing, I've been~st
 Botan_Main_Gentleman,Thank goodness the warehouse~is safe.
 Botan_Main_Rocker,MissingNo. are actually just~ghosts.
 Botan_Main_FatGuy,Yeah! Team Rocket is gone!~It's safe to go out again!
-Botan_Main_Beauty,The Bosque Embrujado is really~spooky.
+Botan_Main_Beauty,The Haunted Forest is really~spooky.
 Botan_Main_HealLady_Intro,My dream is to be a nurse~in the soon to be built~Pokémon Center!*Would you like me to heal your~Pokémon?
 Botan_Main_HealLady_Outro,I hope to see you again!
 Botan_Main_RocketGrunt_GetOutOfTheWay,Get out of the way!
@@ -4505,15 +4504,15 @@ Botan_TradeHouse_TyrogueTrade_Answer_No,Well, if you don't want to...
 Botan_TradeHouse_TyrogueTrade_AfterTrade,The Butterfree you traded to~me is doing well!
 Botan_TradeHouse_TyrogueTrade_TradeSuccess,Okay, connect the cable~like so!
 Botan_TradeHouse_TyrogueTrade_TradeFail,Hmmm? This isn't Butterfree.*Think of me when you get one.
-Botan_TradeHouse_TyrogueTrade_CatchMethod,Received in a trade
-Botan_TradeHouse_TyrogueTrade_CatchLocation,in Botan City
+Botan_TradeHouse_TyrogueTrade_CatchMethod,Received in a trade in
+Botan_TradeHouse_TyrogueTrade_CatchLocation,Botan City
 Botan_TradeHouse_NoivernTrade_Question,I'm looking for a Gligar!~Wanna trade one for a~Noivern?
 Botan_TradeHouse_NoivernTrade_Answer_No,Awww! Oh well...
 Botan_TradeHouse_NoivernTrade_AfterTrade,Isn't my old Noivern great?
 Botan_TradeHouse_NoivernTrade_TradeSuccess,Okay, connect the cable~like so!
 Botan_TradeHouse_NoivernTrade_TradeFail,What? That's not Gligar!*If you get one, come back~here!
-Botan_TradeHouse_NoivernTrade_CatchMethod,Received in a trade
-Botan_TradeHouse_NoivernTrade_CatchLocation,in Botan City
+Botan_TradeHouse_NoivernTrade_CatchMethod,Received in a trade in
+Botan_TradeHouse_NoivernTrade_CatchLocation,Botan City
 
 Botan_MoveTutorHouse_MoveTutor_Intro,I tutor children, but I also~tutor Pokémon.*I teach them to remember~moves they forgot.*$1000 per lesson.~How about it?
 Botan_MoveTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
@@ -4623,27 +4622,27 @@ Route58_Main_JrTrainerMaleCarlos_IntroMessage,Let me interrupt you!
 Route58_Main_JrTrainerMaleCarlos_OutroMessage,I didn't start it!
 Route58_Main_JrTrainerMaleCarlos_DefeatMessage,Stop bugging me for no reason!
 
-Route58_InternationalTunnel_1F_Miner,I've built this ladder, so all~I need to do now is mine up to~Túnel Seda!*It'll take me some time to~finish, but I don't mind.*I love to dig!
+Route58_InternationalTunnel_1F_Miner,I've built this ladder, so all~I need to do now is mine up to~Silk Tunnel!*It'll take me some time to~finish, but I don't mind.*I love to dig!
 Route58_InternationalTunnel_B1F_BorderPatrol,Border Patrol!*Without a passport you are not~allowed into Naljo!
 
 [Castro Valley]
 Castro_Main_OldLady,The S.S. Anne just came for its~final stop!
 Castro_Main_Gambler_Purple,Do you see the S.S. Anne~moored in the harbor?*It's undergoing maintenance,~so it will be a while until it~sets sail again.
-Castro_Main_Gambler_Red,The Túnel Internacional near~Castro Valley leads to the~Naljo region, but you need a~passport to be able to go~through. Unfortunately, due to~relationship problems between~the two regions, Rijon has~stopped giving them out for~the time being.*It's rumored that you can find~some pretty rare Pokémon in~the tunnel, though.
+Castro_Main_Gambler_Red,The International Tunnel near~Castro Valley leads to the~Naljo region, but you need a~passport to be able to go~through. Unfortunately, due to~relationship problems between~the two regions, Rijon has~stopped giving them out for~the time being.*It's rumored that you can find~some pretty rare Pokémon in~the tunnel, though.
 Castro_Main_Sailor_Harbor,Welcome to the Castro Valley~Harbor!
 Castro_Main_Harbor_NoTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<Player.Name>: Sorry, I don't~have that.*Sorry! You need an S.S. Ticket~to get aboard.
 Castro_Main_Harbor_HaveTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<Player.Name>: Sure do! Here you~go!*Ah, good! Oh, but the~S.S. Anne will not be leaving~for a while. Perhaps that~other boat in the harbor still~needs passengers?
 Castro_Main_Sailor_Other,S.S. Anne is a famous luxury~cruise ship.
-Castro_Main_Sailor_CastroManor,The abandoned Casona Castro is~nearly two-hundred years old.~It was once the heart of~Castro Valley. My granny told~me stories about the Castro~family, who once owned it.
+Castro_Main_Sailor_CastroManor,The abandoned Castro Manor is~nearly two-hundred years old.~It was once the heart of~Castro Valley. My granny told~me stories about the Castro~family, who once owned it.
 Castro_Main_Officer_CastroManor,Fifty years ago, the Castro~Manor was acquired by a rich~and peculiar scientist, who~repurposed the manor as a~research facility, but it has~since been abandoned. Isn't~that a shame?*I see you are a seasoned~trainer, so I'll allow you to~enter, but please be careful!
 Castro_Main_CastroGrandson,My relatives founded this~town, as well as its famous~manor.*They've since long passed, but~Castro Valley was built around~their naval activities.*It's still the core of Rijon's~maritime economy.
 Castro_Main_Marill_Cry,Marill: Marill Marill!*It looks lost...
 Castro_Main_JappaWakka,JappaWakka: Hiya! You must be~<Player.Name>!*My name is JappaWakka, but you~can call me Jappa if you want!*I've heard a lot about you.*Rijon Champion, huh? That's~pretty special! Would you like~to join me and some other~folks on a short ocean trip?~We got a great dance club and~we'll be back in no time,~no worries.*<Player.Name>: Sure, why not?*JappaWakka: Great, I'll start~the engine! See you inside!
 Castro_Main_Mew,Mew!
 Castro_Main_Sign_City,Castro Valley*The Courtly Little Port Town.
-Castro_Main_Sign_Forest,Bosque Castro Entrance
+Castro_Main_Sign_Forest,Castro Forest Entrance
 Castro_Main_Sign_Gym,Castro Valley~Pokémon Gym~Leader: Koji*Calm as a Breeze, Overwhelming~as a Storm!
-Castro_Main_Sign_CastroManor,Please restrain from entering,~as Casona Castro is now~abandoned and rampant with~wild Pokémon.*In hope of restoring the~former glory of this very~important piece of Castro's~history, a blueprint and~budget for restoration have~been approved.*Castro's Mayor
+Castro_Main_Sign_CastroManor,Please restrain from entering,~as Castro Manor is now~abandoned and rampant with~wild Pokémon.*In hope of restoring the~former glory of this very~important piece of Castro's~history, a blueprint and~budget for restoration have~been approved.*Castro's Mayor
 
 Castro_PokeCenter_BenchGuy,It is true that a higher level~Pokémon will be more powerful...*But, all Pokémon will have~weak points against specific~types. So there is no~universally strong Pokémon.
 Castro_PokeCenter_Sailor,My Pokémon was poisoned!*It almost fainted while we~were walking!
@@ -4668,8 +4667,8 @@ Castro_TradeHouse_ChanseyTrade_Answer_No,That's too bad.
 Castro_TradeHouse_ChanseyTrade_AfterTrade,How is my old Chansey?
 Castro_TradeHouse_ChanseyTrade_TradeSuccess,Okay, connect the cable~like so!
 Castro_TradeHouse_ChanseyTrade_TradeFail,...This is no Pidgey.*If you get one, trade it with~me!
-Castro_TradeHouse_ChanseyTrade_CatchMethod,Received in a trade
-Castro_TradeHouse_ChanseyTrade_CatchLocation,in Castro Valley
+Castro_TradeHouse_ChanseyTrade_CatchMethod,Received in a trade in
+Castro_TradeHouse_ChanseyTrade_CatchLocation,Castro Valley
 
 Castro_OldRodHouse_OldRodGuy_Question,I'm the Fishing Guru's cousin!*I love to fish!*How about you?
 Castro_OldRodHouse_OldRodGuy_Answer_No,Oh...That's so disappointing...
@@ -4754,12 +4753,12 @@ Castro_Forest_BugCatcherCaden_OutroMessage,Ouch! We got swatted instead!
 Castro_Forest_BugCatcherCaden_DefeatMessage,Sometimes my Beedrill brings~me stuff it finds on the~ground.*People drop valuable things~all the time.
 
 [Route 62 - Castro Forest Gate]
-Route62_CastroForest_Gate_Guard,If you keep going west you'll~reach Pueblo Moraga. Although~it's more like a city at this~point...
+Route62_CastroForest_Gate_Guard,If you keep going west you'll~reach Moraga Town. Although~it's more like a city at this~point...
 Route62_CastroForest_Gate_RegularGuy,You want to learn how to Surf?*You should find the fisherman~that lives at Route 61.
 Route62_CastroForest_Gate_YoungGirl,Prof. Tim got a Bulbasaur in~this forest!
 
 [Route 62]
-Route62_Main_Sign_CastroField,Route 62~Campiña Castro*The path to many cities!
+Route62_Main_Sign_CastroField,Route 62~Castro Field*The path to many cities!
 Route62_Main_YoungsterBarry_IntroMessage,Caught ya by surprise!
 Route62_Main_YoungsterBarry_OutroMessage,Darn! I need to make my~Pokémon stronger!
 Route62_Main_YoungsterBarry_DefeatMessage,There's a fat Pokémon that~came down from the mountains.*It's really strong...~When it's awake, of course!
@@ -4820,7 +4819,7 @@ Route61_SurfHouse_SurfMan_BeforeTalking,Hi there, kid!*I just bought a bunch of~
 Route61_SurfHouse_SurfMan_AfterTalking,HM03 is Surf!*Pokémon will be able to~ferry you across water!*And, this HM isn't disposable!~You can use it over and over!
 
 [Route 60 - Route 61 Gate]
-Route60_Route61_Gate_Guard,I'm here to make sure that~no-one vandalizes the old~abandoned Central de Energía~up ahead.*They closed it as it was~cheaper to import electricity~from Johto.*However, since the earthquake~hit, they plan to get our~Central de Energía up and running~again.*Honestly? I'm not convinced~that it was ever shut down~properly in the first place.*Electric Pokémon, like~Magneton, are still attracted~to the area.*Maybe it's to do with a~residual magnetic field?
+Route60_Route61_Gate_Guard,I'm here to make sure that~no-one vandalizes the old~abandoned Power Plant~up ahead.*They closed it as it was~cheaper to import electricity~from Johto.*However, since the earthquake~hit, they plan to get our~Power Plant up and running~again.*Honestly? I'm not convinced~that it was ever shut down~properly in the first place.*Electric Pokémon, like~Magneton, are still attracted~to the area.*Maybe it's to do with a~residual magnetic field?
 Route60_Route61_Gate_RegularGuy,Be careful inside the Power~Plant.*When I was in Kanto, I once~picked up what I thought was a~Poké Ball. It was actually a~Voltorb!*How shocking!
 Route60_Route61_Gate_YoungBoy,Yuva Mila Lake lies at the end~of this route.
 
@@ -4829,21 +4828,21 @@ Route57_CastroForest_Gate_Guy,Many Pokémon live only in~forests and caves.*You 
 Route57_CastroForest_Gate_OldMan,Can you tell me the way to~Castro Valley?
 
 [Route 57]
-Route57_Main_Sign_Route,Route 57~Embalse Sur*Bosque Castro - Southedge Bay
-Route57_Main_Sign_Gym,Embalse Sur~Pokémon Gym*Leader: Joe~Just a Normal Guy!
+Route57_Main_Sign_Route,Route 57~South Reservoir*Castro Forest - Southedge Bay
+Route57_Main_Sign_Gym,South Reservoir~Pokémon Gym*Leader: Joe~Just a Normal Guy!
 Route57_Main_Fisherman_Question,Got time for a story, kid?
 Route57_Main_Fisherman_Answer_No,You don't? I promise it's a~good one!
 Route57_Main_Fisherman_Answer_Yes,One day, when I was fishin'~down by this very same river~with some pals, we happened to~see a weird hole open up in~the sky. It spat out a man and~closed right back up, never~seen anythin' like it. The man~that fell from the sky was~very upset and said he~couldn't remember a thing but~his name, so we figured we'd~get him a Pokémon so he could~at least get by traveling. He~was scared by most of them for~some reason or another and~didn't even like our fish~much... But rats? Cats? Birds?~He loved those. So we caught~Joe a Pidgey, way back then.~And he took darn good care of~it.*Bit of a weird fella; can't~say we talk much now. But he~made a good name for himself,~far as I'm concerned. You~ought to pay his Gym a visit.
 
-Route57_Gym_Statue_BeforeDefeat,Embalse Sur~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura
-Route57_Gym_Statue_AfterDefeat,Embalse Sur~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<Player.Name>
+Route57_Gym_Statue_BeforeDefeat,South Reservoir~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura
+Route57_Gym_Statue_AfterDefeat,South Reservoir~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<Player.Name>
 Route57_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Joe uses only Normal Pokémon!*I would recommend using~Fighting-type Pokémon against~those foes!
 Route57_Gym_GymGuy_AfterBadge,Gym Guy: <Player.Name>!~Good job once again!
 Route57_Gym_Quiz_Answer_Correct,You're absolutely correct!*Go on through.
 Route57_Gym_Quiz_Answer_Wrong,Sorry, bad call.
 Route57_Gym_Quiz_Question1,Pokémon Quiz!*Pidgeot is Normal/Wind-type?
 Route57_Gym_Quiz_Question2,Pokémon Quiz!*Normal-type attacks are weak~against Abnormal-type Pokémon?
-Route57_Gym_Quiz_Question3,Pokémon Quiz!*Vieja Ruta 47 is in Rijon?
+Route57_Gym_Quiz_Question3,Pokémon Quiz!*Old Route 47 is in Rijon?
 Route57_Gym_Quiz_Question4,Pokémon Quiz!*Marill is catchable in Rijon?
 Route57_Gym_Quiz_Question5,Pokémon Quiz!*Pokémon Brown was originally~made by Koolboyman?
 Route57_Gym_Quiz_Question6,Pokémon Quiz!*Johto is south of Rijon?
@@ -4868,7 +4867,7 @@ Route57_Gym_NormalTrainerReggie_DefeatMessage,Normal Pokémon's only weakness~is
 Route57_Gym_NormalTrainerStefan_IntroMessage,Normal equals best!
 Route57_Gym_NormalTrainerStefan_OutroMessage,Just another day at the office.
 Route57_Gym_NormalTrainerStefan_DefeatMessage,Quit staring at me, it's mean!
-Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the Embalse Sur Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<Player.Name>: Well, I'll~do anything for the~Equity Badge!
+Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the South Reservoir Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<Player.Name>: Well, I'll~do anything for the~Equity Badge!
 Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if~your opponent is this good.*You have earned the Equity~Badge!
 Route57_Gym_LeaderJoe_AfterBattle1,Joe: Hah!*Since you're special, I'll~give you something else!
 Route57_Gym_LeaderJoe_AfterBattle2,TM 15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!
@@ -4899,7 +4898,7 @@ Route56_Main_SwimmerFemaleTanisha_DefeatMessage,I like anime better.
 Route56_Main_SwimmerMaleEstevan_IntroMessage,I will win, hahaha!
 Route56_Main_SwimmerMaleEstevan_OutroMessage,Wimpy!
 Route56_Main_SwimmerMaleEstevan_DefeatMessage,I lost, whaa whaa whaa...
-Route56_Main_BirdKeeperChucky_IntroMessage,I came from Pueblo Moraga!
+Route56_Main_BirdKeeperChucky_IntroMessage,I came from Moraga Town!
 Route56_Main_BirdKeeperChucky_OutroMessage,Oh no!
 Route56_Main_BirdKeeperChucky_DefeatMessage,I just like the view here.
 Route56_Main_SwimmerFemaleSybilla_IntroMessage,I love to swim!
@@ -4917,17 +4916,17 @@ Route56_Main_SwimmerFemaleNicole_DefeatMessage,I lost in this big tub...
 
 [Eagulou City]
 Eagulou_Main_ParkGirl,The Eagulou Park is a great~place to catch Pokémon!
-Eagulou_Main_MistStoneGuy_NoMistStone,Rumor is that the Mist Stone~can break that barrier, but~that's an item from the~ancient Guardians.*The Mist Stone has been long~forgotten, just like that old~shelter in the depths of~Mt. Pedrusco.
+Eagulou_Main_MistStoneGuy_NoMistStone,Rumor is that the Mist Stone~can break that barrier, but~that's an item from the~ancient Guardians.*The Mist Stone has been long~forgotten, just like that old~shelter in the depths of~Mt. Boulder.
 Eagulou_Main_MistStoneGuy_HaveMistStone,So, you managed to get a Mist~Stone? You may be the one.*That cave was supposed to be~a test for trainers looking~for the Eagulou Gym, but the~new Leader...*Well, you'll find out soon~enough.
 Eagulou_Main_MistStoneGuy_AfterGiovanni,You beat Giovanni?*It seems you were worthy of~that Mist Stone!*May the Pokégods bless you!
 Eagulou_Main_Sign_City,Eagulou City*The Totally Underrated City.
 Eagulou_Main_Sign_Park,Eagulou Park
-Eagulou_Main_Sign_MtBoulder,Mt. Pedrusco*Shortcut to Ciudad Merson*There's a note attached:~Watch out! A Pokémon nested~in Mt. Pedrusco recently and~temperature in it has dropped~to freezing point!*There's an extra note: Poor~Growlithe...
+Eagulou_Main_Sign_MtBoulder,Mt. Boulder*Shortcut to Merson City*There's a note attached:~Watch out! A Pokémon nested~in Mt. Boulder recently and~temperature in it has dropped~to freezing point!*There's an extra note: Poor~Growlithe...
 Eagulou_Main_MistStoneBarrier,Something pushes you.
 Eagulou_Main_SandInClothes,<Player.Name>: There's some sand~stuck in my clothes.*I hope it's enough for that~scientist in Hayward City!
 
 Eagulou_PokeCenter_CoolTrainerFemale,My boyfriend is busy catching~Pokémon from the Eagulou Park.
-Eagulou_PokeCenter_Gentleman,What is with that cave, and I~don't mean Mt. Pedrusco...
+Eagulou_PokeCenter_Gentleman,What is with that cave, and I~don't mean Mt. Boulder...
 Eagulou_PokeCenter_BenchGuy,Pokémon can still learn~techniques after canceling~evolution.*Evolution can wait until~new moves have been learned.
 
 Eagulou_PokeMart_ExtraItemsGirl,It never hurts to have extra~items!
@@ -5007,7 +5006,7 @@ Eagulou_Park_Area3_House_TiredGuy,Whew! I'm tired from all the fun!
 
 Eagulou_Park_TimeIsUp,Ding! Your time's up!
 
-Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_IntroMessage,You found the Cueva Secreta too?
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_IntroMessage,You found the Secret Cave too?
 Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_OutroMessage,The rumors were true!
 Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_DefeatMessage,This cave isn't THAT well hidden.
 Eagulou_Park_SecretCaveB1F_CoolTrainerFemaleShirlee_IntroMessage,I'll show you just how good~you are!
@@ -5023,7 +5022,7 @@ Eagulou_Park_SecretCave_B2F_Switch_Answer_Yes,<Player.Name>: What was that?
 Eagulou_Park_SecretCave_B2F_Switch_Answer_No,<Player.Name>: Who knows what~might happen, better safe~than sorry.
 
 [Mt. Boulder]
-MtBoulder_B1F_Sign_Ruins,Mt. Pedrusco Ruins
+MtBoulder_B1F_Sign_Ruins,Mt. Boulder Ruins
 MtBoulder_B1F_Sign_EvolveEevee,Wow!*You made it!*Congratulations, try evolving an Eevee in this freezing cave!
 MtBoulder_B1F_Articuno_Cry,Gyaao!
 MtBoulder_B1F_Suicune_Cry,Rrroar!
@@ -5111,8 +5110,8 @@ Route67_PokeCenter_KangaskhanGuy_Question,Yo!*I have Kangaskhan, a Pokémon~that
 Route67_PokeCenter_KangaskhanGuy_Decline,No swaggy swag for you then.
 Route67_PokeCenter_KangaskhanGuy_NotEnoughMoney,Hey!*No dough, no...*uh...*Pokémon.
 Route67_PokeCenter_KangaskhanGuy_AfterSelling,Everyday I'm hustlin...*Oh no, did you hear me?!
-Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone
-Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,at Route 67
+Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone at
+Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,Route 67
 Route67_PokeCenter_ImpatientGuy,The teleporter is taking~forever. I want it NOW!
 
 Route67_TeleportScientist_Question,Hello there, I am...*A SCIENTIST!*I am in the process of~building a teleporter that~will warp anybody from Rijon~to Naljo.*Think of it as a shortcut to~our League because Naljo~doesn't have their own League.*Although it's taking a lot~longer than I anticipated.*People are getting impatient,~but I'm still at it!*For being so patient, would~you like a reward?
@@ -5185,9 +5184,9 @@ League_Champion_Mura_AfterDefeat4,Mura: <Player.Name>!*You see this big finger?~
 League_HallOfFame,Tim: Er-hem!~Congratulations, <Player.Name>!*Shall we put your Pokémon data~on the Hall of Fame website~for all to see and know about~your accomplishments?*<Player.Name>: Yeah, definitely!*Tim: Alright, here we go!*Mura, shouting in the distance:~I will become a LEGEND, you~just wait and see!
 
 [Old Route 48]
-Route48_Sign_GoingUphill,Vieja Ruta 48~Going uphill!
-Route48_Sign_CyclingRoad,Vieja Ruta 48~Ciclovía Rinjoh*Johto (Ilex Forest) -~Rijon (Bridge Road)
-Route48_Sign_RegionLimits,Vieja Ruta 48~Johto - Rijon border
+Route48_Sign_GoingUphill,Old Route 48~Going uphill!
+Route48_Sign_CyclingRoad,Old Route 48~Rinjoh Veloway*Johto (Ilex Forest) -~Rijon (Bridge Road)
+Route48_Sign_RegionLimits,Old Route 48~Johto - Rijon border
 Route48_BikerDonovan_IntroMessage,What a lame bike!
 Route48_BikerDonovan_OutroMessage,Are you satisfied?
 Route48_BikerDonovan_DefeatMessage,I don't like you!
@@ -5220,7 +5219,7 @@ Route48_BikerDawson_OutroMessage,Crash and burn!
 Route48_BikerDawson_DefeatMessage,You're almost there, kid!
 
 [Old Route 47]
-Route47_Sign_RinjohPeak,Vieja Ruta 47~Cúspide Rinjoh*Ilex Forest -~Rijon Border (Ciclovía Rinjoh)
+Route47_Sign_RinjohPeak,Old Route 47~Rinjoh Peak*Ilex Forest -~Rijon Border (Rinjoh Veloway)
 Route47_Snorlax_NoPokeFlute,A sleeping Pokémon blocks~the way!
 Route47_Snorlax_UsedPokeFlute,Snorlax woke up!*It attacked in a grumpy rage!
 Route47_Snorlax_Caught,Snorlax calmed down! It no longer blocks the way!
@@ -5245,7 +5244,7 @@ Route47_CueBallMatthew_OutroMessage,Knock out!
 Route47_CueBallMatthew_DefeatMessage,Don't look at me again!
 
 [Old Route 47 Gate]
-Route47_Gate_Guard,Ciclovía Rinjoh leads to the~Rijon city Owsauri City!
+Route47_Gate_Guard,Rinjoh Veloway leads to the~Rijon city Owsauri City!
 Route47_Gate_LittleBoy,We both live nearby!
 Route47_Gate_LittleGirl,My brother loves Azalea Town!
 Route47_Gate_Binoculars_Left,Looked into the binoculars...*It's the Magnet Train!
@@ -5456,8 +5455,8 @@ FinalDungeon_SmallCave_CrobatTrade_Answer_No,Well, if you don't want to...
 FinalDungeon_SmallCave_CrobatTrade_AfterTrade,Now, if only I had a protector...
 FinalDungeon_SmallCave_CrobatTrade_TradeSuccess,Okay, connect the cable~like so!
 FinalDungeon_SmallCave_CrobatTrade_TradeFail,Hmmm? This isn't Rhyhorn.*Think of me when you get one.
-FinalDungeon_SmallCave_CrobatTrade_CatchMethod,Received in a trade
-FinalDungeon_SmallCave_CrobatTrade_CatchLocation,in the Final Dungeon
+FinalDungeon_SmallCave_CrobatTrade_CatchMethod,Received in a trade in the
+FinalDungeon_SmallCave_CrobatTrade_CatchLocation,Final Dungeon
 
 FinalDungeon_SmallRoom2_GentlemanJones_IntroMessage,I don't have time for your~garbage.
 FinalDungeon_SmallRoom2_GentlemanJones_OutroMessage,I must salute you!
@@ -5493,8 +5492,8 @@ FinalDungeon_SmallRoom3_FishermanAstor_OutroMessage,I'm all out!
 FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,I get paid to just sit here.
 
 FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,What have I done?*I trapped such a graceful~Pokémon!*Please take this far far away~and let it live in peace.
-FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Received from a Rocket Grunt
-FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,in the Final Dungeon
+FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Received from a Rocket Grunt in the
+FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,Final Dungeon
 FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Now just look at that, this~doesn't deserve to be trapped~here! It's a shame those~Master Balls can be abused~this much...
 FinalDungeon_JohtoLegendaryRoom_Rocket_TalkAgain,Don't tell anyone about this,~this is our secret.
 
@@ -5539,7 +5538,7 @@ FinalDungeon_FinalShop_Clerk_Quit,Thank you!
 FinalDungeon_FinalShop_Scientist_Question,Palette Red made us work for~him, but we make some money~selling some of his resources...*Would you be interested?
 FinalDungeon_FinalShop_Scientist_Store,Take your time.
 FinalDungeon_FinalShop_Scientist_Quit,Thank you!
-FinalDungeon_FinalShop_Manager_Question,That weird bird back there? I~know nothing about it, it came~flying from the Bosque Embrujado~a while ago.*I've heard some legends about~a mysterious bird in Naljo,~maybe you can find more~information there?*Anyways... Should we talk business?
+FinalDungeon_FinalShop_Manager_Question,That weird bird back there? I~know nothing about it, it came~flying from the Haunted Forest~a while ago.*I've heard some legends about~a mysterious bird in Naljo,~maybe you can find more~information there?*Anyways... Should we talk business?
 FinalDungeon_FinalShop_Manager_Store,Take your time.
 FinalDungeon_FinalShop_Manager_Quit,Thank you!
 FinalDungeon_FinalShop_BikeMan_Question,I was forced to work here,~so I can take the risk and~sell you some of Palette~Red's stuff.*Want any?
@@ -5587,8 +5586,8 @@ MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo,JappaWakka: Ah, <Player.
 MadameRenifler_Bridge_JappaWakka_Battle_Yes1,Alrighty then! Let's see what~you got, Champion!
 MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~some skilled battling! You've~certainly proven yourself~worthy of this reward!
 MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
-MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift
-MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,at Madame Renifler
+MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift at
+MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,Madame Renifler
 MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero. I'd let~Professor Tim take a look at~that device if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex,JappaWakka: I'd let Professor~Tim take a look at that~Pokédex if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
 MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!

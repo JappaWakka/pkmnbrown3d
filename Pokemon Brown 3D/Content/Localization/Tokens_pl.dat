@@ -6,9 +6,9 @@ global_loading,Ładowanie
 global_game,Gra
 global_login,Zaloguj się
 global_create_account,Załóż Konto
-global_male,Male
-global_female,Female
-global_genderless,Genderless
+global_male,Chłopiec
+global_female,Dziewczynka
+global_genderless,Niebinarne
 global_style a,Styl A
 global_style b,Styl B
 global_yes,Tak
@@ -31,7 +31,7 @@ global_enable,Włącz
 global_disable,Wyłącz
 global_player_name,Imię gracza
 global_badges,Odznaki
-global_play_time,Czas Gry
+global_play_time,Czas gry
 global_location,Lokalizacja
 global_money,Kasa
 global_points,Punkty
@@ -113,18 +113,18 @@ property_Type,Typ
 property_Nature,Nature
 property_DexNo.,Nr Dex
 property_ot,OT
-property_CatchMethod,Catch Method
+property_CatchMethod,Metoda złapania
 property_ExpPoints,Exp. Points
-property_Category,Category
-property_Power,Power
-property_Accuracy,Accuracy
+property_Category,Kategoria
+property_Power,Moc
+property_Accuracy,Celność
 ---
 Summary Screen:
 
-summary_hint_ViewMoves,View Moves: [<system.button(movebackward)>] / Down
-summary_hint_ViewInfo,View Info: [<system.button(moveforward)>] / Up
+summary_hint_ViewMoves,Zobacz ruchy: [<system.button(movebackward)>] / Dół
+summary_hint_ViewInfo,Zobacz informacje: [<system.button(moveforward)>] / Góra
 summary_EVsIVs,EVs / IVs
-summary_ExpToNextLv,To Next Lv.
+summary_ExpToNextLv,Do następnego pz.
 summary_TheEggWatch,The Egg Watch
 summary_EggHatch_LongTime,It looks like this Egg will take a long time to hatch.
 summary_EggHatch_MediumTime,It's getting warmer and moves a little. It will hatch soon.
@@ -205,9 +205,9 @@ fieldmove_teleport_used,used~Teleport!
 ---
 GameInteractions:
 game_interaction_interact,Interact
-game_interaction_gamemenu,Menu Gry
+game_interaction_gamemenu,Menu gry
 game_interaction_pokegear,PokéŁącze
-game_interaction_pausemenu,Pause Menu
+game_interaction_pausemenu,Menu pauzy
 game_interaction_accept,Zaakceptuj
 game_interaction_enter,Wprowadź
 game_interaction_confirm,Potwierdź
@@ -229,11 +229,11 @@ start_screen_tostart,, aby zacząć.
 ---
 Main Menu:
 main_menu_newgame_line1,Nowa
-main_menu_newgame_line2,Gra
+main_menu_newgame_line2,gra
 main_menu_options,Opcje
-main_menu_gamejolt_ChangeToMale,Change to male
-main_menu_gamejolt_ChangeToFemale,Change to female
-main_menu_gamejolt_ChangeToGenderless,Change to genderless
+main_menu_gamejolt_ChangeToMale,Zmień na chłopca
+main_menu_gamejolt_ChangeToFemale,Zmień na dziewczynkę
+main_menu_gamejolt_ChangeToGenderless,Zmień na postać niebinarną
 main_menu_gamejolt_ResetSave,Resetuj plik zapisu
 main_menu_error_gamemode_profile,Wymagany tryb gry nie istnieje!
 main_menu_error_gamemode_message,Wymagany tryb gry nie istnieje.~Ponownie pobierz tryb gry, aby grać na tym profilu.
@@ -246,11 +246,11 @@ main_menu_options_language,Język
 main_menu_options_audio,Dźwięk
 main_menu_options_controls,Kontrole
 main_menu_options_contentpacks_line1,Paczki
-main_menu_options_contentpacks_line2,Treści
+main_menu_options_contentpacks_line2,treści
 
 GameModeMenu:
-gamemode_menu_select1,Wybierz tryb gry,
-gamemode_menu_select2,aby zacząć w nim nową grę.
+gamemode_menu_select1,Wybierz tryb gry, aby
+gamemode_menu_select2,zacząć w nim nową grę.
 gamemode_menu_name,Nazwa
 gamemode_menu_description,Opis
 gamemode_menu_version,Wersja
@@ -260,25 +260,25 @@ gamemode_menu_create,Utwórz
 gamemode_menu_back,Wróć
 ---
 JoinServerScreen:
-join_server_screen_title,Join a server:
-join_server_screen_local_server_title,Local
-join_server_screen_local_server_description,Single-player: Play on your local computer.
-join_server_screen_button_join,Join
-join_server_screen_button_play,Play
-join_server_screen_button_refresh,Refresh
-join_server_screen_button_new,New
-join_server_screen_button_add,Add
-join_server_screen_button_edit,Edit
-join_server_screen_button_remove,Remove
-join_server_screen_tooltip_no_players,No players on the server.
-join_server_screen_tooltip_player_list,Player List
+join_server_screen_title,Dołącz do serwera:
+join_server_screen_local_server_title,Lokalnie
+join_server_screen_local_server_description,Jeden gracz: Graj na swoim komputerze.
+join_server_screen_button_join,Dołącz
+join_server_screen_button_play,Zagraj
+join_server_screen_button_refresh,Odśwież
+join_server_screen_button_new,Nowy
+join_server_screen_button_add,Dodaj
+join_server_screen_button_edit,Edytuj
+join_server_screen_button_remove,Usuń
+join_server_screen_tooltip_no_players,Nie ma graczy na serwerze.
+join_server_screen_tooltip_player_list,Lista graczy
 join_server_screen_ping,Ping:
-join_server_screen_server_unavailable,Cannot reach server.
-join_server_screen_server_online,Server online.
+join_server_screen_server_unavailable,Nie można dotrzeć do serwera.
+join_server_screen_server_online,Serwer online.
 join_server_screen_server_polling,Polling
-join_server_screen_server_full,The server is full.
-join_server_screen_version_mismatch,Version doesn't match the server's version.
-join_server_screen_no_connection,(no connection)
+join_server_screen_server_full,Serwer jest pełny.
+join_server_screen_version_mismatch,Wersja nie pasuje do wersji serwera.
+join_server_screen_no_connection,(brak połączenia)
 ---
 
 Options Screen:
@@ -526,34 +526,34 @@ VoltorbFlip_Tutorial_Hint_Image,By looking at the numbers on the sides of the ca
 VoltorbFlip_Tutorial_AboutMemos_Image,Select "Open Memo" to open the Memo Window. Select the cards and press [<system.button(enter1)>] to add and [<system.button(back1)>] to remove marks.
 ----
 PokedexScreen
-pokedex_seen,Seen:
-pokedex_obtained,Obtained:
-pokedex_available,Available:
-pokedex_select,Select a Pokédex
-pokedex_habitat_dex_name,Habitat-Dex
-pokedex_habitat_select,Select a Habitat
-pokedex_order,Order:
-pokedex_order_numeric,Numeric
+pokedex_seen,Zobaczyłeś:
+pokedex_obtained,Otrzymałeś:
+pokedex_available,Dostępne:
+pokedex_select,Wybierz Pokédex
+pokedex_habitat_dex_name,Dex Siedlisk
+pokedex_habitat_select,Wybierz siedlisko
+pokedex_order,Kolejność:
+pokedex_order_numeric,Numeryczna
 pokedex_order_alphabetically,A-Z
-pokedex_order_height,Height
-pokedex_order_weight,Weight
-pokedex_filter,Filter:
-pokedex_filter_none,None
-pokedex_filter_name,Name
-pokedex_filter_type1,Type 1
-pokedex_filter_type2,Type 2
-pokedex_search_hint,Press [<system.button(special)>] or Select to search.
-pokedex_search_no_results,No search results.
-pokedex_data_species,SPECIES
-pokedex_data_type,TYPE
-pokedex_data_height,HEIGHT
-pokedex_data_weight,WEIGHT
-pokedex_data_form_switch_hint,Press [Shift] to switch forms
-pokedex_data_page_details,Details
-pokedex_data_page_habitat,Habitat
-pokedex_data_page_evolution,Evolution
-pokedex_habitat_area_unknown,Area Unknown.
-pokedex_evolution_no_evolutions,doesn't evolve.
+pokedex_order_height,Wzrost
+pokedex_order_weight,Waga
+pokedex_filter,Filtr:
+pokedex_filter_none,Brak
+pokedex_filter_name,Nazwa
+pokedex_filter_type1,Typ 1
+pokedex_filter_type2,Typ 2
+pokedex_search_hint,Wciśnij [<system.button(special)>] lub Select, aby szukać.
+pokedex_search_no_results,Brak wyników wyszukiwania.
+pokedex_data_species,GATUNEK
+pokedex_data_type,TYP
+pokedex_data_height,WZROST
+pokedex_data_weight,WAGA
+pokedex_data_form_switch_hint,Wciśnij [Shift], aby zmienić formy
+pokedex_data_page_details,Szczegóły
+pokedex_data_page_habitat,Siedlisko
+pokedex_data_page_evolution,Ewolucja
+pokedex_habitat_area_unknown,Obszar nieznany.
+pokedex_evolution_no_evolutions,nie ewoluuje.
 ----
 Receiving Items:
 item_received_single,Received the~
@@ -620,15 +620,15 @@ Places:
 Places_???,???
 
 Towns and Cities:
-Places_Seashore City,Seashore
-Places_Gravel Town,Gravel
-Places_Merson City,Merson
-Places_Hayward City,Hayward
+Places_Seashore City,Brzeźnin
+Places_Gravel Town,Żwirnice
+Places_Merson City,Marzanów
+Places_Hayward City,Chocholino
 Places_Owsauri City,Owsauri
-Places_Moraga Town,Moraga
-Places_Jaeru City,Jaeru
-Places_Botan City,Botan
-Places_Castro Valley,Castro
+Places_Moraga Town,Barbekin
+Places_Jaeru City,Wrócisztyn
+Places_Botan City,Piwonice
+Places_Castro Valley,Grodzinów
 Places_Eagulou City,Eagulou
 Places_Azalea Town,Azalea
 
@@ -645,18 +645,18 @@ Places_Nation's Burgers,Nation's Burgers
 Places_Orion Academy,Akademia Oriona
 Places_Owsauri Casino,Kasyno Owsauri
 Places_City Underpass,Miejskie Przejście Podziemne
-Places_Dock Underpass,Dokowe Przejście Podziemne
-Places_Power Plant,Power Plant
-Places_Castro Manor,Rezydencja Castro
-Places_Merson Cave Entrance,Wejście do Jaskini Merson
-Places_Merson Cave,Jaskinia Merson
-Places_Mt. Boulder,Góra Głaz
+Places_Dock Underpass,Portowe Przejście Podziemne
+Places_Power Plant,Elektrownia
+Places_Castro Manor,Rezydencja Grodzinowskich
+Places_Merson Cave Entrance,Wejście do Jaskini Marzanowskiej
+Places_Merson Cave,Jaskinia Marzanowska
+Places_Mt. Boulder,Głazica
 Places_Silk Tunnel,Jedwabny Tunel
 Places_Silph Co. Warehouse,Magazyn Silph
-Places_Botan Cave,Jaskinia Botan
+Places_Botan Cave,Jaskinia Piwonicka
 Places_Haunted Forest,Nawiedzony Las
 Places_International Tunnel,Tunel Międzynarodowy
-Places_Castro Forest,Las Castro
+Places_Castro Forest,Las Grodzinowski
 Places_Eagulou Park,Park Eagulou
 Places_Secret Cave,Tajna Jaskinia
 Places_Seneca Caverns,Jaskinia Seneki
@@ -669,15 +669,15 @@ Places_Gate,Brama
 Places_Final Dungeon,Ostatni Loch
 
 Gyms:
-Places_Seashore City Gym,Sala Seashore
-Places_Merson City Gym,Sala Merson
+Places_Seashore City Gym,Sala w Brzeźninie
+Places_Merson City Gym,Sala w Marzanowie
 Places_Owsauri City Gym,Sala Owsauri
-Places_Moraga Town Gym,Sala Moraga
-Places_Jaeru City Gym,Sala Jaeru
-Places_Castro Valley Gym,Sala Castro
+Places_Moraga Town Gym,Sala Barbekinie
+Places_Jaeru City Gym,Sala we Wrócisztynie
+Places_Castro Valley Gym,Sala w Grodzinowie
 Places_South Reservoir Gym,Sala South Reservoir
 Places_Eagulou City Gym,Sala Eagulou
-Places_Azalea Town Gym,Sala Azalea
+Places_Azalea Town Gym,Sala w Azalea
 
 Routes:
 Places_Route 34,Droga 34
@@ -718,15 +718,15 @@ GameMessages:
 game_message_screenshot,Zapisano zrzut ekranu jako
 game_message_screenshot_failed,Nie można utworzyć zrzutu ekranu
 game_message_fullscreen_on,Włączono tryb pełnoekranowy
-game_message_fullscreen_off,Fullscreen off
+game_message_fullscreen_off,Wyłączono tryb pełnoekranowy
 game_message_third_person_on,Third person mode on
 game_message_third_person_off,Third person mode off
 game_message_free_camera_on,Free camera mode on
 game_message_free_camera_off,Free camera mode off
-game_message_sandbox_mode_on,Sandbox mode on
-game_message_sandbox_mode_off,Sandbox mode off
-game_message_audio_on,Audio on
-game_message_audio_off,Audio off
+game_message_sandbox_mode_on,Tryb piaskownicy włączony
+game_message_sandbox_mode_off,Tryb piaskownicy wyłączony
+game_message_audio_on,Dźwięk włączony
+game_message_audio_off,Dźwięk wyłączony
 game_message_continue_autosave,Continued save state:
 game_message_debug_texture_list_clear,Texture list was cleared
 ---
@@ -2351,7 +2351,7 @@ item_name_675,Steel Memory
 item_name_676,Water Memory
 
 [GameMode Items]
-item_name_gm0,Tim's Pizza
+item_name_gm0,Pizza Tima
 item_name_gm1,Trade Stone
 item_name_gm2,Red Amulet
 item_name_gm3,Red Orb
@@ -2423,20 +2423,21 @@ item_pluralname_gm94,Boost Machines
 ----
 Item Descriptions:
 [Official Items]
-item_desc_41,The ticket required for boarding the cruise ship S.S. Anne. It has a drawing of a ship on it.
+# item_desc_41,The ticket required for boarding the cruise ship S.S. Anne. It has a drawing of a ship on it.
+item_desc_41,Bilet na statek wycieczkowy Święta Anna. Na nim jest rysunek statku.
 item_desc_54,A case for holding coins obtained at the Owsauri Casino.
-item_desc_127,A card key that opens a door in the Silph Co. Warehouse.
+item_desc_127,Karta klucz, która otwiera drzwi w magazynie Silph.
 item_desc_181,A special Poké Ball that is used only in the Eagulou Park. It is decorated in a camouflage pattern.
 
 [GameMode Items]
 item_desc_gm0,Pizza, którą zamówił Tim. Lepiej ją dostarczyć, zanim ostygnie!
 item_desc_gm1,A peculiar device that can make certain species of Pokémon evolve that would normally need to hold items or be traded.
 item_desc_gm2,Wydaje się, że ktoś zgubił ten amulet. Jego właściciel na pewno chce go z powrotem.
-item_desc_gm3,A shiny red orb. Someone might give you something in exchange for it.
+item_desc_gm3,Lśniąca, czerwona kula. Ktoś może dać ci coś w zamian za nią.
 item_desc_gm4,A shiny blue orb. Someone might give you something in exchange for it.
 item_desc_gm5,A shiny green orb. Someone might give you something in exchange for it.
 item_desc_gm6,Strange artifact used to ban MissingNo.
-item_desc_gm7,An alcoholic beverage with a strong smell. When consumed by a Pokémon, it restores 30 HP.
+item_desc_gm7,Napój alkoholowy o mocnym zapachu. Leczy 30 PŻ Pokémonowi, na którego jest użyty.
 item_desc_gm8,A very convenient map that can be viewed anytime. It even shows your present location.
 item_desc_gm9,A flute that is said to instantly awaken any Pokémon. It has a lovely tone.
 item_desc_gm10,A special stone that is said to break spells. It emits a blue glow.
@@ -2461,12 +2462,12 @@ item_desc_gm82,Lapras-print Mail. Write a message on it and let a Pokémon hold 
 ----
 Item Use Text:
 item_cannot_use,<Player.Name>: Hmm... I don't think~I can use this now.
-item_6_cannot_walk,<Player.Name>: I can't dismount~here!
+item_6_cannot_walk,<Player.Name>: Nie mogę tutaj~zejść!
 item_6_missingskin,You can't use this item~without a bicycle skin.*Its name should be the~same as your current one,~but with "_bike" at the end.
 item_6_only_custom_gamemodes,This item can't be used~on this GameMode.
 
 [Official Items]
-item_use_6,<Player.Name> zszedł~(zeszła) z Roweru.
+item_use_6,<Player.Name> zszedł~(zeszła) z roweru.
 item_use_54,Twoje monety:~
 item_use_658_disable,The Exp. All was turned off.
 item_use_658_enable,The Exp. All was turned on.
@@ -3221,10 +3222,14 @@ DifficultySelect_Answer_Nuzlocke,Nuzlocke: Recommended for~Pokémon veterans who
 DifficultySelect_End,If you change your mind, you~can change the difficulty~later from the Options menu,~which can be found by~pressing [<system.button(OpenMenu)>].
 
 [Game Intro]
-NewGameIntro_1,H-hello?! You must be new~here.*Welcome to the region of~Rijon!*I am Timothy, but there are~some who call me Tim.*I am this region's Pokémon~Tutor.
-NewGameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.
-NewGameIntro_3,I research these creatures~as my profession.*They have special capabilities~for fighting, but can be~raised as tame household pets.*Oh, where are my manners?~What should I call you?
-NewGameIntro_4,<Player.Name>?*A most unusual name.~I've never heard it before!*Well, it turns out that you~actually live close by!*My laboratory is in Gravel~Town, just south of where you~live.*Stop by when you can.~I have something wonderful to~show you! See you soon!
+# NewGameIntro_1,H-hello?! You must be new~here.*Welcome to the region of~Rijon!*I am Timothy, but there are~some who call me Tim.*I am this region's Pokémon~Tutor.
+NewGameIntro_1,Cz-cześć?! Chyba jesteś tu~nowy.*Witam w regionie Rijon!*Nazywam się Timothy, ale są~tacy, którzy mnie nazywają Tim.*Jestem asystentem Pokémonów~w tym regionie.
+# NewGameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.
+NewGameIntro_2,To jest Pokémon.~W obszarze Rijon jest ich wiele.
+# NewGameIntro_3,I research these creatures~as my profession.*They have special capabilities~for fighting, but can be~raised as tame household pets.*Oh, where are my manners?~What should I call you?
+NewGameIntro_3,Badam zawodowo te stworzenia.*Mają specjalne zdolności do~walki, ale mogą być wychowane~jako przyjazne zwierzęta~domowe.*O, gdzie są moje maniery?~Jak mam cię nazywać?
+# NewGameIntro_4,<Player.Name>?*A most unusual name.~I've never heard it before!*Well, it turns out that you~actually live close by!*My laboratory is in Gravel~Town, just south of where you~live.*Stop by when you can.~I have something wonderful to~show you! See you soon!
+NewGameIntro_4,<Player.Name>?*Najniezwyklejsze imię!~Pierwszy raz je słyszę!*Okazuje się, że tak naprawdę~mieszkasz tu blisko!*Moje laboratorium jest~w Żwirnicach, na południe od~twojego domu.*Wpadnij do mnie kiedy możesz.~Mam coś wspaniałego do~pokazania tobie!~Widzimy się!
 
 NewGameIntro_NewNameOption,-Nowe-
 
@@ -3273,7 +3278,8 @@ Generic_PC_Decoration_Start,How do you want to customize~your room?
 
 Generic_ReceivePokemon,<Player.Name> received~a <pokemon.name(<pokemon.count>-1)>!
 Generic_ReceiveAnPokemon,<Player.Name> received~an <pokemon.name(<pokemon.count>-1)>!
-Generic_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
+# Generic_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
+Generic_PokemonToPC,Nie ma już miejsca na~Pokémony!*<pokemon.nickname(<pokemon.count>-1)> został wysłany do~komputera.
 
 [Follower Pokémon Interations]
 FollowerInteraction_Music_PlayerRoomMusic1,<name> is moving~around the room.
@@ -3291,7 +3297,7 @@ FollowerInteraction_Gyms2,<name> is composed~and very sure of itself.
 FollowerInteraction_Gyms_Moraga,<name> is extending~its vines and wrapping~itself in them!*Seems like fun!
 FollowerInteraction_Gyms_Azalea,<name> began to~scuttle around!
 
-FollowerInteraction_PlayerHouse_LivingRoom,<name> greeted your~mom.
+FollowerInteraction_PlayerHouse_LivingRoom,<name> przywitał się~z mamą!
 FollowerInteraction_Seashore1,<name> has a flower~petal on its face!
 FollowerInteraction_Seashore2,<name> stretched out~and relaxed!
 
@@ -3304,7 +3310,7 @@ FollowerInteraction_Blackboard,<name> stares intently~at the blackboard, but doe
 
 FollowerInteraction_HauntedForest1,A strange sound is coming~from <name>!
 FollowerInteraction_HauntedForest2,<name> started spinning~around in circles.
-FollowerInteraction_HauntedForest3,<name> isn’t moving.
+FollowerInteraction_HauntedForest3,<name> nie rusza się.
 FollowerInteraction_HauntedForest4,<name> looks very~interested.
 FollowerInteraction_HauntedForest5,<name> is staring~intently at nothing.
 FollowerInteraction_HauntedForest6,<name> is having~fun swaying back and forth.
@@ -3510,7 +3516,7 @@ Seashore_Gym_LeaderSheryl_Rematch_OutroMessage,Sheryl: You young trainers...~I w
 Seashore_Gym_LeaderSheryl_Rematch_AfterBattle,Sheryl: What does strength~even mean to you?*<Player.Name>: I'm not really~sure about the details, I just~know the stronger the trainers~and Pokémon, the more fun the~battle! So being strong is~just winning a lot, right?*Sheryl: That's just one part~of the picture. Are battles~between weak trainers any less~meaningful?*<Player.Name>: I mean, they're a~lot lamer...*Sheryl: Ha! Maybe you're right.~I never wanted to be a weak~trainer either. Just keep an~open mind, Champion.
 
 [Route 53]
-Route53_Sign,Route 53~Gravel Canyon*Seashore City - Gravel Town
+Route53_Sign,Droga 53~Kanion Żwirnicki*Brzeźnin - Żwirnice
 Route53_PotionGuy_FreeSamples,Hi! The Gravel Town Mart is~giving away free samples~today, so go ahead and~take a free potion!
 Route53_PotionGuy_OutOfSamples,Sorry, but I'm all out of free~samples.
 Route53_OtherGuy_StraightForward,This road is pretty straight-~forward.*You can never get lost on this~road!
@@ -3522,13 +3528,14 @@ Gravel_Main_FreshAirGuy,Uwielbiam to miejsce!*Powietrze jest takie świeże~i cz
 Gravel_Main_GameModeGuy,Did you know?*This GameMode is based on the~rom hack Pokémon Brown by~Koolboyman, which first~released on January 17th,~2004!*Years later, in 2014, Leahkim~and Miragics made the first~attempt at a 3D remake using~Pokémon 3D!*Then in 2024, JappaWakka gave~it a massive overhaul,~creating a lot of content from~scratch!
 Gravel_Main_Sign_Town,Gravel Town*A Quiet Mountain Town.
 Gravel_Main_Sign_Lab,Laboratorium Tima
-Gravel_Main_Sign_Cave,Jaskinia Merson
+Gravel_Main_Sign_Cave,Jaskinia Marzanowska
 
-Gravel_TimsLab_Note_OpenMenu,Press [<system.button(OpenMenu)>] to open~the Menu!
+Gravel_TimsLab_Note_OpenMenu,Wciśnij [<system.button(OpenMenu)>], aby~otworzyć menu!
 Gravel_TimsLab_Pokedex,Jak encyklopedia, ale strony~są puste!
-Gravel_TimsLab_PokeballAfterChoose,That belongs to Tim.
-Gravel_TimsLab_PC_StephanieMail,There's an e-mail message~here!*...*Mr. Tim, don't forget about~our date tonight!*Love,~Stephanie
-Gravel_TimsLab_RegularAide,I study Pokémon as Prof. Tim's~Aide.
+Gravel_TimsLab_PokeballAfterChoose,To należy do Tima.
+# Gravel_TimsLab_PC_StephanieMail,There's an e-mail message~here!*...*Mr. Tim, don't forget about~our date tonight!*Love,~Stephanie
+Gravel_TimsLab_PC_StephanieMail,Tu jest wiadomość email...*Panie Timie, nie zapomnij o naszej~randce dziś wieczorem!*Całusy~Stephanie
+Gravel_TimsLab_RegularAide,Studiuję Pokémony jako asystent~profesora Tima.
 Gravel_TimsLab_RewardAide_BeforePizza,I'm hungry... Where's the pizza?
 Gravel_TimsLab_RewardAide_AfterPizza,I'm Prof. Tim's Aide.*You are working on the~Pokédex, right?*I'll give you some rewards if~you do a good job with it, so~work hard and catch lots of~different Pokémon!
 Gravel_TimsLab_FemaleAide,Prof. Tim is the authority~on Pokémon.*Many Pokémon trainers hold him~in high regard!
@@ -3538,7 +3545,7 @@ Gravel_TimsLab_Choose_Squirtle,Tim: So! You want the Water~Pokémon, Squirtle?
 Gravel_TimsLab_Choose_Bulbasaur,Tim: So! You want the Grass~Pokémon, Bulbasaur?
 Gravel_TimsLab_Choose_Confirm,Tim: Good choice!
 Gravel_TimsLab_StarterPokemon_CatchMethod,Jako prezent od profesora
-Gravel_TimsLab_StarterPokemon_CatchLocation,Tima w Gravel
+Gravel_TimsLab_StarterPokemon_CatchLocation,Tima w Żwirnicach
 Gravel_TimsLab_Tim_LeaveBeforeChoose,Tim: Hey! Don't go away yet!
 Gravel_TimsLab_Tim_ChoosePokemon,Tim: What are you doing?*Choose a Pokémon!
 Gravel_TimsLab_Tim_GoodLuck,Tim: Good luck!
@@ -3603,7 +3610,7 @@ MersonCave_1F_BugCatcherBill_OutroMessage,You got me!
 MersonCave_1F_BugCatcherBill_DefeatMessage,Blah! You don't play nice!
 
 [Route 54]
-Route54_Sign,Route 54~Merson Pass*Merson Cave - Merson City
+Route54_Sign,Route 54~Przełęcz Marzanowska*Jaskinia Marzanowska - Marzanów
 Route54_SuperNerdCraig_IntroMessage,Hey, you broke my~concentration!
 Route54_SuperNerdCraig_OutroMessage,So noisy...
 Route54_SuperNerdCraig_DefeatMessage,This house looks nice,~I might buy it later.
@@ -3621,7 +3628,7 @@ Merson_Main_QuestionKid_AskQuestion,Are you a good trainer...?
 Merson_Main_QuestionKid_AnswerYes,Really? That's so cool!*I'm not...
 Merson_Main_QuestionKid_AnswerNo,Hahaha, I guess not.*Can you give me your Pokémon~then?*Please?
 # Merson_Main_Sign_Gym,Merson City~Pokémon Gym~Leader: Karpman*Feelin' Like a Fish in Water!
-Merson_Main_Sign_Gym,Lider Sali Merson:~Karpman*Czuje się jak ryba w wodzie!
+Merson_Main_Sign_Gym,Lider Sali w Marzanowie:~Karpman*Czuje się jak ryba w wodzie!
 Merson_Main_Sign_City,Merson City*The Noble Little Town.
 Merson_Main_Sign_Challenge,Think you're tough?*Go face Karpman!
 Merson_Main_Sign_SouthRijonGate,South Rijon Gate~Route 88*Under construction~Opening soon!*Luster City~Construction Co.
@@ -3676,7 +3683,7 @@ Merson_Gym_LeaderKarpman_Rematch_AfterBattle,Karpman: I think everyone has~their
 [Route 55]
 Route55_Sign_Route,Route 55~Mt. Boulder Pass*Merson City - Dock Underpass
 Route55_Sign_RainbowTower,Rainbow Tower
-Route55_Sign_MtBoulder,Góra Głaz*Skrót do Eagulou*Jest dołączona notka: Uwaga!~Pokémon niedawno zbudował~gniazdo w górze Głaz i tempe-~ratura w środku spadła do~punktu zamarzania!*Jest jeszcze jedna notka:~Biedne Growlithe...
+Route55_Sign_MtBoulder,Głazica*Skrót do Eagulou*Jest dołączona notka: Uwaga!~Pokémon niedawno zbudował~gniazdo w Głazicy i tempe-~ratura w środku spadła do~punktu zamarzania!*Jest jeszcze jedna notka:~Biedne Growlithe...
 Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my Pokémon?
 Route55_PokeManiacRoger_OutroMessage,Oh no! My Pokémon!
 Route55_PokeManiacRoger_DefeatMessage,I don't like you for beating me!
@@ -3732,7 +3739,8 @@ Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,I don't need this Pokémon,~s
 Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,How are you liking that crazy~little Pokémon I gave to you?*I downloaded it from some scam~website and my computer got~infected with a weird virus.*I got so mad that I threw my~laptop out of the window, sold~my house, moved into this~apartment, and put up a sign~outside to keep everyone away~from my stupidity.*Then I blacked out and wrote a~whole bunch of stuff on the~blackboard.*I came to with the worst~headache.*New types?*I don't even know what a type~is. Man, am I dumb.
 
 [Dock Underpass]
-DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52,~a.k.a. the Hayward Docks.
+# DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52,~a.k.a. the Hayward Docks.
+DockUnderpass_Entrance_Route55_Girl,Ta ścieżka prowadzi do drogi 52,~tzn. Portu Chocholińskiego.
 DockUnderpass_Entrance_Route52_HomelessGuy,Tu mieszkam, bo nie mam~pieniędzy...
 
 [Route 52]
@@ -3807,7 +3815,7 @@ Hayward_Main_Mura_OutroMessage,Mura: Hey!~Take it easy!~You won already!
 Hayward_Main_Mura_AfterBattle,Mura: You may have won~this time, but I'm going to~beat the Rijon League and~become the Champion!*<Player.Name>: Not before I do!*Mura: We'll see about that...~I'll see you later.
 
 Hayward_PokeCenter_BenchGuy,Byłoby fajnie, gdyby Elitarna~Czwórka przyszła i zgniotła~Zespół R!
-Hayward_PokeCenter_Gentleman,Jeżeli znajdziesz skamielinę,~to laboratorium obok przywróci~jej życie!
+Hayward_PokeCenter_Gentleman,Jeżeli znajdziesz skamielinę,~to laboratorium obok~przywróci jej życie!
 Hayward_PokeCenter_PokeFan,Jestem z Eagulou.
 
 Hayward_FossilLab_LaprasTrade_Question,I'm looking for a Clefairy!~Wanna trade one for a Lapras?
@@ -4144,7 +4152,7 @@ Route66_SwimmerMaleIvan_OutroMessage,Help!
 Route66_SwimmerMaleIvan_DefeatMessage,You have to fish for sea~Pokémon!
 
 [Route 63]
-Route63_Sign,Droga 63~Stary Strumyk*Hayward - Jedwabny Tunel
+Route63_Sign,Droga 63~Stary Strumień*Chocholino - Jedwabny Tunel
 Route63_JrTrainerFemaleAnnette_IntroMessage,Idziesz do Jedwabnego Tunelu,~nie?
 Route63_JrTrainerFemaleAnnette_OutroMessage,Ty mały bachorze!
 Route63_JrTrainerFemaleAnnette_DefeatMessage,Ta jaskinia jest mi zbyt~straszna i ciemna!
@@ -4163,9 +4171,9 @@ Route63_JrTrainerMaleMichael_DefeatMessage,Are you going to Moraga too?
 Route63_JrTrainerFemaleSamantha_IntroMessage,What is it, creep?
 Route63_JrTrainerFemaleSamantha_OutroMessage,Nasty!
 Route63_JrTrainerFemaleSamantha_DefeatMessage,Maybe one day, but don't~count on it.
-Route63_BugCatcherChristian_IntroMessage,Bug Pokémon never lose!
-Route63_BugCatcherChristian_OutroMessage,My bugs...
-Route63_BugCatcherChristian_DefeatMessage,Bugs are so underrated~these days.
+Route63_BugCatcherChristian_IntroMessage,Pokémony robaki nigdy nie~przegrywają!
+Route63_BugCatcherChristian_OutroMessage,Moje robaki...
+Route63_BugCatcherChristian_DefeatMessage,Robaki są dziś takie~niedoceniane.
 
 [Silk Tunnel]
 SilkTunnel_B3F_HikerGwendolin_IntroMessage,Such a big tunnel...
@@ -4211,14 +4219,14 @@ Moraga_Main_FatGuy,That Gym Leader is hard...*No one can beat her!
 # Moraga_PokeCenter_BenchGuy,I wish I had HM02 Surf.
 Moraga_PokeCenter_BenchGuy,Chciałbym mieć HM02 Fala.
 Moraga_PokeCenter_Gentleman,Silph jest bardzo sławną~firmą. Dlatego przyciągnął~Zespół R!
-Moraga_PokeCenter_OldWoman,Pokémon growth rates differ~from species to species.
+Moraga_PokeCenter_OldWoman,Tempo rozwoju Pokémona jest~różne dla każdego gatunku.
 
 Moraga_PokeMart_LeafStoneGuy,Why is that Leaf Stone so~expensive?
 Moraga_PokeMart_EscapeRopeGirl,Escape Ropes let you escape~from caves.
 
 Moraga_FlyHouse_Fearow_Cry,Fearow: Kyueen!
 # Moraga_FlyHouse_FlyGirl_BeforeTalking,How do you people keep~finding me?*OK, take this HM just like~the others and scram!
-Moraga_FlyHouse_FlyGirl_BeforeTalking,Nigdy nie mogę się ukryć!*OK, weź tę MU jak inni i wynocha!
+Moraga_FlyHouse_FlyGirl_BeforeTalking,Jak to jest, że ktoś zawsze~mnie znajdzie?*OK, weź tę MU jak inni i wynocha!
 Moraga_FlyHouse_FlyGirl_AfterTalking,HM02 is Fly. It will take~you back to any town.*Put it to good use!
 
 Moraga_SandshrewKidHouse_Father,My son just can't stop~paying attention to his~new pet!*At least it's better than~video games and TV...
@@ -4251,7 +4259,8 @@ Moraga_HighSchoolAcademy_Notebook_Page3,Third page...*Pokémon Trainers seek oth
 Moraga_HighSchoolAcademy_Notebook_Page4,Fourth page...*There are more than 200~Pokémon available in Rijon!*Most can also be found in~Kanto or Johto, but there are~more species, some from Naljo!
 Moraga_HighSchoolAcademy_Notebook_End,Guy: I plagiarized. So what?!
 
-Moraga_PrismMuseum_Owner_PrismKeyHint,This is the Prism Museum.*Bring me a Prism item and~maybe I'll let you inside.*I'll give you a clue: not all~things are reflected in the~mirror.
+# Moraga_PrismMuseum_Owner_PrismKeyHint,This is the Prism Museum.*Bring me a Prism item and~maybe I'll let you inside.*I'll give you a clue: not all~things are reflected in the~mirror.
+Moraga_PrismMuseum_Owner_PrismKeyHint,To jest Tęczowe Muzeum.*Przynieś mi tęczowy przedmiot~i na pewno cię wpuszczę.*Wskazówka: nie wszystko jest~odbite w lustrze.
 Moraga_PrismMuseum_Owner_HavePrismKey,That is the Prism Key!*You are worthy, you may pass.*Legend says there are six~hidden eggs in Rijon.*It is my dream to collect 'em~all. Bring them to me and I'll give you splendid rewards!
 Morage_PrismMuseum_GoldEgg_Hint,We have escaped the dungeon!
 Morage_PrismMuseum_GoldEgg_Found,The Gold Egg!
@@ -4281,8 +4290,8 @@ Moraga_Gym_LassKatrin_DefeatMessage,Bleaah!
 Moraga_Gym_BeautyRonda_IntroMessage,I was getting bored.
 Moraga_Gym_BeautyRonda_OutroMessage,My makeup!
 Moraga_Gym_BeautyRonda_DefeatMessage,Grass-type Pokémon are tough~against the Water-type!*They also have an edge~on Rock and Ground Pokémon!
-Moraga_Gym_JrTrainerFemaleJacqueline_IntroMessage,I hate boys!
-Moraga_Gym_JrTrainerFemaleJacqueline_OutroMessage,I'm in shock!
+Moraga_Gym_JrTrainerFemaleJacqueline_IntroMessage,Nienawidzę chłopaków!
+Moraga_Gym_JrTrainerFemaleJacqueline_OutroMessage,Jestem w szoku!
 Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We don't need men,~except to fight against!
 Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage,Don't underestimate the power~of grass!
 Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage,Oh! Beaten!
@@ -4309,7 +4318,7 @@ CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,at the City Underpass
 CityUnderpass_Entrance_Route56_Girl,People often lose things in~that underground path.
 
 [Route 60]
-Route60_Main_Sign,Route 60~Powerline Road*Moraga Town - Jaeru City -~Yuva Mila Lake
+Route60_Main_Sign,Route 60~Powerline Road*Barbekin - Wrócisztyn -~Yuva Mila Lake
 
 Route60_PowerPlant_Zapdos,Gyaao!
 Route60_PowerPlant_Raikou,Rrroar!
@@ -4333,7 +4342,7 @@ Route60_Jaeru_Gate_Binoculars_Right,Looked into the binoculars...*It looks like 
 Jaeru_Main_Sign_RijonLeagueEntrance,Path to Rijon League Entrance
 Jaeru_Main_Sign_City,Jaeru City~The Hoppy Town!
 Jaeru_Main_Sign_BikeShop,Sklep rowerowy*Fajne rowery dla każdego!
-Jaeru_Main_Sign_TownMap,Uwaga!*Zajrzyj na Mapę, jeśli się~zgubiłeś!
+Jaeru_Main_Sign_TownMap,Uwaga!*Zajrzyj na mapę, jeśli się~zgubiłeś!
 Jaeru_Main_Sign_Gym,Jaeru City~Pokémon Gym~Leader: Sparky*The Stunning Mechanic!
 Jaeru_Main_NewsGuy_Question,Did you hear the news?
 Jaeru_Main_NewsGuy_Answer_Yes,Oh, I wish I could have told!
@@ -4344,7 +4353,7 @@ Jaeru_Main_SilkTunnelGirl,I got a Ground Pokémon from~Silk Tunnel, but it still
 Jaeru_BikeShop_Youngster,These Bikes are cool, but~they're way expensive!
 Jaeru_BikeShop_Woman,I knew modes of transportation~were getting more expensive,~but come on!
 Jaeru_BikeShop_BikeSalesMan_NoVoucher,Hi! Welcome to our Bike Shop.~Have we got just the Bike~for you!*It's a cool Bike!~Do you want it?
-Jaeru_BikeShop_BikeSalesMan_Option_Bicycle,Bicycle    $1000000
+Jaeru_BikeShop_BikeSalesMan_Option_Bicycle,Rower      $1000000
 Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle,Sorry! You can't afford it!*Come back again some time!
 Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Come back again some time!
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that’s... A Bike Voucher!~OK! Here you go!
@@ -4355,7 +4364,7 @@ Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new
 Jaeru_PokeMart_RegularGuy,You will need eight Rijon~badges in order to reach the~Rijon League.
 Jaeru_PokeMart_LittleBoy,My dad is up north trying to~go to the League!
 
-Jaeru_PokeCenter_Gentleman,Go away, I'm on my cellphone!
+Jaeru_PokeCenter_Gentleman,Odejdź, rozmawiam przez~telefon!
 Jaeru_PokeCenter_BenchGuy,Sparky was mean to me!~He called me a stupid little~kid.
 
 Jaeru_Gym_Statues_BeforeDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura
@@ -4388,7 +4397,7 @@ Jaeru_OtherHouse_StandingGuy,Znam trenerów z całego świata.
 
 [Route 59]
 Route59_Main_Sign_SilphCo,Magazyn Silph
-Route59_Main_Sign_Route,Route 59~Jaeru Plains*Botan City - Jaeru City
+Route59_Main_Sign_Route,Droga 59~Pole Wrócisztyńskie*Piwonice - Wrócisztyn
 Route59_Main_LassDaisy_IntroMessage,You are pretty strange.
 Route59_Main_LassDaisy_OutroMessage,You're mean!
 Route59_Main_LassDaisy_DefeatMessage,What are you looking at?
@@ -4410,11 +4419,11 @@ Route59_Main_BugCatcherCavan_DefeatMessage,Trained Pokémon are stronger~than th
 Route59_Main_YoungsterJoey_IntroMessage,The name's Joey! I moved here~from Johto. Wanna feast your~eyes on the greatest Rattata~ever?
 Route59_Main_YoungsterJoey_OutroMessage,Oh, no! Rattata!
 Route59_Main_YoungsterJoey_DefeatMessage,My Rattata is in the top~percentage of all Rattata!*That's a fact!
-Route59_Main_LassFiona_IntroMessage,Watch out!
-Route59_Main_LassFiona_OutroMessage,That's it?
-Route59_Main_LassFiona_DefeatMessage,Botan City is not that~far away!
-Route59_Main_PokeManiac,That stupid guard won't let~me get to the next city!*What is his problem?!
-Route59_Main_Beauty,A little beer makes the guard~go to sleep!
+Route59_Main_LassFiona_IntroMessage,Uważaj!
+Route59_Main_LassFiona_OutroMessage,Tylko tyle?
+Route59_Main_LassFiona_DefeatMessage,Piwonice nie są tak daleko~stąd!
+Route59_Main_PokeManiac,Ten głupi ochroniarz nie~pozwoli mi wejść do następnego~miasta!*Jaki jest jego problem?!
+Route59_Main_Beauty,Trochę piwa i strażnik zaśnie!
 
 Route59_SilphCoWarehouse_SecurityDoors_WithCardKey,Bingo!~The Card Key opened the door!
 Route59_SilphCoWarehouse_SecurityDoors_NoCardKey,Darn! It needs a Card Key!
@@ -4459,11 +4468,12 @@ Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle,Giovanni: What?!*A
 Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage,Giovanni: Arrgh!! I lost~again?!
 Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: How can I run a~criminal organization if my~plans keep getting thwarted~by children?!*I guess I should just give up,~there's no way we can succeed~with kids like you!*Goodbye forever!
 Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<Player.Name>: Is everyone okay?*Manager: Yes, thanks to you.*You're a brave kid.*<Player.Name>: It was~nothing, really.*Manager: I need to repay you~somehow. Oh here, have this~valuable gift!*<Player.Name>: Thank you~so much!
-Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Manager: Make sure to visit~our main building, located in~Saffron City, Kanto when you~have the time.
+# Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Manager: Make sure to visit~our main building, located in~Saffron City, Kanto when you~have the time.
+Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Kierownik: Warto przyjść do~naszego głównego budynku w Safranii~w Kanto, gdy będziesz miał na~to czas.
 
 [Route 59 - Botan City Gate]
-Route59_Botan_Gate_1F_Guard_NoBeer_Wait,Wait!
-Route59_Botan_Gate_1F_Guard_NoBeer_CannotGoThrough,Sorry you can't go though.*I'm guarding the area!
+Route59_Botan_Gate_1F_Guard_NoBeer_Wait,Czekaj!
+Route59_Botan_Gate_1F_Guard_NoBeer_CannotGoThrough,Przepraszam, nie możesz przejść.*Chronię ten obszar!
 Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMeBeer,Whoa, kid!~I smell hard beer!*Give it to me I need it so bad!
 Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer,<Player.Name> handed over the~Keg of Beer.*...Glug glug...~...Gulp...~This stuff hits you...
 Route59_Botan_Gate_1F_Guard_HaveBeer_FallAsleep,Zzzzz...*<Player.Name>: Looks like I can~get past this guy now,~and complete my quest!
@@ -4485,11 +4495,11 @@ Route59_Botan_Gate_2F_Aide_ItemFinder_AfterReceiveItemFinder,There are items on 
 
 [Botan City]
 Botan_Main_Sign_City,Botan City*The City Of Nostalgia.
-Botan_Main_Sign_Cave,Jaskinia Botan~DO ROZBIÓRKI*Wkrótce: Ekspansja~Pociągu Magnetycznego.*Kolej wysokich prędkości do~Kanto, Johto, Naljo i Tunod!* Pociąg Magnetyczny~W tę stronę ruszamy
-Botan_Main_Scientist,Ten nadnaturalny las jest~bardzo intrygujący. Studiuję~go i sądzę, że być może to wirus~spowodowany przez~Ph4D95210XaP, ale moi ~współpracownicy uważają,~że zwariowałem.*A, gdzie moja Karta Klucz?
+Botan_Main_Sign_Cave,Jaskinia Piwonicka~DO ROZBIÓRKI*Wkrótce: Ekspansja~Pociągu Magnetycznego.*Kolej wysokich prędkości do~Kanto, Johto, Naljo i Tunod!* Pociąg Magnetyczny~W tę stronę ruszamy
+Botan_Main_Scientist,Ten nadnaturalny las jest~bardzo intrygujący. Studiuję~go i sądzę, że być może to wirus~spowodowany przez~Ph4D95210XaP, ale moi ~współpracownicy uważają,~że zwariowałem.*A, gdzie moja karta klucz?
 Botan_Main_Gentleman,Dzięki Bogu magazyn jest~bezpieczny.
 Botan_Main_Rocker,MissingNo. to tylko duchy.
-Botan_Main_FatGuy,Yeah! Team Rocket is gone!~It's safe to go out again!
+Botan_Main_FatGuy,Tak! Nie ma już Zespołu R!~Znowu można wychodzić!
 Botan_Main_Beauty,The Haunted Forest is really~spooky.
 Botan_Main_HealLady_Intro,My dream is to be a nurse~in the soon to be built~Pokémon Center!*Would you like me to heal your~Pokémon?
 Botan_Main_HealLady_Outro,I hope to see you again!
@@ -4507,8 +4517,8 @@ Botan_MrRumikoHouse_Nidorino_Cry,Nidorino: Gaoo!
 Botan_MrRumikoHouse_Psyduck_Cry,Psyduck: Gwappa!
 Botan_MrRumikoHouse_Grandson_BeforeRescue,Dziwne.*Nie ma pana Rumiko.
 Botan_MrRumikoHouse_Grandson_AfterRescue,Jestem wnukiem pana Rumiko!
-Botan_MrRumikoHouse_Granddaughter,Hiya!
-Botan_MrRumikoHouse_Magazine,Pokémon Monthly
+Botan_MrRumikoHouse_Granddaughter,Hej!
+Botan_MrRumikoHouse_Magazine,Pokémon - Miesięcznik
 Botan_MrRumikoHouse_MrRumiko_BeforeReceivePokeFlute,Mr. Rumiko: Alright,~<Player.Name>!*Here is the gift I promised~you.*It's a very popular item...~a PokéFlute!
 Botan_MrRumikoHouse_MrRumiko_AfterReceivePokeFlute,Mr. Rumiko: Upon hearing the~PokéFlute, any sleeping~Pokémon will wake up right~away!
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_Question,Mr. Rumiko: Good luck and~thanks again for saving me,~<Player.Name>!*I learned a couple of things~on my strolls through the~forest, would you like me to~teach one of your Pokémon~the move Dark Pulse for only~$3000?
@@ -4948,7 +4958,7 @@ Eagulou_Main_MistStoneBarrier,Something pushes you.
 Eagulou_Main_SandInClothes,<Player.Name>: There's some sand~stuck in my clothes.*I hope it's enough for that~scientist in Hayward City!
 
 Eagulou_PokeCenter_CoolTrainerFemale,My boyfriend is busy catching~Pokémon from the Eagulou Park.
-Eagulou_PokeCenter_Gentleman,What is with that cave, and I~don't mean Mt. Boulder...
+Eagulou_PokeCenter_Gentleman,Co jest z tą jaskinią?~Nie mam na myśli Głazicy.
 Eagulou_PokeCenter_BenchGuy,Pokémon can still learn~techniques after canceling~evolution.*Evolution can wait until~new moves have been learned.
 
 Eagulou_PokeMart_ExtraItemsGirl,It never hurts to have extra~items!
@@ -5136,10 +5146,10 @@ Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone
 Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,at Route 67
 Route67_PokeCenter_ImpatientGuy,The teleporter is taking~forever. I want it NOW!
 
-Route67_TeleportScientist_Question,Hello there, I am...*A SCIENTIST!*I am in the process of~building a teleporter that~will warp anybody from Rijon~to Naljo.*Think of it as a shortcut to~our League because Naljo~doesn't have their own League.*Although it's taking a lot~longer than I anticipated.*People are getting impatient,~but I'm still at it!*For being so patient, would~you like a reward?
-Route67_TeleportScientist_AnswerNo,I don't understand, the~SCIENTIST is giving you free~stuff!
+Route67_TeleportScientist_Question,Hej, jestem...*NAUKOWCEM!*Buduję teleporter, który~przeniesie każdego z Rijonu~do Naljo.*Pomyśl, że to skrót do naszej~ligi, bo Naljo nie ma swojej.*Jednakże zajmuje mnie to dłużej~niż oczekiwałem.*Ludzie już się niecierpliwią,~ale jeszcze pracuję!*Czy chciałbyś nagrodę za~taką cierpliwość?
+Route67_TeleportScientist_AnswerNo,Nie rozumiem. To NAUKOWIEC~daje ci coś za darmo!
 Route67_TeleportScientist_AnswerYes,Here, take this so-called~Magic Wand I found.*It's busted...~I wished that this project~would finally be completed,~but nothing happened.*It sure looks cool though.
-Route67_TeleportScientist_AfterGift,I don't believe in magic, and~I don't wear big red shoes.
+Route67_TeleportScientist_AfterGift,Nie wierzę w magię i nie noszę~wielkich czerwonych butów.
 
 [Seneca Caverns]
 SenecaCaverns_1F_FossilScientist,I'm studying the cave in~search of fossils to revive~powerful ancient Pokémon.
@@ -5149,9 +5159,9 @@ SenecaCaverns_1F_RocketGruntDerrick_DefeatMessage,The leader won't be happy...
 SenecaCaverns_1F_RocketGruntRosalyn_IntroMessage,Where do you think you are going?
 SenecaCaverns_1F_RocketGruntRosalyn_OutroMessage,Well, whatever.
 SenecaCaverns_1F_RocketGruntRosalyn_DefeatMessage,You won't find any fossils down there anyways.
-SenecaCaverns_1F_ScientistDarian_IntroMessage,Did you find any fossils?
-SenecaCaverns_1F_ScientistDarian_OutroMessage,I just want to take a quick look...
-SenecaCaverns_1F_ScientistDarian_DefeatMessage,My colleagues at Hayward~revived my Pokémon! It seems~Team Rocket has emptied these~caves, I can't find any more~fossils...
+SenecaCaverns_1F_ScientistDarian_IntroMessage,Czy znalazłeś skamieliny?
+SenecaCaverns_1F_ScientistDarian_OutroMessage,Tylko chcę zobaczyć na szybko...
+SenecaCaverns_1F_ScientistDarian_DefeatMessage,Moi koledzy w Chocholinie~przywrócili moje Pokémony~do życia! Wydaje się, że Zespół R~opróżnił tę jaskinię, bo nie mogę~znaleźć więcej skamielin...
 
 [Rijon League]
 League_Exterior_Sign,      Rijon League~El Norteño Summit*E pluribus unum.
@@ -5246,9 +5256,9 @@ Route47_Snorlax_NoPokeFlute,A sleeping Pokémon blocks~the way!
 Route47_Snorlax_UsedPokeFlute,Snorlax woke up!*It attacked in a grumpy rage!
 Route47_Snorlax_Caught,Snorlax calmed down! It no longer blocks the way!
 Route47_Snorlax_Defeated,Snorlax calmed down! With a~big yawn, it returned to~the forests!
-Route47_BikerVinnie_IntroMessage,Where you goin'?
-Route47_BikerVinnie_OutroMessage,Don't make me mad!
-Route47_BikerVinnie_DefeatMessage,You off to Ilex Forest?
+Route47_BikerVinnie_IntroMessage,'Dzie idziesz?
+Route47_BikerVinnie_OutroMessage,Nie wkurzaj mnie!
+Route47_BikerVinnie_DefeatMessage,Idziesz do Lasu Ilex?
 Route47_BikerJeff_IntroMessage,Hey, watch it!
 Route47_BikerJeff_OutroMessage,Kaboom!
 Route47_BikerJeff_DefeatMessage,Azalea Town is where my gramps~lives!
@@ -5267,16 +5277,18 @@ Route47_CueBallMatthew_DefeatMessage,Don't look at me again!
 
 [Old Route 47 Gate]
 Route47_Gate_Guard,Rinjoh Veloway leads to the~Rijon city Owsauri City!
-Route47_Gate_LittleBoy,We both live nearby!
-Route47_Gate_LittleGirl,My brother loves Azalea Town!
+Route47_Gate_LittleBoy,Mieszkamy tu blisko!
+Route47_Gate_LittleGirl,Mój brat zakochał się w Azalei!
 Route47_Gate_Binoculars_Left,Looked into the binoculars...*It's the Magnet Train!
 Route47_Gate_Binoculars_Right,Looked into the binoculars...*It's the Lake of Rage!
 
 [Old Route 47, Route 34 & Ilex Forest Gate]
 Route34_Route47_IlexForest_Gate_OldMan,After the earthquake,~new species came to live in~Ilex Forest.
 Route34_Route47_IlexForest_Gate_Scientist,How did you get past the~Snorlax? Can you teach me?
-Route34_Route47_IlexForest_Gate_Guard,Don't bother going north.~The way to Goldenrod City is~still full of rubble.
-Route34_Route47_IlexForest_Gate_Boulder,<Player.Name>: This boulder seems~to have fallen through that~hole in the roof...*That's scary.
+# Route34_Route47_IlexForest_Gate_Guard,Don't bother going north.~The way to Goldenrod City is~still full of rubble.
+Route34_Route47_IlexForest_Gate_Guard,Nie idź na północ.~Droga do Goldenrod nadal jest~pełna gruzu.
+# Route34_Route47_IlexForest_Gate_Boulder,<Player.Name>: This boulder seems~to have fallen through that~hole in the roof...*That's scary.
+Route34_Route47_IlexForest_Gate_Boulder,<Player.Name>: Zdaje się, że ten głaz~wpadł przez tę dziurę w dachu...*To straszne.
 
 [Route 34]
 Route34_MoveTutor_Question,I screamed so much when the~earthquake happened that my~Donphan learned a move!*Maybe if I scream again, one of~your Pokémon will learn it too?*I don't scream for free though.*Would you like me to teach one~of your Pokémon the move~Hyper Voice for only $8000?
@@ -5303,7 +5315,7 @@ Azalea_IlexForest_Gate_Guard,Was the forest too dark? You~almost reached Azalea 
 Azalea_Main_Sign_Gym,Azalea Town~Pokémon Gym~Leader: Bugsy*The Bug Pokémon Encyclopedia
 Azalea_Main_RegularGuy,I'm happy everyone here is~safe.
 Azalea_Main_Rocker,I hope there won't be any~aftershocks later on!
-Azalea_Main_YoungGirl,I want to get out of here!
+Azalea_Main_YoungGirl,Chcę się stąd wydostać!
 Azalea_Main_Clerk_Question,My shop! What am I going to do~now? At least I was able to~rescue some goods...*Would you help me recover?
 Azalea_Main_Clerk_Store,Take your time.
 Azalea_Main_Clerk_Quit,Thank you!
