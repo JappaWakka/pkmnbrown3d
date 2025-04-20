@@ -1,6 +1,6 @@
 The localization file is a simple .txt file, renamed to .dat, which can be opened by any text editor (Notepad++ for example).
 
-To start, make a copy of "Tokens_en.dat" inside the "Content\Localization\" folder inside the Pokémon Brown 3D GameMode folder and change the "en" to your language's suffix.
+To start, make a copy of "Tokens_en.dat" inside the "Content\Localization\" folder inside the "Pokemon Brown 3D" GameMode folder and change the "en" to your language's suffix.
 Look in the "Content\Localization\" folder of the regular game for the available language suffixes.
 
 Each token has a name (the value before the first comma) and content (everything after the first comma). The token name should not be changed.
@@ -9,6 +9,8 @@ To update/refresh the currently loaded tokens, you have to exit to the main menu
 
 You can write ~ in places where you want a soft line break (which scrolls to the next line, keeping the last previous line in view)
 You can write * in places where you want a hard line break (which clears the text box before displaying the next line)
+You can write • in places where you want a sparkle/hiccup icon to appear.
+If you want to display these symbols: * ~ and %, you can put a \ in front of it, e.g. "\*" without quotations.
 
 If you want to quickly test some strings (for example to check if it's not too long), you need to be in Sandbox Mode.
 While in game, hold the F3 key and press O, you are now in Sandbox Mode
