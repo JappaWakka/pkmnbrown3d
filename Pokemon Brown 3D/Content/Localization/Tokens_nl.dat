@@ -119,8 +119,8 @@ property_Accuracy,Nauwkeurigheid
 ---
 Summary Screen:
 
-summary_hint_ViewMoves,Technieken: [<system.button(movebackward)>] / Omlaag
-summary_hint_ViewInfo,Informatie: [<system.button(moveforward)>] / Omhoog
+summary_hint_ViewMoves,Technieken: [<system.button(movebackward)>]/[↓] Omlaag
+summary_hint_ViewInfo,Informatie: [<system.button(moveforward)>]/[↑] Omhoog
 summary_EVsIVs,MWs (wit) / IWs (blauw)
 summary_ExpToNextLv,Tot Nv. Hoger
 summary_TheEggWatch,De Eierwacht
@@ -4018,9 +4018,9 @@ move_desc_3,Het doelwit wordt herhaaldelijk geslagen, heen en weer, twee tot vij
 move_desc_4,Het doelwit wordt geraakt met een vlaag van stoten die twee tot vijf keer achter elkaar toeslaan.
 move_desc_5,Het doelwit wordt geraakt door een vuistslag met veel spierkracht.
 move_desc_6,Talrijke munten worden naar het doelwit geslingerd om schade toe te brengen. Na het gevecht wordt er geld verdiend.
-move_desc_7,Het doelwit wordt geslagen met een vurige vuist. Het doelwit kan ook een verbrand raken.
-move_desc_8,Het doelwit wordt geslagen met een ijzige vuist. Het doelwit kan ook bevroren raken.
-move_desc_9,Het doelwit wordt geslagen met een geëlektriseerde vuist. Het kan het doelwit ook verlammen.
+move_desc_7,Het doelwit wordt geslagen met een vurige vuist. Dit kan het doelwit ook verbranden.
+move_desc_8,Het doelwit wordt geslagen met een ijzige vuist. Dit kan het doelwit ook bevriezen.
+move_desc_9,Het doelwit wordt geslagen met een geëlektriseerde vuist. Dit kan het doelwit ook verlammen.
 move_desc_10,Harde, puntige en scherpe klauwen snijden het doelwit om schade toe te brengen.
 move_desc_11,Het doelwit wordt van beide kanten vastgegrepen en samengeknepen om schade toe te brengen.
 move_desc_12,Een wrede, scheurende aanval met grote nijptangen. Het doelwit wordt onmiddelijk uitgeschakeld als deze aanval raak is.
@@ -4034,18 +4034,18 @@ move_desc_19,De gebruiker zweeft en treft zijn doelwit in de tweede beurt. Het k
 move_desc_20,Dingen zoals lange lichamen of tentakels worden gebruikt om het doelwit vier tot vijf beurten lang vast te binden en samen te knijpen.
 move_desc_21,Het doelwit wordt geslagen met een lange staart, lianen, enz. om schade toe te brengen.
 move_desc_22,Het doelwit wordt geslagen met slanke, zweepachtige lianen om schade toe te brengen.
-move_desc_23,Het doelwit wordt vertrapt met een grote voet. Het kan het doelwit ook laten terugdeinzen.
+move_desc_23,Het doelwit wordt vertrapt met een grote voet. Dit kan het doelwit ook laten terugdeinzen.
 move_desc_24,Het doelwit wordt snel twee keer achter elkaar geschopt met beide voeten.
 move_desc_25,Het doelwit wordt aangevallen met een krachtvolle trap.
 move_desc_26,De gebruiker springt hoog op en slaat dan toe met een trap. Als de trap mist, verwondt de gebruiker zichzelf.
-move_desc_27,De gebruiker haalt uit met een snelle, draaiende trap. Het kan het doelwit ook laten terugdeinzen.
+move_desc_27,De gebruiker haalt uit met een snelle, draaiende trap. Dit kan het doelwit ook laten terugdeinzen.
 move_desc_28,Er wordt zand in het gezicht van het doelwit geslingerd, waardoor het minder nauwkeurig is.
-move_desc_29,De gebruiker steekt zijn hoofd uit en valt aan door recht op het doelwit af te stormen. Het kan het doelwit ook laten terugdeinzen.
+move_desc_29,De gebruiker steekt zijn hoofd uit en valt aan door recht op het doelwit af te stormen. Dit kan het doelwit ook laten terugdeinzen.
 move_desc_30,Het doelwit wordt gestoken met een scherp gepunte hoorn om schade toe te brengen.
 move_desc_31,Het doelwit wordt herhaaldelijk gestoken met een hoorn of snavel, twee tot vijf keer achter elkaar.
 move_desc_32,De gebruiker steekt het doelwit met een hoorn die draait als een boor. Als het raak is, wordt het doelwit onmiddelijk uitgeschakeld.
 move_desc_33,Een fysieke aanval waarbij de gebruiker aanvalt en met zijn hele lichaam op het doelwit inbeukt.
-move_desc_34,De gebruiker laat zich met zijn volle lichaamsgewicht op het doelwit vallen. Het kan het doelwit ook verlammen.
+move_desc_34,De gebruiker laat zich met zijn volle lichaamsgewicht op het doelwit vallen. Dit kan het doelwit ook verlammen.
 move_desc_35,Een lang lichaam of lianen worden gebruikt om het doelwit vier tot vijf keer in te pakken en samen te knijpen.
 move_desc_36,Een roekeloze oplaadaanval met het hele lichaam om op het doelwit in te beuken. Het beschadigt de gebruiker ook een beetje.
 move_desc_37,De gebruiker gaat twee tot drie beurten tekeer en valt aan. Daarna raakt hij echter in de war.
@@ -4055,7 +4055,7 @@ move_desc_40,De gebruiker steekt het doelwit met een giftige angel of stekel. Di
 move_desc_41,De gebruiker beschadigt het doelwit twee keer achter elkaar door het te steken met twee stekels. Dit kan het doelwit ook vergiftigen.
 move_desc_42,Scherpe stekels worden snel achter elkaar naar het doelwit geschoten. Ze raken twee tot vijf keer achter elkaar.
 move_desc_43,De gebruiker krijgt een intimiderende blik met scherpe ogen. De Verdediging-attributen van de tegenpartij worden gereduceerd.
-move_desc_44,Het doelwit wordt gebeten met venijnig scherpe hoektanden. Het kan het doelwit doen terugdeinzen.
+move_desc_44,Het doelwit wordt gebeten met venijnig scherpe hoektanden. Dit kan het doelwit doen terugdeinzen.
 move_desc_45,De gebruiker gromt op een vertederende manier, waardoor de tegenstanders minder op hun hoede zijn. De Aanval-attributen van de tegenstanders worden verlaagd.
 move_desc_46,Het doelwit wordt afgeschrikt en er wordt een andere Pokémon uitgesleept. In het wild eindigt dit een gevecht tegen één Pokémon.
 move_desc_47,Er wordt een rustgevend slaapliedje gezongen met een kalmerende stem die het doelwit in een diepe slaap brengt.
@@ -4063,13 +4063,13 @@ move_desc_48,De gebruiker genereert vreemde geluidsgolven vanuit zijn lichaam. D
 move_desc_49,Het doelwit wordt geraakt met een destructieve schokgolf die altijd 20 IP schade toebrengt.
 move_desc_50,Vier beurten lang kan het doelwit de techniek die het als laatste gebruikte niet gebruiken.
 move_desc_51,De tegenpartij wordt aangevallen met een spray van agressief zuur. Het zuur kan ook de Sp. Verdediging-attributen van de tegenstanders verlagen.
-move_desc_52,Het doelwit wordt aangevallen met kleine vlammen. Hierdoor kan het doelwit ook verbrand raken.
-move_desc_53,Het doelwit wordt verschroeid met een intense vuurstraal. Hierdoor kan het doelwit ook verbrand raken.
+move_desc_52,Het doelwit wordt aangevallen met kleine vlammen. Dit kan het doelwit ook verbranden.
+move_desc_53,Het doelwit wordt verschroeid met een intense vuurstraal. Dit kan het doelwit ook verbranden.
 move_desc_54,De gebruiker omhult zijn lichaam met een witte mist die voorkomt dat zijn attributen gedurende vijf beurten worden aangetast.
 move_desc_55,Het doelwit wordt bestraald met een krachtig schot water.
 move_desc_56,Het doelwit wordt bestraald door een enorme hoeveelheid water die onder grote druk wordt gelanceerd.
 move_desc_57,Het overspoelt het gebied rond de gebruiker met een gigantische golf. Het kan ook worden gebruikt om water over te steken.
-move_desc_58,Het doelwit wordt getroffen door een ijskoude energiestraal. Het doelwit kan ook bevroren raken.
+move_desc_58,Het doelwit wordt getroffen door een ijskoude energiestraal. Dit kan het doelwit ook bevriezen.
 move_desc_59,Een gierende sneeuwstorm wordt opgeroepen om de tegenstander te raken. Deze kan de tegenstander ook bevriezen.
 move_desc_60,Het doelwit wordt aangevallen met een vreemde straal. Hierdoor kan de tegenstander ook verward raken.
 move_desc_61,Een nevel van bubbels wordt met kracht op het andere team afgevuurd. Het kan ook hun Snelheid-attributen verlagen.
@@ -4088,17 +4088,17 @@ move_desc_73,Een zaadje wordt op het doelwit geplant. Het onttrekt elke beurt wa
 move_desc_74,Het lichaam van de gebruiker groeit in één keer, waardoor de Aanval- en Sp. Aanval-attributen verhoogd worden.
 move_desc_75,Scherpgerande bladeren worden gelanceerd om op de tegenstander in te slaan. Kritieke treffers komen gemakkelijker aan.
 move_desc_76,Een aanval met twee beurten. De gebruiker verzamelt licht en vuurt dan een gebundelde straal af tijdens de tweede beurt.
-move_desc_77,De gebruiker verspreidt een wolk giftige stof over het doelwit. Het kan het doelwit vergiftigen.
-move_desc_78,De gebruiker verspreidt een wolk verlammend poeder. Het kan het doelwit verlammen.
+move_desc_77,De gebruiker verspreidt een wolk giftige stof over het doelwit. Dit kan het doelwit vergiftigen.
+move_desc_78,De gebruiker verspreidt een wolk verlammend poeder. Dit kan het doelwit verlammen.
 move_desc_79,De gebruiker verstrooit een grote wolk slaapverwekkende stof rond het doelwit.
 move_desc_80,De gebruiker valt het doelwit aan door twee tot drie beurten lang bloemblaadjes te strooien. De gebruiker raakt dan in de war.
 move_desc_81,De doelwitten worden gebonden met zijde die uit de mond van de gebruiker wordt geblazen. Deze zijde verlaagt het Snelheid-attribuut van het doelwit.
 move_desc_82,Deze aanval raakt het doelwit met een schokgolf van pure woede. Deze aanval brengt altijd 40 IP schade toe.
 move_desc_83,Het doelwit raakt gevangen in een woeste draaikolk van vuur die vier tot vijf beurten woedt.
-move_desc_84,Een stroomstoot wordt naar het doelwit geslingerd om schade toe te brengen. Het kan het doelwit ook verlammen.
+move_desc_84,Een stroomstoot wordt naar het doelwit geslingerd om schade toe te brengen. Dit kan het doelwit ook verlammen.
 move_desc_85,Een sterke elektrische stoot wordt op het doelwit losgelaten. Deze kan het doelwit ook verlammen.
 move_desc_86,Een zwakke elektrische lading wordt op het doelwit gelanceerd. Het veroorzaakt verlamming als het raakt.
-move_desc_87,Een vernietigende bliksemschicht wordt op het doelwit afgevuurd om schade toe te brengen. Het kan het doelwit ook verlammen.
+move_desc_87,Een vernietigende bliksemschicht wordt op het doelwit afgevuurd om schade toe te brengen. Dit kan het doelwit ook verlammen.
 move_desc_88,De gebruiker pakt een kleine steen op en gooit deze naar het doelwit om aan te vallen.
 move_desc_89,De gebruiker veroorzaakt een aardbeving die iedereen in zijn omgeving treft.
 move_desc_90,De gebruiker maakt een spleet in de grond en laat het doelwit erin vallen. Het doelwit wordt onmiddelijk uitgeschakeld als het wordt geraakt.
@@ -4133,11 +4133,11 @@ move_desc_118,De gebruiker zwaait met een vinger en stimuleert zijn hersenen om 
 move_desc_119,De gebruiker countert het doelwit door de laatste techniek van het doelwit na te bootsen.
 move_desc_120,De gebruiker valt alles om zich heen aan door een explosie te veroorzaken. De gebruiker valt flauw als hij deze techniek gebruikt.
 move_desc_121,Een groot ei wordt met maximale kracht naar het doelwit geslingerd om schade toe te brengen.
-move_desc_122,Het doelwit wordt gelikt met een lange tong, wat schade veroorzaakt. Het kan het doelwit ook verlammen.
-move_desc_123,Het doelwit wordt aangevallen met een uitstoot van smerige gassen. Het kan het doelwit ook vergiftigen.
-move_desc_124,Onhygiënisch slijk wordt naar het doelwit geslingerd. Het kan het doelwit ook vergiftigen.
-move_desc_125,De gebruiker slaat het doelwit met een bot. Het kan het doelwit ook doen terugdeinzen.
-move_desc_126,Het doelwit wordt aangevallen met een intense vuurzee. Hierdoor kan het doelwit ook verbrand raken.
+move_desc_122,Het doelwit wordt gelikt met een lange tong, wat schade veroorzaakt. Dit kan het doelwit ook verlammen.
+move_desc_123,Het doelwit wordt aangevallen met een uitstoot van smerige gassen. Dit kan het doelwit ook vergiftigen.
+move_desc_124,Onhygiënische smurrie wordt naar het doelwit geslingerd. Dit kan het doelwit ook vergiftigen.
+move_desc_125,De gebruiker slaat het doelwit met een bot. Dit kan het doelwit ook doen terugdeinzen.
+move_desc_126,Het doelwit wordt aangevallen met een intense vuurzee. Dit kan het doelwit ook verbranden.
 move_desc_127,De gebruiker valt het doelwit aan en kan het laten terugdeinzen. Het kan ook worden gebruikt om een waterval te beklimmen.
 move_desc_128,Het doelwit wordt vier tot vijf keer vastgeklemd en samengeknepen door het zeer dikke en stevige omhulsel van de gebruiker.
 move_desc_129,Stervormige stralen worden naar de tegenstander geschoten. Deze aanval mist nooit.
@@ -4154,7 +4154,7 @@ move_desc_139,Een wolk gifgas wordt in het gezicht van de Pokémon van de tegens
 move_desc_140,Ronde voorwerpen worden naar het doelwit geslingerd om twee tot vijf keer achter elkaar toe te slaan.
 move_desc_141,De gebruiker zuigt het bloed van het doelwit af. Het IP van de gebruiker wordt hersteld met de helft van de schade die het doelwit oploopt.
 move_desc_142,Met een eng gezicht probeert de gebruiker het doelwit te dwingen tot een kus. Als dat lukt, valt het doelwit in slaap.
-move_desc_143,Een aanvalstechniek die bij de tweede beurt toeslaat waarbij kritieke treffers gemakkelijker aankomen. Het kan het doelwit ook laten terugdeinzen.
+move_desc_143,Een aanvalstechniek die bij de tweede beurt toeslaat waarbij kritieke treffers gemakkelijker aankomen. Dit kan het doelwit ook laten terugdeinzen.
 move_desc_144,De gebruiker verandert in een kopie van het doelwit en heeft zelfs dezelfde technieken.
 move_desc_145,Een spray van ontelbare bubbels wordt naar de tegenpartij gespoten. Het kan ook de Snelheid-attributen van de doelwitten verlagen.
 move_desc_146,Het doelwit wordt geraakt met ritmisch gelanceerde stoten. Dit kan het doelwit ook in verwarring brengen.
@@ -4169,17 +4169,37 @@ move_desc_154,Het doelwit wordt twee tot vijf keer snel achter elkaar aangevalle
 move_desc_155,De gebruiker gooit het bot dat hij vasthoudt. Het bot maakt een lus om het doelwit twee keer te raken, tijdens het komen en gaan.
 move_desc_156,De gebruiker gaat twee beurten slapen. Het herstelt de IP van de gebruiker volledig en geneest elk statuseffect.
 move_desc_157,Grote rotsblokken worden naar de tegenstander geslingerd om schade toe te brengen. Ze kunnen de doelwitten ook laten terugdeinzen.
-move_desc_158,De gebruiker bijt hard op het doelwit met zijn scherpe hoektanden. Het kan het doelwit ook laten terugdeinzen.
+move_desc_158,De gebruiker bijt hard op het doelwit met zijn scherpe hoektanden. Dit kan het doelwit ook laten terugdeinzen.
 move_desc_159,De gebruiker vermindert het aantal polygonen om zichzelf scherper te maken, waardoor het Aanval-attribuut stijgt.
 move_desc_160,De gebruiker verandert zijn type om hetzelfde type te worden als de techniek die bovenaan de lijst staat van technieken die hij kent.
 move_desc_161,De gebruiker slaat toe met een gelijktijdige aanval met drie stralen. Kan het doelwit ook verbranden, bevriezen of verlammen.
 move_desc_162,De gebruiker beukt hard op het doelwit met zijn scherpe voortanden. Het halveert de IP van het doelwit.
 move_desc_163,Het doelwit wordt aangevallen met een slag van klauwen of messen. Kritieke treffers komen gemakkelijker aan.
 move_desc_164,De gebruiker maakt een kopie van zichzelf met behulp van een deel van zijn IP. De kopie dient als afleiding voor de gebruiker.
-move_desc_165,Een wanhoopsaanval die alleen wordt gebruikt als de gebruiker geen PP heeft. Het doet de gebruiker ook een beetje pijn.
+move_desc_165,Een wanhoopsaanval die alleen wordt gebruikt als de gebruiker geen KP heeft. Het doet de gebruiker ook een beetje pijn.
+move_desc_167,Een opeenvolgende aanval met drie schoppen die krachtiger wordt bij elke opeenvolgende treffer.
+move_desc_172,De gebruiker hult zichzelf in vuur en valt het doelwit aan. Dit kan het doelwit ook verbranden.
+move_desc_177,Een draaikolk van lucht wordt naar het doel geschoten om schade toe te brengen. Kritieke treffers komen gemakkelijker aan.
+move_desc_178,De gebruiker verspreidt katoenachtige sporen die zich aan het doelwit vastklampen, waardoor zijn Snelheid-attribuut sterk afneemt.
+move_desc_181,De gebruiker valt aan met een ijzingwekkende vlaag poederachtige sneeuw. Dit kan het doelwit ook bevriezen.
+move_desc_183,De gebruiker geeft een stoot met verblindende snelheid. Hij zal zeker als eerste toeslaan.
+move_desc_184,De gebruiker schrikt het doelwit af met een eng gezicht om zijn Snelheid-attribuut te verlagen.
+move_desc_185,De gebruiker benadert het doelwit ontwapenend en haalt dan uit met een onverwachtse hoek. Deze raakt altijd.
+move_desc_186,De gebruiker kust het doelwit met een zoete, engelachtige schattigheid die verwarring veroorzaakt.
+move_desc_188,Onhygiënische smurrie wordt naar het doelwit geslingerd. Het kan het doelwit ook vergiftigen.
+move_desc_189,De gebruiker gooit modder in het gezicht van het doelwit om schade toe te brengen en zijn nauwkeurigheid te verlagen.
+move_desc_190,De gebruiker valt aan door inkt in het gezicht of de ogen van het doelwit te spuiten. Het kan ook de nauwkeurigheid van het doelwit verlagen.
+move_desc_192,De gebruiker vuurt een elektrische straal af als een kanon om schade toe te brengen en verlamming te veroorzaken.
+move_desc_196,De gebruiker valt aan met een koude windvlaag. Dit vermindert ook de Snelheid-attributen van de doelwitten.
+move_desc_198,De gebruiker slaat het doelwit twee tot vijf keer achter elkaar met een hard bot.
+move_desc_200,De gebruiker gaat tekeer en valt aan gedurende twee tot drie beurten. Daarna raakt hij echter in de war.
+move_desc_202,Een voedingsstoffen-onttrekkende aanval. De IP van de gebruiker wordt hersteld met de helft van de schade die het doelwit oploopt.
+move_desc_204,De gebruiker kijkt het doelwit nogal charmant aan, waardoor het minder op zijn hoede is. Het Aanval-attribuut van het doelwit wordt sterk verlaagd.
+move_desc_205,De gebruiker rolt voortdurend tegen het doelwit aan gedurende vijf beurten. Het wordt sterker elke keer dat het raakt.
+move_desc_206,Een terughoudende aanval die voorkomt dat het doelwit uitgeschakeld wordt. Het doelwit houdt minstens 1 IP over.
 move_desc_1000,???
-move_desc_1001,De gebruiker valt het doelwit aan met een pulserende geluidsexplosie. Het kan het doelwit ook verwarren.
-move_desc_1002,De gebruiker gebruikt de slinkse tactiek om mist in de ogen van het doelwit te spuiten. Hierdoor kan het doelwit ook verbrand raken.
+move_desc_1001,De gebruiker valt het doelwit aan met een pulserende geluidsexplosie. Dit kan het doelwit ook verwarren.
+move_desc_1002,De gebruiker gebruikt de slinkse tactiek om mist in de ogen van het doelwit te spuiten. Dit kan het doelwit ook verbranden.
 move_desc_1003,De gebruiker scherpt op de een of andere manier een lichaamsdeel en valt het doel ermee aan.
 move_desc_1004,De gebruiker creëert een verpletterend veld van digitale gegevens rond het doel.
 move_desc_1005,De gebruiker bestraalt het doelwit met een vreemd gas. Dit verlaagt ook de Aanval- en Speciale Aanval-attributen van het doelwit.
