@@ -202,6 +202,9 @@ fieldmove_dig_used,used~Dig!
 
 fieldmove_teleport_CannotUse,Cannot use Teleport here.
 fieldmove_teleport_used,used~Teleport!
+
+fieldmove_fly_CannotUse,You cannot Fly~from here!
+fieldmove_fly_used,used~Fly!
 ---
 GameInteractions:
 game_interaction_interact,Interact
@@ -258,6 +261,10 @@ gamemode_menu_author,Author
 gamemode_menu_contentpath,ContentPath
 gamemode_menu_create,Create
 gamemode_menu_back,Back
+gamemode_name_Kolben,Pokémon 3D
+gamemode_desc_Kolben,The normal GameMode.
+gamemode_name_Pokemon Brown 3D,Pokémon Brown 3D
+gamemode_desc_Pokemon Brown 3D,A 3D recreation of Pokémon Brown, a modification of Pokémon Red maintained by RainbowDevs and originally created by Koolboyman.*Based on the work of Leahkim and Miragics, who made the first attempt at creating Pokémon Brown 3D.**For news and updates, see: rainbowdevs.com/brown-3d
 ---
 JoinServerScreen:
 join_server_screen_title,Join a server:
@@ -412,6 +419,8 @@ map_screen_cities,Cities
 map_screen_routes,Routes
 map_screen_places,Places
 map_screen_roaming,Roaming Pokes
+map_screen_PokemonAtPlace,[NAME] at [PLACE]
+map_screen_RegionSwitchHint,(Press the Shift Key/Shoulder Triggers to switch between regions.)
 ---
 Trainer Card Screen:
 trainer_screen_title,Trainer Card

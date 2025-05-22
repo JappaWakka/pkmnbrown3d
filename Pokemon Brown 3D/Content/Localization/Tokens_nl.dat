@@ -200,6 +200,9 @@ fieldmove_dig_used,gebruikte~Graaf!
 
 fieldmove_teleport_CannotUse,Kan hier niet Teleporteer~gebruiken.
 fieldmove_teleport_used,gebruikte~Teleporteer!
+
+fieldmove_fly_CannotUse,Je kunt niet Vliegen~vanaf hier!
+fieldmove_fly_used,gebruikte~Vlieg!
 ---
 GameInteractions:
 game_interaction_interact,Actie
@@ -256,6 +259,10 @@ gamemode_menu_author,Auteur
 gamemode_menu_contentpath,Inhoudspad
 gamemode_menu_create,Creëer
 gamemode_menu_back,Terug
+gamemode_name_Kolben,Pokémon 3D
+gamemode_desc_Kolben,De gebruikelijke SpelModus.
+gamemode_name_Pokemon Brown 3D,Pokémon Bruin 3D
+gamemode_desc_Pokemon Brown 3D,Een 3D-recreatie van Pokémon Brown (Bruin), een modificatie van Pokémon Red (Rood), onderhouden door RainbowDevs en oorspronkelijk gemaakt door Koolboyman.*Gebaseerd op het werk van Leahkim en Miragics, die de eerste poging hebben gedaan om Pokémon Brown (Bruin) 3D te maken.**Voor nieuws en updates, zie hier: rainbowdevs.com/brown-3d
 ---
 JoinServerScreen:
 join_server_screen_title,Verbind met een server:
@@ -408,6 +415,8 @@ map_screen_cities,Steden
 map_screen_routes,Routes
 map_screen_places,Plaatsen
 map_screen_roaming,Dwalende Pokémon
+map_screen_PokemonAtPlace,[NAME] bij [PLACE]
+map_screen_RegionSwitchHint,(Druk op de Shift-toets/Schouderknoppen om tussen regio's te schakelen.)
 ---
 Trainer Card Screen:
 trainer_screen_title,Trainerkaart
