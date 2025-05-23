@@ -66,9 +66,9 @@ global_pokemon_type_gas,Gas
 global_pokemon_type_wood,Holz
 global_pokemon_type_abnormal,Abnormal
 global_pokemon_type_neutral,Neutral
-global_true,True
+global_true,Wahr
 global_false,Falsch
-global_select,Auswählen
+global_select,Tauschen
 global_summary,Bericht
 global_item,Item
 global_use,Benutzen
@@ -100,14 +100,14 @@ property_Lv.,Lv.
 property_No.,Nr.
 property_Level,Level
 property_MaxHP,Max KP
-property_Attack,Angr.
-property_Defense,Vert.
-property_Special_Attack,Spezial Angr.
-property_Sp_Attack,Sp.Angr.
-property_Special_Defense,Spezial Vert.
-property_Sp_Defense,Sp.Vert.
-property_Speed,Init.
-property_Ability,Fähigk.:
+property_Attack,Angriff
+property_Defense,Verteidigung
+property_Special_Attack,Spezial Angriff
+property_Sp_Attack,Sp. Angr.
+property_Special_Defense,Spezial Verteidigung
+property_Sp_Defense,Sp. Vert.
+property_Speed,Initiative
+property_Ability,Fähigkeit
 property_Type,Typ
 property_Nature,Wesen
 property_DexNo.,Nr.
@@ -116,12 +116,12 @@ property_CatchMethod,Fangmethode
 property_ExpPoints,Erfahrung
 property_Category,Kategorie
 property_Power,Stärke
-property_Accuracy,Genauigk.
+property_Accuracy,Genauigkeit
 ---
 Summary Screen:
 
-summary_hint_ViewMoves,Attacken: [<system.button(movebackward)>]/[↓] Runter
-summary_hint_ViewInfo,Bericht: [<system.button(moveforward)>]/[↑] Hoch
+summary_hint_ViewMoves,Attacken: [<system.button(movebackward)>]/[↓] Unten
+summary_hint_ViewInfo,Bericht: [<system.button(moveforward)>]/[↑] Oben
 summary_EVsIVs,EVs (weiß) / IVs (blau)
 summary_ExpToNextLv,Noch nötig
 summary_TheEggWatch,The Egg Watch
@@ -140,20 +140,20 @@ CatchLocation_Empty,an unknown place
 ---
 Keyboard Keys:
 
-keyboard_key_Up,Up
-keyboard_key_Down,Down
-keyboard_key_Left,Left
-keyboard_key_Right,Right
+keyboard_key_Up,Hoch
+keyboard_key_Down,Runter
+keyboard_key_Left,Links
+keyboard_key_Right,Rechts
 keyboard_key_Enter,Enter
-keyboard_key_Space,Space
+keyboard_key_Space,Leertaste
 keyboard_key_Escape,Escape
-keyboard_key_Back,Backspace
-keyboard_key_Tab,Tab
-keyboard_key_Home,Home
-keyboard_key_End,End
-keyboard_key_Delete,Delete
-keyboard_key_PageUp,Page Up
-keyboard_key_PageDown,Page Down
+keyboard_key_Back,Backspace_Rück
+keyboard_key_Tab,Tabulator
+keyboard_key_Home,Pos1
+keyboard_key_End,Ende
+keyboard_key_Delete,Entf
+keyboard_key_PageUp,Bild ▲
+keyboard_key_PageDown,Bild ▼
 keyboard_key_LeftShift,Left Shift
 keyboard_key_RightShift,Right Shift
 ---
@@ -210,12 +210,12 @@ game_interaction_interact,Untersuchen
 game_interaction_gamemenu,Start-Menü
 game_interaction_pokegear,PokéCOM
 game_interaction_pausemenu,Pause Menu
-game_interaction_accept,Accept
+game_interaction_accept,Akzeptieren
 game_interaction_enter,Enter
 game_interaction_confirm,Confirm
 game_interaction_back,Back
 game_interaction_dismiss,Dismiss
-game_interaction_go_back,Go Back
+game_interaction_go_back,Zurück
 game_interaction_close,Close
 game_interaction_edit,Edit
 game_interaction_clear,Clear
@@ -309,7 +309,7 @@ option_screen_graphics_renderdistance_normal,Mittlere Entfernung
 option_screen_graphics_renderdistance_far,Weiter
 option_screen_graphics_renderdistance_extreme,Sehr weit
 option_screen_graphics_offset_mapquality,Qualität angrenzender Orte
-option_screen_graphics_offset_mapquality_off,Keine angrenzenden Orte
+option_screen_graphics_offset_mapquality_off,Aus
 option_screen_graphics_graphics,Grafikqualität
 option_screen_graphics_graphics_fancy,Schön
 option_screen_graphics_graphics_fast,Schnell
@@ -460,6 +460,31 @@ rename_screen_title_Question,Rename [NAME]?
 rename_screen_title_EnterName,Enter name for [NAME]:
 rename_screen_button_Rename,Rename
 ---
+Shop Screen:
+shop_screen_title_store,Store
+shop_screen_title_BuyItems,Buy Items
+shop_screen_title_BuyCategory,Buy [CATEGORY]
+shop_screen_title_SellItems,Sell Items
+shop_screen_title_SellCategory,Sell [CATEGORY]
+shop_screen_button_buy,Buy
+shop_screen_button_sell,Sell
+shop_screen_button_exit,Exit
+shop_screen_buy_NoItemsToBuy,There are no items to buy.
+shop_screen_buy_InStock,In Stock:
+shop_screen_sell_NoItemsToSell,You have no items to sell.
+shop_screen_sell_confirmation,Do you want to sell~[AMOUNT] [ITEM]?
+shop_screen_buysell_PricePerItem,Per Item:
+shop_screen_buysell_PriceTotal,Total:
+shop_screen_buysell_InInventory,In Inventory:
+shop_screen_buysell_DescriptionHint,Press [<system.button(special)>] or Select to view the item's description.
+shop_screen_buysell_CurrentBalance,Current Balance:
+shop_screen_currency_BattlePoints,Battle Points
+shop_screen_currency_Coins,Coins
+shop_screen_currency_Pokédollars,$
+shop_screen_currency_short_BattlePoints,BP
+shop_screen_currency_short_Coins,C
+shop_screen_currency_short_Pokédollars,$
+---
 Blackout Screen:
 black_out_screen_line1,You have run out of Pokémon!
 black_out_screen_line2,You will be brought
@@ -555,7 +580,7 @@ pokedex_filter_none,-
 pokedex_filter_name,Name
 pokedex_filter_type1,Typ 1
 pokedex_filter_type2,Typ 2
-pokedex_search_hint,Suche: [<system.button(special)>] oder SELECT
+pokedex_search_hint,Suche: [<system.button(special)>] / SELECT
 pokedex_search_no_results,Keine Ergebnisse.
 pokedex_data_species,Spezies
 pokedex_data_type,Typ
@@ -684,13 +709,13 @@ Places_Final Dungeon,Final Dungeon
 Gyms:
 Places_Seashore City Gym,Arundia City Arena
 Places_Merson City Gym,Mersonia City Arena
-Places_Owsauri City Gym,Owsauri City Gym
-Places_Moraga Town Gym,Moraga Town Gym
-Places_Jaeru City Gym,Jaeru City Gym
-Places_Castro Valley Gym,Castro Valley Gym
-Places_South Reservoir Gym,South Reservoir Gym
-Places_Eagulou City Gym,Eagulou City Gym
-Places_Azalea Town Gym,Azalea Town Gym
+Places_Owsauri City Gym,Owsauri City Arena
+Places_Moraga Town Gym,Moraga Town Arena
+Places_Jaeru City Gym,Jaeru City Arena
+Places_Castro Valley Gym,Castro Valley Arena
+Places_South Reservoir Gym,South Reservoir Arena
+Places_Eagulou City Gym,Eagulou City Arena
+Places_Azalea Town Gym,Azalea Town Arena
 
 Routes:
 Places_Route 34,Route 34
@@ -720,7 +745,7 @@ Places_Route 67,Route 67
 Item categories:
 item_category_Standard,Items
 item_category_Medicine,Medizin
-item_category_Machines,TM/VM
+item_category_Machines,TMs/VMs
 item_category_Pokéballs,Pokébälle
 item_category_Plants,Pflanzen
 item_category_KeyItems,Basis-Items
@@ -728,8 +753,7 @@ item_category_BattleItems,Kampf-Items
 item_category_Mail,Briefe
 ---
 GameMessages:
-# OriginalTranslation: game_message_screenshot,Screenshot wurde in Pokemon3D\Screenshots gespeichert als
-game_message_screenshot,Screenshot wurde im Order "Screenshots" gespeichert als
+game_message_screenshot,Screenshot wurde in Pokemon3D\Screenshots gespeichert als
 game_message_screenshot_failed,Screenshot konnte nicht erstellt werden!
 game_message_fullscreen_on,Vollbildmodus aktiviert
 game_message_fullscreen_off,Vollbildmodus deaktiviert
@@ -2995,7 +3019,7 @@ move_name_267,Natur-Kraft
 move_name_268,Ladevorgang
 move_name_269,Verhöhner
 move_name_271,Trickbetrug
-move_name_272,Rollenspiel (ab VIII)
+move_name_272,Rollenspiel
 move_name_273,Wunschtraum
 move_name_274,Zuschuss
 move_name_275,Verwurzler
