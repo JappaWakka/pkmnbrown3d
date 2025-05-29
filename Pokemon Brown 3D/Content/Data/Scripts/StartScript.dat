@@ -7,4 +7,7 @@ version=2
 :if:<storage.get(bool,ReloadMap)>=true
 	@level.reload
 :endif
+:if:<not><System.Language>=en <and> <System.FileExists(Textures\TranslationSigns_<System.Language>.png)>=true
+	@System.ReplaceTextures(TranslationTextures)
+:endif
 :end
