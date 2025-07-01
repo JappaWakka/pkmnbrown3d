@@ -2603,170 +2603,202 @@ Item_Use_HiddenTreasures,<Player.Name>: What could this~item be?*It looks import
 -------------------
 Move Names:
 move_name_1,Pound
-move_name_2,Karate Chop
-move_name_3,Double Slap
-move_name_4,Comet Punch
-move_name_5,Mega Punch
-move_name_6,Pay Day
-move_name_7,Fire Punch
-move_name_8,Ice Punch
-move_name_9,Thunder Punch
-move_name_10,Scratch
-move_name_11,Vice Grip
-move_name_12,Guillotine
+move_name_2,Cios Karate
+move_name_3,Dwuklask
+move_name_4,Cios Komety
+# Original series translation.
+move_name_5,Megauderzenie
+move_name_6,Dzień Zapłaty
+move_name_7,Ognisty Cios
+move_name_8,Lodowy Cios
+move_name_9,Cios Gromu
+move_name_10,Rysa
+move_name_11,Atak Kleszczami
+# Last mentioned in Advanced, but I still think the translation is good.
+move_name_12,Gilotyna
 move_name_13,Razor Wind
-move_name_14,Swords Dance
-move_name_15,Cut
-move_name_16,Gust
-move_name_17,Wing Attack
-move_name_18,Whirlwind
-move_name_19,Fly
-move_name_20,Bind
+move_name_14,Taniec Szabli
+move_name_15,Cięcie
+move_name_16,Wichura
+move_name_17,Atak Skrzydeł
+move_name_18,Cyklon
+move_name_19,Lot
+# Arguably, this move was never mentioned by name in the Polish dub, even though M14 and BW096 were both dubbed into Polish.
+move_name_20,Związanie
 move_name_21,Slam
-move_name_22,Vine Whip
-move_name_23,Stomp
-move_name_24,Double Kick
-move_name_25,Mega Kick
-move_name_26,Jump Kick
-move_name_27,Rolling Kick
-move_name_28,Sand Attack
-move_name_29,Headbutt
-move_name_30,Horn Attack
-move_name_31,Fury Attack
-move_name_32,Horn Drill
-move_name_33,Tackle
-move_name_34,Body Slam
-move_name_35,Wrap
-move_name_36,Take Down
-move_name_37,Thrash
-move_name_38,Double-Edge
-move_name_39,Tail Whip
-move_name_40,Poison Sting
-move_name_41,Twineedle
-move_name_42,Pin Missile
-move_name_43,Leer
-move_name_44,Bite
-move_name_45,Growl
-move_name_46,Roar
-move_name_47,Sing
-move_name_48,Supersonic
-move_name_49,Sonic Boom
-move_name_50,Disable
-move_name_51,Acid
-move_name_52,Ember
-move_name_53,Flamethrower
-move_name_54,Mist
-move_name_55,Water Gun
-move_name_56,Hydro Pump
-move_name_57,Surf
-move_name_58,Ice Beam
-move_name_59,Blizzard
-move_name_60,Psybeam
-move_name_61,Bubble Beam
-move_name_62,Aurora Beam
-move_name_63,Hyper Beam
-move_name_64,Peck
-move_name_65,Drill Peck
+move_name_22,Dzikie Pnącze
+move_name_23,Tupnięcie
+move_name_24,Podwójne Kopnięcie
+move_name_25,Megakop
+move_name_26,Skokokop
+move_name_27,Prawy Sierpowy
+# Looked up the last Polish name (from the original series) and it is indeed a martial arts technique.
+move_name_28,Atak Piaskiem
+move_name_29,Taran
+move_name_30,Atak Rogiem
+# More grammatically correct than "Atak Rogu".
+move_name_31,Atak Furii
+move_name_32,Świdroróg
+move_name_33,Pchnięcie
+# Using the name from the handbook.
+move_name_34,Powalenie
+move_name_35,Ściskanie
+move_name_36,Szarża
+# "Usunięcie" is a literal translation (in the sense of "taking something down from a website" etc.), so going off the Japanese name.
+move_name_37,Łomot
+move_name_38,Akcja Obosieczna
+# "Podwójne Uderzenie Kantem" is another way too literal translation.
+move_name_39,Machanie Kuperkiem
+# More accurate than the more recent "Atak Kuperkiem". This move was not mentioned past the original series.
+move_name_40,Trujące Żądło
+move_name_41,Podwójne Żądło
+# More accurate than "Atak Żądłem".
+move_name_42,Szpilopocisk
+move_name_43,Spojrzenie
+move_name_44,Gryzienie
+move_name_45,Warczenie
+move_name_46,Ryk
+move_name_47,Śpiew
+move_name_48,Superdźwięk
+move_name_49,Bomba Dźwięku
+move_name_50,Zablokowanie
+# Uses the translation from the TCG
+move_name_51,Kwas
+move_name_52,Atak Żarem
+move_name_53,Miotacz Płomieni
+move_name_54,Mgła
+move_name_55,Armatka Wodna
+move_name_56,Pompa Wodna
+move_name_57,Fala
+move_name_58,Lodowy Promień
+move_name_59,Zamieć
+move_name_60,Psychopromień
+move_name_61,Bąbelkowy Promień
+move_name_62,Promień Aurory
+move_name_63,Hiperpromień
+move_name_64,Dziobanie
+move_name_65,Świdrodziób
+# Based on the translation of Horn Drill.
 move_name_66,Submission
-move_name_67,Low Kick
-move_name_68,Counter
-move_name_69,Seismic Toss
-move_name_70,Strength
-move_name_71,Absorb
-move_name_72,Mega Drain
-move_name_73,Leech Seed
-move_name_74,Growth
-move_name_75,Razor Leaf
-move_name_76,Solar Beam
-move_name_77,Poison Powder
-move_name_78,Stun Spore
-move_name_79,Sleep Powder
-move_name_80,Petal Dance
-move_name_81,String Shot
-move_name_82,Dragon Rage
-move_name_83,Fire Spin
-move_name_84,Thunder Shock
-move_name_85,Thunderbolt
-move_name_86,Thunder Wave
-move_name_87,Thunder
-move_name_88,Rock Throw
-move_name_89,Earthquake
-move_name_90,Fissure
-move_name_91,Dig
-move_name_92,Toxic
-move_name_93,Confusion
-move_name_94,Psychic
-move_name_95,Hypnosis
-move_name_96,Meditate
-move_name_97,Agility
-move_name_98,Quick Attack
-move_name_99,Rage
-move_name_100,Teleport
-move_name_101,Night Shade
-move_name_102,Mimic
-move_name_103,Screech
-move_name_104,Double Team
-move_name_105,Recover
-move_name_106,Harden
-move_name_107,Minimize
-move_name_108,Smokescreen
-move_name_109,Confuse Ray
-move_name_110,Withdraw
-move_name_111,Defense Curl
-move_name_112,Barrier
-move_name_113,Light Screen
-move_name_114,Haze
-move_name_115,Reflect
-move_name_116,Focus Energy
-move_name_117,Bide
-move_name_118,Metronome
-move_name_119,Mirror Move
-move_name_120,Self-Destruct
-move_name_121,Egg Bomb
-move_name_122,Lick
+move_name_67,Niski Kopniak
+move_name_68,Kontra
+move_name_69,Rzut Sejsmiczny
+# "Rzut" is more accurate in this case than "Wstrząs".
+move_name_70,Siła
+move_name_71,Absorpcja
+move_name_72,Megaodpływ
+move_name_73,Wysysające Nasionko
+# Using the translation from the TCG. I believe "Pnącze Mocy" was meant for Power Whip.
+move_name_74,Wzrost
+move_name_75,Ostry Liść
+move_name_76,Słoneczny Promień
+move_name_77,Trujący Proszek
+move_name_78,Pył Szoku
+move_name_79,Usypiający Proszek
+move_name_80,Taniec Płatków
+move_name_81,Strzał Siecią
+# "Pajęcza Nić" implies exclusivity to spiders.
+move_name_82,Gniew Smoka
+move_name_83,Ognisty Wir
+move_name_84,Szok Elektryczny
+move_name_85,Piorun
+move_name_86,Fala Grzmotu
+move_name_87,Grzmot
+move_name_88,Skalny Rzut
+move_name_89,Trzęsienie Ziemi
+# While this move was not featured after Advanced due to the 2004 Chuetsu earthquake, this translation makes the most sense.
+move_name_90,Szczelinowe Uderzenie
+# Used the earliest translation, from EP008. Later ones don't make much sense to me.
+# This move was not featured after Advanced due to the 2004 Chuetsu earthquake.
+move_name_91,Tunel
+move_name_92,Toksyna
+move_name_93,Zamęt
+move_name_94,Psychiczny Cios
+move_name_95,Hipnoza
+move_name_96,Medytacja
+move_name_97,Zwinność
+move_name_98,Szybki Atak
+move_name_99,Wściekłość
+# Has been superseded by "Dziki Atak" and "Dzika Furia", but this translation makes the most sense.
+move_name_100,Teleportacja
+move_name_101,Cień Nocy
+move_name_102,Naśladowanie
+move_name_103,Skrzek
+move_name_104,Podwójny Zespół
+move_name_105,Leczenie
+move_name_106,Twardnienie
+move_name_107,Minimalizacja
+move_name_108,Zasłona Dymna
+# This was superseded by "Ściana Dymu", but "Zasłona Dymna" is a better translation IMO.
+move_name_109,Promień Pomieszania
+move_name_110,Wycofanie
+move_name_111,Obronny Lok
+move_name_112,Bariera
+# Apparently, it was never mentioned in the dub by name.
+move_name_113,Świetlisty Ekran
+move_name_114,Ciemna Mgła
+move_name_115,Odbicie
+move_name_116,Skupienie Energii
+move_name_117,Czekanie
+move_name_118,Metronom
+move_name_119,Lustrzane Odbicie
+move_name_120,Samozniszczenie
+move_name_121,Jajobomba
+move_name_122,Lizanie
 move_name_123,Smog
-move_name_124,Sludge
-move_name_125,Bone Club
-move_name_126,Fire Blast
-move_name_127,Waterfall
-move_name_128,Clamp
-move_name_129,Swift
-move_name_130,Skull Bash
-move_name_131,Spike Cannon
-move_name_132,Constrict
-move_name_133,Amnesia
-move_name_134,Kinesis
-move_name_135,Soft-Boiled
-move_name_136,High Jump Kick
-move_name_137,Glare
-move_name_138,Dream Eater
-move_name_139,Poison Gas
-move_name_140,Barrage
-move_name_141,Leech Life
-move_name_142,Lovely Kiss
-move_name_143,Sky Attack
-move_name_144,Transform
-move_name_145,Bubble
-move_name_146,Dizzy Punch
-move_name_147,Spore
-move_name_148,Flash
-move_name_149,Psywave
-move_name_150,Splash
-move_name_151,Acid Armor
-move_name_152,Crabhammer
-move_name_153,Explosion
-move_name_154,Fury Swipes
-move_name_155,Bonemerang
-move_name_156,Rest
-move_name_157,Rock Slide
-move_name_158,Hyper Fang
-move_name_159,Sharpen
-move_name_160,Conversion
-move_name_161,Tri Attack
-move_name_162,Super Fang
-move_name_163,Slash
-move_name_164,Substitute
-move_name_165,Struggle
+# Same as English; "smog" in Polish is a loanword from English.
+move_name_124,Szlam
+# "Błoto" means mud, not sludge. Apparently, this was only used in EP028
+move_name_125,Atak Kością
+move_name_126,Ognisty Podmuch
+move_name_127,Wodospad
+move_name_128,Chwyt Muszlą
+# Never translated
+move_name_129,Prędkość
+move_name_130,Cios Głową
+move_name_131,Kanonada Szpilek
+move_name_132,Ucisk
+# Better translation.
+move_name_133,Amnezja
+move_name_134,Moc Psychiczna
+# Translation of the German name, Psykraft.
+# This move was never used in the anime.
+move_name_135,Miękka Terapia
+# The official translation, "Terapia Ciepłem", does not represent the egg at all.
+move_name_136,Saltocios
+move_name_137,Złośliwe Spojrzenie
+# All official translations of Glare are bad.
+move_name_138,Połykacz Snów
+move_name_139,Trujący Gaz
+move_name_140,Lawina Jaj
+# This move was never used in the anime.
+move_name_141,Pijawka
+move_name_142,Miłosny Pocałunek
+move_name_143,Podniebny Atak
+move_name_144,Transformacja
+move_name_145,Bąbelek
+move_name_146,Błędny Cios
+move_name_147,Zarodnik
+move_name_148,Błysk
+move_name_149,Psychofala
+move_name_150,Plusk
+move_name_151,Kwasozbroja
+move_name_152,Krabomłot
+move_name_153,Eksplozja
+move_name_154,Ciosy Furii
+move_name_155,Kościorang
+move_name_156,Odpoczynek
+move_name_157,Kamienna Lawina
+move_name_158,Hiperkieł
+move_name_159,Zaostrzenie
+move_name_160,Konwersja
+# Only used in the banned episode, but "conversion" is an internationalism, so it was easy to translate.
+move_name_161,Potrójny Atak
+move_name_162,Superkieł
+move_name_163,Siekanie
+move_name_164,Zastępca
+move_name_165,Przepychanka
+# Never used in the anime; however, I remember an unofficial Pokémon GO handbook where Struggle was translated as Przepychanka.
 move_name_166,Sketch
 move_name_167,Triple Kick
 move_name_168,Thief
@@ -3494,6 +3526,7 @@ move_desc_416,The user charges at the target using every bit of its power. The u
 move_desc_430,The user gathers all its light energy and releases it at once. This may also lower the target's Sp. Def. stat.
 move_desc_442,The user slams the target with its steel-hard head. This may also make the target flinch.
 move_desc_452,The user slams its rugged body into the target to attack. The user also sustains serious damage.
+move_desc_577,The user steals the target's energy with a kiss. The user's HP is restored by over half of the damage taken by the target.
 move_desc_583,The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
 move_desc_584,The user stirs up a fairy wind and strikes the target with it.
 move_desc_585,Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk. stat.
