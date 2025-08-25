@@ -89,11 +89,11 @@ global_pokemon_move_softboiled,Zachtgekookt
 global_used,Gebruikt
 global_none,Niets
 
-global_SLP,SLP
-global_BRN,BRN
-global_PSN,PSN
-global_FRZ,FRZ
-global_PAR,PAR
+global_SLP,In Slaap
+global_BRN,Verbrand
+global_PSN,Vergiftigd
+global_FRZ,Bevroren
+global_PAR,Verlamd
 ---
 Pokémon & Attack Properties:
 property_HP,LP
@@ -2743,7 +2743,7 @@ item_pluralname_60,Zilverbladen
 item_pluralname_70,Plakkerige Weerhaken
 item_pluralname_73,Snelle Klauwen
 item_pluralname_74,Vergrootglazen
-item_pluralname_75,Goudbladen
+item_pluralname_75,Goudbladeren
 item_pluralname_76,Zachte Zanden
 item_pluralname_77,Scherpe Bekken
 item_pluralname_81,Gifweerhaken
@@ -3269,12 +3269,12 @@ item_name_gm7,Blikje Bier
 item_name_gm8,Landkaart
 item_name_gm9,Poké-fluit
 item_name_gm10,Miststeen
-item_name_gm11,Goud Ei
-item_name_gm12,Zilver Ei
-item_name_gm13,Kristal Ei
-item_name_gm14,Robijn Ei
-item_name_gm15,Saffier Ei
-item_name_gm16,Smaragd Ei
+item_name_gm11,Gouden Ei
+item_name_gm12,Zilveren~Ei
+item_name_gm13,Kristallen~Ei
+item_name_gm14,Robijnen~Ei
+item_name_gm15,Saffieren~Ei
+item_name_gm16,Smaragden~Ei
 item_name_gm17,Prismasleutel
 item_name_gm18,Toverstok
 item_name_gm69,VM 01
@@ -5318,8 +5318,8 @@ Owsauri_Casino_B1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
 Owsauri_Gym_Statues_BeforeDefeat,Slotwaterstad~Pokémon Gym~Leider: Lily*Winnende Trainers:~Mura
 Owsauri_Gym_Statues_AfterDefeat,Slotwaterstad~Pokémon Gym~Leider: Lily*Winnende Trainers:~Mura~<Player.Name>
-Owsauri_Gym_GymGuy_BeforeBadge,Yo! Kampioen in de dop!~Hier is mijn advies!*De Leider, Lily, gebruikt het~liefst IJs-Pokémon.*Als je Vuur- of Rots-Pokémon~hebt, maken haar Pokémon geen~schijn van kans!
-Owsauri_Gym_GymGuy_AfterBadge,Is Lily verslagen?*Hopelijk was je blij met je~pr-ijs! Ik ben te grappig!
+Owsauri_Gym_GymGuy_BeforeBadge,Gym Gast: Yo! Kampioen in de~dop! Hier is mijn advies!*De Leider, Lily, gebruikt het~liefst IJs-Pokémon.*Als je Vuur- of Rots-Pokémon~hebt, maken haar Pokémon geen~schijn van kans!
+Owsauri_Gym_GymGuy_AfterBadge,Gym Gast: Is Lily verslagen?*Hopelijk was je blij met je~pr-ijs! Ik ben te grappig!
 Owsauri_Gym_SwimmerMaleEd_IntroMessage,Plons!*Klaar voor een ijsgevecht?
 Owsauri_Gym_SwimmerMaleEd_OutroMessage,Dat kan niet!
 Owsauri_Gym_SwimmerMaleEd_DefeatMessage,Lily is altijd haar Pokémon~aan het trainen!
@@ -5442,69 +5442,69 @@ Moraga_NationsBurgers_Chef,Welkom bij Burgerland!
 Moraga_NationsBurgers_Waitress,We hebben de beste~hamburgers van de stad!*Maar we hebben nu pauze.
 Moraga_NationsBurgers_FatGuy,Hap...*Auw, brandend maagzuur!
 Moraga_NationsBurgers_Hiker,Een soortgelijk restaurant~in Kanto serveert veel~lekkerder eten!
-Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking,Hey kleintje, wil je coole~prijzen winnen?*Ik kom net bij het Casino~in Slotwaterstad vandaan!*Ik ben stinkend rijk, dus~ik koop gewoon munten. Hier!
+Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking,Hé kleintje, wil je coole~prijzen winnen?*Ik kom net bij het Casino~in Slotwaterstad vandaan!*Ik ben stinkend rijk, dus~ik koop munten gewoon. Hier!
 Moraga_NationsBurgers_CoinCaseGuy_AfterTalking,Ha ha!*Veel plezier in het Casino,~kleine!
-Moraga_NationsBurgers_Drunkard_FirstTalk1,Hey kid... •hic•...~have you ever tried this •hic•?*<Player.Name>: Erm... No?*Drunkard: Don't...•hic• worry,~as you can... •hic• see,~it's harmless!
-Moraga_NationsBurgers_Drunkard_FirstTalk2,<Player.Name>: If you say so...
-Moraga_NationsBurgers_Drunkard_SecondTalk_HaveMoneyOrBeer,It tastes...•hic• great, right?*If you want...•hic• more,~there's a vending...•hic•~machine at Southland Mall's...~•hic• roof, no vigilance!
-Moraga_NationsBurgers_Drunkard_SecondTalk_NoMoneyOrBeer,What, you want... •hic• another~one?*You are out of... •hic• cash?~Okay, but only... •hic• this once...~Don't tell... •hic• anyone!
+Moraga_NationsBurgers_Drunkard_FirstTalk1,Hé, jij daar... •hik•...~heb je dit ooit~geprobeerd •hik•?*<Player.Name>: Eh... Nee?*Dronkaard: Maak je...•hik•~maar geen zorgen,~zoals je kunt... •hik• zien,~kan het geen kwaad!
+Moraga_NationsBurgers_Drunkard_FirstTalk2,<Player.Name>: Als jij het zegt...
+Moraga_NationsBurgers_Drunkard_SecondTalk_HaveMoneyOrBeer,Het smaakt... •hik•~heerlijk, hè?*Als je meer...•hik• wilt,~er staat een... •hik•~drankautomaat op het dak van~Winkelcentrum... •hik•~Zuidland, zonder toezicht!
+Moraga_NationsBurgers_Drunkard_SecondTalk_NoMoneyOrBeer,Wat, wil je er... •hik• nog~eentje?*Heb je geen... •hik• geld~meer ofzo?*Oké, maar alleen... •hik•~deze ene keer...*Aan niemand... •hik•~doorvertellen!
 
-Moraga_HighSchoolAcademy_Blackboard_Intro,The blackboard describes~Pokémon Status changes~during battles.
-Moraga_HighSchoolAcademy_Blackboard_Question,Which heading do you want~to read?
-Moraga_HighSchoolAcademy_Blackboard_Sleep,A Pokémon can't attack if~it's asleep!*Pokémon will stay asleep even~after battles!*Use Awakening to wake them~up!
-Moraga_HighSchoolAcademy_Blackboard_Burn,A burn reduces power and~speed. It also causes~ongoing damage.*Burns remain after battles.*Use Burn Heal to cure a~burn!
-Moraga_HighSchoolAcademy_Blackboard_Poison,When poisoned, a Pokémon's~health steadily drops.*Poison lingers after battles.*Use an Antidote to cure~poison!
-Moraga_HighSchoolAcademy_Blackboard_Freeze,If frozen, a Pokémon becomes~totally immobile!*It stays frozen even~after the battle ends.*Use Ice Heal to thaw~out Pokémon!
-Moraga_HighSchoolAcademy_Blackboard_Paralysis,Paralysis could make~Pokémon moves misfire!*Paralysis remains after battles.*Use Paralyze Heal for~treatment!
-Moraga_HighSchoolAcademy_Teacher,Detention!*For... uh...*Breathing!
-Moraga_HighSchoolAcademy_Student,I am a material girl!*Yeah!
-Moraga_HighSchoolAcademy_Notebook_Page1,Looked at the notebook!*First page...*Poké Balls are used to~catch Pokémon. Up to 6~Pokémon can be carried.~People who raise and make~Pokémon fight are called~Pokémon Trainers.*Turn the page?
-Moraga_HighSchoolAcademy_Notebook_Page2,Second page...*A healthy Pokémon may be hard~to catch, so weaken it first!*Poison, burns, and other~damage are effective!*Turn the page?
-Moraga_HighSchoolAcademy_Notebook_Page3,Third page...*Pokémon Trainers seek others~to engage in Pokémon fights.~Battles are constantly fought~at Pokémon Gyms.*Turn the page?
-Moraga_HighSchoolAcademy_Notebook_Page4,Fourth page...*There are more than 200~Pokémon available in Rijon!*Most can also be found in~Kanto or Johto, but there are~more species, some from Naljo!
-Moraga_HighSchoolAcademy_Notebook_End,Guy: I plagiarized. So what?!
+Moraga_HighSchoolAcademy_Blackboard_Intro,Het schoolbord beschrijft de~Speciale Toestanden van~Pokémon tijdens gevechten.
+Moraga_HighSchoolAcademy_Blackboard_Question,Over welk onderwerp wil je~lezen?
+Moraga_HighSchoolAcademy_Blackboard_Sleep,Een Pokémon kan niet~aanvallen als hij slaapt!*Pokémon blijven ook na~gevechten slapen!*Gebruik een Ontwaker om ze~wakker te maken!
+Moraga_HighSchoolAcademy_Blackboard_Burn,Verbrandingen verminderen~kracht en snelheid.*Ze veroorzaken ook~voortdurend schade.*Verbrandingen blijven na~gevechten aanwezig.*Gebruik een Brandmedicijn~om een verbranding~te genezen!
+Moraga_HighSchoolAcademy_Blackboard_Poison,Wanneer een Pokémon~vergiftigd is, neemt zijn~gezondheid geleidelijk af.*Vergiftiging blijft ook na~gevechten aanwezig.*Gebruik een Tegengif om~vergiftiging te genezen!
+Moraga_HighSchoolAcademy_Blackboard_Freeze,Als een Pokémon bevroren is,~kan hij zich helemaal niet~meer bewegen!*Hij blijft bevroren,~zelfs nadat het gevecht~is afgelopen.*Gebruik een Vriesmedicijn~om Pokémon te ontdooien!
+Moraga_HighSchoolAcademy_Blackboard_Paralysis,Verlamming kan ervoor zorgen~dat Pokémon-aanvallen~mislukken!*Verlamming blijft ook na~gevechten aanwezig.*Gebruik een Verlammedicijn~om het te genezen!
+Moraga_HighSchoolAcademy_Teacher,Nablijven!*Voor... eh...*ademhalen!
+Moraga_HighSchoolAcademy_Student,Born to be Alive is niet van~de Village People...~maar van Patrick Hernandes!
+Moraga_HighSchoolAcademy_Notebook_Page1,<Player.Name> keek in het~notitieboekje!*Eerste pagina...*PokéBallen worden gebruikt~om Pokémon te vangen.*Je mag maximaal 6 Pokémon~bij je dragen.*Mensen die Pokémon~grootbrengen en laten~vechten, worden Pokémon-~trainers genoemd.*De pagina omslaan?
+Moraga_HighSchoolAcademy_Notebook_Page2,Tweede pagina...*Een gezonde Pokémon kan~moeilijk te vangen zijn,~dus verzwak hem eerst!*Vergiftiging, verbranding~en andere soorten schade~zijn effectief!*De pagina omslaan?
+Moraga_HighSchoolAcademy_Notebook_Page3,Derde pagina...*Pokémon Trainers zoeken~anderen om Pokémon-gevechten~mee te houden.*Er worden voortdurend~gevechten gehouden in~Pokémon Gyms.*De pagina omslaan?
+Moraga_HighSchoolAcademy_Notebook_Page4,Vierde pagina...*Er zijn meer dan 200 Pokémon~te vinden in Rijon!*De meeste zijn ook te vinden~in Kanto of Johto, maar er~zijn meer soorten, sommige~komen uit Naljo!
+Moraga_HighSchoolAcademy_Notebook_End,Jongen: Ik heb plagiaat~gepleegd. Nou en?!
 
-Moraga_PrismMuseum_Owner_PrismKeyHint,This is the Prism Museum.*Bring me a Prism item and~maybe I'll let you inside.*I'll give you a clue: not all~things are reflected in the~mirror.
-Moraga_PrismMuseum_Owner_HavePrismKey,That is the Prism Key!*You are worthy, you may pass.*Legend says there are six~hidden eggs in Rijon.*It is my dream to collect 'em~all. Bring them to me and I'll give you splendid rewards!
-Morage_PrismMuseum_GoldEgg_Hint,We have escaped the dungeon!
-Morage_PrismMuseum_GoldEgg_Found,The Gold Egg!
-Morage_PrismMuseum_SilverEgg_Hint,What is this sticky film on~the mountain?
-Morage_PrismMuseum_SilverEgg_Found,The Silver Egg!
-Morage_PrismMuseum_CrystalEgg_Hint,There are no Spinarak in this~cave!
-Morage_PrismMuseum_CrystalEgg_Found,The Crystal Egg!
-Morage_PrismMuseum_RubyEgg_Hint,I hope my game doesn't get~deleted.
-Morage_PrismMuseum_RubyEgg_Found,The Ruby Egg!
-Morage_PrismMuseum_SapphireEgg_Hint,A small token on the road to~victory.
-Morage_PrismMuseum_SapphireEgg_Found,The Sapphire Egg!
-Morage_PrismMuseum_SapphireEgg_ReceivedMasterBall,It's a Master Ball!
-Morage_PrismMuseum_EmeraldEgg_Hint,Pack your bug spray.
-Morage_PrismMuseum_EmeraldEgg_Found,The Emerald Egg!
-Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves,50 Gold Leaves!
-Morage_PrismMuseum_Egg_Reward,Amazing! Here is your reward!
-Morage_PrismMuseum_CatchMethod,Received as a reward at the
-Morage_PrismMuseum_CatchLocation,Prism Museum
+Moraga_PrismMuseum_Owner_PrismKeyHint,Dit is het Prisma Museum.*Breng me een Prisma-voorwerp~en misschien laat ik~je binnen.*Ik geef je een hint: niet~alle dingen worden~weerspiegeld in de spiegel.
+Moraga_PrismMuseum_Owner_HavePrismKey,Dat is de Prismasleutel!*Je bent waardig, je mag naar~binnen.*Volgens de legende zijn er~zes verborgen eieren~in Rijon.*Het is mijn droom om ze~allemaal te verzamelen.~Breng ze naar mij en ik~zal je rijkelijk belonen!
+Morage_PrismMuseum_GoldEgg_Hint,We hebben de uitdaging~voltooid!
+Morage_PrismMuseum_GoldEgg_Found,Het Gouden Ei!
+Morage_PrismMuseum_SilverEgg_Hint,Wat is dit kleverige laagje~op de berg?
+Morage_PrismMuseum_SilverEgg_Found,Het Zilveren Ei!
+Morage_PrismMuseum_CrystalEgg_Hint,Er zitten geen Spinarak in~deze grot!
+Morage_PrismMuseum_CrystalEgg_Found,Het Kristallen Ei!
+Morage_PrismMuseum_RubyEgg_Hint,Ik hoop dat mijn~opslagbestand niet wordt~verwijderd.
+Morage_PrismMuseum_RubyEgg_Found,Het Robijnen Ei!
+Morage_PrismMuseum_SapphireEgg_Hint,Een kleinigheidje op weg~naar de overwinning.
+Morage_PrismMuseum_SapphireEgg_Found,Het Saffieren Ei!
+Morage_PrismMuseum_SapphireEgg_ReceivedMasterBall,Het is een MeesterBal!
+Morage_PrismMuseum_EmeraldEgg_Hint,Neem je insectenspray mee.
+Morage_PrismMuseum_EmeraldEgg_Found,Het Smaragden Ei!
+Morage_PrismMuseum_EmeraldEgg_Received50GoldLeaves,50 Goudbladeren!
+Morage_PrismMuseum_Egg_Reward,Geweldig! Hier is je beloning!
+Morage_PrismMuseum_CatchMethod,Ontvangen als beloning in het
+Morage_PrismMuseum_CatchLocation,Prisma Museum
 
-Moraga_Gym_Statues_BeforeDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura
-Moraga_Gym_Statues_AfterDefeat,Moraga City~Pokémon Gym~Leader: Lois*Winning Trainers:~Mura~<Player.Name>
-Moraga_Gym_GymGuy_BeforeBadge,Gym Guy: Hiya, Champion in~the making!*Lois uses Grass Pokémon,~which are weak against Fire~and Flying Pokémon!~Good luck!
-Moraga_Gym_GymGuy_AfterBadge,Gym Guy: What a fantastic~battle!
-Moraga_Gym_LassKatrin_IntroMessage,A kid?!*Get out of here!
-Moraga_Gym_LassKatrin_OutroMessage,You're too rough!
-Moraga_Gym_LassKatrin_DefeatMessage,Bleaah!
-Moraga_Gym_BeautyRonda_IntroMessage,I was getting bored.
-Moraga_Gym_BeautyRonda_OutroMessage,My makeup!
-Moraga_Gym_BeautyRonda_DefeatMessage,Grass-type Pokémon are tough~against the Water-type!*They also have an edge~on Rock and Ground Pokémon!
-Moraga_Gym_JrTrainerFemaleJacqueline_IntroMessage,I hate boys!
-Moraga_Gym_JrTrainerFemaleJacqueline_OutroMessage,I'm in shock!
-Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We don't need men,~except to fight against!
-Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage,Don't underestimate the power~of grass!
-Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage,Oh! Beaten!
-Moraga_Gym_CoolTrainerFemaleHeather_DefeatMessage,Lois has a twin in Kanto that~uses grass too.
-Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, my lovely flowers...~They sure are nice, aren't~they?*<Player.Name>: Pardon me, but I'm~here for your Sprout Badge!*Lois: Oh the Sprout Badge? I'm~just like my sister in Kanto,~aren't I... Nonetheless, if~it's a battle you want, it's~a battle you'll get!*As a Kimono Girl, as well as~the Moraga Town Gym Leader,~I also have plenty of battling~experience, so don't say I~didn't warn you.*Leafeon, let's go!
-Moraga_Gym_LeaderLois_OutroMessage,Lois: Well that's it, you~showed me how good you are!*You earned the Sprout Badge!
-Moraga_Gym_LeaderLois_AfterBattle1,Lois: The Sprout Badge will~make Pokémon able to use~Strength in and out of battle.*Also, take this.
-Moraga_Gym_LeaderLois_AfterBattle2,TM 21 contains Giga Drain.*Half the damage it inflicts is~drained to heal your Pokémon!
-Moraga_Gym_LeaderLois_TalkAgain,Lois: Good luck collecting all~of the Rijon League Badges.
+Moraga_Gym_Statues_BeforeDefeat,Stamppotdorp~Pokémon Gym~Leider: Lois*Winnende Trainers:~Mura
+Moraga_Gym_Statues_AfterDefeat,Stamppotdorp~Pokémon Gym~Leider: Lois*Winnende Trainers:~Mura~<Player.Name>
+Moraga_Gym_GymGuy_BeforeBadge,Gym Gast: Hé daar, kampioen~in de dop!*Lois gebruikt Gras-Pokémon,~die zwak zijn tegen Vuur-~en Vlieg-Pokémon!*Veel succes!
+Moraga_Gym_GymGuy_AfterBadge,Gym Gast: Wat een~fantastisch gevecht!
+Moraga_Gym_LassKatrin_IntroMessage,Een kind?!*Maak dat je wegkomt!
+Moraga_Gym_LassKatrin_OutroMessage,Je bent te ruig!
+Moraga_Gym_LassKatrin_DefeatMessage,Blaaah!
+Moraga_Gym_BeautyRonda_IntroMessage,Ik begon me te vervelen.
+Moraga_Gym_BeautyRonda_OutroMessage,Mijn make-up!
+Moraga_Gym_BeautyRonda_DefeatMessage,Gras-type Pokémon zijn sterk~tegen Water-type Pokémon!*Ze hebben ook een voordeel~tegen Rots- en~Grond-type Pokémon!
+Moraga_Gym_JrTrainerFemaleJacqueline_IntroMessage,Ik haat jongens!
+Moraga_Gym_JrTrainerFemaleJacqueline_OutroMessage,Ik ben in shock!
+Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We hebben geen mannen nodig,~behalve om tegen te vechten!
+Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage,Onderschat de kracht van~Gras niet!
+Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage,Oh! Verslagen!
+Moraga_Gym_CoolTrainerFemaleHeather_DefeatMessage,Lois heeft een tweelingzus in Kanto die ook Gras-types gebruikt.
+Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, mijn mooie~bloemen...*Ze zijn echt prachtig,~nietwaar?*<Player.Name>: Neem me niet~kwalijk, maar ik ben hier~voor je Spruit Badge!*Lois: Oh, de Spruit Badge?~Ik ben net als mijn zus in~Kanto, of niet soms...*Maar goed, als je een~gevecht wilt, dan zul je een~gevecht krijgen!*Als Kimono Meisje en als~Gym Leider van Moraga Town~heb ik ook veel gevechts-~ervaring, dus zeg maar~niet dat ik je niet~gewaarschuwd heb.*Leafeon, we gaan ervoor!
+Moraga_Gym_LeaderLois_OutroMessage,Lois: Nou, dat was het dan,~je hebt me laten zien hoe~goed je bent!*Je hebt de Spruit Badge~verdiend!
+Moraga_Gym_LeaderLois_AfterBattle1,Lois: Met de Spruit Badge~kunnen Pokémon de techniek~Kracht gebruiken tijdens~maar ook buiten gevechten.*Oh, en neem dit mee.
+Moraga_Gym_LeaderLois_AfterBattle2,TM 21 bevat Giga-absorbering.*De helft van de schade die~het toebrengt, wordt~afgetapt om je Pokémon~te genezen!
+Moraga_Gym_LeaderLois_TalkAgain,Lois: Veel succes met het~verzamelen van alle Rijon~League Badges.
 Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Question,Lois: Zzz...*<Player.Name>: She isn't dozing~off still, is she?*Lois: Yaaaawn...*<Player.Name>: ...*Lois: I apologize, that was~rather unladylike. I just~find myself so sleepy...~Perhaps I need a break.~Sleeping in the garden is more~appealing than dancing these~days... But I suppose you'll~be challenging me one again?
 Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Answer_No,Lois: Oh, what a shame. Do~come back when you have the~time. I'll likely be here...~a while...~YAAAAWN...~longer...*Zzz...
 Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Answer_Yes,Lois: Oh, delightful. Don't~hold back on my account,~Champion.
