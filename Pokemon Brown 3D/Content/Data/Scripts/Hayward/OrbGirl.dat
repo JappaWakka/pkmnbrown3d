@@ -8,11 +8,13 @@ version=2
 
 :if:<storage.get(boolean,HaveOrb)>=true
 	@Text.Show(<system.token(Hayward_Main_OrbGirl_Question_GiveOrbs)>)
+	@options.setcancelindex(1)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 		@item.select(standard,gm3-gm5)
 		:if:<inventory.selected>=gm3
 			:if:<Register.Registered(OrbGirl_Red)>=false
+				@Item.Remove(gm3,1,0)
 				@Text.Show(<system.token(Hayward_Main_OrbGirl_Red_Orb_1)>)
 				@Item.Give(gm25,1)
 				@Item.MessageGive(gm25,1)
@@ -26,6 +28,7 @@ version=2
 		:endif
 		:if:<inventory.selected>=gm4
 			:if:<Register.Registered(OrbGirl_Blue)>=false
+				@Item.Remove(gm4,1,0)
 				@Text.Show(<system.token(Hayward_Main_OrbGirl_Blue_Orb_1)>)
 				@Item.Give(gm55,1)
 				@Item.MessageGive(gm55,1)
@@ -39,6 +42,7 @@ version=2
 		:endif
 		:if:<inventory.selected>=gm5
 			:if:<Register.Registered(OrbGirl_Green)>=false
+				@Item.Remove(gm5,1,0)
 				@Text.Show(<system.token(Hayward_Main_OrbGirl_Green_Orb_1)>)
 				@Item.Give(gm44,1)
 				@Item.MessageGive(gm44,1)
