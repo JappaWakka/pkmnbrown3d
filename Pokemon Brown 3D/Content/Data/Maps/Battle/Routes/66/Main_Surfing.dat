@@ -11,6 +11,7 @@ Offsets:
 		{"OffsetMap"{MAP[{"Offset"{sngArr[-57,-19]}}{"Map"{str[Routes\50\Main.dat]}}]}}
 	Route 51
 		{"OffsetMap"{MAP[{"Offset"{sngArr[-79,-19]}}{"Map"{str[Routes\51\Main.dat]}}]}}
+		{"OffsetMap"{MAP[{"Offset"{sngArr[-79,-19]}}{"Map"{str[Routes\51\Main_Offset.dat]}}]}}
 	
 Backdrops:
 	{"Backdrop"{BAC[{"Position"{sngArr[-5.5,-0.75,-6.5]}}{"Size"{intArr[9,60]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
@@ -19,7 +20,7 @@ Backdrops:
 	{"Backdrop"{BAC[{"Position"{sngArr[3.5,-0.75,26.5]}}{"Size"{intArr[20,27]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 	
 	Route 50
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-48.5,-0.75,3.5]}}{"Size"{intArr[42,50]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
+		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-50.5,-0.75,3.5]}}{"Size"{intArr[44,50]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		
 	Route 49
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-89.5,-0.75,-37.5]}}{"Size"{intArr[29,15]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}

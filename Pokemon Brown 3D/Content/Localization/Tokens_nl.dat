@@ -4987,7 +4987,7 @@ Hayward_Main_Hiker,Ik wil naar het oosten, maar~die struik verspert me de weg.
 Hayward_Main_Officer,Team Rocket kwam uit Kanto~om onze mooie stad te~terroriseren.*Heb je de laatste tijd nog~verdachte types hier in de~buurt gezien?*Zo ja, meld het aan mij en ik~reken met ze af!
 Hayward_Main_SchoolKid,Ben je ook een trainer?~Verzamelen, vechten, het is~een zwaar leven.
 Hayward_Main_Bouncer,Je kunt hier pas heen als~je de Rijon League hebt~verslagen, sorry!
-Hayward_Main_RocketGruntHorace_IntroMessage,Hey kleine! Maak dat je~wegkomt!*Huh?*Wat ik hier doe zijn niet~echt jouw zaken.
+Hayward_Main_RocketGruntHorace_IntroMessage,Hey kleine!~Maak dat je wegkomt!*Huh?*Wat ik hier doe zijn niet~echt jouw zaken.
 Hayward_Main_RocketGruntHorace_OutroMessage,Best, je mag deze plek hebben!
 Hayward_Main_RocketGruntHorace_TakeThis,Hier, pak aan en maak me~niet dood!
 Hayward_Main_RocketGruntHorace_GetMoving,Ik ga er maar beter vandoor!~Doei!
@@ -5121,7 +5121,7 @@ Route51_LassMandy_DefeatMessage,Ik heb mijn best gedaan,~Ik heb er geen spijt va
 Route51_JrTrainerMaleLars_IntroMessage,Oké! Ik ben Nr. 5!~Ik zal je verpletteren!
 Route51_JrTrainerMaleLars_OutroMessage,Te veel!
 Route51_JrTrainerMaleLars_DefeatMessage,Ik heb mijn best gedaan,~Ik heb er geen spijt van.
-Route51_ExGruntGreg_BeforeBattle_1,Gefeliciteerd! Je hebt ons~harder verslagen dan Red!*Hé!*Neem dit, je hebt het verdiend!
+Route51_ExGruntGreg_BeforeBattle_1,Gefeliciteerd! Je hebt ons~harder verslagen dan Red!*Hé!~Pak aan, je hebt hem verdiend!
 Route51_ExGruntGreg_BeforeBattle_2,Laten we voor de lol nog een~gevecht houden!*Maar goed dat ik niet meer in~Team Rocket zit...*Dat was een grote fout van me!
 Route51_ExGruntGreg_OutroMessage,Jep, jij bent goed!
 Route51_ExGruntGreg_DefeatMessage,Ga bij de splitsing rechtsaf~om bij een stad te komen.
@@ -5186,6 +5186,8 @@ Route49_Gate_RhyhornTrade_CatchMethod,Ontvangen in een ruil in de Poort op
 Route49_Gate_RhyhornTrade_CatchLocation,Route 49
 Route49_Gate_Binoculars_Left,<Player.Name> keek door de~verrekijker...*Daar zwemmen wat mensen!
 Route49_Gate_Binoculars_Right,<Player.Name> keek door de~verrekijker...*Daar is Haagwachterstad!
+Route49_Gate_Guard_NoBike,Je hebt een fiets nodig voor~het Fietspad!
+Route49_Gate_Guard_HaveBike,Rinjoh Fietspad is vanaf hier~alleen maar bergopwaarts.
 
 [Owsauri City]
 Owsauri_Main_Sign_DayCare,Pokémon-Dagopvang
@@ -5197,13 +5199,14 @@ Owsauri_Main_Youngster,Deze stad is een grote fan~van Pokémon.*Ze kunnen er gee
 Owsauri_Main_Gambler,Laat je Pokémon achter bij de~Dagopvangman en hij zal voor~ze zorgen!
 Owsauri_Main_Rocker,Ik vraag me af hoe het met~mijn Voltorb gaat?
 Owsauri_Main_FatGuy,Dit is mijn speciale plekje.
-Owsauri_Main_Omanyte_Cry,Kyeeru!
+Owsauri_Main_Omanyte_Cry,Omanyte: Kyeeru!
 Owsauri_Main_Lapras_Cry1,<Player.Name>: Lapras is aan het~zingen!
-Owsauri_Main_Lapras_Cry2,Zz...zz...*...Huh?!~Wat was ik ook alweer aan~het doen?
-Owsauri_Main_Voltorb_Cry,Voltorb! Bzzt!
-Owsauri_Main_Cubone_Cry,Kyarugoo!
-Owsauri_Main_Clefairy_Cry,Clefaiiiry!
-Owsauri_Main_Meowth_Cry1,Meowth!*<Player.Name>: Huh? Is dat voor~mij?
+Owsauri_Main_Lapras_Cry2,Zz...zz...
+Owsauri_Main_Lapras_Cry3,...Huh?!~Wat was ik ook alweer aan~het doen?
+Owsauri_Main_Voltorb_Cry,Voltorb: Voltorb! Bzzt!
+Owsauri_Main_Cubone_Cry,Cubone: Kyarugoo!
+Owsauri_Main_Clefairy_Cry,Clefairy: Clefaiiiry!
+Owsauri_Main_Meowth_Cry1,Meowth!: Meowth!*<Player.Name>: Huh? Is dat voor~mij?
 Owsauri_Main_Meowth_Cry2,<Player.Name> ontving $1!
 
 Owsauri_PokeCenter_BenchGirl,Mijn papa is nog steeds in~het casino.*Hij zei dat ik hier moest~wachten...
@@ -5312,8 +5315,8 @@ Owsauri_Casino_B1F_Shop_PokemonCatchMethod,Gekocht bij het
 Owsauri_Casino_B1F_Shop_PokemonCatchLocation,Slotwater-Casino
 Owsauri_Casino_B1F_Shop_Left_Chikorita,Chikorita         2500C
 Owsauri_Casino_B1F_Shop_Left_Cyndaquil,Cyndaquil         3500C
-Owsauri_Casino_B1F_Shop_Left_Totodile,Totodile           3500C
-Owsauri_Casino_B1F_Shop_Center_Eevee,Eevee             3500C
+Owsauri_Casino_B1F_Shop_Left_Totodile,Totodile          3500C
+Owsauri_Casino_B1F_Shop_Center_Eevee,Eevee           3500C
 Owsauri_Casino_B1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
 Owsauri_Gym_Statues_BeforeDefeat,Slotwaterstad~Pokémon Gym~Leider: Lily*Winnende Trainers:~Mura

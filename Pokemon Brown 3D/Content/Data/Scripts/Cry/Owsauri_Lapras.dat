@@ -3,6 +3,9 @@ version=2
 @pokemon.cry(131)
 @Text.Show(<system.token(Owsauri_Main_Lapras_Cry1)>)
 @Sound.Play(PokeFlute,1)
+@Level.Wait(50)
 @Text.Show(<system.token(Owsauri_Main_Lapras_Cry2)>)
+@Level.Wait(300)
+@Text.Show(<system.token(Owsauri_Main_Lapras_Cry3)>)
 
 :end

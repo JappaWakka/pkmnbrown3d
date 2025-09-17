@@ -3,6 +3,13 @@ version=2
 	@Player.Move(0)
 	@Text.Show(Excuse me!)
 	@Player.TurnTo(1)
+	:if:<Level.Riding>=true
+		@Player.SetSpeed(2)
+	:else
+		:if:<Player.IsRunning>=true
+			@Player.SetSpeed(1.5)
+		:endif
+	:endif
 	:if:<player.position(x)>=6
 		@Player.Move(3)
 	:else
@@ -15,7 +22,7 @@ version=2
 		:endif
 	:endif
 	@Player.Move(0)
-	@Text.Show(You need a bicycle for~Cycling Road!)
+	@Text.Show(<system.token(Route49_Gate_Guard_NoBike)>)
 	@Player.TurnTo(2)
 	@Player.Move(1)
 :endif
