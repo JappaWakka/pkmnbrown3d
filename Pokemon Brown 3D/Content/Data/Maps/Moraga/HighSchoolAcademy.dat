@@ -66,7 +66,7 @@ Door:
 
 NPCs:
 {"NPC"{NPC[{"Position"{sngArr[4,0,0]}}{"TextureID"{str[OldMan_Purple]}}{"ID"{int[0]}}{"Name"{str[Teacher]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Moraga_HighSchoolAcademy_Teacher)>]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[3,0.155,4]}}{"TextureID"{str[SchoolKid_Male_Green]}}{"ID"{int[1]}}{"Name"{str[Student]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Moraga_HighSchoolAcademy_Student)>]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[3,0.155,4]}}{"TextureID"{str[SchoolKid_Male_Green]}}{"ID"{int[1]}}{"Name"{str[Student]}}{"Action"{int[1]}}{"AdditionalValue"{str[Moraga\Student]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 
 

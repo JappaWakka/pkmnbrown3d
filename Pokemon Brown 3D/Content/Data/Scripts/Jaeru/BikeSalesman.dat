@@ -10,8 +10,17 @@ version=2
 	@Text.Show(<system.token(Jaeru_BikeShop_BikeSalesMan_NoVoucher)>)
 	@options.show(<system.token(Jaeru_BikeShop_BikeSalesMan_Option_Bicycle)>,<system.token(global_cancel)>)
 	:when:<system.token(Jaeru_BikeShop_BikeSalesMan_Option_Bicycle)>
-		@Text.Show(<system.token(Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle)>)
-		:end
+		:if:<player.money>>999999
+			@Text.Show(<system.token(Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_HaveEnoughMoney)>)
+			@Item.Give(6,1)
+			@sound.play(Receive_KeyItem,1)
+			@Item.MessageGive(6,1)
+			@Register.Register(gotbike)
+			:end
+		:else
+			@Text.Show(<system.token(Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_NotEnoughMoney)>)
+			:end
+		:endif
 	:when:<system.token(global_cancel)>
 		@Text.Show(<system.token(Jaeru_BikeShop_BikeSalesMan_Answer_Cancel)>)
 		:end
