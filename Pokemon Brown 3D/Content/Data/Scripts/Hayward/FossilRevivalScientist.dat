@@ -47,7 +47,7 @@ version=2
 				@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 				:when:<system.token(global_yes)>
 					@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_Answer_HelixFossil)>)
-					@item.clearitem(601,1)
+					@item.remove(601,1,0)
 					@Register.Register(FossilRevive_Helix)
 					:end
 				:when:<system.token(global_no)>
@@ -60,7 +60,7 @@ version=2
 				@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_Question_DomeFossil)>)
 				:when:<system.token(global_yes)>
 					@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_Answer_DomeFossil)>)
-					@item.clearitem(602,1)
+					@item.remove(602,1,0)
 					@Register.Register(FossilRevive_Dome)
 					:end
 				:when:<system.token(global_no)>
@@ -73,7 +73,7 @@ version=2
 				@Text.Show()
 				:when:<system.token(global_yes)>
 					@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_Answer_SkullFossil)>)
-					@item.clearitem(606,1)
+					@item.remove(606,1,0)
 					@Register.Register(FossilRevive_Skull)
 					:end
 				:when:<system.token(global_no)>
@@ -85,7 +85,7 @@ version=2
 				@Text.Show()
 				:when:<system.token(global_yes)>
 					@Text.Show(<system.token(Hayward_FossilLab_FossilReviver_Answer_OldAmber)>)
-					@item.clearitem(603,1)
+					@item.remove(603,1,0)
 					@Register.Register(FossilRevive_OldAmber)
 					:end
 				:when:<system.token(global_no)>

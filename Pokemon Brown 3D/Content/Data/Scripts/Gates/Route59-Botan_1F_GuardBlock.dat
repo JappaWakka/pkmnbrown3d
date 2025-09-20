@@ -11,9 +11,16 @@ version=2
 		@player.turnto(3)
 		@Text.Show(<system.token(Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMeBeer)>)
 		:if:<player.position(x)>=3
+			:if:<Level.Riding>=true
+				@Player.SetSpeed(2)
+			:else
+				:if:<Player.IsRunning>=true
+					@Player.SetSpeed(1.5)
+				:endif
+			:endif
 			@player.move(1)
 		:endif
-		@item.clearitem(gm7,1)
+		@item.remove(gm7,1)
 		@Text.Show(<system.token(Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer)>)
 		@npc.turn(0,3)
 		@Text.Show(<system.token(Route59_Botan_Gate_1F_Guard_HaveBeer_FallAsleep)>)

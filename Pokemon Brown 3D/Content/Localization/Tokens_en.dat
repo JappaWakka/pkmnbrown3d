@@ -5065,10 +5065,10 @@ Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! That is a Helix Fossil!
 Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! That is a Dome Fossil!~It's a fossil of Kabuto,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
 Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! That is a Skull Fossil!~It's a fossil of Cranidos,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
 Hayward_FossilLab_FossilReviver_Question_OldAmber,Oh! That is an Old Amber!~It's a fossil of Aerodactyl,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Well? Hurry up and give~me that!*<Player.Name> handed~over the Helix Fossil!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Well? Hurry up and give~me that!*<Player.Name> handed~over the Dome Fossil!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me that!*<Player.Name> handed~over the Skull Fossil!*Walk around Eagulou and come~back, then I can finish!
-Hayward_FossilLab_FossilReviver_Answer_OldAmber,Well? Hurry up and give~me that!*<Player.Name> handed~over the Old Amber!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Well? Hurry up and give~me that!*<Player.Name> handed over the~Helix Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Well? Hurry up and give~me that!*<Player.Name> handed over the~Dome Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me that!*<Player.Name> handed over the~Skull Fossil!*Walk around Eagulou and come~back, then I can finish!
+Hayward_FossilLab_FossilReviver_Answer_OldAmber,Well? Hurry up and give~me that!*<Player.Name> handed over the~Old Amber!*Walk around Eagulou and come~back, then I can finish!
 Hayward_FossilLab_FossilReviver_NoSand,Don't put sand in your bag!~Just walk around Eagulou!*What gets stuck in your~clothes will be enough!
 Hayward_FossilLab_FossilReviver_HaveSand,Thanks for the Eagulou sand!*...*Done!~Enjoy your new Pokemon!
 Hayward_FossilLab_FossilPokemon_CatchMethod,Revived by a scientist in the
@@ -5560,11 +5560,11 @@ Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon,Let's see...*Uh-oh!
 Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 75 kinds,~come back for the Super Rod.
 Route60_Jaeru_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
 
-Route60_Jaeru_Gate_Binoculars_Left_Intro,Looked into the binoculars...
+Route60_Jaeru_Gate_Binoculars_Left_Intro,Looked into the~binoculars...
 Route60_Jaeru_Gate_Binoculars_Left_Flying,A strange Pokémon is flying~to Mt. Boulder!
 Route60_Jaeru_Gate_Binoculars_Left_Running,A strange Pokémon is running~towards Mt. Boulder!
 Route60_Jaeru_Gate_Binoculars_Left_None,It's Mt. Boulder!
-Route60_Jaeru_Gate_Binoculars_Right,Looked into the binoculars...*It looks like part of Johto!
+Route60_Jaeru_Gate_Binoculars_Right,Looked into the~binoculars...*It looks like part of Johto!
 
 [Jaeru City]
 Jaeru_Main_Sign_RijonLeagueEntrance,Path to Rijon League~Entrance
@@ -5636,7 +5636,7 @@ Route59_Main_BugCatcherYannik_OutroMessage,No!
 Route59_Main_BugCatcherYannik_DefeatMessage,My bugs should evolve soon!
 Route59_Main_YoungsterKane_IntroMessage,Hi!*Take a look at my cool~Pokémon!
 Route59_Main_YoungsterKane_OutroMessage,I don't believe it!
-Route59_Main_YoungsterKane_DefeatMessage,You have cooler Pokémon than I~do!
+Route59_Main_YoungsterKane_DefeatMessage,You have cooler Pokémon than~I do!
 Route59_Main_BugCatcherCarsten_IntroMessage,Looking at the trees.*So what?
 Route59_Main_BugCatcherCarsten_OutroMessage,Come on!
 Route59_Main_BugCatcherCarsten_DefeatMessage,You started it, not me!
@@ -5646,20 +5646,20 @@ Route59_Main_LassAileen_DefeatMessage,Your eyes confuse me.
 Route59_Main_BugCatcherCavan_IntroMessage,Let's see how it goes.
 Route59_Main_BugCatcherCavan_OutroMessage,Too quick for me.
 Route59_Main_BugCatcherCavan_DefeatMessage,Trained Pokémon are stronger~than the wild ones!
-Route59_Main_YoungsterJoey_IntroMessage,The name's Joey! I moved here~from Johto. Wanna feast your~eyes on the greatest Rattata~ever?
+Route59_Main_YoungsterJoey_IntroMessage,The name's Joey!~I moved here from Johto.*Wanna feast your eyes on~the greatest Rattata ever?
 Route59_Main_YoungsterJoey_OutroMessage,Oh, no! Rattata!
 Route59_Main_YoungsterJoey_DefeatMessage,My Rattata is in the top~percentage of all Rattata!*That's a fact!
-Route59_Main_LassFiona_IntroMessage,Watch out!
-Route59_Main_LassFiona_OutroMessage,That's it?
-Route59_Main_LassFiona_DefeatMessage,Botan City is not that~far away!
+Route59_Main_LassJoane_IntroMessage,My name's Joane!~I'm Joey's sister!*I have the greatest Raticate~of all time!
+Route59_Main_LassJoane_OutroMessage,My poor Raticate!
+Route59_Main_LassJoane_DefeatMessage,We love the Rattata line!
 Route59_Main_PokeManiac,That stupid guard won't let~me get to the next city!*What is his problem?!
 Route59_Main_Beauty,A little beer makes the guard~go to sleep!
 
 Route59_SilphCoWarehouse_SecurityDoors_WithCardKey,Bingo!~The Card Key opened the door!
 Route59_SilphCoWarehouse_SecurityDoors_NoCardKey,Darn! It needs a Card Key!
 Route59_SilphCoWarehouse_1F_Receptionist,Oh, it's you!*Thanks again for saving us!
-Route59_SilphCoWarehouse_2F_TM42Lady_BeforeTalking,Wow, that event was sure~a nightmare!*You want to get rid of yours?~Take this!
-Route59_SilphCoWarehouse_2F_TM42Lady_AfterTalking,TM 42 is Dream Eater! It only~works on sleeping Pokemon,~but it swallows their dream!
+Route59_SilphCoWarehouse_2F_TM42Lady_BeforeTalking,Wow, that event sure was~a nightmare!*You want to get rid of yours?~Take this!
+Route59_SilphCoWarehouse_2F_TM42Lady_AfterTalking,TM 42 is Dream Eater!~It only works on sleeping~Pokemon, but it swallows~their dream!
 Route59_SilphCoWarehouse_2F_RocketGruntLawrence_IntroMessage,This time we we will succeed!
 Route59_SilphCoWarehouse_2F_RocketGruntLawrence_OutroMessage,I goofed!
 Route59_SilphCoWarehouse_2F_RocketGruntLawrence_DefeatMessage,Our boss will not fail us!
@@ -5696,15 +5696,15 @@ Route59_SilphCoWarehouse_4F_RocketGruntHector_OutroMessage,Don't... Please!
 Route59_SilphCoWarehouse_4F_RocketGruntHector_DefeatMessage,You will never beat 'da Boss!
 Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle,Giovanni: What?!*Another child trying to stop~me from fulfilling Team~Rocket's goals?*If you don't stay out of~my business kid, you'll be in~a world of pain!*<Player.Name>: Bring it on.
 Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage,Giovanni: Arrgh!! I lost~again?!
-Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: How can I run a~criminal organization if my~plans keep getting thwarted~by children?!*I guess I should just give up,~there's no way we can succeed~with kids like you!*Goodbye forever!
-Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<Player.Name>: Is everyone okay?*Manager: Yes, thanks to you.*You're a brave kid.*<Player.Name>: It was~nothing, really.*Manager: I need to repay you~somehow. Oh here, have this~valuable gift!*<Player.Name>: Thank you~so much!
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: How can I run a~criminal organization if my~plans keep getting thwarted~by children?!*I guess I should just give up,~there's no way we can~succeed with kids like you!*Goodbye forever!
+Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<Player.Name>: Is everyone okay?*Manager: Yes, thanks to you.*You're a brave kid.*<Player.Name>: It was~nothing, really.*Manager: I need to repay you~somehow.*Oh here, have this valuable~gift!*<Player.Name>: Thank you~so much!
 Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Manager: Make sure to visit~our main building, located in~Saffron City, Kanto when you~have the time.
 
 [Route 59 - Botan City Gate]
 Route59_Botan_Gate_1F_Guard_NoBeer_Wait,Wait!
 Route59_Botan_Gate_1F_Guard_NoBeer_CannotGoThrough,Sorry you can't go though.*I'm guarding the area!
-Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMeBeer,Whoa, kid!~I smell hard beer!*Give it to me I need it so bad!
-Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer,<Player.Name> handed over the~Keg of Beer.*...Glug glug...~...Gulp...~This stuff hits you...
+Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMeBeer,Whoa, kid!~I smell hard beer!*Give it to me, I need it so bad!
+Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer,...Glug glug...~...Gulp...~This stuff hits you...
 Route59_Botan_Gate_1F_Guard_HaveBeer_FallAsleep,Zzzzz...*<Player.Name>: Looks like I can~get past this guy now,~and complete my quest!
 Route59_Botan_Gate_1F_Guard_StillAsleep,<Player.Name>: He's still asleep...
 Route59_Botan_Gate_2F_EeveeTrade_Question,Hi! Do you have a~Mareep?*Want to trade it for Eevee?
@@ -5718,8 +5718,8 @@ Route59_Botan_Gate_2F_Binoculars_Left,Looked into the binoculars...*The Rijon Le
 Route59_Botan_Gate_2F_Binoculars_Right,Looked into the binoculars...*A dark forest can be~seen... maybe there are some~ghosts there...
 Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds of~Pokémon, I'm supposed to~give you an Item Finder!*So <Player.Name>! Have you~caught at least 45 kinds~of Pokémon?
 Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_45OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
-Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan30Pokemon,Let's see...*Uh-oh!~You haven't caught enough~kinds of Pokémon!*You need 45 kinds if~you want the Item Finder.
-Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerNo,Oh, I see.~When you get 45 kinds,~come back for the Item Finder.
+Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan45Pokemon,Let's see...*Uh-oh!~You haven't caught enough~kinds of Pokémon!*You need 45 kinds if~you want the Item Finder.
+Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerNo,Oh, I see. When you get~45 kinds, come back for the~Item Finder.
 Route59_Botan_Gate_2F_Aide_ItemFinder_AfterReceiveItemFinder,There are items on the ground~that can't be seen.~The Item Finder will reveal~hidden items near you for a~brief moment.~It doesn't tell you where they~are exactly, so you have to~look yourself!
 
 [Botan City]
