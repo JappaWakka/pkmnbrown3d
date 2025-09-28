@@ -9,8 +9,12 @@ version=2
 	@player.turnto(0)
 :endif
 @Text.Show(<system.token(Botan_HauntedForest_Area2_Mura_BeforeBattle)>)
+:if:<level.riding>=true
+	@music.setmusicloop(Ride)
+:else
+	@music.setmusicloop(HauntedForest)
+:endif
 
-@music.setmusicloop(HauntedForest)
 :if:<Register.Registered(Starter_Charmander)>=true
 	@battle.trainer(mura\2squirtle)
 :endif
@@ -44,6 +48,10 @@ version=2
 @npc.remove(1)
 @npc.register(Botan\HauntedForest\Area2.dat|1|remove)
 @register.register(MuraBotanBattle)
-@music.play(HauntedForest)
+:if:<level.riding>=true
+	@music.play(Ride)
+:else
+	@music.play(HauntedForest)
+:endif
 @Entity.Remove(2)
 :end
