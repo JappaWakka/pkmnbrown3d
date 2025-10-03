@@ -2,8 +2,11 @@ version=2
 
 :if:<Register.Registered(redorb)>=False
 	@Text.Show(<system.token(Botan_Cave_KarmaMiner_BeforeTalking)>)
+	@NPC.Turn(2,0)
+	@Level.Wait(25)
 	@npc.register(Caves\Botan\Main.dat|3|remove)
 	@npc.remove(3)
+	@NPC.Turn(2,<player.facing>-2)
 	@Item.Give(gm3,1)
 	@Item.MessageGive(gm3,1)
 	@Register.Register(redorb)
