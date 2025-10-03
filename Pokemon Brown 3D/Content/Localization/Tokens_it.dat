@@ -4015,7 +4015,7 @@ Hayward_Bunker_Entrance_Fisherman,You came from the bunker?*That place is pretty
 
 [Route 64]
 Route64_Sign_Route,Route 64~Hayward Lowlands*Hayward City -~Naljo Border (Closed)
-Route64_Sign_ComingSoon,Coming soon: a high speed link~to the world!*The Magnet Train: on its way~from Naljo to Rijon.*Est. completion: 3 years.~Pardon our dust!*Luster City~Construction Co.*       Magnet Train~We're Getting There
+Route64_Sign_ComingSoon,Coming soon: a high speed link~to the world!*The Magnet Train: on its way~from Naljo to Rijon.*Est. completion: 3 years.~Pardon our dust!*Luster City~Construction Co.*     Magnet Train~We're Getting There
 Route64_ConstructionWorker_BorderClosed,The Naljo border is closed~due to construction of the~Magnet Train.*We apologise for the~inconvenience caused.
 Route64_LassLaura_IntroMessage,This is a nice resting place.
 Route64_LassLaura_OutroMessage,Oh! Now I'm stressed out!
@@ -4620,9 +4620,9 @@ Route59_Botan_Gate_2F_Aide_ItemFinder_AfterReceiveItemFinder,There are items on 
 
 [Botan City]
 Botan_Main_Sign_City,Botan City*The City Of Nostalgia.
-Botan_Main_Sign_Cave,Botan Cave~TO BE DEMOLISHED*Coming soon:~Magnet Train Expansion.*High speed rail to Kanto,~Johto, Naljo and Tunod!*       Magnet Train~We're Getting There
+Botan_Main_Sign_Cave,Botan Cave~TO BE DEMOLISHED*Coming soon:~Magnet Train Expansion.*High speed rail to Kanto,~Johto, Naljo and Tunod!*     Magnet Train~We're Getting There
 Botan_Main_Scientist,That supernatural forest is~really intriguing, I've been~studying it and I think it~might be a virus caused by~Ph4D95210XaP, but my~colleagues think I've gone~crazy.*Uh? Wait, where's my Card Key?
-Botan_Main_Gentleman,Thank goodness the warehouse~is safe.
+Botan_Main_Gentleman,Thank goodness the~warehouse is safe.
 Botan_Main_Rocker,MissingNo. are actually just~ghosts.
 Botan_Main_FatGuy,Yeah! Team Rocket is gone!~It's safe to go out again!
 Botan_Main_Beauty,The Haunted Forest is really~spooky.
@@ -4654,12 +4654,12 @@ Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_CannotLearn,<pokemon.nickname(<
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_Outro,Be sure to come back if any~of your Pokémon wants to~learn the move!
 
 
-Botan_TradeHouse_Blackbelt,Eevee evolves based on where~it grew up.*That girl's Eevee came from~a huge forest.
-Botan_TradeHouse_TyrogueTrade_Question,Hello there!*Do you want to trade your~Butterfree for Tyrogue?
-Botan_TradeHouse_TyrogueTrade_Answer_No,Well, if you don't want to...
+Botan_TradeHouse_Blackbelt,My friend at the gate has~an Eevee that came from~a huge forest.*Did you know Eevee evolves~based on its surroundings?
+Botan_TradeHouse_TyrogueTrade_Question,I'm looking for a~Butterfree!*Wanna trade one for a~Tyrogue?
+Botan_TradeHouse_TyrogueTrade_Answer_No,Awww! Oh well...
 Botan_TradeHouse_TyrogueTrade_AfterTrade,The Butterfree you traded to~me is doing well!
 Botan_TradeHouse_TyrogueTrade_TradeSuccess,Okay, connect the cable~like so!
-Botan_TradeHouse_TyrogueTrade_TradeFail,Hmmm? This isn't Butterfree.*Think of me when you get one.
+Botan_TradeHouse_TyrogueTrade_TradeFail,What? That's not Butterfree!*If you get one, come back~here!
 Botan_TradeHouse_TyrogueTrade_CatchMethod,Received in a trade in
 Botan_TradeHouse_TyrogueTrade_CatchLocation,Botan City
 Botan_TradeHouse_NoivernTrade_Question,I'm looking for a Gligar!~Wanna trade one for a~Noivern?
@@ -4755,7 +4755,7 @@ Botan_HauntedForest_Area7_RocketGruntRolf_DefeatMessage,Why did the candies fail
 Botan_HauntedForest_Area7_RocketGruntIzzy_IntroMessage,Deja Vu, huh?
 Botan_HauntedForest_Area7_RocketGruntIzzy_OutroMessage,Don't fight us Rockets!
 Botan_HauntedForest_Area7_RocketGruntIzzy_DefeatMessage,Gah, not again!
-Botan_HauntedForest_Area7_MrRumiko,Mr. Rumiko: Finally! Somebody~found me!*The Rockets held me hostage~because they thought I knew~more about the MissingNo.!*<Player.Name>: Luckily they didn't~get any information out of~you, right?*Mr. Rumiko: What information?~I was just having my daily~stroll through the forest!*Anyhow, as a reward for saving~me, I've got a special gift~for you!*Let's get out of this dark~forest, first of all!
+Botan_HauntedForest_Area7_MrRumiko,Mr. Rumiko: Finally! Somebody~found me!*The Rockets held me hostage~because they thought I knew~more about the MissingNo.!*<Player.Name>: Luckily they didn't~get any information out of~you, right?*Mr. Rumiko: What information?~I was just having my daily~stroll through the forest!*Anyhow, as a reward for~saving me, I've got a special~gift for you!*Let's get out of this dark~forest, first of all!
 
 [Route 58 - Botan City Gate]
 Route58_Botan_Gate_Guard,That forest scares me!*Some scientists from the~Manor at Castro Valley said~there are no ghosts and some~kind of virus was responsible...*They said they were developing~a scanner or something, but I~don't buy it!*Ghosts are really scary!
@@ -4776,10 +4776,10 @@ Route58_Main_JrTrainerFemaleDelia_OutroMessage,Nope, not even a chance!
 Route58_Main_JrTrainerFemaleDelia_DefeatMessage,Maybe I'm just not trainer~material...
 Route58_Main_JrTrainerMaleCarlos_IntroMessage,Let me interrupt you!
 Route58_Main_JrTrainerMaleCarlos_OutroMessage,I didn't start it!
-Route58_Main_JrTrainerMaleCarlos_DefeatMessage,Stop bugging me for no reason!
+Route58_Main_JrTrainerMaleCarlos_DefeatMessage,Stop bugging me for no~reason!
 
 Route58_InternationalTunnel_1F_Miner,I've built this ladder, so all~I need to do now is mine up to~Silk Tunnel!*It'll take me some time to~finish, but I don't mind.*I love to dig!
-Route58_InternationalTunnel_B1F_BorderPatrol,Border Patrol!*Without a passport you are not~allowed into Naljo!
+Route58_InternationalTunnel_B1F_BorderPatrol,Border Patrol!*Without a passport you are~not allowed into Naljo!
 
 [Castro Valley]
 Castro_Main_OldLady,The S.S. Anne just came for its~final stop!
