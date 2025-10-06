@@ -6,6 +6,13 @@ version=2
 	@Text.Show(<system.token(Castro_Main_Harbor_NoTicket)>)
 	@NPC.Turn(4,0)
 	@Player.TurnTo(0)
+	:if:<Level.Riding>=true
+		@Player.SetSpeed(2)
+	:else
+		:if:<Player.IsRunning>=true
+			@Player.SetSpeed(1.5)
+		:endif
+	:endif
 	@Player.Move(1)
 	:end
 :else

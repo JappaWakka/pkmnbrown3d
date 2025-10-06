@@ -19,5 +19,5 @@ version=2
 	@Register.Register(ResetMew)
 :endif
 @register.unregister(Mew)
-@entity.Remove(7)
+@entity.Remove(10)
 :end

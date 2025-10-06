@@ -4782,29 +4782,29 @@ Route58_InternationalTunnel_1F_Miner,I've built this ladder, so all~I need to do
 Route58_InternationalTunnel_B1F_BorderPatrol,Border Patrol!*Without a passport you are~not allowed into Naljo!
 
 [Castro Valley]
-Castro_Main_OldLady,The S.S. Anne just came for its~final stop!
+Castro_Main_OldLady,The S.S. Anne just came for~its final stop!
 Castro_Main_Gambler_Purple,Do you see the S.S. Anne~moored in the harbor?*It's undergoing maintenance,~so it will be a while until it~sets sail again.
-Castro_Main_Gambler_Red,The International Tunnel near~Castro Valley leads to the~Naljo region, but you need a~passport to be able to go~through. Unfortunately, due to~relationship problems between~the two regions, Rijon has~stopped giving them out for~the time being.*It's rumored that you can find~some pretty rare Pokémon in~the tunnel, though.
+Castro_Main_Gambler_Red,The International Tunnel near~Castro Valley leads to the~Naljo region, but you need a~passport to be able to~go through.*Unfortunately, due to~relationship problems between~the two regions, Rijon has~stopped giving them out for~the time being.*It's rumored that you can find~some pretty rare Pokémon in~the tunnel, though.
 Castro_Main_Sailor_Harbor,Welcome to the Castro Valley~Harbor!
-Castro_Main_Harbor_NoTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<Player.Name>: Sorry, I don't~have that.*Sorry! You need an S.S. Ticket~to get aboard.
+Castro_Main_Harbor_NoTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<Player.Name>: Sorry, I don't~have that.*Sorry! You need an~S.S. Ticket to get aboard.
 Castro_Main_Harbor_HaveTicket,Welcome to the Castro Valley~Harbor!*Excuse me, do you have a~ticket?*<Player.Name>: Sure do! Here you~go!*Ah, good! Oh, but the~S.S. Anne will not be leaving~for a while. Perhaps that~other boat in the harbor still~needs passengers?
 Castro_Main_Sailor_Other,S.S. Anne is a famous luxury~cruise ship.
-Castro_Main_Sailor_CastroManor,The abandoned Castro Manor is~nearly two-hundred years old.~It was once the heart of~Castro Valley. My granny told~me stories about the Castro~family, who once owned it.
-Castro_Main_Officer_CastroManor,Fifty years ago, the Castro~Manor was acquired by a rich~and peculiar scientist, who~repurposed the manor as a~research facility, but it has~since been abandoned. Isn't~that a shame?*I see you are a seasoned~trainer, so I'll allow you to~enter, but please be careful!
+Castro_Main_Sailor_CastroManor,The abandoned Castro Manor~is nearly two-hundred years~old.*It was once the heart of~Castro Valley.*My granny told me stories~about the Castro family,~who once owned it.
+Castro_Main_Officer_CastroManor,Fifty years ago, the Castro~Manor was acquired by a rich~and peculiar scientist, who~repurposed the manor as a~research facility, but it has~since been abandoned.*Isn't that a shame?*I see you are a seasoned~trainer, so I'll allow you to~enter, but please be careful!
 Castro_Main_CastroGrandson,My relatives founded this~town, as well as its famous~manor.*They've since long passed, but~Castro Valley was built around~their naval activities.*It's still the core of Rijon's~maritime economy.
 Castro_Main_Marill_Cry,Marill: Marill Marill!*It looks lost...
 Castro_Main_JappaWakka,JappaWakka: Hiya! You must be~<Player.Name>!*My name is JappaWakka, but you~can call me Jappa if you want!*I've heard a lot about you.*Rijon Champion, huh? That's~pretty special! Would you like~to join me and some other~folks on a short ocean trip?~We got a great dance club and~we'll be back in no time,~no worries.*<Player.Name>: Sure, why not?*JappaWakka: Great, I'll start~the engine! See you inside!
 Castro_Main_Mew,Mew!
 Castro_Main_Sign_City,Castro Valley*The Courtly Little Port Town.
 Castro_Main_Sign_Forest,Castro Forest Entrance
-Castro_Main_Sign_Gym,Castro Valley~Pokémon Gym~Leader: Koji*Calm as a Breeze, Overwhelming~as a Storm!
-Castro_Main_Sign_CastroManor,Please restrain from entering,~as Castro Manor is now~abandoned and rampant with~wild Pokémon.*In hope of restoring the~former glory of this very~important piece of Castro's~history, a blueprint and~budget for restoration have~been approved.*Castro's Mayor
+Castro_Main_Sign_Gym,Castro Valley~Pokémon Gym~Leader: Koji*Calm as a Breeze,~Overwhelming as a Storm!
+Castro_Main_Sign_CastroManor,Please restrain from~entering, as Castro Manor~is now abandoned and~rampant with wild Pokémon.*In hope of restoring the~former glory of this very~important piece of Castro's~history, a blueprint and~budget for restoration have~been approved.*Castro's Mayor
 
-Castro_PokeCenter_BenchGuy,It is true that a higher level~Pokémon will be more powerful...*But, all Pokémon will have~weak points against specific~types. So there is no~universally strong Pokémon.
+Castro_PokeCenter_BenchGuy,It is true that a higher~level Pokémon will be~more powerful...*But, all Pokémon will have~weak points against specific~types.*So there is no universally~strong Pokémon.
 Castro_PokeCenter_Sailor,My Pokémon was poisoned!*It almost fainted while we~were walking!
-Castro_PokeCenter_Fisherman,Are you interested in fishing?~An old rod might not seem~much, but a friend of mine~caught a Gyarados once!*It scared the heck out of us,~that's why we only use a Good~Rod now. With it you can only~fish Marill, Goldeen, Poliwag~and Wooper, so it's safer!
+Castro_PokeCenter_Fisherman,Are you interested in fishing?~An old rod might not seem~much, but a friend of mine~caught a Gyarados once!*It scared the heck out of us,~that's why we only use a~Good Rod now.*With it you can only fish~for Marill, Goldeen, Poliwag~and Wooper, so it's safer!
 
-Castro_PunchTutorHouse_MoveTutor_Intro,Hooha!*Oh, hi there kid. I'm training~to beat my rival, Koji!*Do you want to train with me?*I could teach one of your~Pokémon a move or two...~for a price.*What do you want to learn?
+Castro_PunchTutorHouse_MoveTutor_Intro,Hooha!*Oh, hi there kid.~I'm training to beat my~rival, Koji!*Do you want to train with me?*I could teach one of your~Pokémon a move or two...~for a price.*What do you want to learn?
 Castro_PunchTutorHouse_MoveTutor_LearnQuestion,Would you like me to teach one~of your Pokémon the move~<storage.get(string,MoveName)> for only $3000?
 Castro_PunchTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
 Castro_PunchTutorHouse_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
@@ -4812,7 +4812,7 @@ Castro_PunchTutorHouse_MoveTutor_Move_AlreadyKnows,<pokemon.nickname(<pokemon.se
 Castro_PunchTutorHouse_MoveTutor_Move_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~<storage.get(string,MoveName)>!
 Castro_PunchTutorHouse_MoveTutor_FacePunch,Face Punch
 Castro_PunchTutorHouse_MoveTutor_Choose_FacePunch,You sure?*Well, if that's what you want,~here I come!*Hooha!
-Castro_PunchTutorHouse_MoveTutor_Outro,Be sure to come back if any of~your Pokémon wants to learn~a move!
+Castro_PunchTutorHouse_MoveTutor_Outro,Be sure to come back if any~of your Pokémon wants to~learn a move!
 Castro_PunchTutorHouse_Haiku_IcePunch,Slap across the face,~caressed by the ice cold hit~of a frozen hand.
 Castro_PunchTutorHouse_Haiku_ThunderPunch,The umbrella up.~Nothing will protect you less~from a static shock.
 Castro_PunchTutorHouse_Haiku_FirePunch,Its fists, set ablaze.~Apply hot pressure and see~your foes turn to ash.
@@ -4834,7 +4834,7 @@ Castro_OldRodHouse_OldRodGuy_AfterReceiveOldRod,Hello there, <Player.Name>!*How 
 
 Castro_Gym_Statues_BeforeDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura
 Castro_Gym_Statues_AfterDefeat,Castro Valley~Pokémon Gym~Leader: Koji*Winning Trainers:~Mura~<Player.Name>
-Castro_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Castro Valley's Gym has Koji~as its Leader!*Koji only uses Fighting-type Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!
+Castro_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Castro Valley's Gym has Koji~as its Leader!*Koji only uses Fighting-type~Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!
 Castro_Gym_GymGuy_AfterBadge,Gym Guy: Amazing! You've~definitely fought your way~through that one!
 Castro_Gym_JugglerEmmett_IntroMessage,Master Koji only uses~Fighting-type Pokémon!
 Castro_Gym_JugglerEmmett_OutroMessage,My balls!
@@ -4854,29 +4854,29 @@ Castro_Gym_JugglerKay_DefeatMessage,Stay and train with us!
 Castro_Gym_JugglerCalvin_IntroMessage,Strength is our number one~strategy!
 Castro_Gym_JugglerCalvin_OutroMessage,What? Extraordinary!
 Castro_Gym_JugglerCalvin_DefeatMessage,I guess it's best to have~multiple strategies!
-Castro_Gym_LeaderKoji_BeforeBattle,Koji: Ah, so I see you've~found me at last!*<Player.Name>: The Gym guide~literally told me where you~were...*Koji: So he did, did he?~I need to have a talk with him~about that.*The name's Koji, and I specialize~in Fighting-type Pokémon.~Our dojo is packed with the~strongest fighters in Rijon,~and I, the Castro Valley Gym~Leader, am its master!*Bow down to the might of our~powerful kicks and blows!*Hoohah!
+Castro_Gym_LeaderKoji_BeforeBattle,Koji: Ah, so I see you've~found me at last!*<Player.Name>: The Gym guide~literally told me where you~were...*Koji: So he did, did he?~I need to have a talk with him~about that.*The name's Koji, and I~specialize in Fighting-type~Pokémon.*Our dojo is packed with the~strongest fighters in Rijon,~and I, the Castro Valley Gym~Leader, am its master!*Bow down to the might of our~powerful kicks and blows!*Hoohah!
 Castro_Gym_LeaderKoji_OutroMessage,Koji: Humph! You have proven~your worth!*Here! You deserve the Fist~Badge!
 Castro_Gym_LeaderKoji_AfterBattle1,Koji: Now that you have the~Fist Badge, you can use Surf~outside of battle.*Take this TM I found as a gift~too!
 Castro_Gym_LeaderKoji_AfterBattle2,TM 01 contains Dynamic Punch!~It can miss, but it confuses~the foe!
-Castro_Gym_LeaderKoji_TalkAgain,Koji: Dynamic Punch can often~miss, but if it works it'll~deal a great amount of damage~and confuse your foe!
-Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Question,Koji: Ah, it's the prodigy!~Or was it protégé?*<Player.Name>: Is there even a~difference?*Koji: I do not know, honestly.~Grah, I hate fancy words.~Anyways, are you here to spar?
-Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_No,Koji: Ah. Perhaps you have yet~to find your team adequately~prepared for combat? You may~return later; I will be~honored to accept your~challenge when you see fit.
+Castro_Gym_LeaderKoji_TalkAgain,Koji: Dynamic Punch can often~miss, but if it works it'll~deal a great amount of~damage and confuse your foe!
+Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Question,Koji: Ah, it's the prodigy!~Or was it protégé?*<Player.Name>: Is there even a~difference?*Koji: I do not know, honestly.~Grah, I hate fancy words.*Anyways, are you here to~spar?
+Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_No,Koji: Ah. Perhaps you have yet~to find your team adequately~prepared for combat?*You may return later; I will~be honored to accept your~challenge when you see fit.
 Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_Yes,Koji: Very well. Let us test~each other's full strength!*HOOHAH!
 Castro_Gym_LeaderKoji_Rematch_OutroMessage,Koji: Incredible! Your power~knows no upper bound!
-Castro_Gym_LeaderKoji_Rematch_AfterBattle,Koji: We must become stronger.~I will inform my disciples~that we will be undergoing~special endurance training for~a year.*HOOHAH!*The strength of our blows must~be uncontested! Our defenses~must be infallible!*GUOH!
+Castro_Gym_LeaderKoji_Rematch_AfterBattle,Koji: We must become~stronger.*I will inform my disciples~that we will be undergoing~special endurance training~for a year.*HOOHAH!*The strength of our blows~must be uncontested!*Our defenses must be~infallible!*GUOH!
 
 Castro_CastroManor_SecretSwitch_Question,A secret switch!*Press it?
 Castro_CastroManor_SecretSwitch_Answer_Yes,Who wouldn't?
 Castro_CastroManor_SecretSwitch_Answer_No,Not quite yet!
 Castro_CastroManor_LockedDoor,This door is locked.
-Castro_CastroManor_1F_ScientistJin_IntroMessage,Woah! Where did you come from?
+Castro_CastroManor_1F_ScientistJin_IntroMessage,Woah! Where did you come~from?
 Castro_CastroManor_1F_ScientistJin_OutroMessage,I should study those warp pads!
-Castro_CastroManor_1F_ScientistJin_DefeatMessage,Are MissingNo. bothering you? Get a Virus Scanner!
+Castro_CastroManor_1F_ScientistJin_DefeatMessage,Are MissingNo. bothering you?~Get a Virus Scanner!
 Castro_CastroManor_2F_RegionMap,It's a map of another region.*Which one could it be?
 Castro_CastroManor_2F_Diary,Dear Diary, some people really~take things out of context!*...Better leave this be.
 Castro_CastroManor_2F_BurglarKazuya_IntroMessage,This manor has nothing to loot!
 Castro_CastroManor_2F_BurglarKazuya_OutroMessage,Maybe there's something behind~one of those locked doors!
-Castro_CastroManor_2F_BurglarKazuya_DefeatMessage,There must be a switch somewhere.
+Castro_CastroManor_2F_BurglarKazuya_DefeatMessage,There must be a switch~somewhere.
 Castro_CastroManor_3F_BurglarTodd_IntroMessage,Wanna help me?
 Castro_CastroManor_3F_BurglarTodd_OutroMessage,Don't call the cops on me!
 Castro_CastroManor_3F_BurglarTodd_DefeatMessage,There's nothing here anyway!
