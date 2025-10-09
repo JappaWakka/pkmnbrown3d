@@ -3314,6 +3314,7 @@ TrainerClass_CoolTrainer_Male,Cool Trainer♂
 TrainerClass_CueBall,Cue Ball
 TrainerClass_Developer,Developer
 TrainerClass_EliteFour,Elite Four
+TrainerClass_Engineer,Engineer
 TrainerClass_ExGrunt,Ex-Grunt
 TrainerClass_Fisherman,Fisherman
 TrainerClass_Gambler,Gambler
@@ -4883,7 +4884,7 @@ Castro_CastroManor_B1F_BurglarJacey_OutroMessage,Awooh!
 Castro_CastroManor_B1F_BurglarJacey_DefeatMessage,I want a basement like this!
 
 [Castro Valley - Castro Forest Gate]
-CastroValley_CastroForest_Gate_LittleGirl,Those Bug Catchers don't mess~around!
+CastroValley_CastroForest_Gate_LittleGirl,Those Bug Catchers don't~mess around!
 CastroValley_CastroForest_Gate_YoungGirl,Are you going to Castro~Forest?*A friend's Eevee evolved into~Leafeon there!
 
 [Castro Forest]
@@ -4894,14 +4895,14 @@ Castro_Forest_BugCatcherLoyd_OutroMessage,How could bugs fail?
 Castro_Forest_BugCatcherLoyd_DefeatMessage,Hehehe!
 Castro_Forest_BugCatcherTill_IntroMessage,Yo yo yo yo yo!
 Castro_Forest_BugCatcherTill_OutroMessage,I'm no rapper...
-Castro_Forest_BugCatcherTill_DefeatMessage,Gotta think of different words~than yo...
+Castro_Forest_BugCatcherTill_DefeatMessage,Gotta think of different~words than yo...
 Castro_Forest_BugCatcherCaden_IntroMessage,Are you going to South~Reservoir's Gym?*Not before you've had a taste~of my Beedrill's sting!
 Castro_Forest_BugCatcherCaden_OutroMessage,Ouch! We got swatted instead!
 Castro_Forest_BugCatcherCaden_DefeatMessage,Sometimes my Beedrill brings~me stuff it finds on the~ground.*People drop valuable things~all the time.
 
 [Route 62 - Castro Forest Gate]
-Route62_CastroForest_Gate_Guard,If you keep going west you'll~reach Moraga Town. Although~it's more like a city at this~point...
-Route62_CastroForest_Gate_RegularGuy,You want to learn how to Surf?*You should find the fisherman~that lives at Route 61.
+Route62_CastroForest_Gate_Guard,If you keep going west you'll~reach Moraga Town.*Although it's more like a~city at this point...
+Route62_CastroForest_Gate_RegularGuy,You want to learn how to~Surf?*You should find the fisherman~that lives at Route 61.
 Route62_CastroForest_Gate_YoungGirl,Prof. Tim got a Bulbasaur in~this forest!
 
 [Route 62]
@@ -4921,9 +4922,9 @@ Route62_Main_EngineerNeverDoneMan_DefeatMessage,NEVER DONE MANNNNNN!
 Route62_Main_GamblerClaude_IntroMessage,I just won big playing poker!
 Route62_Main_GamblerClaude_OutroMessage,I had a chance!
 Route62_Main_GamblerClaude_DefeatMessage,Guess it's back to the poker~table...
-Route62_Main_YoungsterDouglas_IntroMessage,My Pokémon should be ready by~now!
+Route62_Main_YoungsterDouglas_IntroMessage,My Pokémon should be ready~by now!
 Route62_Main_YoungsterDouglas_OutroMessage,Nope, I'm just impatient!
-Route62_Main_YoungsterDouglas_DefeatMessage,I better go find stronger ones!
+Route62_Main_YoungsterDouglas_DefeatMessage,I better go find stronger~ones!
 
 [Route 61 - Route 62 Gate]
 Route61_Route62_Gate_Guard,Snorlax really like taking~naps here, but they block the~route for several days.
@@ -4953,8 +4954,8 @@ Route61_Main_FishermanMarrec_OutroMessage,Lost it!
 Route61_Main_FishermanMarrec_DefeatMessage,Well, back to fishing then.
 Route61_Main_Snorlax_NoPokeFlute,A sleeping Pokémon blocks~the way!
 Route61_Main_Snorlax_UsedPokeFlute,Snorlax woke up!*It attacked in a grumpy rage!
-Route61_Main_Snorlax_Caught,Snorlax calmed down! With a~big yawn, it returned to~the mountains!
-Route61_Main_Snorlax_Defeated,Snorlax calmed down! It no longer blocks the way!
+Route61_Main_Snorlax_Caught,Snorlax calmed down!*It no longer blocks the way!
+Route61_Main_Snorlax_Defeated,Snorlax calmed down!*With a big yawn, it returned~to the mountains!
 
 Route61_GoodRodHouse_GoodRodGuy_Question,I'm the Fishing Guru's~second cousin's uncle~twice removed.*Like fishing?
 Route61_GoodRodHouse_GoodRodGuy_Answer_No,Oh...That's so disappointing...
@@ -4962,24 +4963,24 @@ Route61_GoodRodHouse_GoodRodGuy_Answer_Yes1,Grand! I like your style!*Take this 
 Route61_GoodRodHouse_GoodRodGuy_Answer_Yes2,Fishing is a way of life!*From the seas to rivers,~go out and land the big one!
 Route61_GoodRodHouse_GoodRodGuy_AfterReceiveGoodRod,Hello there, <Player.Name>!*The Good Rod is actually good,~unlike the Old Rod!*Catch different Pokémon~with it!
 
-Route61_SurfHouse_SurfMan_BeforeTalking,Hi there, kid!*I just bought a bunch of~HM03s to add to my HM03~collection.*Although, if you're planning~on going to Eagulou City,~you're going to need one~of them.*So, here you go, kiddo!
-Route61_SurfHouse_SurfMan_AfterTalking,HM03 is Surf!*Pokémon will be able to~ferry you across water!*And, this HM isn't disposable!~You can use it over and over!
+Route61_SurfHouse_SurfMan_BeforeTalking,Hi there, kid!*I just bought a bunch of~HM 03s to add to my HM 03~collection.*Although, if you're planning~on going to Eagulou City,~you're going to need one~of them.*So, here you go, kiddo!
+Route61_SurfHouse_SurfMan_AfterTalking,HM 03 is Surf!*Pokémon will be able to~ferry you across water!*And, this HM isn't disposable!~You can use it over and over!
 
 [Route 60 - Route 61 Gate]
 Route60_Route61_Gate_Guard,I'm here to make sure that~no-one vandalizes the old~abandoned Power Plant~up ahead.*They closed it as it was~cheaper to import electricity~from Johto.*However, since the earthquake~hit, they plan to get our~Power Plant up and running~again.*Honestly? I'm not convinced~that it was ever shut down~properly in the first place.*Electric Pokémon, like~Magneton, are still attracted~to the area.*Maybe it's to do with a~residual magnetic field?
-Route60_Route61_Gate_RegularGuy,Be careful inside the Power~Plant.*When I was in Kanto, I once~picked up what I thought was a~Poké Ball. It was actually a~Voltorb!*How shocking!
+Route60_Route61_Gate_RegularGuy,Be careful inside the Power~Plant.*When I was in Kanto, I once~picked up what I thought was~a Poké Ball.*It was actually a Voltorb!*How shocking!
 Route60_Route61_Gate_YoungBoy,Yuva Mila Lake lies at the end~of this route.
 
 [Route 57 - Castro Forest Gate]
-Route57_CastroForest_Gate_Guy,Many Pokémon live only in~forests and caves.*You need to look everywhere to~get different kinds!
+Route57_CastroForest_Gate_Guy,Many Pokémon live only in~forests and caves.*You need to look everywhere~to get different kinds!
 Route57_CastroForest_Gate_OldMan,Can you tell me the way to~Castro Valley?
 
 [Route 57]
-Route57_Main_Sign_Route,Route 57~South Reservoir*Castro Forest - Southedge Bay
+Route57_Main_Sign_Route,Route 57~South Reservoir*Castro Forest -~Southedge Bay
 Route57_Main_Sign_Gym,South Reservoir~Pokémon Gym*Leader: Joe~Just a Normal Guy!
 Route57_Main_Fisherman_Question,Got time for a story, kid?
 Route57_Main_Fisherman_Answer_No,You don't? I promise it's a~good one!
-Route57_Main_Fisherman_Answer_Yes,One day, when I was fishin'~down by this very same river~with some pals, we happened to~see a weird hole open up in~the sky. It spat out a man and~closed right back up, never~seen anythin' like it. The man~that fell from the sky was~very upset and said he~couldn't remember a thing but~his name, so we figured we'd~get him a Pokémon so he could~at least get by traveling. He~was scared by most of them for~some reason or another and~didn't even like our fish~much... But rats? Cats? Birds?~He loved those. So we caught~Joe a Pidgey, way back then.~And he took darn good care of~it.*Bit of a weird fella; can't~say we talk much now. But he~made a good name for himself,~far as I'm concerned. You~ought to pay his Gym a visit.
+Route57_Main_Fisherman_Answer_Yes,One day, when I was fishin'~down by this very same river~with some pals, we happened~to see a weird hole open up in~the sky.*It spat out a man and closed~right back up, never seen~anythin' like it.*The man that fell from the~sky was very upset and said~he couldn't remember a thing~but his name, so we figured~we'd get him a Pokémon so~he could at least get by~traveling.*He was scared by most of~them for some reason or~another and didn't even~like our fish much...*But rats? Cats? Birds?~He loved those.*So we caught Joe a Pidgey,~way back then.*And he took darn good care~of it.*Bit of a weird fella; can't~say we talk much now.*But he made a good name~for himself, far as I'm~concerned.*You ought to pay his Gym~a visit.
 
 Route57_Gym_Statue_BeforeDefeat,South Reservoir~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura
 Route57_Gym_Statue_AfterDefeat,South Reservoir~Pokémon Gym~Leader: Joe*Winning Trainers:~Mura~<Player.Name>
@@ -4988,14 +4989,14 @@ Route57_Gym_GymGuy_AfterBadge,Gym Guy: <Player.Name>!~Good job once again!
 Route57_Gym_Quiz_Answer_Correct,You're absolutely correct!*Go on through.
 Route57_Gym_Quiz_Answer_Wrong,Sorry, bad call.
 Route57_Gym_Quiz_Question1,Pokémon Quiz!*Pidgeot is Normal/Wind-type?
-Route57_Gym_Quiz_Question2,Pokémon Quiz!*Normal-type attacks are weak~against Abnormal-type Pokémon?
+Route57_Gym_Quiz_Question2,Pokémon Quiz!*Normal-type attacks are~weak against Abnormal-type~Pokémon?
 Route57_Gym_Quiz_Question3,Pokémon Quiz!*Old Route 47 is in Rijon?
 Route57_Gym_Quiz_Question4,Pokémon Quiz!*Marill is catchable in Rijon?
 Route57_Gym_Quiz_Question5,Pokémon Quiz!*Pokémon Brown was originally~made by Koolboyman?
 Route57_Gym_Quiz_Question6,Pokémon Quiz!*Johto is south of Rijon?
-Route57_Gym_NormalTrainerGary_IntroMessage,Time for a Normal battle!
+Route57_Gym_NormalTrainerGary_IntroMessage,Time for a normal battle!
 Route57_Gym_NormalTrainerGary_OutroMessage,I surrender!
-Route57_Gym_NormalTrainerGary_DefeatMessage,It isn't Normal when I lose!
+Route57_Gym_NormalTrainerGary_DefeatMessage,It isn't normal when I lose!
 Route57_Gym_NormalTrainerStewie_IntroMessage,Well, ready?
 Route57_Gym_NormalTrainerStewie_OutroMessage,Dang!
 Route57_Gym_NormalTrainerStewie_DefeatMessage,Darn, I lost.
@@ -5010,20 +5011,20 @@ Route57_Gym_NormalTrainerMacaulay_OutroMessage,Ow!
 Route57_Gym_NormalTrainerMacaulay_DefeatMessage,It would be more normal if~you didn't win that battle!
 Route57_Gym_NormalTrainerReggie_IntroMessage,I've been to many Gyms, but~this is my favorite!
 Route57_Gym_NormalTrainerReggie_OutroMessage,Yowza! Too hot!
-Route57_Gym_NormalTrainerReggie_DefeatMessage,Normal Pokémon's only weakness~is Fighting-type Pokémon!
+Route57_Gym_NormalTrainerReggie_DefeatMessage,Normal Pokémon's only~weakness is Fighting-type~Pokémon!
 Route57_Gym_NormalTrainerStefan_IntroMessage,Normal equals best!
 Route57_Gym_NormalTrainerStefan_OutroMessage,Just another day at the office.
 Route57_Gym_NormalTrainerStefan_DefeatMessage,Quit staring at me, it's mean!
-Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the South Reservoir Gym Leader.~There's not much to know about~me, except that I specialize~in the Normal-type, I suppose.~You'll be surprised to see how~much power these thigns pack~in them. Let's begin our~battle, shall we?*<Player.Name>: Well, I'll~do anything for the~Equity Badge!
+Route57_Gym_LeaderJoe_BeforeBattle,Joe: What's up? I'm Joe and~I'm just your normal, everyday~guy who just so happens to be~the South Reservoir Gym~Leader.*There's not much to know~about me, except that I~specialize in the Normal-~type, I suppose.*You'll be surprised to see~how much power these things~pack in them.*Let's begin our battle,~shall we?*<Player.Name>: Well, I'll do~anything for the Equity~Badge!
 Route57_Gym_LeaderJoe_OutroMessage,Joe: It's normal to lose if~your opponent is this good.*You have earned the Equity~Badge!
 Route57_Gym_LeaderJoe_AfterBattle1,Joe: Hah!*Since you're special, I'll~give you something else!
 Route57_Gym_LeaderJoe_AfterBattle2,TM 15 contains Hyper Beam!*It's so strong, that your~Pokémon must recharge after~using it!
 Route57_Gym_LeaderJoe_TalkAgain,Joe: Hyper Beam is the best~Normal attack you can get!*Don't waste it!
-Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Question,Joe: Ah, welcome! I've been~doing some thinking...?*<Player.Name>: ... Okay? Good~job, man?*Joe: You know Gym Leaders have~to tone things down for~trainers, right? Fighting at~less than full strength~doesn't seem very normal to~me. So how about you and I~have an average rematch, no~holds barred?!
-Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Answer_No,Joe: You don't want to battle~Pokémon right now?*That's so... ABNORMAL!*Get out, you miserable lout!!
+Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Question,Joe: Ah, welcome! I've been~doing some thinking...?*<Player.Name>: ... Okay? Good~job, man?*Joe: You know Gym Leaders~have to tone things down~for trainers, right?*Fighting at less than full~strength doesn't seem very~normal to me.*So how about you and I have~an average rematch, no holds~barred?!
+Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Answer_No,Joe: You don't want to~battle Pokémon right now?*That's so... ABNORMAL!*Get out, you miserable lout!!
 Route57_Gym_LeaderJoe_Rematch_BeforeBattle_Answer_Yes,Joe: Alright! There's no way~you can handle us at our most~OVERWHELMING LEVEL OF...*normal.
-Route57_Gym_LeaderJoe_Rematch_OutroMessage,Joe: You beat us? Your team~must be that rumored...*EXTRAORDINARY type!
-Route57_Gym_LeaderJoe_Rematch_AfterBattle,Joe: Well we've only just~begun to see the limits of how~normal a guy can be. I'll show~you all; I'll be the most~normal trainer in the world!
+Route57_Gym_LeaderJoe_Rematch_OutroMessage,Joe: You beat us?*Your team must be that~rumored...*EXTRAORDINARY type!
+Route57_Gym_LeaderJoe_Rematch_AfterBattle,Joe: Well we've only just begun~to see the limits of how normal~a guy can be.*I'll show you all; I'll be the~most normal trainer in the~world!
 
 [Route 56]
 Route56_Main_Sign_Route,Route 56~Southedge Bay*South Resevoir - Eagulou City

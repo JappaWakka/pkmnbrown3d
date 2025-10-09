@@ -1,6 +1,6 @@
 version=2
 
-:if:<Register.Registered(sparkybadge_obtain)>=False
+:if:<Register.Registered(whitebadge_obtain)>=False
 	@Text.Show(<system.token(Route57_Gym_GymGuy_BeforeBadge)>)
 :else
 	@Text.Show(<system.token(Route57_Gym_GymGuy_AfterBadge)>)

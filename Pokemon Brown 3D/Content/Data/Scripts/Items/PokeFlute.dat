@@ -1,11 +1,23 @@
 version=2
-:if:<level.mapfile>=Routes\61\Main.dat <and> <player.position>=17,0,37
-	@script.start(Route61\Snorlax)
-	:end
-:else
-	:if:<level.mapfile>=Routes\47\Main.dat <and> <player.position>=26,0,16
-		@script.start(Route47\Snorlax)
+:if:<level.mapfile>=Routes\61\Main.dat
+	:if:<player.position>=16,0,37 <or> <player.position>=18,0,37
+		@script.start(Route61\Snorlax)
 		:end
+	:else
+		@Text.Show(<system.token(Item_Use_PokeFlute)>)
+		@sound.play(PokeFlute,1)
+		@level.wait(450)
+	:endif
+:else
+	:if:<level.mapfile>=Routes\47\Main.dat
+		:if:<player.position>=26,0,16 <or> <player.position>=28,0,16
+			@script.start(Route47\Snorlax)
+			:end
+		:else
+			@Text.Show(<system.token(Item_Use_PokeFlute)>)
+			@sound.play(PokeFlute,1)
+			@level.wait(450)
+		:endif
 	:else
 		@Text.Show(<system.token(Item_Use_PokeFlute)>)
 		@sound.play(PokeFlute,1)

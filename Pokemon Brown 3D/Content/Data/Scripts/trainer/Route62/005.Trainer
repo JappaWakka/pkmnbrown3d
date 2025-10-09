@@ -5,7 +5,7 @@ Money|480
 IntroMessage|<system.token(Route62_Main_YoungsterDouglas_IntroMessage)>
 OutroMessage|<system.token(Route62_Main_YoungsterDouglas_OutroMessage)>
 DefeatMessage|<system.token(Route62_Main_YoungsterDouglas_DefeatMessage)>
-TextureID|Youngster_Blue
+TextureID|Youngster_Red
 Region|Rijon
 InSightMusic|Encounter_Trainer_Male
 IniMusic|Rijon_Trainer_Intro
@@ -20,4 +20,4 @@ Pokemon6|
 Items|
 Gender|-1
 AI|0
-IntroSequence|0,0
+IntroSequence|10,10

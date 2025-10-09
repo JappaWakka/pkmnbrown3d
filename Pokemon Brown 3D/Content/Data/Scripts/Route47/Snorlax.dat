@@ -4,22 +4,22 @@ version=2
 	@Text.Show(<system.token(Item_Use_PokeFlute)>)
 	@sound.play(PokeFlute,1)
 	@level.wait(450)
-	@Text.Show(<system.token(Route47_Main_Snorlax_UsedPokeFlute)>)
+	@Text.Show(<system.token(Route47_Snorlax_UsedPokeFlute)>)
 	:if:<Register.Value(Snorlax_OldRoute47_Shiny)>=true
 		@battle.wild(143,40,1)
 	:else
 		@battle.wild(143,40,0)
 	:endif
-	:if:<battle.caught>=true
-		@Text.Show(<system.token(Route47_Main_Snorlax_Caught)>)
-	:else
-		@Text.Show(<system.token(Route47_Main_Snorlax_Defeated)>)
-	:endif
 	@entity.remove(10)
-	@Register.Register(Snorlax_OldRoute47)
 	@NPC.register(Routes\47\Main.dat|10|remove)
+	:if:<battle.caught>=true
+		@Text.Show(<system.token(Route47_Snorlax_Caught)>)
+	:else
+		@Text.Show(<system.token(Route47_Snorlax_Defeated)>)
+	:endif
+	@Register.Register(Snorlax_OldRoute47)
 :else
-	@Text.Show(<system.token(Route47_Main_Snorlax_NoPokeFlute)>)
+	@Text.Show(<system.token(Route47_Snorlax_NoPokeFlute)>)
 :endif
 
 :end
