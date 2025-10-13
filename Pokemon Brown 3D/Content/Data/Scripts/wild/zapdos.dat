@@ -14,5 +14,5 @@ version=2
 	@Register.Register(CaughtZapdos)
 :endif
 @register.unregister(Zapdos)
-@level.reload
+@npc.remove(10)
 :end

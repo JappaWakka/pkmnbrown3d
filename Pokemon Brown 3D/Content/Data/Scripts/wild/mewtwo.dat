@@ -12,5 +12,5 @@ version=2
 	@Register.Register(ResetMewtwo)
 :endif
 @register.unregister(Mewtwo)
-@level.reload
+@npc.remove(10)
 :end

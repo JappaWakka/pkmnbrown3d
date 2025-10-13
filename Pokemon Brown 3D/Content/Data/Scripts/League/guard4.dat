@@ -2,16 +2,14 @@ version=2
 
 @Text.Show(<system.token(Route65_Guard4_Start)>)
 
-:if:<Register.Registered(sproutbadge_obtain)>=True
+:if:<Register.Registered(sparkybadge_obtain)>=True
 	:if:<Register.Registered(guard4)>=False
 		@Sound.Play(Success_Small,1)
 		@Register.Register(guard4)
+		@entity.remove(5)
 	:endif
 	@Text.Show(<system.token(Route65_Guard4_HaveBadge)>)
-	
-:endif
-
-:if:<Register.Registered(sproutbadge_obtain)>=False
+:else
 	@Text.Show(<system.token(Route65_Guard4_NoBadge)>)
 :endif
 

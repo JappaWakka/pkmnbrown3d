@@ -1,27 +1,32 @@
 version=2
 
-:if:<inventory.countitem(gm2)>=0 <and> <Register.Registered(strengthobtained)>=False
-    @Text.Show(Hey, have you seen my~special amulet?*I need it!)
-    @options.show(<system.token(global_yes)>,<system.token(global_no)>)
-	:when:<system.token(global_yes)>
-		@Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_Answer_Yes)>)
-    :when:<system.token(global_no)>
-		@Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_Answer_No)>)
-	:endwhen
-	:end
+:if:<inventory.countitem(gm2)>=0
+	:if:<Register.Registered(strengthobtained)>=false
+		@Text.Show(Hey, have you seen my~special amulet?*I need it!)
+		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		:when:<system.token(global_yes)>
+			@Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_Answer_Yes)>)
+		:when:<system.token(global_no)>
+			@Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_Answer_No)>)
+		:endwhen
+		:end
+	:else
+		@Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_AfterGivenAmulet)>)
+		:end
+	:endif
 :endif
 
-:if:<inventory.countitem(gm2)>=1 <and> <Register.Registered(strengthobtained)>=False
+:if:<inventory.countitem(gm2)>=1 <and> <Register.Registered(strengthobtained)>=false
     @item.clearitem(gm2)
-    @Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_GiveAmulet)>)
+    @Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_GiveAmulet1)>)
+	@entity.setvisible(1,1)
+	@level.update
+	@Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_GiveAmulet2)>)
     @Item.Give(gm72,1)
     @Item.MessageGive(gm72,1)
     @Register.Register(strengthobtained)
 	:end
 :endif
 
-:if:<inventory.countitem(gm2)>=0 <and> <Register.Registered(strengthobtained)>=True
-    @Text.Show(<system.token(Hayward_StrengthHouse_StrengthMan_AfterGivenAmulet)>)
-:endif
 
 :end

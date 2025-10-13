@@ -4,7 +4,7 @@ version=2
 :endif
 :if:<Register.Registered(legendary)>=false
 	@Register.Register(Mew)
-	@Register.Register(MewTwo)
+	@Register.Register(Mewtwo)
 	
 	:select:<system.random(2,3)>
 	:when:2

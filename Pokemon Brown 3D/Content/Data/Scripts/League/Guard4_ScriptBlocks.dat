@@ -1,7 +1,7 @@
 version=2
 
 :if:<Register.Registered(guard4)>=False
-	@NPC.Turn(0,1)
+	@NPC.Turn(4,1)
 	@Player.TurnTo(3)
 	@Text.Show(<system.token(Route65_Guard4_Start)>)
 	
@@ -9,12 +9,10 @@ version=2
 		:if:<Register.Registered(guard4)>=False
 			@Sound.Play(Success_Small,1)
 			@Register.Register(guard4)
+			@entity.remove(5)
 		:endif
 		@Text.Show(<system.token(Route65_Guard4_HaveBadge)>)
-		
-	:endif
-	
-	:if:<Register.Registered(sparkybadge_obtain)>=False
+	:else
 		@Text.Show(<system.token(Route65_Guard4_NoBadge)>)
 		@player.turnto(2)
 		@player.move(1)

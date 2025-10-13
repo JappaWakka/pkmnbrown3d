@@ -14,5 +14,5 @@ version=2
 	@Register.Register(CaughtArticuno)
 :endif
 @register.unregister(Articuno)
-@level.reload
+@npc.remove(10)
 :end

@@ -6,12 +6,10 @@ version=2
 	:if:<Register.Registered(guard7)>=False
 		@Sound.Play(Success_Small,1)
 		@Register.Register(guard7)
+		@entity.remove(11)
 	:endif
 	@Text.Show(<system.token(Route65_Guard7_HaveBadge)>)
-	
-:endif
-
-:if:<Register.Registered(whitebadge_obtain)>=False
+:else
 	@Text.Show(<system.token(Route65_Guard7_NoBadge)>)
 :endif
 

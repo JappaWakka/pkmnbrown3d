@@ -8,16 +8,15 @@ version=2
 		:if:<Register.Registered(guard1)>=False
 			@Sound.Play(Success_Small,1)
 			@Register.Register(guard1)
+			@entity.remove(1)
 		:endif
 		@Text.Show(<system.token(Route65_Guard1_HaveBadge)>)
-		
-	:endif
-	
-	:if:<Register.Registered(marinebadge_obtain)>=False
+	:else
 		@Text.Show(<system.token(Route65_Guard1_NoBadge)>)
 		@player.turnto(2)
 		@player.move(1)
 	:endif
+
 :endif
 
 :end

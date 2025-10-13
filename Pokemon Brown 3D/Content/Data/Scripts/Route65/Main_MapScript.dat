@@ -1,0 +1,23 @@
+version=2
+:if:<Register.Registered(guard2)>=true
+	@entity.remove(1)
+:endif
+:if:<Register.Registered(guard3)>=true
+	@entity.remove(3)
+:endif
+:if:<Register.Registered(guard4)>=true
+	@entity.remove(5)
+:endif
+:if:<Register.Registered(guard5)>=true
+	@entity.remove(7)
+:endif
+:if:<Register.Registered(guard6)>=true
+	@entity.remove(9)
+:endif
+:if:<Register.Registered(guard7)>=true
+	@entity.remove(11)
+:endif
+:if:<Register.Registered(guard8)>=true
+	@entity.remove(13)
+:endif
+:end

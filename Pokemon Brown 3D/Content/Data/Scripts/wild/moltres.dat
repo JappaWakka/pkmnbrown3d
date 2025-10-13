@@ -13,5 +13,5 @@ version=2
 	@Register.Register(CaughtMoltres)
 :endif
 @register.unregister(Moltres)
-@level.reload
+@npc.remove(10)
 :end

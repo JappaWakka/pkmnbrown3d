@@ -13,5 +13,5 @@ version=2
 	@Register.Register(CaughtEntei)
 :endif
 @register.unregister(Entei)
-@level.reload
+@npc.remove(10)
 :end

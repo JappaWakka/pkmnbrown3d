@@ -1,7 +1,7 @@
 version=2
 
 :if:<Register.Registered(guard6)>=False
-	@NPC.Turn(0,3)
+	@NPC.Turn(8,3)
 	@Player.TurnTo(1)
 	@Text.Show(<system.token(Route65_Guard6_Start)>)
 	
@@ -9,12 +9,10 @@ version=2
 		:if:<Register.Registered(guard6)>=False
 			@Sound.Play(Success_Small,1)
 			@Register.Register(guard6)
+			@entity.remove(9)
 		:endif
 		@Text.Show(<system.token(Route65_Guard6_HaveBadge)>)
-		
-	:endif
-	
-	:if:<Register.Registered(psibadge_obtain)>=False
+	:else
 		@Text.Show(<system.token(Route65_Guard6_NoBadge)>)
 		@player.turnto(2)
 		@player.move(1)
