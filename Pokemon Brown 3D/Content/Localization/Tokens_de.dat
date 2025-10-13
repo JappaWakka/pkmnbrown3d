@@ -178,6 +178,8 @@ fieldmove_strength_used,used~Strength!
 fieldmove_surf_type0,Do you want to Surf?
 fieldmove_surf_type1,The water looks still~and deep.~Do you want to Surf?
 fieldmove_surf_type2,This lake is~calm and shallow.~Do you want to Surf?
+fieldmove_surf_cannotwhilebicycle,You cannot Surf while riding~a Bicycle!
+fieldmove_surf_cannotwhileride,You cannot Surf while riding~a Pokémon!
 fieldmove_surf_used,used~Surf!
 
 fieldmove_dive_down_1,The water seems to be~really deep at this point.
@@ -3633,7 +3635,7 @@ Generic_PokeMart_LockedCabinets,Several action figures can~be seen.*The tag on t
 Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
 Generic_Sign_PokeCenter,Heal your Pokémon!~Pokémon Center
 
-Generic_PC_NoInteract,You can't interact with the PC~at the moment.
+Generic_PC_NoInteract,You can't interact with the~PC while riding a Bicycle.
 Generic_PC_BootUp,<Player.Name> schaltet den PC ein...*Wähle einen Dienst, zu dem du~dich verbinden möchtest..
 Generic_PC_ChooseHost,Wähle einen Dienst, zu dem du~dich verbinden möchtest.
 Generic_PC_Host_StorageSystem,Bills PC
@@ -4311,7 +4313,7 @@ Route50_LassViolet_DefeatMessage,I come here to train~every day!
 Route49_BirdKeeperKyle_IntroMessage,Fearow...*Kill.
 Route49_BirdKeeperKyle_OutroMessage,Tch!
 Route49_BirdKeeperKyle_DefeatMessage,I'm sane, really!
-Route49_BirdKeeperRichard_IntroMessage,Kid, can you spare a bike?
+Route49_BirdKeeperRichard_IntroMessage,Kid, can you spare a Bicycle?
 Route49_BirdKeeperRichard_OutroMessage,Darn!
 Route49_BirdKeeperRichard_DefeatMessage,I really want to visit Johto!
 Route49_BirdKeeperDavid_IntroMessage,I can't stop collecting~flying Pokémon!
@@ -4337,7 +4339,7 @@ Route49_Gate_RhyhornTrade_CatchMethod,Received in a trade in the Gate on
 Route49_Gate_RhyhornTrade_CatchLocation,Route 49
 Route49_Gate_Binoculars_Left,Looked into the binoculars...*There are people swimming!
 Route49_Gate_Binoculars_Right,Looked into the binoculars...*There's Hayward City!
-Route49_Gate_Guard_NoBike,You need a bicycle for~Cycling Road!
+Route49_Gate_Guard_NoBike,You need a Bicycle for~Cycling Road!
 Route49_Gate_Guard_HaveBike,Rinjoh Veloway is all uphill~from here.
 
 [Owsauri City]
@@ -5577,7 +5579,7 @@ League_HallOfFame,Tim: Er-hem!~Congratulations, <Player.Name>!*Shall we put your
 Route48_Sign_GoingUphill,Old Route 48~Going uphill!
 Route48_Sign_CyclingRoad,Old Route 48~Rinjoh Veloway*Johto (Ilex Forest) -~Rijon (Bridge Road)
 Route48_Sign_RegionLimits,Old Route 48~Johto - Rijon border
-Route48_BikerDonovan_IntroMessage,What a lame bike!
+Route48_BikerDonovan_IntroMessage,What a lame Bicycle!
 Route48_BikerDonovan_OutroMessage,Are you satisfied?
 Route48_BikerDonovan_DefeatMessage,I don't like you!
 Route48_CueBallTevin_IntroMessage,Conformist!

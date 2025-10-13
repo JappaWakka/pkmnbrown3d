@@ -177,6 +177,8 @@ fieldmove_strength_used,gebruikte~Kracht!
 fieldmove_surf_type0,Wil je Surfen?
 fieldmove_surf_type1,Het water ziet er rustig en~diep uit.~Wil je Surfen?
 fieldmove_surf_type2,Dit meer is kalm en ondiep.~Wil je Surfen?
+fieldmove_surf_cannotwhilebike,Je kunt niet Surfen terwijl~je op een Fiets rijdt!
+fieldmove_surf_cannotwhileride,Je kunt niet Surfen terwijl~je op een Pokémon rijdt!
 fieldmove_surf_used,gebruikte~Surf!
 
 fieldmove_dive_down_1,Het water ziet er heel erg~diep uit op deze plek.
@@ -3460,7 +3462,7 @@ item_6_missingskin,Je kunt dit voorwerp niet~gebruiken zonder een fiets-~karakte
 item_6_only_custom_gamemodes,Dit voorwerp kan niet gebruikt~worden in deze SpelModus.
 
 [Official Items]
-item_use_6,<Player.Name> stapte~van de fiets af.
+item_use_6,<Player.Name> stapte~van de Fiets af.
 item_use_54,Jouw Munten:~
 item_use_658_disable,De Team-ervaringsdeler is~uitgezet.
 item_use_658_enable,De Team-ervaringsdeler is~aangezet.
@@ -4481,7 +4483,7 @@ Generic_PokeMart_LockedCabinets,Er zijn verschillende~actiefiguren te zien.*Op h
 Generic_Sign_PokeMart,Al uw voorwerpwensen vervuld!~Pokémon-Winkel
 Generic_Sign_PokeCenter,Genees je Pokémon!~Pokémon-Centrum
 
-Generic_PC_NoInteract,Je kunt op dit moment geen~gebruik maken van de PC.
+Generic_PC_NoInteract,Je kunt geen gebruik maken~van de PC terwijl je op een~Fiets rijdt.
 Generic_PC_BootUp,De PC aan het opstarten...*Kies een host om verbinding~mee te maken.
 Generic_PC_ChooseHost,Kies een host om verbinding~mee te maken.
 Generic_PC_Host_StorageSystem,Bill's PC
@@ -4869,7 +4871,7 @@ Merson_FanClub_Lady,Ik heb een betere baan nodig.
 Merson_FanClub_Chairman_Question,Ik ben voorzitter van de~Pokémon-Fanclub!*Ik heb meer dan 100 Pokémon~verzameld!*Ik ben erg kieskeurig als het~op Pokémon aankomt!*Dus...*Heb je een coole Pokémon~meegebracht?
 Merson_FanClub_Chairman_AnswerYes,Goed zo! Er is een speciale~actie die ik aanbied.*Breng een Pokémon mee en je~krijgt een gratis waardebon~voor een Fiets!*En het lijkt erop dat je er~een hebt, dus alsjeblieft!
 Merson_FanClub_Chairman_AnswerNo,Weet je het zeker?~Want er is een speciale actie~die ik aanbied.*Breng een Pokémon mee en je~krijgt een gratis waardebon~voor een Fiets!*En het lijkt erop dat je er~een hebt, dus alsjeblieft!
-Merson_FanClub_Chairman_AfterVoucher,Hallo, <Player.Name>!*Ik wens je veel plezier met~die fiets!
+Merson_FanClub_Chairman_AfterVoucher,Hallo, <Player.Name>!*Ik wens je veel plezier met~die Fiets!
 Merson_FanClub_ReceiveVoucher,<Player.Name> ontving een~Fiets-waardebon!*Ruil die in voor een Fiets!
 
 Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!
@@ -5161,7 +5163,7 @@ Route50_LassViolet_DefeatMessage,Ik kom hier elke dag trainen!
 Route49_BirdKeeperKyle_IntroMessage,Fearow...*Dood.
 Route49_BirdKeeperKyle_OutroMessage,Tch!
 Route49_BirdKeeperKyle_DefeatMessage,Ik ben geestelijk gezond,~echt waar!
-Route49_BirdKeeperRichard_IntroMessage,Hé jij, kun je een fiets missen?
+Route49_BirdKeeperRichard_IntroMessage,Hé jij, kun je een Fiets missen?
 Route49_BirdKeeperRichard_OutroMessage,Verdorie!
 Route49_BirdKeeperRichard_DefeatMessage,Ik wil Johto heel graag~bezoeken!
 Route49_BirdKeeperDavid_IntroMessage,Ik kan niet stoppen met~het verzamelen van~vliegende Pokémon!
@@ -5187,7 +5189,7 @@ Route49_Gate_RhyhornTrade_CatchMethod,Ontvangen in een ruil in de Poort op
 Route49_Gate_RhyhornTrade_CatchLocation,Route 49
 Route49_Gate_Binoculars_Left,<Player.Name> keek door de~verrekijker...*Daar zwemmen wat mensen!
 Route49_Gate_Binoculars_Right,<Player.Name> keek door de~verrekijker...*Daar is Haagwachterstad!
-Route49_Gate_Guard_NoBike,Je hebt een fiets nodig voor~het Fietspad!
+Route49_Gate_Guard_NoBike,Je hebt een Fiets nodig voor~het Fietspad!
 Route49_Gate_Guard_HaveBike,Rinjoh Fietspad is vanaf hier~alleen maar bergopwaarts.
 
 [Owsauri City]
@@ -6427,7 +6429,7 @@ League_HallOfFame,Tim: Er-hem!~Congratulations, <Player.Name>!*Shall we put your
 Route48_Sign_GoingUphill,Old Route 48~Going uphill!
 Route48_Sign_CyclingRoad,Old Route 48~Rinjoh Veloway*Johto (Ilex Forest) -~Rijon (Bridge Road)
 Route48_Sign_RegionLimits,Old Route 48~Johto - Rijon border
-Route48_BikerDonovan_IntroMessage,What a lame bike!
+Route48_BikerDonovan_IntroMessage,What a lame Bicycle!
 Route48_BikerDonovan_OutroMessage,Are you satisfied?
 Route48_BikerDonovan_DefeatMessage,I don't like you!
 Route48_CueBallTevin_IntroMessage,Conformist!
