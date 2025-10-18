@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<register.registered(moraga_blackboard)>=false
 	@Text.Show(<system.token(Moraga_HighSchoolAcademy_Blackboard_Intro)>)
 	@Register.Register(moraga_blackboard)

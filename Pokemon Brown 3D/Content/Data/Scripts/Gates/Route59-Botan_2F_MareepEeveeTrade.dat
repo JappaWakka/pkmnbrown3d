@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(EeveeTrade)>=false
 	@Text.Show(<system.token(Route59_Botan_Gate_2F_EeveeTrade_Question)>)

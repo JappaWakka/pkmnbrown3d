@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(redorb)>=False
 	@Text.Show(<system.token(Botan_Cave_KarmaMiner_BeforeTalking)>)

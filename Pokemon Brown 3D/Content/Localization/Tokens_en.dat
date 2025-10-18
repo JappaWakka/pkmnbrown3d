@@ -1,4 +1,4 @@
-language_name,English
+﻿language_name,English
 =====
 Global:
 global_please_wait,Please wait
@@ -124,8 +124,8 @@ property_Accuracy,Accuracy
 ---
 Summary Screen:
 
-summary_hint_ViewMoves,View Moves: [<system.button(movebackward)>]/[↓] Down
-summary_hint_ViewInfo,View Info: [<system.button(moveforward)>]/[↑] Up
+summary_hint_ViewMoves,View Moves: [<system.button(movebackward)>]/[🡣] Down
+summary_hint_ViewInfo,View Info: [<system.button(moveforward)>]/[🡡] Up
 summary_EVsIVs,EVs (white) / IVs (blue)
 summary_ExpToNextLv,To Next Lv.
 summary_TheEggWatch,The Egg Watch
@@ -820,7 +820,7 @@ pokemon_name_Sandslash,Sandslash
 pokemon_name_Nidoran♀,Nidoran♀
 pokemon_name_Nidorina,Nidorina
 pokemon_name_Nidoqueen,Nidoqueen
-pokemon_name_Nidoran♂,Nidoran♂
+pokemon_name_Nidoran♂¡,Nidoran♂¡
 pokemon_name_Nidorino,Nidorino
 pokemon_name_Nidoking,Nidoking
 pokemon_name_Clefairy,Clefairy
@@ -1730,7 +1730,7 @@ pokemon_desc_Sandslash,Curls up into a spiny ball when threatened. It can roll w
 pokemon_desc_Nidoran♀,Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.
 pokemon_desc_Nidorina,The female's horn develops slowly. Prefers physical attacks such as clawing and biting.
 pokemon_desc_Nidoqueen,Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.
-pokemon_desc_Nidoran♂,Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.
+pokemon_desc_Nidoran♂¡,Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.
 pokemon_desc_Nidorino,An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.
 pokemon_desc_Nidoking,It uses its powerful tail in battle to smash, constrict, then break the prey's bones.
 pokemon_desc_Clefairy,Its magical and cute appeal has many admirers. It is rare and found only in certain areas.
@@ -1962,7 +1962,7 @@ pokemon_species_Sandslash,Mouse Pokémon
 pokemon_species_Nidoran♀,Poison Pin Pokémon
 pokemon_species_Nidorina,Poison Pin Pokémon
 pokemon_species_Nidoqueen,Drill Pokémon
-pokemon_species_Nidoran♂,Poison Pin Pokémon
+pokemon_species_Nidoran♂¡,Poison Pin Pokémon
 pokemon_species_Nidorino,Poison Pin Pokémon
 pokemon_species_Nidoking,Drill Pokémon
 pokemon_species_Clefairy,Fairy Pokémon
@@ -3774,7 +3774,7 @@ move_desc_10,Hard, pointed, and sharp claws rake the target to inflict damage.
 move_desc_11,The target is gripped and squeezed from both sides to inflict damage.
 move_desc_12,A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.
 move_desc_13,A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.
-move_desc_14,A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.
+move_desc_14,A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.
 move_desc_15,The target is cut with a scythe or a claw. It can also be used to cut down thin trees.
 move_desc_16,A gust of wind is whipped up by wings and launched at the target to inflict damage.
 move_desc_17,The target is struck with large, imposing wings spread wide to inflict damage.
@@ -3803,7 +3803,7 @@ move_desc_39,The user wags its tail cutely, making opposing Pokémon less wary a
 move_desc_40,The user stabs the target with a poisonous stinger. This may also poison the target.
 move_desc_41,The user damages the target twice in succession by jabbing it with two spikes. It may also poison the target.
 move_desc_42,Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.
-move_desc_43,The user gains an intimidating leer with sharp eyes. The opposing team’s Defense stats are reduced.
+move_desc_43,The user gains an intimidating leer with sharp eyes. The opposing team's Defense stats are reduced.
 move_desc_44,The target is bitten with viciously sharp fangs. It may make the target flinch.
 move_desc_45,The user growls in an endearing way, making the opposing team less wary. The foes' Attack stats are lowered.
 move_desc_46,The target is scared off and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.
@@ -3916,7 +3916,7 @@ move_desc_152,The target is hammered with a large pincer. Critical hits land mor
 move_desc_153,The user explodes to inflict damage on those around it. The user faints upon using this move.
 move_desc_154,The target is raked with sharp claws or scythes for two to five times in quick succession.
 move_desc_155,The user throws the bone it holds. The bone loops to hit the target twice, coming and going.
-move_desc_156,The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.
+move_desc_156,The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.
 move_desc_157,Large boulders are hurled at the opposing team to inflict damage. They may also make the targets flinch.
 move_desc_158,The user bites hard on the target with its sharp front fangs. It may also make the target flinch.
 move_desc_159,The user reduces its polygon count to make itself more jagged, raising the Attack stat.
@@ -3924,7 +3924,7 @@ move_desc_160,The user changes its type to become the same type as the move at t
 move_desc_161,The user strikes with a simultaneous three-beam attack. May also burn, freeze, or leave the target with paralysis.
 move_desc_162,The user chomps hard on the target with its sharp front fangs. It cuts the target's HP to half.
 move_desc_163,The target is attacked with a slash of claws or blades. Critical hits land more easily.
-move_desc_164,The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.
+move_desc_164,The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.
 move_desc_165,An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.
 move_desc_167,A consecutive three-kick attack that becomes more powerful with each successive hit.
 move_desc_172,The user cloaks itself in fire and charges at the target. It may also leave the target with a burn.
@@ -4426,7 +4426,7 @@ TrainerClass_Burglar,Burglar
 TrainerClass_Champion,Champion
 TrainerClass_Channeler,Channeler
 TrainerClass_CoolTrainer_Female,Cool Trainer♀
-TrainerClass_CoolTrainer_Male,Cool Trainer♂
+TrainerClass_CoolTrainer_Male,Cool Trainer♂¡
 TrainerClass_CueBall,Cue Ball
 TrainerClass_Developer,Developer
 TrainerClass_EliteFour,Elite Four
@@ -4438,7 +4438,7 @@ TrainerClass_Gentleman,Gentleman
 TrainerClass_GymLeader,Gym Leader
 TrainerClass_Hiker,Hiker
 TrainerClass_JrTrainer_Female,Jr. Trainer♀
-TrainerClass_JrTrainer_Male,Jr. Trainer♂
+TrainerClass_JrTrainer_Male,Jr. Trainer♂¡
 TrainerClass_Juggler,Juggler
 TrainerClass_Lass,Lass
 TrainerClass_Lifeguard,Lifeguard
@@ -4453,7 +4453,7 @@ TrainerClass_RocketLeader,Rocket Leader
 TrainerClass_Sailor,Sailor
 TrainerClass_Scientist,Scientist
 TrainerClass_SuperNerd,Super Nerd
-TrainerClass_Swimmer_Male,Swimmer♂
+TrainerClass_Swimmer_Male,Swimmer♂¡
 TrainerClass_Swimmer_Female,Swimmer♀
 TrainerClass_Tamer,Tamer
 TrainerClass_Telekinetic,Telekinetic
@@ -4553,7 +4553,7 @@ FollowerInteraction_Blackboard,<name> stares intently~at the blackboard, but doe
 
 FollowerInteraction_HauntedForest1,A strange sound is coming~from <name>!
 FollowerInteraction_HauntedForest2,<name> started spinning~around in circles.
-FollowerInteraction_HauntedForest3,<name> isn’t moving.
+FollowerInteraction_HauntedForest3,<name> isn't moving.
 FollowerInteraction_HauntedForest4,<name> looks very~interested.
 FollowerInteraction_HauntedForest5,<name> is staring~intently at nothing.
 FollowerInteraction_HauntedForest6,<name> is having~fun swaying back and forth.
@@ -4668,7 +4668,7 @@ Seashore_PlayerHouse1F_Mom_AfterFinalDungeon,<Player.Name>! So my child is~Rijon
 Seashore_PlayerHouse1F_Mom_AfterRematch,<Player.Name>! So my child is~Rijon's Champion?~What are you going to do now?*There's that "Champions only"~building in Hayward, you could~go check that out!*In any case, why don't you~take a quick rest before~continuing your adventure?
 
 Seashore_PlayerHouse2F_GameCube,<Player.Name> is playing the~Nintendo GameCube!*...Okay!~It's time to go!
-Seashore_PlayerHouse2F_GameCube_Game_Step1_Question,<Player.Name> is playing a new~game on the Nintendo GameCube!*Let's create a new character.~What class should they be?
+Seashore_PlayerHouse2F_GameCube_Game_Step1_Question,<Player.Name> is playing a new~game on the Nintendo~GameCube!*Let's create a new character.~What class should they be?
 Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Fighter,Fighter
 Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Wizard,Wizard
 Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Random,Random
@@ -5065,10 +5065,10 @@ Hayward_FossilLab_LaprasTrade_CatchLocation,Hayward Fossil Lab
 Hayward_FossilLab_FossilReviver_Question,Hey there!*I love to study fossils.*Do you have one I can revive~with this machine?
 Hayward_FossilLab_FossilReviver_NoFossil,No?*GET OUT!
 Hayward_FossilLab_FossilReviver_Answer_No,Don't waste my time then!~Come back when you do!
-Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! That is a Helix Fossil!~It's a fossil of Omanyte,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! That is a Dome Fossil!~It's a fossil of Kabuto,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! That is a Skull Fossil!~It's a fossil of Cranidos,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_OldAmber,Oh! That is an Old Amber!~It's a fossil of Aerodactyl,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! That is a Helix Fossil!~It's a fossil of Omanyte,~a Pokemon that is already extinct!*I'll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! That is a Dome Fossil!~It's a fossil of Kabuto,~a Pokemon that is already extinct!*I'll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! That is a Skull Fossil!~It's a fossil of Cranidos,~a Pokemon that is already extinct!*I'll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_OldAmber,Oh! That is an Old Amber!~It's a fossil of Aerodactyl,~a Pokemon that is already extinct!*I'll revive it for you, you up for it?
 Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Well? Hurry up and give~me that!*<Player.Name> handed over the~Helix Fossil!*Walk around Eagulou and come~back, then I can finish!
 Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Well? Hurry up and give~me that!*<Player.Name> handed over the~Dome Fossil!*Walk around Eagulou and come~back, then I can finish!
 Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me that!*<Player.Name> handed over the~Skull Fossil!*Walk around Eagulou and come~back, then I can finish!
@@ -5347,7 +5347,7 @@ Owsauri_Casino_B1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
 Owsauri_Gym_Statues_BeforeDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura
 Owsauri_Gym_Statues_AfterDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura~<Player.Name>
-Owsauri_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in~making! Here’s my advice!*The Leader, Lily loves to use~Ice Pokémon.*If you have Fire or Rock~Pokémon, her Pokémon won’t~stand a chance!
+Owsauri_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in~making! Here's my advice!*The Leader, Lily loves to use~Ice Pokémon.*If you have Fire or Rock~Pokémon, her Pokémon won't~stand a chance!
 Owsauri_Gym_GymGuy_AfterBadge,Gym Guy: Lily was defeated?*Hopefully you were 'ice about~it! I am too funny!
 Owsauri_Gym_SwimmerMaleEd_IntroMessage,Splash!*Ready for an ice fight?
 Owsauri_Gym_SwimmerMaleEd_OutroMessage,That can't be!
@@ -5591,7 +5591,7 @@ Jaeru_BikeShop_BikeSalesMan_Option_Bicycle,Bicycle    $1000000
 Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_NotEnoughMoney,Sorry! You can't afford it!*Come back again some time!
 Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_HaveEnoughMoney,OK! Here you go!
 Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Come back again some time!
-Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that’s... A Bike Voucher!~OK! Here you go!
+Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that's... A Bike Voucher!~OK! Here you go!
 Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> exchanged the~Bike Voucher for a Bicycle.
 Jaeru_BikeShop_BikeInPocket,<Player.Name> stored it in the~№Key Items pocket.
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new~Bicycle?*You can take it on Rinjoh~Veloway and in caves!

@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(PrismKey)>=true
 	@Text.Show(<system.token(Moraga_PrismMuseum_Owner_HavePrismKey)>)

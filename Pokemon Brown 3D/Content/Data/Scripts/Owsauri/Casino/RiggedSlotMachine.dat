@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<Register.Registered(Bunker_NoteBook)>=true
 	:if:<Register.Registered(Owsauri_DailyCoins)>=false
 		@Storage.Set(int,FreeCoinAmount,<system.random(200,700)>)

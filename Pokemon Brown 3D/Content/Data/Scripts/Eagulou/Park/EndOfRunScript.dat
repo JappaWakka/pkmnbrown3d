@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 @sound.play(EagulouParkBell)
 @Text.Show(<system.token(Eagulou_Park_TimeIsUp)>)
 @screen.fadeout(15)

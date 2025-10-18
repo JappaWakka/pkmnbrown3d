@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(coincase)>=false
 	@Text.Show(<system.token(Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking)>)

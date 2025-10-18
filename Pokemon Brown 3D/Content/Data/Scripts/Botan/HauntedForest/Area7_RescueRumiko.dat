@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(MrRumikoRescued)>=false
 	@Text.Show(<system.token(Botan_HauntedForest_Area7_MrRumiko)>)

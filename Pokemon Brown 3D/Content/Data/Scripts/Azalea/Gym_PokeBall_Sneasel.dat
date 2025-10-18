@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<Register.Registered(azalea_gym_pokemongot)>=False
 	@screen.showpokemon(215,0,1)
 	@Text.Show(<system.token(Azalea_Gym_Choose_Sneasel)>)

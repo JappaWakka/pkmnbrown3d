@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<Register.Registered(guard1)>=true
 	@entity.remove(1)
 :endif

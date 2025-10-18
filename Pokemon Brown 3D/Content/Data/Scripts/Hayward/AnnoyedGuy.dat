@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 @storage.set(boolean,HaveOrb,0)
 
 :if:<inventory.countitem(gm3)>=1 <or> <inventory.countitem(gm4)>=1 <or> <inventory.countitem(gm5)>=1

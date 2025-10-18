@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<inventory.countitem(gm2)>=0
 	:if:<Register.Registered(strengthobtained)>=false

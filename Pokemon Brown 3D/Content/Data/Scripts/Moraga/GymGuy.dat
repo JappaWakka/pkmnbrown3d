@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(sproutbadge_obtain)>=False
 	@Text.Show(<system.token(Moraga_Gym_GymGuy_BeforeBadge)>)

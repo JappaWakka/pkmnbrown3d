@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Value(MoltresEnteiShiny)>=true
 	@Text.Show(<system.token(30YearsCave_Entei)>)

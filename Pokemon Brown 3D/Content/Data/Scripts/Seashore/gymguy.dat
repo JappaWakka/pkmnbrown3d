@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(psibadge_obtain)>=False
 @Text.Show(Gym Guy: Yo! Champ in making!*Sheral is a Psychic master,~and likes to confuse people who~want to face her, like you!*Can't you tell?*It's similiar, but different...)

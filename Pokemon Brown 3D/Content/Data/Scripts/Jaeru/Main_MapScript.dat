@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Level.LoadOffsetMaps>=true
 	:if:<Register.Registered(Snorlax_Route61_Shiny)>=False

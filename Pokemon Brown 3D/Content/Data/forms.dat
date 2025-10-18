@@ -1,4 +1,4 @@
-# {DexNumber|AdditionalValue|InPartyFormTriggers|FormNamePrefix|FormNameSuffix|DataFileSuffix|MenuIconFile,X_Coordinate,Y_Coordinate|FrontBackSpriteFileSuffix|OverworldSpriteFileSuffix|CryFileSuffix|WildFormTriggers|TypeChange|IncludeBaseFormInDexCount}
+﻿# {DexNumber|AdditionalValue|InPartyFormTriggers|FormNamePrefix|FormNameSuffix|DataFileSuffix|MenuIconFile,X_Coordinate,Y_Coordinate|FrontBackSpriteFileSuffix|OverworldSpriteFileSuffix|CryFileSuffix|WildFormTriggers|TypeChange|IncludeBaseFormInDexCount}
 # "InPartyFormTriggers" can take one or an array of the following value types (separated by commas): Gender;GenderID / Season;SeasonID / Environment;EnvironmentType1;EnvironmentType2 (etc.) / Item;ItemID
 # "WildFormTriggers" can take one or an array of the following value types (separated by commas): Random;String1;String2 (etc.) / Random;MinValue-MaxValue / Gender;GenderID / Season;SeasonID / Environment;EnvironmentType1;EnvironmentType2 (etc.)
 {110|galar||Galarian ||_galar|Regional,6,2|_galar|_galar|_galar|||}

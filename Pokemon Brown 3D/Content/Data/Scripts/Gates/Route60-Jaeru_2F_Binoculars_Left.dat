@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 @Text.Show(<system.token(Route60_Jaeru_Gate_Binoculars_Left_Intro)>)
 :if:<Register.Registered(Articuno)>=true
 	@Text.Show(<system.token(Route60_Jaeru_Gate_Binoculars_Left_Flying)>)

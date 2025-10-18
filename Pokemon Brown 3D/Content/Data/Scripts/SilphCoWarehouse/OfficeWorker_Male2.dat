@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(BeatGiovanni)>=False
 	@Text.Show(<system.token(Route59_SilphCoWarehouse_3F_OfficerWorker_Male2_BeforeDefeatGiovanni)>)

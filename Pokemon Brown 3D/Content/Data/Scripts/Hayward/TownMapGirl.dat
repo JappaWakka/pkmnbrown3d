@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(TownMap)>=false
 	@Text.Show(<system.token(Hayward_TownMapHouse_TownMapGirl_BeforeGive)>)

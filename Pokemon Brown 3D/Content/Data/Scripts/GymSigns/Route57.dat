@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(whitebadge_obtain)>=true
 	@Text.Show(<system.token(Route57_Gym_Statue_AfterDefeat)>)

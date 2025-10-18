@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(surfobtained)>=False
     @Text.Show(<system.token(Route61_SurfHouse_SurfMan_BeforeTalking)>)

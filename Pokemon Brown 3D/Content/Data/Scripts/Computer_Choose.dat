@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<Register.Registered(pokemongot)>=true
 	@storage.set(int,canind,2)
 	@storage.set(str,computer_options,<system.token(Generic_PC_Host_StorageSystem)>,<system.token(Generic_PC_Host_Mailbox)>)

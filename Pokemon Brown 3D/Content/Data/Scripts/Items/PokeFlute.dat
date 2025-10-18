@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<level.mapfile>=Routes\61\Main.dat
 	:if:<player.position>=16,0,37 <or> <player.position>=18,0,37
 		@script.start(Route61\Snorlax)

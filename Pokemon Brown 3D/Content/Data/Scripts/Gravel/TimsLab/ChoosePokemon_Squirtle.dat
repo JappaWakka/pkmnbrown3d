@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<Register.Registered(pokemongot)>=false
 	@screen.showpokemon(7,<register.value(Shiny_Starter_Squirtle)>,1)
 	@Text.Show(<system.token(Gravel_TimsLab_Choose_Squirtle)>)

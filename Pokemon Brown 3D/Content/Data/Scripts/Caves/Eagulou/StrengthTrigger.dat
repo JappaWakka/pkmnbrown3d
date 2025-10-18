@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Register(EagulouCave_StrengthPuzzle)>=false
 	@Sound.Play(SwitchDoor)

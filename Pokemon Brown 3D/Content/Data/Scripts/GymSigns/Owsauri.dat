@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(hailbadge_obtain)>=true
 	@Text.Show(<system.token(Owsauri_Gym_Statues_AfterDefeat)>)

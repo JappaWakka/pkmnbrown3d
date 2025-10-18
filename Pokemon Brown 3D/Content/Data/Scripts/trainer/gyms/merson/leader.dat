@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(marinebadge_obtain)>=False
 	@Text.Show(<system.token(Merson_Gym_LeaderKarpman_BeforeBattle)>)

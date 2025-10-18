@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<Register.Registered(mettim)>=false
 	@npc.spawn(8,0,4,1,,Tim,0,0,Tim,3,Still)
 :else

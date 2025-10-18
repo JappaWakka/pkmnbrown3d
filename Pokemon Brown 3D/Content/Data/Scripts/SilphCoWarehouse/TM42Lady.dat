@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(tm42)>=false
 	@Text.Show(<system.token(Route59_SilphCoWarehouse_2F_TM42Lady_BeforeTalking)>)

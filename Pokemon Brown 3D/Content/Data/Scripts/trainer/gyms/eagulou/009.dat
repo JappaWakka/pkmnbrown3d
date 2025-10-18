@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 @Battle.StartTrainer(Gyms\eagulou\009)
 :if:<Register.Registered(trainer_Gyms\eagulou\009)>=false
 	@Text.Show(<System.Token(Eagulou_Gym_PaletteBlack_AfterBattle)>)

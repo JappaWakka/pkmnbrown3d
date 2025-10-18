@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(strengthobtained)>=True
 	@entity.setvisible(1,1)

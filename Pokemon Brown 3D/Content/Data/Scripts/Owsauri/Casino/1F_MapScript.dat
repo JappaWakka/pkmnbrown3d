@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<Register.Registered(Bunker_NoteBook)>=true
 	@Entity.Warp(11,~,0,~)
 	@Entity.Warp(12,~,-2.5,~)

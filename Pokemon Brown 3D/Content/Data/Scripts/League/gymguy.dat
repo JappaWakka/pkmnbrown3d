@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(champtitle_obtain)>=False
 	@Text.Show(<system.token(League_EntranceHall_GymGuy_BeforeChampion)>)

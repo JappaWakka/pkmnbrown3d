@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<Register.Registered(GameCorner1F_Gentleman_Purple)>=false
 	@Text.Show(<system.token(Owsauri_Casino_1F_Gentleman_Purple_1)>)
 	:if:<inventory.countitem(54)>=1

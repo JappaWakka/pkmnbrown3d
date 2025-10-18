@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<player.position(x)>=7
 	@npc.turn(0,2)
 	@text.show(<System.Token(Moraga_NationsBurgers_Chef)>)

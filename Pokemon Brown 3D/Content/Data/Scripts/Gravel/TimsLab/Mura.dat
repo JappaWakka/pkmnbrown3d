@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(mura1)>=true
 	@Text.Show(<system.token(Gravel_TimsLab_Mura_HurryUp)>)

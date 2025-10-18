@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<Register.Registered(IslandBlockTrees)>=true
 	@entity.remove(4)
 :endif

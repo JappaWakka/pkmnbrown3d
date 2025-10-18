@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(FanClubGirl)>=False
     @Text.Show(<system.token(Merson_FanClub_Girl_1)>)

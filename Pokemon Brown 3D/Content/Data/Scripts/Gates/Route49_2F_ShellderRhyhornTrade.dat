@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(rhyhorntrade)>=false
 @Text.Show(<system.token(Route49_Gate_RhyhornTrade_Question)>)

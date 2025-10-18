@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<Register.Registered(pokemongot)>=False
 	@screen.showpokemon(1,<register.value(Shiny_Starter_Bulbasaur)>,1)
 	@Text.Show(<system.token(Gravel_TimsLab_Choose_Bulbasaur)>)

@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 @storage.set(boolean,HaveFossil,0)
 
 :if:<Register.Registered(FossilRevive_Helix)>=true <or> <Register.Registered(FossilRevive_Dome)>=true <or> <Register.Registered(FossilRevive_Skull)>=true <or> <Register.Registered(FossilRevive_OldAmber)>=true

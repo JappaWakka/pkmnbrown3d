@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(fistbadge_obtain)>=False
 	:if:<player.facing>=2

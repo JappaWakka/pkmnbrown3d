@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<player.position(x)><20
 	:if:<player.ismoving>=true <or> <player.position(z)>>22 <or> <player.position(x)>>18
 		@Storage.Set(bool,MoveForward,1)

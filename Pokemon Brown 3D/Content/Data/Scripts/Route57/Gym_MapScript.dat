@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(quiz0)>=True
 	@entity.remove(0)

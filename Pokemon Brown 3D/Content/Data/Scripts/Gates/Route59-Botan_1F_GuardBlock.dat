@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<inventory.countitem(gm7)><1
 	@Text.Show(<system.token(Route59_Botan_Gate_1F_Guard_NoBeer_Wait)>)

@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(pokedex)>=False
 	@Text.Show(<system.token(Gravel_PokeMain_Clerk_NoDelivery)>)

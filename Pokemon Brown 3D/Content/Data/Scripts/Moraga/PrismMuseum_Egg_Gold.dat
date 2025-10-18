@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(Egg_Gold)>=true
 	@Text.Show(<System.Token(Morage_PrismMuseum_GoldEgg_Found)>)

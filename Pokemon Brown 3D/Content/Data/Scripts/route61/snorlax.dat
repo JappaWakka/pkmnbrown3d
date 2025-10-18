@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<inventory.countitem(gm9)>>0
 	@Text.Show(<system.token(Item_Use_PokeFlute)>)

@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(MainBuilding_1F_Security)>=True
 	@entity.remove(5)

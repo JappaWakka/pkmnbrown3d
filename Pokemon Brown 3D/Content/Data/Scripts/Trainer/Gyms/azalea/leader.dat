@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<System.ScriptTrigger>=ScriptBlockWalkOn
 	@NPC.Turn(4,1)
 	@Player.TurnTo(3)

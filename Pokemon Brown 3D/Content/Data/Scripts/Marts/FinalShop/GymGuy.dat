@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 @Text.Show(<system.token(FinalDungeon_FinalShop_GymGuy_Question)>)
 @options.show(<system.token(Generic_PokeMart_Store)>,<system.token(Generic_PokeMart_Quit)>)
 	:when:<system.token(Generic_PokeMart_Store)>

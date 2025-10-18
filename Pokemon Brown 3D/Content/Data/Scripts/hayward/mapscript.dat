@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(haywardtrouble)>=true
 	@npc.warp(5,23,0,11)

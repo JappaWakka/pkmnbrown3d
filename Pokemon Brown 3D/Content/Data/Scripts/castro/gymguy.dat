@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 
 :if:<Register.Registered(fistbadge_obtain)>=False
 	@Text.Show(<system.token(Castro_Gym_GymGuy_BeforeBadge)>)

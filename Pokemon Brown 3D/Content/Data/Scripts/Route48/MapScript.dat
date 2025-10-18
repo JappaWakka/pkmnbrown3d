@@ -1,4 +1,4 @@
-version=2
+﻿version=2
 :if:<player.ismoving>=true
 	@Storage.Set(bool,MoveForward,1)
 	@Player.StopMovement
