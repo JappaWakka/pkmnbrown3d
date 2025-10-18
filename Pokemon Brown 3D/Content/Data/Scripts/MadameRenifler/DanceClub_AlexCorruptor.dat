@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(AlexMissing)>=true
 	@Text.Show(<system.token(MadameRenifler_DanceClub_JappaWakka)>)

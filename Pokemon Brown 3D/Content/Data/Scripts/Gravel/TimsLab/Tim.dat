@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(tim1)>=true
 	@Text.Show(<system.token(Gravel_TimsLab_Tim_ChoosePokemon)>)

@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Player.Facing>=0
 	@Player.Warp(Routes\Bunker.dat,18,0.1,12,2)

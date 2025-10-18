@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(EliteFourLoreGuy_Intro)>=false
 	@Text.Show(<system.token(League_EntranceHall_EliteFourLoreGuy_Intro)>*<system.token(League_EntranceHall_EliteFourLoreGuy_Question)>)
 	@Register.Register(EliteFourLoreGuy_Intro)

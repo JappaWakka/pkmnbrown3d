@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(AlexMissing)>=false
 	@NPC.Spawn(5,0,10,1,Gravel\TimsLab\JappaWakka,JappaWakka,0,0,JappaWakka,11,Looking)
 	@Text.Show(<system.token(Gravel_TimsLab_AlexMissing1)>)

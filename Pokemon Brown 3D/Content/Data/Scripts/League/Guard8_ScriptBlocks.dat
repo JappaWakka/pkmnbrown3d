@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(guard8)>=False
 	@NPC.Turn(10,1)

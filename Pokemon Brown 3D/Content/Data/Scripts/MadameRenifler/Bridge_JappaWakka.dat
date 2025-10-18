@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(AlexCorruptor_StoryComplete)>=false
 	:if:<Register.Registered(JappaWakka_FirstTalk)>=false
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_FirstTalk1)>)

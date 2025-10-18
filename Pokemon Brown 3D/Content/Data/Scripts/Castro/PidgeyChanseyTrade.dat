@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(chanseytrade)>=false
 	@Text.Show(<system.token(Castro_TradeHouse_ChanseyTrade_Question)>)

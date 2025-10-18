@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 @NPC.Turn(0,0)
 @Text.Show(<system.token(IlexForest_AlexFound1)>)
 @NPC.Turn(0,<player.facing>-2)

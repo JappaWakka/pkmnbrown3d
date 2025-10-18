@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(BlackboardStart)>=false
 	@Text.Show(<system.token(Route55_RainbowTower_Floor4_Room_Blackboard_Question1)>*<system.token(Route55_RainbowTower_Floor4_Room_Blackboard_Question2)>)
 	@Register.Register(BlackboardStart)

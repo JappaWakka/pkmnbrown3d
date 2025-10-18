@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 @text.notification(<system.token(MadameRenifler_Hall_Music_Path)>,400,4,4,,,0,1)
 :if:<Register.Registered(DecorationItem_SniffCat)>=true
 	@Entity.SetVisible(1,1)

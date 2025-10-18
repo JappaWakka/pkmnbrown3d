@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(HealPlatform)>=true
 	@Register.UnRegister(HealPlatform)

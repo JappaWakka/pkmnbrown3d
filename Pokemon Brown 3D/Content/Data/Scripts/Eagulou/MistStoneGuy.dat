@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<inventory.countitem(gm10)>=0
     @Text.Show(<system.token(Eagulou_Main_MistStoneGuy_NoMistStone)>)

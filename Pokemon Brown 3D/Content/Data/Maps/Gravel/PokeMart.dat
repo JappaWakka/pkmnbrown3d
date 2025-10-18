@@ -1,4 +1,4 @@
-﻿{"Level"{LEV[{"Name"{str[Pokémon Mart]}}{"MusicLoop"{str[PokeMart]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Level"{LEV[{"Name"{str[Pokémon Mart]}}{"MusicLoop"{str[PokeMart]}}{"CurrentRegion"{str[Rijon]}}]}}
 {"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[Gravel\Mart_PizzaDelivery]}}]}}
 
 {"Structure"{STR[{"Map"{str[Structures\PokeMart_Interior]}}{"AddNPC"{bool[1]}}{"Offset"{sngArr[0,0,0]}}]}}

@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(friendlygrunt)>=false	
 	@Text.Show(<system.token(Route51_ExGruntGreg_BeforeBattle_1)>)
 	@Item.Give(36,1)

@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(SecretCaveWarp)>=false
 	:if:<Register.Registered(MtBoulderShortcut)>=true

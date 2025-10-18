@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(BeatGiovanni)>=True
 	@npc.spawn(3,0.155,1,0,...,OfficeWorker_Female,0,2,Receptionist,0,Still)

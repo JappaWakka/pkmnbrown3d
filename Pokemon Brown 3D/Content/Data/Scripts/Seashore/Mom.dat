@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(gotpokemon)>=False
 	@Text.Show(<system.token(Seashore_PlayerHouse1F_Mom_LookForTim)>)

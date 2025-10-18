@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(mettim)>=False
 	@player.stopmovement(0)
 	@player.setspeed(1)

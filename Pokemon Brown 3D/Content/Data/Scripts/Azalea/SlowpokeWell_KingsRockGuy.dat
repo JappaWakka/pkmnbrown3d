@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(SlowpokeWell_KingsRock)>=false
 	@Text.Show(<system.token(Azalea_SlowpokeWell_B1F_KingsRockGuy_BeforeReceive)>)

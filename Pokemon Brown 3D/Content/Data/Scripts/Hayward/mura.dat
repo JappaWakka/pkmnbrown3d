@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(murahaywardbattle)>=false
 	:if:<player.position>=21,0,7

@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(psibadge_obtain)>=true
 	@Text.Show(<system.token(Seashore_Gym_Sign_AfterDefeat)>)

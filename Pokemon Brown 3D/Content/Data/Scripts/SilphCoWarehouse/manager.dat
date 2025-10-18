@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(ShinyStone)>=false
 	@Text.Show(<system.token(Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking)>)

@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(tyroguetrade)>=false
 @Text.Show(<system.token(Botan_TradeHouse_TyrogueTrade_Question)>)

@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<register.registered(trainer_Gyms\castro\000)>=true
 	@npc.wearskin(1,Juggler)
 :endif

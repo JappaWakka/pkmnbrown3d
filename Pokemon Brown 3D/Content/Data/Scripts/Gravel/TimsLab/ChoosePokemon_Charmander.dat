@@ -1,7 +1,8 @@
-﻿version=2
+version=2
 :if:<Register.Registered(pokemongot)>=False
 	@screen.showpokemon(4,<register.value(Shiny_Starter_Charmander)>,1)
 	@Text.Show(<system.token(Gravel_TimsLab_Choose_Charmander)>)
+	@Options.SetCancelIndex(1)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
 			@NPC.remove(1)

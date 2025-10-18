@@ -1,4 +1,4 @@
-﻿# This is an example move for a GameMode.
+# This is an example move for a GameMode.
 # The default GameMode cannot load additional moves, however all other GameModes can.
 # The move ID must be set and must lay above 999, it also is not allowed to interfer with an already existing move ID.
 # If no properties are set, the move will come out as the default Pound move. If only the name property gets changed for example, the move will still be the Pound move, but with a different name.

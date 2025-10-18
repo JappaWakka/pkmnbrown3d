@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(sparkybadge_obtain)>=False
 	@Text.Show(<system.token(Jaeru_Gym_GymGuy_BeforeBadge)>)

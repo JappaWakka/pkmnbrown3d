@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(voltorbflipintro)>=false
 	@Text.Show(<system.token(Owsauri_Casino_1F_Clerk_VoltorbFlip_BeforeTalking)>)
 	@Register.Register(voltorbflipintro)

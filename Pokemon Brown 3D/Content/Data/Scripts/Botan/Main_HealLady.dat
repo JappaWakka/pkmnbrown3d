@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 @text.show(<system.token(Botan_Main_HealLady_Intro)>)
 @options.show(<system.token(global_yes)>,<system.token(global_no)>)
 :when:<system.token(global_yes)>

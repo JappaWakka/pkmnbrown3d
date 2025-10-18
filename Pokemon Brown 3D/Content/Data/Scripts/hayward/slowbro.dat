@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 @NPC.Turn(1,<system.random(0,3)>)
 @level.update
 :select:<system.random(0,3)>

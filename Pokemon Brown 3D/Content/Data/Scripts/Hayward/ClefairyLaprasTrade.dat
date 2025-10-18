@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(laprastrade)>=false
 @Text.Show(<system.token(Hayward_FossilLab_LaprasTrade_Question)>)

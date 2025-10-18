@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 @Battle.StartTrainer(FinalDungeon\Island\001)
 :if:<Register.Registered(IslandBlockTrees)>=false
 	@Text.Show(<Battle.DefeatMessage(FinalDungeon\Island\001)>)

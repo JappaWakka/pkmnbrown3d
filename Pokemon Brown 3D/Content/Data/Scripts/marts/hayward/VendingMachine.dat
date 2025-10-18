@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 @Text.Show(<system.token(Hayward_Main_VendingMachine_Menu)>)
 @options.setcancelindex(3)
 @options.show(<system.token(Hayward_Main_VendingMachine_Option_BeerKeg)>,<system.token(Hayward_Main_VendingMachine_Option_SodaPop)>,<system.token(Hayward_Main_VendingMachine_Option_Lemonade)>,<system.token(global_cancel)>)

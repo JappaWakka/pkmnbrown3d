@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Player.Facing>=2
 	@Player.Warp(Gates\Route49-Route50_1F.dat,8,0.1,8,3)

@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<inventory.countitem(gm6)>=false
 	@Text.Show(<system.token(Botan_HauntedForest_Area6_MissingNo_NoVirusScanner_StartBattle)>)

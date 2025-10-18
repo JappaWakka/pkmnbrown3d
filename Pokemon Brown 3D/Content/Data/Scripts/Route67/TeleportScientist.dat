@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(teleportscientistgift)>=false
 	@Text.Show(<system.token(Route67_TeleportScientist_Question)>)
 	@options.setcancelindex(1)

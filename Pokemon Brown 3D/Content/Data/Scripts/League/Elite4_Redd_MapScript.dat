@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(defeat<level.filename>)>=true
 	@entity.warp(0,~,~-5,~)
 	@entity.warp(1,~,~+5,~)

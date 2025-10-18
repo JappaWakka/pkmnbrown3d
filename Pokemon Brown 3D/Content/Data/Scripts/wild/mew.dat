@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(MewShiny)>=false
 	:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
 		@Register.Register(MewShiny,bool,true)

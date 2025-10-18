@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<NPC.Exists(4)>=false
 	:if:<Register.Registered(MrRumikoRescued)>=true
 		@npc.spawn(4,0,0,1,Botan\MrRumikoHouse_MrRumiko,MrRumiko,0,0,Rumiko,4,Looking)

@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 	:if:<Level.Surfing>=true <or> <Level.Riding>=true
 		@Text.Show(<system.token(Generic_PC_NoInteract)>)

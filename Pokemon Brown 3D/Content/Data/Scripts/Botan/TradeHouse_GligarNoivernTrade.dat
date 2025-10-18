@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(NoivernTrade)>=false
 	@Text.Show(<system.token(Botan_TradeHouse_NoivernTrade_Question)>)

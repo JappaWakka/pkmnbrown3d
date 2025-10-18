@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(HealPlatform)>=false
 	@Text.Show(<system.token(Generic_HealPlatform_Start)>)
 	@Screen.FadeOutColor

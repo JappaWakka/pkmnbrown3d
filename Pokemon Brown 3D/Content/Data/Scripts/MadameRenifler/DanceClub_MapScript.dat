@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(AlexMissing)>=true
 	@NPC.WearSkin(0,JappaWakka)
 	@NPC.Warp(0,~,0.155,~)

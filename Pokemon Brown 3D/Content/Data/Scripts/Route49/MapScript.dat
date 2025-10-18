@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 @Storage.Set(bool,MoveForward,0)
 :if:<player.ismoving>=true
 	:if:<player.position(z)><17 <and> <player.position(x)>>34 <and> <player.position(x)><36

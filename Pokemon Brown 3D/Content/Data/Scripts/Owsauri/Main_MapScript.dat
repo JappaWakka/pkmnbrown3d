@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<daycare.haspokemon(0)>=true
 	:if:<daycare.countpokemon(0)>>0 <and> <daycare.pokemonid(0,0)>>0

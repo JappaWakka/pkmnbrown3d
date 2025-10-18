@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(tm18)>=false
 @Text.Show(<system.token(Hayward_SouthlandMall_Floor3_TM18Clerk_BeforeGive)>)

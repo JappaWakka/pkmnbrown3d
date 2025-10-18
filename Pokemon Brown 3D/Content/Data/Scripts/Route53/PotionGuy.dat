@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(guy_potion)>=False
 	@Text.Show(<system.token(Route53_PotionGuy_FreeSamples)>)
 	@Item.Give(18,1)

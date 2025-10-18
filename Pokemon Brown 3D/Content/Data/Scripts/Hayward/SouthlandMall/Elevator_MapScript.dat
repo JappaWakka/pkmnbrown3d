@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :select:<register.value(SouthlandMall_Elevator)>
 	:when:1
 		@entity.warp(1,~,1,~)

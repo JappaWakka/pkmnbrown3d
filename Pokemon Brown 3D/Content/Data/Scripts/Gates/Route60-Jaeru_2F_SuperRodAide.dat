@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 :if:<Register.Registered(superrod)>=false
 	@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_SuperRod_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)

@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 @Script.Start(ResetScriptDelayAfterBlackout)
 :if:<Register.Registered(PokeInteraction_PlayerRoom_DJSet_Text)>=false
 	:if:<system.random(0,1)>=0

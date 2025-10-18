@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 @storage.set(bool,NewEvaluation,false)
 :if:<register.registered(DexEvaluationLevel)>=false
 	@register.register(DexEvaluationLevel,integer,0)

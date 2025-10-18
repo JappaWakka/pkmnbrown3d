@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(goodrod)>=False
 	@Text.Show(<system.token(Route61_GoodRodHouse_GoodRodGuy_Question)>)

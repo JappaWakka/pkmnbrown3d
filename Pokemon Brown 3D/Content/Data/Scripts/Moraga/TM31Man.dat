@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 
 :if:<Register.Registered(tm31)>=false
 	@Text.Show(<System.Token(Moraga_Main_TM31Man_BeforeTalking)>)

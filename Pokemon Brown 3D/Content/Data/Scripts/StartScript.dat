@@ -1,4 +1,4 @@
-﻿version=2
+version=2
 @storage.set(bool,ReloadMap,false)
 :if:<environment.weather>=Snow <and> <level.environmenttype>=0
 	@storage.set(bool,ReloadMap,true)
