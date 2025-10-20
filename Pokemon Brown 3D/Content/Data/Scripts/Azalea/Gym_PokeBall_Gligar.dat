@@ -2,6 +2,7 @@ version=2
 :if:<Register.Registered(azalea_gym_pokemongot)>=False
 	@screen.showpokemon(207,0,1)
 	@Text.Show(<system.token(Azalea_Gym_Choose_Gligar)>)
+	@options.setcancelindex(1)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
 			@NPC.remove(5)
