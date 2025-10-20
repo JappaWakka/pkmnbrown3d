@@ -9,10 +9,10 @@ version=2
 	:endif
 	@Sound.Play(Success,1)
 	:if:<Register.Registered(Lugia)>=True
-		@pokemon.add(249,50,<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod)>,5,<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		@pokemon.add(249,50,<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod)>,1,<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
 		@Text.Show(<system.token(Generic_ReceivePokemon)>)
 	:else
-		@pokemon.add(250,50,<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod)>,5,<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
+		@pokemon.add(250,50,<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod)>,1,<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
 		@Text.Show(<system.token(Generic_ReceivePokemon)>)
 	:endif
 	@pokemon.rename(<math.int(<pokemon.count>-1)>)

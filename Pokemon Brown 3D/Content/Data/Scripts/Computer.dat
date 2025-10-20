@@ -1,11 +1,5 @@
 version=2
-
-	:if:<Level.Surfing>=true <or> <Level.Riding>=true
-		@Text.Show(<system.token(Generic_PC_NoInteract)>)
-		:end
-	:endif
-
-	@Sound.Play(PC\TurnOn)
-	@Text.Show(<system.token(Generic_PC_BootUp)>)
-	@Script.Start(Computer_Choose)
+@Sound.Play(PC\TurnOn)
+@Text.Show(<system.token(Generic_PC_BootUp)>)
+@Script.Start(Computer_Choose)
 :end

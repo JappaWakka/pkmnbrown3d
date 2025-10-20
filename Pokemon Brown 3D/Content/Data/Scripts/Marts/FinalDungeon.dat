@@ -1,6 +1,7 @@
 version=2
 
 @Text.Show(<system.token(FinalDungeon_Lobby_Shopkeeper_Question)>)
+@options.setcancelindex(1)
 @options.show(<system.token(Generic_PokeMart_Store)>,<system.token(Generic_PokeMart_Quit)>)
 	:when:<system.token(Generic_PokeMart_Store)>
 		@screen.trade({5|-1|-1}{4|-1|-1}{2|-1|-1}{15|-1|-1}{38|-1|-1}{14|-1|-1}{39|-1|-1}{40|-1|-1}{64|-1|10000}{21|-1|10000}{43|-1|-1}{19|-1|-1}{37|-1|-1}{62|-1|-1}{181|0|2},True,True)

@@ -2,7 +2,7 @@ version=2
 
 @Text.Show(<system.token(FinalDungeon_SmallRoom1_Rocket)>)
 
-:if:<Register.Registered(Lugia)>=True
+:if:<Register.Registered(Lugia)>=False
 	@screen.showpokemon(249,0,1)
 :else
 	@screen.showpokemon(250,0,1)

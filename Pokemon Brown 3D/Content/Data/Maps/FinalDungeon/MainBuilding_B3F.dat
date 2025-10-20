@@ -207,8 +207,8 @@ Stairs & Ladders:
 	
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[5,0,5]}}{"TextureID"{str[Sailor]}}{"ID"{int[0]}}{"Name"{str[Sailor]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\FinalDungeon\MainBuilding_B3F\000]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[22,0,2]}}{"TextureID"{str[Sailor]}}{"ID"{int[1]}}{"Name"{str[Sailor]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\FinalDungeon\MainBuilding_B3F\000]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[5,0,5]}}{"TextureID"{str[Sailor]}}{"ID"{int[0]}}{"Name"{str[Sailor Sal]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\FinalDungeon\MainBuilding_B3F\000]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[22,0,2]}}{"TextureID"{str[Sailor]}}{"ID"{int[1]}}{"Name"{str[Sailor Kenneth]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\FinalDungeon\MainBuilding_B3F\001]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[4,0,1]}}{"TextureID"{str[PokeManiac]}}{"ID"{int[2]}}{"Name"{str[Counterfeit Maker]}}{"Action"{int[1]}}{"AdditionalValue"{str[FinalDungeon\MainBuilding_B3F\CounterfeitMaker]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[24,0,20]}}{"TextureID"{str[RegularGuy_Green]}}{"ID"{int[3]}}{"Name"{str[Lost Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(FinalDungeon_MainBuildingB3F_LostGuy)>]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[18,0,6]}}{"TextureID"{str[Sailor]}}{"ID"{int[4]}}{"Name"{str[Cleaning Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(FinalDungeon_MainBuildingB3F_CleaningGuy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

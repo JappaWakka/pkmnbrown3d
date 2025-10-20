@@ -1,5 +1,6 @@
 version=2
 @Text.Show(<system.token(Generic_PokeMart_Clerk_Question)>)
+@options.setcancelindex(1)
 @options.show(<system.token(Generic_PokeMart_Store)>,<system.token(Generic_PokeMart_Quit)>)
 :when:<system.token(Generic_PokeMart_Store)>
 @screen.Trade({33|-1|-1}{49|-1|-1}{53|-1|-1}{51|-1|-1}{50|-1|-1}{52|-1|-1}{68|-1|-1}{181|0|2},True,True)
