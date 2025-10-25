@@ -33,9 +33,9 @@ version=2
 		:if:<storage.get(int,PokeNumber)>=133
 			@Text.Show(<system.token(Generic_ReceiveAnPokemon)>)
 		:else
-			@Text.Show(<system.token(Generic_ReceiveAPokemon)>)
+			@Text.Show(<system.token(Generic_ReceivePokemon)>)
 		:endif
-		@player.addcoins(-<storage.get(int,Cost)>)
+		@player.removecoins(<storage.get(int,Cost)>)
 		@sound.play(buy)
 		@pokemon.rename(<math.int(<pokemon.count>-1)>)
 		:if:<pokemon.count>>6

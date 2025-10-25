@@ -16,6 +16,54 @@ version=2
 	@Screen.FadeOut(4)
 	@Player.Warp(Seashore\PlayerHouse_2F.dat,6,0.1,5)
 	@Level.Update
+	:if:<Register.Registered(PokeInteraction_PlayerRoom_DJSet_Text)>=false
+		:if:<system.random(0,1)>=0
+			@Register.Register(PokeInteraction_PlayerRoom_DJSet_Text,str,<system.token(FollowerInteraction_Music_PlayerRoomMusic1)>)
+			@Register.Register(PokeInteraction_PlayerRoom_DJSet_Icon,str,...)
+		:else
+			@Register.Register(PokeInteraction_PlayerRoom_DJSet_Text,str,<system.token(FollowerInteraction_Music_PlayerRoomMusic2)>)
+			@Register.Register(PokeInteraction_PlayerRoom_DJSet_Icon,str,friendly)
+		:endif
+	:else
+		:if:<system.random(0,1)>=0
+			@Register.Change(PokeInteraction_PlayerRoom_DJSet_Text,<system.token(FollowerInteraction_Music_PlayerRoomMusic1)>)
+			@Register.Change(PokeInteraction_PlayerRoom_DJSet_Icon,...)
+		:else
+			@Register.Change(PokeInteraction_PlayerRoom_DJSet_Text,<system.token(FollowerInteraction_Music_PlayerRoomMusic2)>)
+			@Register.Change(PokeInteraction_PlayerRoom_DJSet_Icon,friendly)		
+		:endif
+	:endif
+	
+	:if:<Register.Registered(DecorationPlaced_SniffCat)>=true
+		@Entity.SetVisible(0,1)
+		@Entity.Warp(4,~,0,~)
+	:endif
+	:if:<Register.Registered(DecorationPlaced_DJSet)>=true
+		@Entity.SetVisible(1,1)
+		@Entity.SetCollision(5,1)
+		@Entity.Warp(5,~,0,~)
+	:endif
+	:if:<Register.Registered(DecorationPlaced_LeagueTrophy)>=true
+		@Entity.SetVisible(2,1)
+		@Entity.Warp(6,~,0,~)
+	:endif
+	:if:<Register.Registered(DecorationPlaced_DexDiploma)>=true
+		@Entity.SetVisible(3,1)
+		@Entity.Warp(7,~,0,~)
+	:endif
+	:if:<Register.Registered(DecorationPlaced_SurfingPikachuDoll)>=true
+		@Entity.SetVisible(8,1)
+		@Entity.Warp(9,~,0,~)
+	:endif
+	:if:<Register.Registered(DecorationPlaced_PottedPlant)>=true
+		@Entity.SetVisible(10,1)
+		@Entity.SetCollision(10,1)
+	:endif
+	:if:<Register.Registered(DecorationPlaced_SquirtleDoll)>=true
+		@Entity.SetVisible(11,1)
+		@Entity.Warp(12,~,0,~)
+	:endif
+	@Level.Update
 	@Screen.FadeIn(4)
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_AlexMissing3)>)
 	@NPC.Register(IlexForest.dat|0|position|8,0,23)

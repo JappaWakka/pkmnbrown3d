@@ -5292,9 +5292,9 @@ Owsauri_Casino_1F_ForgotCoinCase,Oeps! Ik ben de Muntenkist~vergeten!
 Owsauri_Casino_1F_SlotMachine,Alleen volwassenen mogen de~gokkasten gebruiken!
 Owsauri_Casino_1F_SlotMachine_Rigged_OutOfOrder,Deze gokkast is buiten~werking!
 Owsauri_Casino_1F_SlotMachine_Rigged_Side,Er zit een subtiel merkteken~op deze machine... is het~een prisma?
-Owsauri_Casino_1F_SlotMachine_Rigged_Reward1,<Player.Name>: Wauw! Deze gokkast heeft~net uitbetaald ondanks dat~ik niets heb gedaan!
-Owsauri_Casino_1F_SlotMachine_Rigged_Reward2,<Player.Name> vond <Storage.Get(int,FreeCoinAmount)> munten!*<Player.Name>: Het bericht op het~scherm zegt 'kom later~terug'? Vreemd...
-Owsauri_Casino_1F_SlotMachine_Rigged_ComeBackLater,<Player.Name>: Het bericht op het~scherm zegt 'kom later~terug'? Vreemd...
+Owsauri_Casino_1F_SlotMachine_Rigged_Reward1,<Player.Name>: Wauw!*Deze gokkast heeft net~uitbetaald terwijl ik niets~heb gedaan!
+Owsauri_Casino_1F_SlotMachine_Rigged_Reward2,<Player.Name> vond <Storage.Get(int,FreeCoinAmount)> munten!*<Player.Name>: Het bericht op~het scherm zegt "kom later~terug"?*Vreemd...
+Owsauri_Casino_1F_SlotMachine_Rigged_ComeBackLater,<Player.Name>: Het bericht op~het scherm zegt "kom later~terug"?*Vreemd...
 Owsauri_Casino_1F_VoltorbFlipGame_Question,Hallo daar, speler!~Zin om Voltorb Flip te spelen?
 Owsauri_Casino_1F_VoltorbFlipGame_Answer_Yes,Ik zal het spel voor je~klaarzetten!
 Owsauri_Casino_1F_VoltorbFlipGame_Answer_No,Goed dan.~Kom later nog eens spelen!
@@ -5304,14 +5304,14 @@ Owsauri_Casino_1F_Clerk_CoinBuy_Question,Welkom bij het Slotwater-~Casino!*Heb j
 Owsauri_Casino_1F_Clerk_CoinBuy_No,Niet? Nou, kom later nog eens~spelen!
 Owsauri_Casino_1F_Clerk_CoinBuy_Buy50Coins,Dankjewel! Hier zijn je~50 munten!
 Owsauri_Casino_1F_Clerk_CoinBuy_Buy500Coins,Dankjewel! Hier zijn je~500 munten!
-Owsauri_Casino_1F_Clerk_CoinBuy_NotEnoughMoney,Je kan de munten niet betalen!
+Owsauri_Casino_1F_Clerk_CoinBuy_NotEnoughMoney,Je kan de munten niet~betalen!
 Owsauri_Casino_1F_Clerk_CoinBuy_NoCoinCase,Je hebt geen Muntenkist!
 Owsauri_Casino_1F_Clerk_CoinBuy_Answer_50Coins,50 Munten          $1000
 Owsauri_Casino_1F_Clerk_CoinBuy_Answer_500Coins,500 Munten       $10000
 Owsauri_Casino_1F_Clerk_CoinBuy_Answer_NoThanks,Nee Bedankt
 Owsauri_Casino_1F_Clerk_Directions,Welkom bij het Slotwater-~Casino!*Je kunt je munten inwisselen~voor prijzen in de kelder.*Onze gokautomaten zijn alleen~voor volwassenen, maar voel je~vrij om ons Voltorb Flip-~muntenspel eens te proberen!
-Owsauri_Casino_B1F_FatGuy_Blue,Ik heb echt wat Zeldzame~Snoepjes nodig voor~mijn Pokémon!
-Owsauri_Casino_B1F_Gambler_Purple,Ik had een grote buit vandaag!
+Owsauri_Casino_B1F_FatGuy_Blue,Ik heb echt wat Zeldzame~Snoepjes nodig voor mijn~Pokémon!
+Owsauri_Casino_B1F_Gambler_Purple,Ik had een grote buit~vandaag!
 Owsauri_Casino_B1F_Shop_Intro,We ruilen je munten in voor~prijzen!
 Owsauri_Casino_B1F_Shop_NoThanks,Nee Bedankt
 Owsauri_Casino_B1F_Shop_NotEnoughCoins,Sorry, je hebt meer munten~nodig.
@@ -6845,8 +6845,8 @@ MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: I'm glad I go
 [AlexCorruptor Is Missing Quest]
 Gravel_TimsLab_AlexMissing1,JappaWakka: <Player.Name>!
 Gravel_TimsLab_AlexMissing2,I wanted to check on Alex,~but he was gone!*I found this note near his~DJ set...~Here's what it says:*Dear Jappa and <Player.Name>,~Sorry that I have to leave~you without any warning, but I~saw a vision of Hydreigon~in front of me...~calling me...*He said I had go to a certain~place far away from Rijon and~didn't give me any other~instructions than that.*I may be gone for some time.~Perhaps I won't come back~at all.*I cannot tell at this moment.*In the meantime, do not worry~about me.*I can defend myself if~forced to fight.*Again, sorry for making you~nervous.*This is just very important~to me.*With love, Alex the Tepig*JappaWakka: I hope he's~alright...*Well, if you hear anything~about him, you can find me at~my ship in Castro Valley.*Someone has to keep the~music playing, right?
-Seashore_PlayerHouse2F_AlexMissing3,<Player.Name>: Two days passed~and no sign of Alex yet!*Hmm... I remember from his~story that the first time he~appeared back in this world...~he found himself in~Ilex Forest.*Maybe it's worth looking for~him there!
+Seashore_PlayerHouse2F_AlexMissing3,<Player.Name>: Two days passed~and no sign of Alex yet!*Hmm... I remember from his~story that the first time he~appeared back in this world...~he found himself in Ilex~Forest.*Maybe it's worth looking for~him there!
 IlexForest_AlexFound1,<Player.Name>: Huh?*What's an Emboar doing in~these woods?*Wait a minute...~Alex? Is that you?
 IlexForest_AlexFound2,Alex: Hm? ...Oh, it's you!*It seems that I managed to~sort out my ordeal with the~whole other world.*I didn't want to make anyone~worried, but it was really~important for me to figure it~all out.*How long was I gone?*<Player.Name>: It's been two days~since JappaWakka found~the note.*He was very worried.*Alex: Two days? Strange...~I've been in the other world~for at least a month, if not~longer.*I've been given the ability to~teleport to that world and~back at will...*So I'll probably be gone every~once in a while.*I'll make sure that~JappaWakka knows of this~as well.*I feel like we've got a lot~to catch up on.
 CastroValley_AlexFound3,JappaWakka: Pfew! I'm glad~Alex is safe and sound!*And he evolved!*Twice!*That's so cool!*We've got a lot to talk about,~which we'll have plenty of~time for as we sail to our~next destination, wherever~our ship may lead us!*Thank you for everything,~<Player.Name>!
-CastroValley_AlexFound4,Alex: So like Jappa said, we~are both setting sail to our~next destination, making this~our last chance to say~goodbye...*Not gonna lie, but I will~surely miss you, <Player.Name>.*As a token of my appreciation,~take one of my DJ sets, so you~can listen to our songs at home.*Thank you, <Player.Name>.*I hope we will meet again~someday.
+CastroValley_AlexFound4,Alex: So like Jappa said, we~are both setting sail to our~next destination, making this~our last chance to say~goodbye...*Not gonna lie, but I will~surely miss you, <Player.Name>.*As a token of my appreciation,~take one of my DJ sets,~so you can listen to our songs~at home.*Thank you, <Player.Name>.*I hope we will meet again~someday.
