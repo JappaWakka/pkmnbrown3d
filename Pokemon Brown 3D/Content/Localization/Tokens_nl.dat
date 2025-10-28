@@ -4704,7 +4704,7 @@ Seashore_Main_Sign_City,Zeekust-Stad*Waar golven van nieuwe reizen~beginnen aan 
 Seashore_Main_Sign_Gym,Zeekust-Stad~Pokémon Gym~Leider: Sheryl*Meesteres van de~Buitenzintuigen!
 
 Seashore_Gym_Sign_BeforeDefeat,Zeekust-Stad~Pokémon Gym~Leider: Sheryl*Winnende Trainers:~Mura
-Seashore_Gym_Sign_AfterDefeat,Zeekust-Stad~Pokémon Gym~Leader: Sheryl*Winnende Trainers:~Mura~<Player.Name>
+Seashore_Gym_Sign_AfterDefeat,Zeekust-Stad~Pokémon Gym~Leider: Sheryl*Winnende Trainers:~Mura~<Player.Name>
 Seashore_Gym_ChannelerHelen_IntroMessage,Doe je best!
 Seashore_Gym_ChannelerHelen_OutroMessage,Ik wist het!
 Seashore_Gym_ChannelerHelen_DefeatMessage,Ik moet het de volgende keer~beter doen!
@@ -5509,7 +5509,7 @@ Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We hebben geen mannen nodig,~
 Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage,Onderschat de kracht van~Gras niet!
 Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage,Oh! Verslagen!
 Moraga_Gym_CoolTrainerFemaleHeather_DefeatMessage,Lois heeft een tweelingzus~in Kanto die ook Gras-~types gebruikt.
-Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, mijn mooie~bloemen...*Ze zijn echt prachtig,~nietwaar?*<Player.Name>: Neem me niet~kwalijk, maar ik ben hier~voor je Spruit Badge!*Lois: Oh, de Spruit Badge?~Ik ben net als mijn zus in~Kanto, of niet soms...*Maar goed, als je een~gevecht wilt, dan zul je een~gevecht krijgen!*Als Kimono Meisje en als~Gym Leider van Moraga Town~heb ik ook veel gevechts-~ervaring, dus zeg maar~niet dat ik je niet~gewaarschuwd heb.*Leafeon, we gaan ervoor!
+Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, mijn mooie~bloemen...*Ze zijn echt prachtig,~nietwaar?*<Player.Name>: Neem me niet~kwalijk, maar ik ben hier~voor je Spruit Badge!*Lois: Oh, de Spruit Badge?~Ik ben net als mijn zus in~Kanto, of niet soms...*Maar goed, als je een~gevecht wilt, dan zul je een~gevecht krijgen!*Als Kimono Meisje en als~Gym Leider van Stamppotdorp~heb ik ook veel gevechts-~ervaring, dus zeg maar~niet dat ik je niet~gewaarschuwd heb.*Leafeon, we gaan ervoor!
 Moraga_Gym_LeaderLois_OutroMessage,Lois: Nou, dat was het dan,~je hebt me laten zien hoe~goed je bent!*Je hebt de Spruit Badge~verdiend!
 Moraga_Gym_LeaderLois_AfterBattle1,Lois: Met de Spruit Badge~kunnen Pokémon de techniek~Kracht gebruiken tijdens~maar ook buiten gevechten.*Oh, en neem dit mee.
 Moraga_Gym_LeaderLois_AfterBattle2,TM 21 bevat Giga-absorbering.*De helft van de schade die~het toebrengt, wordt~afgetapt om je Pokémon~te genezen!
@@ -5521,48 +5521,47 @@ Moraga_Gym_LeaderLois_Rematch_OutroMessage,Lois: Oh, jullie zijn veel~te goed!
 Moraga_Gym_LeaderLois_Rematch_AfterBattle,Lois: Gras-Pokémon zijn zo~prachtig, vind je niet?*Elke keer als ik hun zoete~bloemengeur ruik...~kan ik het niet laten om...*Zzz...*<Player.Name>: Daar gaat ze~weer...
 
 [City Underpass]
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_Question,Hi! Do you have Nidoqueen?~Want to trade it for Nidoking?
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_Answer_No,That's too bad.
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_AfterTrade,How is my old Nidoking?~My Nidoqueen is doing great!
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_Question,Hoi! Heb je een Nidoqueen?~Wil je die ruilen voor een~Nidoking?
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_Answer_No,Jammer.
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_AfterTrade,Hoe gaat het met mijn oude~Nidoking?*Met mijn Nidoqueen gaat het~geweldig!
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeFail,This is no Nidoqueen.*If you get one, trade it~with me!
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod,Received in a trade at the
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,City Underpass
-CityUnderpass_Entrance_Route56_Girl,People often lose things in~that underground path.
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeFail,Dit is geen Nidoqueen.*Als je er een hebt, ruil haar~dan met mij!
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod,Ontvangen in een ruil in de
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,Stad-onderdoorgang
+CityUnderpass_Entrance_Route56_Girl,Mensen raken vaak dingen kwijt~op dat ondergrondse pad.
 
 [Route 60]
-Route60_Main_Sign,Route 60~Powerline Road*Moraga Town - Jaeru City -~Yuva Mila Lake
+Route60_Main_Sign,Route 60~Stroomleidingweg*Stamppotdorp -~Laeterwirstad -~Yuva Milameer
 
-Route60_PowerPlant_Zapdos,Gyaao!
+Route60_PowerPlant_Zapdos,Kraaa!
 Route60_PowerPlant_Raikou,Rrroar!
 
 [Route 60 - Jaeru City Gate]
 Route60_Jaeru_Gate_Guard,Are you working on a~Pokédex?*Prof. Tim's Aide came by here.
 
-Route60_Jaeru_Gate_Aide_SuperRod_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 75 kinds of~Pokémon, I'm supposed to~give you a Super Rod!*So <Player.Name>! Have you~caught at least 75 kinds~of Pokémon?
-Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_75OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
-Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon,Let's see...*Uh-oh!~You haven't caught enough~kinds of Pokémon!*You need 75 kinds if~you want the Super Rod.
-Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo,Oh, I see.~When you get 75 kinds,~come back for the Super Rod.
-Route60_Jaeru_Gate_Aide_SuperRod_AfterReceiveSuperRod,Have fun with it!
+Route60_Jaeru_Gate_Aide_SuperRod_Question,Hoi! Ken je me nog?*Ik ben de assistent van~Prof. Tim!*Als je 75 soorten Pokémon hebt~gevangen, moet ik je een~Super Hengel geven!*Dus <Player.Name>!~Heb je minstens 75 soorten~Pokémon gevangen?
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_75OrMorePokemon,Even zien...*Geweldig! Je hebt <Pokedex.Caught>~soorten Pokémon gevangen!~Gefeliciteerd!*Alsjeblieft!
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon,Even zien...*Oh-oh!~Je hebt niet genoeg soorten~Pokémon gevangen!*Je hebt 75 soorten nodig als~je de Super Hengel wilt.
+Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo,Oh, ik begrijp het.~Als je 75 soorten hebt,~kom dan terug voor de~Super Hengel.
+Route60_Jaeru_Gate_Aide_SuperRod_AfterReceiveSuperRod,Veel plezier ermee!
 
-Route60_Jaeru_Gate_Binoculars_Left_Intro,Looked into the~binoculars...
-Route60_Jaeru_Gate_Binoculars_Left_Flying,A strange Pokémon is flying~to Mt. Boulder!
-Route60_Jaeru_Gate_Binoculars_Left_Running,A strange Pokémon is running~towards Mt. Boulder!
-Route60_Jaeru_Gate_Binoculars_Left_None,It's Mt. Boulder!
-Route60_Jaeru_Gate_Binoculars_Right,Looked into the binoculars...*It looks like part of Johto!
+Route60_Jaeru_Gate_Binoculars_Left_Intro,<Player.Name> keek door de~verrekijker...
+Route60_Jaeru_Gate_Binoculars_Left_Flying,Een vreemde Pokémon vliegt~naar de Zwerfkeiberg!
+Route60_Jaeru_Gate_Binoculars_Left_Running,Een vreemde Pokémon rent~naar de Zwerfkeiberg!
+Route60_Jaeru_Gate_Binoculars_Left_None,Het is de Zwerfkeiberg!
+Route60_Jaeru_Gate_Binoculars_Right,<Player.Name> keek door de~verrekijker...*Het lijkt op een deel van Johto!
 
 [Jaeru City]
-Jaeru_Main_Sign_RijonLeagueEntrance,Path to Rijon League~Entrance
-Jaeru_Main_Sign_City,Jaeru City~The Hoppy Town!
-Jaeru_Main_Sign_BikeShop,Bike Shop*Cool Bikes for everyone!
-Jaeru_Main_Sign_TownMap,Notice!*If you are lost, refer to your~Town Map!
-Jaeru_Main_Sign_TownMap,Notice!*If you are lost, refer to your~Town Map!
-Jaeru_Main_Sign_Gym,Jaeru City~Pokémon Gym~Leader: Sparky*The Stunning Mechanic!
-Jaeru_Main_NewsGuy_Question,Did you hear the news?
-Jaeru_Main_NewsGuy_Answer_Yes,Oh, I wish I could have told!
-Jaeru_Main_NewsGuy_Answer_No,Team Rocket took over the~Warehouse nearby!
-Jaeru_Main_DirectionsGuy,If you go up north, you will~end up at the Rijon League!
-Jaeru_Main_SilkTunnelGirl,I got a Ground Pokémon from~Silk Tunnel, but it still~wasn't good enough to beat~Sparky!
+Jaeru_Main_Sign_RijonLeagueEntrance,Pad naar de ingang van de~Rijon League
+Jaeru_Main_Sign_City,Laeterwirstad~De vrolijke stad!
+Jaeru_Main_Sign_BikeShop,Fietsenwinkel*Coole Fietsen voor iedereen!
+Jaeru_Main_Sign_TownMap,Let op!*Als je verdwaald bent,~raadpleeg dan je Landkaart!
+Jaeru_Main_Sign_Gym,Laeterwirstad~Pokémon Gym~Leider: Sparky*De Verbluffende Monteur!
+Jaeru_Main_NewsGuy_Question,Heb je het nieuws gehoord?
+Jaeru_Main_NewsGuy_Answer_Yes,Oh, ik wou dat ik het had~kunnen vertellen!
+Jaeru_Main_NewsGuy_Answer_No,Team Rocket heeft het~nabijgelegen Warenhuis~overgenomen!
+Jaeru_Main_DirectionsGuy,Als je naar het noorden gaat,~kom je uit bij de Rijon League!
+Jaeru_Main_SilkTunnelGirl,Ik heb een Grond-Pokémon in~de Zijdetunnel gevangen, maar~die was nog steeds niet goed~genoeg om Sparky te~verslaan!
 
 Jaeru_BikeShop_Youngster,These Bikes are cool, but~they're way expensive!
 Jaeru_BikeShop_Woman,I knew modes of~transportation were getting~more expensive, but come on!
@@ -5693,7 +5692,7 @@ Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer,...Glug glug...~...Gulp...~This 
 Route59_Botan_Gate_1F_Guard_HaveBeer_FallAsleep,Zzzzz...*<Player.Name>: Looks like I can~get past this guy now,~and complete my quest!
 Route59_Botan_Gate_1F_Guard_StillAsleep,<Player.Name>: He's still asleep...
 Route59_Botan_Gate_2F_EeveeTrade_Question,Hi! Do you have a~Mareep?*Want to trade it for Eevee?
-Route59_Botan_Gate_2F_EeveeTrade_Answer_No,That's too bad.
+Route59_Botan_Gate_2F_EeveeTrade_Answer_No,Jammer.
 Route59_Botan_Gate_2F_EeveeTrade_AfterTrade,How is my old Eevee?*My Mareep is doing great!
 Route59_Botan_Gate_2F_EeveeTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Route59_Botan_Gate_2F_EeveeTrade_TradeFail,...This is no Mareep.*If you get one, trade it~with me!
@@ -5701,10 +5700,10 @@ Route59_Botan_Gate_2F_EeveeTrade_CatchMethod,Received in a trade in the Gate on
 Route59_Botan_Gate_2F_EeveeTrade_CatchLocation,Route 59
 Route59_Botan_Gate_2F_Binoculars_Left,Looked into the binoculars...*The Rijon League!
 Route59_Botan_Gate_2F_Binoculars_Right,Looked into the binoculars...*A dark forest can be~seen... maybe there are some~ghosts there...
-Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds of~Pokémon, I'm supposed to~give you an Item Finder!*So <Player.Name>! Have you~caught at least 45 kinds~of Pokémon?
-Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_45OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
-Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan45Pokemon,Let's see...*Uh-oh!~You haven't caught enough~kinds of Pokémon!*You need 45 kinds if~you want the Item Finder.
-Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerNo,Oh, I see. When you get~45 kinds, come back for the~Item Finder.
+Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hoi! Ken je me nog?*Ik ben de assistent van~Prof. Tim!*Als je 45 soorten Pokémon hebt~gevangen, moet ik je een~Detector geven!*Dus <Player.Name>!~Heb je minstens 45 soorten~Pokémon gevangen?
+Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_45OrMorePokemon,Even zien...*Geweldig! Je hebt <Pokedex.Caught>~soorten Pokémon gevangen!~Gefeliciteerd!*Alsjeblieft!
+Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan45Pokemon,Even zien...*Oh-oh!~Je hebt niet genoeg soorten~Pokémon gevangen!*Je hebt 45 soorten nodig als~je de Detector.
+Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerNo,Oh, ik begrijp het.~Als je 45 soorten hebt,~kom dan terug voor de~Detector.
 Route59_Botan_Gate_2F_Aide_ItemFinder_AfterReceiveItemFinder,There are items on the ground~that can't be seen.~The Item Finder will reveal~hidden items near you for a~brief moment.~It doesn't tell you where they~are exactly, so you have to~look yourself!
 
 [Botan City]
@@ -5908,7 +5907,7 @@ Castro_PunchTutorHouse_Haiku_FirePunch,Its fists, set ablaze.~Apply hot pressure
 Castro_PunchTutorHouse_Haiku_FacePunch,It seems unlikely.~If you decide to find out,~face the consequence!
 
 Castro_TradeHouse_ChanseyTrade_Question,Hi! Do you have a~Pidgey?*Want to trade it for Chansey?
-Castro_TradeHouse_ChanseyTrade_Answer_No,That's too bad.
+Castro_TradeHouse_ChanseyTrade_Answer_No,Jammer.
 Castro_TradeHouse_ChanseyTrade_AfterTrade,How is my old Chansey?
 Castro_TradeHouse_ChanseyTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Castro_TradeHouse_ChanseyTrade_TradeFail,...This is no Pidgey.*If you get one, trade it with~me!
