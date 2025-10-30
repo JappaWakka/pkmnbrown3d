@@ -26,11 +26,6 @@ version=2
 @player.warp(Seashore\Main.dat,21,0.1,24,0)
 @level.update
 @player.turnto(2)
-:if:<pokemon.counthalloffame>=0
-	@storage.set(bool,doCredits,true)
-:else
-	@storage.set(bool,doCredits,false)
-:endif
 @pokemon.registerhalloffame
 @music.Play(HallOfFame)
 @screen.halloffame(<pokemon.counthalloffame>-1,League\HallOfFame_Interface.dat)
@@ -51,9 +46,11 @@ version=2
 	@Sound.Play(PokedexNewRating,1)
 :endif
 @Text.Show(<storage.get(str,EvaluationText)>*<system.token(Generic_PC_DexEvaluation_End)>)
-	
-:if:<storage.get(bool,doCredits)>=true
-	@screen.credits(Rijon)
+
+:if:<pokemon.counthalloffame>=1
+	@screen.credits(Rijon,false)
+:else
+	@screen.credits(Rijon,true)
 :endif
 @level.update
 @screen.fadein(15)
