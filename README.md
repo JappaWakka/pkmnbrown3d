@@ -8,7 +8,7 @@
 My name is [JappaWakka](https://github.com/JappaWakka), and I'm the main developer for the 3D remake of Pokémon Brown, simply (but effectively) called Pokémon Brown 3D! 😛
 
 ## How to play
-1. Download the test build of Pokémon 3D [here](https://github.com/JappaWakka/pkmnbrown3d/releases/download/v1.0-beta.1/Pokemon_3D_Beta.zip).
+1. Download the test build of Pokémon 3D [here](https://github.com/JappaWakka/pkmnbrown3d/releases/download/v1.0-beta11/Brown3D_1-0_Beta_11_Fresh_Install.zip).
 2. Extract the test build zip using WinRAR or 7zip to a location of your choice.
 3. Download the Pokémon Brown 3D GameMode from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest).
 4. Open the zip and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the test build folder (the path would be Pokemon 3D Beta\GameModes\Pokemon Brown 3D).
@@ -46,7 +46,7 @@ If your issue has not been reported, please create a new one. Please include wha
 
 ## Gameplay Tips 
 * While in the Main Menu, you can also move the cursor all the way to the left and change some settings. Select Options and then one of the buttons in that submenu.
- * For example, if you prefer the GameBoy soundtrack over the Orchestral one, you can disable the Brown 3D Orchestral pack in the ContentPacks menu.
+* For example, if you prefer the GameBoy soundtrack over the Orchestral one, you can disable the Brown 3D Orchestral pack in the ContentPacks menu.
 * To return to the Main Menu or cancel anything, you can press the E key or the right mouse button.
 * The rest of the settings (like text speed and mouse sensitivity) can only be changed while in-game. You can access the in-game Options menu by pressing the E key after the intro cutscene and selecting Options.
 * On the wall in your room, there's a note explaining the controls. In first person you can only move forward (with the W key) and turn (with the A and D keys or the mouse). It's not possible to strafe yet.
