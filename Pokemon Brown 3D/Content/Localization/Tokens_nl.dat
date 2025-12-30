@@ -1,4 +1,4 @@
-﻿language_name,Nederlands
+language_name,Nederlands
 =====
 Global:
 global_please_wait,Even geduld
@@ -96,6 +96,7 @@ global_FRZ,Bevroren
 global_PAR,Verlamd
 ---
 Pokémon & Attack Properties:
+
 property_HP,LP
 property_PP,KP
 property_No.,Nr.
@@ -115,7 +116,7 @@ property_Nature,Karakter
 property_DexNo.,Dex Nr.
 property_OT,OT
 property_CatchMethod,Vangmethode
-property_ExpPoints,Ervaring
+property_ExpPoints,Ervaringspunten
 property_Category,Categorie
 property_Power,Kracht
 property_Accuracy,Nauwkeurigheid
@@ -373,6 +374,7 @@ pause_menu_title,Spelmenu
 pause_menu_back_to_game,Terug naar spel
 pause_menu_disconnect,Verbreek verbinding
 pause_menu_quit_to_menu,Terug naar hoofdmenu
+pause_menu_autosave_fail,Kan niet automatisch opslaan.
 pause_menu_confirmation,Wil je het spel echt verlaten? Niet-opgeslagen gegevens zullen verloren gaan.
 ---
 IngameMenu:
@@ -413,16 +415,16 @@ party_screen_ChoosePokemon,Kies Pokémon
 party_screen_CannotChoosePokemon,Kan deze Pokémon niet~kiezen.
 ---
 NewGameScreen:
-new_game_intro_1,Hello!~Sorry to keep~you waiting!*Welcome to the world~of Pokémon!*My name is Oak.~People call me~Pokémon Prof.*This world is inhabited~by creatures that~we call
-new_game_intro_2,Pokémon.*People and Pokémon live~together by supporting~each other.~Some people play with~Pokémon,~some battle with them.*But we don't know~everything about~Pokémon yet.~There are still many~mysteries to solve.*That's why I study~Pokémon every day.*Now, what did you~say your name was?
-new_game_intro_3,~are you ready?*Your very own~Pokémon story is about~to unfold.*You'll face fun~times and tough~challenges.~A world of dreams and~adventures with Pokémon~awaits!*Let's go!*I'll be seeing~you later!
-new_game_intro_weird_name_1,Right! So your name is~
-new_game_intro_weird_name_2,!*Hm that is a~weird name.
-new_game_intro_known_name_1,Right! So your name is~
-new_game_intro_known_name_2,!*Hm I am sure I~heard this name before.
-new_game_intro_same_name_1,Hey we got the~same names.*My name is also~
+new_game_intro_1,Hallo!~Sorry dat je moest wachten!*Welkom in de wereld van~Pokémon!*Mijn naam is Oak.~Mensen noemen mij de Pokémon~Prof.*Deze wereld wordt bewoond~door wezens die wij...
+new_game_intro_2,Pokémon noemen.*Mensen en Pokémon leven~samen door elkaar te~ondersteunen.*Sommige mensen spelen met~Pokémon,anderen vechten~ermee.*Maar we weten nog niet alles~over Pokémon.*Er zijn nog veel mysteries~om op te lossen.*Daarom bestudeer ik elke~dag Pokémon.*Nou, hoe zei je ook alweer~dat je heette?
+new_game_intro_3,~ben je er klaar voor?*Jouw eigen Pokémonverhaal~staat op het punt te~beginnen.*Je zult leuke momenten en~zware uitdagingen tegenkomen.~Een wereld vol dromen en~avonturen met Pokémon~wacht op je!*Laten we gaan!*Ik zie je later!
+new_game_intro_weird_name_1,Goed! Dus jouw naam is~
+new_game_intro_weird_name_2,!*Hm dat is een~rare naam.
+new_game_intro_known_name_1,Goed! Dus jouw naam is~
+new_game_intro_known_name_2,!*Hm ik weet zeker dat ik~die naam eerder heb gehoord.
+new_game_intro_same_name_1,Hé we hebben de zelfde naam.*Mijn naam is ook~
 new_game_intro_same_name_2,!
-new_game_intro_name_1,Right! So your name is~
+new_game_intro_name_1,Goed! Dus jouw naam is~
 new_game_intro_name_2,!
 new_game_select_skin,Wat is je stijl?
 ---
@@ -2230,7 +2232,7 @@ item_name_71,Zilver~vleugel
 item_name_78,Hardloopschoenen
 item_name_115,GS-Bal
 item_name_116,Blauwe Kaart
-item_name_127,Kaartsleutel
+item_name_127,Sleutelkaart
 item_name_128,Machine~onderdeel
 item_name_130,Verloren~Voorwerp
 item_name_133,Keldersleutel
@@ -3229,7 +3231,7 @@ Memories:
 item_name_660,Insect-~herinnering
 item_name_661,Duister-~herinnering
 item_name_662,Draak-~herinnering
-item_name_663,Elektrisch-~herinnering
+item_name_663,Elektrische~Herinnering
 item_name_664,Feeherinnering
 item_name_665,Vecht-~herinnering
 item_name_666,Vuur-~herinnering
@@ -3239,7 +3241,7 @@ item_name_669,Gras-~herinnering
 item_name_670,Grond-~herinnering
 item_name_671,IJsherinnering
 item_name_672,Gifherinnering
-item_name_673,Psychisch-~herinnering
+item_name_673,Psychische~Herinnering
 item_name_674,Rots-~herinnering
 item_name_675,Staal-~herinnering
 item_name_676,Water-~herinnering
@@ -3248,7 +3250,7 @@ Memories (Plural):
 item_pluralname_660,Insect-herinneringen
 item_pluralname_661,Duister-herinneringen
 item_pluralname_662,Draak-herinneringen
-item_pluralname_663,Elektrisch-herinneringen
+item_pluralname_663,Elektrische Herinneringen
 item_pluralname_664,Feeherinnering
 item_pluralname_665,Vecht-herinneringen
 item_pluralname_666,Vuur-herinneringen
@@ -3258,7 +3260,7 @@ item_pluralname_669,Gras-herinneringen
 item_pluralname_670,Grond-herinneringen
 item_pluralname_671,IJsherinnering
 item_pluralname_672,Gifherinnering
-item_pluralname_673,Psychisch-herinneringen
+item_pluralname_673,Psychische Herinneringen
 item_pluralname_674,Rots-herinneringen
 item_pluralname_675,Staal-herinneringen
 item_pluralname_676,Water-herinneringen
@@ -3340,81 +3342,82 @@ item_pluralname_gm94,Boost-Machines
 ----
 Item Descriptions:
 [Officiële voorwerpen]
-item_desc_1,The best Pokéball with the ultimate level of performance. With it, you will catch any wild Pokémon without fail.
-item_desc_2,An ultra-high performance Pokéball that provides a higher success rate for catching Pokémon than a Great Ball.
-item_desc_4,A good, high-performance Pokéball that provides a higher Pokémon catch rate than a standard Pokéball can.
-item_desc_5,An item for catching Pokémon.
-item_desc_6,A folding Bicycle that enables much faster movement than the Running Shoes.
-item_desc_8,A peculiar stone that can make certain species of Pokémon evolve. It is as black as the night sky.
-item_desc_9,A spray-type medicine for poisoning. It can be used once to lift the effects of being poisoned from a Pokémon.
-item_desc_10,A spray-type medicine for treating burns. It can be used once to heal a Pokemon suffering from a burn.
-item_desc_11,A spray-type medicine for freezing. It can be used once to defrost a Pokémon that has been frozen solid.
-item_desc_12,A spray-type medicine used against sleep. It can be used once to rouse a Pokémon from the clutches of sleep.
-item_desc_13,A spray-type medicine for paralysis. It can be used once to free a Pokémon that has been paralyzed.
-item_desc_14,A medicine that can be used to fully restore the HP of a single Pokémon and heal any status conditions it has.
-item_desc_15,A spray-type medicine for treating wounds. It will completely restore the max HP of a single Pokémon.
-item_desc_16,A spray-type medicine for treating wounds. It can be used to restore 200 HP to an injured Pokémon.
-item_desc_17,A spray-type medicine for treating wounds. It can be used to restore 50 HP to an injured Pokémon.
-item_desc_18,A spray-type medicine for treating wounds. It can be used to restore 20 HP to an injured Pokémon.
-item_desc_19,A long and durable rope. Use it to escape instantly from a cave or a dungeon.
-item_desc_20,An item that prevents any low-level wild Pokémon from jumping out at you for 100 steps after its use.
-item_desc_21,This medicine can fully restore the PP of all of the moves that have been learned by a Pokémon.
-item_desc_22,A peculiar stone that can make certain species of Pokémon evolve. The stone has a fiery orange heart.
-item_desc_23,A peculiar stone that can make certain species of Pokémon evolve. It has a distinct thunderbolt pattern.
-item_desc_24,A peculiar stone that can make certain species of Pokémon evolve. It is the blue of a pool of clear water.
-item_desc_26,A nutritious drink for Pokémon. When consumed, it raises the base HP of a single Pokémon.
-item_desc_27,A nutritious drink for Pokémon. When consumed, it raises the base Attack stat of a single Pokémon.
-item_desc_28,A nutritious drink for Pokémon. When consumed, it raises the base Defense stat of a single Pokémon.
-item_desc_29,A nutritious drink for Pokémon. When consumed, it raises the base Speed stat of a single Pokémon.
-item_desc_31,A nutritious drink for Pokémon. When consumed, it raises the base Sp. Atk stat of a single Pokémon.
-item_desc_32,A candy that is packed with energy. When consumed, it will instantly raise the level of a single Pokémon by one.
-item_desc_33,An item that boosts the accuracy of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
-item_desc_34,A peculiar stone that can make certain species of Pokémon evolve. It has an unmistakable leaf pattern.
-item_desc_36,A nugget of the purest gold that gives off a lustrous gleam in direct light. It can be sold at a high price to shops.
-item_desc_37,A doll that attracts the attention of a Pokémon. It guarantees escape from any battle with wild Pokémon.
-item_desc_38,A spray-type medicine that is broadly effective. It can be used once to heal all the status conditions of a Pokémon.
-item_desc_39,A medicine that can revive fainted Pokémon. It also restores half of a fainted Pokémon's HP.
-item_desc_40,A medicine that can revive fainted Pokémon. It also fully restores a fainted Pokémon's maximum HP.
-item_desc_41,Het ticket dat je nodig hebt om aan boord van het cruiseschip S.S. Anne te gaan. Er staat een tekening van een schip op.
-item_desc_42,An item that prevents any low-level wild Pokémon from jumping out at you for 200 steps after its use.
-item_desc_43,An item that prevents any low-level wild Pokémon from jumping out at you for 250 steps after its use.
-item_desc_44,An item that raises the critical-hit ratio greatly. It can be used only once and wears off if the Pokémon is withdrawn.
-item_desc_47,A highly carbonated soda drink. When consumed, it restores 60 HP to an injured Pokémon.
-item_desc_48,A very sweet and refreshing drink. When consumed, it restores 80 HP to an injured Pokémon.
-item_desc_49,An item that boosts the Attack stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
-item_desc_50,An item that boosts the Sp. Def stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
-item_desc_51,An item that boosts the Defense stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
-item_desc_52,An item that boosts the Speed stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
-item_desc_53,An item that boosts the Sp. Atk stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
+item_desc_1,De beste Pokébal met het ultieme prestatieniveau. Hiermee vang je elke wilde Pokémon zonder dat het mis gaat.
+item_desc_2,Een Pokébal met ultrahoge prestaties die een hogere vangstkans biedt dan een BeterBal.
+item_desc_4,Een goede, hoogpresterende Pokébal die een hogere vangstkans biedt dan een standaard Pokébal.
+item_desc_5,Een voorwerp om Pokémon mee te vangen.
+item_desc_6,Een opvouwbare Fiets die het mogelijk maakt veel sneller te bewegen dan de Hardloopschoenen.
+item_desc_8,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. Hij is zo zwart als de nachtelijke hemel.
+item_desc_9,Een spray-medicijn tegen vergiftiging. Hij kan één keer worden gebruikt om de effecten van vergiftiging bij een Pokémon op te heffen.
+item_desc_10,Een spray-medicijn voor het behandelen van brandwonden. Hij kan één keer worden gebruikt om een verbrandde Pokémon te genezen.
+item_desc_11,Een spray-medicijn tegen bevriezing. Hij kan één keer worden gebruikt om een volledig bevroren Pokémon te ontdooien.
+item_desc_12,Een spray-medicijn tegen slaap. Hij kan één keer worden gebruikt om een Pokémon uit de greep van slaap te halen.
+item_desc_13,Een spray-medicijn tegen verlamming. Hij kan één keer worden gebruikt om een Pokémon te bevrijden die verlamd is.
+item_desc_14,Een medicijn dat kan worden gebruikt om de LP van één Pokémon volledig te herstellen en alle statusproblemen te genezen.
+item_desc_15,Een spray-medicijn voor het behandelen van wonden. Hij herstelt de LP van één Pokémon tot het maximum.
+item_desc_16,Een spray-medicijn voor het behandelen van wonden. Hij kan worden gebruikt om 200 LP te herstellen bij een gewonde Pokémon.
+item_desc_17,Een spray-medicijn voor het behandelen van wonden. Hij kan worden gebruikt om 50 LP te herstellen bij een gewonde Pokémon.
+item_desc_18,Een spray-medicijn voor het behandelen van wonden. Hij kan worden gebruikt om 20 LP te herstellen bij een gewonde Pokémon.
+item_desc_19,Een lang en duurzaam touw. Gebruik hem om direct te ontsnappen uit een grot of gevaarlijke plek.
+item_desc_20,Een voorwerp dat voorkomt dat wilde Pokémon van een laag niveau opduiken gedurende 100 stappen na gebruik.
+item_desc_21,Dit medicijn kan de KP van alle aanvallen die een Pokémon heeft geleerd volledig herstellen.
+item_desc_22,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. De steen heeft een vurige oranje kern.
+item_desc_23,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. Hij heeft een duidelijk bliksempatroon.
+item_desc_24,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. Hij is blauw als helder zwembadwater.
+item_desc_26,Een voedzame drank voor Pokémon. Bij consumptie verhoogt hij de basis-LP van één Pokémon.
+item_desc_27,Een voedzame drank voor Pokémon. Bij consumptie verhoogt hij de basis-Aanval van één Pokémon.
+item_desc_28,Een voedzame drank voor Pokémon. Bij consumptie verhoogt hij het basis-Verdediging-attribuut van één Pokémon.
+item_desc_29,Een voedzame drank voor Pokémon. Bij consumptie verhoogt hij het basis-Snelheid-attribuut van één Pokémon.
+item_desc_31,Een voedzame drank voor Pokémon. Bij consumptie verhoogt hij het basis-Sp. Aanval-attribuut van één Pokémon.
+item_desc_32,Een snoepje vol energie. Bij consumptie verhoogt hij direct het niveau van één Pokémon met één.
+item_desc_33,Een voorwerp dat de nauwkeurigheid van een Pokémon verhoogt tijdens een gevecht. Het effect verdwijnt zodra de Pokémon wordt teruggetrokken.
+item_desc_34,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. Hij heeft een onmiskenbaar bladpatroon.
+item_desc_36,Een klompje van het puurste goud die een glanzende schittering afgeeft in direct licht. Hij kan voor een hoge prijs aan winkels worden verkocht.
+item_desc_37,Een pop die de aandacht van een Pokémon trekt. Hij garandeert ontsnapping uit elk gevecht met wilde Pokémon.
+item_desc_38,Een spray-medicijn dat breed effectief is. Het kan één keer worden gebruikt om alle statusproblemen van een Pokémon te genezen.
+item_desc_39,Een medicijn dat uitgeschakelde Pokémon kan opwekken. Het herstelt ook de helft van de LP van een uitgeschakelde Pokémon.
+item_desc_40,Een medicijn dat uitgeschakelde Pokémon kan opwekken. Het herstelt ook de LP van een uitgeschakelde Pokémon tot het maximum.
+item_desc_41,Het kaartje dat je nodig hebt om aan boord van het cruiseschip S.S. Anne te gaan. Er staat een tekening van een schip op.
+item_desc_42,Een voorwerp dat voorkomt dat wilde Pokémon van een laag niveau opduiken gedurende 200 stappen na gebruik.
+item_desc_43,Een voorwerp dat voorkomt dat wilde Pokémon van een laag niveau opduiken gedurende 250 stappen na gebruik.
+item_desc_44,Een voorwerp dat de kans op een kritieke treffer sterk verhoogt. Het kan slechts één keer worden gebruikt en verdwijnt als de Pokémon wordt teruggetrokken.
+item_desc_47,Een sterk bruisende frisdrank. Bij consumptie herstelt het 60 LP van een gewonde Pokémon.
+item_desc_48,Een zeer zoete en verfrissende drank. Bij consumptie herstelt het 80 LP van een gewonde Pokémon.
+item_desc_49,Een voorwerp dat het Aanval-attribuut van een Pokémon verhoogt tijdens een gevecht. Het effect verdwijnt zodra de Pokémon wordt teruggetrokken.
+item_desc_50,Een voorwerp dat het Sp. Verdediging-attribuut van een Pokémon verhoogt tijdens een gevecht. Het effect verdwijnt zodra de Pokémon wordt teruggetrokken.
+item_desc_51,Een voorwerp dat het Verdediging-attribuut van een Pokémon verhoogt tijdens een gevecht. Het effect verdwijnt zodra de Pokémon wordt teruggetrokken.
+item_desc_52,Een voorwerp dat het Snelheid-attribuut van een Pokémon verhoogt tijdens een gevecht. Het effect verdwijnt zodra de Pokémon wordt teruggetrokken.
+item_desc_53,Een voorwerp dat het Sp. Aanval-attribuut van een Pokémon verhoogt tijdens een gevecht. Het effect verdwijnt zodra de Pokémon wordt teruggetrokken.
 item_desc_54,Een kistje voor munten die zijn verkregen in het Slotwater-Casino.
-item_desc_55,It checks for unseen items in the area and makes noise and lights when it finds something.
-item_desc_58,An old and beat-up fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.
-item_desc_59,A new, good-quality fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.
-item_desc_61,An awesome, high-tech fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.
-item_desc_62,A medicine that can slightly raise the maximum PP of a single move that has been learned by the target Pokémon.
-item_desc_62,A medicine that can slightly raise the maximum PP of a single move that has been learned by the target Pokémon.
-item_desc_63,This medicine can restore 10 PP to a single selected move that has been learned by a Pokémon.
-item_desc_64,This medicine can fully restore the PP of a single selected move that has been learned by a Pokémon.
-item_desc_65,This medicine can restore 10 PP to each of the moves that have been learned by a Pokémon.
-item_desc_68,An item that prevents stat reduction among the Trainer's party Pokémon for five turns after it is used in battle.
-item_desc_75,A strange, gold-colored leaf.
-item_desc_78,A new pair of shoes to make you run faster.
-item_desc_86,A very small and rare mushroom. It's popular with a certain class of collectors and sought out by them.
-item_desc_87,A very large and rare mushroom. It's popular with a certain class of collectors and sought out by them.
-item_desc_109,A rare bone that is extremely valuable for the study of Pokémon archeology. It can be sold for a high price to shops.
-item_desc_110,A rather small pearl that has a very nice silvery sheen to it. It can be sold cheaply to shops.
-item_desc_111,A rather large pearl that has a very nice silvery sheen. It can be sold to shops for a high price.
-item_desc_127,Een kaartsleutel die een deur opent in het Silph Co. Warenhuis.
-item_desc_131,Lovely, red sand that flows between the fingers with a loose, silky feel. It can be sold at a high price to shops.
-item_desc_132,A small shard of a beautiful gem that demonstrates a distinctly red sparkle. It can be sold at a high price to shops.
-item_desc_135,A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.
-item_desc_136,A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.
+item_desc_55,Het spoort onzichtbare items in de omgeving op en maakt geluid en licht wanneer het iets vindt.
+item_desc_58,Een oude en versleten hengel. Gebruik hem bij elk wateroppervlak om wilde water-Pokémon te vangen.
+item_desc_59,Een nieuwe hengel van goede kwaliteit. Gebruik hem bij elk wateroppervlak om wilde water-Pokémon te vangen.
+item_desc_61,Een geweldige, high-tech hengel. Gebruik hem bij elk wateroppervlak om wilde water-Pokémon te vangen.
+item_desc_62,Een medicijn dat de maximale KP van een enkele aanval die het doel-Pokémon heeft geleerd licht kan verhogen.
+item_desc_62,Een medicijn dat de maximale KP van een enkele aanval die het doel-Pokémon heeft geleerd licht kan verhogen.
+item_desc_63,Dit medicijn kan 10 KP herstellen van één geselecteerde aanval die een Pokémon heeft geleerd.
+item_desc_64,Dit medicijn kan de KP van één geselecteerde aanval die een Pokémon heeft geleerd volledig herstellen.
+item_desc_65,Dit medicijn kan 10 KP herstellen van elke aanval die een Pokémon heeft geleerd.
+item_desc_68,Een voorwerp dat voorkomt dat de attributen van Pokémon in het team van de Trainer worden verlaagd gedurende vijf beurten na gebruik in een gevecht.
+item_desc_75,Een vreemd, goudkleurig blad.
+item_desc_78,Een nieuw paar schoenen om je sneller te laten rennen.
+item_desc_86,Een zeer kleine en zeldzame paddenstoel. Hij is populair bij een bepaalde groep verzamelaars en wordt door hen gezocht.
+item_desc_87,Een zeer grote en zeldzame paddenstoel. Hij is populair bij een bepaalde groep verzamelaars en wordt door hen gezocht.
+item_desc_109,Een zeldzaam bot dat extreem waardevol is voor de studie van Pokémon-archeologie. Het kan voor een hoge prijs aan winkels worden verkocht.
+item_desc_110,Een vrij kleine parel met een mooie zilverachtige glans. Ze kan goedkoop aan winkels worden verkocht.
+item_desc_111,Een vrij grote parel met een mooie zilverachtige glans. Ze kan voor een hoge prijs aan winkels worden verkocht.
+item_desc_127,Een sleutelkaart die een deur opent in het Silph Co. Warenhuis.
+item_desc_131,Prachtig rood zand dat los en zijdeachtig door de vingers glijdt. Het kan voor een hoge prijs aan winkels worden verkocht.
+item_desc_132,Een kleine scherf van een prachtige edelsteen die een duidelijk rode schittering vertoont. Het kan voor een hoge prijs aan winkels worden verkocht.
+item_desc_135,Een eigenaardige steen die bepaalde soorten Pokémon laat evolueren. Hij straalt een verblindend licht uit.
+item_desc_136,Een eigenaardige steen die bepaalde soorten Pokémon laat evolueren. Hij is zo donker als maar kan.
 item_desc_181,Een speciale Pokébal die alleen in het Tromtorenpark wordt gebruikt. Hij is versierd met een camouflagepatroon.
-item_desc_593,A peculiar stone that can make certain species of Pokémon evolve. It has an unmistakable snowflake pattern.
-item_desc_601,A fossil from a prehistoric Pokémon that once lived in the sea. It might be a piece of a seashell.
-item_desc_602,A fossil from a prehistoric Pokémon that once lived in the sea. It could be a shell or carapace.
-item_desc_606,A fossil from a prehistoric Pokémon that once lived on the land. It appears as though it's part of a head.
-item_desc_658,Turning on this special device will allow all the Pokémon on your team to receive Exp. Points from battles.
+item_desc_593,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. Hij heeft een onmiskenbaar sneeuwvlokpatroon.
+item_desc_601,Een fossiel van een prehistorische Pokémon die ooit in de zee leefde. Het zou een stukje schelp kunnen zijn.
+item_desc_602,Een fossiel van een prehistorische Pokémon die ooit in de zee leefde. Het zou een schelp of pantser kunnen zijn.
+item_desc_606,Een fossiel van een prehistorische Pokémon die ooit op het land leefde. Het lijkt alsof het deel van een hoofd is.
+item_desc_658,Door dit speciale apparaat aan te zetten ontvangen alle Pokémon in je team Ervaringspunten uit gevechten.
+
 
 [GameMode Items]
 item_desc_gm0,De pizza die Tim bestelde. Geef maar aan hem voordat hij koud wordt!
@@ -3447,17 +3450,18 @@ item_desc_gm80,Een brief met een Natu erop. Schrijf er een bericht op en laat he
 item_desc_gm81,Brief met een tekening van de houder erop. Schrijf er een bericht op en laat het vasthouden door een Pokémon.
 item_desc_gm82,Een brief met een Lapras erop. Schrijf er een bericht op en laat het vasthouden door een Pokémon.
 
-item_desc_gm84,A crown shaped rock that can make certain species of Pokémon evolve.
-item_desc_gm85,It is a special metallic film that can make certain species of Pokémon evolve.
-item_desc_gm86,A protective item of some sort that can evolve a certain species of Pokémon. It is extremely stiff and heavy.
-item_desc_gm87,A box packed with a tremendous amount of electric energy that can evolve a certain species of Pokémon.
-item_desc_gm88,A box packed with a tremendous amount of magma energy that can evolve a certain species of Pokémon.
-item_desc_gm89,A transparent device somehow filled with all sorts of data that can evolve a certain Pokémon. It was produced by Silph Co.
-item_desc_gm90,A transparent device overflowing with dubious data that can evolve a certain Pokémon. Its producer is unknown.
-item_desc_gm91,A sharply hooked claw that can evolve a certain species of Pokémon.
-item_desc_gm92,A sharp fang that can evolve a certain species of Pokémon.
-item_desc_gm93,A very tough and inflexible scale. It can make a certain species of Pokémon evolve.
-item_desc_gm94,An item to be held by a Pokémon. It makes the holder earn extra Exp. Points in battle as if it was traded.
+item_desc_gm84,Een kroonvormige steen die bepaalde soorten Pokémon kan laten evolueren.
+item_desc_gm85,Een speciale metalen folie die bepaalde soorten Pokémon kan laten evolueren.
+item_desc_gm86,Een beschermend voorwerp dat een bepaalde soort Pokémon kan laten evolueren. Het is extreem stijf en zwaar.
+item_desc_gm87,Een doos gevuld met een enorme hoeveelheid elektrische energie die een bepaalde soort Pokémon kan laten evolueren.
+item_desc_gm88,Een doos gevuld met een enorme hoeveelheid magma-energie die een bepaalde soort Pokémon kan laten evolueren.
+item_desc_gm89,Een transparant apparaat dat op de een of andere manier gevuld is met allerlei data en een bepaalde Pokémon kan laten evolueren. Het is geproduceerd door Silph Co.
+item_desc_gm90,Een transparant apparaat dat overstroomt van dubieuze data en een bepaalde Pokémon kan laten evolueren. De producent is onbekend.
+item_desc_gm91,Een scherp gekromde klauw die een bepaalde soort Pokémon kan laten evolueren.
+item_desc_gm92,Een scherpe hoektand die een bepaalde soort Pokémon kan laten evolueren.
+item_desc_gm93,Een zeer harde en onbuigzame schub. Het kan een bepaalde soort Pokémon laten evolueren.
+item_desc_gm94,Een voorwerp dat door een Pokémon moet worden vastgehouden. Het zorgt ervoor dat de drager extra Ervaringspunten verdient in gevechten, alsof hij geruild is.
+
 ----
 Item Use Text:
 item_cannot_use,<Player.Name>: Hmm... Ik denk niet~dat ik dit nu kan gebruiken.
@@ -4027,7 +4031,7 @@ move_name_583,Ruw spel
 move_name_584,Feeënwind
 move_name_585,Maanknal
 move_name_586,Boomburst
-move_name_588,Kings Shield
+move_name_588,King's Shield
 move_name_589,Play Nice
 move_name_590,Confide
 move_name_591,Diamond Storm
@@ -4278,7 +4282,7 @@ move_desc_120,De gebruiker valt alles om zich heen aan door een explosie te vero
 move_desc_121,Een groot ei wordt met maximale kracht naar het doelwit geslingerd om schade toe te brengen.
 move_desc_122,Het doelwit wordt gelikt met een lange tong, wat schade veroorzaakt. Het kan het doelwit ook verlammen.
 move_desc_123,Het doelwit wordt aangevallen met een uitstoot van smerige gassen. Het kan het doelwit ook vergiftigen.
-move_desc_124,Onhygiënische smurrie wordt naar het doelwit geslingerd. Het kan het doelwit ook vergiftigen.
+move_desc_124,Onhygiënisch slijk wordt naar het doelwit geslingerd. Het kan het doelwit ook vergiftigen.
 move_desc_125,De gebruiker slaat het doelwit met een bot. Het kan het doelwit ook doen terugdeinzen.
 move_desc_126,Het doelwit wordt aangevallen met een intense vuurzee. Het kan het doelwit ook verbranden.
 move_desc_127,De gebruiker valt het doelwit aan en kan het laten terugdeinzen. Het kan ook worden gebruikt om een waterval te beklimmen.
@@ -4320,64 +4324,100 @@ move_desc_162,De gebruiker beukt hard op het doelwit met zijn scherpe voortanden
 move_desc_163,Het doelwit wordt aangevallen met een slag van klauwen of messen. Kritieke treffers komen gemakkelijker aan.
 move_desc_164,De gebruiker maakt een kopie van zichzelf met behulp van een deel van zijn LP. De kopie dient als afleiding voor de gebruiker.
 move_desc_165,Een wanhoopsaanval die alleen wordt gebruikt als de gebruiker geen KP heeft. Het doet de gebruiker ook een beetje pijn.
+
 move_desc_167,Een opeenvolgende aanval met drie schoppen die krachtiger wordt bij elke opeenvolgende treffer.
+
 move_desc_172,De gebruiker hult zichzelf in vuur en valt het doelwit aan. Het kan het doelwit ook verbranden.
+
 move_desc_177,Een draaikolk van lucht wordt naar het doel geschoten om schade toe te brengen. Kritieke treffers komen gemakkelijker aan.
 move_desc_178,De gebruiker verspreidt katoenachtige sporen die zich aan het doelwit vastklampen, waardoor zijn Snelheid-attribuut sterk afneemt.
+
 move_desc_181,De gebruiker valt aan met een ijzingwekkende vlaag poederachtige sneeuw. Het kan het doelwit ook bevriezen.
+
 move_desc_183,De gebruiker geeft een stoot met verblindende snelheid. Hij zal zeker als eerste toeslaan.
 move_desc_184,De gebruiker schrikt het doelwit af met een eng gezicht om zijn Snelheid-attribuut te verlagen.
 move_desc_185,De gebruiker benadert het doelwit ontwapenend en haalt dan uit met een onverwachtse hoek. Deze raakt altijd.
 move_desc_186,De gebruiker kust het doelwit met een zoete, engelachtige schattigheid die verwarring veroorzaakt.
+
 move_desc_188,Onhygiënische smurrie wordt naar het doelwit geslingerd. Het kan het doelwit ook vergiftigen.
 move_desc_189,De gebruiker gooit modder in het gezicht van het doelwit om schade toe te brengen en zijn nauwkeurigheid te verlagen.
 move_desc_190,De gebruiker valt aan door inkt in het gezicht of de ogen van het doelwit te spuiten. Het kan ook de nauwkeurigheid van het doelwit verlagen.
+
 move_desc_192,De gebruiker vuurt een elektrische straal af als een kanon om schade toe te brengen en verlamming te veroorzaken.
+
 move_desc_196,De gebruiker valt aan met een koude windvlaag. Dit vermindert ook de Snelheid-attributen van de doelwitten.
+
 move_desc_198,De gebruiker slaat het doelwit twee tot vijf keer achter elkaar met een hard bot.
+
 move_desc_200,De gebruiker gaat tekeer en valt aan gedurende twee tot drie beurten. Daarna raakt hij echter in de war.
+
 move_desc_202,Een voedingsstoffen-onttrekkende aanval. De LP van de gebruiker wordt hersteld met de helft van de schade die het doelwit oploopt.
+
 move_desc_204,De gebruiker kijkt het doelwit nogal charmant aan, waardoor het minder op zijn hoede is. Het Aanval-attribuut van het doelwit wordt sterk verlaagd.
 move_desc_205,De gebruiker rolt voortdurend tegen het doelwit aan gedurende vijf beurten. Het wordt sterker elke keer dat het raakt.
 move_desc_206,Een terughoudende aanval die voorkomt dat het doelwit uitgeschakeld wordt. Het doelwit houdt minstens 1 LP over.
+
 move_desc_209,De gebruiker maakt een elektrisch geladen tackle tegen het doelwit. Het kan het doelwit ook verlammen.
+
 move_desc_211,Het doelwit wordt geraakt met vleugels van staal. Het kan ook het Verdediging-attribuut van de gebruiker verhogen.
+
 move_desc_221,Het doelwit wordt bestookt met een mystiek vuur van grote intensiteit. Het kan het doelwit ook verbranden.
+
 move_desc_223,De gebruiker stompt het doelwit met volledig geconcentreerde kracht. Het verwart het doelwit als het raakt.
 move_desc_224,Met behulp van zijn stoere en indrukwekkende hoorn ramt de gebruiker op het doelwit in zonder aarzelen.
 move_desc_225,De gebruiker ademt een machtige windvlaag uit die schade toebrengt. Het kan het doelwit ook verlammen.
+
 move_desc_230,Een zoete geur die het ontwijkingsvermogen van de tegenstander vermindert. Het lokt ook wilde Pokémon als het wordt gebruikt in het gras, enz.
 move_desc_231,Het doelwit wordt geslagen met een staalharde staart. Het kan ook het Verdediging-attribuut van het doelwit verlagen.
 move_desc_232,Het doelwit wordt geharkt met stalen klauwen. Het kan ook het Aanval-attribuut van de gebruiker verhogen.
+
 move_desc_234,De gebruiker herstelt zijn eigen LP. De hoeveelheid herwonnen LP varieert met het weer.
 move_desc_235,De gebruiker herstelt zijn eigen LP. De hoeveelheid herwonnen LP varieert met het weer.
 move_desc_236,De gebruiker herstelt zijn eigen LP. De hoeveelheid herwonnen LP varieert met het weer.
+
 move_desc_238,De gebruiker geeft een dubbele slag met gekruiste onderarmen. Kritieke treffers komen gemakkelijker aan.
 move_desc_239,De gebruiker zweept een venijnige tornado op om het andere team aan te vallen. Het kan doelwitten ook laten terugdeinzen.
+
 move_desc_242,De gebruiker vermorzelt het doelwit met scherpe hoektanden. Het kan ook het Verdediging-attribuut van het doelwit verlagen.
+
 move_desc_245,De gebruiker valt het doelwit aan met verblindende snelheid. Deze aanval gaat altijd voor elke andere techniek.
 move_desc_246,De gebruiker valt aan met een prehistorische kracht. Het kan ook alle attributen van de gebruiker in één keer verhogen.
 move_desc_247,De gebruiker slingert een schaduwachtige klodder naar het doelwit. Het kan ook het Sp. Verdediging-attribuut van het doelwit verlagen.
+
 move_desc_249,De gebruiker valt aan met een stoot die een rots kan verbrijzelen. Het kan ook het Verdediging-attribuut van het doelwit verlagen.
+
 move_desc_304,De gebruiker slaakt een afschuwelijk echoënde kreet met het vermogen om schade toe te brengen.
+
 move_desc_324,De gebruiker valt aan met een sinistere lichtstraal. Het kan het doelwit ook verwarren.
+
 move_desc_334,De gebruiker verhardt zijn lichaamsoppervlak alsof het ijzer is, waardoor zijn Verdediging-attribuut sterk toeneemt.
+
 move_desc_398,Het doelwit wordt gestoken met een tentakel of arm doordrenkt met gif. Het kan het doelwit ook vergiftigen.
 move_desc_399,De gebruiker laat een afschuwelijk aura vrij, doordrenkt met duistere gedachten. Het kan het doelwit ook laten terugdeinzen.
 move_desc_400,De gebruiker snijdt het doelwit zodra de kans zich voordoet. Kritieke treffers komen gemakkelijker aan.
+
 move_desc_402,De gebruiker smijt van bovenaf een spervuur van zaden met een harde schaal op het doelwit neer.
 move_desc_403,De gebruiker valt aan met een messcherpe windvlaag die zelfs de lucht doorsnijdt. Het kan het doelwit ook laten terugdeinzen.
 move_desc_404,De gebruiker hakt in op het doelwit door zijn zeisen of klauwen te kruisen als een schaar.
+
 move_desc_406,Het doelwit wordt aangevallen met een schokgolf die wordt opgewekt door de opengesperde mond van de gebruiker.
+
 move_desc_416,De gebruiker valt het doelwit aan met al zijn kracht. De gebruiker kan de volgende beurt geen techniek gebruiken.
+
 move_desc_430,De gebruiker verzamelt al zijn lichtenergie en stoot deze in één keer uit. Dit kan ook het Sp. Verdedigings-attribuut van het doelwit verlagen.
+
 move_desc_442,De gebruiker slaat het doelwit met zijn staalharde hoofd. Dit kan het doelwit ook laten terugdeinzen.
+
 move_desc_452,De gebruiker beukt met zijn robuuste lichaam tegen het doelwit om aan te vallen. De gebruiker loopt ook ernstige schade op.
+
 move_desc_577,De gebruiker steelt de energie van het doelwit met een kus. De LP van de gebruiker wordt hersteld met meer dan de helft van de schade die het doelwit heeft opgelopen.
+
 move_desc_583,De gebruiker speelt ruw met het doelwit en valt het aan. Dit kan ook het Aanval-attribuut van het doelwit verlagen.
 move_desc_584,De gebruiker wekt een feeënwind op en slaat het doelwit ermee.
 move_desc_585,Door de kracht van de maan te gebruiken, valt de gebruiker het doelwit aan. Dit kan ook het Sp. Aanval-attribuut van het doelwit verlagen.
+
 move_desc_790,De gebruiker valt het doelwit aan door stoom uit te stoten. Dit kan het doelwit ook verwarren.
+
 move_desc_797,De gebruiker zet zijn woede om in energie om aan te vallen. Hoe vaker de gebruiker is geraakt door aanvallen, hoe krachtiger de techniek.
 
 move_desc_1000,???
@@ -4397,418 +4437,449 @@ move_desc_1012,De gebruiker slaat het doelwit 2 tot 5 keer met een takje of ande
 move_desc_1051,De gebruiker valt het doelwit aan en kan het laten terugdeinzen.
 -------------------
 Ability Names:
-ability_name_1,Stench
-ability_name_2,Drizzle
-ability_name_3,Speed Boost
-ability_name_4,Battle Armor
-ability_name_5,Sturdy
-ability_name_6,Damp
-ability_name_7,Limber
-ability_name_8,Sand Veil
-ability_name_9,Static
-ability_name_10,Volt Absorb
-ability_name_11,Water Absorb
-ability_name_12,Oblivious
-ability_name_13,Cloud Nine
-ability_name_14,Compoundeyes
-ability_name_15,Insomnia
-ability_name_16,Color Change
-ability_name_17,Immunity
-ability_name_18,Flash Fire
-ability_name_19,Shield Dust
-ability_name_20,Own Tempo
-ability_name_21,Suction Cups
-ability_name_22,Intimidate
-ability_name_23,Shadow Tag
-ability_name_24,Rough Skin
-ability_name_25,Wonder Guard
-ability_name_26,Levitate
-ability_name_27,Effect Spore
-ability_name_28,Synchronize
-ability_name_29,Clear Body
-ability_name_30,Natural Cure
-ability_name_31,Lightningrod
-ability_name_32,Serene Grace
-ability_name_33,Swift Swim
-ability_name_34,Chlorophyll
-ability_name_35,Illuminate
-ability_name_36,Trace
-ability_name_37,Huge Power
-ability_name_38,Poison Point
-ability_name_39,Inner Focus
-ability_name_40,Magma Armor
-ability_name_41,Water Veil
-ability_name_42,Magnet Pull
-ability_name_43,Soundproof
-ability_name_44,Rain Dish
-ability_name_45,Sand Stream
-ability_name_46,Pressure
-ability_name_47,Thick Fat
-ability_name_48,Early Bird
-ability_name_49,Flame Body
-ability_name_50,Run Away
-ability_name_51,Keen Eye
-ability_name_52,Hyper Cutter
-ability_name_53,Pickup
-ability_name_54,Truant
-ability_name_55,Hustle
-ability_name_56,Cute Charm
+ability_name_1,Stank
+ability_name_2,Motregen
+ability_name_3,Snelheidsboost
+ability_name_4,Gevechtspantser
+ability_name_5,Stug
+ability_name_6,Vochtig
+ability_name_7,Lenig
+ability_name_8,Zandsluier
+ability_name_9,Statisch
+ability_name_10,Voltabsorptie
+ability_name_11,Waterabsorptie
+ability_name_12,Onwetend
+ability_name_13,Wolkbreuk
+ability_name_14,Combinatieogen
+ability_name_15,Slapeloos
+ability_name_16,Kleurverandering
+ability_name_17,Immuniteit
+ability_name_18,Flitsvuur
+ability_name_19,Schildstof
+ability_name_20,Eigen Tempo
+ability_name_21,Zuignappen
+ability_name_22,Intimidatie
+ability_name_23,Schaduwgrip
+ability_name_24,Ruwe Huid
+ability_name_25,Wonderwacht
+ability_name_26,Levitatie
+ability_name_27,Effectspoor
+ability_name_28,Synchronisatie
+ability_name_29,Helder Lichaam
+ability_name_30,Natuurlijke Genezing
+ability_name_31,Bliksemafleider
+ability_name_32,Serene Gratie
+ability_name_33,Snelle Zwemmer
+ability_name_34,Chlorofyl
+ability_name_35,Verlichten
+ability_name_36,Opsporen
+ability_name_37,Enorme Kracht
+ability_name_38,Gifpunt
+ability_name_39,Innerlijke Focus
+ability_name_40,Magmapantser
+ability_name_41,Watersluier
+ability_name_42,Magneettrekker
+ability_name_43,Geluidsdicht
+ability_name_44,Regenschotel
+ability_name_45,Zandstroom
+ability_name_46,Druk
+ability_name_47,Dikke Vetlaag
+ability_name_48,Vroege Vogel
+ability_name_49,Vlamlichaam
+ability_name_50,Wegloper
+ability_name_51,Scherp Oog
+ability_name_52,Hyperknipper
+ability_name_53,Oppakken
+ability_name_54,Lui
+ability_name_55,Haast
+ability_name_56,Schattige Charme
 ability_name_57,Plus
-ability_name_58,Minus
-ability_name_59,Forecast
-ability_name_60,Sticky Hold
-ability_name_61,Shed Skin
-ability_name_62,Guts
-ability_name_63,Marvel Scale
-ability_name_64,Liquid Ooze
-ability_name_65,Overgrow
-ability_name_66,Blaze
-ability_name_67,Torrent
-ability_name_68,Swarm
-ability_name_69,Rock Head
-ability_name_70,Drought
-ability_name_71,Arena Trap
-ability_name_72,Vital Spirit
-ability_name_73,White Smoke
-ability_name_74,Pure Power
-ability_name_75,Shell Armor
-ability_name_76,Air Lock
-ability_name_77,Tangled Feet
-ability_name_78,Motor Drive
-ability_name_79,Rivalry
-ability_name_80,Steadfast
-ability_name_81,Snow Cloak
-ability_name_82,Gluttony
-ability_name_83,Anger Point
-ability_name_84,Unburden
-ability_name_85,Heatproof
-ability_name_86,Simple
-ability_name_87,Dry Skin
+ability_name_58,Min
+ability_name_59,Weersvoorspelling
+ability_name_60,Kleverig
+ability_name_61,Vervellen
+ability_name_62,Doorzetter
+ability_name_63,Wonderschaal
+ability_name_64,Vloeibare Smurrie
+ability_name_65,Overgroei
+ability_name_66,Vuurzee
+ability_name_67,Stroomversnelling
+ability_name_68,Zwerm
+ability_name_69,Steenkop
+ability_name_70,Droogte
+ability_name_71,Arenaval
+ability_name_72,Levensgeest
+ability_name_73,Witte Rook
+ability_name_74,Pure Kracht
+ability_name_75,Schelppantser
+ability_name_76,Luchtvergrendeling
+ability_name_77,Verstrikte Voeten
+ability_name_78,Motoraandrijving
+ability_name_79,Rivaliteit
+ability_name_80,Standvastig
+ability_name_81,Sneeuwmantel
+ability_name_82,Vraatzucht
+ability_name_83,Woedepunt
+ability_name_84,Onbelast
+ability_name_85,Hittebestendig
+ability_name_86,Eenvoud
+ability_name_87,Droge Huid
 ability_name_88,Download
-ability_name_89,Iron Fist
-ability_name_90,Poison Heal
-ability_name_91,Adaptability
-ability_name_92,Skill Link
-ability_name_93,Hydration
-ability_name_94,Solar Power
-ability_name_95,Quick Feet
-ability_name_96,Normalize
-ability_name_97,Sniper
-ability_name_98,Magic Guard
-ability_name_99,No Guard
-ability_name_100,Stall
-ability_name_101,Technician
-ability_name_102,Leaf Guard
-ability_name_103,Klutz
-ability_name_104,Mold Breaker
-ability_name_105,Super Luck
-ability_name_106,Aftermath
-ability_name_107,Anticipation
-ability_name_108,Forewarn
-ability_name_109,Unaware
-ability_name_110,Tinted Lens
+ability_name_89,IJzeren Vuist
+ability_name_90,Gifgenezing
+ability_name_91,Aanpassingsvermogen
+ability_name_92,Vaardigheidslink
+ability_name_93,Hydratatie
+ability_name_94,Zonne-energie
+ability_name_95,Snelle Voeten
+ability_name_96,Normaliseren
+ability_name_97,Scherpschutter
+ability_name_98,Magische Wacht
+ability_name_99,Geen Wacht
+ability_name_100,Rek
+ability_name_101,Technicus
+ability_name_102,Bladwacht
+ability_name_103,Klungel
+ability_name_104,Vormbreker
+ability_name_105,Supergeluk
+ability_name_106,Nawerking
+ability_name_107,Voorgevoel
+ability_name_108,Voorspeller
+ability_name_109,Onbewust
+ability_name_110,Getinte Lens
 ability_name_111,Filter
-ability_name_112,Slow Start
-ability_name_113,Scrappy
-ability_name_114,Storm Drain
-ability_name_115,Ice Body
-ability_name_116,Solid Rock
-ability_name_117,Snow Warning
-ability_name_118,Honey Gather
-ability_name_119,Frisk
-ability_name_120,Reckless
-ability_name_121,Multitype
-ability_name_122,Flower Gift
-ability_name_123,Bad Dreams
-ability_name_124,Pickpocket
-ability_name_125,Sheer Force
-ability_name_126,Contrary
-ability_name_127,Unnerve
-ability_name_128,Defiant
-ability_name_129,Defeatist
-ability_name_130,Cursed Body
-ability_name_131,Healer
-ability_name_132,Friend Guard
-ability_name_133,Weak Armor
-ability_name_134,Heavy Metal
-ability_name_135,Light Metal
-ability_name_136,Multiscale
-ability_name_137,Toxic Boost
-ability_name_138,Flare Boost
-ability_name_139,Harvest
-ability_name_140,Telepathy
-ability_name_141,Moody
-ability_name_142,Overcoat
-ability_name_143,Poison Touch
+ability_name_112,Langzame Start
+ability_name_113,Stoer
+ability_name_114,Stormafvoer
+ability_name_115,IJslichaam
+ability_name_116,Massief Gesteente
+ability_name_117,Sneeuwaanval
+ability_name_118,Honingzoeker
+ability_name_119,Doorzoeken
+ability_name_120,Roekeloos
+ability_name_121,Meervoudig Type
+ability_name_122,Bloemgeschenk
+ability_name_123,Slechte Dromen
+ability_name_124,Zakkenroller
+ability_name_125,Pure Kracht
+ability_name_126,Tegendraads
+ability_name_127,Zenuwachtig
+ability_name_128,Trotser
+ability_name_129,Defaitistisch
+ability_name_130,Vervloekt Lichaam
+ability_name_131,Genezer
+ability_name_132,Vriendwacht
+ability_name_133,Zwak Pantser
+ability_name_134,Zwaar Metaal
+ability_name_135,Licht Metaal
+ability_name_136,Multischaal
+ability_name_137,Gifboost
+ability_name_138,Vlamboost
+ability_name_139,Oogst
+ability_name_140,Telepathie
+ability_name_141,Stemmingswissel
+ability_name_142,Overjas
+ability_name_143,Gifaanraking
 ability_name_144,Regenerator
-ability_name_145,Big Pecks
-ability_name_146,Sand Rush
-ability_name_147,Wonder Skin
-ability_name_148,Analytic
-ability_name_149,Illusion
-ability_name_150,Imposter
-ability_name_151,Infiltrator
-ability_name_152,Mummy
-ability_name_153,Moxie
-ability_name_154,Justified
-ability_name_155,Rattled
-ability_name_156,Magic Bounce
-ability_name_157,Sap Sipper
-ability_name_158,Prankster
-ability_name_159,Sand Force
-ability_name_160,Iron Barbs
-ability_name_161,Zen Mode
-ability_name_162,Victory Star
-ability_name_163,Turboblaze
+ability_name_145,Grote Bek
+ability_name_146,Zandstorm
+ability_name_147,Wonderhuid
+ability_name_148,Analyticus
+ability_name_149,Illusie
+ability_name_150,Bedrieger
+ability_name_151,Infiltrant
+ability_name_152,Mummie
+ability_name_153,Overmoedig
+ability_name_154,Gerechtvaardigd
+ability_name_155,Schrikachtig
+ability_name_156,Magische Stuiter
+ability_name_157,Sapzuiger
+ability_name_158,Grappenmaker
+ability_name_159,Zandkracht
+ability_name_160,IJzeren Stekels
+ability_name_161,Zenmodus
+ability_name_162,Overwinningsster
+ability_name_163,Turbovlam
 ability_name_164,Teravolt
-ability_name_165,Aroma Veil
-ability_name_166,Flower Veil
-ability_name_167,Cheek Pouch
-ability_name_168,Protean
-ability_name_169,Fur Coat
-ability_name_170,Magician
-ability_name_171,Bulletproof
-ability_name_172,Competitive
-ability_name_173,Strong Jaw
-ability_name_174,Refrigerate
-ability_name_175,Sweet Veil
-ability_name_176,Stance Change
-ability_name_177,Gale Wings
-ability_name_178,Mega Launcher
-ability_name_179,Grass Pelt
-ability_name_180,Symbiosis
-ability_name_181,Tough Claws
-ability_name_182,Pixilate
-ability_name_183,Gooey
-ability_name_184,Aerilate
-ability_name_185,Parental Bond
-ability_name_186,Dark Aura
-ability_name_187,Fairy Aura
-ability_name_188,Aura Break
+ability_name_165,Aromasluier
+ability_name_166,Bloemensluier
+ability_name_167,Wangenzak
+ability_name_168,Veelzijdig
+ability_name_169,Bontjas
+ability_name_170,Magiër
+ability_name_171,Kogelvrij
+ability_name_172,Competitief
+ability_name_173,Sterke Kaak
+ability_name_174,Afkoelen
+ability_name_175,Zoete Sluier
+ability_name_176,Houdingsverandering
+ability_name_177,Windvleugels
+ability_name_178,Megalanceerder
+ability_name_179,Grasvacht
+ability_name_180,Symbiose
+ability_name_181,Scherpe Klauwen
+ability_name_182,Pixilatie
+ability_name_183,Plakkerig
+ability_name_184,Aerilatie
+ability_name_185,Ouderlijke Band
+ability_name_186,Donkeraura
+ability_name_187,Feeënaura
+ability_name_188,Aurabreuk
 
-ability_name_202,Slush Rush
+ability_name_202,Sneeuwstorm
 
-ability_name_206,Galvanize
-ability_name_207,Surge Surfer
+ability_name_206,Galvaniseren
+ability_name_207,Stroomgolfsurfer
 
-ability_name_221,Tangling Hair
+ability_name_221,Verstrikkend Haar
 
-ability_name_223,Power of Alchemy
+ability_name_223,Alchemiekracht
 
-ability_name_226,Electric Surge
-ability_name_227,Psychic Surge
-ability_name_228,Misty Surge
-ability_name_229,Grassy Surge
+ability_name_226,Elektrische Golf
+ability_name_227,Psychische Golf
+ability_name_228,Mistige Golf
+ability_name_229,Grasgolf
 
-ability_name_243,Steam Engine
+ability_name_243,Stoommotor
 
-ability_name_291,Cud Chew
+ability_name_291,Herkauwer
+
 -------------------
 Ability Descriptions:
-ability_desc_1,The stench may cause the target to flinch.
-ability_desc_2,The Pokémon makes it rain if it appears in battle.
-ability_desc_3,Its Speed stat is gradually boosted.
-ability_desc_4,The Pokémon is protected against critical hits.
-ability_desc_5,It cannot be knocked out with one hit.
-ability_desc_6,Prevents the use of self-destructing moves.
-ability_desc_7,The Pokémon is protected from paralysis.
-ability_desc_8,Boosts the Pokémon's evasion in a sandstorm.
-ability_desc_9,Contact with the Pokémon may cause paralysis.
-ability_desc_10,Restores HP if hit by an Electric-type move.
-ability_desc_11,Restores HP if hit by a Water-type move.
-ability_desc_12,Prevents it from becoming infatuated.
-ability_desc_13,Eliminates the effects of weather.
-ability_desc_14,The Pokémon's accuracy is boosted.
-ability_desc_15,Prevents the Pokémon from falling asleep.
-ability_desc_16,Changes the Pokémon's type to the foe's move.
-ability_desc_17,Prevents the Pokémon from getting poisoned.
-ability_desc_18,It powers up Fire-type moves if it's hit by one.
-ability_desc_19,Blocks the added effects of attacks taken.
-ability_desc_20,Prevents the Pokémon from becoming confused.
-ability_desc_21,Negates all moves that force switching out.
-ability_desc_22,Lowers the foe's Attack stat.
-ability_desc_23,Prevents the foe from escaping.
-ability_desc_24,Inflicts damage to the attacker on contact.
-ability_desc_25,Only supereffective moves will hit.
-ability_desc_26,Gives full immunity to all Ground-type moves.
-ability_desc_27,Contact may poison or cause paralysis or sleep.
-ability_desc_28,Passes a burn or paralysis to the foe.
-ability_desc_29,Prevents other Pokémon from lowering its stats.
-ability_desc_30,All status problems heal when it switches out.
-ability_desc_31,Draws in all Electric-type moves to up Sp. Attack.
-ability_desc_32,Boosts the likelihood of added effects appearing.
-ability_desc_33,Boosts the Pokémon's Speed in rain.
-ability_desc_34,Boosts the Pokémon's Speed in sunshine.
-ability_desc_35,Raises the likelihood of meeting wild Pokémon.
-ability_desc_36,The Pokémon copies a foe's Ability.
-ability_desc_37,Raises the Pokémon's Attack stat.
-ability_desc_38,Contact with the Pokémon may poison the attacker.
-ability_desc_39,The Pokémon is protected from flinching.
-ability_desc_40,Prevents the Pokémon from becoming frozen.
-ability_desc_41,Prevents the Pokémon from getting a burn.
-ability_desc_42,Prevents Steel-type Pokémon from escaping.
-ability_desc_43,Gives full immunity to all sound-based moves.
-ability_desc_44,The Pokémon gradually regains HP in rain.
-ability_desc_45,The Pokémon summons a sandstorm in battle.
-ability_desc_46,The Pokémon raises the foe's PP usage.
-ability_desc_47,Ups resistance to Fire- and Ice-type moves.
-ability_desc_48,The Pokémon awakens quickly from sleep.
-ability_desc_49,Contact with the Pokémon may burn the attacker.
-ability_desc_50,Enables a sure getaway from wild Pokémon.
-ability_desc_51,Prevents other Pokémon from lowering accuracy.
-ability_desc_52,Prevents other Pokémon from lowering Attack stat.
-ability_desc_53,The Pokémon may pick up items.
-ability_desc_54,Pokémon can't attack on consecutive turns.
-ability_desc_55,Boosts the Attack stat but lowers accuracy.
-ability_desc_56,Contact with the Pokémon may cause infatuation.
-ability_desc_57,Ups Sp. Atk. if another Pokémon has Plus or Minus.
-ability_desc_58,Ups Sp. Atk. if another Pokémon has Plus or Minus.
-ability_desc_59,Castform transforms with the weather.
-ability_desc_60,Protects the Pokémon from item theft.
-ability_desc_61,The Pokémon may heal its own status problems.
-ability_desc_62,Boosts Attack if there is a status problem.
-ability_desc_63,Ups Defense if there is a status problem.
-ability_desc_64,Damages attackers using any draining move.
-ability_desc_65,Powers up Grass-type moves in a pinch.
-ability_desc_66,Powers up Fire-type moves in a pinch.
-ability_desc_67,Powers up Water-type moves in a pinch.
-ability_desc_68,Powers up Bug-type moves in a pinch.
-ability_desc_69,Protects the Pokémon from recoil damage.
-ability_desc_70,Turns the sunlight harsh if it is in battle.
-ability_desc_71,Prevents the foe from fleeing.
-ability_desc_72,Prevents the Pokémon from falling asleep.
-ability_desc_73,Prevents other Pokémon from lowering its stats.
-ability_desc_74,Raises the Pokémon's Attack stat.
-ability_desc_75,The Pokémon is protected against critical hits.
-ability_desc_76,Eliminates the effects of weather.
-ability_desc_77,Raises evasion if the Pokémon is confused.
-ability_desc_78,Raises Speed if hit by an Electric-type move.
-ability_desc_79,Deals more damage to a Pokémon of same gender.
-ability_desc_80,Raises Speed each time the Pokémon flinches.
-ability_desc_81,Raises evasion in a hailstorm.
-ability_desc_82,Encourages the early use of a held Berry.
-ability_desc_83,Maxes Attack after taking a critical hit.
-ability_desc_84,Raises Speed if a held item is used.
-ability_desc_85,Weakens the power of Fire-type moves.
-ability_desc_86,The Pokémon is prone to wild stat changes.
-ability_desc_87,Reduces HP if it is hot. Water restores HP.
-ability_desc_88,Adjusts power according to a foe's defenses.
-ability_desc_89,Boosts the power of punching moves.
-ability_desc_90,Restores HP if the Pokémon is poisoned.
-ability_desc_91,Powers up moves of the same type.
-ability_desc_92,Increases the frequency of multi-strike moves.
-ability_desc_93,Heals status problems if it is raining.
-ability_desc_94,In sunshine boosted but HP decreases.
-ability_desc_95,Boosts Speed if there is a status problem.
-ability_desc_96,All the Pokémon's moves become the Normal type.
-ability_desc_97,Powers up moves if they become critical hits.
-ability_desc_98,The Pokémon only takes damage from attacks.
-ability_desc_99,Ensures attacks by or against the Pokémon land.
-ability_desc_100,The Pokémon moves after all other Pokémon do.
-ability_desc_101,Powers up the Pokémon's weaker moves.
-ability_desc_102,Prevents problems with status in sunny weather.
-ability_desc_103,The Pokémon can't use any held items.
-ability_desc_104,Moves can be used regardless of Abilities.
-ability_desc_105,Heightens the critical- hit ratios of moves.
-ability_desc_106,Damages the attacker landing the finishing hit.
-ability_desc_107,Senses a foe's dangerous moves.
-ability_desc_108,Determines what moves a foe has.
-ability_desc_109,Ignores any stat changes in the Pokémon.
-ability_desc_110,Powers up not very effective moves.
-ability_desc_111,Reduces damage from supereffective attacks.
-ability_desc_112,Temporarily halves Attack and Speed.
-ability_desc_113,Enables moves to hit Ghost-type Pokémon.
-ability_desc_114,Draws in all Water-type moves to up Sp. Attack.
-ability_desc_115,The Pokémon gradually regains HP in a hailstorm.
-ability_desc_116,Reduces damage from supereffective attacks.
-ability_desc_117,The Pokémon summons a hailstorm in battle.
-ability_desc_118,The Pokémon may gather Honey from somewhere.
-ability_desc_119,The Pokémon can check a foe's held item.
-ability_desc_120,Powers up moves that have recoil damage.
-ability_desc_121,Changes type to match the held Plate.
-ability_desc_122,Powers up party Pokémon when it is sunny.
-ability_desc_123,Reduces a sleeping foe's HP.
-ability_desc_124,Steals an item when hit by another Pokémon.
-ability_desc_125,Removes added effects to increase move damage.
-ability_desc_126,Makes stat changes have an opposite effect.
-ability_desc_127,Makes the foe nervous and unable to eat Berries.
-ability_desc_128,When its stats are lowered its Attack increases.
-ability_desc_129,Lowers stats when HP becomes half or less.
-ability_desc_130,May disable a move used on the Pokémon.
-ability_desc_131,May heal an ally's status conditions.
-ability_desc_132,Reduces damage done to allies.
-ability_desc_133,Physical attacks lower Defense and raise Speed.
-ability_desc_134,Doubles the Pokémon's weight.
-ability_desc_135,Halves the Pokémon's weight.
-ability_desc_136,Reduces damage when HP is full.
-ability_desc_137,Powers up physical attacks when poisoned.
-ability_desc_138,Powers up special attacks when burned.
-ability_desc_139,May create another Berry after one is used.
-ability_desc_140,Anticipates an ally's attack and dodges it.
-ability_desc_141,Raises one stat and lowers another.
-ability_desc_142,Protects the Pokémon from damage from weather.
-ability_desc_143,May poison targets when a Pokémon makes contact.
-ability_desc_144,Restores a little HP when withdrawn from battle.
-ability_desc_145,Protects the Pokémon from Defense-lowering attacks.
-ability_desc_146,Boosts the Pokémon's Speed in a sandstorm.
-ability_desc_147,Makes status-changing moves more likely to miss.
-ability_desc_148,Boosts move power when the Pokémon moves last.
-ability_desc_149,Comes out disguised as the Pokémon in back.
-ability_desc_150,It transforms itself into the Pokémon it is facing.
-ability_desc_151,Passes through the foe's barrier and strikes.
-ability_desc_152,Contact with this Pokémon spreads this Ability.
-ability_desc_153,Boosts Attack after knocking out any Pokémon.
-ability_desc_154,Raises Attack when hit by a Dark-type move.
-ability_desc_155,Some move types scare it and boost its Speed.
-ability_desc_156,Reflects status- changing moves.
-ability_desc_157,Boosts Attack when hit by a Grass-type move.
-ability_desc_158,Gives priority to a status move.
-ability_desc_159,Boosts certain moves' power in a sandstorm.
-ability_desc_160,Inflicts damage to the Pokémon on contact.
-ability_desc_161,Changes the Pokémon's shape when HP is halved.
-ability_desc_162,Boosts the accuracy of its allies and itself.
-ability_desc_163,Moves can be used regardless of Abilities.
-ability_desc_164,Moves can be used regardless of Abilities.
-ability_desc_165,Protects allies from attacks that limit their move choices.
-ability_desc_166,Prevents lowering of ally Grass-type Pokémon's stats.
-ability_desc_167,Restores HP as well when the Pokémon eats a Berry.
-ability_desc_168,Changes the Pokémon's type to the same type of the move it is using.
-ability_desc_169,Halves damage from physical moves.
-ability_desc_170,The Pokémon steals the held item of a Pokémon it hits with a move.
-ability_desc_171,Protects the Pokémon from some ball and bomb moves.
-ability_desc_172,Boosts the Sp. Atk. stat when a stat is lowered.
-ability_desc_173,The Pokémon's strong jaw gives it tremendous biting power.
-ability_desc_174,Normal-type moves become Ice-type moves.
-ability_desc_175,Prevents itself and its allies from falling asleep.
-ability_desc_176,The Pokémon changes form depending on how it battles.
-ability_desc_177,Gives priority to Flying-type moves.
-ability_desc_178,Powers up aura and pulse moves.
-ability_desc_179,Boosts the Defense stat in Grassy Terrain.
-ability_desc_180,The Pokémon can pass an item to an ally.
-ability_desc_181,Powers up moves that make direct contact.
-ability_desc_182,Normal-type moves become Fairy-type moves.
-ability_desc_183,Contact with the Pokémon lowers the attacker's Speed stat.
-ability_desc_184,Normal-type moves become Flying-type moves.
-ability_desc_185,Parent and child attack together.
-ability_desc_186,Powers up each Pokémon's Dark-type moves.
-ability_desc_187,Powers up each Pokémon's Fairy-type moves.
-ability_desc_188,The effects of Aura Abilities are reversed.
+ability_desc_1,De stank kan het doelwit laten terugdeinzen.
+ability_desc_2,De Pokémon laat het regenen wanneer hij het gevecht betreedt.
+ability_desc_3,Het Snelheid-attribuut wordt geleidelijk verhoogd.
+ability_desc_4,De Pokémon is beschermd tegen voltreffers.
+ability_desc_5,Hij kan niet met één klap worden uitgeschakeld.
+ability_desc_6,Voorkomt het gebruik van zelfvernietigende aanvallen.
+ability_desc_7,De Pokémon is beschermd tegen verlamming.
+ability_desc_8,Verhoogt het ontwijkingsvermogen van de Pokémon in een zandstorm.
+ability_desc_9,Contact met de Pokémon kan verlamming veroorzaken.
+ability_desc_10,Herstelt LP wanneer hij geraakt wordt door een Elektrische aanval.
+ability_desc_11,Herstelt LP wanneer hij geraakt wordt door een Water-aanval.
+ability_desc_12,Voorkomt dat hij verliefd wordt.
+ability_desc_13,Elimineert de effecten van het weer.
+ability_desc_14,De nauwkeurigheid van de Pokémon wordt verhoogd.
+ability_desc_15,Voorkomt dat de Pokémon in slaap valt.
+ability_desc_16,Verandert het type van de Pokémon naar dat van de aanval van de tegenstander.
+ability_desc_17,Voorkomt dat de Pokémon vergiftigd raakt.
+ability_desc_18,Versterkt Vuur-aanvallen wanneer hij door één geraakt wordt.
+ability_desc_19,Blokkeert bijkomende effecten van ontvangen aanvallen.
+ability_desc_20,Voorkomt dat de Pokémon verward raakt.
+ability_desc_21,Neutraliseert alle aanvallen die wisselen forceren.
+ability_desc_22,Verlaagt het Aanval-attribuut van de tegenstander.
+ability_desc_23,Voorkomt dat de tegenstander kan ontsnappen.
+ability_desc_24,Veroorzaakt schade bij de aanvaller bij contact.
+ability_desc_25,Alleen supereffectieve aanvallen raken.
+ability_desc_26,Geeft volledige immuniteit tegen alle Grond-aanvallen.
+ability_desc_27,Contact kan vergiftiging, verlamming of slaap veroorzaken.
+ability_desc_28,Geeft verbranding of verlamming door aan de tegenstander.
+ability_desc_29,Voorkomt dat andere Pokémon zijn attributen verlagen.
+ability_desc_30,Alle statusproblemen genezen wanneer hij teruggetrokken wordt.
+ability_desc_31,Trekt alle Elektrische aanvallen aan om het Sp. Aanval-attribuut te verhogen.
+ability_desc_32,Verhoogt de kans op bijkomende effecten.
+ability_desc_33,Verhoogt de Snelheid van de Pokémon wanneer het regent.
+ability_desc_34,Verhoogt de Snelheid van de Pokémon bij zonneschijn.
+ability_desc_35,Vergroot de kans om wilde Pokémon te ontmoeten.
+ability_desc_36,De Pokémon kopieert de Vaardigheid van de tegenstander.
+ability_desc_37,Verhoogt het Aanval-attribuut van de Pokémon.
+ability_desc_38,Contact met de Pokémon kan de aanvaller vergiftigen.
+ability_desc_39,De Pokémon is beschermd tegen terugdeinzen.
+ability_desc_40,Voorkomt dat de Pokémon bevriest.
+ability_desc_41,Voorkomt dat de Pokémon verbrand raakt.
+ability_desc_42,Voorkomt dat Staal-Pokémon kunnen ontsnappen.
+ability_desc_43,Geeft volledige immuniteit tegen geluid-gebaseerde aanvallen.
+ability_desc_44,De Pokémon herstelt geleidelijk LP in regen.
+ability_desc_45,De Pokémon roept een zandstorm op tijdens het gevecht.
+ability_desc_46,De Pokémon verhoogt het KP-verbruik van de tegenstander.
+ability_desc_47,Verhoogt weerstand tegen Vuur- en IJs-aanvallen.
+ability_desc_48,De Pokémon wordt snel wakker wanneer hij in slaap is.
+ability_desc_49,Contact met de Pokémon kan de aanvaller verbranden.
+ability_desc_50,Maakt ontsnappen van wilde Pokémon gegarandeerd.
+ability_desc_51,Voorkomt dat andere Pokémon zijn nauwkeurigheid verlagen.
+ability_desc_52,Voorkomt dat andere Pokémon het Aanval-attribuut verlagen.
+ability_desc_53,De Pokémon kan voorwerpen oprapen.
+ability_desc_54,De Pokémon kan niet twee beurten achter elkaar aanvallen.
+ability_desc_55,Verhoogt het Aanval-attribuut maar verlaagt nauwkeurigheid.
+ability_desc_56,Contact met de Pokémon kan verliefdheid veroorzaken.
+ability_desc_57,Verhoogt het Sp. Aanval-attribuut als een andere Pokémon Plus of Min heeft.
+ability_desc_58,Verhoogt het Sp. Aanval-attribuut als een andere Pokémon Plus of Min heeft.
+ability_desc_59,Castform verandert met het weer.
+ability_desc_60,Beschermt de Pokémon tegen diefstal van voorwerpen.
+ability_desc_61,De Pokémon kan zijn eigen statusproblemen genezen.
+ability_desc_62,Verhoogt het Aanval-attribuut wanneer er een statusprobleem is.
+ability_desc_63,Verhoogt het Verdediging-attribuut wanneer er een statusprobleem is.
+ability_desc_64,Beschadigt aanvallers die energie-aftappende aanvallen gebruiken.
+ability_desc_65,Versterkt Gras-aanvallen in een noodsituatie.
+ability_desc_66,Versterkt Vuur-aanvallen in een noodsituatie.
+ability_desc_67,Versterkt Water-aanvallen in een noodsituatie.
+ability_desc_68,Versterkt Insect-aanvallen in een noodsituatie.
+ability_desc_69,Beschermt de Pokémon tegen terugslagschade.
+ability_desc_70,Maakt zonlicht fel wanneer hij in gevecht is.
+ability_desc_71,Voorkomt dat de tegenstander vlucht.
+ability_desc_72,Voorkomt dat de Pokémon in slaap valt.
+ability_desc_73,Voorkomt dat de attributen van andere Pokémon verlagen.
+ability_desc_74,Verhoogt het Aanval-attribuut van de Pokémon.
+ability_desc_75,De Pokémon is beschermd tegen voltreffers.
+ability_desc_76,Elimineert de effecten van het weer.
+ability_desc_77,Verhoogt ontwijkingsvermogen wanneer de Pokémon verward is.
+ability_desc_78,Verhoogt het Snelheid-attribuut als hij wordt geraakt door een Elektrische aanval.
+ability_desc_79,Veroorzaakt meer schade aan Pokémon van hetzelfde geslacht.
+ability_desc_80,Verhoogt het Snelheid-attribuut elke keer dat de Pokémon terugdeinst.
+ability_desc_81,Verhoogt ontwijkingsvermogen in een hagelbui.
+ability_desc_82,Stimuleert vroeg gebruik van een vastgehouden Bes.
+ability_desc_83,Maximaliseert het Aanval-attribuut na een voltreffer.
+ability_desc_84,Verhoogt het Snelheid-attribuut wanneer een voorwerp wordt gebruikt.
+ability_desc_85,Verzwakt de kracht van Vuur-aanvallen.
+ability_desc_86,De Pokémon is gevoelig voor wilde attribuutveranderingen.
+ability_desc_87,Verlaagt LP bij hitte. Water herstelt LP.
+ability_desc_88,Past kracht aan op basis van de verdediging van de tegenstander.
+ability_desc_89,Versterkt de kracht van stootaanvallen.
+ability_desc_90,Herstelt LP wanneer de Pokémon vergiftigd is.
+ability_desc_91,Versterkt aanvallen van hetzelfde type.
+ability_desc_92,Verhoogt de frequentie van meervoudige aanvallen.
+ability_desc_93,Geneest statusproblemen wanneer het regent.
+ability_desc_94,In zonlicht sterker, maar LP neemt af.
+ability_desc_95,Verhoogt het Snelheid-attribuut wanneer er een statusprobleem is.
+ability_desc_96,Alle aanvallen van de Pokémon worden Normaal-type.
+ability_desc_97,Versterkt aanvallen wanneer ze voltreffers worden.
+ability_desc_98,De Pokémon ontvangt alleen schade van aanvallen.
+ability_desc_99,Zorgt dat aanvallen van of tegen de Pokémon altijd raken.
+ability_desc_100,De Pokémon valt aan na alle andere Pokémon.
+ability_desc_101,Versterkt de zwakkere aanvallen van de Pokémon.
+ability_desc_102,Voorkomt statusproblemen bij zonnig weer.
+ability_desc_103,De Pokémon kan geen vastgehouden voorwerpen gebruiken.
+ability_desc_104,Aanvallen kunnen worden gebruikt ongeacht de aanwezige Vaardigheden.
+ability_desc_105,Verhoogt de kans op voltreffers.
+ability_desc_106,Beschadigt de aanvaller die de laatste klap uitdeelt.
+ability_desc_107,Voelt gevaarlijke aanvallen van de tegenstander aan.
+ability_desc_108,Bepaalt welke aanvallen de tegenstander heeft.
+ability_desc_109,Negeert alle attribuutveranderingen van de Pokémon.
+ability_desc_110,Versterkt aanvallen die normaal niet erg effectief zijn.
+ability_desc_111,Verlaagt schade van supereffectieve aanvallen.
+ability_desc_112,Halveert tijdelijk de Aanval- en Snelheid-attributen.
+ability_desc_113,Maakt het mogelijk om Geest-Pokémon te raken.
+ability_desc_114,Trekt alle Water-aanvallen aan en verhoogt het Sp. Aanval-attribuut.
+ability_desc_115,De Pokémon herstelt geleidelijk LP in een hagelbui.
+ability_desc_116,Verlaagt schade van supereffectieve aanvallen.
+ability_desc_117,De Pokémon roept een hagelbui op in het gevecht.
+ability_desc_118,De Pokémon kan ergens Honing verzamelen.
+ability_desc_119,De Pokémon kan het voorwerp van de tegenstander bekijken.
+ability_desc_120,Versterkt aanvallen die terugslag veroorzaken.
+ability_desc_121,Verandert type om overeen te komen met de vastgehouden Plaat.
+ability_desc_122,Versterkt Pokémon in het team wanneer het zonnig is.
+ability_desc_123,Verlaagt de LP van een slapende tegenstander.
+ability_desc_124,Steelt een voorwerp wanneer het geraakt wordt door een Pokémon.
+ability_desc_125,Verwijdert bijkomende effecten om schade te verhogen.
+ability_desc_126,Draait attribuutveranderingen om.
+ability_desc_127,Maakt de tegenstander nerveus en verhindert het eten van Bessen.
+ability_desc_128,Verhoogt het Aanval-attribuut wanneer attributen worden verlaagd.
+ability_desc_129,Verlaagt attributen wanneer LP op de helft of lager komt.
+ability_desc_130,Kan een aanval uitschakelen die op de Pokémon wordt gebruikt.
+ability_desc_131,Kan de statusproblemen van een bondgenoot genezen.
+ability_desc_132,Verlaagt schade die bondgenoten ontvangen.
+ability_desc_133,Fysieke aanvallen verlagen het Verdediging- en verhogen het Snelheid-attribuut.
+ability_desc_134,Verdubbelt het gewicht van de Pokémon.
+ability_desc_135,Halveert het gewicht van de Pokémon.
+ability_desc_136,Verlaagt schade wanneer LP vol is.
+ability_desc_137,Versterkt fysieke aanvallen wanneer vergiftigd.
+ability_desc_138,Versterkt speciale aanvallen wanneer verbrand.
+ability_desc_139,Kan een nieuwe Bes creëren nadat er één is gebruikt.
+ability_desc_140,Voorziet een aanval van een bondgenoot en ontwijkt deze.
+ability_desc_141,Verhoogt één attribuut en verlaagt een andere.
+ability_desc_142,Beschermt de Pokémon tegen weersschade.
+ability_desc_143,Kan doelen vergiftigen bij contact.
+ability_desc_144,Herstelt een beetje LP wanneer hij uit het gevecht wordt gehaald.
+ability_desc_145,Beschermt tegen aanvallen die het Verdediging-attribuut verlagen.
+ability_desc_146,Verhoogt het Snelheid-attribuut in een zandstorm.
+ability_desc_147,Maakt status-veranderende aanvallen minder accuraat.
+ability_desc_148,Versterkt aanvallen wanneer de Pokémon als laatste aanvalt.
+ability_desc_149,Komt tevoorschijn vermomd als de Pokémon erachter.
+ability_desc_150,Transformeert in de Pokémon waar hij tegenover staat.
+ability_desc_151,Gaat door barrières van de tegenstander heen en valt aan.
+ability_desc_152,Contact met deze Pokémon verspreidt deze Vaardigheid.
+ability_desc_153,Verhoogt het Aanval-attribuut na het uitschakelen van een Pokémon.
+ability_desc_154,Verhoogt het Aanval-attribuut als hij wordt geraakt door een Duister-aanval.
+ability_desc_155,Sommige aanvalstypes maken het bang en verhogen Snelheid.
+ability_desc_156,Kaast status-veranderende aanvallen terug.
+ability_desc_157,Verhoogt het Aanval-attribuut wanneer hij wordt geraakt door een Gras-aanval.
+ability_desc_158,Geeft prioriteit aan een status-veranderende aanval.
+ability_desc_159,Versterkt bepaalde aanvallen in een zandstorm.
+ability_desc_160,Veroorzaakt schade bij contact met de Pokémon.
+ability_desc_161,Verandert vorm wanneer LP halveert.
+ability_desc_162,Verhoogt de nauwkeurigheid van zichzelf en bondgenoten.
+ability_desc_163,Aanvallen kunnen worden gebruikt ongeacht de aanwezige Vaardigheden.
+ability_desc_164,Aanvallen kunnen worden gebruikt ongeacht de aanwezige Vaardigheden.
+ability_desc_165,Beschermt bondgenoten tegen aanvallen die hun aanvalskeuze beperken.
+ability_desc_166,Voorkomt attribuutverlaging bij Gras-Pokémon in het team.
+ability_desc_167,Herstelt ook LP wanneer de Pokémon een Bes eet.
+ability_desc_168,Verandert het type van de Pokémon naar het type van de aanval die hij gebruikt.
+ability_desc_169,Halveert schade van fysieke aanvallen.
+ability_desc_170,Steelt het vastgehouden voorwerp van een Pokémon die hij raakt.
+ability_desc_171,Beschermt tegen bepaalde bal- en bomaanvallen.
+ability_desc_172,Verhoogt Sp. Aanval wanneer een attribuut wordt verlaagd.
+ability_desc_173,De sterke kaak van de Pokémon geeft enorme bijtkracht.
+ability_desc_174,Normaal-aanvallen worden IJs-aanvallen.
+ability_desc_175,Voorkomt dat hijzelf en bondgenoten in slaap vallen.
+ability_desc_176,De Pokémon verandert van vorm afhankelijk van hoe hij vecht.
+ability_desc_177,Geeft prioriteit aan Vlieg-aanvallen.
+ability_desc_178,Versterkt aura- en pulsaanvallen.
+ability_desc_179,Verhoogt het Verdediging-attribuut op Grasterrein.
+ability_desc_180,De Pokémon kan een voorwerp doorgeven aan een bondgenoot.
+ability_desc_181,Versterkt aanvallen die direct contact maken.
+ability_desc_182,Normaal-aanvallen worden Fee-aanvallen.
+ability_desc_183,Contact verlaagt het Snelheid-attribuut van de aanvaller.
+ability_desc_184,Normaal-aanvallen worden Vlieg-aanvallen.
+ability_desc_185,Ouder en kind vallen samen aan.
+ability_desc_186,Versterkt Duister-aanvallen van alle Pokémon.
+ability_desc_187,Versterkt Fee-aanvallen van alle Pokémon.
+ability_desc_188,De effecten van Aura-vaardigheden worden omgekeerd.
 
-ability_desc_202,Boosts the Pokémon's Speed stat in a hailstorm.
+ability_desc_202,Verhoogt het Snelheid-attribuut van de Pokémon in een hagelbui.
 
-ability_desc_206,Normal-type moves become Electric-type moves. The power of those moves is boosted a little.
-ability_desc_207,Doubles the Pokémon's Speed stat on Electric Terrain.
+ability_desc_206,Normaal-aanvallen worden het type Elektrisch en hun kracht wordt licht verhoogd.
+ability_desc_207,Verdubbelt de Snelheid van de Pokémon op Elektrisch Terrein.
 
-ability_desc_221,Contact with the Pokémon lowers the attacker's Speed stat.
+ability_desc_221,Contact met de Pokémon verlaagt het Snelheid-attribuut van de aanvaller.
 
-ability_desc_223,The Pokémon copies the Ability of a defeated ally.
+ability_desc_223,De Pokémon kopieert de Vaardigheid van een verslagen bondgenoot.
 
-ability_desc_226,Turns the ground into Electric Terrain when the Pokémon enters a battle.
-ability_desc_227,Turns the ground into Psychic Terrain when the Pokémon enters a battle.
-ability_desc_228,Turns the ground into Misty Terrain when the Pokémon enters a battle.
-ability_desc_229,Turns the ground into Grassy Terrain when the Pokémon enters a battle.
+ability_desc_226,Verandert het terrein in Elektrisch Terrein wanneer de Pokémon het gevecht betreedt.
+ability_desc_227,Verandert het terrein in Psychisch Terrein wanneer de Pokémon het gevecht betreedt.
+ability_desc_228,Verandert het terrein in Mistig Terrein wanneer de Pokémon het gevecht betreedt.
+ability_desc_229,Verandert het terrein in Grasterrein wanneer de Pokémon het gevecht betreedt.
 
-ability_desc_243,Boosts the Pokémon's Speed stat drastically if hit by a Fire- or Water-type move.
+ability_desc_243,Verhoogt het Snelheid-attribuut van de Pokémon drastisch wanneer hij geraakt wordt door een Vuur- of Water-aanval.
+
+-------------------
+Nature Names:
+
+nature_name_Hardy,Robuust
+nature_name_Lonely,Eenzaam
+nature_name_Brave,Moedig
+nature_name_Adamant,Koppig
+nature_name_Naughty,Ondeugend
+nature_name_Bold,Gedurfd
+nature_name_Docile,Volgzaam
+nature_name_Relaxed,Ontspannen
+nature_name_Impish,Ondeugend
+nature_name_Lax,Laks
+nature_name_Timid,Schuchter
+nature_name_Hasty,Overhaast
+nature_name_Serious,Serieus
+nature_name_Jolly,Vrolijk
+nature_name_Naive,Naïef
+nature_name_Modest,Bescheiden
+nature_name_Mild,Mild
+nature_name_Quiet,Stil
+nature_name_Bashful,Verlegen
+nature_name_Rash,Onbezonnen
+nature_name_Calm,Kalm
+nature_name_Gentle,Zachtmoedig
+nature_name_Sassy,Brutaal
+nature_name_Careful,Voorzichtig
+nature_name_Quirky,Eigenzinnig
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Trainer (Sub-)Classes:
 TrainerClass_Beauty,Schoonheid
@@ -4886,7 +4957,7 @@ Generic_PokeCenter_NurseJoy_Question_NightDay,Hallo en welkom in ons~Pokémon-Ce
 Generic_PokeCenter_NurseJoy_Question_Morning,Goedemorgen! Welkom in ons~Pokémon-Centrum!*Wij genezen je Pokémon tot ze~weer helemaal gezond zijn!
 Generic_PokeCenter_NurseJoy_Question_Evening,Goedenavond! Welkom in ons~Pokémon-Centrum!*Wij genezen je Pokémon tot ze~weer helemaal gezond zijn!
 Generic_PokeCenter_NurseJoy_Heal,Genees
-Generic_PokeCenter_NurseJoy_AnswerCancel,We hopen je snel weer te zien!
+Generic_PokeCenter_NurseJoy_AnswerCancel,We hopen je snel weer te~zien!
 Generic_PokeCenter_NurseJoy_AnswerHeal,Oké. We hebben je Pokémon~even nodig.
 Generic_PokeCenter_NurseJoy_HealedParty,Dankjewel!~Je Pokémon zijn weer klaar~om te vechten!*We hopen je snel weer te zien!
 
@@ -4939,80 +5010,80 @@ FollowerInteraction_PlayerHouse_LivingRoom,<name> begroette je~moeder.
 FollowerInteraction_Seashore1,<name> heeft een~bloemblaadje op zijn gezicht!
 FollowerInteraction_Seashore2,<name> rekte zich uit~en ontspande!
 
-FollowerInteraction_SeaCityOrRoute1,<name> is staring~at the sea.
-FollowerInteraction_SeaCityOrRoute2,<name> is listening~to the sound of the waves.
+FollowerInteraction_SeaCityOrRoute1,<name> staart naar~de zee.
+FollowerInteraction_SeaCityOrRoute2,<name> luistert naar~het geluid van de golven.
 
-FollowerInteraction_TimsLab,<name> is fidgeting~in front of everyone.
+FollowerInteraction_TimsLab,<name> friemelt~zenuwachtig waar iedereen~bij is.
 
-FollowerInteraction_Blackboard,<name> stares intently~at the blackboard, but doesn't~seem to get it.
+FollowerInteraction_Blackboard,<name> staart~aandachtig naar het~schoolbord, maar lijkt~het niet te begrijpen.
 
-FollowerInteraction_HauntedForest1,A strange sound is coming~from <name>!
-FollowerInteraction_HauntedForest2,<name> started spinning~around in circles.
-FollowerInteraction_HauntedForest3,<name> isn't moving.
-FollowerInteraction_HauntedForest4,<name> looks very~interested.
-FollowerInteraction_HauntedForest5,<name> is staring~intently at nothing.
-FollowerInteraction_HauntedForest6,<name> is having~fun swaying back and forth.
-FollowerInteraction_HauntedForest7,<name> is feeling~an unusual presence.
+FollowerInteraction_HauntedForest1,Er komt een vreemd geluid~van <name>!
+FollowerInteraction_HauntedForest2,<name> begint~rondjes te draaien.
+FollowerInteraction_HauntedForest3,<name> beweegt niet.
+FollowerInteraction_HauntedForest4,<name> kijkt heel~geïnteresseerd.
+FollowerInteraction_HauntedForest5,<name> staart intens~naar niets.
+FollowerInteraction_HauntedForest6,<name> heeft plezier~met heen en weer wiegen.
+FollowerInteraction_HauntedForest7,<name> voelt een~ongewone aanwezigheid.
 
-FollowerInteraction_SlowpokeWell1,<name> seems very~happy!
-FollowerInteraction_SlowpokeWell2,<name> doesn't like~splashing around on~the ground...
-FollowerInteraction_SlowpokeWell3,<name> seems very~unhappy to be wet...
-FollowerInteraction_SlowpokeWell4,<name> seems very~happy and is jumping around!
-FollowerInteraction_SlowpokeWell5,<name> is cautious~about the confined~area!
+FollowerInteraction_SlowpokeWell1,<name> lijkt heel~blij!
+FollowerInteraction_SlowpokeWell2,<name> houdt niet~van spetteren op de grond...
+FollowerInteraction_SlowpokeWell3,<name> lijkt erg~ongelukkig dat het nat is...
+FollowerInteraction_SlowpokeWell4,<name> lijkt heel~blij en springt rond!
+FollowerInteraction_SlowpokeWell5,<name> is~voorzichtig in de~krappe ruimte!
 
-FollowerInteraction_Forest1,<name> is looking~around restlessly at~the forest.
-FollowerInteraction_Forest2,<name> is wandering~around enjoying the~forest scenery.
-FollowerInteraction_Forest3,<name> is clinging~to the tree!
+FollowerInteraction_Forest1,<name> kijkt~rusteloos om zich heen in~het bos.
+FollowerInteraction_Forest2,<name> dwaalt rond~en geniet van het~boslandschap.
+FollowerInteraction_Forest3,<name> klampt zich~vast aan de boom!
 
-FollowerInteraction_CastroForest,<name> danced around~happily!
+FollowerInteraction_CastroForest,<name> danst vrolijk~rond!
 
-FollowerInteraction_IlexForest1,<name> felt curious~about the shrine.
-FollowerInteraction_IlexForest2,<name> is dancing~around happily!
-FollowerInteraction_IlexForest3,<name> is happily~waving its stick around~and singing!
+FollowerInteraction_IlexForest1,<name> is~nieuwsgierig naar de schrijn.
+FollowerInteraction_IlexForest2,<name> danst vrolijk~rond!
+FollowerInteraction_IlexForest3,<name> is blij met~zijn stok aan het zwaaien~en zingen!
 
-FollowerInteraction_NationsBurgers,<name> is drooling~a little.
+FollowerInteraction_NationsBurgers,<name> kwijlt een~beetje.
 
-FollowerInteraction_FinalDungeon1,<name> is trembling!
-FollowerInteraction_FinalDungeon2,<name> is nervous.
+FollowerInteraction_FinalDungeon1,<name> staat te~beven!
+FollowerInteraction_FinalDungeon2,<name> is nerveus.
 
-FollowerInteraction_MtBoulder1,Woah! A cold wind suddenly~blew! And now it looks~happy?
-FollowerInteraction_MtBoulder2,<name> is cheerful~because of the cold!
-FollowerInteraction_MtBoulder3,<name> is cheering~happily because of~the cold!
-FollowerInteraction_MtBoulder4,<name> just looks~so very happy!
-FollowerInteraction_MtBoulder5,<name> seems unhappy~about the cold...
-FollowerInteraction_MtBoulder6,<name> made its body~slightly smaller because~of the cold...
-FollowerInteraction_MtBoulder7,<name> constantly~shivers.
-FollowerInteraction_MtBoulder8,<name> is walking~along cautiously.
+FollowerInteraction_MtBoulder1,Wow! Een koude wind~waaide plotseling!~En nu lijkt hij blij?
+FollowerInteraction_MtBoulder2,<name> is vrolijk~door de kou!
+FollowerInteraction_MtBoulder3,<name> juicht blij~door de kou!
+FollowerInteraction_MtBoulder4,<name> ziet er~gewoon heel erg blij uit!
+FollowerInteraction_MtBoulder5,<name> lijkt~ongelukkig door de kou...
+FollowerInteraction_MtBoulder6,<name> maakte zijn~lichaam een beetje kleiner~door de kou...
+FollowerInteraction_MtBoulder7,<name> rilt~voortdurend.
+FollowerInteraction_MtBoulder8,<name> loopt~voorzichtig verder.
 
-FollowerInteraction_FirstRoutes1,<name> wiggled~its vine!
-FollowerInteraction_FirstRoutes2,<name> flared~its fiery tail!
-FollowerInteraction_FirstRoutes3,<name> slid~around in its shell!
+FollowerInteraction_FirstRoutes1,<name> wiebelde~met zijn rank!
+FollowerInteraction_FirstRoutes2,<name> liet zijn~vurige staart opvlammen!
+FollowerInteraction_FirstRoutes3,<name> gleed rond~in zijn schild!
 
-FollowerInteraction_Route65,<name> is focused~with a sharp gaze!
-FollowerInteraction_LeagueExterior,<name> is staring~straight at the~Pokémon League.
+FollowerInteraction_Route65,<name> is gefocust~met een scherpe blik!
+FollowerInteraction_LeagueExterior,<name> staart recht~naar de Pokémon League.
 
-FollowerInteraction_PokeMart,<name> is surveying~the shelves restlessly.
+FollowerInteraction_PokeMart,<name> bekijkt de~schappen rusteloos.
 
-FollowerInteraction_MadameRenifler_Bridge1,<name> is swaying~with the ship!
-FollowerInteraction_MadameRenifler_Bridge2,<name> seems happy~at the sight of water~through the window!
-FollowerInteraction_MadameRenifler_Bridge3,<name> doesn't~want to get off the~boat yet!
+FollowerInteraction_MadameRenifler_Bridge1,<name> wiegt mee~met het schip!
+FollowerInteraction_MadameRenifler_Bridge2,<name> lijkt blij~bij het zien van water door~het raam!
+FollowerInteraction_MadameRenifler_Bridge3,<name> wil nog niet~van de boot af!
 
-FollowerInteraction_PowerPlant1,<name> seems to be~very happy!
-FollowerInteraction_PowerPlant2,<name> had fun~dancing a dance!
-FollowerInteraction_PowerPlant3,<name> is so happy,~it began to dance!
-FollowerInteraction_PowerPlant4,<name> is so happy,~it started dancing!
-FollowerInteraction_PowerPlant5,<name> seems to want to~touch the machine!
+FollowerInteraction_PowerPlant1,<name> lijkt heel~blij te zijn!
+FollowerInteraction_PowerPlant2,<name> had plezier~met een dansje!
+FollowerInteraction_PowerPlant3,<name> is zo blij~dat hij begon te dansen!
+FollowerInteraction_PowerPlant4,<name> is zo blij~dat hij begon te dansen!
+FollowerInteraction_PowerPlant5,<name> lijkt de~machine aan te willen raken!
 
-FollowerInteraction_Caves1,<name> is happily~digging into the ground!
-FollowerInteraction_Caves2,<name> is happily~digging itself into~the ground!
-FollowerInteraction_Caves3,<name> is having fun~rolling around!
-FollowerInteraction_Caves4,<name> started~grinding at the rocks!
-FollowerInteraction_Caves5,<name> is having~fun hitting rocks together!
-FollowerInteraction_Caves6,<name> started~pounding the ground flat!
+FollowerInteraction_Caves1,<name> graaft~vrolijk in de grond!
+FollowerInteraction_Caves2,<name> graaft~zichzelf vrolijk de grond in!
+FollowerInteraction_Caves3,<name> heeft plezier~met rondrollen!
+FollowerInteraction_Caves4,<name> begon tegen~de rotsen te schuren!
+FollowerInteraction_Caves5,<name> heeft plezier~met het tegen elkaar slaan~van rotsen!
+FollowerInteraction_Caves6,<name> begon de grond~plat te stampen!
 
-FollowerInteraction_EliteFour1,<name> sent out~a bundle of leaves and~looked eager!
-FollowerInteraction_EliteFour2,<name> blew out~a plume of fire and~looked eager!
-FollowerInteraction_EliteFour3,<name> shoot out~a jet of water and~looked eager!
+FollowerInteraction_EliteFour1,<name> stuurde een~bundel bladeren op en zag er~enthousiast uit!
+FollowerInteraction_EliteFour2,<name> blies een~pluim vuur uit en zag er~enthousiast uit!
+FollowerInteraction_EliteFour3,<name> schoot een~straal water af en zag er~enthousiast uit!
 
 [PC Decorations]
 PC_Decorations_RemoveQuestion,Welk object moet worden~verwijderd?
@@ -5181,7 +5252,7 @@ Gravel_TimsLab_Choose_Charmander,Tim: Zo! Dus jij wilt de Vuur-~Pokémon, Charma
 Gravel_TimsLab_Choose_Squirtle,Tim: Zo! Dus jij wilt de~Water-Pokémon, Squirtle?
 Gravel_TimsLab_Choose_Bulbasaur,Tim: Zo! Dus jij wilt de Gras-~Pokémon, Bulbasaur?
 Gravel_TimsLab_Choose_Confirm,Tim: Goede keuze!
-Gravel_TimsLab_StarterPokemon_CatchMethod,Als cadeau van Prof. Tim in
+Gravel_TimsLab_StarterPokemon_CatchMethod,Ontvangen als cadeau van Prof. Tim in
 Gravel_TimsLab_StarterPokemon_CatchLocation,Kiezeldorp
 Gravel_TimsLab_Tim_LeaveBeforeChoose,Tim: Hé! Ga nog niet weg!
 Gravel_TimsLab_Tim_ChoosePokemon,Tim: Wat ben je aan het doen?*Kies een Pokémon!
@@ -5287,10 +5358,10 @@ Merson_FanClub_Guy_1,Ik hou meer van mijn Clefable~dan van wat dan ook!
 Merson_FanClub_Guy_2,Mijn Clefable kan soms~irritant zijn.
 Merson_FanClub_Lady,Ik heb een betere baan nodig.
 Merson_FanClub_Chairman_Question,Ik ben voorzitter van de~Pokémon-Fanclub!*Ik heb meer dan 100 Pokémon~verzameld!*Ik ben erg kieskeurig als het~op Pokémon aankomt!*Dus...*Heb je een coole Pokémon~meegebracht?
-Merson_FanClub_Chairman_AnswerYes,Goed zo! Er is een speciale~actie die ik aanbied.*Breng een Pokémon mee en je~krijgt een gratis waardebon~voor een Fiets!*En het lijkt erop dat je er~een hebt, dus alsjeblieft!
-Merson_FanClub_Chairman_AnswerNo,Weet je het zeker?~Want er is een speciale actie~die ik aanbied.*Breng een Pokémon mee en je~krijgt een gratis waardebon~voor een Fiets!*En het lijkt erop dat je er~een hebt, dus alsjeblieft!
+Merson_FanClub_Chairman_AnswerYes,Goed zo! Er is een speciale~actie die ik aanbied.*Breng een Pokémon mee en je~krijgt een gratis tegoedbon~voor een Fiets!*En het lijkt erop dat je er~een hebt, dus alsjeblieft!
+Merson_FanClub_Chairman_AnswerNo,Weet je het zeker?~Want er is een speciale actie~die ik aanbied.*Breng een Pokémon mee en je~krijgt een gratis tegoedbon~voor een Fiets!*En het lijkt erop dat je er~een hebt, dus alsjeblieft!
 Merson_FanClub_Chairman_AfterVoucher,Hallo, <Player.Name>!*Ik wens je veel plezier met~die Fiets!
-Merson_FanClub_ReceiveVoucher,<Player.Name> ontving een~Fiets-waardebon!*Ruil die in voor een Fiets!
+Merson_FanClub_ReceiveVoucher,<Player.Name> ontving een~Fiets-tegoedbon!*Ruil die in voor een Fiets!
 
 Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!
 Merson_CuboneHouse_Girl,Zeg eens hoi tegen mijn~lieve Cubone!
@@ -5369,7 +5440,7 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Aanval - Sterk tegen:*Fee, 
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Aanval - Sterk tegen:*Gras, IJs, Staal, Gif en~Water.*Aanval - Zwak tegen:*Insect, Electrisch, Rots en~Wind.*Aanval - Geen effect tegen:~Vuur.*Verdediging - Sterk tegen:*Insect en Grond.*Verdediging - Zwak tegen:*Electrisch, Vuur, Vecht en~Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Aanval - Sterk tegen:*Psychisch, Abnormaal, Insect,~Duister en Staal.*Aanval - Zwak tegen:*Vlieg, Normaal en Geluid.*Verdediging - Sterk tegen:~Duister en Staal.*Verdediging - Zwak tegen:*Abnormaal, Psychisch, Vlieg~en Normaal.
 Route55_RainbowTower_Floor4_Room_Pamphlet,Het is een pamflet over TM's~en VM's.*...*Er zijn momenteel in totaal~51 TM's en 4 VM's beschikbaar.*TM's zijn voor eenmalig~gebruik, terwijl VM's~herhaaldelijk kunnen~worden gebruikt.*Technieken die door VM's~worden geleerd, kunnen~ook buiten gevechten~worden gebruikt.*Pokémon hebben moeite om~VM-moves te vergeten, dus~daarmee zouden ze hulp~nodig hebben van een~Techniek-wisser.*Silph Co.
-Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,Als een gift in de
+Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,Ontvangen als cadeau in de
 Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,Regenboogtoren
 Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,Ik heb deze Pokémon niet~nodig, dus je mag hem~gratis hebben...*Nee kind, ik ben niet gek,~gewoon een idioot...
 Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,Wat vind je van die gekke~kleine Pokémon die ik je~heb gegeven?*Ik heb hem gedownload van een~of andere oplichterswebsite~en mijn computer raakte~geïnfecteerd met een~raar virus.*Ik werd zo kwaad dat ik mijn~laptop uit het raam gooide,~mijn huis verkocht, in dit~appartement ging wonen en~buiten een bord ophing om~iedereen weg te houden van~mijn stommiteit.*Toen had ik een black-out en~schreef ik een heleboel dingen~op het schoolbord.*Ik kwam bij met~verschrikkelijke hoofdpijn.*Nieuwe types?*Ik weet niet eens wat een~type is. Man, wat ben ik dom.
@@ -5386,7 +5457,7 @@ Route52_MagmarTraderHouse_MagmarTrade_Answer_No,Awww! Nou ja...
 Route52_MagmarTraderHouse_MagmarTrade_AfterTrade,Is mijn oude Magmar niet~geweldig?
 Route52_MagmarTraderHouse_MagmarTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Route52_MagmarTraderHouse_MagmarTrade_TradeFail,Wat? Dat is geen Abra!*Als je er eentje vindt, kom~dan hier terug!
-Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Ontvangen in een ruil in een huis op
+Route52_MagmarTraderHouse_MagmarTrade_CatchMethod,Ontvangen via een ruil in een huis op
 Route52_MagmarTraderHouse_MagmarTrade_CatchLocation,Route 52
 
 [Route 52 - Hayward City Gate]
@@ -5455,7 +5526,7 @@ Hayward_FossilLab_LaprasTrade_Answer_No,Awww! Nou ja...
 Hayward_FossilLab_LaprasTrade_AfterTrade,Is mijn oude Lapras niet~geweldig?
 Hayward_FossilLab_LaprasTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Hayward_FossilLab_LaprasTrade_TradeFail,Wat? Dat is geen Clefairy!*Als je er eentje vindt, kom~dan hier terug!
-Hayward_FossilLab_LaprasTrade_CatchMethod,Ontvangen in een ruil in het
+Hayward_FossilLab_LaprasTrade_CatchMethod,Ontvangen via een ruil in het
 Hayward_FossilLab_LaprasTrade_CatchLocation,Haagwachter-Fossielenlab
 Hayward_FossilLab_FossilReviver_Question,Hé daar!*Ik bestudeer graag fossielen.*Heb je er een die ik met~deze machine weer tot~leven kan wekken?
 Hayward_FossilLab_FossilReviver_NoFossil,Nee?*WEGWEZEN!
@@ -5604,7 +5675,7 @@ Route49_Gate_RhyhornTrade_Answer_No,Awww! Nou ja...
 Route49_Gate_RhyhornTrade_AfterTrade,Is mijn oude Rhyhorn niet~geweldig?
 Route49_Gate_RhyhornTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Route49_Gate_RhyhornTrade_TradeFail,Wat? Dat is geen Rhyhorn!*Als je er eentje vindt, kom~dan hier terug!
-Route49_Gate_RhyhornTrade_CatchMethod,Ontvangen in een ruil in de Poort op
+Route49_Gate_RhyhornTrade_CatchMethod,Ontvangen via een ruil in de Poort op
 Route49_Gate_RhyhornTrade_CatchLocation,Route 49
 Route49_Gate_Binoculars_Left,<Player.Name> keek door de~verrekijker...*Daar zwemmen wat mensen!
 Route49_Gate_Binoculars_Right,<Player.Name> keek door de~verrekijker...*Daar is Haagwachterstad!
@@ -5874,7 +5945,7 @@ Moraga_NationsBurgers_Drunkard_FirstTalk2,<Player.Name>: Als jij het zegt...
 Moraga_NationsBurgers_Drunkard_SecondTalk_HaveMoneyOrBeer,Het smaakt... •hik•~heerlijk, hè?*Als je meer...•hik• wilt,~er staat een... •hik•~drankautomaat op het dak van~Winkelcentrum... •hik•~Zuidland, zonder toezicht!
 Moraga_NationsBurgers_Drunkard_SecondTalk_NoMoneyOrBeer,Wat, wil je er... •hik• nog~eentje?*Heb je geen... •hik• geld~meer ofzo?*Oké, maar alleen... •hik•~deze ene keer...*Aan niemand... •hik•~doorvertellen!
 
-Moraga_HighSchoolAcademy_Blackboard_Intro,Het schoolbord beschrijft de~Speciale Toestanden van~Pokémon tijdens gevechten.
+Moraga_HighSchoolAcademy_Blackboard_Intro,Het schoolbord beschrijft de~statusproblemen van Pokémon~tijdens gevechten.
 Moraga_HighSchoolAcademy_Blackboard_Question,Over welk onderwerp wil je~lezen?
 Moraga_HighSchoolAcademy_Blackboard_Sleep,Een Pokémon kan niet~aanvallen als hij slaapt!*Pokémon blijven ook na~gevechten slapen!*Gebruik een Ontwaker om ze~wakker te maken!
 Moraga_HighSchoolAcademy_Blackboard_Burn,Verbrandingen verminderen~kracht en snelheid.*Ze veroorzaken ook~voortdurend schade.*Verbrandingen blijven na~gevechten aanwezig.*Gebruik een Brandmedicijn~om een verbranding~te genezen!
@@ -5942,7 +6013,7 @@ CityUnderpass_Entrance_Moraga_NidoqueenTrade_Answer_No,Jammer.
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_AfterTrade,Hoe gaat het met mijn oude~Nidoking?*Met mijn Nidoqueen gaat het~geweldig!
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_TradeFail,Dit is geen Nidoqueen.*Als je er een hebt, ruil haar~dan met mij!
-CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod,Ontvangen in een ruil in de
+CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchMethod,Ontvangen via een ruil in de
 CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,Stad-onderdoorgang
 CityUnderpass_Entrance_Route56_Girl,Mensen raken vaak dingen kwijt~op dat ondergrondse pad.
 
@@ -5953,7 +6024,7 @@ Route60_PowerPlant_Zapdos,Kraaa!
 Route60_PowerPlant_Raikou,Rrroar!
 
 [Route 60 - Jaeru City Gate]
-Route60_Jaeru_Gate_Guard,Are you working on a~Pokédex?*Prof. Tim's Aide came by here.
+Route60_Jaeru_Gate_Guard,Werk je aan een Pokédex?*De assistent van professor Tim kwam hier langs.
 
 Route60_Jaeru_Gate_Aide_SuperRod_Question,Hoi! Ken je me nog?*Ik ben de assistent van~Prof. Tim!*Als je 75 soorten Pokémon hebt~gevangen, moet ik je een~Super Hengel geven!*Dus <Player.Name>!~Heb je minstens 75 soorten~Pokémon gevangen?
 Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_75OrMorePokemon,Even zien...*Geweldig! Je hebt <Pokedex.Caught>~soorten Pokémon gevangen!~Gefeliciteerd!*Alsjeblieft!
@@ -5979,311 +6050,310 @@ Jaeru_Main_NewsGuy_Answer_No,Team Rocket heeft het~nabijgelegen Warenhuis~overge
 Jaeru_Main_DirectionsGuy,Als je naar het noorden gaat,~kom je uit bij de Rijon League!
 Jaeru_Main_SilkTunnelGirl,Ik heb een Grond-Pokémon in~de Zijdetunnel gevangen, maar~die was nog steeds niet goed~genoeg om Sparky te~verslaan!
 
-Jaeru_BikeShop_Youngster,These Bikes are cool, but~they're way expensive!
-Jaeru_BikeShop_Woman,I knew modes of~transportation were getting~more expensive, but come on!
-Jaeru_BikeShop_BikeSalesMan_NoVoucher,Hi! Welcome to our Bike Shop.~Have we got just the Bike~for you!*It's a cool Bike!~Do you want it?
-Jaeru_BikeShop_BikeSalesMan_Option_Bicycle,Bicycle    $1000000
-Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_NotEnoughMoney,Sorry! You can't afford it!*Come back again some time!
-Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_HaveEnoughMoney,OK! Here you go!
-Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Come back again some time!
-Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that's... A Bike Voucher!~OK! Here you go!
-Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> exchanged the~Bike Voucher for a Bicycle.
+Jaeru_BikeShop_Youngster,Deze fietsen zijn cool,~maar ze zijn veel te duur!
+Jaeru_BikeShop_Woman,Ik wist dat vervoersmiddelen~duurder werden, maar kom~op zeg!
+Jaeru_BikeShop_BikeSalesMan_NoVoucher,Hallo! Welkom in onze~Fietsenwinkel.*We hebben precies de Fiets~die je zoekt!*Het is een coole Fiets!~Wil je hem hebben?
+Jaeru_BikeShop_BikeSalesMan_Option_Bicycle,Fiets    $1000000
+Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_NotEnoughMoney,Sorry! Je kunt hem niet~betalen!*Kom later nog eens terug!
+Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_HaveEnoughMoney,Oké! Alsjeblieft!
+Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Kom later nog eens terug!
+Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, dat is...~Een Fiets-tegoedbon!~Oké! Alsjeblieft!
+Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> heeft de Fiets-~tegoedbon ingewisseld voor~een Fiets.
 Jaeru_BikeShop_BikeInPocket,<Player.Name> stopte hem in~het №Belangrijke Voorwerpen~vakje.
-Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new~Bicycle?*You can take it on Rinjoh~Veloway and in caves!
+Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,Hoe bevalt je nieuwe~Fiets?*Je kunt ermee over de~Rinjoh-fietsroute rijden en~zelfs in grotten!
 
-Jaeru_PokeMart_RegularGuy,You will need eight Rijon~badges in order to reach the~Rijon League.
-Jaeru_PokeMart_LittleBoy,My dad is up north trying to~go to the League!
+Jaeru_PokeMart_RegularGuy,Je hebt acht Rijon-badges~nodig om de Rijon League~te bereiken.
+Jaeru_PokeMart_LittleBoy,Mijn vader is in het noorden~en probeert naar de League~te gaan!
 
-Jaeru_PokeCenter_Gentleman,Go away, I'm on my cellphone!
-Jaeru_PokeCenter_BenchGuy,Sparky was mean to me!~He called me a stupid little~kid.
+Jaeru_PokeCenter_Gentleman,Ga weg, ik zit op mijn~mobieltje!
+Jaeru_PokeCenter_BenchGuy,Sparky was gemeen tegen me!~Hij noemde me een stom~klein kind.
 
-Jaeru_Gym_Statues_BeforeDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura
-Jaeru_Gym_Statues_AfterDefeat,Jaeru City~Pokémon Gym~Leader: Sparky*Winning Trainers:~Mura~<Player.Name>
-Jaeru_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Sparky uses Electric-type~Pokémon!*Make sure you're prepared to~face him with some Grass and~Ground-type Pokémon!
-Jaeru_Gym_GymGuy_AfterBadge,Gym Guy: Whew! That match was~electric!
-Jaeru_Gym_SailorWilfried_IntroMessage,Leave now!
-Jaeru_Gym_SailorWilfried_OutroMessage,Wow! Surprised me!
-Jaeru_Gym_SailorWilfried_DefeatMessage,I'll never look down upon~a kid again.
-Jaeru_Gym_RockerBryan_IntroMessage,ARE YOU READY TO ROCK?!
-Jaeru_Gym_RockerBryan_OutroMessage,Fried!
-Jaeru_Gym_RockerBryan_DefeatMessage,I doubt you will beat Sparky!
-Jaeru_Gym_GentlemanWilliam_IntroMessage,Having trouble getting to~Sparky?
-Jaeru_Gym_GentlemanWilliam_OutroMessage,Stop! You're very good!
-Jaeru_Gym_GentlemanWilliam_DefeatMessage,Electricity is my domain!
-Jaeru_Gym_LeaderSparky_BeforeBattle1,Sparky: Perkins!~Where's my wrench?!~This isn't gonna fix itself!*<Player.Name>: Uhhh, excuse me?
-Jaeru_Gym_LeaderSparky_BeforeBattle2,Sparky: Ah, you're not~Perkins!*By the looks of it, you must~be here to earn my Badge!*As the best mechanic in~Rijon, I, the great Sparky,~Leader of Jaeru City Gym,~make sure my employees are~in tip-top shape so that no~task gets left undone!*Prepare to get shocked~by my efficiency in~Pokémon battling!
-Jaeru_Gym_LeaderSparky_OutroMessage,Sparky: Shocking! Alright,~here. Take the Sparky Badge!
-Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: The Sparky Badge,~named after yours truly,~increases your Pokémon's~speed, and lets you use Fly~anytime!*Take this too!
-Jaeru_Gym_LeaderSparky_AfterBattle2,TM 24 contains Thunderbolt!*Teach it to an Electric~Pokémon!
-Jaeru_Gym_LeaderSparky_TalkAgain,Sparky: The next Gym is in~Castro Valley.*My good friend Koji will give~you a run for your money.
-Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Question,Sparky: Well, if it isn't the~big-shot. I was just itching~for battle, and you caught me~on my break.*Ready for this?
-Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_No,Sparky: Bah, celebrities.~Always expecting people to~make time for them.*Maybe I'll just make myself~busy next time you show up,~see how you like it.
-Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_Yes,Sparky: All right! I'm so~amped up I can already see~the sparks flying!
-Jaeru_Gym_LeaderSparky_Rematch_OutroMessage,Sparky: ... Whew. And back to~the garage for repairs.
-Jaeru_Gym_LeaderSparky_Rematch_AfterBattle,Sparky: Remember kid, any~Pokémon team is like a~well-oiled machine.*You should always take the~time to give them that extra~maintenance and love!
+Jaeru_Gym_Statues_BeforeDefeat,Laeterwirstad~Pokémon Gym~Leider: Sparky*Winnende Trainers:~Mura
+Jaeru_Gym_Statues_AfterDefeat,Laeterwirstad~Pokémon Gym~Leider: Sparky*Winnende Trainers:~Mura~<Player.Name>
+Jaeru_Gym_GymGuy_BeforeBadge,Gym Gast: Yo! Toekomstige~kampioen!*Sparky gebruikt Elektrische Pokémon!*Zorg dat je klaar bent om hem~te bevechten met wat Gras-~en Grond-type Pokémon!
+Jaeru_Gym_GymGuy_AfterBadge,Gym Gast: Wauw!~Dat gevecht zat vol spanning!
+Jaeru_Gym_SailorWilfried_IntroMessage,Ga weg!
+Jaeru_Gym_SailorWilfried_OutroMessage,Wauw! Je verraste me!
+Jaeru_Gym_SailorWilfried_DefeatMessage,Ik zal nooit meer~neerkijken op een kind.
+Jaeru_Gym_RockerBryan_IntroMessage,BEN JE KLAAR OM TE ROCKEN?!
+Jaeru_Gym_RockerBryan_OutroMessage,Gegrild!
+Jaeru_Gym_RockerBryan_DefeatMessage,Ik betwijfel of je Sparky~gaat verslaan!
+Jaeru_Gym_GentlemanWilliam_IntroMessage,Problemen om bij Sparky~te komen?
+Jaeru_Gym_GentlemanWilliam_OutroMessage,Stop! Je bent erg goed!
+Jaeru_Gym_GentlemanWilliam_DefeatMessage,Elektriciteit is mijn domein!
+Jaeru_Gym_LeaderSparky_BeforeBattle1,Sparky: Perkins!~Waar is mijn moersleutel?!~Dit gaat zichzelf niet~repareren!*<Player.Name>: Ehhh, pardon?
+Jaeru_Gym_LeaderSparky_BeforeBattle2,Sparky: Ah, jij bent~Perkins niet!*Aan je blik te zien ben je hier~om mijn Badge te verdienen!*Als de beste monteur van~Rijon zorg ik, de geweldige~Sparky, Leider van de Laeterwirstad~Gym, dat mijn werknemers in~topvorm zijn zodat geen~enkele taak blijft liggen!*Maak je klaar om gechoqueerd~te worden door mijn efficiëntie~in Pokémon-gevechten!
+Jaeru_Gym_LeaderSparky_OutroMessage,Sparky: Schokkend!~Goed, hier.*Neem de Sparky Badge!
+Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: De Sparky Badge,~vernoemd naar mijzelf,~verhoogt de snelheid van je~Pokémon en laat je altijd~Vlieg gebruiken!*Neem dit ook mee!
+Jaeru_Gym_LeaderSparky_AfterBattle2,TM 24 bevat Bliksemstraal!*Leer het aan een Elektrische Pokémon!
+Jaeru_Gym_LeaderSparky_TalkAgain,Sparky: De volgende Gym is~in Dalburg.*Mijn goede vriend Koji zal~je een flinke uitdaging bieden.
+Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Question,Sparky: Kijk eens aan,~de grote ster.*Ik had zin in een gevecht en~jij treft me net op mijn~pauze.*Klaar ervoor?
+Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_No,Sparky: Bah, beroemdheden.*Altijd verwachten dat mensen~tijd voor ze maken.*Misschien ben ik zelf wel~druk de volgende keer dat~je langskomt, kijken hoe je~dat vindt.
+Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_Yes,Sparky: Oké! Ik ben zo~opgeladen dat ik de vonken~al zie vliegen!
+Jaeru_Gym_LeaderSparky_Rematch_OutroMessage,Sparky: ... Oef. En weer~terug naar de garage voor~reparaties.
+Jaeru_Gym_LeaderSparky_Rematch_AfterBattle,Sparky: Onthoud, kleintje,~elk Pokémon-team is als een~goed geoliede machine.*Je moet altijd de tijd nemen~om ze dat beetje extra zorg~en liefde te geven!
 
-Jaeru_OtherHouse_SittingGuy,Pokémon trainers pass by~here often on their way to~the Rijon League.
-Jaeru_OtherHouse_StandingGuy,I know trainers from around~the world.
+Jaeru_OtherHouse_SittingGuy,Pokémon-trainers komen hier~vaak langs op weg naar de~Rijon League.
+Jaeru_OtherHouse_StandingGuy,Ik ken trainers van over de~hele wereld.
 
 [Route 59]
-Route59_Main_Sign_SilphCo,Silph Co. Warehouse
-Route59_Main_Sign_Route,Route 59~Jaeru Plains*Botan City - Jaeru City
-Route59_Main_LassDaisy_IntroMessage,You are pretty strange.
-Route59_Main_LassDaisy_OutroMessage,You're mean!
-Route59_Main_LassDaisy_DefeatMessage,What are you looking at?
-Route59_Main_BugCatcherYannik_IntroMessage,Hey! Wait up, lets battle!
-Route59_Main_BugCatcherYannik_OutroMessage,No!
-Route59_Main_BugCatcherYannik_DefeatMessage,My bugs should evolve soon!
-Route59_Main_YoungsterKane_IntroMessage,Hi!*Take a look at my cool~Pokémon!
-Route59_Main_YoungsterKane_OutroMessage,I don't believe it!
-Route59_Main_YoungsterKane_DefeatMessage,You have cooler Pokémon than~I do!
-Route59_Main_BugCatcherCarsten_IntroMessage,Looking at the trees.*So what?
-Route59_Main_BugCatcherCarsten_OutroMessage,Come on!
-Route59_Main_BugCatcherCarsten_DefeatMessage,You started it, not me!
-Route59_Main_LassAileen_IntroMessage,Why did you look at me weird?!
-Route59_Main_LassAileen_OutroMessage,Be nice!
-Route59_Main_LassAileen_DefeatMessage,Your eyes confuse me.
-Route59_Main_BugCatcherCavan_IntroMessage,Let's see how it goes.
-Route59_Main_BugCatcherCavan_OutroMessage,Too quick for me.
-Route59_Main_BugCatcherCavan_DefeatMessage,Trained Pokémon are stronger~than the wild ones!
-Route59_Main_YoungsterJoey_IntroMessage,The name's Joey!~I moved here from Johto.*Wanna feast your eyes on~the greatest Rattata ever?
-Route59_Main_YoungsterJoey_OutroMessage,Oh, no! Rattata!
-Route59_Main_YoungsterJoey_DefeatMessage,My Rattata is in the top~percentage of all Rattata!*That's a fact!
-Route59_Main_LassJoane_IntroMessage,My name's Joane!~I'm Joey's sister!*I have the greatest Raticate~of all time!
-Route59_Main_LassJoane_OutroMessage,My poor Raticate!
-Route59_Main_LassJoane_DefeatMessage,We love the Rattata line!
-Route59_Main_PokeManiac,That stupid guard won't let~me get to the next city!*What is his problem?!
-Route59_Main_Beauty,A little beer makes the guard~go to sleep!
+Route59_Main_Sign_SilphCo,Silph Co. Warenhuis
+Route59_Main_Sign_Route,Route 59~Laeterwirvlaktes*Bloemenbloeistad -~Laeterwirstad
+Route59_Main_LassDaisy_IntroMessage,Je bent best vreemd.
+Route59_Main_LassDaisy_OutroMessage,Je bent gemeen!
+Route59_Main_LassDaisy_DefeatMessage,Waar kijk je naar?
+Route59_Main_BugCatcherYannik_IntroMessage,Hé! Wacht even, laten we~vechten!
+Route59_Main_BugCatcherYannik_OutroMessage,Nee!
+Route59_Main_BugCatcherYannik_DefeatMessage,Mijn insecten zouden snel~moeten evolueren!
+Route59_Main_YoungsterKane_IntroMessage,Hoi!*Kijk eens naar mijn coole~Pokémon!
+Route59_Main_YoungsterKane_OutroMessage,Dat geloof ik niet!
+Route59_Main_YoungsterKane_DefeatMessage,Je hebt coolere Pokémon dan~ik!
+Route59_Main_BugCatcherCarsten_IntroMessage,Ik kijk naar de bomen.*Dus?
+Route59_Main_BugCatcherCarsten_OutroMessage,Kom op!
+Route59_Main_BugCatcherCarsten_DefeatMessage,Jij begon, niet ik!
+Route59_Main_LassAileen_IntroMessage,Waarom keek je zo raar naar~me?!
+Route59_Main_LassAileen_OutroMessage,Wees aardig!
+Route59_Main_LassAileen_DefeatMessage,Je ogen maken me in de war.
+Route59_Main_BugCatcherCavan_IntroMessage,Laten we zien hoe dit gaat.
+Route59_Main_BugCatcherCavan_OutroMessage,Te snel voor mij.
+Route59_Main_BugCatcherCavan_DefeatMessage,Getrainde Pokémon zijn~sterker dan wilde Pokémon!
+Route59_Main_YoungsterJoey_IntroMessage,Ik heet Joey!*Ik ben hierheen verhuisd uit~Johto.*Wil je je ogen goed de~kost geven aan de beste~Rattata ooit?
+Route59_Main_YoungsterJoey_OutroMessage,Oh nee! Rattata!
+Route59_Main_YoungsterJoey_DefeatMessage,Mijn Rattata behoort tot de~top van alle Rattata!*Dat is een feit!
+Route59_Main_LassJoane_IntroMessage,Ik heet Joane!~Ik ben Joey’s zus!*Ik heb de beste Raticate~aller tijden!
+Route59_Main_LassJoane_OutroMessage,Mijn arme Raticate!
+Route59_Main_LassJoane_DefeatMessage,Wij houden van de~Rattata-evolutielijn!
+Route59_Main_PokeManiac,Die stomme bewaker laat me~niet naar de volgende stad!*Wat is zijn probleem?!
+Route59_Main_Beauty,Een beetje bier laat de~bewaker in slaap vallen!
 
-Route59_SilphCoWarehouse_SecurityDoors_WithCardKey,Bingo!~The Card Key opened the door!
-Route59_SilphCoWarehouse_SecurityDoors_NoCardKey,Darn! It needs a Card Key!
-Route59_SilphCoWarehouse_1F_Receptionist,Oh, it's you!*Thanks again for saving us!
-Route59_SilphCoWarehouse_2F_TM42Lady_BeforeTalking,Wow, that event sure was~a nightmare!*You want to get rid of yours?~Take this!
-Route59_SilphCoWarehouse_2F_TM42Lady_AfterTalking,TM 42 is Dream Eater!~It only works on sleeping~Pokemon, but it swallows~their dream!
-Route59_SilphCoWarehouse_2F_RocketGruntLawrence_IntroMessage,This time we we will succeed!
-Route59_SilphCoWarehouse_2F_RocketGruntLawrence_OutroMessage,I goofed!
-Route59_SilphCoWarehouse_2F_RocketGruntLawrence_DefeatMessage,Our boss will not fail us!
-Route59_SilphCoWarehouse_2F_RocketGruntNeyla_IntroMessage,Kid, why are you in here?!
-Route59_SilphCoWarehouse_2F_RocketGruntNeyla_OutroMessage,Tough!
-Route59_SilphCoWarehouse_2F_RocketGruntNeyla_DefeatMessage,You will never successfully~defeat Team Rocket!
-Route59_SilphCoWarehouse_2F_RocketScientistPercy_IntroMessage,Ha! You thought I would help?
-Route59_SilphCoWarehouse_2F_RocketScientistPercy_OutroMessage,You're good.
-Route59_SilphCoWarehouse_2F_RocketScientistPercy_DefeatMessage,Go away kid!
-Route59_SilphCoWarehouse_2F_RocketScientistNathan_IntroMessage,Can't open the doors?
-Route59_SilphCoWarehouse_2F_RocketScientistNathan_OutroMessage,Drat! How could I lose?
-Route59_SilphCoWarehouse_2F_RocketScientistNathan_DefeatMessage,The doors only open with~the Card Key!
-Route59_SilphCoWarehouse_3F_RocketGruntScott_IntroMessage,Feeling lucky, punk?
-Route59_SilphCoWarehouse_3F_RocketGruntScott_OutroMessage,Flame out!
-Route59_SilphCoWarehouse_3F_RocketGruntScott_DefeatMessage,This didn't work in Saffron~City either!
-Route59_SilphCoWarehouse_3F_RocketGruntSean_IntroMessage,Oh, not this again!
-Route59_SilphCoWarehouse_3F_RocketGruntSean_OutroMessage,How are kids these days so~good?
-Route59_SilphCoWarehouse_3F_RocketGruntSean_DefeatMessage,I think it's time for me~to retire.
-Route59_SilphCoWarehouse_3F_RocketScientistJulius_IntroMessage,There's nothing down there~kid, turn back!
-Route59_SilphCoWarehouse_3F_RocketScientistJulius_OutroMessage,Shoot!
-Route59_SilphCoWarehouse_3F_RocketScientistJulius_DefeatMessage,Great, there's nothing I~can do.
-Route59_SilphCoWarehouse_3F_OfficerWorker_Female0_BeforeDefeatGiovanni,Oh, now what will we do?
-Route59_SilphCoWarehouse_3F_OfficerWorker_Female0_AfterDefeatGiovanni,You are a true hero!
-Route59_SilphCoWarehouse_3F_OfficerWorker_Female1_BeforeDefeatGiovanni,The Team Rocket leader~is upstairs.*Defeat him!
-Route59_SilphCoWarehouse_3F_OfficerWorker_Female1_AfterDefeatGiovanni,Thanks for everything!
-Route59_SilphCoWarehouse_3F_OfficerWorker_Male0_BeforeDefeatGiovanni,Silph can't afford this!
-Route59_SilphCoWarehouse_3F_OfficerWorker_Male0_AfterDefeatGiovanni,Thanks again kid!
-Route59_SilphCoWarehouse_3F_OfficerWorker_Male1_BeforeDefeatGiovanni,They must have targeted Silph~for our Pokémon products.
-Route59_SilphCoWarehouse_3F_OfficerWorker_Male1_AfterDefeatGiovanni,Thanks again!
-Route59_SilphCoWarehouse_3F_OfficerWorker_Male2_BeforeDefeatGiovanni,The Rockets came and took~over!
-Route59_SilphCoWarehouse_3F_OfficerWorker_Male2_AfterDefeatGiovanni,I'd better get back to work!
-Route59_SilphCoWarehouse_4F_RocketGruntHector_IntroMessage,Get out of here right now!
-Route59_SilphCoWarehouse_4F_RocketGruntHector_OutroMessage,Don't... Please!
-Route59_SilphCoWarehouse_4F_RocketGruntHector_DefeatMessage,You will never beat 'da Boss!
-Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle,Giovanni: What?!*Another child trying to stop~me from fulfilling Team~Rocket's goals?*If you don't stay out of~my business kid, you'll be in~a world of pain!*<Player.Name>: Bring it on.
-Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage,Giovanni: Arrgh!! I lost~again?!
-Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: How can I run a~criminal organization if my~plans keep getting thwarted~by children?!*I guess I should just give up,~there's no way we can~succeed with kids like you!*Goodbye forever!
-Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<Player.Name>: Is everyone okay?*Manager: Yes, thanks to you.*You're a brave kid.*<Player.Name>: It was~nothing, really.*Manager: I need to repay you~somehow.*Oh here, have this valuable~gift!*<Player.Name>: Thank you~so much!
-Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Manager: Make sure to visit~our main building, located in~Saffron City, Kanto when you~have the time.
+Route59_SilphCoWarehouse_SecurityDoors_WithCardKey,Bingo!*De Sleutelkaart opende de~deur!
+Route59_SilphCoWarehouse_SecurityDoors_NoCardKey,Verdorie! Er is een~Sleutelkaart nodig!
+Route59_SilphCoWarehouse_1F_Receptionist,Oh, jij bent het!*Nogmaals bedankt dat je ons~hebt gered!
+Route59_SilphCoWarehouse_2F_TM42Lady_BeforeTalking,Wauw, dat was echt een~nachtmerrie!*Wil je van die van jou af?~Neem dit!
+Route59_SilphCoWarehouse_2F_TM42Lady_AfterTalking,TM 42 is Droometer!*Het werkt alleen op slapende~Pokémon, maar het verslindt~hun droom!
+Route59_SilphCoWarehouse_2F_RocketGruntLawrence_IntroMessage,Deze keer gaan we slagen!
+Route59_SilphCoWarehouse_2F_RocketGruntLawrence_OutroMessage,Ik heb het verpest!
+Route59_SilphCoWarehouse_2F_RocketGruntLawrence_DefeatMessage,Onze baas zal ons niet laten~falen!
+Route59_SilphCoWarehouse_2F_RocketGruntNeyla_IntroMessage,Kleintje, waarom ben je~hier?!
+Route59_SilphCoWarehouse_2F_RocketGruntNeyla_OutroMessage,Stoer!
+Route59_SilphCoWarehouse_2F_RocketGruntNeyla_DefeatMessage,Je zult Team Rocket nooit~kunnen verslaan!
+Route59_SilphCoWarehouse_2F_RocketScientistPercy_IntroMessage,Ha! Dacht je dat ik zou~helpen?
+Route59_SilphCoWarehouse_2F_RocketScientistPercy_OutroMessage,Je bent goed.
+Route59_SilphCoWarehouse_2F_RocketScientistPercy_DefeatMessage,Ga weg, kleintje!
+Route59_SilphCoWarehouse_2F_RocketScientistNathan_IntroMessage,Krijg je de deuren niet~open?
+Route59_SilphCoWarehouse_2F_RocketScientistNathan_OutroMessage,Verdorie! Hoe kon ik~verliezen?
+Route59_SilphCoWarehouse_2F_RocketScientistNathan_DefeatMessage,De deuren openen alleen met~de Sleutelkaart!
+Route59_SilphCoWarehouse_3F_RocketGruntScott_IntroMessage,Heb je geluk, snotaap?
+Route59_SilphCoWarehouse_3F_RocketGruntScott_OutroMessage,Uitgeblust!
+Route59_SilphCoWarehouse_3F_RocketGruntScott_DefeatMessage,Dit werkte in Saffron City~ook al niet!
+Route59_SilphCoWarehouse_3F_RocketGruntSean_IntroMessage,Oh nee, niet weer!
+Route59_SilphCoWarehouse_3F_RocketGruntSean_OutroMessage,Hoe zijn kinderen~tegenwoordig zo goed?
+Route59_SilphCoWarehouse_3F_RocketGruntSean_DefeatMessage,Ik denk dat het tijd is om~met pensioen te gaan.
+Route59_SilphCoWarehouse_3F_RocketScientistJulius_IntroMessage,Er is daar beneden niets,~kleintje. Ga terug!
+Route59_SilphCoWarehouse_3F_RocketScientistJulius_OutroMessage,Verdorie!
+Route59_SilphCoWarehouse_3F_RocketScientistJulius_DefeatMessage,Geweldig, ik kan nu niets~meer doen.
+Route59_SilphCoWarehouse_3F_OfficerWorker_Female0_BeforeDefeatGiovanni,Oh nee, wat moeten we nu~doen?
+Route59_SilphCoWarehouse_3F_OfficerWorker_Female0_AfterDefeatGiovanni,Je bent een echte held!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Female1_BeforeDefeatGiovanni,De leider van Team Rocket~is boven.*Versla hem!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Female1_AfterDefeatGiovanni,Bedankt voor alles!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male0_BeforeDefeatGiovanni,Silph kan dit niet betalen!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male0_AfterDefeatGiovanni,Nogmaals bedankt, kleintje!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male1_BeforeDefeatGiovanni,Ze hadden het vast op Silph~gemunt vanwege onze~Pokémon-producten.
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male1_AfterDefeatGiovanni,Nogmaals bedankt!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male2_BeforeDefeatGiovanni,De Rockets kwamen en namen~alles over!
+Route59_SilphCoWarehouse_3F_OfficerWorker_Male2_AfterDefeatGiovanni,Ik ga maar weer aan het~werk!
+Route59_SilphCoWarehouse_4F_RocketGruntHector_IntroMessage,Ga hier nu meteen weg!
+Route59_SilphCoWarehouse_4F_RocketGruntHector_OutroMessage,Nee... Alsjeblieft!
+Route59_SilphCoWarehouse_4F_RocketGruntHector_DefeatMessage,Je zult de Baas nooit~verslaan!
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_BeforeBattle,Giovanni: Wat?!*Weer een kind dat~probeert mij tegen te houden~in het bereiken van~Team Rocket’s doelen?*Als je je met mijn zaken~bemoeit, kleintje, zul je~een wereld van pijn~meemaken!*<Player.Name>: Kom maar op.
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_OutroMessage,Giovanni: Arrgh!! Heb ik~weer verloren?!
+Route59_SilphCoWarehouse_4F_RocketLeaderGiovanni_AfterBattle,Giovanni: Hoe kan ik een~criminele organisatie leiden~als mijn plannen steeds~worden verijdeld door~kinderen?!*Ik denk dat ik maar moet~opgeven, er is geen manier~dat we slagen met kinderen~zoals jij!*Vaarwel voor altijd!
+Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking,<Player.Name>: Is iedereen oké?*Manager: Ja, dankzij jou.*Je bent een dapper kind.*<Player.Name>: Het was niets,~echt waar.*Manager: Ik moet je op~de een of andere manier~belonen.*Oh hier, neem dit~waardevolle cadeau!*<Player.Name>: Heel erg~bedankt!
+Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking,Manager: Zorg dat je ons~hoofdkantoor bezoekt in~Saffron City, Kanto wanneer~je tijd hebt.
 
 [Route 59 - Botan City Gate]
-Route59_Botan_Gate_1F_Guard_NoBeer_Wait,Wait!
-Route59_Botan_Gate_1F_Guard_NoBeer_CannotGoThrough,Sorry you can't go though.*I'm guarding the area!
-Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMeBeer,Whoa, kid!~I smell hard beer!*Give it to me, I need it so bad!
-Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer,...Glug glug...~...Gulp...~This stuff hits you...
-Route59_Botan_Gate_1F_Guard_HaveBeer_FallAsleep,Zzzzz...*<Player.Name>: Looks like I can~get past this guy now,~and complete my quest!
-Route59_Botan_Gate_1F_Guard_StillAsleep,<Player.Name>: He's still asleep...
-Route59_Botan_Gate_2F_EeveeTrade_Question,Hi! Do you have a~Mareep?*Want to trade it for Eevee?
+Route59_Botan_Gate_1F_Guard_NoBeer_Wait,Wacht!
+Route59_Botan_Gate_1F_Guard_NoBeer_CannotGoThrough,Sorry, je kunt hier niet verder.*Ik bewaak dit gebied!
+Route59_Botan_Gate_1F_Guard_HaveBeer_GiveMeBeer,Hé, kleintje!~Ik ruik sterk bier!*Geef het aan me, ik heb het zo hard nodig!
+Route59_Botan_Gate_1F_Guard_HaveBeer_DrinksBeer,...Slok slok...~...Slik...~Dit spul komt hard aan...
+Route59_Botan_Gate_1F_Guard_HaveBeer_FallAsleep,Zzzzz...*<Player.Name>: Het lijkt erop~dat ik nu langs deze vent~kan, en mijn missie kan~voltooien!
+Route59_Botan_Gate_1F_Guard_StillAsleep,<Player.Name>: Hij slaapt nog~steeds...
+Route59_Botan_Gate_2F_EeveeTrade_Question,Hoi! Heb je een~Mareep?*Wil je er één ruilen voor~een Eevee?
 Route59_Botan_Gate_2F_EeveeTrade_Answer_No,Jammer.
-Route59_Botan_Gate_2F_EeveeTrade_AfterTrade,How is my old Eevee?*My Mareep is doing great!
+Route59_Botan_Gate_2F_EeveeTrade_AfterTrade,Hoe gaat het met mijn oude Eevee?*Met mijn Mareep gaat het~geweldig!
 Route59_Botan_Gate_2F_EeveeTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
-Route59_Botan_Gate_2F_EeveeTrade_TradeFail,...This is no Mareep.*If you get one, trade it~with me!
-Route59_Botan_Gate_2F_EeveeTrade_CatchMethod,Received in a trade in the Gate on
+Route59_Botan_Gate_2F_EeveeTrade_TradeFail,...Dit is geen Mareep.*Als je er één vindt, ruil~hem dan met mij!
+Route59_Botan_Gate_2F_EeveeTrade_CatchMethod,Ontvangen via een ruil in de Poort op
 Route59_Botan_Gate_2F_EeveeTrade_CatchLocation,Route 59
-Route59_Botan_Gate_2F_Binoculars_Left,Looked into the binoculars...*The Rijon League!
-Route59_Botan_Gate_2F_Binoculars_Right,Looked into the binoculars...*A dark forest can be~seen... maybe there are some~ghosts there...
+Route59_Botan_Gate_2F_Binoculars_Left,<Player.Name> keek door de~verrekijker...*Daar is de Rijon League!
+Route59_Botan_Gate_2F_Binoculars_Right,<Player.Name> keek door de~verrekijker...*Een donker bos is te zien...~misschien zijn daar wel~geesten...
 Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hoi! Ken je me nog?*Ik ben de assistent van~Prof. Tim!*Als je 45 soorten Pokémon hebt~gevangen, moet ik je een~Detector geven!*Dus <Player.Name>!~Heb je minstens 45 soorten~Pokémon gevangen?
 Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_45OrMorePokemon,Even zien...*Geweldig! Je hebt <Pokedex.Caught>~soorten Pokémon gevangen!~Gefeliciteerd!*Alsjeblieft!
-Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan45Pokemon,Even zien...*Oh-oh!~Je hebt niet genoeg soorten~Pokémon gevangen!*Je hebt 45 soorten nodig als~je de Detector.
+Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan45Pokemon,Even zien...*Oh-oh!~Je hebt niet genoeg soorten~Pokémon gevangen!*Je hebt 45 soorten nodig als~je de Detector wilt.
 Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerNo,Oh, ik begrijp het.~Als je 45 soorten hebt,~kom dan terug voor de~Detector.
-Route59_Botan_Gate_2F_Aide_ItemFinder_AfterReceiveItemFinder,There are items on the ground~that can't be seen.~The Item Finder will reveal~hidden items near you for a~brief moment.~It doesn't tell you where they~are exactly, so you have to~look yourself!
+Route59_Botan_Gate_2F_Aide_ItemFinder_AfterReceiveItemFinder,Er liggen voorwerpen op de~grond die je niet kunt zien.~De Detector laat verborgen~items kort zien die dichtbij~je zijn.*Hij vertelt je niet precies~waar ze liggen, dus je moet~zelf zoeken!
 
 [Botan City]
-Botan_Main_Sign_City,Botan City*The City Of Nostalgia.
-Botan_Main_Sign_Cave,Botan Cave~TO BE DEMOLISHED*Coming soon:~Magnet Train Expansion.*High speed rail to Kanto,~Johto, Naljo and Tunod!*     Magnet Train~We're Getting There
-Botan_Main_Scientist,That supernatural forest is~really intriguing, I've been~studying it and I think it~might be a virus caused by~Ph4D95210XaP, but my~colleagues think I've gone~crazy.*Uh? Wait, where's my Card Key?
-Botan_Main_Gentleman,Thank goodness the~warehouse is safe.
-Botan_Main_Rocker,MissingNo. are actually just~ghosts.
-Botan_Main_FatGuy,Yeah! Team Rocket is gone!~It's safe to go out again!
-Botan_Main_Beauty,The Haunted Forest is really~spooky.
-Botan_Main_HealLady_Intro,My dream is to be a nurse~in the soon to be built~Pokémon Center!*Would you like me to heal your~Pokémon?
-Botan_Main_HealLady_Outro,I hope to see you again!
-Botan_Main_RocketGrunt_GetOutOfTheWay,Get out of the way!
-Botan_Main_RocketGrunt_GetLost,Get lost, kid!
-Botan_Main_RocketGrunt_WhatDoYouWant,What do you want? Get lost!
-Botan_Main_RocketGrunt_WeAreTakingTheTown,We're takin' the town!
-Botan_Main_RocketGrunt_TeamRocketWillBeRich,When the warehouse is ours,~Team Rocket will be rich!
-Botan_Main_RocketGrunt_Sleeping,...~Snore...*<Player.Name>: Hah! He's taking~a snooze!
+Botan_Main_Sign_City,Bloemenbloeistad*De Stad van Nostalgie.
+Botan_Main_Sign_Cave,Bloemenbloeigrot~WORDT GESLOOPT*Binnenkort:~Magneettrein-uitbreiding.*Hogesnelheidslijn naar~Kanto, Johto, Naljo en Tunod!*       Magneettrein~We Komen Er Wel
+Botan_Main_Scientist,Dat bovennatuurlijke bos is~echt intrigerend, ik heb het~al een tijdje bestudeerd en~ik denk dat het een virus~kan zijn dat veroorzaakt is~door Ph4D95210XaP, maar mijn~collega’s denken dat ik gek~ben geworden.*Uh? Wacht, waar is mijn~Sleutelkaart?
+Botan_Main_Gentleman,Gelukkig is het warenhuis~veilig.
+Botan_Main_Rocker,OntbrekendNr. zijn eigenlijk~gewoon geesten.
+Botan_Main_FatGuy,Hoera! Team Rocket is weg!~Het is weer veilig om naar~buiten te gaan!
+Botan_Main_Beauty,Het Spookachtig Woud is~echt griezelig.
+Botan_Main_HealLady_Intro,Mijn droom is om~verpleegster te worden in~het Pokémon Center dat~binnenkort gebouwd wordt!*Wil je dat ik je Pokémon~genees?
+Botan_Main_HealLady_Outro,Ik hoop je snel weer te~zien!
+Botan_Main_RocketGrunt_GetOutOfTheWay,Ga uit de weg!
+Botan_Main_RocketGrunt_GetLost,Rot op, kleintje!
+Botan_Main_RocketGrunt_WhatDoYouWant,Wat wil je? Rot op!
+Botan_Main_RocketGrunt_WeAreTakingTheTown,We nemen de stad over!
+Botan_Main_RocketGrunt_TeamRocketWillBeRich,Als het warenhuis van ons is,~zal Team Rocket rijk worden!
+Botan_Main_RocketGrunt_Sleeping,...~Snurk...*<Player.Name>: Ha! Hij ligt~gewoon te slapen!
 
-Botan_PokeMart_Guy,This place is better than~any other mart!
-Botan_PokeMart_Girl,Revive is costly, but it revives~fainted Pokémon!
+Botan_PokeMart_Guy,Deze plek is beter dan welke~andere winkel dan ook!
+Botan_PokeMart_Girl,Opwekkers zijn duur, maar ze~maken uitgeschakelde Pokémon~weer klaar om te vechten!
 
 Botan_MrRumikoHouse_Nidorino_Cry,Nidorino: Gaoo!
-Botan_MrRumikoHouse_Psyduck_Cry,Psyduck: Gwappa!
-Botan_MrRumikoHouse_Grandson_BeforeRescue,That's odd.*Mr. Rumiko is gone.
-Botan_MrRumikoHouse_Grandson_AfterRescue,I'm Mr. Rumiko's grandson!
-Botan_MrRumikoHouse_Granddaughter,Hiya!
-Botan_MrRumikoHouse_Magazine,Pokémon Monthly
-Botan_MrRumikoHouse_MrRumiko_BeforeReceivePokeFlute,Mr. Rumiko: Alright,~<Player.Name>!*Here is the gift I promised~you.*It's a very popular item...~a PokéFlute!
-Botan_MrRumikoHouse_MrRumiko_AfterReceivePokeFlute,Mr. Rumiko: Upon hearing the~PokéFlute, any sleeping~Pokémon will wake up right~away!
-Botan_MrRumikoHouse_MrRumiko_MoveTutor_Question,Mr. Rumiko: Good luck and~thanks again for saving me,~<Player.Name>!*I learned a couple of things~on my strolls through the~forest, would you like me to~teach one of your Pokémon~the move Dark Pulse for only~$3000?
+Botan_MrRumikoHouse_Psyduck_Cry,Psyduck: Kwaak!
+Botan_MrRumikoHouse_Grandson_BeforeRescue,Dat is vreemd.*Meneer Rumiko is weg.
+Botan_MrRumikoHouse_Grandson_AfterRescue,Ik ben de kleinzoon van~Meneer Rumiko!
+Botan_MrRumikoHouse_Granddaughter,Hoi!
+Botan_MrRumikoHouse_Magazine,Pokémon Maandblad
+Botan_MrRumikoHouse_MrRumiko_BeforeReceivePokeFlute,Meneer Rumiko: Goed,~<Player.Name>!*Hier is het cadeau dat ik je~beloofd had.*Het is een heel populair~voorwerp... een Poké-fluit!
+Botan_MrRumikoHouse_MrRumiko_AfterReceivePokeFlute,Meneer Rumiko: Wanneer de~Poké-fluit gespeelt wordt,~zal elke slapende Pokémon~die hem hoort meteen~wakker worden!
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_Question,Meneer Rumiko: Veel succes~en nogmaals bedankt dat je~me gered hebt, <Player.Name>!*Ik heb een paar dingen~geleerd tijdens mijn~wandelingen door het bos,~wil je dat ik één van~je Pokémon de techniek~Duisterpuls leer voor~slechts $3000?
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Duisterpuls al.
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Duisterpuls niet leren!
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 
-
-Botan_TradeHouse_Blackbelt,My friend at the gate has~an Eevee that came from~a huge forest.*Did you know Eevee evolves~based on its surroundings?
-Botan_TradeHouse_TyrogueTrade_Question,I'm looking for a~Butterfree!*Wanna trade one for a~Tyrogue?
-Botan_TradeHouse_TyrogueTrade_Answer_No,Awww! Oh well...
-Botan_TradeHouse_TyrogueTrade_AfterTrade,The Butterfree you traded to~me is doing well!
+Botan_TradeHouse_Blackbelt,Mijn vriend bij de poort~heeft een Eevee die uit een~enorm bos komt.*Wist je dat Eevee evolueert~op basis van zijn omgeving?
+Botan_TradeHouse_TyrogueTrade_Question,Ik ben op zoek naar een~Butterfree!*Wil je er één ruilen voor~een Tyrogue?
+Botan_TradeHouse_TyrogueTrade_Answer_No,Awww! Ach ja...
+Botan_TradeHouse_TyrogueTrade_AfterTrade,Het gaat goed met de~Butterfree die je met me~geruild hebt!
 Botan_TradeHouse_TyrogueTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
-Botan_TradeHouse_TyrogueTrade_TradeFail,What? That's not Butterfree!*If you get one, come back~here!
-Botan_TradeHouse_TyrogueTrade_CatchMethod,Received in a trade in
-Botan_TradeHouse_TyrogueTrade_CatchLocation,Botan City
-Botan_TradeHouse_NoivernTrade_Question,I'm looking for a Gligar!~Wanna trade one for a~Noivern?
+Botan_TradeHouse_TyrogueTrade_TradeFail,Wat? Dat is geen Butterfree!*Als je er één vindt, kom~dan hier terug!
+Botan_TradeHouse_TyrogueTrade_CatchMethod,Ontvangen via een ruil in
+Botan_TradeHouse_TyrogueTrade_CatchLocation,Bloemenbloeistad
+Botan_TradeHouse_NoivernTrade_Question,Ik ben op zoek naar een~Gligar!~Wil je er één ruilen voor~een Noivern?
 Botan_TradeHouse_NoivernTrade_Answer_No,Awww! Nou ja...
 Botan_TradeHouse_NoivernTrade_AfterTrade,Is mijn oude Noivern niet~geweldig?
 Botan_TradeHouse_NoivernTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
 Botan_TradeHouse_NoivernTrade_TradeFail,Wat? Dat is geen Gligar!*Als je er eentje vindt, kom~dan hier terug!
-Botan_TradeHouse_NoivernTrade_CatchMethod,Received in a trade in
-Botan_TradeHouse_NoivernTrade_CatchLocation,Botan City
+Botan_TradeHouse_NoivernTrade_CatchMethod,Ontvangen via een ruil in
+Botan_TradeHouse_NoivernTrade_CatchLocation,Bloemenbloeistad
 
-Botan_MoveTutorHouse_MoveTutor_Intro,I tutor children, but I also~tutor Pokémon.*I teach them to remember~moves they forgot.*$1000 per lesson.~How about it?
+Botan_MoveTutorHouse_MoveTutor_Intro,Ik geef kinderen les, maar~ik geef ook Pokémon les.*Ik leer ze om technieken~te herinneren die ze~vergeten zijn.*$1000 per les.~Wat denk je ervan?
 Botan_MoveTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 Botan_MoveTutorHouse_MoveTutor_WhichPokemon,Welke Pokémon moet ik de~techniek leren?
-Botan_MoveTutorHouse_MoveTutor_WhichMove,Which move should it learn?
-Botan_MoveTutorHouse_MoveTutor_Outro,If any of your Pokémon need~to remember a move,~come visit me!
-Botan_MoveTutorHouse_MoveDeleter_Intro,Mom says I'm so forgetful~that it is contagious.*Want me to make a Pokémon~forget a move?
-Botan_MoveTutorHouse_MoveDeleter_WhichPokemon,Which Pokémon should forget~a move?
-Botan_MoveTutorHouse_MoveDeleter_WhichMove,Which move should it forget,~then?
-Botan_MoveTutorHouse_MoveDeleter_MakeItForget,Make it forget~<Pokemon.AttackName(<Pokemon.Selected>,<Pokemon.SelectedMove>)>?
-Botan_MoveTutorHouse_MoveDeleter_MoveIsForgotten,<Pokemon.AttackName(<Pokemon.Selected>,<Pokemon.SelectedMove>)> was~forgotten!
-Botan_MoveTutorHouse_MoveDeleter_Outro,Come visit me again!
+Botan_MoveTutorHouse_MoveTutor_WhichMove,Welke techniek moet hij~leren?
+Botan_MoveTutorHouse_MoveTutor_Outro,Als een van je Pokémon een~techniek moet herinneren,~kom dan bij me langs!
+Botan_MoveTutorHouse_MoveDeleter_Intro,Mijn moeder zegt dat ik zo~vergeetachtig ben dat het~besmettelijk is.*Wil je dat ik een Pokémon~een techniek laat vergeten?
+Botan_MoveTutorHouse_MoveDeleter_WhichPokemon,Welke Pokémon moet een~techniek vergeten?
+Botan_MoveTutorHouse_MoveDeleter_WhichMove,Welke techniek moet hij dan~vergeten?
+Botan_MoveTutorHouse_MoveDeleter_MakeItForget,Wil je dat hij~<Pokemon.AttackName(<Pokemon.Selected>,<Pokemon.SelectedMove>)> vergeet?
+Botan_MoveTutorHouse_MoveDeleter_MoveIsForgotten,<Pokemon.AttackName(<Pokemon.Selected>,<Pokemon.SelectedMove>)> is~vergeten!
+Botan_MoveTutorHouse_MoveDeleter_Outro,Kom gerust nog eens langs!
 
-Botan_Cave_DynamiteMiner,Hahaha!*I love setting dynamite down!
-Botan_Cave_ExplanationMiner,When this cave is destroyed,~we can start building that~high-speed railway to Naljo!
-Botan_Cave_KarmaMiner_BeforeTalking,This shiny Red Orb I found~while blowing rocks up is mine!*MINE!*Oh wait, that's bad karma.*I have to be a nice person~right?*Fine, I'll be a good Buddhist~and give this to you to gain~good karma.
-Botan_Cave_KarmaMiner_AfterTalking,Come on karma, help me out!
+Botan_Cave_DynamiteMiner,Hahaha!*Ik hou ervan om dynamiet~neer te leggen!
+Botan_Cave_ExplanationMiner,Wanneer deze grot is~vernietigd, kunnen we~beginnen met het bouwen~van de hogesnelheidslijn~naar Naljo!
+Botan_Cave_KarmaMiner_BeforeTalking,Deze glimmende Rode Bol die~ik vond terwijl ik rotsen~opblies is van mij!*VAN MIJ!*Oh wacht, dat is slechte~karma.*Ik moet een goed mens zijn,~toch?*Goed dan, ik zal een goede~boeddhist zijn en dit aan~jou geven om goede karma~te krijgen.
+Botan_Cave_KarmaMiner_AfterTalking,Kom op karma, help me een~beetje!
 
-Botan_HauntedForest_Gravestone_Blocky,Rest in Peace.~You will be missed.
-Botan_HauntedForest_Gravestone_Rounded,The engraving is damaged and~can't be read.*I guess the time comes even for graves...
-Botan_HauntedForest_Area1_PokeFan_Male,I heard this place is haunted.
-Botan_HauntedForest_Area1_AdultWoman,I would never go in the forest.
-Botan_HauntedForest_Area1_PokeFan_Female,No one knows why this place~is haunted...~It reminds me of Slumbering~Weald in the Galar region.*Koffing seem to be weirdly~attracted to this forest.*A friend said his Koffing did~something weird when it evolved~in this area...
-Botan_HauntedForest_Area1_YoungGirl,My Pokémon is lost in the~woods...
-Botan_HauntedForest_Area1_Channeler_Start,MissingNo. are loose!~Let me heal your Pokémon!
-Botan_HauntedForest_Area1_Channeler_End,Be careful!
-Botan_HauntedForest_Area1_Guard,Sorry, but access to the main~graveyard and Mansion is~currently restricted.*You may access other~graveyards in the forest~through that cave, though.*But be careful!*There have been a lot of ghost~sightings lately!
-Botan_HauntedForest_Area1_WillowTree,A group of Murkrow are sitting~on the trees branches...*Better not disturb them.
-Botan_HauntedForest_Area2_Mura_BeforeBattle,Mura: Hey, <Player.Name>!~I just caught a ghost~Pokémon and have also been~training my other Pokémon.*Care to try them out?
-Botan_HauntedForest_Area2_Mura_OutroMessage,What? You stinker! I took it easy on you!
-Botan_HauntedForest_Area2_Mura_AfterBattle,Mura: Well that stinks, I lost.*But don't think I'll go easy~on you next time.*<Player.Name>: Alright, see you~later man.
-Botan_HauntedForest_Area2_Channeler,MissingNo. are really messing~up the place!
-Botan_HauntedForest_Area3_VirusScanner,<Player.Name> used Virus Scanner!
-Botan_HauntedForest_Area3_ChannelerCarmen_IntroMessage,I will eat your soul!
+Botan_HauntedForest_Gravestone_Blocky,Rust in vrede.~Je zult gemist worden.
+Botan_HauntedForest_Gravestone_Rounded,De gravure is beschadigd en~kan niet worden gelezen.*Zelfs grafstenen ontkomen~niet aan de tijd...
+Botan_HauntedForest_Area1_PokeFan_Male,Ik hoorde dat deze plek~behekst is.
+Botan_HauntedForest_Area1_AdultWoman,Ik zou nooit het bos ingaan.
+Botan_HauntedForest_Area1_PokeFan_Female,Niemand weet waarom deze~plek behekst is...*Het doet me denken aan~het Sluimerwoud in de~Galar-regio.*Koffing lijken vreemd genoeg~aangetrokken tot dit bos.*Een vriend zei dat zijn~Koffing iets vreemds deed~toen het hier evolueerde...
+Botan_HauntedForest_Area1_YoungGirl,Mijn Pokémon is verdwaald~in het bos...
+Botan_HauntedForest_Area1_Channeler_Start,OntbrekendNr. dwalen rond!~Laat me je Pokémon genezen!
+Botan_HauntedForest_Area1_Channeler_End,Wees voorzichtig!
+Botan_HauntedForest_Area1_Guard,Sorry, maar toegang tot de~hoofd-begraafplaats en het~Landhuis is momenteel beperkt.*Je kunt wel andere~begraafplaatsen in het bos~bereiken via die grot.*Maar wees voorzichtig!*Er zijn de laatste tijd veel~geestverschijningen geweest!
+Botan_HauntedForest_Area1_WillowTree,Een groep Murkrow zit op de~takken van de boom...*Stoor ze maar niet.
+Botan_HauntedForest_Area2_Mura_BeforeBattle,Mura: Hé, <Player.Name>!~Ik heb net een geest-Pokémon~gevangen en heb ook mijn~andere Pokémon getraind.*Wil je ze uitproberen?
+Botan_HauntedForest_Area2_Mura_OutroMessage,Wat? Jij rotzak! Ik deed~rustig aan!
+Botan_HauntedForest_Area2_Mura_AfterBattle,Mura: Dat is rot, ik heb~verloren.*Maar denk niet dat ik de~volgende keer rustig aan~zal doen.*<Player.Name>: Oké, tot later man.
+Botan_HauntedForest_Area2_Channeler,OntbrekendNr. maken hier~echt een puinhoop van!
+Botan_HauntedForest_Area3_VirusScanner,<Player.Name> gebruikte de~Virusscanner!
+Botan_HauntedForest_Area3_ChannelerCarmen_IntroMessage,Ik zal je ziel opeten!
 Botan_HauntedForest_Area3_ChannelerCarmen_OutroMessage,Huh?
-Botan_HauntedForest_Area3_ChannelerCarmen_DefeatMessage,Why do I have 99 Town Maps?
-Botan_HauntedForest_Area3_ChannelerIrma_IntroMessage,Eekum Bokum!
-Botan_HauntedForest_Area3_ChannelerIrma_OutroMessage,What's going on?
-Botan_HauntedForest_Area3_ChannelerIrma_DefeatMessage,I'm confused.
-Botan_HauntedForest_Area3_ChannelerMyrtle_IntroMessage,Water Gun!
-Botan_HauntedForest_Area3_ChannelerMyrtle_OutroMessage,What did I just say?
-Botan_HauntedForest_Area3_ChannelerMyrtle_DefeatMessage,Is that you, Josiah?*Huh?
-Botan_HauntedForest_Area4_ChannelerGaby_IntroMessage,Smells like rotten meat.
-Botan_HauntedForest_Area4_ChannelerGaby_OutroMessage,What!
-Botan_HauntedForest_Area4_ChannelerGaby_DefeatMessage,MissingNo. are actually other~Pokémon.
-Botan_HauntedForest_Area4_ChannelerEdna_IntroMessage,FPS... Boring!
-Botan_HauntedForest_Area4_ChannelerEdna_OutroMessage,Huh? Who? What?
-Botan_HauntedForest_Area4_ChannelerEdna_DefeatMessage,Dead souls don't need this~stress.
-Botan_HauntedForest_Area4_ChannelerHeidi_IntroMessage,I need moons!
-Botan_HauntedForest_Area4_ChannelerHeidi_OutroMessage,Live longer!
-Botan_HauntedForest_Area4_ChannelerHeidi_DefeatMessage,Chompers!*Load State 1!
-Botan_HauntedForest_Area5_HealPlatform,Entered purified, protected~zone!*<Player.Name>'s Pokémon are fully~healed!
-Botan_HauntedForest_Area5_HealPlatformChanneler,Rest here and let your~party's energy return!!
-Botan_HauntedForest_Area5_ChannelerTara_IntroMessage,Stop 'n' Swop is...
-Botan_HauntedForest_Area5_ChannelerTara_OutroMessage,Oops, I forgot!
-Botan_HauntedForest_Area5_ChannelerTara_DefeatMessage,Theory!
-Botan_HauntedForest_Area5_ChannelerKerry_IntroMessage,Child!
-Botan_HauntedForest_Area5_ChannelerKerry_OutroMessage,Ha?
-Botan_HauntedForest_Area5_ChannelerKerry_DefeatMessage,I hate kids!
-Botan_HauntedForest_Area5_ChannelerCatherin_IntroMessage,Useless dialogue!
-Botan_HauntedForest_Area5_ChannelerCatherin_OutroMessage,Whoo!
-Botan_HauntedForest_Area5_ChannelerCatherin_DefeatMessage,I don't want to say anything.
-Botan_HauntedForest_Area5_ChannelerNami_IntroMessage,Rot in hell!
-Botan_HauntedForest_Area5_ChannelerNami_OutroMessage,Gasp!
-Botan_HauntedForest_Area5_ChannelerNami_DefeatMessage,Satan forever!
-Botan_HauntedForest_Area6_ChannelerPaula_IntroMessage,Getting tired?
-Botan_HauntedForest_Area6_ChannelerPaula_OutroMessage,Groan!
-Botan_HauntedForest_Area6_ChannelerPaula_DefeatMessage,I like stopping people.
-Botan_HauntedForest_Area6_ChannelerAshanti_IntroMessage,Enough?*Never!
-Botan_HauntedForest_Area6_ChannelerAshanti_OutroMessage,Keee!
-Botan_HauntedForest_Area6_ChannelerAshanti_DefeatMessage,What's going on here?
-Botan_HauntedForest_Area6_ChannelerShaundi_IntroMessage,Stuff.
-Botan_HauntedForest_Area6_ChannelerShaundi_OutroMessage,Other stuff.
-Botan_HauntedForest_Area6_ChannelerShaundi_DefeatMessage,Even more stuff!
-Botan_HauntedForest_Area6_MissingNo_NoVirusScanner_StartBattle,Your game was erased!
-Botan_HauntedForest_Area6_MissingNo_WithVirusScanner_StartBattle,Your game was erased!*<Player.Name> used Virus Scanner!
-Botan_HauntedForest_Area6_MissingNo_WithVirusScanner_AfterBattle,The MissingNo. was really just~a Kangaskhan!*Luckily the virus is now~removed!*The MissingNo. vanished!
-Botan_HauntedForest_Area7_RocketGruntKlay_IntroMessage,What do you want?~Why are you here?
-Botan_HauntedForest_Area7_RocketGruntKlay_OutroMessage,I give up!
-Botan_HauntedForest_Area7_RocketGruntKlay_DefeatMessage,I'm not going to forget this!
-Botan_HauntedForest_Area7_RocketGruntRolf_IntroMessage,No need to raise my Pokémon!*I magically had 99 Rare Candies~in my bag!
-Botan_HauntedForest_Area7_RocketGruntRolf_OutroMessage,Please! No more!
-Botan_HauntedForest_Area7_RocketGruntRolf_DefeatMessage,Why did the candies fail me?*Forget this!
-Botan_HauntedForest_Area7_RocketGruntIzzy_IntroMessage,Deja Vu, huh?
-Botan_HauntedForest_Area7_RocketGruntIzzy_OutroMessage,Don't fight us Rockets!
-Botan_HauntedForest_Area7_RocketGruntIzzy_DefeatMessage,Gah, not again!
-Botan_HauntedForest_Area7_MrRumiko,Mr. Rumiko: Finally! Somebody~found me!*The Rockets held me hostage~because they thought I knew~more about the MissingNo.!*<Player.Name>: Luckily they didn't~get any information out of~you, right?*Mr. Rumiko: What information?~I was just having my daily~stroll through the forest!*Anyhow, as a reward for~saving me, I've got a special~gift for you!*Let's get out of this dark~forest, first of all!
+Botan_HauntedForest_Area3_ChannelerCarmen_DefeatMessage,Waarom heb ik 99 Landkaarten?
+Botan_HauntedForest_Area3_ChannelerIrma_IntroMessage,Iekem Boekem!
+Botan_HauntedForest_Area3_ChannelerIrma_OutroMessage,Wat gebeurt hier?
+Botan_HauntedForest_Area3_ChannelerIrma_DefeatMessage,Ik ben in de war.
+Botan_HauntedForest_Area3_ChannelerMyrtle_IntroMessage,Waterpistool!
+Botan_HauntedForest_Area3_ChannelerMyrtle_OutroMessage,Wat zei ik net?
+Botan_HauntedForest_Area3_ChannelerMyrtle_DefeatMessage,Ben jij dat, Josiah?*Huh?
+Botan_HauntedForest_Area4_ChannelerGaby_IntroMessage,Het ruikt naar rot vlees.
+Botan_HauntedForest_Area4_ChannelerGaby_OutroMessage,Wat!
+Botan_HauntedForest_Area4_ChannelerGaby_DefeatMessage,OntbrekendNr. zijn eigenlijk~andere Pokémon.
+Botan_HauntedForest_Area4_ChannelerEdna_IntroMessage,FPS... Saai!
+Botan_HauntedForest_Area4_ChannelerEdna_OutroMessage,Huh? Wie? Wat?
+Botan_HauntedForest_Area4_ChannelerEdna_DefeatMessage,Dode zielen verdienen deze~stress niet.
+Botan_HauntedForest_Area4_ChannelerHeidi_IntroMessage,Ik heb manen nodig!
+Botan_HauntedForest_Area4_ChannelerHeidi_OutroMessage,Leef langer!
+Botan_HauntedForest_Area4_ChannelerHeidi_DefeatMessage,Eet de spoken!*Laad het opslagbestand!
+Botan_HauntedForest_Area5_HealPlatform,Gezuiverd, beschermd gebied~binnengegaan!*De Pokémon van <Player.Name>~zijn volledig genezen!
+Botan_HauntedForest_Area5_HealPlatformChanneler,Rust hier en laat de energie~van je team terugkeren!!
+Botan_HauntedForest_Area5_ChannelerTara_IntroMessage,De code van het laatste~level is...
+Botan_HauntedForest_Area5_ChannelerTara_OutroMessage,Oeps, ik ben het vergeten!
+Botan_HauntedForest_Area5_ChannelerTara_DefeatMessage,Theorie!
+Botan_HauntedForest_Area5_ChannelerKerry_IntroMessage,Kind!
+Botan_HauntedForest_Area5_ChannelerKerry_OutroMessage,Hè?
+Botan_HauntedForest_Area5_ChannelerKerry_DefeatMessage,Ik haat kinderen!
+Botan_HauntedForest_Area5_ChannelerCatherin_IntroMessage,Nutteloze dialoog!
+Botan_HauntedForest_Area5_ChannelerCatherin_OutroMessage,Woow!
+Botan_HauntedForest_Area5_ChannelerCatherin_DefeatMessage,Ik wil helemaal niets~zeggen.
+Botan_HauntedForest_Area5_ChannelerNami_IntroMessage,Rot in de hel!
+Botan_HauntedForest_Area5_ChannelerNami_OutroMessage,Schrik!
+Botan_HauntedForest_Area5_ChannelerNami_DefeatMessage,Satan voor altijd!
+Botan_HauntedForest_Area6_ChannelerPaula_IntroMessage,Word je moe?
+Botan_HauntedForest_Area6_ChannelerPaula_OutroMessage,Kreun!
+Botan_HauntedForest_Area6_ChannelerPaula_DefeatMessage,Ik vind het leuk om mensen~tegen te houden.
+Botan_HauntedForest_Area6_ChannelerAshanti_IntroMessage,Genoeg?*Nooit!
+Botan_HauntedForest_Area6_ChannelerAshanti_OutroMessage,Ieee!
+Botan_HauntedForest_Area6_ChannelerAshanti_DefeatMessage,Wat gebeurt hier?
+Botan_HauntedForest_Area6_ChannelerShaundi_IntroMessage,Dingen.
+Botan_HauntedForest_Area6_ChannelerShaundi_OutroMessage,Andere dingen.
+Botan_HauntedForest_Area6_ChannelerShaundi_DefeatMessage,Nog meer dingen!
+Botan_HauntedForest_Area6_MissingNo_NoVirusScanner_StartBattle,Je spel is gewist!
+Botan_HauntedForest_Area6_MissingNo_WithVirusScanner_StartBattle,Je spel is gewist!*<Player.Name> gebruikte de~Virusscanner!
+Botan_HauntedForest_Area6_MissingNo_WithVirusScanner_AfterBattle,De OntbrekendNr. bleek~gewoon een Kangaskhan~te zijn!*Gelukkig is het virus nu~verwijderd!*De OntbrekendNr. verdween!
+Botan_HauntedForest_Area7_RocketGruntKlay_IntroMessage,Wat wil je?~Waarom ben je hier?
+Botan_HauntedForest_Area7_RocketGruntKlay_OutroMessage,Ik geef het op!
+Botan_HauntedForest_Area7_RocketGruntKlay_DefeatMessage,Ik zal dit niet vergeten!
+Botan_HauntedForest_Area7_RocketGruntRolf_IntroMessage,Ik hoef mijn Pokémon niet te~trainen!*Ik had op magische wijze~99 Zeldzame Snoepjes in~mijn tas!
+Botan_HauntedForest_Area7_RocketGruntRolf_OutroMessage,Alsjeblieft! Niet meer!
+Botan_HauntedForest_Area7_RocketGruntRolf_DefeatMessage,Waarom hebben de snoepjes~me in de steek gelaten?*Laat maar zitten!
+Botan_HauntedForest_Area7_RocketGruntIzzy_IntroMessage,Déjà vu, hè?
+Botan_HauntedForest_Area7_RocketGruntIzzy_OutroMessage,Vecht niet tegen ons~Rockets!
+Botan_HauntedForest_Area7_RocketGruntIzzy_DefeatMessage,Jemig, niet alweer!
+Botan_HauntedForest_Area7_MrRumiko,Meneer Rumiko: Eindelijk!~Iemand heeft me gevonden!*De Rockets hielden me~gegijzeld omdat ze dachten~dat ik meer wist over de~OntbrekendNr.!*<Player.Name>: Gelukkig hebben~ze geen informatie uit u~weten te wrikken, toch?*Meneer Rumiko: Welke~informatie?*Ik was gewoon mijn~dagelijkse wandeling door~het bos aan het maken!*Hoe dan ook, als beloning~voor het redden van mij heb~ik een speciaal cadeau~voor je!*Laten we eerst uit dit~donkere bos gaan!
 
 [Route 58 - Botan City Gate]
-Route58_Botan_Gate_Guard,That forest scares me!*Some scientists from the~Manor at Castro Valley said~there are no ghosts and some~kind of virus was responsible...*They said they were developing~a scanner or something, but I~don't buy it!*Ghosts are really scary!
+Route58_Botan_Gate_Guard,Dat bos maakt me bang!*Sommige wetenschappers in~het Landhuis van Dalburg~zeiden dat er geen geesten~zijn en dat een soort virus~de oorzaak was...*Ze zeiden dat ze een scanner~of zoiets aan het~ontwikkelen waren, maar ik~geloof er niets van!*Geesten zijn echt eng!
 
 [Route 58]
-Route58_Main_Sign_Route,Route 58~Tan Boat Creek*Botan City - Castro Valley
-Route58_Main_JrTrainerFemaleAleah_IntroMessage,You want to battle me?*Hope I can win for once!
-Route58_Main_JrTrainerFemaleAleah_OutroMessage,Ugh! I hate losing!
-Route58_Main_JrTrainerFemaleAleah_DefeatMessage,Get out of here!
-Route58_Main_JrTrainerMaleGib_IntroMessage,I'm bored!~So lets battle, okay?
-Route58_Main_JrTrainerMaleGib_OutroMessage,Nothing goes right today!
-Route58_Main_JrTrainerMaleGib_DefeatMessage,Still bored...
-Route58_Main_BugCatcherJarrod_IntroMessage,What?!*How did you get here?
-Route58_Main_BugCatcherJarrod_OutroMessage,Wow, that's amazing!
-Route58_Main_BugCatcherJarrod_DefeatMessage,Do you have a spare passport~I could have?*...*Right, I thought so.
-Route58_Main_JrTrainerFemaleDelia_IntroMessage,Let's try this one last time!
-Route58_Main_JrTrainerFemaleDelia_OutroMessage,Nope, not even a chance!
-Route58_Main_JrTrainerFemaleDelia_DefeatMessage,Maybe I'm just not trainer~material...
-Route58_Main_JrTrainerMaleCarlos_IntroMessage,Let me interrupt you!
-Route58_Main_JrTrainerMaleCarlos_OutroMessage,I didn't start it!
-Route58_Main_JrTrainerMaleCarlos_DefeatMessage,Stop bugging me for no~reason!
+Route58_Main_Sign_Route,Route 58~Boothoutbeek*Bloemenbloeistad - Dalburg
+Route58_Main_JrTrainerFemaleAleah_IntroMessage,Wil je tegen me vechten?*Hopelijk win ik eens een~keer!
+Route58_Main_JrTrainerFemaleAleah_OutroMessage,Uch! Ik haat verliezen!
+Route58_Main_JrTrainerFemaleAleah_DefeatMessage,Ga weg!
+Route58_Main_JrTrainerMaleGib_IntroMessage,Ik verveel me!~Dus laten we vechten, oké?
+Route58_Main_JrTrainerMaleGib_OutroMessage,Niets gaat vandaag goed!
+Route58_Main_JrTrainerMaleGib_DefeatMessage,Nog steeds verveeld...
+Route58_Main_BugCatcherJarrod_IntroMessage,Wat?!*Hoe ben jij hier gekomen?
+Route58_Main_BugCatcherJarrod_OutroMessage,Wauw, dat is geweldig!
+Route58_Main_BugCatcherJarrod_DefeatMessage,Heb je een reservepaspoort~dat ik mag hebben?*...*Juist, dat dacht ik al.
+Route58_Main_JrTrainerFemaleDelia_IntroMessage,Laten we het nog één laatste~keer proberen!
+Route58_Main_JrTrainerFemaleDelia_OutroMessage,Nee, geen schijn van kans!
+Route58_Main_JrTrainerFemaleDelia_DefeatMessage,Misschien ben ik gewoon niet~geschikt als trainer...
+Route58_Main_JrTrainerMaleCarlos_IntroMessage,Laat me je even onderbreken!
+Route58_Main_JrTrainerMaleCarlos_OutroMessage,Ik begon niet!
+Route58_Main_JrTrainerMaleCarlos_DefeatMessage,Hou op met me lastig te~vallen zonder reden!
 
-Route58_InternationalTunnel_1F_Miner,I've built this ladder, so all~I need to do now is mine up to~Silk Tunnel!*It'll take me some time to~finish, but I don't mind.*I love to dig!
-Route58_InternationalTunnel_B1F_BorderPatrol,Border Patrol!*Without a passport you are~not allowed into Naljo!
+Route58_InternationalTunnel_1F_Miner,Ik heb deze ladder gebouwd,~dus nu hoef ik alleen nog~omhoog te graven naar de~Zijdetunnel!*Het zal nog even duren~voordat ik klaar ben, maar~dat maakt me niets uit.*Ik hou van graven!
+Route58_InternationalTunnel_B1F_BorderPatrol,Grenswacht!*Zonder paspoort mag je Naljo~niet binnen!
 
 [Castro Valley]
 Castro_Main_OldLady,The S.S. Anne just came for~its final stop!
@@ -6985,6 +7055,8 @@ Azalea_Gym_LeaderBugsy_Rematch_Reward2,Bugsy: This amazing tool will~make your P
 Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Well, I guess I have more~learning to do.*But that's nothing new!*Bug-type Pokémon are my~favorite, but every Pokémon~has so many mysteries for us~to uncover in the future!
 Azalea_Gym_Choose_Gligar,You want the Gligar?
 Azalea_Gym_Choose_Sneasel,You want the Sneasel?
+Azalea_Gym_Pokemon_CatchMethod,Received as a gift at
+Azalea_Gym_Pokemon_CatchLocation,Azalea Town Gym
 Azalea_Gym_PokeballAfterChoose,Better not get greedy...
 
 [Final Dungeon]

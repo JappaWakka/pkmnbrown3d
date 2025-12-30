@@ -37,7 +37,7 @@ global_money,Kasa
 global_points,Punkty
 global_IDNo.,Nr ID
 global_time,Czas
-global_name,Name
+global_name,Imię
 global_order,Kolejność
 global_filter,Filtruj
 global_reset,Zresetuj
@@ -115,9 +115,9 @@ property_Ability,Ability
 property_Type,Typ
 property_Nature,Nature
 property_DexNo.,Nr Dex
-property_ot,OT
+property_OT,OT
 property_CatchMethod,Metoda złapania
-property_ExpPoints,Exp. Points
+property_ExpPoints,Punkty dośw.
 property_Category,Kategoria
 property_Power,Moc
 property_Accuracy,Celność
@@ -361,11 +361,11 @@ option_screen_contentpacks_information,Information
 option_screen_contentpacks_songs,Songs
 option_screen_contentpacks_sounds,Sounds
 option_screen_contentpacks_textures,Textures
-option_screen_contentpacks_name,Name
-option_screen_contentpacks_version,Version
+option_screen_contentpacks_name,Nazwa
+option_screen_contentpacks_version,Wersja
 option_screen_contentpacks_by,By
-option_screen_contentpacks_content,Content
-option_screen_contentpacks_description,Description
+option_screen_contentpacks_content,Treść
+option_screen_contentpacks_description,Opis
 
 option_screen_resetoptions,Resetuj opcje
 option_screen_save_options,Zapisz opcje
@@ -388,7 +388,7 @@ game_menu_save,Zapisz
 game_menu_save_notpossible,Teraz nie można zapisać.
 game_menu_options,Opcje
 game_menu_exit,Wyjdź z menu
-game_menu_end_contest,End Contest
+game_menu_end_contest,Zakończ Konkurs
 ---
 InventoryScreen:
 inventory_screen_title,Inventory
@@ -410,11 +410,11 @@ inventory_screen_CannotGiveBugContest,Cannot give an item to~this Pokémon durin
 inventory_screen_EggsCannotHold,Eggs cannot hold items.
 ---
 PartyScreen:
-party_screen_Unable,Unable!
-party_screen_Able,Able!
+party_screen_Unable,Nie można!
+party_screen_Able,Można!
 party_screen_FieldMove,Field Move
-party_screen_ChoosePokemon,Choose Pokémon
-party_screen_CannotChoosePokemon,Cannot choose this~Pokémon.
+party_screen_ChoosePokemon,Wybierz Pokémona
+party_screen_CannotChoosePokemon,Nie można wybrać tego~Pokémon.
 ---
 NewGameScreen:
 new_game_intro_1,Hello!~Sorry to keep~you waiting!*Welcome to the world~of Pokémon!*My name is Oak.~People call me~Pokémon Prof.*This world is inhabited~by creatures that~we call
@@ -457,9 +457,9 @@ save_screen_press,Wciśnij
 save_screen_to_continue,, aby kontynuować.
 ---
 Apricorn Screen:
-apricorn_screen_apricorns,Apricorns
+apricorn_screen_apricorns,Apricorny
 apricorn_screen_producing,I am producing the Balls at the moment.~Come back later.
-apricorn_screen_backadvice,PRESS [<system.button(OpenMenu)>] TO GO BACK
+apricorn_screen_backadvice,WCIŚNIJ [<system.button(OpenMenu)>], ABY WRÓCIĆ
 apricorn_screen_choose_apricorns,Please choose the Apricorns I should take to produce Poké Balls.
 apricorn_screen_ok,OK
 apricorn_screen_clear,Clear
@@ -494,12 +494,12 @@ shop_screen_buysell_PricePerItem,Per Item:
 shop_screen_buysell_PriceTotal,Total:
 shop_screen_buysell_InInventory,In Inventory:
 shop_screen_buysell_DescriptionHint,Press [<system.button(special)>] or Select to view the item's description.
-shop_screen_buysell_CurrentBalance,Current Balance:
-shop_screen_currency_BattlePoints,Battle Points
-shop_screen_currency_Coins,Coins
+shop_screen_buysell_CurrentBalance,Obecne saldo:
+shop_screen_currency_BattlePoints,Punkty walki
+shop_screen_currency_Coins,Monety
 shop_screen_currency_Pokédollars,$
-shop_screen_currency_short_BattlePoints,BP
-shop_screen_currency_short_Coins,C
+shop_screen_currency_short_BattlePoints,PW
+shop_screen_currency_short_Coins,M
 shop_screen_currency_short_Pokédollars,$
 ---
 Blackout Screen:
@@ -514,10 +514,11 @@ credits_skip,Press [<system.button(enter1)>] to skip to the end.
 credits_continue,Press [<system.button(enter1)>] to continue.
 credits_title_Pokémon Brown (Rom Hack),Pokémon Brown (Rom Hack)
 credits_title_Pokémon Brown 3D (GameMode),Pokémon Brown 3D (GameMode)
-credits_title_Map Design,Map Design
+credits_title_Map Design,Projektowanie map
 credits_title_ActionScript,ActionScript
-credits_title_Bug Testing,Bug Testing
-credits_title_Special Thanks,Special Thanks
+credits_title_Bug Testing,Testowanie błędów
+credits_title_Special Thanks,Specjalne podziękowania
+credits_title_Translation,Tłumaczenie
 credits_title_THE END?,THE END?
 credits_line_Thanks for playing!,Thanks for playing!
 ---
@@ -574,7 +575,7 @@ VoltorbFlip_BeforeGame_NoCoinCase,You don't have a Coin Case!~Come back when you
 
 VoltorbFlip_Tutorial_HowToPlay_Message,Voltorb Flip is a game in which~you flip over cards to find~numbers hidden beneath them.*The cards are hiding the~numbers 1 through 3...~and Voltorb as well.*The first number you flip over~will give you that many Coins.*From then on, the next number~you find will multiply the~total amount of Coins you've~collected by that number.*If it's a 2, your total will~be multiplied by "x2".*If it's a 3, your total will~be multiplied by "x3".*But if you flip over a~Voltorb, it's game over.*When that happens, you'll lose~all the Coins you've collected~in the current level.*If you select "Quit", you'll~withdraw from the level.*If you get to a difficult~spot, you might want to end~the game early.*Once you've found all the~hidden 2 and 3 cards,~you've cleared the game.*Once you've flipped over~all these cards, then you'll~advance to the next level.*As you move up in levels,~you will be able to receive~more Coins. Do your best!
 VoltorbFlip_Tutorial_Hint_Message,The numbers at the side~of the board give you a clue~about the numbers hidden on~the backs of the cards.*The larger the number, the~more likely it is that there~are many large numbers hidden~in that row or column.*In the same way, you can tell~how many Voltorb are hidden~in the row or column.*Consider the hidden number~totals and the Voltorb~totals carefully as you~flip over cards.
-VoltorbFlip_Tutorial_AboutMemos_Message,Select "Open Memo" or press~[<system.button(run)>] to open the~Memo Window.*You can mark the cards with~the numbers 1 through 3,~but also with a Voltorb mark.*When you have an idea of the~numbers hidden on the back~of the cards, open the Memo~Window, choose the type of~mark you want to use with~the Mouse Wheel or the~Gamepad's Shoulder Buttons~and then press [<system.button(enter1)>]~while highlighting the card~you want to mark.*If you want to remove a mark,~choose the type of mark you~want to remove with the~Mouse Wheel or the Gamepad's~Shoulder Buttons and then~press [<system.button(back1)>] while~highlighting the card you want~to remove the mark from.*You can also use the~mouse to select a~mark type or a card.
+VoltorbFlip_Tutorial_AboutMemos_Message,Select "Open Memo" or press~[<system.button(run)>] to open the~Memo Window.*You can mark the cards with~the numbers 1 through 3,~but also with a Voltorb mark.*When you have an idea of the~numbers hidden on the back~of the cards, open the Memo~Window, choose the type of~mark you want to use with~the Mouse Wheel or the~Gamepad's Shoulder Buttons~and then press [<system.button(enter1)>]~while highlighting the card~you want to mark.*If you want to remove a mark,~choose the type of mark you~want to remove with the~Mouse Wheel or the Gamepad's~Shoulder Buttons and then~press [<system.button(back1)>] while~highlighting the card you~want to remove the mark from.*You can also use the~mouse to select a~mark type or a card.
 VoltorbFlip_Tutorial_HowToPlay_Image1,If you flip the cards in this order, you'll collect: 3 x 1 x 2 x 1 x 3...~A total of 18 Coins! And then...
 VoltorbFlip_Tutorial_HowToPlay_Image2,If you select "Quit", you'll keep those 18 Coins.
 VoltorbFlip_Tutorial_HowToPlay_Image3,But if you find Voltorb, you'll lose all your Coins!
@@ -650,7 +651,7 @@ battle_Run,Run
 battle_Battle,Battle
 battle_Bag,Bag
 battle_Surrender,Poddaj się
-battle_action_MegaEvolve,Mega Evolve!
+battle_action_MegaEvolve,Megaewoluuj!
 ---
 Badges:
 badge_1,Marine
@@ -683,12 +684,12 @@ Places_Seashore City,Brzeźnin
 Places_Gravel Town,Żwirnice
 Places_Merson City,Marzanów
 Places_Hayward City,Chocholec
-Places_Owsauri City,Owsauri
+Places_Owsauri City,Kresowice
 Places_Moraga Town,Barbekin
 Places_Jaeru City,Wrócisztyn
 Places_Botan City,Piwonice
 Places_Castro Valley,Grodzinów
-Places_Eagulou City,Eagulou
+Places_Eagulou City,Tromlica
 Places_Azalea Town,Azalea
 
 Special Places:
@@ -703,7 +704,7 @@ Places_Daycare,Centrum Opieki
 Places_Prism Museum,Prism Museum
 Places_Nation's Burgers,Nation's Burgers
 Places_Orion Academy,Akademia Oriona
-Places_Owsauri Casino,Kasyno Owsauri
+Places_Owsauri Casino,Kasyno Kresowickie
 Places_City Underpass,Miejskie Przejście Podziemne
 Places_Dock Underpass,Portowe Przejście Podziemne
 Places_Power Plant,Elektrownia
@@ -717,9 +718,9 @@ Places_Botan Cave,Jaskinia Piwonicka
 Places_Haunted Forest,Nawiedzony Las
 Places_International Tunnel,Tunel Międzynarodowy
 Places_Castro Forest,Las Grodzinowski
-Places_Eagulou Park,Park Eagulou
+Places_Eagulou Park,Park Tromlicki
 Places_Secret Cave,Tajna Jaskinia
-Places_Seneca Caverns,Jaskinia Seneki
+Places_Seneca Caverns,Jaskinia Senecka
 Places_Rijon League,Liga Rijon
 Places_Madame Renifler,Madame Renifler
 Places_Ilex Forest,Las Ilex
@@ -731,12 +732,12 @@ Places_Final Dungeon,Ostatni Loch
 Gyms:
 Places_Seashore City Gym,Sala w Brzeźninie
 Places_Merson City Gym,Sala w Marzanowie
-Places_Owsauri City Gym,Sala Owsauri
-Places_Moraga Town Gym,Sala Barbekinie
+Places_Owsauri City Gym,Sala w Kresowicach
+Places_Moraga Town Gym,Sala w Barbekinie
 Places_Jaeru City Gym,Sala we Wrócisztynie
 Places_Castro Valley Gym,Sala w Grodzinowie
 Places_South Reservoir Gym,Sala South Reservoir
-Places_Eagulou City Gym,Sala Eagulou
+Places_Eagulou City Gym,Sala w Tromlicy
 Places_Azalea Town Gym,Sala w Azalea
 
 Routes:
@@ -2620,6 +2621,8 @@ Item_Use_PokeFlute,<Player.Name> played the~PokéFlute.
 Item_Use_HiddenTreasures,<Player.Name>: What could this~item be?*It looks important.~I should find an expert!
 -------------------
 Move Names:
+
+# I use translations from DP and later wherever possible. I do make changes where I need to, but most of the time this matches DP-on.
 move_name_1,Pound
 move_name_2,Cios Karate
 move_name_3,Dwuklask
@@ -2715,7 +2718,7 @@ move_name_78,Pył Szoku
 move_name_79,Usypiający Proszek
 move_name_80,Taniec Płatków
 move_name_81,Strzał Siecią
-# "Pajęcza Nić" implies exclusivity to spiders.
+# "Pajęcza Nić" implies exclusivity to spiders, and better fits the move Spider Web.
 move_name_82,Gniew Smoka
 move_name_83,Ognisty Wir
 move_name_84,Szok Elektryczny
@@ -2782,7 +2785,7 @@ move_name_134,Moc Psychiczna
 # Translation of the German name, Psykraft.
 # This move was never used in the anime.
 move_name_135,Miękka Terapia
-# The official translation, "Terapia Ciepłem", does not represent the egg at all.
+# The official translation, "Terapia Ciepłem", does not represent the egg at all. "Softboiled egg" is "jajko na miękko".
 move_name_136,Saltocios
 move_name_137,Złośliwe Spojrzenie
 # All official translations of Glare are bad.
@@ -3287,18 +3290,18 @@ move_name_1009,3-D Attack
 move_name_1010,Dziwna Fala
 move_name_1011,Dice Roll
 move_name_1012,Twig Slap
-move_name_1013,Growl
+move_name_1013,Warczenie
 move_name_1014,Hyper Voice
-move_name_1015,Roar
-move_name_1016,Screech
-move_name_1017,Sing
-move_name_1018,Sonic Boom
-move_name_1019,Supersonic
-move_name_1020,Dizzy Punch
+move_name_1015,Ryk
+move_name_1016,Skrzek
+move_name_1017,Śpiew
+move_name_1018,Bomba Dźwięku
+move_name_1019,Superdźwięk
+move_name_1020,Błędny Cios
 move_name_1021,Double Slap
-move_name_1022,Poison Gas
+move_name_1022,Trujący Gaz
 move_name_1023,Smog
-move_name_1024,Smokescreen
+move_name_1024,Zasłona Dymna
 move_name_1025,Aeroblast
 move_name_1026,Air Slash
 move_name_1027,Gust
@@ -3668,11 +3671,12 @@ Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
 Generic_PokeMart_MerchBins,Many Pokémon plushies are~lying in the bin.*Is that a Pikachu Doll and~a Weedle Doll?
 Generic_PokeMart_LockedCabinets,Several action figures can~be seen.*The tag on them says:~"Pokéstar Studios".
 
-Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
-Generic_Sign_PokeCenter,Heal your Pokémon!~Pokémon Center
+# TODO Pokemart
+Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémarket
+Generic_Sign_PokeCenter,Wylecz swoje Pokémony!~Centrum Pokémonów
 
 Generic_PC_NoInteract,Teraz nie możesz skorzystać~z komputera.
-Generic_PC_BootUp,Trwa uruchamianie komputera...*Wybierz hosta, z którym chcesz~się połączyć.
+Generic_PC_BootUp,Trwa uruchamianie komputera...*Wybierz hosta, z którym~chcesz się połączyć.
 Generic_PC_ChooseHost,Wybierz hosta, z którym chcesz~się połączyć.
 Generic_PC_Host_StorageSystem,Komputer Billa
 Generic_PC_Host_Mailbox,Skrzynka odbiorcza
@@ -3682,7 +3686,7 @@ Generic_PC_Host_Decoration,Dekoracje
 Generic_PC_LogOff,Wyloguj się
 # Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating~System.*Do you want to get your~Pokédex rated?
 Generic_PC_DexEvaluation_Start,Zalogowano się do komputera~profesora Tima.*Uzyskano dostęp do Systemu~Oceniania Pokédeksu.*Czy chcesz otrzymać ocenę~swojego Pokédeksu?
-Generic_PC_DexEvaluation_End,Zamknięto połączenie z komputerem~profesora Tima.
+Generic_PC_DexEvaluation_End,Zamknięto połączenie~z komputerem profesora Tima.
 Generic_PC_Decoration_Start,How do you want to customize~your room?
 
 # Generic_ReceivePokemon,<Player.Name> received~a <pokemon.name(<pokemon.count>-1)>!
@@ -3880,14 +3884,16 @@ Seashore_PlayerHouse2F_ControlsNote_Controls,The controls in Pokémon 3D:~Move: 
 Seashore_RivalHouse_Father_BeforeTim,Are you headed to Tim's place?*My son Mura left home as~well, make sure he stays safe~for me, would you?
 Seashore_RivalHouse_Father_AfterTim,Hello <Player.Name>!*Have you met Mura recently?~Is he doing good?
 Seashore_RivalHouse_Sister_BrotherGone,My brother is gone!
-Seashore_RivalHouse_Note_Speary,Spearow~Name: Speary
+Seashore_RivalHouse_Note_Speary,Spearow~Imię: Speary
 Seashore_RivalHouse_Speary_Cry,Speary: Tetweet!
 
-Seashore_Main_YoungGirl_Green_RunningShoes,Are those new shoes?*Try running with them~by pressing [<System.Button(Run)>]!
+# Seashore_Main_YoungGirl_Green_RunningShoes,Are those new shoes?*Try running with them~by pressing [<System.Button(Run)>]!
+Seashore_Main_YoungGirl_Green_RunningShoes,Czy to nowe buty?*Spróbuj w nich biec,~wciskając [<System.Button(Run)>]!
 Seashore_Main_YoungBoy_Blue_Dreams,Nigdy nie pożałujesz podążania~za marzeniami, nawet jeśli się~nie spełnią.*Możesz tylko pożałować~przepuszczenia szansy.
-Seashore_Main_YoungBoy_Red_Question,Hey! Are you going to be a~Pokémon trainer, <Player.Name>?
+# Seashore_Main_YoungBoy_Red_Question,Hey! Are you going to be a~Pokémon trainer, <Player.Name>?
+Seashore_Main_YoungBoy_Red_Question,Hej! Czy będziesz trenerem~Pokémonów, <Player.Name>?
 Seashore_Main_YoungBoy_Red_AnswerYes,Cool!*I'm going to be one soon as~well!*It's very hard, but rewarding.
-Seashore_Main_YoungBoy_Red_AnswerNo,Why not?
+Seashore_Main_YoungBoy_Red_AnswerNo,Czemu nie?
 
 Seashore_Main_Sign_City,Seashore City*Where waves of new journeys~begin their long travels.
 Seashore_Main_Sign_Gym,Seashore City~Pokémon Gym~Leader: Sheryl*Master of the Extrasensory!
@@ -4093,7 +4099,7 @@ Merson_Gym_LeaderKarpman_Rematch_AfterBattle,Karpman: I think everyone has~their
 
 [Route 55]
 Route55_Sign_Route,Route 55~Mt. Boulder Pass*Merson City - Dock Underpass
-Route55_Sign_RainbowTower,Rainbow Tower
+Route55_Sign_RainbowTower,Tęczowa Wieża
 Route55_Sign_MtBoulder,Głazica*Skrót do Eagulou*Jest dołączona notka: Uwaga!~Pokémon niedawno zbudował~gniazdo w Głazicy i tempe-~ratura w środku spadła do~punktu zamarzania!*Jest jeszcze jedna notka:~Biedne Growlithe...
 Route55_PokeManiacRoger_IntroMessage,Hi kid, want to see my Pokémon?
 Route55_PokeManiacRoger_OutroMessage,Oh no! My Pokémon!
@@ -4144,14 +4150,14 @@ Route55_RainbowTower_Floor4_Room_Blackboard_Text_Gas,Offense - Strong towards:*F
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Wood,Offense - Strong towards:*Grass, Ice, Steel, Poison and~Water.*Offense - Weak towards:*Bug, Electric, Rock and Wind.*Offense - No effect towards:~Fire.*Defense - Strong against:*Bug and Ground.*Defense - Weak against:*Electric, Fire, Fighting and~Wind.
 Route55_RainbowTower_Floor4_Room_Blackboard_Text_Abnormal,Offense - Strong towards:*Psychic, Abnormal, Bug, Dark~and Steel.*Offense - Weak towards:*Flying, Normal and Sound.*Defense - Strong against:~Dark and Steel.*Defense - Weak against:*Abnormal, Psychic, Flying and~Normal.
 Route55_RainbowTower_Floor4_Room_Pamphlet,It's a pamphlet on TMs and HMs.*...*A total of 51 TMs and 4 HMs~are currently available.*TMs are single use, while HMs~can be used repeatedly.*Moves taught by HMs can also~be used outside of battle.*Pokémon have trouble~forgetting HM moves, so they~may need help from a move~deleter.*Silph Co.
-Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,As a gift
-Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,in the Rainbow Tower
+Route55_RainbowTower_Floor4_Room_Porygon_CatchMethod,Jako prezent
+Route55_RainbowTower_Floor4_Room_Porygon_CatchLocation,z Tęczowej Wieży
 Route55_RainbowTower_Floor4_Room_Man_BeforePorygon,I don't need this Pokémon,~so you can have it for free...*No kid, I am not crazy, just~an idiot...
 Route55_RainbowTower_Floor4_Room_Man_AfterPorygon,How are you liking that crazy~little Pokémon I gave to you?*I downloaded it from some scam~website and my computer got~infected with a weird virus.*I got so mad that I threw my~laptop out of the window, sold~my house, moved into this~apartment, and put up a sign~outside to keep everyone away~from my stupidity.*Then I blacked out and wrote a~whole bunch of stuff on the~blackboard.*I came to with the worst~headache.*New types?*I don't even know what a type~is. Man, am I dumb.
 
 [Dock Underpass]
 # DockUnderpass_Entrance_Route55_Girl,This path leads to Route 52,~a.k.a. the Hayward Docks.
-DockUnderpass_Entrance_Route55_Girl,Ta ścieżka prowadzi do drogi 52,~tzn. Portu Chocholińskiego.
+DockUnderpass_Entrance_Route55_Girl,Ta ścieżka prowadzi do drogi 52,~tzn. Portu Chocholeckiego.
 DockUnderpass_Entrance_Route52_HomelessGuy,Tu mieszkam, bo nie mam~pieniędzy...
 
 [Route 52]
@@ -4200,9 +4206,9 @@ Hayward_Main_Slowbro_3,Slowbro się odwrócił...
 Hayward_Main_Slowbro_4,Slowbro uciął sobie drzemkę...
 Hayward_Main_AnnoyedGuy_NoOrbs,Tamta dziewczynka jest~irytująca i takim urwisem!*Czemu sama sobie nie znajdzie~kuli?
 Hayward_Main_AnnoyedGuy_HaveOrbs,Sądzę, że chce kul, aby obudzić~rzadkie Pokémony w Naljo.*Tylko teoria.
-Hayward_Main_OrbGirl_HaveAnyOrbs,I collect orbs!~Have any?
-Hayward_Main_OrbGirl_Question_GiveOrbs,Give her one of your orbs?
-Hayward_Main_OrbGirl_DontNeedThatOrb,I don't need that Orb.
+Hayward_Main_OrbGirl_HaveAnyOrbs,Zbieram kule!~Masz?
+Hayward_Main_OrbGirl_Question_GiveOrbs,Dać jej kulę?
+Hayward_Main_OrbGirl_DontNeedThatOrb,Nie potrzebuję tej kuli.
 Hayward_Main_OrbGirl_Red_Orb_1,Red Orb?*Nice!*Take this rare TM!
 Hayward_Main_OrbGirl_Red_Orb_2,TM 07 contains Horn Drill!*It can One-Hit-Knock-Out the~opponent!
 Hayward_Main_OrbGirl_Blue_Orb_1,Great, a Blue Orb!*Take this as a reward!
@@ -4300,15 +4306,16 @@ Hayward_SouthlandMall_Floor5_Sailor,I'm here for Pokémon ability~enhancers.*Pro
 Hayward_Bunker_Entrance_Fisherman,You came from the bunker?*That place is pretty much~abandoned.*Even wild Pokémon go inside~from time to time.*My friend is so obsessed with~maintaining it because she's~fearful of those legendary~Guardians... poor thing,~scared of an old tale!*She even wanted to build other~warps around the region, but~this one and the backdoor at~Mt. Boulder are the only ones~she's been able to maintain.
 
 [Route 64]
-Route64_Sign_Route,Droga 64~Nizina Chocolecka*Chocholec -~Granica Naljo (zamknięta)
-Route64_Sign_ComingSoon,Coming soon: a high speed link~to the world!*The Magnet Train: on its way~from Naljo to Rijon.*Est. completion: 3 years.~Pardon our dust!*Luster City~Construction Co.*     Magnet Train~We're Getting There
-Route64_ConstructionWorker_BorderClosed,The Naljo border is closed~due to construction of the~Magnet Train.*We apologise for the~inconvenience caused.
+Route64_Sign_Route,Droga 64~Nizina Chocholecka*Chocholec -~Granica Naljo (zamknięta)
+# Route64_Sign_ComingSoon,Coming soon: a high speed link~to the world!*The Magnet Train: on its way~from Naljo to Rijon.*Est. completion: 3 years.~Pardon our dust!*Luster City~Construction Co.*       Magnet Train~We're Getting There
+Route64_Sign_ComingSoon,Wkrótce: wysokich prędkości~połączenie na świat!*Pociąg Magnetyczny: na swojej~drodze z Naljo do Rijonu.*Ukończenie za około 3 lata.~Pardon our dust!*Luster City~Construction Co.* Pociąg Magnetyczny~W tę stronę ruszamy
+Route64_ConstructionWorker_BorderClosed,Granica Naljo jest zamknięta~ze względu na budowę Pociągu~Magnetycznego.*Przepraszamy za spowodowane~tym utrudnienia.
 Route64_LassLaura_IntroMessage,This is a nice resting place.
 Route64_LassLaura_OutroMessage,Oh! Now I'm stressed out!
 Route64_LassLaura_DefeatMessage,I might set up a picnic here~later...*Nah, I'll just relax...
 
 [Route 51]
-Route51_Sign,Route 51~Foothill Pass*Hayward - Anza'de Maze
+Route51_Sign,Droga 51~Foothill Pass*Chocholec - Labirynt de Anzy
 Route51_BugCatcherPhillip_IntroMessage,This is the Nugget Crew!~We give out nuggets to~people who can beat us all!*Give it a try!
 Route51_BugCatcherPhillip_OutroMessage,Whoo! Good stuff!
 Route51_BugCatcherPhillip_DefeatMessage,I did my best, I have~no regrets!
@@ -4330,7 +4337,7 @@ Route51_ExGruntGreg_OutroMessage,Yep, you are good!
 Route51_ExGruntGreg_DefeatMessage,When you reach the fork on~the road, go right to~get to a city.
 
 [Route 50]
-Route50_Sign,Route 50~Anza'de Maze*Owsauri - Hayward
+Route50_Sign,Droga 50~Labirynt de Anzy*Kresowice - Chocholec
 Route50_HikerGustav_IntroMessage,Słyszałem, że ta ścieżka~prowadzi do Johto.
 Route50_HikerGustav_OutroMessage,Dobrze się spisałeś!
 Route50_HikerGustav_DefeatMessage,Jednak nie mam całkowitej~pewności.
@@ -4340,7 +4347,8 @@ Route50_YoungsterTim_DefeatMessage,All Pokémon have weaknesses.~It's best to ra
 Route50_HikerIrwin_IntroMessage,You think you're tough?
 Route50_HikerIrwin_OutroMessage,You're something.
 Route50_HikerIrwin_DefeatMessage,I guess you know you're~tough!
-Route50_YoungsterKevin_IntroMessage,I live in Owsauri City,~and we know lots about Pokémon!
+# Route50_YoungsterKevin_IntroMessage,I live in Owsauri City,~and we know lots about Pokémon!
+Route50_YoungsterKevin_IntroMessage,Mieszkam w Kresowicach~i wiemy dużo o Pokémonach!
 Route50_YoungsterKevin_OutroMessage,I'm not mad!
 Route50_YoungsterKevin_DefeatMessage,I guess I need to train a~bit more, eh?
 Route50_LassBelle_IntroMessage,I'm always ready to battle!
@@ -4397,7 +4405,7 @@ Route49_Gate_Guard_HaveBike,Rinjoh Veloway is all uphill~from here.
 Owsauri_Main_Sign_DayCare,Pokémon Day Care
 Owsauri_Main_Sign_City,Owsauri City*The Lively City Of Delights!
 Owsauri_Main_Sign_NameRater,Name Rater
-Owsauri_Main_Sign_Casino,Owsauri City's Casino
+Owsauri_Main_Sign_Casino,Kasyno Kresowickie
 Owsauri_Main_Sign_Gym,Owsauri City~Pokémon Gym~Leader: Lily*The Cold n' Icy DJ!
 Owsauri_Main_Youngster,This city is a big fan~of Pokémon.*They can't get enough of~them!
 Owsauri_Main_Gambler,Leave your Pokémon with~the Daycare man and he will~take care of them!
@@ -4734,7 +4742,7 @@ CityUnderpass_Entrance_Moraga_NidoqueenTrade_CatchLocation,at the City Underpass
 CityUnderpass_Entrance_Route56_Girl,People often lose things in~that underground path.
 
 [Route 60]
-Route60_Main_Sign,Route 60~Powerline Road*Barbekin - Wrócisztyn -~Yuva Mila Lake
+Route60_Main_Sign,Droga 60~Miedziany Szlak*Barbekin - Wrócisztyn -~Jezioro Juwa Miła
 
 Route60_PowerPlant_Zapdos,Gyaao!
 Route60_PowerPlant_Raikou,Rrroar!
@@ -5232,8 +5240,8 @@ Route61_Route62_Gate_Gentleman,When I was at the Haunted~Forest, I heard someone
 Route61_Route62_Gate_Lady,Pokémon wake up to the sound~of the PokéFlute.
 
 [Route 61]
-Route61_Main_Sign_SportFishingArea,Sport Fishing Area
-Route61_Main_Sign_YuvaMilaLake,Route 61~Yuva Mila Lake*The path to many cities!
+Route61_Main_Sign_SportFishingArea,Obszar wędkarstwa~sportowego
+Route61_Main_Sign_YuvaMilaLake,Droga 61~Jezioro Juwa Miła*Droga do wielu miast!
 Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!
 Route61_Main_FishermanHildegard_OutroMessage,It's not easy...
 Route61_Main_FishermanHildegard_DefeatMessage,I guess I better~fish some more.
@@ -5268,12 +5276,13 @@ Route61_SurfHouse_SurfMan_AfterTalking,HM 03 is Surf!*Pokémon will be able to~f
 
 [Route 60 - Route 61 Gate]
 Route60_Route61_Gate_Guard,Tu jestem, aby chronić starą,~opuszczoną elektrownię tu na~wprost przed wandalizmem.*Została zamknięta, bo bardziej~się opłacało importować prąd~z Johto.*Jednak po trzęsieniu ziemi chcą~uruchomić naszą elektrownię.*Mówiąc szczerze, nie przemawia~do mnie to, że w ogóle została~poprawnie wyłączona.*Elektryczne Pokémony, takie~jak Magneton, dalej są~przyciągnięte do tego obszaru.*Czy to ma związek ze~szczątkowym polem~magnetycznym?
-Route60_Route61_Gate_RegularGuy,Be careful inside the Power~Plant.*When I was in Kanto, I once~picked up what I thought was~a Poké Ball.*It was actually a Voltorb!*How shocking!
-Route60_Route61_Gate_YoungBoy,Yuva Mila Lake lies at the end~of this route.
+# Route60_Route61_Gate_RegularGuy,Be careful inside the Power~Plant.*When I was in Kanto, I once~picked up what I thought was a~Poké Ball. It was actually a~Voltorb!*How shocking!
+Route60_Route61_Gate_RegularGuy,Uważaj, jak będziesz w Elektrowni.*Gdy byłem w Kanto, pewnego~razu podniosłem coś, co myślałem,~że jest Pokéballem. Tak naprawdę~to był Voltorb!*Jakież szokujące!
+Route60_Route61_Gate_YoungBoy,Jezioro Juwa Miła leży na końcu~tej drogi.
 
 [Route 57 - Castro Forest Gate]
 Route57_CastroForest_Gate_Guy,Many Pokémon live only in~forests and caves.*You need to look everywhere~to get different kinds!
-Route57_CastroForest_Gate_OldMan,Can you tell me the way to~Castro Valley?
+Route57_CastroForest_Gate_OldMan,Czy powiesz mi, jak dojść do~Grodzinowa?
 
 [Route 57]
 Route57_Main_Sign_Route,Route 57~South Reservoir*Castro Forest -~Southedge Bay
@@ -5776,6 +5785,8 @@ Azalea_Gym_LeaderBugsy_Rematch_Reward2,Bugsy: This amazing tool will~make your P
 Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Well, I guess I have more~learning to do.*But that's nothing new!*Bug-type Pokémon are my~favorite, but every Pokémon~has so many mysteries for us~to uncover in the future!
 Azalea_Gym_Choose_Gligar,You want the Gligar?
 Azalea_Gym_Choose_Sneasel,You want the Sneasel?
+Azalea_Gym_Pokemon_CatchMethod,Received as a gift at
+Azalea_Gym_Pokemon_CatchLocation,Azalea Town Gym
 Azalea_Gym_PokeballAfterChoose,Better not get greedy...
 
 [Final Dungeon]
