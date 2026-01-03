@@ -5778,7 +5778,7 @@ Owsauri_Casino_1F_GamblingClerk_2,<Player.Name> ontving 20 munten!
 Owsauri_Casino_1F_GamblingClerk_3,Verdorie! Ik heb meer munten~nodig voor de Pokémon die~ik wil!
 Owsauri_Casino_1F_ForgotCoinCase,Oeps! Ik ben de Muntenkist~vergeten!
 Owsauri_Casino_1F_SlotMachine,Alleen volwassenen mogen de~gokkasten gebruiken!
-Owsauri_Casino_1F_SlotMachine_Rigged_OutOfOrder,Deze gokkast is buiten~werking!
+Owsauri_Casino_1F_SlotMachine_Rigged_OutOfOrder,Deze gokkast is buiten~gebruik!
 Owsauri_Casino_1F_SlotMachine_Rigged_Side,Er zit een subtiel merkteken~op deze machine... is het~een prisma?
 Owsauri_Casino_1F_SlotMachine_Rigged_Reward1,<Player.Name>: Wauw!*Deze gokkast heeft net~uitbetaald terwijl ik niets~heb gedaan!
 Owsauri_Casino_1F_SlotMachine_Rigged_Reward2,<Player.Name> vond <Storage.Get(int,FreeCoinAmount)> munten!*<Player.Name>: Het bericht op~het scherm zegt "kom later~terug"?*Vreemd...
@@ -6070,7 +6070,7 @@ Jaeru_PokeCenter_BenchGuy,Sparky was gemeen tegen me!~Hij noemde me een stom~kle
 
 Jaeru_Gym_Statues_BeforeDefeat,Laeterwirstad~Pokémon Gym~Leider: Sparky*Winnende Trainers:~Mura
 Jaeru_Gym_Statues_AfterDefeat,Laeterwirstad~Pokémon Gym~Leider: Sparky*Winnende Trainers:~Mura~<Player.Name>
-Jaeru_Gym_GymGuy_BeforeBadge,Gym Gast: Yo! Toekomstige~kampioen!*Sparky gebruikt Elektrische Pokémon!*Zorg dat je klaar bent om hem~te bevechten met wat Gras-~en Grond-type Pokémon!
+Jaeru_Gym_GymGuy_BeforeBadge,Gym Gast: Yo! Kampioen in de~dop!*Sparky gebruikt Elektrische Pokémon!*Zorg dat je klaar bent om hem~te bevechten met wat Gras-~en Grond-type Pokémon!
 Jaeru_Gym_GymGuy_AfterBadge,Gym Gast: Wauw!~Dat gevecht zat vol spanning!
 Jaeru_Gym_SailorWilfried_IntroMessage,Ga weg!
 Jaeru_Gym_SailorWilfried_OutroMessage,Wauw! Je verraste me!
@@ -6402,151 +6402,151 @@ Castro_TradeHouse_ChanseyTrade_CatchLocation,Dalburg
 
 Castro_OldRodHouse_OldRodGuy_Question,Ik ben de neef van de~Visgoeroe!*Ik hou veel van vissen!*En jij?
 Castro_OldRodHouse_OldRodGuy_Answer_No,Oh... Dat is zo teleurstellend...
-Castro_OldRodHouse_OldRodGuy_Answer_Yes1,Geweldig! Je hebt een goede~smaak!*Neem dit en ga vissen,~jongeling!
+Castro_OldRodHouse_OldRodGuy_Answer_Yes1,Geweldig! Je hebt een goede~smaak!*Pak aan en ga vissen,~jongeling!
 Castro_OldRodHouse_OldRodGuy_Answer_Yes2,Niet de beste hengel, maar~beter dan niets!
 Castro_OldRodHouse_OldRodGuy_AfterReceiveOldRod,Hoi daar, <Player.Name>!*Bijten de vissen een beetje?
 
 Castro_Gym_Statues_BeforeDefeat,Dalburg~Pokémon Gym~Leider: Koji*Winnende Trainers:~Mura
 Castro_Gym_Statues_AfterDefeat,Dalburg~Pokémon Gym~Leider: Koji*Winnende Trainers:~Mura~<Player.Name>
-Castro_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in making!*Castro Valley's Gym has Koji~as its Leader!*Koji only uses Fighting-type~Pokémon.*Can't find Koji?~Here's a hint:~he's the surrounded one!
-Castro_Gym_GymGuy_AfterBadge,Gym Guy: Amazing! You've~definitely fought your way~through that one!
-Castro_Gym_JugglerEmmett_IntroMessage,Master Koji only uses~Fighting-type Pokémon!
-Castro_Gym_JugglerEmmett_OutroMessage,My balls!
-Castro_Gym_JugglerEmmett_DefeatMessage,How could my Primeape fail~me..?
-Castro_Gym_JugglerAaron_IntroMessage,Fighting-type Pokémon are the~best!
-Castro_Gym_JugglerAaron_OutroMessage,I'm done for!
-Castro_Gym_JugglerAaron_DefeatMessage,I will keep on training!
-Castro_Gym_TamerAllan_IntroMessage,Stop right there!
-Castro_Gym_TamerAllan_OutroMessage,Whoa! They've got it!
-Castro_Gym_TamerAllan_DefeatMessage,Can't tell who's who?*You have no eye for detail!
-Castro_Gym_TamerBoris_IntroMessage,No one can beat us!
-Castro_Gym_TamerBoris_OutroMessage,Awoo!
-Castro_Gym_TamerBoris_DefeatMessage,I still have much to learn!
-Castro_Gym_JugglerKay_IntroMessage,I'm the Gym Leader!*Haha! Tricked you!
-Castro_Gym_JugglerKay_OutroMessage,You had me fooled!
-Castro_Gym_JugglerKay_DefeatMessage,Stay and train with us!
-Castro_Gym_JugglerCalvin_IntroMessage,Strength is our number one~strategy!
-Castro_Gym_JugglerCalvin_OutroMessage,What? Extraordinary!
-Castro_Gym_JugglerCalvin_DefeatMessage,I guess it's best to have~multiple strategies!
-Castro_Gym_LeaderKoji_BeforeBattle,Koji: Ah, so I see you've~found me at last!*<Player.Name>: The Gym guide~literally told me where you~were...*Koji: So he did, did he?~I need to have a talk with him~about that.*The name's Koji, and I~specialize in Fighting-type~Pokémon.*Our dojo is packed with the~strongest fighters in Rijon,~and I, the Castro Valley Gym~Leader, am its master!*Bow down to the might of our~powerful kicks and blows!*Hoohah!
-Castro_Gym_LeaderKoji_OutroMessage,Koji: Humph! You have proven~your worth!*Here! You deserve the Fist~Badge!
-Castro_Gym_LeaderKoji_AfterBattle1,Koji: Now that you have the~Fist Badge, you can use Surf~outside of battle.*Take this TM I found as a gift~too!
-Castro_Gym_LeaderKoji_AfterBattle2,TM 01 contains Dynamic Punch!~It can miss, but it confuses~the foe!
-Castro_Gym_LeaderKoji_TalkAgain,Koji: Dynamic Punch can often~miss, but if it works it'll~deal a great amount of~damage and confuse your foe!
-Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Question,Koji: Ah, it's the prodigy!~Or was it protégé?*<Player.Name>: Is there even a~difference?*Koji: I do not know, honestly.~Grah, I hate fancy words.*Anyways, are you here to~spar?
-Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_No,Koji: Ah. Perhaps you have yet~to find your team adequately~prepared for combat?*You may return later; I will~be honored to accept your~challenge when you see fit.
-Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_Yes,Koji: Very well. Let us test~each other's full strength!*HOOHAH!
-Castro_Gym_LeaderKoji_Rematch_OutroMessage,Koji: Incredible! Your power~knows no upper bound!
-Castro_Gym_LeaderKoji_Rematch_AfterBattle,Koji: We must become~stronger.*I will inform my disciples~that we will be undergoing~special endurance training~for a year.*HOOHAH!*The strength of our blows~must be uncontested!*Our defenses must be~infallible!*GUOH!
+Castro_Gym_GymGuy_BeforeBadge,Gym Gast: Yo! Kampioen in de~dop!*De Gym van Dalburg heeft~Koji als Leider!*Koji gebruikt alleen~Vecht-Pokémon.*Kun je Koji niet vinden?*Hier is een hint:~hij is degene die omsingeld is!
+Castro_Gym_GymGuy_AfterBadge,Gym Gast: Geweldig!~Je hebt je echt door dat~gevecht heen geslagen!
+Castro_Gym_JugglerEmmett_IntroMessage,Meester Koji gebruikt alleen~Vecht-Pokémon!
+Castro_Gym_JugglerEmmett_OutroMessage,Mijn ballen!
+Castro_Gym_JugglerEmmett_DefeatMessage,Hoe kon mijn Primeape me~in de steek laten..?
+Castro_Gym_JugglerAaron_IntroMessage,Vecht-Pokémon zijn de beste!
+Castro_Gym_JugglerAaron_OutroMessage,Ik ben er geweest!
+Castro_Gym_JugglerAaron_DefeatMessage,Ik zal blijven trainen!
+Castro_Gym_TamerAllan_IntroMessage,Blijf daar staan!
+Castro_Gym_TamerAllan_OutroMessage,Wauw! Ze hebben het onder~de knie!
+Castro_Gym_TamerAllan_DefeatMessage,Kun je niet zien wie wie is?*Je hebt geen oog voor detail!
+Castro_Gym_TamerBoris_IntroMessage,Niemand kan ons verslaan!
+Castro_Gym_TamerBoris_OutroMessage,A-woe!
+Castro_Gym_TamerBoris_DefeatMessage,Ik moet nog veel leren!
+Castro_Gym_JugglerKay_IntroMessage,Ik ben de Gymleider!*Haha! Gefopt!
+Castro_Gym_JugglerKay_OutroMessage,Je hebt me te pakken~genomen!
+Castro_Gym_JugglerKay_DefeatMessage,Blijf en train met ons!
+Castro_Gym_JugglerCalvin_IntroMessage,Kracht is onze belangrijkste~strategie!
+Castro_Gym_JugglerCalvin_OutroMessage,Wat? Buitengewoon!
+Castro_Gym_JugglerCalvin_DefeatMessage,Ik denk dat het beter is~om meerdere strategieën~te hebben!
+Castro_Gym_LeaderKoji_BeforeBattle,Koji: Ah, dus je hebt me~eindelijk gevonden!*<Player.Name>: De Gymgids zei~me letterlijk waar je was...*Koji: Oh ja?~Daar moet ik eens met hem~over praten.*Ik ben Koji, en ik ben~gespecialiseerd in~Vecht-Pokémon.*Onze dojo zit vol met de~sterkste vechters van Rijon,~en ik, de Gym Leider van~Dalburg, ben hun meester!*Buig voor de kracht van onze~machtige trappen en stoten!*Hoe-ha!
+Castro_Gym_LeaderKoji_OutroMessage,Koji: Hmpf! Je hebt je~waarde bewezen!*Hier! Je hebt de Vuist-Badge~verdiend!
+Castro_Gym_LeaderKoji_AfterBattle1,Koji: Nu je de Vuist-Badge~hebt, kun je Surf buiten~gevechten gebruiken.*Neem ook deze TM die ik vond~als cadeau!
+Castro_Gym_LeaderKoji_AfterBattle2,TM 01 bevat Dynamische slag!~Het kan missen, maar het~verwart de tegenstander!
+Castro_Gym_LeaderKoji_TalkAgain,Koji: Dynamische slag kan~vaak zijn doelwit missen,~maar als hij wel raakt,~richt hij veel schade aan en~verwart hij je tegenstander!
+Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Question,Koji: Ah, het wonderkind!~Of was het protegé?*<Player.Name>: Is er überhaupt~een verschil?*Koji: Geen idee, eerlijk gezegd.*Grrr, ik haat moeilijke~woorden.*Hoe dan ook, ben je hier om~te sparren?
+Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_No,Koji: Ah. Misschien is je~team nog niet goed genoeg~voorbereid op de strijd?*Je mag later terugkomen;~ik zal je uitdaging met eer~aannemen wanneer jij er~klaar voor bent.
+Castro_Gym_LeaderKoji_Rematch_BeforeBattle_Answer_Yes,Koji: Goed dan.*Laten we elkaars volledige~kracht testen!*HOE-HA!
+Castro_Gym_LeaderKoji_Rematch_OutroMessage,Koji: Ongelooflijk! Jouw~kracht kent geen grenzen!
+Castro_Gym_LeaderKoji_Rematch_AfterBattle,Koji: We moeten sterker~worden.*Ik zal mijn discipelen~vertellen dat we een jaar~lang speciale uithoudings-~training gaan doen.*HOE-HA!*De kracht van onze klappen~moet onbetwistbaar zijn!*Onze verdediging moet~onfeilbaar zijn!*HO!
 
-Castro_CastroManor_SecretSwitch_Question,A secret switch!*Press it?
-Castro_CastroManor_SecretSwitch_Answer_Yes,Who wouldn't?
-Castro_CastroManor_SecretSwitch_Answer_No,Not quite yet!
-Castro_CastroManor_LockedDoor,This door is locked.
-Castro_CastroManor_1F_ScientistJin_IntroMessage,Woah! Where did you come~from?
-Castro_CastroManor_1F_ScientistJin_OutroMessage,I should study those warp pads!
-Castro_CastroManor_1F_ScientistJin_DefeatMessage,Are MissingNo. bothering you?~Get a Virus Scanner!
-Castro_CastroManor_2F_RegionMap,It's a map of another region.*Which one could it be?
-Castro_CastroManor_2F_Diary,Dear Diary, some people really~take things out of context!*...Better leave this be.
-Castro_CastroManor_2F_BurglarKazuya_IntroMessage,This manor has nothing to loot!
-Castro_CastroManor_2F_BurglarKazuya_OutroMessage,Maybe there's something behind~one of those locked doors!
-Castro_CastroManor_2F_BurglarKazuya_DefeatMessage,There must be a switch~somewhere.
-Castro_CastroManor_3F_BurglarTodd_IntroMessage,Wanna help me?
-Castro_CastroManor_3F_BurglarTodd_OutroMessage,Don't call the cops on me!
-Castro_CastroManor_3F_BurglarTodd_DefeatMessage,There's nothing here anyway!
-Castro_CastroManor_3F_30YearsCave,A strange cave appears on~Route 52 every 30 years.*Huh. Interesting...
-Castro_CastroManor_3F_ScientistNils_IntroMessage,I dare you to step on a warp~pad!
-Castro_CastroManor_3F_ScientistNils_OutroMessage,Don't worry! It's perfectly safe!
-Castro_CastroManor_3F_ScientistNils_DefeatMessage,These warp pads are one way~only!
-Castro_CastroManor_B1F_ScientistZac_IntroMessage,This place is really big!
-Castro_CastroManor_B1F_ScientistZac_OutroMessage,What was that for?
-Castro_CastroManor_B1F_ScientistZac_DefeatMessage,Darn!
-Castro_CastroManor_B1F_BurglarJacey_IntroMessage,Sweet basement!
-Castro_CastroManor_B1F_BurglarJacey_OutroMessage,Awooh!
-Castro_CastroManor_B1F_BurglarJacey_DefeatMessage,I want a basement like this!
+Castro_CastroManor_SecretSwitch_Question,Een geheime schakelaar!*Wil je hem indrukken?
+Castro_CastroManor_SecretSwitch_Answer_Yes,Wie zou dat nou niet doen?
+Castro_CastroManor_SecretSwitch_Answer_No,Nu nog niet!
+Castro_CastroManor_LockedDoor,Deze deur is op slot.
+Castro_CastroManor_1F_ScientistJin_IntroMessage,Wauw! Waar kwam jij vandaan?
+Castro_CastroManor_1F_ScientistJin_OutroMessage,Ik moet die warp-platforms~bestuderen!
+Castro_CastroManor_1F_ScientistJin_DefeatMessage,Heb je last van~OntbrekendNr.?~Gebruik een Virusscanner!
+Castro_CastroManor_2F_RegionMap,Het is een kaart van een~andere regio.*Welke regio zou het zijn?
+Castro_CastroManor_2F_Diary,Lief Dagboek, sommige mensen~halen dingen echt uit hun~context!*...Misschien beter om dit~te laten liggen.
+Castro_CastroManor_2F_BurglarKazuya_IntroMessage,In dit landhuis valt niets~te roven!
+Castro_CastroManor_2F_BurglarKazuya_OutroMessage,Misschien zit er iets achter~een van die gesloten deuren!
+Castro_CastroManor_2F_BurglarKazuya_DefeatMessage,Er moet ergens een~schakelaar zijn.
+Castro_CastroManor_3F_BurglarTodd_IntroMessage,Wil je me helpen?
+Castro_CastroManor_3F_BurglarTodd_OutroMessage,Bel niet de politie!
+Castro_CastroManor_3F_BurglarTodd_DefeatMessage,Hier is toch niets!
+Castro_CastroManor_3F_30YearsCave,Om de 30 jaar verschijnt er~een vreemde grot op~Route 52.*Huh. Interessant...
+Castro_CastroManor_3F_ScientistNils_IntroMessage,Ik daag je uit om op een~warp-platform te stappen!
+Castro_CastroManor_3F_ScientistNils_OutroMessage,Geen zorgen! Het is helemaal~veilig!
+Castro_CastroManor_3F_ScientistNils_DefeatMessage,Deze warp-platforms werken~maar in één richting!
+Castro_CastroManor_B1F_ScientistZac_IntroMessage,Deze plek is echt groot!
+Castro_CastroManor_B1F_ScientistZac_OutroMessage,Waar was dat goed voor?
+Castro_CastroManor_B1F_ScientistZac_DefeatMessage,Verdorie!
+Castro_CastroManor_B1F_BurglarJacey_IntroMessage,Wat een gave kelder!
+Castro_CastroManor_B1F_BurglarJacey_OutroMessage,Wauwie!
+Castro_CastroManor_B1F_BurglarJacey_DefeatMessage,Ik wil ook zo’n kelder!
 
 [Castro Valley - Castro Forest Gate]
-CastroValley_CastroForest_Gate_LittleGirl,Those Bug Catchers don't~mess around!
-CastroValley_CastroForest_Gate_YoungGirl,Are you going to Castro~Forest?*A friend's Eevee evolved into~Leafeon there!
+CastroValley_CastroForest_Gate_LittleGirl,Die Insectenvangers zijn~niet mis!
+CastroValley_CastroForest_Gate_YoungGirl,Ga je naar het Dalburbos?*Een vriend van me had een~Eevee die daar in een Leafeon~evolueerde!
 
 [Castro Forest]
-Castro_Forest_DangerousBugsGuy,Bugs in this forest can be~dangerous!
-Castro_Forest_InsufficientWeedleGuy,My Weedle isn't good enough~here!
-Castro_Forest_BugCatcherLoyd_IntroMessage,Hey! You dare challenge me?
-Castro_Forest_BugCatcherLoyd_OutroMessage,How could bugs fail?
+Castro_Forest_DangerousBugsGuy,Insecten in dit bos kunnen~gevaarlijk zijn!
+Castro_Forest_InsufficientWeedleGuy,Mijn Weedle is hier niet~sterk genoeg voor!
+Castro_Forest_BugCatcherLoyd_IntroMessage,Hé! Durf jij mij uit te~dagen?
+Castro_Forest_BugCatcherLoyd_OutroMessage,Hoe konden insecten falen?
 Castro_Forest_BugCatcherLoyd_DefeatMessage,Hehehe!
 Castro_Forest_BugCatcherTill_IntroMessage,Yo yo yo yo yo!
-Castro_Forest_BugCatcherTill_OutroMessage,I'm no rapper...
-Castro_Forest_BugCatcherTill_DefeatMessage,Gotta think of different~words than yo...
-Castro_Forest_BugCatcherCaden_IntroMessage,Are you going to South~Reservoir's Gym?*Not before you've had a taste~of my Beedrill's sting!
-Castro_Forest_BugCatcherCaden_OutroMessage,Ouch! We got swatted instead!
-Castro_Forest_BugCatcherCaden_DefeatMessage,Sometimes my Beedrill brings~me stuff it finds on the~ground.*People drop valuable things~all the time.
+Castro_Forest_BugCatcherTill_OutroMessage,Ik ben geen rapper...
+Castro_Forest_BugCatcherTill_DefeatMessage,Ik moet andere woorden~bedenken dan yo...
+Castro_Forest_BugCatcherCaden_IntroMessage,Ga je naar de Gym van het~Zuidreservoir?*Niet voordat je de steek~van mijn Beedrill hebt~meegemaakt!
+Castro_Forest_BugCatcherCaden_OutroMessage,Au! Wij zijn weggemept in~plaats van jullie!
+Castro_Forest_BugCatcherCaden_DefeatMessage,Soms brengt mijn Beedrill me~dingen die hij op de grond vindt.*Mensen laten voortdurend~waardevolle spullen vallen.
 
 [Route 62 - Castro Forest Gate]
-Route62_CastroForest_Gate_Guard,If you keep going west you'll~reach Moraga Town.*Although it's more like a~city at this point...
-Route62_CastroForest_Gate_RegularGuy,You want to learn how to~Surf?*You should find the fisherman~that lives at Route 61.
-Route62_CastroForest_Gate_YoungGirl,Prof. Tim got a Bulbasaur in~this forest!
+Route62_CastroForest_Gate_Guard,Als je verder naar het~westen gaat, bereik je~Stamppotdorp.*Hoewel het inmiddels meer op~een stad lijkt...
+Route62_CastroForest_Gate_RegularGuy,Wil je leren Surfen?*Zoek dan de visser die op~Route 61 woont.
+Route62_CastroForest_Gate_YoungGirl,Prof. Tim ving een Bulbasaur~in dit bos!
 
 [Route 62]
-Route62_Main_Sign_CastroField,Route 62~Castro Field*The path to many cities!
-Route62_Main_YoungsterBarry_IntroMessage,Caught ya by surprise!
-Route62_Main_YoungsterBarry_OutroMessage,Darn! I need to make my~Pokémon stronger!
-Route62_Main_YoungsterBarry_DefeatMessage,There's a fat Pokémon that~came down from the mountains.*It's really strong...~When it's awake, of course!
-Route62_Main_GamblerJerome_IntroMessage,I want your money!
-Route62_Main_GamblerJerome_OutroMessage,My first loss!
-Route62_Main_GamblerJerome_DefeatMessage,You just got lucky!
-Route62_Main_EngineerRepairMan_IntroMessage,I'M...*REPAIR MAN MAN MAN MAN~MAN MAN!*I can repair ANYTHING, such~as your pathetic training~ability!*Let's begin, shall we?
-Route62_Main_EngineerRepairMan_OutroMessage,See?*REPAIRED!
-Route62_Main_EngineerRepairMan_DefeatMessage,REPAIR MAN MAN MAN MAN!
-Route62_Main_EngineerNeverDoneMan_IntroMessage,I'm...*NEVER DONE MANNNNNN!*There's always room for~improvement, so I'll never~be done!*Time to improve!
-Route62_Main_EngineerNeverDoneMan_OutroMessage,Impossible! You're already~perfect!
-Route62_Main_EngineerNeverDoneMan_DefeatMessage,NEVER DONE MANNNNNN!
-Route62_Main_GamblerClaude_IntroMessage,I just won big playing poker!
-Route62_Main_GamblerClaude_OutroMessage,I had a chance!
-Route62_Main_GamblerClaude_DefeatMessage,Guess it's back to the poker~table...
-Route62_Main_YoungsterDouglas_IntroMessage,My Pokémon should be ready~by now!
-Route62_Main_YoungsterDouglas_OutroMessage,Nope, I'm just impatient!
-Route62_Main_YoungsterDouglas_DefeatMessage,I better go find stronger~ones!
+Route62_Main_Sign_CastroField,Route 62~Dalburgveld*Het pad naar vele steden!
+Route62_Main_YoungsterBarry_IntroMessage,Ha! Dat had je niet verwacht!
+Route62_Main_YoungsterBarry_OutroMessage,Verdorie! Ik moet mijn~Pokémon sterker maken!
+Route62_Main_YoungsterBarry_DefeatMessage,Er is een dikke Pokémon die~uit de bergen is gekomen.*Hij is heel sterk...~Als hij wakker is, tenminste!
+Route62_Main_GamblerJerome_IntroMessage,Ik wil je geld!
+Route62_Main_GamblerJerome_OutroMessage,Mijn eerste verlies!
+Route62_Main_GamblerJerome_DefeatMessage,Je had gewoon geluk!
+Route62_Main_EngineerRepairMan_IntroMessage,IK BEN...*REPAREER MAN MAN MAN MAN MAN~MAN!*Ik kan ALLES repareren,~zoals jouw belabberde~trainingsvermogen!*Zullen we dan maar beginnen?
+Route62_Main_EngineerRepairMan_OutroMessage,Zie je?*GEREPAREERD!
+Route62_Main_EngineerRepairMan_DefeatMessage,REPAREER MAN MAN MAN MAN!
+Route62_Main_EngineerNeverDoneMan_IntroMessage,Ik ben...*NOOIT KLAAR MANNNNNN!*Er is altijd ruimte voor~verbetering, dus ik ben~nooit klaar!*Tijd om te verbeteren!
+Route62_Main_EngineerNeverDoneMan_OutroMessage,Ongelooflijk! Je bent al~perfect!
+Route62_Main_EngineerNeverDoneMan_DefeatMessage,NOOIT KLAAR MANNNNNN!
+Route62_Main_GamblerClaude_IntroMessage,Ik heb net veel geld~gewonnen met poker!
+Route62_Main_GamblerClaude_OutroMessage,Ik had een kans!
+Route62_Main_GamblerClaude_DefeatMessage,Dan maar terug naar de~pokertafel...
+Route62_Main_YoungsterDouglas_IntroMessage,Mijn Pokémon zouden er nu~wel klaar voor moeten zijn!
+Route62_Main_YoungsterDouglas_OutroMessage,Nee, ik ben gewoon~ongeduldig!
+Route62_Main_YoungsterDouglas_DefeatMessage,Ik kan beter sterkere~Pokémon gaan zoeken!
 
 [Route 61 - Route 62 Gate]
-Route61_Route62_Gate_Guard,Snorlax really like taking~naps here, but they block the~route for several days.
-Route61_Route62_Gate_Gentleman,When I was at the Haunted~Forest, I heard someone~playing a flute.
-Route61_Route62_Gate_Lady,Pokémon wake up to the sound~of the PokéFlute.
+Route61_Route62_Gate_Guard,Snorlax doen hier graag een~dutje, maar ze blokkeren de~route soms dagenlang.
+Route61_Route62_Gate_Gentleman,Toen ik in het Spookachtig~Woud was, hoorde ik iemand~op een fluit spelen.
+Route61_Route62_Gate_Lady,Pokémon worden wakker van~het geluid van de Poké-fluit.
 
 [Route 61]
-Route61_Main_Sign_SportFishingArea,Sport Fishing Area
-Route61_Main_Sign_YuvaMilaLake,Route 61~Yuva Mila Lake*The path to many cities!
-Route61_Main_FishermanHildegard_IntroMessage,Fishing is my life!
-Route61_Main_FishermanHildegard_OutroMessage,It's not easy...
-Route61_Main_FishermanHildegard_DefeatMessage,I guess I better~fish some more.
-Route61_Main_FishermanIzmaehl_IntroMessage,Be patient!
-Route61_Main_FishermanIzmaehl_OutroMessage,I can't believe it!
-Route61_Main_FishermanIzmaehl_DefeatMessage,My rod sucks, I need a~better one!
-Route61_Main_FishermanTerry_IntroMessage,Check out my catch!
-Route61_Main_FishermanTerry_OutroMessage,Too much!
-Route61_Main_FishermanTerry_DefeatMessage,You beat me at Pokémon,~oh well!
-Route61_Main_FishermanConnor_IntroMessage,Yeah!
-Route61_Main_FishermanConnor_OutroMessage,Tch!
-Route61_Main_FishermanConnor_DefeatMessage,Hang on!
-Route61_Main_JrTrainerMaleDarwin_IntroMessage,Have you found a Moon Stone?
+Route61_Main_Sign_SportFishingArea,Sportvisgebied
+Route61_Main_Sign_YuvaMilaLake,Route 61~Yuva Milameer*Het pad naar vele steden!
+Route61_Main_FishermanHildegard_IntroMessage,Vissen is mijn leven!
+Route61_Main_FishermanHildegard_OutroMessage,Het is niet makkelijk...
+Route61_Main_FishermanHildegard_DefeatMessage,Ik denk dat ik maar beter~nog wat kan gaan vissen.
+Route61_Main_FishermanIzmaehl_IntroMessage,Wees geduldig!
+Route61_Main_FishermanIzmaehl_OutroMessage,Ik kan het niet geloven!
+Route61_Main_FishermanIzmaehl_DefeatMessage,Mijn hengel is waardeloos,~ik heb een betere nodig!
+Route61_Main_FishermanTerry_IntroMessage,Kijk eens wat ik gevangen~heb!
+Route61_Main_FishermanTerry_OutroMessage,Te veel!
+Route61_Main_FishermanTerry_DefeatMessage,Jij bent beter met Pokémon~dan ik, ach ja!
+Route61_Main_FishermanConnor_IntroMessage,Ja!
+Route61_Main_FishermanConnor_OutroMessage,Tsk!
+Route61_Main_FishermanConnor_DefeatMessage,Wacht even!
+Route61_Main_JrTrainerMaleDarwin_IntroMessage,Heb je een Maansteen gevonden?
 Route61_Main_JrTrainerMaleDarwin_OutroMessage,Oww!
-Route61_Main_JrTrainerMaleDarwin_DefeatMessage,My Pokémon evolved with my~Moon Stone!
-Route61_Main_FishermanMarrec_IntroMessage,You never know what you~could catch!
-Route61_Main_FishermanMarrec_OutroMessage,Lost it!
-Route61_Main_FishermanMarrec_DefeatMessage,Well, back to fishing then.
-Route61_Main_Snorlax_NoPokeFlute,A sleeping Pokémon blocks~the way!
-Route61_Main_Snorlax_UsedPokeFlute,Snorlax woke up!*It attacked in a grumpy rage!
-Route61_Main_Snorlax_Caught,Snorlax calmed down!*It no longer blocks the way!
-Route61_Main_Snorlax_Defeated,Snorlax calmed down!*With a big yawn, it returned~to the mountains!
+Route61_Main_JrTrainerMaleDarwin_DefeatMessage,Mijn Pokémon evolueerde door~mijn Maansteen!
+Route61_Main_FishermanMarrec_IntroMessage,Je weet nooit wat je zou~kunnen vangen!
+Route61_Main_FishermanMarrec_OutroMessage,Verloren!
+Route61_Main_FishermanMarrec_DefeatMessage,Oké, dan maar weer verder~met vissen.
+Route61_Main_Snorlax_NoPokeFlute,Een slapende Pokémon~blokkeert de weg!
+Route61_Main_Snorlax_UsedPokeFlute,Snorlax werd wakker!*Hij viel aan in een~chagrijnige woede!
+Route61_Main_Snorlax_Caught,Snorlax kalmeerde!*Hij blokkeert de weg niet~meer!
+Route61_Main_Snorlax_Defeated,Snorlax kalmeerde!*Met een grote gaap keerde~hij terug naar de bergen!
 
-Route61_GoodRodHouse_GoodRodGuy_Question,I'm the Fishing Guru's~second cousin's uncle~twice removed.*Like fishing?
-Route61_GoodRodHouse_GoodRodGuy_Answer_No,Oh...That's so disappointing...
-Route61_GoodRodHouse_GoodRodGuy_Answer_Yes1,Grand! I like your style!*Take this and fish, young one!
-Route61_GoodRodHouse_GoodRodGuy_Answer_Yes2,Fishing is a way of life!*From the seas to rivers,~go out and land the big one!
-Route61_GoodRodHouse_GoodRodGuy_AfterReceiveGoodRod,Hello there, <Player.Name>!*The Good Rod is actually good,~unlike the Old Rod!*Catch different Pokémon~with it!
+Route61_GoodRodHouse_GoodRodGuy_Question,Ik ben de achterneef van de~oom van de Visgoeroe.*Houd je van vissen?
+Route61_GoodRodHouse_GoodRodGuy_Answer_No,Oh... Dat is zo~teleurstellend...
+Route61_GoodRodHouse_GoodRodGuy_Answer_Yes1,Geweldig! Je hebt een goede~smaak!*Pak aan en ga vissen, jongeling!
+Route61_GoodRodHouse_GoodRodGuy_Answer_Yes2,Vissen is een manier van~leven!*Van de zeeën tot de rivieren,~ga eropuit en vang die grote~vis!
+Route61_GoodRodHouse_GoodRodGuy_AfterReceiveGoodRod,Hallo daar, <Player.Name>!*De Goede Hengel is echt top,~in tegenstelling tot de~Oude Hengel!*Vang er verschillende Pokémon~mee!
 
-Route61_SurfHouse_SurfMan_BeforeTalking,Hi there, kid!*I just bought a bunch of~HM 03s to add to my HM 03~collection.*Although, if you're planning~on going to Eagulou City,~you're going to need one~of them.*So, here you go, kiddo!
-Route61_SurfHouse_SurfMan_AfterTalking,HM 03 is Surf!*Pokémon will be able to~ferry you across water!*And, this HM isn't disposable!~You can use it over and over!
+Route61_SurfHouse_SurfMan_BeforeTalking,Hallo daar, kleintje!*Ik heb net een heleboel~VM 03's gekocht om aan mijn~VM 03-collectie toe te~voegen.*Maar als je van plan bent~om naar Tromtorenstad~te gaan, heb je er één~van nodig.*Dus hier, alsjeblieft,~kleintje!
+Route61_SurfHouse_SurfMan_AfterTalking,VM 03 bevat Surf!*Pokémon kunnen je ermee over~water vervoeren!*En deze VM is niet~wegwerpbaar!*Je kunt hem steeds opnieuw~gebruiken!
 
 [Route 60 - Route 61 Gate]
 Route60_Route61_Gate_Guard,I'm here to make sure that~no-one vandalizes the old~abandoned Power Plant~up ahead.*They closed it as it was~cheaper to import electricity~from Johto.*However, since the earthquake~hit, they plan to get our~Power Plant up and running~again.*Honestly? I'm not convinced~that it was ever shut down~properly in the first place.*Electric Pokémon, like~Magneton, are still attracted~to the area.*Maybe it's to do with a~residual magnetic field?
@@ -6864,8 +6864,8 @@ SenecaCaverns_1F_ScientistDarian_DefeatMessage,My colleagues at Hayward~revived 
 [Rijon League]
 League_Exterior_Sign,    Rijon League~El Norteño Summit*E pluribus unum.
 
-League_EntranceHall_GymGuy_BeforeChampion,Gym Guy: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and~the current Champion in~order to receive that title.*Go for it.
-League_EntranceHall_GymGuy_AfterChampion,Gym Guy: Yo! Champ!*So you defeated all Elite Four~members?*They have been training~nonstop to become the~Champion themselves, so if you~plan to challenge them again,~you better be prepared!*Also, have you visited the~Gym Leaders again?*Now that you've become the~Champion they'll battle you~with all their might!
+League_EntranceHall_GymGuy_BeforeChampion,Gym Gast: Yo! Champ in making!*At the Rijon League, you have~to face four trainers, and~the current Champion in~order to receive that title.*Go for it.
+League_EntranceHall_GymGuy_AfterChampion,Gym Gast: Yo! Champ!*So you defeated all Elite Four~members?*They have been training~nonstop to become the~Champion themselves, so if you~plan to challenge them again,~you better be prepared!*Also, have you visited the~Gym Leaders again?*Now that you've become the~Champion they'll battle you~with all their might!
 League_EntranceHall_MoveTutor_Female_Question,Do you think you're ready?*Good, go in!*But first, I know a move that~can help you out.*Would you like me to teach one~of your Pokémon the move~Giga Impact for only $8000?
 League_EntranceHall_MoveTutor_Female_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 League_EntranceHall_MoveTutor_Female_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
@@ -7055,9 +7055,9 @@ Azalea_Gym_LeaderBugsy_Rematch_Reward2,Bugsy: This amazing tool will~make your P
 Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Well, I guess I have more~learning to do.*But that's nothing new!*Bug-type Pokémon are my~favorite, but every Pokémon~has so many mysteries for us~to uncover in the future!
 Azalea_Gym_Choose_Gligar,You want the Gligar?
 Azalea_Gym_Choose_Sneasel,You want the Sneasel?
-Azalea_Gym_Pokemon_CatchMethod,Received as a gift at
-Azalea_Gym_Pokemon_CatchLocation,Azalea Town Gym
-Azalea_Gym_PokeballAfterChoose,Better not get greedy...
+Azalea_Gym_Pokemon_CatchMethod,Ontvangen als cadeau in de
+Azalea_Gym_Pokemon_CatchLocation,Azaleadorp Gym
+Azalea_Gym_PokeballAfterChoose,Het is beter om niet hebberig~te worden...
 
 [Final Dungeon]
 FinalDungeon_SecurityDoors,This door looks like it can~be opened remotely.
@@ -7224,8 +7224,8 @@ FinalDungeon_SmallRoom3_FishermanAstor_OutroMessage,I'm all out!
 FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,I get paid to just sit here.
 
 FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,What have I done?*I trapped such a graceful~Pokémon!*Please take this far far away~and let it live in peace.
-FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Received from a Rocket Grunt in the
-FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,Final Dungeon
+FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Gekregen van een Rocket Rekruut bij de
+FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,Laatste Uitdaging
 FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Now just look at that, this~doesn't deserve to be~trapped here!*It's a shame those~Master Balls can be abused~this much...
 FinalDungeon_JohtoLegendaryRoom_Rocket_TalkAgain,Don't tell anyone about this,~this is our secret.
 
