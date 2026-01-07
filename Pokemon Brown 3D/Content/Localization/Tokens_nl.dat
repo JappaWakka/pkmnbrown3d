@@ -438,7 +438,7 @@ map_screen_RegionSwitchHint,(Druk op de Shift-toets/Schouderknoppen om tussen re
 ---
 Trainer Card Screen:
 trainer_screen_title,Trainerkaart
-trainer_screen_collected_badges,Verzamelde badges
+trainer_screen_collected_badges,Verzamelde Badges
 trainer_screen_badge,-Badge
 trainer_screen_empty_badge,???
 ---
@@ -3727,7 +3727,7 @@ move_name_243,Mirror Coat
 move_name_244,Psych Up
 move_name_245,Extreme snelheid
 move_name_246,Oeroude kracht
-move_name_247,Shaduwbal
+move_name_247,Schaduwbal
 move_name_248,Future Sight
 move_name_249,Steenknal
 move_name_250,Whirlpool
@@ -3778,7 +3778,7 @@ move_name_300,Mud Sport
 move_name_301,Ice Ball
 move_name_302,Needle Arm
 move_name_303,Slack Off
-move_name_304,Hyper Voice
+move_name_304,Hyperstem
 move_name_305,Poison Fang
 move_name_306,Crush Claw
 move_name_307,Blast Burn
@@ -3876,7 +3876,7 @@ move_name_402,Zaadbom
 move_name_403,Luchtklief
 move_name_404,X-schaar
 move_name_405,Bug Buzz
-move_name_406,Dragon Pulse
+move_name_406,Drakenpuls
 move_name_407,Dragon Rush
 move_name_408,Power Gem
 move_name_409,Drain Punch
@@ -4418,7 +4418,7 @@ move_desc_585,Door de kracht van de maan te gebruiken, valt de gebruiker het doe
 
 move_desc_790,De gebruiker valt het doelwit aan door stoom uit te stoten. Dit kan het doelwit ook verwarren.
 
-move_desc_797,De gebruiker zet zijn woede om in energie om aan te vallen. Hoe vaker de gebruiker is geraakt door aanvallen, hoe krachtiger de techniek.
+move_desc_889,De gebruiker zet zijn woede om in energie om aan te vallen. Hoe vaker de gebruiker is geraakt door aanvallen, hoe krachtiger de techniek.
 
 move_desc_1000,???
 move_desc_1001,De gebruiker valt het doelwit aan met een pulserende geluidsexplosie. Het kan het doelwit ook verwarren.
@@ -5214,8 +5214,8 @@ Seashore_Gym_ChannelerAgnes_IntroMessage,Bid.
 Seashore_Gym_ChannelerAgnes_OutroMessage,Niet goed genoeg!
 Seashore_Gym_ChannelerAgnes_DefeatMessage,Goed gevecht.*Bid.
 Seashore_Gym_LeaderSheryl_BeforeBattle,Sheryl: Welkom bij de Gym~van Zeekuststad, <Player.Name>.*<Player.Name>: Wacht, weet je~mijn naam?!*Sheryl: Ik volg je al vanaf~het begin van je reis.*Mijn naam is Sheryl en ik ben~gespecialiseerd in het type~Psychisch, zoals je misschien~al had geraden door mijn~hersenspel.*Ik had jaren geleden een~visioen dat ik je op een dag~zou tegenkomen.*Als psycholoog is het mijn~werk om in de menselijke~psyche te duiken.~Laat me nu in de jouwe duiken~en moge mijn visioen uitkomen!
-Seashore_Gym_LeaderSheryl_OutroMessage,Sheryl: Ik ben geschokt!~Juist, ik kan zien dat je dit~verdiend hebt.*Neem de Psi Badge!
-Seashore_Gym_LeaderSheryl_AfterBattle1,Sheryl: De Psi Badge zorgt~ervoor dat Pokémon tot Nv. 70~je gehoorzamen!*Ik voorspelde al dat je hier~een TM bij wilde hebben.*Nou, ik heb de perfecte voor jou!
+Seashore_Gym_LeaderSheryl_OutroMessage,Sheryl: Ik ben geschokt!~Juist, ik kan zien dat je dit~verdiend hebt.*Neem de Psyche-Badge!
+Seashore_Gym_LeaderSheryl_AfterBattle1,Sheryl: De Psyche-Badge zorgt~ervoor dat Pokémon tot Nv. 70~je gehoorzamen!*Ik voorspelde al dat je hier~een TM bij wilde hebben.*Nou, ik heb de perfecte voor jou!
 Seashore_Gym_LeaderSheryl_AfterBattle2,TM 29 bevat Psychisch.*Het is de sterkste Psychische~aanval die er is!
 Seashore_Gym_LeaderSheryl_TalkAgain,Sheryl: Iedereen heeft~psychische kracht!*Mensen beseffen zich dat~gewoon niet!
 Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Question,Sheryl: Welkom terug,~<Player.Name>.*Ik vermoedde al dat je terug~zou komen om met je macht~te pronken.*Heb je er goed over~nagedacht waar je het de~komende jaren voor zult~gebruiken?*<Player.Name>: ...*Sheryl: Dat zou je wel moeten~doen.*Jouw toekomst is heel~belangrijk... Nu, zullen we?
@@ -5363,7 +5363,7 @@ Merson_FanClub_Chairman_AnswerNo,Weet je het zeker?~Want er is een speciale acti
 Merson_FanClub_Chairman_AfterVoucher,Hallo, <Player.Name>!*Ik wens je veel plezier met~die Fiets!
 Merson_FanClub_ReceiveVoucher,<Player.Name> ontving een~Fiets-tegoedbon!*Ruil die in voor een Fiets!
 
-Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!
+Merson_CuboneHouse_Cubone_Cry,Cubone: Kroh-groh!
 Merson_CuboneHouse_Girl,Zeg eens hoi tegen mijn~lieve Cubone!
 
 Merson_Gym_Statues_BeforeDefeat,Mertenstad~Pokémon Gym~Leider: Karpman*Winnende Trainers:~Mura
@@ -5376,8 +5376,8 @@ Merson_Gym_LifeguardSilas_IntroMessage,Hoe gaat ie? Mijn naam is~Silas!*Je bent 
 Merson_Gym_LifeguardSilas_OutroMessage,Oeps!
 Merson_Gym_LifeguardSilas_DefeatMessage,Ik ben uit Zuid-Rijon~gekomen om te trainen~onder Karpman's vin.*Zeg hem alsjeblieft niet~dat ik je zijn echte naam~heb verteld!*Hij haat het als mensen hem~zo noemen.*Zuid-Rijon krijgt vast en~zeker zijn eigen Pokémon~League en als die er komt,~word ik een van de Leiders,~net als Lochlan!*...Oeps! Nou deed ik het weer!
 Merson_Gym_LeaderKarpman_BeforeBattle,Karpman: Welkom bij de Merson~City Gym, uitdager!*<Player.Name>: Dus jij bent een~Gym Leider?*Karpman: Inderdaad!*Mijn naam is Karpman en ik~ben gespecialiseerd in Water-~type Pokémon!*Als je me verslaat, krijg je~de Marine-Badge.*Behaal alle acht Badges in de~hele regio en je krijgt de~kans om Rijon's Kampioen te worden!*Maar ik zal het je niet~makkelijk maken.*Zet je schrap voor golven~van nederlagen!*<Player.Name>: Kom maar op,~Karpman!
-Merson_Gym_LeaderKarpman_OutroMessage,Karpman: Verdorie!*Je hebt mijn Pokémon~verslagen.*Als bewijs van je overwinning,~is hier de Marine Badge!
-Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: Dat is een officiële~Rijon League Badge!*De Pokémon van de drager~worden er sterker door!*De techniek Flits kan nu op~elk moment worden gebruikt!*Maar alle grotten in Rijon~zijn verlicht door de Shinra~Elektriciteitsmaatschappij,~dus het is een beetje~nutteloos nu...*Wacht! Neem dit mee!
+Merson_Gym_LeaderKarpman_OutroMessage,Karpman: Verdorie!*Je hebt mijn Pokémon~verslagen.*Als bewijs van je overwinning,~is hier de Marine-Badge!
+Merson_Gym_LeaderKarpman_AfterBattle1,Karpman: Dat is een officiële~Rijon League-Badge!*De Pokémon van de drager~worden er sterker door!*De techniek Flits kan nu op~elk moment worden gebruikt!*Maar alle grotten in Rijon~zijn verlicht door de Shinra~Elektriciteitsmaatschappij,~dus het is een beetje~nutteloos nu...*Wacht! Neem dit mee!
 Merson_Gym_LeaderKarpman_AfterBattle2,Een TM bevat een techniek~die aan Pokémon kan~worden geleerd!*TM's zijn voor eenmalig~gebruik!*Dus als je er een gebruikt om~een nieuwe techniek aan te~leren, kies de Pokémon dan~zorgvuldig uit!*TM 12 bevat Octazooka!~Het is een Water-aanval die~de nauwkeurigheid van je~tegenstander kan verlagen!
 Merson_Gym_LeaderKarpman_TalkAgain,Karpman: Dat was een episch~gevecht!*De volgende Gym Leider is~Lily die in Slotwaterstad~woont.*Als je naar het noorden blijft~gaan, ben je er zo!
 Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Question,Karpman: Je bent een heel~eind stroomopwaarts~gezwommen sinds de laatste~keer dat ik je zag.*Jullie zijn sterk geworden,~maar ik denk dat ik jullie nog~wel een beetje in het getij~rond kan werpen.*Durf je de vishaak te grijpen?
@@ -5411,7 +5411,7 @@ Route55_RainbowTower_Floor1_MeditatingGuy,Ga alsjeblieft weg.~Ik mediteer met mi
 Route55_RainbowTower_Floor1_Persian_Cry,Persian: Miauw!
 Route55_RainbowTower_Floor1_Rhydon_Cry,Rhydon: RAAH!
 Route55_RainbowTower_Floor1_Pikachu_Cry,Pikachu: Pika pi!
-Route55_RainbowTower_Floor1_TrophyCabinet,Een glanzende trofee.~Op de plaquette staat:*PokéCommunity Hack van het~Jaar 2007:~        Pokémon Prism
+Route55_RainbowTower_Floor1_TrophyCabinet,Een glanzende trofee.~Op de plaquette staat:*PokéCommunity Hack van het~Jaar 2007:~     Pokémon Prisma (Prism)
 
 Route55_RainbowTower_Floor2_PC,Iemand is vergeten uit te~loggen!*Laten we de achtergrond~veranderen naar iets geks!
 Route55_RainbowTower_Floor2_Note,RainbowDevs~Vergaderruimte
@@ -5568,7 +5568,7 @@ Hayward_SouthlandMall_InfoSign_FloorRooftop,Dakterras: Verkoopautomaten
 Hayward_SouthlandMall_Floor1_Receptionist,Hallo! Welkom bij~Winkelcentrum Zuidland!*Het bord rechts beschrijft~de winkelindeling.
 Hayward_SouthlandMall_Floor2_ParasGirl,Mijn Paras houdt van Zeldzame~Snoepjes!*Jum!
 Hayward_SouthlandMall_Floor2_RepelMan,Last van wilde Pokémon?*Gebruik wat Afweerders, je~zult er geen spijt van krijgen!
-Hayward_SouthlandMall_Floor3_Poster,Pokémon Prism is nu in de~uitverkoop!
+Hayward_SouthlandMall_Floor3_Poster,Pokémon Prisma is nu in de~uitverkoop!
 Hayward_SouthlandMall_Floor3_TM18Clerk_BeforeGive,Oh, hoi! Ik heb eindelijk~Pokémon Achromic uitgespeeld!*Heb je je reis nog niet~voltooid?~Dan kan dit van pas komen!
 Hayward_SouthlandMall_Floor3_TM18Clerk_AfterGive,TM 18 is Tegenaanval!*Niet meteen in de aanval~schieten!
 Hayward_SouthlandMall_Floor3_TV1,Donkey Kong Country!~Nog steeds een geweldige~soundtrack!
@@ -5578,8 +5578,8 @@ Hayward_SouthlandMall_Floor3_TV4,Pokémon Pinball Generations!~Game Boy-spellen 
 Hayward_SouthlandMall_Floor3_GameCube,Het is een Nintendo GameCube!~Een Game Boy Player is eraan~verbonden!
 Hayward_SouthlandMall_Floor3_SNES,Het is een SNES!~Die heb ik al een tijdje~niet gezien!
 Hayward_SouthlandMall_Floor3_Nintendo64,Het is een Nintendo 64!~Een beetje oud maar nog~steeds leuk!
-Hayward_SouthlandMall_Floor3_GameboyKid_Green,Mijn vriend heeft een coole~Pokémon in Brown en ruilt hem~met mijn Pokémon Prism!
-Hayward_SouthlandMall_Floor3_GameboyKid_Red,Ik kan niet wachten om met~Raikou te vechten in mijn~Brown-versie!*Hij ruilt vanuit Pokémon Prism.
+Hayward_SouthlandMall_Floor3_GameboyKid_Green,Mijn vriend heeft een coole~Pokémon in Bruin en ruilt hem~met mijn Pokémon Prisma!
+Hayward_SouthlandMall_Floor3_GameboyKid_Red,Ik kan niet wachten om met~Raikou te vechten in mijn~Bruin-versie!*Hij ruilt vanuit Pokémon Prisma.
 Hayward_SouthlandMall_Floor3_GameboyKid_Blue,Gevangen Pokémon worden~geregistreerd met een~ID-nummer en OT, de naam~van de oorspronkelijke~Trainer die de Pokémon~heeft gevangen!
 Hayward_SouthlandMall_Floor3_LittleBoy,Jammer dat hier geen Flash~Carts worden verkocht...
 Hayward_SouthlandMall_Floor4_Youngster,In Naljo is er een man die je~leert hoe je ringen kunt maken~van evolutiestenen!
@@ -5692,12 +5692,12 @@ Owsauri_Main_Youngster,Deze stad is een grote fan~van Pokémon.*Ze kunnen er gee
 Owsauri_Main_Gambler,Laat je Pokémon achter bij de~Dagopvangman en hij zal voor~ze zorgen!
 Owsauri_Main_Rocker,Ik vraag me af hoe het met~mijn Voltorb gaat?
 Owsauri_Main_FatGuy,Dit is mijn speciale plekje.
-Owsauri_Main_Omanyte_Cry,Omanyte: Kyeeru!
+Owsauri_Main_Omanyte_Cry,Omanyte: Kih-kerie-kih!
 Owsauri_Main_Lapras_Cry1,<Player.Name>: Lapras is aan het~zingen!
 Owsauri_Main_Lapras_Cry2,Zz...zz...
 Owsauri_Main_Lapras_Cry3,...Huh?!~Wat was ik ook alweer aan~het doen?
 Owsauri_Main_Voltorb_Cry,Voltorb: Voltorb! Bzzt!
-Owsauri_Main_Cubone_Cry,Cubone: Kyarugoo!
+Owsauri_Main_Cubone_Cry,Cubone: Kroh-groh!
 Owsauri_Main_Clefairy_Cry,Clefairy: Clefaiiiry!
 Owsauri_Main_Meowth_Cry1,Meowth!: Meowth!*<Player.Name>: Huh? Is dat voor~mij?
 Owsauri_Main_Meowth_Cry2,<Player.Name> ontving $1!
@@ -5996,11 +5996,11 @@ Moraga_Gym_JrTrainerFemaleJacqueline_DefeatMessage,We hebben geen mannen nodig,~
 Moraga_Gym_CoolTrainerFemaleHeather_IntroMessage,Onderschat de kracht van~Gras niet!
 Moraga_Gym_CoolTrainerFemaleHeather_OutroMessage,Oh! Verslagen!
 Moraga_Gym_CoolTrainerFemaleHeather_DefeatMessage,Lois heeft een tweelingzus~in Kanto die ook Gras-~types gebruikt.
-Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, mijn mooie~bloemen...*Ze zijn echt prachtig,~nietwaar?*<Player.Name>: Neem me niet~kwalijk, maar ik ben hier~voor je Spruit Badge!*Lois: Oh, de Spruit Badge?~Ik ben net als mijn zus in~Kanto, of niet soms...*Maar goed, als je een~gevecht wilt, dan zul je een~gevecht krijgen!*Als Kimono Meisje en als~Gym Leider van Stamppotdorp~heb ik ook veel gevechts-~ervaring, dus zeg maar~niet dat ik je niet~gewaarschuwd heb.*Leafeon, we gaan ervoor!
-Moraga_Gym_LeaderLois_OutroMessage,Lois: Nou, dat was het dan,~je hebt me laten zien hoe~goed je bent!*Je hebt de Spruit Badge~verdiend!
-Moraga_Gym_LeaderLois_AfterBattle1,Lois: Met de Spruit Badge~kunnen Pokémon de techniek~Kracht gebruiken tijdens~maar ook buiten gevechten.*Oh, en neem dit mee.
+Moraga_Gym_LeaderLois_BeforeBattle,Lois: Ah, mijn mooie~bloemen...*Ze zijn echt prachtig,~nietwaar?*<Player.Name>: Neem me niet~kwalijk, maar ik ben hier~voor je Spruit-Badge!*Lois: Oh, de Spruit-Badge?~Ik ben net als mijn zus in~Kanto, of niet soms...*Maar goed, als je een~gevecht wilt, dan zul je een~gevecht krijgen!*Als Kimono Meisje en als~Gym Leider van Stamppotdorp~heb ik ook veel gevechts-~ervaring, dus zeg maar~niet dat ik je niet~gewaarschuwd heb.*Leafeon, we gaan ervoor!
+Moraga_Gym_LeaderLois_OutroMessage,Lois: Nou, dat was het dan,~je hebt me laten zien hoe~goed je bent!*Je hebt de Spruit-Badge~verdiend!
+Moraga_Gym_LeaderLois_AfterBattle1,Lois: Met de Spruit-Badge~kunnen Pokémon de techniek~Kracht gebruiken tijdens~maar ook buiten gevechten.*Oh, en neem dit mee.
 Moraga_Gym_LeaderLois_AfterBattle2,TM 21 bevat Giga-absorbering.*De helft van de schade die~het toebrengt, wordt~afgetapt om je Pokémon~te genezen!
-Moraga_Gym_LeaderLois_TalkAgain,Lois: Veel succes met het~verzamelen van alle Rijon~League Badges.
+Moraga_Gym_LeaderLois_TalkAgain,Lois: Veel succes met het~verzamelen van alle Rijon~League-Badges.
 Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Question,Lois: Zzz...*<Player.Name>: Ze is toch niet~weer in slaap gevallen?*Lois: Gaaaap...*<Player.Name>: ...*Lois: Mijn excuses, dat was~niet zo damesachtig.~Ik ben gewoon zo slaperig...*Misschien heb ik even pauze~nodig.*Slapen in de tuin vind ik~tegenwoordig aantrekkelijker~dan dansen...*Maar ik neem aan dat je me~weer wilt uitdagen?
 Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Answer_No,Lois: Oh, wat jammer.*Kom nog eens terug als je~tijd hebt.*Ik zal hier waarschijnlijk~nog wel een tijdje...~GAAAAP...~langer blijven...*Zzz...
 Moraga_Gym_LeaderLois_Rematch_BeforeBattle_Answer_Yes,Lois: Oh, zalig.*Houd je niet in om mij,~kampioen.
@@ -6062,7 +6062,7 @@ Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> heeft de Fiets-~tegoedbon in
 Jaeru_BikeShop_BikeInPocket,<Player.Name> stopte hem in~het №Belangrijke Voorwerpen~vakje.
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,Hoe bevalt je nieuwe~Fiets?*Je kunt ermee over de~Rinjoh-fietsroute rijden en~zelfs in grotten!
 
-Jaeru_PokeMart_RegularGuy,Je hebt acht Rijon-badges~nodig om de Rijon League~te bereiken.
+Jaeru_PokeMart_RegularGuy,Je hebt acht Rijon-Badges~nodig om de Rijon League~te bereiken.
 Jaeru_PokeMart_LittleBoy,Mijn vader is in het noorden~en probeert naar de League~te gaan!
 
 Jaeru_PokeCenter_Gentleman,Ga weg, ik zit op mijn~mobieltje!
@@ -6083,8 +6083,8 @@ Jaeru_Gym_GentlemanWilliam_OutroMessage,Stop! Je bent erg goed!
 Jaeru_Gym_GentlemanWilliam_DefeatMessage,Elektriciteit is mijn domein!
 Jaeru_Gym_LeaderSparky_BeforeBattle1,Sparky: Perkins!~Waar is mijn moersleutel?!~Dit gaat zichzelf niet~repareren!*<Player.Name>: Ehhh, pardon?
 Jaeru_Gym_LeaderSparky_BeforeBattle2,Sparky: Ah, jij bent~Perkins niet!*Aan je blik te zien ben je hier~om mijn Badge te verdienen!*Als de beste monteur van~Rijon zorg ik, de geweldige~Sparky, Leider van de Laeterwirstad~Gym, dat mijn werknemers in~topvorm zijn zodat geen~enkele taak blijft liggen!*Maak je klaar om gechoqueerd~te worden door mijn efficiëntie~in Pokémon-gevechten!
-Jaeru_Gym_LeaderSparky_OutroMessage,Sparky: Schokkend!~Goed, hier.*Neem de Sparky Badge!
-Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: De Sparky Badge,~vernoemd naar mijzelf,~verhoogt de snelheid van je~Pokémon en laat je altijd~Vlieg gebruiken!*Neem dit ook mee!
+Jaeru_Gym_LeaderSparky_OutroMessage,Sparky: Schokkend!~Goed, hier.*Neem de Sparky-Badge!
+Jaeru_Gym_LeaderSparky_AfterBattle1,Sparky: De Sparky-Badge,~vernoemd naar mijzelf,~verhoogt de snelheid van je~Pokémon en laat je altijd~Vlieg gebruiken!*Neem dit ook mee!
 Jaeru_Gym_LeaderSparky_AfterBattle2,TM 24 bevat Bliksemstraal!*Leer het aan een Elektrische Pokémon!
 Jaeru_Gym_LeaderSparky_TalkAgain,Sparky: De volgende Gym is~in Dalburg.*Mijn goede vriend Koji zal~je een flinke uitdaging bieden.
 Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Question,Sparky: Kijk eens aan,~de grote ster.*Ik had zin in een gevecht en~jij treft me net op mijn~pauze.*Klaar ervoor?
@@ -6213,7 +6213,7 @@ Botan_Main_RocketGrunt_Sleeping,...~Snurk...*<Player.Name>: Ha! Hij ligt~gewoon 
 Botan_PokeMart_Guy,Deze plek is beter dan welke~andere winkel dan ook!
 Botan_PokeMart_Girl,Opwekkers zijn duur, maar ze~maken uitgeschakelde Pokémon~weer klaar om te vechten!
 
-Botan_MrRumikoHouse_Nidorino_Cry,Nidorino: Gaoo!
+Botan_MrRumikoHouse_Nidorino_Cry,Nidorino: Gauwoh!
 Botan_MrRumikoHouse_Psyduck_Cry,Psyduck: Kwaak!
 Botan_MrRumikoHouse_Grandson_BeforeRescue,Dat is vreemd.*Meneer Rumiko is weg.
 Botan_MrRumikoHouse_Grandson_AfterRescue,Ik ben de kleinzoon van~Meneer Rumiko!
@@ -6642,209 +6642,209 @@ Route56_Main_SwimmerFemaleNicole_OutroMessage,Wacht!
 Route56_Main_SwimmerFemaleNicole_DefeatMessage,Ik heb verloren in deze~grote badkuip...
 
 [Eagulou City]
-Eagulou_Main_ParkGirl,The Eagulou Park is a great~place to catch Pokémon!
-Eagulou_Main_MistStoneGuy_NoMistStone,Rumor is that the Mist Stone~can break that barrier, but~that's an item from the~ancient Guardians.*The Mist Stone has been long~forgotten, just like that old~shelter in the depths of~Mt. Boulder.
-Eagulou_Main_MistStoneGuy_HaveMistStone,So, you managed to get a Mist~Stone? You may be the one.*That cave was supposed to be~a test for trainers looking~for the Eagulou Gym, but the~new Leader...*Well, you'll find out soon~enough.
-Eagulou_Main_MistStoneGuy_AfterGiovanni,You beat Giovanni?*It seems you were worthy of~that Mist Stone!*May the Pokégods bless you!
-Eagulou_Main_Sign_City,Eagulou City*The Totally Underrated City.
-Eagulou_Main_Sign_Park,Eagulou Park
-Eagulou_Main_Sign_MtBoulder,Mt. Boulder*Shortcut to Merson City*There's a note attached:~Watch out!*A Pokémon nested in~Mt. Boulder recently and~temperature in it has dropped~to freezing point!*There's an extra note:~Poor Growlithe...
-Eagulou_Main_MistStoneBarrier,Something pushes you.
-Eagulou_Main_SandInClothes,<Player.Name>: There's some sand~stuck in my clothes.*I hope it's enough for that~scientist in Hayward City!
+Eagulou_Main_ParkGirl,Het Tromtorenpark is een~geweldige plek om Pokémon te~vangen!
+Eagulou_Main_MistStoneGuy_NoMistStone,Het gerucht gaat dat de~Miststeen die barrière kan~doorbreken, maar dat is een~voorwerp van de eeuwenoude~Hoeders.*De Miststeen is al lang in~de vergetelheid geraakt, net~als die oude schuilplaats in de~diepten van de Zwerfkeiberg.
+Eagulou_Main_MistStoneGuy_HaveMistStone,Dus je hebt een Miststeen~weten te bemachtigen?~Misschien ben jij wel de~uitverkorene.*Die grot daar was bedoeld~als test voor trainers die op~zoek waren naar de~Tromtorenstad Gym, maar de~nieuwe Leider...*Nou, dat zul je snel genoeg~ontdekken.
+Eagulou_Main_MistStoneGuy_AfterGiovanni,Heb je Giovanni verslagen?*Het lijkt erop dat je die~Miststeen waardig was!*Mogen de Poké-goden je~zegenen!
+Eagulou_Main_Sign_City,Tromtorenstad*De Totaal Ondergewaardeerde Stad.
+Eagulou_Main_Sign_Park,Tromtorenpark
+Eagulou_Main_Sign_MtBoulder,Zwerfkeiberg*Sluiproute naar~Mertenstad*Er zit een briefje bij:~Kijk uit! Een Pokémon heeft~zich onlangs genesteld~in de Zwerfkeiberg en de~temperatuur is er gedaald tot~het vriespunt!*Er is een extra notitie aan~toegevoegd: Arme Growlithe...
+Eagulou_Main_MistStoneBarrier,Iets duwt je weg.
+Eagulou_Main_SandInClothes,<Player.Name>: Er zit wat zand~in mijn kleren.*Ik hoop dat het genoeg is~voor die wetenschapper in~Haagwachterstad!
 
-Eagulou_PokeCenter_CoolTrainerFemale,My boyfriend is busy catching~Pokémon from the Eagulou~Park.
-Eagulou_PokeCenter_Gentleman,What is with that cave, and I~don't mean Mt. Boulder...
-Eagulou_PokeCenter_BenchGuy,Pokémon can still learn~techniques after canceling~evolution.*Evolution can wait until~new moves have been learned.
+Eagulou_PokeCenter_CoolTrainerFemale,Mijn vriend is druk bezig~met het vangen van Pokémon~in het Tromtorenpark.
+Eagulou_PokeCenter_Gentleman,Wat is er met die grot, en~dan bedoel ik niet de~Zwerfkeiberg...
+Eagulou_PokeCenter_BenchGuy,Pokémon kunnen nog steeds~technieken leren nadat hun~evolutie is onderbroken.*De evolutie kan wachten~totdat nieuwe technieken~zijn geleerd.
 
-Eagulou_PokeMart_ExtraItemsGirl,It never hurts to have extra~items!
-Eagulou_PokeMart_XAttackGirl,Don't they have X Attack?~It's good for battles!
+Eagulou_PokeMart_ExtraItemsGirl,Het kan nooit kwaad om extra~spullen te hebben!
+Eagulou_PokeMart_XAttackGirl,Hebben ze geen X-Aanval?~Dat is handig voor gevechten!
 
-Eagulou_Cave_CoolTrainerFemaleKimberly_IntroMessage,How did you get a Mist Stone?
-Eagulou_Cave_CoolTrainerFemaleKimberly_OutroMessage,I lost out!
-Eagulou_Cave_CoolTrainerFemaleKimberly_DefeatMessage,Seems you're talented at this.
-Eagulou_Cave_CoolTrainerMaleRendell_IntroMessage,You broke the entrance's~spell.*So what?
-Eagulou_Cave_CoolTrainerMaleRendell_OutroMessage,I had a chance...
-Eagulou_Cave_CoolTrainerMaleRendell_DefeatMessage,Guess you are good!
+Eagulou_Cave_CoolTrainerFemaleKimberly_IntroMessage,Hoe ben je aan een Miststeen~gekomen?
+Eagulou_Cave_CoolTrainerFemaleKimberly_OutroMessage,Ik heb verloren!
+Eagulou_Cave_CoolTrainerFemaleKimberly_DefeatMessage,Je lijkt hier talent voor te~hebben.
+Eagulou_Cave_CoolTrainerMaleRendell_IntroMessage,Je hebt de betovering van de~ingang verbroken.*Nou en?
+Eagulou_Cave_CoolTrainerMaleRendell_OutroMessage,Ik had een kans...
+Eagulou_Cave_CoolTrainerMaleRendell_DefeatMessage,Blijkbaar ben je goed!
 
-Eagulou_Gym_GymGuy_BeforeBadge,Gym Gast: Yo! Champ in~the making!*This is the hardest Gym yet.*I heard the Leader uses~Ground Pokémon, so Water and~Grass would do best against~him.
-Eagulou_Gym_GymGuy_AfterBadge,Gym Gast: I never had a doubt you'd win!
-Eagulou_Gym_GymGuy_BeforeSilphGiovanni,Gym Gast: Yo! Champ in making!*It seems this Gym's Leader is~out now.*I overheard him talking about~the warehouse near Botan City.*Maybe you can find him there?
-Eagulou_Gym_RocketGrunt_Block1,What do you want?*Scram!
-Eagulou_Gym_RocketGrunt_Block2,Why did the boss tell me to~keep an eye on that weirdo...*Whatever.
-Eagulou_Gym_RocketGrunt_Block3,I said SCRAM!
-Eagulou_Gym_BlackbeltKenji_IntroMessage,Rrrroar!*Try to defeat my fury!
-Eagulou_Gym_BlackbeltKenji_OutroMessage,Wargh!
-Eagulou_Gym_BlackbeltKenji_DefeatMessage,Get lost maggot!
-Eagulou_Gym_CoolTrainerMaleEnrique_IntroMessage,Heh! Still have the strength~to fight?
-Eagulou_Gym_CoolTrainerMaleEnrique_OutroMessage,I ran out of gas!
-Eagulou_Gym_CoolTrainerMaleEnrique_DefeatMessage,Our Gym Leader doesn't mess~around!
-Eagulou_Gym_TamerCyrus_IntroMessage,Pokémon and I are best~friends!
-Eagulou_Gym_TamerCyrus_OutroMessage,You are in perfect harmony!
-Eagulou_Gym_TamerCyrus_DefeatMessage,What?
+Eagulou_Gym_GymGuy_BeforeBadge,Gym Gast: Yo! Kampioen in de~dop!*Dit is de moeilijkste Gym~tot nu toe.*Ik heb gehoord dat de Leider~Grond-Pokémon gebruikt, dus~Water- en Gras-Pokémon zijn~het meest geschikt om tegen~hem te vechten.
+Eagulou_Gym_GymGuy_AfterBadge,Gym Gast: Ik heb nooit~getwijfeld dat je zou winnen!
+Eagulou_Gym_GymGuy_BeforeSilphGiovanni,Gym Gast: Yo! Kampioen in de~dop!*Het lijkt erop dat de Leider~van deze Gym er niet is.*Ik hoorde hem iets zeggen~over het warenhuis in de~buurt van Bloemenbloeistad.*Misschien kun je hem daar~vinden?
+Eagulou_Gym_RocketGrunt_Block1,Wat wil je?*Rot op!
+Eagulou_Gym_RocketGrunt_Block2,Waarom heeft de baas me~gevraagd om die mafkees in~de gaten te houden...*Ach, wat maakt het ook uit.
+Eagulou_Gym_RocketGrunt_Block3,Ik zei: ROT OP!
+Eagulou_Gym_BlackbeltKenji_IntroMessage,Brullll!*Probeer mijn woede te~bedwingen!
+Eagulou_Gym_BlackbeltKenji_OutroMessage,Aaaa!
+Eagulou_Gym_BlackbeltKenji_DefeatMessage,Rot op, mietje!
+Eagulou_Gym_CoolTrainerMaleEnrique_IntroMessage,Heh! Heb je nog steeds de~kracht om te vechten?
+Eagulou_Gym_CoolTrainerMaleEnrique_OutroMessage,Ik heb geen brandstof meer!
+Eagulou_Gym_CoolTrainerMaleEnrique_DefeatMessage,Onze Gym Leider houdt zich~niet in!
+Eagulou_Gym_TamerCyrus_IntroMessage,Pokémon en ik zijn beste~vrienden!
+Eagulou_Gym_TamerCyrus_OutroMessage,Jullie zijn in perfecte~harmonie!
+Eagulou_Gym_TamerCyrus_DefeatMessage,Wat?
 Eagulou_Gym_BlackbeltRyu_IntroMessage,Halt!
-Eagulou_Gym_BlackbeltRyu_OutroMessage,Go!
-Eagulou_Gym_BlackbeltRyu_DefeatMessage,What are you waiting for?
-Eagulou_Gym_CoolTrainerMaleTyron_IntroMessage,Having trouble walking in here?
-Eagulou_Gym_CoolTrainerMaleTyron_OutroMessage,I lost my grip!
-Eagulou_Gym_CoolTrainerMaleTyron_DefeatMessage,The Leader will scold me!
+Eagulou_Gym_BlackbeltRyu_OutroMessage,Ga!
+Eagulou_Gym_BlackbeltRyu_DefeatMessage,Waar wacht je nog op?
+Eagulou_Gym_CoolTrainerMaleTyron_IntroMessage,Heb je moeite met lopen hier?
+Eagulou_Gym_CoolTrainerMaleTyron_OutroMessage,Ik verloor mijn grip!
+Eagulou_Gym_CoolTrainerMaleTyron_DefeatMessage,De Leider zal me uitfoeteren!
 Eagulou_Gym_BlackbeltLei_IntroMessage,Hahahaha!
-Eagulou_Gym_BlackbeltLei_OutroMessage,Ayah!
-Eagulou_Gym_BlackbeltLei_DefeatMessage,Don't go so fast!
-Eagulou_Gym_TamerUlric_IntroMessage,My Pokémon obey me at any~cost!
-Eagulou_Gym_TamerUlric_OutroMessage,Yowch! Whiplash!
-Eagulou_Gym_TamerUlric_DefeatMessage,Wait! I was just careless!
-Eagulou_Gym_PaletteBlack_IntroMessage,...*What? You thought I was one~of the goons here?*Pathetic!*Ever since losing to a punk kid~up in Kanto 9 years ago, the~old boss has gone and lost the~respect of the organization!*You know what that makes~this?*A prime target for~recruitment!*There's a region west of here~that's corrupt and~superstitious enough to~exploit for our own ends.*Soon as everyone here gets~word of our plans, they'll~join us and we'll rake in the~cash!*And you, kid?*Want to join us to become a~Palette Patroller?
-Eagulou_Gym_PaletteBlack_OutroMessage,I'll take that as a no...
-Eagulou_Gym_PaletteBlack_DefeatMessage,Palette Red and I will soon~take on these clowns.*And then when he least~suspects, BOOM!*I'll be in charge.
-Eagulou_Gym_PaletteBlack_AfterBattle,Tch!*It doesn't matter what you do.*If you humiliate the boss here~by defeating him, you'll just~be helping us.*Palette Red and I will soon~take on these clowns.*And then when he least~suspects, BOOM!*I'll be in charge.
-Eagulou_Gym_LeaderGiovanni_BeforeBattle,<Player.Name>: What?!*You're the Gym Leader here?*Giovanni: Well, well. So it's~happened again.*After regrouping in Johto~following our defeat in Kanto,~we moved to Rijon, hoping to~escape detection of any~intruders.*But alas, you know how it~played out.*I, Giovanni, the Eagulou City~Gym Leader, will once again~disband Team Rocket if you~manage to defeat me.*Let us see who the better one~is, shall we?
-Eagulou_Gym_LeaderGiovanni_OutroMessage,Giovanni: I'm beginning to~feel rather nostalgic.*You have earned my Star Badge,~and the league's acceptance!
-Eagulou_Gym_LeaderGiovanni_AfterBattle1,Giovanni: So, it comes to an~end.*My defeat has happened, and~as promised, Team Rocket~will be disbanded.*But before I go, take the~Star Badge, and take this~parting gift too.
-Eagulou_Gym_LeaderGiovanni_AfterBattle2,TM 27 is Fissure!*It will take out Pokémon with~just one hit!*Just like the Earth Badge in~Kanto, the Star Badge makes~Pokémon of all levels obey~your every command.*It shows your true mastery~as a Pokémon trainer.*Now it is time to say~farewell.*Give Red my best regards if~you happen to cross paths~with him, will you?
+Eagulou_Gym_BlackbeltLei_OutroMessage,A-jah!
+Eagulou_Gym_BlackbeltLei_DefeatMessage,Ga niet zo snel!
+Eagulou_Gym_TamerUlric_IntroMessage,Mijn Pokémon gehoorzamen mij~hoe dan ook!
+Eagulou_Gym_TamerUlric_OutroMessage,Auw! Zweepslag!
+Eagulou_Gym_TamerUlric_DefeatMessage,Wacht! Ik was gewoon onvoorzichtig!
+Eagulou_Gym_PaletteBlack_IntroMessage,...*Wat? Dacht je dat ik een van~de handlangers hier was?*Wat sneu!*Sinds hij negen jaar geleden~verloor van een jochie in Kanto,~heeft de oude baas het~respect van de organisatie~verloren!*Weet je wat dat betekent?*Een uitstekende doelwit voor~rekrutering!*Er is een regio ten westen~van hier die corrupt en~bijgelovig genoeg is om voor~onze eigen doeleinden uit~te buiten.*Zodra iedereen hier lucht~krijgt van onze plannen,~zullen ze zich bij ons~aansluiten en zullen we het~geld binnenhalen!*En jij, kleintje?*Wil je je bij ons aansluiten~om een Paletpatrouilleur~te worden?
+Eagulou_Gym_PaletteBlack_OutroMessage,Ik vat dat maar op als een~nee...
+Eagulou_Gym_PaletteBlack_DefeatMessage,Palet Rood en ik zullen~binnenkort deze clowns~aanpakken.*En dan, wanneer hij het het~minst verwacht, BOEM!*Zal ik de leiding hebben.
+Eagulou_Gym_PaletteBlack_AfterBattle,Tsk!*Het maakt niet uit wat je~doet.*Als je de baas hier vernederd~door hem te verslaan, help~je ons alleen maar.*Palet Rood en ik zullen~binnenkort deze clowns~aanpakken.*En dan, wanneer hij het het~minst verwacht, BOEM!*Zal ik de leiding hebben.
+Eagulou_Gym_LeaderGiovanni_BeforeBattle,<Player.Name>: Wat?!*Ben jij de Gym Leider hier?*Giovanni: Wel, wel.~Het is dus weer gebeurd.*Nadat we ons in Johto hadden~hergroepeerd na onze~nederlaag in Kanto, zijn we~naar Rijon verhuisd, in de~hoop aan de aandacht van~indringers te ontsnappen.*Maar helaas, je weet hoe het~is afgelopen.*Ik, Giovanni, de Gym Leider~van Tromtorenstad, zal Team~Rocket opnieuw ontbinden als~je mij weet te verslaan.*Laten we eens kijken wie~de beste is, oké?
+Eagulou_Gym_LeaderGiovanni_OutroMessage,Giovanni: Ik begin me~behoorlijk nostalgisch te~voelen.*Je hebt mijn Ster-Badge~verdiend, en de goedkeuring~van de League!
+Eagulou_Gym_LeaderGiovanni_AfterBattle1,Giovanni: Dus, het komt tot~een einde.*Mijn nederlaag is een feit,~en zoals beloofd zal Team~Rocket worden ontbonden.*Maar voordat ik ga, neem de~Ster-Badge aan, en neem dit~afscheidsgeschenk ook mee.
+Eagulou_Gym_LeaderGiovanni_AfterBattle2,TM 27 is Kloof!*Het schakelt Pokémon uit met~slechts één treffer!*Net als de Aarde-Badge in~Kanto zorgt de Ster-Badge~ervoor dat Pokémon van alle~niveaus elk van je bevelen~opvolgen.*Het toont je ware~meesterschap als Pokémon-~trainer.*Nu is het tijd om afscheid~te nemen.*Doe Red mijn hartelijke~groeten als je hem toevallig~tegenkomt, wil je?
 
-Eagulou_Park_Gate_InfoClerk_Question,Hi!~Is it your first time here?
-Eagulou_Park_Gate_InfoClerk_Answer_Yes,Well, this is similar to the~Safari Zone in Kanto,~but different Pokemon lie~within it.*Don't run out of balls or~steps!*Best luck to you!
-Eagulou_Park_Gate_InfoClerk_Answer_No,Sorry, you're a regular here!
-Eagulou_Park_Gate_EntranceClerk_EndOfRun,You must now return your~Safari Balls.
-Eagulou_Park_Gate_EntranceClerk_Exit_Question,Are you sure you want~to exit the Park?
-Eagulou_Park_Gate_EntranceClerk_Exit_Answer_Yes,Then you must now return~your Safari Balls.
-Eagulou_Park_Gate_EntranceClerk_Exit_Answer_No,Good luck then!
-Eagulou_Park_Gate_EntranceClerk_Exit_ComeAgain,Thank you. Come again!
-Eagulou_Park_Gate_EntranceClerk_Enter_Question,Welcome to the Eagulou Park!*For just $500, you can try to~catch all the Pokémon you want!*Would you like to join the hunt?
-Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney1,That'll be $500 please!
-Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney2,We only use a special type of~Poké Ball here.
-Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney3,We'll call you over the~speakers when you run out of~steps or Safari Balls.
-Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_NotEnoughMoney,Sorry! You don't have enough~money.
-Eagulou_Park_Gate_EntranceClerk_Enter_Answer_No,OK. Please come again!
-Eagulou_Park_Gate_BothClerks_LostTrack,We lost track of you and~couldn't find you anywhere!*You have to abide by the~rules, don't do it again!
-Eagulou_Park_Gate_BothClerks_IllegalEnter,Hey!*Where did you sneak in from?!*You have to pay the fee to~capture inside the Park!*Don't do it again!
+Eagulou_Park_Gate_InfoClerk_Question,Hoi!~Is dit je eerste keer hier?
+Eagulou_Park_Gate_InfoClerk_Answer_Yes,Wel, het lijkt op de Safari~Zone in Kanto, maar er leven~andere Pokémon~in dit gebied.*Zorg dat je niet zonder~ballen of stappen komt te~zitten!*Veel succes!
+Eagulou_Park_Gate_InfoClerk_Answer_No,Sorry, je bent hier al een~vaste bezoeker!
+Eagulou_Park_Gate_EntranceClerk_EndOfRun,Je moet nu je SafariBallen~inleveren.
+Eagulou_Park_Gate_EntranceClerk_Exit_Question,Weet je zeker dat je het~Park wilt verlaten?
+Eagulou_Park_Gate_EntranceClerk_Exit_Answer_Yes,Dan moet je nu je~SafariBallen inleveren.
+Eagulou_Park_Gate_EntranceClerk_Exit_Answer_No,Dan wens ik je veel succes!
+Eagulou_Park_Gate_EntranceClerk_Exit_ComeAgain,Bedankt. Kom snel weer~terug!
+Eagulou_Park_Gate_EntranceClerk_Enter_Question,Welkom in het Tromtorenpark!*Voor slechts $500 kun je~proberen alle Pokémon te~vangen die je wilt!*Wil je meedoen aan de jacht?
+Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney1,Dat is dan $500, alstublieft!
+Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney2,We gebruiken hier alleen~een speciaal soort PokéBal.
+Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_EnoughMoney3,We roepen je om via de~luidsprekers wanneer je geen~stappen of SafariBallen meer~hebt.
+Eagulou_Park_Gate_EntranceClerk_Enter_Answer_Yes_NotEnoughMoney,Sorry! Je hebt niet genoeg~geld.
+Eagulou_Park_Gate_EntranceClerk_Enter_Answer_No,Oké. Kom gerust nog eens~terug!
+Eagulou_Park_Gate_BothClerks_LostTrack,We zijn je uit het oog~verloren en konden je~nergens vinden!*Je moet je aan de regels~houden, doe dit niet nog~eens!
+Eagulou_Park_Gate_BothClerks_IllegalEnter,Hé!*Hoe ben je hier~binnengeslopen?!*Je moet betalen om in het~Park te mogen vangen!*Doe dit niet nog eens!
 
-Eagulou_Park_Area1_House_GirlfriendSara,Sara: Where did my boyfriend,~Erik, go?
-Eagulou_Park_Area1_House_GiftScientist,I'm catching Pokémon to take~home as gifts!
+Eagulou_Park_Area1_House_GirlfriendSara,Sara: Waar is mijn vriendje,~Erik, gebleven?
+Eagulou_Park_Area1_House_GiftScientist,Ik vang Pokémon om mee naar~huis te nemen als cadeautjes!
 
-Eagulou_Park_Area2_Sign_RestHouse,Rest House
-Eagulou_Park_Area2_House_EeveeGuy,My Eevee evolved into~Leafeon!*But a friend's Eevee turned~into a Glaceon!*I wonder why?
-Eagulou_Park_Area2_House_HoleGuy,A hole was dug somewhere in~the Park.*But by who?*Or what?
-Eagulou_Park_Area2_House_BoyfriendErik,Erik: I promised my girlfriend,~Sara, I would catch her a~Jynx but I haven't succeeded~yet.*I'm almost out of Eagulou~Balls!
+Eagulou_Park_Area2_Sign_RestHouse,Pauzeruimte
+Eagulou_Park_Area2_House_EeveeGuy,Mijn Eevee is geëvolueerd in~een Leafeon!*Maar de Eevee van een vriend~werd een Glaceon!*Ik vraag me af waarom?
+Eagulou_Park_Area2_House_HoleGuy,Er is ergens in het Park een~gat gegraven.*Maar door wie?*Of wat?
+Eagulou_Park_Area2_House_BoyfriendErik,Erik: Ik heb mijn vriendin,~Sara, beloofd dat ik voor~haar een Jynx zou vangen,~maar dat is me nog niet~gelukt.*Ik heb bijna geen Safari-~Ballen meer!
 
-Eagulou_Park_Area3_House_BushedGuy,How many did you catch?~I'm bushed from the work!
-Eagulou_Park_Area3_House_ChanseyGuy,I caught a Chansey!*That makes this all worthwhile!
-Eagulou_Park_Area3_House_TiredGuy,Whew! I'm tired from all the~fun!
+Eagulou_Park_Area3_House_BushedGuy,Hoeveel heb je er gevangen?~Ik ben doodop van het werk!
+Eagulou_Park_Area3_House_ChanseyGuy,Ik heb een Chansey gevangen!*Dat maakt het allemaal de~moeite waard!
+Eagulou_Park_Area3_House_TiredGuy,Oef! Ik ben moe van al het~plezier!
 
-Eagulou_Park_TimeIsUp,Ding! Your time's up!
+Eagulou_Park_TimeIsUp,Ding! Je tijd is om!
 
-Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_IntroMessage,You found the Secret Cave~too?
-Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_OutroMessage,The rumors were true!
-Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_DefeatMessage,This cave isn't THAT well~hidden.
-Eagulou_Park_SecretCaveB1F_CoolTrainerFemaleShirlee_IntroMessage,I'll show you just how good~you are!
-Eagulou_Park_SecretCaveB1F_CoolTrainerFemaleShirlee_OutroMessage,I'm furious!
-Eagulou_Park_SecretCaveB1F_CoolTrainerFemaleShirlee_DefeatMessage,You showed me just how good~I was!
-Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_IntroMessage,Nope!*Nothing here!
-Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_OutroMessage,I don't believe it!
-Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_DefeatMessage,Strange sounds are coming~from the basement!*Scary!
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_IntroMessage,Heb jij de Geheime Grot ook~gevonden?
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_OutroMessage,De geruchten waren waar!
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleMicky_DefeatMessage,Deze grot is niet ZÓ goed~verborgen.
+Eagulou_Park_SecretCaveB1F_CoolTrainerFemaleShirlee_IntroMessage,Ik zal je laten zien hoe~goed je bent!
+Eagulou_Park_SecretCaveB1F_CoolTrainerFemaleShirlee_OutroMessage,Ik ben woedend!
+Eagulou_Park_SecretCaveB1F_CoolTrainerFemaleShirlee_DefeatMessage,Je hebt me laten zien hoe~goed ik was!
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_IntroMessage,Nee!*Er is niets hier!
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_OutroMessage,Ik geloof het niet!
+Eagulou_Park_SecretCaveB1F_CoolTrainerMaleRyker_DefeatMessage,Er komen vreemde geluiden~van beneden!*Eng hoor!
 
 Eagulou_Park_SecretCave_B2F_Mewtwo,Mewtwo!
-Eagulou_Park_SecretCave_B2F_Switch_Question,There's a switch on the wall!~Should I press it?
-Eagulou_Park_SecretCave_B2F_Switch_Answer_Yes,<Player.Name>: What was that?
-Eagulou_Park_SecretCave_B2F_Switch_Answer_No,<Player.Name>: Who knows what~might happen, better safe~than sorry.
+Eagulou_Park_SecretCave_B2F_Switch_Question,Er zit een schakelaar op de~muur!*Zal ik erop drukken?
+Eagulou_Park_SecretCave_B2F_Switch_Answer_Yes,<Player.Name>: Wat was dat?
+Eagulou_Park_SecretCave_B2F_Switch_Answer_No,<Player.Name>: Wie weet wat er~zal gebeuren, ik neem maar~beter het zekere voor het~onzekere.
 
 [Mt. Boulder]
-MtBoulder_B1F_Sign_Ruins,Mt. Boulder Ruins
-MtBoulder_B1F_Sign_EvolveEevee,Wow!*You made it!*Congratulations, try evolving an Eevee in this freezing cave!
-MtBoulder_B1F_Articuno_Cry,Gyaao!
-MtBoulder_B1F_Suicune_Cry,Rrroar!
-MtBoulder_EndParkRun1,<Player.Name>: Since I sneaked~out of the Park, I guess~these are mine now.
-MtBoulder_EndParkRun2_OneBall,<Player.Name> "obtained" a Park Ball!
-MtBoulder_EndParkRun2_MoreThanOneBall,<Player.Name> "obtained" Park Balls!
+MtBoulder_B1F_Sign_Ruins,Zwerfkeibergruïnes
+MtBoulder_B1F_Sign_EvolveEevee,Wauw!*Het is je gelukt om hier te~komen!*Gefeliciteerd, probeer een~Eevee te laten evolueren in~deze ijskoude grot!
+MtBoulder_B1F_Articuno_Cry,Krieee!
+MtBoulder_B1F_Suicune_Cry,Rrrooh!
+MtBoulder_EndParkRun1,<Player.Name>: Aangezien ik~uit het park ben weggeslopen,~zijn deze nu van mij,~denk ik.
+MtBoulder_EndParkRun2_OneBall,<Player.Name> heeft een~SafariBal "ontvangen"!
+MtBoulder_EndParkRun2_MoreThanOneBall,<Player.Name> heeft~SafariBallen "ontvangen"!
 
 [Bunker]
-Bunker_CanPiles,Countless cans of Ho-O's are~stacked on top of each other.
-Bunker_Boxes,There must be enough food in~here to last for years!
-Bunker_Bookshelves,There are a lot of complex~documents...*They seem to be about Rijon,~Naljo and the Guardians.
-Bunker_Bookshelf_Notebook,<Player.Name>: A notebook is~sticking out...*January 17th 2004:~I've finally found a way to~get more funds.*I bribed a worker at~Owsauri's Casino and rigged~one of the slot machines.*I left a subtle mark on it,~in case they move it around.*But I must be careful not to~arouse suspicion...
-Bunker_PC_Intro,It's an old and dusty PC.
-Bunker_PC_Question,This looks like a diary.~Read it?
-Bunker_PC_AnswerYes,I spoke to Stella again today.~I wish I hadn't.*She has seen it all.*The oceans will boil from~the wrath of the one~the gaze of fire and claws~of steel.*Once the oceans have~evaporated, it will gallop~across the seabed and~ravage this land I love.*It will be scarred and~rendered but a barren~wasteland.*My friends, my family, they~don't want to hear my words.*There will be no survivors.*Rijon is doomed.*I must prepare.
-Bunker_PC_Outro,<Player.Name>: The other entries~are password protected.*Were they referring to that~legendary Guardian?*How ominous...
+Bunker_CanPiles,Talloze blikken Ho-O's zijn~op elkaar gestapeld.
+Bunker_Boxes,Er moet hier genoeg voedsel~liggen om jaren mee vooruit~te kunnen!
+Bunker_Bookshelves,Er liggen veel ingewikkelde~documenten...*Ze lijken over Rijon, Naljo~en de Hoeders te gaan.
+Bunker_Bookshelf_Notebook,<Player.Name>: Er steekt een~notitieboekje uit...*17 januari 2004:~Ik heb eindelijk een manier~gevonden om meer geld te~vergaren.*Ik heb een medewerker in~het Slotwater-Casino~omgekocht en een gokkast~gemanipuleerd.*Ik heb er een subtiel teken~op gekrast, voor het geval~ze hem verplaatsen.*Maar ik moet oppassen dat ik~geen argwaan wek...
+Bunker_PC_Intro,Het is een oude en stoffige~PC.
+Bunker_PC_Question,Dit lijkt op een dagboek.~Lezen?
+Bunker_PC_AnswerYes,Ik sprak Stella vandaag weer.~Ik wou dat ik dat niet had~gedaan.*Ze heeft het allemaal gezien.*De oceanen zullen koken door~de toorn van degene met de~vurige blik en klauwen van~staal.*Zodra de oceanen zijn~verdampt, zal hij over de~zeebodem galopperen en dit~land dat ik zo liefheb~verwoesten.*Het zal verminkt worden en~veranderen in een dorre~wildernis.*Mijn vrienden, mijn familie,~ze willen niet naar me~luisteren.*Er zullen geen overlevenden~zijn.*Rijon is gedoemd.*Ik moet me voorbereiden.
+Bunker_PC_Outro,<Player.Name>: De andere~bestanden zijn beveiligd met~een wachtwoord.*Verwees die persoon naar~die legendarische Hoeder?*Wat onheilspellend...
 
 [30 Years Cave]
-30YearsCave_PokeFanHoward_IntroMessage,If you can get through here,~you are a master!
-30YearsCave_PokeFanHoward_OutroMessage,No! Unbelieveable!
-30YearsCave_PokeFanHoward_DefeatMessage,You just got lucky...
-30YearsCave_BlackBeltCrunch_IntroMessage,How did you find us?!
+30YearsCave_PokeFanHoward_IntroMessage,Als je hier doorheen komt,~ben je een meester!
+30YearsCave_PokeFanHoward_OutroMessage,Nee! Ongelooflijk!
+30YearsCave_PokeFanHoward_DefeatMessage,Je had gewoon geluk...
+30YearsCave_BlackBeltCrunch_IntroMessage,Hoe heb je ons gevonden?!
 30YearsCave_BlackBeltCrunch_OutroMessage,Aiyah!
-30YearsCave_BlackBeltCrunch_DefeatMessage,Can you solve this boulder~puzzle?
-30YearsCave_JugglerBarney_IntroMessage,Why are you here?
-30YearsCave_JugglerBarney_OutroMessage,Well done!
-30YearsCave_JugglerBarney_DefeatMessage,Get out of my house!
-30YearsCave_TamerBrend_IntroMessage,Come on! I'll whip you!
-30YearsCave_TamerBrend_OutroMessage,I got whipped!
-30YearsCave_TamerBrend_DefeatMessage,The tamer became the tamed!
-30YearsCave_JugglerZac_IntroMessage,Is there anything here?*Maybe...
-30YearsCave_JugglerZac_OutroMessage,You got me!
-30YearsCave_JugglerZac_DefeatMessage,You're almost done!
-30YearsCave_Entei,Rrroar!
-30YearsCave_Moltres,Gyaao!
+30YearsCave_BlackBeltCrunch_DefeatMessage,Kun jij deze rotsblokken-~puzzel oplossen?
+30YearsCave_JugglerBarney_IntroMessage,Waarom ben je hier?
+30YearsCave_JugglerBarney_OutroMessage,Goed gedaan!
+30YearsCave_JugglerBarney_DefeatMessage,Ga mijn huis uit!
+30YearsCave_TamerBrend_IntroMessage,Kom op! Ik zal je een pak~slaag geven!
+30YearsCave_TamerBrend_OutroMessage,Ik heb zelf een pak slaag~gekregen!
+30YearsCave_TamerBrend_DefeatMessage,De temmer is getemd!
+30YearsCave_JugglerZac_IntroMessage,Is hier wel iets?*Misschien...
+30YearsCave_JugglerZac_OutroMessage,Je hebt me te pakken!
+30YearsCave_JugglerZac_DefeatMessage,Je bent er bijna!
+30YearsCave_Entei,Grrraaah!
+30YearsCave_Moltres,Krieeaah!
 
 [Route 65]
-Route65_Main_Sign_North,Rijon League~El Norteño Summit*E pluribus unum.
-Route65_Main_Sign_South,Route 65~El Norteño Heights*Pathway to the Rijon League!
+Route65_Main_Sign_North,Rijon League~Noordelijke Top*E pluribus unum.
+Route65_Main_Sign_South,Route 65~Noordelijk Berggebied*Pad naar de Rijon League!
 
-Route65_Guard1_Start,You can pass here only if~you have the Marine Badge!
-Route65_Guard1_HaveBadge,Oh! That is the Marine Badge!*OK then!~Please, go right ahead!
-Route65_Guard1_NoBadge,You don't have the Marine~Badge yet!*You have to have it to get~to the Rijon League!
+Route65_Guard1_Start,Je mag hier alleen passeren~als je de Marine-Badge hebt!
+Route65_Guard1_HaveBadge,Oh! Dat is de Marine-Badge!*Vooruit dan!~Ga gerust verder!
+Route65_Guard1_NoBadge,Je hebt de Marinebadge~nog niet!*Je moet hem hebben om bij~de Rijon League te komen!
 
-Route65_Guard2_Start,You can pass here only if~you have the Hail Badge!
-Route65_Guard2_HaveBadge,Oh! That is the Hail Badge!*OK then!~Please, go right ahead!
-Route65_Guard2_NoBadge,You don't have the Hail~Badge yet!*You have to have it to get~to the Rijon League!
+Route65_Guard2_Start,Je mag hier alleen passeren~als je de Hagel-Badge hebt!
+Route65_Guard2_HaveBadge,Oh! Dat is de Hagel-Badge!*Vooruit dan!~Ga gerust verder!
+Route65_Guard2_NoBadge,Je hebt de Hagel-Badge~nog niet!*Je moet hem hebben om bij~de Rijon League te komen!
 
-Route65_Guard3_Start,You can pass here only if~you have the Sprout Badge!
-Route65_Guard3_HaveBadge,Oh! That is the Sprout Badge!*OK then!~Please, go right ahead!
-Route65_Guard3_NoBadge,You don't have the Sprout~Badge yet!*You have to have it to get~to the Rijon League!
+Route65_Guard3_Start,Je mag hier alleen passeren~als je de Spruit-Badge hebt!
+Route65_Guard3_HaveBadge,Oh! Dat is de Spruit-Badge!*Vooruit dan!~Ga gerust verder!
+Route65_Guard3_NoBadge,Je hebt de Spruit-Badge~nog niet!*Je moet hem hebben om bij~de Rijon League te komen!
 
-Route65_Guard4_Start,You can pass here only if~you have the Sparky Badge!
-Route65_Guard4_HaveBadge,Oh! That is the Sparky Badge!*OK then!~Please, go right ahead!
-Route65_Guard4_NoBadge,You don't have the Sparky~Badge yet!*You have to have it to get~to the Rijon League!
+Route65_Guard4_Start,Je mag hier alleen passeren~als je de Sparky-Badge hebt!
+Route65_Guard4_HaveBadge,Oh! Dat is de Sparky-Badge!*Vooruit dan!~Ga gerust verder!
+Route65_Guard4_NoBadge,Je hebt de Sparky-Badge~nog niet!*Je moet hem hebben om bij~de Rijon League te komen!
 
-Route65_Guard5_Start,You can pass here only if~you have the Fist Badge!
-Route65_Guard5_HaveBadge,Oh! That is the Fist Badge!*OK then!~Please, go right ahead!
-Route65_Guard5_NoBadge,You don't have the Fist Badge~yet!*You have to have it to get~to the Rijon League!
+Route65_Guard5_Start,Je mag hier alleen passeren~als je de Vuist-Badge hebt!
+Route65_Guard5_HaveBadge,Oh! Dat is de Vuist-Badge!*Vooruit dan!~Ga gerust verder!
+Route65_Guard5_NoBadge,Je hebt de Vuist-Badge~nog niet!*Je moet hem hebben om bij~de Rijon League te komen!
 
-Route65_Guard6_Start,You can pass here only if~you have the Psi Badge!
-Route65_Guard6_HaveBadge,Oh! That is the Psi Badge!*OK then!~Please, go right ahead!
-Route65_Guard6_NoBadge,You don't have the Psi Badge~yet!*You have to have it to get~to the Rijon League!
+Route65_Guard6_Start,Je mag hier alleen passeren~als je de Psyche-Badge hebt!
+Route65_Guard6_HaveBadge,Oh! Dat is de Psyche-Badge!*Vooruit dan!~Ga gerust verder!
+Route65_Guard6_NoBadge,Je hebt de Psyche-Badge~nog niet!*Je moet hem hebben om bij~de Rijon League te komen!
 
-Route65_Guard7_Start,You can pass here only if~you have the Equity Badge!
-Route65_Guard7_HaveBadge,Oh! That is the Equity Badge!*OK then!~Please, go right ahead!
-Route65_Guard7_NoBadge,You don't have the Equity~Badge yet!*You have to have it to get~to the Rijon League!
+Route65_Guard7_Start,Je mag hier alleen passeren~als je de Gelijk-Badge hebt!
+Route65_Guard7_HaveBadge,Oh! Dat is de Gelijk-Badge!*Vooruit dan!~Ga gerust verder!
+Route65_Guard7_NoBadge,Je hebt de Equity-Badge~nog niet!*Je moet hem hebben om bij~de Rijon League te komen!
 
-Route65_Guard8_Start,You can pass here only if~you have the Star Badge!
-Route65_Guard8_HaveBadge,Oh! That is the Star Badge!*OK then!~Please, go right ahead!
-Route65_Guard8_NoBadge,You don't have the Star Badge~yet!*You have to have it to get~to the Rijon League!
+Route65_Guard8_Start,Je mag hier alleen passeren~als je de Ster-Badge hebt!
+Route65_Guard8_HaveBadge,Oh! Dat is de Ster-Badge!*Vooruit dan!~Ga gerust verder!
+Route65_Guard8_NoBadge,Je hebt de Ster-Badge~nog niet!*Je moet hem hebben om bij~de Rijon League te komen!
 
 [Route 65 - Route 67 Gate]
-Route65_Route67_Gate_Guard,Be careful kid, the caverns~are dangerous, even for~experienced trainers.*East from these caverns~are the Sevii Islands, but~there's no way to go from~them to Rijon...*Hopefully, they will figure~out a way to do so in the~future.
-Route65_Route67_Gate_Scientist,If you continue this way,~you'll get into Seneca Caverns.*Many strong Pokémon live in~its depths, and some even say~ancient Pokémon still live~there, but I only ever found~some fossils.
-Route65_Route67_Gate_YoungBoy,Getting here was too easy.~Those Gym Leaders won't use~their true teams even if I~begged them.*Why would they purposedly~make it easier for the~challengers?
+Route65_Route67_Gate_Guard,Wees voorzichtig kleintje,~de cavernes zijn gevaarlijk,~zelfs voor ervaren trainers.*Ten oosten van deze grotten~liggen de Sevii-Eilanden,~maar er is geen manier om~van daaruit naar Rijon te~komen...*Hopelijk vinden ze daar in~de toekomst een manier voor.
+Route65_Route67_Gate_Scientist,Als je deze weg vervolgt,~kom je in Seneca-Cavernes.*In de diepten ervan leven~veel sterke Pokémon, en~sommigen beweren zelfs dat~er nog steeds oeroude~Pokémon leven, maar ik heb~alleen maar fossielen~gevonden.
+Route65_Route67_Gate_YoungBoy,Hier komen was te makkelijk.~Die Gym Leiders gebruiken~niet eens hun echte teams,~zelfs niet als ik erom zou~smeken.*Waarom zouden ze het~opzettelijk makkelijker maken~voor de uitdagers?
 
 [Route 67]
-Route67_Main_Sign,Route 67~Seneca Peninsula*Pathway to the Rijon League!
-Route67_Main_Suloku,Suloku: Hey! <Player.Name>!*I hope you're enjoying your~Poké-Adventure!*Try evolving Eevee in a cave~or forest!*Also, did you know Primeape~evolves when fainting before~or after leveling up?
+Route67_Main_Sign,Route 67~Seneca-Schiereiland*Pad naar de Rijon League!
+Route67_Main_Suloku,Suloku: Hé! <Player.Name>!*Ik hoop dat je geniet van je~Poké-avontuur!*Probeer Eevee eens te~evolueren in een grot of bos!*Wist je trouwens dat Primeape~evolueert wanneer hij~uitschakeld wordt vóór- of~nadat hij naar een hoger~niveau stijgt?
 
-Route67_PokeCenter_BenchGuy,This PokéCenter was recently~built!
-Route67_PokeCenter_RedditGuy,I'm checking Reddit for~Pokémon Prism updates!
-Route67_PokeCenter_KangaskhanGuy_Question,Yo!*I have Kangaskhan, a Pokémon~that doesn't appear in Rijon!*It'll cost you a pretty~penny - $60000!*Want it?
-Route67_PokeCenter_KangaskhanGuy_Decline,No swaggy swag for you then.
-Route67_PokeCenter_KangaskhanGuy_NotEnoughMoney,Hey!*No dough, no...*uh...*Pokémon.
-Route67_PokeCenter_KangaskhanGuy_AfterSelling,Everyday I'm hustlin...*Oh no, did you hear me?!
-Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Bought from someone at
+Route67_PokeCenter_BenchGuy,Dit Pokémon-Centrum is~recentelijk gebouwd!
+Route67_PokeCenter_RedditGuy,Ik check Reddit voor updates~over Pokémon Prisma!
+Route67_PokeCenter_KangaskhanGuy_Question,Yo!*Ik heb een Kangaskhan, een~Pokémon~die niet voorkomt in~Rijon!*Het kost je wel een flinke~duit - $60.000!*Wil je hem?
+Route67_PokeCenter_KangaskhanGuy_Decline,Geen vette swag voor jou dan.
+Route67_PokeCenter_KangaskhanGuy_NotEnoughMoney,Hé!*Geen pegels, geen...*uh...*Pokémon.
+Route67_PokeCenter_KangaskhanGuy_AfterSelling,Elke dag weer hosselen...*Oh nee, hoorde je me?!
+Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchMethod,Gekocht van iemand op
 Route67_PokeCenter_KangaskhanGuy_Kangaskhan_CatchLocation,Route 67
-Route67_PokeCenter_ImpatientGuy,The teleporter is taking~forever. I want it NOW!
+Route67_PokeCenter_ImpatientGuy,De teleporter duurt een~eeuwigheid. Ik wil hem NU!
 
-Route67_TeleportScientist_Question,Hello there, I am...*A SCIENTIST!*I am in the process of~building a teleporter that~will warp anybody from Rijon~to Naljo.*Think of it as a shortcut to~our League because Naljo~doesn't have their own League.*Although it's taking a lot~longer than I anticipated.*People are getting impatient,~but I'm still at it!*For being so patient, would~you like a reward?
-Route67_TeleportScientist_AnswerNo,I don't understand, the~SCIENTIST is giving you free~stuff!
-Route67_TeleportScientist_AnswerYes,Here, take this so-called~Magic Wand I found.*It's busted...~I wished that this project~would finally be completed,~but nothing happened.*It sure looks cool though.
-Route67_TeleportScientist_AfterGift,I don't believe in magic, and~I don't wear big red shoes.
+Route67_TeleportScientist_Question,Hallo daar, ik ben...*EEN WETENSCHAPPER!*Ik ben bezig met het bouwen~van een teleporter die~iedereen van Rijon naar~Naljo flitst.*Zie het als een kortere~route naar onze League, want~Naljo heeft geen eigen~League.*Al duurt het een stuk langer~dan ik had voorzien.*Mensen worden ongeduldig,~maar ik ben er nog steeds~mee bezig!*Omdat je zo geduldig bent,~wil je een beloning?
+Route67_TeleportScientist_AnswerNo,Ik begrijp het niet, de~WETENSCHAPPER geeft je~gratis spullen!
+Route67_TeleportScientist_AnswerYes,Hier, neem deze zogenaamde~Toverstok die ik vond.*Hij is kapot...~Ik wenste dat dit project~eindelijk klaar zou zijn,~maar er gebeurde niets.*Maar hij ziet er wel cool uit.
+Route67_TeleportScientist_AfterGift,Ik geloof niet in magie,~en ik draag ook geen grote~rode schoenen.
 
 [Seneca Caverns]
 SenecaCaverns_1F_FossilScientist,I'm studying the cave in~search of fossils to revive~powerful ancient Pokémon.
