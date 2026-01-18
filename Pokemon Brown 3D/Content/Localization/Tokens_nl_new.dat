@@ -17,10 +17,10 @@ global_accept,Bevestig
 global_cancel,Annuleer
 global_ok,OK
 global_gamemode,Spelmodus
-global_delete,Delete
+global_delete,Wis
 global_clear,Wis
 global_save,Sla op
-global_done,Done
+globel_done,Klaar
 global_apply,Pas toe
 global_close,Sluit
 global_back,Terug
@@ -308,8 +308,6 @@ add_server_screen_title,Voeg een server toe:
 add_server_screen_name,Naam:
 add_server_screen_address,Adres:
 add_server_screen_hint_controller_edit,Druk op X om te bewerken.
-add_server_screen_button_done,Klaar
-add_server_screen_button_back,Terug
 add_server_screen_input_name_default,Pokémon 3D Server
 add_server_screen_validation_empty_name,De servernaam kan niet leeg zijn.
 add_server_screen_validation_empty_address,Het adres kan niet leeg zijn.
@@ -421,22 +419,122 @@ inventory_screen_CannotGiveToPokemon,<newitem> kan niet aan een Pokémon gegeven
 inventory_screen_CannotGiveBugContest,Kan geen voorwerp geven aan~deze Pokémon tijdens een~Insecten-Vangwedstrijd.
 inventory_screen_EggsCannotHold,Eieren kunnen geen voorwerpen~vasthouden.
 ---
-mail_screen_title,Mailbox
-mail_screen_give_mail_to,Give mail to:
-mail_screen_write_new_mail,Write new mail.
-mail_screen_mail_header,Header:
-mail_screen_mail_text,Text:
-mail_screen_mail_signature,Signature:
-mail_screen_mail_ot,Mail OT:
-mail_screen_mail_button_attach,Attach
-mail_screen_mail_button_send_to_pc,Send To PC
-mail_screen_mail_send_to_pc_confirm,Send this mail to PC?
-mail_screen_mail_delete_confirm,Delete this mail?
-mail_screen_mail_deleted_from_mailbox,The mail has been removed from the mailbox.
-mail_screen_mail_added_to_mailbox,The Mail was taken to your inbox on your PC.
-mail_screen_mail_missing_contents,Please fill in the Header, the Message and the Signature.
-mail_screen_mail_attached_mail,Attached the Mail to [POKEMON].
-mail_screen_mail_taken_item_and_attached_mail,Taken [ITEM] from [POKEMON], and attached the Mail to [POKEMON].
+StorageSystemScreen:
+storage_screen_box_DefaultName,OPSLAG [NUMBER]
+storage_screen_box_BattleBoxName,GEVECHT OPSLAG
+
+storage_screen_menu_box_WhatDoYouWant,Wat wil je doen?
+storage_screen_menu_box_ChooseBox,Kies Opslag
+storage_screen_menu_box_ChangeMode,Verander Modus
+storage_screen_menu_box_Wallpaper,Achtergrond
+
+storage_screen_menu_mode_ChooseModeToUse,Kies een modus om te gebruiken.
+storage_screen_menu_mode_Withdraw,Ophalen
+storage_screen_menu_mode_Deposit,Deponeren
+storage_screen_menu_mode_SingleMove,Verplaats Enkele
+storage_screen_menu_mode_EasyMove,Verplaats Simpel
+
+storage_screen_menu_theme_PickTheme,Please pick a theme.
+storage_screen_menu_theme_Package1,Package 1
+storage_screen_menu_theme_Package2,Package 2
+storage_screen_menu_theme_Package3,Package 3
+storage_screen_menu_theme_Package4,Package 4
+
+storage_screen_menu_wallpaper_PickWallpaper,Pick the wallpaper.
+
+storage_screen_menu_wallpaper_Forest,Forest
+storage_screen_menu_wallpaper_City,City
+storage_screen_menu_wallpaper_Desert,Desert
+storage_screen_menu_wallpaper_Savanna,Savanna
+storage_screen_menu_wallpaper_Cave,Cave
+storage_screen_menu_wallpaper_River,River
+
+storage_screen_menu_wallpaper_Volcano,Volcano
+storage_screen_menu_wallpaper_Snow,Snow
+storage_screen_menu_wallpaper_Beach,Beach
+storage_screen_menu_wallpaper_Seafloor,Seafloor
+storage_screen_menu_wallpaper_Crag,Crag
+storage_screen_menu_wallpaper_Steel,Steel
+
+storage_screen_menu_wallpaper_Volcano2,Volcano 2
+storage_screen_menu_wallpaper_City2,City 2
+storage_screen_menu_wallpaper_Snow2,Snow 2
+storage_screen_menu_wallpaper_Desert2,Desert 2
+storage_screen_menu_wallpaper_Savanna2,Savanna 2
+storage_screen_menu_wallpaper_Steel2,Steel 2
+
+storage_screen_menu_wallpaper_System,System
+storage_screen_menu_wallpaper_Simple,Simple 
+storage_screen_menu_wallpaper_Checks,Checks 
+storage_screen_menu_wallpaper_Seasons,Seasons
+storage_screen_menu_wallpaper_Retro1,Retro 1
+storage_screen_menu_wallpaper_Retro2,Retro 2
+
+storage_screen_menu_pokemon_IsSelected,<name> is selected.
+storage_screen_menu_pokemon_Withdraw,Withdraw
+storage_screen_menu_pokemon_Deposit,Deposit
+storage_screen_menu_pokemon_Move,Move
+storage_screen_menu_pokemon_TakeItem,Take Item
+storage_screen_menu_pokemon_Release,Release
+
+storage_screen_pokemon_CannotRemoveLastPokemon,Can't remove last Pokémon from party.
+storage_screen_pokemon_PartyIsFull,Party is full!
+
+storage_screen_pokemon_item_MailWasTaken,The Mail was taken to your~inbox on your PC.
+storage_screen_pokemon_item_TakenItemFromPokemon,Taken <item>~from <name>.
+
+storage_screen_pokemon_release_Question,Release <name>?
+storage_screen_pokemon_release_CannotReleaseEgg,Cannot release an Egg.
+storage_screen_pokemon_release_CannotReleaseLastPokemon,Cannot release the last Pokémon.
+storage_screen_pokemon_release_Goodbye,Goodbye, <name>!
+
+storage_screen_pokemon_summary_Box,Box
+storage_screen_pokemon_summary_Pokemon,Pokémon
+storage_screen_pokemon_summary_Level,Level
+storage_screen_pokemon_summary_Normal,Normal
+storage_screen_pokemon_summary_Shiny,Shiny
+storage_screen_pokemon_summary_Egg,Egg
+storage_screen_pokemon_summary_DexNo,DEX NO.
+storage_screen_pokemon_summary_Level,LEVEL
+storage_screen_pokemon_summary_HP,HP
+storage_screen_pokemon_summary_Attack,ATTACK
+storage_screen_pokemon_summary_Defense,DEFENSE
+storage_screen_pokemon_summary_SpAtk,SP. ATK
+storage_screen_pokemon_summary_SpDef,SP. DEF
+storage_screen_pokemon_summary_Speed,SPEED
+storage_screen_pokemon_summary_Item,ITEM
+
+storage_screen_filter_Hint,Press <system.button(special)> on the keyboard to filter.
+storage_screen_filter_Title,Configure the filters:
+storage_screen_filter_Results,Results:
+storage_screen_filter_Filters,Filters:
+storage_screen_filter_Pokemon,Pokémon
+storage_screen_filter_Type1,Type1
+storage_screen_filter_Type2,Type2
+storage_screen_filter_Move,Move
+storage_screen_filter_Ability,Ability
+storage_screen_filter_Nature,Nature
+storage_screen_filter_Gender,Gender
+storage_screen_filter_HeldItem,Held Item
+storage_screen_filter_HeldItem_Yes,Has a Held Item
+storage_screen_filter_HeldItem_No,Has no Held Item
+---
+mail_screen_title,Postvak
+mail_screen_give_mail_to,Geef Brief aan:
+mail_screen_write_new_mail,Schrijf nieuwe Brief.
+mail_screen_mail_header,Koptekst:
+mail_screen_mail_text,Bericht:
+mail_screen_mail_signature,Ondertekening:
+mail_screen_mail_ot,Brief OT:
+mail_screen_mail_button_attach,Aanhechten
+mail_screen_mail_button_send_to_pc,Stuur naar PC
+mail_screen_mail_send_to_pc_confirm,Deze Brief naar de PC sturen?
+mail_screen_mail_delete_confirm,Deze Brief verwijderen?
+mail_screen_mail_deleted_from_mailbox,De Brief is uit het postvak verwijderd.
+mail_screen_mail_added_to_mailbox,De Brief is aan het postvak op je PC toegevoegd.
+mail_screen_mail_missing_contents,Vul de Koptekst, het Bericht en de Ondertekening in.
+mail_screen_mail_attached_mail,De Brief is aan [POKEMON] gegeven.
+mail_screen_mail_taken_item_and_attached_mail,Wisselde [ITEM] van [POKEMON] om met de Brief.
 ---
 PartyScreen:
 party_screen_Unable,Onmogelijk!
@@ -444,6 +542,7 @@ party_screen_Able,Mogelijk!
 party_screen_FieldMove,Veldtechniek
 party_screen_ChoosePokemon,Kies Pokémon
 party_screen_CannotChoosePokemon,Kan deze Pokémon niet~kiezen.
+party_screen_TakenItemFromPokemon,Nam een [ITEM]~van [POKEMON].
 ---
 NewGameScreen:
 new_game_intro_1,Hallo!~Sorry dat je moest wachten!*Welkom in de wereld van~Pokémon!*Mijn naam is Oak.~Mensen noemen mij de Pokémon~Prof.*Deze wereld wordt bewoond~door wezens die wij...
@@ -3476,9 +3575,9 @@ item_desc_gm15,Eén van de zeven verborgen schatten!
 item_desc_gm16,Eén van de zeven verborgen schatten!
 item_desc_gm17,Eén van de zeven verborgen schatten!
 item_desc_gm18,Een speciale toverstok die bepaalde soorten Pokémon kan laten evolueren.
-item_desc_gm73,Een brief met een Lucht erop. Schrijf er een bericht op en laat het vasthouden door een Pokémon.
+item_desc_gm73,Een brief met een lucht erop. Schrijf er een bericht op en laat het vasthouden door een Pokémon.
 item_desc_gm74,Een brief met een Eevee erop. Schrijf er een bericht op en laat het vasthouden door een Pokémon.
-item_desc_gm75,Een brief met Bloemen erop. Schrijf er een bericht op en laat het vasthouden door een Pokémon.
+item_desc_gm75,Een brief met bloemen erop. Schrijf er een bericht op en laat het vasthouden door een Pokémon.
 item_desc_gm76,Een brief met een Dratini erop. Schrijf er een bericht op en laat het vasthouden door een Pokémon.
 item_desc_gm77,Een brief met een hart erop. Schrijf er een bericht op en laat het vasthouden door een Pokémon.
 item_desc_gm78,Een brief met een Mew erop. Schrijf er een bericht op en laat het vasthouden door een Pokémon.
@@ -7043,55 +7142,55 @@ Azalea_IlexForest_Gate_Guard,Was het bos te donker?*Je bent bijna in Azaleadorp.
 
 [Azalea Town]
 Azalea_Main_Sign_Gym,Azalea Town~Pokémon Gym~Leider: Bugsy*De Insect-Pokémon Encyclopedie
-Azalea_Main_RegularGuy,Ik ben blij dat iedereen hier~veilig is.
+Azalea_Main_RegularGuy,Ik ben blij dat iedereen~hier veilig is.
 Azalea_Main_Rocker,Ik hoop dat er later geen~naschokken meer komen!
 Azalea_Main_YoungGirl,Ik wil hier weg!
 Azalea_Main_Clerk_Question,Mijn winkel!*Wat moet ik nu doen?*Ik heb gelukkig nog wat~spullen kunnen redden...*Zou je me willen helpen met~de wederopbouw?
 Azalea_Main_Clerk_Store,Neem de tijd.
-Azalea_Main_Clerk_Quit,Dank je wel!
-Azalea_Main_MoveTutor_Question,Ik heb geld nodig voor de~reparaties.*Zou je willen dat ik een van~jouw Pokémon de techniek~Stompe klap leer voor slechts $1000?
+Azalea_Main_Clerk_Quit,Dankjewel!
+Azalea_Main_MoveTutor_Question,Ik heb geld nodig voor de~reparaties.*Zou je willen dat ik een van~jouw Pokémon de techniek~Stompe klap leer voor~slechts $1000?
 Azalea_Main_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 Azalea_Main_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
 Azalea_Main_MoveTutor_FalseSwipe_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Stompe klap al.
 Azalea_Main_MoveTutor_FalseSwipe_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Stompe klap niet leren!
 Azalea_Main_MoveTutor_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 
-Azalea_PokeCenter_Fisherman,Kind, dat was me een beving!
-Azalea_PokeCenter_BenchGuy,Goddank is iedereen~ongedeerd!
+Azalea_PokeCenter_Fisherman,Kleintje, dat was me een~beving!
+Azalea_PokeCenter_BenchGuy,Gelukkig is iedereen~ongedeerd!
 Azalea_PokeCenter_Gentleman,Alle Slowpoke renden de stad~uit tijdens de beving!*Ik heb ze nog nooit zo snel~zien rennen!
 
 Azalea_SlowpokeWell_B1F_KingsRockGuy_BeforeReceive,Is de aardbeving voorbij?*...*Bedankt, hier.
-Azalea_SlowpokeWell_B1F_KingsRockGuy_AfterReceive,Koningssteen kan bepaalde~Pokémon laten evolueren!
+Azalea_SlowpokeWell_B1F_KingsRockGuy_AfterReceive,Een Koningsteen kan bepaalde~Pokémon laten evolueren!
 
 Azalea_Gym_YoungsterPatrick_IntroMessage,Hé, wat doe jij hier,~Rijon-kind?!
 Azalea_Gym_YoungsterPatrick_OutroMessage,Oef! Ik geef het op!
-Azalea_Gym_YoungsterPatrick_DefeatMessage,Je bent tenminste niet zo goed als~dat Gold-kind.
-Azalea_Gym_YoungsterFawks_IntroMessage,Insecten verzamelen is mijn leven!
-Azalea_Gym_YoungsterFawks_OutroMessage,Auw! Mijn vingers gestoten!
-Azalea_Gym_YoungsterFawks_DefeatMessage,Ik denk dat deze insecten meer~training nodig hebben.
-Azalea_Gym_BugCatcherAustin_IntroMessage,Bugsy kan niet verliezen van een watje!
+Azalea_Gym_YoungsterPatrick_DefeatMessage,Je bent in ieder geval niet~zo goed als die Gold-knul.
+Azalea_Gym_YoungsterFawks_IntroMessage,Insecten verzamelen is mijn~leven!
+Azalea_Gym_YoungsterFawks_OutroMessage,Auw! Mijn vingers bezeerd!
+Azalea_Gym_YoungsterFawks_DefeatMessage,Ik denk dat deze insecten~meer training nodig hebben.
+Azalea_Gym_BugCatcherAustin_IntroMessage,Bugsy kan niet verliezen van~een watje!
 Azalea_Gym_BugCatcherAustin_OutroMessage,Ik geef het op!
 Azalea_Gym_BugCatcherAustin_DefeatMessage,Wacht maar tot je Bugsy ziet!
-Azalea_Gym_BugCatcherHarvey_IntroMessage,Ik hoorde dat je goed bent! Laat maar zien!
+Azalea_Gym_BugCatcherHarvey_IntroMessage,Ik hoorde dat je goed bent!~Laat maar zien!
 Azalea_Gym_BugCatcherHarvey_OutroMessage,Goed gedaan!
-Azalea_Gym_BugCatcherHarvey_DefeatMessage,Maar ben je net zo goed als~Bugsy?*Er is maar één manier om daar~achter te komen!
-Azalea_Gym_LeaderBugsy_BeforeBattle,Bugsy: Hallo!*Ik ben Bugsy!*Ik hou ervan om Insect-Pokémon te trainen!*Ik vecht zelden tegen trainers uit Rijon,~dus laten we zien hoe dit gaat!
+Azalea_Gym_BugCatcherHarvey_DefeatMessage,Maar ben je net zo goed als~Bugsy?*Er is maar één manier om~daar achter te komen!
+Azalea_Gym_LeaderBugsy_BeforeBattle,Bugsy: Hallo!*Ik ben Bugsy!*Ik hou ervan om Insect-~Pokémon te trainen!*Ik vecht zelden tegen~trainers uit Rijon, dus~laten we zien hoe dit gaat!
 Azalea_Gym_LeaderBugsy_OutroMessage,Bugsy: Goed gedaan!
-Azalea_Gym_LeaderBugsy_AfterBattle,Bugsy: Johto Badges zijn~nutteloos voor jouw League, dus ik~zal je een zeldzame Pokémon geven.~Neem er echter maar één, wees~niet hebberig, Rijon-kind!*Haal je prijs op en kom terug,~ik moet je nog iets vertellen.
-Azalea_Gym_LeaderBugsy_Rematch_NotChampionYet,Bugsy: Ik hou van insecten verzamelen,~maar dat was niet mijn beste team.~Als het je lukt om de Kampioen van~Rijon te worden en de echte teams~van alle Gym Leaders van Rijon te~verslaan, zal ik met al mijn~insectenkracht tegen je vechten!
-Azalea_Gym_LeaderBugsy_Rematch_BeforeGymLeaderRematch,Bugsy: Dus, het is je gelukt om de~Kampioen van Rijon te worden?*Je bent sterk, maar het lijkt erop~dat je de echte teams van de~Gym Leaders van Rijon nog niet~hebt verslagen.*Kom terug als je ze allemaal hebt~verslagen, dan zal ik nogmaals~tegen je vechten met al mijn~insectenkracht.*Als je wint, geef ik je een~zeer handig hulpmiddel.*Trouwens, ik hoorde dat jullie~League nog geen nieuwe Gym Leader~voor Eagulou heeft gevonden,~wat zonde.*Ik ga ondertussen verder met mijn~insectenstudies.
-Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Question,Bugsy: Oh hé, Rijon-kind!*Je ziet er een stuk krachtiger uit,~maar ik heb dag en nacht met mijn~neus in de boeken gezeten sinds ik~van je verloor!*In voor een revanche?
-Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_No,Bugsy: Ah, deze keer niet?~Jammer, maar dat geeft me in ieder~geval meer tijd om me voor te bereiden!
-Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_Yes,Bugsy: Tijd om te zien of ik echt~iets heb geleerd van mijn~studies!*Vooruit, mijn sterke insecten!
+Azalea_Gym_LeaderBugsy_AfterBattle,Bugsy: Johto-Badges zijn~nutteloos voor jouw League,~dus ik zal je een zeldzame~Pokémon geven.*Neem er echter maar één,~wees niet hebberig,~Rijon-kind!*Haal je prijs op en kom~dan terug, ik moet je nog~iets vertellen.
+Azalea_Gym_LeaderBugsy_Rematch_NotChampionYet,Bugsy: Ik hou van insecten~verzamelen, maar dat was~niet mijn beste team.*Als het je lukt om de~Kampioen van Rijon te worden~en de echte teams van alle~Gymleiders van Rijon te~verslaan, zal ik met al mijn~insectenkracht tegen je~vechten!
+Azalea_Gym_LeaderBugsy_Rematch_BeforeGymLeaderRematch,Bugsy: Dus het is je gelukt~om de Kampioen van Rijon te~worden?*Je bent sterk, maar het~lijkt erop dat je de echte~gevechtsteams van de~Gymleiders van Rijon nog niet~hebt verslagen.*Kom terug als je ze allemaal~hebt verslagen, dan zal ik~nogmaals tegen je vechten~met al mijn insectenkracht.*Als je wint, geef ik je een~zeer handig hulpmiddel.*Trouwens, ik hoorde dat~jullie League nog geen~nieuwe Gymleider voor Eagulou~heeft gevonden, wat zonde.*Ik ga ondertussen verder met~mijn insectenstudies.
+Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Question,Bugsy: Oh hé, Rijon-kind!*Je ziet er een stuk~krachtiger uit, maar ik heb~dag en nacht met mijn neus~in de boeken gezeten sinds ik~van je verloor!*Zin in een rematch?
+Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_No,Bugsy: Ah, deze keer niet?~Jammer, maar dat geeft me in~ieder geval meer tijd om me~voor te bereiden!
+Azalea_Gym_LeaderBugsy_Rematch_BeforeBattle_Answer_Yes,Bugsy: Tijd om te zien of ik~echt iets heb geleerd van~mijn studies!*Vooruit, mijn sterke insecten!
 Azalea_Gym_LeaderBugsy_Rematch_OutroMessage,Bugsy: Is het al voorbij? Dat knaagt~een beetje aan me.
-Azalea_Gym_LeaderBugsy_Rematch_Reward1,Bugsy: WAUW! Het is je gelukt om de~echte teams van al onze Gym Leaders~te verslaan!*Je bent een waardige Kampioen,~je hebt dit verdiend.
-Azalea_Gym_LeaderBugsy_Rematch_Reward2,Bugsy: Dit geweldige hulpmiddel zorgt~ervoor dat je Pokémon net zoveel~Erp. verdienen alsof ze geruild zijn,~zolang ze het bij zich dragen.*Gebruik het verstandig.*Nou, ik heb blijkbaar nog veel~te leren.*Maar dat is niets nieuws!*Insect-Pokémon zijn mijn~favoriet, maar elke Pokémon~heeft nog zoveel mysteries voor ons~om in de toekomst te ontrafelen!
-Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Nou, ik heb blijkbaar nog veel~te leren.*Maar dat is niets nieuws!*Insect-Pokémon zijn mijn~favoriet, maar elke Pokémon~heeft nog zoveel mysteries voor ons~om in de toekomst te ontrafelen!
+Azalea_Gym_LeaderBugsy_Rematch_Reward1,Bugsy: WAUW! Het is je gelukt~om alle echte teams van ons~Gymleiders te verslaan!*Je bent een waardige~Kampioen, je hebt dit verdiend.
+Azalea_Gym_LeaderBugsy_Rematch_Reward2,Bugsy: Dit geweldige hulpmiddel~zorgt ervoor dat je Pokémon~net zoveel Ervaringspunten~verdienen als wanneer ze~geruild zouden zijn, zolang~ze het bij zich dragen.*Gebruik het verstandig.*Nou, ik heb blijkbaar nog~veel te leren.*Maar dat is niets nieuws!*Insect-Pokémon zijn mijn~favoriete soort, maar elke~Pokémon heeft nog zoveel~mysteries voor ons om in de~toekomst te ontrafelen!
+Azalea_Gym_LeaderBugsy_Rematch_AfterBattle,Bugsy: Nou, ik heb blijkbaar~nog veel te leren.*Maar dat is niets nieuws!*Insect-Pokémon zijn mijn~favoriete soort, maar elke~Pokémon heeft nog zoveel~mysteries voor ons om in de~toekomst te ontrafelen!
 Azalea_Gym_Choose_Gligar,Wil je de Gligar?
 Azalea_Gym_Choose_Sneasel,Wil je de Sneasel?
 Azalea_Gym_Pokemon_CatchMethod,Ontvangen als cadeau in de
 Azalea_Gym_Pokemon_CatchLocation,Azaleadorp Gym
-Azalea_Gym_PokeballAfterChoose,Het is beter om niet hebberig~te worden...
+Azalea_Gym_PokeballAfterChoose,Het is beter om niet~hebberig te worden...
 
 [Final Dungeon]
 FinalDungeon_SecurityDoors,Deze deur lijkt op afstand~geopend te kunnen worden.
