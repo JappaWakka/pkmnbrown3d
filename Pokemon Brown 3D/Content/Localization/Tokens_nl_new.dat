@@ -17,8 +17,10 @@ global_accept,Bevestig
 global_cancel,Annuleer
 global_ok,OK
 global_gamemode,Spelmodus
+global_delete,Delete
 global_clear,Wis
 global_save,Sla op
+global_done,Done
 global_apply,Pas toe
 global_close,Sluit
 global_back,Terug
@@ -301,6 +303,18 @@ join_server_screen_server_full,De server is vol.
 join_server_screen_version_mismatch,Versie komt niet overeen met die van de server.
 join_server_screen_no_connection,(geen verbinding)
 ---
+AddServerScreen:
+add_server_screen_title,Voeg een server toe:
+add_server_screen_name,Naam:
+add_server_screen_address,Adres:
+add_server_screen_hint_controller_edit,Druk op X om te bewerken.
+add_server_screen_button_done,Klaar
+add_server_screen_button_back,Terug
+add_server_screen_input_name_default,Pokémon 3D Server
+add_server_screen_validation_empty_name,De servernaam kan niet leeg zijn.
+add_server_screen_validation_empty_address,Het adres kan niet leeg zijn.
+add_server_screen_validation_duplicate_server,Deze servernaam bestaat al in de lijst.
+---
 Options Screen:
 option_screen_title,Opties
 
@@ -406,6 +420,23 @@ inventory_screen_GiveItem_TakeMail,Gaf een <newitem> aan <name> en bracht de Bri
 inventory_screen_CannotGiveToPokemon,<newitem> kan niet aan een Pokémon gegeven worden.
 inventory_screen_CannotGiveBugContest,Kan geen voorwerp geven aan~deze Pokémon tijdens een~Insecten-Vangwedstrijd.
 inventory_screen_EggsCannotHold,Eieren kunnen geen voorwerpen~vasthouden.
+---
+mail_screen_title,Mailbox
+mail_screen_give_mail_to,Give mail to:
+mail_screen_write_new_mail,Write new mail.
+mail_screen_mail_header,Header:
+mail_screen_mail_text,Text:
+mail_screen_mail_signature,Signature:
+mail_screen_mail_ot,Mail OT:
+mail_screen_mail_button_attach,Attach
+mail_screen_mail_button_send_to_pc,Send To PC
+mail_screen_mail_send_to_pc_confirm,Send this mail to PC?
+mail_screen_mail_delete_confirm,Delete this mail?
+mail_screen_mail_deleted_from_mailbox,The mail has been removed from the mailbox.
+mail_screen_mail_added_to_mailbox,The Mail was taken to your inbox on your PC.
+mail_screen_mail_missing_contents,Please fill in the Header, the Message and the Signature.
+mail_screen_mail_attached_mail,Attached the Mail to [POKEMON].
+mail_screen_mail_taken_item_and_attached_mail,Taken [ITEM] from [POKEMON], and attached the Mail to [POKEMON].
 ---
 PartyScreen:
 party_screen_Unable,Onmogelijk!
@@ -5918,7 +5949,7 @@ Moraga_Main_TM31Man_AfterTalking,TM 31 bevat Immitatie!*Hiermee kan je Pokémon~
 Moraga_Main_GymLeaderFather,Mijn dochter ziet er~misschien schattig uit,~maar diep van binnen is~ze een krijger!
 Moraga_Main_FatGuy,Die Gymleider is taai...*Niemand kan haar verslaan!
 
-Moraga_PokeCenter_BenchGuy,Ik wou dat ik VM 02 Vlieg had.
+Moraga_PokeCenter_BenchGuy,Ik wou dat ik VM 02 Vlieg had.*Zonder limiet door de lucht~suizen!
 Moraga_PokeCenter_Gentleman,Silph. Co. is erg beroemd.~Daarom trok het Team~Rocket aan!
 Moraga_PokeCenter_OldWoman,Het groeitempo van~Pokémon verschilt van~soort tot soort.
 
