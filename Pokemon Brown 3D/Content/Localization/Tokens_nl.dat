@@ -5021,117 +5021,9 @@ nature_name_Gentle,Zachtmoedig
 nature_name_Sassy,Brutaal
 nature_name_Careful,Voorzichtig
 nature_name_Quirky,Eigenzinnig
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Trainer (Sub-)Classes:
-TrainerClass_Beauty,Schoonheid
-TrainerClass_Biker,Motorrijder
-TrainerClass_BirdKeeper,Vogelverzorger
-TrainerClass_Blackbelt,Zwarte Band
-TrainerClass_BugCatcher,Insectenvanger
-TrainerClass_Burglar,Inbreker
-TrainerClass_Champion,Kampioen
-TrainerClass_Channeler,Medium
-TrainerClass_CoolTrainer_Female,Coole Trainer♀
-TrainerClass_CoolTrainer_Male,Coole Trainer♂
-TrainerClass_CueBall,Keubal
-TrainerClass_Developer,Ontwikkelaar
-TrainerClass_EliteFour,Elite Vier
-TrainerClass_Engineer,Technicus
-TrainerClass_ExGrunt,Ex-rekruut
-TrainerClass_Fisherman,Visser
-TrainerClass_Gambler,Gokker
-TrainerClass_Gentleman,Heer
-TrainerClass_GymLeader,Gymleider
-TrainerClass_Hiker,Wandelaar
-TrainerClass_JrTrainer_Female,Jonge Trainer♀
-TrainerClass_JrTrainer_Male,Jonge Trainer♂
-TrainerClass_Juggler,Jongleur
-TrainerClass_Lass,Meisje
-TrainerClass_Lifeguard,Strandwacht
-TrainerClass_NormalTrainer,Normale Trainer
-TrainerClass_Palette,Palet
-TrainerClass_PokeManiac,PokéManiak
-TrainerClass_Rival,Rivaal
-TrainerClass_Rocker,Rocker
-TrainerClass_RocketGrunt,Rocket Rekruut
-TrainerClass_RocketScientist,Rocket Wetenschapper
-TrainerClass_RocketLeader,Rocket Leider
-TrainerClass_Sailor,Zeeman
-TrainerClass_Scientist,Wetenschapper
-TrainerClass_SuperNerd,Super Nerd
-TrainerClass_Swimmer_Male,Zwemmer♂
-TrainerClass_Swimmer_Female,Zwemmer♂
-TrainerClass_Tamer,Temmer
-TrainerClass_Telekinetic,Telekineticus
-TrainerClass_Youngster,Jongetje
-
------
-Story Localization:
-
-[Difficulty Selection]
-DifficultySelect_Question1,Pokémon Brown 3D~ondersteunt verschillende~moeilijkheidsgraden.*Bij elke selectie zal een~uitleg worden gegeven.*Selecteer de gewenste~moeilijkheidsgraad.
-DifficultySelect_Question2,Selecteer de gewenste~moeilijkheidsgraad.
-DifficultySelect_Answer_Normal,Normaal: Aanbevolen voor~nieuwe spelers of voor vaste~spelers die het liever wat~rustiger aan doen.*Wil je deze moeilijkheidsgraad?
-DifficultySelect_Answer_Hard,Moeilijk: Aanbevolen voor~meer ervaren spelers die~een uitdagendere speel-~ervaring willen.*De levels van wilde en~trainer-Pokémon worden~vermenigvuldigd met 1,15.*Wil je deze moeilijkheidsgraad?
-DifficultySelect_Answer_Nuzlocke,Nuzlocke: Aanbevolen voor~Pokémon-veteranen die de~Nuzlocke-regels willen~gebruiken voor hun spel.*Deze moeilijkheidsgraad is~identiek aan Normaal,~behalve dat je alleen de~eerste Pokémon op een locatie~kunt vangen, je jouw Pokémon~verplicht bijnamen moet geven,~wanneer je Pokémon worden~verslagen, ze uit je team~worden verwijderd en wanneer~je geen Pokémon meer hebt,~het spel zal worden beëindigd~en je opslagbestand zal~worden verwijderd.*Wil je deze moeilijkheidsgraad?
-DifficultySelect_End,Als je van gedachten~verandert, kun je de moeilijk-~heidsgraad later wijzigen via~het Opties-menu, dat je kunt~vinden door op [<system.button(OpenMenu)>]~te drukken.
-
-[Game Intro]
-NewGameIntro_1,H-hallo?! Jij moet hier~nieuw zijn.*Welkom in de Rijon-regio!*Ik ben Timothy, maar sommigen~noemen me Tim.*Ik ben de Pokémon-Mentor van~deze regio.
-NewGameIntro_2,Dit is een Pokémon.~Er zijn er veel van in het~Rijon gebied.
-NewGameIntro_3,Ik onderzoek deze wezens als~mijn beroep.*Ze hebben speciale~vaardigheden voor gevechten,~maar kunnen ook worden~opgevoed als tamme huisdieren.*Oh, waar zijn mijn manieren?~Hoe mag ik je noemen?
-NewGameIntro_4,<Player.Name>?*Een heel ongewone naam.~Die heb ik nog nooit~eerder gehoord!*Het blijkt dat je hier vlakbij~woont!*Mijn laboratorium is in~Kiezeldorp, net ten zuiden~van jouw woonplaats.*Kom langs wanneer je kunt.~Ik heb iets prachtigs om je~te laten zien! Tot gauw!
-
-NewGameIntro_NewNameOption,-Nieuw-
-
-[Generic Tokens]
-Generic_TV_Movie,Deze film is getiteld~"De Hoeders van Naljo".*Het is gebaseerd op de~mythologie van Naljo!
-Generic_Bookshelf_PokemonBooks,Volgestouwd met Pokémon~boeken!
-Generic_TownMap,Het is de Landkaart.
-Generic_Bed_Question,Het is een bed.~Wil je even rusten?
-Generic_Bed_Refreshed_NoPokemon,Je wordt wakker met een~opgefrist gevoel!
-Generic_Bed_Refreshed_Pokemon,Jij en je Pokémon worden~wakker met een opgefrist~gevoel!
-Generic_HealPlatform_Start,Dit lijkt een goede plek om~even te pauzeren...
-Generic_HealPlatform_End,<Player.Name>'s Pokémon zijn~volledig genezen!
-
-Generic_PokeCenter_NurseJoy_Question_NightDay,Hallo en welkom in ons~Pokémon-Centrum!*Wij genezen je Pokémon tot ze~weer helemaal gezond zijn!
-Generic_PokeCenter_NurseJoy_Question_Morning,Goedemorgen! Welkom in ons~Pokémon-Centrum!*Wij genezen je Pokémon tot ze~weer helemaal gezond zijn!
-Generic_PokeCenter_NurseJoy_Question_Evening,Goedenavond! Welkom in ons~Pokémon-Centrum!*Wij genezen je Pokémon tot ze~weer helemaal gezond zijn!
-Generic_PokeCenter_NurseJoy_Heal,Genees
-Generic_PokeCenter_NurseJoy_AnswerCancel,We hopen je snel weer te~zien!
-Generic_PokeCenter_NurseJoy_AnswerHeal,Oké. We hebben je Pokémon~even nodig.
-Generic_PokeCenter_NurseJoy_HealedParty,Dank je wel!~Je Pokémon zijn weer klaar~om te vechten!*We hopen je snel weer te zien!
-
-Generic_PokeMart_Clerk_Question,Hallo daar!~Kan ik je helpen?
-Generic_PokeMart_Clerk_AfterQuit,Dank je wel!~Kom gauw nog eens langs!
-Generic_PokeMart_Store,Winkel
-Generic_PokeMart_Quit,Terug
-Generic_PokeMart_Shelves,Wauw! Heel veel Pokémon-spullen!
-Generic_PokeMart_MerchBins,In de bakken liggen veel~Pokémon-pluche's.*Is dat een Pikachu-pop en een~Weedle-pop?
-Generic_PokeMart_LockedCabinets,Er zijn verschillende~actiefiguren te zien.*Op het label staat:~"PokéSter Studio's".
-
-Generic_Sign_PokeMart,Al uw voorwerpwensen vervuld!~Pokémon-Winkel
-Generic_Sign_PokeCenter,Genees je Pokémon!~Pokémon-Centrum
-
-Generic_PC_NoInteract,Je kunt geen gebruik maken~van de PC terwijl je op een~Fiets rijdt.
-Generic_PC_BootUp,De PC aan het opstarten...*Kies een host om verbinding~mee te maken.
-Generic_PC_ChooseHost,Kies een host om verbinding~mee te maken.
-Generic_PC_Host_StorageSystem,Bill's PC
-Generic_PC_Host_Mailbox,Postvak
-Generic_PC_Host_DexEvaluation,Prof. Tim's PC
-Generic_PC_Host_HallOfFame,Rijon League
-Generic_PC_Host_Decoration,Decoratie
-Generic_PC_LogOff,Uitloggen
-Generic_PC_DexEvaluation_Start,Toegang tot Prof. Tim's PC.*Toegang tot Pokédex-~beoordelingssysteem.*Wil je je Pokédex laten~beoordelen?
-Generic_PC_DexEvaluation_End,Verbinding naar Prof. Tim's PC gesloten.
-Generic_PC_Decoration_Start,Hoe wil je je kamer inrichten?
-
-Generic_ReceivePokemon,<Player.Name> ontving een~<pokemon.name(<pokemon.count>-1)>!
-Generic_ReceiveAnPokemon,<Player.Name> ontving een~<pokemon.name(<pokemon.count>-1)>!
-Generic_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
-
-[Follower Pokémon Interations]
+---
+Follower Pokémon Interactions:
+[Generic]
 FollowerInteraction_HeldItem_Question,It looks like your Pokémon~holds on to something.*Do you want to~take it?
 FollowerInteraction_HeldItem_Answer_Yes,Your Pokémon handed over~the <item>!
 FollowerInteraction_HeldItem_Answer_No,Your Pokémon kept~the item happily.
@@ -5287,7 +5179,7 @@ FollowerInteraction_Love11,<name> got~closer to <player.name>!
 FollowerInteraction_Love12,<name> is keeping~close to your feet.
 FollowerInteraction_Love13,<name> is jumping~around in a carefree way!
 
-
+[GameMode Related]
 FollowerInteraction_Music_PlayerRoomMusic1,<name> beweegt~rond in de kamer.
 FollowerInteraction_Music_PlayerRoomMusic2,<name> is blij om~thuis te zijn!
 FollowerInteraction_Music_Nike1,<name> danst~energiek op de muziek!
@@ -5381,6 +5273,114 @@ FollowerInteraction_Caves6,<name> begon de grond~plat te stampen!
 FollowerInteraction_EliteFour1,<name> stuurde een~bundel bladeren op en zag er~enthousiast uit!
 FollowerInteraction_EliteFour2,<name> blies een~pluim vuur uit en zag er~enthousiast uit!
 FollowerInteraction_EliteFour3,<name> schoot een~straal water af en zag er~enthousiast uit!
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Trainer (Sub-)Classes:
+TrainerClass_Beauty,Schoonheid
+TrainerClass_Biker,Motorrijder
+TrainerClass_BirdKeeper,Vogelverzorger
+TrainerClass_Blackbelt,Zwarte Band
+TrainerClass_BugCatcher,Insectenvanger
+TrainerClass_Burglar,Inbreker
+TrainerClass_Champion,Kampioen
+TrainerClass_Channeler,Medium
+TrainerClass_CoolTrainer_Female,Coole Trainer♀
+TrainerClass_CoolTrainer_Male,Coole Trainer♂
+TrainerClass_CueBall,Keubal
+TrainerClass_Developer,Ontwikkelaar
+TrainerClass_EliteFour,Elite Vier
+TrainerClass_Engineer,Technicus
+TrainerClass_ExGrunt,Ex-rekruut
+TrainerClass_Fisherman,Visser
+TrainerClass_Gambler,Gokker
+TrainerClass_Gentleman,Heer
+TrainerClass_GymLeader,Gymleider
+TrainerClass_Hiker,Wandelaar
+TrainerClass_JrTrainer_Female,Jonge Trainer♀
+TrainerClass_JrTrainer_Male,Jonge Trainer♂
+TrainerClass_Juggler,Jongleur
+TrainerClass_Lass,Meisje
+TrainerClass_Lifeguard,Strandwacht
+TrainerClass_NormalTrainer,Normale Trainer
+TrainerClass_Palette,Palet
+TrainerClass_PokeManiac,PokéManiak
+TrainerClass_Rival,Rivaal
+TrainerClass_Rocker,Rocker
+TrainerClass_RocketGrunt,Rocket Rekruut
+TrainerClass_RocketScientist,Rocket Wetenschapper
+TrainerClass_RocketLeader,Rocket Leider
+TrainerClass_Sailor,Zeeman
+TrainerClass_Scientist,Wetenschapper
+TrainerClass_SuperNerd,Super Nerd
+TrainerClass_Swimmer_Male,Zwemmer♂
+TrainerClass_Swimmer_Female,Zwemmer♂
+TrainerClass_Tamer,Temmer
+TrainerClass_Telekinetic,Telekineticus
+TrainerClass_Youngster,Jongetje
+
+-----
+Story Localization:
+
+[Difficulty Selection]
+DifficultySelect_Question1,Pokémon Brown 3D~ondersteunt verschillende~moeilijkheidsgraden.*Bij elke selectie zal een~uitleg worden gegeven.*Selecteer de gewenste~moeilijkheidsgraad.
+DifficultySelect_Question2,Selecteer de gewenste~moeilijkheidsgraad.
+DifficultySelect_Answer_Normal,Normaal: Aanbevolen voor~nieuwe spelers of voor vaste~spelers die het liever wat~rustiger aan doen.*Wil je deze moeilijkheidsgraad?
+DifficultySelect_Answer_Hard,Moeilijk: Aanbevolen voor~meer ervaren spelers die~een uitdagendere speel-~ervaring willen.*De levels van wilde en~trainer-Pokémon worden~vermenigvuldigd met 1,15.*Wil je deze moeilijkheidsgraad?
+DifficultySelect_Answer_Nuzlocke,Nuzlocke: Aanbevolen voor~Pokémon-veteranen die de~Nuzlocke-regels willen~gebruiken voor hun spel.*Deze moeilijkheidsgraad is~identiek aan Normaal,~behalve dat je alleen de~eerste Pokémon op een locatie~kunt vangen, je jouw Pokémon~verplicht bijnamen moet geven,~wanneer je Pokémon worden~verslagen, ze uit je team~worden verwijderd en wanneer~je geen Pokémon meer hebt,~het spel zal worden beëindigd~en je opslagbestand zal~worden verwijderd.*Wil je deze moeilijkheidsgraad?
+DifficultySelect_End,Als je van gedachten~verandert, kun je de moeilijk-~heidsgraad later wijzigen via~het Opties-menu, dat je kunt~vinden door op [<system.button(OpenMenu)>]~te drukken.
+
+[Game Intro]
+NewGameIntro_1,H-hallo?! Jij moet hier~nieuw zijn.*Welkom in de Rijon-regio!*Ik ben Timothy, maar sommigen~noemen me Tim.*Ik ben de Pokémon-Mentor van~deze regio.
+NewGameIntro_2,Dit is een Pokémon.~Er zijn er veel van in het~Rijon gebied.
+NewGameIntro_3,Ik onderzoek deze wezens als~mijn beroep.*Ze hebben speciale~vaardigheden voor gevechten,~maar kunnen ook worden~opgevoed als tamme huisdieren.*Oh, waar zijn mijn manieren?~Hoe mag ik je noemen?
+NewGameIntro_4,<Player.Name>?*Een heel ongewone naam.~Die heb ik nog nooit~eerder gehoord!*Het blijkt dat je hier vlakbij~woont!*Mijn laboratorium is in~Kiezeldorp, net ten zuiden~van jouw woonplaats.*Kom langs wanneer je kunt.~Ik heb iets prachtigs om je~te laten zien! Tot gauw!
+
+NewGameIntro_NewNameOption,-Nieuw-
+
+[Generic Tokens]
+Generic_TV_Movie,Deze film is getiteld~"De Hoeders van Naljo".*Het is gebaseerd op de~mythologie van Naljo!
+Generic_Bookshelf_PokemonBooks,Volgestouwd met Pokémon~boeken!
+Generic_TownMap,Het is de Landkaart.
+Generic_Bed_Question,Het is een bed.~Wil je even rusten?
+Generic_Bed_Refreshed_NoPokemon,Je wordt wakker met een~opgefrist gevoel!
+Generic_Bed_Refreshed_Pokemon,Jij en je Pokémon worden~wakker met een opgefrist~gevoel!
+Generic_HealPlatform_Start,Dit lijkt een goede plek om~even te pauzeren...
+Generic_HealPlatform_End,<Player.Name>'s Pokémon zijn~volledig genezen!
+
+Generic_PokeCenter_NurseJoy_Question_NightDay,Hallo en welkom in ons~Pokémon-Centrum!*Wij genezen je Pokémon tot ze~weer helemaal gezond zijn!
+Generic_PokeCenter_NurseJoy_Question_Morning,Goedemorgen! Welkom in ons~Pokémon-Centrum!*Wij genezen je Pokémon tot ze~weer helemaal gezond zijn!
+Generic_PokeCenter_NurseJoy_Question_Evening,Goedenavond! Welkom in ons~Pokémon-Centrum!*Wij genezen je Pokémon tot ze~weer helemaal gezond zijn!
+Generic_PokeCenter_NurseJoy_Heal,Genees
+Generic_PokeCenter_NurseJoy_AnswerCancel,We hopen je snel weer te~zien!
+Generic_PokeCenter_NurseJoy_AnswerHeal,Oké. We hebben je Pokémon~even nodig.
+Generic_PokeCenter_NurseJoy_HealedParty,Dank je wel!~Je Pokémon zijn weer klaar~om te vechten!*We hopen je snel weer te zien!
+
+Generic_PokeMart_Clerk_Question,Hallo daar!~Kan ik je helpen?
+Generic_PokeMart_Clerk_AfterQuit,Dank je wel!~Kom gauw nog eens langs!
+Generic_PokeMart_Store,Winkel
+Generic_PokeMart_Quit,Terug
+Generic_PokeMart_Shelves,Wauw! Heel veel Pokémon-spullen!
+Generic_PokeMart_MerchBins,In de bakken liggen veel~Pokémon-pluche's.*Is dat een Pikachu-pop en een~Weedle-pop?
+Generic_PokeMart_LockedCabinets,Er zijn verschillende~actiefiguren te zien.*Op het label staat:~"PokéSter Studio's".
+
+Generic_Sign_PokeMart,Al uw voorwerpwensen vervuld!~Pokémon-Winkel
+Generic_Sign_PokeCenter,Genees je Pokémon!~Pokémon-Centrum
+
+Generic_PC_NoInteract,Je kunt geen gebruik maken~van de PC terwijl je op een~Fiets rijdt.
+Generic_PC_BootUp,De PC aan het opstarten...*Kies een host om verbinding~mee te maken.
+Generic_PC_ChooseHost,Kies een host om verbinding~mee te maken.
+Generic_PC_Host_StorageSystem,Bill's PC
+Generic_PC_Host_Mailbox,Postvak
+Generic_PC_Host_DexEvaluation,Prof. Tim's PC
+Generic_PC_Host_HallOfFame,Rijon League
+Generic_PC_Host_Decoration,Decoratie
+Generic_PC_LogOff,Uitloggen
+Generic_PC_DexEvaluation_Start,Toegang tot Prof. Tim's PC.*Toegang tot Pokédex-~beoordelingssysteem.*Wil je je Pokédex laten~beoordelen?
+Generic_PC_DexEvaluation_End,Verbinding naar Prof. Tim's PC gesloten.
+Generic_PC_Decoration_Start,Hoe wil je je kamer inrichten?
+
+Generic_ReceivePokemon,<Player.Name> ontving een~<pokemon.name(<pokemon.count>-1)>!
+Generic_ReceiveAnPokemon,<Player.Name> ontving een~<pokemon.name(<pokemon.count>-1)>!
+Generic_PokemonToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 
 [PC Decorations]
 PC_Decorations_RemoveQuestion,Welk object moet worden~verwijderd?

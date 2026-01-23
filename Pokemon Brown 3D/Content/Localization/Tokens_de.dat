@@ -3688,116 +3688,9 @@ move_desc_1010,The user blasts strange waves to the target, which hurt it and ma
 move_desc_1011,The user attacks the target using unpredictable movements. This may inflict a random status effect on the target.
 move_desc_1012,The user slaps the target 2 to 5 times with a twig or other small stick-like object.
 move_desc_1051,The user charges at the target and may make it flinch.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Trainer (Sub-)Classes:
-TrainerClass_Beauty,Schönheit
-TrainerClass_Biker,Biker
-TrainerClass_BirdKeeper,Vogelfänger
-TrainerClass_Blackbelt,Schwarzgurt
-TrainerClass_BugCatcher,Käfersammler
-TrainerClass_Burglar,Dieb
-TrainerClass_Champion,Champion
-TrainerClass_Channeler,Exorzistin
-TrainerClass_CoolTrainer_Female,Cool Trainer♀
-TrainerClass_CoolTrainer_Male,Cool Trainer♂
-TrainerClass_CueBall,Cue Ball
-TrainerClass_Developer,Developer
-TrainerClass_EliteFour,Top Vier
-TrainerClass_Engineer,Techniker
-TrainerClass_ExGrunt,Ex-Rocket
-TrainerClass_Fisherman,Angler
-TrainerClass_Gambler,Spieler
-TrainerClass_Gentleman,Gentleman
-TrainerClass_GymLeader,Arenaleiter
-TrainerClass_Hiker,Wanderer
-TrainerClass_JrTrainer_Female,Jr. Trainer♀
-TrainerClass_JrTrainer_Male,Jr. Trainer♂
-TrainerClass_Juggler,Jongleur
-TrainerClass_Lass,Göre
-TrainerClass_Lifeguard,Lifeguard
-TrainerClass_NormalTrainer,Normal Trainer
-TrainerClass_Palette,Palette Trooper
-TrainerClass_PokeManiac,PokéManiac
-TrainerClass_Rival,Rivale
-TrainerClass_Rocker,Rocker
-TrainerClass_RocketGrunt,Rocket Rüpel
-TrainerClass_RocketScientist,Rocket Wissenschaftler
-TrainerClass_RocketLeader,Rocket Anführer
-TrainerClass_Sailor,Matrose
-TrainerClass_Scientist,Wissenschaftler
-TrainerClass_SuperNerd,Super Nerd
-TrainerClass_Swimmer_Male,Schwimmer ♂
-TrainerClass_Swimmer_Female,Schwimmerin ♀
-TrainerClass_Tamer,Trainer
-TrainerClass_Telekinetic,Psycho
-TrainerClass_Youngster,Teenager
-
------
-Story Localization:
-
-[Difficulty Selection]
-DifficultySelect_Question1,Pokémon Brown 3D supports~different difficulty modes.*An explanation will be given~for each upon selection.*Please select your desired~difficulty.
-DifficultySelect_Question2,Please select your desired~difficulty.
-DifficultySelect_Answer_Normal,Normal: Recommended for~new players or for regulars~who prefer a more casual~playthrough.*Do you want this difficulty?
-DifficultySelect_Answer_Hard,Hard: Recommended for~more experienced players who~want a more challenging~playthrough.*The levels of wild and trainer-~owned Pokémon are multiplied~by 1.15.*Do you want this difficulty?
-DifficultySelect_Answer_Nuzlocke,Nuzlocke: Recommended for~Pokémon veterans who like to~use the Nuzlocke rules for~their playthrough.*This difficulty mode is~identical to Normal, except~you're only able capture the~first Pokémon in a location,~you have to give your Pokémon~nicknames, when your Pokémon~are defeated they are~removed from your party and~when you are out of Pokémon,~the game will be ended and~your save file will be deleted.*Do you want this difficulty?
-DifficultySelect_End,If you change your mind, you~can change the difficulty~later from the Options menu,~which can be found by~pressing [<system.button(OpenMenu)>].
-
-[Game Intro]
-NewGameIntro_1,Ha-hallo?! Du must neu hier~sein.*Willkommen in der Region~namens Rijon. Ich bin Timothy,~aber die anderen nennen mich~einfach Tim. Ich bin der~Pokémon-Professer dieser~Region.
-NewGameIntro_2,Dies ist ein Pokémon.~Es gibt viele davon~in der Rijon-Region.
-NewGameIntro_3,Es ist mein Beruf diese~Kreaturen zu erforschen.~Sie haben besondere~Fähigkeiten zum Kämpfen und~können auch als zahme~Haustiere aufgezogen werden.*Oh, wo sind meine Manieren?~Wie soll ich dich nennen?
-NewGameIntro_4,<Player.Name>?*Ein ungewöhnlicher Name.~Ich habe ihn noch nie zuvor~gehört!*Nun, es stellt sich heraus,~dass du tatsächlich in der~Nähe wohnst!*Mein Labor ist in Kieslingen,~ein bisschen südlich von wo~du wohnst.~Schau doch mal vorbei, wenn~du kannst, ich muss~dir etwas Wunderbares~zeigen! Bis bald!
-
-NewGameIntro_NewNameOption,--Neu--
-
-[Generic Tokens]
-Generic_TV_Movie,Dieser Film heißt "Naljos~Wächter".*Er basiert auf Naljos~Mythologie!
-Generic_Bookshelf_PokemonBooks,Vollgepackt mit Pokémon-~Büchern!
-Generic_TownMap,Eine Karte!
-Generic_Bed_Question,Ein Bett. Möchtest du dich~ausruhen?
-Generic_Bed_Refreshed_NoPokemon,You wake up feeling refreshed!
-Generic_Bed_Refreshed_Pokemon,Du und deine Pokémon wachen~erfrischt auf!
-Generic_HealPlatform_Start,This seems like a sweet spot~to take a break...
-Generic_HealPlatform_End,<Player.Name>'s Pokémon are~fully healed!
-
-Generic_PokeCenter_NurseJoy_Question_NightDay,Hello, and welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
-Generic_PokeCenter_NurseJoy_Question_Morning,Good morning! Welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
-Generic_PokeCenter_NurseJoy_Question_Evening,Good evening! Welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
-Generic_PokeCenter_NurseJoy_Heal,Heal
-Generic_PokeCenter_NurseJoy_AnswerCancel,We hope to see you again!
-Generic_PokeCenter_NurseJoy_AnswerHeal,Okay. We'll need your Pokémon.
-Generic_PokeCenter_NurseJoy_HealedParty,Thank you! Your Pokémon are~fighting fit!*We hope to see you again!
-
-Generic_PokeMart_Clerk_Question,Hi there!~May I help you?
-Generic_PokeMart_Clerk_AfterQuit,Thank you! Come again!
-Generic_PokeMart_Store,Store
-Generic_PokeMart_Quit,Quit
-Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
-Generic_PokeMart_MerchBins,Many Pokémon plushies are~lying in the bin.*Is that a Pikachu Doll and~a Weedle Doll?
-Generic_PokeMart_LockedCabinets,Several action figures can~be seen.*The tag on them says:~"Pokéstar Studios".
-
-Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
-Generic_Sign_PokeCenter,Heal your Pokémon!~Pokémon Center
-
-Generic_PC_NoInteract,You can't interact with the~PC while riding a Bicycle.
-Generic_PC_BootUp,<Player.Name> schaltet den PC ein...*Wähle einen Dienst, zu dem du~dich verbinden möchtest..
-Generic_PC_ChooseHost,Wähle einen Dienst, zu dem du~dich verbinden möchtest.
-Generic_PC_Host_StorageSystem,Bills PC
-Generic_PC_Host_Mailbox,Posteingang
-Generic_PC_Host_DexEvaluation,Prof. Tims PC
-Generic_PC_Host_HallOfFame,Ruhmeshalle
-Generic_PC_Host_Decoration,Dekoration
-Generic_PC_LogOff,Ausloggen
-Generic_PC_DexEvaluation_Start,Zugriff auf Prof. Tims PC.*Zugriff auf das Pokédex~Bewertungs-System.*Möchtest du deinen Pokédex~bewerten lassen?
-Generic_PC_DexEvaluation_End,Verbindung zu Prof. Tims PC~getennt.
-Generic_PC_Decoration_Start,Wie möchtest du dein Zimmer~dekorieren?
-
-Generic_ReceivePokemon,<Player.Name> received~a <pokemon.name(<pokemon.count>-1)>!
-Generic_ReceiveAnPokemon,<Player.Name> received~an <pokemon.name(<pokemon.count>-1)>!
-Generic_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
-
-[Follower Pokémon Interations]
+---
+Follower Pokémon Interactions:
+[Generic]
 FollowerInteraction_HeldItem_Question,It looks like your Pokémon~holds on to something.*Do you want to~take it?
 FollowerInteraction_HeldItem_Answer_Yes,Your Pokémon handed over~the <item>!
 FollowerInteraction_HeldItem_Answer_No,Your Pokémon kept~the item happily.
@@ -3953,6 +3846,7 @@ FollowerInteraction_Love11,<name> got~closer to <player.name>!
 FollowerInteraction_Love12,<name> is keeping~close to your feet.
 FollowerInteraction_Love13,<name> is jumping~around in a carefree way!
 
+[GameMode Related]
 FollowerInteraction_Music_PlayerRoomMusic1,<name> is moving~around the room.
 FollowerInteraction_Music_PlayerRoomMusic2,<name> is happy to~be home!
 FollowerInteraction_Music_Nike1,<name> is dancing~energetically to the music!
@@ -3981,7 +3875,7 @@ FollowerInteraction_Blackboard,<name> stares intently~at the blackboard, but doe
 
 FollowerInteraction_HauntedForest1,A strange sound is coming~from <name>!
 FollowerInteraction_HauntedForest2,<name> started spinning~around in circles.
-FollowerInteraction_HauntedForest3,<name> isn’t moving.
+FollowerInteraction_HauntedForest3,<name> isn't moving.
 FollowerInteraction_HauntedForest4,<name> looks very~interested.
 FollowerInteraction_HauntedForest5,<name> is staring~intently at nothing.
 FollowerInteraction_HauntedForest6,<name> is having~fun swaying back and forth.
@@ -4046,6 +3940,114 @@ FollowerInteraction_Caves6,<name> started~pounding the ground flat!
 FollowerInteraction_EliteFour1,<name> sent out~a bundle of leaves and~looked eager!
 FollowerInteraction_EliteFour2,<name> blew out~a plume of fire and~looked eager!
 FollowerInteraction_EliteFour3,<name> shoot out~a jet of water and~looked eager!
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Trainer (Sub-)Classes:
+TrainerClass_Beauty,Schönheit
+TrainerClass_Biker,Biker
+TrainerClass_BirdKeeper,Vogelfänger
+TrainerClass_Blackbelt,Schwarzgurt
+TrainerClass_BugCatcher,Käfersammler
+TrainerClass_Burglar,Dieb
+TrainerClass_Champion,Champion
+TrainerClass_Channeler,Exorzistin
+TrainerClass_CoolTrainer_Female,Cool Trainer♀
+TrainerClass_CoolTrainer_Male,Cool Trainer♂
+TrainerClass_CueBall,Cue Ball
+TrainerClass_Developer,Developer
+TrainerClass_EliteFour,Top Vier
+TrainerClass_Engineer,Techniker
+TrainerClass_ExGrunt,Ex-Rocket
+TrainerClass_Fisherman,Angler
+TrainerClass_Gambler,Spieler
+TrainerClass_Gentleman,Gentleman
+TrainerClass_GymLeader,Arenaleiter
+TrainerClass_Hiker,Wanderer
+TrainerClass_JrTrainer_Female,Jr. Trainer♀
+TrainerClass_JrTrainer_Male,Jr. Trainer♂
+TrainerClass_Juggler,Jongleur
+TrainerClass_Lass,Göre
+TrainerClass_Lifeguard,Lifeguard
+TrainerClass_NormalTrainer,Normal Trainer
+TrainerClass_Palette,Palette Trooper
+TrainerClass_PokeManiac,PokéManiac
+TrainerClass_Rival,Rivale
+TrainerClass_Rocker,Rocker
+TrainerClass_RocketGrunt,Rocket Rüpel
+TrainerClass_RocketScientist,Rocket Wissenschaftler
+TrainerClass_RocketLeader,Rocket Anführer
+TrainerClass_Sailor,Matrose
+TrainerClass_Scientist,Wissenschaftler
+TrainerClass_SuperNerd,Super Nerd
+TrainerClass_Swimmer_Male,Schwimmer ♂
+TrainerClass_Swimmer_Female,Schwimmerin ♀
+TrainerClass_Tamer,Trainer
+TrainerClass_Telekinetic,Psycho
+TrainerClass_Youngster,Teenager
+
+-----
+Story Localization:
+
+[Difficulty Selection]
+DifficultySelect_Question1,Pokémon Brown 3D supports~different difficulty modes.*An explanation will be given~for each upon selection.*Please select your desired~difficulty.
+DifficultySelect_Question2,Please select your desired~difficulty.
+DifficultySelect_Answer_Normal,Normal: Recommended for~new players or for regulars~who prefer a more casual~playthrough.*Do you want this difficulty?
+DifficultySelect_Answer_Hard,Hard: Recommended for~more experienced players who~want a more challenging~playthrough.*The levels of wild and trainer-~owned Pokémon are multiplied~by 1.15.*Do you want this difficulty?
+DifficultySelect_Answer_Nuzlocke,Nuzlocke: Recommended for~Pokémon veterans who like to~use the Nuzlocke rules for~their playthrough.*This difficulty mode is~identical to Normal, except~you're only able capture the~first Pokémon in a location,~you have to give your Pokémon~nicknames, when your Pokémon~are defeated they are~removed from your party and~when you are out of Pokémon,~the game will be ended and~your save file will be deleted.*Do you want this difficulty?
+DifficultySelect_End,If you change your mind, you~can change the difficulty~later from the Options menu,~which can be found by~pressing [<system.button(OpenMenu)>].
+
+[Game Intro]
+NewGameIntro_1,Ha-hallo?! Du must neu hier~sein.*Willkommen in der Region~namens Rijon. Ich bin Timothy,~aber die anderen nennen mich~einfach Tim. Ich bin der~Pokémon-Professer dieser~Region.
+NewGameIntro_2,Dies ist ein Pokémon.~Es gibt viele davon~in der Rijon-Region.
+NewGameIntro_3,Es ist mein Beruf diese~Kreaturen zu erforschen.~Sie haben besondere~Fähigkeiten zum Kämpfen und~können auch als zahme~Haustiere aufgezogen werden.*Oh, wo sind meine Manieren?~Wie soll ich dich nennen?
+NewGameIntro_4,<Player.Name>?*Ein ungewöhnlicher Name.~Ich habe ihn noch nie zuvor~gehört!*Nun, es stellt sich heraus,~dass du tatsächlich in der~Nähe wohnst!*Mein Labor ist in Kieslingen,~ein bisschen südlich von wo~du wohnst.~Schau doch mal vorbei, wenn~du kannst, ich muss~dir etwas Wunderbares~zeigen! Bis bald!
+
+NewGameIntro_NewNameOption,--Neu--
+
+[Generic Tokens]
+Generic_TV_Movie,Dieser Film heißt "Naljos~Wächter".*Er basiert auf Naljos~Mythologie!
+Generic_Bookshelf_PokemonBooks,Vollgepackt mit Pokémon-~Büchern!
+Generic_TownMap,Eine Karte!
+Generic_Bed_Question,Ein Bett. Möchtest du dich~ausruhen?
+Generic_Bed_Refreshed_NoPokemon,You wake up feeling refreshed!
+Generic_Bed_Refreshed_Pokemon,Du und deine Pokémon wachen~erfrischt auf!
+Generic_HealPlatform_Start,This seems like a sweet spot~to take a break...
+Generic_HealPlatform_End,<Player.Name>'s Pokémon are~fully healed!
+
+Generic_PokeCenter_NurseJoy_Question_NightDay,Hello, and welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
+Generic_PokeCenter_NurseJoy_Question_Morning,Good morning! Welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
+Generic_PokeCenter_NurseJoy_Question_Evening,Good evening! Welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
+Generic_PokeCenter_NurseJoy_Heal,Heal
+Generic_PokeCenter_NurseJoy_AnswerCancel,We hope to see you again!
+Generic_PokeCenter_NurseJoy_AnswerHeal,Okay. We'll need your Pokémon.
+Generic_PokeCenter_NurseJoy_HealedParty,Thank you! Your Pokémon are~fighting fit!*We hope to see you again!
+
+Generic_PokeMart_Clerk_Question,Hi there!~May I help you?
+Generic_PokeMart_Clerk_AfterQuit,Thank you! Come again!
+Generic_PokeMart_Store,Store
+Generic_PokeMart_Quit,Quit
+Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
+Generic_PokeMart_MerchBins,Many Pokémon plushies are~lying in the bin.*Is that a Pikachu Doll and~a Weedle Doll?
+Generic_PokeMart_LockedCabinets,Several action figures can~be seen.*The tag on them says:~"Pokéstar Studios".
+
+Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
+Generic_Sign_PokeCenter,Heal your Pokémon!~Pokémon Center
+
+Generic_PC_NoInteract,You can't interact with the~PC while riding a Bicycle.
+Generic_PC_BootUp,<Player.Name> schaltet den PC ein...*Wähle einen Dienst, zu dem du~dich verbinden möchtest..
+Generic_PC_ChooseHost,Wähle einen Dienst, zu dem du~dich verbinden möchtest.
+Generic_PC_Host_StorageSystem,Bills PC
+Generic_PC_Host_Mailbox,Posteingang
+Generic_PC_Host_DexEvaluation,Prof. Tims PC
+Generic_PC_Host_HallOfFame,Ruhmeshalle
+Generic_PC_Host_Decoration,Dekoration
+Generic_PC_LogOff,Ausloggen
+Generic_PC_DexEvaluation_Start,Zugriff auf Prof. Tims PC.*Zugriff auf das Pokédex~Bewertungs-System.*Möchtest du deinen Pokédex~bewerten lassen?
+Generic_PC_DexEvaluation_End,Verbindung zu Prof. Tims PC~getennt.
+Generic_PC_Decoration_Start,Wie möchtest du dein Zimmer~dekorieren?
+
+Generic_ReceivePokemon,<Player.Name> received~a <pokemon.name(<pokemon.count>-1)>!
+Generic_ReceiveAnPokemon,<Player.Name> received~an <pokemon.name(<pokemon.count>-1)>!
+Generic_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 
 [PC Decorations]
 PC_Decorations_RemoveQuestion,Welche Dekoration soll~entfernt werden?
@@ -4493,10 +4495,10 @@ Hayward_FossilLab_LaprasTrade_CatchLocation,Hayward Fossil Lab
 Hayward_FossilLab_FossilReviver_Question,Hey there!*I love to study fossils.*Do you have one I can revive~with this machine?
 Hayward_FossilLab_FossilReviver_NoFossil,No?*GET OUT!
 Hayward_FossilLab_FossilReviver_Answer_No,Don't waste my time then!~Come back when you do!
-Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! That is a Helix Fossil!~It's a fossil of Omanyte,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! That is a Dome Fossil!~It's a fossil of Kabuto,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! That is a Skull Fossil!~It's a fossil of Cranidos,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
-Hayward_FossilLab_FossilReviver_Question_OldAmber,Oh! That is an Old Amber!~It's a fossil of Aerodactyl,~a Pokemon that is already extinct!*I’ll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_HelixFossil,Oh! That is a Helix Fossil!~It's a fossil of Omanyte,~a Pokemon that is already extinct!*I'll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_DomeFossil,Oh! That is a Dome Fossil!~It's a fossil of Kabuto,~a Pokemon that is already extinct!*I'll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_SkullFossil,Oh! That is a Skull Fossil!~It's a fossil of Cranidos,~a Pokemon that is already extinct!*I'll revive it for you, you up for it?
+Hayward_FossilLab_FossilReviver_Question_OldAmber,Oh! That is an Old Amber!~It's a fossil of Aerodactyl,~a Pokemon that is already extinct!*I'll revive it for you, you up for it?
 Hayward_FossilLab_FossilReviver_Answer_HelixFossil,Well? Hurry up and give~me that!*<Player.Name> handed over the~Helix Fossil!*Walk around Eagulou and come~back, then I can finish!
 Hayward_FossilLab_FossilReviver_Answer_DomeFossil,Well? Hurry up and give~me that!*<Player.Name> handed over the~Dome Fossil!*Walk around Eagulou and come~back, then I can finish!
 Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Well? Hurry up and give~me that!*<Player.Name> handed over the~Skull Fossil!*Walk around Eagulou and come~back, then I can finish!
@@ -4775,7 +4777,7 @@ Owsauri_Casino_B1F_Shop_Center_Tyrogue,Tyrogue        5000C
 
 Owsauri_Gym_Statues_BeforeDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura
 Owsauri_Gym_Statues_AfterDefeat,Owsauri City~Pokémon Gym~Leader: Lily*Winning Trainers:~Mura~<Player.Name>
-Owsauri_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in~making! Here’s my advice!*The Leader, Lily loves to use~Ice Pokémon.*If you have Fire or Rock~Pokémon, her Pokémon won’t~stand a chance!
+Owsauri_Gym_GymGuy_BeforeBadge,Gym Guy: Yo! Champ in~making! Here's my advice!*The Leader, Lily loves to use~Ice Pokémon.*If you have Fire or Rock~Pokémon, her Pokémon won't~stand a chance!
 Owsauri_Gym_GymGuy_AfterBadge,Gym Guy: Lily was defeated?*Hopefully you were 'ice about~it! I am too funny!
 Owsauri_Gym_SwimmerMaleEd_IntroMessage,Splash!*Ready for an ice fight?
 Owsauri_Gym_SwimmerMaleEd_OutroMessage,That can't be!
@@ -5018,7 +5020,7 @@ Jaeru_BikeShop_BikeSalesMan_Option_Bicycle,Bicycle    $1000000
 Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_NotEnoughMoney,Sorry! You can't afford it!*Come back again some time!
 Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_HaveEnoughMoney,OK! Here you go!
 Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Come back again some time!
-Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that’s... A Bike Voucher!~OK! Here you go!
+Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that's... A Bike Voucher!~OK! Here you go!
 Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> exchanged the~Bike Voucher for a Bicycle.
 Jaeru_BikeShop_BikeInPocket,<Player.Name> stored it in the~№Key Items pocket.
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new~Bicycle?*You can take it on Rinjoh~Veloway and in caves!

@@ -3455,116 +3455,9 @@ move_desc_1011,The user attacks the target using unpredictable movements. This m
 move_desc_1012,The user slaps the target 2 to 5 times with a twig or other small stick-like object.
 
 move_desc_1051,The user charges at the target and may make it flinch.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Trainer (Sub-)Classes:
-TrainerClass_Beauty,Beauty
-TrainerClass_Biker,Biker
-TrainerClass_BirdKeeper,Bird Keeper
-TrainerClass_Blackbelt,Blackbelt
-TrainerClass_BugCatcher,Bug Catcher
-TrainerClass_Burglar,Burglar
-TrainerClass_Champion,Champion
-TrainerClass_Channeler,Channeler
-TrainerClass_CoolTrainer_Female,Cool Trainer♀
-TrainerClass_CoolTrainer_Male,Cool Trainer♂
-TrainerClass_CueBall,Cue Ball
-TrainerClass_Developer,Developer
-TrainerClass_EliteFour,Elite Four
-TrainerClass_Engineer,Engineer
-TrainerClass_ExGrunt,Ex-Grunt
-TrainerClass_Fisherman,Fisherman
-TrainerClass_Gambler,Gambler
-TrainerClass_Gentleman,Gentleman
-TrainerClass_GymLeader,Gym Leader
-TrainerClass_Hiker,Hiker
-TrainerClass_JrTrainer_Female,Jr. Trainer♀
-TrainerClass_JrTrainer_Male,Jr. Trainer♂
-TrainerClass_Juggler,Juggler
-TrainerClass_Lass,Lass
-TrainerClass_Lifeguard,Lifeguard
-TrainerClass_NormalTrainer,Normal Trainer
-TrainerClass_Palette,Palette
-TrainerClass_PokeManiac,PokéManiac
-TrainerClass_Rival,Rival
-TrainerClass_Rocker,Rocker
-TrainerClass_RocketGrunt,Rocket Grunt
-TrainerClass_RocketScientist,Rocket Scientist
-TrainerClass_RocketLeader,Rocket Leader
-TrainerClass_Sailor,Sailor
-TrainerClass_Scientist,Scientist
-TrainerClass_SuperNerd,Super Nerd
-TrainerClass_Swimmer_Male,Swimmer♂
-TrainerClass_Swimmer_Female,Swimmer♀
-TrainerClass_Tamer,Tamer
-TrainerClass_Telekinetic,Telekinetic
-TrainerClass_Youngster,Youngster
-
------
-Story Localization:
-
-[Difficulty Selection]
-DifficultySelect_Question1,Pokémon Brown 3D supports~different difficulty modes.*An explanation will be given~for each upon selection.*Please select your desired~difficulty.
-DifficultySelect_Question2,Please select your desired~difficulty.
-DifficultySelect_Answer_Normal,Normal: Recommended for~new players or for regulars~who prefer a more casual~playthrough.*Do you want this difficulty?
-DifficultySelect_Answer_Hard,Hard: Recommended for~more experienced players who~want a more challenging~playthrough.*The levels of wild and trainer-~owned Pokémon are multiplied~by 1.15.*Do you want this difficulty?
-DifficultySelect_Answer_Nuzlocke,Nuzlocke: Recommended for~Pokémon veterans who like to~use the Nuzlocke rules for~their playthrough.*This difficulty mode is~identical to Normal, except~you're only able capture the~first Pokémon in a location,~you have to give your Pokémon~nicknames, when your Pokémon~are defeated they are~removed from your party and~when you are out of Pokémon,~the game will be ended and~your save file will be deleted.*Do you want this difficulty?
-DifficultySelect_End,If you change your mind, you~can change the difficulty~later from the Options menu,~which can be found by~pressing [<system.button(OpenMenu)>].
-
-[Game Intro]
-NewGameIntro_1,H-hello?! You must be new~here.*Welcome to the region of~Rijon!*I am Timothy, but there are~some who call me Tim.*I am this region's Pokémon~Tutor.
-NewGameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.
-NewGameIntro_3,I research these creatures~as my profession.*They have special capabilities~for fighting, but can be~raised as tame household pets.*Oh, where are my manners?~What should I call you?
-NewGameIntro_4,<Player.Name>?*A most unusual name.~I've never heard it before!*Well, it turns out that you~actually live close by!*My laboratory is in Gravel~Town, just south of where you~live.*Stop by when you can.~I have something wonderful to~show you! See you soon!
-
-NewGameIntro_NewNameOption,-New-
-
-[Generic Tokens]
-Generic_TV_Movie,This movie is titled "Naljo's~Guardians".*It's based off Naljo~mythology!
-Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon~books!
-Generic_TownMap,It's the Town Map.
-Generic_Bed_Question,It's a bed.~Would you like to rest?
-Generic_Bed_Refreshed_NoPokemon,You wake up feeling refreshed!
-Generic_Bed_Refreshed_Pokemon,You and your Pokémon wake up~feeling refreshed!
-Generic_HealPlatform_Start,This seems like a sweet spot~to take a break...
-Generic_HealPlatform_End,<Player.Name>'s Pokémon are~fully healed!
-
-Generic_PokeCenter_NurseJoy_Question_NightDay,Hello, and welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
-Generic_PokeCenter_NurseJoy_Question_Morning,Good morning! Welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
-Generic_PokeCenter_NurseJoy_Question_Evening,Good evening! Welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
-Generic_PokeCenter_NurseJoy_Heal,Heal
-Generic_PokeCenter_NurseJoy_AnswerCancel,We hope to see you again!
-Generic_PokeCenter_NurseJoy_AnswerHeal,Okay. We'll need your Pokémon.
-Generic_PokeCenter_NurseJoy_HealedParty,Thank you! Your Pokémon are~fighting fit!*We hope to see you again!
-
-Generic_PokeMart_Clerk_Question,Hi there!~May I help you?
-Generic_PokeMart_Clerk_AfterQuit,Thank you! Come again!
-Generic_PokeMart_Store,Store
-Generic_PokeMart_Quit,Quit
-Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
-Generic_PokeMart_MerchBins,Many Pokémon plushies are~lying in the bin.*Is that a Pikachu Doll and~a Weedle Doll?
-Generic_PokeMart_LockedCabinets,Several action figures can~be seen.*The tag on them says:~"Pokéstar Studios".
-
-Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
-Generic_Sign_PokeCenter,Heal your Pokémon!~Pokémon Center
-
-Generic_PC_NoInteract,You can't interact with the~PC while riding a Bicycle.
-Generic_PC_BootUp,Booting up the PC...*Choose a host to connect to.
-Generic_PC_ChooseHost,Choose a host to connect to.
-Generic_PC_Host_StorageSystem,Bill's PC
-Generic_PC_Host_Mailbox,Inbox
-Generic_PC_Host_DexEvaluation,Prof. Tim's PC
-Generic_PC_Host_HallOfFame,Rijon League
-Generic_PC_Host_Decoration,Decoration
-Generic_PC_LogOff,Log Off
-Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating~System.*Do you want to get your~Pokédex rated?
-Generic_PC_DexEvaluation_End,Closed link to Prof. Tim's PC.
-Generic_PC_Decoration_Start,How do you want to customize~your room?
-
-Generic_ReceivePokemon,<Player.Name> received~a <pokemon.name(<pokemon.count>-1)>!
-Generic_ReceiveAnPokemon,<Player.Name> received~an <pokemon.name(<pokemon.count>-1)>!
-Generic_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
-
-[Follower Pokémon Interations]
+---
+Follower Pokémon Interactions:
+[Generic]
 FollowerInteraction_HeldItem_Question,It looks like your Pokémon~holds on to something.*Do you want to~take it?
 FollowerInteraction_HeldItem_Answer_Yes,Your Pokémon handed over~the <item>!
 FollowerInteraction_HeldItem_Answer_No,Your Pokémon kept~the item happily.
@@ -3720,6 +3613,7 @@ FollowerInteraction_Love11,<name> got~closer to <player.name>!
 FollowerInteraction_Love12,<name> is keeping~close to your feet.
 FollowerInteraction_Love13,<name> is jumping~around in a carefree way!
 
+[GameMode Related]
 FollowerInteraction_Music_PlayerRoomMusic1,<name> is moving~around the room.
 FollowerInteraction_Music_PlayerRoomMusic2,<name> is happy to~be home!
 FollowerInteraction_Music_Nike1,<name> is dancing~energetically to the music!
@@ -3737,7 +3631,7 @@ FollowerInteraction_Gyms_Azalea,<name> began to~scuttle around!
 
 FollowerInteraction_PlayerHouse_LivingRoom,<name> greeted your~mom.
 FollowerInteraction_Seashore1,<name> has a flower~petal on its face!
-FollowerInteraction_Seashore2,<name> stretched out~and relaxed!
+FollowerInteraction_Seashore2,<name> streckt und~entspannt sich!
 
 FollowerInteraction_SeaCityOrRoute1,<name> is staring~at the sea.
 FollowerInteraction_SeaCityOrRoute2,<name> is listening~to the sound of the waves.
@@ -3813,6 +3707,114 @@ FollowerInteraction_Caves6,<name> started~pounding the ground flat!
 FollowerInteraction_EliteFour1,<name> sent out~a bundle of leaves and~looked eager!
 FollowerInteraction_EliteFour2,<name> blew out~a plume of fire and~looked eager!
 FollowerInteraction_EliteFour3,<name> shoot out~a jet of water and~looked eager!
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Trainer (Sub-)Classes:
+TrainerClass_Beauty,Beauty
+TrainerClass_Biker,Biker
+TrainerClass_BirdKeeper,Bird Keeper
+TrainerClass_Blackbelt,Blackbelt
+TrainerClass_BugCatcher,Bug Catcher
+TrainerClass_Burglar,Burglar
+TrainerClass_Champion,Champion
+TrainerClass_Channeler,Channeler
+TrainerClass_CoolTrainer_Female,Cool Trainer♀
+TrainerClass_CoolTrainer_Male,Cool Trainer♂
+TrainerClass_CueBall,Cue Ball
+TrainerClass_Developer,Developer
+TrainerClass_EliteFour,Elite Four
+TrainerClass_Engineer,Engineer
+TrainerClass_ExGrunt,Ex-Grunt
+TrainerClass_Fisherman,Fisherman
+TrainerClass_Gambler,Gambler
+TrainerClass_Gentleman,Gentleman
+TrainerClass_GymLeader,Gym Leader
+TrainerClass_Hiker,Hiker
+TrainerClass_JrTrainer_Female,Jr. Trainer♀
+TrainerClass_JrTrainer_Male,Jr. Trainer♂
+TrainerClass_Juggler,Juggler
+TrainerClass_Lass,Lass
+TrainerClass_Lifeguard,Lifeguard
+TrainerClass_NormalTrainer,Normal Trainer
+TrainerClass_Palette,Palette
+TrainerClass_PokeManiac,PokéManiac
+TrainerClass_Rival,Rival
+TrainerClass_Rocker,Rocker
+TrainerClass_RocketGrunt,Rocket Grunt
+TrainerClass_RocketScientist,Rocket Scientist
+TrainerClass_RocketLeader,Rocket Leader
+TrainerClass_Sailor,Sailor
+TrainerClass_Scientist,Scientist
+TrainerClass_SuperNerd,Super Nerd
+TrainerClass_Swimmer_Male,Swimmer♂
+TrainerClass_Swimmer_Female,Swimmer♀
+TrainerClass_Tamer,Tamer
+TrainerClass_Telekinetic,Telekinetic
+TrainerClass_Youngster,Youngster
+
+-----
+Story Localization:
+
+[Difficulty Selection]
+DifficultySelect_Question1,Pokémon Brown 3D supports~different difficulty modes.*An explanation will be given~for each upon selection.*Please select your desired~difficulty.
+DifficultySelect_Question2,Please select your desired~difficulty.
+DifficultySelect_Answer_Normal,Normal: Recommended for~new players or for regulars~who prefer a more casual~playthrough.*Do you want this difficulty?
+DifficultySelect_Answer_Hard,Hard: Recommended for~more experienced players who~want a more challenging~playthrough.*The levels of wild and trainer-~owned Pokémon are multiplied~by 1.15.*Do you want this difficulty?
+DifficultySelect_Answer_Nuzlocke,Nuzlocke: Recommended for~Pokémon veterans who like to~use the Nuzlocke rules for~their playthrough.*This difficulty mode is~identical to Normal, except~you're only able capture the~first Pokémon in a location,~you have to give your Pokémon~nicknames, when your Pokémon~are defeated they are~removed from your party and~when you are out of Pokémon,~the game will be ended and~your save file will be deleted.*Do you want this difficulty?
+DifficultySelect_End,If you change your mind, you~can change the difficulty~later from the Options menu,~which can be found by~pressing [<system.button(OpenMenu)>].
+
+[Game Intro]
+NewGameIntro_1,H-hello?! You must be new~here.*Welcome to the region of~Rijon!*I am Timothy, but there are~some who call me Tim.*I am this region's Pokémon~Tutor.
+NewGameIntro_2,This is a Pokémon.~There are a lot of these in~the Rijon area.
+NewGameIntro_3,I research these creatures~as my profession.*They have special capabilities~for fighting, but can be~raised as tame household pets.*Oh, where are my manners?~What should I call you?
+NewGameIntro_4,<Player.Name>?*A most unusual name.~I've never heard it before!*Well, it turns out that you~actually live close by!*My laboratory is in Gravel~Town, just south of where you~live.*Stop by when you can.~I have something wonderful to~show you! See you soon!
+
+NewGameIntro_NewNameOption,-New-
+
+[Generic Tokens]
+Generic_TV_Movie,This movie is titled "Naljo's~Guardians".*It's based off Naljo~mythology!
+Generic_Bookshelf_PokemonBooks,Crammed full of Pokémon~books!
+Generic_TownMap,It's the Town Map.
+Generic_Bed_Question,It's a bed.~Would you like to rest?
+Generic_Bed_Refreshed_NoPokemon,You wake up feeling refreshed!
+Generic_Bed_Refreshed_Pokemon,You and your Pokémon wake up~feeling refreshed!
+Generic_HealPlatform_Start,This seems like a sweet spot~to take a break...
+Generic_HealPlatform_End,<Player.Name>'s Pokémon are~fully healed!
+
+Generic_PokeCenter_NurseJoy_Question_NightDay,Hello, and welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
+Generic_PokeCenter_NurseJoy_Question_Morning,Good morning! Welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
+Generic_PokeCenter_NurseJoy_Question_Evening,Good evening! Welcome to our~Pokémon Center!*We heal your Pokémon back to~perfect health!
+Generic_PokeCenter_NurseJoy_Heal,Heal
+Generic_PokeCenter_NurseJoy_AnswerCancel,We hope to see you again!
+Generic_PokeCenter_NurseJoy_AnswerHeal,Okay. We'll need your Pokémon.
+Generic_PokeCenter_NurseJoy_HealedParty,Thank you! Your Pokémon are~fighting fit!*We hope to see you again!
+
+Generic_PokeMart_Clerk_Question,Hi there!~May I help you?
+Generic_PokeMart_Clerk_AfterQuit,Thank you! Come again!
+Generic_PokeMart_Store,Store
+Generic_PokeMart_Quit,Quit
+Generic_PokeMart_Shelves,Wow! Tons of Pokémon stuff!
+Generic_PokeMart_MerchBins,Many Pokémon plushies are~lying in the bin.*Is that a Pikachu Doll and~a Weedle Doll?
+Generic_PokeMart_LockedCabinets,Several action figures can~be seen.*The tag on them says:~"Pokéstar Studios".
+
+Generic_Sign_PokeMart,All your item needs fulfilled!~Pokémon Mart
+Generic_Sign_PokeCenter,Heal your Pokémon!~Pokémon Center
+
+Generic_PC_NoInteract,You can't interact with the~PC while riding a Bicycle.
+Generic_PC_BootUp,Booting up the PC...*Choose a host to connect to.
+Generic_PC_ChooseHost,Choose a host to connect to.
+Generic_PC_Host_StorageSystem,Bill's PC
+Generic_PC_Host_Mailbox,Inbox
+Generic_PC_Host_DexEvaluation,Prof. Tim's PC
+Generic_PC_Host_HallOfFame,Rijon League
+Generic_PC_Host_Decoration,Decoration
+Generic_PC_LogOff,Log Off
+Generic_PC_DexEvaluation_Start,Accessed Prof. Tim's PC.*Accessed Pokédex Rating~System.*Do you want to get your~Pokédex rated?
+Generic_PC_DexEvaluation_End,Closed link to Prof. Tim's PC.
+Generic_PC_Decoration_Start,How do you want to customize~your room?
+
+Generic_ReceivePokemon,<Player.Name> received~a <pokemon.name(<pokemon.count>-1)>!
+Generic_ReceiveAnPokemon,<Player.Name> received~an <pokemon.name(<pokemon.count>-1)>!
+Generic_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
 
 [PC Decorations]
 PC_Decorations_RemoveQuestion,Which item should be removed?
