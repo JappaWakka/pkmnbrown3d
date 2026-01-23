@@ -662,7 +662,7 @@ Voltorb Flip:
 VoltorbFlip_LV.,LV.
 VoltorbFlip_CurrentCoins_Line1,Coins found
 VoltorbFlip_CurrentCoins_Line2,in this LV.
-VoltorbFlip_TotalCoins_Line1,<player.name>'s
+VoltorbFlip_TotalCoins_Line1,<Player.Name>'s
 VoltorbFlip_TotalCoins_Line2,earned Coins
 
 VoltorbFlip_MemoButton_Open_Line1,Open
@@ -686,7 +686,7 @@ VoltorbFlip_BeforeNewLevel_GameInfo_Answer_Hint,Hint!
 VoltorbFlip_BeforeNewLevel_GameInfo_Answer_AboutMemos,About Memos
 VoltorbFlip_BeforeNewLevel_GameInfo_Back,Back
 
-VoltorbFlip_GameWon_1,Game clear!~You've found all of the~hidden x2 and x3 cards.*<player.name> received~
+VoltorbFlip_GameWon_1,Game clear!~You've found all of the~hidden x2 and x3 cards.*<Player.Name> received~
 VoltorbFlip_GameWon_2,Coin(s)!
 
 VoltorbFlip_GameLost,Oh no! You get 0 Coins!
@@ -700,7 +700,7 @@ VoltorbFlip_NewLevel_Higher2,!
 VoltorbFlip_NewLevel_Ready1,Ready to play Game Lv.
 VoltorbFlip_NewLevel_Ready2,!
 
-VoltorbFlip_QuitGame_1,<player.name> received~
+VoltorbFlip_QuitGame_1,<Player.Name> received~
 VoltorbFlip_QuitGame_2,Coin(s)!
 
 VoltorbFlip_AfterGame_Won1,You've won
@@ -753,18 +753,18 @@ pokedex_evolution_no_evolutions,doesn't evolve.
 Receiving Items:
 item_received_single,Received the~
 item_received_multiple,Received
-item_found,<player.name> found~
-item_stored_in_pocket_single_start,<player.name> stored it in the~
+item_found,<Player.Name> found~
+item_stored_in_pocket_single_start,<Player.Name> stored it in the~
 item_stored_in_pocket_single_end,pocket.
-item_stored_in_pocket_multiple_start,<player.name> stored them~in the
+item_stored_in_pocket_multiple_start,<Player.Name> stored them~in the
 item_stored_in_pocket_multiple_end,pocket.
 item_handed_over_single,<Player.Name> handed over the~
 item_handed_over_multiple,<Player.Name> handed over the~
 
 Berries:
-berry_picked_single_start,<player.name> picked the~
+berry_picked_single_start,<Player.Name> picked the~
 berry_picked_single_end,Berry.
-berry_picked_multiple_start,<player.name> picked the~
+berry_picked_multiple_start,<Player.Name> picked the~
 berry_picked_multiple_end,Berries.
 ----
 Battle:
@@ -5844,7 +5844,7 @@ FinalDungeon_FinalShop_BikeMan_Quit,Thank you!
 FinalDungeon_FinalShop_GymGuy_Question,All these resources are being~transported to Naljo...~I wonder what for?~I can slip you some... for a~price, of course.*Wanna take a look?
 FinalDungeon_FinalShop_GymGuy_Store,Take your time.
 FinalDungeon_FinalShop_GymGuy_Quit,Thank you!
-FinalDungeon_FinalShop_Book,We have managed to mass-produce TMs and other items. We are one step closer to producing reusable TMs!
+FinalDungeon_FinalShop_Book,We have managed to mass-~produce TMs and other items.*We are one step closer to~producing reusable TMs!
 
 [Madame Renifler]
 MadameRenifler_Hall_ClosedDoors,<Player.Name>: We're currently~out on the ocean, it wouldn't~be safe to leave now.
@@ -5870,11 +5870,11 @@ MadameRenifler_DanceClub_ChooseSong_Nike1,nike#01
 MadameRenifler_DanceClub_ChooseSong_PlayIt,Play It
 MadameRenifler_DanceClub_ChooseSong_Pr0ndiskOutro,Pr0ndisk Outro
 MadameRenifler_DanceClub_ChooseSong_Worship,Worship
-MadameRenifler_DanceClub_AlexCorruptor_Intro,<player.name>: That Tepig is~operating the DJ set!~Incredible!*Alex: Thank you.~Hi, I am AlexCorruptor, but~you can call me Alex.*<player.name>: And you can talk?!*Alex: Well... yeah... it's a~long story...
-MadameRenifler_DanceClub_AlexCorruptor_FirstTime,Are you looking for~JappaWakka?*<player.name>: Yeah, I am!*Alex: He's at the bridge of~the ship, up the stairs to~the right.*By the way, if you'd like to~hear a different song, choose~the one you want on the~DJ set.
+MadameRenifler_DanceClub_AlexCorruptor_Intro,<Player.Name>: That Tepig is~operating the DJ set!~Incredible!*Alex: Thank you.~Hi, I am AlexCorruptor, but~you can call me Alex.*<Player.Name>: And you can talk?!*Alex: Well... yeah... it's a~long story...
+MadameRenifler_DanceClub_AlexCorruptor_FirstTime,Are you looking for~JappaWakka?*<Player.Name>: Yeah, I am!*Alex: He's at the bridge of~the ship, up the stairs to~the right.*By the way, if you'd like to~hear a different song, choose~the one you want on the~DJ set.
 MadameRenifler_DanceClub_AlexCorruptor_BeforeJappa,Alex: JappaWakka is at the~bridge of the ship, up the~stairs to the right. If you'd~like to hear a different song,~choose the one you want on the~DJ set.
 MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Intro,Alex: ...Jappa is worried~about me, you say?*Hmm... Maybe I should tell you~about my worries.*It's gonna be long, so~listen up.
-MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Story,You see, I am not from this~region, and my journey up~until now hasn't exactly been~smooth either, so let me tell~you all about it from the~beginning.*I was born in the Unova region~and when I grew up, I started~growing fond of the Tepig~evolution line.*I had a few of those and we~were hugging all the time.*One day, I woke up in a world~unknown to me, with a voice~calling for help.*I looked down, saw my~reflection and saw that~I transformed into a~shiny Tepig.*Suddenly I was up in the sky~and started falling down~hitting some of the trees in~the process.*Shortly after I met 3 other~Pokémon:~Roffe the Snivy,~Lossy the Axew,~and Jappa the Oshawott.*We became friends very~quickly and we started~adventuring together as~a team.*We faced many different~battles, puzzles and other~Pokémon who needed help.*At one point, we encountered~a Hydreigon who ended up~following me specifically,~which initially gave me an~idea that he know who I was.*In the end, we defeated the~greatest evil that was~threatening the entire world.*Soon after this, it was my~time to go back to the normal~world and to never come back.*All 3 of my friends, Roffe,~Lossy and Jappa were sad to~see me go, they even begged~for me to stay, but it seemed~that the balance of nature~would've shifted if that were~to happen.*I started glowing and~ascending slowly, marking the~end of our adventures.*Before I finally got back to~the normal world I looked down~at them, they were crying,~and I wished that I didn't~have to leave that world.*When I returned to the normal~world, I found myself in Ilex~Forest, still as a shiny Tepig.*I realised that I still had~the ability to talk to the~other Pokémon, but I hadn't~encountered any humans yet.*Soon enough I met~JappaWakka, who was a nice~guy, and we were able to~talk to each other without~any problem, which meant~that I could talk to~humans too.*He told me about this ship~that he was trying to build~where I could stay and learn~more about myself, and I~ended up becoming interested~in creating music.*Almost all the stuff that you~hear in this club, including~what's currently playing, was~composed or covered by me.*I also learned about ciphers~which are used to decode~stuff, and about 4-dimensional~hypercubes like the one~hanging from the ceiling.*I still think about all the~friends I made back in that~world, while also wondering~whether Jappa from that~world and JappaWakka from~this world are the same~or not.*I avoid telling him about~these experiences, because~I'm not sure what he'd think of~it all...*As of late, I've started~dreaming about that world,~with Hydreigon seeming to~know that I am watching.*Whether that means anything,~I don't know, but I still wish~that I could get back there...*Well, <player.name>, I hope you~can relate to me on any level...
+MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Story,You see, I am not from this~region, and my journey up~until now hasn't exactly been~smooth either, so let me tell~you all about it from the~beginning.*I was born in the Unova region~and when I grew up, I started~growing fond of the Tepig~evolution line.*I had a few of those and we~were hugging all the time.*One day, I woke up in a world~unknown to me, with a voice~calling for help.*I looked down, saw my~reflection and saw that~I transformed into a~shiny Tepig.*Suddenly I was up in the sky~and started falling down~hitting some of the trees in~the process.*Shortly after I met 3 other~Pokémon:~Roffe the Snivy,~Lossy the Axew,~and Jappa the Oshawott.*We became friends very~quickly and we started~adventuring together as~a team.*We faced many different~battles, puzzles and other~Pokémon who needed help.*At one point, we encountered~a Hydreigon who ended up~following me specifically,~which initially gave me an~idea that he know who I was.*In the end, we defeated the~greatest evil that was~threatening the entire world.*Soon after this, it was my~time to go back to the normal~world and to never come back.*All 3 of my friends, Roffe,~Lossy and Jappa were sad to~see me go, they even begged~for me to stay, but it seemed~that the balance of nature~would've shifted if that were~to happen.*I started glowing and~ascending slowly, marking the~end of our adventures.*Before I finally got back to~the normal world I looked down~at them, they were crying,~and I wished that I didn't~have to leave that world.*When I returned to the normal~world, I found myself in Ilex~Forest, still as a shiny Tepig.*I realised that I still had~the ability to talk to the~other Pokémon, but I hadn't~encountered any humans yet.*Soon enough I met~JappaWakka, who was a nice~guy, and we were able to~talk to each other without~any problem, which meant~that I could talk to~humans too.*He told me about this ship~that he was trying to build~where I could stay and learn~more about myself, and I~ended up becoming interested~in creating music.*Almost all the stuff that you~hear in this club, including~what's currently playing, was~composed or covered by me.*I also learned about ciphers~which are used to decode~stuff, and about 4-dimensional~hypercubes like the one~hanging from the ceiling.*I still think about all the~friends I made back in that~world, while also wondering~whether Jappa from that~world and JappaWakka from~this world are the same~or not.*I avoid telling him about~these experiences, because~I'm not sure what he'd think of~it all...*As of late, I've started~dreaming about that world,~with Hydreigon seeming to~know that I am watching.*Whether that means anything,~I don't know, but I still wish~that I could get back there...*Well, <Player.Name>, I hope you~can relate to me on any level...
 MadameRenifler_DanceClub_JappaWakka,JappaWakka: Hey, <Player.Name>!~Have you heard from~Alex yet?*<Player.Name>: Well, from his~story remembered that the~first time he appeared back~in this world.... he found~himself in Ilex Forest.*Maybe it's worth looking for~him there!*JappaWakka: Good idea!~Keep me up to date!
 
 MadameRenifler_Bridge_Music_Breeze,Currently Playing:~Breeze*by JappaWakka

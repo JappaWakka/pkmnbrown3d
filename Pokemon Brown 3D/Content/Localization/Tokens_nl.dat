@@ -5095,10 +5095,10 @@ Generic_PokeCenter_NurseJoy_Question_Evening,Goedenavond! Welkom in ons~Pokémon
 Generic_PokeCenter_NurseJoy_Heal,Genees
 Generic_PokeCenter_NurseJoy_AnswerCancel,We hopen je snel weer te~zien!
 Generic_PokeCenter_NurseJoy_AnswerHeal,Oké. We hebben je Pokémon~even nodig.
-Generic_PokeCenter_NurseJoy_HealedParty,Dankjewel!~Je Pokémon zijn weer klaar~om te vechten!*We hopen je snel weer te zien!
+Generic_PokeCenter_NurseJoy_HealedParty,Dank je wel!~Je Pokémon zijn weer klaar~om te vechten!*We hopen je snel weer te zien!
 
 Generic_PokeMart_Clerk_Question,Hallo daar!~Kan ik je helpen?
-Generic_PokeMart_Clerk_AfterQuit,Dankjewel!~Kom gauw nog eens langs!
+Generic_PokeMart_Clerk_AfterQuit,Dank je wel!~Kom gauw nog eens langs!
 Generic_PokeMart_Store,Winkel
 Generic_PokeMart_Quit,Terug
 Generic_PokeMart_Shelves,Wauw! Heel veel Pokémon-spullen!
@@ -5506,7 +5506,7 @@ Merson_Gym_Statues_BeforeDefeat,Mertenstad~Pokémon Gym~Leider: Karpman*Winnende
 Merson_Gym_Statues_AfterDefeat,Mertenstad~Pokémon Gym~Leider: Karpman*Winnende Trainers:~Mura~<Player.Name>
 Merson_Gym_GymGuy_BeforeBadge_Question,Gym Gast: Hallo daar.*Als je op zoek bent naar~een uitdaging, ben je op de~juiste plaats.*Wil je meer leren over de~Leider Karpman?
 Merson_Gym_GymGuy_BeforeBadge_Yes,Top, daar gaan we!*Karpman gebruikt Water-Pokémon.*Je beste kans tegen hem is om~een Gras- of een Elektrische~Pokémon te gebruiken.
-Merson_Gym_GymGuy_BeforeBadge_No,Luister nou even.*Dankjewel.*Karpman gebruikt Water-Pokémon.*Je beste kans tegen hem is om~een Gras- of een Elektrische~Pokémon te gebruiken.
+Merson_Gym_GymGuy_BeforeBadge_No,Luister nou even.*Dank je wel.*Karpman gebruikt Water-Pokémon.*Je beste kans tegen hem is om~een Gras- of een Elektrische~Pokémon te gebruiken.
 Merson_Gym_GymGuy_AfterBadge,Gym Gast: Nou, misschien ben~je wel speciaal op het gebied~van trainen!
 Merson_Gym_LifeguardSilas_IntroMessage,Hoe gaat ie? Mijn naam is~Silas!*Je bent hier om mijn maatje~Lochlan te verslaan voor~een Badge?*Dan moet je eerst langs mij!
 Merson_Gym_LifeguardSilas_OutroMessage,Oeps!
@@ -5855,11 +5855,11 @@ Owsauri_Daycare_DaycareMan_Intro_2Pokemon_HigherLevel_BothYes,Jouw Pokémon zijn
 Owsauri_Daycare_DaycareMan_Question_TakeBack,Welke Pokémon wil je mee~terug nemen?
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_NoLevelUp,Als je jouw <daycare.pokemonname(0,0)>~terug wilt ben je me $<math.int(<daycare.grownlevels(0,0)>*100+100)>~verschuldigd.*Wil je hem mee terug nemen?
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_HigherLevel,Qua niveau is <daycare.pokemonname(0,0)>~ongeveer <daycare.grownlevels(0,0)> gegroeid.*Als je jouw <daycare.pokemonname(0,0)>~terug wilt ben je me $<math.int(<daycare.grownlevels(0,0)>*100+100)>~verschuldigd.~Wil je hem mee terug nemen?
-Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_GotBack,Dankjewel! Hier is je Pokémon!*<Player.Name> kreeg~<daycare.pokemonname(0,0)> terug!
+Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_GotBack,Dank je wel! Hier is je Pokémon!*<Player.Name> kreeg~<daycare.pokemonname(0,0)> terug!
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon0_NotEnoughMoney,Je hebt niet genoeg geld om~<daycare.pokemonname(0,0)> mee terug~te nemen.
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_NoLevelUp,Als je jouw <daycare.pokemonname(0,1)>~terug wilt ben je me $<math.int(<daycare.grownlevels(0,1)>*100+100)>~verschuldigd.*Wil je hem mee terug nemen?
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_HigherLevel,Qua niveau is <daycare.pokemonname(0,1)>~ongeveer <daycare.grownlevels(0,1)> gegroeid.*Als je jouw <daycare.pokemonname(0,1)>~terug wilt ben je me $<math.int(<daycare.grownlevels(0,1)>*100+100)>~verschuldigd.~Wil je hem mee terug nemen?
-Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_GotBack,Dankjewel! Hier is je Pokémon!*<Player.Name> kreeg~<daycare.pokemonname(0,1)> terug!
+Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_GotBack,Dank je wel! Hier is je Pokémon!*<Player.Name> kreeg~<daycare.pokemonname(0,1)> terug!
 Owsauri_Daycare_DaycareMan_TakeBack_Pokemon1_NotEnoughMoney,Je hebt niet genoeg geld om~<daycare.pokemonname(0,1)> mee terug~te nemen.
 Owsauri_Daycare_DaycareMan_TakeBack_OtherOneToo,Wil je de andere ook mee~terug nemen?
 Owsauri_Daycare_DaycareMan_TakeBack_NoRoom,Je hebt geen ruimte voor deze~Pokémon!
@@ -5926,8 +5926,8 @@ Owsauri_Casino_1F_Clerk_VoltorbFlip_BeforeTalking,Hallo daar, kleintje!*Je ziet 
 Owsauri_Casino_1F_Clerk_VoltorbFlip_AfterTalking,Neem maar plaats, dan zet ik~het spel voor je klaar.*Zorg ervoor dat je je~Muntenkist bij de hand hebt!
 Owsauri_Casino_1F_Clerk_CoinBuy_Question,Welkom bij het Slotwater-~Casino!*Heb je speelmunten nodig?*Het is slechts $1000 voor~50 munten, en $10000 voor~500 munten!~Wil je er een paar?
 Owsauri_Casino_1F_Clerk_CoinBuy_No,Niet? Nou, kom later nog eens~spelen!
-Owsauri_Casino_1F_Clerk_CoinBuy_Buy50Coins,Dankjewel! Hier zijn je~50 munten!
-Owsauri_Casino_1F_Clerk_CoinBuy_Buy500Coins,Dankjewel! Hier zijn je~500 munten!
+Owsauri_Casino_1F_Clerk_CoinBuy_Buy50Coins,Dank je wel! Hier zijn je~50 munten!
+Owsauri_Casino_1F_Clerk_CoinBuy_Buy500Coins,Dank je wel! Hier zijn je~500 munten!
 Owsauri_Casino_1F_Clerk_CoinBuy_NotEnoughMoney,Je kan de munten niet~betalen!
 Owsauri_Casino_1F_Clerk_CoinBuy_NoCoinCase,Je hebt geen Muntenkist!
 Owsauri_Casino_1F_Clerk_CoinBuy_Answer_50Coins,50 Munten          $1000
@@ -6473,7 +6473,7 @@ Route58_Botan_Gate_Guard,Dat bos maakt me bang!*Sommige wetenschappers in~het La
 [Route 58]
 Route58_Main_Sign_Route,Route 58~Boothoutbeek*Bloemenbloeistad - Dalburg
 Route58_Main_JrTrainerFemaleAleah_IntroMessage,Wil je tegen me vechten?*Hopelijk win ik eens een~keer!
-Route58_Main_JrTrainerFemaleAleah_OutroMessage,Uch! Ik haat verliezen!
+Route58_Main_JrTrainerFemaleAleah_OutroMessage,Oef! Ik haat verliezen!
 Route58_Main_JrTrainerFemaleAleah_DefeatMessage,Ga weg!
 Route58_Main_JrTrainerMaleGib_IntroMessage,Ik verveel me!~Dus laten we vechten, oké?
 Route58_Main_JrTrainerMaleGib_OutroMessage,Niets gaat vandaag goed!
@@ -7147,7 +7147,7 @@ Azalea_Main_Rocker,Ik hoop dat er later geen~naschokken meer komen!
 Azalea_Main_YoungGirl,Ik wil hier weg!
 Azalea_Main_Clerk_Question,Mijn winkel!*Wat moet ik nu doen?*Ik heb gelukkig nog wat~spullen kunnen redden...*Zou je me willen helpen met~de wederopbouw?
 Azalea_Main_Clerk_Store,Neem de tijd.
-Azalea_Main_Clerk_Quit,Dankjewel!
+Azalea_Main_Clerk_Quit,Dank je wel!
 Azalea_Main_MoveTutor_Question,Ik heb geld nodig voor de~reparaties.*Zou je willen dat ik een van~jouw Pokémon de techniek~Stompe klap leer voor~slechts $1000?
 Azalea_Main_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 Azalea_Main_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
@@ -7193,226 +7193,226 @@ Azalea_Gym_Pokemon_CatchLocation,Azaleadorp Gym
 Azalea_Gym_PokeballAfterChoose,Het is beter om niet~hebberig te worden...
 
 [Final Dungeon]
-FinalDungeon_SecurityDoors,This door looks like it can~be opened remotely.
+FinalDungeon_SecurityDoors,Deze deur lijkt op afstand~geopend te kunnen worden.
 
-FinalDungeon_UndergroundPath_BikerGeorge_IntroMessage,Bikes work well here.
-FinalDungeon_UndergroundPath_BikerGeorge_OutroMessage,Dang! Stripped gears!
-FinalDungeon_UndergroundPath_BikerGeorge_DefeatMessage,Get lost!
-FinalDungeon_UndergroundPath_BeautyLinda_IntroMessage,Is it cold in here?
-FinalDungeon_UndergroundPath_BeautyLinda_OutroMessage,It's over already?
-FinalDungeon_UndergroundPath_BeautyLinda_DefeatMessage,Nope, it's not cold in here.~It's just you.
-FinalDungeon_UndergroundPath_BirdKeeperTimothy_IntroMessage,Wrong way!*You suck!
-FinalDungeon_UndergroundPath_BirdKeeperTimothy_OutroMessage,Out of power!
-FinalDungeon_UndergroundPath_BirdKeeperTimothy_DefeatMessage,You still suck for coming~this way.
-FinalDungeon_UndergroundPath_BeautySarah_IntroMessage,Getting tired?
-FinalDungeon_UndergroundPath_BeautySarah_OutroMessage,Oh, you little brute!
-FinalDungeon_UndergroundPath_BeautySarah_DefeatMessage,That battle put my Pokémon~to sleep...
-FinalDungeon_UndergroundPath_BirdKeeperJacob_IntroMessage,I wish I had wings...
-FinalDungeon_UndergroundPath_BirdKeeperJacob_OutroMessage,The wind turned!
-FinalDungeon_UndergroundPath_BirdKeeperJacob_DefeatMessage,I wish to explore the sky.
-FinalDungeon_UndergroundPath_JrTrainerFemaleMarie_IntroMessage,Yeah, yeah, yeah.
-FinalDungeon_UndergroundPath_JrTrainerFemaleMarie_OutroMessage,Just messed up!
-FinalDungeon_UndergroundPath_JrTrainerFemaleMarie_DefeatMessage,You're still here?*But you won already!
-FinalDungeon_UndergroundPath_JrTrainerFemaleAnnabel_IntroMessage,Concentrate your mind.
-FinalDungeon_UndergroundPath_JrTrainerFemaleAnnabel_OutroMessage,Wow, you totally won!
-FinalDungeon_UndergroundPath_JrTrainerFemaleAnnabel_DefeatMessage,In a parallel universe, I won.
-FinalDungeon_UndergroundPath_JrTrainerFemaleMillie_IntroMessage,Wow, it's the Rijon champ!
-FinalDungeon_UndergroundPath_JrTrainerFemaleMillie_OutroMessage,Not enough!
-FinalDungeon_UndergroundPath_JrTrainerFemaleMillie_DefeatMessage,I saw that coming.
-FinalDungeon_UndergroundPath_JrTrainerFemaleTina_IntroMessage,Watch out!
-FinalDungeon_UndergroundPath_JrTrainerFemaleTina_OutroMessage,Ohh, I lost!
-FinalDungeon_UndergroundPath_JrTrainerFemaleTina_DefeatMessage,Don't come any closer!
-FinalDungeon_UndergroundPath_BirdKeeperJosh_IntroMessage,Spread your wings, comrades!
-FinalDungeon_UndergroundPath_BirdKeeperJosh_OutroMessage,Failure...
-FinalDungeon_UndergroundPath_BirdKeeperJosh_DefeatMessage,I'll fly higher next time!
+FinalDungeon_UndergroundPath_BikerGeorge_IntroMessage,Fietsen werken hier prima.
+FinalDungeon_UndergroundPath_BikerGeorge_OutroMessage,Verdorie! Doorgedraaide~versnellingen!
+FinalDungeon_UndergroundPath_BikerGeorge_DefeatMessage,Scheer je weg!
+FinalDungeon_UndergroundPath_BeautyLinda_IntroMessage,Is het hier koud?
+FinalDungeon_UndergroundPath_BeautyLinda_OutroMessage,Is het nu al voorbij?
+FinalDungeon_UndergroundPath_BeautyLinda_DefeatMessage,Nee, het is hier niet koud.~Het komt door jou.
+FinalDungeon_UndergroundPath_BirdKeeperTimothy_IntroMessage,Verkeerde kant op!*Je bent een sukkel!
+FinalDungeon_UndergroundPath_BirdKeeperTimothy_OutroMessage,Geen energie meer!
+FinalDungeon_UndergroundPath_BirdKeeperTimothy_DefeatMessage,Je bent nog steeds een~sukkel om hierheen te komen.
+FinalDungeon_UndergroundPath_BeautySarah_IntroMessage,Word je al moe?
+FinalDungeon_UndergroundPath_BeautySarah_OutroMessage,Oh, jij kleine bruut!
+FinalDungeon_UndergroundPath_BeautySarah_DefeatMessage,Dat gevecht heeft mijn~Pokémon in slaap gesust...
+FinalDungeon_UndergroundPath_BirdKeeperJacob_IntroMessage,Ik wou dat ik vleugels had...
+FinalDungeon_UndergroundPath_BirdKeeperJacob_OutroMessage,De wind is gedraaid!
+FinalDungeon_UndergroundPath_BirdKeeperJacob_DefeatMessage,Ik droom ervan de lucht te~verkennen.
+FinalDungeon_UndergroundPath_JrTrainerFemaleMarie_IntroMessage,Ja, ja, ja.
+FinalDungeon_UndergroundPath_JrTrainerFemaleMarie_OutroMessage,Gewoon verprutst!
+FinalDungeon_UndergroundPath_JrTrainerFemaleMarie_DefeatMessage,Ben je er nog steeds?*Maar je hebt al gewonnen!
+FinalDungeon_UndergroundPath_JrTrainerFemaleAnnabel_IntroMessage,Concentreer je.
+FinalDungeon_UndergroundPath_JrTrainerFemaleAnnabel_OutroMessage,Wauw, je hebt dik gewonnen!
+FinalDungeon_UndergroundPath_JrTrainerFemaleAnnabel_DefeatMessage,In een parallel universum~won ik.
+FinalDungeon_UndergroundPath_JrTrainerFemaleMillie_IntroMessage,Wauw, het is de kampioen van~Rijon!
+FinalDungeon_UndergroundPath_JrTrainerFemaleMillie_OutroMessage,Niet genoeg!
+FinalDungeon_UndergroundPath_JrTrainerFemaleMillie_DefeatMessage,Die zag ik aankomen.
+FinalDungeon_UndergroundPath_JrTrainerFemaleTina_IntroMessage,Kijk uit!
+FinalDungeon_UndergroundPath_JrTrainerFemaleTina_OutroMessage,Ohh, ik heb verloren!
+FinalDungeon_UndergroundPath_JrTrainerFemaleTina_DefeatMessage,Kom niet dichterbij!
+FinalDungeon_UndergroundPath_BirdKeeperJosh_IntroMessage,Spreid jullie vleugels,~kameraden!
+FinalDungeon_UndergroundPath_BirdKeeperJosh_OutroMessage,Gefaald...
+FinalDungeon_UndergroundPath_BirdKeeperJosh_DefeatMessage,De volgende keer vlieg ik~hoger!
 
-FinalDungeon_OutdoorPath_BirdKeeperTalon_IntroMessage,My Pokémon are filled with~barbaric rage.
-FinalDungeon_OutdoorPath_BirdKeeperTalon_OutroMessage,Not good enough!
-FinalDungeon_OutdoorPath_BirdKeeperTalon_DefeatMessage,How could we lose?~We're all super tough.
-FinalDungeon_OutdoorPath_BirdKeeperZane_IntroMessage,We don't kid around here, kid.
-FinalDungeon_OutdoorPath_BirdKeeperZane_OutroMessage,Not ready yet!
-FinalDungeon_OutdoorPath_BirdKeeperZane_DefeatMessage,You proved your worth.
-FinalDungeon_OutdoorPath_BirdKeeperAnthony_IntroMessage,Hey hey hey!
-FinalDungeon_OutdoorPath_BirdKeeperAnthony_OutroMessage,Aww, bummer!
-FinalDungeon_OutdoorPath_BirdKeeperAnthony_DefeatMessage,Shoo!
-FinalDungeon_OutdoorPath_BirdKeeperBenson_IntroMessage,Guess how high my bird can~fly!
-FinalDungeon_OutdoorPath_BirdKeeperBenson_OutroMessage,Shot down in flames!
-FinalDungeon_OutdoorPath_BirdKeeperBenson_DefeatMessage,Guess not high enough...
-FinalDungeon_OutdoorPath_BirdKeeperRobin_IntroMessage,Hit him with your stick!
-FinalDungeon_OutdoorPath_BirdKeeperRobin_OutroMessage,Why! Why'd I lose?
-FinalDungeon_OutdoorPath_BirdKeeperRobin_DefeatMessage,He needs a stronger stick.
-FinalDungeon_OutdoorPath_BirdKeeperLucas_IntroMessage,Seeing a pattern here?
-FinalDungeon_OutdoorPath_BirdKeeperLucas_OutroMessage,I knew it!
-FinalDungeon_OutdoorPath_BirdKeeperLucas_DefeatMessage,You're a winner!*Get it?*Ha...?
-FinalDungeon_OutdoorPath_BikerDaniel_IntroMessage,C'mon, c'mon.~Let's go, let's go, let's go!
-FinalDungeon_OutdoorPath_BikerDaniel_OutroMessage,Arrg! Lost! Get lost!
-FinalDungeon_OutdoorPath_BikerDaniel_DefeatMessage,What, what, what?*What do you want?
-FinalDungeon_OutdoorPath_BikerGeoff_IntroMessage,Don't think about getting~inside.
-FinalDungeon_OutdoorPath_BikerGeoff_OutroMessage,What? You?!
-FinalDungeon_OutdoorPath_BikerGeoff_DefeatMessage,They got a new leader.~Whatever, go ahead.
-FinalDungeon_OutdoorPath_BikerJoel_IntroMessage,Hahaha, I stopped you!
-FinalDungeon_OutdoorPath_BikerJoel_OutroMessage,Blown away!
-FinalDungeon_OutdoorPath_BikerJoel_DefeatMessage,Enter at your own risk!
+FinalDungeon_OutdoorPath_BirdKeeperTalon_IntroMessage,Mijn Pokémon zijn vervuld~van barbaarse woede.
+FinalDungeon_OutdoorPath_BirdKeeperTalon_OutroMessage,Niet goed genoeg!
+FinalDungeon_OutdoorPath_BirdKeeperTalon_DefeatMessage,Hoe konden we verliezen?~We zijn allemaal supersterk.
+FinalDungeon_OutdoorPath_BirdKeeperZane_IntroMessage,We dollen hier niet wat af,~kleintje.
+FinalDungeon_OutdoorPath_BirdKeeperZane_OutroMessage,Daar was ik nog niet klaar~voor!
+FinalDungeon_OutdoorPath_BirdKeeperZane_DefeatMessage,Je hebt je waarde bewezen.
+FinalDungeon_OutdoorPath_BirdKeeperAnthony_IntroMessage,Hé hé hé!
+FinalDungeon_OutdoorPath_BirdKeeperAnthony_OutroMessage,Aww, balen!
+FinalDungeon_OutdoorPath_BirdKeeperAnthony_DefeatMessage,Hup, wegwezen!
+FinalDungeon_OutdoorPath_BirdKeeperBenson_IntroMessage,Raad eens hoe hoog mijn vogel~kan vliegen!
+FinalDungeon_OutdoorPath_BirdKeeperBenson_OutroMessage,In vlammen neergestort!
+FinalDungeon_OutdoorPath_BirdKeeperBenson_DefeatMessage,Blijkbaar niet hoog genoeg...
+FinalDungeon_OutdoorPath_BirdKeeperRobin_IntroMessage,Sla hem met je stok!
+FinalDungeon_OutdoorPath_BirdKeeperRobin_OutroMessage,Waarom?! Waarom verloor ik?
+FinalDungeon_OutdoorPath_BirdKeeperRobin_DefeatMessage,Hij heeft een sterkere stok~nodig.
+FinalDungeon_OutdoorPath_BirdKeeperLucas_IntroMessage,Zie je hier een patroon?
+FinalDungeon_OutdoorPath_BirdKeeperLucas_OutroMessage,Ik wist het!
+FinalDungeon_OutdoorPath_BirdKeeperLucas_DefeatMessage,Je bent een winnaar!*Snap je hem?*Ha...?
+FinalDungeon_OutdoorPath_BikerDaniel_IntroMessage,Kom op, kom op.~Vooruit, vooruit, vooruit!
+FinalDungeon_OutdoorPath_BikerDaniel_OutroMessage,Argh! Verloren! Ophoepelen!
+FinalDungeon_OutdoorPath_BikerDaniel_DefeatMessage,Wat, wat, wat?*Wat moet je?
+FinalDungeon_OutdoorPath_BikerGeoff_IntroMessage,Denk er maar niet aan om~binnen te komen.
+FinalDungeon_OutdoorPath_BikerGeoff_OutroMessage,Wat? Jij?!
+FinalDungeon_OutdoorPath_BikerGeoff_DefeatMessage,Ze hebben een nieuwe leider.*Ach wat maakt het ook uit,~ga maar door.
+FinalDungeon_OutdoorPath_BikerJoel_IntroMessage,Hahaha, ik heb je gestopt!
+FinalDungeon_OutdoorPath_BikerJoel_OutroMessage,Weggeblazen!
+FinalDungeon_OutdoorPath_BikerJoel_DefeatMessage,Betreden op eigen risico!
 
-FinalDungeon_MainBuilding1F_RocketGruntHorace_IntroMessage,Oh no, not you again.
-FinalDungeon_MainBuilding1F_RocketGruntHorace_OutroMessage,Why...?
-FinalDungeon_MainBuilding1F_RocketGruntHorace_DefeatMessage,Fine, you can access that~room.
-FinalDungeon_MainBuilding1F_RocketGruntColton_IntroMessage,We will succeed this time.
-FinalDungeon_MainBuilding1F_RocketGruntColton_OutroMessage,Oww! Beaten!
-FinalDungeon_MainBuilding1F_RocketGruntColton_DefeatMessage,Get a life!
-FinalDungeon_MainBuilding1F_RocketGruntJoanne_IntroMessage,Intruder alert!
-FinalDungeon_MainBuilding1F_RocketGruntJoanne_OutroMessage,I can't do it!
-FinalDungeon_MainBuilding1F_RocketGruntJoanne_DefeatMessage,Our new leader will stop you!
-FinalDungeon_MainBuilding1F_RocketGruntEmma_IntroMessage,Why did you come here?
-FinalDungeon_MainBuilding1F_RocketGruntEmma_OutroMessage,This won't do!
-FinalDungeon_MainBuilding1F_RocketGruntEmma_DefeatMessage,Please stop!~I have three kids to feed.
-FinalDungeon_MainBuilding1F_RocketGruntFinn_IntroMessage,No more fooling around!
-FinalDungeon_MainBuilding1F_RocketGruntFinn_OutroMessage,Burnt!
-FinalDungeon_MainBuilding1F_RocketGruntFinn_DefeatMessage,You're not going to get away~with this, brat!
+FinalDungeon_MainBuilding1F_RocketGruntHorace_IntroMessage,Oh nee, jij weer.
+FinalDungeon_MainBuilding1F_RocketGruntHorace_OutroMessage,Waarom...?
+FinalDungeon_MainBuilding1F_RocketGruntHorace_DefeatMessage,Best, je hebt nu toegang tot~die kamer.
+FinalDungeon_MainBuilding1F_RocketGruntColton_IntroMessage,Dit keer gaat het ons lukken.
+FinalDungeon_MainBuilding1F_RocketGruntColton_OutroMessage,Auw! Verslagen!
+FinalDungeon_MainBuilding1F_RocketGruntColton_DefeatMessage,Zoek een leven!
+FinalDungeon_MainBuilding1F_RocketGruntJoanne_IntroMessage,Indringer-alarm!
+FinalDungeon_MainBuilding1F_RocketGruntJoanne_OutroMessage,Ik kan het niet!
+FinalDungeon_MainBuilding1F_RocketGruntJoanne_DefeatMessage,Onze nieuwe leider zal je~stoppen!
+FinalDungeon_MainBuilding1F_RocketGruntEmma_IntroMessage,Waarom ben je hierheen~gekomen?
+FinalDungeon_MainBuilding1F_RocketGruntEmma_OutroMessage,Dit gaat niet goed!
+FinalDungeon_MainBuilding1F_RocketGruntEmma_DefeatMessage,Stop alsjeblieft!*Ik heb drie kinderen te~voeden.
+FinalDungeon_MainBuilding1F_RocketGruntFinn_IntroMessage,Genoeg gedold!
+FinalDungeon_MainBuilding1F_RocketGruntFinn_OutroMessage,Verpletterd!
+FinalDungeon_MainBuilding1F_RocketGruntFinn_DefeatMessage,Je gaat hier niet ongestraft~mee wegkomen, snotneus!
 
-FinalDungeon_SmallRoom0_YoungsterNoah_IntroMessage,Nuh-uh-uh...
-FinalDungeon_SmallRoom0_YoungsterNoah_OutroMessage,Ack!
-FinalDungeon_SmallRoom0_YoungsterNoah_DefeatMessage,They pay me well for failing.*Sweet!
-FinalDungeon_SmallRoom0_LassJannet_IntroMessage,Second time is the charm!
-FinalDungeon_SmallRoom0_LassJannet_OutroMessage,Oh no!
-FinalDungeon_SmallRoom0_LassJannet_DefeatMessage,That disk has to be worth~more than they're paying me.
-FinalDungeon_SmallRoom0_NextToItemLass,I don't feel like fighting~you.
+FinalDungeon_SmallRoom0_YoungsterNoah_IntroMessage,Echt niet...
+FinalDungeon_SmallRoom0_YoungsterNoah_OutroMessage,Ah!
+FinalDungeon_SmallRoom0_YoungsterNoah_DefeatMessage,Ze betalen me goed om te~falen.*Lekker hoor!
+FinalDungeon_SmallRoom0_LassJannet_IntroMessage,Driemaal is scheepsrecht!
+FinalDungeon_SmallRoom0_LassJannet_OutroMessage,Oh nee!
+FinalDungeon_SmallRoom0_LassJannet_DefeatMessage,Die schijf moet meer waard~zijn dan wat ze mij betalen.
+FinalDungeon_SmallRoom0_NextToItemLass,Ik heb geen zin om tegen je~te vechten.
 
-FinalDungeon_MainBuildingB1F_RocketGruntJuniper_IntroMessage,Don't take that, it's mine!
-FinalDungeon_MainBuildingB1F_RocketGruntJuniper_OutroMessage,What? I lost? No!
-FinalDungeon_MainBuildingB1F_RocketGruntJuniper_DefeatMessage,Fine, I'll steal it from you~later.
-FinalDungeon_MainBuildingB1F_RocketGruntChip_IntroMessage,Get out of the way!
-FinalDungeon_MainBuildingB1F_RocketGruntChip_OutroMessage,Oof! Taken down!
-FinalDungeon_MainBuildingB1F_RocketGruntChip_DefeatMessage,We've been stronger ever~since our new leader took~over.
+FinalDungeon_MainBuildingB1F_RocketGruntJuniper_IntroMessage,Niet pakken, die is van mij!
+FinalDungeon_MainBuildingB1F_RocketGruntJuniper_OutroMessage,Wat? Heb ik verloren? Nee!
+FinalDungeon_MainBuildingB1F_RocketGruntJuniper_DefeatMessage,Best, ik steel hem later wel~van je terug.
+FinalDungeon_MainBuildingB1F_RocketGruntChip_IntroMessage,Opzij!
+FinalDungeon_MainBuildingB1F_RocketGruntChip_OutroMessage,Oef! Onderuitgehaald!
+FinalDungeon_MainBuildingB1F_RocketGruntChip_DefeatMessage,We zijn een stuk sterker~sinds onze nieuwe leider de~leiding heeft overgenomen.
 
-FinalDungeon_MainBuildingB2F_RocketGruntGraham_IntroMessage,I heard you coming.~Ready to fight?
-FinalDungeon_MainBuildingB2F_RocketGruntGraham_OutroMessage,I surrender!
-FinalDungeon_MainBuildingB2F_RocketGruntGraham_DefeatMessage,You'll never find the boss,~this place has over 20 rooms.
+FinalDungeon_MainBuildingB2F_RocketGruntGraham_IntroMessage,Ik hoorde je al aankomen.~Klaar om te vechten?
+FinalDungeon_MainBuildingB2F_RocketGruntGraham_OutroMessage,Ik geef me over!
+FinalDungeon_MainBuildingB2F_RocketGruntGraham_DefeatMessage,Je zult de baas nooit~vinden, deze plek heeft meer~dan 20 kamers.
 
-FinalDungeon_MainBuildingB3F_CounterfeitMaker,I'm making counterfeit Master~Balls.
-FinalDungeon_MainBuildingB3F_LostGuy,I'm lost... help.
-FinalDungeon_MainBuildingB3F_CleaningGuy,I'm done cleaning...
-FinalDungeon_MainBuildingB3F_SailorSal_IntroMessage,Team Rocket hired us!
-FinalDungeon_MainBuildingB3F_SailorSal_OutroMessage,Wow!
-FinalDungeon_MainBuildingB3F_SailorSal_DefeatMessage,We transfer goods across~the sea.
-FinalDungeon_MainBuildingB3F_SailorKenneth_IntroMessage,I need a better hourly rate!
-FinalDungeon_MainBuildingB3F_SailorKenneth_OutroMessage,I was just careless!
-FinalDungeon_MainBuildingB3F_SailorKenneth_DefeatMessage,I heard the Rockets have a~new leader!
+FinalDungeon_MainBuildingB3F_CounterfeitMaker,Ik maak nep-MeesterBallen.
+FinalDungeon_MainBuildingB3F_LostGuy,Ik ben verdwaald... help.
+FinalDungeon_MainBuildingB3F_CleaningGuy,Ik ben klaar met~schoonmaken...
+FinalDungeon_MainBuildingB3F_SailorSal_IntroMessage,Team Rocket heeft ons~ingehuurd!
+FinalDungeon_MainBuildingB3F_SailorSal_OutroMessage,Wauw!
+FinalDungeon_MainBuildingB3F_SailorSal_DefeatMessage,Wij vervoeren goederen over~zee.
+FinalDungeon_MainBuildingB3F_SailorKenneth_IntroMessage,Ik heb een beter uurloon~nodig!
+FinalDungeon_MainBuildingB3F_SailorKenneth_OutroMessage,Ik was gewoon onvoorzichtig!
+FinalDungeon_MainBuildingB3F_SailorKenneth_DefeatMessage,Ik hoorde dat de Rockets een~nieuwe leider hebben!
 
-FinalDungeon_SmallRoom1_Rocket,New here?*We captured one of the~legendaries.*Now we must find this one.
+FinalDungeon_SmallRoom1_Rocket,Nieuw hier?*We hebben een van de~Legendarische Pokémon~gevangen.*Nu moeten we nog deze vinden.
 
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntBruce_IntroMessage,Oh, you made a wrong turn?
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntBruce_OutroMessage,I blew it!
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntBruce_DefeatMessage,Darn it all!*My associates won't stand~for this.
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntHarley_IntroMessage,UGH!
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntHarley_OutroMessage,Owch, pain!
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntHarley_DefeatMessage,If only I knew what I was~doing...
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntClint_IntroMessage,Team Rocket's looking for a~fossil.*It's an ancient Pokémon!
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntClint_OutroMessage,Urgh! Now I'm mad!
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntClint_DefeatMessage,Those fossils will make us~rich!
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_IntroMessage,Get out of my way!
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_OutroMessage,So, you are good.
-FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_DefeatMessage,Stop getting near me!
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntBruce_IntroMessage,Oh, verkeerde afslag~genomen?
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntBruce_OutroMessage,Ik heb het verprutst!
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntBruce_DefeatMessage,Verdraaid nog aan toe!*Mijn maten pikken dit niet.
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntHarley_IntroMessage,OEF!
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntHarley_OutroMessage,Auw, dat doet pijn!
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntHarley_DefeatMessage,Wist ik maar waar ik mee~bezig was...
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntClint_IntroMessage,Team Rocket zoekt naar een~fossiel.*Het is een oeroude Pokémon!
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntClint_OutroMessage,Oef! Nu ben ik kwaad!
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntClint_DefeatMessage,Die fossielen gaan ons rijk~maken!
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_IntroMessage,Ga uit mijn weg!
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_OutroMessage,Nou, je bent goed hierin.
+FinalDungeon_UndergroundCaveMaze1F_RocketGruntKent_DefeatMessage,Blijf uit mijn buurt!
 
-FinalDungeon_SmallCave_Telekinetic,I think the trainer called~Slick would love that guy's~Crobat!
-FinalDungeon_SmallCave_CrobatTrade_Question,Hello there!*Do you want to trade your~Rhyhorn for Crobat?
-FinalDungeon_SmallCave_CrobatTrade_Answer_No,Well, if you don't want to...
-FinalDungeon_SmallCave_CrobatTrade_AfterTrade,Now, if only I had a protector...
+FinalDungeon_SmallCave_Telekinetic,Ik denk dat de trainer~genaamd Slick dol zou zijn~op de Crobat van die man!
+FinalDungeon_SmallCave_CrobatTrade_Question,Hallo daar!*Wil je jouw Rhyhorn ruilen~voor mijn Crobat?
+FinalDungeon_SmallCave_CrobatTrade_Answer_No,Nou ja, als je niet wilt...
+FinalDungeon_SmallCave_CrobatTrade_AfterTrade,Nu nog een Beschermer zien~te vinden...
 FinalDungeon_SmallCave_CrobatTrade_TradeSuccess,Oké, verbind nu de kabel, zo!
-FinalDungeon_SmallCave_CrobatTrade_TradeFail,Hmmm? This isn't Rhyhorn.*Think of me when you get one.
-FinalDungeon_SmallCave_CrobatTrade_CatchMethod,Received in a trade in the
-FinalDungeon_SmallCave_CrobatTrade_CatchLocation,Final Dungeon
+FinalDungeon_SmallCave_CrobatTrade_TradeFail,Hmmm? Dit is geen Rhyhorn.*Denk aan mij als je er een~vindt.
+FinalDungeon_SmallCave_CrobatTrade_CatchMethod,Ontvangen via een ruil bij de
+FinalDungeon_SmallCave_CrobatTrade_CatchLocation,Laatste Uitdaging
 
-FinalDungeon_SmallRoom2_GentlemanJones_IntroMessage,I don't have time for your~garbage.
-FinalDungeon_SmallRoom2_GentlemanJones_OutroMessage,I must salute you!
-FinalDungeon_SmallRoom2_GentlemanJones_DefeatMessage,Thanks for the lesson.
-FinalDungeon_SmallRoom2_LassSummer_IntroMessage,I need to loosen up!
-FinalDungeon_SmallRoom2_LassSummer_OutroMessage,Take it easy!
-FinalDungeon_SmallRoom2_LassSummer_DefeatMessage,Battling relaxes me!
+FinalDungeon_SmallRoom2_GentlemanJones_IntroMessage,Ik heb geen tijd voor jouw~onzin.
+FinalDungeon_SmallRoom2_GentlemanJones_OutroMessage,Ik neem mijn petje voor je~af!
+FinalDungeon_SmallRoom2_GentlemanJones_DefeatMessage,Bedankt voor de les.
+FinalDungeon_SmallRoom2_LassSummer_IntroMessage,Ik moet even stoom afblazen!
+FinalDungeon_SmallRoom2_LassSummer_OutroMessage,Rustig aan!
+FinalDungeon_SmallRoom2_LassSummer_DefeatMessage,Vechten werkt ontspannend!
 
-FinalDungeon_UndergroundCaveMazeB1F_HikerJohnny_IntroMessage,How did I end up here?
-FinalDungeon_UndergroundCaveMazeB1F_HikerJohnny_OutroMessage,Doh! You win!
-FinalDungeon_UndergroundCaveMazeB1F_HikerJohnny_DefeatMessage,I'm a hiker, and even I got~lost!
-FinalDungeon_UndergroundCaveMazeB1F_HikerTed_IntroMessage,I don't like it here.
-FinalDungeon_UndergroundCaveMazeB1F_HikerTed_OutroMessage,Ease up! What am I doing?~Which way is out?
-FinalDungeon_UndergroundCaveMazeB1F_HikerTed_DefeatMessage,Do you have a map?
-FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleQuinn_IntroMessage,I like to help!
-FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleQuinn_OutroMessage,I'm out of Pokémon!
-FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleQuinn_DefeatMessage,I love helping, okay?
-FinalDungeon_UndergroundCaveMazeB1F_HikerMorgan_IntroMessage,WRONG WAY!
-FinalDungeon_UndergroundCaveMazeB1F_HikerMorgan_OutroMessage,I give!
-FinalDungeon_UndergroundCaveMazeB1F_HikerMorgan_DefeatMessage,LEAVE!
-FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_IntroMessage,And the family attacks!
-FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_OutroMessage,You play hard!
-FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_DefeatMessage,That was just too much!
-FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleYolanda_IntroMessage,Watch where you're going!
-FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleYolanda_OutroMessage,It was too dark!
-FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleYolanda_DefeatMessage,I'm scared!
-FinalDungeon_UndergroundCaveMazeB1F_PokeManiacTroy_IntroMessage,Pokémon, fight!~Ready, go!
+FinalDungeon_UndergroundCaveMazeB1F_HikerJohnny_IntroMessage,Hoe ben ik hier beland?
+FinalDungeon_UndergroundCaveMazeB1F_HikerJohnny_OutroMessage,Oei! Jij wint!
+FinalDungeon_UndergroundCaveMazeB1F_HikerJohnny_DefeatMessage,Ik ben een wandelaar, maar~zelfs ik ben verdwaald!
+FinalDungeon_UndergroundCaveMazeB1F_HikerTed_IntroMessage,Ik vind het hier niet leuk.
+FinalDungeon_UndergroundCaveMazeB1F_HikerTed_OutroMessage,Kalm aan! Wat ben ik aan het~doen? Waar is de uitgang?
+FinalDungeon_UndergroundCaveMazeB1F_HikerTed_DefeatMessage,Heb je een kaart voor me?
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleQuinn_IntroMessage,Ik help graag!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleQuinn_OutroMessage,Mijn Pokémon zijn uitgeteld!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleQuinn_DefeatMessage,Ik hou van helpen, oké?
+FinalDungeon_UndergroundCaveMazeB1F_HikerMorgan_IntroMessage,VERKEERDE KANT OP!
+FinalDungeon_UndergroundCaveMazeB1F_HikerMorgan_OutroMessage,Ik geef op!
+FinalDungeon_UndergroundCaveMazeB1F_HikerMorgan_DefeatMessage,VERTREK!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_IntroMessage,En de familie valt aan!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_OutroMessage,Jij speelt hard spel!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleCaitlyn_DefeatMessage,Dat was me gewoon te veel!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleYolanda_IntroMessage,Kijk uit waar je loopt!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleYolanda_OutroMessage,Het was te donker!
+FinalDungeon_UndergroundCaveMazeB1F_JrTrainerFemaleYolanda_DefeatMessage,Ik ben bang!
+FinalDungeon_UndergroundCaveMazeB1F_PokeManiacTroy_IntroMessage,Pokémon, vecht!~Klaar, start!
 FinalDungeon_UndergroundCaveMazeB1F_PokeManiacTroy_OutroMessage,Game over!
-FinalDungeon_UndergroundCaveMazeB1F_PokeManiacTroy_DefeatMessage,How about fistfight instead?
+FinalDungeon_UndergroundCaveMazeB1F_PokeManiacTroy_DefeatMessage,Zullen we anders gewoon gaan~boksen?
 
-FinalDungeon_SmallRoom3_FishermanAstor_IntroMessage,I'm on the clock!
-FinalDungeon_SmallRoom3_FishermanAstor_OutroMessage,I'm all out!
-FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,I get paid to just sit here.
+FinalDungeon_SmallRoom3_FishermanAstor_IntroMessage,Ik ben aan het werk!
+FinalDungeon_SmallRoom3_FishermanAstor_OutroMessage,Alles is op!
+FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,Ik word betaald om hier~gewoon te zitten.
 
-FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,What have I done?*I trapped such a graceful~Pokémon!*Please take this far far away~and let it live in peace.
+FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,Wat heb ik gedaan?*Ik heb zo'n sierlijke Pokémon~gevangen genomen!*Neem hem alsjeblieft ver~hier vandaan en laat hem in~vrede leven.
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Gekregen van een Rocket Rekruut bij de
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,Laatste Uitdaging
-FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Now just look at that, this~doesn't deserve to be~trapped here!*It's a shame those~Master Balls can be abused~this much...
-FinalDungeon_JohtoLegendaryRoom_Rocket_TalkAgain,Don't tell anyone about this,~this is our secret.
+FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Kijk dan, hij verdient het~niet om hier opgesloten te~zitten!*Het is een schande dat die~MeesterBallen zo misbruikt~kunnen worden...
+FinalDungeon_JohtoLegendaryRoom_Rocket_TalkAgain,Vertel dit aan niemand, dit~is ons geheim.
 
-FinalDungeon_SmallRoom4_GentlemanSilvester_IntroMessage,12,981...*12,982...*... you made me lose count of~these!
-FinalDungeon_SmallRoom4_GentlemanSilvester_OutroMessage,Wow!
-FinalDungeon_SmallRoom4_GentlemanSilvester_DefeatMessage,Please, leave me alone!
+FinalDungeon_SmallRoom4_GentlemanSilvester_IntroMessage,12.981...*12.982...*... door jou ben ik de tel~kwijtgeraakt!
+FinalDungeon_SmallRoom4_GentlemanSilvester_OutroMessage,Wauw!
+FinalDungeon_SmallRoom4_GentlemanSilvester_DefeatMessage,Laat me alsjeblieft met rust!
 
 FinalDungeon_SmallRoom5_SailorSam_IntroMessage,HALT!
-FinalDungeon_SmallRoom5_SailorSam_OutroMessage,Okay, you're not bad.
-FinalDungeon_SmallRoom5_SailorSam_DefeatMessage,Can I work for you instead?
+FinalDungeon_SmallRoom5_SailorSam_OutroMessage,Oké, je bent niet slecht.
+FinalDungeon_SmallRoom5_SailorSam_DefeatMessage,Kan ik anders voor jou komen~werken?
 
-FinalDungeon_SmallRoom7_SailorTibby_IntroMessage,I like feisty kids like you!
-FinalDungeon_SmallRoom7_SailorTibby_OutroMessage,Argh! Lost it!
-FinalDungeon_SmallRoom7_SailorTibby_DefeatMessage,You will not be able to get to~our boss!
+FinalDungeon_SmallRoom7_SailorTibby_IntroMessage,Ik mag pittige kinderen~zoals jij wel!
+FinalDungeon_SmallRoom7_SailorTibby_OutroMessage,Argh! Verloren!
+FinalDungeon_SmallRoom7_SailorTibby_DefeatMessage,Het zal je niet lukken om bij~onze baas te komen!
 
-FinalDungeon_Lobby_HealLady_Intro,Wow, you made it this far!*You should rest.
-FinalDungeon_Lobby_HealLady_Outro,Keep it up!
-FinalDungeon_Lobby_Shopkeeper_Question,It may not have been the best~of ideas to open a shop here...~but I have very good items!*How may I help you?
-FinalDungeon_Lobby_Shopkeeper_AfterQuit,Thank you!
+FinalDungeon_Lobby_HealLady_Intro,Wauw, je bent al zover~gekomen!*Je zou wat moeten rusten.
+FinalDungeon_Lobby_HealLady_Outro,Zet hem op!
+FinalDungeon_Lobby_Shopkeeper_Question,Het was misschien niet het~beste idee om hier een winkel~te openen... maar ik heb veel~mooie voorwerpen!*Waarmee kan ik je helpen?
+FinalDungeon_Lobby_Shopkeeper_AfterQuit,Dank je wel!
 
-FinalDungeon_Island_RocketGruntArnold_IntroMessage,Saving the best for last!
-FinalDungeon_Island_RocketGruntArnold_OutroMessage,Ayaya!
-FinalDungeon_Island_RocketGruntArnold_DefeatMessage,You must've given them 'roids!
-FinalDungeon_Island_RocketGruntCaleb_IntroMessage,Heh, can't find a way through?
-FinalDungeon_Island_RocketGruntCaleb_OutroMessage,Burned again!
-FinalDungeon_Island_RocketGruntCaleb_DefeatMessage,Haha, I love those fake trees!
-FinalDungeon_Island_RocketGruntGustav_IntroMessage,This god's fossil will make me~rich!
-FinalDungeon_Island_RocketGruntGustav_OutroMessage,No!
-FinalDungeon_Island_RocketGruntGustav_DefeatMessage,Don't kill me, just take it!
-FinalDungeon_Island_PaletteRed_IntroMessage,Oh hey, Black told me all about~you.*Since you defeated and~humiliated Giovanni, his old~crew defected to our cause.*So, I really have you to thank~for my Rocket army.*And you know?*That works for me.
-FinalDungeon_Island_PaletteRed_OutroMessage,No! Impossible! They are max~level!
-FinalDungeon_Island_PaletteRed_AfterDefeat1,...*You've never been west of~Rijon, have you?*You have no idea what power~lies out there.*You think this will put a stop~to my plan?*You can't fathom the world I~want to create!*Humanity has lost its way and~only the Guardians can show~us the path to salvation.*I'll take my loyal Rockets and~I'll transform them into~something better!*Something with a purpose!
-FinalDungeon_Island_PaletteRed_AfterDefeat2,What was that?*Sounds like it came from the~cave.
-FinalDungeon_Island_PaletteRed_AfterDefeat3,You can deal with whatever~that is.*Take whatever you want~from inside, I have a higher~purpose now.*I won't be seeing you again.
+FinalDungeon_Island_RocketGruntArnold_IntroMessage,Het beste voor het laatst~bewaard!
+FinalDungeon_Island_RocketGruntArnold_OutroMessage,Aiaia!
+FinalDungeon_Island_RocketGruntArnold_DefeatMessage,Je hebt ze zeker steroïden~gegeven!
+FinalDungeon_Island_RocketGruntCaleb_IntroMessage,Heh, kun je er niet doorheen?
+FinalDungeon_Island_RocketGruntCaleb_OutroMessage,Weer verpletterd!
+FinalDungeon_Island_RocketGruntCaleb_DefeatMessage,Haha, ik hou van die~nepbomen!
+FinalDungeon_Island_RocketGruntGustav_IntroMessage,Het fossiel van deze god~gaat me rijk maken!
+FinalDungeon_Island_RocketGruntGustav_OutroMessage,Nee!
+FinalDungeon_Island_RocketGruntGustav_DefeatMessage,Vermoord me niet, neem het~gewoon mee!
+FinalDungeon_Island_PaletteRed_IntroMessage,Oh hé, Zwart heeft me alles~over je verteld.*Sinds jij Giovanni hebt~verslagen en vernederd, is~zijn oude ploeg naar ons~overgelopen.*Dus ik heb jou eigenlijk te~danken voor mijn Rocket-~leger.*En weet je?*Dat vind ik wel best.
+FinalDungeon_Island_PaletteRed_OutroMessage,Nee! Onmogelijk! Ze zijn van~het hoogste niveau!
+FinalDungeon_Island_PaletteRed_AfterDefeat1,...*Je bent nog nooit ten westen~van Rijon geweest, of wel?*Je hebt geen idee welke~kracht daar schuilt.*Denk je dat dit mijn plan~zal stoppen?*Je kunt de wereld die ik wil~creëren niet eens bevatten!*De mensheid is de weg kwijt~en alleen de Hoeders kunnen~ons het pad naar verlossing~tonen.*Ik neem mijn trouwe Rockets en~ik zal ze transformeren tot~iets beters!*Iets met een doel!
+FinalDungeon_Island_PaletteRed_AfterDefeat2,Wat was dat?*Het klonk alsof het uit de~grot kwam.
+FinalDungeon_Island_PaletteRed_AfterDefeat3,Jij zoekt maar uit wat dat~was.*Neem wat je wilt uit de grot,~ik heb nu een hoger doel.*We zullen elkaar niet meer~zien.
 
 FinalDungeon_FinalCave_Phancero_1,!
-FinalDungeon_FinalCave_Phancero_2,Ceroo!
+FinalDungeon_FinalCave_Phancero_2,Krioe!
 
-FinalDungeon_FinalShop_Clerk_Question,Uh? Who are you?*Well, it doesn't matter, if~you have any cash, that is.*How may I help you?
-FinalDungeon_FinalShop_Clerk_Store,Take your time.
-FinalDungeon_FinalShop_Clerk_Quit,Thank you!
-FinalDungeon_FinalShop_Scientist_Question,Palette Red made us work~for him, but we make some~money selling some of~his resources...*Would you be interested?
-FinalDungeon_FinalShop_Scientist_Store,Take your time.
-FinalDungeon_FinalShop_Scientist_Quit,Thank you!
-FinalDungeon_FinalShop_Manager_Question,That weird bird back there?*I know nothing about it,~it came flying from the~Haunted Forest a~while ago.*I've heard some legends about~a mysterious bird in Naljo,~maybe you can find more~information there?*Anyways... Should we talk~business?
-FinalDungeon_FinalShop_Manager_Store,Take your time.
-FinalDungeon_FinalShop_Manager_Quit,Thank you!
-FinalDungeon_FinalShop_BikeMan_Question,I was forced to work here,~so I can take the risk and~sell you some of Palette~Red's stuff.*Want any?
-FinalDungeon_FinalShop_BikeMan_Store,Take your time.
-FinalDungeon_FinalShop_BikeMan_Quit,Thank you!
-FinalDungeon_FinalShop_GymGuy_Question,All these resources are being~transported to Naljo...~I wonder what for?~I can slip you some... for a~price, of course.*Wanna take a look?
-FinalDungeon_FinalShop_GymGuy_Store,Take your time.
-FinalDungeon_FinalShop_GymGuy_Quit,Thank you!
-FinalDungeon_FinalShop_Book,We have managed to mass-produce TMs and other items. We are one step closer to producing reusable TMs!
+FinalDungeon_FinalShop_Clerk_Question,Uh? Wie ben jij?*Nou ja, het maakt niet uit,~zolang je maar geld hebt.*Waarmee kan ik je van dienst~zijn?
+FinalDungeon_FinalShop_Clerk_Store,Neem de tijd.
+FinalDungeon_FinalShop_Clerk_Quit,Dank je wel!
+FinalDungeon_FinalShop_Scientist_Question,Palet Rood dwong ons voor~hem te werken, maar we~verdienen wat geld door zijn~middelen te verkopen...*Heb je interesse?
+FinalDungeon_FinalShop_Scientist_Store,Neem de tijd.
+FinalDungeon_FinalShop_Scientist_Quit,Dank je wel!
+FinalDungeon_FinalShop_Manager_Question,Die vreemde vogel daarachter?*Ik weet er niets van, hij~kwam een tijdje geleden uit~het Spookachtig Woud~gevlogen.*Ik heb legendes gehoord over~een mysterieuze vogel in~Naljo, misschien vind je~daar meer informatie?*Hoe dan ook...~Zullen we zaken doen?
+FinalDungeon_FinalShop_Manager_Store,Neem de tijd.
+FinalDungeon_FinalShop_Manager_Quit,Dank je wel!
+FinalDungeon_FinalShop_BikeMan_Question,Ik werd gedwongen om hier te~werken, dus ik durf het~risico wel aan om wat~spullen van Palet Rood te~verkopen.*Wil je wat?
+FinalDungeon_FinalShop_BikeMan_Store,Neem de tijd.
+FinalDungeon_FinalShop_BikeMan_Quit,Dank je wel!
+FinalDungeon_FinalShop_GymGuy_Question,Al deze middelen worden naar~Naljo getransporteerd...~Ik vraag me af waarvoor?*Ik kan je er wat van geven...~tegen betaling natuurlijk.*Wil je een kijkje nemen?
+FinalDungeon_FinalShop_GymGuy_Store,Neem de tijd.
+FinalDungeon_FinalShop_GymGuy_Quit,Dank je wel!
+FinalDungeon_FinalShop_Book,Het is ons gelukt om TM's en~andere voorwerpen in massa~te produceren.*We zijn een stap dichter~bij de productie van~herbruikbare TM's!
 
 [Madame Renifler]
 MadameRenifler_Hall_ClosedDoors,<Player.Name>: We zijn aan het~varen op de oceaan, het zou~niet veilig zijn om nu weg~te gaan.
@@ -7424,50 +7424,50 @@ MadameRenifler_Hall_Painting_Piti,"Schatjepatatje"
 MadameRenifler_Hall_Painting_Blep,"Blep doet de Tong"
 MadameRenifler_Hall_Painting_Scrun,"Voortschuiven"
 
-MadameRenifler_DanceClub_YoungBoy,I love the music here!*"Play It" by JappaWakka is~my favorite!
-MadameRenifler_DanceClub_Lass,Do you think my dance moves~look good?
-MadameRenifler_DanceClub_SuperNerd,I can't stop dancing, my feet~move on their own!
-MadameRenifler_DanceClub_Youngster,AlexCorruptor makes some~badass Game Boy remixes!
-MadameRenifler_DanceClub_Music_Nike1,Currently Playing: nike#01*by DSX~- Game Boy cover by AlexCorruptor
-MadameRenifler_DanceClub_Music_PlayIt,Currently Playing:~Play It*by JappaWakka
-MadameRenifler_DanceClub_Music_Pr0ndiskOutro,Currently Playing: Pr0ndisk Outro*by Zalza~- Game Boy cover by AlexCorruptor
-MadameRenifler_DanceClub_Music_Worship,Currently Playing: Worship*by Amadeus Voxon~- Game Boy cover by AlexCorruptor
-MadameRenifler_DanceClub_Music_Sorrow,Currently Playing: Sorrow*by AlexCorruptor & JappaWakka
-MadameRenifler_DanceClub_ChooseSong_Question,What song do you want to~play?
+MadameRenifler_DanceClub_YoungBoy,Ik hou van de muziek hier!*"Play It" van JappaWakka is~mijn favoriet!
+MadameRenifler_DanceClub_Lass,Vind je dat mijn dans-~bewegingen er goed uitzien?
+MadameRenifler_DanceClub_SuperNerd,Ik kan niet stoppen met~dansen, mijn voeten bewegen~uit zichzelf!
+MadameRenifler_DanceClub_Youngster,AlexCorruptor maakt echt~vette Game Boy-remixes!
+MadameRenifler_DanceClub_Music_Nike1,Huidig nummer:~nike#01*door DSX~- Game Boy-cover door AlexCorruptor
+MadameRenifler_DanceClub_Music_PlayIt,Huidig nummer:~Play It*door JappaWakka
+MadameRenifler_DanceClub_Music_Pr0ndiskOutro,Huidig nummer:~Pr0ndisk Outro*door Zalza~- Game Boy-cover door AlexCorruptor
+MadameRenifler_DanceClub_Music_Worship,Huidig nummer:~Worship*door Amadeus Voxon~- Game Boy-cover door AlexCorruptor
+MadameRenifler_DanceClub_Music_Sorrow,Huidig nummer:~Sorrow*door AlexCorruptor & JappaWakka
+MadameRenifler_DanceClub_ChooseSong_Question,Welk nummer wil je afspelen?
 MadameRenifler_DanceClub_ChooseSong_Nike1,nike#01
 MadameRenifler_DanceClub_ChooseSong_PlayIt,Play It
 MadameRenifler_DanceClub_ChooseSong_Pr0ndiskOutro,Pr0ndisk Outro
 MadameRenifler_DanceClub_ChooseSong_Worship,Worship
-MadameRenifler_DanceClub_AlexCorruptor_Intro,<player.name>: That Tepig is~operating the DJ set!~Incredible!*Alex: Thank you.~Hi, I am AlexCorruptor, but~you can call me Alex.*<player.name>: And you can talk?!*Alex: Well... yeah... it's a~long story...
-MadameRenifler_DanceClub_AlexCorruptor_FirstTime,Are you looking for~JappaWakka?*<player.name>: Yeah, I am!*Alex: He's at the bridge of~the ship, up the stairs to~the right.*By the way, if you'd like to~hear a different song, choose~the one you want on the~DJ set.
-MadameRenifler_DanceClub_AlexCorruptor_BeforeJappa,Alex: JappaWakka is at the~bridge of the ship, up the~stairs to the right. If you'd~like to hear a different song,~choose the one you want on the~DJ set.
-MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Intro,Alex: ...Jappa is worried~about me, you say?*Hmm... Maybe I should tell you~about my worries.*It's gonna be long, so~listen up.
-MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Story,You see, I am not from this~region, and my journey up~until now hasn't exactly been~smooth either, so let me tell~you all about it from the~beginning.*I was born in the Unova region~and when I grew up, I started~growing fond of the Tepig~evolution line.*I had a few of those and we~were hugging all the time.*One day, I woke up in a world~unknown to me, with a voice~calling for help.*I looked down, saw my~reflection and saw that~I transformed into a~shiny Tepig.*Suddenly I was up in the sky~and started falling down~hitting some of the trees in~the process.*Shortly after I met 3 other~Pokémon:~Roffe the Snivy,~Lossy the Axew,~and Jappa the Oshawott.*We became friends very~quickly and we started~adventuring together as~a team.*We faced many different~battles, puzzles and other~Pokémon who needed help.*At one point, we encountered~a Hydreigon who ended up~following me specifically,~which initially gave me an~idea that he know who I was.*In the end, we defeated the~greatest evil that was~threatening the entire world.*Soon after this, it was my~time to go back to the normal~world and to never come back.*All 3 of my friends, Roffe,~Lossy and Jappa were sad to~see me go, they even begged~for me to stay, but it seemed~that the balance of nature~would've shifted if that were~to happen.*I started glowing and~ascending slowly, marking the~end of our adventures.*Before I finally got back to~the normal world I looked down~at them, they were crying,~and I wished that I didn't~have to leave that world.*When I returned to the normal~world, I found myself in Ilex~Forest, still as a shiny Tepig.*I realised that I still had~the ability to talk to the~other Pokémon, but I hadn't~encountered any humans yet.*Soon enough I met~JappaWakka, who was a nice~guy, and we were able to~talk to each other without~any problem, which meant~that I could talk to~humans too.*He told me about this ship~that he was trying to build~where I could stay and learn~more about myself, and I~ended up becoming interested~in creating music.*Almost all the stuff that you~hear in this club, including~what's currently playing, was~composed or covered by me.*I also learned about ciphers~which are used to decode~stuff, and about 4-dimensional~hypercubes like the one~hanging from the ceiling.*I still think about all the~friends I made back in that~world, while also wondering~whether Jappa from that~world and JappaWakka from~this world are the same~or not.*I avoid telling him about~these experiences, because~I'm not sure what he'd think of~it all...*As of late, I've started~dreaming about that world,~with Hydreigon seeming to~know that I am watching.*Whether that means anything,~I don't know, but I still wish~that I could get back there...*Well, <player.name>, I hope you~can relate to me on any level...
-MadameRenifler_DanceClub_JappaWakka,JappaWakka: Hey, <Player.Name>!~Have you heard from~Alex yet?*<Player.Name>: Well, from his~story remembered that the~first time he appeared back~in this world.... he found~himself in Ilex Forest.*Maybe it's worth looking for~him there!*JappaWakka: Good idea!~Keep me up to date!
+MadameRenifler_DanceClub_AlexCorruptor_Intro,<Player.Name>: Die Tepig bedient~de DJ-set!~Ongelooflijk!*Alex: Dank je wel.~Hoi, ik ben AlexCorruptor,~maar je mag me Alex noemen.*<Player.Name>: En je kunt~praten?!*Alex: Nou... ja... het is~een lang verhaal...
+MadameRenifler_DanceClub_AlexCorruptor_FirstTime,Ben je op zoek naar~JappaWakka?*<Player.Name>: Ja, dat klopt!*Alex: Hij is op de brug van~het schip, de trap op aan~de rechterkant.*Trouwens, als je een ander~nummer wilt horen, kies er~dan een op de DJ-set.
+MadameRenifler_DanceClub_AlexCorruptor_BeforeJappa,Alex: JappaWakka is op de~brug van het schip, de trap~op aan de rechterkant.*Als je een ander nummer wilt~horen, kies er dan een op de~DJ-set.
+MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Intro,Alex: ...Jappa maakt zich~zorgen om mij, zeg je?*Hmm... Misschien moet ik je~vertellen over mijn zorgen.*Het is een lang verhaal, dus~luister goed.
+MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Story,Het zit zo, ik kom niet uit~deze regio, en mijn reis tot~nu toe is ook niet bepaald~vlekkeloos verlopen, dus~laat me je er alles over~vertellen vanaf het begin.*Ik ben geboren in de~Unova-regio en toen ik~opgroeide, werd ik dol op de~Tepig-evolutielijn.*Ik had er een paar en we~waren de hele tijd aan het~knuffelen.*Op een dag werd ik wakker in~een wereld die ik niet kende,~met een stem die om hulp~riep.*Ik keek naar beneden, zag~mijn spiegelbeeld en zag dat~ik was veranderd in een~Schitterende Tepig.*Plotseling was ik hoog in de~lucht en begon ik naar~beneden te vallen, waarbij~ik onderweg wat bomen raakte.*Kort daarna ontmoette ik 3~andere Pokémon:~Roffe de Snivy,~Lossy de Axew,~en Jappa de Oshawott.*We werden heel snel vrienden~en we begonnen samen op~avontuur te gaan als een~team.*We kwamen veel verschillende~gevechten, puzzels en andere~Pokémon die hulp nodig~hadden tegen.*Op een gegeven moment~ontmoetten we een Hydreigon~die uiteindelijk specifiek~mij begon te volgen, wat me~aanvankelijk het idee gaf~dat hij wist wie ik was.*Uiteindelijk versloegen we~het grootste kwaad dat de~hele wereld bedreigde.*Kort daarna was het mijn~tijd om terug te gaan naar~de normale wereld en nooit~meer terug te keren.*Alledrie mijn vrienden,~Roffe, Lossy en Jappa waren~verdrietig om me te zien~gaan, ze smeekten me zelfs~om te blijven, maar het leek~erop dat de balans van de~natuur zou verschuiven als~dat zou gebeuren.*Ik begon te gloeien en~langzaam op te stijgen, wat~het einde van onze avonturen~markeerde.*Voordat ik eindelijk~terugkeerde naar de normale~wereld, keek ik naar ze~neer, ze huilden, en ik~wenste dat ik die wereld~niet hoefde te verlaten.*Toen ik terugkeerde naar de~normale wereld, bevond ik me~in het Ilex-Bos, nog steeds~als een Schitterende Tepig.*Ik realiseerde me dat ik nog~steeds met andere Pokémon~kon praten, maar ik was nog~geen mensen tegengekomen.*Al snel ontmoette ik~JappaWakka, die een aardige~gozer was, en we konden~zonder problemen met elkaar~praten, wat betekende dat ik~ook tegen mensen kon praten.*Hij vertelde me over dit~schip dat hij probeerde te~bouwen waar ik kon verblijven~en meer over mezelf kon~leren, en ik raakte~uiteindelijk geïnteresseerd~in het maken van muziek.*Bijna alles wat je in deze~dansclub hoort, inclusief~wat er nu wordt afgespeeld,~is door mij gecomponeerd of~gecoverd.*Ik leerde ook over cijfers~die worden gebruikt om~dingen te decoderen, en over~4-dimensionale hyperkubussen~zoals die daar aan het~plafond hangt.*Ik denk nog steeds aan alle~vrienden die ik in die wereld~heb gemaakt, en ik vraag me~ook af of Jappa uit die~wereld en JappaWakka uit~deze wereld dezelfde zijn of~niet.*Ik vermijd het om hem over~deze ervaringen te vertellen,~omdat ik niet zeker weet wat~hij ervan zou vinden...*De laatste tijd ben ik over~die wereld gaan dromen,~waarbij Hydreigon lijkt te~weten dat ik toekijk.*Of dat iets betekent, weet~ik niet, maar ik hoop nog~steeds dat ik daar ooit terug~kan keren...*Nou, <Player.Name>, ik hoop dat~je je op enig niveau met mij~kunt identificeren...
+MadameRenifler_DanceClub_JappaWakka,JappaWakka: Hé,~<Player.Name>!*Heb je al iets van Alex~gehoord?*<Player.Name>: Nou, uit zijn~verhaal herinnerde ik me dat~toen hij voor het eerst weer~in deze wereld verscheen...~hij zich in het Ilex-Bos~bevond.*Misschien is het de moeite~waard om hem daar te gaan~zoeken!*JappaWakka: Goed idee!~Houd me op de hoogte!
 
-MadameRenifler_Bridge_Music_Breeze,Currently Playing:~Breeze*by JappaWakka
-MadameRenifler_Bridge_JappaWakka_FirstTalk1,JappaWakka: Hiya, <Player.Name>!*Welcome to my ship: Madame~Renifler!*Built it myself, pretty~proud of it.*Don't worry, it's perfectly~safe.*My good buddy Alex helped me~out a lot.*He's got a nose for finding~things that need improvement~and fixing.*Have you met him yet?~He's the Tepig operating~the DJ set in the dance~room below.*I'm kinda worried about Alex~though.*There seems to be something~troubling him, but he seems~to not want to talk~about it.*If you're able to, please~let him know he can always~tell me anything and that~I'm there for him if he~needs me.
-MadameRenifler_Bridge_JappaWakka_FirstTalk2,JappaWakka: Hiya, <Player.Name>!~Have you met Alex yet?*He's the Tepig operating~the DJ set in the dance~room below.*There seems to be something~troubling him, but he~seems to not want to ~about it.*If you're able to, please~let him know he can always~tell me anything and that~I'm there for him if he~needs me.
-MadameRenifler_Bridge_JappaWakka_AfterAlexStory1,JappaWakka: Have you met~Alex?*What did he say?*...*I see.*Well that explains a lot.~I'm glad I know what's~going on.*I don't have a lot of~knowledge about different~universes, but I mean...~with Pokémon, anything~is possible!*Who knows, maybe he'll be~able to return to that~Pokémon world one day!*We'll see, but until that~happens I'll just try to be~the best friend I can be~in this one.*Thanks for telling me,~<Player.Name>.*Here, I got you something~to remember us by.
-MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat,<Player.Name> received a framed~photo of a sniffing cat!
-MadameRenifler_Bridge_JappaWakka_AfterAlexStory2,You can hang it on the wall of~your room if you like.~Your computer should be able~to help you with that.
-MadameRenifler_Bridge_JappaWakka_AfterAlexStory3,Ah, we've arrived back at~Castro Valley's harbor again.*Oh! Before you go, would you~like to have a Pokémon battle~with me?*I've got something extra~special for you if you~can defeat me!
-MadameRenifler_Bridge_JappaWakka_Battle_No,That's okay, feel free to~come back if you want to~challenge me later!
-MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo,JappaWakka: Ah, <Player.Name>!~You're back!*Ready to challenge me?
-MadameRenifler_Bridge_JappaWakka_Battle_Yes1,Alrighty then!*Let's see what you got,~Champion!
-MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~some skilled battling! You've~certainly proven yourself~worthy of this reward!
-MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
-MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift at
+MadameRenifler_Bridge_Music_Breeze,Huidig nummer:~Breeze*door JappaWakka
+MadameRenifler_Bridge_JappaWakka_FirstTalk1,JappaWakka: Hoi,~<Player.Name>!*Welkom op mijn schip: Madame~Renifler!*Ik heb het zelf gebouwd en~ben er erg trots op.*Maak je geen zorgen, het is~volkomen veilig.*Mijn goede vriend Alex heeft~me enorm geholpen.*Hij heeft een neus voor het~vinden van dingen die~verbeterd en gerepareerd~moeten worden.*Heb je hem al ontmoet?~Hij is de Tepig die de DJ-set~bedient in de danszaal~hieronder.*Ik maak me echter wel een~beetje zorgen om Alex.*Er lijkt hem iets dwars te~zitten, maar hij lijkt er~niet over te willen praten.*Als je kunt, laat hem dan~alsjeblieft weten dat hij me~alles kan vertellen en dat~ik er voor hem ben als hij~me nodig heeft.
+MadameRenifler_Bridge_JappaWakka_FirstTalk2,JappaWakka: Hoi,~<Player.Name>!*Heb je Alex al ontmoet?*Hij is de Tepig die de DJ-set~bedient in de danszaal~hieronder.*Er lijkt hem iets dwars te~zitten, maar hij lijkt er~niet over te willen praten.*Als je kunt, laat hem dan~alsjeblieft weten dat hij me~alles kan vertellen en dat~ik er voor hem ben als hij~me nodig heeft.
+MadameRenifler_Bridge_JappaWakka_AfterAlexStory1,JappaWakka: Heb je Alex~gesproken?*Wat zei hij?*...*Ik begrijp het.*Nou, dat verklaart een hoop.~Ik ben blij dat ik weet wat~er aan de hand is.*Ik weet niet veel over~parallelle universums, maar~ik bedoel... met Pokémon is~alles mogelijk!*Wie weet kan hij op een dag~terugkeren naar die~Pokémon-wereld!*We zullen zien, maar tot die~tijd zal ik gewoon proberen~de beste vriend voor hem te~zijn die ik kan zijn.*Bedankt dat je het me~verteld hebt, <Player.Name>.*Hier, ik heb een aandenken~voor je om ons te herinneren.
+MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat,<Player.Name> ontving een~ingelijste foto van een~snuffelende kat!
+MadameRenifler_Bridge_JappaWakka_AfterAlexStory2,Je kunt hem aan de muur van~je kamer hangen als je wilt.*Je computer zou je daar mee~moeten kunnen helpen.
+MadameRenifler_Bridge_JappaWakka_AfterAlexStory3,Ah, we zijn weer terug in de~haven van Dalburg.*Oh! Voor je gaat, zou je~een Pokémon-gevecht met me~willen houden?*Ik heb iets heel speciaals~voor je als je me kunt~verslaan!
+MadameRenifler_Bridge_JappaWakka_Battle_No,Dat is prima, kom gerust~terug als je me later wilt~uitdagen!
+MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo,JappaWakka: Ah, <Player.Name>!~Je bent er weer!*Klaar om me uit te dagen?
+MadameRenifler_Bridge_JappaWakka_Battle_Yes1,Vooruit dan maar!*Laten we eens zien wat je~kunt, Kampioen!
+MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wauw! Dat was~een knap staaltje vechten!*Je hebt jezelf zeker waardig~bewezen voor deze beloning!
+MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> ontving een~Ph4D95210XaP!
+MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Ontvangen als cadeau op de
 MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,Madame Renifler
-MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero.*I'd let Professor Tim take~a look at that device if I~were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
-MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex,JappaWakka: I'd let Professor~Tim take a look at that~Pokédex if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
-MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
+MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: Dat is vreemd, je~Pokédex had moeten zeggen~dat het een Phancero is.*Ik zou Professor Tim naar~dat apparaat laten kijken~als ik jou was.*Hoe dan ook, ik ben blij~dat ik de kans heb gehad je~te ontmoeten.*Ik wens je veel succes!~Tot ziens!
+MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex,JappaWakka: Ik zou Professor~Tim naar die Pokédex laten~kijken als ik jou was.*Hoe dan ook, ik ben blij dat~ik de kans heb gehad je te~ontmoeten.*Ik wens je veel succes!~Tot ziens!
+MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: Ik ben blij dat~ik de kans heb gehad je te~ontmoeten.*Ik wens je veel succes!~Tot ziens!
 
 [AlexCorruptor Is Missing Quest]
 Gravel_TimsLab_AlexMissing1,JappaWakka: <Player.Name>!
-Gravel_TimsLab_AlexMissing2,I wanted to check on Alex,~but he was gone!*I found this note near his~DJ set...~Here's what it says:*Dear Jappa and <Player.Name>,~Sorry that I have to leave~you without any warning, but I~saw a vision of Hydreigon~in front of me...~calling me...*He said I had go to a certain~place far away from Rijon and~didn't give me any other~instructions than that.*I may be gone for some time.~Perhaps I won't come back~at all.*I cannot tell at this moment.*In the meantime, do not worry~about me.*I can defend myself if~forced to fight.*Again, sorry for making you~nervous.*This is just very important~to me.*With love, Alex the Tepig*JappaWakka: I hope he's~alright...*Well, if you hear anything~about him, you can find me at~my ship in Castro Valley.*Someone has to keep the~music playing, right?
-Seashore_PlayerHouse2F_AlexMissing3,<Player.Name>: Two days passed~and no sign of Alex yet!*Hmm... I remember from his~story that the first time he~appeared back in this world...~he found himself in Ilex~Forest.*Maybe it's worth looking for~him there!
-IlexForest_AlexFound1,<Player.Name>: Huh?*What's an Emboar doing in~these woods?*Wait a minute...~Alex? Is that you?
-IlexForest_AlexFound2,Alex: Hm? ...Oh, it's you!*It seems that I managed to~sort out my ordeal with the~whole other world.*I didn't want to make anyone~worried, but it was really~important for me to figure it~all out.*How long was I gone?*<Player.Name>: It's been two days~since JappaWakka found~the note.*He was very worried.*Alex: Two days? Strange...~I've been in the other world~for at least a month, if not~longer.*I've been given the ability to~teleport to that world and~back at will...*So I'll probably be gone every~once in a while.*I'll make sure that~JappaWakka knows of this~as well.*I feel like we've got a lot~to catch up on.
-CastroValley_AlexFound3,JappaWakka: Pfew! I'm glad~Alex is safe and sound!*And he evolved!*Twice!*That's so cool!*We've got a lot to talk about,~which we'll have plenty of~time for as we sail to our~next destination, wherever~our ship may lead us!*Thank you for everything,~<Player.Name>!
-CastroValley_AlexFound4,Alex: So like Jappa said, we~are both setting sail to our~next destination, making this~our last chance to say~goodbye...*Not gonna lie, but I will~surely miss you, <Player.Name>.*As a token of my appreciation,~take one of my DJ sets,~so you can listen to our songs~at home.*Thank you, <Player.Name>.*I hope we will meet again~someday.
+Gravel_TimsLab_AlexMissing2,Ik wilde even bij Alex gaan~kijken, maar hij was weg!*Ik vond dit briefje bij zijn~DJ-set...~Dit is wat er staat:*Beste Jappa en <Player.Name>,~Sorry dat ik jullie zonder~waarschuwing moet verlaten,~maar ik zag een visioen van~Hydreigon voor me...~die me riep...*Hij zei dat ik naar een~bepaalde plek ver van Rijon~moest gaan en gaf me verder~geen andere instructies.*Ik ben misschien een tijdje~weg.*Misschien kom ik wel helemaal~niet meer terug.*Dat kan ik op dit moment niet~zeggen.*Maak je in de tussentijd geen~zorgen om mij.*Ik kan mezelf verdedigen als~ik gedwongen word te vechten.*Nogmaals sorry dat ik jullie~ongerust heb gemaakt.*Dit is gewoon heel belangrijk~voor mij.*Liefs, Alex de Tepig*JappaWakka: Ik hoop dat het~goed met hem gaat...*Nou ja, als je iets over hem~hoort, kun je me vinden op~mijn schip in Dalburg.*Iemand moet de muziek aan de~gang houden, toch?
+Seashore_PlayerHouse2F_AlexMissing3,<Player.Name>: Er zijn twee~dagen voorbij en nog steeds~geen spoor van Alex!*Hmm... Ik herinner me uit~zijn verhaal dat de eerste~keer dat hij weer in deze~wereld verscheen... hij zich~in het Ilex-Bos bevond.*Misschien is het de moeite~waard om hem daar te gaan~zoeken!
+IlexForest_AlexFound1,<Player.Name>: Hè?*Wat doet een Emboar hier in~dit bos?*Wacht eens even...~Alex? Ben jij dat?
+IlexForest_AlexFound2,Alex: Hm? ...Oh, jij bent~het!*Het lijkt erop dat het me~gelukt is om mijn zaakjes~in de andere wereld op te~lossen.*Ik wilde niemand ongerust~maken, maar het was echt~belangrijk voor me om dit~allemaal uit te zoeken.*Hoe lang ben ik weggeweest?*<Player.Name>: Het is twee~dagen geleden dat JappaWakka~het briefje vond.*Hij was erg ongerust.*Alex: Twee dagen? Vreemd...~Ik ben minstens een maand in~de andere wereld geweest,~als het niet langer was.*Ik heb het vermogen gekregen~om naar die wereld en terug~te teleporteren wanneer ik~maar wil...*Dus ik zal waarschijnlijk af~en toe weg zijn.*Ik zal zorgen dat JappaWakka~dit ook weet.*Ik heb het gevoel dat we~heel wat bij te praten~hebben.
+CastroValley_AlexFound3,JappaWakka: Pfiew! Ik ben~blij dat Alex veilig en wel is!*En hij is geëvolueerd!*Twee keer zelfs!*Dat is zo cool!*We hebben veel om over te~praten, en daar hebben we~alle tijd voor terwijl we~naar onze volgende~bestemming varen!*Bedankt voor alles,~<Player.Name>!
+CastroValley_AlexFound4,Alex: Zoals Jappa al zei,~varen we beiden naar onze~volgende bestemming, dus dit~is onze laatste kans om gedag~te zeggen...*Ik ga niet liegen, ik ga je~zeker missen, <Player.Name>.*Als blijk van mijn~waardering, mag je een van~mijn DJ-sets hebben, zodat~je thuis naar onze nummers~kunt luisteren.*Bedankt, <Player.Name>.*Ik hoop dat we elkaar ooit~weer ontmoeten.
