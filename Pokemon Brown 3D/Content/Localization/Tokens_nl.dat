@@ -3496,7 +3496,7 @@ item_desc_10,Een spray-medicijn voor het behandelen van brandwonden. Hij kan é�
 item_desc_11,Een spray-medicijn tegen bevriezing. Hij kan één keer worden gebruikt om een volledig bevroren Pokémon te ontdooien.
 item_desc_12,Een spray-medicijn tegen slaap. Hij kan één keer worden gebruikt om een Pokémon uit de greep van slaap te halen.
 item_desc_13,Een spray-medicijn tegen verlamming. Hij kan één keer worden gebruikt om een Pokémon te bevrijden die verlamd is.
-item_desc_14,Een medicijn dat kan worden gebruikt om de LP van één Pokémon volledig te herstellen en alle statusproblemen te genezen.
+item_desc_14,Een medicijn dat kan worden gebruikt om de LP van één Pokémon volledig te herstellen en alle statuseffecten te genezen.
 item_desc_15,Een spray-medicijn voor het behandelen van wonden. Hij herstelt de LP van één Pokémon tot het maximum.
 item_desc_16,Een spray-medicijn voor het behandelen van wonden. Hij kan worden gebruikt om 200 LP te herstellen bij een gewonde Pokémon.
 item_desc_17,Een spray-medicijn voor het behandelen van wonden. Hij kan worden gebruikt om 50 LP te herstellen bij een gewonde Pokémon.
@@ -3517,7 +3517,7 @@ item_desc_33,Een voorwerp dat de nauwkeurigheid van een Pokémon verhoogt tijden
 item_desc_34,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. Hij heeft een onmiskenbaar bladpatroon.
 item_desc_36,Een klompje van het puurste goud die een glanzende schittering afgeeft in direct licht. Hij kan voor een hoge prijs aan winkels worden verkocht.
 item_desc_37,Een pop die de aandacht van een Pokémon trekt. Hij garandeert ontsnapping uit elk gevecht met wilde Pokémon.
-item_desc_38,Een spray-medicijn dat breed effectief is. Het kan één keer worden gebruikt om alle statusproblemen van een Pokémon te genezen.
+item_desc_38,Een spray-medicijn dat breed effectief is. Het kan één keer worden gebruikt om alle statuseffecten van een Pokémon te genezen.
 item_desc_39,Een medicijn dat uitgeschakelde Pokémon kan opwekken. Het herstelt ook de helft van de LP van een uitgeschakelde Pokémon.
 item_desc_40,Een medicijn dat uitgeschakelde Pokémon kan opwekken. Het herstelt ook de LP van een uitgeschakelde Pokémon tot het maximum.
 item_desc_41,Het kaartje dat je nodig hebt om aan boord van het cruiseschip S.S. Anne te gaan. Er staat een tekening van een schip op.
@@ -4817,7 +4817,7 @@ ability_desc_26,Geeft volledige immuniteit tegen alle Grond-aanvallen.
 ability_desc_27,Contact kan vergiftiging, verlamming of slaap veroorzaken.
 ability_desc_28,Geeft verbranding of verlamming door aan de tegenstander.
 ability_desc_29,Voorkomt dat andere Pokémon zijn attributen verlagen.
-ability_desc_30,Alle statusproblemen genezen wanneer hij teruggetrokken wordt.
+ability_desc_30,Alle statuseffecten genezen wanneer hij teruggetrokken wordt.
 ability_desc_31,Trekt alle Elektrische aanvallen aan om het Sp. Aanval-attribuut te verhogen.
 ability_desc_32,Verhoogt de kans op bijkomende effecten.
 ability_desc_33,Verhoogt de Snelheid van de Pokémon wanneer het regent.
@@ -4848,9 +4848,9 @@ ability_desc_57,Verhoogt het Sp. Aanval-attribuut als een andere Pokémon Plus o
 ability_desc_58,Verhoogt het Sp. Aanval-attribuut als een andere Pokémon Plus of Min heeft.
 ability_desc_59,Castform verandert met het weer.
 ability_desc_60,Beschermt de Pokémon tegen diefstal van voorwerpen.
-ability_desc_61,De Pokémon kan zijn eigen statusproblemen genezen.
-ability_desc_62,Verhoogt het Aanval-attribuut wanneer er een statusprobleem is.
-ability_desc_63,Verhoogt het Weerstand-attribuut wanneer er een statusprobleem is.
+ability_desc_61,De Pokémon kan zijn eigen statuseffecten genezen.
+ability_desc_62,Verhoogt het Aanval-attribuut wanneer er een statuseffect is.
+ability_desc_63,Verhoogt het Weerstand-attribuut wanneer er een statuseffect is.
 ability_desc_64,Beschadigt aanvallers die energie-aftappende aanvallen gebruiken.
 ability_desc_65,Versterkt Gras-aanvallen in een noodsituatie.
 ability_desc_66,Versterkt Vuur-aanvallen in een noodsituatie.
@@ -4880,16 +4880,16 @@ ability_desc_89,Versterkt de kracht van stootaanvallen.
 ability_desc_90,Herstelt LP wanneer de Pokémon vergiftigd is.
 ability_desc_91,Versterkt aanvallen van hetzelfde type.
 ability_desc_92,Verhoogt de frequentie van meervoudige aanvallen.
-ability_desc_93,Geneest statusproblemen wanneer het regent.
+ability_desc_93,Geneest statuseffecten wanneer het regent.
 ability_desc_94,In zonlicht sterker, maar LP neemt af.
-ability_desc_95,Verhoogt het Snelheid-attribuut wanneer er een statusprobleem is.
+ability_desc_95,Verhoogt het Snelheid-attribuut wanneer er een statuseffect is.
 ability_desc_96,Alle aanvallen van de Pokémon worden Normaal-type.
 ability_desc_97,Versterkt aanvallen wanneer ze voltreffers worden.
 ability_desc_98,De Pokémon ontvangt alleen schade van aanvallen.
 ability_desc_99,Zorgt dat aanvallen van of tegen de Pokémon altijd raken.
 ability_desc_100,De Pokémon valt aan na alle andere Pokémon.
 ability_desc_101,Versterkt de zwakkere aanvallen van de Pokémon.
-ability_desc_102,Voorkomt statusproblemen bij zonnig weer.
+ability_desc_102,Voorkomt statuseffecten bij zonnig weer.
 ability_desc_103,De Pokémon kan geen vastgehouden voorwerpen gebruiken.
 ability_desc_104,Aanvallen kunnen worden gebruikt ongeacht de aanwezige Vaardigheden.
 ability_desc_105,Verhoogt de kans op voltreffers.
@@ -4918,7 +4918,7 @@ ability_desc_127,Maakt de tegenstander nerveus en verhindert het eten van Bessen
 ability_desc_128,Verhoogt het Aanval-attribuut wanneer attributen worden verlaagd.
 ability_desc_129,Verlaagt attributen wanneer LP op de helft of lager komt.
 ability_desc_130,Kan een aanval uitschakelen die op de Pokémon wordt gebruikt.
-ability_desc_131,Kan de statusproblemen van een bondgenoot genezen.
+ability_desc_131,Kan de statuseffecten van een bondgenoot genezen.
 ability_desc_132,Verlaagt schade die bondgenoten ontvangen.
 ability_desc_133,Fysieke aanvallen verlagen het Weerstand- en verhogen het Snelheid-attribuut.
 ability_desc_134,Verdubbelt het gewicht van de Pokémon.
@@ -6242,7 +6242,7 @@ Moraga_NationsBurgers_Drunkard_FirstTalk2,<Player.Name>: Als jij het zegt...
 Moraga_NationsBurgers_Drunkard_SecondTalk_HaveMoneyOrBeer,Het smaakt... •hik•~heerlijk, hè?*Als je meer...•hik• wilt,~er staat een... •hik•~drankautomaat op het dak van~Winkelcentrum... •hik•~Zuidland, zonder toezicht!
 Moraga_NationsBurgers_Drunkard_SecondTalk_NoMoneyOrBeer,Wat, wil je er... •hik• nog~eentje?*Heb je geen... •hik• geld~meer ofzo?*Oké, maar alleen... •hik•~deze ene keer...*Aan niemand... •hik•~doorvertellen!
 
-Moraga_HighSchoolAcademy_Blackboard_Intro,Het schoolbord beschrijft de~statusproblemen van Pokémon~tijdens gevechten.
+Moraga_HighSchoolAcademy_Blackboard_Intro,Het schoolbord beschrijft de~statuseffecten van Pokémon~tijdens gevechten.
 Moraga_HighSchoolAcademy_Blackboard_Question,Over welk onderwerp wil je~lezen?
 Moraga_HighSchoolAcademy_Blackboard_Sleep,Een Pokémon kan niet~aanvallen als hij slaapt!*Pokémon blijven ook na~gevechten slapen!*Gebruik een Ontwaker om ze~wakker te maken!
 Moraga_HighSchoolAcademy_Blackboard_Burn,Verbrandingen verminderen~kracht en snelheid.*Ze veroorzaken ook~voortdurend schade.*Verbrandingen blijven na~gevechten aanwezig.*Gebruik een Brandmedicijn~om een verbranding~te genezen!
@@ -7185,7 +7185,7 @@ League_Elite4_Redd_IntroMessage,Redd: Welkom bij de Rijon~League, <Player.Name>.
 League_Elite4_Redd_OutroMessage,Redd: Hoe durf je!
 League_Elite4_Redd_DefeatMessage,Redd: Je bent beter dan ik~dacht!*Ga maar door!
 
-League_Elite4_Jared_IntroMessage,Jared: Dus je hebt Redd toch~verslagen, hè?*<Player.Name>: Ze was helemaal~geen uitdaging!*Kom maar op!*Jared: Helemaal geen~uitdaging?~Wat een pittige uitspraken~voor zo'n kleintje als jij.*Mijn naam is Jared, en ik~beoefen de kunst van de~Ninja-Pokémon.*Mijn neef Koga liet me met~hen kennismaken toen ik een~kind was, en sindsdien ben~ik aan ze verslingerd.*Bereid je voor om verward te~worden, niet door pure~kracht, maar door de kunst~van statusproblemen.*Verwarring... slaap...~vergiftiging... je zult hun~waarde snel genoeg leren.
+League_Elite4_Jared_IntroMessage,Jared: Dus je hebt Redd toch~verslagen, hè?*<Player.Name>: Ze was helemaal~geen uitdaging!*Kom maar op!*Jared: Helemaal geen~uitdaging?~Wat een pittige uitspraken~voor zo'n kleintje als jij.*Mijn naam is Jared, en ik~beoefen de kunst van de~Ninja-Pokémon.*Mijn neef Koga liet me met~hen kennismaken toen ik een~kind was, en sindsdien ben~ik aan ze verslingerd.*Bereid je voor om verward te~worden, niet door pure~kracht, maar door de kunst~van statuseffecten.*Verwarring... slaap...~vergiftiging... je zult hun~waarde snel genoeg leren.
 League_Elite4_Jared_OutroMessage,Jared: Wat? Hoe kon ik~verliezen?
 League_Elite4_Jared_DefeatMessage,Jared: Mijn taak zit erop!*Ga je volgende uitdaging~aan.
 
