@@ -635,6 +635,30 @@ shop_screen_currency_short_BattlePoints,GP
 shop_screen_currency_short_Coins,M
 shop_screen_currency_short_Pokédollars,$
 ---
+Pokegear Screen:
+pokegear_screen_main_title,Pokégear
+pokegear_screen_main_function_PlayerSearchSystem,PSS
+pokegear_screen_main_function_Statistics,Statistics
+
+pokegear_screen_pss_title_Ranklist,PSS Ranklist
+pokegear_screen_pss_title_Friendlist,PSS Friendlist
+pokegear_screen_pss_title_Passby,PSS Passby
+
+pokegear_screen_pss_RankNumber,Rank [NUMBER]
+pokegear_screen_pss_LevelNumber,Level [NUMBER]
+pokegear_screen_pss_NoGameJoltProfile,You are not logged in with a GameJolt profile.
+pokegear_screen_pss_NoOtherPlayersOnServer,No other players connected to server.
+pokegear_screen_pss_YouArePlayingLocally,You are playing locally.
+
+pokegear_screen_pss_user_function_Battle,Battle
+pokegear_screen_pss_user_function_Trade,Trade
+pokegear_screen_pss_user_function_PersonalMessage,PM
+pokegear_screen_pss_user_function_Friend,Friend
+pokegear_screen_pss_user_function_Friend,Favorite
+
+pokegear_screen_pss_TradeRequest,The player "[NAME]" wants to trade with you.
+pokegear_screen_pss_BattleRequest,The player "[NAME]" wants to battle with you.
+---
 Trade Screen:
 trade_screen_trade_SendingPokemon,[YOURPOKEMON] naar [OTHERPLAYER] aan het sturen.~Vaarwel, [YOURPOKEMON]!
 trade_screen_trade_ReceivedPokemon,[OTHERPLAYER] stuurde [THEIRPOKEMON] naar jou.

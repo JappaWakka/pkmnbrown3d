@@ -637,6 +637,30 @@ shop_screen_currency_short_BattlePoints,BP
 shop_screen_currency_short_Coins,C
 shop_screen_currency_short_Pokédollars,$
 ---
+Pokegear Screen:
+pokegear_screen_main_title,Pokégear
+pokegear_screen_main_function_PlayerSearchSystem,PSS
+pokegear_screen_main_function_Statistics,Statistics
+
+pokegear_screen_pss_title_Ranklist,PSS Ranklist
+pokegear_screen_pss_title_Friendlist,PSS Friendlist
+pokegear_screen_pss_title_Passby,PSS Passby
+
+pokegear_screen_pss_RankNumber,Rank [NUMBER]
+pokegear_screen_pss_LevelNumber,Level [NUMBER]
+pokegear_screen_pss_NoGameJoltProfile,You are not logged in with a GameJolt profile.
+pokegear_screen_pss_NoOtherPlayersOnServer,No other players connected to server.
+pokegear_screen_pss_YouArePlayingLocally,You are playing locally.
+
+pokegear_screen_pss_user_function_Battle,Battle
+pokegear_screen_pss_user_function_Trade,Trade
+pokegear_screen_pss_user_function_PersonalMessage,PM
+pokegear_screen_pss_user_function_Friend,Friend
+pokegear_screen_pss_user_function_Friend,Favorite
+
+pokegear_screen_pss_TradeRequest,The player "[NAME]" wants to trade with you.
+pokegear_screen_pss_BattleRequest,The player "[NAME]" wants to battle with you.
+---
 Trade Screen:
 trade_screen_trade_SendingPokemon,Sending [YOURPOKEMON] to [OTHERPLAYER].~Good-bye, [YOURPOKEMON]!
 trade_screen_trade_ReceivedPokemon,[OTHERPLAYER] sent over [THEIRPOKEMON].
@@ -4696,7 +4720,7 @@ FollowerInteraction_LowHP2,<name> seems to~be about to fall over!
 
 FollowerInteraction_Hate1,<name> is doing~it's best to keep up~with you.
 FollowerInteraction_Hate2,<name> is somehow~forcing itself to keep going.
-FollowerInteraction_Hate3,<name> is staring~patiantly at nothing at all.
+FollowerInteraction_Hate3,<name> is staring~patiently at nothing at all.
 FollowerInteraction_Hate4,<name> is staring~intently into the distance.
 FollowerInteraction_Hate5,<name> is dizzy...
 FollowerInteraction_Hate6,<name> is stepping~on your feet!
@@ -4728,7 +4752,7 @@ FollowerInteraction_Neutral12,<name> let out~a battle cry!
 FollowerInteraction_Neutral13,<name> is vigorously~breathing fire!
 FollowerInteraction_Neutral14,<name> is on~the lookout!
 FollowerInteraction_Neutral15,<name> roared!
-FollowerInteraction_Neutral16,<name> let out a roar!
+FollowerInteraction_Neutral16,<name> let out a~roar!
 FollowerInteraction_Neutral17,<name> is surveying~the area...
 FollowerInteraction_Neutral18,<name> is sniffing~at the floor.
 FollowerInteraction_Neutral19,<name> is peering~down.
@@ -4738,7 +4762,7 @@ FollowerInteraction_Neutral22,<name> is relaxing~comfortably.
 FollowerInteraction_Neutral23,<name> is sniffing~at the floor.
 FollowerInteraction_Neutral24,<name> seems to~relax as it hears the~sound of rustling leaves...
 FollowerInteraction_Neutral25,<name> seems to~be listening to the~sound of rustling leaves...
-FollowerInteraction_Neutral26,Your Pokémon is playing around~and splashing in the water!
+FollowerInteraction_Neutral26,Your Pokémon is playing~around and splashing in~the water!
 FollowerInteraction_Neutral27,<name> is looking~up at the sky.
 FollowerInteraction_Neutral28,Your Pokémon is happily~gazing at the beautiful,~starry sky!
 FollowerInteraction_Neutral29,<name> seems to be~enjoying this a little bit!
@@ -4755,7 +4779,7 @@ FollowerInteraction_Neutral39,<name> suddenly~turned around and~started barking!
 FollowerInteraction_Neutral40,<name> suddenly~turned around!
 FollowerInteraction_Neutral41,<name> looked up~at the sky and shouted loudly!
 FollowerInteraction_Neutral42,Your Pokémon was surprised~that you suddenly spoke to it!
-FollowerInteraction_Neutral43,<name> almost forgot~it was holding~that " & p.Item.OneLineName() & "!
+FollowerInteraction_Neutral43,<name> almost forgot~it was holding~that <item>!
 FollowerInteraction_Neutral44,Oh!~It's slipping and came~over here for support.
 FollowerInteraction_Neutral45,Your Pokémon almost slipped~and fell over!
 FollowerInteraction_Neutral46,<name> sensed something~strange and was surprised!
