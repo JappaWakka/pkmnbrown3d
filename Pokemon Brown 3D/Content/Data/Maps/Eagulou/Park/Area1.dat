@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Eagulou Park]}}{"MusicLoop"{str[EagulouPark_Main]}}{"OverworldPokemon"{bool[0]}}]}}
-{"Actions"{LEV[{"RideType"{int[1]}}{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"IsSafariZone"{bool[1]}}{"CanFly"{bool[0]}}{"MapScript"{str[AllAreas_MapScript]}}{"EnvironmentType"{int[0]}}{"Lighting"{int[0]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"RideType"{int[1]}}{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"IsSafariZone"{bool[1]}}{"CanFly"{bool[0]}}{"MapScript"{str[Eagulou\Park\AllAreas_MapScript]}}{"EnvironmentType"{int[0]}}{"Lighting"{int[0]}}{"Weather"{int[1]}}]}}
 
 Floors:
 	Grass
@@ -182,6 +182,10 @@ LampPosts
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[29,0,23]}}]}}
 	{"Structure"{STR[{"Map"{str[Structures\LampPost_Vintage]}}{"Offset"{sngArr[14,0,24]}}]}}
 
+Signs:
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.75,0.25]}}{"Position"{sngArr[13,-0.125,21]}}{"TexturePath"{str[Cities\Eagulou]}}{"Textures"{recArr[[0,96,16,16][16,96,4,16][20,96,4,16][24,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,0,0,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[13,0,21]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,96,16,16][16,96,4,16][20,96,4,16][24,96,16,4]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Eagulou_Park_Area1_Sign_SouthWetlands)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	
 Water:
 	Regular Water
 		{"EntityField"{ENT[{"Size"{intArr[2,2]}}{"EntityID"{str[Water]}}{"Position"{sngArr[9,-0.25,7]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Outside,144,32,16,16,1]}}{"Rotation"{int[0]}}]}}
