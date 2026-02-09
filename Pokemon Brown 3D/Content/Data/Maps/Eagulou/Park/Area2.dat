@@ -51,7 +51,7 @@ Floors:
 		{"Floor"{ENT[{"Size"{intArr[10,4]}}{"Position"{intArr[26,0,24]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[192,0,16,16]}}{"HasSnow"{bool[0]}}]}}
 		
 	LadderHole
-		{"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[1,1]}}{"Position"{intArr[2,0,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[160,0,16,16]}}{"HasSnow"{bool[0]}}]}}
+		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[2,0,32]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[160,0,16,16]}}{"HasSnow"{bool[0]}}]}}
 		
 	Grass Patch Dirt
 		{"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[18,0,18]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[0,32,16,16]}}]}}
@@ -285,8 +285,15 @@ Buildings:
 		{"Structure"{STR[{"Map"{str[Structures\Buildings\Building_Eagulou_ParkRoof_4x1y2z_Entrance]}}{"Offset"{sngArr[32,0,2]}}]}}
 		
 Signs:
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.75,0.25]}}{"Position"{sngArr[37,-0.125,5]}}{"TexturePath"{str[Cities\Eagulou]}}{"Textures"{recArr[[0,96,16,16][16,96,4,16][20,96,4,16][24,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,0,0,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[37,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,96,16,16][16,96,4,16][20,96,4,16][24,96,16,4]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Eagulou_Park_Area2_Sign_RestHouse)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	Rest House
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.75,0.25]}}{"Position"{sngArr[37,-0.125,5]}}{"TexturePath"{str[Cities\Eagulou]}}{"Textures"{recArr[[0,96,16,16][16,96,4,16][20,96,4,16][24,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,0,0,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[37,0,5]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,96,16,16][16,96,4,16][20,96,4,16][24,96,16,4]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Eagulou_Park_Area2_Sign_RestHouse)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	Trainer Tips
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.75,0.25]}}{"Position"{sngArr[19,-0.125,33]}}{"TexturePath"{str[Cities\Eagulou]}}{"Textures"{recArr[[0,96,16,16][16,96,4,16][20,96,4,16][24,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,0,0,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[19,0,33]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,96,16,16][16,96,4,16][20,96,4,16][24,96,16,4]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Eagulou_Park_Area2_Sign_TrainerTips)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	Area
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[0.75,0.75,0.25]}}{"Position"{sngArr[13,-0.125,31]}}{"TexturePath"{str[Cities\Eagulou]}}{"Textures"{recArr[[0,96,16,16][16,96,4,16][20,96,4,16][24,96,16,4]]}}{"TextureIndex"{intArr[0,0,1,1,2,2,0,0,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[13,0,31]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,96,16,16][16,96,4,16][20,96,4,16][24,96,16,4]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Eagulou_Park_Area2_Sign_NorthRidge)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 Warps:
 	Area 3
