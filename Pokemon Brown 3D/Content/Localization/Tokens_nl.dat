@@ -636,76 +636,75 @@ shop_screen_currency_short_Coins,M
 shop_screen_currency_short_Pokédollars,$
 ---
 Pokegear Screen:
-pokegear_screen_main_title,Pokégear
-pokegear_screen_main_function_PlayerSearchSystem,PSS
-pokegear_screen_main_function_Statistics,Statistics
+pokegear_screen_main_function_PlayerSearchSystem,Spelersysteem
+pokegear_screen_main_function_Statistics,Statistieken
 
-pokegear_screen_pss_title_Ranklist,PSS Ranklist
-pokegear_screen_pss_title_Friendlist,PSS Friendlist
-pokegear_screen_pss_title_Passby,PSS Passby
+pokegear_screen_pss_title_Ranklist,Ranglijst
+pokegear_screen_pss_title_Friendlist,Vriendenlijst
+pokegear_screen_pss_title_Passby,Medespelers
 
-pokegear_screen_pss_RankNumber,Rank [NUMBER]
-pokegear_screen_pss_LevelNumber,Level [NUMBER]
-pokegear_screen_pss_NoGameJoltProfile,You are not logged in with a GameJolt profile.
-pokegear_screen_pss_NoOtherPlayersOnServer,No other players connected to server.
-pokegear_screen_pss_YouArePlayingLocally,You are playing locally.
+pokegear_screen_pss_RankNumber,Rang [NUMBER]
+pokegear_screen_pss_LevelNumber,Niveau [NUMBER]
+pokegear_screen_pss_NoGameJoltProfile,Je bent niet ingelogd met een GameJolt-profiel.
+pokegear_screen_pss_NoOtherPlayersOnServer,Er zijn geen andere spelers verbonden met de server.
+pokegear_screen_pss_YouArePlayingLocally,Je speelt lokaal.
 
-pokegear_screen_pss_user_function_Battle,Battle
-pokegear_screen_pss_user_function_Trade,Trade
-pokegear_screen_pss_user_function_PersonalMessage,PM
-pokegear_screen_pss_user_function_Friend,Friend
-pokegear_screen_pss_user_function_Friend,Favorite
+pokegear_screen_pss_user_function_Battle,Gevecht
+pokegear_screen_pss_user_function_Trade,Ruil
+pokegear_screen_pss_user_function_PersonalMessage,Bericht
+pokegear_screen_pss_user_function_Friend,Vriend
+pokegear_screen_pss_user_function_Friend,Favoriet
 
-pokegear_screen_pss_TradeRequest,The player "[NAME]" wants to trade with you.
-pokegear_screen_pss_BattleRequest,The player "[NAME]" wants to battle with you.
+pokegear_screen_pss_TradeRequest,De speler "[NAME]" wil met je ruilen.
+pokegear_screen_pss_BattleRequest,De speler "[NAME]" wil met je vechten.
 ---
 Statistics Screen:
-statistics_screen_header_Name,Name
-statistics_screen_header_Value,Value
+statistics_screen_header_Name,Naam
+statistics_screen_header_Value,Waarde
 
-statistics_screen_Battle Spot battles,Battle Spot battles
-statistics_screen_Blackouts,Blackouts
-statistics_screen_Bug-Catching contest battles,Bug-Catching contest battles
-statistics_screen_Caught Pokemon,Caught Pokemon
-statistics_screen_Cut used,Cut used
-statistics_screen_Dig used,Dig used
-statistics_screen_Eggs hatched,Eggs hatched
-statistics_screen_Evolutions,Evolutions
-statistics_screen_Flash used,Flash used
-statistics_screen_Fly used,Fly used
-statistics_screen_GTS trades,GTS trades
-statistics_screen_Items found,Items found
-statistics_screen_Level,Level
-statistics_screen_Moves learned,Moves learned
-statistics_screen_Obtained BP,Obtained BP
-statistics_screen_Obtained Coins,Obtained Coins
-statistics_screen_Points,Points
-statistics_screen_PVP Losses,PVP Losses
-statistics_screen_PVP Wins,PVP Wins
-statistics_screen_PVP battles,PVP battles
-statistics_screen_Ride used,Ride used
-statistics_screen_Rock Smash used,Rock Smash used
-statistics_screen_Safari battles,Safari battles
-statistics_screen_Steps taken,Steps taken
-statistics_screen_Strength used,Strength used
-statistics_screen_Surf used,Surf used
-statistics_screen_TMs/HMs used,TMs/HMs used
-statistics_screen_Teleport used,Teleport used
-statistics_screen_Trades,Trades
-statistics_screen_Trainer battles,Trainer battles
-statistics_screen_Waterfall used,Waterfall used
-statistics_screen_Whirlpool used,Whirlpool used
-statistics_screen_Wild battles,Wild battles
-statistics_screen_Wondertrades,Wondertrades
-statistics_screen_Medicine Items used,Medicine Items used
-statistics_screen_Berries picked,Berries picked
-statistics_screen_Evolution stones used,Evolution stones used
-statistics_screen_Wings used,Wings used
-statistics_screen_Vitamins used,Vitamins used
-statistics_screen_Repels used,Repels used
-statistics_screen_Poké Balls used,Poké Balls used
-statistics_screen_Status booster used,Status booster used
-statistics_screen_Apricorns picked,Apricorns picked
+statistics_screen_Battle Spot battles,Gevechtsplek gevechten
+statistics_screen_Blackouts,Volledig uitgeschakeld
+statistics_screen_Bug-Catching contest battles,Insecten-Vangwedstrijd gevechten
+statistics_screen_Caught Pokemon,Gevangen Pokémon
+statistics_screen_Cut used,Snijd gebruikt
+statistics_screen_Dig used,Graaf gebruikt
+statistics_screen_Eggs hatched,Eieren uitgebroed
+statistics_screen_Evolutions,Evoluties
+statistics_screen_Flash used,Flits gebruikt
+statistics_screen_Fly used,Vlieg gebruikt
+statistics_screen_GTS trades,Via Werelhandel geruild
+statistics_screen_Items found,Voorwerpen gevonden
+statistics_screen_Level,Niveau
+statistics_screen_Moves learned,Technieken geleerd
+statistics_screen_Obtained BP,Ontvangen GP
+statistics_screen_Obtained Coins,Ontvangen Munten
+statistics_screen_Points,Punten
+statistics_screen_PVP Losses,Spelergevechten verloren
+statistics_screen_PVP Wins,Spelergevechten gewonnen
+statistics_screen_PVP battles,Spelergevechten
+statistics_screen_Ride used,Rijd gebruikt
+statistics_screen_Rock Smash used,Steenknal gebruikt
+statistics_screen_Safari battles,Safarigevechten
+statistics_screen_Steps taken,Stappen gezet
+statistics_screen_Strength used,Kracht gebruikt
+statistics_screen_Surf used,Surf gebruikt
+statistics_screen_TMs/HMs used,TMs/VMs gebruikt
+statistics_screen_Teleport used,Teleporteer gebruikt
+statistics_screen_Trades,Geruild
+statistics_screen_Trainer battles,Trainergevechten
+statistics_screen_Waterfall used,Waterval gebruikt
+statistics_screen_Whirlpool used,Draaikolk gebruikt
+statistics_screen_Wild battles,Wildgevechten
+statistics_screen_Wondertrades,Via Wonderruil geruild
+statistics_screen_Medicine Items used,Medicijnvoorwerpen gebruikt
+statistics_screen_Berries picked,Bessen geplukt
+statistics_screen_Evolution stones used,Evolutiestenen gebruikt
+statistics_screen_Wings used,Vleugels gebruikt
+statistics_screen_Vitamins used,Vitamines gebruikt
+statistics_screen_Repels used,Afweerders gebruikt
+statistics_screen_Poké Balls used,PokéBallen gebruikt
+statistics_screen_Status booster used,Statusverbeteraar gebruikt
+statistics_screen_Apricorns picked,Apricorns geplukt
 ---
 Trade Screen:
 trade_screen_trade_SendingPokemon,[YOURPOKEMON] naar [OTHERPLAYER] aan het sturen.~Vaarwel, [YOURPOKEMON]!
@@ -831,11 +830,11 @@ VoltorbFlip_QuitGame_2,Munt(en)!
 
 VoltorbFlip_AfterGame_Won1,Je hebt
 VoltorbFlip_AfterGame_Won2,Munt(en) gewonnen!
-VoltorbFlip_AfterGame_Lost,Jammer, je hebt geen munten~gewonnen!*Volgende keer beter!
+VoltorbFlip_AfterGame_Lost,Jammer, je hebt geen Munten~gewonnen!*Volgende keer beter!
 
 VoltorbFlip_BeforeGame_NoCoinCase,Je hebt geen Muntenkist!~Kom terug als je er een hebt!
 
-VoltorbFlip_Tutorial_HowToPlay_Message,Voltorb Flip is een spel waarin~je kaarten omdraait om de~cijfers eronder te onthullen.*De kaarten verbergen de~cijfers 1 t/m 3...~maar ook Voltorb.*Het eerste cijfer dat je~omdraait zal je dat aantal~Munten geven.*Vanaf dat moment zal het~volgende cijfer dat je vind~het totaal aantal Munten dat~je hebt verzameld~vermenigvuldigen met dat getal.*Als het een 2 is, wordt het~totaal twee keer zoveel.*Als het een 3 is, wordt het~totaal drie keer zoveel.*Maar als je een Voltorb~omdraait, is het spel voorbij.*Als dat gebeurt, verlies je~alle Munten die je in het~huidige niveau hebt verzameld.*Als je "Stop" selecteert,~zal je het niveau verlaten.*Als het te moeilijk wordt, is~het soms handiger om eerder~te stoppen.*Als je alle verstopte 2 en 3~kaarten hebt gevonden, heb je~het spel voltooid.*Als je al deze kaarten hebt~omgedraaid, zul je stijgen~naar het volgende niveau.*Op hogere niveaus heb je kans~om meer munten winnen.~Doe je best!
+VoltorbFlip_Tutorial_HowToPlay_Message,Voltorb Flip is een spel waarin~je kaarten omdraait om de~cijfers eronder te onthullen.*De kaarten verbergen de~cijfers 1 t/m 3...~maar ook Voltorb.*Het eerste cijfer dat je~omdraait zal je dat aantal~Munten geven.*Vanaf dat moment zal het~volgende cijfer dat je vind~het totaal aantal Munten dat~je hebt verzameld~vermenigvuldigen met dat getal.*Als het een 2 is, wordt het~totaal twee keer zoveel.*Als het een 3 is, wordt het~totaal drie keer zoveel.*Maar als je een Voltorb~omdraait, is het spel voorbij.*Als dat gebeurt, verlies je~alle Munten die je in het~huidige niveau hebt verzameld.*Als je "Stop" selecteert,~zal je het niveau verlaten.*Als het te moeilijk wordt, is~het soms handiger om eerder~te stoppen.*Als je alle verstopte 2 en 3~kaarten hebt gevonden, heb je~het spel voltooid.*Als je al deze kaarten hebt~omgedraaid, zul je stijgen~naar het volgende niveau.*Op hogere niveaus heb je kans~om meer Munten winnen.~Doe je best!
 VoltorbFlip_Tutorial_Hint_Message,De cijfers aan de zijkant van~het bord geven je een~aanwijzing over de getallen~die verborgen zijn op de~achterkant van de kaarten.*Hoe groter de cijfers, hoe~waarschijnlijker het is dat~er veel grote getallen~verborgen zitten in die rijen~of kolommen.*Op dezelfde manier kun je zien~hoeveel Voltorb verborgen zijn~in een rij of kolom.*Denk goed na over de totalen~van de verborgen getallen en~de Voltorb-totalen als je~kaarten omdraait.
 VoltorbFlip_Tutorial_AboutMemos_Message,Selecteer "Open Memo" of druk~op [<system.button(run)>] om het~Memo-venster te openen.*Je kunt de kaarten markeren~met de cijfers 1 t/m 3, maar~ook met een Voltorbmarkering.*Als je een idee hebt welke~cijfers achterop de kaarten~kunnen staan, open dan het~Memo-venster, kies het type~markering dat je wilt~gebruiken met het muiswiel of~de schouderknoppen van de~controller en druk op~[<system.button(enter1)>] terwijl je de~cursor op de kaart hebt~staan die je wilt markeren.*Als je een markering wilt~verwijderen, kies het type~markering dat je wilt~verwijderen met het muiswiel~of de schouderknoppen van~de controller en druk op~[<system.button(back1)>] terwijl je de~cursor op de kaart hebt~staan waar je de markering~van wilt verwijderen.*Je kunt ook de muis gebruiken~om een kaart of type~markering te selecteren.
 VoltorbFlip_Tutorial_HowToPlay_Image1,Als je de kaarten omdraait in deze volgorde, krijg je in totaal:~3 x 1 x 2 x 1 x 3... 18 Munten! En dan...
@@ -3540,7 +3539,7 @@ item_name_gm5,Groene Bol
 item_name_gm6,Virusscanner
 item_name_gm7,Blikje Bier
 item_name_gm8,Landkaart
-item_name_gm9,Poké-fluit
+item_name_gm9,Poké-Fluit
 item_name_gm10,Miststeen
 item_name_gm11,Gouden Ei
 item_name_gm12,Zilveren~Ei
@@ -3653,7 +3652,7 @@ item_desc_50,Een voorwerp dat het Sp. Weerstand-attribuut van een Pokémon verho
 item_desc_51,Een voorwerp dat het Weerstand-attribuut van een Pokémon verhoogt tijdens een gevecht. Het effect verdwijnt zodra de Pokémon wordt teruggetrokken.
 item_desc_52,Een voorwerp dat het Snelheid-attribuut van een Pokémon verhoogt tijdens een gevecht. Het effect verdwijnt zodra de Pokémon wordt teruggetrokken.
 item_desc_53,Een voorwerp dat het Sp. Aanval-attribuut van een Pokémon verhoogt tijdens een gevecht. Het effect verdwijnt zodra de Pokémon wordt teruggetrokken.
-item_desc_54,Een kistje voor munten die zijn verkregen in het Slotwater-Casino.
+item_desc_54,Een kistje voor Munten die zijn verkregen in het Slotwater-Casino.
 item_desc_55,Het spoort onzichtbare items in de omgeving op en maakt geluid en licht wanneer het iets vindt.
 item_desc_58,Een oude en versleten hengel. Gebruik hem bij elk wateroppervlak om wilde water-Pokémon te vangen.
 item_desc_59,Een nieuwe hengel van goede kwaliteit. Gebruik hem bij elk wateroppervlak om wilde water-Pokémon te vangen.
@@ -3994,7 +3993,7 @@ move_name_246,Oeroude kracht
 move_name_247,Schaduwbal
 move_name_248,Future Sight
 move_name_249,Steenknal
-move_name_250,Whirlpool
+move_name_250,Draaikolk
 move_name_251,Beat Up
 move_name_252,Fake Out
 move_name_253,Uproar
@@ -5430,11 +5429,11 @@ TrainerClass_Rocker,Rocker
 TrainerClass_RocketGrunt,Rocket Rekruut
 TrainerClass_RocketScientist,Rocket Wetenschapper
 TrainerClass_RocketLeader,Rocket Leider
-TrainerClass_Sailor,Zeeman
+TrainerClass_Sailor,Matroos
 TrainerClass_Scientist,Wetenschapper
 TrainerClass_SuperNerd,Super Nerd
-TrainerClass_Swimmer_Male,Zwemmer♂
-TrainerClass_Swimmer_Female,Zwemmer♂
+TrainerClass_Swimmer_Male,Zwemmer
+TrainerClass_Swimmer_Female,Zwemster
 TrainerClass_Tamer,Temmer
 TrainerClass_Telekinetic,Telekineticus
 TrainerClass_Youngster,Jongetje
@@ -6182,46 +6181,46 @@ Owsauri_GamblerHouse_Mother_MoveTutor_Outro,Kom gerust terug als een~van je Pok�
 Owsauri_GamblerHouse_Father,Gaap. Mijn vrouw zei dat ik~een pauze moest nemen.
 
 Owsauri_Casino_1F_Fisherman_1,Gokken is gezond!
-Owsauri_Casino_1F_Fisherman_2,<Player.Name> ontving 10 munten!
+Owsauri_Casino_1F_Fisherman_2,<Player.Name> ontving 10 Munten!
 Owsauri_Casino_1F_Fisherman_3,Winsten en verliezen zijn~in balans.
 Owsauri_Casino_1F_PokeFanMale_Green,Deze gokkasten laten me nooit~winnen...*Ik weet niet hoe ik het terug~kan verdienen.
 Owsauri_Casino_1F_PokeFanFemale_Red,Ik verdien hier mijn brood~mee!
 Owsauri_Casino_1F_PokeManiac,Hé!*Laat me met rust, het gaat~als een tierelier!
 Owsauri_Casino_1F_AdultWoman_Green,Hier hou ik van!*Meer geld!
 Owsauri_Casino_1F_Gentleman_Purple_1,Wil je verslaafd raken aan~gokken? Laat me je helpen!
-Owsauri_Casino_1F_Gentleman_Purple_2,<Player.Name> ontving 20 munten!
+Owsauri_Casino_1F_Gentleman_Purple_2,<Player.Name> ontving 20 Munten!
 Owsauri_Casino_1F_Gentleman_Purple_3,Je kunt beginnen met het~Voltorb Flip-spel daarzo!
 Owsauri_Casino_1F_Gambler_Blue,Ik kan hier net zo goed gaan~wonen.
-Owsauri_Casino_1F_GamblingClerk_1,Wat is er? Wil je wat munten?
-Owsauri_Casino_1F_GamblingClerk_2,<Player.Name> ontving 20 munten!
-Owsauri_Casino_1F_GamblingClerk_3,Verdorie! Ik heb meer munten~nodig voor de Pokémon die~ik wil!
+Owsauri_Casino_1F_GamblingClerk_1,Wat is er? Wil je wat Munten?
+Owsauri_Casino_1F_GamblingClerk_2,<Player.Name> ontving 20 Munten!
+Owsauri_Casino_1F_GamblingClerk_3,Verdorie! Ik heb meer Munten~nodig voor de Pokémon die~ik wil!
 Owsauri_Casino_1F_ForgotCoinCase,Oeps! Ik ben de Muntenkist~vergeten!
 Owsauri_Casino_1F_SlotMachine,Alleen volwassenen mogen de~gokkasten gebruiken!
 Owsauri_Casino_1F_SlotMachine_Rigged_OutOfOrder,Deze gokkast is buiten~gebruik!
 Owsauri_Casino_1F_SlotMachine_Rigged_Side,Er zit een subtiel merkteken~op deze machine... is het~een prisma?
 Owsauri_Casino_1F_SlotMachine_Rigged_Reward1,<Player.Name>: Wauw!*Deze gokkast heeft net~uitbetaald terwijl ik niets~heb gedaan!
-Owsauri_Casino_1F_SlotMachine_Rigged_Reward2,<Player.Name> vond <Storage.Get(int,FreeCoinAmount)> munten!*<Player.Name>: Het bericht op~het scherm zegt "kom later~terug"?*Vreemd...
+Owsauri_Casino_1F_SlotMachine_Rigged_Reward2,<Player.Name> vond <Storage.Get(int,FreeCoinAmount)> Munten!*<Player.Name>: Het bericht op~het scherm zegt "kom later~terug"?*Vreemd...
 Owsauri_Casino_1F_SlotMachine_Rigged_ComeBackLater,<Player.Name>: Het bericht op~het scherm zegt "kom later~terug"?*Vreemd...
 Owsauri_Casino_1F_VoltorbFlipGame_Question,Hallo daar, speler!~Zin om Voltorb Flip te spelen?
 Owsauri_Casino_1F_VoltorbFlipGame_Answer_Yes,Ik zal het spel voor je~klaarzetten!
 Owsauri_Casino_1F_VoltorbFlipGame_Answer_No,Goed dan.~Kom later nog eens spelen!
-Owsauri_Casino_1F_Clerk_VoltorbFlip_BeforeTalking,Hallo daar, kleintje!*Je ziet eruit als een echte~speler!*Waarom probeer je ons nieuwe~muntenspel Voltorb Flip~niet uit?*Je kunt prachtige prijzen~winnen als je genoeg~munten verzamelt!*Neem maar plaats, dan zet ik~het spel voor je klaar.*Zorg ervoor dat je je~Muntenkist bij de hand hebt!
+Owsauri_Casino_1F_Clerk_VoltorbFlip_BeforeTalking,Hallo daar, kleintje!*Je ziet eruit als een echte~speler!*Waarom probeer je ons nieuwe~Muntenspel Voltorb Flip~niet uit?*Je kunt prachtige prijzen~winnen als je genoeg~Munten verzamelt!*Neem maar plaats, dan zet ik~het spel voor je klaar.*Zorg ervoor dat je je~Muntenkist bij de hand hebt!
 Owsauri_Casino_1F_Clerk_VoltorbFlip_AfterTalking,Neem maar plaats, dan zet ik~het spel voor je klaar.*Zorg ervoor dat je je~Muntenkist bij de hand hebt!
-Owsauri_Casino_1F_Clerk_CoinBuy_Question,Welkom bij het Slotwater-~Casino!*Heb je speelmunten nodig?*Het is slechts $1000 voor~50 munten, en $10000 voor~500 munten!~Wil je er een paar?
+Owsauri_Casino_1F_Clerk_CoinBuy_Question,Welkom bij het Slotwater-~Casino!*Heb je speelmunten nodig?*Het is slechts $1000 voor~50 Munten, en $10000 voor~500 Munten!~Wil je er een paar?
 Owsauri_Casino_1F_Clerk_CoinBuy_No,Niet? Nou, kom later nog eens~spelen!
-Owsauri_Casino_1F_Clerk_CoinBuy_Buy50Coins,Dank je wel! Hier zijn je~50 munten!
-Owsauri_Casino_1F_Clerk_CoinBuy_Buy500Coins,Dank je wel! Hier zijn je~500 munten!
-Owsauri_Casino_1F_Clerk_CoinBuy_NotEnoughMoney,Je kan de munten niet~betalen!
+Owsauri_Casino_1F_Clerk_CoinBuy_Buy50Coins,Dank je wel! Hier zijn je~50 Munten!
+Owsauri_Casino_1F_Clerk_CoinBuy_Buy500Coins,Dank je wel! Hier zijn je~500 Munten!
+Owsauri_Casino_1F_Clerk_CoinBuy_NotEnoughMoney,Je kan de Munten niet~betalen!
 Owsauri_Casino_1F_Clerk_CoinBuy_NoCoinCase,Je hebt geen Muntenkist!
 Owsauri_Casino_1F_Clerk_CoinBuy_Answer_50Coins,50 Munten          $1000
 Owsauri_Casino_1F_Clerk_CoinBuy_Answer_500Coins,500 Munten       $10000
 Owsauri_Casino_1F_Clerk_CoinBuy_Answer_NoThanks,Nee Bedankt
-Owsauri_Casino_1F_Clerk_Directions,Welkom bij het Slotwater-~Casino!*Je kunt je munten inwisselen~voor prijzen in de kelder.*Onze gokautomaten zijn alleen~voor volwassenen, maar voel je~vrij om ons Voltorb Flip-~muntenspel eens te proberen!
+Owsauri_Casino_1F_Clerk_Directions,Welkom bij het Slotwater-~Casino!*Je kunt je Munten inwisselen~voor prijzen in de kelder.*Onze gokautomaten zijn alleen~voor volwassenen, maar voel je~vrij om ons Voltorb Flip-~Muntenspel eens te proberen!
 Owsauri_Casino_B1F_FatGuy_Blue,Ik heb echt wat Zeldzame~Snoepjes nodig voor mijn~Pokémon!
 Owsauri_Casino_B1F_Gambler_Purple,Ik had een grote buit~vandaag!
-Owsauri_Casino_B1F_Shop_Intro,We ruilen je munten in voor~prijzen!
+Owsauri_Casino_B1F_Shop_Intro,We ruilen je Munten in voor~prijzen!
 Owsauri_Casino_B1F_Shop_NoThanks,Nee Bedankt
-Owsauri_Casino_B1F_Shop_NotEnoughCoins,Sorry, je hebt meer munten~nodig.
+Owsauri_Casino_B1F_Shop_NotEnoughCoins,Sorry, je hebt meer Munten~nodig.
 Owsauri_Casino_B1F_Shop_ChoosePokemon,Dus je wilt <pokedex.getname(<storage.get(int,PokeNumber)>)>?
 Owsauri_Casino_B1F_Shop_PokemonCatchMethod,Gekocht bij het
 Owsauri_Casino_B1F_Shop_PokemonCatchLocation,Slotwater-Casino
@@ -6357,7 +6356,7 @@ Moraga_NationsBurgers_Chef,Welkom bij Burgerland!
 Moraga_NationsBurgers_Waitress,We hebben de beste~hamburgers van de stad!*Maar we hebben nu pauze.
 Moraga_NationsBurgers_FatGuy,Hap...*Auw, brandend maagzuur!
 Moraga_NationsBurgers_Hiker,Een soortgelijk restaurant~in Kanto serveert veel~lekkerder eten!
-Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking,Hé kleintje, wil je coole~prijzen winnen?*Ik kom net bij het Casino~in Slotwaterstad vandaan!*Ik ben stinkend rijk, dus~ik koop munten gewoon. Hier!
+Moraga_NationsBurgers_CoinCaseGuy_BeforeTalking,Hé kleintje, wil je coole~prijzen winnen?*Ik kom net bij het Casino~in Slotwaterstad vandaan!*Ik ben stinkend rijk, dus~ik koop Munten gewoon. Hier!
 Moraga_NationsBurgers_CoinCaseGuy_AfterTalking,Ha ha!*Veel plezier in het Casino,~kleine!
 Moraga_NationsBurgers_Drunkard_FirstTalk1,Hé, jij daar... •hik•...~heb je dit ooit~geprobeerd •hik•?*<Player.Name>: Eh... Nee?*Dronkaard: Maak je...•hik•~maar geen zorgen,~zoals je kunt... •hik• zien,~kan het geen kwaad!
 Moraga_NationsBurgers_Drunkard_FirstTalk2,<Player.Name>: Als jij het zegt...
@@ -6638,8 +6637,8 @@ Botan_MrRumikoHouse_Grandson_BeforeRescue,Dat is vreemd.*Meneer Rumiko is weg.
 Botan_MrRumikoHouse_Grandson_AfterRescue,Ik ben de kleinzoon van~Meneer Rumiko!
 Botan_MrRumikoHouse_Granddaughter,Hoi!
 Botan_MrRumikoHouse_Magazine,Pokémon Maandblad
-Botan_MrRumikoHouse_MrRumiko_BeforeReceivePokeFlute,Meneer Rumiko: Goed,~<Player.Name>!*Hier is het cadeau dat ik je~beloofd had.*Het is een heel populair~voorwerp... een Poké-fluit!
-Botan_MrRumikoHouse_MrRumiko_AfterReceivePokeFlute,Meneer Rumiko: Wanneer de~Poké-fluit gespeelt wordt,~zal elke slapende Pokémon~die hem hoort meteen~wakker worden!
+Botan_MrRumikoHouse_MrRumiko_BeforeReceivePokeFlute,Meneer Rumiko: Goed,~<Player.Name>!*Hier is het cadeau dat ik je~beloofd had.*Het is een heel populair~voorwerp... een Poké-Fluit!
+Botan_MrRumikoHouse_MrRumiko_AfterReceivePokeFlute,Meneer Rumiko: Wanneer de~Poké-Fluit gespeelt wordt,~zal elke slapende Pokémon~die hem hoort meteen~wakker worden!
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_Question,Meneer Rumiko: Veel succes~en nogmaals bedankt dat je~me gered hebt, <Player.Name>!*Ik heb een paar dingen~geleerd tijdens mijn~wandelingen door het bos,~wil je dat ik één van~je Pokémon de techniek~Duisterpuls leer voor~slechts $3000?
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
@@ -6930,7 +6929,7 @@ Route62_Main_YoungsterDouglas_DefeatMessage,Ik kan beter sterkere~Pokémon gaan 
 [Route 61 - Route 62 Gate]
 Route61_Route62_Gate_Guard,Snorlax doen hier graag een~dutje, maar ze blokkeren de~route soms dagenlang.
 Route61_Route62_Gate_Gentleman,Toen ik in het Spookachtig~Woud was, hoorde ik iemand~op een fluit spelen.
-Route61_Route62_Gate_Lady,Pokémon worden wakker van~het geluid van de Poké-fluit.
+Route61_Route62_Gate_Lady,Pokémon worden wakker van~het geluid van de Poké-Fluit.
 
 [Route 61]
 Route61_Main_Sign_SportFishingArea,Sportvisgebied
