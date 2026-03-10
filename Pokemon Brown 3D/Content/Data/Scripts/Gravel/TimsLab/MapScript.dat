@@ -57,8 +57,6 @@ version=2
 :endif
 
 :if:<Register.Registered(Starter_Charmander)>=true
-	@NPC.remove(1)
-	@NPC.remove(2)
 	:if:<Register.Registered(muralabbattle)>=false
 		@NPC.Warp(4,7,0,3)
 		@NPC.Turn(4,0)
@@ -66,8 +64,6 @@ version=2
 :endif
 
 :if:<Register.Registered(Starter_Squirtle)>=true
-	@NPC.remove(2)
-	@NPC.remove(3)
 	:if:<Register.Registered(muralabbattle)>=false
 		@NPC.Warp(4,8,0,3)
 		@NPC.Turn(4,0)
@@ -75,8 +71,6 @@ version=2
 :endif
 
 :if:<Register.Registered(Starter_Bulbasaur)>=true
-	@NPC.remove(3)
-	@NPC.remove(1)
 	:if:<Register.Registered(muralabbattle)>=false
 		@NPC.Warp(4,6,0,3)
 		@NPC.Turn(4,0)

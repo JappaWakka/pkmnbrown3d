@@ -6,7 +6,7 @@ version=2
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 		:when:<system.token(global_yes)>
 			@NPC.remove(1)
-			@NPC.register(TimsLab.dat|1|remove)
+			@NPC.register(Gravel\TimsLab.dat|1|remove)
 			@Register.Register(pokemongot)
 			@Register.Register(Starter_Charmander)
 			@register.unregister(tim1)
@@ -28,6 +28,7 @@ version=2
 				@NPC.move(4,1)
 				@Text.Show(<system.token(Gravel_TimsLab_Mura_ChoosePokemon)>)
 				@NPC.remove(2)
+				@NPC.register(Gravel\TimsLab.dat|2|remove)
 				@Text.Show(<system.token(Gravel_TimsLab_Mura_Receive_Squirtle)>)
 			:endif
 		:when:<system.token(global_no)>
