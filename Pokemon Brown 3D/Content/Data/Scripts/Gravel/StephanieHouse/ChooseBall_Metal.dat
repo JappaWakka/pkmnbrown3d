@@ -1,0 +1,36 @@
+version=2
+:if:<Register.Registered(StephaniePokemonSwap)>=False
+	@Text.Show(<system.token(Gravel_StephanieHouse_ChooseBall_MetalBall)>*<system.token(Gravel_StephanieHouse_ChooseBall_Question)>)
+	@Options.SetCancelIndex(1)
+	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		:when:<system.token(global_yes)>
+			@Pokemon.Select(1,1,0)
+			:if:<Pokemon.Number(<Pokemon.Selected>)><10
+				@NPC.remove(1)
+				@NPC.register(Gravel\StephanieHouse.dat|1|remove)
+				@Register.Register(StephaniePokemonSwap)
+				@overworldpokemon.hide
+				:if:<Pokemon.Number(<Pokemon.Selected>)><4
+					@pokemon.add(152,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>,0,Stephanie,0,<Pokemon.IsShiny(<Pokemon.Selected>)>)
+				:endif
+				:if:<Pokemon.Number(<Pokemon.Selected>)>>3 <and> <Pokemon.Number(<Pokemon.Selected>)><7
+					@pokemon.add(155,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>,0,Stephanie,0,<Pokemon.IsShiny(<Pokemon.Selected>)>)
+				:endif
+				:if:<Pokemon.Number(<Pokemon.Selected>)>>6 <and> <Pokemon.Number(<Pokemon.Selected>)><10
+					@pokemon.add(158,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>,0,Stephanie,0,<Pokemon.IsShiny(<Pokemon.Selected>)>)
+				:endif
+				@sound.play(success,1)
+				@Text.Show(<system.token(Generic_ReceivePokemon)>)
+				@pokemon.rename(<pokemon.count>-1)
+				@Text.Show(<system.token(Gravel_StephanieHouse_ChooseBall_Yes)>)
+				@Pokemon.Remove(<Pokemon.Selected>)
+			:endif
+			:end
+		:when:<system.token(global_no)>
+			@Text.Show(<system.token(Gravel_StephanieHouse_ChooseBall_No)>)
+			:end
+		:endwhen
+:else
+	@Text.Show(<system.token(Gravel_StephanieHouse_AfterChooseBall_MetalBall)>)
+:endif
+:end
