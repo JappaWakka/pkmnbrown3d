@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Gravel Town]}}{"MusicLoop"{str[Gravel]}}{"CurrentRegion"{str[Rijon]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}{"MapScript"{str[Gravel\StephanieHouse\MapScript]}}]}}
 
 Floors:
 	Regular
@@ -70,7 +70,7 @@ Furniture:
 	
 	TV
 		{"Structure"{STR[{"Map"{str[Structures\Furniture\TV]}}{"Offset"{sngArr[11.5,0.5,0]}}]}}
-		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[11,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[TV_Movie]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+		{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[11,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Gravel_StephanieHouse_TV)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 	Plant
 		{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"Scale"{sngArr[0.75,1.5,0.75]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0,0.25,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[40,112,16,32]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

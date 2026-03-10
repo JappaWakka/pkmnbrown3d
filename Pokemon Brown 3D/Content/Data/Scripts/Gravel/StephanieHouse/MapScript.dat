@@ -1,0 +1,28 @@
+version=2
+
+:if:<Register.Registered(StephaniePokemonSwap)>=false <and> <player.badges>=0 <and> <Register.Registered(StephanieShinyCalculation)>=false
+	:if:<Register.Registered(Shiny_StephanieSwap_MetalBall)>=false
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
+			@Register.Register(Shiny_StephanieSwap_MetalBall,integer,1)
+		:else
+			@Register.Register(Shiny_StephanieSwap_MetalBall,integer,0)
+		:endif
+	:endif
+	:if:<Register.Registered(Shiny_StephanieSwap_NormalBall)>=false
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
+			@Register.Register(Shiny_StephanieSwap_NormalBall,integer,1)
+		:else
+			@Register.Register(Shiny_StephanieSwap_NormalBall,integer,0)
+		:endif
+	:endif
+	:if:<Register.Registered(Shiny_StephanieSwap_MysteryBall)>=false
+		:if:<system.random(0,<math.floor(<pokemon.mastershinyrate>)>)>=0
+			@Register.Register(Shiny_StephanieSwap_MysteryBall,integer,1)
+		:else
+			@Register.Register(Shiny_StephanieSwap_MysteryBall,integer,0)
+		:endif
+	:endif
+	@Register.Register(StephanieShinyCalculation)
+:endif
+
+:end

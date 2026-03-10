@@ -1,5 +1,5 @@
 version=2
-:if:<Register.Registered(StephaniePokemonSwap)>=False
+:if:<Register.Registered(StephaniePokemonSwap)>=False <and> <player.badges>=0
 	@Text.Show(<system.token(Gravel_StephanieHouse_ChooseBall_NormalBall)>*<system.token(Gravel_StephanieHouse_ChooseBall_Question)>)
 	@Options.SetCancelIndex(1)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
@@ -12,9 +12,9 @@ version=2
 				@overworldpokemon.hide
 				@Storage.Set(int,PokemonID,<system.random(0,1)>)
 				:if:<storage.get(int,PokemonID)>=0
-					@pokemon.add(16,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>,0,Stephanie,0,<Pokemon.IsShiny(<Pokemon.Selected>)>)
+					@pokemon.add(16,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>,0,Stephanie,0,<register.value(Shiny_StephanieSwap_NormalBall)>)
 				:else
-					@pokemon.add(133,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>,0,Stephanie,0,<Pokemon.IsShiny(<Pokemon.Selected>)>)
+					@pokemon.add(133,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>,0,Stephanie,0,<register.value(Shiny_StephanieSwap_NormalBall)>)
 				:endif
 				@sound.play(success,1)
 				:if:<System.StartsWith(<pokemon.name(<pokemon.count>-1)>,e)>=true

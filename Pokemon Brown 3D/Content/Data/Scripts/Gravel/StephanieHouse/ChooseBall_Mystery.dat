@@ -1,5 +1,5 @@
 version=2
-:if:<Register.Registered(StephaniePokemonSwap)>=False
+:if:<Register.Registered(StephaniePokemonSwap)>=False <and> <player.badges>=0
 	@Text.Show(<system.token(Gravel_StephanieHouse_ChooseBall_MysteryBall)>*<system.token(Gravel_StephanieHouse_ChooseBall_Question)>)
 	@Options.SetCancelIndex(1)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
@@ -11,7 +11,7 @@ version=2
 				@NPC.register(Gravel\StephanieHouse.dat|3|remove)
 				@Register.Register(StephaniePokemonSwap)
 				@overworldpokemon.hide
-				@pokemon.add(<storage.get(int,PokemonID)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>,0,Stephanie,0,<Pokemon.IsShiny(<Pokemon.Selected>)>)
+				@pokemon.add(<storage.get(int,PokemonID)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>,5,<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>,0,Stephanie,0,<register.value(Shiny_StephanieSwap_MysteryBall)>)
 				@sound.play(success,1)
 				:if:<System.StartsWith(<pokemon.name(<pokemon.count>-1)>,e;a;o;u;i)>=true
 					@Text.Show(<system.token(Generic_ReceiveAnPokemon)>)
