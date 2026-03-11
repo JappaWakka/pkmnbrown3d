@@ -1,0 +1,11 @@
+version=2
+:if:<Register.Registered(StephaniePokemonSwap)>=False
+	:if:<player.badges>=0
+		@Text.Show(<system.token(Gravel_StephanieHouse_Stephanie_BeforeSwap)>)
+	:else
+		@Text.Show(<system.token(Gravel_StephanieHouse_Stephanie_NoSwap_AfterGotBadge)>)
+	:endif
+:else
+	@Text.Show(<system.token(Gravel_StephanieHouse_Stephanie_AfterSwap)>)
+:endif
+:end

@@ -712,6 +712,7 @@ statistics_screen_Apricorns picked,Apricorns picked
 Trade Screen:
 trade_screen_trade_SendingPokemon,Sending [YOURPOKEMON] to [OTHERPLAYER].~Good-bye, [YOURPOKEMON]!
 trade_screen_trade_ReceivedPokemon,[OTHERPLAYER] sent over [THEIRPOKEMON].
+trade_screen_trade_TradedWithNPC,<Player.Name> traded~[THEIRPOKEMON] for [YOURPOKEMON]!
 
 trade_screen_button_ConfirmTrade,Trade
 trade_screen_button_ChoosePokemon,Choose Pokémon
@@ -5258,6 +5259,7 @@ Route53_OtherGuy_StraightForward,This road is pretty straight-~forward.*You can 
 [Gravel Town]
 Gravel_Main_Tim_Late,Tim: There you are!~You're late!
 Gravel_Main_Tim_NeedPokemon,Tim: I've been waiting for you~to get here!*You need your very own~Pokémon, so come to~my lab right away!
+Gravel_Main_Stephanie,Stephanie: Hi, <Player.Name>!*You already got a Pokémon?*Let me guess... knowing Tim,~it's one from Kanto, right?*No offense to his family or~anything, but that tradition~comes off a bit... boring,~if you ask me.*If you want something a bit~more fresh for your~adventure, drop by our place~and I'll trade the Pokémon~you got for another one.*It's the house with the~garden.*See you!
 Gravel_Main_FreshAirGuy,I love living here!*The air is so fresh and clean.
 Gravel_Main_GameModeGuy,Did you know?*This GameMode is based on~the romhack Pokémon Brown~by Koolboyman, which first~released on January 17th,~2004!*Years later, in 2014, Leahkim~and Miragics made the first~attempt at a 3D remake using~Pokémon 3D!*Then in 2025, JappaWakka~gave it a massive overhaul,~creating a lot of content~from scratch!
 Gravel_Main_Sign_Town,Gravel Town*A Quiet Mountain Town.
@@ -5309,20 +5311,24 @@ Gravel_TimsLab_Mura_FirstBattle2,Let's check out our Pokémon!~I'll probably bea
 Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Okay. I now~understand the difficulty~of training.*<Player.Name>, we will meet again!
 Gravel_TimsLab_Mura_OutroMessage,...Darn, I need to train this~Pokémon!
 
+Gravel_StephanieHouse_Stephanie_BeforeSwap,Stephanie: So, <Player.Name>, did~my offer pick your interest?*I have three Pokéballs for~you to choose from:*The Metal Ball!~Do you like Johto?*The Normal Ball!~Seems plain, but has a lot~of potential!*The Mystery Ball!~Who knows which powerful~Pokémon awaits you!*I wonder which one you'll pick?
+Gravel_StephanieHouse_Stephanie_AfterSwap,Stephanie: Hello, <Player.Name>!*Are you happy to have traded~Tim's Pokémon for a~different one?*I know you are!
+Gravel_StephanieHouse_Stephanie_NoSwap_AfterGotBadge,Stephanie: Hello, <Player.Name>!*It seems you are very fond~of the Pokémon Tim gave you,~we are really happy about it!
 Gravel_StephanieHouse_TV,A news report is playing...*This is Rijon-WTN!*Reports indicate that the~border to Naljo will be~closed for the foreseeable~future due to construction~of the new Magnet Train.*More coming at 12!
+Gravel_StephanieHouse_NotChooseBall_AfterGotBadge,Stephanie: It seems you~already have a Gym Badge.*I guess you really liked~your Kanto Pokémon!
 Gravel_StephanieHouse_ChooseBall_MetalBall,Choose this Pokéball and you~get the equivalent from the~Johto region!
 Gravel_StephanieHouse_ChooseBall_NormalBall,This Pokéball has a normal~type Pokémon, but I think~you will like it!
 Gravel_StephanieHouse_ChooseBall_MysteryBall,So, you want the Mystery~Ball?*Even I don't know what lies~within!
-Gravel_StephanieHouse_AfterChooseBall_MetalBall,The Metal Ball...*Have I made the right~decision?
+Gravel_StephanieHouse_AfterChooseBall_MetalBall,The Metal Ball...*A Johto Pokémon might have~been nice.
 Gravel_StephanieHouse_AfterChooseBall_NormalBall,The Normal Ball...*Better leave it be.
 Gravel_StephanieHouse_AfterChooseBall_MysteryBall,The Mystery Ball...*I wonder which Pokémon was~in it!
 Gravel_StephanieHouse_ChooseBall_Question,Will you pick this one?
+Gravel_StephanieHouse_ChooseBall_WrongPokemon,That is not the Pokémon Tim~gave you!
 Gravel_StephanieHouse_ChooseBall_Yes,That's a great Pokémon!*Now go and become a great~trainer!
 Gravel_StephanieHouse_ChooseBall_No,Still not sure?*Take your time.
 Gravel_StephanieHouse_SwapPokemon_CatchMethod,As a gift from Stephanie at
 Gravel_StephanieHouse_SwapPokemon_CatchLocation,Gravel Town
-Gravel_StephanieHouse_Stephanie_BeforeSwap,Stephanie: So, <Player.Name>, did~my offer pick your interest?*I have three Pokéballs for~you to choose from:*The Metal Ball!~Do you like Johto?*The Normal Ball!~Seems plain, but has a lot~of potential!*The Mystery Ball!~Who knows which powerful~Pokémon awaits you!*I wonder which one you'll pick?
-Gravel_StephanieHouse_Stephanie_AfterSwap,Stephanie: Hello, <Player.Name>!*Are you happy to have traded~Tim's Pokémon for a~different one?*I know you are!
+Gravel_StephanieHouse_ReceiveSwapPokemon,<Player.Name> received~a [THEIRPOKEMON]!
 
 Gravel_PokeMart_Youngster,Ya!~Potions are available!
 Gravel_PokeMart_BugCatcher,This shop sells lots of~Poké Balls.

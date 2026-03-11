@@ -8,5 +8,46 @@ version=2
 	@register.unregister(tim5)
 	@Register.Register(tim6)
 :endif
+
+:if:<Register.Registered(gotpokemon)>=true <and> <Register.Registered(StephanieInvitation)>=false
+	@npc.spawn(10,0,10,1,,Stephanie,0,0,Stephanie,4,Looking)
+	@Player.StopMovement
+	@Player.Move(1)
+
+	:if:<camera.thirdperson>=true
+		@storage.set(bool,SetToFirstPerson,false)
+	:else
+		@storage.set(bool,SetToFirstPerson,true)
+	:endif
+	
+	@camera.activatethirdperson
+	@player.turnto(2)
+	@sound.play(Emote_Exclamation)
+	@Entity.ShowMessageBulb(1|11|0.7|10.01)
+	@NPC.Turn(4,3)
+	:if:<storage.get(bool,SetToFirstPerson)>=true
+		@Camera.DeactivateThirdPerson
+	:endif
+	@Player.TurnTo(1)
+	@Text.Show(<system.token(Gravel_Main_Stephanie)>)
+	@NPC.Turn(4,2)
+	@NPC.SetSpeed(4,1.1)
+	@NPC.Move(4,1)
+	@NPC.Turn(4,1)
+	@NPC.SetSpeed(4,1.1)
+	@NPC.Move(4,2)
+	@NPC.Turn(4,2)
+	@NPC.SetSpeed(4,1.1)
+	@NPC.Move(4,1)
+	@NPC.Turn(4,1)
+	@NPC.SetSpeed(4,1.1)
+	@NPC.Move(4,4)
+	@NPC.Turn(4,2)
+	@NPC.SetSpeed(4,1.1)
+	@NPC.Move(4,4)
+	@NPC.Remove(4)
+	@Register.Register(StephanieInvitation)
+:endif
+
 :end
 

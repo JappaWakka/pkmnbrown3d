@@ -710,6 +710,7 @@ statistics_screen_Apricorns picked,Apricorns geplukt
 Trade Screen:
 trade_screen_trade_SendingPokemon,[YOURPOKEMON] naar [OTHERPLAYER] aan het sturen.~Vaarwel, [YOURPOKEMON]!
 trade_screen_trade_ReceivedPokemon,[OTHERPLAYER] stuurde [THEIRPOKEMON] naar jou.
+trade_screen_trade_TradedWithNPC,<Player.Name> ruilde~[THEIRPOKEMON] voor~[YOURPOKEMON]!
 
 trade_screen_button_ConfirmTrade,Ruil
 trade_screen_button_ChoosePokemon,Kies Pokémon
@@ -5654,6 +5655,7 @@ Route53_OtherGuy_StraightForward,Deze weg is vrij eenvoudig.*Op deze weg kun je 
 [Gravel Town]
 Gravel_Main_Tim_Late,Tim: Daar ben je!~Je bent laat!
 Gravel_Main_Tim_NeedPokemon,Tim: Ik heb op je gewacht!*Je hebt je eigen Pokémon nodig,~dus kom meteen naar mijn lab!
+Gravel_Main_Stephanie,Stephanie: Hallo, <Player.Name>!*Heb je al een Pokémon~gekregen?*Laat me raden...~Tim kennende is het er een~uit Kanto, toch?*Ik wil zijn familie niet~beledigen of zo, maar die~traditie van hun komt een~beetje... saai over, als je~het mij vraagt.*Als je iets nieuws wilt voor~je avontuur, kom dan even~bij ons langs en dan ruil~ik de Pokémon die je hebt~gekregen voor een andere.*Het is het huis met de tuin.*Tot ziens!
 Gravel_Main_FreshAirGuy,Ik vind het heerlijk om hier~te wonen!*De lucht is zo fris en schoon.
 Gravel_Main_GameModeGuy,Wist je dit?*Deze GameMode is gebaseerd~op de romhack~"Pokémon Brown" van~Koolboyman, die voor het~eerst werd uitgebracht op~17 januari 2004!*Jaren later, in 2014, deden~Leahkim en Miragics de eerste~poging tot een 3D-remake met~Pokémon 3D!*Toen, in 2024, gaf~JappaWakka het een enorme~opknapbeurt, waarbij hij~veel content van begins af~aan creëerde!
 Gravel_Main_Sign_Town,Kiezeldorp*Een Rustig Bergdorp.
@@ -5704,6 +5706,25 @@ Gravel_TimsLab_Mura_FirstBattle1,Wacht, <Player.Name>!
 Gravel_TimsLab_Mura_FirstBattle2,Laten we onze Pokémon~uitproberen!*Ik zal je waarschijnlijk~verslaan!
 Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Oké. Ik begrijp waarom~trainen moeilijk kan zijn.*<Player.Name>, ik zie je later!
 Gravel_TimsLab_Mura_OutroMessage,...Verdorie, ik moet deze~Pokémon trainen!
+
+Gravel_StephanieHouse_Stephanie_BeforeSwap,Stephanie: So, <Player.Name>, did~my offer pick your interest?*I have three Pokéballs for~you to choose from:*The Metal Ball!~Do you like Johto?*The Normal Ball!~Seems plain, but has a lot~of potential!*The Mystery Ball!~Who knows which powerful~Pokémon awaits you!*I wonder which one you'll pick?
+Gravel_StephanieHouse_Stephanie_AfterSwap,Stephanie: Hello, <Player.Name>!*Are you happy to have traded~Tim's Pokémon for a~different one?*I know you are!
+Gravel_StephanieHouse_Stephanie_NoSwap_AfterGotBadge,Stephanie: Hello, <Player.Name>!*It seems you are very fond~of the Pokémon Tim gave you,~we are really happy about it!
+Gravel_StephanieHouse_TV,A news report is playing...*This is Rijon-WTN!*Reports indicate that the~border to Naljo will be~closed for the foreseeable~future due to construction~of the new Magnet Train.*More coming at 12!
+Gravel_StephanieHouse_NotChooseBall_AfterGotBadge,Stephanie: It seems you~already have a Gym Badge.*I guess you really liked~your Kanto Pokémon!
+Gravel_StephanieHouse_ChooseBall_MetalBall,Choose this Pokéball and you~get the equivalent from the~Johto region!
+Gravel_StephanieHouse_ChooseBall_NormalBall,This Pokéball has a normal~type Pokémon, but I think~you will like it!
+Gravel_StephanieHouse_ChooseBall_MysteryBall,So, you want the Mystery~Ball?*Even I don't know what lies~within!
+Gravel_StephanieHouse_AfterChooseBall_MetalBall,The Metal Ball...*A Johto Pokémon might have~been nice.
+Gravel_StephanieHouse_AfterChooseBall_NormalBall,The Normal Ball...*Better leave it be.
+Gravel_StephanieHouse_AfterChooseBall_MysteryBall,The Mystery Ball...*I wonder which Pokémon was~in it!
+Gravel_StephanieHouse_ChooseBall_Question,Will you pick this one?
+Gravel_StephanieHouse_ChooseBall_WrongPokemon,That is not the Pokémon Tim~gave you!
+Gravel_StephanieHouse_ChooseBall_Yes,That's a great Pokémon!*Now go and become a great~trainer!
+Gravel_StephanieHouse_ChooseBall_No,Still not sure?*Take your time.
+Gravel_StephanieHouse_SwapPokemon_CatchMethod,As a gift from Stephanie at
+Gravel_StephanieHouse_SwapPokemon_CatchLocation,Gravel Town
+Gravel_StephanieHouse_ReceiveSwapPokemon,<Player.Name> received~a [THEIRPOKEMON]!
 
 Gravel_PokeMart_Youngster,Ja!~Ze hebben Drankjes te koop!
 Gravel_PokeMart_BugCatcher,Deze winkel verkoopt een hoop~Pokéballen.
