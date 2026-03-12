@@ -123,7 +123,7 @@ Furniture:
 			{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[6,0,0]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[20]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Generic_Bookshelf_PokemonBooks)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 			
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[5,0,2]}}{"TextureID"{str[Stephanie]}}{"ID"{int[0]}}{"Name"{str[Stephanie]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\StephanieHouse\Stephanie]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[5,0,2]}}{"TextureID"{str[Stephanie]}}{"ID"{int[0]}}{"Name"{str[Stephanie]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\StephanieHouse\Stephanie]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 
 PokéBalls
 	{"NPC"{NPC[{"Scale"{sngArr[0.75,0.75,0.75]}}{"Position"{sngArr[2,0.3075,0]}}{"TextureID"{str[PokeBall]}}{"ID"{int[1]}}{"Name"{str[Metal Ball]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\StephanieHouse\ChooseBall_Metal]}}{"Rotation"{int[0]}}{"Movement"{str[Pokeball]}}{"MoveRectangles"{recArr[]}}{"CameraDistanceDelta"{sng[-0.55]}}]}}
