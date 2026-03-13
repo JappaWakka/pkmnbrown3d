@@ -9,12 +9,12 @@ version=2
 			@Storage.Set(int,PokemonID,<system.chooserandom(10,13,19,21,23,25,27,29,32,35,37,39,41,43,46,48,50,52,54,56,58,60,63,66,69,72,74,77,79,81,83,84,86,88,90,92,94,95,96,98,100,102,104,108,109,111,113,114,115,116,118,120,122,123,124,125,126,127,128,129,131,132,137,138,140,142,143,167,170,175,177,179,183,193,194,198,200,207,214,215,220,228,231,236,408,714)>)
 			
 			:if:<System.StartsWith(<pokedex.getname(<storage.get(int,PokemonID)>)>,e;a;o;u;i)>=true
-				@Storage.Set(str,ReceiveMessage,<system.token(Generic_ReceiveAnPokemon)>)
+				@Storage.Set(str,ReceiveMessage,<system.token(Gravel_StephanieHouse_ReceiveAnSwapPokemon)>)
 			:else
-				@Storage.Set(str,ReceiveMessage,<system.token(Generic_ReceivePokemon)>)
+				@Storage.Set(str,ReceiveMessage,<system.token(Gravel_StephanieHouse_ReceiveASwapPokemon)>)
 			:endif
 			
-			@pokemon.npctrade(1,2,3,4,5,6,7,8,9|<storage.get(int,PokemonID)>|5|-1||<register.value(Shiny_StephanieSwap_MysteryBall)>|<Player.OT>|Stephanie|5||<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>|<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>|||<system.token(Gravel_StephanieHouse_ChooseBall_WrongPokemon)>|StephanieCorrectPokemon|<system.token(Gravel_StephanieHouse_ReceiveSwapPokemon)>)
+			@pokemon.npctrade(1,2,3,4,5,6,7,8,9|<storage.get(int,PokemonID)>|5|-1||<register.value(Shiny_StephanieSwap_MysteryBall)>|<Player.OT>|Stephanie|5||<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>|<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>|||<system.token(Gravel_StephanieHouse_ChooseBall_WrongPokemon)>|StephanieCorrectPokemon|<storage.get(str,ReceiveMessage)>)
 			
 			:if:<Register.Registered(StephanieCorrectPokemon)>=true
 				@pokemon.SetCatchTrainer(<pokemon.count>-1,<Player.Name>)

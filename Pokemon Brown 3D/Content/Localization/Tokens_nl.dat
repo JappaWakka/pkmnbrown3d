@@ -5414,7 +5414,7 @@ TrainerClass_CueBall,Keubal
 TrainerClass_Developer,Ontwikkelaar
 TrainerClass_EliteFour,Elite Vier
 TrainerClass_Engineer,Technicus
-TrainerClass_ExGrunt,Ex-rekruut
+TrainerClass_ExGrunt,Ex-handlanger
 TrainerClass_Fisherman,Visser
 TrainerClass_Gambler,Gokker
 TrainerClass_Gentleman,Heer
@@ -5430,7 +5430,7 @@ TrainerClass_Palette,Palet
 TrainerClass_PokeManiac,PokéManiak
 TrainerClass_Rival,Rivaal
 TrainerClass_Rocker,Rocker
-TrainerClass_RocketGrunt,Rocket Rekruut
+TrainerClass_RocketGrunt,Rocket Handlanger
 TrainerClass_RocketScientist,Rocket Wetenschapper
 TrainerClass_RocketLeader,Rocket Leider
 TrainerClass_Sailor,Matroos
@@ -5707,28 +5707,29 @@ Gravel_TimsLab_Mura_FirstBattle2,Laten we onze Pokémon~uitproberen!*Ik zal je w
 Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Oké. Ik begrijp waarom~trainen moeilijk kan zijn.*<Player.Name>, ik zie je later!
 Gravel_TimsLab_Mura_OutroMessage,...Verdorie, ik moet deze~Pokémon trainen!
 
-Gravel_StephanieHouse_Stephanie_BeforeSwap,Stephanie: So, <Player.Name>, did~my offer pick your interest?*I have three Pokéballs for~you to choose from:*The Metal Ball!~Do you like Johto?*The Normal Ball!~Seems plain, but has a lot~of potential!*The Mystery Ball!~Who knows which powerful~Pokémon awaits you!*I wonder which one you'll pick?
-Gravel_StephanieHouse_Stephanie_AfterSwap,Stephanie: Hello, <Player.Name>!*Are you happy to have traded~Tim's Pokémon for a~different one?*I know you are!
-Gravel_StephanieHouse_Stephanie_NoSwap_AfterGotBadge,Stephanie: Hello, <Player.Name>!*It seems you are very fond~of the Pokémon Tim gave you,~we are really happy about it!
-Gravel_StephanieHouse_TV,A news report is playing...*This is Rijon-WTN!*Reports indicate that the~border to Naljo will be~closed for the foreseeable~future due to construction~of the new Magnet Train.*More coming at 12!
-Gravel_StephanieHouse_Radio,Hello, dear listeners!*This is Alexis, live from~Rijon FM!*I'm coming to you with~breaking news!*Team Rocket grunts have~been sighted making their~way through Botan City!*Officers are on their trail,~but work has become~overwhelming since the team~has set their sights on Rijon.*Who will step in and save us?*Thanks for listening!
-Gravel_StephanieHouse_NotChooseBall_AfterGotBadge,Stephanie: It seems you~already have a Gym Badge.*I guess you really liked~your Kanto Pokémon!
-Gravel_StephanieHouse_ChooseBall_MetalBall,Choose this Pokéball and you~get the equivalent from the~Johto region!
-Gravel_StephanieHouse_ChooseBall_NormalBall,This Pokéball has a normal~type Pokémon, but I think~you will like it!
-Gravel_StephanieHouse_ChooseBall_MysteryBall,So, you want the Mystery~Ball?*Even I don't know what lies~within!
-Gravel_StephanieHouse_AfterChooseBall_MetalBall,The Metal Ball...*A Johto Pokémon might have~been nice.
-Gravel_StephanieHouse_AfterChooseBall_NormalBall,The Normal Ball...*Better leave it be.
-Gravel_StephanieHouse_AfterChooseBall_MysteryBall,The Mystery Ball...*I wonder which Pokémon was~in it!
-Gravel_StephanieHouse_ChooseBall_Question,Will you pick this one?
-Gravel_StephanieHouse_ChooseBall_WrongPokemon,That is not the Pokémon Tim~gave you!
-Gravel_StephanieHouse_ChooseBall_Yes,That's a great Pokémon!*Now go and become a great~trainer!
-Gravel_StephanieHouse_ChooseBall_No,Still not sure?*Take your time.
-Gravel_StephanieHouse_SwapPokemon_CatchMethod,As a gift from Stephanie at
-Gravel_StephanieHouse_SwapPokemon_CatchLocation,Gravel Town
-Gravel_StephanieHouse_ReceiveSwapPokemon,<Player.Name> received~a [THEIRPOKEMON]!
+Gravel_StephanieHouse_Stephanie_BeforeSwap,Stephanie: Zo, <Player.Name>,~heeft mijn aanbod je~interesse gewekt?*Ik heb drie PokéBallen waar~je uit kunt kiezen:*De Metalen Bal!~Hou je van Johto?*De Normale Bal!~Ziet er eenvoudig uit, maar~heeft veel potentie!*De Mysterieuze Bal!~Wie weet welke krachtige~Pokémon er op je wacht!*Ik ben benieuwd welke je~zal kiezen?
+Gravel_StephanieHouse_Stephanie_AfterSwap,Stephanie: Hallo, <Player.Name>!*Ben je blij dat je Tim's~Pokémon hebt geruild voor~een andere?*Dat denk ik wel!
+Gravel_StephanieHouse_Stephanie_NoSwap_AfterGotBadge,Stephanie: Hallo, <Player.Name>!*Het lijkt erop dat je erg~gesteld bent op de Pokémon~die Tim je heeft gegeven,~daar zijn we heel blij mee!
+Gravel_StephanieHouse_TV,Er wordt een nieuwsbericht~uitgezonden...*Dit is Rijon-WTN!*Volgens berichtgeving zal de~grens met Naljo voorlopig~gesloten blijven vanwege~de aanleg van de nieuwe~Magneettrein.*Meer hierover om 12 uur!
+Gravel_StephanieHouse_Radio,Hallo, beste luisteraars!*Dit is Alexis, live vanuit~Rijon FM!*Ik heb het laatste nieuws~voor jullie!*Er zijn handlangers van~Team Rocket gesignaleerd die~zich een weg banen door~Bloemenbloeistad!*De politie zit hen op de~hielen, maar de werkdruk is~enorm toegenomen nu het team~zich op Rijon heeft gericht.*Wie zal er ingrijpen en ons~redden?*Bedankt voor het luisteren!
+Gravel_StephanieHouse_NotChooseBall_AfterGotBadge,Stephanie: Het lijkt erop dat~je al een Gym-Badge hebt.*Je vond je Kanto-Pokémon blijkbaar erg leuk!
+Gravel_StephanieHouse_ChooseBall_MetalBall,Kies je deze PokéBal, dan~krijg je de starter-Pokémon~van hetzelfde type uit de~Johto-regio!
+Gravel_StephanieHouse_ChooseBall_NormalBall,In deze PokéBal zit een Normaal-type Pokémon, maar ik denk dat je hem wel leuk zult vinden!
+Gravel_StephanieHouse_ChooseBall_MysteryBall,Dus je wilt de Mysterieuze~Bal?*Zelfs ik weet niet wat erin~zit!
+Gravel_StephanieHouse_AfterChooseBall_MetalBall,De Metalen Bal...*Een Pokémon uit Johto was~misschien wel leuk geweest.
+Gravel_StephanieHouse_AfterChooseBall_NormalBall,De Normale Bal...*Laat hem maar liggen.
+Gravel_StephanieHouse_AfterChooseBall_MysteryBall,De Mysterieuze Bal...*Ik vraag me af welke Pokémon~erin zat!
+Gravel_StephanieHouse_ChooseBall_Question,Kies je deze?
+Gravel_StephanieHouse_ChooseBall_WrongPokemon,Dat is niet de Pokémon die~Tim je heeft gegeven!
+Gravel_StephanieHouse_ChooseBall_Yes,Wat een geweldige Pokémon!*Nou, ga er op uit en word~een geweldige trainer!
+Gravel_StephanieHouse_ChooseBall_No,Twijfel je nog steeds?*Neem gerust de tijd.
+Gravel_StephanieHouse_SwapPokemon_CatchMethod,Ontvangen als cadeau van Stephanie in
+Gravel_StephanieHouse_SwapPokemon_CatchLocation,Kiezeldorp
+Gravel_StephanieHouse_ReceiveASwapPokemon,<Player.Name> ontving~een [THEIRPOKEMON]!
+Gravel_StephanieHouse_ReceiveAnSwapPokemon,<Player.Name> ontving~een [THEIRPOKEMON]!
 
 Gravel_PokeMart_Youngster,Ja!~Ze hebben Drankjes te koop!
-Gravel_PokeMart_BugCatcher,Deze winkel verkoopt een hoop~Pokéballen.
+Gravel_PokeMart_BugCatcher,Deze winkel verkoopt een hoop~PokéBallen.
 Gravel_PokeMart_Clerk_YoKiddo,Yo, kleintje!
 Gravel_PokeMart_Clerk_TimsPizza,Prof. Tim vergat zijn Pizza~op te halen!*Wil je hem bezorgen voor me?
 Gravel_PokeMain_Clerk_NoDelivery,We doen niet aan bezorgen,~weet je...
@@ -7668,7 +7669,7 @@ FinalDungeon_SmallRoom3_FishermanAstor_OutroMessage,Alles is op!
 FinalDungeon_SmallRoom3_FishermanAstor_DefeatMessage,Ik word betaald om hier~gewoon te zitten.
 
 FinalDungeon_JohtoLegendaryRoom_Rocket_BeforeGiveLegendary,Wat heb ik gedaan?*Ik heb zo'n sierlijke Pokémon~gevangen genomen!*Neem hem alsjeblieft ver~hier vandaan en laat hem in~vrede leven.
-FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Gekregen van een Rocket Rekruut bij de
+FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchMethod,Gekregen van een Rocket Handlanger bij de
 FinalDungeon_JohtoLegendaryRoom_Rocket_Pokemon_CatchLocation,Laatste Uitdaging
 FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary,Kijk dan, hij verdient het~niet om hier opgesloten te~zitten!*Het is een schande dat die~MeesterBallen zo misbruikt~kunnen worden...
 FinalDungeon_JohtoLegendaryRoom_Rocket_TalkAgain,Vertel dit aan niemand, dit~is ons geheim.
