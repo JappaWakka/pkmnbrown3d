@@ -7,7 +7,32 @@ version=2
 	:endif
 :endif
 
+:if:<camera.thirdperson>=true
+	@storage.set(bool,SetToFirstPerson,false)
+:else
+	@storage.set(bool,SetToFirstPerson,true)
+:endif
+
+@camera.activatethirdperson
+@sound.play(Emote_Exclamation)
+@Entity.ShowMessageBulb(1|<player.position(x)>|0.7|<player.position(z)>)
+
+:if:<storage.get(bool,SetToFirstPerson)>=true
+	@Camera.DeactivateThirdPerson
+:endif
+
+:if:<Register.Value(MewShiny)>=true
+	@npc.spawn(19,0.5,35,1,,[POKEMON|S]151,0,1,Mew,11,Still)
+:else
+	@npc.spawn(19,0.5,35,0,,[POKEMON|N]151,0,1,Mew,11,Still)
+:endif
+@level.Update
+
+@NPC.Turn(11,<player.facing>+2)
+@level.wait(25)
+
 @Pokemon.Cry(151)
+
 :if:<Register.Value(MewShiny)>=true
 	@Text.Show(<system.token(Castro_Main_Mew)>)
 	@battle.wild(151,50,1)
@@ -18,6 +43,9 @@ version=2
 :if:<battle.caught>=false
 	@Register.Register(ResetMew)
 :endif
+@NPC.Remove(11)
+@Level.Update
+@Text.Show(<system.token(Castro_Main_Mew_Rumors)>)
 @register.unregister(Mew)
 @entity.Remove(10)
 :end
