@@ -23,7 +23,7 @@ version=2
 	@camera.activatethirdperson
 	@player.turnto(2)
 	@sound.play(Emote_Exclamation)
-	@Entity.ShowMessageBulb(1|11|0.7|10.01)
+	@Entity.ShowMessageBulb(1|11|0.7|10)
 	@NPC.Turn(4,3)
 	:if:<storage.get(bool,SetToFirstPerson)>=true
 		@Camera.DeactivateThirdPerson

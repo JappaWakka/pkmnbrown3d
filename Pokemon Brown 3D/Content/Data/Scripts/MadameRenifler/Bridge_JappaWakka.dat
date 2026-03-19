@@ -12,7 +12,6 @@ version=2
 		@Sound.Play(Receive_Item,1)
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat)>)
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory2)>)
-		@Register.Register(DecorationItem_SniffCat)
 		@Storage.Set(bool,SetFirstPerson,false)
 		:if:<camera.thirdperson>=true
 			@Camera.Reset
@@ -33,96 +32,11 @@ version=2
 		@Level.Wait(40)
 		@NPC.Turn(0,<player.facing>-2)
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory3)>)
-		@options.setcancelindex(1)
-		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
-			:when:<system.token(global_yes)>
-				:if:<Register.Registered(PhanceroShiny)>=false
-					:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
-						@Register.Register(PhanceroShiny,bool,true)
-					:else
-						@Register.Register(PhanceroShiny,bool,false)
-					:endif
-				:endif
-				
-				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes1)>)
-				
-				:if:<Register.Value(PhanceroShiny)>=true
-					@Battle.StartTrainer(MadameRenifler\JappaWakka_Shiny)
-					@Pokedex.ChangeEntry(1011,3)
-				:else
-					@Battle.StartTrainer(MadameRenifler\JappaWakka_Normal)
-					@Pokedex.ChangeEntry(1011,2)
-				:endif
-				
-				@Register.Register(Dex_Glitched)
-				@Sound.Play(Success,1)
-				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes2)>)
-				@pokemon.add(<pokemon.count>,{"Pokemon"[1010]}{"OriginalNumber"[-1]}{"Experience"[1250000]}{"Gender"[2]}{"EggSteps"[0]}{"Item"[0]}{"ItemData"[]}{"NickName"[Foutmelding]}{"Level"[100]}{"OT"[<player.ot>]}{"Ability"[88]}{"Status"[]}{"Nature"[9]}{"CatchLocation"[<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation)>]}{"CatchTrainer"[<player.name>]}{"CatchBall"[5]}{"CatchMethod"[<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod)>]}{"Friendship"[70]}{"isShiny"[0]}{"Attack1"[1048,10,10]}{"Attack2"[136,10,10]}{"Attack3"[1004,10,10]}{"Attack4"[247,15,15]}{"HP"[497]}{"EVs"[0,0,0,0,0,0]}{"IVs"[31,31,31,31,31,31]}{"AdditionalData"[]}{"IDValue"[xsAdbGaJBZt]})
-				:if:<Register.Value(PhanceroShiny)>=true
-					@pokemon.setshiny(<math.int(<pokemon.count>-1)>,1)
-				:endif
-				@pokemon.rename(<math.int(<pokemon.count>-1)>)
-				:if:<pokemon.count>>6
-					@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_PokemonToPC)>)
-					@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
-				:endif
-				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes3)>)
-				
-				@Register.Register(JappaWakka_Battle)
-			:when:<system.token(global_no)>
-				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_No)>)
-		:endwhen
+		@NPC.Register(MadameRenifler\DanceClub.dat|0|remove)
+		@Register.Register(DecorationItem_SniffCat)
 		:end
 	:else
-		:if:<Register.Registered(JappaWakka_Battle)>=false
-			@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo)>)
-			@options.setcancelindex(1)
-			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
-				:when:<system.token(global_yes)>
-					:if:<Register.Registered(PhanceroShiny)>=false
-					:if:<system.random(0,<Pokemon.MasterShinyRate>)>=0
-						@Register.Register(PhanceroShiny,bool,true)
-					:else
-						@Register.Register(PhanceroShiny,bool,false)
-					:endif
-				:endif
-				
-				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes1)>)
-				
-				:if:<Register.Value(PhanceroShiny)>=true
-					@Battle.StartTrainer(MadameRenifler\JappaWakka_Shiny)
-					@Pokedex.ChangeEntry(1011,3)
-				:else
-					@Battle.StartTrainer(MadameRenifler\JappaWakka_Normal)
-					@Pokedex.ChangeEntry(1011,2)
-				:endif
-				
-				@Register.Register(Dex_Glitched)
-				@Sound.Play(Success,1)
-				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes2)>)
-				@pokemon.add(<pokemon.count>,{"Pokemon"[1010]}{"OriginalNumber"[-1]}{"Experience"[1250000]}{"Gender"[2]}{"EggSteps"[0]}{"Item"[0]}{"ItemData"[]}{"NickName"[Foutmelding]}{"Level"[100]}{"OT"[<player.ot>]}{"Ability"[88]}{"Status"[]}{"Nature"[9]}{"CatchLocation"[<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation)>]}{"CatchTrainer"[<player.name>]}{"CatchBall"[5]}{"CatchMethod"[<system.token(MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod)>]}{"Friendship"[70]}{"isShiny"[0]}{"Attack1"[1048,10,10]}{"Attack2"[136,10,10]}{"Attack3"[1004,10,10]}{"Attack4"[247,15,15]}{"HP"[497]}{"EVs"[0,0,0,0,0,0]}{"IVs"[31,31,31,31,31,31]}{"AdditionalData"[]}{"IDValue"[xsAdbGaJBZt]})
-				:if:<Register.Value(PhanceroShiny)>=true
-					@pokemon.setshiny(<math.int(<pokemon.count>-1)>,1)
-				:endif
-				@pokemon.rename(<math.int(<pokemon.count>-1)>)
-				:if:<pokemon.count>>6
-					@Text.Show(<system.token(Generic_PokemonToPC)>)
-					@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
-				:endif
-				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_Yes3)>)
-				
-				@Register.Register(JappaWakka_Battle)
-				:when:<system.token(global_no)>
-					@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_Battle_No)>)
-			:endwhen
-			:end
-		:else
-			:if:<Register.Registered(Dex_Repeared)>=false
-				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex)>)
-			:else
-				@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex)>)
-			:endif
-		:endif
+		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory_TalkAgain)>)
 	:endif
 	
 :endif

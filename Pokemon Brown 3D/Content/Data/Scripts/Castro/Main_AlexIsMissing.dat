@@ -1,18 +1,20 @@
 version=2
 :if:<Register.Registered(AlexMissing)>=false
-	@NPC.Spawn(5,0,10,1,Gravel\TimsLab\JappaWakka,JappaWakka,0,0,JappaWakka,11,Looking)
-	@Text.Show(<system.token(Gravel_TimsLab_AlexMissing1)>)
-	@Player.TurnTo(2,1)
-	@NPC.Turn(0,2)
-	:if:<Player.Position(x)>=5
-		@NPC.Move(11,8)
-	:else
-		@NPC.Move(11,9)
-		@NPC.Turn(11,1)
+	@NPC.Spawn(22,0,36,1,Castro\Main_AlexIsMissing,JappaWakka,0,1,JappaWakka,17,Still)
+	@Text.Show(<system.token(Castro_Main_AlexMissing1)>)
+	:if:<Player.Position(x)>=20
 		@Player.TurnTo(3)
+	:else
+		@Player.TurnTo(2)
 	:endif
 	
-	@Text.Show(<system.token(Gravel_TimsLab_AlexMissing2)>)
+	@NPC.Move(17,1)
+	
+	:if:<Player.Position(x)>=21
+		@NPC.Turn(17,0)
+	:endif
+	
+	@Text.Show(<system.token(Castro_Main_AlexMissing2)>)
 	@Screen.FadeOut(4)
 	@Player.Warp(Seashore\PlayerHouse_2F.dat,6,0.1,5)
 	@Level.Update
@@ -67,6 +69,7 @@ version=2
 	@Screen.FadeIn(4)
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_AlexMissing3)>)
 	@NPC.Register(IlexForest.dat|0|position|8,0,23)
+	@NPC.Unregister(MadameRenifler\DanceClub.dat|0|remove)
 	@NPC.Register(MadameRenifler\Bridge.dat|0|remove)
 	@Register.Register(AlexMissing)
 :endif

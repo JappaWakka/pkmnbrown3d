@@ -5547,6 +5547,7 @@ Castro_Main_CastroGrandson,My relatives founded this~town, as well as its famous
 Castro_Main_Marill_Cry,Marill: Marill Marill!*It looks lost...
 Castro_Main_JappaWakka,JappaWakka: Hiya!~You must be <Player.Name>!*My name is JappaWakka, but~you can call me Jappa if~you want!*I've heard a lot about you.*Rijon Champion, huh?~That's pretty special!*Would you like to join me~and some other folks on a~short ocean trip?~We got a great dance club and~we'll be back in no time,~no worries.*<Player.Name>: Sure, why not?*JappaWakka: Great, I'll start~the engine!*See you inside!
 Castro_Main_Mew,Mew!
+Castro_Main_Mew_Rumors,<Player.Name>: All those rumors~were true...
 Castro_Main_Sign_City,Castro Valley*The Courtly Little Port Town.
 Castro_Main_Sign_Forest,Las Castro - Wejście
 Castro_Main_Sign_Gym,Castro Valley~Pokémon Gym~Leader: Koji*Calm as a Breeze,~Overwhelming as a Storm!
@@ -6478,6 +6479,11 @@ MadameRenifler_DanceClub_YoungBoy,I love the music here!*"Play It" by JappaWakka
 MadameRenifler_DanceClub_Lass,Do you think my dance moves~look good?
 MadameRenifler_DanceClub_SuperNerd,I can't stop dancing, my feet~move on their own!
 MadameRenifler_DanceClub_Youngster,AlexCorruptor makes some~badass Game Boy remixes!
+MadameRenifler_DanceClub_YoungBoy_AlexMissing,Why did the music change?
+MadameRenifler_DanceClub_Lass_AlexMissing,I hope that cute little~Tepig is okay.
+MadameRenifler_DanceClub_SuperNerd_AlexMissing,This song is so sad, my feet~stopped moving on their own.
+MadameRenifler_DanceClub_Youngster_AlexMissing,Where did AlexCorruptor go?
+MadameRenifler_DanceClub_DJSet_WhereIsAlex,<Player.Name>: That's odd.~Alex is not here.*I hope he's alright.
 MadameRenifler_DanceClub_Music_Nike1,Currently Playing: nike#01*by DSX~- Game Boy cover by AlexCorruptor
 MadameRenifler_DanceClub_Music_PlayIt,Currently Playing:~Play It*by JappaWakka
 MadameRenifler_DanceClub_Music_Pr0ndiskOutro,Currently Playing: Pr0ndisk Outro*by Zalza~- Game Boy cover by AlexCorruptor
@@ -6501,21 +6507,12 @@ MadameRenifler_Bridge_JappaWakka_FirstTalk2,JappaWakka: Hiya, <Player.Name>!~Hav
 MadameRenifler_Bridge_JappaWakka_AfterAlexStory1,JappaWakka: Have you met~Alex?*What did he say?*...*I see.*Well that explains a lot.~I'm glad I know what's~going on.*I don't have a lot of~knowledge about different~universes, but I mean...~with Pokémon, anything~is possible!*Who knows, maybe he'll be~able to return to that~Pokémon world one day!*We'll see, but until that~happens I'll just try to be~the best friend I can be~in this one.*Thanks for telling me,~<Player.Name>.*Here, I got you something~to remember us by.
 MadameRenifler_Bridge_JappaWakka_ReceiveSniffCat,<Player.Name> received a framed~photo of a sniffing cat!
 MadameRenifler_Bridge_JappaWakka_AfterAlexStory2,You can hang it on the wall of~your room if you like.~Your computer should be able~to help you with that.
-MadameRenifler_Bridge_JappaWakka_AfterAlexStory3,Ah, we've arrived back at~Castro Valley's harbor again.*Oh! Before you go, would you~like to have a Pokémon battle~with me?*I've got something extra~special for you if you~can defeat me!
-MadameRenifler_Bridge_JappaWakka_Battle_No,That's okay, feel free to~come back if you want to~challenge me later!
-MadameRenifler_Bridge_JappaWakka_Battle_QuestionAfterNo,JappaWakka: Ah, <Player.Name>!~You're back!*Ready to challenge me?
-MadameRenifler_Bridge_JappaWakka_Battle_Yes1,Alrighty then!*Let's see what you got,~Champion!
-MadameRenifler_DeveloperJappaWakka_OutroMessage,JappaWakka: Wowzers! That was~some skilled battling! You've~certainly proven yourself~worthy of this reward!
-MadameRenifler_Bridge_JappaWakka_Battle_Yes2,<Player.Name> received a~Ph4D95210XaP!
-MadameRenifler_Bridge_JappaWakka_Phancero_CatchMethod,Received as a gift
-MadameRenifler_Bridge_JappaWakka_Phancero_CatchLocation,at Madame Renifler
-MadameRenifler_Bridge_JappaWakka_Battle_Yes3,JappaWakka: That's odd, your~Pokédex should've told you~it's a Phancero.*I'd let Professor Tim take~a look at that device if I~were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
-MadameRenifler_Bridge_JappaWakka_TalkAgain_GlitchedDex,JappaWakka: I'd let Professor~Tim take a look at that~Pokédex if I were you.*Anyhow, I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
-MadameRenifler_Bridge_JappaWakka_TalkAgain_RepairedDex,JappaWakka: I'm glad I got the~opportunity to meet you.*I wish you the best of luck!~See ya later!
+MadameRenifler_Bridge_JappaWakka_AfterAlexStory3,Ah, we've arrived back at~Castro Valley's harbor again.*Well, <Player.Name>, I'm glad~I got the opportunity to~meet you and I wish you the~best of luck!*See ya later!
+MadameRenifler_Bridge_JappaWakka_AfterAlexStory_TalkAgain,Well, <Player.Name>, I'm glad~I got the opportunity to~meet you and I wish you the~best of luck!*See ya later!
 
 [AlexCorruptor Is Missing Quest]
-Gravel_TimsLab_AlexMissing1,JappaWakka: <Player.Name>!
-Gravel_TimsLab_AlexMissing2,I wanted to check on Alex,~but he was gone!*I found this note near his~DJ set...~Here's what it says:*Dear Jappa and <Player.Name>,~Sorry that I have to leave~you without any warning, but I~saw a vision of Hydreigon~in front of me...~calling me...*He said I had go to a certain~place far away from Rijon and~didn't give me any other~instructions than that.*I may be gone for some time.~Perhaps I won't come back~at all.*I cannot tell at this moment.*In the meantime, do not worry~about me.*I can defend myself if~forced to fight.*Again, sorry for making you~nervous.*This is just very important~to me.*With love, Alex the Tepig*JappaWakka: I hope he's~alright...*Well, if you hear anything~about him, you can find me at~my ship in Castro Valley.*Someone has to keep the~music playing, right?
+Castro_Main_AlexMissing1,JappaWakka: <Player.Name>!
+Castro_Main_AlexMissing2,I wanted to check on Alex,~but he was gone!*I found this note near his~DJ set...~Here's what it says:*Dear Jappa and <Player.Name>,~Sorry that I have to leave~you without any warning, but I~saw a vision of Hydreigon~in front of me...~calling me...*He said I had go to a certain~place far away from Rijon and~didn't give me any other~instructions than that.*I may be gone for some time.~Perhaps I won't come back~at all.*I cannot tell at this moment.*In the meantime, do not worry~about me.*I can defend myself if~forced to fight.*Again, sorry for making you~nervous.*This is just very important~to me.*With love, Alex the Tepig*JappaWakka: I hope he's~alright...*Well, if you hear anything~about him, you can find me at~my ship.*Someone has to keep the~music playing, right?
 Seashore_PlayerHouse2F_AlexMissing3,<Player.Name>: Two days passed~and no sign of Alex yet!*Hmm... I remember from his~story that the first time he~appeared back in this world...~he found himself in Ilex~Forest.*Maybe it's worth looking for~him there!
 IlexForest_AlexFound1,<Player.Name>: Huh?*What's an Emboar doing in~these woods?*Wait a minute...~Alex? Is that you?
 IlexForest_AlexFound2,Alex: Hm? ...Oh, it's you!*It seems that I managed to~sort out my ordeal with the~whole other world.*I didn't want to make anyone~worried, but it was really~important for me to figure it~all out.*How long was I gone?*<Player.Name>: It's been two days~since JappaWakka found~the note.*He was very worried.*Alex: Two days? Strange...~I've been in the other world~for at least a month, if not~longer.*I've been given the ability to~teleport to that world and~back at will...*So I'll probably be gone every~once in a while.*I'll make sure that~JappaWakka knows of this~as well.*I feel like we've got a lot~to catch up on.

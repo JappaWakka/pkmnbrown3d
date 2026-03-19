@@ -1,39 +1,60 @@
 version=2
-:if:<Register.Registered(AlexMissing)>=true
-	@NPC.WearSkin(0,JappaWakka)
-	@NPC.Warp(0,~,0.155,~)
-	@Level.Update
+:if:<Register.Registered(DecorationItem_SniffCat)>=true
+	:if:<Register.Registered(AlexMissing)>=true
+		@NPC.WearSkin(0,JappaWakka)
+		@NPC.Warp(0,~,0.155,~)
+		@Level.Update
+	:else
+		@NPC.SetAdditionalValue(1,<system.token(MadameRenifler_DanceClub_YoungBoy_AlexMissing)>)
+		@NPC.SetAdditionalValue(2,<system.token(MadameRenifler_DanceClub_Lass_AlexMissing)>)
+		@NPC.SetAdditionalValue(3,<system.token(MadameRenifler_DanceClub_SuperNerd_AlexMissing)>)
+		@NPC.SetAdditionalValue(4,<system.token(MadameRenifler_DanceClub_Youngster_AlexMissing)>)
+		@NPC.SetAnimateIdle(1,0)
+		@NPC.SetAnimateIdle(2,0)
+		@NPC.SetAnimateIdle(3,0)
+		@NPC.SetAnimateIdle(4,0)
+		@NPC.SetMovement(1,Looking)
+		@NPC.SetMovement(2,Looking)
+		@NPC.SetMovement(3,Looking)
+		@NPC.SetMovement(4,Looking)
+		@Level.Update
+	:endif
 :endif
 :if:<Register.Registered(PokeInteraction_DanceClub_DJSet_Text)>=false
 	@Register.Register(PokeInteraction_DanceClub_DJSet_Text,str,<system.token(FollowerInteraction_Music_PlayerRoomMusic1)>)
 	@Register.Register(PokeInteraction_DanceClub_DJSet_Icon,str,...)
 :endif
-@Storage.Set(integer,DanceMusic,<System.Random(1,4)>)
-:select:<Storage.Get(int,DanceMusic)>
-	:when:1
-		@Music.Play(ClubMusic_Nike1,1,1)
-		@text.notification(<system.token(MadameRenifler_DanceClub_Music_Nike1)>,400,4,4,,,0,1)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Nike1)>)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
-		:end
-	:when:2
-		@Music.Play(ClubMusic_PlayIt,1,1)
-		@text.notification(<system.token(MadameRenifler_DanceClub_Music_PlayIt)>,400,4,4,,,0,1)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_PlayIt)>)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
-		:end
-	:when:3
-		@Music.Play(ClubMusic_Pr0ndiskOutro,1,1)
-		@text.notification(<system.token(MadameRenifler_DanceClub_Music_Pr0ndiskOutro)>,400,4,4,,,0,1)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Pr0ndiskOutro)>)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
-		:end
-	:when:4
-		@Music.Play(ClubMusic_Worship,1,1)
-		@text.notification(<system.token(MadameRenifler_DanceClub_Music_Worship)>,400,4,4,,,0,1)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Worship)>)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
-		:end
-:endwhen
-	
+:if:<Register.Registered(DecorationItem_SniffCat)>=false <or> <Register.Registered(AlexMissing)>=true
+	@Storage.Set(integer,DanceMusic,<System.Random(1,4)>)
+	:select:<Storage.Get(int,DanceMusic)>
+		:when:1
+			@Music.Play(ClubMusic_Nike1,1,1)
+			@text.notification(<system.token(MadameRenifler_DanceClub_Music_Nike1)>,400,4,4,,,0,1)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Nike1)>)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
+			:end
+		:when:2
+			@Music.Play(ClubMusic_PlayIt,1,1)
+			@text.notification(<system.token(MadameRenifler_DanceClub_Music_PlayIt)>,400,4,4,,,0,1)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_PlayIt)>)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
+			:end
+		:when:3
+			@Music.Play(ClubMusic_Pr0ndiskOutro,1,1)
+			@text.notification(<system.token(MadameRenifler_DanceClub_Music_Pr0ndiskOutro)>,400,4,4,,,0,1)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Pr0ndiskOutro)>)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
+			:end
+		:when:4
+			@Music.Play(ClubMusic_Worship,1,1)
+			@text.notification(<system.token(MadameRenifler_DanceClub_Music_Worship)>,400,4,4,,,0,1)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Worship)>)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
+			:end
+	:endwhen
+:else
+	@Music.Play(MadameRenifler_Sorrow,1,1)
+	@Text.Notification(<system.token(MadameRenifler_DanceClub_Music_Sorrow)>,400,4,4,,,0,1)
+
+:endif	
 :end

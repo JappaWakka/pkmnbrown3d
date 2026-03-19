@@ -1,33 +1,36 @@
 version=2
-@Text.Show(<system.token(MadameRenifler_DanceClub_ChooseSong_Question)>)
-@Options.SetCancelIndex(4)
-@Options.Show(<system.token(MadameRenifler_DanceClub_ChooseSong_Nike1)>,<system.token(MadameRenifler_DanceClub_ChooseSong_PlayIt)>,<system.token(MadameRenifler_DanceClub_ChooseSong_Pr0ndiskOutro)>,<system.token(MadameRenifler_DanceClub_ChooseSong_Worship)>,<system.token(global_cancel)>)
-	:when:<system.token(MadameRenifler_DanceClub_ChooseSong_Nike1)>
-		@Music.Play(ClubMusic_Nike1,1,1)
-		@text.notification(<system.token(MadameRenifler_DanceClub_Music_Nike1)>,400,4,4,,,0,1)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Nike1)>)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
-		:end
-	:when:<system.token(MadameRenifler_DanceClub_ChooseSong_PlayIt)>
-		@Music.Play(ClubMusic_PlayIt,1,1)
-		@text.notification(<system.token(MadameRenifler_DanceClub_Music_PlayIt)>,400,4,4,,,0,1)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_PlayIt)>)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
-		:end
-	:when:<system.token(MadameRenifler_DanceClub_ChooseSong_Pr0ndiskOutro)>
-		@Music.Play(ClubMusic_Pr0ndiskOutro,1,1)
-		@text.notification(<system.token(MadameRenifler_DanceClub_Music_Pr0ndiskOutro)>,400,4,4,,,0,1)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Pr0ndiskOutro)>)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
-		:end
-	:when:<system.token(MadameRenifler_DanceClub_ChooseSong_Worship)>
-		@Music.Play(ClubMusic_Worship,1,1)
-		@text.notification(<system.token(MadameRenifler_DanceClub_Music_Worship)>,400,4,4,,,0,1)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Worship)>)
-		@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
-		:end
-	:when:<system.token(global_cancel)>
-		:end
-:endwhen
-	
+:if:<Register.Registered(DecorationItem_SniffCat)>=false <or> <Register.Registered(AlexMissing)>=true
+	@Text.Show(<system.token(MadameRenifler_DanceClub_ChooseSong_Question)>)
+	@Options.SetCancelIndex(4)
+	@Options.Show(<system.token(MadameRenifler_DanceClub_ChooseSong_Nike1)>,<system.token(MadameRenifler_DanceClub_ChooseSong_PlayIt)>,<system.token(MadameRenifler_DanceClub_ChooseSong_Pr0ndiskOutro)>,<system.token(MadameRenifler_DanceClub_ChooseSong_Worship)>,<system.token(global_cancel)>)
+		:when:<system.token(MadameRenifler_DanceClub_ChooseSong_Nike1)>
+			@Music.Play(ClubMusic_Nike1,1,1)
+			@text.notification(<system.token(MadameRenifler_DanceClub_Music_Nike1)>,400,4,4,,,0,1)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Nike1)>)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
+			:end
+		:when:<system.token(MadameRenifler_DanceClub_ChooseSong_PlayIt)>
+			@Music.Play(ClubMusic_PlayIt,1,1)
+			@text.notification(<system.token(MadameRenifler_DanceClub_Music_PlayIt)>,400,4,4,,,0,1)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_PlayIt)>)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
+			:end
+		:when:<system.token(MadameRenifler_DanceClub_ChooseSong_Pr0ndiskOutro)>
+			@Music.Play(ClubMusic_Pr0ndiskOutro,1,1)
+			@text.notification(<system.token(MadameRenifler_DanceClub_Music_Pr0ndiskOutro)>,400,4,4,,,0,1)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Pr0ndiskOutro)>)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
+			:end
+		:when:<system.token(MadameRenifler_DanceClub_ChooseSong_Worship)>
+			@Music.Play(ClubMusic_Worship,1,1)
+			@text.notification(<system.token(MadameRenifler_DanceClub_Music_Worship)>,400,4,4,,,0,1)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Text,<system.token(FollowerInteraction_Music_Worship)>)
+			@Register.Change(PokeInteraction_DanceClub_DJSet_Icon,note)
+			:end
+		:when:<system.token(global_cancel)>
+			:end
+	:endwhen
+:else
+	@Text.Show(<system.token(MadameRenifler_DanceClub_DJSet_WhereIsAlex)>)
+:endif
 :end

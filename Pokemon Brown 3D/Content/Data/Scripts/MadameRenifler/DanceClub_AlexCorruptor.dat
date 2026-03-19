@@ -34,7 +34,7 @@ version=2
 				@Camera.DeactivateThirdPerson
 			:endif
 			@Text.Show(<system.token(MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Intro)>)
-			@Music.Play(MadameRenifler_Sorrow)
+			@Music.Play(MadameRenifler_Sorrow,1,1)
 			@Text.Notification(<system.token(MadameRenifler_DanceClub_Music_Sorrow)>,400,4,4,,,0,1)
 			@Text.Show(<system.token(MadameRenifler_DanceClub_AlexCorruptor_AfterJappa_Story)>)
 			@Level.Wait(15)
