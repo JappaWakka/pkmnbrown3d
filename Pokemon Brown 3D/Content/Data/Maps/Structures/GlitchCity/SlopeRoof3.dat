@@ -1,0 +1,9 @@
+Slope Sides
+	Straight Slopes (Direction = Where the lowest point is)
+		East
+			{"EntityField"{ENT[{"Scale"{sngArr[1,1.1875,1]}}{"Size"{intArr[1,2]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[1,0.095,0]}}{"TexturePath"{str[Cities\GlitchCity]}}{"Textures"{recArr[[96,160,16,16]]}}{"TextureIndex"{intArr[-1,-1,-1,-1,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[2]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
+			
+Top
+	{"EntityField"{ENT[{"Scale"{sngArr[1,1.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[0,1.28,0]}}{"TexturePath"{str[Cities\GlitchCity]}}{"Textures"{recArr[[144,32,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,1.1875,1]}}{"Size"{intArr[1,1]}}{"EntityID"{str[AllSidesObject]}}{"Position"{sngArr[0,1.28,1]}}{"TexturePath"{str[Cities\GlitchCity]}}{"Textures"{recArr[[144,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	

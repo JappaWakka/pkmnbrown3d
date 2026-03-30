@@ -6,7 +6,7 @@ version=2
 		@Register.Register(PhanceroShiny,bool,false)
 	:endif
 :endif
-:if:<Register.Registered(PhanceroSeen)>=false
+:if:<Register.Registered(SeenPhancero)>=false
 	:if:<Register.Value(PhanceroShiny)>=true
 		@npc.spawn(9,0,2,1,FinalDungeon\FinalCave\Phancero,[POKEMON|S]1010,1,2,Phancero,1,Still)
 	:else

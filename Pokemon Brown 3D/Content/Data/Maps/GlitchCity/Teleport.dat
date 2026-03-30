@@ -1,0 +1,24 @@
+{"Level"{LEV[{"Name"{str[Glitch City]}}{"MusicLoop"{str[GlitchCity]}}{"CurrentRegion"{str[Rijon]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[1]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[4]}}{"Weather"{int[1]}}{"Lighting"{int[1]}}{"DayTime"{int[3]}}]}}
+
+Floors:
+	{"EntityField"{ENT[{"Scale"{sngArr[1,1,9]}}{"Size"{intArr[19,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[-9,0,-4.5]}}{"TexturePath"{str[Cities\GlitchCity_Teleport]}}{"Textures"{recArr[[96,0,144,112]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Cities\GlitchCity_Teleport]}}{"AnimationData"{intArr2D[[8,24,16,112,1,4,2,0,0]]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[3]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,1,9]}}{"Size"{intArr[19,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[-9,0,4.5]}}{"TexturePath"{str[Cities\GlitchCity_Teleport]}}{"Textures"{recArr[[96,0,144,112]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Cities\GlitchCity_Teleport]}}{"AnimationData"{intArr2D[[8,24,16,112,1,4,2,0,0]]}}{"Rotation"{int[0]}}{"CameraDistanceDelta"{sng[3]}}]}}
+	
+Ceiling:
+	{"EntityField"{ENT[{"Scale"{sngArr[1,1,9]}}{"Size"{intArr[19,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[-9,7,-4.5]}}{"TexturePath"{str[Cities\GlitchCity_Teleport]}}{"Textures"{recArr[[96,0,144,112]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[Cities\GlitchCity_Teleport]}}{"AnimationData"{intArr2D[[24,24,16,112,1,4,2,0,0]]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Scale"{sngArr[1,1,9]}}{"Size"{intArr[19,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[-9,7,4.5]}}{"TexturePath"{str[Cities\GlitchCity_Teleport]}}{"Textures"{recArr[[96,0,144,112]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[21]}}{"Action"{int[0]}}{"AdditionalValue"{str[Cities\GlitchCity_Teleport]}}{"AnimationData"{intArr2D[[24,24,16,112,1,4,2,0,0]]}}{"Rotation"{int[0]}}]}}
+	
+Walls:
+	South
+		{"EntityField"{ENT[{"Scale"{sngArr[1,7,1]}}{"Size"{intArr[19,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[-9,3,-9.5]}}{"TexturePath"{str[Cities\GlitchCity_Teleport]}}{"Textures"{recArr[[0,0,144,112]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Cities\GlitchCity_Teleport]}}{"AnimationData"{intArr2D[[0,32,16,112,1,4,2,0,0]]}}{"Rotation"{int[0]}}]}}
+	
+	East
+		{"EntityField"{ENT[{"Scale"{sngArr[1,7,1]}}{"Size"{intArr[1,19]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[-10,3,-9.5]}}{"TexturePath"{str[Cities\GlitchCity_Teleport]}}{"Textures"{recArr[[64,0,144,112]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Cities\GlitchCity_Teleport]}}{"AnimationData"{intArr2D[[40,16,16,112,1,4,2,0,0]]}}{"Rotation"{int[1]}}]}}
+		
+	West
+		{"EntityField"{ENT[{"Scale"{sngArr[1,7,1]}}{"Size"{intArr[1,19]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[10,3,-9.5]}}{"TexturePath"{str[Cities\GlitchCity_Teleport]}}{"Textures"{recArr[[32,32,144,112]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Cities\GlitchCity_Teleport]}}{"AnimationData"{intArr2D[[24,0,16,112,1,4,2,0,0]]}}{"Rotation"{int[3]}}]}}
+	
+	North
+		{"EntityField"{ENT[{"Scale"{sngArr[1,7,1]}}{"Size"{intArr[19,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[-9,3,9.5]}}{"TexturePath"{str[Cities\GlitchCity_Teleport]}}{"Textures"{recArr[[16,16,144,112]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[0]}}{"AdditionalValue"{str[Cities\GlitchCity_Teleport]}}{"AnimationData"{intArr2D[[8,16,16,112,1,4,2,0,0]]}}{"Rotation"{int[2]}}]}}
+	

@@ -61,14 +61,11 @@ version=2
 :if:<Register.Registered(ResetArticuno)>=true
 	@Register.Register(Articuno)
 :endif
+:if:<Register.Registered(ResetSuicune)>=true
+	@Register.Register(Suicune)
+:endif
 :if:<Register.Registered(ResetEntei)>=true
 	@Register.Register(Entei)
-:endif
-:if:<Register.Registered(ResetMew)>=true
-	@Register.Register(Mew)
-:endif
-:if:<Register.Registered(ResetMewtwo)>=true
-	@Register.Register(Mewtwo)
 :endif
 :if:<Register.Registered(ResetMoltres)>=true
 	@Register.Register(Moltres)
@@ -76,11 +73,17 @@ version=2
 :if:<Register.Registered(ResetRaikou)>=true
 	@Register.Register(Raikou)
 :endif
-:if:<Register.Registered(ResetSuicune)>=true
-	@Register.Register(Suicune)
-:endif
 :if:<Register.Registered(ResetZapdos)>=true
 	@Register.Register(Zapdos)
+:endif
+:if:<Register.Registered(ResetMew)>=true
+	@Register.Register(Mew)
+:endif
+:if:<Register.Registered(ResetMewtwo)>=true
+	@Register.Register(Mewtwo)
+:endif
+:if:<Register.Registered(ResetPhancero)>=true
+	@Register.Register(Phancero)
 :endif
 :if:<Register.Registered(Snorlax_Route61)>=True
 	@Register.Unregister(Snorlax_Route61)

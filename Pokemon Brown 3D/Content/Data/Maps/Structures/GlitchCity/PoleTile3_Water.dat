@@ -1,0 +1,13 @@
+Invisible Floors:
+	{"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Cities\GlitchCity]}}{"Texture"{rec[16,16,16,16]}}{"Visible"{bool[0]}}]}}
+	
+Fake Water:
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[0,0,0]}}{"TexturePath"{str[Cities\GlitchCity]}}{"Textures"{recArr[[128,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cities\GlitchCity]}}{"AnimationData"{intArr2D[[128,64,16,16,3,1,2,0,0]]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[1,0,0]}}{"TexturePath"{str[Cities\GlitchCity]}}{"Textures"{recArr[[128,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cities\GlitchCity]}}{"AnimationData"{intArr2D[[128,112,16,16,3,1,2,0,0]]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[0,0,1]}}{"TexturePath"{str[Cities\GlitchCity]}}{"Textures"{recArr[[144,64,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cities\GlitchCity]}}{"AnimationData"{intArr2D[[144,64,16,16,3,1,2,0,0]]}}{"Rotation"{int[0]}}]}}
+	{"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[AnimatedBlock]}}{"Position"{sngArr[1,0,1]}}{"TexturePath"{str[Cities\GlitchCity]}}{"Textures"{recArr[[144,112,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Cities\GlitchCity]}}{"AnimationData"{intArr2D[[144,112,16,16,3,1,2,0,0]]}}{"Rotation"{int[0]}}]}}
+	
+Poles:
+	{"EntityField"{ENT[{"CameraDistanceDelta"{sng[0.25]}}{"Scale"{sngArr[0.5,1,0.5]}}{"Size"{intArr[1,2]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[-0.25,0,0.25]}}{"TexturePath"{str[Cities\GlitchCity]}}{"Textures"{recArr[[112,48,8,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+	
+	{"EntityField"{ENT[{"CameraDistanceDelta"{sng[0.25]}}{"Scale"{sngArr[0.5,0.5,0.5]}}{"Size"{intArr[2,1]}}{"EntityID"{str[WallBill]}}{"Position"{sngArr[0.25,-0.25,1.25]}}{"TexturePath"{str[Cities\GlitchCity]}}{"Textures"{recArr[[112,56,8,8]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[3]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

@@ -1,0 +1,95 @@
+version=2
+
+:select:<environment.daytimeid>
+	:when:0
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_Question_NightDay)>)
+	:when:1
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_Question_Morning)>)
+	:when:2
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_Question_NightDay)>)
+	:when:3
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_Question_Evening)>)
+	:endwhen
+	
+@options.setcancelindex(1)
+@options.show(<system.token(Generic_PokeCenter_NurseJoy_Heal)>,<system.token(global_cancel)>)
+	:when:<system.token(global_cancel)>			
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_AnswerCancel)>)
+		@player.turnto(3)
+		:end
+
+	:when:<system.token(Generic_PokeCenter_NurseJoy_Heal)>
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_AnswerHeal)>)
+		@player.turnto(0)
+		@OverworldPokemon.hide
+		@level.update
+		@music.stop
+	
+		:if:<pokemon.count>>0
+			@npc.warp(10,~,-0.2,~)
+			@level.update
+			@sound.play(pokeball_set,true)
+			@level.wait(36)
+		:endif
+		
+		:if:<pokemon.count>>1
+			@npc.warp(11,~,-0.2,~)
+			@level.update
+			@sound.play(pokeball_set,true)
+			@level.wait(36)
+		:endif
+		
+		:if:<pokemon.count>>2
+			@npc.warp(12,~,-0.2,~)
+			@level.update
+			@sound.play(pokeball_set,true)
+			@level.wait(36)
+		:endif
+		
+		:if:<pokemon.count>>3
+			@npc.warp(13,~,-0.2,~)
+			@level.update
+			@sound.play(pokeball_set,true)
+			@level.wait(36)
+		:endif
+		
+		:if:<pokemon.count>>4
+			@npc.warp(14,~,-0.2,~)
+			@level.update
+			@sound.play(pokeball_set,true)
+			@level.wait(36)
+		:endif
+		
+		:if:<pokemon.count>>5
+			@npc.warp(15,~,-0.2,~)
+			@level.update
+			@sound.play(pokeball_set,true)
+			@level.wait(36)
+		:endif
+		
+		@pokemon.heal
+		@sound.play(Heal_Party,1)
+		@npc.danceasync(10,6)
+		@npc.danceasync(11,6)
+		@npc.danceasync(12,6)
+		@npc.danceasync(13,6)
+		@npc.danceasync(14,6)
+		@npc.dance(15,6)
+		
+		@npc.warp(10,~,-0.8,~)
+		@npc.warp(11,~,-0.8,~)
+		@npc.warp(12,~,-0.8,~)
+		@npc.warp(13,~,-0.8,~)
+		@npc.warp(14,~,-0.8,~)
+		@npc.warp(15,~,-0.8,~)
+		@level.update
+		
+		@music.play(GlitchCity)
+		@player.turnto(1)
+		@Text.Show(<system.token(Generic_PokeCenter_NurseJoy_HealedParty)>)
+		@player.turnto(0)
+		@player.turnto(3)
+	:end
+	:endwhen
+
+:end

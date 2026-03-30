@@ -1,0 +1,13 @@
+version=2
+:if:<Register.Registered(Phancero)>=true
+	:if:<Register.Value(PhanceroShiny)>=true
+		@npc.spawn(10,1,15,1,Wild\Phancero,[POKEMON|S]1010,1,2,Phancero,0,FacePlayer)
+	:else
+		@npc.spawn(10,1,15,1,Wild\Phancero,[POKEMON|N]1010,1,2,Phancero,0,FacePlayer)
+	:endif
+	
+:else
+	@npc.spawn(10,1,15,1,GlitchCity\Exit,GlitchCity_Exit,0,2,Exit,0,PokeBall)
+:endif
+
+:end

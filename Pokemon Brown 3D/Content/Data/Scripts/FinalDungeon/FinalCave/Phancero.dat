@@ -24,7 +24,7 @@ version=2
 	@Screen.ShowImage(Textures\EndingScreen_en)
 :endif
 
-@Register.Register(PhanceroSeen)
+@Register.Register(SeenPhancero)
 @Pokedex.ChangeEntry(1011,2)
 
 @Entity.Remove(0)

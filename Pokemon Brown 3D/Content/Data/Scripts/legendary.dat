@@ -29,6 +29,7 @@ version=2
 	
 	@Register.Register(Mewtwo)
 	@Register.Register(Mew)
+	@Register.Register(Phancero)
 	
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Finished_Answer)>)
 	
@@ -60,40 +61,42 @@ version=2
 	
 	@Register.Register(Mewtwo)
 	@Register.Register(Mew)
+	@Register.Register(Phancero)
 	
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Finished_Answer)>)
 	
 :when:<system.token(Seashore_PlayerHouse2F_GameCube_Game_Step1_Answer_Random)>
 	:select:<system.random(0,1)>
 	:when:0
-	@Register.Register(Articuno)
+	@Register.Register(Hooh)
 	:when:1
-	@Register.Register(Suicune)
+	@Register.Register(Lugia)
 	:endwhen
 	
 	:select:<system.random(2,3)>
 	:when:2
-	@Register.Register(Hooh)
+	@Register.Register(Moltres)
 	:when:3
-	@Register.Register(Lugia)
+	@Register.Register(Entei)
 	:endwhen
 	
 	:select:<system.random(4,5)>
 	:when:4
-	@Register.Register(Moltres)
+	@Register.Register(Zapdos)
 	:when:5
-	@Register.Register(Entei)
+	@Register.Register(Raikou)
 	:endwhen
 	
 	:select:<system.random(6,7)>
 	:when:6
-	@Register.Register(Zapdos)
+	@Register.Register(Articuno)
 	:when:7
-	@Register.Register(Raikou)
+	@Register.Register(Suicune)
 	:endwhen
 	
 	@Register.Register(Mewtwo)
 	@Register.Register(Mew)
+	@Register.Register(Phancero)
 	
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_GameCube_Game_Finished_Random)>)
 	

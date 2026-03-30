@@ -1,0 +1,20 @@
+version=2
+
+@Pokemon.Cry(1010)
+:if:<Register.Value(PhanceroShiny)>=true
+	@Text.Show(<system.token(GlitchCity_Main_Phancero)>)
+	@battle.wild(1010,50,1)
+:else
+	@Text.Show(<system.token(GlitchCity_Main_Phancero)>)
+	@battle.wild(1010,50,0)
+:endif
+
+:if:<battle.caught>=false
+	@Register.Register(ResetPhancero)
+:else
+	@Register.Register(CaughtPhancero)
+:endif
+@register.unregister(Phancero)
+@npc.remove(0)
+@npc.spawn(10,1,15,1,GlitchCity\Exit,GlitchCity_Exit,0,2,Exit,0,PokeBall)
+:end
