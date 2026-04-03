@@ -1067,6 +1067,7 @@ game_message_continue_autosave,Continued save state:
 game_message_debug_texture_list_clear,Texture list was cleared
 ---
 Pokemon:
+pokemon_name_Egg,Egg
 pokemon_name_Bulbasaur,Bulbasaur
 pokemon_name_Ivysaur,Ivysaur
 pokemon_name_Venusaur,Venusaur
@@ -4219,7 +4220,7 @@ Generic_PC_Decoration_Start,How do you want to customize~your room?
 Generic_ReceivePokemon,<Player.Name> dostał~<pokemon.name(<pokemon.count>-1)>!
 # Generic_ReceiveAnPokemon,<Player.Name> received~an <pokemon.name(<pokemon.count>-1)>!
 Generic_ReceiveAnPokemon,<Player.Name> dostał~<pokemon.name(<pokemon.count>-1)>!
-# Generic_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was transfered~to the PC.
+# Generic_PokemonToPC,There's no more room for~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> was~transfered to the PC.
 Generic_PokemonToPC,Nie ma już miejsca na~Pokémony!*<pokemon.nickname(<pokemon.count>-1)> został wysłany do~komputera.
 
 [PC Decorations]
@@ -4930,7 +4931,7 @@ Owsauri_GamblerHouse_Mother_MoveTutor_Question,My husband is addicted~to the slo
 Owsauri_GamblerHouse_Mother_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
 Owsauri_GamblerHouse_Mother_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
 Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Draining Kiss.
-Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Draining Kiss!
+Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot~learn Draining Kiss!
 Owsauri_GamblerHouse_Mother_MoveTutor_Outro,Be sure to come back if any~of your Pokémon wants to~learn the move!
 
 Owsauri_GamblerHouse_Father,Yawn. My wife told me to take a break.
@@ -5403,7 +5404,7 @@ Botan_MrRumikoHouse_MrRumiko_MoveTutor_Question,Mr. Rumiko: Good luck and~thanks
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Dark Pulse.
-Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Dark Pulse!
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot~learn Dark Pulse!
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_Outro,Be sure to come back if any~of your Pokémon wants to~learn the move!
 
 
@@ -5563,7 +5564,7 @@ Castro_PunchTutorHouse_MoveTutor_LearnQuestion,Would you like me to teach one~of
 Castro_PunchTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
 Castro_PunchTutorHouse_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
 Castro_PunchTutorHouse_MoveTutor_Move_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows <storage.get(string,MoveName)>.
-Castro_PunchTutorHouse_MoveTutor_Move_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~<storage.get(string,MoveName)>!
+Castro_PunchTutorHouse_MoveTutor_Move_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot~learn <storage.get(string,MoveName)>!
 Castro_PunchTutorHouse_MoveTutor_FacePunch,Face Punch
 Castro_PunchTutorHouse_MoveTutor_Choose_FacePunch,You sure?*Well, if that's what you want,~here I come!*Hooha!
 Castro_PunchTutorHouse_MoveTutor_Outro,Be sure to come back if any~of your Pokémon wants to~learn a move!
@@ -6056,13 +6057,13 @@ League_EntranceHall_MoveTutor_Female_Question,Do you think you're ready?*Good, g
 League_EntranceHall_MoveTutor_Female_NotEnoughMoney,Hmmm...*You don't have enough money!
 League_EntranceHall_MoveTutor_Female_WhichPokémon,Which Pokémon should I tutor?
 League_EntranceHall_MoveTutor_Female_GigaImpact_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Giga Impact.
-League_EntranceHall_MoveTutor_Female_GigaImpact_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Giga Impact!
+League_EntranceHall_MoveTutor_Female_GigaImpact_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot~learn Giga Impact!
 League_EntranceHall_MoveTutor_Female_Outro,Be sure to come back if any~of your Pokémon wants to~learn the move!
 League_EntranceHall_MoveTutor_Male_Question,They sell very powerful TMs~here, but not the Fire Blast~one...~because I bought all of them!*Would you like me to teach~one of your Pokémon the move~Fire Blast for only $9000?
 League_EntranceHall_MoveTutor_Male_NotEnoughMoney,Hmmm...*You don't have enough money!
 League_EntranceHall_MoveTutor_Male_WhichPokémon,Which Pokémon should I tutor?
 League_EntranceHall_MoveTutor_Male_FireBlast_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Fire Blast.
-League_EntranceHall_MoveTutor_Male_FireBlast_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Fire Blast!
+League_EntranceHall_MoveTutor_Male_FireBlast_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot~learn Fire Blast!
 League_EntranceHall_MoveTutor_Male_Outro,Be sure to come back if any~of your Pokémon wants to~learn the move!
 League_EntranceHall_EliteFourLoreGuy_Intro,Eight Badges?!*You've sure come a long way~kid.*Would you like to know more~about the Elite Four?
 League_EntranceHall_EliteFourLoreGuy_Question,Who do you want to know~about?
@@ -6179,7 +6180,7 @@ Route34_MoveTutor_Question,I screamed so much when the~earthquake happened that 
 Route34_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
 Route34_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
 Route34_MoveTutor_HyperVoice_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows Hyper Voice.
-Route34_MoveTutor_HyperVoice_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~Hyper Voice!
+Route34_MoveTutor_HyperVoice_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot~learn Hyper Voice!
 Route34_MoveTutor_Outro,Be sure to come back if any~of your Pokémon wants to~learn the move!
 
 Route34_ScientistMax_IntroMessage,I do experiments in the Onwa~region!
@@ -6207,7 +6208,7 @@ Azalea_Main_MoveTutor_Question,I need some money to do~repairs.*Would you like m
 Azalea_Main_MoveTutor_NotEnoughMoney,Hmmm...*You don't have enough money!
 Azalea_Main_MoveTutor_WhichPokémon,Which Pokémon should I tutor?
 Azalea_Main_MoveTutor_FalseSwipe_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> already~knows False Swipe.
-Azalea_Main_MoveTutor_FalseSwipe_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot learn~False Swipe!
+Azalea_Main_MoveTutor_FalseSwipe_CannotLearn,<pokemon.nickname(<pokemon.selected>)> cannot~learn False Swipe!
 Azalea_Main_MoveTutor_Outro,Be sure to come back if any~of your Pokémon wants to~learn the move!
 
 Azalea_PokeCenter_Fisherman,Kid, that was some quake!

@@ -1063,6 +1063,7 @@ game_message_continue_autosave,Hervatte opslagbestand:
 game_message_debug_texture_list_clear,Textuur-lijst is gewist
 ---
 Pokemon:
+pokemon_name_Egg,Ei
 pokemon_name_Bulbasaur,Bulbasaur
 pokemon_name_Ivysaur,Ivysaur
 pokemon_name_Venusaur,Venusaur
@@ -5992,7 +5993,6 @@ Hayward_FossilLab_FossilReviver_Answer_SkullFossil,Nou? Schiet op en geef het~aa
 Hayward_FossilLab_FossilReviver_Answer_OldAmber,Nou? Schiet op en geef het~aan mij!*<Player.Name> overhandigde het~Oud Amber!*Loop rond in Tromtorenstad~en kom weer terug, dan kan~ik het afmaken!
 Hayward_FossilLab_FossilReviver_NoSand,Stop geen zand in je tas!~Loop gewoon rond in~Tromtorenstad!*Wat er in je kleren blijft~zitten is genoeg!
 Hayward_FossilLab_FossilReviver_HaveSand,Bedankt voor het Tromtoren-zand!*...*Klaar!~Veel plezier met je nieuwe~Pokemon!
-Hayward_FossilLab_FossilPokemon_ToPC,Er is geen ruimte meer voor~Pokémon!*<pokemon.nickname(<pokemon.count>-1)> werd~overgebracht naar de PC.
 Hayward_FossilLab_FossilPokemon_CatchMethod,Tot leven gewekt in het
 Hayward_FossilLab_FossilPokemon_CatchLocation,Haagwachter-Fossielenlab
 
@@ -6208,7 +6208,7 @@ Owsauri_GamblerHouse_Mother_MoveTutor_Question,Mijn man is verslaafd aan de~gokk
 Owsauri_GamblerHouse_Mother_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 Owsauri_GamblerHouse_Mother_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
 Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Zuigende Kus al.
-Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Zuigende Kus niet leren!
+Owsauri_GamblerHouse_Mother_MoveTutor_DrainingKiss_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de~techniek Zuigende Kus niet~leren!
 Owsauri_GamblerHouse_Mother_MoveTutor_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 
 Owsauri_GamblerHouse_Father,Gaap. Mijn vrouw zei dat ik~een pauze moest nemen.
@@ -6676,7 +6676,7 @@ Botan_MrRumikoHouse_MrRumiko_MoveTutor_Question,Meneer Rumiko: Veel succes~en no
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Duisterpuls al.
-Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Duisterpuls niet leren!
+Botan_MrRumikoHouse_MrRumiko_MoveTutor_DarkPulse_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de~techniek Duisterpuls niet~leren!
 Botan_MrRumikoHouse_MrRumiko_MoveTutor_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 
 Botan_TradeHouse_Blackbelt,Mijn vriend bij de poort~heeft een Eevee die uit een~enorm bos komt.*Wist je dat Eevee evolueert~op basis van zijn omgeving?
@@ -6835,7 +6835,7 @@ Castro_PunchTutorHouse_MoveTutor_LearnQuestion,Wil je dat ik één van je~Pokém
 Castro_PunchTutorHouse_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 Castro_PunchTutorHouse_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
 Castro_PunchTutorHouse_MoveTutor_Move_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek <storage.get(string,MoveName)> al.
-Castro_PunchTutorHouse_MoveTutor_Move_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~<storage.get(string,MoveName)> niet leren!
+Castro_PunchTutorHouse_MoveTutor_Move_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de~techniek <storage.get(string,MoveName)> niet~leren!
 Castro_PunchTutorHouse_MoveTutor_FacePunch,Gezichtslag
 Castro_PunchTutorHouse_MoveTutor_Choose_FacePunch,Weet je het zeker?*Nou, als jij dat echt wilt,~hier komt ie!*Hoe-ha!
 Castro_PunchTutorHouse_MoveTutor_Outro,Kom vooral terug als één van~je Pokémon een aanval wil~leren!
@@ -7326,13 +7326,13 @@ League_EntranceHall_MoveTutor_Female_Question,Denk je dat je er klaar voor~bent?
 League_EntranceHall_MoveTutor_Female_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 League_EntranceHall_MoveTutor_Female_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
 League_EntranceHall_MoveTutor_Female_GigaImpact_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Giga-impact al.
-League_EntranceHall_MoveTutor_Female_GigaImpact_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Giga-impact niet leren!
+League_EntranceHall_MoveTutor_Female_GigaImpact_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de~techniek Giga-impact niet~leren!
 League_EntranceHall_MoveTutor_Female_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 League_EntranceHall_MoveTutor_Male_Question,Ze verkopen hier zeer~krachtige TM's, maar niet~die van Vuurschot...~omdat ik ze allemaal heb~gekocht!*Zou je willen dat ik een van~je Pokémon de techniek~Vuurschot leer voor slechts~$9000?
 League_EntranceHall_MoveTutor_Male_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 League_EntranceHall_MoveTutor_Male_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
 League_EntranceHall_MoveTutor_Male_FireBlast_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Vuurschot al.
-League_EntranceHall_MoveTutor_Male_FireBlast_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Vuurschot niet leren!
+League_EntranceHall_MoveTutor_Male_FireBlast_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de~techniek Vuurschot niet~leren!
 League_EntranceHall_MoveTutor_Male_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 League_EntranceHall_EliteFourLoreGuy_Intro,Acht Badges?!*Je hebt zeker een lange weg~afgelegd, kleintje.*Zou je meer willen weten~over de Elite Vier?
 League_EntranceHall_EliteFourLoreGuy_Question,Over wie wil je iets weten?
@@ -7447,7 +7447,7 @@ Route34_MoveTutor_Question,Ik heb zo hard geschreeuwd~toen de aardbeving~plaatsv
 Route34_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 Route34_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
 Route34_MoveTutor_HyperVoice_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Hyperstem al.
-Route34_MoveTutor_HyperVoice_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Hyperstem niet leren!
+Route34_MoveTutor_HyperVoice_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de~techniek Hyperstem niet~leren!
 Route34_MoveTutor_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 
 Route34_ScientistMax_IntroMessage,Ik doe experimenten in de~Onwa-regio!
@@ -7475,7 +7475,7 @@ Azalea_Main_MoveTutor_Question,Ik heb geld nodig voor de~reparaties.*Zou je will
 Azalea_Main_MoveTutor_NotEnoughMoney,Hmmm...*Je hebt niet genoeg geld!
 Azalea_Main_MoveTutor_WhichPokémon,Welke Pokémon moet ik de~techniek leren?
 Azalea_Main_MoveTutor_FalseSwipe_AlreadyKnows,<pokemon.nickname(<pokemon.selected>)> kent de~techniek Stompe klap al.
-Azalea_Main_MoveTutor_FalseSwipe_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de techniek~Stompe klap niet leren!
+Azalea_Main_MoveTutor_FalseSwipe_CannotLearn,<pokemon.nickname(<pokemon.selected>)> kan de~techniek Stompe klap niet~leren!
 Azalea_Main_MoveTutor_Outro,Kom gerust terug als een~van je Pokémon de techniek~wil leren!
 
 Azalea_PokeCenter_Fisherman,Kleintje, dat was me een~beving!
