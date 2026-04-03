@@ -1,0 +1,73 @@
+version=2
+
+:if:<Register.Registered(MuraBunkerBattle)>=false
+	:if:<camera.thirdperson>=true
+		@storage.set(bool,SetToFirstPerson,false)
+	:else
+		@storage.set(bool,SetToFirstPerson,true)
+	:endif
+	
+	@camera.activatethirdperson
+	@sound.play(Emote_Exclamation)
+	@Entity.ShowMessageBulb(1|<player.position(x)>|0.7|<player.position(z)>)
+	@Player.TurnTo(0)
+	
+	@music.play(Encounter_Rival)
+	@NPC.Spawn(7,0,2,1,,Rival,0,3,Mura,1,Still)
+	@NPC.SetSpeed(1,1.1)
+	@NPC.Move(1,3)
+	@NPC.Turn(1,2)
+	@NPC.Move(1,1)
+	@NPC.Turn(1,3)
+	@NPC.Move(1,1)
+	@NPC.Turn(1,2)
+	@NPC.Move(1,3)
+	@NPC.Turn(1,1)
+	:if:<player.position>=9,0,8
+		@NPC.Move(1,2)
+	:else
+		@NPC.Move(1,1)
+	:endif
+	@NPC.Turn(1,2)
+	@NPC.Move(1,1)
+	@Text.Show(<system.token(Bunker_Mura_BeforeBattle)>)
+	@music.setmusicloop(CaveMusic3)
+	:if:<Register.Registered(Starter_Charmander)>=true
+		@battle.trainer(mura\3squirtle)
+	:endif
+
+	:if:<Register.Registered(Starter_Squirtle)>=true
+		@battle.trainer(mura\3bulbasaur)
+	:endif
+
+	:if:<Register.Registered(Starter_Bulbasaur)>=true
+		@battle.trainer(mura\3charmander)
+	:endif
+	
+	@Text.Show(<system.token(Bunker_Mura_AfterBattle)>)
+	
+	@music.play(Encounter_Rival)
+	:if:<player.position>=9,0,8
+		@NPC.Turn(1,3)
+		@NPC.Move(1,1)
+		@NPC.Turn(1,2)
+		@NPC.Move(1,2)
+		@NPC.Turn(1,3)
+	:else
+		@NPC.Turn(1,1)
+		@NPC.Move(1,1)
+		@NPC.Turn(1,2)
+		@NPC.Move(1,2)
+		@NPC.Turn(1,3)
+		@NPC.Move(1,1)
+	:endif
+	@NPC.Move(1,1)
+	@NPC.Turn(1,2)
+	@NPC.Move(1,4)
+	@NPC.Turn(1,3)
+	@NPC.Move(1,2)
+	@npc.remove(1)
+	@Register.Register(MuraBunkerBattle)
+	@music.play(CaveMusic3)
+:endif
+:end
