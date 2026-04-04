@@ -6,7 +6,7 @@ version=2
 	@npc.turn(0,2)
 :endif
 
-:if:<Register.Registered(RideCoupon)>=false
+:if:<Register.Registered(BikeVoucher)>=false
 	@Text.Show(<system.token(Jaeru_BikeShop_BikeSalesMan_NoVoucher)>)
 	@options.show(<system.token(Jaeru_BikeShop_BikeSalesMan_Option_Bicycle)>,<system.token(global_cancel)>)
 	:when:<system.token(Jaeru_BikeShop_BikeSalesMan_Option_Bicycle)>
@@ -29,11 +29,11 @@ version=2
 	:if:<Register.Registered(gotbike)>=false
 		@Text.Show(<system.token(Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike)>)
 		@Item.Give(6,1)
+		@Item.ClearItem(gm96)
 		@sound.play(Receive_KeyItem,1)
-		@Text.Color(playercolor)
+		@Text.Color(Player)
 		@Text.Show(<system.token(Jaeru_BikeShop_ExchangeVoucherForBike)>)
-		@Text.Color(playercolor)
-		@Text.Show(<system.token(Jaeru_BikeShop_BikeInPocket)>)
+		@Text.Color(Default)
 		@Register.Register(gotbike)
 	:else
 		@Text.Show(<system.token(Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike)>)

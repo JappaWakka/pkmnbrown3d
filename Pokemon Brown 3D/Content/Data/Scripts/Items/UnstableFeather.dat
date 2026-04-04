@@ -1,0 +1,32 @@
+version=2
+@Text.Show(<system.token(Item_Use_UnstableFeather_Check)>)
+:if:<system.contains(<level.levelfile>,Botan)>=true
+	:if:<system.contains(<level.levelfile>,Area1.dat;Area2.dat;Area3.dat;Area3_MissingNo.dat;Area4.dat;Area4_MissingNo.dat;Area5.dat;Area5_MissingNo.dat;Area6.dat;Area6_MissingNo.dat)>=true
+		@Text.Show(<system.token(Item_Use_UnstableFeather_HauntedForest)>)
+	:else
+		:if:<system.contains(<level.levelfile>,Area7.dat)>=true
+			@Text.Show(<system.token(Item_Use_UnstableFeather_Teleport)>)
+			@script.start(GlitchCity\Teleport)
+		:else
+			@Text.Show(<system.token(Item_Use_UnstableFeather_BotanCity)>)
+		:endif
+	:endif
+:else
+	:if:<system.contains(<level.levelfile>,Caves)>=true
+		@Text.Show(<system.token(Item_Use_UnstableFeather_Caves)>)
+	:else
+		:if:<system.contains(<level.levelfile>,Castro;Gyms\Castro.dat;CastroForest.dat;Gates\CastroValley-CastroForest.dat;FinalDungeon;Jaeru;Gyms\Jaeru.dat;League;MadameRenifler;Moraga;Gyms\Moraga.dat;Routes\57;Gyms\Route57.dat;Routes\58;Routes\59;Routes\60;Routes\61;Routes\62;Routes\65;Routes\67;Gates\Route57-CastroForest.dat;Gates\Route58-Botan.dat;Gates\Route59-Botan_1F.dat;Gates\Route59-Botan_2F.dat;Gates\Route60-Jaeru_1F.dat;Gates\Route60-Jaeru_2F.dat;Gates\Route60-Route61.dat;Gates\Route61-Route62.dat;Gates\Route62-CastroForest.dat;Gates\Route65-Jaeru.dat;Gates\Route65-Route67.dat)>=true
+			@Text.Show(<system.token(Item_Use_UnstableFeather_Close)>)
+		:else
+			:if:<system.contains(<level.levelfile>,Bunker.dat;Gravel;Eagulou;Gyms\Eagulou.dat;Hayward;Merson;Gyms\Merson.dat;Owsauri;Gyms\Owsauri.dat;Seashore;Gyms\Seashore.dat;Routes\48;Routes\49;Routes\50;Routes\51;Routes\52;Routes\53;Routes\54;Routes\55;Routes\56;Routes\63;Routes\64;Routes\66;Gates\Route49-Route50_1F.dat;Gates\Route49-Route50_2F.dat;Gates\Route49_1F.dat;Gates\Route49_2F.dat;Gates\Route52-Hayward.dat)>=true
+				@Text.Show(<system.token(Item_Use_UnstableFeather_Far)>)
+			:else
+				:if:<system.contains(<level.levelfile>,Azalea;Gyms\Azalea.dat;IlexForest.dat;Routes\34;Routes\47;Gates\Azalea-IlexForest.dat;Gates\Route34-Route47-IlexForest.dat;Gates\Route47_1F.dat;Gates\Route47_2F.dat)>=true
+					@Text.Show(<system.token(Item_Use_UnstableFeather_Johto)>)
+				:endif
+			:endif
+		:endif
+	:endif
+:endif
+
+:end

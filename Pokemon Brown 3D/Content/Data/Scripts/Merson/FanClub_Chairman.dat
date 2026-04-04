@@ -1,18 +1,20 @@
 version=2
 
-:if:<Register.Registered(RideCoupon)>=false
+:if:<Register.Registered(BikeVoucher)>=false
 @Text.Show(<system.token(Merson_FanClub_Chairman_Question)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 	:when:<system.token(global_yes)>
 		@Text.Show(<system.token(Merson_FanClub_Chairman_AnswerYes)>)
-		@sound.play(Success_Small,1)
+		@Item.Give(gm96,1)
+		@Item.MessageGive(gm96,1)
 		@Text.Show(<system.token(Merson_FanClub_ReceiveVoucher)>)
-		@Register.Register(RideCoupon)
+		@Register.Register(BikeVoucher)
 	:when:<system.token(global_no)>
 		@Text.Show(<system.token(Merson_FanClub_Chairman_AnswerNo)>)
-		@sound.play(Success_Small,1)
+		@Item.Give(gm96,1)
+		@Item.MessageGive(gm96,1)
 		@Text.Show(<system.token(Merson_FanClub_ReceiveVoucher)>)
-		@Register.Register(RideCoupon)
+		@Register.Register(BikeVoucher)
 	:endwhen:
 :else:
 	@Text.Show(<system.token(Merson_FanClub_Chairman_AfterVoucher)>)

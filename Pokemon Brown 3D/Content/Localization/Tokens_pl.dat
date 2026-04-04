@@ -2728,6 +2728,8 @@ item_name_gm91,Razor Claw
 item_name_gm92,Razor Fang
 item_name_gm93,Dragon Scale
 item_name_gm94,Boost Machine
+item_name_gm95,Unstable Feather
+item_name_gm96,Bike Voucher
 
 [GameMode Item Plural Names]
 item_pluralname_gm1,Trade Stones
@@ -2877,6 +2879,8 @@ item_desc_gm91,A sharply hooked claw that can evolve a certain species of Pokém
 item_desc_gm92,A sharp fang that can evolve a certain species of Pokémon.
 item_desc_gm93,A very tough and inflexible scale. It can make a certain species of Pokémon evolve.
 item_desc_gm94,An item to be held by a Pokémon. It makes the holder earn extra Exp. Points in battle as if it was traded.
+item_desc_gm95,A feather dropped by a mysterious bird. It seems to glitch more intensely the closer it is to its origin.
+item_desc_gm96,A coupon that can be exchanged for a Bicycle.
 ----
 Item Use Text:
 item_cannot_use,<Player.Name>: Hmm... I don't think~I can use this now.
@@ -2894,6 +2898,14 @@ item_use_658_enable,The Exp. All was turned on.
 Item_Use_TownMap,<Player.Name> checked the~Town Map.
 Item_Use_PokeFlute,<Player.Name> played the~PokéFlute.
 Item_Use_HiddenTreasures,<Player.Name>: What could this~item be?*It looks important.~I should find an expert!
+Item_Use_UnstableFeather_Check,<Player.Name> checked the~Unstable Feather...
+Item_Use_UnstableFeather_Teleport,<Player.Name>: Huh?!
+Item_Use_UnstableFeather_HauntedForest,<Player.Name>: Woah! It's~glitching like crazy!*I'm almost there!
+Item_Use_UnstableFeather_BotanCity,<Player.Name>: The feather is~glitching intensely!*It can't be far away!
+Item_Use_UnstableFeather_Close,<Player.Name>: It's glitching~at a steady pace.*Maybe I'm getting closer?
+Item_Use_UnstableFeather_Far,<Player.Name>: It's glitching~sparsely, I must be far away.
+Item_Use_UnstableFeather_Johto,<Player.Name>: The feather~stopped glitching.*I don't think this is where~it leads to.
+Item_Use_UnstableFeather_Caves,<Player.Name>: Hmmm...~The feather is not glitching~at all.*It's probably not~underground.
 -------------------
 Move Names:
 
@@ -4452,8 +4464,7 @@ Gravel_PokeMart_BugCatcher,This shop sells lots of~Poké Balls.
 Gravel_PokeMart_Clerk_YoKiddo,Yo kiddo!
 Gravel_PokeMart_Clerk_TimsPizza,Profesor Tim zapomniał~odebrać pizzę!*Czy dostarczysz ją za mnie?
 Gravel_PokeMain_Clerk_NoDelivery,Wiesz, sami nie dostarczamy...
-Gravel_PokeMart_ReceivePizza,<Player.Name> received Tim's Pizza!
-Gravel_PokeMart_PizzaInPocket,<Player.Name> stored it in the~№Key Items pocket.
+Gravel_PokeMart_ReceivePizza,<Player.Name> received Tim's Pizza!*<Player.Name> stored it in the~№Key Items pocket.
 
 [Merson Cave]
 MersonCave_Outside_NoPokedexNoAccessGuy,Go in without a Pokédex?*Are you crazy?
@@ -4525,7 +4536,7 @@ Merson_FanClub_Chairman_Question,I chair the Pokémon Fan Club!*I have collected
 Merson_FanClub_Chairman_AnswerYes,Good! There's a special deal~I'm offering.*Bring in a Pokémon and you'll~get a free Bike coupon!*And it looks like you have one~so here you go!
 Merson_FanClub_Chairman_AnswerNo,Are you sure? Because~there's a special deal~I'm offering.*Bring in a Pokémon and you'll~get a free Bike coupon!*And it looks like you have one~so here you go!
 Merson_FanClub_Chairman_AfterVoucher,Hello, <Player.Name>!*I hope you have fun with~that Bike!
-Merson_FanClub_ReceiveVoucher,<Player.Name> received a~Bike Voucher!*Exchange that for a Bike!
+Merson_FanClub_ReceiveVoucher,Exchange that for a Bike!
 
 Merson_CuboneHouse_Cubone_Cry,Cubone: Kyarugoo!
 Merson_CuboneHouse_Girl,Say hi to my cute Cubone!
@@ -5236,8 +5247,7 @@ Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_NotEnoughMoney,Sorry! You can't affor
 Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_HaveEnoughMoney,OK! Here you go!
 Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Come back again some time!
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, that's... A Bike Voucher!~OK! Here you go!
-Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> exchanged the~Bike Voucher for a Bicycle.
-Jaeru_BikeShop_BikeInPocket,<Player.Name> stored it in the~№Key Items pocket.
+Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> exchanged the~Bike Voucher for a Bicycle.*<Player.Name> stored it in the~№Key Items pocket.
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,How do you like your new~Bicycle?*You can take it on Rinjoh~Veloway and in caves!
 
 Jaeru_PokeMart_RegularGuy,You will need eight Rijon~badges in order to reach the~Rijon League.
@@ -6452,6 +6462,9 @@ FinalDungeon_Island_PaletteRed_AfterDefeat3,You can deal with whatever~that is.*
 
 FinalDungeon_FinalCave_Phancero_1,!
 FinalDungeon_FinalCave_Phancero_2,Ceroo!
+FinalDungeon_FinalCave_Feather_1,<Player.Name>: Hey, that~mysterious bird dropped~a feather!
+FinalDungeon_FinalCave_Feather_2,<Player.Name> found an~Unstable Feather!*<Player.Name> stored it in the~№Key Items pocket.
+FinalDungeon_FinalCave_Feather_3,<Player.Name>: That's weird, it~looks like it's glitching!*Could I use it to track down~that bird?
 
 FinalDungeon_FinalShop_Clerk_Question,Uh? Who are you?*Well, it doesn't matter, if~you have any cash, that is.*How may I help you?
 FinalDungeon_FinalShop_Clerk_Store,Take your time.

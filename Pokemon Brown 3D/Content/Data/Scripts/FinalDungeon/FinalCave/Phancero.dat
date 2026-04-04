@@ -36,4 +36,10 @@ version=2
 @Screen.FadeIn(15)
 @Camera.Update
 
+@Text.Show(<system.token(FinalDungeon_FinalCave_Feather_1)>)
+@Sound.Play(Receive_Item,1)
+@Text.Color(Player)
+@Text.Show(<system.token(FinalDungeon_FinalCave_Feather_2)>)
+@Text.Color(Default)
+@Text.Show(<system.token(FinalDungeon_FinalCave_Feather_3)>)
 :end

@@ -3586,6 +3586,8 @@ item_name_gm91,Scheermesklauw
 item_name_gm92,Scheermestand
 item_name_gm93,Drakenschaal
 item_name_gm94,Boost-Machine
+item_name_gm95,Onstabiele Veer
+item_name_gm96,Fietstegoedbon
 
 [GameMode Item Plural Names]
 item_pluralname_gm1,Evolutiegereedschappen
@@ -3735,8 +3737,9 @@ item_desc_gm90,Een transparant apparaat dat overstroomt van dubieuze data en een
 item_desc_gm91,Een scherp gekromde klauw die een bepaalde soort Pokémon kan laten evolueren.
 item_desc_gm92,Een scherpe hoektand die een bepaalde soort Pokémon kan laten evolueren.
 item_desc_gm93,Een zeer harde en onbuigzame schub. Het kan een bepaalde soort Pokémon laten evolueren.
-item_desc_gm94,Een voorwerp dat door een Pokémon moet worden vastgehouden. Het zorgt ervoor dat de drager extra Ervaringspunten verdient in gevechten, alsof hij geruild is.
-
+item_desc_gm94,Een apparaat dat door een Pokémon moet worden vastgehouden. Het zorgt ervoor dat de drager extra Ervaringspunten verdient in gevechten, alsof hij geruild is.
+item_desc_gm95,Een veer die door een mysterieuze vogel is laten vallen. Hoe dichter bij waar hij vandaan komt, hoe meer storingen hij lijkt te vertonen.
+item_desc_gm96,Een tegoedbon die ingeruild kan worden voor een Fiets.
 ----
 Item Use Text:
 item_cannot_use,<Player.Name>: Hmm... Ik denk niet~dat ik dit nu kan gebruiken.
@@ -3754,6 +3757,14 @@ item_use_658_enable,De Team-ervaringsdeler is~aangezet.
 Item_Use_TownMap,<Player.Name> bekeek de~Landkaart.
 Item_Use_PokeFlute,<Player.Name> bespeelde de~Poké-Fluit.
 Item_Use_HiddenTreasures,<Player.Name>: Wat zou dit~voorwerp kunnen zijn?*Het ziet er belangrijk uit.~Een expert weet hier vast~meer over!
+Item_Use_UnstableFeather_Check,<Player.Name> bekeek de~Onstabiele Veer...
+Item_Use_UnstableFeather_Teleport,<Player.Name>: Huh?!
+Item_Use_UnstableFeather_HauntedForest,<Player.Name>: Wow! Hij gaat als een gek tekeer!*Ik ben er bijna!
+Item_Use_UnstableFeather_BotanCity,<Player.Name>: De veer vertoont~flink wat storingen!*Het kan niet ver weg zijn!
+Item_Use_UnstableFeather_Close,<Player.Name>: Hij vertoont~storingen op een vast ritme.*Misschien ben ik dichterbij?
+Item_Use_UnstableFeather_Far,<Player.Name>: Hij vertoont~nauwelijks storingen, ik ben~vast ver weg.
+Item_Use_UnstableFeather_Johto,<Player.Name>: De veer~is gestopt met storingen~vertonen.*Ik denk niet dat dit is waar~hij heen leidt.
+Item_Use_UnstableFeather_Caves,<Player.Name>: Hmmm... De veer~vertoont helemaal geen~storingen.*Ik moet vast niet~ondergronds zijn.
 -------------------
 Move Names:
 move_name_1,Stamp
@@ -5741,8 +5752,7 @@ Gravel_PokeMart_BugCatcher,Deze winkel verkoopt een hoop~PokéBallen.
 Gravel_PokeMart_Clerk_YoKiddo,Yo, kleintje!
 Gravel_PokeMart_Clerk_TimsPizza,Prof. Tim vergat zijn Pizza~op te halen!*Wil je hem bezorgen voor me?
 Gravel_PokeMain_Clerk_NoDelivery,We doen niet aan bezorgen,~weet je...
-Gravel_PokeMart_ReceivePizza,<Player.Name> ontving Tim's Pizza!
-Gravel_PokeMart_PizzaInPocket,<Player.Name> stopte hem in~het №Belangrijke Voorwerpen~vakje.
+Gravel_PokeMart_ReceivePizza,<Player.Name> ontving Tim's Pizza!*<Player.Name> stopte hem in~het №Belangrijke Voorwerpen~vakje.
 
 [Merson Cave]
 MersonCave_Outside_NoPokedexNoAccessGuy,Ga je naar binnen zonder~Pokédex?*Ben je gek?
@@ -5813,7 +5823,7 @@ Merson_FanClub_Chairman_Question,Ik ben voorzitter van de~Pokémon-Fanclub!*Ik h
 Merson_FanClub_Chairman_AnswerYes,Goed zo! Er is een speciale~actie die ik aanbied.*Breng een Pokémon mee en je~krijgt een gratis tegoedbon~voor een Fiets!*En het lijkt erop dat je er~een hebt, dus alsjeblieft!
 Merson_FanClub_Chairman_AnswerNo,Weet je het zeker?~Want er is een speciale actie~die ik aanbied.*Breng een Pokémon mee en je~krijgt een gratis tegoedbon~voor een Fiets!*En het lijkt erop dat je er~een hebt, dus alsjeblieft!
 Merson_FanClub_Chairman_AfterVoucher,Hallo, <Player.Name>!*Ik wens je veel plezier met~die Fiets!
-Merson_FanClub_ReceiveVoucher,<Player.Name> ontving een~Fiets-tegoedbon!*Ruil die in voor een Fiets!
+Merson_FanClub_ReceiveVoucher,Ruil die in voor een Fiets!
 
 Merson_CuboneHouse_Cubone_Cry,Cubone: Kroh-groh!
 Merson_CuboneHouse_Girl,Zeg eens hoi tegen mijn~lieve Cubone!
@@ -6509,8 +6519,7 @@ Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_NotEnoughMoney,Sorry! Je kunt hem nie
 Jaeru_BikeShop_BikeSalesMan_Answer_Bicycle_HaveEnoughMoney,Oké! Alsjeblieft!
 Jaeru_BikeShop_BikeSalesMan_Answer_Cancel,Kom later nog eens terug!
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_BeforeReceiveBike,Oh, dat is...~Een Fiets-tegoedbon!~Oké! Alsjeblieft!
-Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> heeft de Fiets-~tegoedbon ingewisseld voor~een Fiets.
-Jaeru_BikeShop_BikeInPocket,<Player.Name> stopte hem in~het №Belangrijke Voorwerpen~vakje.
+Jaeru_BikeShop_ExchangeVoucherForBike,<Player.Name> heeft de Fiets-~tegoedbon ingewisseld voor~een Fiets.*<Player.Name> stopte hem in~het №Belangrijke Voorwerpen~vakje.
 Jaeru_BikeShop_BikeSalesMan_HasVoucher_AfterReceiveBike,Hoe bevalt je nieuwe~Fiets?*Je kunt ermee over de~Rinjoh-fietsroute rijden en~zelfs in grotten!
 
 Jaeru_PokeMart_RegularGuy,Je hebt acht Rijon-Badges~nodig om de Rijon League~te bereiken.
@@ -7719,6 +7728,9 @@ FinalDungeon_Island_PaletteRed_AfterDefeat3,Jij zoekt maar uit wat dat~was.*Neem
 
 FinalDungeon_FinalCave_Phancero_1,!
 FinalDungeon_FinalCave_Phancero_2,Krioe!
+FinalDungeon_FinalCave_Feather_1,<Player.Name>: Hé, die~mysterieuze vogel liet een~veer vallen!
+FinalDungeon_FinalCave_Feather_2,<Player.Name> vond een~Onstabiele Veer!*<Player.Name> stopte hem in~het №Belangrijke Voorwerpen~vakje.
+FinalDungeon_FinalCave_Feather_3,<Player.Name>: Dat is gek, het~lijkt alsof hij storingen~vertoont!*Zou ik hem kunnen gebruiken~om die vogel op te sporen?
 
 FinalDungeon_FinalShop_Clerk_Question,Uh? Wie ben jij?*Nou ja, het maakt niet uit,~zolang je maar geld hebt.*Waarmee kan ik je van dienst~zijn?
 FinalDungeon_FinalShop_Clerk_Store,Neem de tijd.
