@@ -3,10 +3,10 @@ version=2
 @Pokemon.Cry(1010)
 :if:<Register.Value(PhanceroShiny)>=true
 	@Text.Show(<system.token(GlitchCity_Main_Phancero)>)
-	@battle.wild(1010,50,1)
+	@battle.wild(1010,50,1,,12)
 :else
 	@Text.Show(<system.token(GlitchCity_Main_Phancero)>)
-	@battle.wild(1010,50,0)
+	@battle.wild(1010,50,0,,12)
 :endif
 
 :if:<battle.caught>=false
