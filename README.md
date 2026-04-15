@@ -1,4 +1,4 @@
-# Pokémon Brown 3D Beta
+# Pokémon Brown 3D
 3D Remake of the romhack Pokemon Brown (by [RainbowDevs](https://rainbowdevs.com/Brown)) using the [Pokémon 3D](https://pokemon3d.net) engine. 
 
 ![Seashore City](https://github.com/user-attachments/assets/bf42dcdb-91af-44ad-8235-a61df0556f8c)
