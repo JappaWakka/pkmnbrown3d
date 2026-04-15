@@ -3,24 +3,25 @@
 
 ![Seashore City](https://github.com/user-attachments/assets/bf42dcdb-91af-44ad-8235-a61df0556f8c)
 
-**Hello there, bug testers!**
+**Hello there, folks!**
 
-My name is [JappaWakka](https://github.com/JappaWakka), and I'm the main developer for the 3D remake of Pokémon Brown, simply (but effectively) called Pokémon Brown 3D! 😛
+My name is [JappaWakka](https://github.com/JappaWakka), and I'm the main developer for this 3D remake of Pokémon Brown, simply (but effectively) called Pokémon Brown 3D! 😛
 
 ## How to play
-1. Download the test build of Pokémon 3D [here](https://github.com/JappaWakka/pkmnbrown3d/releases/download/v1.0-beta11/Brown3D_1-0_Beta_11_Fresh_Install.zip).
-2. Extract the test build zip using WinRAR or 7zip to a location of your choice.
+1. Download Pokémon 3D v0.61 or higher [here](https://pokemon3d.net/download).
+2. Extract the zip using WinRAR or 7zip to a location of your choice.
 3. Download the Pokémon Brown 3D GameMode from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest).
-4. Open the zip and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the test build folder (the path would be Pokemon 3D Beta\GameModes\Pokemon Brown 3D).
-5. Launch the game by executing Pokemon3D.exe.
-6. Press any button at the title screen, then in the Main Menu, move the cursor all the way to the right and select "New Game".
-7. Select Pokémon Brown 3D from the list to start the game.
+4. Open the zip and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the Pokémon 3D folder (the path would be Pokemon 3D\GameModes\Pokemon Brown 3D).
+5. (Optionally) Download the music ContentPack from [here](https://github.com/JappaWakka/P3DToolsAndContentPacks/releases/tag/brown3dmusic-v1).
+6. Open the zip and extract the folder called Brown3DMusicPack into the "ContentPacks" folder inside the Pokémon 3D folder (the path would be Pokemon 3D\ContentPacks\Brown3DMusicPack).
+7. Launch the game by executing Pokemon3D.exe.
+8. Press any button at the title screen, then in the Main Menu, move the cursor all the way to the right and select "New Game".
+9. Select Pokémon Brown 3D from the list to start the game.
 
 ## How to update
-1. Download the Pokémon Brown 3D GameMode (and if available also the Pokemon 3D Beta update) from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest). **Note: You don't need to download the "Source code" zips!!!!**
-2. Open the Brown 3D Beta zip and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the test build folder (the path would be Pokemon 3D Beta\GameModes\Pokemon Brown 3D)
-3. If there's a Pokemon 3D Beta update, open that zip as well and extract its contents into the root of the "Pokemon 3D Beta" test build folder, overwriting the existing files.
-4. Once the Pokemon Brown 3D folder is in the GameModes folder and everything is updated, you can launch the game by executing Pokemon3D.exe and continue your save by selecting it in the Main Menu.
+1. Download the Pokémon Brown 3D GameMode from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest). **Note: You don't need to download the "Source code" zips!!!!**
+2. Open the Brown 3D zip file and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the Pokémon 3D folder (the path would be Pokemon 3D\GameModes\Pokemon Brown 3D)
+3. Once the Pokemon Brown 3D folder is in the GameModes folder and everything is updated, you can launch the game by executing Pokemon3D.exe and continue your save by selecting it in the Main Menu.
 
 ## Reporting an issue
 Check the [issue tracker](https://github.com/JappaWakka/pkmnbrown3d/issues).
@@ -46,7 +47,7 @@ If your issue has not been reported, please create a new one. Please include wha
 
 ## Gameplay Tips 
 * While in the Main Menu, you can also move the cursor all the way to the left and change some settings. Select Options and then one of the buttons in that submenu.
-* For example, if you prefer the GameBoy soundtrack over the Orchestral one, you can disable the Brown 3D Orchestral pack in the ContentPacks menu.
+* For example, if you want orchestral/remastered music instead of the GameBoy soundtrack, you can enable the Brown3DMusicPack in the ContentPacks menu.
 * To return to the Main Menu or cancel anything, you can press the E key or the right mouse button.
 * The rest of the settings (like text speed and mouse sensitivity) can only be changed while in-game. You can access the in-game Options menu by pressing the E key after the intro cutscene and selecting Options.
 * On the wall in your room, there's a note explaining the controls. In first person you can only move forward (with the W key) and turn (with the A and D keys or the mouse). It's not possible to strafe yet.
@@ -54,13 +55,14 @@ If your issue has not been reported, please create a new one. Please include wha
 
 ## History
 ![Merson Cave 1F](https://github.com/user-attachments/assets/a3194707-bf56-4fb0-b48b-9bf896c89cc3)
-Since roughly 3 years (probably longer) I've been in the development team for the fangame [Pokémon 3D](https://pokemon3d.net/) as a programmer.
+Since roughly 4 years (probably longer) I've been in the development team for the fangame [Pokémon 3D](https://pokemon3d.net/) as a programmer.
 The main "selling point" of Pokémon 3D (in my opinion) is the ability to see the world from the player's perspective in first person.
 
 Over the years, I've implemented a lot of functionality into Pokémon 3D that makes it possible to create custom campaigns and stories. We call them "GameModes".
 
 ![PokéCenter](https://github.com/JappaWakka/pkmnbrown3d/assets/31563291/24b97869-bd3c-4494-840d-e5d057a452c4)
 
-So, after finishing my previous project, [a 3D remake of the creepypasta Pokémon Lost Silver](https://github.com/JappaWakka/LostSilver3DRemastered), I was looking for something bigger to recreate, and I found Pokémon Brown. An attempt at remaking Pokémon Brown for Pokémon 3D had already been made way in the past, but it definitely needed to be massively overhauled.
+So, after finishing my previous project, [a 3D remake of the creepypasta Pokémon Lost Silver](https://github.com/JappaWakka/LostSilver3DRemastered), I was looking for something bigger to recreate, and I found Pokémon Brown.
+An attempt at remaking Pokémon Brown for Pokémon 3D had already been made way in the past, but it definitely needed to be massively overhauled.
 
-Now after more than a year of hard work and valuable insight into the development of Pokémon Brown's 2024 update, Pokémon Brown 3D is (hopefully) finally ready for testing!
+Now after more than a year of hard work and valuable insight into the development of the romhack Pokémon Brown, Pokémon Brown 3D is (hopefully) finally ready for playing!
