@@ -9,4 +9,7 @@ version=2
 		@Register.Register(Snorlax_Route61_Shiny,bool,false)
 	:endif
 :endif
+:if:<Register.Registered(MuraBunkerBattle)>=true <or> <Register.Registered(MuraRoute61Battle)>=true
+	@Entity.Remove(7)
+:endif
 :end

@@ -1,0 +1,70 @@
+version=2
+
+:if:<Register.Registered(MuraRoute61Battle)>=false
+	:if:<camera.thirdperson>=true
+		@storage.set(bool,SetToFirstPerson,false)
+	:else
+		@storage.set(bool,SetToFirstPerson,true)
+	:endif
+	@OverworldPokemon.Hide
+	@camera.activatethirdperson
+	@Player.TurnTo(0)
+	
+	@Camera.SetYaw(0)
+	@Camera.SetPitch(-0.25)
+	@camera.setposition(0,0.7,1.71)
+	@camera.update
+	
+	@sound.play(Emote_Exclamation)
+	@Entity.ShowMessageBulb(1|<player.position(x)>|0.7|<player.position(z)>)
+	@camera.setposition(0,0.3,1.71)
+	@Level.Wait(10)
+	
+	@Camera.Fix
+	@sound.play(FieldMove_Strength)
+	@Player.SetMovement(-1,0,0)
+	@Player.DoWalkAnimation(0)
+	@Player.SetSpeed(1.6)
+	@Player.Move(1)
+	@Player.DoWalkAnimation(1)
+	
+	@Player.TurnTo(3)
+	@Sound.Play(Warp_Door)
+	@music.play(Encounter_Rival)
+	@NPC.Spawn(19,0,8,1,,Rival,0,2,Mura,6,Still)
+	@NPC.SetSpeed(6,1.1)
+	@NPC.Move(6,1)
+	@NPC.Turn(6,1)
+	@Text.Show(<system.token(Route61_Main_Mura_BeforeBattle)>)
+	@music.setmusicloop(RouteMusic3)
+	:if:<Register.Registered(Starter_Charmander)>=true
+		@battle.trainer(mura\3squirtle)
+	:endif
+
+	:if:<Register.Registered(Starter_Squirtle)>=true
+		@battle.trainer(mura\3bulbasaur)
+	:endif
+
+	:if:<Register.Registered(Starter_Bulbasaur)>=true
+		@battle.trainer(mura\3charmander)
+	:endif
+	
+	@Text.Show(<system.token(Route61_Main_Mura_AfterBattle1)>)
+	@music.play(Encounter_Rival)
+	@NPC.SetSpeed(6,1)
+	@NPC.Turn(6,2)
+	@NPC.Move(6,4)
+	@NPC.Remove(6)
+	@Player.SetSpeed(1.4)
+	@Player.Move(1)
+	@Player.TurnTo(2)
+	@Text.Show(<system.token(Route61_Main_Mura_AfterBattle2)>)
+	@music.play(RouteMusic3)
+	@Register.Register(MuraRoute61Battle)
+	@Entity.Remove(7)
+	@Camera.Defix
+	:if:<storage.get(bool,SetToFirstPerson)>=true
+		@Camera.DeactivateThirdPerson
+	:endif
+:endif
+:end
