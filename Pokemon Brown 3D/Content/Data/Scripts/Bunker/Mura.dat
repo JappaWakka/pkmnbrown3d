@@ -46,7 +46,7 @@ version=2
 	
 	@Text.Show(<system.token(Bunker_Mura_AfterBattle)>)
 	
-	@music.play(Encounter_Rival)
+	@music.play(Encounter_Rival_Outro)
 	:if:<player.position>=9,0,8
 		@NPC.Turn(1,3)
 		@NPC.Move(1,1)

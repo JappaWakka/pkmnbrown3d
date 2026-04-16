@@ -25,7 +25,7 @@ version=2
 	@battle.trainer(mura\2charmander)
 :endif
 @Text.Show(<system.token(Botan_HauntedForest_Area2_Mura_AfterBattle)>)
-@music.play(Encounter_Rival)
+@music.play(Encounter_Rival_Outro)
 :if:<player.position(x)>=11
 	@npc.turn(1,2)
 	@npc.move(1,2)

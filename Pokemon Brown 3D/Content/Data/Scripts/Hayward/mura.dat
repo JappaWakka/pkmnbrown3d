@@ -24,7 +24,7 @@ version=2
 	
 	@Text.Show(<system.token(Hayward_Main_Mura_AfterBattle)>)
 	
-	@music.play(Encounter_Rival)
+	@music.play(Encounter_Rival_Outro)
 	:if:<player.position>=20,0,7
 		@npc.turn(20,3)
 	:else

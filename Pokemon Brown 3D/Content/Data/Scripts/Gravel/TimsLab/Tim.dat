@@ -41,7 +41,7 @@ version=2
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex6)>)
 	@player.turnto(2,1)
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex7)>)
-	@music.play(Encounter_Rival)
+	@music.play(Encounter_Rival_Outro)
 	@npc.turn(4,2)
 	@npc.move(4,9)
 	@npc.remove(4)

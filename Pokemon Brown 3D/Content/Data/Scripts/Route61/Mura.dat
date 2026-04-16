@@ -50,7 +50,7 @@ version=2
 	:endif
 	
 	@Text.Show(<system.token(Route61_Main_Mura_AfterBattle1)>)
-	@music.play(Encounter_Rival)
+	@music.play(Encounter_Rival_Outro)
 	@NPC.SetSpeed(6,1)
 	@NPC.Turn(6,2)
 	@NPC.Move(6,4)

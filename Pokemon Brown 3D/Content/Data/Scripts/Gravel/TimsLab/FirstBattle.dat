@@ -51,7 +51,7 @@ version=2
 	
 	@pokemon.heal
 	@Text.Show(<system.token(Gravel_TimsLab_Mura_FirstBattle3)>)
-	@music.play(Encounter_Rival)
+	@music.play(Encounter_Rival_Outro)
 	:if:<storage.get(integer,position)>=0
 		@npc.turn(4,1)
 		@npc.move(4,1)
