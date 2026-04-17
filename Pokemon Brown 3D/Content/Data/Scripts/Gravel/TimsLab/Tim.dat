@@ -36,7 +36,8 @@ version=2
 	@sound.play(Receive_KeyItem,1)
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex5)>)
 	@entity.remove(8)
-	@entity.remove(9)
+	@entity.remove(9)	
+	@entity.remove(10)
 	@level.update
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex6)>)
 	@player.turnto(2,1)
