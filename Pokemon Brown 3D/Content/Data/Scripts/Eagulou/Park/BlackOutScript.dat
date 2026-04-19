@@ -1,0 +1,7 @@
+version=2
+:if:<Register.Registered(EnterParkIllegally)>=false <and> <Register.Registered(ShortcutDuringParkRun)>=false
+	:if:<inventory.countitem(181)>>0
+		@item.remove(181,<inventory.countitem(181)>)
+	:endif
+:endif
+:end
