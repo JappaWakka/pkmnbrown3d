@@ -2,7 +2,6 @@ Version=2
 
 @Screen.FadeOutColor(255,255,255)
 @screen.fadeout(20)
-@camera.set(9,0.5,9,0,0-0.1)
 @camera.update
 @storage.set(bool,SelectedDifficulty,false)
 :while:<storage.get(bool,SelectedDifficulty)>=false

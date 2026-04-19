@@ -13,7 +13,9 @@ GameRules|(MaxLevel|100)(OnlyCaptureFirst|0)(ForceRename|0)(DeathInsteadOfFaint|
 HardGameRules|(LevelMultiplier|1.15)
 SuperHardGameRules|(LevelMultiplier|1.0)(OnlyCaptureFirst|1)(ForceRename|1)(DeathInsteadOfFaint|1)(GameOverAt0Pokemon|1)
 StartMap|NewGame\Intro.dat
-StartPosition|9,0.1,5
+StartPosition|9,0.5,9
+StartYaw|0
+StartPitch|-0.1
 StartRotation|0
 StartScript|StartScript
 StartLocationName|Seashore City
