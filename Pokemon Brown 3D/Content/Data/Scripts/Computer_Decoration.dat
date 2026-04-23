@@ -59,8 +59,8 @@ version=2
 		@storage.set(int,RemoveItemAmount,<storage.get(int,RemoveItemAmount)>+1)
 	:endif
 :endif
-:if:<Register.Registered(DecorationItem_Squirtle)>=true
-	:if:<Register.Registered(DecorationPlaced_Squirtle)>=false
+:if:<Register.Registered(DecorationItem_SquirtleDoll)>=true
+	:if:<Register.Registered(DecorationItem_SquirtleDoll)>=false
 		@storage.set(str,AddItemOptions,<system.token(PC_Decorations_Item_Squirtle)>,<storage.get(str,AddItemOptions)>)
 		@storage.set(int,AddItemAmount,<storage.get(int,AddItemAmount)>+1)
 	:else
