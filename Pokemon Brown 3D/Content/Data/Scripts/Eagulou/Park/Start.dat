@@ -47,6 +47,8 @@ version=2
 		@Player.TurnTo(2)
 		@Player.Move(1)
 	:endif
+	@Entity.Remove(2)
+	@Level.Update
 	:end
 	
 :else
