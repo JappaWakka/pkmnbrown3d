@@ -87,12 +87,14 @@ version=2
 :endif
 :if:<Register.Registered(Snorlax_Route61)>=True
 	@Register.Unregister(Snorlax_Route61)
+	@NPC.Unregister(Routes\61\Main.dat|10|remove)
 :endif
 :if:<Register.Registered(Snorlax_Route61_Shiny)>=True
 	@Register.Unregister(Snorlax_Route61_Shiny,bool)
 :endif
 :if:<Register.Registered(Snorlax_OldRoute47)>=True
 	@Register.Unregister(Snorlax_OldRoute47)
+	@NPC.Unregister(Routes\47\Main.dat|10|remove)
 :endif
 :if:<Register.Registered(Snorlax_OldRoute47_Shiny)>=True
 	@Register.Unregister(Snorlax_OldRoute47_Shiny,bool)
