@@ -1,6 +1,6 @@
 version=2
 
-:if:<Register.Register(EagulouCave_StrengthPuzzle)>=false
+:if:<Register.Registered(EagulouCave_StrengthPuzzle)>=false
 	@Sound.Play(SwitchDoor)
 	@entity.remove(0)
 	@Register.Register(EagulouCave_StrengthPuzzle)

@@ -173,8 +173,8 @@ Trigger Rock:
 	{"Structure"{STR[{"Map"{str[Structures\RocksAndGemstones\LargeRock_Dark_2x2_StrengthTrigger]}}{"Offset"{sngArr[8,1,11]}}]}}
 		
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[9,1,6]}}{"TextureID"{str[CoolTrainer_Female]}}{"ID"{int[0]}}{"Name"{str[Cool Trainer♀ Kimberly]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[6,0,7]}}{"TextureID"{str[CoolTrainer_Male]}}{"ID"{int[1]}}{"Name"{str[Cool Trainer♂ Rendell]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\001]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[9,1,6]}}{"TextureID"{str[CoolTrainer_Female]}}{"ID"{int[2]}}{"Name"{str[Cool Trainer♀ Kimberly]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\000]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[6,0,7]}}{"TextureID"{str[CoolTrainer_Male]}}{"ID"{int[3]}}{"Name"{str[Cool Trainer♂ Rendell]}}{"Action"{int[2]}}{"AdditionalValue"{str[2|trainer\gyms\eagulou\001]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Items:
 	TM43 Sky Attack
