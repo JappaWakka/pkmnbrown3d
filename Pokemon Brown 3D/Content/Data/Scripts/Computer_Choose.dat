@@ -42,7 +42,7 @@ version=2
 		@script.start(computer_choose)
 	:when:<system.token(Generic_PC_Host_HallOfFame)>
 		@sound.play(PC\LogOn)
-		@screen.halloffame
+		@screen.halloffame(League\HallOfFame_Interface.dat)
 		@Text.Show(<system.token(Generic_PC_ChooseHost)>)
 		@script.start(computer_choose)
 	:when:<system.token(Generic_PC_Host_Decoration)>
