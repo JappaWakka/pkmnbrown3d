@@ -32,6 +32,7 @@ version=2
 @level.waitforsave
 @sound.play(Save)
 @screen.credits(Rijon,true)
+@Music.Play(HallOfFame)
 @Camera.SetToPlayerFacing
 @Screen.FadeIn(15)
 @Camera.Update
