@@ -69,7 +69,7 @@ version=2
 	@Screen.FadeIn(4)
 	@Text.Show(<system.token(Seashore_PlayerHouse2F_AlexMissing3)>)
 	@NPC.Register(IlexForest.dat|0|position|8,0,23)
-	@NPC.Unregister(MadameRenifler\DanceClub.dat|0|remove)
+	@NPC.Unregister(MadameRenifler\DanceClub.dat|5|remove)
 	@NPC.Register(MadameRenifler\Bridge.dat|0|remove)
 	@Register.Register(AlexMissing)
 :endif

@@ -1,10 +1,6 @@
 version=2
 :if:<Register.Registered(DecorationItem_SniffCat)>=true
-	:if:<Register.Registered(AlexMissing)>=true
-		@NPC.WearSkin(0,JappaWakka)
-		@NPC.Warp(0,~,0.155,~)
-		@Level.Update
-	:else
+	:if:<Register.Registered(AlexMissing)>=false
 		@NPC.SetAdditionalValue(1,<system.token(MadameRenifler_DanceClub_YoungBoy_AlexMissing)>)
 		@NPC.SetAdditionalValue(2,<system.token(MadameRenifler_DanceClub_Lass_AlexMissing)>)
 		@NPC.SetAdditionalValue(3,<system.token(MadameRenifler_DanceClub_SuperNerd_AlexMissing)>)

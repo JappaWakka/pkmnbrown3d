@@ -17,11 +17,15 @@ version=2
 	:endif
 :endif
 @Level.Update
-:if:<Register.Registered(Decorations_Wall_SniffCat)>=true
+:if:<Register.Registered(DecorationItem_SniffCat)>=true
 	@Entity.SetVisible(1,1)
-	@Entity.SetVisible(2,0)
-	@Entity.Warp(1,~,0,~)
-	@Entity.Warp(2,~,-1,~)
+	@Entity.SetVisible(2,1)
+	@Entity.SetVisible(3,0)
+	@Entity.SetVisible(4,0)
+	@Entity.Warp(1,4,0,5)
+	@Entity.Warp(2,4,0,6)
+	@Entity.Warp(3,4,-1,5)
+	@Entity.Warp(4,4,-1,6)
 	@Level.Update
 :endif
 :if:<Level.Riding>=true

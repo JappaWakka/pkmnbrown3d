@@ -2,10 +2,16 @@ version=2
 @text.notification(<system.token(MadameRenifler_Hall_Music_Path)>,400,4,4,,,0,1)
 :if:<Register.Registered(DecorationItem_SniffCat)>=true
 	@Entity.SetVisible(1,1)
-	@Entity.SetVisible(2,0)
-	@Entity.Warp(1,~,0,~)
-	@Entity.Warp(2,~,-1,~)
+	@Entity.SetVisible(2,1)
+	@Entity.SetVisible(3,0)
+	@Entity.SetVisible(4,0)
+	@Entity.Warp(1,4,0,5)
+	@Entity.Warp(2,4,0,6)
+	@Entity.Warp(3,4,-1,5)
+	@Entity.Warp(4,4,-1,6)
 	@Level.Update
+:Else
+	@NPC.Register(MadameRenifler\DanceClub.dat|5|remove)
 :endif
 
 :end

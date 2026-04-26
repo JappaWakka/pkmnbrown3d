@@ -2,6 +2,7 @@ version=2
 
 :if:<Register.Registered(AlexMissing)>=true
 	@Text.Show(<system.token(MadameRenifler_DanceClub_JappaWakka)>)
+	@NPC.Turn(5,0)
 :else
 	:if:<Register.Registered(AlexCorruptor_FirstTalk)>=false
 		@Register.Register(AlexCorruptor_FirstTalk)

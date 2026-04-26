@@ -1,10 +1,25 @@
 version=2
-:if:<register.registered(Decorations_Wall_SniffCat)>=true
-	@Entity.Remove(9)
-:endif
 :if:<register.registered(Mew)>=false
 	@entity.Remove(10)
 :endif
+:if:<register.registered(DecorationItem_SniffCat)>=false
+	@entity.Remove(16)
+:else
+	@Entity.Remove(9)
+:endif
+
+:if:<register.registered(AlexMissing)>=true
+	@entity.Remove(16)
+:endif
+
+:if:<environment.graphicstyle>=false
+	@Entity.Warp(17,~,~-3,~)
+	@level.update
+:else
+	@Entity.Warp(18,~,~-3,~)
+	@level.update
+:endif
+
 :if:<inventory.countitem(41)>=1 <and> <register.registered(Castro_JappaWakka)>=false
 	@NPC.spawn(21,0,36,1,Castro\Main_JappaWakka,JappaWakka,0,1,JappaWakka,11,Still)
 :endif
@@ -12,5 +27,10 @@ version=2
 	@Entity.Warp(13,~,-1,~)
 	@Entity.Warp(14,~,0,~)
 	@level.update
+:else
+	@Entity.SetCollision(17,0)
+	@Entity.SetCollision(18,0)
+	@level.update
+
 :endif
 :end
