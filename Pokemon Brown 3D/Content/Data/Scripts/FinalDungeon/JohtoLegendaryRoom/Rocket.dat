@@ -21,6 +21,7 @@ version=2
 		@pokemon.sendtostorage(<math.int(<pokemon.count>-1)>)
 	:endif
 	@Text.Show(<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_AfterGiveLegendary)>)
+	@Register.Register(JohtoLegendaryRoom)
 :else
 	@Text.Show(<system.token(FinalDungeon_JohtoLegendaryRoom_Rocket_TalkAgain)>)
 :endif
