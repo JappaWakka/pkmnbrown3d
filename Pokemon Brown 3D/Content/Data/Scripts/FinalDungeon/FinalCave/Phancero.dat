@@ -42,4 +42,5 @@ version=2
 @Text.Show(<system.token(FinalDungeon_FinalCave_Feather_2)>)
 @Text.Color(Default)
 @Text.Show(<system.token(FinalDungeon_FinalCave_Feather_3)>)
+@Item.Give(gm95,1)
 :end
