@@ -12,7 +12,7 @@ version=2
 			@storage.set(int,PokeShiny,0)
 		:endif
 		@Sound.Play(Success,1)
-		:if:<Register.Registered(Lugia)>
+		:if:<Register.Registered(Lugia)>=true
 			@pokemon.add(250,50,<system.token(Morage_PrismMuseum_CatchMethod)>,5,<system.token(Morage_PrismMuseum_CatchLocation)>,0,<player.name>,0,<storage.get(int,PokeShiny)>)
 			@Text.Show(<system.token(Generic_ReceivePokemon)>)
 		:else
