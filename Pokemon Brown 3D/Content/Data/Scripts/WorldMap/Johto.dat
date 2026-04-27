@@ -15,9 +15,7 @@ Cities:
 Routes:
 
 {"PlaceType"[Route]}{"Name"[Route 34]}{"MapFiles"[Routes\34\Main.dat]}{"Position"[15,14]}{"PlayerPosition"[15,14]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 34]}{"MapFiles"[Gates\Route34-Route47-IlexForest.dat]}{"Position"[15,15]}{"Direction"[TUp]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Old Route 47]}{"MapFiles"[Routes\47\Main.dat,Gates\Route47_1F.dat,Gates\Route47_2F.dat]}{"Position"[14,15]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Old Route 47]}{"MapFiles"[Routes\47\Main.dat,Gates\Route47_1F.dat,Gates\Route47_2F.dat]}{"Position"[14,15]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Old Route 47]}{"MapFiles"[Routes\47\Main.dat,Gates\Route47_1F.dat,Gates\Route47_2F.dat]}{"Position"[14,16]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
@@ -108,7 +106,9 @@ Routes:
 {"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[Routes\67\Main.dat]}{"Position"[13,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[Routes\67\Main.dat]}{"Position"[14,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[IlexForest.dat,Gates\Azalea-IlexForest.dat]}{"Position"[16,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[Gates\Route34-IlexForest.dat,Gates\Route47-IlexForest.dat,IlexForest.dat]}{"Position"[14,15]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[Gates\Route34-IlexForest.dat,Gates\Route47-IlexForest.dat,Gates\Azalea-IlexForest.dat,IlexForest.dat]}{"Position"[15,15]}{"Direction"[TUp]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Azalea Town]}{"MapFiles"[Gates\Azalea-IlexForest.dat]}{"Position"[16,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
 Places:
 {"PlaceType"[Place]}{"Name"[Merson Cave]}{"Mapfiles"[Caves\Merson\1F.dat,Caves\Merson\B1F.dat,Caves\Merson\B2F.dat,Caves\Merson\Outside.dat]}{"Position"[3,15]}{"Size"[Small]}
@@ -120,7 +120,6 @@ Places:
 {"PlaceType"[Place]}{"Name"[Eagulou Park]}{"Mapfiles"[Eagulou\Park\Area1.dat,Eagulou\Park\Area2.dat,Eagulou\Park\Area3.dat,Eagulou\Park\Gate.dat,Eagulou\Park\House1.dat,Eagulou\Park\House2.dat,Eagulou\Park\House3.dat,Eagulou\Park\SecretCave_B1F.dat,Eagulou\Park\SecretCave_B2F.dat]}{"Position"[8,11]}{"Size"[Small]}
 {"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[Routes\67\PokeCenter.dat,Routes\67\TeleportScientistHouse.dat]}{"Position"[15,5]}{"Size"[Small]}{"FlyTo"[Routes\67\Main.dat,28,12,8]}
 {"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[Caves\SenecaCaverns\1F_East.dat,Caves\SenecaCaverns\1F_West.dat,Caves\SenecaCaverns\B1F.dat,Caves\SenecaCaverns\B2F_Area0.dat,Caves\SenecaCaverns\B2F_Area1.dat,Caves\SenecaCaverns\B2F_Area2.dat,Caves\SenecaCaverns\B2F_Area3.dat,Caves\SenecaCaverns\B2F_Area4.dat]}{"Position"[15,5]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Ilex Forest]}{"MapFiles"[IlexForest.dat]}{"Position"[16,15]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Slowpoke Well]}{"MapFiles"[Azalea\SlowpokeWell\1F.dat,Azalea\SlowpokeWell\B1F.dat]}{"Position"[17,14]}{"Size"[Small]}
 
 {"PlaceType"[City]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\Island.dat,FinalDungeon\Lobby.dat,FinalCave.dat,FinalShop.dat]}{"Position"[9,1]}{"Size"[Small]}{"FlyTo"[FinalDungeon\Island.dat,21,12,16]}{"Visible"[Unlock]}
