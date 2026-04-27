@@ -13,6 +13,7 @@ version=2
 	@Register.Register(ResetPhancero)
 :else
 	@Register.Register(CaughtPhancero)
+	@Register.Unregister(SeenPhancero)
 :endif
 @register.unregister(Phancero)
 @npc.remove(0)
