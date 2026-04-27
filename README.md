@@ -10,7 +10,7 @@ My name is [JappaWakka](https://github.com/JappaWakka), and I'm the main develop
 ## How to play
 1. Download Pokémon 3D v0.61 or higher [here](https://pokemon3d.net/download).
 2. Extract the zip using WinRAR or 7zip to a location of your choice.
-3. Download the Pokémon Brown 3D GameMode from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest).
+3. Download the Pokémon Brown 3D GameMode from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest). **Note: You don't need to download the "Source code" zips!!!!**
 4. Open the zip and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the Pokémon 3D folder (the path would be Pokemon 3D\GameModes\Pokemon Brown 3D).
 5. (Optionally) Download the music ContentPack from [here](https://github.com/JappaWakka/P3DToolsAndContentPacks/releases/tag/brown3dmusic-v3).
 6. Open the zip and extract the folder called Brown3DMusicPack into the "ContentPacks" folder inside the Pokémon 3D folder (the path would be Pokemon 3D\ContentPacks\Brown3DMusicPack).
