@@ -76,6 +76,8 @@ Furniture:
 		Table
 			{"Entity"{ENT[{"Scale"{sngArr[1,0.4375,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-0.285,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[112,112,16,7][128,128,16,7][128,120,16,7][160,224,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,1,1,2,2,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 			{"Entity"{ENT[{"Scale"{sngArr[1,0.4375,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[1,-0.285,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[128,112,16,7][112,128,16,7][112,120,16,7][176,224,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,-1,-1,2,2,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+		Computer ScriptBlock
+			{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,2]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[Computer]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	Chair
 		{"EntityField"{ENT[{"Scale"{sngArr[0.75,0.28,0.75]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-0.36,3]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[28,127,12,12][28,139,12,5]]}}{"TextureIndex"{intArr[1,1,1,1,1,1,1,1,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 	
