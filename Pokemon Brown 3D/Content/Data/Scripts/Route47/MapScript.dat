@@ -33,4 +33,8 @@ version=2
 		@Register.Register(Snorlax_OldRoute47_Shiny,bool,false)
 	:endif
 :endif
+
+:if:<Register.Registered(Snorlax_OldRoute47)>=true
+	@Entity.Remove(11)
+:endif
 :end

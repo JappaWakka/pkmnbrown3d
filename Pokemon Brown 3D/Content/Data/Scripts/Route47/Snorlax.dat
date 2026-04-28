@@ -11,6 +11,7 @@ version=2
 		@battle.wild(143,40,0)
 	:endif
 	@NPC.remove(10)
+	@Entity.Remove(11)
 	@NPC.register(Routes\47\Main.dat|10|remove)
 	:if:<battle.caught>=true
 		@Text.Show(<system.token(Route47_Snorlax_Caught)>)
