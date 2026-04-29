@@ -12,7 +12,7 @@ version=2
 		@storage.set(bool,ForgetMove,false)
 		:while:<storage.get(bool,ForgetMove)>=false
 			@Text.Show(<system.token(Botan_MoveTutorHouse_MoveDeleter_WhichMove)>)
-			@Pokemon.SelectMove(<Pokemon.Selected>,0,1)
+			@Pokemon.SelectMove(<Pokemon.Selected>,1,1)
 			:if:<Pokemon.SelectedMove>=-1
 				:exitwhile
 			:else
