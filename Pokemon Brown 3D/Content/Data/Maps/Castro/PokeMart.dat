@@ -10,7 +10,7 @@ Counter ScriptBlock:
 	{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[160,128,16,8]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[1]}}{"AdditionalValue"{str[Marts\Castro]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[5,0,5]}}{"TextureID"{str[RegularGuy_Blue]}}{"ID"{int[1]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[PokéDolls are a perfect gift~to give to your girlfriend.*Obviously, I can tell that~you don't have one.]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[Beauty]}}{"ID"{int[2]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[Yay, Ultra Balls!*I was getting sick of~Great Balls.]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[1,2,3,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[5,0,5]}}{"TextureID"{str[RegularGuy_Blue]}}{"ID"{int[1]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_PokeMart_Guy)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[2,0,2]}}{"TextureID"{str[Beauty]}}{"ID"{int[2]}}{"Name"{str[Lady]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Castro_PokeMart_Lady)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[1,2,3,1]]}}]}}
 
 
