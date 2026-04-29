@@ -45,7 +45,7 @@ version=2
 :if:<storage.get(bool,NewEvaluation)>=true
 	@Sound.Play(PokedexNewRating,1)
 :endif
-@Text.Show(<storage.get(str,EvaluationText)>*<system.token(Generic_PC_DexEvaluation_End)>)
+@Text.Show(<storage.get(str,EvaluationText)>)
 
 :if:<pokemon.counthalloffame>=1
 	@screen.credits(Rijon,false)
