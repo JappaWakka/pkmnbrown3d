@@ -4,7 +4,7 @@ version=2
 	@player.StopMovement
 	@npc.warp(0,5,0,10)
 	@npc.turn(0,0)
-	@npc.move(0,10)
+	@npc.move(0,9)
 	@npc.turn(0,2)
 	@player.move(4)
 	@player.turnto(3)

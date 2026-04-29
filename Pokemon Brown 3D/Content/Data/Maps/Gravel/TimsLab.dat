@@ -84,10 +84,11 @@ PC:
 
 ScriptBlocks:
 	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Gravel_TimsLab_Note_OpenMenu)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,-1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[2]}}{"AdditionalValue"{str[<system.token(Gravel_TimsLab_Note_Types)>]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	{"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,6]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[Gravel\TimsLab\FirstBattle]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 	
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[5,0,0]}}{"TextureID"{str[Tim]}}{"ID"{int[0]}}{"Name"{str[Tim]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\Tim]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[5,0,1]}}{"TextureID"{str[Tim]}}{"ID"{int[0]}}{"Name"{str[Tim]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\Tim]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[4,0,2]}}{"TextureID"{str[<rival.skin>]}}{"ID"{int[4]}}{"Name"{str[Mura]}}{"Action"{int[1]}}{"AdditionalValue"{str[Gravel\TimsLab\Mura]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[2,0,9]}}{"TextureID"{str[Scientist_Male]}}{"ID"{int[5]}}{"Name"{str[Regular Aide]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_TimsLab_RegularAide)>]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[1,0,8]}}{"TextureID"{str[Scientist_Female]}}{"ID"{int[6]}}{"Name"{str[Female Aide]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Gravel_TimsLab_FemaleAide)>]}}{"Rotation"{int[2]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[0,7,2,4]]}}]}}

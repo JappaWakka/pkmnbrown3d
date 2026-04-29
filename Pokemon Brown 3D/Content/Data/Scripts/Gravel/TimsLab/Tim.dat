@@ -21,15 +21,30 @@ version=2
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex2)>)
 	@music.play(Encounter_Rival)
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex3)>)
-	@NPC.spawn(4,0,11,0,0,Rival,0,0,Mura,4,Still)
-	@NPC.Turn(0,2)
-	@player.turnto(2,1)
-	@NPC.move(4,9)
-	@music.play(TimsLab)
-	:if:<player.position(x)>=5
-		@player.turnto(0,1)
+	:if:<player.position(x)>=4
+		@NPC.spawn(5,0,11,0,0,Rival,0,0,Mura,4,Still)
 	:else
-		@Player.turnto(3)
+		@NPC.spawn(4,0,11,0,0,Rival,0,0,Mura,4,Still)
+	:endif
+	@NPC.Turn(0,2)
+	@player.turnto(2)
+	@NPC.SetSpeed(4,1.5)
+	:if:<player.position(z)>=0
+		@NPC.move(4,10)
+		@NPC.Turn(0,1)
+	:else
+		@NPC.move(4,9)
+	:endif
+	
+	@music.play(TimsLab)
+	:if:<player.position(z)>=2
+		@player.turnto(0)
+	:else
+		:if:<player.position(z)>=1
+			@Player.turnto(3)
+		:else
+			@NPC.Turn(4,3)
+		:endif
 	:endif
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex4)>)
 	@player.receivepokedex
@@ -40,12 +55,27 @@ version=2
 	@entity.remove(10)
 	@level.update
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex6)>)
-	@player.turnto(2,1)
+	:if:<player.position(z)>=2
+		@NPC.turn(4,3)
+	:else
+		:if:<player.position(z)>=1
+			@NPC.turn(4,1)
+		:else
+			@NPC.turn(4,0)
+		:endif
+	:endif
 	@Text.Show(<system.token(Gravel_TimsLab_Pokedex7)>)
 	@music.play(Encounter_Rival_Outro)
 	@npc.turn(4,2)
-	@npc.move(4,9)
+	@npc.turn(0,2)
+	@NPC.SetSpeed(4,1.2)
+	:if:<player.position(z)>=0
+		@NPC.move(4,10)
+	:else
+		@NPC.move(4,9)
+	:endif
 	@npc.remove(4)
+	@level.update
 	@music.play(TimsLab)
 	@Register.Register(pokedex)
 	@register.unregister(tim3)
@@ -84,7 +114,6 @@ version=2
 			@Item.MessageGive(242,1)
 			@Register.Register(ReceiveShinyCharm)
 			@Text.Show(<system.token(Gravel_TimsLab_Tim_DexComplete2)>)
-			:end
 		:else
 			@Text.Show(<storage.get(str,EvaluationText)>*<system.token(Gravel_TimsLab_Tim_DexComplete2)>)
 		:endif
