@@ -17,4 +17,7 @@ version=2
 :else
 	@NPC.Warp(18,15,3,11)
 :endif
+:if:<Register.Registered(RematchOwsauri)>=true
+	@Register.Unregister(RematchOwsauri)
+:endif
 :end

@@ -20,15 +20,20 @@ version=2
 	:if:<Register.Registered(rijonleague)>=false
 		@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_TalkAgain)>)
 	:else
-		:if:<player.hasbadge(14)>=false
+		:if:<Register.Registered(RematchSeashore)>=false
 			@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Question)>)
 			@options.setcancelindex(1)
 			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 				:when:<system.token(global_yes)>
 					@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Answer_Yes)>)
-					@Battle.StartTrainer(Gyms\seashore\leader_rematch)
-					@Player.AddBadge(14)
+					:if:<player.hasbadge(14)>=false
+						@Battle.StartTrainer(Gyms\seashore\leader_rematch)
+						@Player.AddBadge(14)
+					:else
+						@Battle.Trainer(Gyms\seashore\leader_rematch)
+					:endif
 					@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_Rematch_AfterBattle)>)
+					@Register.Register(RematchSeashore)
 				:when:<system.token(global_no)>
 					@Text.Show(<system.token(Seashore_Gym_LeaderSheryl_Rematch_BeforeBattle_Answer_No)>)
 			:endwhen

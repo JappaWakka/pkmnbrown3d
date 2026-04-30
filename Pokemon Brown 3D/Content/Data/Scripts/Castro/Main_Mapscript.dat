@@ -33,4 +33,8 @@ version=2
 	@level.update
 
 :endif
+
+:if:<Register.Registered(RematchCastro)>=true
+	@Register.Unregister(RematchCastro)
+:endif
 :end

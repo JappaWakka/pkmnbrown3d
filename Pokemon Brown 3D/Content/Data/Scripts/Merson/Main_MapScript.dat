@@ -1,0 +1,6 @@
+version=2
+
+:if:<Register.Registered(RematchMerson)>=true
+	@Register.Unregister(RematchMerson)
+:endif
+:end

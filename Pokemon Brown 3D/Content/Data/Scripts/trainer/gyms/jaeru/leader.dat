@@ -33,15 +33,20 @@ version=2
 	:if:<Register.Registered(rijonleague)>=false
 		@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_TalkAgain)>)
 	:else
-		:if:<player.hasbadge(12)>=false
+		:if:<Register.Registered(RematchJaeru)>=false
 			@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Question)>)
 			@options.setcancelindex(1)
 			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 				:when:<system.token(global_yes)>
 					@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_Yes)>)
-					@Battle.StartTrainer(Gyms\jaeru\leader_rematch)
-					@Player.AddBadge(12)
+					:if:<player.hasbadge(12)>=false
+						@Battle.StartTrainer(Gyms\jaeru\leader_rematch)
+						@Player.AddBadge(12)
+					:else
+						@Battle.Trainer(Gyms\jaeru\leader_rematch)
+					:endif
 					@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_Rematch_AfterBattle)>)
+					@Register.Register(RematchJaeru)
 				:when:<system.token(global_no)>
 					@Text.Show(<system.token(Jaeru_Gym_LeaderSparky_Rematch_BeforeBattle_Answer_No)>)
 			:endwhen

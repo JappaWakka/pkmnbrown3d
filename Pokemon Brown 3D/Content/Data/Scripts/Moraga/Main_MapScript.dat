@@ -11,4 +11,7 @@ version=2
 		:endif
 	:endif
 :endif
+:if:<Register.Registered(RematchMoraga)>=true
+	@Register.Unregister(RematchMoraga)
+:endif
 :end

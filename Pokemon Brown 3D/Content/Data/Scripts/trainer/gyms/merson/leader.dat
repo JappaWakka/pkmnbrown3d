@@ -14,15 +14,20 @@ version=2
 	:if:<Register.Registered(rijonleague)>=false
 		@Text.Show(<system.token(Merson_Gym_LeaderKarpman_TalkAgain)>)
 	:else
-		:if:<player.hasbadge(9)>=false
+		:if:<Register.Registered(RematchMerson)>=false
 			@Text.Show(<system.token(Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Question)>)
 			@options.setcancelindex(1)
 			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 				:when:<system.token(global_yes)>
 					@Text.Show(<system.token(Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Answer_Yes)>)
-					@Battle.StartTrainer(Gyms\merson\leader_rematch)
-					@Player.AddBadge(9)
+					:if:<player.hasbadge(9)>=false
+						@Battle.StartTrainer(Gyms\merson\leader_rematch)
+						@Player.AddBadge(9)
+					:else
+						@Battle.Trainer(Gyms\merson\leader_rematch)
+					:endif
 					@Text.Show(<system.token(Merson_Gym_LeaderKarpman_Rematch_AfterBattle)>)
+					@Register.Register(RematchMerson)
 				:when:<system.token(global_no)>
 					@Text.Show(<system.token(Merson_Gym_LeaderKarpman_Rematch_BeforeBattle_Answer_No)>)
 			:endwhen

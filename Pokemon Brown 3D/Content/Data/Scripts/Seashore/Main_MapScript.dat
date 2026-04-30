@@ -1,5 +1,5 @@
 version=2
-:if:<Register.Registered(mettim)>=False
+:if:<Register.Registered(mettim)>=False <and> <level.loadoffsetmaps>=true
 	@npc.spawn(17,0,80,1,,Tim,0,0,Tim,3,Still)
 :endif
 :if:<Register.Registered(legendary)>=false	
@@ -36,6 +36,9 @@ version=2
 	@Register.Register(Phancero)
 	
 	@Register.Register(legendary)
+:endif
+:if:<Register.Registered(RematchSeashore)>=true
+	@Register.Unregister(RematchSeashore)
 :endif
 
 :end

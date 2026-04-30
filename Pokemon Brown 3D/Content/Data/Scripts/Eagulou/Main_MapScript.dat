@@ -6,4 +6,7 @@ version=2
 		@Register.Register(EagulouSand_Found)
 	:endif
 :endif
+:if:<Register.Registered(RematchEagulou)>=true
+	@Register.Unregister(RematchEagulou)
+:endif
 :end
