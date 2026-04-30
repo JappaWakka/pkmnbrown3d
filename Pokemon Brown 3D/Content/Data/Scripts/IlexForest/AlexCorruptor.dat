@@ -59,5 +59,6 @@ version=2
 
 @Register.Register(GoodbyeMadameRenifler)
 @Register.Register(DecorationItem_DJSet)
+@NPC.Unregister(IlexForest.dat|0|position|8,0,23)
 
 :end
