@@ -9,10 +9,9 @@ version=2
 			@Item.Give(61,1)
 			@Item.MessageGive(61,1)
 			@Register.Register(superrod)
-			:end
 		:else
 			@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_SuperRod_AnswerYes_LessThan75Pokemon)>)
-		:end
+		:endif
 		
 	:when:<system.token(global_no)>
 		@Text.Show(<system.token(Route60_Jaeru_Gate_Aide_SuperRod_AnswerNo)>)
