@@ -1,0 +1,9 @@
+version=2
+
+:if:<Register.Registered(BeatGiovanni)>=false
+	@Text.Show(<system.token(Gravel_StephanieHouse_Radio_BeforeBotan)>)
+:else
+	@Text.Show(<system.token(Gravel_StephanieHouse_Radio_AfterBotan)>)
+:endif
+
+:end
