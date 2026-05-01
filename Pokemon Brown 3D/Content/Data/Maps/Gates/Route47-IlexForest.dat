@@ -98,7 +98,7 @@ Laptop:
 		{"Entity"{ENT[{"Scale"{sngArr[1,1,1]}}{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[7,0,1]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[1,Computer]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 
 NPCs:
-	{"NPC"{NPC[{"Position"{sngArr[3,0,4]}}{"TextureID"{str[OldMan_Brown]}}{"ID"{int[0]}}{"Name"{str[Old Man]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route34_Route47_IlexForest_Gate_OldMan)>]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,4,6,1]]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[3,0,4]}}{"TextureID"{str[OldMan_Brown]}}{"ID"{int[0]}}{"Name"{str[Old Man]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Route47_IlexForest_Gate_OldMan)>]}}{"Rotation"{int[3]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[2,4,6,1]]}}]}}
 	
 Warps:
 	Old Route 47
