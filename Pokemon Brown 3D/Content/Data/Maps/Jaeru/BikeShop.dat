@@ -86,7 +86,7 @@ ScriptBlocks:
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[6,0.155,1]}}{"TextureID"{str[BikeSalesman]}}{"ID"{int[0]}}{"Name"{str[Bike Salesman]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-	{"NPC"{NPC[{"Position"{sngArr[1,0,2]}}{"TextureID"{str[Youngster_Purple]}}{"ID"{int[1]}}{"Name"{str[Guy]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Jaeru_BikeShop_Youngster)>]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+	{"NPC"{NPC[{"Position"{sngArr[1,0,2]}}{"TextureID"{str[Youngster_Purple]}}{"ID"{int[1]}}{"Name"{str[Guy]}}{"Action"{int[1]}}{"AdditionalValue"{str[Jaeru\BikeShopYoungster]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 	{"NPC"{NPC[{"Position"{sngArr[5,0,5]}}{"TextureID"{str[AdultWoman_Green]}}{"ID"{int[2]}}{"Name"{str[Woman]}}{"Action"{int[0]}}{"AdditionalValue"{str[<system.token(Jaeru_BikeShop_Woman)>]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[5,3,1,4]]}}]}}
 
 Warps:

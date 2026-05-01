@@ -1,0 +1,9 @@
+version=2
+
+:if:<Register.Registered(gotbike)>=false
+	@Text.Show(<system.token(Jaeru_BikeShop_Youngster_BeforeBike)>)
+:else
+	@Text.Show(<system.token(Jaeru_BikeShop_Youngster_AfterBike)>)
+:endif
+
+:end
