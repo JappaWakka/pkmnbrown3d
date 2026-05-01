@@ -1,9 +1,12 @@
 version=2
 
-:if:<Register.Registered(BeatGiovanni)>=false
-	@Text.Show(<system.token(Gravel_StephanieHouse_Radio_BeforeBotan)>)
+:if:<pokemon.counthalloffame>=0
+	:if:<Register.Registered(BeatGiovanni)>=false
+		@Text.Show(<system.token(Gravel_StephanieHouse_Radio_BeforeSilphCoGiovanni)>)
+	:else
+		@Text.Show(<system.token(Gravel_StephanieHouse_Radio_AfterSilphCoGiovanni)>)
+	:endif
 :else
-	@Text.Show(<system.token(Gravel_StephanieHouse_Radio_AfterBotan)>)
+	@Text.Show(<system.token(Gravel_StephanieHouse_Radio_AfterLeagueChampion)>)
 :endif
-
 :end
