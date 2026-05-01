@@ -2,17 +2,32 @@ version=2
 :if:<Camera.ThirdPerson>=false
 	@Register.Register(ResetToFirstPerson)
 :endif
+
+@entity.warp(2,~,-2.5,~)
+@entity.warp(3,~,0.5,~)
+@player.stopmovement
+@Player.SetSpeed(1.35)
+@player.move(2)
+@sound.play(SwitchDoor)
+@entity.warp(3,~,-2.5,~)
+@entity.warp(2,~,0.5,~)
+@Level.Update
+
 @camera.ActivateThirdPerson
 @Camera.SetToPlayerFacing
+
 :if:<player.position(x)>=4
-	@Player.SetSpeed(1.5)
-	@player.move(5)
-	@player.turnto(3)
-	@npc.turn(2,1)
-:else
-	@Player.SetSpeed(1.5)
 	@player.move(4)
+	@player.turnto(3)
+:else
+	@player.move(1)
+	@player.turnto(1)
+	@player.move(1)
+	@player.TurnTo(0)
+	@player.move(3)
 :endif
+@player.TurnTo(3)
+@npc.turn(2,1)
 
 @Text.Show(<system.token(League_Champion_Mura_IntroMessage)>)
 :if:<pokemon.counthalloffame>=0
@@ -53,47 +68,68 @@ version=2
 	@music.play(AfterChampionDefeat,1,1)
 	@npc.spawn(4,0,9,0,,Tim,0,0,Prof. Tim,1,Still)
 	@level.update
+	@sound.play(SwitchDoor)
+	@entity.warp(2,~,~-3,~)
+	@entity.warp(3,~,~+3,~)
+	@level.update
 	@Text.Show(<system.token(League_Champion_Mura_AfterDefeat2)>)
 	@player.TurnTo(2,1)
 	@npc.move(1,4)
-	:if:<player.position(x)>=5
-		@npc.turn(1,3)
-		@npc.turn(2,1)
-		@player.TurnTo(1)
-	:else
-		@npc.turn(2,2)
-		@Player.TurnTo(2)
-	:endif
+	@npc.turn(2,2)
+	@Player.TurnTo(2)
 	@Text.Show(<system.token(League_Champion_Mura_AfterDefeat3)>)
-	:if:<player.position(x)>=5
-		@player.turnto(0)
-		@npc.turn(2,2)
-	:else
-		@npc.turn(2,1)
-		@player.TurnTo(3)
-	:endif
-	@Text.Show(<system.token(League_Champion_Mura_AfterDefeat4)>)
-	@npc.turn(2,3)
-	@npc.move(2,1)
+	@npc.spawn(5,0,9,0,,Alexis,0,0,Reporter Alexis,3,Still)
+	@npc.SetSpeed(3,1.2)
+	@NPC.Move(3,4)
+	@npc.turn(1,3)
+	@npc.turn(2,2)
+	@npc.turn(1,3)
+	@player.TurnTo(3)
+	@text.show(<system.token(League_Champion_Mura_AfterDefeat4)>)
+	@npc.turn(3,1)
+	@text.show(<system.token(League_Champion_Mura_AfterDefeat5)>)
+	@npc.turn(1,0)
+	@player.TurnTo(2)
+	@text.show(<system.token(League_Champion_Mura_AfterDefeat6)>)
 	@npc.turn(2,1)
+	@npc.turn(1,3)
+	@text.show(<system.token(League_Champion_Mura_AfterDefeat7)>)
+	@npc.turn(1,0)
+	@text.show(<system.token(League_Champion_Mura_AfterDefeat8)>)
+	#Tim Turns Right
+	@npc.turn(1,3)
+	
+	#Alexis moves out of the way
+	@NPC.Turn(3,2)
+	@npc.SetSpeed(3,1.35)
+	@NPC.Move(3,1)
+	@NPC.Turn(3,0)
+	
+	#Tim moves past Alexis
+	@npc.SetSpeed(1,1.35)
+	@npc.move(1,1)
+	@npc.turn(1,0)
+	
+	#Mura moves out of the way
+	@npc.turn(2,3)
+	@npc.SetSpeed(2,1.35)
+	@npc.move(2,1)
+	
+	#Tim moves next to the player
+	@npc.SetSpeed(1,1.35)
+	@npc.move(1,1)
+	
+	#Player turns north
 	@player.turnto(0,1)
-	:if:<player.position(x)>=5
-		@npc.turn(1,0)
-	:else
-		@npc.SetSpeed(1,1.5)
-		@npc.turn(1,3)
-		@npc.move(1,1)
-		@npc.turn(1,0)
-		@npc.move(1,1)
-	:endif
-
+	
 	@Level.Wait(20)
 	@sound.play(SwitchDoor)
 	@entity.warp(0,~,~-3,~)
 	@entity.warp(1,~,~+3,~)
+	@player.SetSpeed(1.5)
 	@npc.SetSpeed(1,1.5)
-	@npc.MoveAsync(1,8)
-	@player.move(7)
+	@npc.MoveAsync(1,6)
+	@player.move(6)
 	
 	@register.unregister(defeatRedd)
 	@register.unregister(trainer_league\Redd)
@@ -112,10 +148,6 @@ version=2
 	@register.unregister(trainer_league\MuraCharmander_Rematch)
 	@register.unregister(trainer_league\MuraSquirtle_Rematch)
 	
-	:if:<player.position(x)>=4
-		@player.warp(league\halloffame.dat,4,0.1,19,0)
-	:else
-		@player.warp(league\halloffame.dat,5,0.1,19,0)
-	:endif
+	@player.warp(league\halloffame.dat,4,0.1,19,0)
 :endif
 :end

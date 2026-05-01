@@ -1,5 +1,17 @@
 version=2
 
+:if:<Register.Registered(RoomEnter<level.filename>)>=false
+	@entity.warp(3,~,-4.5,~)
+	@entity.warp(4,~,0.5,~)
+	@player.stopmovement
+	@player.move(2)
+	@sound.play(SwitchDoor)
+	@entity.warp(4,~,-4.5,~)
+	@entity.warp(3,~,0.5,~)
+	@Level.Update
+	@Register.Register(RoomEnter<level.filename>)
+:endif
+
 :if:<Register.Registered(EnterBlanch)>=true
 	@Entity.Remove(2)
 	@NPC.Warp(1,13,0,-1)
@@ -10,5 +22,4 @@ version=2
 	@entity.warp(1,~,~+5,~)
 	@Level.Update
 :endif
-
 :end
