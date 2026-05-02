@@ -2,8 +2,8 @@ version=2
 
 :if:<Register.Registered(ShinyStone)>=false
 	@Text.Show(<system.token(Route59_SilphCoWarehouse_4F_SilphCoManager_BeforeTalking)>)
-	@Item.Give(135,1)
-	@Item.MessageGive(135,1)
+	@Item.Give(gm97,1)
+	@Item.MessageGive(gm97,1)
 	@Register.Register(ShinyStone)
 :else
 	@Text.Show(<system.token(Route59_SilphCoWarehouse_4F_SilphCoManager_AfterTalking)>)
