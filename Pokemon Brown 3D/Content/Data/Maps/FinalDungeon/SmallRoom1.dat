@@ -47,7 +47,7 @@ Boxes:
 	
 Items:
 	Hidden Hyper Potion
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[3,-0.375,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[0,16]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[3,-0.375,0]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[0,gm99]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 	
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[1,0,1]}}{"TextureID"{str[RocketGrunt_Male]}}{"ID"{int[0]}}{"Name"{str[RocketGrunt]}}{"Action"{int[1]}}{"AdditionalValue"{str[FinalDungeon\SmallRoom1_Rocket]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}

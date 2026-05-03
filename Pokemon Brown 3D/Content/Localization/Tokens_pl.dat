@@ -2734,6 +2734,9 @@ item_name_gm93,Dragon Scale
 item_name_gm94,Boost Machine
 item_name_gm95,Unstable Feather
 item_name_gm96,Bike Voucher
+item_name_gm97,Shiny Stone
+item_name_gm98,Dusk Stone
+item_name_gm99,Hyper Potion
 
 [GameMode Item Plural Names]
 item_pluralname_gm1,Trade Stones
@@ -2763,6 +2766,10 @@ item_pluralname_gm91,Razor Claws
 item_pluralname_gm92,Razor Fangs
 item_pluralname_gm93,Dragon Scales
 item_pluralname_gm94,Boost Machines
+
+item_pluralname_gm97,Shiny Stones
+item_pluralname_gm98,Dusk Stones
+item_pluralname_gm99,Hyper Potions
 ----
 Item Descriptions:
 [Official Items]
@@ -2781,7 +2788,7 @@ item_desc_12,A spray-type medicine used against sleep. It can be used once to ro
 item_desc_13,A spray-type medicine for paralysis. It can be used once to free a Pokémon that has been paralyzed.
 item_desc_14,A medicine that can be used to fully restore the HP of a single Pokémon and heal any status conditions it has.
 item_desc_15,A spray-type medicine for treating wounds. It will completely restore the max HP of a single Pokémon.
-item_desc_16,A spray-type medicine for treating wounds. It can be used to restore 200 HP to an injured Pokémon.
+item_desc_16,A spray-type medicine for treating wounds. It can be used to restore 120 HP to an injured Pokémon.
 item_desc_17,A spray-type medicine for treating wounds. It can be used to restore 50 HP to an injured Pokémon.
 item_desc_18,A spray-type medicine for treating wounds. It can be used to restore 20 HP to an injured Pokémon.
 item_desc_19,A long and durable rope. Use it to escape instantly from a cave or a dungeon.
@@ -2887,6 +2894,9 @@ item_desc_gm93,A very tough and inflexible scale. It can make a certain species 
 item_desc_gm94,An item to be held by a Pokémon. It makes the holder earn extra Exp. Points in battle as if it was traded.
 item_desc_gm95,A feather dropped by a mysterious bird. It seems to glitch more intensely the closer it is to its origin.
 item_desc_gm96,A coupon that can be exchanged for a Bicycle.
+item_desc_gm97,A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.
+item_desc_gm98,A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.
+item_desc_gm99,A spray-type medicine for treating wounds. It can be used to restore 200 HP to an injured Pokémon.
 ----
 Item Use Text:
 item_cannot_use,<Player.Name>: Hmm... I don't think~I can use this now.
