@@ -1,5 +1,6 @@
 version=2
 
+@NPC.Turn(10,2)
 :if:<inventory.countitem(gm9)>>0
 	@Text.Show(<system.token(Item_Use_PokeFlute)>)
 	@sound.play(PokeFlute,1)
