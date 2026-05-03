@@ -1,130 +1,134 @@
 Cities:
-{"PlaceType"[City]}{"Name"[Seashore City]}{"MapFiles"[Seashore\Main.dat,Seashore\RivalHouse.dat,Seashore\PlayerHouse2F.dat,Seashore\PlayerHouse1F.dat,Gyms\Seashore.dat]}{"Position"[2,12]}{"Size"[Small]}{"FlyTo"[Seashore\Main.dat,21,12,24]}
-{"PlaceType"[City]}{"Name"[Gravel Town]}{"MapFiles"[Gravel\Main.dat,Gravel\PokeMart.dat,Gravel\TimsLab.dat]}{"Position"[2,15]}{"Size"[Small]}{"FlyTo"[Gravel\Main.dat,11,12,10]}
-{"PlaceType"[City]}{"Name"[Merson City]}{"MapFiles"[Merson\Main.dat,Merson\PokeCenter.dat,Merson\PokeMart.dat,Merson\Fanclub.dat,Merson\CuboneHouse.dat,Gyms\Merson.dat]}{"Position"[6,15]}{"Size"[Small]}{"FlyTo"[Merson\Main.dat,15,12,32]}
-{"PlaceType"[City]}{"Name"[Hayward City]}{"MapFiles"[Hayward\Main.dat,Hayward\PokeCenter.dat,Hayward\SouthlandMall\Floor1.dat,Hayward\SouthlandMall\Floor2.dat,Hayward\SouthlandMall\Floor3.dat,Hayward\SouthlandMall\Floor4.dat,Hayward\SouthlandMall\Floor5.dat,Hayward\SouthlandMall\Elevator.dat,Hayward\FossilLab.dat,Hayward\StrengthHouse.dat,Hayward\TownMapHouse.dat,Hayward\Bunker_Entrance.dat,Gates\Route52-Hayward.dat,Bunker.dat]}{"Position"[2,7]}{"Size"[Small]}{"FlyTo"[Hayward\Main.dat,27,12,24]}
-{"PlaceType"[City]}{"Name"[Owsauri City]}{"MapFiles"[Owsauri\Main.dat,Owsauri\PokeCenter.dat,Owsauri\PokeMart.dat,Owsauri\Daycare.dat,Owsauri\GamblerHouse.dat,Owsauri\NameRater.dat,Owsauri\Casino_1F.dat,Owsauri\Casino_B1F.dat,Gyms\Owsauri.dat]}{"Position"[6,2]}{"Size"[Small]}{"FlyTo"[Owsauri\Main.dat,33,12,26]}
-{"PlaceType"[City]}{"Name"[Moraga Town]}{"MapFiles"[Moraga\Main.dat,Moraga\HighSchoolAcademy.dat,Moraga\PokeCenter.dat,Moraga\PokeMart.dat,Moraga\CityUnderpass_Entrance.dat,Moraga\NationsBurgers.dat,Moraga\SandshrewKidHouse.dat,Moraga\FlyHouse.dat,Moraga\PrismMuseum.dat,Gyms\Moraga.dat]}{"Position"[10,7]}{"Size"[Small]}{"FlyTo"[Moraga\Main.dat,39,12,8]}
-{"PlaceType"[City]}{"Name"[Jaeru City]}{"MapFiles"[Jaeru\Main.dat,Jaeru\PokeCenter.dat,Jaeru\PokeMart.dat,Jaeru\BikeShop.dat,Jaeru\OtherHouse.dat,Gyms\Jaeru.dat]}{"Position"[12,7]}{"Size"[Small]}{"FlyTo"[Jaeru\Main.dat,15,12,26]}
-{"PlaceType"[City]}{"Name"[Botan City]}{"MapFiles"[Botan\Main.dat,Botan\PokeMart.dat,Botan\MrRumikoHouse.dat,Botan\TradeHouse.dat,Botan\MoveTutorHouse.dat,Caves\Botan\Main.dat]}{"Position"[16,7]}{"Size"[Small]}{"FlyTo"[Botan\Main.dat,20,12,21]}
-{"PlaceType"[City]}{"Name"[Castro Valley]}{"MapFiles"[Castro\Main.dat,Castro\PokeMart.dat,Castro\PokeCenter.dat,Castro\OldRodHouse.dat,Castro\TradeHouse.dat,Castro\CastroManor\B1F.dat,Castro\CastroManor\1F.dat,Castro\CastroManor\2F.dat,Castro\CastroManor\3F.dat]}{"Position"[16,10]}{"Size"[Small]}{"FlyTo"[Castro\Main.dat,21,12,16]}
-{"PlaceType"[City]}{"Name"[Eagulou City]}{"MapFiles"[Eagulou\Main.dat,Eagulou\PokeCenter.dat,Eagulou\PokeMart.dat,Caves\Eagulou\Main.dat,Gyms\Eagulou.dat]}{"Position"[8,12]}{"Size"[Small]}{"FlyTo"[Eagulou\Main.dat,17,12,18]}
-{"PlaceType"[City]}{"Name"[Rijon League]}{"MapFiles"[League\Exterior.dat,League\EntranceHall.dat,League\Elite4\Redd.dat,League\Elite4\Jared.dat,League\Elite4\Agatha.dat,League\Elite4\Blanch.dat,League\Elite4\Champion.dat,League\HallOfFame.dat]}{"Position"[12,1]}{"Size"[Small]}{"FlyTo"[League\Exterior.dat,14,12,14]}
-{"PlaceType"[City]}{"Name"[Azalea Town]}{"MapFiles"[Azalea\Main.dat,Azalea\PokeCenter.dat,Gyms\Azalea.dat]}{"Position"[17,15]}{"Size"[Small]}{"FlyTo"[Azalea\Main.dat,21,12,14]}
+{"PlaceType"[City]}{"Name"[Seashore City]}{"MapFiles"[Seashore\Main.dat,Seashore\RivalHouse.dat,Seashore\PlayerHouse2F.dat,Seashore\PlayerHouse1F.dat,Gyms\Seashore.dat]}{"Position"[6,16]}{"Size"[Small]}{"FlyTo"[Seashore\Main.dat,21,12,24]}
+{"PlaceType"[City]}{"Name"[Gravel Town]}{"MapFiles"[Gravel\Main.dat,Gravel\PokeMart.dat,Gravel\TimsLab.dat]}{"Position"[6,19]}{"Size"[Small]}{"FlyTo"[Gravel\Main.dat,11,12,10]}
+{"PlaceType"[City]}{"Name"[Merson City]}{"MapFiles"[Merson\Main.dat,Merson\PokeCenter.dat,Merson\PokeMart.dat,Merson\Fanclub.dat,Merson\CuboneHouse.dat,Gyms\Merson.dat]}{"Position"[10,19]}{"Size"[Small]}{"FlyTo"[Merson\Main.dat,15,12,32]}
+{"PlaceType"[City]}{"Name"[Hayward City]}{"MapFiles"[Hayward\Main.dat,Hayward\PokeCenter.dat,Hayward\SouthlandMall\Floor1.dat,Hayward\SouthlandMall\Floor2.dat,Hayward\SouthlandMall\Floor3.dat,Hayward\SouthlandMall\Floor4.dat,Hayward\SouthlandMall\Floor5.dat,Hayward\SouthlandMall\Elevator.dat,Hayward\FossilLab.dat,Hayward\StrengthHouse.dat,Hayward\TownMapHouse.dat,Hayward\Bunker_Entrance.dat,Gates\Route52-Hayward.dat,Bunker.dat]}{"Position"[6,11]}{"Size"[Small]}{"FlyTo"[Hayward\Main.dat,27,12,24]}
+{"PlaceType"[City]}{"Name"[Owsauri City]}{"MapFiles"[Owsauri\Main.dat,Owsauri\PokeCenter.dat,Owsauri\PokeMart.dat,Owsauri\Daycare.dat,Owsauri\GamblerHouse.dat,Owsauri\NameRater.dat,Owsauri\Casino_1F.dat,Owsauri\Casino_B1F.dat,Gyms\Owsauri.dat]}{"Position"[10,6]}{"Size"[Small]}{"FlyTo"[Owsauri\Main.dat,33,12,26]}
+{"PlaceType"[City]}{"Name"[Moraga Town]}{"MapFiles"[Moraga\Main.dat,Moraga\HighSchoolAcademy.dat,Moraga\PokeCenter.dat,Moraga\PokeMart.dat,Moraga\CityUnderpass_Entrance.dat,Moraga\NationsBurgers.dat,Moraga\SandshrewKidHouse.dat,Moraga\FlyHouse.dat,Moraga\PrismMuseum.dat,Gyms\Moraga.dat]}{"Position"[14,11]}{"Size"[Small]}{"FlyTo"[Moraga\Main.dat,39,12,8]}
+{"PlaceType"[City]}{"Name"[Jaeru City]}{"MapFiles"[Jaeru\Main.dat,Jaeru\PokeCenter.dat,Jaeru\PokeMart.dat,Jaeru\BikeShop.dat,Jaeru\OtherHouse.dat,Gyms\Jaeru.dat]}{"Position"[16,11]}{"Size"[Small]}{"FlyTo"[Jaeru\Main.dat,15,12,26]}
+{"PlaceType"[City]}{"Name"[Botan City]}{"MapFiles"[Botan\Main.dat,Botan\PokeMart.dat,Botan\MrRumikoHouse.dat,Botan\TradeHouse.dat,Botan\MoveTutorHouse.dat,Caves\Botan\Main.dat]}{"Position"[20,11]}{"Size"[Small]}{"FlyTo"[Botan\Main.dat,20,12,21]}
+{"PlaceType"[City]}{"Name"[Castro Valley]}{"MapFiles"[Castro\Main.dat,Castro\PokeMart.dat,Castro\PokeCenter.dat,Castro\OldRodHouse.dat,Castro\TradeHouse.dat,Castro\CastroManor\B1F.dat,Castro\CastroManor\1F.dat,Castro\CastroManor\2F.dat,Castro\CastroManor\3F.dat]}{"Position"[20,14]}{"Size"[Small]}{"FlyTo"[Castro\Main.dat,21,12,16]}
+{"PlaceType"[City]}{"Name"[Eagulou City]}{"MapFiles"[Eagulou\Main.dat,Eagulou\PokeCenter.dat,Eagulou\PokeMart.dat,Caves\Eagulou\Main.dat,Gyms\Eagulou.dat]}{"Position"[12,16]}{"Size"[Small]}{"FlyTo"[Eagulou\Main.dat,17,12,18]}
+{"PlaceType"[City]}{"Name"[Rijon League]}{"MapFiles"[League\Exterior.dat,League\EntranceHall.dat,League\Elite4\Redd.dat,League\Elite4\Jared.dat,League\Elite4\Agatha.dat,League\Elite4\Blanch.dat,League\Elite4\Champion.dat,League\HallOfFame.dat]}{"Position"[16,5]}{"Size"[Small]}{"FlyTo"[League\Exterior.dat,14,12,14]}
+{"PlaceType"[City]}{"Name"[Azalea Town]}{"MapFiles"[Azalea\Main.dat,Azalea\PokeCenter.dat,Gyms\Azalea.dat]}{"Position"[12,1]}{"Size"[Small]}{"FlyTo"[Azalea\Main.dat,21,12,14]}
 
 Routes:
 
-{"PlaceType"[Route]}{"Name"[Route 34]}{"MapFiles"[Routes\34\Main.dat]}{"Position"[15,14]}{"PlayerPosition"[15,14]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 34]}{"MapFiles"[Routes\34\Main.dat]}{"Position"[10,0]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Old Route 47]}{"MapFiles"[Routes\47\Main.dat,Gates\Route47_1F.dat,Gates\Route47_2F.dat]}{"Position"[14,15]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Old Route 47]}{"MapFiles"[Routes\47\Main.dat,Gates\Route47_1F.dat,Gates\Route47_2F.dat]}{"Position"[14,16]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Old Route 47]}{"MapFiles"[Routes\47\Main.dat]}{"Position"[7,1]}{"PlayerPosition"[7,1]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Old Route 47]}{"MapFiles"[Routes\47\Main.dat]}{"Position"[7,2]}{"PlayerPosition"[7,1]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Old Route 47]}{"MapFiles"[Gates\Route47_1F.dat,Gates\Route47_2F.dat]}{"Position"[8,1]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Old Route 47]}{"MapFiles"[Gates\Route47_1F.dat,Gates\Route47_2F.dat]}{"Position"[8,1]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Old Route 48]}{"MapFiles"[Routes\48\Main.dat]}{"Position"[3,1]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Old Route 48]}{"MapFiles"[Routes\48\Main.dat]}{"Position"[3,0]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Old Route 48]}{"MapFiles"[Routes\48\Main.dat]}{"Position"[7,3]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Old Route 48]}{"MapFiles"[Routes\48\Main.dat]}{"Position"[7,4]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Old Route 48]}{"MapFiles"[Routes\48\Main.dat]}{"Position"[7,5]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[3,2]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[4,2]}{"Direction"[TDown]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Gates\Route49_1F.dat,Gates\Route49_2F.dat]}{"Position"[5,2]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[3,2]}{"Direction"[CurveUpRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[7,6]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[8,6]}{"Direction"[TDown]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Gates\Route49_1F.dat,Gates\Route49_2F.dat]}{"Position"[9,6]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 49]}{"MapFiles"[Routes\49\Main.dat]}{"Position"[7,6]}{"Direction"[CurveUpRight]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[3,4]}{"PlayerPosition"[3,4]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[4,4]}{"PlayerPosition"[3,4]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Gates\Route49-Route50_1F.dat,Gates\Route49-Route50_2F.dat]}{"Position"[4,3]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[7,8]}{"PlayerPosition"[7,8]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Routes\50\Main.dat]}{"Position"[8,8]}{"PlayerPosition"[7,8]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 50]}{"MapFiles"[Gates\Route49-Route50_1F.dat,Gates\Route49-Route50_2F.dat]}{"Position"[8,7]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,4]}{"PlayerPosition"[2,5]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,5]}{"PlayerPosition"[2,5]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[2,6]}{"PlayerPosition"[2,5]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[6,8]}{"PlayerPosition"[6,9]}{"Direction"[CurveDownRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[6,9]}{"PlayerPosition"[6,9]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 51]}{"MapFiles"[Routes\51\Main.dat]}{"Position"[6,10]}{"PlayerPosition"[6,9]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\MagmarTradeHouse.dat]}{"Position"[2,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat]}{"Position"[2,9]}{"PlayerPosition"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}
-{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\DockUnderpass_Entrance.dat]}{"Position"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}
-{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat]}{"Position"[2,11]}{"PlayerPosition"[2,10]}{"Direction"[Vertical]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\MagmarTradeHouse.dat]}{"Position"[6,12]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat]}{"Position"[6,13]}{"PlayerPosition"[6,14]}{"Direction"[Vertical]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\DockUnderpass_Entrance.dat]}{"Position"[6,14]}{"Direction"[Vertical]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 52]}{"MapFiles"[Routes\52\Main.dat]}{"Position"[6,15]}{"PlayerPosition"[6,14]}{"Direction"[Vertical]}{"RouteType"[Water]}
 
-{"PlaceType"[Route]}{"Name"[Route 53]}{"MapFiles"[Routes\53\Main.dat]}{"Position"[2,13]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 53]}{"MapFiles"[Routes\53\Main.dat]}{"Position"[2,14]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 53]}{"MapFiles"[Routes\53\Main.dat]}{"Position"[6,17]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 53]}{"MapFiles"[Routes\53\Main.dat]}{"Position"[6,18]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[3,15]}{"PlayerPosition"[5,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[4,15]}{"PlayerPosition"[5,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[5,15]}{"PlayerPosition"[5,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[7,19]}{"PlayerPosition"[9,19]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[8,19]}{"PlayerPosition"[9,19]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 54]}{"MapFiles"[Routes\54\Main.dat]}{"Position"[9,19]}{"PlayerPosition"[9,19]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,14]}{"Direction"[Vertical]}{"PlayerPosition"[6,12]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,13]}{"Direction"[Vertical]}{"PlayerPosition"[6,12]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[6,12]}{"Direction"[TRight]}{"PlayerPosition"[6,12]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\RainbowTower\Floor1.dat,Routes\55\RainbowTower\Floor2.dat,Routes\55\RainbowTower\Floor3.dat,Routes\55\RainbowTower\Floor4.dat,Routes\55\RainbowTower\Floor4_Room.dat]}{"Position"[6,11]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\DockUnderpass_Entrance.dat]}{"Position"[6,10]}{"Direction"[VerticalEndUp]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[7,12]}{"Direction"[Horizontal]}{"PlayerPosition"[6,12]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[10,18]}{"Direction"[Vertical]}{"PlayerPosition"[10,16]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[10,17]}{"Direction"[Vertical]}{"PlayerPosition"[10,16]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[10,16]}{"Direction"[TRight]}{"PlayerPosition"[10,16]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\RainbowTower\Floor1.dat,Routes\55\RainbowTower\Floor2.dat,Routes\55\RainbowTower\Floor3.dat,Routes\55\RainbowTower\Floor4.dat,Routes\55\RainbowTower\Floor4_Room.dat]}{"Position"[10,15]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\DockUnderpass_Entrance.dat]}{"Position"[10,14]}{"Direction"[VerticalEndUp]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 55]}{"MapFiles"[Routes\55\Main.dat]}{"Position"[11,16]}{"Direction"[Horizontal]}{"PlayerPosition"[10,16]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[9,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
-{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[10,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
-{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[11,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
-{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[12,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
-{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[13,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
-{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[14,12]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[13,16]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[14,16]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[15,16]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[16,16]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[17,16]}{"Direction"[Horizontal]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 56]}{"MapFiles"[Routes\56\Main.dat]}{"Position"[18,16]}{"Direction"[Horizontal]}{"RouteType"[Water]}
 
-{"PlaceType"[Route]}{"Name"[Route 57]}{"MapFiles"[Routes\57\Main.dat]}{"Position"[15,11]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[South Reservoir Gym]}{"MapFiles"[Gyms\Route57.dat]}{"Position"[15,12]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}{"FlyTo"[Routes\57\Main.dat,17,12,36]}
+{"PlaceType"[Route]}{"Name"[Route 57]}{"MapFiles"[Routes\57\Main.dat]}{"Position"[19,15]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[South Reservoir Gym]}{"MapFiles"[Gyms\Route57.dat]}{"Position"[19,16]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}{"FlyTo"[Routes\57\Main.dat,17,12,36]}
 
-{"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Routes\58\Main.dat,Gates\Route58-Botan.dat,Caves\InternationalTunnel\1F.dat,Caves\InternationalTunnel\B1F.dat]}{"Position"[16,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Routes\58\Main.dat]}{"Position"[16,9]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Routes\58\Main.dat,Gates\Route58-Botan.dat,Caves\InternationalTunnel\1F.dat,Caves\InternationalTunnel\B1F.dat]}{"Position"[20,12]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Routes\58\Main.dat]}{"Position"[20,13]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 59]}{"MapFiles"[Routes\59\Main.dat]}{"Position"[13,7]}{"PlayerPosition"[14,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 59]}{"MapFiles"[Routes\59\Main.dat]}{"Position"[14,7]}{"PlayerPosition"[14,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 59]}{"MapFiles"[Routes\59\Main.dat,Gates\Route59-Botan.dat]}{"PlayerPosition"[14,7]}{"Position"[15,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 59]}{"MapFiles"[Routes\59\Main.dat]}{"Position"[17,11]}{"PlayerPosition"[18,11]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 59]}{"MapFiles"[Routes\59\Main.dat]}{"Position"[18,11]}{"PlayerPosition"[18,11]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 59]}{"MapFiles"[Routes\59\Main.dat,Gates\Route59-Botan.dat]}{"PlayerPosition"[18,11]}{"Position"[19,11]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat,Gates\Route60-Jaeru_1F.dat,Gates\Route60-Jaeru_2F.dat]}{"Position"[11,7]}{"PlayerPosition"[11,7]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat,Gates\Route60-Jaeru_1F.dat,Gates\Route60-Jaeru_2F.dat]}{"Position"[10,7]}{"PlayerPosition"[11,7]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat,Gates\Route60-Jaeru_1F.dat,Gates\Route60-Jaeru_2F.dat]}{"Position"[11,7]}{"PlayerPosition"[11,7]}{"Direction"[TDown]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat,Gates\Route60-Jaeru_1F.dat,Gates\Route60-Jaeru_2F.dat]}{"Position"[14,11]}{"PlayerPosition"[15,11]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat,Gates\Route60-Jaeru_1F.dat,Gates\Route60-Jaeru_2F.dat]}{"Position"[15,11]}{"PlayerPosition"[15,11]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat,Gates\Route60-Jaeru_1F.dat,Gates\Route60-Jaeru_2F.dat]}{"Position"[15,11]}{"PlayerPosition"[15,11]}{"Direction"[TDown]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 61]}{"MapFiles"[Routes\61\Main.dat,Gates\Route60-Route61.dat]}{"Position"[11,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 61]}{"MapFiles"[Routes\61\Main.dat,Gates\Route61-Route62.dat]}{"Position"[11,9]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 61]}{"MapFiles"[Routes\61\Main.dat,Gates\Route60-Route61.dat]}{"Position"[15,12]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 61]}{"MapFiles"[Routes\61\Main.dat,Gates\Route61-Route62.dat]}{"Position"[15,13]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[11,10]}{"PlayerPosition"[13,10]}{"Direction"[CurveUpRight]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[12,10]}{"PlayerPosition"[13,10]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[13,10]}{"PlayerPosition"[13,10]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[14,10]}{"PlayerPosition"[13,10]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[15,10]}{"PlayerPosition"[13,10]}{"Direction"[TDown]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[15,10]}{"PlayerPosition"[13,10]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[15,14]}{"PlayerPosition"[17,14]}{"Direction"[CurveUpRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[16,14]}{"PlayerPosition"[17,14]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[17,14]}{"PlayerPosition"[17,14]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[18,14]}{"PlayerPosition"[17,14]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[19,14]}{"PlayerPosition"[17,14]}{"Direction"[TDown]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[19,14]}{"PlayerPosition"[17,14]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[3,7]}{"PlayerPosition"[5,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[4,7]}{"PlayerPosition"[5,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[5,7]}{"PlayerPosition"[5,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[6,7]}{"PlayerPosition"[5,7]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[7,11]}{"PlayerPosition"[9,11]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[8,11]}{"PlayerPosition"[9,11]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[9,11]}{"PlayerPosition"[9,11]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 63]}{"MapFiles"[Routes\63\Main.dat]}{"Position"[10,11]}{"PlayerPosition"[9,11]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 64]}{"MapFiles"[Routes\64\Main.dat]}{"Position"[1,7]}{"Direction"[HorizontalEndLeft]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 64]}{"MapFiles"[Routes\64\Main.dat]}{"Position"[1,7]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 64]}{"MapFiles"[Routes\64\Main.dat]}{"Position"[3,11]}{"PlayerPosition"[4,11]}{"Direction"[HorizontalEndLeft]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 64]}{"MapFiles"[Routes\64\Main.dat]}{"Position"[4,11]}{"PlayerPosition"[4,11]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 64]}{"MapFiles"[Routes\64\Main.dat]}{"Position"[5,11]}{"PlayerPosition"[4,11]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[Routes\65\Main.dat]}{"Position"[12,6]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[Routes\65\Main.dat]}{"Position"[12,5]}{"Direction"[TRight]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[Routes\65\Main.dat]}{"Position"[12,4]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[Routes\65\Main.dat]}{"Position"[12,3]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[Routes\65\Main.dat]}{"Position"[12,2]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[Routes\65\Main.dat]}{"Position"[16,10]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[Routes\65\Main.dat]}{"Position"[16,9]}{"Direction"[TRight]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[Routes\65\Main.dat]}{"Position"[16,8]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[Routes\65\Main.dat]}{"Position"[16,7]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 65]}{"MapFiles"[Routes\65\Main.dat]}{"Position"[16,6]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 66]}{"MapFiles"[Routes\66\Main.dat]}{"Position"[6,3]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 66]}{"MapFiles"[Routes\66\Main.dat]}{"Position"[6,4]}{"Direction"[Vertical]}{"RouteType"[Water]}
-{"PlaceType"[Route]}{"Name"[Route 66]}{"MapFiles"[Routes\66\Main.dat]}{"Position"[6,5]}{"Direction"[VerticalEndDown]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 66]}{"MapFiles"[Routes\66\Main.dat]}{"Position"[10,7]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 66]}{"MapFiles"[Routes\66\Main.dat]}{"Position"[10,8]}{"Direction"[Vertical]}{"RouteType"[Water]}
+{"PlaceType"[Route]}{"Name"[Route 66]}{"MapFiles"[Routes\66\Main.dat]}{"Position"[10,9]}{"Direction"[VerticalEndDown]}{"RouteType"[Water]}
 
-{"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[Routes\67\Main.dat]}{"Position"[13,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[Routes\67\Main.dat]}{"Position"[14,5]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[Routes\67\Main.dat]}{"Position"[17,9]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 67]}{"MapFiles"[Routes\67\Main.dat]}{"Position"[18,9]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[Gates\Route34-IlexForest.dat,Gates\Route47-IlexForest.dat,IlexForest.dat]}{"Position"[14,15]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[Gates\Route34-IlexForest.dat,Gates\Route47-IlexForest.dat,Gates\Azalea-IlexForest.dat,IlexForest.dat]}{"Position"[15,15]}{"Direction"[TUp]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Azalea Town]}{"MapFiles"[Gates\Azalea-IlexForest.dat]}{"Position"[16,15]}{"Direction"[Horizontal]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[Gates\Route34-IlexForest.dat,Gates\Route47-IlexForest.dat,IlexForest.dat]}{"Position"[9,1]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Ilex Forest]}{"MapFiles"[Gates\Route34-IlexForest.dat,Gates\Route47-IlexForest.dat,Gates\Azalea-IlexForest.dat,IlexForest.dat]}{"Position"[10,1]}{"Direction"[TUp]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Azalea Town]}{"MapFiles"[Gates\Azalea-IlexForest.dat]}{"Position"[11,1]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
 Places:
-{"PlaceType"[Place]}{"Name"[Merson Cave]}{"Mapfiles"[Caves\Merson\1F.dat,Caves\Merson\B1F.dat,Caves\Merson\B2F.dat,Caves\Merson\Outside.dat]}{"Position"[3,15]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Haunted Forest]}{"Mapfiles"[Botan\HauntedForest\Area1.dat,Botan\HauntedForest\Area2.dat,Botan\HauntedForest\Area3.dat,Botan\HauntedForest\Area3_MissingNo.dat,Botan\HauntedForest\Area4.dat,Botan\HauntedForest\Area4_MissingNo.dat,Botan\HauntedForest\Area5.dat,Botan\HauntedForest\Area5_MissingNo.dat,Botan\HauntedForest\Area6.dat,Botan\HauntedForest\Area6_MissingNo.dat,Botan\HauntedForest\Area7.dat]}{"Position"[16,6]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Silph Co. Warehouse]}{"Mapfiles"[Routes\59\SilphCoWarehouse\B1F.dat,Routes\59\SilphCoWarehouse\1F.dat,Routes\59\SilphCoWarehouse\2F.dat,Routes\59\SilphCoWarehouse\3F.dat,Routes\59\SilphCoWarehouse\4F.dat]}{"Position"[15,7]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Mt. Boulder]}{"Mapfiles"[Caves\MtBoulder\1F.dat,Caves\MtBoulder\B1F.dat,Bunker.dat]}{"Position"[7,12]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Silk Tunnel]}{"Mapfiles"[Caves\SilkTunnel\1F.dat,Caves\SilkTunnel\B1F.dat,Caves\SilkTunnel\B2F.dat,Caves\SilkTunnel\B3F.dat]}{"Position"[8,7]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Castro Forest]}{"Mapfiles"[CastroForest.dat,Gates\CastroValley-CastroForest.dat,Gates\Route57-CastroForest.dat,Gates\Route62-CastroForest.dat]}{"Position"[15,10]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Eagulou Park]}{"Mapfiles"[Eagulou\Park\Area1.dat,Eagulou\Park\Area2.dat,Eagulou\Park\Area3.dat,Eagulou\Park\Gate.dat,Eagulou\Park\House1.dat,Eagulou\Park\House2.dat,Eagulou\Park\House3.dat,Eagulou\Park\SecretCave_B1F.dat,Eagulou\Park\SecretCave_B2F.dat]}{"Position"[8,11]}{"Size"[Small]}
-{"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[Routes\67\PokeCenter.dat,Routes\67\TeleportScientistHouse.dat]}{"Position"[15,5]}{"Size"[Small]}{"FlyTo"[Routes\67\Main.dat,28,12,8]}
-{"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[Caves\SenecaCaverns\1F_East.dat,Caves\SenecaCaverns\1F_West.dat,Caves\SenecaCaverns\B1F.dat,Caves\SenecaCaverns\B2F_Area0.dat,Caves\SenecaCaverns\B2F_Area1.dat,Caves\SenecaCaverns\B2F_Area2.dat,Caves\SenecaCaverns\B2F_Area3.dat,Caves\SenecaCaverns\B2F_Area4.dat]}{"Position"[15,5]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Slowpoke Well]}{"MapFiles"[Azalea\SlowpokeWell\1F.dat,Azalea\SlowpokeWell\B1F.dat]}{"Position"[17,14]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Merson Cave]}{"Mapfiles"[Caves\Merson\1F.dat,Caves\Merson\B1F.dat,Caves\Merson\B2F.dat,Caves\Merson\Outside.dat]}{"Position"[7,19]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Haunted Forest]}{"Mapfiles"[Botan\HauntedForest\Area1.dat,Botan\HauntedForest\Area2.dat,Botan\HauntedForest\Area3.dat,Botan\HauntedForest\Area3_MissingNo.dat,Botan\HauntedForest\Area4.dat,Botan\HauntedForest\Area4_MissingNo.dat,Botan\HauntedForest\Area5.dat,Botan\HauntedForest\Area5_MissingNo.dat,Botan\HauntedForest\Area6.dat,Botan\HauntedForest\Area6_MissingNo.dat,Botan\HauntedForest\Area7.dat]}{"Position"[20,10]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Silph Co. Warehouse]}{"Mapfiles"[Routes\59\SilphCoWarehouse\B1F.dat,Routes\59\SilphCoWarehouse\1F.dat,Routes\59\SilphCoWarehouse\2F.dat,Routes\59\SilphCoWarehouse\3F.dat,Routes\59\SilphCoWarehouse\4F.dat]}{"Position"[19,11]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Mt. Boulder]}{"Mapfiles"[Caves\MtBoulder\1F.dat,Caves\MtBoulder\B1F.dat,Bunker.dat]}{"Position"[11,16]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Silk Tunnel]}{"Mapfiles"[Caves\SilkTunnel\1F.dat,Caves\SilkTunnel\B1F.dat,Caves\SilkTunnel\B2F.dat,Caves\SilkTunnel\B3F.dat]}{"Position"[12,11]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Castro Forest]}{"Mapfiles"[CastroForest.dat,Gates\CastroValley-CastroForest.dat,Gates\Route57-CastroForest.dat,Gates\Route62-CastroForest.dat]}{"Position"[19,14]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Eagulou Park]}{"Mapfiles"[Eagulou\Park\Area1.dat,Eagulou\Park\Area2.dat,Eagulou\Park\Area3.dat,Eagulou\Park\Gate.dat,Eagulou\Park\House1.dat,Eagulou\Park\House2.dat,Eagulou\Park\House3.dat,Eagulou\Park\SecretCave_B1F.dat,Eagulou\Park\SecretCave_B2F.dat]}{"Position"[12,15]}{"Size"[Small]}
+{"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[Routes\67\PokeCenter.dat,Routes\67\TeleportScientistHouse.dat]}{"Position"[19,9]}{"Size"[Small]}{"FlyTo"[Routes\67\Main.dat,28,12,8]}
+{"PlaceType"[City]}{"Name"[Seneca Caverns]}{"Mapfiles"[Caves\SenecaCaverns\1F_East.dat,Caves\SenecaCaverns\1F_West.dat,Caves\SenecaCaverns\B1F.dat,Caves\SenecaCaverns\B2F_Area0.dat,Caves\SenecaCaverns\B2F_Area1.dat,Caves\SenecaCaverns\B2F_Area2.dat,Caves\SenecaCaverns\B2F_Area3.dat,Caves\SenecaCaverns\B2F_Area4.dat]}{"Position"[19,9]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Slowpoke Well]}{"MapFiles"[Azalea\SlowpokeWell\1F.dat,Azalea\SlowpokeWell\B1F.dat]}{"Position"[12,0]}{"Size"[Small]}
 
-{"PlaceType"[City]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\Island.dat,FinalDungeon\Lobby.dat,FinalCave.dat,FinalShop.dat]}{"Position"[9,1]}{"Size"[Small]}{"FlyTo"[FinalDungeon\Island.dat,21,12,16]}{"Visible"[Unlock]}
-{"PlaceType"[Place]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\MainBuilding_1F.dat,FinalDungeon\MainBuilding_B1F.dat,FinalDungeon\MainBuilding_B2F.dat,FinalDungeon\MainBuilding_B3F.dat,FinalDungeon\SmallRoom0.dat,FinalDungeon\SmallRoom1.dat,FinalDungeon\HealRoom.dat,FinalDungeon\UndergroundCaveMaze_1F.dat,FinalDungeon\SmallRoom2.dat,FinalDungeon\SmallCave.dat,FinalDungeon\UndergroundCaveMaze_B1F.dat,FinalDungeon\SmallRoom3.dat,FinalDungeon\JohtoLegendaryRoom.dat,FinalDungeon\WarpRoom.dat]}{"Position"[9,3]}{"Size"[Small]}{"Visible"[Temporary]}
-{"PlaceType"[Place]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\OutdoorPath.dat]}{"Position"[9,5]}{"Size"[Small]}{"Visible"[Temporary]}
-{"PlaceType"[Place]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\UndergroundPath.dat]}{"Position"[6,6]}{"Size"[Small]}{"Visible"[Temporary]}
+{"PlaceType"[City]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\Island.dat,FinalDungeon\Lobby.dat,FinalCave.dat,FinalShop.dat]}{"Position"[13,5]}{"Size"[Small]}{"FlyTo"[FinalDungeon\Island.dat,21,12,16]}{"Visible"[Unlock]}
+{"PlaceType"[Place]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\MainBuilding_1F.dat,FinalDungeon\MainBuilding_B1F.dat,FinalDungeon\MainBuilding_B2F.dat,FinalDungeon\MainBuilding_B3F.dat,FinalDungeon\SmallRoom0.dat,FinalDungeon\SmallRoom1.dat,FinalDungeon\HealRoom.dat,FinalDungeon\UndergroundCaveMaze_1F.dat,FinalDungeon\SmallRoom2.dat,FinalDungeon\SmallCave.dat,FinalDungeon\UndergroundCaveMaze_B1F.dat,FinalDungeon\SmallRoom3.dat,FinalDungeon\JohtoLegendaryRoom.dat,FinalDungeon\WarpRoom.dat]}{"Position"[13,7]}{"Size"[Small]}{"Visible"[Temporary]}
+{"PlaceType"[Place]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\OutdoorPath.dat]}{"Position"[13,9]}{"Size"[Small]}{"Visible"[Temporary]}
+{"PlaceType"[Place]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\UndergroundPath.dat]}{"Position"[10,10]}{"Size"[Small]}{"Visible"[Temporary]}
 
-{"PlaceType"[Place]}{"Name"[Madame Renifler]}{"Mapfiles"[MadameRenifler\Bridge.dat,MadameRenifler\DanceClub.dat,MadameRenifler\Hall.dat]}{"Position"[18,5]}{"Size"[Small]}{"Visible"[Temporary]}
+{"PlaceType"[Place]}{"Name"[Madame Renifler]}{"Mapfiles"[MadameRenifler\Bridge.dat,MadameRenifler\DanceClub.dat,MadameRenifler\Hall.dat]}{"Position"[22,18]}{"Size"[Small]}{"Visible"[Temporary]}
