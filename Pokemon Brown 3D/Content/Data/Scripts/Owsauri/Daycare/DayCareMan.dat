@@ -12,6 +12,7 @@ version=2
 :when:0
 	@Text.Show(<system.token(Owsauri_Daycare_DaycareMan_Intro_NoPokemon)>)
 	@options.show(<system.token(Owsauri_Daycare_DaycareMan_Answer_LeavePokemon)>,<system.token(global_cancel)>)
+	@options.setcancelindex(1)
 	:when:<system.token(Owsauri_Daycare_DaycareMan_Answer_LeavePokemon)>
 		@script.start(Owsauri\Daycare\LeavePokemon)
 		@daycare.clean(0)
@@ -30,6 +31,7 @@ version=2
 	:endif
 	
 	@options.show(<system.token(Owsauri_Daycare_DaycareMan_Answer_LeavePokemon)>,<system.token(Owsauri_Daycare_DaycareMan_Answer_TakeBack)>,<system.token(global_cancel)>)
+	@options.setcancelindex(2)
 	:when:<system.token(Owsauri_Daycare_DaycareMan_Answer_LeavePokemon)>
 		@script.start(Owsauri\Daycare\LeavePokemon)
 		@daycare.clean(0)
@@ -61,6 +63,7 @@ version=2
 		:endif
 	:endif
 	@options.show(<system.token(Owsauri_Daycare_DaycareMan_Answer_TakeBack)>,<system.token(global_cancel)>)
+	@options.setcancelindex(1)
 	:when:<system.token(Owsauri_Daycare_DaycareMan_Answer_TakeBack)>
 		@Text.Show(<system.token(Owsauri_Daycare_DaycareMan_Question_TakeBack)>)
 

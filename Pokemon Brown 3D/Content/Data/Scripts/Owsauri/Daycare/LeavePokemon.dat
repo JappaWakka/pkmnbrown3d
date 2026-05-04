@@ -26,6 +26,7 @@ version=2
 		:if:<daycare.countpokemon(0)>=1
 			:if:<pokemon.countbattle>>1
 				@Text.Show(I can raise two of your~Pokémon.*Would you like me to raise~another?)
+				@options.setcancelindex(1)
 				@options.show(<system.token(global_yes)>,<system.token(global_no)>)
 				:when:<system.token(global_yes)>
 					@script.start(Owsauri\Daycare\LeavePokemon)

@@ -4,6 +4,7 @@ version=2
 	:select:<daycare.countpokemon(0)>
 	:when:1
 		@options.show(<daycare.pokemonname(0,0)> <system.token(Lv.)> <daycare.currentlevel(0,0)>,<system.token(global_cancel)>)
+		@options.setcancelindex(1)
 		:when:<daycare.pokemonname(0,0)> <system.token(Lv.)> <daycare.currentlevel(0,0)>
 
 			:if:<daycare.grownlevels(0,0)>=0
@@ -13,6 +14,7 @@ version=2
 			:endif
 
 			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+			@options.setcancelindex(1)
 			:when:<system.token(global_yes)>
 				:if:<pokemon.count><6
 					:if:<player.money>><math.int((<daycare.grownlevels(0,0)>+1)*100-1)>
@@ -36,6 +38,7 @@ version=2
 
 	:when:2
 		@options.show(<daycare.pokemonname(0,0)> <system.token(Lv.)> <daycare.currentlevel(0,0)>,<daycare.pokemonname(0,1)> <system.token(Lv.)> <daycare.currentlevel(0,1)>,<system.token(global_cancel)>)
+		@options.setcancelindex(2)
 		:when:<daycare.pokemonname(0,0)> <system.token(Lv.)> <daycare.currentlevel(0,0)>
 		
 			:if:<daycare.grownlevels(0,0)>=0
@@ -45,6 +48,7 @@ version=2
 			:endif
 
 			@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+			@options.setcancelindex(1)
 			:when:<system.token(global_yes)>
 				:if:<pokemon.count><6
 					:if:<player.money>><math.int(<daycare.grownlevels(0,0)>*100+100)>
@@ -88,6 +92,7 @@ version=2
 
 						@Text.Show(Would you like to have~the other one back, too?)
 						@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+						@options.setcancelindex(1)
 						:when:<system.token(global_yes)>
 							@script.start(Owsauri\Daycare\TakeBack)
 						:when:<system.token(global_no)>

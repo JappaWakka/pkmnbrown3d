@@ -1,6 +1,7 @@
 version=2
 	@Text.Show(<system.token(Owsauri_Daycare_DaycareMan_TakeEgg_WantEgg)>)
 	@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+	@options.setcancelindex(1)
 	:when:<system.token(global_yes)>
 		:if:<pokemon.count><6
 		:then
@@ -14,6 +15,7 @@ version=2
 	:when:<system.token(global_no)>
 		@Text.Show(<system.token(Owsauri_Daycare_DaycareMan_TakeEgg_YouSure)>)
 		@options.show(<system.token(global_yes)>,<system.token(global_no)>)
+		@options.setcancelindex(1)
 		:when:<system.token(global_yes)>
 			:if:<pokemon.count><6
 			:then
