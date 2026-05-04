@@ -4,6 +4,7 @@ version=2
 	@Text.Show(<system.token(Gravel_PokeMain_Clerk_NoDelivery)>)
 :else
 	@Text.Show(<system.token(Generic_PokeMart_Clerk_Question)>)
+	@options.setcancelindex(1)
 	@options.show(<system.token(Generic_PokeMart_Store)>,<system.token(Generic_PokeMart_Quit)>)
 		:when:<system.token(Generic_PokeMart_Store)>
 			@screen.Trade({5|-1|-1}{18|-1|-1}{9|-1|-1}{13|-1|-1}{gm74|-1|-1}{181|0|2},True,True)
