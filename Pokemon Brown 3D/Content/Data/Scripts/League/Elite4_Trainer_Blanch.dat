@@ -1,7 +1,7 @@
 version=2
 
 :if:<Register.Registered(defeat<level.filename>)>=false
-	:if:<Register.Registered(EnterBlanch)>=false
+	:if:<Register.Registered(enterBlanch)>=false
 		:if:<Level.Riding>=true
 			@Player.SetSpeed(2)
 		:else
@@ -30,7 +30,7 @@ version=2
 		@NPC.Turn(1,2)
 		@Entity.Remove(2)
 		@Level.Update
-		@Register.Register(EnterBlanch)
+		@Register.Register(enterBlanch)
 	:else
 		@Text.Show(<system.token(League_Elite4_Blanch_Door)>)
 		@NPC.Turn(1,0)

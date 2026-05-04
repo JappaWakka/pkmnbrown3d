@@ -1,6 +1,6 @@
 version=2
 
-:if:<Register.Registered(RoomEnter<level.filename>)>=false
+:if:<Register.Registered(RoomEnterBlanch)>=false
 	@entity.warp(3,~,-4.5,~)
 	@entity.warp(4,~,0.5,~)
 	@player.stopmovement
@@ -9,10 +9,10 @@ version=2
 	@entity.warp(4,~,-4.5,~)
 	@entity.warp(3,~,0.5,~)
 	@Level.Update
-	@Register.Register(RoomEnter<level.filename>)
+	@Register.Register(RoomEnterBlanch)
 :endif
 
-:if:<Register.Registered(EnterBlanch)>=true
+:if:<Register.Registered(enterBlanch)>=true
 	@Entity.Remove(2)
 	@NPC.Warp(1,13,0,-1)
 	@Level.Update
