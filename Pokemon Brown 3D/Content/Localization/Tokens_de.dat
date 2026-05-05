@@ -655,7 +655,7 @@ pokegear_screen_pss_user_function_Battle,Battle
 pokegear_screen_pss_user_function_Trade,Trade
 pokegear_screen_pss_user_function_PersonalMessage,PM
 pokegear_screen_pss_user_function_Friend,Friend
-pokegear_screen_pss_user_function_Friend,Favorite
+pokegear_screen_pss_user_function_Favorite,Favorite
 
 pokegear_screen_pss_TradeRequest,The player "[NAME]" wants to trade with you.
 pokegear_screen_pss_BattleRequest,The player "[NAME]" wants to battle with you.
@@ -4394,7 +4394,7 @@ Gravel_TimsLab_Tim_DexComplete2,The Shiny Charm will greatly~increase the chance
 Gravel_TimsLab_Tim_GlitchedPokedex1,Tim: Good to see you!*How is your Pokédex doing?*Oh? That's odd...*This Pokédex entry is all~corrupted.*Let me see if I can do~something about that!*...*Ah, there you go!
 Gravel_TimsLab_Tim_GlitchedPokedex2,Tim: So this is Phancero...*A very special and powerful~Pokémon!*And you've obtained one~yourself?*Amazing!*I'm sure you'll take good~care of it, <Player.Name>!
 Gravel_TimsLab_Pokedex1,Tim: Oh, <Player.Name>!~What are you doing back~so early?*Huh, you have something~for me?
-Gravel_TimsLab_Pokedex2,<Player.Name> handed Tim his pizza.*Tim: Oh good! I was hungry,~but too busy to pick it up!
+Gravel_TimsLab_Pokedex2,<Player.Name> handed Tim his~pizza.*Tim: Oh good! I was hungry,~but too busy to pick it up!
 Gravel_TimsLab_Pokedex3,Mura: Coming!
 Gravel_TimsLab_Pokedex4,Mura: What do you need~me for?*Tim: Oh right!~I have a request of you two.*On the desk there is an~invention, the Pokédex!~It automatically records data~on Pokémon you've seen~or caught.*It's a hi-tech encyclopedia!*<Player.Name> and Mura!~Take these with you!
 Gravel_TimsLab_Pokedex5,<Player.Name> got a~Pokédex from Tim!
@@ -4411,7 +4411,7 @@ Gravel_TimsLab_Mura_FirstBattle2,Let's check out our Pokémon!~I'll probably bea
 Gravel_TimsLab_Mura_FirstBattle3,Mura: ...Okay. I now understand~the difficulty of training.*<Player.Name>, we will meet again!
 Gravel_TimsLab_Mura_OutroMessage,...Darn, I need to train this~Pokémon!
 
-Gravel_StephanieHouse_Stephanie_BeforeSwap,Stephanie: So, <Player.Name>, did~my offer pick your interest?*I have three Pokéballs for~you to choose from:*The Metal Ball!~Do you like Johto?*The Normal Ball!~Seems plain, but has a lot~of potential!*The Mystery Ball!~Who knows which powerful~Pokémon awaits you!*I wonder which one you'll pick?
+Gravel_StephanieHouse_Stephanie_BeforeSwap,Stephanie: So, <Player.Name>, did~my offer pique your interest?*I have three Pokéballs for~you to choose from:*The Metal Ball!~Do you like Johto?*The Normal Ball!~Seems plain, but has a lot~of potential!*The Mystery Ball!~Who knows which powerful~Pokémon awaits you!*I wonder which one you'll pick?
 Gravel_StephanieHouse_Stephanie_AfterSwap,Stephanie: Hello, <Player.Name>!*Are you happy to have traded~Tim's Pokémon for a~different one?*I know you are!
 Gravel_StephanieHouse_Stephanie_NoSwap_AfterGotBadge,Stephanie: Hello, <Player.Name>!*It seems you are very fond~of the Pokémon Tim gave you,~we are really happy about it!
 Gravel_StephanieHouse_TV,A news report is playing...*This is Rijon-RNN!*Reports indicate that the~border to Naljo will be~closed for the foreseeable~future due to construction~of the new Magnet Train.*More coming at 12!
@@ -4439,7 +4439,7 @@ Gravel_PokeMart_BugCatcher,This shop sells lots of~Poké Balls.
 Gravel_PokeMart_Clerk_YoKiddo,Yo kiddo!
 Gravel_PokeMart_Clerk_TimsPizza,Prof. Tim forgot to pick up~his pizza!*Will you deliver it for me?
 Gravel_PokeMain_Clerk_NoDelivery,We don't deliver, you know...
-Gravel_PokeMart_ReceivePizza,<Player.Name> received Tim's Pizza!*<Player.Name> packt es in die~№ Basis-Items Tasche.
+Gravel_PokeMart_ReceivePizza,<Player.Name> received Tim's~Pizza!*<Player.Name> packt es in die~№ Basis-Items Tasche.
 
 [Merson Cave]
 MersonCave_Outside_NoPokedexNoAccessGuy,Go in without a Pokédex?*Are you crazy?
@@ -5917,8 +5917,8 @@ MtBoulder_B1F_Sign_EvolveEevee,Wow!*You made it!*Congratulations, try evolving~a
 MtBoulder_B1F_Articuno_Cry,Gyaao!
 MtBoulder_B1F_Suicune_Cry,Rrroar!
 MtBoulder_EndParkRun1,<Player.Name>: Since I sneaked~out of the Park, I guess~these are mine now.
-MtBoulder_EndParkRun2_OneBall,<Player.Name> "obtained" a Safari Ball!
-MtBoulder_EndParkRun2_MoreThanOneBall,<Player.Name> "obtained" Safari Balls!
+MtBoulder_EndParkRun2_OneBall,<Player.Name> "obtained" a~Safari Ball!
+MtBoulder_EndParkRun2_MoreThanOneBall,<Player.Name> "obtained"~Safari Balls!
 
 [Bunker]
 Bunker_CanPiles,Countless cans of Ho-O's are~stacked on top of each other.
@@ -6067,11 +6067,11 @@ League_Elite4_Blanch_OutroMessage,Blanch: Wh--wha...*No...
 League_Elite4_Blanch_DefeatMessage,Blanch: ...you...beat...me...?*I can't believe this, but you~won fair and square.*To add insult to injury,~I just lost to this OTHER~dumb kid earlier today.*Think his name was Mura, or~something like that.*If you want to become~Champion, you gotta beat~that other guy first.*Follow me.
 League_Elite4_Blanch_Door,Blanch: Mura is waiting behind~this door.*Wish you luck.
 
-League_Champion_Mura_IntroMessage,Mura: Hey!*<Player.Name>: You're the~Champion?*Mura: Yep, I told you I would~be the best Pokémon trainer~ever!*<Player.Name>: I... can't believe~this...*Blanch was hard enough...~I almost lost to her but you~beat her before me.*Mura: There's only one way to~settle this...*<Player.Name>: I think I know what~you mean.*Mura: Let's do it then and~prove who's the real Champion~of Rijon!
+League_Champion_Mura_IntroMessage,Mura: Hey!*<Player.Name>: You're the~Champion?*Mura: Yep, I told you I would~be the best Pokémon trainer~ever!*<Player.Name>: I... can't believe~this...*Blanch was hard enough...~I almost lost to her but you~beat her before me.*Mura: There's only one way to~settle this...*<Player.Name>: I think I know~what you mean.*Mura: Let's do it then and~prove who's the real Champion~of Rijon!
 League_Champion_Mura_OutroMessage,Mura: NO! DANG IT!*That wasn't fair!*<Player.Name>: Well I'm sorry to~say, that I'm the Champion~now.
 League_Champion_Mura_AfterDefeat1,Mura: What the heck?*This is totally unfair!*You must have cheated, get~out of my sight now, you jerk!*<Player.Name>: Sore loser?*Didn't see that coming...
 League_Champion_Mura_AfterDefeat2,Tim: <Player.Name>!
-League_Champion_Mura_AfterDefeat3,Tim: So, I see that you've~beaten Mura!*Congratulations! You're the~new Pokémon League Champion!*Mura: Tim! <Player.Name> cheated!*Tim: Now, Mura, you mustn't~accuse <Player.Name> without~any proof...
+League_Champion_Mura_AfterDefeat3,Tim: So, I see that you've~beaten Mura!*Congratulations! You're the~new Pokémon League Champion!*Mura: Tim! <Player.Name>~cheated!*Tim: Now, Mura, you mustn't~accuse <Player.Name> without~any proof...
 League_Champion_Mura_AfterDefeat4,Alexis: Dear me! I heard~about Mura beating the~Elite Four, but what's this?~A new Champion already?*Mura: B-but...
 League_Champion_Mura_AfterDefeat5,Alexis: Hi! I'm Alexis, with~Rijon FM!~What's your name?*...*<Player.Name>? Excellent!*Tim: Er-hem... I wish I had~this much coverage when I~became the Champion in the~good 'ol days... anyways...
 League_Champion_Mura_AfterDefeat6,<Player.Name>!*Let me take you to the Hall~of Fame so we can memorialize~your team for all eternity!
