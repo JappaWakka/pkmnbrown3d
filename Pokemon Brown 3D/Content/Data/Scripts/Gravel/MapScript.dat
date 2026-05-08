@@ -28,20 +28,20 @@ version=2
 	:if:<storage.get(bool,SetToFirstPerson)>=true
 		@Camera.DeactivateThirdPerson
 	:endif
-	@Player.TurnTo(1)
+	@Player.TurnTo(1,1)
 	@Text.Show(<system.token(Gravel_Main_Stephanie)>)
 	@NPC.Turn(4,2)
 	@NPC.SetSpeed(4,1.1)
 	@NPC.Move(4,1)
 	@NPC.Turn(4,1)
 	@NPC.SetSpeed(4,1.1)
-	@NPC.Move(4,2)
+	@NPC.Move(4,3)
 	@NPC.Turn(4,2)
 	@NPC.SetSpeed(4,1.1)
 	@NPC.Move(4,1)
 	@NPC.Turn(4,1)
 	@NPC.SetSpeed(4,1.1)
-	@NPC.Move(4,4)
+	@NPC.Move(4,3)
 	@NPC.Turn(4,2)
 	@NPC.SetSpeed(4,1.1)
 	@NPC.Move(4,4)

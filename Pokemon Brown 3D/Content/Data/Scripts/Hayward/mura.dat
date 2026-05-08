@@ -1,6 +1,7 @@
 version=2
 
 :if:<Register.Registered(murahaywardbattle)>=false
+	@player.turnto(0,1)
 	:if:<player.position>=21,0,7
 		@NPC.Turn(20,3)
 		@NPC.Move(20,1)
@@ -32,9 +33,7 @@ version=2
 	:endif
 	@npc.move(20,1)
 	@npc.turn(20,2)
-	@npc.move(20,10)
-	@npc.turn(20,1)
-	@npc.move(20,4)
+	@npc.move(20,5)
 	@npc.remove(20)
 	@Register.Register(murahaywardbattle)
 	@music.play(HaywardOwsauri)
