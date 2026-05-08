@@ -628,7 +628,7 @@ shop_screen_buysell_PriceTotal,Totaal:
 shop_screen_buysell_InInventory,In Inventaris:
 shop_screen_buysell_DescriptionHint,Druk op [<system.button(special)>] of Select om de beschrijving van het voorwerp te bekijken.
 shop_screen_buysell_CurrentBalance,Huidig Saldo:
-shop_screen_currency_BattlePoints,Gevechtspunten
+shop_screen_currency_BattlePoints,Strijdpunten
 shop_screen_currency_Coins,Munten
 shop_screen_currency_Pokédollars,$
 shop_screen_currency_short_BattlePoints,GP
@@ -882,6 +882,11 @@ Receiving Items:
 item_received_single,Ontving een~
 item_received_multiple,Ontving
 item_found,<Player.Name> vond~
+currency_found_money,<Player.Name> vond $[AMOUNT]!
+currency_found_coins_single,<Player.Name> vond~een Munt!
+currency_found_coins_multiple,<Player.Name> vond~[AMOUNT] Munten!
+currency_found_battlepoints_single,<Player.Name> vond~een Strijdpunt!
+currency_found_battlepoints_multiple,<Player.Name> vond~[AMOUNT] Strijdpunten!
 item_stored_in_pocket_single_start,<Player.Name> stopte hem in~het
 item_stored_in_pocket_single_end,~vakje.
 item_stored_in_pocket_multiple_start,<Player.Name> stopte ze weg~in het
