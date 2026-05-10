@@ -1,11 +1,11 @@
 version=2
 
 :if:<inventory.countitem(127)>=1
-	@Text.Show(<system.token(FinalDungeon_SecurityDoors_WithCardKey)>)
+	@Text.Show(<system.token(FinalDungeon_JohtoLegendaryRoom_SecurityDoors_WithCardKey)>)
 	@entity.remove(1)
 	@sound.play(SwitchDoor)
 	@level.update
 :else
-	@Text.Show(<system.token(FinalDungeon_SecurityDoors_NoCardKey)>)
+	@Text.Show(<system.token(FinalDungeon_JohtoLegendaryRoom_SecurityDoors_NoCardKey)>)
 :endif
 :end
