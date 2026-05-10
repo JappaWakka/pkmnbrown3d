@@ -90,7 +90,7 @@ Stairs:
 
 NPCs:
 	{"NPC"{NPC[{"Position"{sngArr[6,0.155,5]}}{"TextureID"{str[Guard]}}{"ID"{int[0]}}{"Name"{str[Guard]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[gates\Route59-Botan_1F_GuardSleep]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
+	{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,5]}}{"TexturePath"{str[Inside]}}{"Textures"{recArr[[0,16,16,16]]}}{"TextureIndex"{intArr[-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[20]}}{"Action"{int[1]}}{"AdditionalValue"{str[gates\Route59-Botan_1F_Guard]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 
 Warps:
 	Botan City

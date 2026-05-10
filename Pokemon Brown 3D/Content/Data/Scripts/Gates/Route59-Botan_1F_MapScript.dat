@@ -1,6 +1,8 @@
 version=2
 :if:<Register.Registered(drunksleep)>=true
-	@npc.turn(0,3)
+	:if:<Register.Registered(MrRumikoRescued)>=false
+		@npc.turn(0,3)
+	:endif
 	@entity.remove(1)
 :endif
 :end
