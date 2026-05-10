@@ -18,9 +18,8 @@ version=2
 	@Text.Show(<system.token(Gravel_TimsLab_Mura_FirstBattle1)>)
 
 	@battle.setvar(canblackout,false)
-	@player.turnto(0)
+	@player.turnto(0,1)
 	@Text.Show(<system.token(Gravel_TimsLab_Mura_FirstBattle2)>)
-	
 	
 	:if:<Register.Registered(Starter_Charmander)>=true
 		@npc.turn(4,1)
