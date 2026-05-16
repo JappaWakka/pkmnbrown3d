@@ -12,7 +12,7 @@ version=2
 		:if:<Player.Facing>=2
 			@Player.Warp(Caves\SenecaCaverns\1F.dat,25,0.1,-5,2)
 		:else
-			@Player.Warp(Caves\SenecaCaverns\1F.dat,25,0.1,-5,3)
+			@Player.Warp(Caves\SenecaCaverns\1F.dat,25,0.1,-5,1)
 		:endif
 	:endif
 :endif
