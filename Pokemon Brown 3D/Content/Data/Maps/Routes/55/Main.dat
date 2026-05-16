@@ -368,7 +368,7 @@ Flowers:
 
 Items:
 	Hidden Super Potion
-		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[11.25,-0.375,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[0,17]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
+		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[11.25,-0.375,17]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[0,gm100]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
 	
 	Hidden Max Ether
 		{"Entity"{ENT[{"EntityID"{str[ItemObject]}}{"Position"{sngArr[15,-0.375,51]}}{"TexturePath"{str[Outside]}}{"Textures"{recArr[[0,0,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[3]}}{"Action"{int[1]}}{"AdditionalValue"{str[1,64]}}{"Rotation"{int[0]}}{"Scale"{sngArr[0.25,0.25,0.25]}}]}}
