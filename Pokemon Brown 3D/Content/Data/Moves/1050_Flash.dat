@@ -13,9 +13,24 @@
 # To build your own move for your GameMode, create a new file with the .dat file extension in the Content\Data\Moves folder and edit/remove the lines below (be sure to remove the # at the start of each line).
 # Lines that are removed will default to the values below:
 
-CopyMove|148
 ID|1050
 Name|Flash
 Type|Normal
+PP|20
+Power|0
+Accuracy|100
+Category|Status
+ContestCategory|Beauty
+Description|The user flashes a bright light that cuts the target's accuracy.
+MakesContact|0
+IsDamagingMove|0
+CounterAffected|0
+ProtectAffected|1
+MagicCoatAffected|1
+SnatchAffected|0
+MirrorMoveAffected|1
+KingsRockAffected|0
 UseMoveAnims|148
 IsHMMove|0
+AIField1|LowerAccuracy
+Function|LowerStat,Accuracy,1
