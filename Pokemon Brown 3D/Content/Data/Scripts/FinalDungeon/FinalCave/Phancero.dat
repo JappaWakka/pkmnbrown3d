@@ -24,9 +24,6 @@ version=2
 	@Screen.ShowImage(Textures\EndingScreen_en)
 :endif
 
-@Register.Register(SeenPhancero)
-@Pokedex.ChangeEntry(1011,2)
-
 @Entity.Remove(0)
 @player.save
 @level.waitforsave
@@ -44,4 +41,7 @@ version=2
 @Text.Color(Default)
 @Text.Show(<system.token(FinalDungeon_FinalCave_Feather_3)>)
 @Item.Give(gm95,1)
+
+@Register.Register(SeenPhancero)
+@Pokedex.ChangeEntry(1011,2)
 :end
