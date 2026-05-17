@@ -1,0 +1,32 @@
+version=2
+:if:<pokemon.counthalloffame>=0
+	
+	:if:<Register.Registered(defeat<level.filename>)>=false
+		@Text.Show(<system.token(League_Elite4_<level.filename>_IntroMessage)>)
+		@Battle.StartTrainer(league\<level.filename>)
+		@Text.Show(<battle.defeatmessage(league\<level.filename>)>)
+		@Level.Wait(20)
+		@sound.play(SwitchDoor)
+		@entity.warp(0,~,~-5,~)
+		@entity.warp(1,~,~+5,~)
+		@Level.Update
+		@Register.Register(defeat<level.filename>)
+	:else
+		@Text.Show(<battle.defeatmessage(league\<level.filename>)>)
+	:endif
+:else
+	:if:<Register.Registered(defeat<level.filename>)>=false
+		@Text.Show(<system.token(League_Elite4_<level.filename>_IntroMessage)>)
+		@Battle.StartTrainer(league\<level.filename>_Rematch)
+		@Text.Show(<battle.defeatmessage(league\<level.filename>_Rematch)>)
+		@Level.Wait(20)
+		@sound.play(SwitchDoor)
+		@entity.warp(0,~,~-5,~)
+		@entity.warp(1,~,~+5,~)
+		@Level.Update
+		@Register.Register(defeat<level.filename>)
+	:else
+		@Text.Show(<battle.defeatmessage(league\<level.filename>_Rematch)>)
+	:endif
+:endif
+:end
