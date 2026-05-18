@@ -351,6 +351,8 @@ option_screen_battle_battlestyle_set,Vast
 
 option_screen_controls,Besturing
 option_screen_controls_xboxgamepad,Xbox Gamepad
+option_screen_controls_invertrightstick_x,Invert Right Stick X
+option_screen_controls_invertrightstick_y,Invert Right Stick Y
 option_screen_controls_resetkeybindings,Toetsen Herstellen
 option_screen_controls_cameraspeed,Camerasnelheid
 option_screen_controls_cameraspeed_slow,...Traag...
@@ -894,7 +896,7 @@ currency_found_battlepoints_single,<Player.Name> vond~een Strijdpunt!
 currency_found_battlepoints_multiple,<Player.Name> vond~[AMOUNT] Strijdpunten!
 item_stored_in_pocket_single_start,<Player.Name> stopte hem in~het
 item_stored_in_pocket_single_end,~vakje.
-item_stored_in_pocket_multiple_start,<Player.Name> stopte ze weg~in het
+item_stored_in_pocket_multiple_start,<Player.Name> stopte ze in~het
 item_stored_in_pocket_multiple_end,~vakje.
 item_handed_over_single,<Player.Name> overhandigde~een
 item_handed_over_multiple,<Player.Name> overhandigde~de
@@ -5519,7 +5521,7 @@ TrainerClass_Youngster,Jongetje
 Story Localization:
 
 [Difficulty Selection]
-DifficultySelect_Question1,Pokémon Brown 3D~ondersteunt verschillende~moeilijkheidsgraden.*Bij elke selectie zal een~uitleg worden gegeven.*Selecteer de gewenste~moeilijkheidsgraad.
+DifficultySelect_Question1,Pokémon Bruin 3D~ondersteunt verschillende~moeilijkheidsgraden.*Bij elke selectie zal een~uitleg worden gegeven.*Selecteer de gewenste~moeilijkheidsgraad.
 DifficultySelect_Question2,Selecteer de gewenste~moeilijkheidsgraad.
 DifficultySelect_Answer_Normal,Normaal: Aanbevolen voor~nieuwe spelers of voor vaste~spelers die het liever wat~rustiger aan doen.*Wil je deze moeilijkheidsgraad?
 DifficultySelect_Answer_Hard,Moeilijk: Aanbevolen voor~meer ervaren spelers die~een uitdagendere speel-~ervaring willen.*De levels van wilde en~trainer-Pokémon worden~vermenigvuldigd met 1,15.*Wil je deze moeilijkheidsgraad?
@@ -5727,7 +5729,7 @@ Route53_OtherGuy_StraightForward,Deze weg is vrij eenvoudig.*Op deze weg kun je 
 
 [Gravel Town]
 Gravel_Main_Tim_Late,Tim: Daar ben je!~Je bent laat!
-Gravel_Main_Tim_NeedPokemon,Tim: Ik heb op je gewacht!*Je hebt je eigen Pokémon nodig,~dus kom meteen naar mijn lab!
+Gravel_Main_Tim_NeedPokemon,Tim: Ik heb op je gewacht!*Je hebt je eigen Pokémon~nodig, dus kom meteen naar~mijn lab!
 Gravel_Main_Stephanie,Stephanie: Hallo, <Player.Name>!*Heb je al een Pokémon~gekregen?*Laat me raden...~Tim kennende is het er een~uit Kanto, toch?*Ik wil zijn familie niet~beledigen of zo, maar die~traditie van hun komt een~beetje... saai over, als je~het mij vraagt.*Als je iets nieuws wilt voor~je avontuur, kom dan even~bij ons langs en dan ruil~ik de Pokémon die je hebt~gekregen voor een andere.*Het is het huis met de tuin.*Tot ziens!
 Gravel_Main_FreshAirGuy,Ik vind het heerlijk om hier~te wonen!*De lucht is zo fris en schoon.
 Gravel_Main_GameModeGuy,Wist je dit?*Deze GameMode is gebaseerd~op de romhack~"Pokémon Brown" van~Koolboyman, die voor het~eerst werd uitgebracht op~17 januari 2004!*Jaren later, in 2014, deden~Leahkim en Miragics de eerste~poging tot een 3D-remake met~Pokémon 3D!*Toen, in 2026, gaf~JappaWakka het een enorme~opknapbeurt, waarbij hij~veel content van begins af~aan creëerde!
