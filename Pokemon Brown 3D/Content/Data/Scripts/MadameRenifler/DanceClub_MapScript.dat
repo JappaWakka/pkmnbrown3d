@@ -14,6 +14,10 @@ version=2
 		@NPC.SetMovement(3,Looking)
 		@NPC.SetMovement(4,Looking)
 		@Level.Update
+	:else		
+		@NPC.SetAdditionalValue(2,<system.token(MadameRenifler_DanceClub_Lass_AlexMissing)>)
+		@NPC.SetAdditionalValue(4,<system.token(MadameRenifler_DanceClub_Youngster_AlexMissing)>)
+		@Level.Update
 	:endif
 :endif
 :if:<Register.Registered(PokeInteraction_DanceClub_DJSet_Text)>=false
