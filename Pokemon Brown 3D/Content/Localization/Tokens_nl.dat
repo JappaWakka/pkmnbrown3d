@@ -765,6 +765,32 @@ pvp_screen_Team,Team
 pvp_screen_GameVersionsMismatch,Spelversies zijn niet hetzelfde.
 
 ---
+Move Tutor Screen:
+move_tutor_screen_CurrentMoves,Huidige technieken
+move_tutor_screen_TutorMoves,Leerbare technieken
+move_tutor_screen_CannotLearnNewMove,De Pokémon kan hier geen~nieuwe techniek leren.
+---
+Learning & Choosing Moves:
+learn_move_PokemonForgotMove,1... 2... 3... en...*Ta-da!*[POKEMONNAME] vergat~[MOVENAME] en...
+learn_move_PokemonLearnedMove,[POKEMONNAME] leerde~[MOVENAME]!
+learn_move_PokemonLearnedMove_WithDots,... [POKEMONNAME] leerde~[MOVENAME]!
+learn_move_GiveUpOnLearning,Stoppen met het leren van "[MOVENAME]"?
+learn_move_DidNotLearnMove,[POKEMONNAME] heeft~[MOVENAME] niet geleerd!
+learn_move_ForgetMoveToLearn,"[OLDMOVENAME]" vergeten om "[NEWMOVENAME]" te leren?
+learn_move_CannotForgetMove,Kan de techniek "[MOVENAME]" niet vergeten~omdat het een Verborgen Machine-techniek is.
+learn_move_AlreadyKnowsFourMoves1,wil de techniek "[MOVENAME]" leren. Maar [POKEMONNAME] kan maximaal 4 technieken leren.
+learn_move_AlreadyKnowsFourMoves2,Wil je dat [POKEMONNAME] een techniek vergeet om "[MOVENAME]" te leren?
+learn_move_AlreadyKnowsTheMove,[POKEMONNAME] kent de~techniek [MOVENAME] al.
+learn_move_EggCannotLearn,Ei kan de techniek~[MOVENAME]!
+learn_move_PokemonCannotLearn,[POKEMONNAME] kan de~techniek [MOVENAME] niet~leren!
+choose_move_CannotChooseHMMove,Kan geen VM-techniek kiezen.
+---
+Leveling Up & evolving
+level_up_PokemonReachedLevel,[POKEMONNAME] bereikte~niveau [LEVELNUMBER]!
+evolution_PokemonIsEvolving,Wat?*[POKEMONNAME] is aan het evolueren!
+evolution_PokemonStoppedEvolving,Huh? [POKEMONNAME]~stopte met evolueren!
+evolution_PokemonEvolvedInto,Gefeliciteerd!*Jouw [POKEMONNAME]~evolueerde in een [EVOLUTIONNAME]!
+---
 Blackout Screen:
 black_out_screen_line1,Je hebt geen strijdbare Pokémon meer!
 black_out_screen_line2,Je zult naar de dichtstbijzijnde
@@ -3691,8 +3717,8 @@ item_desc_34,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evol
 item_desc_36,Een klompje van het puurste goud die een glanzende schittering afgeeft in direct licht. Hij kan voor een hoge prijs aan winkels worden verkocht.
 item_desc_37,Een pop die de aandacht van een Pokémon trekt. Hij garandeert ontsnapping uit elk gevecht met wilde Pokémon.
 item_desc_38,Een spray-medicijn dat breed effectief is. Het kan één keer worden gebruikt om alle statuseffecten van een Pokémon te genezen.
-item_desc_39,Een medicijn dat uitgeschakelde Pokémon kan opwekken. Het herstelt ook de helft van de LP van een uitgeschakelde Pokémon.
-item_desc_40,Een medicijn dat uitgeschakelde Pokémon kan opwekken. Het herstelt ook de LP van een uitgeschakelde Pokémon tot het maximum.
+item_desc_39,Een medicijn dat uitgeschakelde Pokémon weer bij kan laten komen. Het herstelt ook de helft van de LP van een uitgeschakelde Pokémon.
+item_desc_40,Een medicijn dat uitgeschakelde Pokémon weer bij kan laten komen. Het herstelt ook de LP van een uitgeschakelde Pokémon tot het maximum.
 item_desc_41,Het kaartje dat je nodig hebt om aan boord van het cruiseschip S.S. Anne te gaan. Er staat een tekening van een schip op.
 item_desc_42,Een voorwerp dat voorkomt dat wilde Pokémon van een laag niveau opduiken gedurende 200 stappen na gebruik.
 item_desc_43,Een voorwerp dat voorkomt dat wilde Pokémon van een laag niveau opduiken gedurende 250 stappen na gebruik.
@@ -3784,7 +3810,31 @@ item_desc_gm99,Een spray-medicijn voor het behandelen van wonden. Hij kan worden
 item_desc_gm100,Een spray-medicijn voor het behandelen van wonden. Hij kan worden gebruikt om 50 LP te herstellen bij een gewonde Pokémon.
 ----
 Item Use Text:
+item_UsedLastItem,Er zijn geen~[ITEMPLURALNAME] over.
 item_cannot_use,<Player.Name>: Hmm... Ik denk niet~dat ik dit nu kan gebruiken.
+item_cannot_use_NoPokemon,Je hebt geen Pokémon.
+item_cannot_use_IsFainted,[POKEMONNAME]~is uitgeschakeld!
+item_cannot_use_HealingItems,Kan geen herstellende~voorwerpen gebruiken.
+item_cannot_use_OnPokemon_Single,Kan [ITEMNAME] niet~gebruiken op [POKEMONNAME].
+item_cannot_use_OnPokemon_Both,Kan [ITEMNAME] niet~gebruiken op [OWNPOKEMONNAME]~of [OPPPOKEMONNAME].
+item_cannot_use_FullHP_Single,[POKEMONNAME]'s LP zijn al~volledig aangevuld.
+item_cannot_use_FullHP_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME]'s LP zijn al~volledig aangevuld.
+item_cannot_use_NotPoisoned_Single,[POKEMONNAME] is niet~vergiftigd.
+item_cannot_use_NotPoisoned_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn niet~vergiftigd.
+
+item_use_HealItem_Own,[POKEMONNAME]'s LP zijn~met [HPAMOUNT] hersteld.
+item_use_HealItem_Opponent,[POKEMONNAME]'s LP zijn~hersteld.
+item_use_HealItem_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME]'s LP zijn~hersteld.
+item_use_HealAndCureItem_Heal_Single,[POKEMONNAME] is hersteld!
+item_use_HealAndCureItem_Heal_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn~hersteld!
+item_use_HealAndCureItem_Cure_Single,[POKEMONNAME] is genezen!
+item_use_HealAndCureItem_Cure_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn~genezen!
+item_use_HealAndCureItem_HealAndCure_Single,[POKEMONNAME] is hersteld~en genezen!
+item_use_HealAndCureItem_HealAndCure_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn~hersteld en genezen!
+item_use_CurePoison_Single,[POKEMONNAME] is genezen~van vergiftiging.
+item_use_CurePoison_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn~genezen van vergiftiging.
+item_use_RevivalItem,[POKEMONNAME]~is weer helemaal bijgekomen.
+
 item_6_cannot_walk,<Player.Name>: Ik kan hier niet~afstappen!
 item_6_missingskin,Je kunt dit voorwerp niet~gebruiken zonder een fiets-~karakterafbeelding.*De naam van de karakter-~afbeelding moet dezelfde zijn~als degene die je nu gebruikt~maar dan met "_bike" aan~het eind.
 item_6_only_custom_gamemodes,Dit voorwerp kan niet gebruikt~worden in deze SpelModus.
@@ -3805,6 +3855,7 @@ item_use_55_Found_Down,Hij wijst naar beneden.
 item_use_55_Found_Up,Hij wijst naar boven.
 item_use_55_Found_Here,Hij wijst naar waar ik sta.
 item_use_55_Found_InFrontOfMe,Het ligt hier vlak voor me!
+item_use_501,The Pokémon sparkled.
 item_use_658_disable,De Team-ervaringsdeler is~uitgezet.
 item_use_658_enable,De Team-ervaringsdeler is~aangezet.
 
@@ -6316,7 +6367,7 @@ Owsauri_Casino_1F_Clerk_CoinBuy_Buy500Coins,Dank je wel! Hier zijn je~500 Munten
 Owsauri_Casino_1F_Clerk_CoinBuy_NotEnoughMoney,Je kan de Munten niet~betalen!
 Owsauri_Casino_1F_Clerk_CoinBuy_NoCoinCase,Je hebt geen Muntenkist!
 Owsauri_Casino_1F_Clerk_CoinBuy_Answer_50Coins,50 Munten          $1000
-Owsauri_Casino_1F_Clerk_CoinBuy_Answer_500Coins,500 Munten       $10000
+Owsauri_Casino_1F_Clerk_CoinBuy_Answer_500Coins,500 Munten        $10000
 Owsauri_Casino_1F_Clerk_CoinBuy_Answer_NoThanks,Nee Bedankt
 Owsauri_Casino_1F_Clerk_Directions,Welkom bij het Slotwater-~Casino!*Je kunt je Munten inwisselen~voor prijzen in de kelder.*Onze gokautomaten zijn alleen~voor volwassenen, maar voel je~vrij om ons Voltorb Flip-~Muntenspel eens te proberen!
 Owsauri_Casino_B1F_FatGuy_Blue,Ik heb echt wat Zeldzame~Snoepjes nodig voor mijn~Pokémon!
