@@ -3753,6 +3753,7 @@ item_desc_132,Een kleine scherf van een prachtige edelsteen die een duidelijk ro
 item_desc_135,Een eigenaardige steen die bepaalde soorten Pokémon laat evolueren. Hij straalt een verblindend licht uit.
 item_desc_136,Een eigenaardige steen die bepaalde soorten Pokémon laat evolueren. Hij is zo donker als maar kan.
 item_desc_181,Een speciale Pokébal die alleen in het Tromtorenpark wordt gebruikt. Hij is versierd met een camouflagepatroon.
+item_desc_242,Een glimmend sieraad die naar verluidt de kans vergroot om een Schitterende Pokémon tegen te komen.
 item_desc_593,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. Hij heeft een onmiskenbaar sneeuwvlokpatroon.
 item_desc_601,Een fossiel van een prehistorische Pokémon die ooit in de zee leefde. Het zou een stukje schelp kunnen zijn.
 item_desc_602,Een fossiel van een prehistorische Pokémon die ooit in de zee leefde. Het zou een schelp of pantser kunnen zijn.
@@ -3821,6 +3822,16 @@ item_cannot_use_FullHP_Single,[POKEMONNAME]'s LP zijn al~volledig aangevuld.
 item_cannot_use_FullHP_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME]'s LP zijn al~volledig aangevuld.
 item_cannot_use_NotPoisoned_Single,[POKEMONNAME] is niet~vergiftigd.
 item_cannot_use_NotPoisoned_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn niet~vergiftigd.
+item_cannot_use_NotConfused_Single,POKEMONNAME] is niet~verward.
+item_cannot_use_NotConfused_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn niet~verward.
+item_cannot_use_NotAsleep_Single,POKEMONNAME] is niet~in slaap.
+item_cannot_use_NotAsleep_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn niet~in slaap.
+item_cannot_use_NotBurned_Single,POKEMONNAME] is niet~verbrand.
+item_cannot_use_NotBurned_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn niet~verbrand.
+item_cannot_use_NotFrozen_Single,POKEMONNAME] is niet~bevroren.
+item_cannot_use_NotFrozen_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn niet~bevroren.
+item_cannot_use_NotParalyzed_Single,POKEMONNAME] is niet~verlamd.
+item_cannot_use_NotParalyzed_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn niet~verlamd.
 
 item_use_HealItem_Own,[POKEMONNAME]'s LP zijn~met [HPAMOUNT] hersteld.
 item_use_HealItem_Opponent,[POKEMONNAME]'s LP zijn~hersteld.
@@ -3832,7 +3843,17 @@ item_use_HealAndCureItem_Cure_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn~gen
 item_use_HealAndCureItem_HealAndCure_Single,[POKEMONNAME] is hersteld~en genezen!
 item_use_HealAndCureItem_HealAndCure_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn~hersteld en genezen!
 item_use_CurePoison_Single,[POKEMONNAME] is genezen~van vergiftiging.
-item_use_CurePoison_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn~genezen van vergiftiging.
+item_use_CurePoison_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn genezen~van vergiftiging.
+item_use_CureConfusion_Single,[POKEMONNAME] is~niet meer verward.
+item_use_CureConfusion_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn niet~meer verward.
+item_use_CureSleep_Single,[POKEMONNAME] is wakker geworden.
+item_use_CureSleep_Both,[OWNPOKEMONNAME] and~[OPPPOKEMONNAME] zijn~wakker geworden.
+item_use_CureBurn_Single,[POKEMONNAME] is genezen~van verbranding.
+item_use_CureBurn_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn genezen~van verbranding.
+item_use_CureIce_Single,[POKEMONNAME] is niet~meer bevroren.
+item_use_CureIce_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn niet~meer bevroren.
+item_use_CureParalysis_Single,[POKEMONNAME] is genezen~van verlamming.
+item_use_CureParalysis_Both,[OWNPOKEMONNAME] en~[OPPPOKEMONNAME] zijn genezen~van verlamming.
 item_use_RevivalItem,[POKEMONNAME]~is weer helemaal bijgekomen.
 
 item_6_cannot_walk,<Player.Name>: Ik kan hier niet~afstappen!
