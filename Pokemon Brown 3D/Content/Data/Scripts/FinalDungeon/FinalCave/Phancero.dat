@@ -17,7 +17,6 @@ version=2
 @Screen.FadeOut(15)
 @Camera.Update
 @NPC.Remove(1)
-@Player.TurnTo(2)
 :if:<System.FileExists(Textures\EndingScreen_<system.language>.png)>=true
 	@Screen.ShowImage(Textures\EndingScreen_<system.language>)
 :else
