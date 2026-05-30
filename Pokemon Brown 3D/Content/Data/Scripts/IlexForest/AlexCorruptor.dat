@@ -59,6 +59,7 @@ version=2
 
 @Register.Register(GoodbyeMadameRenifler)
 @Register.Register(DecorationItem_DJSet)
+@Register.Unregister(MadameRenifler_TownMap_AtCastro)
 @NPC.Unregister(IlexForest.dat|0|position|8,0,23)
 
 :end

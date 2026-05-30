@@ -34,6 +34,8 @@ version=2
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory3)>)
 		@NPC.Register(MadameRenifler\DanceClub.dat|0|remove)
 		@Register.Register(DecorationItem_SniffCat)
+		@Register.Unregister(MadameRenifler_TownMap_AtSea)
+		@Register.Register(MadameRenifler_TownMap_AtCastro)
 		:end
 	:else
 		@Text.Show(<system.token(MadameRenifler_Bridge_JappaWakka_AfterAlexStory_TalkAgain)>)

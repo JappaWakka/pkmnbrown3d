@@ -2,7 +2,7 @@ Cities:
 {"PlaceType"[City]}{"Name"[Seashore City]}{"MapFiles"[Seashore\Main.dat,Seashore\RivalHouse.dat,Seashore\PlayerHouse2F.dat,Seashore\PlayerHouse1F.dat,Gyms\Seashore.dat]}{"Position"[6,16]}{"Size"[Small]}{"FlyTo"[Seashore\Main.dat,21,12,24]}
 {"PlaceType"[City]}{"Name"[Gravel Town]}{"MapFiles"[Gravel\Main.dat,Gravel\PokeMart.dat,Gravel\TimsLab.dat]}{"Position"[6,19]}{"Size"[Small]}{"FlyTo"[Gravel\Main.dat,11,12,10]}
 {"PlaceType"[City]}{"Name"[Merson City]}{"MapFiles"[Merson\Main.dat,Merson\PokeCenter.dat,Merson\PokeMart.dat,Merson\Fanclub.dat,Merson\CuboneHouse.dat,Gyms\Merson.dat]}{"Position"[10,19]}{"Size"[Small]}{"FlyTo"[Merson\Main.dat,15,12,32]}
-{"PlaceType"[City]}{"Name"[Hayward City]}{"MapFiles"[Hayward\Main.dat,Hayward\PokeCenter.dat,Hayward\SouthlandMall\Floor1.dat,Hayward\SouthlandMall\Floor2.dat,Hayward\SouthlandMall\Floor3.dat,Hayward\SouthlandMall\Floor4.dat,Hayward\SouthlandMall\Floor5.dat,Hayward\SouthlandMall\Elevator.dat,Hayward\FossilLab.dat,Hayward\StrengthHouse.dat,Hayward\TownMapHouse.dat,Hayward\Bunker_Entrance.dat,Gates\Route52-Hayward.dat,Bunker.dat]}{"Position"[6,11]}{"Size"[Small]}{"FlyTo"[Hayward\Main.dat,27,12,24]}
+{"PlaceType"[City]}{"Name"[Hayward City]}{"MapFiles"[Hayward\Main.dat,Hayward\PokeCenter.dat,Hayward\SouthlandMall\Floor1.dat,Hayward\SouthlandMall\Floor2.dat,Hayward\SouthlandMall\Floor3.dat,Hayward\SouthlandMall\Floor4.dat,Hayward\SouthlandMall\Floor5.dat,Hayward\SouthlandMall\Elevator.dat,Hayward\FossilLab.dat,Hayward\StrengthHouse.dat,Hayward\TownMapHouse.dat,Hayward\Bunker_Entrance.dat,Gates\Route52-Hayward.dat]}{"Position"[6,11]}{"Size"[Small]}{"FlyTo"[Hayward\Main.dat,27,12,24]}
 {"PlaceType"[City]}{"Name"[Owsauri City]}{"MapFiles"[Owsauri\Main.dat,Owsauri\PokeCenter.dat,Owsauri\PokeMart.dat,Owsauri\Daycare.dat,Owsauri\GamblerHouse.dat,Owsauri\NameRater.dat,Owsauri\Casino_1F.dat,Owsauri\Casino_B1F.dat,Gyms\Owsauri.dat]}{"Position"[10,6]}{"Size"[Small]}{"FlyTo"[Owsauri\Main.dat,33,12,26]}
 {"PlaceType"[City]}{"Name"[Moraga Town]}{"MapFiles"[Moraga\Main.dat,Moraga\HighSchoolAcademy.dat,Moraga\PokeCenter.dat,Moraga\PokeMart.dat,Moraga\CityUnderpass_Entrance.dat,Moraga\NationsBurgers.dat,Moraga\SandshrewKidHouse.dat,Moraga\FlyHouse.dat,Moraga\PrismMuseum.dat,Gyms\Moraga.dat]}{"Position"[14,11]}{"Size"[Small]}{"FlyTo"[Moraga\Main.dat,39,12,8]}
 {"PlaceType"[City]}{"Name"[Jaeru City]}{"MapFiles"[Jaeru\Main.dat,Jaeru\PokeCenter.dat,Jaeru\PokeMart.dat,Jaeru\BikeShop.dat,Jaeru\OtherHouse.dat,Gyms\Jaeru.dat]}{"Position"[16,11]}{"Size"[Small]}{"FlyTo"[Jaeru\Main.dat,15,12,26]}
@@ -67,7 +67,7 @@ Routes:
 {"PlaceType"[Route]}{"Name"[Route 57]}{"MapFiles"[Routes\57\Main.dat]}{"Position"[19,15]}{"Direction"[Vertical]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[South Reservoir Gym]}{"MapFiles"[Gyms\Route57.dat]}{"Position"[19,16]}{"Direction"[CurveUpLeft]}{"RouteType"[Land]}{"FlyTo"[Routes\57\Main.dat,17,12,36]}
 
-{"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Routes\58\Main.dat,Gates\Route58-Botan.dat,Caves\InternationalTunnel\1F.dat,Caves\InternationalTunnel\B1F.dat]}{"Position"[20,12]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Gates\Route58-Botan.dat]}{"Position"[20,12]}{"Direction"[Vertical]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 58]}{"MapFiles"[Routes\58\Main.dat]}{"Position"[20,13]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
 {"PlaceType"[Route]}{"Name"[Route 59]}{"MapFiles"[Routes\59\Main.dat]}{"Position"[17,11]}{"PlayerPosition"[18,11]}{"Direction"[Horizontal]}{"RouteType"[Land]}
@@ -77,9 +77,10 @@ Routes:
 {"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat,Gates\Route60-Jaeru_1F.dat,Gates\Route60-Jaeru_2F.dat]}{"Position"[14,11]}{"PlayerPosition"[15,11]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat,Gates\Route60-Jaeru_1F.dat,Gates\Route60-Jaeru_2F.dat]}{"Position"[15,11]}{"PlayerPosition"[15,11]}{"Direction"[HorizontalConnection]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat,Gates\Route60-Jaeru_1F.dat,Gates\Route60-Jaeru_2F.dat]}{"Position"[15,11]}{"PlayerPosition"[15,11]}{"Direction"[TDown]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 60]}{"MapFiles"[Routes\60\Main.dat,Gates\Route60-Jaeru_1F.dat,Gates\Route60-Jaeru_2F.dat]}{"Position"[15,12]}{"PlayerPosition"[15,11]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
-{"PlaceType"[Route]}{"Name"[Route 61]}{"MapFiles"[Routes\61\Main.dat,Gates\Route60-Route61.dat]}{"Position"[15,12]}{"Direction"[Vertical]}{"RouteType"[Land]}
-{"PlaceType"[Route]}{"Name"[Route 61]}{"MapFiles"[Routes\61\Main.dat,Gates\Route61-Route62.dat]}{"Position"[15,13]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 61]}{"MapFiles"[Routes\61\Main.dat,Gates\Route60-Route61.dat]}{"Position"[15,13]}{"Direction"[Vertical]}{"RouteType"[Land]}
+{"PlaceType"[Route]}{"Name"[Route 61]}{"MapFiles"[Routes\61\Main.dat,Gates\Route61-Route62.dat]}{"Position"[15,14]}{"Direction"[Vertical]}{"RouteType"[Land]}
 
 {"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[15,14]}{"PlayerPosition"[17,14]}{"Direction"[CurveUpRight]}{"RouteType"[Land]}
 {"PlaceType"[Route]}{"Name"[Route 62]}{"MapFiles"[Routes\62\Main.dat]}{"Position"[16,14]}{"PlayerPosition"[17,14]}{"Direction"[Horizontal]}{"RouteType"[Land]}
@@ -115,9 +116,12 @@ Routes:
 {"PlaceType"[Route]}{"Name"[Azalea Town]}{"MapFiles"[Gates\Azalea-IlexForest.dat]}{"Position"[11,1]}{"Direction"[Horizontal]}{"RouteType"[Land]}
 
 Places:
+{"PlaceType"[Place]}{"Name"[30 Years Cave]}{"Mapfiles"[Caves\30Years\Main.dat]}{"Position"[6,15]}{"Size"[Small]}{"Visible"[Temporary]}
 {"PlaceType"[Place]}{"Name"[Merson Cave]}{"Mapfiles"[Caves\Merson\1F.dat,Caves\Merson\B1F.dat,Caves\Merson\B2F.dat,Caves\Merson\Outside.dat]}{"Position"[7,19]}{"Size"[Small]}
-{"PlaceType"[Place]}{"Name"[Haunted Forest]}{"Mapfiles"[Botan\HauntedForest\Area1.dat,Botan\HauntedForest\Area2.dat,Botan\HauntedForest\Area3.dat,Botan\HauntedForest\Area3_MissingNo.dat,Botan\HauntedForest\Area4.dat,Botan\HauntedForest\Area4_MissingNo.dat,Botan\HauntedForest\Area5.dat,Botan\HauntedForest\Area5_MissingNo.dat,Botan\HauntedForest\Area6.dat,Botan\HauntedForest\Area6_MissingNo.dat,Botan\HauntedForest\Area7.dat]}{"Position"[20,10]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Power Plant]}{"Mapfiles"[Routes\60\PowerPlant.dat]}{"Position"[15,12]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Silph Co. Warehouse]}{"Mapfiles"[Routes\59\SilphCoWarehouse\B1F.dat,Routes\59\SilphCoWarehouse\1F.dat,Routes\59\SilphCoWarehouse\2F.dat,Routes\59\SilphCoWarehouse\3F.dat,Routes\59\SilphCoWarehouse\4F.dat]}{"Position"[19,11]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[Haunted Forest]}{"Mapfiles"[Botan\HauntedForest\Area1.dat,Botan\HauntedForest\Area2.dat,Botan\HauntedForest\Area3.dat,Botan\HauntedForest\Area3_MissingNo.dat,Botan\HauntedForest\Area4.dat,Botan\HauntedForest\Area4_MissingNo.dat,Botan\HauntedForest\Area5.dat,Botan\HauntedForest\Area5_MissingNo.dat,Botan\HauntedForest\Area6.dat,Botan\HauntedForest\Area6_MissingNo.dat,Botan\HauntedForest\Area7.dat]}{"Position"[20,10]}{"Size"[Small]}
+{"PlaceType"[Place]}{"Name"[International Tunnel]}{"Mapfiles"[Caves\InternationalTunnel\1F.dat,Caves\InternationalTunnel\B1F.dat]}{"Position"[20,12]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Mt. Boulder]}{"Mapfiles"[Caves\MtBoulder\1F.dat,Caves\MtBoulder\B1F.dat,Bunker.dat]}{"Position"[11,16]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Silk Tunnel]}{"Mapfiles"[Caves\SilkTunnel\1F.dat,Caves\SilkTunnel\B1F.dat,Caves\SilkTunnel\B2F.dat,Caves\SilkTunnel\B3F.dat]}{"Position"[12,11]}{"Size"[Small]}
 {"PlaceType"[Place]}{"Name"[Castro Forest]}{"Mapfiles"[CastroForest.dat,Gates\CastroValley-CastroForest.dat,Gates\Route57-CastroForest.dat,Gates\Route62-CastroForest.dat]}{"Position"[19,14]}{"Size"[Small]}
@@ -131,4 +135,5 @@ Places:
 {"PlaceType"[Place]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\OutdoorPath.dat]}{"Position"[13,9]}{"Size"[Small]}{"Visible"[Temporary]}
 {"PlaceType"[Place]}{"Name"[Final Dungeon]}{"Mapfiles"[FinalDungeon\UndergroundPath.dat]}{"Position"[10,10]}{"Size"[Small]}{"Visible"[Temporary]}
 
-{"PlaceType"[Place]}{"Name"[Madame Renifler]}{"Mapfiles"[MadameRenifler\Bridge.dat,MadameRenifler\DanceClub.dat,MadameRenifler\Hall.dat]}{"Position"[22,18]}{"Size"[Small]}{"Visible"[Temporary]}
+{"PlaceType"[Place]}{"Name"[Madame Renifler]}{"Mapfiles"[MadameRenifler\Bridge.dat,MadameRenifler\DanceClub.dat,MadameRenifler\Hall.dat]}{"Position"[22,18]}{"Size"[Small]}{"Visible"[Register]}{"Register"[MadameRenifler_TownMap_AtSea]}
+{"PlaceType"[Place]}{"Name"[Madame Renifler]}{"Mapfiles"[MadameRenifler\Bridge.dat,MadameRenifler\DanceClub.dat,MadameRenifler\Hall.dat]}{"Position"[20,15]}{"Size"[Small]}{"Visible"[Register]}{"Register"[MadameRenifler_TownMap_AtCastro]}
