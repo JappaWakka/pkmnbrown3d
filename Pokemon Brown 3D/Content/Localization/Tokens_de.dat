@@ -2293,7 +2293,7 @@ Key Items:
 item_name_6,Bicycle
 item_name_41,S.S. Ticket
 item_name_54,Coin Case
-item_name_55,Item Finder
+item_name_55,Itemfinder
 item_name_56,Crystal Wing
 item_name_58,Old Rod
 item_name_59,Good Rod
@@ -4347,7 +4347,7 @@ DexEvaluation_BeforeRating,Pokédex completion is:*<pokedex.dexseen(0)> Pokémon
 DexEvaluation_Rating_Level01,You still have lots to do.*Look for Pokémon in grassy~areas!
 DexEvaluation_Rating_Level02,You're on the right track!~Isn't it fun catching Pokémon?
 DexEvaluation_Rating_Level03,Good, you're trying hard!*Go get the Exp. All from my~Aide on Route 52!
-DexEvaluation_Rating_Level04,You still need more Pokémon!~Try to catch other species!*Oh, I almost forgot!*My Aide is waiting for you at~Route 59 with an Item Finder!
+DexEvaluation_Rating_Level04,You still need more Pokémon!~Try to catch other species!*Oh, I almost forgot!*My Aide is waiting for you at~Route 59 with an Itemfinder!
 DexEvaluation_Rating_Level05,Looking good!*Go find my Aide at Route 60~when you've caught 75 Pokémon.
 DexEvaluation_Rating_Level06,You finally got at least 75~species!*Go get the Super Rod from my~Aide at Route 60!
 DexEvaluation_Rating_Level07,Ho! This is getting even~better!
@@ -5450,11 +5450,11 @@ Route59_Botan_Gate_2F_EeveeTrade_CatchLocation,Route 59
 Route59_Botan_Gate_2F_Binoculars_Left,Looked into the binoculars...*The Rijon League!
 Route59_Botan_Gate_2F_Binoculars_Right_BeforeCatchPhancero,Looked into the binoculars...*A dark forest can be~seen... maybe there are some~ghosts there...*Uh?*A bird...?
 Route59_Botan_Gate_2F_Binoculars_Right_AfterCatchPhancero,Looked into the binoculars...*A dark forest can be~seen... maybe there are some~ghosts there...
-Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds of~Pokémon, I'm supposed to~give you an Item Finder!*So <Player.Name>! Have you~caught at least 45 kinds~of Pokémon?
+Route59_Botan_Gate_2F_Aide_ItemFinder_Question,Hi! Remember me?*I'm Prof. Tim's Aide!*If you've caught 45 kinds of~Pokémon, I'm supposed to~give you an Itemfinder!*So <Player.Name>! Have you~caught at least 45 kinds~of Pokémon?
 Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_45OrMorePokemon,Let's see...*Great! You have caught <Pokedex.Caught>~kinds of Pokémon!~Congratulations!*Here you go!
-Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan45Pokemon,Let's see...*Uh-oh!~You haven't caught enough~kinds of Pokémon!*You need 45 kinds if~you want the Item Finder.
-Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerNo,Oh, I see. When you get~45 kinds, come back for the~Item Finder.
-Route59_Botan_Gate_2F_Aide_ItemFinder_AfterReceiveItemFinder,There are items on the ground~that can't be seen.~The Item Finder will reveal~hidden items near you for a~brief moment.~It doesn't tell you where they~are exactly, so you have to~look yourself!
+Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerYes_LessThan45Pokemon,Let's see...*Uh-oh!~You haven't caught enough~kinds of Pokémon!*You need 45 kinds if~you want the Itemfinder.
+Route59_Botan_Gate_2F_Aide_ItemFinder_AnswerNo,Oh, I see. When you get~45 kinds, come back for the~Itemfinder.
+Route59_Botan_Gate_2F_Aide_ItemFinder_AfterReceiveItemFinder,There are items on the ground~that can't be seen.~The Itemfinder will reveal~hidden items near you for a~brief moment.~It doesn't tell you where they~are exactly, so you have to~look yourself!
 
 [Botan City]
 Botan_Main_Sign_City,Botan City*The City Of Nostalgia.
