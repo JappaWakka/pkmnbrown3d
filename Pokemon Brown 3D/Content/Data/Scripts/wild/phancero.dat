@@ -17,5 +17,12 @@ version=2
 :endif
 @register.unregister(Phancero)
 @npc.remove(0)
+:if:<Register.Registered(CaughtPhancero)>=true
+	:if:<System.FileExists(Textures\PhanceroDexEntry_Repaired_<system.language>.png)>=true
+		@Screen.ShowImage(Textures\PhanceroDexEntry_Repaired_<system.language>)
+	:else
+		@Screen.ShowImage(Textures\PhanceroDexEntry_Repaired_en)
+	:endif
+:endif
 @npc.spawn(10,1,15,1,GlitchCity\Exit,GlitchCity_Exit,0,2,Exit,0,PokeBall)
 :end
