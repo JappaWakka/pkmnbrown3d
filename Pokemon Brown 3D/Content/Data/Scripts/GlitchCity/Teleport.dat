@@ -2,7 +2,7 @@ version=2
 @Player.Warp(GlitchCity\Teleport.dat,0,0.1,0,0)
 @Level.Update
 @Music.Stop
-@Sound.Play(GlitchCityTeleport)
+@Music.Play(GlitchCityTeleport,0)
 :if:<camera.thirdperson>=true
 	@storage.set(bool,SetToFirstPerson,false)
 :else
@@ -37,7 +37,7 @@ version=2
 @Level.Update
 @Level.Wait(5)
 @Storage.Set(integer,SpinCount,0)
-:while:<storage.get(integer,SpinCount)><8
+:while:<storage.get(integer,SpinCount)><6
 	@player.turn(1)
 	@Storage.Set(integer,SpinCount,<storage.get(integer,SpinCount)>+1)
 	@Level.Update
@@ -50,7 +50,7 @@ version=2
 	@Level.Wait(5)
 :endwhile
 @Storage.Set(integer,SpinCount,0)
-:while:<storage.get(integer,SpinCount)><8
+:while:<storage.get(integer,SpinCount)><6
 	@player.turn(1)
 	@Storage.Set(integer,SpinCount,<storage.get(integer,SpinCount)>+1)
 	@Level.Update
@@ -59,7 +59,7 @@ version=2
 	@Level.Wait(5)
 :endwhile
 @Storage.Set(integer,SpinCount,0)
-:while:<storage.get(integer,SpinCount)><8
+:while:<storage.get(integer,SpinCount)><6
 	@player.turn(1)
 	@Storage.Set(integer,SpinCount,<storage.get(integer,SpinCount)>+1)
 	@Level.Update
