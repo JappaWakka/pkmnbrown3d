@@ -4,7 +4,7 @@ version=2
 @npc.spawn(0,0,1,1,,GlitchCity_Exit,0,2,Exit,0,PokeBall)
 @Level.Update
 @Music.Stop
-@Sound.Play(GlitchCityTeleport)
+@Music.Play(GlitchCityTeleport,0)
 :if:<camera.thirdperson>=true
 	@storage.set(bool,SetToFirstPerson,false)
 :else
