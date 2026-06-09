@@ -351,8 +351,8 @@ option_screen_battle_battlestyle_set,Vast
 
 option_screen_controls,Besturing
 option_screen_controls_xboxgamepad,Xbox Gamepad
-option_screen_controls_invertrightstick_x,Invert Right Stick X
-option_screen_controls_invertrightstick_y,Invert Right Stick Y
+option_screen_controls_invertcamera_x,Camera X-as Omkeren
+option_screen_controls_invertcamera_y,Camera Y-as Omkeren
 option_screen_controls_resetkeybindings,Toetsen Herstellen
 option_screen_controls_cameraspeed,Camerasnelheid
 option_screen_controls_cameraspeed_slow,...Traag...
@@ -597,6 +597,7 @@ apricorn_screen_clear,Wis
 apricorn_screen_take,Neem
 apricorn_screen_ready,Ik heb de PokéBallen voor je gemaakt.~Hier is het resultaat van mijn werk:
 apricorn_screen_obtain,ontving
+apricorn_screen_received_money,en ontving $[AMOUNT]~voor de PokéBallen die het~maximum aantal overschreden.
 ---
 Donation screen:
 donation_screen_donators,Donateurs
@@ -787,6 +788,7 @@ choose_move_CannotChooseHMMove,Kan geen VM-techniek kiezen.
 ---
 Leveling Up & evolving
 level_up_PokemonReachedLevel,[POKEMONNAME] bereikte~niveau [LEVELNUMBER]!
+level_up_StatBoost,[POKEMONNAME] attributenboost is [TOTALNUMBER]!
 evolution_PokemonIsEvolving,Wat?*[POKEMONNAME] is aan het evolueren!
 evolution_PokemonStoppedEvolving,Huh? [POKEMONNAME]~stopte met evolueren!
 evolution_PokemonEvolvedInto,Gefeliciteerd!*Jouw [POKEMONNAME]~evolueerde in een [EVOLUTIONNAME]!
@@ -915,6 +917,8 @@ Receiving Items:
 item_received_single,Ontving een~
 item_received_multiple,Ontving
 item_found,<Player.Name> vond~
+item_found_MoreThanMax_Single,Maar <Player.Name> heeft er~al teveel van!*<Player.Name> legde het~terug.
+item_found_MoreThanMax_Multiple,Maar <Player.Name> heeft er~al teveel van!*<Player.Name> legde ze~terug.
 currency_found_money,<Player.Name> vond $[AMOUNT]!
 currency_found_coins_single,<Player.Name> vond~een Munt!
 currency_found_coins_multiple,<Player.Name> vond~[AMOUNT] Munten!
