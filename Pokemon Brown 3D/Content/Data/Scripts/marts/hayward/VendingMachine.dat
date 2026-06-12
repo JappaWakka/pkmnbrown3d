@@ -24,11 +24,11 @@ version=2
 			@Text.Show(<system.token(Hayward_Main_VendingMachine_Buy_SodaPop)>)
 			@player.money(-300)
 			@sound.play(buy)
-			@Item.Give(47,1)
-			@Item.MessageGive(47,1)
+			@Item.Give(gm101,1)
+			@Item.MessageGive(gm101,1)
 			:if:<system.random(1,32)>=11
 				@Text.Show(<system.token(Hayward_Main_VendingMachine_Extra_SodaPop)>)
-				@Item.Give(47,1)
+				@Item.Give(gm101,1)
 			:endif
 		:endif
 		:end
@@ -39,11 +39,11 @@ version=2
 			@Text.Show(<system.token(Hayward_Main_VendingMachine_Buy_Lemonade)>)
 			@player.money(-350)
 			@sound.play(buy)
-			@Item.Give(48,1)
-			@Item.MessageGive(48,1)
+			@Item.Give(gm102,1)
+			@Item.MessageGive(gm102,1)
 			:if:<system.random(1,32)>=11
 				@Text.Show(<system.token(Hayward_Main_VendingMachine_Extra_Lemonade)>)
-				@Item.Give(48,1)
+				@Item.Give(gm102,1)
 			:endif
 		:endif
 		:end

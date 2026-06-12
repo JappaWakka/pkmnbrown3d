@@ -2792,6 +2792,8 @@ item_name_gm97,Shiny Stone
 item_name_gm98,Dusk Stone
 item_name_gm99,Hyper Potion
 item_name_gm100,Super Potion
+item_name_gm101,Soda Pop
+item_name_gm102,Lemonade
 
 [GameMode Item Plural Names]
 item_pluralname_gm1,Trade Stones
@@ -2826,6 +2828,8 @@ item_pluralname_gm97,Shiny Stones
 item_pluralname_gm98,Dusk Stones
 item_pluralname_gm99,Hyper Potions
 item_pluralname_gm100,Super Potions
+item_pluralname_gm101,Soda Pops
+item_pluralname_gm102,Lemonades
 ----
 Item Descriptions:
 [Official Items]
@@ -2871,8 +2875,8 @@ item_desc_41,Bilet na statek wycieczkowy Święta Anna. Na nim jest rysunek stat
 item_desc_42,An item that prevents any low-level wild Pokémon from jumping out at you for 200 steps after its use.
 item_desc_43,An item that prevents any low-level wild Pokémon from jumping out at you for 250 steps after its use.
 item_desc_44,An item that raises the critical-hit ratio greatly. It can be used only once and wears off if the Pokémon is withdrawn.
-item_desc_47,A highly carbonated soda drink. When consumed, it restores 60 HP to an injured Pokémon.
-item_desc_48,A very sweet and refreshing drink. When consumed, it restores 80 HP to an injured Pokémon.
+item_desc_47,A highly carbonated soda drink. When consumed, it restores 50 HP to an injured Pokémon.
+item_desc_48,A very sweet and refreshing drink. When consumed, it restores 70 HP to an injured Pokémon.
 item_desc_49,An item that boosts the Attack stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
 item_desc_50,An item that boosts the Sp. Def stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
 item_desc_51,An item that boosts the Defense stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
@@ -2955,6 +2959,8 @@ item_desc_gm97,A peculiar stone that makes certain species of Pokémon evolve. I
 item_desc_gm98,A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.
 item_desc_gm99,A spray-type medicine for treating wounds. It can be used to restore 200 HP to an injured Pokémon.
 item_desc_gm100,A spray-type medicine for treating wounds. It can be used to restore 50 HP to an injured Pokémon.
+item_desc_gm101,A highly carbonated soda drink. When consumed, it restores 60 HP to an injured Pokémon.
+item_desc_gm102,A very sweet and refreshing drink. When consumed, it restores 80 HP to an injured Pokémon.
 ----
 Item Use Text:
 item_UsedLastItem,There are no~[ITEMPLURALNAME] left.
