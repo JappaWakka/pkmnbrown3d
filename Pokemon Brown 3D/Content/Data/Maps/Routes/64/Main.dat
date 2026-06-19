@@ -331,8 +331,6 @@ Items:
 
 Offsets:
 	{"OffsetMap"{MAP[{"Offset"{sngArr[44,-8]}}{"Map"{str[Hayward\Main.dat]}}]}}
-
-	{"OffsetMap"{MAP[{"Offset"{sngArr[54,-44]}}{"Map"{str[Routes\51\Main.dat]}}]}}
 	
 	{"OffsetMap"{MAP[{"Offset"{sngArr[52,30]}}{"Map"{str[Routes\52\Main.dat]}}]}}
 
@@ -342,9 +340,6 @@ Backdrops:
 	Hayward City
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[81.5,-0.75,-3.5]}}{"Size"{intArr[1,1]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		
-	Route 51
-		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[40.5,-0.75,-62.5]}}{"Size"{intArr[32,15]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
-	
 	Route 52
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[-14.5,-0.75,29.5]}}{"Size"{intArr[57,66]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
 		{"Backdrop"{BAC[{"Trigger"{str[Offset]}}{"Position"{sngArr[40.5,-0.75,27.5]}}{"Size"{intArr[2,2]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Outside]}}{"Texture"{rec[144,32,16,16]}}]}}
