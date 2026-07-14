@@ -42,6 +42,16 @@ Version=2
 	:endwhen
 :endwhile
 @Text.Show(<system.token(DifficultySelect_End)>)
+
+@Text.Show(<system.token(DisableAbilities_Question)>)
+@Options.SetCancelIndex(0)
+@Options.Show(<system.token(DisableAbilities_Answer_With)>,<system.token(DisableAbilities_Answer_Without)>)
+	:when:<system.token(DisableAbilities_Answer_With)>
+		@Player.DisableAbilities(0)
+	:when:<system.token(DisableAbilities_Answer_Without)>
+		@Player.DisableAbilities(1)
+:endwhen
+
 @Screen.FadeOutColor(255,255,255)
 @Screen.FadeIn(20)
 @camera.update
