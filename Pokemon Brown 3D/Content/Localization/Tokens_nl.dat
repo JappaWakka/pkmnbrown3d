@@ -103,7 +103,7 @@ global_PAR,Verlamd
 Pokémon & Attack Properties:
 
 property_HP,LP
-property_PP,KP
+property_PP,AP
 property_No.,Nr.
 property_Lv.,Nv.
 property_Level,Niveau
@@ -2839,7 +2839,7 @@ item_name_40,Max-Opwekker
 item_name_46,Vers Water
 item_name_47,Frisdrank
 item_name_48,Limonade
-item_name_62,KP-Plus
+item_name_62,AP-Plus
 item_name_63,Ether
 item_name_64,Max-Ether
 item_name_65,Elixer
@@ -2854,7 +2854,7 @@ item_name_152,Pewter~Krokantjes
 item_name_156,Heilige As
 item_name_266,Fanta
 item_name_501,Schitterend~Snoepje
-item_name_502,KP-Max
+item_name_502,AP-Max
 
 Medicine (Plural):
 item_pluralname_7,Lavakoekjes
@@ -2876,7 +2876,7 @@ item_pluralname_40,Max-Opwekkers
 item_pluralname_46,Vers~Watertjes
 item_pluralname_47,Frisdranken
 item_pluralname_48,Limonades
-item_pluralname_62,KP-Plussen
+item_pluralname_62,AP-Plussen
 item_pluralname_63,Ethers
 item_pluralname_64,Max-Ethers
 item_pluralname_65,Elixers
@@ -2891,7 +2891,7 @@ item_pluralname_152,Pewter~Krokantjes
 item_pluralname_156,Heilige Assen
 item_pluralname_266,Fantas
 item_pluralname_501,Schitterende~Snoepjes
-item_pluralname_502,KP-Maxen
+item_pluralname_502,AP-Maxen
 
 Berries:
 item_name_2000,Cheri
@@ -3750,7 +3750,7 @@ item_desc_17,Een spray-medicijn voor het behandelen van wonden. Hij kan worden g
 item_desc_18,Een spray-medicijn voor het behandelen van wonden. Hij kan worden gebruikt om 20 LP te herstellen bij een gewonde Pokémon.
 item_desc_19,Een lang en duurzaam touw. Gebruik hem om direct te ontsnappen uit een grot of gevaarlijke plek.
 item_desc_20,Een voorwerp dat voorkomt dat wilde Pokémon van een laag niveau opduiken gedurende 100 stappen na gebruik.
-item_desc_21,Dit medicijn kan de KP van alle aanvallen die een Pokémon heeft geleerd volledig herstellen.
+item_desc_21,Dit medicijn kan de AP van alle aanvallen die een Pokémon heeft geleerd volledig herstellen.
 item_desc_22,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. De steen heeft een vurige oranje kern.
 item_desc_23,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. Hij heeft een duidelijk bliksempatroon.
 item_desc_24,Een eigenaardige steen die bepaalde soorten Pokémon kan laten evolueren. Hij is blauw als helder zwembadwater.
@@ -3783,10 +3783,10 @@ item_desc_55,Het spoort onzichtbare items in de omgeving op en maakt geluid en l
 item_desc_58,Een oude en versleten hengel. Gebruik hem bij elk wateroppervlak om wilde water-Pokémon te vangen.
 item_desc_59,Een nieuwe hengel van goede kwaliteit. Gebruik hem bij elk wateroppervlak om wilde water-Pokémon te vangen.
 item_desc_61,Een geweldige, high-tech hengel. Gebruik hem bij elk wateroppervlak om wilde water-Pokémon te vangen.
-item_desc_62,Een medicijn dat de maximale KP van een enkele aanval die het doel-Pokémon heeft geleerd licht kan verhogen.
-item_desc_63,Dit medicijn kan 10 KP herstellen van één geselecteerde aanval die een Pokémon heeft geleerd.
-item_desc_64,Dit medicijn kan de KP van één geselecteerde aanval die een Pokémon heeft geleerd volledig herstellen.
-item_desc_65,Dit medicijn kan 10 KP herstellen van elke aanval die een Pokémon heeft geleerd.
+item_desc_62,Een medicijn dat de maximale AP van een enkele aanval die het doel-Pokémon heeft geleerd licht kan verhogen.
+item_desc_63,Dit medicijn kan 10 AP herstellen van één geselecteerde aanval die een Pokémon heeft geleerd.
+item_desc_64,Dit medicijn kan de AP van één geselecteerde aanval die een Pokémon heeft geleerd volledig herstellen.
+item_desc_65,Dit medicijn kan 10 AP herstellen van elke aanval die een Pokémon heeft geleerd.
 item_desc_68,Een voorwerp dat voorkomt dat de attributen van Pokémon in het team van de Trainer worden verlaagd gedurende vijf beurten na gebruik in een gevecht.
 item_desc_75,Een vreemd, goudkleurig blad.
 item_desc_78,Een nieuw paar schoenen om je sneller te laten rennen.
@@ -4791,7 +4791,7 @@ move_desc_161,De gebruiker slaat toe met een gelijktijdige aanval met drie stral
 move_desc_162,De gebruiker beukt hard op het doelwit met zijn scherpe voortanden. Het halveert de LP van het doelwit.
 move_desc_163,Het doelwit wordt aangevallen met een slag van klauwen of messen. Kritieke treffers komen gemakkelijker aan.
 move_desc_164,De gebruiker maakt een kopie van zichzelf met behulp van een deel van zijn LP. De kopie dient als afleiding voor de gebruiker.
-move_desc_165,Een wanhoopsaanval die alleen wordt gebruikt als de gebruiker geen KP heeft. Het doet de gebruiker ook een beetje pijn.
+move_desc_165,Een wanhoopsaanval die alleen wordt gebruikt als de gebruiker geen AP heeft. Het doet de gebruiker ook een beetje pijn.
 
 move_desc_167,Een opeenvolgende aanval met drie schoppen die krachtiger wordt bij elke opeenvolgende treffer.
 
@@ -5162,7 +5162,7 @@ ability_desc_42,Voorkomt dat Staal-Pokémon kunnen ontsnappen.
 ability_desc_43,Geeft volledige immuniteit tegen geluid-gebaseerde aanvallen.
 ability_desc_44,De Pokémon herstelt geleidelijk LP in regen.
 ability_desc_45,De Pokémon roept een zandstorm op tijdens het gevecht.
-ability_desc_46,De Pokémon verhoogt het KP-verbruik van de tegenstander.
+ability_desc_46,De Pokémon verhoogt het AP-verbruik van de tegenstander.
 ability_desc_47,Verhoogt weerstand tegen Vuur- en IJs-aanvallen.
 ability_desc_48,De Pokémon wordt snel wakker wanneer hij in slaap is.
 ability_desc_49,Contact met de Pokémon kan de aanvaller verbranden.
