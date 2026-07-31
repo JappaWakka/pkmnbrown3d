@@ -5,6 +5,12 @@ version=2
 
 @entity.warp(2,~,-2.5,~)
 @entity.warp(3,~,0.5,~)
+@level.update
+
+@camera.ActivateThirdPerson
+@Camera.SetToPlayerFacing
+@Camera.Update
+
 @player.stopmovement
 @Player.SetSpeed(1.35)
 @player.move(2)
@@ -12,9 +18,6 @@ version=2
 @entity.warp(3,~,-2.5,~)
 @entity.warp(2,~,0.5,~)
 @Level.Update
-
-@camera.ActivateThirdPerson
-@Camera.SetToPlayerFacing
 
 :if:<player.position(x)>=4
 	@player.move(4)
@@ -74,46 +77,49 @@ version=2
 	@level.update
 	@Text.Show(<system.token(League_Champion_Mura_AfterDefeat2)>)
 	@player.TurnTo(2,1)
-	@npc.move(1,4)
 	@npc.turn(2,2)
+	@npc.move(1,4)
 	@Player.TurnTo(2)
 	@Text.Show(<system.token(League_Champion_Mura_AfterDefeat3)>)
+	@NPC.Turn(2,1)
+	@Player.TurnTo(3)
+	@text.show(<system.token(League_Champion_Mura_AfterDefeat4)>)
+	@NPC.Turn(2,2)
+	@Player.TurnTo(2)
+	@text.show(<system.token(League_Champion_Mura_AfterDefeat5)>)
+	@NPC.Move(2,5)
+	@Sound.Play(Warp_Exit)
+	@NPC.Remove(2)
+	@Level.Wait(50)
+	@Sound.Play(Warp_Exit)
 	@npc.spawn(5,0,9,0,,Alexis,0,0,Reporter Alexis,3,Still)
 	@npc.SetSpeed(3,1.2)
 	@NPC.Move(3,4)
-	@npc.turn(1,3)
-	@npc.turn(2,2)
+	@NPC.Turn(3,1)
 	@npc.turn(1,3)
 	@player.TurnTo(3)
-	@text.show(<system.token(League_Champion_Mura_AfterDefeat4)>)
-	@npc.turn(3,1)
-	@text.show(<system.token(League_Champion_Mura_AfterDefeat5)>)
-	@npc.turn(1,0)
-	@player.TurnTo(2)
 	@text.show(<system.token(League_Champion_Mura_AfterDefeat6)>)
-	@npc.turn(2,1)
-	@npc.turn(1,3)
+	@NPC.Turn(3,0)
+	@npc.SetSpeed(3,1.2)
+	@NPC.Move(3,1)
+	@NPC.Turn(3,1)
 	@text.show(<system.token(League_Champion_Mura_AfterDefeat7)>)
 	@npc.turn(1,0)
+	@player.TurnTo(2)
 	@text.show(<system.token(League_Champion_Mura_AfterDefeat8)>)
 	#Tim Turns Right
 	@npc.turn(1,3)
-	
-	#Alexis moves out of the way
-	@NPC.Turn(3,2)
-	@npc.SetSpeed(3,1.35)
-	@NPC.Move(3,1)
-	@NPC.Turn(3,0)
-	
-	#Tim moves past Alexis
+		
+	#Tim moves until he reaches Alexis
 	@npc.SetSpeed(1,1.35)
 	@npc.move(1,1)
 	@npc.turn(1,0)
 	
-	#Mura moves out of the way
-	@npc.turn(2,3)
-	@npc.SetSpeed(2,1.35)
-	@npc.move(2,1)
+	#Alexis moves out of the way
+	@NPC.Turn(3,3)
+	@npc.SetSpeed(3,1.35)
+	@NPC.Move(3,1)
+	@NPC.Turn(3,1)
 	
 	#Tim moves next to the player
 	@npc.SetSpeed(1,1.35)
