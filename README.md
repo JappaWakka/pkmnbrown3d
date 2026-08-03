@@ -9,13 +9,13 @@ My name is [JappaWakka](https://github.com/JappaWakka), and I'm the main develop
 
 ### How to install
 
-## Automatic installation
+#### Automatic installation
 
 1.	Download the Brown3DInstaller.exe file from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest)
 2.	Open the executable and follow the instructions to install the game, and optionally the Music Replacement ContentPack.
 3.	Be sure to copy over your old "Save" folder to where you installed the new version of the game if you've played Pokémon Brown 3D before.
 
-## Manual installation
+#### Manual installation
 
 1. Download Pokémon 3D v0.61.2 or higher [here](https://pokemon3d.net/download).
 2. Extract the zip using WinRAR or 7zip to a location of your choice.
@@ -29,12 +29,12 @@ My name is [JappaWakka](https://github.com/JappaWakka), and I'm the main develop
 
 ### How to update
 
-## Automatic update
+#### Automatic update
 1.	Download the Brown3DInstaller.exe file from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest)
 2.	Open the executable and follow the instructions to update the game, and optionally also install the Music Replacement ContentPack.
 3.	Be sure to copy over your old "Save" folder to where you installed the new version of the game if you've played Pokémon Brown 3D before.
 
-## Manual update
+#### Manual update
 1. Download the Pokémon Brown 3D GameMode from [here](https://github.com/JappaWakka/pkmnbrown3d/releases/latest). **Note: You don't need to download the "Source code" zips!!!!**
 2. Open the Brown 3D zip file and extract the folder called Pokemon Brown 3D into the "GameModes" folder inside the Pokémon 3D folder (the path would be Pokemon 3D\GameModes\Pokemon Brown 3D)
 3. Once the Pokemon Brown 3D folder is in the GameModes folder and everything is updated, you can launch the game by executing Pokemon3D.exe and continue your save by selecting it in the Main Menu.
