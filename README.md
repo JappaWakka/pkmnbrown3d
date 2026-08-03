@@ -1,7 +1,7 @@
 # Pokémon Brown 3D
 3D Remake of the romhack Pokemon Brown (by [RainbowDevs](https://rainbowdevs.com/Brown)) using the [Pokémon 3D](https://pokemon3d.net) engine. 
 
-![Seashore City](https://github.com/user-attachments/assets/bf42dcdb-91af-44ad-8235-a61df0556f8c)
+![Seashore City](https://github.com/user-attachments/assets/f16144a5-cb74-4d9f-9a07-84451a61aaab)
 
 **Hello there, folks!**
 
@@ -70,7 +70,7 @@ If your issue has not been reported, please create a new one. Please include wha
 * If the first person movement disorients you at first, you can press F5 to switch to a third person perspective, which allows you to move in all 4 directions with W, A, S, and D.
 
 ## History
-![Merson Cave 1F](https://github.com/user-attachments/assets/a3194707-bf56-4fb0-b48b-9bf896c89cc3)
+![Merson Cave 1F](https://github.com/user-attachments/assets/c50dcd97-0de2-410c-bf47-9a0aa049fda7)
 Since roughly 4 years (probably longer) I've been in the development team for the fangame [Pokémon 3D](https://pokemon3d.net/) as a programmer.
 The main "selling point" of Pokémon 3D (in my opinion) is the ability to see the world from the player's perspective in first person.
 
