@@ -14,7 +14,7 @@ version=2
 				@Storage.Set(str,ReceiveMessage,<system.token(Gravel_StephanieHouse_ReceiveASwapPokemon)>)
 			:endif
 			
-			@pokemon.npctrade(1,2,3,4,5,6,7,8,9|<storage.get(int,PokemonID)>|5|-1||<register.value(Shiny_StephanieSwap_NormalBall)>|<Player.OT>|Stephanie|5||<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>|<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>|||<system.token(Gravel_StephanieHouse_ChooseBall_WrongPokemon)>|StephanieCorrectPokemon|<storage.get(str,ReceiveMessage)>)
+			@pokemon.npctrade(1,2,3,4,5,6,7,8,9|<storage.get(int,PokemonID)>|<Register.Value(StarterLevelAfterFirstBattle)>|-1||<register.value(Shiny_StephanieSwap_NormalBall)>|<Player.OT>|Stephanie|5||<system.token(Gravel_StephanieHouse_SwapPokemon_CatchLocation)>|<system.token(Gravel_StephanieHouse_SwapPokemon_CatchMethod)>|||<system.token(Gravel_StephanieHouse_ChooseBall_WrongPokemon)>|StephanieCorrectPokemon|<storage.get(str,ReceiveMessage)>)
 			
 			:if:<Register.Registered(StephanieCorrectPokemon)>=true
 				@pokemon.SetCatchTrainer(<pokemon.count>-1,<Player.Name>)

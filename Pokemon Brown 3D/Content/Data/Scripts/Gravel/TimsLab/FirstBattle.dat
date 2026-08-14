@@ -63,6 +63,7 @@ version=2
 	@npc.remove(4)
 	@npc.register(TimsLab.dat|4|remove)
 	@Register.Register(muralabbattle)
+	@Register.Register(StarterLevelAfterFirstBattle,int,<Pokemon.Level(0)>)
 	@register.unregister(tim2)
 	@Register.Register(tim3)
 	@Register.Register(muragone)

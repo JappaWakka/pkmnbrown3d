@@ -23,6 +23,55 @@ version=2
 		:endif
 	:endif
 	@Register.Register(StephanieShinyCalculation)
+
+	:if:<Register.Registered(StarterLevelAfterFirstBattle)>=true
+		@Storage.Set(bool,CheckForStarter,false)
+		@Storage.Set(int,PartyIndex,0)
+		:while:<storage.get(bool,CheckForStarter)>=false
+			:if:<System.Contains(1;2;3;4;5;6;7;8;9,<Pokemon.Number(0)>)>
+					@Storage.Set(bool,CheckForStarter,true)
+			:else
+				:if:<storage.get(int,PartyIndex)><<Pokemon.Count>-1
+					@Storage.Set(int,PartyIndex,<storage.get(int,PartyIndex)>+1)
+				:else
+					@Storage.Set(int,PartyIndex,-1)
+					@Storage.Set(bool,CheckForStarter,true)
+				:endif
+			:endif
+		:endwhile
+		:if:<not><storage.get(int,PartyIndex)>=-1
+			:if:<not><Pokemon.Level(<storage.get(int,PartyIndex)>)>=<Register.Value(StarterLevelAfterFirstBattle)>
+				@Register.Unregister(StarterLevelAfterFirstBattle,int)
+				:if:<Pokemon.Level(<storage.get(int,PartyIndex)>)><6			
+					@Register.Register(StarterLevelAfterFirstBattle,int,<Pokemon.Level(<storage.get(int,PartyIndex)>)>)
+				:else
+					@Register.Register(StarterLevelAfterFirstBattle,int,6)
+				:endif
+			:endif
+		:endif
+	:else
+		@Storage.Set(bool,CheckForStarter,false)
+		@Storage.Set(int,PartyIndex,0)
+		:while:<storage.get(bool,CheckForStarter)>=false
+			:if:<System.Contains(1;2;3;4;5;6;7;8;9,<Pokemon.Number(0)>)>
+					@Storage.Set(bool,CheckForStarter,true)
+			:else
+				:if:<storage.get(int,PartyIndex)><<Pokemon.Count>-1
+					@Storage.Set(int,PartyIndex,<storage.get(int,PartyIndex)>+1)
+				:else
+					@Storage.Set(int,PartyIndex,-1)
+					@Storage.Set(bool,CheckForStarter,true)
+				:endif
+			:endif
+		:endwhile
+		:if:<not><storage.get(int,PartyIndex)>=-1
+			:if:<Pokemon.Level(<storage.get(int,PartyIndex)>)><6			
+				@Register.Register(StarterLevelAfterFirstBattle,int,<Pokemon.Level(<storage.get(int,PartyIndex)>)>)
+			:else
+				@Register.Register(StarterLevelAfterFirstBattle,int,6)
+			:endif
+		:endif
+	:endif
 :endif
 
 :end
