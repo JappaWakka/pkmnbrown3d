@@ -1,9 +1,10 @@
 #The default GameMode cannot load additional items, however all other GameModes can.
-#Here's a list of all properties that can be set: "ID", "Name", "PluralName", "Description", "Type", "TextureIndex", "CanBeUsed", "CanBeUsedInBattle", "CanBeHeld", "UseOnPokemonInBattle", "BattleUseSound", "CanBeTossed", "CanBeTraded", "Price", "BattlePointsPrice", "CatchMultiplier", "MaxStack", "FlingDamage", "HealHPAmount", "OwnEffects", "OpponentEffects" "EvolutionPokemon", "Script", "IsHM", "TeachMove", "CanAlwaysTeach", "CanTeachWhenFullyEvolved", "CanTeachWhenGendered", "IsMail"
+#Here's a list of all properties that can be set: "ID", "Name", "PluralName", "Description", "Type", "TextureIndex", "CanBeUsed", "CanBeUsedInBattle", "CanBeHeld", "UseOnPokemonInBattle", "BattleUseSound", "CanBeTossed", "CanBeTraded", "Price", "BattlePointsPrice", "CatchMultiplier", "MaxStack", "FlingDamage", "HealHPAmount", "OwnEffects", "OpponentEffects", "PreventEffectsIf", "EvolutionPokemon", "Script", "IsHM", "TeachMove", "CanAlwaysTeach", "CanTeachWhenFullyEvolved", "CanTeachWhenGendered", "IsMail"
 
 #Available values for "Type": "Standard", "Medicine", "Plants", "Balls" or "PokeBalls", "Machines", "KeyItems", "Mail", "BattleItems"
 #Available values for "OwnEffects", multiple values can be added separated by a comma: "BRN", "FRZ", "PRZ", "PSN", "BPSN", "SLP", "FNT", "Confusion", "AllStatus", "AllStatusAndFNT", "Heal"
 #Available values for "OpponentEffects", multiple values can be added separated by a comma: "BRN", "FRZ", "PRZ", "PSN", "BPSN", "SLP", "Confusion", "AllStatus", "Heal"
+#Available values for "PreventEffectsIf" are "Ability,ID" where ID is the Ability ID (integer) & "Type,Name" where Name is the Type's name. Multiple Ability IDs and Types can be added separated by a semicolon (;)
 #BattleUseSound consists of the path to the sound (Relative to Sounds\) and optionally after a comma a boolean for if the music should be paused until the sound is over (Defaults to 0/false if no second value is added).
 #EvolutionPokemon can contain multiple Pokemon numbers, separated by a comma (,)
 
@@ -19,6 +20,7 @@ CanBeTossed|0
 CanBeTraded|0
 CanBeHeld|0
 MaxStack|1
+PreventEffectsIf|Ability;43
 OwnEffects|SLP
 OpponentEffects|SLP
 Script|Items\PokeFlute
