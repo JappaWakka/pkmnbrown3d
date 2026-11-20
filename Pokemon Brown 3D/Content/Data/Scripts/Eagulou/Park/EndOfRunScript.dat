@@ -2,7 +2,7 @@ version=2
 @sound.play(EagulouParkBell)
 @Text.Show(<system.token(Eagulou_Park_TimeIsUp)>)
 @screen.fadeout(15)
-@player.warp(Eagulou\Park\gate.dat,4,0.1,0)
+@player.warp(Eagulou\Park\Gate.dat,4,0.1,0)
 @player.turnto(2)
 @level.update
 @screen.fadein(15)
