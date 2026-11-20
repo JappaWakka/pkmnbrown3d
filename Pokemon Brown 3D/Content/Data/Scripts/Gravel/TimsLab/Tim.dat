@@ -94,9 +94,14 @@ version=2
 	:end
 :endif
 
-:if:<Register.Registered(tim5)>=true
-	@Text.Show(<system.token(Gravel_TimsLab_Tim_ComeSeeMeSometimes)>)
-	:end
+:if:<Player.HasBadge(0)>=false
+	:if:<Register.Registered(tim5)>=true
+		@Text.Show(<system.token(Gravel_TimsLab_Tim_ComeSeeMeSometimes)>)
+		:end
+	:endif
+:else
+	@register.unregister(tim5)
+	@Register.Register(tim6)
 :endif
 
 :if:<Register.Registered(tim6)>=true
