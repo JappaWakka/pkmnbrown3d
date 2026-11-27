@@ -24,6 +24,9 @@ version=2
 :endif
 
 @Entity.Remove(0)
+@Register.Register(SeenPhancero)
+@Pokedex.ChangeEntry(1011,2)
+@Register.Register(HasNotGivenFeatherYet)
 @player.save
 @level.waitforsave
 @sound.play(Save)
@@ -32,7 +35,6 @@ version=2
 @Camera.SetToPlayerFacing
 @Screen.FadeIn(15)
 @Camera.Update
-
 @Text.Show(<system.token(FinalDungeon_FinalCave_Feather_1)>)
 @Sound.Play(Receive_Item,1)
 @Text.Color(Player)
@@ -41,6 +43,5 @@ version=2
 @Text.Show(<system.token(FinalDungeon_FinalCave_Feather_3)>)
 @Item.Give(gm95,1)
 
-@Register.Register(SeenPhancero)
-@Pokedex.ChangeEntry(1011,2)
+@Register.Unregister(HasNotGivenFeatherYet)
 :end

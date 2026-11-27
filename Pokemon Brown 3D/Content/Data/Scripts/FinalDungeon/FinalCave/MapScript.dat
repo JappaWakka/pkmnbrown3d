@@ -15,6 +15,17 @@ version=2
 	
 :else
 	@entity.remove(0)
+	:if:<Register.Registered(HasNotGivenFeatherYet)>=true
+		@Text.Show(<system.token(FinalDungeon_FinalCave_Feather_1)>)
+		@Sound.Play(Receive_Item,1)
+		@Text.Color(Player)
+		@Text.Show(<system.token(FinalDungeon_FinalCave_Feather_2)>)
+		@Text.Color(Default)
+		@Text.Show(<system.token(FinalDungeon_FinalCave_Feather_3)>)
+		@Item.Give(gm95,1)
+		
+		@Register.Unregister(HasNotGivenFeatherYet)
+	:endif
 :endif
 
 :end

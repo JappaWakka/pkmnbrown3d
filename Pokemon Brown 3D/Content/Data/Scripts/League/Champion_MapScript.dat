@@ -91,6 +91,7 @@ version=2
 	@Sound.Play(Warp_Exit)
 	@NPC.Remove(2)
 	@Level.Wait(50)
+	@Music.Play(Casino)
 	@Sound.Play(Warp_Exit)
 	@npc.spawn(5,0,9,0,,Alexis,0,0,Reporter Alexis,3,Still)
 	@npc.SetSpeed(3,1.2)
@@ -107,6 +108,7 @@ version=2
 	@npc.turn(1,0)
 	@player.TurnTo(2)
 	@text.show(<system.token(League_Champion_Mura_AfterDefeat8)>)
+	@Music.Play(HallOfFame)
 	#Tim Turns Right
 	@npc.turn(1,3)
 		
